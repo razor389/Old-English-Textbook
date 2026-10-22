@@ -1,0 +1,12 @@
+*.md text eol=lf
+*.json text eol=lf
+*.jsonl text eol=lf
+*.txt text eol=lf
+*.tex text eol=lf
+*.yaml text eol=lf
+*.ps1 text eol=lf
+*.pdf binary
+*.png binary
+
+# Preserve exact historical bytes recorded in PROVENANCE.json.
+reference/previous-course/** -text

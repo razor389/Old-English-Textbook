@@ -1,0 +1,6 @@
+# Local single-writer editorial tracker; see docs/WORKFLOW.md.
+# Export explicitly before Git checkpoints; no automatic staging or remote push.
+export.auto: false
+export.git-add: false
+dolt.auto-commit: "on"
+dolt.auto-push: false

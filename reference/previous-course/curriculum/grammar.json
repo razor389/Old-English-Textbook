@@ -1,0 +1,564 @@
+{
+  "schema_version": 1,
+  "status": "Chapters 1–2 linguistically reviewed; supplied constructions have no teaching milestone",
+  "reviewed_chapters": [
+    "ch01",
+    "ch02"
+  ],
+  "features": [
+    {
+      "feature_id": "noun-gender",
+      "description": "Use verified lexical gender rather than infer it from natural sex or English meaning.",
+      "prerequisite_feature_ids": [],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "cook_fb_1895_2 §38 p26/PDF42"
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md"
+    },
+    {
+      "feature_id": "nom-sg-definite-phrase",
+      "description": "Form the explicitly requested nominative singular noun phrase with se masculine, sēo feminine, ðæt neuter and taught nominative noun.",
+      "prerequisite_feature_ids": [
+        "noun-gender"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "cook_fb_1895_2 §84 p50/PDF66; se is unmarked, sē emphatic",
+        "cook_fb_1895_2 §40 p27/PDF43"
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md"
+    },
+    {
+      "feature_id": "noun-phrase-coordination-and",
+      "description": "Join two definite noun phrases with and; each article agrees independently with its own noun.",
+      "prerequisite_feature_ids": [
+        "nom-sg-definite-phrase"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "cook_fb_1895_2 vocabulary and p275/PDF291",
+        "cook_ex_1895 I.1.1–16 p1/PDF9; editorial nominative instruction makes standalone phrase target explicit"
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md"
+    },
+    {
+      "feature_id": "nominative-subject-recognition",
+      "description": "Recognize sēo eorðe as nominative singular subject of the supplied finite verb wæs.",
+      "prerequisite_feature_ids": [
+        "nom-sg-definite-phrase"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": null,
+      "supplied_in": [],
+      "knowledge_status": "new_recognition",
+      "evidence_refs": [
+        "cook_fb_1895_2 §149 p88/PDF104",
+        "cook_fb_1895_2 Reader I p123/PDF139"
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md"
+    },
+    {
+      "feature_id": "darkness-plural-chunk",
+      "description": "Produce the individually taught plural phrase ðā ðīestru; teach ðā nominative plural article, but no general noun plural paradigm.",
+      "prerequisite_feature_ids": [
+        "noun-gender"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "cook_fb_1895_2 §84 p50/PDF66",
+        "cook_fb_1895_2 Reader I p123/PDF139 n7 says plural; exact lexical evidence from lexical_checker"
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md"
+    },
+    {
+      "feature_id": "supplied-was-predicate",
+      "description": "Understand supplied wæs plus supplied predicate adjectives; no verb conjugation or adjective inflection production milestone.",
+      "prerequisite_feature_ids": [
+        "nominative-subject-recognition"
+      ],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ],
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "cook_fb_1895_2 §138 pp78–79/PDF94–95",
+        "cook_fb_1895_2 §150 p88/PDF104",
+        "cook_fb_1895_2 §57.3 p39/PDF55"
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md"
+    },
+    {
+      "feature_id": "letters-ae-eth-thorn",
+      "description": "Recognize æ, ð and þ. Cook generally uses ð for both th letters. Preserve source letters without adding a new pronunciation system.",
+      "prerequisite_feature_ids": [],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": null,
+      "supplied_in": [],
+      "knowledge_status": "new_recognition",
+      "evidence_refs": [
+        "cook_fb_1895_2 §§2–3 p5/PDF21; scan checked"
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md"
+    },
+    {
+      "feature_id": "vowel-length-mark",
+      "description": "A macron marks a long vowel or stands on the first element of a long diphthong; it is not an exercise stress mark. Copy it accurately.",
+      "prerequisite_feature_ids": [],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": null,
+      "supplied_in": [],
+      "knowledge_status": "new_recognition",
+      "evidence_refs": [
+        "cook_fb_1895_2 §4 p6/PDF22; scan checked"
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md"
+    },
+    {
+      "feature_id": "cook-e-ogonek",
+      "description": "Recognize and preserve Cook's ę as an e distinguished by its historical origin (usually from a); it is not a macron or case ending. Do not invent a special pronunciation contrast.",
+      "prerequisite_feature_ids": [],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": null,
+      "supplied_in": [],
+      "knowledge_status": "new_recognition",
+      "evidence_refs": [
+        "cook_fb_1895_2 §3 p5/PDF21; scan checked"
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md"
+    },
+    {
+      "feature_id": "nom-pl-definite-phrase",
+      "description": "Use the already taught ðā with the taught nominative plural nouns of all three genders.",
+      "prerequisite_feature_ids": [
+        "noun-gender",
+        "darkness-plural-chunk"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "50",
+          "pdf_page_1_based": 66,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=66",
+          "section": "84",
+          "image": "sources/analysis/ch01/fb-grammar-pdf66.png"
+        }
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    },
+    {
+      "feature_id": "strong-masculine-nom-pl-as",
+      "description": "Form the taught strong masculine nominative plurals in -as, including the selected æ/a alternations and syncopated stems.",
+      "prerequisite_feature_ids": [
+        "noun-gender"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "28",
+          "pdf_page_1_based": 44,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=44",
+          "section": "43; 43.2; 43.4",
+          "image": "sources/analysis/ch01/fb-grammar-pdf44.png"
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "29",
+          "pdf_page_1_based": 45,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=45",
+          "section": "43.4",
+          "image": "sources/analysis/ch02/fb-pdf45.png"
+        }
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    },
+    {
+      "feature_id": "strong-feminine-nom-pl-a",
+      "description": "Form the taught strong feminine nominative plurals in -a, with doubled ss in -nessa; acknowledge licensed -e alternatives.",
+      "prerequisite_feature_ids": [
+        "noun-gender"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "35",
+          "pdf_page_1_based": 51,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=51",
+          "section": "51.b",
+          "image": "sources/analysis/ch01-lexical/fb-pdf-51.png"
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "36",
+          "pdf_page_1_based": 52,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=52",
+          "section": "51.5; 52",
+          "image": "sources/analysis/ch01-lexical/fb-pdf-52.png"
+        }
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    },
+    {
+      "feature_id": "strong-neuter-nom-pl-zero",
+      "description": "Produce the taught unchanged neuter nominative plurals gēar, dēor, sǣd; number is not always marked by a distinct noun ending.",
+      "prerequisite_feature_ids": [
+        "noun-gender"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "32",
+          "pdf_page_1_based": 48,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=48",
+          "section": "47",
+          "image": "sources/analysis/ch01-lexical/fb-pdf-48.png"
+        }
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    },
+    {
+      "feature_id": "selected-neuter-nom-pl-u",
+      "description": "Produce trēowu, tācnu, ǣfenu, nīetenu from their explicitly taught stems; do not infer that every neuter adds -u.",
+      "prerequisite_feature_ids": [
+        "noun-gender"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "33",
+          "pdf_page_1_based": 49,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=49",
+          "section": "47.1, 3, 6, 7",
+          "image": "sources/analysis/ch02/fb-pdf49.png"
+        },
+        {
+          "source_id": "bt_online",
+          "url": "https://bosworthtoller.com/58972",
+          "entry_note": "explicit nominative tácnu",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    },
+    {
+      "feature_id": "selected-irregular-nom-pl",
+      "description": "Produce individually taught niht, męnn and sǣs without extending one pattern to every noun of the same gender.",
+      "prerequisite_feature_ids": [
+        "noun-gender"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "13",
+          "pdf_page_1_based": 29,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=29",
+          "section": "17",
+          "image": "sources/analysis/ch02/fb-pdf29.png"
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "31",
+          "pdf_page_1_based": 47,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=47",
+          "section": "46",
+          "image": "sources/analysis/ch01-lexical/fb-pdf-47.png"
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "36",
+          "pdf_page_1_based": 52,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=52",
+          "section": "51.5; 52",
+          "image": "sources/analysis/ch01-lexical/fb-pdf-52.png"
+        },
+        {
+          "source_id": "bt_online",
+          "url": "https://bosworthtoller.com/26140",
+          "entry_note": "sǽs",
+          "accessed": "2026-10-22"
+        },
+        {
+          "source_id": "bt_online",
+          "url": "https://bosworthtoller.com/23718",
+          "entry_note": "niht",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    },
+    {
+      "feature_id": "nominative-plural-subject-recognition",
+      "description": "Recognize ðā fuglas as the masculine nominative plural subject in the supported birds clause.",
+      "prerequisite_feature_ids": [
+        "nom-pl-definite-phrase",
+        "nominative-subject-recognition"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": null,
+      "supplied_in": [],
+      "knowledge_status": "new_recognition",
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "88",
+          "pdf_page_1_based": 104,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=104",
+          "section": "149",
+          "image": "sources/analysis/ch01/fb-grammar-pdf104.png"
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "126",
+          "pdf_page_1_based": 142,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=142",
+          "image": "sources/transcriptions/ch02/reader-pdf142-detail.png",
+          "original_identifier": "Reader I; birds blessing, printed lines12–13; notes19,21"
+        }
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    },
+    {
+      "feature_id": "supplied-optative-passive-be-multiplied",
+      "description": "Understand supplied bēon gemanigfielde as an optative passive expression: let ... be multiplied. No independent conjugation, mood-choice or participle-agreement milestone.",
+      "prerequisite_feature_ids": [
+        "nominative-plural-subject-recognition"
+      ],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ],
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "78",
+          "pdf_page_1_based": 94,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=94",
+          "section": "138",
+          "image": "sources/analysis/ch01/fb-grammar-pdf94.png"
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "103",
+          "pdf_page_1_based": 119,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=119",
+          "section": "193.a",
+          "image": "sources/transcriptions/ch02/fb-p103-grammar.png"
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "126",
+          "pdf_page_1_based": 142,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=142",
+          "image": "sources/transcriptions/ch02/reader-pdf142-detail.png",
+          "original_identifier": "Reader I; birds blessing, printed lines12–13; notes19,21"
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "293",
+          "pdf_page_1_based": 309,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=309",
+          "image": "sources/transcriptions/ch02/fb-p293-glossary.png",
+          "original_identifier": "Vocabulary, s.v. ge-manig-fieldan"
+        }
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    },
+    {
+      "feature_id": "supplied-ofer-eorthan-phrase",
+      "description": "Understand supplied ofer eorðan as over/across the earth. The oblique weak singular noun has accusative/dative syncretism; no unique case choice or preposition-government paradigm is asserted or tested.",
+      "prerequisite_feature_ids": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ],
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "37",
+          "pdf_page_1_based": 53,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=53",
+          "section": "53.1",
+          "image": "sources/analysis/ch01/fb-grammar-pdf53.png"
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "126",
+          "pdf_page_1_based": 142,
+          "scan_checked": true,
+          "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=142",
+          "image": "sources/transcriptions/ch02/reader-pdf142-detail.png",
+          "original_identifier": "Reader I; birds blessing, printed lines12–13; notes19,21"
+        },
+        {
+          "source_id": "bt_online",
+          "url": "https://bosworthtoller.com/24000",
+          "entry_note": "ofer spatial uses with dat/acc",
+          "accessed": "2026-10-22"
+        }
+      ],
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    },
+    {
+      "feature_id": "strong-neuter-weight-rule",
+      "description": "Explain the regular nominative plural -u/zero contrast for monosyllabic strong neuters using stem weight; distinguish it from less regular disyllables and the separate trēo/trēowu pattern.",
+      "prerequisite_feature_ids": [
+        "vowel-length-mark",
+        "strong-neuter-nom-pl-zero",
+        "selected-neuter-nom-pl-u"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": null,
+      "supplied_in": [],
+      "knowledge_status": "new_recognition",
+      "status": "reviewed",
+      "unresolved_notes": [],
+      "evidence_refs": [
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "32",
+          "pdf_page_1_based": 48,
+          "section": "47",
+          "image": "sources/analysis/ch01-lexical/fb-pdf-48.png",
+          "scan_checked": true
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "33",
+          "pdf_page_1_based": 49,
+          "section": "47.1, 3, 6, 7",
+          "image": "sources/analysis/ch02/fb-pdf49.png",
+          "scan_checked": true
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "printed_page": "6",
+          "pdf_page_1_based": 22,
+          "section": "4",
+          "image": "sources/analysis/ch01/fb-grammar-pdf22.png",
+          "scan_checked": true
+        },
+        {
+          "source_id": "rodriguez_ledesma_2022",
+          "section": "5, Neuter a-stems, opening three paragraphs",
+          "url": "https://doi.org/10.1017/S1360674321000435",
+          "evidence_note": "Traditional weight conditioning and variation in disyllabic neuters, including analogical -u with syncope in tacnu; not importing Northumbrian later endings into Cook’s selected prose."
+        }
+      ],
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md"
+    }
+  ]
+}

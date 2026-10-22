@@ -1,0 +1,90 @@
+{
+  "schema_version": 1,
+  "illustrative_only": true,
+  "chapter_id": "<chapter_id>",
+  "status": "planned",
+  "productive_outcomes": [
+    "<precise productive outcome>"
+  ],
+  "recognition_outcomes": [
+    "<precise recognition outcome>"
+  ],
+  "prerequisite_chapters": [],
+  "assigned_items": [
+    {
+      "item_id": "<stable item ID>",
+      "task_type": "scaffolded_production",
+      "origin": "exact_source",
+      "source_locator": {
+        "source_id": "<verified registry ID>",
+        "printed_page": "<verified page>",
+        "pdf_page_1_based": null,
+        "original_group": "<original group>",
+        "exercise_number": null,
+        "item_number": null,
+        "verified_span": "<exact span or null>"
+      },
+      "student_section": "<file and heading>",
+      "key_item_id": "<matching key entry ID>",
+      "changes": []
+    }
+  ],
+  "deferred_source_items": [
+    {
+      "source_item_id": "<audited but unassigned source item>",
+      "reason": "<dependency or workload reason>",
+      "proposed_chapter": null,
+      "resolved_by_assignment": null
+    }
+  ],
+  "excluded_source_items": [
+    {
+      "source_item_id": "<audited source item deliberately excluded>",
+      "reason": "<explicit editorial rationale>"
+    }
+  ],
+  "source_spans": [],
+  "requirements": [
+    {
+      "requirement_id": "<lexical requirement ID>",
+      "item_ids": [
+        "<stable item ID>"
+      ],
+      "kind": "lemma_sense_form",
+      "lemma_id": "<lemma ID>",
+      "sense_id": "<sense ID>",
+      "form_id": "<form ID>",
+      "feature_id": null,
+      "needed_for": "production",
+      "knowledge_status": "new_production",
+      "coverage_location": "<lesson file and teaching section>",
+      "supplied_in_task": false,
+      "evidence_refs": [
+        "<specific lexical or grammar source locator>"
+      ]
+    },
+    {
+      "requirement_id": "<grammar requirement ID>",
+      "item_ids": [
+        "<stable item ID>"
+      ],
+      "kind": "grammar",
+      "lemma_id": null,
+      "sense_id": null,
+      "form_id": null,
+      "feature_id": "<grammar feature ID>",
+      "needed_for": "recognition",
+      "knowledge_status": "supplied",
+      "coverage_location": "<reading note or supplied analysis>",
+      "supplied_in_task": true,
+      "evidence_refs": [
+        "<specific supporting reference>"
+      ]
+    }
+  ],
+  "key_item_ids": [
+    "<matching key entry ID>"
+  ],
+  "issues": [],
+  "review_status": "not_started"
+}

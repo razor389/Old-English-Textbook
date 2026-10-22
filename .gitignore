@@ -1,0 +1,19 @@
+# Re-downloadable source scans and local render products.
+/sources/cache/
+/reference/previous-course/sources/cache/
+**/build/
+*.aux
+*.log
+*.out
+*.toc
+*.fls
+*.fdb_latexmk
+__pycache__/
+
+# Beads generates its own database/runtime exclusions in .beads/.gitignore.
+# .beads/issues.jsonl is an explicit tracked issue export, not the live database.
+
+# Beads / Dolt files (added by bd init)
+.dolt/
+*.db
+.beads-credential-key

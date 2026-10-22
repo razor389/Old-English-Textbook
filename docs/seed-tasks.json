@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "purpose": "Seed-time task specification; Beads is authoritative for live state. Do not replay against an existing tracker.",
+  "issues": [
+    {
+      "id": "oec-seed",
+      "title": "Seed the fresh grammar-led course repository",
+      "type": "chore",
+      "priority": 1,
+      "status": "closed",
+      "owner_role": "coordinator",
+      "owned_paths": [
+        "repository seed"
+      ],
+      "depends_on": [],
+      "description": "Preserve the previous course as a provenance-marked evidence snapshot; install the new grammar-led instructions, plans, empty learning registers, templates, local scans, and Beads task graph. This task seeds the project only; it does not draft the new course.",
+      "acceptance": "Fresh repository at the requested sibling path; source snapshot hashes verified; active registers empty; no old one-to-one rule active; task dependencies and handoff checked; local initial commit saved."
+    },
+    {
+      "id": "oec-pilot",
+      "title": "Establish the new course and complete its first grammar unit",
+      "type": "epic",
+      "priority": 1,
+      "status": "open",
+      "owner_role": "coordinator",
+      "owned_paths": [],
+      "depends_on": [],
+      "description": "Develop the practical grammar-led Old English course agreed with the user. Complete the contents outline and Cook mapping, then one full opening unit with complete paradigms, all assigned source items, connected reading, key, independent review, PDFs, and reviewed cumulative milestones. Do not begin later chapter prose.",
+      "acceptance": "All child tasks complete; first unit satisfies its reconciled contract; both full PDFs inspected; active records and status accurate; local checkpoint saved."
+    },
+    {
+      "id": "oec-map",
+      "title": "Inventory Cook exercises for a grammar-led course map",
+      "type": "task",
+      "priority": 1,
+      "status": "open",
+      "owner_role": "source-editor",
+      "owned_paths": [
+        "sources/audits/course-map/"
+      ],
+      "depends_on": [],
+      "description": "Inspect the selected Exercises scan at exercise level to inventory original groups, numbered exercises, printed/PDF locators, broad grammatical demands, and relationships to the reader. Reuse the complete inherited item audits of Exercises 1–2. Preserve the distinction between exercise-level inspection and item-by-item verification. Propose allocation implications for full-paradigm units without inventing final chapter assignments. Return shared-map changes to the coordinator.",
+      "acceptance": "Exercise-level inventory and report with verified locators and explicit audit limits in the owned directory; no original set silently lost; mixed requirements identified; proposed mapping available for reconciliation.",
+      "parent": "oec-pilot"
+    },
+    {
+      "id": "oec-sequence",
+      "title": "Refine the full-paradigm course sequence",
+      "type": "task",
+      "priority": 1,
+      "status": "open",
+      "owner_role": "curriculum-analyst",
+      "owned_paths": [
+        "curriculum/proposals/sequence/"
+      ],
+      "depends_on": [],
+      "description": "Use the agreed policy and provisional COURSE_PLAN to propose a coherent practical course. Group whole declensions and clearly defined verbal paradigms with their ordinary syntactic uses, enough early verb teaching for connected readings, cumulative review, and unrestricted need-based vocabulary. Start from zero taught knowledge. Exercises 1–3 are a first-unit candidate; exact later source allocation awaits reconciliation. Do not draft learner chapters or change shared maps/registers.",
+      "acceptance": "Proposed contents with each unit's paradigm scope, syntactic prerequisites, reading progression, and explicit substantive open choices; distinction between agreed decisions and recommendations; no unearned prior teaching.",
+      "parent": "oec-pilot"
+    },
+    {
+      "id": "oec-source",
+      "title": "Audit remaining opening-unit source and reading material",
+      "type": "task",
+      "priority": 1,
+      "status": "open",
+      "owner_role": "source-editor",
+      "owned_paths": [
+        "sources/audits/unit01-source/"
+      ],
+      "depends_on": [],
+      "description": "Use the first-unit candidate in UNIT_01_BRIEF. Verify and transcribe all 18 items of Exercise 3 from the selected scan. Reuse verified Exercises 1–2 with precise archive references. Inspect contiguous Creation reading candidates and the source grammar needed for fuller paradigms and the copula. Record originals, exact locators, image evidence, normalization possibilities, and doubts. Do not assign final learner status, invent answers, or modify the archive.",
+      "acceptance": "Verified Exercise 3 transcription and evidence; clear reuse references for 1–2; contiguous reading candidates with exact boundaries and source evidence; ambiguous letters/forms/locators explicitly resolved or logged.",
+      "parent": "oec-pilot"
+    },
+    {
+      "id": "oec-reconcile",
+      "title": "Reconcile the course outline and Cook-to-unit mapping",
+      "type": "task",
+      "priority": 1,
+      "status": "open",
+      "owner_role": "coordinator",
+      "owned_paths": [
+        "curriculum/COURSE_PLAN.md",
+        "curriculum/COOK_MAP.md",
+        "curriculum/UNIT_01_BRIEF.md",
+        "STATUS.md"
+      ],
+      "depends_on": [
+        "oec-map",
+        "oec-sequence"
+      ],
+      "description": "Reconcile independent source mapping and curriculum proposals. Establish coherent whole-paradigm units, preserve source identifiers, and settle the opening unit scope. Record justified redistribution or deferral and areas still requiring item audit. Resolve routine choices from the policy; ask only about substantive changes to audience, fidelity, or intended scope.",
+      "acceptance": "Current course outline and mapping distinguish established scope from later provisional allocations; first-unit brief is concrete enough for dependency analysis; no stale one-exercise-per-chapter constraint.",
+      "parent": "oec-pilot"
+    },
+    {
+      "id": "oec-analyze",
+      "title": "Audit the first unit's full paradigms and learning dependencies",
+      "type": "task",
+      "priority": 1,
+      "status": "open",
+      "owner_role": "curriculum-linguistic-analyst",
+      "owned_paths": [
+        "sources/analysis/unit01/"
+      ],
+      "depends_on": [
+        "oec-reconcile",
+        "oec-source"
+      ],
+      "description": "Inventory every required lemma, sense, full paradigm cell, example, construction, and connected-reading dependency for the reconciled first unit. Start from the empty active registers. Verify new forms rather than extending inherited nominative evidence by assumption. Include added accusative/dative practice, article/case uses, copular groundwork, neuter -u/zero conditioning, and correction C01. Propose production/recognition/support scopes and register additions; do not merge shared records.",
+      "acceptance": "Evidence-backed per-form and construction inventory, proposed complete paradigms, task/reading coverage, explicit support and residual doubts, and proposed lexical/grammar additions; no unresolved core-production requirement hidden.",
+      "parent": "oec-pilot"
+    },
+    {
+      "id": "oec-contract",
+      "title": "Record the reconciled first-unit learning contract",
+      "type": "task",
+      "priority": 1,
+      "status": "open",
+      "owner_role": "coordinator",
+      "owned_paths": [
+        "chapters/ch01/coverage.json",
+        "chapters/ch01/editorial-notes.md"
+      ],
+      "depends_on": [
+        "oec-analyze"
+      ],
+      "description": "Reconcile the source and linguistic audits into a coverage contract before prose. Assign all selected Cook items with original IDs and exact prompts, account for audited alternatives, define full paradigm teaching and syntax, register all added tasks/examples and reading segments, and give each required form/sense/construction a justified status. Record editorial decisions and remaining limitations.",
+      "acceptance": "Concrete coverage.json prepared before prose; every planned item and paradigm supported; no independent production relies on supplied/unresolved knowledge; active source crosswalk and key IDs planned.",
+      "parent": "oec-pilot"
+    },
+    {
+      "id": "oec-draft",
+      "title": "Write the complete first unit and separate explanatory key",
+      "type": "task",
+      "priority": 2,
+      "status": "open",
+      "owner_role": "lesson-author",
+      "owned_paths": [
+        "chapters/ch01/student.md",
+        "chapters/ch01/answer-key.md",
+        "chapters/ch01/register-proposals.json"
+      ],
+      "depends_on": [
+        "oec-contract"
+      ],
+      "description": "Write the complete terse unit within the contract: full paradigms with conditioning rules and exceptions, all vocabulary, meaningful form/case practice, all assigned Cook prompts, connected reading with explicit support, translation/review tasks, and section endnotes. Prepare a separate compact key with models, essential meaning, targets, alternatives, and diagnoses. Propose contract changes to the coordinator before adding scope.",
+      "acceptance": "Complete learner unit and key with matching stable IDs; all contracted material present; source/new/adapted material labelled; independent reading translations; proposed register changes ready for review.",
+      "parent": "oec-pilot"
+    },
+    {
+      "id": "oec-review",
+      "title": "Independently solve and review the first unit",
+      "type": "task",
+      "priority": 2,
+      "status": "open",
+      "owner_role": "independent-reviewer",
+      "owned_paths": [
+        "chapters/ch01/independent-solutions.md",
+        "chapters/ch01/review.md"
+      ],
+      "depends_on": [
+        "oec-draft"
+      ],
+      "description": "Solve every learner task from the active prerequisites and student text before consulting the draft key where practical. Then verify answers, paradigms, syntax, translations, attestation claims, sources, assigned items, alternatives, and dependency coverage. Read-only for the author's files. Send repairs to the author/coordinator; keep this issue open until material linguistic/source/coverage findings are resolved. Presentation review follows typesetting.",
+      "acceptance": "Independent solutions and evidence-based report; exact task/key/coverage agreement; all material linguistic/source/dependency findings resolved; limits explicit; no pass based solely on agent consensus.",
+      "parent": "oec-pilot"
+    },
+    {
+      "id": "oec-typeset",
+      "title": "Typeset complete first-unit learner and key PDFs",
+      "type": "task",
+      "priority": 2,
+      "status": "open",
+      "owner_role": "typesetter",
+      "owned_paths": [
+        "typesetting/ch01/"
+      ],
+      "depends_on": [
+        "oec-review"
+      ],
+      "description": "Use the inherited layout to make complete LuaLaTeX learner and key documents from the reviewed Markdown. Include every paradigm, vocabulary entry, task, model, reading support, and note. Preserve IDs in comments, compile stable PDFs, inspect logs and pages, and resolve layout or special-character problems. Report content parity and evidence of inspection.",
+      "acceptance": "Complete source TeX and two complete PDFs; all pages inspected; special characters/tables intact; no unresolved rendering problem; Markdown/TeX/PDF parity recorded.",
+      "parent": "oec-pilot"
+    },
+    {
+      "id": "oec-finish",
+      "title": "Complete presentation review and merge first-unit records",
+      "type": "task",
+      "priority": 2,
+      "status": "open",
+      "owner_role": "coordinator",
+      "owned_paths": [
+        "chapters/ch01/coverage.json",
+        "chapters/ch01/editorial-notes.md",
+        "chapters/ch01/review.md",
+        "lexicon/entries.json",
+        "curriculum/grammar.json",
+        "sources/registry.json",
+        "STATUS.md",
+        "README.md"
+      ],
+      "depends_on": [
+        "oec-typeset"
+      ],
+      "description": "Obtain final independent inspection of both PDFs, reconcile any last fixes, and verify all source assignments, tasks/keys, references, and teaching statuses. Merge only reviewed first-unit milestones into the previously empty active registers. Update status and documentation, export Beads, and save the completed unit as a local Git revision. Close the parent epic only when all work is complete.",
+      "acceptance": "Final review passes every learner/key page and all material checks; active registers describe exactly the new unit; status and source crosswalk accurate; complete deliverables linked; local commit and issue export current.",
+      "parent": "oec-pilot"
+    }
+  ]
+}
