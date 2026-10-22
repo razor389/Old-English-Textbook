@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "purpose": "Evidence finder; mirrored dispositions point to chapters/ch01/coverage.json, the canonical active contract. Historical IDs retain archive provenance, not earlier teaching.",
+  "purpose": "Evidence finder; mirrored dispositions point to active Unit1–3 coverage contracts, the canonical assignment crosswalk. Historical IDs retain archive provenance, not prior teaching.",
   "source_commit": "7dd99f938d4969147fe3d996c42a344d9fc4cb90",
   "items": [
     {
@@ -596,7 +596,9 @@
       "new_course_chapter": "ch01",
       "source_text": "and ðā fuglas bēon²¹ gemanigfielde ofer eorðan.”",
       "historical_origin": "declared_normalization",
-      "active_contract": "chapters/ch01/coverage.json"
+      "active_contract": "chapters/ch01/coverage.json",
+      "continued_deferral_contract": "chapters/ch03/coverage.json",
+      "proposed_chapter": "ch07"
     },
     {
       "audit_record_id": "ch02-reader-darkness",
@@ -636,11 +638,14 @@
       },
       "evidence_record": "reference/previous-course/chapters/ch02/coverage.json",
       "historical_disposition": "deferred_source_items",
-      "new_course_disposition": "deferred",
-      "new_course_chapter": "ch01",
+      "new_course_disposition": "assigned_by_subsumption",
+      "new_course_chapter": "ch03",
       "source_text": "And God geworhte twā²⁴ miclu²⁵ lēoht;",
       "historical_origin": "exact_source",
-      "active_contract": "chapters/ch01/coverage.json"
+      "active_contract": "chapters/ch03/coverage.json",
+      "subsumed_by": "FB-I-CREATION-FOURTH-DAY-01",
+      "verified_excerpt": "And God geworhte twā miclu lēoht:",
+      "discrepancy_note": "Inherited source_text semicolon is preserved as historical transcription; the image-verified full span has a colon. See sources/audits/unit03-source/fourth-day.json."
     }
   ]
 }

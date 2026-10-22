@@ -48,7 +48,7 @@
           "purpose": "Exercises 5–8; Group II starts on p.4"
         }
       ],
-      "verification": "Archived full item audits of Exercises 1–2 reused as evidence. Fresh Exercise 3 complete source audit and full-book structural inventory completed 22 October 2026. Exercises 4–48 still need item-level linguistic audits.",
+      "verification": "Archived full item audits of Exercises1–2 reused as evidence. Fresh complete Exercise3 and Exercise4 audits and full-book structural inventory completed22October2026. Exercises5–48 still require item-level linguistic audits. Audits alone do not assign source items.",
       "corrections": [
         {
           "location": "Exercise 4, introductory note; printed p. 2",
@@ -72,6 +72,13 @@
         {
           "record": "sources/audits/unit01-source/exercise-3.md",
           "scope": "Complete Exercise 3 prompt transcription plus ten additional lexical selections",
+          "printed_page": 2,
+          "pdf_page_1_based": 10,
+          "visually_checked": true
+        },
+        {
+          "record": "sources/audits/unit03-source/exercise-4.json",
+          "scope": "All18 exact Exercise4 prompts, note55, lexical/form/construction dependencies and proposed17+1 disposition. Item18 remains deferred; no silently shortened passive prompt.",
           "printed_page": 2,
           "pdf_page_1_based": 10,
           "visually_checked": true
@@ -219,9 +226,14 @@
         "sources/audits/unit02-grammar/paradigms.json",
         "sources/audits/unit02-reading/report.md",
         "sources/audits/unit02-reading/audit.json",
-        "sources/audits/unit02-reading/grammar-crosscheck.md"
+        "sources/audits/unit02-reading/grammar-crosscheck.md",
+        "sources/audits/unit03-grammar/report.md",
+        "sources/audits/unit03-grammar/paradigms.json",
+        "sources/audits/unit03-source/report.md",
+        "sources/audits/unit03-source/fourth-day.json"
       ],
-      "unit02_verification": "Complete selected personal-pronoun and weak present/preterite indicative inventory, bounded syntax and lexical entries, and Reader I final Sabbath paragraph p.128/PDF144 checked against page images. Additional Wright morphology and Ringe–Taylor dual-agreement corroboration recorded separately. This does not certify the remainder of the book."
+      "unit02_verification": "Complete selected personal-pronoun and weak present/preterite indicative inventory, bounded syntax and lexical entries, and Reader I final Sabbath paragraph p.128/PDF144 checked against page images. Additional Wright morphology and Ringe–Taylor dual-agreement corroboration recorded separately. This does not certify the remainder of the book.",
+      "unit03_verification": "Selected complete adjective/possessive/comparison/number/demonstrative systems and lexical evidence checked; exact complete fourth-day Creation account,109 words, printed125 editorial lines8–15 and126 lines1–4/PDF141–142, with all apparatus and support dependencies. Line numbering distinguishes printed marginal10/15 from editorial counts. No full-reader certification."
     }
   ],
   "documentation": [],
@@ -386,6 +398,23 @@
             "image": "sources/audits/unit02-reading/wright-pdf293-p273.png"
           }
         ]
+      },
+      "unit03_use": {
+        "purpose": "Corroborate complete adjective alternations, possessive pattern classification, comparative consonant simplification, numeral limits and adverb degrees. Derived cells remain distinct from individual attestations.",
+        "report": "sources/audits/unit03-grammar/report.md",
+        "additional_record": "sources/audits/unit03-coordinator/comparative-crosscheck.md",
+        "printed_to_pdf_offset": 20,
+        "sections": [
+          "223",
+          "259.2–4",
+          "421–435",
+          "440",
+          "443–445",
+          "448–452",
+          "464",
+          "555–556"
+        ],
+        "visually_checked": true
       }
     },
     {
@@ -408,6 +437,25 @@
       "visually_checked": true,
       "purpose": "Explicit agreement of dual pronoun subjects with plural finite verbs; no spelling or dialect replacement.",
       "record": "sources/audits/unit02-supplementary/dual-agreement.md",
+      "accessed": "2026-10-22"
+    },
+    {
+      "source_id": "fulk_2020",
+      "author": "R. D. Fulk",
+      "title": "An Introductory Grammar of Old English with an Anthology of Readings",
+      "publication_year": 2020,
+      "edition": "Author-corrected open-access reprint of the 2014 ACMRS edition",
+      "institutional_repository": "Indiana University ScholarWorks",
+      "record_url": "https://scholarworks.iu.edu/dspace/items/b5ec3499-c513-4edd-a385-ebdca1d51006",
+      "pdf_url": "https://scholarworks.iu.edu/iuswrrest/api/core/bitstreams/8ac647c5-bfad-4263-99f9-854e14f11d87/content",
+      "pdf_page_count": 344,
+      "printed_page": 22,
+      "pdf_page_1_based": 34,
+      "section": "35",
+      "image": "sources/audits/unit03-grammar/fulk-2020-p22.png",
+      "visually_checked": true,
+      "purpose": "The attested Beowulf 469 comparison supports a bounded copular comparison with a nominative standard and an unexpressed repeated copula. It does not establish every than-construction or replace Cook spelling.",
+      "inspection_scope": "Official repository edition metadata and printed p.22 section35; no claim of a full-book audit.",
       "accessed": "2026-10-22"
     }
   ],
@@ -441,6 +489,11 @@
       "path": "sources/cache/ringe-taylor-2014-preview.pdf",
       "bytes": 709549,
       "sha256": "48972628b9f7d2ba2a92e07d99b53358247ab7705926862893ec2e88814f0f59"
+    },
+    {
+      "path": "sources/cache/fulk-2020.pdf",
+      "bytes": 3790173,
+      "sha256": "b014804dba3b3154de19a9062fef6485fd85a9a71c093f743c01b2be515ed0e4"
     }
   ],
   "structural_models": [
