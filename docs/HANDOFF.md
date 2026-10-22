@@ -1,6 +1,6 @@
 # Handoff to the next session
 
-The eighteen-unit outline and complete Cook map are settled. **Units 1 and 2 are complete**: independently reviewed text, separate keys, complete LuaLaTeX exports, every-page inspection and integrated cumulative registers. Do not restart the initial planning or Unit 2 audit chains. Query Beads for current status; all required Unit 2 work is complete once its finish/epic closure is exported.
+The eighteen-unit outline and complete Cook map are settled. **Units 1 and 2 are complete**: independently reviewed text, separate keys, complete LuaLaTeX exports, every-page inspection and integrated cumulative registers. The Unit 2 Beads chain is closed. Query Beads for current status; do not restart the completed planning or Unit 2 audit chains.
 
 1. Read root `AGENTS.md`, `STATUS.md`, `EDITORIAL_POLICY.md` and `docs/WORKFLOW.md`; run `bd prime` then `bd ready` sequentially. Read actual ready issues by explicit ID.
 2. Read `curriculum/COURSE_PLAN.md`, `curriculum/COOK_MAP.md`, `sources/registry.json`, **both** active coverage contracts, and the actual lexical/grammar registers. Only reviewed new-course milestones count. Familiar supplied forms/senses and nonfinite citations remain untaught; archived milestones never count.
@@ -10,7 +10,7 @@ The eighteen-unit outline and complete Cook map are settled. **Units 1 and 2 are
 
 ## Recoverable checkpoints and artifacts
 
-Unit 1: contract `09990cf`, text `dc3ca6c`, full exports/registers `fa067f4`; 22 learner pages and 12 key pages. Unit 2: source/contract checkpoint `b35fcdd`, authoring handoff `3a9dae4`, independently reviewed text `56f733d`; **19 learner pages and 14 key pages**. The final Unit 2 artifact revision is recorded in its coverage completion metadata and local Git history. See [Unit 2 exports](../typesetting/ch02/README.md) and [review](../chapters/ch02/review.md).
+Unit 1: contract `09990cf`, text `dc3ca6c`, full exports/registers `fa067f4`; 22 learner pages and 12 key pages. Unit 2: source/contract checkpoint `b35fcdd`, authoring handoff `3a9dae4`, independently reviewed text `56f733d`, complete exports/registers `74c7802`; **19 learner pages and 14 key pages**. See [Unit 2 exports](../typesetting/ch02/README.md) and [review](../chapters/ch02/review.md).
 
 Unit 2 has 61 graded tasks, 23 full verb paradigms, 40 pronoun cells, eight examples, two controlled connected texts and the exact 61-word Sabbath paragraph. It assigns no Cook exercise. The canonical crosswalk still has 46 Cook items assigned in Unit 1 and 598 deferred, plus the earlier two deferred reader candidates. Do not infer assignments from the map alone.
 
