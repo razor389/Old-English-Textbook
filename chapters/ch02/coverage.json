@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch02",
   "title": "Personal pronouns and weak indicative verbs",
-  "status": "contracted_before_prose",
+  "status": "textually_reviewed_exports_pending",
   "contract_date": "2026-10-22",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -28247,7 +28247,7 @@
     },
     {
       "feature_id": "u02-direct-object",
-      "description": "Accusative object with audited senses of hīeran, sęttan, sęndan, mētan, nęrian, lufian, habban, gefyllan, gewyrcean, gefręmman, geblētsian, gehālgian and the thing given with sęllan. Not every weak verb governs accusative.",
+      "description": "Accusative object with audited senses of hīeran, cyssan, sęttan, sęndan, lǣdan, mētan, nęrian, lufian, habban, gefyllan, gewyrcean, gefręmman, geblētsian, gehālgian and the thing given with sęllan. Not every weak verb governs accusative.",
       "knowledge_status": "new_production",
       "evidence_refs": [
         "U02-OBJECT",
@@ -30863,13 +30863,25 @@
     "typeset": "oec-u02-typeset",
     "finish": "oec-u02-finish"
   },
-  "review_status": "not_yet_drafted",
+  "review_status": "accepted_textual_review",
   "amendments": [
     {
       "date": "2026-10-22",
       "id": "U02-META-01",
       "kind": "metadata_only",
       "description": "Record saved pre-prose checkpoint and canonical LF hashes alongside raw CRLF worktree hashes. No source words, assignments, teaching scope or task prompts change."
+    },
+    {
+      "id": "U02-SCOPE-SUMMARY-01",
+      "date": "2026-10-22",
+      "kind": "existing_scope_summary_clarification",
+      "description": "Add cyssan and lǣdan to u02-direct-object enumeration. Their original contracted lemma scope_notes already expressly license an accusative person, and learner vocabulary states exactly that. No new construction, task, form, sense or evidence is introduced."
+    },
+    {
+      "id": "U02-CITE-01",
+      "date": "2026-10-22",
+      "kind": "citation_clarification",
+      "description": "Explicit page/PDF locator for Cook §96 in learner note3. No assignment, linguistic text, prompt or learning-scope change. Independent solve preserved at original learner hash; reviewer rechecked amended source note."
     }
   ],
   "validation_at_contract": {
@@ -30900,5 +30912,26 @@
     "chapters/ch01/answer-key.md": "b09c138c489de87568c4212b2a5edd2589b7c2fdf3281266f262613bde3839c8"
   },
   "hash_convention": "Original raw working-file SHA-256 values retained. Companion LF hashes identify the same UTF-8 content under repository .gitattributes line-ending normalization; no linguistic characters are normalized by this comparison.",
-  "evidence_artifact_policy": "U02-DUAL modern publisher-preview page image is an ignored inspection artifact; its retained report records exact source locator, PDF hash and reproduction. Public-domain Cook/Wright inspection pages are retained."
+  "evidence_artifact_policy": "U02-DUAL modern publisher-preview page image is an ignored inspection artifact; its retained report records exact source locator, PDF hash and reproduction. Public-domain Cook/Wright inspection pages are retained.",
+  "textual_review": {
+    "status": "accepted",
+    "date": "2026-10-22",
+    "reviewer": "opening_source",
+    "review_file": "chapters/ch02/review.md",
+    "solutions_file": "chapters/ch02/independent-solutions.md",
+    "independent_solve_before_key": true,
+    "solved_tasks": 61,
+    "learner_hash_at_solve": "77d05eeed25204afd30eb11249eedc8af136b0e0d8d79f99c9b9101155b4eb1e",
+    "solutions_sha256": "b223dda5e9197d3b6981cc3543472bfb8c444d5acd822467a91d4ed366efa870",
+    "accepted_text_sha256": {
+      "student.md": "7ac884d55c143f1e5ce6d5eead3b09ec11ea9121cb5f23f4c96e0a9addb0dea2",
+      "answer-key.md": "d857f67bf3ee98905dea2b9cbccf21f3f4d88644c3f81e499d18a661c097bdf5"
+    },
+    "material_findings_open": 0,
+    "minor_repairs": [
+      "Key R06 explicitly includes ceasing from work in the causal clause; trailing spaces removed.",
+      "Learner source note3 distinguishes §96 p56/PDF72 from §§117–124 pp72–76/PDF88–92. No task or paradigm changed."
+    ],
+    "coordinator_checks": "All61 exact prompts and key IDs;89 teaching IDs;23 complete selected verb rows/principal parts;40 pronouns;exact source and composed material; dependency gates; unchanged Unit1 contract/text."
+  }
 }

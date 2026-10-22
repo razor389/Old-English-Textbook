@@ -25,6 +25,7 @@ def cleaned(s):
 def main():
     parser = argparse.ArgumentParser(__doc__)
     parser.add_argument('--draft', action='store_true')
+    parser.add_argument('--tex', action='store_true', help='Check complete TeX IDs, extracted PDF content and clean LuaLaTeX logs')
     args = parser.parse_args()
     c = read('chapters/ch02/coverage.json')
     lex = read('lexicon/entries.json')
@@ -129,26 +130,55 @@ def main():
     for path in ['chapters/ch02/coverage.json'] + (['chapters/ch02/student.md','chapters/ch02/answer-key.md'] if args.draft else []):
         raw=(ROOT/path).read_text(encoding='utf-8')
         require(raw==unicodedata.normalize('NFC',raw), f'{path}: non-NFC text')
-    if args.draft:
+    if args.draft or args.tex:
         student=(ROOT/'chapters/ch02/student.md').read_text(encoding='utf-8')
         key=(ROOT/'chapters/ch02/answer-key.md').read_text(encoding='utf-8')
+        parts=re.split(r'<!--\s*(?:item:\s*)?(NEW-U02-[A-Z][0-9]+)\s*-->',student)
+        prompts={parts[i]: re.sub(r'^\d+\.\s*','',parts[i+1].strip().split('\n\n')[0]) for i in range(1,len(parts),2)}
+        table_rows=[[cell.strip().replace('**','') for cell in line.strip().strip('|').split('|')] for line in student.splitlines() if line.startswith('|')]
         for tid, task in tasks.items():
             require(len(re.findall(r'<!--\s*(?:item:\s*)?'+re.escape(tid)+r'\s*-->',student))==1, f'{tid}: learner ID not present exactly once')
             require(len(re.findall(r'<!--\s*(?:key:\s*)?'+re.escape(task['key_id'])+r'\s*-->',key))==1, f'{tid}: key ID not present exactly once')
+            require(prompts.get(tid)==task['prompt'], f'{tid}: prompt differs from saved contract')
+        for tid in teaching:
+            require(tid in student, f'{tid}: teaching location missing from learner')
         for passage in alltexts:
             texts=[turn['text'] for turn in passage['turns']] if passage.get('turns') else [passage.get('source_text',passage.get('text',''))]
             plain=re.sub(r'\*\*|(?<!\w)\*(?!\s)|(?<!\s)\*(?!\w)', '', student)
             for text in texts:
                 require(text in plain, f'{passage.get("reading_id",passage.get("composition_id",passage.get("example_id")))}: exact text missing from learner')
         for p in verb_paradigms:
+            head=next(l['display_headword'] for l in c['lexical_inventory'] if l['lemma_id']==p['lemma_id'])
+            require([head]+p['surface_row'] in table_rows, f'{p["lemma_id"]}: complete selected table row missing or misplaced')
+            require([part['display'] for part in p['principal_parts']] in table_rows, f'{p["lemma_id"]}: principal-part row missing')
             for form in p['surface_row']:
                 require(form in student, f'{p["lemma_id"]}: {form} missing from learner')
         for f in pronouns:
             require(f['form'] in student, f'{f["form_id"]}: pronoun missing from learner')
+    if args.tex:
+        def chars(text): return re.sub(r'\s+','',text)
+        for stem,ids in [('chapter-02',list(tasks)),('answer-key',c['key_item_ids'])]:
+            folder=ROOT/'typesetting/ch02'
+            tex=(folder/(stem+'.tex')).read_text(encoding='utf-8')
+            pdftext=(folder/'build'/(stem+'.txt')).read_text(encoding='utf-8')
+            log=(folder/'build'/(stem+'.log')).read_text(encoding='utf-8',errors='replace')
+            require((folder/(stem+'.pdf')).is_file(), f'{stem}: final PDF absent')
+            for tid in ids:
+                require(tid in tex,f'{stem}: missing TeX task/key ID {tid}')
+            for warning in ['Missing character:', 'Overfull \\hbox', 'Overfull \\vbox', 'Underfull \\hbox', 'Underfull \\vbox', 'Font shape', 'Rerun to get', 'Table widths have changed']:
+                require(warning not in log,f'{stem}: log contains {warning}')
+            if stem=='chapter-02':
+                for tid in teaching: require(tid in tex,f'{tid}: missing TeX teaching ID')
+                for tid,task in tasks.items():
+                    require(chars(task['prompt']) in chars(pdftext),f'{tid}: PDF prompt characters differ or prompt split by running matter')
+                for passage in alltexts:
+                    texts=[turn['text'] for turn in passage['turns']] if passage.get('turns') else [passage.get('source_text',passage.get('text',''))]
+                    for text in texts:
+                        require(chars(text) in chars(pdftext),'PDF exact reading/example characters differ or interrupted')
     if errors:
         print('\n'.join('ERROR: '+e for e in errors))
         raise SystemExit(1)
-    print(f'Unit2 checks pass: {len(tasks)} tasks;23 complete verb paradigms;40 pronoun cells;61 source tokens;2 connected texts;8 examples.' + (' Learner/key structural parity checked.' if args.draft else ' Contract only.'))
+    print(f'Unit2 checks pass: {len(tasks)} tasks;23 complete verb paradigms;40 pronoun cells;61 source tokens;2 connected texts;8 examples.' + (' Learner/key structural parity checked.' if args.draft or args.tex else ' Contract only.') + (' TeX/PDF character and log checks pass.' if args.tex else ''))
 
 if __name__=='__main__':
     main()
