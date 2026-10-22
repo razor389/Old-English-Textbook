@@ -1,6 +1,6 @@
 # Status
 
-Updated 22 October 2026. Course planning is reconciled; Unit 1 source/dependency work is in progress.
+Updated 22 October 2026. Course planning and Unit 1 source/dependency analysis are reconciled; the first learning contract is approved before prose.
 
 ## Established direction
 
@@ -17,9 +17,9 @@ A settled eighteen-unit outline and complete planning map of Cook's 48 exercises
 
 ## What remains open
 
-No active chapter prose or coverage contract has yet been written. No new-course vocabulary, form, or construction has a teaching milestone. Exercise 3 now has a complete source transcription; expanded paradigms and reading dependencies are being reconciled. The opening, earth and darkness clauses fall inside the selected contiguous narrative; the lights and birds clauses await explicit new-contract deferral.
+The active [Unit 1 contract](chapters/ch01/coverage.json) records 92 graded tasks, 401 forms, 70 senses and 46 constructions. It assigns all 46 Cook prompts and the contiguous first-day reading, subsumes the earlier three short first-day records, and explicitly defers the other 598 Cook items and two audited reader candidates. No learner prose or key existed at contract approval. No new-course teaching milestone is merged before review.
 
-The next stage is the evidence-backed Unit 1 form/construction inventory, then the contract, authorship, independent solving, complete exports, register integration and local checkpoint. Follow the current Beads graph. Do not draft Unit 2 ahead of completion.
+The next stages are authorship, independent solving, complete exports, register integration and the final local checkpoint. Follow the current Beads graph. Do not draft Unit 2 ahead of completion.
 
 No remote, publication, or distribution has been configured. The previous repository remains the preserved experiment.
 
