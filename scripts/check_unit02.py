@@ -161,6 +161,9 @@ def main():
             folder=ROOT/'typesetting/ch02'
             tex=(folder/(stem+'.tex')).read_text(encoding='utf-8')
             pdftext=(folder/'build'/(stem+'.txt')).read_text(encoding='utf-8')
+            # Xpdf 4.00 encodes these visibly printed literal hyphens as U+00AD.
+            # Preserve the hyphen in character checks; do not discard it.
+            pdftext=pdftext.replace('\u00ad','-')
             log=(folder/'build'/(stem+'.log')).read_text(encoding='utf-8',errors='replace')
             require((folder/(stem+'.pdf')).is_file(), f'{stem}: final PDF absent')
             for tid in ids:

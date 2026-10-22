@@ -6,7 +6,9 @@ Start with [STATUS.md](STATUS.md), [AGENTS.md](AGENTS.md), and the [course plan]
 
 The [eighteen-unit outline](curriculum/COURSE_PLAN.md) and [mapping of all 644 Cook items](curriculum/COOK_MAP.md) are settled. **Unit 1 is complete:** [learner PDF](typesetting/ch01/chapter-01.pdf), 22 pages, and [separate key PDF](typesetting/ch01/answer-key.pdf), 12 pages. It contains all 46 assigned Cook prompts, 46 additional tasks, complete relevant paradigms, 44 noun entries, and a connected guided reading. All tasks were independently solved and every exported page inspected.
 
-The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/answer-key.md), [contract saved before prose](chapters/ch01/coverage.json), and [review record](chapters/ch01/review.md) preserve the teaching scope and evidence. Reviewed grammar and vocabulary milestones are integrated into the active registers. No later unit has been drafted.
+The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/answer-key.md), [contract saved before prose](chapters/ch01/coverage.json), and [review record](chapters/ch01/review.md) preserve the teaching scope and evidence. Reviewed grammar and vocabulary milestones are integrated into the active registers.
+
+**Unit 2 is complete:** [learner PDF](typesetting/ch02/chapter-02.pdf), 19 pages, and [separate key PDF](typesetting/ch02/answer-key.pdf), 14 pages. It covers all 40 personal-pronoun cells and 23 complete weak indicative paradigms, with 61 tasks, two controlled connected texts and the complete Sabbath paragraph. The [editable lesson](chapters/ch02/student.md), [key](chapters/ch02/answer-key.md), [saved contract](chapters/ch02/coverage.json) and [independent review](chapters/ch02/review.md) retain the scope and evidence. Every exported page was inspected; reviewed milestones preserve Unit 1 history. No Unit 3 prose has been drafted.
 
 The earlier two-chapter experiment is preserved under [reference/previous-course](reference/previous-course/README.md), with its source evidence, corrections, and complete PDFs. Its learning milestones do not apply to this course.
 

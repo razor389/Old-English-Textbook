@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch02",
   "title": "Personal pronouns and weak indicative verbs",
-  "status": "textually_reviewed_exports_pending",
+  "status": "complete_reviewed",
   "contract_date": "2026-10-22",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -30863,7 +30863,7 @@
     "typeset": "oec-u02-typeset",
     "finish": "oec-u02-finish"
   },
-  "review_status": "accepted_textual_review",
+  "review_status": "accepted_text_and_presentation",
   "amendments": [
     {
       "date": "2026-10-22",
@@ -30895,9 +30895,20 @@
     "unresolved_dependencies": 0
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "date": "2026-10-22",
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "contract_checkpoint": "b35fcdd",
+    "textual_checkpoint": "56f733d",
+    "local_artifact_checkpoint": "recorded after saving complete artifacts",
+    "no_later_unit_drafted": true,
+    "register_counts": {
+      "lemmas": 102,
+      "forms": 770,
+      "senses": 108,
+      "constructions": 81
+    }
   },
   "contract_checkpoint": {
     "git_commit": "b35fcdd",
@@ -30933,5 +30944,26 @@
       "Learner source note3 distinguishes §96 p56/PDF72 from §§117–124 pp72–76/PDF88–92. No task or paradigm changed."
     ],
     "coordinator_checks": "All61 exact prompts and key IDs;89 teaching IDs;23 complete selected verb rows/principal parts;40 pronouns;exact source and composed material; dependency gates; unchanged Unit1 contract/text."
+  },
+  "presentation_review": {
+    "status": "accepted",
+    "review_file": "chapters/ch02/review.md",
+    "export_record": "typesetting/ch02/README.md",
+    "every_page_inspected": true,
+    "pdfs": {
+      "learner": {
+        "path": "typesetting/ch02/chapter-02.pdf",
+        "pages": 19,
+        "sha256": "54eddab2d7f2284a6e4bd82c5da34cb1fd71baa7af11e7db576ada41b10b3a0d"
+      },
+      "key": {
+        "path": "typesetting/ch02/answer-key.pdf",
+        "pages": 14,
+        "sha256": "d9ef81ef44157f08d4e9f1e1a450eaa761b30031c986ecbb61608534df3c1608"
+      }
+    },
+    "markdown_text_unchanged_from_acceptance": true,
+    "complete_content_parity": true,
+    "lualatex_logs_clean": true
   }
 }

@@ -1,0 +1,41 @@
+{
+  "unit": "02",
+  "method": "Independent block inventory from accepted Markdown; decoded actual TeX paragraph bodies, all table rows and cells, and every editorial comment. Full non-whitespace Unicode sequences also checked in extracted PDF prose after removal of running matter and normalization of Xpdf soft-hyphen encoding to the original literal hyphen.",
+  "formatting_changes": [
+    "Seven wide eight-column finite tables are displayed in complete present and preterite panels; the verb label is repeated in both panels.",
+    "Vocabulary and principal-part tables repeat their header across page breaks.",
+    "Line wrapping, emphasis commands and page furniture differ from Markdown; linguistic text and punctuation are preserved."
+  ],
+  "documents": [
+    {
+      "master": "chapters/ch02/student.md",
+      "master_sha256": "7ac884d55c143f1e5ce6d5eead3b09ec11ea9121cb5f23f4c96e0a9addb0dea2",
+      "tex": "typesetting/ch02/chapter-02.tex",
+      "tex_sha256": "f11a328bc269b47094eda1f5958d98ac5d7250b05bd5f49a5a2638fe2c82a49a",
+      "tex_sha256_normalized_lf": "5d184c8474c931a0858b6e5688703e4d3909f4ea4a171eae2568df7323b56262",
+      "paragraph_heading_list_blocks": 175,
+      "original_tables": 10,
+      "original_table_cells_including_headers": 439,
+      "all_editorial_comments_preserved": 102,
+      "paragraph_and_cell_parity": "PASS",
+      "pdf_complete_paragraph_character_parity": "PASS",
+      "title_parity": "PASS",
+      "source_notes": 17
+    },
+    {
+      "master": "chapters/ch02/answer-key.md",
+      "master_sha256": "d857f67bf3ee98905dea2b9cbccf21f3f4d88644c3f81e499d18a661c097bdf5",
+      "tex": "typesetting/ch02/answer-key.tex",
+      "tex_sha256": "a2f1dbff5f31da08427d8c8c1b3e19ed9b8810c6b781a7554398fe1dcfb2172c",
+      "tex_sha256_normalized_lf": "3fae39cc48e3eab7aef960748adf6e40d862972c43cdf5b582e5fb767df0843c",
+      "paragraph_heading_list_blocks": 98,
+      "original_tables": 14,
+      "original_table_cells_including_headers": 245,
+      "all_editorial_comments_preserved": 122,
+      "paragraph_and_cell_parity": "PASS",
+      "pdf_complete_paragraph_character_parity": "PASS",
+      "title_parity": "PASS",
+      "source_notes": "1 numbered note plus bibliography paragraph"
+    }
+  ]
+}

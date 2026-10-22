@@ -1,32 +1,31 @@
 # Status
 
-Updated 22 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Unit 1 is complete and reviewed**, with full learner/key exports and active teaching records.
+Updated 22 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–2 are complete and independently reviewed**, with complete LuaLaTeX learner/key PDFs and cumulative teaching records.
 
 ## Established direction
 
 - Grammar-led units with full paradigms and whole declensions; several Cook exercises may belong to one chapter.
 - Terse practical exposition; no prior Old English, standard grammar terminology assumed.
-- Vocabulary size follows the unit; larger lists are acceptable.
-- Connected graded readings, with enough grammar and explicit support to make them usable.
-- Original source identifiers, source fidelity, documented corrections, independent review, and complete LuaLaTeX exports remain required.
-- Beads manages work and dependencies; the coordinator assigns exclusive agent files and serializes tracker updates.
-
-## What is present
-
-A settled eighteen-unit outline and complete planning map of Cook's 48 exercises / 644 numbered items. All source exercise pages were inspected at structural level; later sets still need individual linguistic audits. The first-unit brief retains all 46 prompts from I.1–3 and the complete first-day Creation reading. Independent reports are under `sources/audits/` and `curriculum/proposals/sequence/`. The previous course remains a preserved evidence snapshot.
+- Vocabulary size follows the unit; connected readings have sufficient grammar and explicit local support.
+- Original source IDs, source fidelity, evidence-backed corrections, separate keys, independent solving, and complete exports remain required.
+- Beads manages dependencies; the coordinator alone writes the embedded tracker and shared registers.
 
 ## Completed Unit 1
 
-The active [Unit 1 contract](chapters/ch01/coverage.json) records 92 graded tasks, 401 forms, 70 senses and 46 constructions. It assigns all 46 Cook prompts and the contiguous first-day reading, subsumes the earlier three short first-day records, and explicitly defers the other 598 Cook items and two audited reader candidates. The contract was saved at `09990cf` before any learner prose or key. The complete text passed independent solving and linguistic review at `dc3ca6c`.
+The [Unit 1 contract](chapters/ch01/coverage.json) assigns all 46 prompts of Cook I.1–3 and the complete 69-word first-day Creation reading. Its 92 graded tasks, full nominal/article/copular systems and two controlled mini-readings passed independent solving. The [learner PDF](typesetting/ch01/chapter-01.pdf) has 22 pages and the [key PDF](typesetting/ch01/answer-key.pdf) 12, all inspected. See [the review](chapters/ch01/review.md) and [exports](typesetting/ch01/README.md). Checkpoints: contract before prose `09990cf`, textual acceptance `dc3ca6c`, complete exports/registers `fa067f4`.
 
-The [learner PDF](typesetting/ch01/chapter-01.pdf) has 22 pages; the [separate key PDF](typesetting/ch01/answer-key.pdf) has 12. All 34 pages and complete content parity passed inspection; no material review finding remains. See [the review](chapters/ch01/review.md) and [export record](typesetting/ch01/README.md). The learner has 44 noun entries, complete relevant paradigms, meaningful case/composition practice, two independent mini-readings and the supported 69-word first-day narrative.
+Unit 1 established 326 productive and 52 recognition-only forms, 49 productive senses, 28 productive and five recognition-only constructions. Its original contract, learner/key text and earliest milestones remain unchanged. The 598 other Cook items and two reader candidates retain their recorded deferrals.
 
-The [lexical register](lexicon/entries.json) and [grammar register](curriculum/grammar.json) now contain only reviewed Unit 1 teaching: 326 productive forms, 52 recognition-only forms, 49 productive senses, 28 productive constructions and five recognition-only constructions. Supplied material remains separately recorded with null learning milestones; reconstructed **\*sǣwa** remains reference only. No archived milestone has been imported.
+## Completed Unit 2
 
-## Next work
+The [brief](curriculum/UNIT_02_BRIEF.md) and [contract](chapters/ch02/coverage.json) cover personal pronouns and weak present/preterite indicative verbs: 40 pronoun cells, 23 complete verb paradigms (276 finite cells), 61 graded tasks, eight examples, a 58-word past account, a 31-word conversation, and the exact 61-word Sabbath paragraph. Twenty-two affirmative verb systems are productive; the negative companion **nabban** and six first/second personal genitives are recognition-only. Supplied citations and source constructions do not gain learning milestones.
 
-Unit 2 is in authoring under Beads epic `oec-u02`. The [brief](curriculum/UNIT_02_BRIEF.md) and [contract](chapters/ch02/coverage.json), saved before prose at `b35fcdd`, reconcile 61 tasks, 23 complete verb paradigms, 40 pronoun cells, two new connected texts and the exact 61-word Sabbath paragraph. The coordinator's dependency checks pass against actual Unit 1 milestones. Independent solving precedes key access; complete exports and register integration follow review. No Cook exercise is newly assigned, and earlier deferrals remain unchanged. Query Beads and follow [the handoff](docs/HANDOFF.md); complete this unit before drafting Unit 3.
+The [learner PDF](typesetting/ch02/chapter-02.pdf) has **19 pages**; the [separate key PDF](typesetting/ch02/answer-key.pdf) has **14**. All tasks were solved before key access, material review is clear, complete content parity passes, and every final page was inspected. See [the independent review](chapters/ch02/review.md), [preserved solutions](chapters/ch02/independent-solutions.md), and [export record](typesetting/ch02/README.md). The contract preceded prose at `b35fcdd`; independently accepted text was saved at `56f733d`. No numbered Cook set is assigned here.
 
-No remote, publication, or distribution has been configured. The previous repository remains the preserved experiment.
+## Cumulative records and next work
 
-The seed passed independent document review and coordinator source-hash, link, Unicode, empty-register, and task-graph checks. Details and limits are in [docs/SEED_VALIDATION.md](docs/SEED_VALIDATION.md).
+The [lexical register](lexicon/entries.json) now has 102 lemmas, 770 form records and 108 senses; [grammar](curriculum/grammar.json) has 81 constructions. Unit 2 adds 299 productive forms, 18 recognition-only forms, 27 productive senses, three recognition-only senses, 22 productive constructions and three recognition-only constructions. Earlier milestones and supplied exposure histories are preserved, including items first supplied in Unit 1 and taught in Unit 2. Reconstructed **\*sǣwa** remains reference-only. No archived teaching milestone has been imported.
+
+When further continuation is requested, begin Unit 3, adjectives, comparison and number, from the settled plan. Audit Cook I.4.1–17 and exact reading dependencies before its contract; I.4.18 remains planned for Unit 7. No Unit 3 prose has been drafted. Follow [the handoff](docs/HANDOFF.md), query Beads, and complete one unit before drafting another.
+
+The archived experiment remains an unchanged evidence snapshot. No remote, publication or distribution is configured.

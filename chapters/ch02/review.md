@@ -2,7 +2,7 @@
 
 Reviewer: `opening_source`. Date: 22 October 2026.
 
-**Textual verdict: PASS. Presentation verdict: PENDING.** The complete learner and key texts have been reviewed. No material linguistic, teaching-scope, task, or grading defect remains. This verdict does not certify PDFs that have not yet been inspected.
+**Textual verdict: PASS. Presentation verdict: PASS.** The complete learner and key texts and all 33 exported pages have been reviewed. No material linguistic, teaching-scope, task, grading, content-parity, or presentation defect remains. The presentation verdict applies to the exact final PDF identities recorded below.
 
 ## Independence and identities
 
@@ -22,7 +22,7 @@ The difference between the two learner identities is solely the source-note clar
 | ID | Finding | Resolution |
 |---|---|---|
 | U02-R01 | Source note [3] grouped §96 with the page range for §§117–124, making the first locator ambiguous. Minor citation issue; no form or rule was wrong. | Repaired and verified. The note now explicitly gives §96, p.56 / PDF72, followed by §§117–124, pp.72–76 / PDF88–92. The actual p.56 image confirms §96. |
-| U02-R02 | The contract's `u02-direct-object` summary enumerated the sentence-task verbs but omitted **cyssan + accusative person** and **lǣdan + accusative person**, although both were already licensed by its lexical scope notes and the learner vocabulary. | Coordinator's clarification approved: include the two existing lexical scopes in that summary. This requires no learner/key change, new evidence, or additional learning outcome. |
+| U02-R02 | The contract's `u02-direct-object` summary enumerated the sentence-task verbs but omitted **cyssan + accusative person** and **lǣdan + accusative person**, although both were already licensed by its lexical scope notes and the learner vocabulary. | Coordinator's clarification approved and verified in the actual contract: both existing lexical scopes are now included in that summary. No learner/key change, new evidence, or additional learning outcome. |
 
 No material repair was requested. The key's R06 already includes ceasing from work on the specified day. Narrative reference ambiguity is acknowledged by both learner and key rather than treated as a uniquely determined antecedent.
 
@@ -74,4 +74,71 @@ The key and independent solution translate the actual source and preserve its cl
 
 ## Presentation review
 
-Pending complete LuaLaTeX learner and answer-key exports. Every final rendered page, table, special character, source note, and content parity must be inspected before a presentation pass. Final PDF identities and page-by-page results will be recorded here after the files are stable.
+All **33 pages** in the initial complete render set have been independently inspected with `view_image`: learner pages 1–19 and key pages 1–14, using `typesetting/ch02/build/initial-chapter-02-pNN.png` and `initial-answer-key-pNN.png`. Every page passed visual review. No clipped text, overlapping material, lost character, broken table row, or split learner task/key block was found. Ordinary exposition and source notes sometimes continue on the following page; their continuations are readable. The vocabulary and principal-part tables repeat their column headers and identify their continuation.
+
+The reviewer inspected **æ, ð, ę**, vowel-length marks, pronoun variants, consonant contrasts, arrows, slash alternatives, quotation marks, and the source's hyphenated **for-ðon-ðe**. Complete source-reading word boundaries and **tō wyrceanne** are intact. The earlier citation repair appears correctly in learner note [3]. The Markdown learner, key, and preserved solve hashes still match the textual review identities above.
+
+### Learner page ledger
+
+| Page | Inspected content | Result |
+|---:|---|---|
+| 1 | Unit scope, dual agreement, complete 40-cell pronoun table, recognition boundary | PASS |
+| 2 | Pronoun cases/reference/variants, invariant possessors, finite-table instructions | PASS |
+| 3 | First five long-stem Class I present/preterite rows and consonant explanation | PASS |
+| 4 | Remaining five diagnostic rows; dental, contraction and **gierwan** rules | PASS |
+| 5 | **Sęllan/gewyrcean**, short-stem families and all complete finite rows | PASS |
+| 6 | Short-stem exception continuation, Class II tables/variants, Class III introduction | PASS |
+| 7 | All four Class III systems; complete recognition-only **nabban** and alternatives | PASS |
+| 8 | Active agreement, giving, location, possessors, reflexives, negation, coordination examples | PASS |
+| 9 | Direct-quotation example; vocabulary rows through **libban** | PASS |
+| 10 | Remaining vocabulary, lexical-prefix boundary, principal parts through **habban** | PASS |
+| 11 | Remaining principal parts and reference boundary; P01–P06; form-practice directions | PASS |
+| 12 | F01–F16, all complete prompts | PASS |
+| 13 | F17–F20; case-practice directions and C01–C12 | PASS |
+| 14 | C13, T01–T06, complete controlled narrative and four-turn dialogue | PASS |
+| 15 | N01–N06; source provenance and complete 61-word Sabbath paragraph; help opening | PASS |
+| 16 | Passive continuation; adjective, temporal, relative, rest, causal, genitive and infinitive help | PASS |
+| 17 | Final infinitive-help continuation; R01–R07 and X01–X03 | PASS |
+| 18 | Source notes [1]–[13], including the repaired §96 locator | PASS |
+| 19 | Source-note [13] continuation and complete notes [14]–[17] | PASS |
+
+### Answer-key page ledger
+
+| Page | Inspected content | Result |
+|---:|---|---|
+| 1 | Model/alternative/recognition directions; P01–P03 | PASS |
+| 2 | P04–P06; F01–F03 and complete **hīeran** table | PASS |
+| 3 | F04–F09, including complete **geręstan/sęllan** tables and explanations | PASS |
+| 4 | F10–F14, complete **nęrian/lufian** tables and diagnostic forms | PASS |
+| 5 | F15–F17; complete **habban/libban/sęcgan** tables, alternatives and boundaries | PASS |
+| 6 | F18–F20; complete **hycgan/nabban** analysis; C01 | PASS |
+| 7 | C02–C11; recipient, gender, possessors, reflexivity and negation explanations | PASS |
+| 8 | C12–C13 and T01–T06, complete models and diagnoses | PASS |
+| 9 | N01 full narrative translation; N02 reference table and alternatives | PASS |
+| 10 | N03–N06, complete dialogue translation, reference, tense and coordinated-predicate analyses | PASS |
+| 11 | R01 full source translation and alternatives; R02 six-verb table and exclusions | PASS |
+| 12 | R03–R07, complete reference, possessor, subject, temporal and causal analyses | PASS |
+| 13 | X01–X03, complete transformation/correction/composition models and explanations | PASS |
+| 14 | Complete source notes and evidence/prerequisite boundaries | PASS |
+
+Both LuaLaTeX logs were read directly. They report successful output of 19 and 14 pages; no overfull/underfull box, missing-character, or actionable warning/error was found. The package-description word “warning” is not a build warning.
+
+### Complete export parity and final identities
+
+The reviewer read the independent block-comparison procedure and its completed [content-parity.json](../../typesetting/ch02/content-parity.json) report. It inventories the accepted Markdown independently of the assembly map, decodes actual TeX paragraphs with a narrow command decoder, and compares every table cell. The seven wide finite tables are presented as separate complete present/preterite panels; recombining those panels reproduces the original rows. Repeated longtable headers are accounted for as page furniture.
+
+| Export | Prose/list/heading blocks | Original tables | Original cells including headers | Editorial comments | Result |
+|---|---:|---:|---:|---:|---|
+| Learner | 175 | 10 | 439 | 102 | PASS |
+| Key | 98 | 14 | 245 | 122 | PASS |
+
+Every full paragraph also matches the extracted PDF character sequence after removing running matter, ignoring extraction whitespace, and mapping Xpdf's soft-hyphen encoding back to the literal source hyphen. That extraction comparison does not substitute for the visual word-boundary and table checks above. The report preserves the full Unicode letters, quantity marks, and punctuation. All 17 learner source notes and the key's note/bibliography paragraph are included. The reviewer independently verified that both Markdown and both TeX hashes match the parity report.
+
+No recompilation or image change followed the inspected render set. The final destination PDFs were compared directly with their build copies and are byte-for-byte identical:
+
+| Final PDF | Pages | SHA256 |
+|---|---:|---|
+| [chapter-02.pdf](../../typesetting/ch02/chapter-02.pdf) | 19 | `54eddab2d7f2284a6e4bd82c5da34cb1fd71baa7af11e7db576ada41b10b3a0d` |
+| [answer-key.pdf](../../typesetting/ch02/answer-key.pdf) | 14 | `d9ef81ef44157f08d4e9f1e1a450eaa761b30031c986ecbb61608534df3c1608` |
+
+**Final independent presentation verdict: PASS, 22 October 2026.** No presentation repair is outstanding. The independent solve record remains unchanged at its pre-key hash.
