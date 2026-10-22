@@ -48,7 +48,7 @@
           "purpose": "Exercises 5–8; Group II starts on p.4"
         }
       ],
-      "verification": "Opening textual audit plus complete item audits of Exercises 1–2; later reused items still require scan-checked transcription.",
+      "verification": "Archived full item audits of Exercises1–2 reused as evidence. Fresh Exercise3 complete source audit and full-book structural inventory completed22 October2026. Exercises4–48 still need item-level linguistic audits.",
       "corrections": [
         {
           "location": "Exercise 4, introductory note; printed p. 2",
@@ -56,6 +56,25 @@
           "printed_reading": "55",
           "status": "resolved_by_page_image",
           "crosscheck": "cook_fb_1895_2, §55, printed p.38 / PDF page54"
+        }
+      ],
+      "active_audits": [
+        {
+          "record": "sources/audits/course-map/inventory.json",
+          "scope": "All48 exercise boundaries, source groups, terminal item counts, printed/PDF locators; structural audit only for Ex4–48.",
+          "printed_pages": "1–33",
+          "pdf_pages_1_based": [
+            9,
+            41
+          ],
+          "visually_checked": true
+        },
+        {
+          "record": "sources/audits/unit01-source/exercise-3.md",
+          "scope": "Complete Exercise3 prompt transcription plus ten additional lexical selections",
+          "printed_page": 2,
+          "pdf_page_1_based": 10,
+          "visually_checked": true
         }
       ]
     },
@@ -144,7 +163,40 @@
           "visually_checked": true
         }
       ],
-      "verification": "Title, preface vii, and chapter-specific grammar, vocabulary, and reader excerpts checked against page images; detailed records in chapter evidence files. Reader I is not fully item-audited."
+      "verification": "Inherited evidence retained; fresh expanded nominal/article/copula source audit and complete first-day Creation span checked. Remainder of Reader I and later reading boundaries are not comprehensively audited.",
+      "active_audits": [
+        {
+          "record": "sources/audits/unit01-source/expanded-grammar.md",
+          "scope": "Complete relevant nominal patterns §§38–53, full article §84, indicative copula §138, selected exceptional nouns; morphological composition distinguished from textual attestation.",
+          "printed_pages": [
+            "26–37",
+            "50",
+            "78–79",
+            "324"
+          ],
+          "visually_checked": true
+        },
+        {
+          "record": "sources/audits/unit01-source/creation-first-day.md",
+          "scope": "Contiguous first-day narrative through ān dæg with source notes;69 words.",
+          "printed_pages": "123–124",
+          "pdf_pages_1_based": [
+            139,
+            140
+          ],
+          "visually_checked": true
+        },
+        {
+          "record": "sources/audits/course-map/report.md",
+          "scope": "Reader contents headings/start pages only",
+          "printed_pages": "xiii–xiv",
+          "pdf_pages_1_based": [
+            15,
+            16
+          ],
+          "visually_checked": true
+        }
+      ]
     }
   ],
   "documentation": [],
@@ -223,6 +275,26 @@
       "used_section": "5, opening discussion of neuter a-stems",
       "purpose": "Corroboration of traditional -u/zero conditioning and disyllabic/analogical variation; not a change of the selected learner dialect.",
       "accessed": "2026-10-22"
+    },
+    {
+      "source_id": "wright_oe_1914",
+      "authors": [
+        "Joseph Wright",
+        "Elizabeth Mary Wright"
+      ],
+      "title": "Old English Grammar",
+      "edition": "Second edition",
+      "publication_year": 1914,
+      "publisher": "Oxford University Press",
+      "pdf_url": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Old_English_grammar_%28IA_oldenglishgramma00wrig%29.pdf",
+      "archive_identifier": "oldenglishgramma00wrig",
+      "used_page": 187,
+      "pdf_page_1_based": 207,
+      "section": "388",
+      "image": "sources/audits/supplementary/wright-p187.png",
+      "visually_checked": true,
+      "purpose": "Explicit reconstructed genitive plural *sǣwa; retain asterisk and withhold learning milestones for this cell.",
+      "accessed": "2026-10-22"
     }
   ],
   "inheritance": {
@@ -245,6 +317,11 @@
       "path": "sources/cache/stenroos-2024.pdf",
       "bytes": 264782,
       "sha256": "7da8b3e2e343b580fa5e7bb6ff8b45f9730b01266e9e045252c14adc5b12d8d2"
+    },
+    {
+      "path": "sources/cache/wright_oe_1914.pdf",
+      "bytes": 16242022,
+      "sha256": "04e1fed8e1fa1c54d9f9b1a1754598232946f44d411541a7248905a9ccdbce9c"
     }
   ],
   "structural_models": [

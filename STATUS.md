@@ -1,6 +1,6 @@
 # Status
 
-Seeded 22 October 2026 for a fresh session in `oe-cook-lambdin-style`.
+Updated 22 October 2026. Course planning is reconciled; Unit 1 source/dependency work is in progress.
 
 ## Established direction
 
@@ -13,15 +13,13 @@ Seeded 22 October 2026 for a fresh session in `oe-cook-lambdin-style`.
 
 ## What is present
 
-The repository contains active instructions, a provisional course plan and Cook map, a first-unit brief, templates, empty cumulative registers, a source registry and inherited-audit index, and the earlier course's evidence and PDFs under `reference/previous-course/`. The provenance record identifies the exact parent revision. Local scan caches are available and ignored by Git.
-
-The Beads queue is seeded through the first unit's final review and export. `docs/SEED_TASKS.md` identifies the issues and their dependencies. Run `bd ready` for the current actionable work; the Markdown list is only a seed-time index.
+A settled eighteen-unit outline and complete planning map of Cook's 48 exercises / 644 numbered items. All source exercise pages were inspected at structural level; later sets still need individual linguistic audits. The first-unit brief retains all 46 prompts from I.1–3 and the complete first-day Creation reading. Independent reports are under `sources/audits/` and `curriculum/proposals/sequence/`. The previous course remains a preserved evidence snapshot.
 
 ## What remains open
 
-No active chapter or coverage contract has been written. No new-course vocabulary, form, or construction has a teaching milestone. The proposed first unit combines Exercises 1–3; only Exercises 1–2 have complete inherited item audits. Exercise 3 and later allocation require work. The earlier course's deferred readings are candidates to reassess, not inherited deferrals.
+No active chapter prose or coverage contract has yet been written. No new-course vocabulary, form, or construction has a teaching milestone. Exercise 3 now has a complete source transcription; expanded paradigms and reading dependencies are being reconciled. The opening, earth and darkness clauses fall inside the selected contiguous narrative; the lights and birds clauses await explicit new-contract deferral.
 
-The immediate next work is to map Cook's exercise sequence, refine the full-paradigm course outline, and audit the opening unit's remaining sources in parallel. Reconcile those results before preparing its contract and prose. The new session should start with `docs/HANDOFF.md` and `prompts/START_HERE.txt`.
+The next stage is the evidence-backed Unit 1 form/construction inventory, then the contract, authorship, independent solving, complete exports, register integration and local checkpoint. Follow the current Beads graph. Do not draft Unit 2 ahead of completion.
 
 No remote, publication, or distribution has been configured. The previous repository remains the preserved experiment.
 
