@@ -1,6 +1,6 @@
 # Status
 
-Updated 22 October 2026. Course planning and the Unit 1 contract are settled; the complete learner text and separate key have passed independent linguistic review and are being typeset.
+Updated 22 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Unit 1 is complete and reviewed**, with full learner/key exports and active teaching records.
 
 ## Established direction
 
@@ -15,11 +15,17 @@ Updated 22 October 2026. Course planning and the Unit 1 contract are settled; th
 
 A settled eighteen-unit outline and complete planning map of Cook's 48 exercises / 644 numbered items. All source exercise pages were inspected at structural level; later sets still need individual linguistic audits. The first-unit brief retains all 46 prompts from I.1–3 and the complete first-day Creation reading. Independent reports are under `sources/audits/` and `curriculum/proposals/sequence/`. The previous course remains a preserved evidence snapshot.
 
-## What remains open
+## Completed Unit 1
 
-The active [Unit 1 contract](chapters/ch01/coverage.json) records 92 graded tasks, 401 forms, 70 senses and 46 constructions. It assigns all 46 Cook prompts and the contiguous first-day reading, subsumes the earlier three short first-day records, and explicitly defers the other 598 Cook items and two audited reader candidates. No learner prose or key existed at contract approval. No new-course teaching milestone is merged before review.
+The active [Unit 1 contract](chapters/ch01/coverage.json) records 92 graded tasks, 401 forms, 70 senses and 46 constructions. It assigns all 46 Cook prompts and the contiguous first-day reading, subsumes the earlier three short first-day records, and explicitly defers the other 598 Cook items and two audited reader candidates. The contract was saved at `09990cf` before any learner prose or key. The complete text passed independent solving and linguistic review at `dc3ca6c`.
 
-The learner text and separate key contain all 92 tasks and pass structural/source parity checks. Independent solving and linguistic review passed under `oec-review`; all three findings were repaired and verified. Complete exports are in progress under `oec-typeset`; every-page inspection, register integration and the final local checkpoint remain. Follow the current Beads graph. Do not draft Unit 2 ahead of completion.
+The [learner PDF](typesetting/ch01/chapter-01.pdf) has 22 pages; the [separate key PDF](typesetting/ch01/answer-key.pdf) has 12. All 34 pages and complete content parity passed inspection; no material review finding remains. See [the review](chapters/ch01/review.md) and [export record](typesetting/ch01/README.md). The learner has 44 noun entries, complete relevant paradigms, meaningful case/composition practice, two independent mini-readings and the supported 69-word first-day narrative.
+
+The [lexical register](lexicon/entries.json) and [grammar register](curriculum/grammar.json) now contain only reviewed Unit 1 teaching: 326 productive forms, 52 recognition-only forms, 49 productive senses, 28 productive constructions and five recognition-only constructions. Supplied material remains separately recorded with null learning milestones; reconstructed **\*sǣwa** remains reference only. No archived milestone has been imported.
+
+## Next work
+
+Unit 2 has not been drafted. Its next source/dependency work concerns personal pronouns and weak indicative verbs under the settled plan. Read the complete active Unit 1 contract and actual cumulative registers before planning it. Query Beads rather than reopening the finished seed tasks; follow [the handoff](docs/HANDOFF.md). Complete one requested unit at a time.
 
 No remote, publication, or distribution has been configured. The previous repository remains the preserved experiment.
 

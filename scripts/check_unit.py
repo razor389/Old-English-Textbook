@@ -159,9 +159,14 @@ if args.tex:
             for t in tasks:
                 if t['origin'] == 'exact_source':
                     check(t['prompt'] in pdftext, 'PDF missing exact prompt ' + t['item_id'])
-            check(clean(reading['source_text']) in pdftext, 'PDF reading span differs or is interrupted')
+            # Xpdf 4.00 inserts spaces after some macrons in this Cambria PDF.
+            # Compare every Unicode character except whitespace; the separate
+            # page review must verify actual word boundaries and the intact span.
+            reading_chars = re.sub(r'\s+', '', clean(reading['source_text']))
+            pdf_chars = re.sub(r'\s+', '', pdftext)
+            check(reading_chars in pdf_chars, 'PDF reading characters differ or the span is interrupted')
         log = (out / 'build' / (stem + '.log')).read_text(encoding='utf-8', errors='replace')
-        for warning in ['Missing character:', 'Overfull \\hbox', 'Overfull \\vbox', 'Font shape']:
+        for warning in ['Missing character:', 'Overfull \\hbox', 'Overfull \\vbox', 'Underfull \\hbox', 'Underfull \\vbox', 'Font shape']:
             check(warning not in log, stem + ': log contains ' + warning)
 
 if errors:

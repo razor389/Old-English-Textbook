@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "chapter_id": "ch01",
-  "status": "reviewed_pending_exports",
+  "status": "reviewed_complete",
   "contract_date": "2026-10-22",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [],
@@ -62691,7 +62691,7 @@
       ]
     }
   ],
-  "presentation_review_status": "pending",
+  "presentation_review_status": "passed",
   "textual_review": {
     "report": "chapters/ch01/review.md",
     "independent_solutions": "chapters/ch01/independent-solutions.md",
@@ -62702,6 +62702,37 @@
       "ROOT-R01",
       "ROOT-R02",
       "ROOT-R03"
-    ]
+    ],
+    "checkpoint": "dc3ca6c"
+  },
+  "presentation_review": {
+    "report": "chapters/ch01/review.md",
+    "export_record": "typesetting/ch01/README.md",
+    "learner_pages": 22,
+    "key_pages": 12,
+    "all_pages_inspected": true,
+    "date": "2026-10-22",
+    "resolved_findings": [
+      "PAGE-R01",
+      "PAGE-R02",
+      "PAGE-R03",
+      "PAGE-R04"
+    ],
+    "note": "PAGE-R04 was a viewing discrepancy, resolved by fresh direct inspection and identical image hashes; no further TeX defect was substantiated."
+  },
+  "contract_checkpoint": "09990cf",
+  "completion": {
+    "date": "2026-10-22",
+    "learner_pdf": "typesetting/ch01/chapter-01.pdf",
+    "key_pdf": "typesetting/ch01/answer-key.pdf",
+    "active_registers": [
+      "lexicon/entries.json",
+      "curriculum/grammar.json"
+    ],
+    "register_integration": "Exact canonical proposed milestones applied after textual and presentation review; no inherited teaching.",
+    "learner_pdf_sha256": "2a59aae475ca3bf98d07d73d7a7af3f9656e5caf2c0c8547e38e9a4f760064d0",
+    "key_pdf_sha256": "3d5a72d2d5f6f78010235e76dceb6eb5268db24328b102745f439845359d693f",
+    "validation_command": "python -X utf8 scripts/check_unit.py --draft --tex",
+    "outstanding_material_findings": []
   }
 }

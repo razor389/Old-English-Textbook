@@ -11,7 +11,7 @@ Settled planning allocation, 22 October 2026. All **48 exercises / 644 numbered 
 | I | 1 | 16 | 1 / 9 | U1 (items 1–16) |
 | I | 2 | 12 | 1 / 9 | U1 (items 1–12) |
 | I | 3 | 18 | 2 / 10 | U1 (items 1–18) |
-| I | 4 | 18 | 2 / 10 | U3 (items 1–17); U7 (items 18–18) |
+| I | 4 | 18 | 2 / 10 | U3 (items 1–17); U7 (item 18) |
 | I | 5 | 16 | 3 / 11 | U5 (items 1–16) |
 | I | 6 | 16 | 3 / 11 | U7 (items 1–16) |
 | I | 7 | 17 | 3–4 / 11–12 | U7 (items 1–17) |
@@ -63,9 +63,9 @@ Preserve the joint printed headings **X, XI** for Exercise 31 and **XII, XIII** 
 
 ## Opening-unit evidence and source dispositions
 
-The first contract will assign I.1.1–16, I.2.1–12 and I.3.1–18 without omission or altered English prompts. [Exercises 1](../reference/previous-course/sources/transcriptions/ch01/exercise-1.md) and [2](../reference/previous-course/sources/transcriptions/ch02/exercise-2.md) reuse archived transcriptions; [Exercise 3](../sources/audits/unit01-source/exercise-3.md) has a fresh complete audit. Old teaching fields do not carry over.
+The [Unit 1 contract](../chapters/ch01/coverage.json) assigns I.1.1–16, I.2.1–12 and I.3.1–18 without omission or altered English prompts. [Exercises 1](../reference/previous-course/sources/transcriptions/ch01/exercise-1.md) and [2](../reference/previous-course/sources/transcriptions/ch02/exercise-2.md) reuse archived transcriptions; [Exercise 3](../sources/audits/unit01-source/exercise-3.md) has a fresh complete audit. Old teaching fields do not carry over.
 
-The selected guided reading is FB Reader I, p.123 editorial prose lines1–5 and p.124 lines1–3 (counted against the printed marginal5), PDF139–140, through **ān dæg**. It comprises the entire first-day narrative. [Exact text, note cues, and normalization](../sources/audits/unit01-source/creation-first-day.md) remain separate. The old opening sentence, earth clause, and darkness clause all fall inside this new span; their historical deferments are not inherited. The previously audited lights clause (p125 lines12–13) and birds clause (p126 lines12–13) will receive explicit new-course deferrals in the opening contract because their number/adjective or wish/passive dependencies belong to later units.
+The selected guided reading is FB Reader I, p.123 editorial prose lines 1–5 and p.124 lines 1–3 (counted against the printed marginal 5), PDF139–140, through **ān dæg**. It comprises the entire first-day narrative. [Exact text, note cues, and normalization](../sources/audits/unit01-source/creation-first-day.md) remain separate. The old opening sentence, earth clause, and darkness clause all fall inside this new span; their historical deferments are not inherited. The previously audited lights clause (p.125 lines 12–13) and birds clause (p.126 lines 12–13) have explicit new-course deferrals in the opening contract, to Units 3 and 7 respectively, because their number/adjective or wish/passive dependencies belong to those later units.
 
 ## Audit limits
 

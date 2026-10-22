@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "chapter_id": "ch01",
-  "status": "proposal_awaiting_independent_review",
+  "status": "reviewed_and_integrated",
   "basis": "The canonical lexical and grammar inventories in coverage.json; no inherited milestones.",
   "canonical_inventory_path": "chapters/ch01/coverage.json",
   "lexical_inventory": {
@@ -148,5 +148,21 @@
     "Unused mass/abstract plural morphology is recognition only; no extra plural sense is proposed.",
     "Proper God has singular scope and ðīestru plural-only scope.",
     "Do not merge active registers until required reviews and complete exports pass."
-  ]
+  ],
+  "integration": {
+    "date": "2026-10-22",
+    "coordinator": "root",
+    "review": "chapters/ch01/review.md",
+    "destinations": [
+      "lexicon/entries.json",
+      "curriculum/grammar.json"
+    ],
+    "result": "All canonical proposed milestones matched exactly; all evidence and scope fields retained; no inherited milestones. The reconstructed sea genitive remains reference-only with null milestones.",
+    "record_counts": {
+      "lemmas": 69,
+      "forms": 401,
+      "senses": 70,
+      "constructions": 46
+    }
+  }
 }

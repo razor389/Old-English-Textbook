@@ -36,7 +36,7 @@ At contract approval, all 517 requirement IDs, 92 key IDs and source prompt link
 
 Before independent learner review, the integration check corrected EXAMPLE06's origin label to adaptation, matching the already recorded provenance of CASE06. Its language and learning requirements are unchanged. The author was also asked to consolidate repeated directions in the new case/composition/copula tasks and escape visible asterisks in the error-diagnosis task. Cook's prompts remain unchanged.
 
-Independent textual review passed on 22 October 2026. The reviewer recorded all 92 solutions before opening the key, then checked every model, paradigm, vocabulary row, source prompt and reading dependency. See [review.md](review.md) for the evidence and reviewed file identities. Export/page review remains pending.
+Independent textual review passed on 22 October 2026. The reviewer recorded all 92 solutions before opening the key, then checked every model, paradigm, vocabulary row, source prompt and reading dependency. See [review.md](review.md) for the evidence and reviewed file identities.
 
 Coordinator draft findings, all repaired and independently verified:
 
@@ -45,3 +45,17 @@ Coordinator draft findings, all repaired and independently verified:
 - **ROOT-R03, wording:** Call Cook's length mark in **wǣstm** erroneous under correction C01, not merely “obsolete.”
 
 The final REVIEW03 prompt supplies the singular English context; its key explicitly preserves the spelling's potential plural analysis. The article and correction wording were repaired as specified. No material textual finding remains. The original independent solve record is preserved without retroactively incorporating the repaired prompt.
+
+## Export checks
+
+The complete LuaLaTeX exports have 22 learner pages and 12 key pages. All pages were inspected. Initial layout repairs kept the CASE02/CASE10 prompts, frames and supplied help together, and kept the key's first paradigm label and Cook section heading with their content. A later apparent support-header alignment problem was resolved by direct inspection of a freshly named render; identical image hashes showed that no further TeX layout change was needed. Final PDF identities and the independent presentation verdict are recorded in [review.md](review.md) and [the export record](../../typesetting/ch01/README.md).
+
+Separate content reconciliation compared all 183 learner and 107 key paragraphs, 17 learner and two key tables, all 44 vocabulary entries with their 264 original fields, the complete reading help, every source note, and all task/teaching/example/key IDs. The Markdown masters are unchanged from textual acceptance. Xpdf 4.00 inserts some artificial spaces after macrons in extracted text; the reading comparison therefore preserves every non-whitespace Unicode character, while actual word boundaries were checked visually. The 46 source prompts still use exact-string checks.
+
+The selected source-cache files retain their registered hashes. All 132 archived evidence files retain their provenance hashes; the historical snapshot has not been edited.
+
+## Register integration
+
+After textual and every-page review passed, the coordinator integrated all 69 lemmas, 401 forms, 70 senses and 46 construction records. An independent audit of the transform and a post-integration comparison found exact agreement with every proposed milestone and preserved all evidence and scope fields. Forms comprise 326 production-plus-recognition records, 52 recognition-only, 22 supplied and one reference-only reconstruction. Senses comprise 49 production-plus-recognition and 21 supplied records; constructions comprise 28 production-plus-recognition, five recognition-only and 13 supplied records. Supplied and reference records have no learned milestones. All active milestones originate in this new Unit 1.
+
+The completion sequence updates the shared status/handoff, exports Beads and saves the finished artifacts locally. No Unit 2 prose was drafted during this work.

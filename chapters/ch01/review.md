@@ -1,6 +1,6 @@
 # Unit 1 independent review
 
-**Textual verdict: pass after repairs, 22 October 2026. Export/page verdict: pending.** No material linguistic, dependency, source-allocation, or answer-key error remains in the reviewed Markdown. This verdict authorizes typesetting; it does not certify PDFs that have not yet been inspected.
+**Final independent verdict: PASS, 22 October 2026.** Textual and complete export/page review both pass after the verified repairs recorded below. No material linguistic, dependency, source-allocation, answer-key, or presentation finding remains. This verdict applies to the exact final learner and key PDF identities recorded at the end of this review.
 
 ## Independence and order
 
@@ -65,6 +65,81 @@ SHA-256 values at textual acceptance, before subsequent review-status integratio
 | coverage.json | `01059931a6625d33f48f6b688d884a524fd88cb3d2d1ca95b3f804897d4a2bd9` |
 | independent-solutions.md | `f3a5f1c37e318510ca989c9a23a05ab45d823c049335024a4d816d14633900c0` |
 
-## Export review still required
+## LuaLaTeX export review
 
-No PDF has yet been inspected. The complete learner and separate key must now be exported with LuaLaTeX, checked against the reviewed content, and inspected on every page for missing or clipped content, table breaks, note placement, and special characters. Record those results here before claiming complete page review. Active-register integration, final Beads/status updates, and the recoverable local revision also remain coordinator completion work.
+At textual acceptance no PDF had yet been inspected. The complete learner and separate key required LuaLaTeX export, comparison with the reviewed content, and inspection on every page for missing or clipped content, table breaks, note placement, and special characters. The subsequent inspection record follows. Active-register integration, final Beads/status updates, and the recoverable local revision remain coordinator completion work.
+
+### Initial export inspection and required pagination repairs
+
+The first learner export (22 pages) and first key export (13 pages) were inspected in their entirety at 150 dpi. The inspected images were `typesetting/ch01/build/chapter-01-p01.png` through `chapter-01-p22.png` and `answer-key-p01.png` through `answer-key-p13.png`. Every table, vocabulary row, task, reading-support row, key explanation, and source note was visible; special letters and macrons were legible. The following presentation repairs were requested before final acceptance:
+
+| Finding | Initial location | Required repair |
+|---|---|---|
+| PAGE-R01 | Learner pp.13–14 and pp.14–15 | CASE02 and CASE10 split their supplied verb help away from their prompt/frame. Keep each complete task together. |
+| PAGE-R02 | Key pp.1–2 | “1. Fisc with the article” was detached from its table. Keep the answer cue with its paradigm. |
+| PAGE-R03 | Key pp.4–5 | Section 13's heading stood alone at the foot of p.4. Keep it with following content. |
+
+No other material page issue was found in that complete first inspection. The initial PDF and TeX parity check found all 387 nonempty learner content lines and all 130 key content lines, including each vocabulary field and every model paragraph. Comparison permits the documented vocabulary-column reflow and typographical/whitespace differences; it retains the linguistic characters and wording. Both Markdown hashes above remained unchanged. Xpdf text extraction inserts some artificial spaces after macron letters, so visual inspection remains necessary for the reading's actual word boundaries. The initial inspection left final acceptance pending the repaired, stable render and exact final PDF identities; both are verified below.
+
+### Complete inspection of the revised render
+
+The reviewer then inspected every uniquely named `final-chapter-01-p01.png` through `final-chapter-01-p22.png` and `final-answer-key-p01.png` through `final-answer-key-p12.png`. These replace the initial images. PAGE-R01–03 were visibly resolved. A further apparent finding, **PAGE-R04**, concerned the first support-table header on learner p.18: its two labels appeared together in the initial view. Fresh direct inspection of `stable-pass-p18.png` at original detail shows the labels correctly separated and aligned with their body columns. Both images have identical SHA-256 `524c38c2e7b5ce23c2b9de675e85a1af07330f45b11a566d83651d4deaab7c78`, independently verified by the reviewer. PAGE-R04 is therefore closed as a viewing discrepancy, without a substantiated TeX/PDF defect or a linguistic change. Final copied-PDF identities are confirmed below.
+
+| Learner page | Content inspected | Result |
+|---|---|---|
+| 1 | Title, special-letter/quantity explanation, case table, article introduction | Pass |
+| 2 | Full article, instrumental reference, fisc/męte table and limits | Pass |
+| 3 | dæg/hwæl and fugol/morgen tables; syncope and weight rules | Pass |
+| 4 | hof/sǣd and trēo tables; disyllabic introduction | Pass |
+| 5 | Four disyllabic neuter paradigms, strong feminine table and conditions | Pass |
+| 6 | -nes/-ung and weak paradigms, individual-pattern introduction | Pass |
+| 7 | mann/niht, starred reconstructed sea cell, plural-only darkness, copula introduction | Pass |
+| 8 | Complete indicative copula, subject/predicate and locative/genitive examples | Pass |
+| 9 | Nested genitive, direct object, giving and separation, vocabulary directions | Pass |
+| 10 | Vocabulary rows ǣfen through ðīestru, full diagnostics and limits | Pass |
+| 11 | Vocabulary rows tācen through brādnes, full diagnostics and limits | Pass |
+| 12 | Remaining vocabulary through hof; form tasks 1–3 | Pass |
+| 13 | Form tasks 4–8, all copula tasks, CASE01–02 with complete supplied help | Pass; PAGE-R01 resolved here |
+| 14 | CASE03–10 with complete supplied help, Cook directions | Pass; PAGE-R01 resolved here |
+| 15 | Remaining Cook directions, all Exercise 1, Exercise 2 items 1–6 | Pass |
+| 16 | Exercise 2 items 7–12 and all Exercise 3; exact “The seeds of the grass” visible | Pass |
+| 17 | Eight compositions, both complete mini-readings, original-reading introduction | Pass |
+| 18 | Complete 69-word original, support introduction and first seven support rows | Pass; header verified in fresh original-detail view |
+| 19 | Remaining six support rows with proper repeated header; reading questions 1–3 | Pass |
+| 20 | Reading questions 4–8 and all review tasks; error stars and singular clarification visible | Pass |
+| 21 | Source notes 1–12 and opening of 13, including reconstructed sea and C01 evidence | Pass |
+| 22 | Remainder of note 13 and complete notes 14–15; final source/line conventions | Pass |
+
+| Key page | Content inspected | Result |
+|---|---|---|
+| 1 | Model-use instructions, alternatives, correction and reconstructed-form limit | Pass |
+| 2 | Section 11 and F01–06, both complete answer tables and diagnostics | Pass; PAGE-R02 resolved |
+| 3 | F07–08, all six copula pairs and explanation, CASE01–03 | Pass |
+| 4 | CASE04–10, complete models, meanings and diagnostics | Pass |
+| 5 | Section 13 heading, Exercise 1 guidance and all 16 models | Pass; PAGE-R03 resolved |
+| 6 | All 12 Exercise 2 models and Exercise 3 guidance | Pass |
+| 7 | Exercise 3 items 1–17, complete models and analyses | Pass |
+| 8 | Exercise 3 item 18, all eight compositions, MINI01 | Pass |
+| 9 | MINI02 complete translation/rewrite/analysis; READ01–04 | Pass |
+| 10 | READ05–08, entire independent-model translation and interpretive alternatives | Pass |
+| 11 | All four review answers, including explicit case/number ambiguity in REVIEW03 | Pass |
+| 12 | Complete key source note and final text | Pass |
+
+The 69 reading words were read directly from the p.18 image, including their actual spaces, macrons, hooked e, eth, punctuation, command and one-day close. No artificial intra-word spaces appear in the visual reading. All 24 noun exemplars, the article/copula, 44 vocabulary rows, 92 task/answer pairs, and all source notes are present across the inspected pages. All 22 learner pages and 12 key pages pass visual review.
+
+### Accepted final files and parity
+
+The final destination files were read and hashed after the coordinator copied them. Each is byte-identical to its stable build PDF:
+
+| Final file | Pages | SHA-256 |
+|---|---|---|
+| [chapter-01.pdf](../../typesetting/ch01/chapter-01.pdf) | 22 | `2a59aae475ca3bf98d07d73d7a7af3f9656e5caf2c0c8547e38e9a4f760064d0` |
+| [answer-key.pdf](../../typesetting/ch01/answer-key.pdf) | 12 | `3d5a72d2d5f6f78010235e76dceb6eb5268db24328b102745f439845359d693f` |
+
+The latest learner PDF was rendered once more as `verified-chapter-01-p01.png` through `verified-chapter-01-p22.png`. The reviewer independently compared all 22 bitmap SHA-256 values with the inspected `final-chapter-01-*` images: **zero differences**. The stable key PDF retains the identity associated with all 12 inspected final key images.
+
+The final full-content comparison was repeated on these stable PDF bytes and the final TeX. All **387 learner content lines** and **130 key content lines** match after documented display transformations, with **zero unmatched content lines** in either TeX or PDF. Both ordered sets of **92 task IDs** agree with the Markdown masters. All **46 Cook prompts** occur with their exact English wording and punctuation in the extracted learner PDF. The entire **69-word original reading** matches every Unicode character and punctuation mark after disregarding extraction whitespace; the actual word boundaries were checked visually. No Unicode replacement character occurs in the extracted files.
+
+The learner and key Markdown hashes still equal the textual-acceptance hashes above. The independent-solutions hash is also unchanged, preserving the solve-before-key record. The reviewed LuaLaTeX logs identify LuaHBTeX/TeX Live 2026, successful 22-page and 12-page outputs, and no overfull/underfull boxes, missing-character messages, or warnings in the checked logs.
+
+**Review disposition: PASS.** All required textual and every-page checks are complete for the identified final files. Final register/status integration, Beads closure/export, and the recoverable Git checkpoint are coordinator completion work, not unresolved review findings.

@@ -4,7 +4,9 @@ A new grammar-led Old English course using Cook's exercises and vocabulary, with
 
 Start with [STATUS.md](STATUS.md), [AGENTS.md](AGENTS.md), and the [course plan](curriculum/COURSE_PLAN.md). The [handoff](docs/HANDOFF.md) gives the next session's starting task; [prompts/START_HERE.txt](prompts/START_HERE.txt) can be pasted directly into it.
 
-The eighteen-unit course outline and the mapping of all 644 Cook items are settled. [Unit 1](chapters/ch01/student.md), with its [separate key](chapters/ch01/answer-key.md), has passed independent linguistic review and is being typeset. Its [learning contract](chapters/ch01/coverage.json) was saved before prose. Grammar and vocabulary milestones will be merged after complete exports and every-page inspection.
+The [eighteen-unit outline](curriculum/COURSE_PLAN.md) and [mapping of all 644 Cook items](curriculum/COOK_MAP.md) are settled. **Unit 1 is complete:** [learner PDF](typesetting/ch01/chapter-01.pdf), 22 pages, and [separate key PDF](typesetting/ch01/answer-key.pdf), 12 pages. It contains all 46 assigned Cook prompts, 46 additional tasks, complete relevant paradigms, 44 noun entries, and a connected guided reading. All tasks were independently solved and every exported page inspected.
+
+The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/answer-key.md), [contract saved before prose](chapters/ch01/coverage.json), and [review record](chapters/ch01/review.md) preserve the teaching scope and evidence. Reviewed grammar and vocabulary milestones are integrated into the active registers. No later unit has been drafted.
 
 The earlier two-chapter experiment is preserved under [reference/previous-course](reference/previous-course/README.md), with its source evidence, corrections, and complete PDFs. Its learning milestones do not apply to this course.
 

@@ -2,7 +2,9 @@
 
 Markdown is the editorial master. `book-layout.tex` carries forward the previous course's LuaLaTeX/Cambria layout: 165 × 241 mm, 11-point body text, 14.3-point leading, restrained black headings, and separate learner/key documents. Its fonts and Old English characters were inspected in the earlier complete PDFs. The generic running-title macro is new; every new unit still needs a fresh rendered-page check.
 
-Use `chapter-template.tex` as a minimal document shell. For an actual unit, create `typesetting/ch01/`, put complete learner and key TeX files there, and input `../book-layout.tex`. Set `\runningtitle` before the input. Build from that directory with LuaLaTeX, writing products to its ignored `build/` directory. Run sufficient passes for stable references.
+The complete [Unit 1 exports](ch01/README.md) are reviewed: [learner PDF](ch01/chapter-01.pdf), 22 pages, and [key PDF](ch01/answer-key.pdf), 12 pages. Their source TeX, complete-content checks, page ledger and reproduction instructions are retained.
+
+Use `chapter-template.tex` as a minimal document shell for later units. Create a unit directory, put complete learner and key TeX files there, and input `../book-layout.tex`. Set `\runningtitle` before the input. Build from that directory with LuaLaTeX, writing products to its ignored `build/` directory. Run sufficient passes for stable references.
 
 Compare all content with Markdown: paradigms, vocabulary, source prompts, added tasks, reading support, keys, IDs, and notes. Inspect every page and check the logs for missing characters, font substitutions, and box warnings. Copy the final complete PDFs out of `build/` only after review. Preserve stable IDs in TeX comments.
 
