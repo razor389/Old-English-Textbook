@@ -192,7 +192,8 @@
     "resolved_prior_deferral_ids": [],
     "new_cook_assignments": [],
     "new_exact_source_assignment": "FB-I-CREATION-SABBATH-01",
-    "note": "The Sabbath paragraph is a new active source span. No earlier assigned item is reassigned, and no earlier deferral is silently resolved."
+    "note": "The Sabbath paragraph is a new active source span. No earlier assigned item is reassigned, and no earlier deferral is silently resolved.",
+    "carry_forward_lf_sha256": "9ef1920c76b25df15a89851c9de117396d0ba2c38ac60849c4a1955d4e069e17"
   },
   "assigned_items": [
     {
@@ -30797,39 +30798,48 @@
   "analysis_inputs": [
     {
       "path": "curriculum/UNIT_02_BRIEF.md",
-      "sha256": "52d3148748d0897f6e98601975e45cda532300d4fa17a6cf9c8c2eb50f672098"
+      "sha256": "52d3148748d0897f6e98601975e45cda532300d4fa17a6cf9c8c2eb50f672098",
+      "lf_sha256": "52d3148748d0897f6e98601975e45cda532300d4fa17a6cf9c8c2eb50f672098"
     },
     {
       "path": "sources/audits/unit02-grammar/paradigms.json",
-      "sha256": "b15464c9adde174d0f4e90857c8be021a9c9bd1647bb45ffb6634633df72b694"
+      "sha256": "b15464c9adde174d0f4e90857c8be021a9c9bd1647bb45ffb6634633df72b694",
+      "lf_sha256": "a06df5d47ab5ac41aa479e807dcd46b0a7299c162e7391dd9f4a640289fed816"
     },
     {
       "path": "sources/audits/unit02-grammar/report.md",
-      "sha256": "3e58d05493b365686ebdbe71cd5975f161d9dde6f97d9386378e8b06301d2704"
+      "sha256": "3e58d05493b365686ebdbe71cd5975f161d9dde6f97d9386378e8b06301d2704",
+      "lf_sha256": "3e58d05493b365686ebdbe71cd5975f161d9dde6f97d9386378e8b06301d2704"
     },
     {
       "path": "sources/audits/unit02-reading/audit.json",
-      "sha256": "6c94152431b1dcf0e693a51a5ba8b5cb80889e72fbe4ef7cdc422de422e76b36"
+      "sha256": "6c94152431b1dcf0e693a51a5ba8b5cb80889e72fbe4ef7cdc422de422e76b36",
+      "lf_sha256": "6e941625cef057dc4d5fd116598529548d4dc86c97b1dfa166567f49913f253e"
     },
     {
       "path": "sources/audits/unit02-reading/grammar-crosscheck.md",
-      "sha256": "7b82d1353f937d6828cd9ae54a8d86d5a99ddc8bf0a065ebc57ddf7210d48fb2"
+      "sha256": "7b82d1353f937d6828cd9ae54a8d86d5a99ddc8bf0a065ebc57ddf7210d48fb2",
+      "lf_sha256": "7b82d1353f937d6828cd9ae54a8d86d5a99ddc8bf0a065ebc57ddf7210d48fb2"
     },
     {
       "path": "curriculum/proposals/unit02/inventory.json",
-      "sha256": "482ccbe86a4b2e886e1cdfb591836b3e1b2c028f250d58c4a93511382cd545ec"
+      "sha256": "482ccbe86a4b2e886e1cdfb591836b3e1b2c028f250d58c4a93511382cd545ec",
+      "lf_sha256": "a251681153a36466f2cb9f356fc218ebda94f4efe50d0557560e9e3ef4a89260"
     },
     {
       "path": "curriculum/proposals/unit02/task-plan.json",
-      "sha256": "dce90166a61de7c4982f9efcab58fc092260e255fc21d3d7d67eb87cca1f0ce2"
+      "sha256": "dce90166a61de7c4982f9efcab58fc092260e255fc21d3d7d67eb87cca1f0ce2",
+      "lf_sha256": "6eb00111582ee9cf760a931f4f1ad753d7ce194901c0beac9a9d212e850fbe1b"
     },
     {
       "path": "curriculum/proposals/unit02/compositions.json",
-      "sha256": "f5ab11a2fee8bb0fb4dbe1f1625a38ff2d9ba133e957880503bb060c1e3afd36"
+      "sha256": "f5ab11a2fee8bb0fb4dbe1f1625a38ff2d9ba133e957880503bb060c1e3afd36",
+      "lf_sha256": "c163f04193a83b20c1f18b0225ca544ec604b8f9a525263eae7c458f7e604ee8"
     },
     {
       "path": "curriculum/proposals/unit02/prior-audit.json",
-      "sha256": "fe8fdf59a714072f87a7c16fdbc1fdbbaeab4fa7b7c7d8da6bdbe7fb5ed5180b"
+      "sha256": "fe8fdf59a714072f87a7c16fdbc1fdbbaeab4fa7b7c7d8da6bdbe7fb5ed5180b",
+      "lf_sha256": "76037b7ce87cdde960c3e8f20080258d7b1b3a96f990e06b361f94c7d82a0b05"
     }
   ],
   "authoring_rules": [
@@ -30854,7 +30864,14 @@
     "finish": "oec-u02-finish"
   },
   "review_status": "not_yet_drafted",
-  "amendments": [],
+  "amendments": [
+    {
+      "date": "2026-10-22",
+      "id": "U02-META-01",
+      "kind": "metadata_only",
+      "description": "Record saved pre-prose checkpoint and canonical LF hashes alongside raw CRLF worktree hashes. No source words, assignments, teaching scope or task prompts change."
+    }
+  ],
   "validation_at_contract": {
     "graded_tasks": 61,
     "verb_paradigms": 23,
@@ -30869,5 +30886,19 @@
     "complete": false,
     "registers_integrated": false,
     "pdfs_inspected": false
-  }
+  },
+  "contract_checkpoint": {
+    "git_commit": "b35fcdd",
+    "prose_absent_at_checkpoint": true,
+    "description": "Source audits, final task/dependency analysis, brief and canonical coverage saved before authorship."
+  },
+  "prior_files_lf_sha256": {
+    "chapters/ch01/coverage.json": "9ef1920c76b25df15a89851c9de117396d0ba2c38ac60849c4a1955d4e069e17",
+    "lexicon/entries.json": "93e7ac6a2c9d3c0ff66a000fd8fa3a660d256e0ec515157abd2bb0e20e33effb",
+    "curriculum/grammar.json": "a73880cf31d046d0d5f3343afa10709fe75f7ad048655989de2ce950213550d8",
+    "chapters/ch01/student.md": "b0bc5de674ae7e3532ca08474dba7509e99b623dac4056962bd69c4917820364",
+    "chapters/ch01/answer-key.md": "b09c138c489de87568c4212b2a5edd2589b7c2fdf3281266f262613bde3839c8"
+  },
+  "hash_convention": "Original raw working-file SHA-256 values retained. Companion LF hashes identify the same UTF-8 content under repository .gitattributes line-ending normalization; no linguistic characters are normalized by this comparison.",
+  "evidence_artifact_policy": "U02-DUAL modern publisher-preview page image is an ignored inspection artifact; its retained report records exact source locator, PDF hash and reproduction. Public-domain Cook/Wright inspection pages are retained."
 }

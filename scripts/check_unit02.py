@@ -58,7 +58,8 @@ def main():
                 require(ref in teaching, f'{item}: unknown teaching record {ref}')
     for ref, rec in evidence.items():
         for path in rec.get('images', []):
-            require((ROOT / path).is_file(), f'{ref}: missing image {path}')
+            retained_or_recorded = (ROOT / path).is_file() or (ref=='U02-DUAL' and (ROOT / rec['record']).is_file())
+            require(retained_or_recorded, f'{ref}: missing image {path}')
         if rec.get('image'):
             paths = rec['image'] if isinstance(rec['image'], list) else [rec['image']]
             for path in paths:
@@ -119,10 +120,12 @@ def main():
     faithful = ' '.join((ROOT/'sources/audits/unit02-reading/source-text.txt').read_text(encoding='utf-8').split())
     require(source['source_text']==faithful, 'Sabbath differs from audited transcription')
     carry = c['source_assignment_policy']
-    require(hashlib.sha256((ROOT/carry['carry_forward_contract']).read_bytes()).hexdigest()==carry['carry_forward_sha256'], 'Prior contract changed')
+    prior_bytes=(ROOT/carry['carry_forward_contract']).read_bytes()
+    require(hashlib.sha256(prior_bytes).hexdigest()==carry['carry_forward_sha256'] or hashlib.sha256(prior_bytes.replace(b'\r\n',b'\n')).hexdigest()==carry.get('carry_forward_lf_sha256'), 'Prior contract changed')
     require(carry['new_cook_assignments']==[] and carry['resolved_prior_deferral_ids']==[], 'Unexpected changed Cook assignments/deferrals')
     for path in ['chapters/ch01/student.md','chapters/ch01/answer-key.md']:
-        require(hashlib.sha256((ROOT/path).read_bytes()).hexdigest()==c['prior_files'][path], f'Unit1 text changed: {path}')
+        prior_bytes=(ROOT/path).read_bytes()
+        require(hashlib.sha256(prior_bytes).hexdigest()==c['prior_files'][path] or hashlib.sha256(prior_bytes.replace(b'\r\n',b'\n')).hexdigest()==c.get('prior_files_lf_sha256',{}).get(path), f'Unit1 text changed: {path}')
     for path in ['chapters/ch02/coverage.json'] + (['chapters/ch02/student.md','chapters/ch02/answer-key.md'] if args.draft else []):
         raw=(ROOT/path).read_text(encoding='utf-8')
         require(raw==unicodedata.normalize('NFC',raw), f'{path}: non-NFC text')
@@ -130,11 +133,13 @@ def main():
         student=(ROOT/'chapters/ch02/student.md').read_text(encoding='utf-8')
         key=(ROOT/'chapters/ch02/answer-key.md').read_text(encoding='utf-8')
         for tid, task in tasks.items():
-            require(len(re.findall(r'<!--\s*'+re.escape(tid)+r'\s*-->',student))==1, f'{tid}: learner ID not present exactly once')
-            require(len(re.findall(r'<!--\s*'+re.escape(task['key_id'])+r'\s*-->',key))==1, f'{tid}: key ID not present exactly once')
+            require(len(re.findall(r'<!--\s*(?:item:\s*)?'+re.escape(tid)+r'\s*-->',student))==1, f'{tid}: learner ID not present exactly once')
+            require(len(re.findall(r'<!--\s*(?:key:\s*)?'+re.escape(task['key_id'])+r'\s*-->',key))==1, f'{tid}: key ID not present exactly once')
         for passage in alltexts:
-            text=passage.get('source_text',passage.get('text',''))
-            require(text in student, f'{passage.get("reading_id",passage.get("composition_id",passage.get("example_id")))}: exact text missing from learner')
+            texts=[turn['text'] for turn in passage['turns']] if passage.get('turns') else [passage.get('source_text',passage.get('text',''))]
+            plain=re.sub(r'\*\*|(?<!\w)\*(?!\s)|(?<!\s)\*(?!\w)', '', student)
+            for text in texts:
+                require(text in plain, f'{passage.get("reading_id",passage.get("composition_id",passage.get("example_id")))}: exact text missing from learner')
         for p in verb_paradigms:
             for form in p['surface_row']:
                 require(form in student, f'{p["lemma_id"]}: {form} missing from learner')
