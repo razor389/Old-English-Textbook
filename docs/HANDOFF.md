@@ -1,6 +1,6 @@
 # Handoff to the next session
 
-The eighteen-unit outline and complete Cook mapping are settled. **Unit 1 is complete**, with reviewed learner/key text, 22-page learner and 12-page key PDFs, every-page inspection and integrated cumulative registers. Planning/source work is saved at `aab13d9`, the contract before prose at `09990cf`, and independent textual acceptance at `dc3ca6c`; the completed exports and records follow in local Git history. Do not restart the seed-time planning tasks.
+The eighteen-unit outline and complete Cook mapping are settled. **Unit 1 is complete**, with reviewed learner/key text, 22-page learner and 12-page key PDFs, every-page inspection and integrated cumulative registers. Planning/source work is saved at `aab13d9`, the contract before prose at `09990cf`, independent textual acceptance at `dc3ca6c`, and complete exports/registers at `fa067f4`. The final tracker export records the closed initial task chain. Do not restart the seed-time planning tasks.
 
 1. Read root `AGENTS.md`, `STATUS.md`, `EDITORIAL_POLICY.md`, and `docs/WORKFLOW.md`.
 2. Run `bd prime` and `bd ready`; read an actual ready issue by explicit ID before starting it. The initial planning/Unit 1 chain is finished. If the queue is empty when continuation is requested, create bounded Unit 2 source-audit and curriculum-analysis tasks with the normal reconciliation, contract, draft, review, export and finish dependencies.
