@@ -1,6 +1,6 @@
 # Status
 
-Updated 22 October 2026. Course planning and Unit 1 source/dependency analysis are reconciled; the first learning contract is approved before prose.
+Updated 22 October 2026. Course planning and the Unit 1 contract are settled; the complete learner text and separate key have passed independent linguistic review and are being typeset.
 
 ## Established direction
 
@@ -19,7 +19,7 @@ A settled eighteen-unit outline and complete planning map of Cook's 48 exercises
 
 The active [Unit 1 contract](chapters/ch01/coverage.json) records 92 graded tasks, 401 forms, 70 senses and 46 constructions. It assigns all 46 Cook prompts and the contiguous first-day reading, subsumes the earlier three short first-day records, and explicitly defers the other 598 Cook items and two audited reader candidates. No learner prose or key existed at contract approval. No new-course teaching milestone is merged before review.
 
-The next stages are authorship, independent solving, complete exports, register integration and the final local checkpoint. Follow the current Beads graph. Do not draft Unit 2 ahead of completion.
+The learner text and separate key contain all 92 tasks and pass structural/source parity checks. Independent solving and linguistic review passed under `oec-review`; all three findings were repaired and verified. Complete exports are in progress under `oec-typeset`; every-page inspection, register integration and the final local checkpoint remain. Follow the current Beads graph. Do not draft Unit 2 ahead of completion.
 
 No remote, publication, or distribution has been configured. The previous repository remains the preserved experiment.
 

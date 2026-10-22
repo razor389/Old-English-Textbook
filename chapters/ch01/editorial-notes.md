@@ -8,7 +8,7 @@ Contract approved 22 October 2026 **before learner prose or key existed**. The i
 
 The first-day Creation narrative is a contiguous 69-word extract, FB pp.123–124 / PDF139–140, through **ān dæg**. On p.123 the five prose lines are editorially counted from *On anginne*; on p.124 the first three are counted against printed marginal 5. They are not invented printed line labels. The faithful source transcript, displayed text and change record remain in [the reading audit](../../sources/audits/unit01-source/creation-first-day.md). Only apparatus cues and line/page breaks are removed. The earlier opening, earth and darkness records are assigned as parts of this span. The audited lights and birds candidates receive explicit new deferrals to Units 3 and 7 respectively, subject to their later contracts.
 
-The 38 additional practice tasks, eight reading questions, eight bounded illustrative examples and all prepared solutions are new teaching material. The reading itself is declared presentation normalization of an exact source span. The key must not be described as Cook's own key. Form tables composed from checked patterns are new morphological composition, not quotations or independent attestations of every cell.
+The 38 additional practice tasks and eight reading questions are new teaching material. Seven bounded illustrative examples are new composition; the separation example and its corresponding task response adapt the Creation clause by replacing **hē** with **God** and omitting initial **and**. The reading itself is declared presentation normalization of an exact source span. The prepared key must not be described as Cook's own key. Form tables composed from checked patterns are new morphological composition, not quotations or independent attestations of every cell.
 
 ## Bounded learning scope
 
@@ -34,4 +34,14 @@ At contract approval, all 517 requirement IDs, 92 key IDs and source prompt link
 
 ## Review amendments
 
-Pending independent review.
+Before independent learner review, the integration check corrected EXAMPLE06's origin label to adaptation, matching the already recorded provenance of CASE06. Its language and learning requirements are unchanged. The author was also asked to consolidate repeated directions in the new case/composition/copula tasks and escape visible asterisks in the error-diagnosis task. Cook's prompts remain unchanged.
+
+Independent textual review passed on 22 October 2026. The reviewer recorded all 92 solutions before opening the key, then checked every model, paradigm, vocabulary row, source prompt and reading dependency. See [review.md](review.md) for the evidence and reviewed file identities. Export/page review remains pending.
+
+Coordinator draft findings, all repaired and independently verified:
+
+- **ROOT-R01, material:** In REVIEW03, **God gescēop ðā eorðan** selects accusative by construction but does not distinguish singular from plural by its article/noun spelling alone. Add the intended English singular context to the new prompt, and explain in the key that number follows that context. The current answer overstates what **ðā** identifies. No new form or sense is needed.
+- **ROOT-R02, wording:** In the article explanation, replace ambiguous “the first forms shown” after the variant sentence with the explicit selected targets **ðǣm** and **ðāra**. In COMP07 commentary, describe **ðǣre** as agreeing with genitive **niht**, rather than implying its spelling uniquely marks genitive rather than dative.
+- **ROOT-R03, wording:** Call Cook's length mark in **wǣstm** erroneous under correction C01, not merely “obsolete.”
+
+The final REVIEW03 prompt supplies the singular English context; its key explicitly preserves the spelling's potential plural analysis. The article and correction wording were repaired as specified. No material textual finding remains. The original independent solve record is preserved without retroactively incorporating the repaired prompt.
