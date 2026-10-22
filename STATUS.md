@@ -25,7 +25,7 @@ The [lexical register](lexicon/entries.json) and [grammar register](curriculum/g
 
 ## Next work
 
-Unit 2 has not been drafted. Its next source/dependency work concerns personal pronouns and weak indicative verbs under the settled plan. Read the complete active Unit 1 contract and actual cumulative registers before planning it. Query Beads rather than reopening the finished seed tasks; follow [the handoff](docs/HANDOFF.md). Complete one requested unit at a time.
+Unit 2's source and curriculum analyses are complete under Beads epic `oec-u02`. The [brief](curriculum/UNIT_02_BRIEF.md) and [contract](chapters/ch02/coverage.json) reconcile 61 tasks, 23 complete verb paradigms, 40 pronoun cells, two new connected texts and the exact 61-word Sabbath paragraph. The coordinator's dependency checks pass against actual Unit 1 milestones. No Unit 2 learner prose has been drafted; the contract checkpoint precedes authorship. No Cook exercise is newly assigned, and earlier deferrals remain unchanged. Query Beads and follow [the handoff](docs/HANDOFF.md); complete this unit before drafting Unit 3.
 
 No remote, publication, or distribution has been configured. The previous repository remains the preserved experiment.
 

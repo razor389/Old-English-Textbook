@@ -1,0 +1,122 @@
+{
+  "status": "design_in_progress",
+  "read_actual_contracts": [
+    "chapters/ch01/coverage.json"
+  ],
+  "read_actual_registers": [
+    "lexicon/entries.json",
+    "curriculum/grammar.json"
+  ],
+  "only_prior_chapter": "ch01",
+  "source_file_sha256": {
+    "chapters/ch01/coverage.json": "d829e1e239a8e8452ca99bf8354db29d02f1e640941bfec5fbed647dd6577b27",
+    "lexicon/entries.json": "efa7b9e5d98e64fb7aa5925c8cd4a423a8940f28963115d135164417620fc909",
+    "curriculum/grammar.json": "cb6fad47334359ab4d5c24daebd5555bb6a5f3f3c4d042058dcd5971b7e84408"
+  },
+  "prior_counts": {
+    "lemmas": 69,
+    "forms": 401,
+    "productive_forms": 326,
+    "recognition_only_forms": 52,
+    "features": 46
+  },
+  "important_nonprior_records": [
+    {
+      "lemma_id": "tha-adverb",
+      "sense_ids": [
+        "tha-adverb-1"
+      ],
+      "form_ids": [
+        "tha-adverb-invariant"
+      ]
+    },
+    {
+      "lemma_id": "gewyrcean",
+      "sense_ids": [
+        "gewyrcean-1"
+      ],
+      "form_ids": [
+        "gewyrcean-past-participle"
+      ]
+    },
+    {
+      "lemma_id": "he",
+      "sense_ids": [
+        "he-1"
+      ],
+      "form_ids": [
+        "he-m-nom-sg",
+        "he-n-nom-sg"
+      ]
+    },
+    {
+      "lemma_id": "gedaelan",
+      "sense_ids": [
+        "gedaelan-1"
+      ],
+      "form_ids": [
+        "gedaelan-pret-3-sg"
+      ]
+    },
+    {
+      "lemma_id": "sellan",
+      "sense_ids": [
+        "sellan-give"
+      ],
+      "form_ids": [
+        "sellan-pret-3-sg"
+      ]
+    }
+  ],
+  "prior_construction_boundaries": [
+    {
+      "feature_id": "noun-coordination",
+      "description": "Coordinate nominal phrases with and; each article agrees with its own head.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01"
+    },
+    {
+      "feature_id": "subject-agreement",
+      "description": "Use the copula's appropriate number/person in the taught ordinary clauses.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01"
+    },
+    {
+      "feature_id": "genitive-relationship",
+      "description": "Produce limiting relational genitives. Follow Cook's exercise target: dependent first, head noun without its own article; retain the dependent's required article.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01"
+    },
+    {
+      "feature_id": "accusative-object",
+      "description": "Select accusative direct-object noun/article forms in explicitly supplied transitive finite-verb frames.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01"
+    },
+    {
+      "feature_id": "on-dative-location",
+      "description": "Use taught locative on with dative ('in/on'); this is a selected construction, not a universal spatial rule.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01"
+    },
+    {
+      "feature_id": "fram-dative-separation",
+      "description": "Use fram plus dative for the entity from which something is separated, in an explicitly supplied separating frame.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01"
+    },
+    {
+      "feature_id": "nested-genitive-phrase",
+      "description": "Preserve the head's externally governed case while its own limiting dependent remains genitive; the genitive article belongs to that dependent.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01"
+    },
+    {
+      "feature_id": "dative-recipient",
+      "description": "Use a dative recipient and accusative thing given in the explicitly supplied sealde frame; distinguish to/for-recipient from the direct object.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01"
+    }
+  ],
+  "source_assignment_rule": "No Cook items are assigned in Unit2. All Unit1 deferrals remain unchanged; the Sabbath passage is a new exact-source reading record, not an implicit assignment of deferred Creation material."
+}

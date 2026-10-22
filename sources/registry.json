@@ -214,8 +214,14 @@
             110
           ],
           "visually_checked": true
-        }
-      ]
+        },
+        "sources/audits/unit02-grammar/report.md",
+        "sources/audits/unit02-grammar/paradigms.json",
+        "sources/audits/unit02-reading/report.md",
+        "sources/audits/unit02-reading/audit.json",
+        "sources/audits/unit02-reading/grammar-crosscheck.md"
+      ],
+      "unit02_verification": "Complete selected personal-pronoun and weak present/preterite indicative inventory, bounded syntax and lexical entries, and Reader I final Sabbath paragraph p.128/PDF144 checked against page images. Additional Wright morphology and Ringe–Taylor dual-agreement corroboration recorded separately. This does not certify the remainder of the book."
     }
   ],
   "documentation": [],
@@ -318,7 +324,91 @@
         "pdf_page_1_based": 7,
         "image": "sources/audits/supplementary/wright-title.png",
         "visually_checked": true
+      },
+      "unit02_use": {
+        "purpose": "Independent corroboration of selected weak-verb morphology; no replacement of Cook quantities or blanket variant equivalence. Preliminary unsupported optional forms removed, not corrected in the source.",
+        "report": "sources/audits/unit02-reading/grammar-crosscheck.md",
+        "printed_to_pdf_offset": 20,
+        "visually_checked": true,
+        "pages": [
+          {
+            "printed_page": 151,
+            "pdf_page_1_based": 171,
+            "sections": "305",
+            "image": "sources/audits/unit02-reading/wright-pdf171-p151.png"
+          },
+          {
+            "printed_page": 248,
+            "pdf_page_1_based": 268,
+            "sections": "476",
+            "image": "sources/audits/unit02-reading/wright-pdf268-p248.png"
+          },
+          {
+            "printed_page": 266,
+            "pdf_page_1_based": 286,
+            "sections": "522",
+            "image": "sources/audits/unit02-reading/wright-pdf286-p266.png"
+          },
+          {
+            "printed_page": 267,
+            "pdf_page_1_based": 287,
+            "sections": "523–524",
+            "image": "sources/audits/unit02-reading/wright-pdf287-p267.png"
+          },
+          {
+            "printed_page": 268,
+            "pdf_page_1_based": 288,
+            "sections": "524 continuation",
+            "image": "sources/audits/unit02-reading/wright-pdf288-p268.png"
+          },
+          {
+            "printed_page": 269,
+            "pdf_page_1_based": 289,
+            "sections": "528",
+            "image": "sources/audits/unit02-reading/wright-pdf289-p269.png"
+          },
+          {
+            "printed_page": 270,
+            "pdf_page_1_based": 290,
+            "sections": "529",
+            "image": "sources/audits/unit02-reading/wright-pdf290-p270.png"
+          },
+          {
+            "printed_page": 272,
+            "pdf_page_1_based": 292,
+            "sections": "530",
+            "image": "sources/audits/unit02-reading/wright-pdf292-p272.png"
+          },
+          {
+            "printed_page": 273,
+            "pdf_page_1_based": 293,
+            "sections": "532–533",
+            "image": "sources/audits/unit02-reading/wright-pdf293-p273.png"
+          }
+        ]
       }
+    },
+    {
+      "source_id": "ringe_taylor_2014",
+      "authors": [
+        "Don Ringe",
+        "Ann Taylor"
+      ],
+      "title": "The Development of Old English",
+      "series": "A Linguistic History of English, volume II",
+      "publisher": "Oxford University Press",
+      "publication_year": 2014,
+      "edition": "First edition",
+      "pdf_url": "https://api.pageplace.de/preview/DT0400.9780191019425_A23539783/preview-9780191019425_A23539783.pdf",
+      "inspection_scope": "Publisher preview: title/copyright metadata and printed p.6 section1.1.2 only",
+      "printed_page": 6,
+      "pdf_page_1_based": 21,
+      "preview_page_count": 63,
+      "section": "1.1.2",
+      "visually_checked": true,
+      "purpose": "Explicit agreement of dual pronoun subjects with plural finite verbs; no spelling or dialect replacement.",
+      "record": "sources/audits/unit02-supplementary/dual-agreement.md",
+      "accessed": "2026-10-22"
     }
   ],
   "inheritance": {
@@ -346,6 +436,11 @@
       "path": "sources/cache/wright_oe_1914.pdf",
       "bytes": 16242022,
       "sha256": "04e1fed8e1fa1c54d9f9b1a1754598232946f44d411541a7248905a9ccdbce9c"
+    },
+    {
+      "path": "sources/cache/ringe-taylor-2014-preview.pdf",
+      "bytes": 709549,
+      "sha256": "48972628b9f7d2ba2a92e07d99b53358247ab7705926862893ec2e88814f0f59"
     }
   ],
   "structural_models": [
