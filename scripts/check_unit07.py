@@ -126,13 +126,18 @@ def main():
         images = list(record.get('images', []))
         if record.get('image'):
             images += record['image'] if isinstance(record['image'], list) else [record['image']]
-        for image in images:
+        for image_number, image in enumerate(images):
             path = image['path'] if isinstance(image, dict) else image
             exists = (ROOT / path).is_file()
             require(exists or (eid == 'U02-DUAL' and (ROOT / record['record']).is_file()),
                     f'{eid}: missing retained image {path}')
             if exists and isinstance(image, dict) and image.get('sha256'):
                 require(same_identity(path, image), f'{eid}: changed image {path}')
+            digests = record.get('image_sha256')
+            digest = (digests[image_number] if isinstance(digests, list) and image_number < len(digests)
+                      else digests if isinstance(digests, str) and len(images) == 1 else None)
+            if exists and digest:
+                require(same_identity(path, {'sha256': digest}), f'{eid}: source image identity differs: {path}')
 
     tasks = index(c['assigned_items'], 'task_id', 'task')
     require(len(tasks) == 80 and len(c['key_item_ids']) == len(set(c['key_item_ids'])) == 80,

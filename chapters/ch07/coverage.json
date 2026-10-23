@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch07",
   "title": "Subjunctive, participles, and passive",
-  "status": "drafted_awaiting_independent_review",
+  "status": "text_accepted_exports_pending",
   "contract_date": "2026-10-23",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -122346,8 +122346,24 @@
     "typeset": "oec-u07-typeset",
     "finish": "oec-u07-finish"
   },
-  "review_status": "pre_key_solutions_frozen_full_review_next",
-  "amendments": [],
+  "review_status": "accepted_pre_export",
+  "amendments": [
+    {
+      "amendment_id": "U07-C01",
+      "type": "exposition_clarification",
+      "record": "chapters/ch07/coordinator-review.json",
+      "original": "With spatial ofer, direction and location help explain the two cases, but they are not an exceptionless rule for every use.",
+      "replacement": "With spatial ofer, the accusative commonly marks direction over or across a landmark, while the dative commonly marks location. This is a tendency, not an exceptionless rule for every use.",
+      "evidence_refs": [
+        "U07-F-36-OFER"
+      ],
+      "scope_changed": false,
+      "task_prompts_changed": false,
+      "independent_solutions_preserved": true,
+      "status": "resolved_verified",
+      "verification": "Independent reviewer reopened Fulk p23/PDF35, checked the applied correspondence and preserved qualification; no task or scope change."
+    }
+  ],
   "validation_at_contract": {
     "tasks": 80,
     "original_tasks": 46,
@@ -125071,6 +125087,90 @@
     "status": "frozen_before_key",
     "reviewer": "unit07_grammar",
     "learner_draft_checkpoint": "db1ef63",
-    "prior_role_disclosed": true
+    "prior_role_disclosed": true,
+    "checkpoint": "aa31f25"
+  },
+  "textual_review": {
+    "status": "accepted",
+    "reviewer": "unit07_grammar",
+    "record": "chapters/ch07/review.md",
+    "ledger": "chapters/ch07/review-ledger.json",
+    "review_record_sha256": "9de8282d99275d16319d32f58dd95763531d385f02f7c4621ea4b13b1f921086",
+    "review_ledger_sha256": "d817da88c12fe79227c692590a235d88d822e90ee97f0ade55ed5c1feaac84c2",
+    "accepted_artifacts": {
+      "student.md": {
+        "sha256": "a50a11f9bd15d7607bb0ecbe3473481eff77c76e4e8be93e763c9c0a0b214e43",
+        "sha256_normalized_lf": "265ab48b57c291318401133752aee6b71e355adc62e2724d7fdbd58b4f548c28"
+      },
+      "answer-key.md": {
+        "sha256": "5c2d197c82b1ce9c96f3c05c08e1f9d9f8139d866a37f494038258e5ed3e3b6c",
+        "sha256_normalized_lf": "5c2d197c82b1ce9c96f3c05c08e1f9d9f8139d866a37f494038258e5ed3e3b6c"
+      },
+      "coverage.json": {
+        "sha256": "e256f7ccaae16993d2d46ba7f9622a6d5877c24c989479f22044423100c5c834",
+        "sha256_normalized_lf": "e256f7ccaae16993d2d46ba7f9622a6d5877c24c989479f22044423100c5c834"
+      }
+    },
+    "counts": {
+      "tasks": 80,
+      "original_tasks": 46,
+      "cook_tasks": 34,
+      "logical_paradigms": 82,
+      "logical_paradigm_cells_checked": 1060,
+      "physical_morphology_matrices": 41,
+      "other_tagged_tables": 2,
+      "untagged_explanatory_tables": 3,
+      "all_physical_tables": 46,
+      "new_examples": 11,
+      "new_account_words": 56,
+      "source_paragraph_words": 89,
+      "source_supports": 10,
+      "source_notes": 18,
+      "prior_form_references": 180,
+      "prior_sense_references": 98,
+      "prior_feature_references": 42,
+      "earlier_files_checked": 667,
+      "teaching_markers": 175,
+      "earlier_grammar_images_hash_verified": 81,
+      "fresh_phase2_images": 17,
+      "resolved_evidence_refs": 281,
+      "material_open_findings": 0
+    },
+    "accepted_contract_semantic_identity": {
+      "keys": [
+        "productive_outcomes",
+        "recognition_outcomes",
+        "bounded_scope",
+        "audited_inflection_rules",
+        "display_plan",
+        "assigned_items",
+        "key_item_ids",
+        "deferred_source_items",
+        "excluded_source_items",
+        "source_alias_assignments",
+        "source_spans",
+        "paradigms",
+        "teaching_records",
+        "new_material_examples",
+        "new_compositions",
+        "lexical_inventory",
+        "grammar_inventory",
+        "prior_requirements",
+        "form_id_aliases",
+        "form_identity_reconciliation",
+        "source_form_reconciliation",
+        "sense_id_aliases",
+        "construction_id_aliases",
+        "lexical_frame_evidence",
+        "source_apparatus",
+        "scope_reconciliations"
+      ],
+      "sha256": "4edec5eb5823a107a2efd0d871ae97549f291a8a47d64741fdced5ca04d807fd",
+      "note": "This payload permits later completion/status metadata updates to be distinguished from changes to the reviewed learning contract."
+    },
+    "independent_solutions_checkpoint": "aa31f25",
+    "independence": "Reviewer authored neither master, solved all 80 tasks before key/private-answer access, and disclosed prior grammar-audit and public-composition inspection.",
+    "material_open_findings": 0,
+    "scope_limit": "Accepts the identified text and contract; complete exports, every-page inspection and register integration remain separate."
   }
 }

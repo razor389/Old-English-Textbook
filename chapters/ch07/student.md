@@ -1171,7 +1171,7 @@ The following prepositions have the stated meanings and cases here. A familiar s
 | tōmiddes | in the midst of | dative landmark |
 | tō | for, serving as | dative assigned function, such as food or a sign |
 
-With spatial ofer, direction and location help explain the two cases, but they are not an exceptionless rule for every use. The source’s ofer eorðan cannot by its spelling alone identify accusative rather than dative: eorðan serves both cases. The authority use is separately taught with the accusative.
+With spatial ofer, the accusative commonly marks direction over or across a landmark, while the dative commonly marks location. This is a tendency, not an exceptionless rule for every use. The source’s ofer eorðan cannot by its spelling alone identify accusative rather than dative: eorðan serves both cases. The authority use is separately taught with the accusative.
 
 Tō with a dative noun can state what something is **for** or **serves as**. A separate dative can name the beneficiary: in ēow tō męte, “to you for food”, ēow is the beneficiary and męte is the assigned function. Neither is a possessive adjective. This tō is different from the earlier tō with an inflected purpose infinitive.
 

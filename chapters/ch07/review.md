@@ -1,0 +1,37 @@
+# Unit 7 independent linguistic review
+
+**Status: accepted before export, 2026-10-23.** All 80 learner tasks and key entries are accepted. All 82 logical paradigms, comprising 1,060 explicitly recoverable cells, have been checked. No material linguistic or teaching-scope finding remains open. The exact accepted files, task and paradigm IDs, source checks, and dispositions are recorded in [review-ledger.json](review-ledger.json).
+
+This is textual and linguistic acceptance. It does not certify the final LuaLaTeX output, inspection of every exported page, or subsequent integration into the active registers. Those completion gates remain with the coordinator.
+
+## Independence and method
+
+The reviewer previously prepared the Unit 7 grammar/source evidence audit and checked public composition proposals. The reviewer authored neither the learner text nor its key. That prior source familiarity is disclosed rather than described as complete separation from the material.
+
+All 80 actual tasks were solved from `student.md` before opening the draft key. The complete 56-word new account and 89-word Cook paragraph were independently translated. [Independent solutions](independent-solutions.md) were frozen at `aa31f25`, with SHA-256 `9e890b8559d6c3a1406baa649f870b1e75eefc8cce85858f9c08cf8aaa7fbbb0`, before phase-two key access. The frozen witness has not been edited. Separate private author-model and answer-witness files remained unread.
+
+Phase two compared every actual task, the complete key, all displayed forms and rules, the source text and apparatus, and the dependency/scope records. Structural checks supplement that linguistic reading. They do not establish linguistic truth by themselves.
+
+## Findings and resolution
+
+- **U07-C01 — repaired and verified.** The original spatial *ofer* explanation named direction and location without explicitly matching them to cases. The approved repair now states that the accusative commonly marks direction over/across a landmark and the dative commonly marks location, retaining the qualification that this is not exceptionless. Fulk §36, printed p.23 / PDF p.35, was reopened and inspected. The revised sentence is present in the accepted learner file. No task, table, source passage, or productive scope changed.
+- **D3 — accepted as written.** The key identifies the first man as the natural contextual possessor in *his gefēran* and expressly states that *his* is not inherently reflexive. It does not claim that morphology uniquely determines the reference.
+- **X4 — accepted as written.** The key makes the required indicative agreement change *hāte → hǣtt* explicit when “I” becomes “he,” preserving both naming accusatives.
+- **P7 — accepted as written.** Learner and key both distinguish attributive agreement from permitted passive-predicate forms while admitting that *bunden* and *bundene* can also be attributive neuter-plural variants. No artificial spelling contrast remains.
+- **Independent-witness variation — no master repair needed.** The witness uses *ðǣra* in several genitive plurals, whereas the active course and key select *ðāra*. Cook §84, printed p.50 / PDF p.66, directly prints both. The key correctly retains the selection; the witness variant does not demonstrate an error in it.
+
+## Coverage and evidence
+
+All 46 new tasks and all 34 assigned Cook items are represented once in the learner, key, and frozen solutions. The complete I.4.18, I.6.1–16, and I.7.1–17 prompts were checked against the actual images of *Exercises* pp.2–4 / PDF pp.10–12, including the cross-page I.7.11. Original wording, parenthetical number directions, and square-bracketed help are preserved. The key separates defensible language from compliance with an expressly requested form or construction; in particular, it accepts appropriate number choices for unspecified English “you,” alternative giving verbs, passive-predicate variants, and suitable word orders.
+
+The 41 morphology matrices cover 56 complete present/preterite subjunctive systems, five complete indicative systems, one imperative pair, twelve participle pairs, five complete strong/weak participle-agreement models, and the complete *eall*, *ǣlc*, and *geweald* paradigms. There are also two tagged support/vocabulary tables and three untagged explanatory tables; all 46 physical tables were read. Every logical cell was checked in its actual matrix position, including the common all-person scope of each compact subjunctive entry. The reused source form ID `Bēon` is displayed as lower-case `bēon` in the paradigm; the ledger records this capitalization reconciliation explicitly.
+
+Stem alternations, contracted presents, dental contractions, weak-class distinctions, quantities, lexical prefixes, and the five agreement models agree with the checked evidence. Full-stem and syncopated participial forms, the selected rare *-u* completions, and admitted zero/*-e* alternatives are identified honestly as edited paradigms derived from source rules. They are not represented as a set of verbatim running-text attestations. Defective modal labels do not supply invented infinitives, imperatives, or participles.
+
+Cook’s entire fifth-day paragraph and all original notes 4–21 were freshly checked on printed p.126 / PDF p.142. The reading retains its source spelling, quantities, endings, and punctuation; only declared wrapping/hyphen and note-cue presentation changes occur. All ten support groups are adequate. The three exact *-u* present participles remain recognition forms; source-only relative/content clauses, classification expressions, plain *blētsode*, feminine sea-genitive, and the intransitive *wæs geworden* formula remain locally supplied. The final formula is not taught as a transitive passive. Genuine article-attachment and *eorðan* case ambiguities are not forced into uniquely determined analyses.
+
+Seventeen page images were actually reopened during phase two. The earlier grammar audit’s 81 actual image inspections are reused with role disclosure; all 81 stored hashes were rechecked. All 281 referenced evidence IDs resolve. The source-image paths, hashes, original identifiers, and printed/PDF locators are retained in the ledger and its linked frozen evidence manifest.
+
+The 180 prior-form, 98 prior-sense, and 42 prior-feature references agree with the actual registers. All 667 frozen earlier-file hashes remain unchanged after LF normalization. Every task dependency resolves; no supplied-only dependency is tested for unaided production. The four plural *geweald* cells remain recognition/reference, while ordinary singular dominion is productive. The *ǣlc* plural morphology does not expand the assigned singular “each/every” construction. Earlier reference-only, recognition-only, and citation boundaries persist except for explicit promotions. The whole fifth-day assignment resolves the earlier birds-clause alias; no sixth-day or Unit 8 prose is assigned.
+
+The accepted learner raw SHA-256 is `a50a11f9bd15d7607bb0ecbe3473481eff77c76e4e8be93e763c9c0a0b214e43`; normalized-LF SHA-256 is `265ab48b57c291318401133752aee6b71e355adc62e2724d7fdbd58b4f548c28`. The accepted key SHA-256 is `5c2d197c82b1ce9c96f3c05c08e1f9d9f8139d866a37f494038258e5ed3e3b6c`. The ledger also records the reviewed contract’s full identity and a separate substantive-content identity so later completion metadata can be distinguished from changes requiring review.

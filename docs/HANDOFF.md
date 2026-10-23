@@ -1,22 +1,12 @@
 # Handoff to the next session
 
-## Unit 7 draft handoff
+## Unit 7 accepted text; exports next
 
-The reconciled contract and independent audits were checkpointed before prose at `74404d8`. Both complete masters now exist: `chapters/ch07/student.md` and `chapters/ch07/answer-key.md`. The learner has 41 complete displayed matrices, all 80 tasks (34 exact Cook prompts), eleven examples, both exact readings, ten supports and eighteen original notes. The key gives all 80 models/analyses, complete independent translations, alternatives and diagnoses. `scripts/check_unit07.py --draft` passes.
+The contract preceded prose at **`74404d8`**, complete drafts were saved at **`db1ef63`**, and all 80 independent pre-key solutions were frozen at **`aa31f25`**. The non-author reviewer has accepted the complete learner and separate key, all 82 paradigms / 1,060 cells, source prompts, readings, notes and dependencies. The reviewer's prior grammar-audit role is disclosed. The qualified spatial *ofer* explanation was clarified and independently verified against the page image; no material finding remains open. The frozen solutions are unchanged.
 
-Next: the grammar auditor independently solves all actual learner tasks before key/private-answer access. Save and freeze those solutions, then compare the key and inspect all displayed language, scope and source dependencies. This reviewer authored neither master but previously audited grammar and public composition seeds; disclose that role. Textual acceptance must precede complete LuaLaTeX exports and every-page inspection.
+The accepted masters are `chapters/ch07/student.md` and `answer-key.md`; the independent records are `review.md` and `review-ledger.json`. The contract records their identities. Save this textual acceptance checkpoint before assembling full LuaLaTeX exports. Then inspect every exported page through non-author reviewer ledgers, reconcile complete Markdown/TeX/PDF parity and clean logs, and integrate the reviewed registers with preservation checks. Do not draft Unit 8.
 
-The canonical numbered Cook crosswalk is 113 assigned / 531 deferred, with I.4.18 and the birds alias explicitly resolved. Registers still represent Units 1–6. The guarded integration dry run preserves every earlier record, all 665 earlier active artifacts and all 134 archive files. The immutable baseline remains `build/unit07-prior-baseline.json` at `47b92a4`.
-
-The coordinator alone writes Beads and shared files. Draft stage is being closed/checkpointed; review is next. Do not draft Unit 8.
-
-## Active Unit 7 handoff
-
-The coordinator owns `oec-u07` and is the sole Beads writer. The source editor owns `sources/audits/unit07-source/` (`oec-u07-source`); the grammar analyst owns `sources/audits/unit07-grammar/` (`oec-u07-grammar`); the curriculum analyst owns `curriculum/proposals/unit07/` (`oec-u07-design`). These three tasks precede `oec-u07-contract`, then draft, independent review, typesetting and finish in that order. All Beads calls must remain serialized.
-
-The intended scope is subjunctive and passive, all 34 Cook prompts I.4.18/I.6/I.7, and a connected graded reading. The source audit is checking the complete fifth-day Creation paragraph, including the birds clause formerly deferred; this is still a candidate until the contract settles it. Preserve all previous teaching limits and explicitly teach or supply the additional quantifier, naming, spatial and purpose constructions that the prompts need. Save the contract and `curriculum/UNIT_07_BRIEF.md` before learner/key prose. Finish Unit 7 only.
-
-The immutable ignored baseline is `build/unit07-prior-baseline.json`, captured at **`47b92a4`**: six complete active contracts, actual registers (275 lemmas, 3,487 forms, 305 senses, 241 constructions), 665 earlier active files and 134 archived files. Do not overwrite it. `build/unit07-prior-*-read.*` are compact reading aids, not assignments. Earlier sources and teaching milestones remain fixed; root has not merged any Unit 7 records.
+The canonical Cook crosswalk is **113 assigned / 531 deferred**. Registers still represent Units 1–6. The immutable ignored baseline `build/unit07-prior-baseline.json` was captured at **`47b92a4`**: six contracts, both registers, 665 earlier active artifacts and 134 archived files. The dry-run integration preserves every earlier history and metadata field. Root alone writes Beads and shared files; all Beads operations remain serialized.
 
 ## Accepted Unit 6 artifacts
 
