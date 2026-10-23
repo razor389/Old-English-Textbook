@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch07",
   "title": "Subjunctive, participles, and passive",
-  "status": "text_accepted_exports_pending",
+  "status": "complete",
   "contract_date": "2026-10-23",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -122346,7 +122346,7 @@
     "typeset": "oec-u07-typeset",
     "finish": "oec-u07-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted",
   "amendments": [
     {
       "amendment_id": "U07-C01",
@@ -122388,9 +122388,24 @@
     "design_validation": "curriculum/proposals/unit07/validation.json"
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "date": "2026-10-23",
+    "learner_pages": 37,
+    "key_pages": 30,
+    "textual_review": "chapters/ch07/review-ledger.json",
+    "presentation_review": "typesetting/ch07/page-review.json",
+    "register_integration": "chapters/ch07/register-integration.json",
+    "independent_solutions_preserved": true,
+    "canonical_cook_counts": {
+      "assigned": 113,
+      "deferred": 531,
+      "excluded": 0,
+      "total": 644
+    },
+    "local_checkpoint_state": "Complete artifacts ready for local checkpoint, followed by final tracker/handoff closure.",
+    "next_unit_drafted": false
   },
   "form_id_aliases": {
     "gieman-preterite-subj-3-pl": "gieman-pret-subj-3-pl",
@@ -125106,9 +125121,9 @@
         "sha256": "5c2d197c82b1ce9c96f3c05c08e1f9d9f8139d866a37f494038258e5ed3e3b6c",
         "sha256_normalized_lf": "5c2d197c82b1ce9c96f3c05c08e1f9d9f8139d866a37f494038258e5ed3e3b6c"
       },
-      "coverage.json": {
-        "sha256": "e256f7ccaae16993d2d46ba7f9622a6d5877c24c989479f22044423100c5c834",
-        "sha256_normalized_lf": "e256f7ccaae16993d2d46ba7f9622a6d5877c24c989479f22044423100c5c834"
+      "independent-solutions.md": {
+        "sha256": "9e890b8559d6c3a1406baa649f870b1e75eefc8cce85858f9c08cf8aaa7fbbb0",
+        "sha256_normalized_lf": "9e890b8559d6c3a1406baa649f870b1e75eefc8cce85858f9c08cf8aaa7fbbb0"
       }
     },
     "counts": {
@@ -125171,6 +125186,70 @@
     "independent_solutions_checkpoint": "aa31f25",
     "independence": "Reviewer authored neither master, solved all 80 tasks before key/private-answer access, and disclosed prior grammar-audit and public-composition inspection.",
     "material_open_findings": 0,
-    "scope_limit": "Accepts the identified text and contract; complete exports, every-page inspection and register integration remain separate."
+    "scope_limit": "Accepts the identified text and contract; complete exports, every-page inspection and register integration remain separate.",
+    "accepted_contract_artifact_at_review": {
+      "sha256": "e256f7ccaae16993d2d46ba7f9622a6d5877c24c989479f22044423100c5c834",
+      "sha256_normalized_lf": "e256f7ccaae16993d2d46ba7f9622a6d5877c24c989479f22044423100c5c834"
+    },
+    "identity_scope_note": "Immutable text identities cover the two masters and frozen pre-key solutions. The contract raw identity at review is preserved separately; later status/checkpoint metadata is allowed, while the accepted substantive contract payload must retain its reviewed hash."
+  },
+  "accepted_text_checkpoint": "089039d",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch07/page-review.json",
+    "sha256": "65d8be96454627920a7a06a76f370660eba5012b89c768e8b0b5160a2ecfd87f",
+    "page_totals": {
+      "learner": 37,
+      "key": 30,
+      "total": 67
+    },
+    "content_parity": "typesetting/ch07/content-parity.json",
+    "reviewer_ledgers": [
+      "typesetting/ch07/reviews/learner-first.json",
+      "typesetting/ch07/reviews/learner-last.json",
+      "typesetting/ch07/reviews/key.json"
+    ],
+    "material_open_findings": 0,
+    "accepted_text_unchanged": true,
+    "all_pages_inspected": true
+  },
+  "register_integration": {
+    "status": "accepted",
+    "record": "chapters/ch07/register-integration.json",
+    "sha256": "6497e1c7981749e30c881dacc3871504a875fb4633b8efd8ef17a87816182e6b",
+    "metrics": {
+      "before": {
+        "lemmas": 275,
+        "forms": 3487,
+        "senses": 305,
+        "features": 241
+      },
+      "after": {
+        "lemmas": 289,
+        "forms": 4533,
+        "senses": 327,
+        "features": 280
+      },
+      "unit07_status_counts": {
+        "forms": {
+          "new_production": 1073,
+          "new_recognition_only": 7,
+          "supplied_here": 14
+        },
+        "senses": {
+          "new_production": 24,
+          "new_recognition_only": 0,
+          "supplied_here": 15
+        },
+        "features": {
+          "new_production": 30,
+          "new_recognition_only": 1,
+          "supplied_here": 8
+        }
+      }
+    },
+    "prior_active_files_preserved": 665,
+    "archived_files_preserved": 134,
+    "earlier_histories_preserved": true
   }
 }

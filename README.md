@@ -16,6 +16,10 @@ The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/an
 
 **Unit 5 is complete:** [learner PDF](typesetting/ch05/chapter-05.pdf), 25 pages, and [separate key PDF](typesetting/ch05/answer-key.pdf), 21 pages. Strong verbs IV–VII and four additional I–III systems provide 33 complete productive paradigms, 67 tasks including all sixteen Cook I.5 items, a controlled account and the first two Creation days. All 46 final pages were independently inspected; reviewed milestones are integrated. See the [review and export record](typesetting/ch05/README.md).
 
+**Unit 6 is complete:** [learner PDF](typesetting/ch06/chapter-06.pdf), 25 pages, and [separate key PDF](typesetting/ch06/answer-key.pdf), 28 pages. Frequent irregular verbs, infinitives and commands have complete selected systems, 72 tasks, a controlled dialogue and the supported fisherman excerpt. See the [review and export record](typesetting/ch06/README.md).
+
+**Unit 7 is complete:** [learner PDF](typesetting/ch07/chapter-07.pdf), 37 pages, and [separate key PDF](typesetting/ch07/answer-key.pdf), 30 pages. Subjunctive, participles and passive have 82 complete logical paradigms, 80 tasks including all 34 assigned Cook prompts, a connected account and the complete fifth-day Creation paragraph. All 67 pages passed non-author inspection; reviewed teaching records preserve earlier history. See the [review and export record](typesetting/ch07/README.md).
+
 The earlier two-chapter experiment is preserved under [reference/previous-course](reference/previous-course/README.md), with its source evidence, corrections, and complete PDFs. Its learning milestones do not apply to this course.
 
 Use Beads for work tracking: `bd prime`, then `bd ready`. See [the editorial workflow](docs/WORKFLOW.md) for task ownership, dependencies, and the local single-writer setup. The course data remains in the chapter contracts and cumulative registers; Beads tracks the work needed to produce it.
