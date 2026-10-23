@@ -1,6 +1,14 @@
 # Handoff to the next session
 
-The eighteen-unit outline and complete Cook mapping are settled. **Units 1–6 are complete**: independent textual review, complete learner/key exports, every-page inspection and reviewed register integration. Unit 6's complete exports/registers are saved at **`ce4ee34`**; its epic and all eight stage tasks are closed. This handoff records final closure without changing the accepted masters or PDFs. No Unit 7 drafting has begun; another unit requires a user request.
+The eighteen-unit outline and complete Cook mapping are settled. **Units 1–6 are complete**: independent textual review, complete learner/key exports, every-page inspection and reviewed register integration. Unit 6's complete exports/registers are saved at **`ce4ee34`**, with final handoff **`47b92a4`**. **The user has authorized Unit 7**, and its three initial audits are active. No Unit 7 lesson prose has been drafted.
+
+## Active Unit 7 handoff
+
+The coordinator owns `oec-u07` and is the sole Beads writer. The source editor owns `sources/audits/unit07-source/` (`oec-u07-source`); the grammar analyst owns `sources/audits/unit07-grammar/` (`oec-u07-grammar`); the curriculum analyst owns `curriculum/proposals/unit07/` (`oec-u07-design`). These three tasks precede `oec-u07-contract`, then draft, independent review, typesetting and finish in that order. All Beads calls must remain serialized.
+
+The intended scope is subjunctive and passive, all 34 Cook prompts I.4.18/I.6/I.7, and a connected graded reading. The source audit is checking the complete fifth-day Creation paragraph, including the birds clause formerly deferred; this is still a candidate until the contract settles it. Preserve all previous teaching limits and explicitly teach or supply the additional quantifier, naming, spatial and purpose constructions that the prompts need. Save the contract and `curriculum/UNIT_07_BRIEF.md` before learner/key prose. Finish Unit 7 only.
+
+The immutable ignored baseline is `build/unit07-prior-baseline.json`, captured at **`47b92a4`**: six complete active contracts, actual registers (275 lemmas, 3,487 forms, 305 senses, 241 constructions), 665 earlier active files and 134 archived files. Do not overwrite it. `build/unit07-prior-*-read.*` are compact reading aids, not assignments. Earlier sources and teaching milestones remain fixed; root has not merged any Unit 7 records.
 
 ## Accepted Unit 6 artifacts
 

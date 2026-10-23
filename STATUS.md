@@ -1,6 +1,10 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–6 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Unit 6's complete exports and reviewed registers are saved at **`ce4ee34`**. Its epic and all eight stage tasks are closed. No Unit 7 drafting has begun.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–6 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Unit 6's complete exports and reviewed registers are saved at **`ce4ee34`**. Its epic and all eight stage tasks are closed. **Unit 7 is authorized and its source, grammar and curriculum audits are in progress** under `oec-u07`. No Unit 7 lesson prose has been drafted.
+
+## Active Unit 7
+
+Unit 7 covers the subjunctive and passive, Cook I.4.18 and all of I.6–7 (34 prompts). Independent agents own `sources/audits/unit07-source/`, `sources/audits/unit07-grammar/` and `curriculum/proposals/unit07/`; the coordinator alone updates Beads, contracts and shared registers. The immutable prior baseline is `build/unit07-prior-baseline.json`, taken at **`47b92a4`**, with all six active contracts and actual registers. Reconcile the audits and save the contract and brief before prose. Finish this unit through independent review, complete exports and register integration before beginning another.
 
 ## Completed Unit 6
 
@@ -58,6 +62,6 @@ The [lexical register](lexicon/entries.json) now contains **275 lemmas, 3,487 fo
 
 The [Unit 6 integration record](chapters/ch06/register-integration.json) preserves every earlier milestone, evidence link, supplied history, per-chapter record and lemma metadata. Its baseline includes the completed Unit 5 register integration, whose [own preservation record](chapters/ch05/register-integration.json) remains unchanged. The selected command and infinitive systems do not promote earlier reference-only verbs, participial citations or unassigned modal forms. Source availability-infinitive, relative, temporal and participial constructions remain supplied. Ordinary standan remains distinct from the supplied opposing-winds sense. Recognition-only eall, earlier personal genitives/instrumentals, plural ān and reference-only *sǣwa retain their limits. No archived teaching milestone has been imported.
 
-The canonical crosswalk has **79 assigned and 565 deferred Cook items**, with none omitted. Unit 5 assigns the complete I.5 set; its first-day reading is an explicit revisit, not a new duplicate assignment. I.4.18 and the birds candidate remain deferred to Unit 7. The outline and mapping are settled. Unit 7 awaits a user request and a new source audit and contract before prose.
+The canonical crosswalk has **79 assigned and 565 deferred Cook items**, with none omitted. Unit 5 assigns the complete I.5 set; its first-day reading is an explicit revisit, not a new duplicate assignment. I.4.18 and the birds candidate remain deferred until the Unit 7 contract explicitly assigns them. The outline and mapping are settled; the authorized Unit 7 audits are now in progress.
 
 The archived experiment remains unchanged. No remote, publication or distribution is configured.
