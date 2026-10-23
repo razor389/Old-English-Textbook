@@ -2,7 +2,7 @@
 
 ## Unit 7 accepted artifacts
 
-Units 1–7 are complete editorially. Unit 7's full learner/key exports, page acceptance and reviewed register integration are ready for the complete-artifact local checkpoint. Final tracker closure and its exported handoff checkpoint follow. Do not draft Unit 8 without a new request.
+Units 1–7 are complete. Unit 7's full learner/key exports, page acceptance and reviewed register integration are saved at **`b186c8b`**. Its epic and all eight stage tasks are closed and exported. This subsequent handoff checkpoint records final closure without changing the accepted masters, exports or integrated registers. Do not draft Unit 8 without a new request.
 
 The [contract](../chapters/ch07/coverage.json) and [brief](../curriculum/UNIT_07_BRIEF.md) preceded prose at **`74404d8`**. Complete drafts were saved at **`db1ef63`**, all 80 [independent pre-key solutions](../chapters/ch07/independent-solutions.md) at **`aa31f25`**, and independently accepted text at **`089039d`**. The [review](../chapters/ch07/review.md) and [full ledger](../chapters/ch07/review-ledger.json) accept every actual task, all 82 logical paradigms / 1,060 cells, displayed rules and source dependencies. The reviewer authored neither master and discloses earlier grammar-audit and public-composition inspection. The source-backed spatial *ofer* clarification is resolved; frozen solutions remain unchanged.
 
@@ -36,7 +36,7 @@ The canonical numbered Cook crosswalk is **113 assigned / 531 deferred / none ex
 | 4 | 856a5fa | 5f47f26 | 12663ff | 80e0406 | 20 / 19 |
 | 5 | fc29cf9 | 7bbb334 | 37a52c3 | 45fa02e | 25 / 21 |
 | 6 | 3bfc05e | 3955a2a | ce4ee34 | 47b92a4 | 25 / 28 |
-| 7 | 74404d8 | 089039d | Completion checkpoint follows | Final closure follows | 37 / 30 |
+| 7 | 74404d8 | 089039d | b186c8b | This handoff checkpoint | 37 / 30 |
 
 Earlier lessons, contracts, reviews, exports and milestones remain unchanged. The archived experiment is evidence, not the active syllabus.
 

@@ -1,6 +1,6 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–7 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Unit 7's complete artifacts are ready for the local completion checkpoint and final tracker/handoff closure. Unit 8 has not been drafted.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–7 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Unit 7's complete exports and reviewed registers are saved at **`b186c8b`**. Its epic and all eight stage tasks are closed and exported. Unit 8 has not been drafted.
 
 ## Completed Unit 7
 
@@ -12,7 +12,7 @@ The [independent reviewer](chapters/ch07/review.md) solved every actual task bef
 
 The [learner PDF](typesetting/ch07/chapter-07.pdf) has **37 pages** and the [separate key](typesetting/ch07/answer-key.pdf) **30**. All **67 final pages** passed non-author visual inspection. [Complete parity](typesetting/ch07/content-parity.json) verifies **690 prose/heading/list blocks, 64 tables, 1,368 table cells and 499 editorial comments**. A split example/translation was kept together; revised learner pages 1–2 were reopened and the other 35 images independently confirmed identical. Final logs are clean. See the [export record](typesetting/ch07/README.md) and [page acceptance](typesetting/ch07/page-review.json). Accepted masters and frozen solutions did not change during export.
 
-Checkpoints: contract before prose **`74404d8`**, complete drafts **`db1ef63`**, frozen pre-key solutions **`aa31f25`**, accepted text **`089039d`**. The completion checkpoint is recorded in [the handoff](docs/HANDOFF.md) after the final tracker export.
+Checkpoints: contract before prose **`74404d8`**, complete drafts **`db1ef63`**, frozen pre-key solutions **`aa31f25`**, accepted text **`089039d`**. Complete exports and reviewed registers are saved at **`b186c8b`**; [the handoff](docs/HANDOFF.md) records final tracker closure and completion metadata.
 
 ## Completed course artifacts
 
@@ -24,7 +24,7 @@ Checkpoints: contract before prose **`74404d8`**, complete drafts **`db1ef63`**,
 | [4](typesetting/ch04/README.md) | Strong verbs I–III | 20 / 19 | 12663ff |
 | [5](typesetting/ch05/README.md) | Strong verbs IV–VII | 25 / 21 | 37a52c3 |
 | [6](typesetting/ch06/README.md) | Frequent irregular verbs, infinitives and commands | 25 / 28 | ce4ee34 |
-| [7](typesetting/ch07/README.md) | Subjunctive, participles and passive | 37 / 30 | Recorded in final handoff |
+| [7](typesetting/ch07/README.md) | Subjunctive, participles and passive | 37 / 30 | b186c8b |
 
 Every unit retains its source evidence, coverage contract, separate key, independent solutions/review, complete TeX/PDFs and page ledger. Earlier units and archived evidence remain unchanged.
 
