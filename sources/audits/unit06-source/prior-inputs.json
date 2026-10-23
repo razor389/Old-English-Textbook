@@ -1,0 +1,5337 @@
+{
+  "schema_version": 1,
+  "audit_id": "unit06-source-prior-inputs",
+  "baseline_revision": "45fa02e",
+  "active_counts": {
+    "lemmas": 242,
+    "forms": 3198,
+    "senses": 265,
+    "grammar_features": 205
+  },
+  "files": [
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "f7862dd4410af3d98d87f847db1c9e57c1f3b28b852105da0977ed36665a8417"
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "sha256": "481657beecf9d713f776371c514aa804d29b865fc9c43b5f22e4d45fd23985ea"
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "d829e1e239a8e8452ca99bf8354db29d02f1e640941bfec5fbed647dd6577b27"
+    },
+    {
+      "path": "chapters/ch02/coverage.json",
+      "sha256": "cf13e0c96ae80fcec8ff5f10a567715913d54f27ce11c94a44f683b1a9012fa6"
+    },
+    {
+      "path": "chapters/ch03/coverage.json",
+      "sha256": "0d78e024da44545d9949800a16a3e5deefe0e24e7f34fc4ef2682ce90e958703"
+    },
+    {
+      "path": "chapters/ch04/coverage.json",
+      "sha256": "9d900715219de8acdb1f64ebe3590888781cf95102ee9ae877e088fdf663fd5e"
+    },
+    {
+      "path": "chapters/ch05/coverage.json",
+      "sha256": "0e37b344c6c640467741c01aee1a22fd2da569c7a202f1c3eb5e894ad6825fe6"
+    },
+    {
+      "path": "sources/registry.json",
+      "sha256": "835fb11580bc365292cce73aecb43fa810f1953d439ec7893da4585086253d38"
+    }
+  ],
+  "used_prior_lemma_heads": {
+    "tha-adverb": "ðā",
+    "swa": "swā",
+    "se": "se, sēo, ðæt",
+    "geseon": "gesēon",
+    "thaet-conjunction": "ðæt",
+    "mann": "mann",
+    "he": "hē",
+    "licgan": "licgan",
+    "mid": "mid",
+    "and": "and",
+    "laedan": "lǣdan",
+    "to": "tō",
+    "the-relative": "ðe",
+    "beodan": "bēodan",
+    "habban": "habban",
+    "micel-comp": "māra",
+    "on": "on",
+    "twegen": "twēgen",
+    "sellan": "sęllan",
+    "apollonius": "Apollonius",
+    "cwethan": "cweðan",
+    "niman": "niman",
+    "ic": "ic",
+    "thu": "ðū"
+  },
+  "used_prior_forms": {
+    "tha-adverb-invariant": {
+      "form_id": "tha-adverb-invariant",
+      "form": "ðā",
+      "analysis": {
+        "inflection": "invariant",
+        "distinction": "not the article ðā"
+      },
+      "knowledge_status": "supplied",
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U02-SOURCE-SUPPORT",
+        "NEW-U03-SUPPORT-tha-adverb",
+        "NEW-U05-SUPFORM-tha-adverb-invariant"
+      ],
+      "assessed_in": [],
+      "evidence_refs": [
+        "FB84",
+        "READING",
+        "U02-R-SABBATH",
+        "U02-R-POSSESSORS",
+        "U03-S-READ125",
+        "U03-S-READ126",
+        "U05-SRC-READ123",
+        "U05-SRC-READ124"
+      ],
+      "evidence_basis": "Actual checked source token or declared exact exercise support; no full unprinted paradigm is inferred.",
+      "scope_note": "Supplied locally. Earlier recognition milestones, if any, are preserved without productive promotion.",
+      "used_in_tasks": [
+        "CH01-READ04",
+        "CH01-READ05",
+        "CH01-READ07",
+        "CH01-READ08",
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07",
+        "NEW-U03-R01",
+        "NEW-U05-R04",
+        "NEW-U05-R07",
+        "NEW-U05-R08",
+        "FB-I-CREATION-FIRST-DAY-01",
+        "FB-I-CREATION-SECOND-DAY-01",
+        "NEW-U05-SUPFORM-tha-adverb-invariant"
+      ],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01",
+        "ch02",
+        "ch03",
+        "ch05"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "existing_form_action": "Retain supplied status; no milestone promotion.",
+      "reviewed_chapters": [
+        "ch01",
+        "ch02",
+        "ch03",
+        "ch05"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "form_id": "tha-adverb-invariant",
+          "form": "ðā",
+          "analysis": {
+            "inflection": "invariant",
+            "distinction": "not the article ðā"
+          },
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-READ-SUPPORT"
+          ],
+          "assessed_in": [],
+          "evidence_refs": [
+            "FB84",
+            "READING"
+          ],
+          "evidence_basis": "exact_source_form_or_paradigm",
+          "scope_note": "Supplied actual form; no recognition or production milestone.",
+          "used_in_tasks": [
+            "CH01-READ04",
+            "CH01-READ05",
+            "CH01-READ07",
+            "CH01-READ08"
+          ],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch02": {
+          "form_id": "tha-adverb-invariant",
+          "form": "ðā",
+          "analysis": {
+            "inflection": "invariant",
+            "part_of_speech": "temporal adverb"
+          },
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U02-R-SABBATH",
+            "U02-R-POSSESSORS"
+          ],
+          "evidence_basis": "exact checked reading token",
+          "teaching_ids": [
+            "NEW-U02-SOURCE-SUPPORT"
+          ],
+          "scope_note": "Then. Unit 1 supplied this form/sense, with null teaching milestones. May be promoted explicitly during contract reconciliation, never called previously taught.",
+          "used_in_tasks": [
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07"
+          ],
+          "existing_form_action": "Retain supplied status; no milestone promotion.",
+          "assessed_in": []
+        },
+        "ch03": {
+          "form_id": "tha-adverb-invariant",
+          "form": "ðā",
+          "analysis": {
+            "inflection": "invariant",
+            "part_of_speech": "temporal adverb"
+          },
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U03-S-READ125",
+            "U03-S-READ126"
+          ],
+          "evidence_basis": "exact source use; earlier support was not a teaching milestone",
+          "origin_category": "exact_source",
+          "accepted_variants": [],
+          "teaching_ids": [
+            "NEW-U03-SUPPORT-tha-adverb"
+          ],
+          "scope_note": "Not the identical-looking article.",
+          "used_in_tasks": [
+            "NEW-U03-R01"
+          ],
+          "assessed_in": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch02"
+            ],
+            "coverage_contract": "chapters/ch02/coverage.json"
+          }
+        },
+        "ch05": {
+          "form_id": "tha-adverb-invariant",
+          "form": "ðā",
+          "analysis": {
+            "inflection": "invariant",
+            "distinction": "not the article ðā"
+          },
+          "knowledge_status": "supplied",
+          "origin_category": "exact_source",
+          "evidence_basis": "Actual checked source token or declared exact exercise support; no full unprinted paradigm is inferred.",
+          "evidence_refs": [
+            "U05-SRC-READ123",
+            "U05-SRC-READ124"
+          ],
+          "teaching_ids": [
+            "NEW-U05-SUPFORM-tha-adverb-invariant"
+          ],
+          "scope_note": "Supplied locally. Earlier recognition milestones, if any, are preserved without productive promotion.",
+          "used_in_tasks": [
+            "NEW-U05-R04",
+            "NEW-U05-R07",
+            "NEW-U05-R08",
+            "FB-I-CREATION-FIRST-DAY-01",
+            "FB-I-CREATION-SECOND-DAY-01",
+            "NEW-U05-SUPFORM-tha-adverb-invariant"
+          ],
+          "assessed_in": [],
+          "accepted_variants": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch02",
+              "ch03"
+            ],
+            "coverage_contract": "chapters/ch03/coverage.json",
+            "review_record": "chapters/ch03/review.md",
+            "status": "reviewed",
+            "evidence_refs": [
+              "FB84",
+              "READING",
+              "U02-R-SABBATH",
+              "U02-R-POSSESSORS",
+              "U03-S-READ125",
+              "U03-S-READ126"
+            ],
+            "teaching_ids": [
+              "CH01-READ-SUPPORT",
+              "NEW-U02-SOURCE-SUPPORT",
+              "NEW-U03-SUPPORT-tha-adverb"
+            ],
+            "analysis": {
+              "inflection": "invariant",
+              "part_of_speech": "temporal adverb"
+            },
+            "scope_note": "Not the identical-looking article."
+          }
+        }
+      },
+      "origin_category": "exact_source",
+      "accepted_variants": [],
+      "prior_history": {
+        "recognition_taught_in": null,
+        "production_taught_in": null,
+        "supplied_in": [
+          "ch01",
+          "ch02",
+          "ch03"
+        ],
+        "coverage_contract": "chapters/ch03/coverage.json",
+        "review_record": "chapters/ch03/review.md",
+        "status": "reviewed",
+        "evidence_refs": [
+          "FB84",
+          "READING",
+          "U02-R-SABBATH",
+          "U02-R-POSSESSORS",
+          "U03-S-READ125",
+          "U03-S-READ126"
+        ],
+        "teaching_ids": [
+          "CH01-READ-SUPPORT",
+          "NEW-U02-SOURCE-SUPPORT",
+          "NEW-U03-SUPPORT-tha-adverb"
+        ],
+        "analysis": {
+          "inflection": "invariant",
+          "part_of_speech": "temporal adverb"
+        },
+        "scope_note": "Not the identical-looking article."
+      }
+    },
+    "swa-invariant": {
+      "form_id": "swa-invariant",
+      "form": "swā",
+      "analysis": {
+        "source_analysis": "adverb so/thus"
+      },
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "U03-S-READ125",
+        "U03-S-FB-DICT314",
+        "U05-SRC-READ124"
+      ],
+      "evidence_basis": "Actual checked source token or declared exact exercise support; no full unprinted paradigm is inferred.",
+      "origin_category": "exact_source",
+      "accepted_variants": [],
+      "teaching_ids": [
+        "NEW-U03-SUPPORT-swa",
+        "NEW-U05-SUPFORM-swa-invariant"
+      ],
+      "scope_note": "Supplied locally. Earlier recognition milestones, if any, are preserved without productive promotion.",
+      "used_in_tasks": [
+        "NEW-U03-R01",
+        "NEW-U05-R08",
+        "FB-I-CREATION-SECOND-DAY-01",
+        "NEW-U05-SUPFORM-swa-invariant"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03",
+        "ch05"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "reviewed_chapters": [
+        "ch03",
+        "ch05"
+      ],
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "records_by_chapter": {
+        "ch03": {
+          "form_id": "swa-invariant",
+          "form": "swā",
+          "analysis": {
+            "source_analysis": "adverb so/thus"
+          },
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U03-S-READ125",
+            "U03-S-FB-DICT314"
+          ],
+          "evidence_basis": "exact source form; no full lexical paradigm assigned",
+          "origin_category": "exact_source",
+          "accepted_variants": [],
+          "teaching_ids": [
+            "NEW-U03-SUPPORT-swa"
+          ],
+          "scope_note": "Only this actual source use supplied.",
+          "used_in_tasks": [
+            "NEW-U03-R01"
+          ],
+          "assessed_in": []
+        },
+        "ch05": {
+          "form_id": "swa-invariant",
+          "form": "swā",
+          "analysis": {
+            "source_analysis": "adverb so/thus"
+          },
+          "knowledge_status": "supplied",
+          "origin_category": "exact_source",
+          "evidence_basis": "Actual checked source token or declared exact exercise support; no full unprinted paradigm is inferred.",
+          "evidence_refs": [
+            "U05-SRC-READ124"
+          ],
+          "teaching_ids": [
+            "NEW-U05-SUPFORM-swa-invariant"
+          ],
+          "scope_note": "Supplied locally. Earlier recognition milestones, if any, are preserved without productive promotion.",
+          "used_in_tasks": [
+            "NEW-U05-R08",
+            "FB-I-CREATION-SECOND-DAY-01",
+            "NEW-U05-SUPFORM-swa-invariant"
+          ],
+          "assessed_in": [],
+          "accepted_variants": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch03"
+            ],
+            "coverage_contract": "chapters/ch03/coverage.json",
+            "review_record": "chapters/ch03/review.md",
+            "status": "reviewed",
+            "evidence_refs": [
+              "U03-S-READ125",
+              "U03-S-FB-DICT314"
+            ],
+            "teaching_ids": [
+              "NEW-U03-SUPPORT-swa"
+            ],
+            "analysis": {
+              "source_analysis": "adverb so/thus"
+            },
+            "scope_note": "Only this actual source use supplied."
+          }
+        }
+      },
+      "prior_history": {
+        "recognition_taught_in": null,
+        "production_taught_in": null,
+        "supplied_in": [
+          "ch03"
+        ],
+        "coverage_contract": "chapters/ch03/coverage.json",
+        "review_record": "chapters/ch03/review.md",
+        "status": "reviewed",
+        "evidence_refs": [
+          "U03-S-READ125",
+          "U03-S-FB-DICT314"
+        ],
+        "teaching_ids": [
+          "NEW-U03-SUPPORT-swa"
+        ],
+        "analysis": {
+          "source_analysis": "adverb so/thus"
+        },
+        "scope_note": "Only this actual source use supplied."
+      }
+    },
+    "se-m-nom-sg": {
+      "form_id": "se-m-nom-sg",
+      "form": "se",
+      "analysis": {
+        "case": "nominative",
+        "number": "singular",
+        "gender": "m"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-GRAM-ARTICLE"
+      ],
+      "assessed_in": [
+        "EX-I-01-01",
+        "EX-I-01-02",
+        "EX-I-01-03",
+        "EX-I-01-04",
+        "EX-I-01-11",
+        "EX-I-01-12",
+        "EX-I-01-13",
+        "EX-I-01-14",
+        "EX-I-01-15",
+        "CH01-F01",
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-COMP01",
+        "CH01-COMP04",
+        "CH01-CASE10",
+        "CH01-MINI01"
+      ],
+      "evidence_refs": [
+        "FB84"
+      ],
+      "evidence_basis": "exact_source_form_or_paradigm",
+      "scope_note": "",
+      "used_in_tasks": [
+        "EX-I-01-01",
+        "EX-I-01-02",
+        "EX-I-01-03",
+        "EX-I-01-04",
+        "EX-I-01-11",
+        "EX-I-01-12",
+        "EX-I-01-13",
+        "EX-I-01-14",
+        "EX-I-01-15",
+        "CH01-F01",
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-COMP01",
+        "CH01-COMP04",
+        "CH01-CASE10",
+        "CH01-MINI01"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "geseon-pret-3-sg": {
+      "form_id": "geseon-pret-3-sg",
+      "form": "geseah",
+      "analysis": {
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": 3,
+        "number": "sg"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U03-SUPPORT-geseon",
+        "NEW-U05-PAR-geseon"
+      ],
+      "assessed_in": [
+        "EX-I-05-06",
+        "NEW-U05-T04",
+        "NEW-U05-R01",
+        "NEW-U05-R04"
+      ],
+      "evidence_refs": [
+        "READING",
+        "U03-S-READ126",
+        "U05-CORE",
+        "U05-SOUND",
+        "U05-UMLAUT",
+        "U05-V",
+        "U05-WRIGHT-V",
+        "U05-SRC-FB-SEE-CREATE",
+        "U05-SRC-EX-SEE-SHINE",
+        "U05-SRC-BT-GESEE"
+      ],
+      "evidence_basis": "Cell placement is a declared grammatical expansion of the checked lexical stems and the complete indicative endings. Even when its spelling occurs in a source principal-parts row, this record does not claim an independently attested person/number token.",
+      "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+      "used_in_tasks": [
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-READ05",
+        "CH01-READ08",
+        "NEW-U03-R01",
+        "NEW-U05-C05",
+        "EX-I-05-06",
+        "NEW-U05-T03",
+        "NEW-U05-T04",
+        "NEW-U05-R01",
+        "NEW-U05-R04",
+        "NEW-U05-TEXT-A",
+        "FB-I-CREATION-FIRST-DAY-01",
+        "NEW-U05-PAR-geseon"
+      ],
+      "recognition_taught_in": "ch05",
+      "production_taught_in": "ch05",
+      "supplied_in": [
+        "ch01",
+        "ch03"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "origin_category": "new_teaching_material",
+      "accepted_variants": [],
+      "prior_history": {
+        "recognition_taught_in": null,
+        "production_taught_in": null,
+        "supplied_in": [
+          "ch01",
+          "ch03"
+        ],
+        "coverage_contract": "chapters/ch03/coverage.json",
+        "review_record": "chapters/ch03/review.md",
+        "status": "reviewed",
+        "evidence_refs": [
+          "READING",
+          "U03-S-READ126"
+        ],
+        "teaching_ids": [
+          "CH01-READ-SUPPORT",
+          "NEW-U03-SUPPORT-geseon"
+        ],
+        "analysis": {
+          "tense": "preterite",
+          "mood": "indicative",
+          "person": 3,
+          "number": "singular"
+        },
+        "scope_note": "Prior supplied strong preterite remains supplied."
+      },
+      "reviewed_chapters": [
+        "ch01",
+        "ch03",
+        "ch05"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "form_id": "geseon-pret-3-sg",
+          "form": "geseah",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-READ-SUPPORT"
+          ],
+          "assessed_in": [],
+          "evidence_refs": [
+            "READING"
+          ],
+          "evidence_basis": "exact_source_form_or_paradigm",
+          "scope_note": "Supplied actual form; no recognition or production milestone.",
+          "used_in_tasks": [
+            "CH01-CASE01",
+            "CH01-CASE02",
+            "CH01-CASE04",
+            "CH01-CASE05",
+            "CH01-CASE07",
+            "CH01-CASE08",
+            "CH01-READ05",
+            "CH01-READ08"
+          ],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch03": {
+          "form_id": "geseon-pret-3-sg",
+          "form": "geseah",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U03-S-READ126"
+          ],
+          "evidence_basis": "exact source use; earlier support was not a teaching milestone",
+          "origin_category": "exact_source",
+          "accepted_variants": [],
+          "teaching_ids": [
+            "NEW-U03-SUPPORT-geseon"
+          ],
+          "scope_note": "Prior supplied strong preterite remains supplied.",
+          "used_in_tasks": [
+            "NEW-U03-R01"
+          ],
+          "assessed_in": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01"
+            ],
+            "coverage_contract": "chapters/ch01/coverage.json"
+          }
+        },
+        "ch05": {
+          "form_id": "geseon-pret-3-sg",
+          "form": "geseah",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "knowledge_status": "new_production",
+          "origin_category": "new_teaching_material",
+          "evidence_basis": "Cell placement is a declared grammatical expansion of the checked lexical stems and the complete indicative endings. Even when its spelling occurs in a source principal-parts row, this record does not claim an independently attested person/number token.",
+          "evidence_refs": [
+            "U05-CORE",
+            "U05-SOUND",
+            "U05-UMLAUT",
+            "U05-V",
+            "U05-WRIGHT-V",
+            "U05-SRC-FB-SEE-CREATE",
+            "U05-SRC-EX-SEE-SHINE",
+            "U05-SRC-BT-GESEE"
+          ],
+          "teaching_ids": [
+            "NEW-U05-PAR-geseon"
+          ],
+          "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+          "used_in_tasks": [
+            "NEW-U05-C05",
+            "EX-I-05-06",
+            "NEW-U05-T03",
+            "NEW-U05-T04",
+            "NEW-U05-R01",
+            "NEW-U05-R04",
+            "NEW-U05-TEXT-A",
+            "FB-I-CREATION-FIRST-DAY-01",
+            "NEW-U05-PAR-geseon"
+          ],
+          "assessed_in": [
+            "EX-I-05-06",
+            "NEW-U05-T04",
+            "NEW-U05-R01",
+            "NEW-U05-R04"
+          ],
+          "accepted_variants": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch03"
+            ],
+            "coverage_contract": "chapters/ch03/coverage.json",
+            "review_record": "chapters/ch03/review.md",
+            "status": "reviewed",
+            "evidence_refs": [
+              "READING",
+              "U03-S-READ126"
+            ],
+            "teaching_ids": [
+              "CH01-READ-SUPPORT",
+              "NEW-U03-SUPPORT-geseon"
+            ],
+            "analysis": {
+              "tense": "preterite",
+              "mood": "indicative",
+              "person": 3,
+              "number": "singular"
+            },
+            "scope_note": "Prior supplied strong preterite remains supplied."
+          }
+        }
+      }
+    },
+    "thaet-conjunction-invariant": {
+      "form_id": "thaet-conjunction-invariant",
+      "form": "ðæt",
+      "analysis": {
+        "inflection": "invariant",
+        "distinction": "not the article ðæt"
+      },
+      "knowledge_status": "supplied",
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U03-SUPPORT-thaet-conjunction",
+        "NEW-U05-SUPFORM-thaet-conjunction-invariant"
+      ],
+      "assessed_in": [],
+      "evidence_refs": [
+        "FB84",
+        "READING",
+        "U03-S-READ126",
+        "U03-S-FB196F",
+        "U05-SRC-READ123"
+      ],
+      "evidence_basis": "Actual checked source token or declared exact exercise support; no full unprinted paradigm is inferred.",
+      "scope_note": "Supplied locally. Earlier recognition milestones, if any, are preserved without productive promotion.",
+      "used_in_tasks": [
+        "CH01-READ05",
+        "CH01-READ08",
+        "NEW-U03-R01",
+        "NEW-U03-R04",
+        "NEW-U03-R06",
+        "NEW-U05-R04",
+        "FB-I-CREATION-FIRST-DAY-01",
+        "NEW-U05-SUPFORM-thaet-conjunction-invariant"
+      ],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01",
+        "ch03",
+        "ch05"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "origin_category": "exact_source",
+      "accepted_variants": [],
+      "prior_history": {
+        "recognition_taught_in": null,
+        "production_taught_in": null,
+        "supplied_in": [
+          "ch01",
+          "ch03"
+        ],
+        "coverage_contract": "chapters/ch03/coverage.json",
+        "review_record": "chapters/ch03/review.md",
+        "status": "reviewed",
+        "evidence_refs": [
+          "FB84",
+          "READING",
+          "U03-S-READ126",
+          "U03-S-FB196F"
+        ],
+        "teaching_ids": [
+          "CH01-READ-SUPPORT",
+          "NEW-U03-SUPPORT-thaet-conjunction"
+        ],
+        "analysis": {
+          "inflection": "invariant",
+          "distinction": "not the article ðæt"
+        },
+        "scope_note": "New supplied purpose sense, not previously supplied content-that sense."
+      },
+      "reviewed_chapters": [
+        "ch01",
+        "ch03",
+        "ch05"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "form_id": "thaet-conjunction-invariant",
+          "form": "ðæt",
+          "analysis": {
+            "inflection": "invariant",
+            "distinction": "not the article ðæt"
+          },
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-READ-SUPPORT"
+          ],
+          "assessed_in": [],
+          "evidence_refs": [
+            "FB84",
+            "READING"
+          ],
+          "evidence_basis": "exact_source_form_or_paradigm",
+          "scope_note": "Supplied actual form; no recognition or production milestone.",
+          "used_in_tasks": [
+            "CH01-READ05",
+            "CH01-READ08"
+          ],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch03": {
+          "form_id": "thaet-conjunction-invariant",
+          "form": "ðæt",
+          "analysis": {
+            "inflection": "invariant",
+            "distinction": "not the article ðæt"
+          },
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U03-S-READ126",
+            "U03-S-FB196F"
+          ],
+          "evidence_basis": "exact source use; earlier support was not a teaching milestone",
+          "origin_category": "exact_source",
+          "accepted_variants": [],
+          "teaching_ids": [
+            "NEW-U03-SUPPORT-thaet-conjunction"
+          ],
+          "scope_note": "New supplied purpose sense, not previously supplied content-that sense.",
+          "used_in_tasks": [
+            "NEW-U03-R01",
+            "NEW-U03-R04",
+            "NEW-U03-R06"
+          ],
+          "assessed_in": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01"
+            ],
+            "coverage_contract": "chapters/ch01/coverage.json"
+          }
+        },
+        "ch05": {
+          "form_id": "thaet-conjunction-invariant",
+          "form": "ðæt",
+          "analysis": {
+            "inflection": "invariant",
+            "distinction": "not the article ðæt"
+          },
+          "knowledge_status": "supplied",
+          "origin_category": "exact_source",
+          "evidence_basis": "Actual checked source token or declared exact exercise support; no full unprinted paradigm is inferred.",
+          "evidence_refs": [
+            "U05-SRC-READ123"
+          ],
+          "teaching_ids": [
+            "NEW-U05-SUPFORM-thaet-conjunction-invariant"
+          ],
+          "scope_note": "Supplied locally. Earlier recognition milestones, if any, are preserved without productive promotion.",
+          "used_in_tasks": [
+            "NEW-U05-R04",
+            "FB-I-CREATION-FIRST-DAY-01",
+            "NEW-U05-SUPFORM-thaet-conjunction-invariant"
+          ],
+          "assessed_in": [],
+          "accepted_variants": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch03"
+            ],
+            "coverage_contract": "chapters/ch03/coverage.json",
+            "review_record": "chapters/ch03/review.md",
+            "status": "reviewed",
+            "evidence_refs": [
+              "FB84",
+              "READING",
+              "U03-S-READ126",
+              "U03-S-FB196F"
+            ],
+            "teaching_ids": [
+              "CH01-READ-SUPPORT",
+              "NEW-U03-SUPPORT-thaet-conjunction"
+            ],
+            "analysis": {
+              "inflection": "invariant",
+              "distinction": "not the article ðæt"
+            },
+            "scope_note": "New supplied purpose sense, not previously supplied content-that sense."
+          }
+        }
+      }
+    },
+    "mann-nom-sg": {
+      "form_id": "mann-nom-sg",
+      "form": "mann",
+      "analysis": {
+        "case": "nominative",
+        "number": "singular",
+        "gender": "masculine"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-PAR-EXCEPTION-MANN",
+        "CH01-VOC-mann"
+      ],
+      "assessed_in": [
+        "EX-I-01-14",
+        "CH01-CASE01",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE10",
+        "CH01-MINI01"
+      ],
+      "evidence_refs": [
+        "LEX-mann",
+        "FB43",
+        "FB46",
+        "FB17"
+      ],
+      "evidence_basis": "lexical_attestation",
+      "scope_note": "Morphological production in assigned number; only the unit's ordinary syntactic uses are taught.",
+      "correction_ids": [],
+      "used_in_tasks": [
+        "EX-I-01-14",
+        "CH01-CASE01",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE10",
+        "CH01-MINI01"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "he-m-gen-sg": {
+      "form_id": "he-m-gen-sg",
+      "form": "his",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "m",
+        "case": "genitive"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-PRON",
+        "U02-POSS"
+      ],
+      "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+      "teaching_ids": [
+        "NEW-U02-PAR-he"
+      ],
+      "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+      "variants": [],
+      "used_in_tasks": [
+        "NEW-U02-C06",
+        "NEW-U02-T05",
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07",
+        "NEW-U02-EXAMPLE-04"
+      ],
+      "assessed_in": [
+        "NEW-U02-C06",
+        "NEW-U02-T05",
+        "NEW-U02-R01",
+        "NEW-U02-R04",
+        "NEW-U02-R07"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "he-m-gen-sg",
+          "form": "his",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON",
+            "U02-POSS"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "NEW-U02-PAR-he"
+          ],
+          "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+          "variants": [],
+          "used_in_tasks": [
+            "NEW-U02-C06",
+            "NEW-U02-T05",
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07",
+            "NEW-U02-EXAMPLE-04"
+          ],
+          "assessed_in": [
+            "NEW-U02-C06",
+            "NEW-U02-T05",
+            "NEW-U02-R01",
+            "NEW-U02-R04",
+            "NEW-U02-R07"
+          ]
+        }
+      }
+    },
+    "licgan-pret-3-sg": {
+      "form_id": "licgan-pret-3-sg",
+      "form": "læg",
+      "analysis": {
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": 3,
+        "number": "sg"
+      },
+      "knowledge_status": "new_production",
+      "origin_category": "new_teaching_material",
+      "evidence_basis": "Cell placement is a declared grammatical expansion of the checked lexical stems and the complete indicative endings. Even when its spelling occurs in a source principal-parts row, this record does not claim an independently attested person/number token.",
+      "evidence_refs": [
+        "U05-CORE",
+        "U05-SOUND",
+        "U05-UMLAUT",
+        "U05-V",
+        "U05-WRIGHT-V",
+        "U05-LIE-FRAME"
+      ],
+      "teaching_ids": [
+        "NEW-U05-PAR-licgan"
+      ],
+      "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+      "used_in_tasks": [
+        "NEW-U05-PAR-licgan"
+      ],
+      "assessed_in": [],
+      "accepted_variants": [],
+      "recognition_taught_in": "ch05",
+      "production_taught_in": "ch05",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "reviewed_chapters": [
+        "ch05"
+      ],
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "records_by_chapter": {
+        "ch05": {
+          "form_id": "licgan-pret-3-sg",
+          "form": "læg",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "knowledge_status": "new_production",
+          "origin_category": "new_teaching_material",
+          "evidence_basis": "Cell placement is a declared grammatical expansion of the checked lexical stems and the complete indicative endings. Even when its spelling occurs in a source principal-parts row, this record does not claim an independently attested person/number token.",
+          "evidence_refs": [
+            "U05-CORE",
+            "U05-SOUND",
+            "U05-UMLAUT",
+            "U05-V",
+            "U05-WRIGHT-V",
+            "U05-LIE-FRAME"
+          ],
+          "teaching_ids": [
+            "NEW-U05-PAR-licgan"
+          ],
+          "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+          "used_in_tasks": [
+            "NEW-U05-PAR-licgan"
+          ],
+          "assessed_in": [],
+          "accepted_variants": []
+        }
+      }
+    },
+    "he-m-nom-sg": {
+      "form_id": "he-m-nom-sg",
+      "form": "hē",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "m",
+        "case": "nominative"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U02-PAR-he"
+      ],
+      "assessed_in": [
+        "NEW-U02-P04",
+        "NEW-U02-F07",
+        "NEW-U02-F15",
+        "NEW-U02-C01",
+        "NEW-U02-C09",
+        "NEW-U02-C11",
+        "NEW-U02-T03",
+        "NEW-U02-T05",
+        "NEW-U02-T06",
+        "NEW-U02-R01",
+        "NEW-U02-R03",
+        "NEW-U02-R07",
+        "NEW-U02-X02",
+        "NEW-U02-X03"
+      ],
+      "evidence_refs": [
+        "READING",
+        "U02-PRON",
+        "U02-POSS"
+      ],
+      "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+      "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+      "used_in_tasks": [
+        "CH01-READ06",
+        "CH01-READ08",
+        "NEW-U02-P04",
+        "NEW-U02-F07",
+        "NEW-U02-F15",
+        "NEW-U02-C01",
+        "NEW-U02-C09",
+        "NEW-U02-C11",
+        "NEW-U02-T03",
+        "NEW-U02-T05",
+        "NEW-U02-T06",
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07",
+        "NEW-U02-X02",
+        "NEW-U02-X03",
+        "NEW-U02-EXAMPLE-07",
+        "NEW-U02-EXAMPLE-08"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [
+        "ch01"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "variants": [],
+      "reviewed_chapters": [
+        "ch01",
+        "ch02"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "form_id": "he-m-nom-sg",
+          "form": "hē",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine",
+            "person": 3
+          },
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-READ-SUPPORT"
+          ],
+          "assessed_in": [],
+          "evidence_refs": [
+            "READING"
+          ],
+          "evidence_basis": "exact_source_form_or_paradigm",
+          "scope_note": "Supplied actual form; no recognition or production milestone.",
+          "used_in_tasks": [
+            "CH01-READ06",
+            "CH01-READ08"
+          ],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch02": {
+          "form_id": "he-m-nom-sg",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON",
+            "U02-POSS"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "NEW-U02-PAR-he"
+          ],
+          "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+          "variants": [],
+          "used_in_tasks": [
+            "NEW-U02-P04",
+            "NEW-U02-F07",
+            "NEW-U02-F15",
+            "NEW-U02-C01",
+            "NEW-U02-C09",
+            "NEW-U02-C11",
+            "NEW-U02-T03",
+            "NEW-U02-T05",
+            "NEW-U02-T06",
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07",
+            "NEW-U02-X02",
+            "NEW-U02-X03",
+            "NEW-U02-EXAMPLE-07",
+            "NEW-U02-EXAMPLE-08"
+          ],
+          "assessed_in": [
+            "NEW-U02-P04",
+            "NEW-U02-F07",
+            "NEW-U02-F15",
+            "NEW-U02-C01",
+            "NEW-U02-C09",
+            "NEW-U02-C11",
+            "NEW-U02-T03",
+            "NEW-U02-T05",
+            "NEW-U02-T06",
+            "NEW-U02-R01",
+            "NEW-U02-R03",
+            "NEW-U02-R07",
+            "NEW-U02-X02",
+            "NEW-U02-X03"
+          ]
+        }
+      }
+    },
+    "mid-invariant-source": {
+      "form_id": "mid-invariant-source",
+      "form": "mid",
+      "analysis": "preposition with dative sunde",
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "U04-SRC-FB174",
+        "U04-SRC-LEX-mid",
+        "U04-SRC-TEXT166"
+      ],
+      "evidence_basis": "Actual token in the checked source span; no unprinted paradigm is inferred.",
+      "origin_category": "exact_source",
+      "teaching_ids": [
+        "NEW-U04-SUPFORM-mid-invariant-source"
+      ],
+      "scope_note": "Prior recognition remains recognition; supplied source forms are available locally, without independent recall.",
+      "used_in_tasks": [
+        "NEW-U04-R01",
+        "NEW-U04-R04",
+        "NEW-U04-R05",
+        "FB-XII-APOLLONIUS-STORM-SHORE-01",
+        "NEW-U04-SUPFORM-mid-invariant-source",
+        "NEW-U04-SUPPORT-U04-SRC-HELP08"
+      ],
+      "assessed_in": [],
+      "accepted_variants": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch04"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch04",
+      "reviewed_chapters": [
+        "ch04"
+      ],
+      "review_record": "chapters/ch04/review.md",
+      "coverage_contract": "chapters/ch04/coverage.json",
+      "records_by_chapter": {
+        "ch04": {
+          "form_id": "mid-invariant-source",
+          "form": "mid",
+          "analysis": "preposition with dative sunde",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U04-SRC-FB174",
+            "U04-SRC-LEX-mid",
+            "U04-SRC-TEXT166"
+          ],
+          "evidence_basis": "Actual token in the checked source span; no unprinted paradigm is inferred.",
+          "origin_category": "exact_source",
+          "teaching_ids": [
+            "NEW-U04-SUPFORM-mid-invariant-source"
+          ],
+          "scope_note": "Prior recognition remains recognition; supplied source forms are available locally, without independent recall.",
+          "used_in_tasks": [
+            "NEW-U04-R01",
+            "NEW-U04-R04",
+            "NEW-U04-R05",
+            "FB-XII-APOLLONIUS-STORM-SHORE-01",
+            "NEW-U04-SUPFORM-mid-invariant-source",
+            "NEW-U04-SUPPORT-U04-SRC-HELP08"
+          ],
+          "assessed_in": [],
+          "accepted_variants": []
+        }
+      }
+    },
+    "he-m-acc-sg": {
+      "form_id": "he-m-acc-sg",
+      "form": "hine",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "m",
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-PRON",
+        "U02-POSS"
+      ],
+      "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+      "teaching_ids": [
+        "NEW-U02-PAR-he"
+      ],
+      "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+      "variants": [
+        "hiene"
+      ],
+      "used_in_tasks": [
+        "NEW-U02-P04",
+        "NEW-U02-F07",
+        "NEW-U02-C01",
+        "NEW-U02-C09",
+        "NEW-U02-C12",
+        "NEW-U02-T03",
+        "NEW-U02-T04",
+        "NEW-U02-T05",
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07",
+        "NEW-U02-X02",
+        "NEW-U02-X03"
+      ],
+      "assessed_in": [
+        "NEW-U02-P04",
+        "NEW-U02-F07",
+        "NEW-U02-C01",
+        "NEW-U02-C09",
+        "NEW-U02-C12",
+        "NEW-U02-T03",
+        "NEW-U02-T04",
+        "NEW-U02-T05",
+        "NEW-U02-R01",
+        "NEW-U02-R03",
+        "NEW-U02-X03"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "he-m-acc-sg",
+          "form": "hine",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "accusative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON",
+            "U02-POSS"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "NEW-U02-PAR-he"
+          ],
+          "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+          "variants": [
+            "hiene"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-P04",
+            "NEW-U02-F07",
+            "NEW-U02-C01",
+            "NEW-U02-C09",
+            "NEW-U02-C12",
+            "NEW-U02-T03",
+            "NEW-U02-T04",
+            "NEW-U02-T05",
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07",
+            "NEW-U02-X02",
+            "NEW-U02-X03"
+          ],
+          "assessed_in": [
+            "NEW-U02-P04",
+            "NEW-U02-F07",
+            "NEW-U02-C01",
+            "NEW-U02-C09",
+            "NEW-U02-C12",
+            "NEW-U02-T03",
+            "NEW-U02-T04",
+            "NEW-U02-T05",
+            "NEW-U02-R01",
+            "NEW-U02-R03",
+            "NEW-U02-X03"
+          ]
+        }
+      }
+    },
+    "and-invariant": {
+      "form_id": "and-invariant",
+      "form": "and",
+      "analysis": {
+        "inflection": "invariant"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-GRAM-COORDINATION"
+      ],
+      "assessed_in": [
+        "EX-I-01-01",
+        "EX-I-01-02",
+        "EX-I-01-03",
+        "EX-I-01-04",
+        "EX-I-01-05",
+        "EX-I-01-06",
+        "EX-I-01-07",
+        "EX-I-01-08",
+        "EX-I-01-09",
+        "EX-I-01-10",
+        "EX-I-01-11",
+        "EX-I-01-12",
+        "EX-I-01-13",
+        "EX-I-01-14",
+        "EX-I-01-15",
+        "EX-I-01-16",
+        "EX-I-02-01",
+        "EX-I-02-02",
+        "EX-I-02-03",
+        "EX-I-02-04",
+        "EX-I-02-05",
+        "EX-I-02-06",
+        "EX-I-02-07",
+        "EX-I-02-08",
+        "EX-I-02-09",
+        "EX-I-02-10",
+        "EX-I-02-11",
+        "EX-I-02-12",
+        "EX-I-03-13",
+        "CH01-CASE03",
+        "CH01-READ01",
+        "CH01-READ02",
+        "CH01-READ03",
+        "CH01-READ04",
+        "CH01-READ06",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "evidence_refs": [
+        "READING",
+        "EX1"
+      ],
+      "evidence_basis": "exact_source_form_or_paradigm",
+      "scope_note": "Only the listed sense/use is assigned.",
+      "used_in_tasks": [
+        "EX-I-01-01",
+        "EX-I-01-02",
+        "EX-I-01-03",
+        "EX-I-01-04",
+        "EX-I-01-05",
+        "EX-I-01-06",
+        "EX-I-01-07",
+        "EX-I-01-08",
+        "EX-I-01-09",
+        "EX-I-01-10",
+        "EX-I-01-11",
+        "EX-I-01-12",
+        "EX-I-01-13",
+        "EX-I-01-14",
+        "EX-I-01-15",
+        "EX-I-01-16",
+        "EX-I-02-01",
+        "EX-I-02-02",
+        "EX-I-02-03",
+        "EX-I-02-04",
+        "EX-I-02-05",
+        "EX-I-02-06",
+        "EX-I-02-07",
+        "EX-I-02-08",
+        "EX-I-02-09",
+        "EX-I-02-10",
+        "EX-I-02-11",
+        "EX-I-02-12",
+        "EX-I-03-13",
+        "CH01-CASE03",
+        "CH01-READ01",
+        "CH01-READ02",
+        "CH01-READ03",
+        "CH01-READ04",
+        "CH01-READ06",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "laedan-pret-3-sg": {
+      "form_id": "laedan-pret-3-sg",
+      "form": "lǣdde",
+      "analysis": {
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": 3,
+        "number": "singular"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-I-LONG",
+        "U02-I-TABLE",
+        "U02-DENTAL"
+      ],
+      "evidence_basis": "printed principal parts plus present endings and dental rules",
+      "teaching_ids": [
+        "NEW-U02-PAR-laedan"
+      ],
+      "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+      "used_in_tasks": [],
+      "assessed_in": [],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "laedan-pret-3-sg",
+          "form": "lǣdde",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-I-LONG",
+            "U02-I-TABLE",
+            "U02-DENTAL"
+          ],
+          "evidence_basis": "printed principal parts plus present endings and dental rules",
+          "teaching_ids": [
+            "NEW-U02-PAR-laedan"
+          ],
+          "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+          "used_in_tasks": [],
+          "assessed_in": []
+        }
+      }
+    },
+    "he-m-dat-sg": {
+      "form_id": "he-m-dat-sg",
+      "form": "him",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "m",
+        "case": "dative"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-PRON",
+        "U02-POSS"
+      ],
+      "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+      "teaching_ids": [
+        "NEW-U02-PAR-he"
+      ],
+      "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+      "variants": [],
+      "used_in_tasks": [
+        "NEW-U02-P04",
+        "NEW-U02-C02",
+        "NEW-U02-C13",
+        "NEW-U02-T06"
+      ],
+      "assessed_in": [
+        "NEW-U02-P04",
+        "NEW-U02-C02",
+        "NEW-U02-C13",
+        "NEW-U02-T06"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "he-m-dat-sg",
+          "form": "him",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "dative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON",
+            "U02-POSS"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "NEW-U02-PAR-he"
+          ],
+          "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+          "variants": [],
+          "used_in_tasks": [
+            "NEW-U02-P04",
+            "NEW-U02-C02",
+            "NEW-U02-C13",
+            "NEW-U02-T06"
+          ],
+          "assessed_in": [
+            "NEW-U02-P04",
+            "NEW-U02-C02",
+            "NEW-U02-C13",
+            "NEW-U02-T06"
+          ]
+        }
+      }
+    },
+    "to-preposition-dative-invariant": {
+      "form_id": "to-preposition-dative-invariant",
+      "form": "tō",
+      "analysis": "preposition with dative noun",
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "U03-S-READ125",
+        "U03-S-FB166",
+        "U03-S-FB-DICT316",
+        "U04-SRC-LEX-to",
+        "U04-SRC-TEXT166"
+      ],
+      "evidence_basis": "Actual token in the checked source span; no unprinted paradigm is inferred.",
+      "origin_category": "exact_source",
+      "accepted_variants": [],
+      "teaching_ids": [
+        "NEW-U03-SUPPORT-to",
+        "NEW-U04-SUPFORM-to-preposition-dative-invariant"
+      ],
+      "scope_note": "Prior recognition remains recognition; supplied source forms are available locally, without independent recall.",
+      "used_in_tasks": [
+        "NEW-U03-R01",
+        "NEW-U03-R03",
+        "NEW-U04-R01",
+        "NEW-U04-R04",
+        "NEW-U04-R05",
+        "FB-XII-APOLLONIUS-STORM-SHORE-01",
+        "NEW-U04-SUPFORM-to-preposition-dative-invariant",
+        "NEW-U04-SUPPORT-U04-SRC-HELP07",
+        "NEW-U04-SUPPORT-U04-SRC-HELP09"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03",
+        "ch04"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch04",
+      "reviewed_chapters": [
+        "ch03",
+        "ch04"
+      ],
+      "review_record": "chapters/ch04/review.md",
+      "coverage_contract": "chapters/ch04/coverage.json",
+      "records_by_chapter": {
+        "ch03": {
+          "form_id": "to-preposition-dative-invariant",
+          "form": "tō",
+          "analysis": {
+            "source_analysis": "preposition governing dative"
+          },
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U03-S-READ125",
+            "U03-S-FB166",
+            "U03-S-FB-DICT316"
+          ],
+          "evidence_basis": "exact source form; no full lexical paradigm assigned",
+          "origin_category": "exact_source",
+          "accepted_variants": [],
+          "teaching_ids": [
+            "NEW-U03-SUPPORT-to"
+          ],
+          "scope_note": "For signs/seasons/days/years and for illumination; distinct from prior supplied inflected-infinitive use.",
+          "used_in_tasks": [
+            "NEW-U03-R01",
+            "NEW-U03-R03"
+          ],
+          "assessed_in": []
+        },
+        "ch04": {
+          "form_id": "to-preposition-dative-invariant",
+          "form": "tō",
+          "analysis": "preposition with dative noun",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U04-SRC-LEX-to",
+            "U04-SRC-TEXT166"
+          ],
+          "evidence_basis": "Actual token in the checked source span; no unprinted paradigm is inferred.",
+          "origin_category": "exact_source",
+          "teaching_ids": [
+            "NEW-U04-SUPFORM-to-preposition-dative-invariant"
+          ],
+          "scope_note": "Prior recognition remains recognition; supplied source forms are available locally, without independent recall.",
+          "used_in_tasks": [
+            "NEW-U04-R01",
+            "NEW-U04-R04",
+            "NEW-U04-R05",
+            "FB-XII-APOLLONIUS-STORM-SHORE-01",
+            "NEW-U04-SUPFORM-to-preposition-dative-invariant",
+            "NEW-U04-SUPPORT-U04-SRC-HELP07",
+            "NEW-U04-SUPPORT-U04-SRC-HELP09"
+          ],
+          "assessed_in": [],
+          "accepted_variants": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch03"
+            ],
+            "coverage_contract": "chapters/ch03/coverage.json",
+            "review_record": "chapters/ch03/review.md"
+          }
+        }
+      },
+      "prior_history": {
+        "recognition_taught_in": null,
+        "production_taught_in": null,
+        "supplied_in": [
+          "ch03"
+        ],
+        "coverage_contract": "chapters/ch03/coverage.json",
+        "review_record": "chapters/ch03/review.md"
+      }
+    },
+    "se-all-acc-pl": {
+      "form_id": "se-all-acc-pl",
+      "form": "ðā",
+      "analysis": {
+        "case": "accusative",
+        "number": "plural",
+        "gender": "all"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-GRAM-ARTICLE"
+      ],
+      "assessed_in": [
+        "CH01-F01",
+        "CH01-CASE03",
+        "CH01-CASE04",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "evidence_refs": [
+        "FB84"
+      ],
+      "evidence_basis": "exact_source_form_or_paradigm",
+      "scope_note": "",
+      "used_in_tasks": [
+        "CH01-F01",
+        "CH01-CASE03",
+        "CH01-CASE04",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "the-relative-invariant": {
+      "form_id": "the-relative-invariant",
+      "form": "ðe",
+      "analysis": {
+        "inflection": "invariant",
+        "use": "relative particle with direct-object function in each actual clause"
+      },
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "U02-R-SABBATH",
+        "U02-R-RELATIVE"
+      ],
+      "evidence_basis": "exact checked reading token",
+      "teaching_ids": [
+        "NEW-U02-SOURCE-SUPPORT"
+      ],
+      "scope_note": "Which/that; introduces a supplied relative clause, not second-person ðē. Antecedent work has different external cases in the three occurrences, while relative role remains direct object.",
+      "used_in_tasks": [
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "the-relative-invariant",
+          "form": "ðe",
+          "analysis": {
+            "inflection": "invariant",
+            "use": "relative particle with direct-object function in each actual clause"
+          },
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U02-R-SABBATH",
+            "U02-R-RELATIVE"
+          ],
+          "evidence_basis": "exact checked reading token",
+          "teaching_ids": [
+            "NEW-U02-SOURCE-SUPPORT"
+          ],
+          "scope_note": "Which/that; introduces a supplied relative clause, not second-person ðē. Antecedent work has different external cases in the three occurrences, while relative role remains direct object.",
+          "used_in_tasks": [
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07"
+          ],
+          "assessed_in": []
+        }
+      }
+    },
+    "to-before-inflected-infinitive": {
+      "form_id": "to-before-inflected-infinitive",
+      "form": "tō",
+      "analysis": {
+        "inflection": "invariant",
+        "part_of_speech": "preposition",
+        "use": "with inflected infinitive"
+      },
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "U02-R-SABBATH",
+        "U02-R-INFINITIVE"
+      ],
+      "evidence_basis": "exact checked reading token",
+      "teaching_ids": [
+        "NEW-U02-SOURCE-SUPPORT"
+      ],
+      "scope_note": "Part of supplied tō wyrceanne = to make; no independent prepositional or infinitive use.",
+      "used_in_tasks": [
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "to-before-inflected-infinitive",
+          "form": "tō",
+          "analysis": {
+            "inflection": "invariant",
+            "part_of_speech": "preposition",
+            "use": "with inflected infinitive"
+          },
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U02-R-SABBATH",
+            "U02-R-INFINITIVE"
+          ],
+          "evidence_basis": "exact checked reading token",
+          "teaching_ids": [
+            "NEW-U02-SOURCE-SUPPORT"
+          ],
+          "scope_note": "Part of supplied tō wyrceanne = to make; no independent prepositional or infinitive use.",
+          "used_in_tasks": [
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07"
+          ],
+          "assessed_in": []
+        }
+      }
+    },
+    "habban-pret-3-sg": {
+      "form_id": "habban-pret-3-sg",
+      "form": "hæfde",
+      "analysis": {
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": 3,
+        "number": "singular"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-III-HAVE",
+        "U02-WEAK"
+      ],
+      "evidence_basis": "printed paradigm; past2sg expanded from etc. by explicit §96 -dest",
+      "teaching_ids": [
+        "NEW-U02-PAR-habban"
+      ],
+      "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+      "used_in_tasks": [
+        "NEW-U02-F15",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N05",
+        "NEW-U02-X03",
+        "NEW-U02-TEXT-NARRATIVE-01"
+      ],
+      "assessed_in": [
+        "NEW-U02-F15",
+        "NEW-U02-N01",
+        "NEW-U02-X03"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "habban-pret-3-sg",
+          "form": "hæfde",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-III-HAVE",
+            "U02-WEAK"
+          ],
+          "evidence_basis": "printed paradigm; past2sg expanded from etc. by explicit §96 -dest",
+          "teaching_ids": [
+            "NEW-U02-PAR-habban"
+          ],
+          "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+          "used_in_tasks": [
+            "NEW-U02-F15",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N05",
+            "NEW-U02-X03",
+            "NEW-U02-TEXT-NARRATIVE-01"
+          ],
+          "assessed_in": [
+            "NEW-U02-F15",
+            "NEW-U02-N01",
+            "NEW-U02-X03"
+          ]
+        }
+      }
+    },
+    "micel-comp-acc-f-sg-weak": {
+      "form_id": "micel-comp-acc-f-sg-weak",
+      "form": "māran",
+      "analysis": {
+        "case": "acc",
+        "gender": "f",
+        "number": "sg",
+        "declension": "weak",
+        "degree": "comparative"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U03-COMPARE",
+        "U03-WEAK",
+        "U03-WRIGHT-COMPARE",
+        "U03-COMP-GEN"
+      ],
+      "evidence_basis": "checked lexical stem plus cited declension/stem rules; not an individual attestation",
+      "origin_category": "derived_from_checked_pattern",
+      "accepted_variants": [],
+      "teaching_ids": [
+        "NEW-U03-PAR-micel-comp-weak"
+      ],
+      "scope_note": "Comparative always weak, including predicate. Gpl is transparently rule-derived; lǣssena/wiersena select the licensed -ena alternative.",
+      "used_in_tasks": [
+        "NEW-U03-C02",
+        "NEW-U03-PAR-micel-comp-weak"
+      ],
+      "assessed_in": [
+        "NEW-U03-C02"
+      ],
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch03",
+      "reviewed_chapters": [
+        "ch03"
+      ],
+      "review_record": "chapters/ch03/review.md",
+      "coverage_contract": "chapters/ch03/coverage.json",
+      "records_by_chapter": {
+        "ch03": {
+          "form_id": "micel-comp-acc-f-sg-weak",
+          "form": "māran",
+          "analysis": {
+            "case": "acc",
+            "gender": "f",
+            "number": "sg",
+            "declension": "weak",
+            "degree": "comparative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U03-COMPARE",
+            "U03-WEAK",
+            "U03-WRIGHT-COMPARE",
+            "U03-COMP-GEN"
+          ],
+          "evidence_basis": "checked lexical stem plus cited declension/stem rules; not an individual attestation",
+          "origin_category": "derived_from_checked_pattern",
+          "accepted_variants": [],
+          "teaching_ids": [
+            "NEW-U03-PAR-micel-comp-weak"
+          ],
+          "scope_note": "Comparative always weak, including predicate. Gpl is transparently rule-derived; lǣssena/wiersena select the licensed -ena alternative.",
+          "used_in_tasks": [
+            "NEW-U03-C02",
+            "NEW-U03-PAR-micel-comp-weak"
+          ],
+          "assessed_in": [
+            "NEW-U03-C02"
+          ]
+        }
+      }
+    },
+    "on-invariant": {
+      "form_id": "on-invariant",
+      "form": "on",
+      "analysis": {
+        "inflection": "invariant"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-GRAM-ON"
+      ],
+      "assessed_in": [
+        "CH01-CASE05",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-COMP01",
+        "CH01-COMP02",
+        "CH01-COMP05",
+        "CH01-COMP06",
+        "CH01-COMP07",
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-REVIEW02",
+        "CH01-REVIEW03",
+        "CH01-READ01",
+        "CH01-READ08"
+      ],
+      "evidence_refs": [
+        "FB172"
+      ],
+      "evidence_basis": "exact_source_form_or_paradigm",
+      "scope_note": "Only the listed sense/use is assigned.",
+      "used_in_tasks": [
+        "CH01-CASE05",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-COMP01",
+        "CH01-COMP02",
+        "CH01-COMP05",
+        "CH01-COMP06",
+        "CH01-COMP07",
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-REVIEW02",
+        "CH01-REVIEW03",
+        "CH01-READ01",
+        "CH01-READ08"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "twegen-acc-n-pl": {
+      "form_id": "twegen-acc-n-pl",
+      "form": "twā",
+      "analysis": {
+        "case": "acc",
+        "gender": "n",
+        "number": "pl"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U03-NUMERAL"
+      ],
+      "evidence_basis": "Cook printed numeral paradigm, shared cells expanded",
+      "origin_category": "exact_source",
+      "accepted_variants": [
+        {
+          "form": "tū",
+          "evidence_refs": [
+            "U03-NUMERAL"
+          ],
+          "status": "valid_unselected_variant"
+        }
+      ],
+      "teaching_ids": [
+        "NEW-U03-PAR-twegen"
+      ],
+      "scope_note": "Plural counted noun agrees in case and gender; plural verb agreement. No partitive genitive construction assigned.",
+      "used_in_tasks": [
+        "NEW-U03-N02",
+        "NEW-U03-L01",
+        "NEW-U03-L02",
+        "NEW-U03-L05",
+        "NEW-U03-R01",
+        "NEW-U03-R02",
+        "NEW-U03-R05",
+        "NEW-U03-TEXT-DWELLINGS-01",
+        "NEW-U03-EXAMPLE-09",
+        "NEW-U03-PAR-twegen"
+      ],
+      "assessed_in": [
+        "NEW-U03-N02",
+        "NEW-U03-L01",
+        "NEW-U03-L02",
+        "NEW-U03-L05",
+        "NEW-U03-R01",
+        "NEW-U03-R02",
+        "NEW-U03-R05",
+        "NEW-U03-TEXT-DWELLINGS-01"
+      ],
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch03",
+      "reviewed_chapters": [
+        "ch03"
+      ],
+      "review_record": "chapters/ch03/review.md",
+      "coverage_contract": "chapters/ch03/coverage.json",
+      "records_by_chapter": {
+        "ch03": {
+          "form_id": "twegen-acc-n-pl",
+          "form": "twā",
+          "analysis": {
+            "case": "acc",
+            "gender": "n",
+            "number": "pl"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U03-NUMERAL"
+          ],
+          "evidence_basis": "Cook printed numeral paradigm, shared cells expanded",
+          "origin_category": "exact_source",
+          "accepted_variants": [
+            {
+              "form": "tū",
+              "evidence_refs": [
+                "U03-NUMERAL"
+              ],
+              "status": "valid_unselected_variant"
+            }
+          ],
+          "teaching_ids": [
+            "NEW-U03-PAR-twegen"
+          ],
+          "scope_note": "Plural counted noun agrees in case and gender; plural verb agreement. No partitive genitive construction assigned.",
+          "used_in_tasks": [
+            "NEW-U03-N02",
+            "NEW-U03-L01",
+            "NEW-U03-L02",
+            "NEW-U03-L05",
+            "NEW-U03-R01",
+            "NEW-U03-R02",
+            "NEW-U03-R05",
+            "NEW-U03-TEXT-DWELLINGS-01",
+            "NEW-U03-EXAMPLE-09",
+            "NEW-U03-PAR-twegen"
+          ],
+          "assessed_in": [
+            "NEW-U03-N02",
+            "NEW-U03-L01",
+            "NEW-U03-L02",
+            "NEW-U03-L05",
+            "NEW-U03-R01",
+            "NEW-U03-R02",
+            "NEW-U03-R05",
+            "NEW-U03-TEXT-DWELLINGS-01"
+          ]
+        }
+      }
+    },
+    "sellan-pret-3-sg": {
+      "form_id": "sellan-pret-3-sg",
+      "form": "sealde",
+      "analysis": {
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": 3,
+        "number": "singular"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-FRAME-GIVING",
+        "NEW-U02-PAR-sellan"
+      ],
+      "assessed_in": [
+        "NEW-U02-F08",
+        "NEW-U02-F20",
+        "NEW-U02-N01",
+        "NEW-U02-X03"
+      ],
+      "evidence_refs": [
+        "FB117-GIVE",
+        "U02-I-IRREG",
+        "U02-I-TABLE"
+      ],
+      "evidence_basis": "printed paradigm with optional e omitted in selected present2/3sg",
+      "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+      "used_in_tasks": [
+        "CH01-CASE09",
+        "CH01-CASE10",
+        "NEW-U02-F08",
+        "NEW-U02-F20",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N05",
+        "NEW-U02-X03",
+        "NEW-U02-TEXT-NARRATIVE-01"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [
+        "ch01"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "reviewed_chapters": [
+        "ch01",
+        "ch02"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "form_id": "sellan-pret-3-sg",
+          "form": "sealde",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-FRAME-GIVING"
+          ],
+          "assessed_in": [],
+          "evidence_refs": [
+            "FB117-GIVE"
+          ],
+          "evidence_basis": "exact_source_paradigm",
+          "scope_note": "Print sealde 'gave' in both frames; no verb-conjugation milestone.",
+          "used_in_tasks": [
+            "CH01-CASE09",
+            "CH01-CASE10"
+          ],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch02": {
+          "form_id": "sellan-pret-3-sg",
+          "form": "sealde",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-I-IRREG",
+            "U02-I-TABLE"
+          ],
+          "evidence_basis": "printed paradigm with optional e omitted in selected present2/3sg",
+          "teaching_ids": [
+            "NEW-U02-PAR-sellan"
+          ],
+          "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+          "used_in_tasks": [
+            "NEW-U02-F08",
+            "NEW-U02-F20",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N05",
+            "NEW-U02-X03",
+            "NEW-U02-TEXT-NARRATIVE-01"
+          ],
+          "assessed_in": [
+            "NEW-U02-F08",
+            "NEW-U02-F20",
+            "NEW-U02-N01",
+            "NEW-U02-X03"
+          ]
+        }
+      }
+    },
+    "se-m-acc-sg": {
+      "form_id": "se-m-acc-sg",
+      "form": "ðone",
+      "analysis": {
+        "case": "accusative",
+        "number": "singular",
+        "gender": "m"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-GRAM-ARTICLE"
+      ],
+      "assessed_in": [
+        "CH01-F01",
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE05",
+        "CH01-CASE08"
+      ],
+      "evidence_refs": [
+        "FB84"
+      ],
+      "evidence_basis": "exact_source_form_or_paradigm",
+      "scope_note": "",
+      "used_in_tasks": [
+        "CH01-F01",
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE05",
+        "CH01-CASE08"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "se-n-acc-sg": {
+      "form_id": "se-n-acc-sg",
+      "form": "ðæt",
+      "analysis": {
+        "case": "accusative",
+        "number": "singular",
+        "gender": "n"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-GRAM-ARTICLE"
+      ],
+      "assessed_in": [
+        "CH01-CASE06",
+        "CH01-CASE07",
+        "CH01-REVIEW04",
+        "CH01-READ06",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "evidence_refs": [
+        "FB84"
+      ],
+      "evidence_basis": "exact_source_form_or_paradigm",
+      "scope_note": "",
+      "used_in_tasks": [
+        "CH01-CASE06",
+        "CH01-CASE07",
+        "CH01-REVIEW04",
+        "CH01-READ06",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "ic-nom-sg": {
+      "form_id": "ic-nom-sg",
+      "form": "ic",
+      "analysis": {
+        "person": 1,
+        "number": "singular",
+        "gender": null,
+        "case": "nominative"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-PRON",
+        "U02-POSS"
+      ],
+      "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+      "teaching_ids": [
+        "NEW-U02-PAR-ic"
+      ],
+      "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+      "variants": [],
+      "used_in_tasks": [
+        "NEW-U02-P01",
+        "NEW-U02-F08",
+        "NEW-U02-F15",
+        "NEW-U02-C02",
+        "NEW-U02-C04",
+        "NEW-U02-C09",
+        "NEW-U02-C11",
+        "NEW-U02-C13",
+        "NEW-U02-T02",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-X02",
+        "NEW-U02-TEXT-NARRATIVE-01",
+        "NEW-U02-TEXT-DIALOGUE-01"
+      ],
+      "assessed_in": [
+        "NEW-U02-P01",
+        "NEW-U02-F08",
+        "NEW-U02-F15",
+        "NEW-U02-C02",
+        "NEW-U02-C04",
+        "NEW-U02-C09",
+        "NEW-U02-C11",
+        "NEW-U02-C13",
+        "NEW-U02-T02",
+        "NEW-U02-N01",
+        "NEW-U02-N03",
+        "NEW-U02-N04"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "ic-nom-sg",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON",
+            "U02-POSS"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "NEW-U02-PAR-ic"
+          ],
+          "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+          "variants": [],
+          "used_in_tasks": [
+            "NEW-U02-P01",
+            "NEW-U02-F08",
+            "NEW-U02-F15",
+            "NEW-U02-C02",
+            "NEW-U02-C04",
+            "NEW-U02-C09",
+            "NEW-U02-C11",
+            "NEW-U02-C13",
+            "NEW-U02-T02",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-X02",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-TEXT-DIALOGUE-01"
+          ],
+          "assessed_in": [
+            "NEW-U02-P01",
+            "NEW-U02-F08",
+            "NEW-U02-F15",
+            "NEW-U02-C02",
+            "NEW-U02-C04",
+            "NEW-U02-C09",
+            "NEW-U02-C11",
+            "NEW-U02-C13",
+            "NEW-U02-T02",
+            "NEW-U02-N01",
+            "NEW-U02-N03",
+            "NEW-U02-N04"
+          ]
+        }
+      }
+    },
+    "thu-dat-sg": {
+      "form_id": "thu-dat-sg",
+      "form": "ðē",
+      "analysis": {
+        "person": 2,
+        "number": "singular",
+        "gender": null,
+        "case": "dative"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-PRON",
+        "U02-POSS"
+      ],
+      "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+      "teaching_ids": [
+        "NEW-U02-PAR-thu"
+      ],
+      "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+      "variants": [],
+      "used_in_tasks": [
+        "NEW-U02-P01"
+      ],
+      "assessed_in": [
+        "NEW-U02-P01"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "thu-dat-sg",
+          "form": "ðē",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "dative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON",
+            "U02-POSS"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "NEW-U02-PAR-thu"
+          ],
+          "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+          "variants": [],
+          "used_in_tasks": [
+            "NEW-U02-P01"
+          ],
+          "assessed_in": [
+            "NEW-U02-P01"
+          ]
+        }
+      }
+    },
+    "habban-pres-1-sg": {
+      "form_id": "habban-pres-1-sg",
+      "form": "hæbbe",
+      "analysis": {
+        "tense": "present",
+        "mood": "indicative",
+        "person": 1,
+        "number": "singular"
+      },
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-III-HAVE",
+        "U02-WEAK"
+      ],
+      "evidence_basis": "printed paradigm; past2sg expanded from etc. by explicit §96 -dest",
+      "teaching_ids": [
+        "NEW-U02-PAR-habban"
+      ],
+      "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+      "used_in_tasks": [
+        "NEW-U02-F15",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-TEXT-DIALOGUE-01"
+      ],
+      "assessed_in": [
+        "NEW-U02-F15",
+        "NEW-U02-N03"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "form_id": "habban-pres-1-sg",
+          "form": "hæbbe",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "singular"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-III-HAVE",
+            "U02-WEAK"
+          ],
+          "evidence_basis": "printed paradigm; past2sg expanded from etc. by explicit §96 -dest",
+          "teaching_ids": [
+            "NEW-U02-PAR-habban"
+          ],
+          "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+          "used_in_tasks": [
+            "NEW-U02-F15",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-TEXT-DIALOGUE-01"
+          ],
+          "assessed_in": [
+            "NEW-U02-F15",
+            "NEW-U02-N03"
+          ]
+        }
+      }
+    },
+    "se-f-dat-sg": {
+      "form_id": "se-f-dat-sg",
+      "form": "ðǣre",
+      "analysis": {
+        "case": "dative",
+        "number": "singular",
+        "gender": "f"
+      },
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-GRAM-ARTICLE"
+      ],
+      "assessed_in": [
+        "CH01-MINI02",
+        "CH01-REVIEW03"
+      ],
+      "evidence_refs": [
+        "FB84"
+      ],
+      "evidence_basis": "exact_source_form_or_paradigm",
+      "scope_note": "",
+      "used_in_tasks": [
+        "CH01-MINI02",
+        "CH01-REVIEW03"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    }
+  },
+  "used_prior_senses": {
+    "tha-adverb-1": {
+      "sense_id": "tha-adverb-1",
+      "gloss": "then",
+      "knowledge_status": "supplied",
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U02-SOURCE-SUPPORT",
+        "NEW-U03-SUPPORT-tha-adverb",
+        "NEW-U05-SUPSENSE-tha-adverb-1"
+      ],
+      "evidence_refs": [
+        "FB84",
+        "READING",
+        "U02-R-SABBATH",
+        "U02-R-POSSESSORS",
+        "U03-S-READ125",
+        "U03-S-READ126",
+        "U05-SRC-READ123",
+        "U05-SRC-READ124"
+      ],
+      "used_in_tasks": [
+        "CH01-READ04",
+        "CH01-READ05",
+        "CH01-READ07",
+        "CH01-READ08",
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07",
+        "NEW-U03-R01",
+        "NEW-U05-R04",
+        "NEW-U05-R07",
+        "NEW-U05-R08",
+        "FB-I-CREATION-FIRST-DAY-01",
+        "FB-I-CREATION-SECOND-DAY-01",
+        "NEW-U05-SUPSENSE-tha-adverb-1"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01",
+        "ch02",
+        "ch03",
+        "ch05"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "reviewed_chapters": [
+        "ch01",
+        "ch02",
+        "ch03",
+        "ch05"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "sense_id": "tha-adverb-1",
+          "gloss": "then",
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-READ-SUPPORT"
+          ],
+          "evidence_refs": [
+            "FB84",
+            "READING"
+          ],
+          "used_in_tasks": [
+            "CH01-READ04",
+            "CH01-READ05",
+            "CH01-READ07",
+            "CH01-READ08"
+          ],
+          "assessed_in": [],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch02": {
+          "sense_id": "tha-adverb-1",
+          "gloss": "then",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U02-R-SABBATH",
+            "U02-R-POSSESSORS"
+          ],
+          "teaching_ids": [
+            "NEW-U02-SOURCE-SUPPORT"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07"
+          ],
+          "assessed_in": []
+        },
+        "ch03": {
+          "sense_id": "tha-adverb-1",
+          "gloss": "then",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U03-S-READ125",
+            "U03-S-READ126"
+          ],
+          "teaching_ids": [
+            "NEW-U03-SUPPORT-tha-adverb"
+          ],
+          "used_in_tasks": [
+            "NEW-U03-R01"
+          ],
+          "assessed_in": [],
+          "scope_note": "",
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch02"
+            ],
+            "coverage_contract": "chapters/ch02/coverage.json"
+          }
+        },
+        "ch05": {
+          "sense_id": "tha-adverb-1",
+          "gloss": "then",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U05-SRC-READ123",
+            "U05-SRC-READ124"
+          ],
+          "teaching_ids": [
+            "NEW-U05-SUPSENSE-tha-adverb-1"
+          ],
+          "scope_note": "Exact supported contextual sense only. Earlier milestones remain unchanged.",
+          "used_in_tasks": [
+            "NEW-U05-R04",
+            "NEW-U05-R07",
+            "NEW-U05-R08",
+            "FB-I-CREATION-FIRST-DAY-01",
+            "FB-I-CREATION-SECOND-DAY-01",
+            "NEW-U05-SUPSENSE-tha-adverb-1"
+          ],
+          "assessed_in": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch02",
+              "ch03"
+            ],
+            "coverage_contract": "chapters/ch03/coverage.json",
+            "review_record": "chapters/ch03/review.md",
+            "status": "reviewed",
+            "evidence_refs": [
+              "FB84",
+              "READING",
+              "U02-R-SABBATH",
+              "U02-R-POSSESSORS",
+              "U03-S-READ125",
+              "U03-S-READ126"
+            ],
+            "teaching_ids": [
+              "CH01-READ-SUPPORT",
+              "NEW-U02-SOURCE-SUPPORT",
+              "NEW-U03-SUPPORT-tha-adverb"
+            ],
+            "scope_note": ""
+          }
+        }
+      },
+      "scope_note": "Exact supported contextual sense only. Earlier milestones remain unchanged.",
+      "prior_history": {
+        "recognition_taught_in": null,
+        "production_taught_in": null,
+        "supplied_in": [
+          "ch01",
+          "ch02",
+          "ch03"
+        ],
+        "coverage_contract": "chapters/ch03/coverage.json",
+        "review_record": "chapters/ch03/review.md",
+        "status": "reviewed",
+        "evidence_refs": [
+          "FB84",
+          "READING",
+          "U02-R-SABBATH",
+          "U02-R-POSSESSORS",
+          "U03-S-READ125",
+          "U03-S-READ126"
+        ],
+        "teaching_ids": [
+          "CH01-READ-SUPPORT",
+          "NEW-U02-SOURCE-SUPPORT",
+          "NEW-U03-SUPPORT-tha-adverb"
+        ],
+        "scope_note": ""
+      }
+    },
+    "se-the": {
+      "sense_id": "se-the",
+      "gloss": "the",
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-GRAM-ARTICLE"
+      ],
+      "evidence_refs": [
+        "FB84"
+      ],
+      "used_in_tasks": [
+        "EX-I-01-01",
+        "EX-I-01-02",
+        "EX-I-01-03",
+        "EX-I-01-04",
+        "EX-I-01-05",
+        "EX-I-01-06",
+        "EX-I-01-07",
+        "EX-I-01-08",
+        "EX-I-01-09",
+        "EX-I-01-10",
+        "EX-I-01-11",
+        "EX-I-01-12",
+        "EX-I-01-13",
+        "EX-I-01-14",
+        "EX-I-01-15",
+        "EX-I-01-16",
+        "EX-I-02-01",
+        "EX-I-02-02",
+        "EX-I-02-03",
+        "EX-I-02-04",
+        "EX-I-02-05",
+        "EX-I-02-06",
+        "EX-I-02-07",
+        "EX-I-02-08",
+        "EX-I-02-09",
+        "EX-I-02-10",
+        "EX-I-02-11",
+        "EX-I-02-12",
+        "EX-I-03-01",
+        "EX-I-03-03",
+        "EX-I-03-04",
+        "EX-I-03-05",
+        "EX-I-03-06",
+        "EX-I-03-07",
+        "EX-I-03-08",
+        "EX-I-03-09",
+        "EX-I-03-10",
+        "EX-I-03-11",
+        "EX-I-03-12",
+        "EX-I-03-13",
+        "EX-I-03-15",
+        "EX-I-03-16",
+        "EX-I-03-17",
+        "EX-I-03-18",
+        "CH01-F01",
+        "CH01-F08",
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE03",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE06",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-COMP01",
+        "CH01-COMP02",
+        "CH01-COMP03",
+        "CH01-COMP04",
+        "CH01-COMP05",
+        "CH01-COMP06",
+        "CH01-COMP07",
+        "CH01-COMP08",
+        "CH01-CASE09",
+        "CH01-CASE10",
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-REVIEW02",
+        "CH01-REVIEW03",
+        "CH01-REVIEW04",
+        "CH01-READ02",
+        "CH01-READ06",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "assessed_in": [
+        "EX-I-01-01",
+        "EX-I-01-02",
+        "EX-I-01-03",
+        "EX-I-01-04",
+        "EX-I-01-05",
+        "EX-I-01-06",
+        "EX-I-01-07",
+        "EX-I-01-08",
+        "EX-I-01-09",
+        "EX-I-01-10",
+        "EX-I-01-11",
+        "EX-I-01-12",
+        "EX-I-01-13",
+        "EX-I-01-14",
+        "EX-I-01-15",
+        "EX-I-01-16",
+        "EX-I-02-01",
+        "EX-I-02-02",
+        "EX-I-02-03",
+        "EX-I-02-04",
+        "EX-I-02-05",
+        "EX-I-02-06",
+        "EX-I-02-07",
+        "EX-I-02-08",
+        "EX-I-02-09",
+        "EX-I-02-10",
+        "EX-I-02-11",
+        "EX-I-02-12",
+        "EX-I-03-01",
+        "EX-I-03-03",
+        "EX-I-03-04",
+        "EX-I-03-05",
+        "EX-I-03-06",
+        "EX-I-03-07",
+        "EX-I-03-08",
+        "EX-I-03-09",
+        "EX-I-03-10",
+        "EX-I-03-11",
+        "EX-I-03-12",
+        "EX-I-03-13",
+        "EX-I-03-15",
+        "EX-I-03-16",
+        "EX-I-03-17",
+        "EX-I-03-18",
+        "CH01-F01",
+        "CH01-F08",
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE03",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE06",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-COMP01",
+        "CH01-COMP02",
+        "CH01-COMP03",
+        "CH01-COMP04",
+        "CH01-COMP05",
+        "CH01-COMP06",
+        "CH01-COMP07",
+        "CH01-COMP08",
+        "CH01-CASE09",
+        "CH01-CASE10",
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-REVIEW02",
+        "CH01-REVIEW03",
+        "CH01-REVIEW04",
+        "CH01-READ02",
+        "CH01-READ06",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "geseon-1": {
+      "sense_id": "geseon-1",
+      "gloss": "see",
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U03-SUPPORT-geseon",
+        "NEW-U05-VOC-geseon"
+      ],
+      "evidence_refs": [
+        "READING",
+        "U03-S-READ126",
+        "U05-CORE",
+        "U05-SOUND",
+        "U05-UMLAUT",
+        "U05-V",
+        "U05-WRIGHT-V",
+        "U05-SRC-FB-SEE-CREATE",
+        "U05-SRC-EX-SEE-SHINE",
+        "U05-SRC-BT-GESEE"
+      ],
+      "used_in_tasks": [
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-READ05",
+        "CH01-READ08",
+        "NEW-U03-R01",
+        "NEW-U05-F12",
+        "NEW-U05-C05",
+        "EX-I-05-06",
+        "EX-I-05-10",
+        "EX-I-05-11",
+        "NEW-U05-T03",
+        "NEW-U05-T04",
+        "NEW-U05-R01",
+        "NEW-U05-R04",
+        "NEW-U05-TEXT-A",
+        "FB-I-CREATION-FIRST-DAY-01",
+        "NEW-U05-VOC-geseon"
+      ],
+      "assessed_in": [
+        "NEW-U05-C05",
+        "EX-I-05-06",
+        "EX-I-05-10",
+        "EX-I-05-11",
+        "NEW-U05-T03",
+        "NEW-U05-T04",
+        "NEW-U05-R01",
+        "NEW-U05-R04"
+      ],
+      "recognition_taught_in": "ch05",
+      "production_taught_in": "ch05",
+      "supplied_in": [
+        "ch01",
+        "ch03"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+      "prior_history": {
+        "recognition_taught_in": null,
+        "production_taught_in": null,
+        "supplied_in": [
+          "ch01",
+          "ch03"
+        ],
+        "coverage_contract": "chapters/ch03/coverage.json",
+        "review_record": "chapters/ch03/review.md",
+        "status": "reviewed",
+        "evidence_refs": [
+          "READING",
+          "U03-S-READ126"
+        ],
+        "teaching_ids": [
+          "CH01-READ-SUPPORT",
+          "NEW-U03-SUPPORT-geseon"
+        ],
+        "scope_note": ""
+      },
+      "reviewed_chapters": [
+        "ch01",
+        "ch03",
+        "ch05"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "sense_id": "geseon-1",
+          "gloss": "see",
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-READ-SUPPORT"
+          ],
+          "evidence_refs": [
+            "READING"
+          ],
+          "used_in_tasks": [
+            "CH01-CASE01",
+            "CH01-CASE02",
+            "CH01-CASE04",
+            "CH01-CASE05",
+            "CH01-CASE07",
+            "CH01-CASE08",
+            "CH01-READ05",
+            "CH01-READ08"
+          ],
+          "assessed_in": [],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch03": {
+          "sense_id": "geseon-1",
+          "gloss": "see",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U03-S-READ126"
+          ],
+          "teaching_ids": [
+            "NEW-U03-SUPPORT-geseon"
+          ],
+          "used_in_tasks": [
+            "NEW-U03-R01"
+          ],
+          "assessed_in": [],
+          "scope_note": "",
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01"
+            ],
+            "coverage_contract": "chapters/ch01/coverage.json"
+          }
+        },
+        "ch05": {
+          "sense_id": "geseon-1",
+          "gloss": "see",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U05-CORE",
+            "U05-SOUND",
+            "U05-UMLAUT",
+            "U05-V",
+            "U05-WRIGHT-V",
+            "U05-SRC-FB-SEE-CREATE",
+            "U05-SRC-EX-SEE-SHINE",
+            "U05-SRC-BT-GESEE"
+          ],
+          "teaching_ids": [
+            "NEW-U05-VOC-geseon"
+          ],
+          "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+          "used_in_tasks": [
+            "NEW-U05-F12",
+            "NEW-U05-C05",
+            "EX-I-05-06",
+            "EX-I-05-10",
+            "EX-I-05-11",
+            "NEW-U05-T03",
+            "NEW-U05-T04",
+            "NEW-U05-R01",
+            "NEW-U05-R04",
+            "NEW-U05-TEXT-A",
+            "FB-I-CREATION-FIRST-DAY-01",
+            "NEW-U05-VOC-geseon"
+          ],
+          "assessed_in": [
+            "NEW-U05-C05",
+            "EX-I-05-06",
+            "EX-I-05-10",
+            "EX-I-05-11",
+            "NEW-U05-T03",
+            "NEW-U05-T04",
+            "NEW-U05-R01",
+            "NEW-U05-R04"
+          ],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch03"
+            ],
+            "coverage_contract": "chapters/ch03/coverage.json",
+            "review_record": "chapters/ch03/review.md",
+            "status": "reviewed",
+            "evidence_refs": [
+              "READING",
+              "U03-S-READ126"
+            ],
+            "teaching_ids": [
+              "CH01-READ-SUPPORT",
+              "NEW-U03-SUPPORT-geseon"
+            ],
+            "scope_note": ""
+          }
+        }
+      }
+    },
+    "thaet-conjunction-1": {
+      "sense_id": "thaet-conjunction-1",
+      "gloss": "that; introduces the supplied content clause",
+      "knowledge_status": "supplied",
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U03-SUPPORT-thaet-conjunction",
+        "NEW-U05-SUPSENSE-thaet-conjunction-1"
+      ],
+      "evidence_refs": [
+        "FB84",
+        "READING",
+        "U03-S-READ126",
+        "U03-S-FB194",
+        "U05-SRC-READ123"
+      ],
+      "used_in_tasks": [
+        "CH01-READ05",
+        "CH01-READ08",
+        "NEW-U03-R01",
+        "NEW-U03-R04",
+        "NEW-U03-R06",
+        "NEW-U05-R04",
+        "FB-I-CREATION-FIRST-DAY-01",
+        "NEW-U05-SUPSENSE-thaet-conjunction-1"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01",
+        "ch03",
+        "ch05"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "scope_note": "Exact supported contextual sense only. Earlier milestones remain unchanged.",
+      "prior_history": {
+        "recognition_taught_in": null,
+        "production_taught_in": null,
+        "supplied_in": [
+          "ch01",
+          "ch03"
+        ],
+        "coverage_contract": "chapters/ch03/coverage.json",
+        "review_record": "chapters/ch03/review.md",
+        "status": "reviewed",
+        "evidence_refs": [
+          "FB84",
+          "READING",
+          "U03-S-READ126",
+          "U03-S-FB194"
+        ],
+        "teaching_ids": [
+          "CH01-READ-SUPPORT",
+          "NEW-U03-SUPPORT-thaet-conjunction"
+        ],
+        "scope_note": ""
+      },
+      "reviewed_chapters": [
+        "ch01",
+        "ch03",
+        "ch05"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "sense_id": "thaet-conjunction-1",
+          "gloss": "that; introduces the supplied content clause",
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-READ-SUPPORT"
+          ],
+          "evidence_refs": [
+            "FB84",
+            "READING"
+          ],
+          "used_in_tasks": [
+            "CH01-READ05",
+            "CH01-READ08"
+          ],
+          "assessed_in": [],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch03": {
+          "sense_id": "thaet-conjunction-1",
+          "gloss": "that; introduces the supplied content clause",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U03-S-READ126",
+            "U03-S-FB194"
+          ],
+          "teaching_ids": [
+            "NEW-U03-SUPPORT-thaet-conjunction"
+          ],
+          "used_in_tasks": [
+            "NEW-U03-R01",
+            "NEW-U03-R04",
+            "NEW-U03-R06"
+          ],
+          "assessed_in": [],
+          "scope_note": "",
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01"
+            ],
+            "coverage_contract": "chapters/ch01/coverage.json"
+          }
+        },
+        "ch05": {
+          "sense_id": "thaet-conjunction-1",
+          "gloss": "that; introduces the supplied content clause",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U05-SRC-READ123"
+          ],
+          "teaching_ids": [
+            "NEW-U05-SUPSENSE-thaet-conjunction-1"
+          ],
+          "scope_note": "Exact supported contextual sense only. Earlier milestones remain unchanged.",
+          "used_in_tasks": [
+            "NEW-U05-R04",
+            "FB-I-CREATION-FIRST-DAY-01",
+            "NEW-U05-SUPSENSE-thaet-conjunction-1"
+          ],
+          "assessed_in": [],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch03"
+            ],
+            "coverage_contract": "chapters/ch03/coverage.json",
+            "review_record": "chapters/ch03/review.md",
+            "status": "reviewed",
+            "evidence_refs": [
+              "FB84",
+              "READING",
+              "U03-S-READ126",
+              "U03-S-FB194"
+            ],
+            "teaching_ids": [
+              "CH01-READ-SUPPORT",
+              "NEW-U03-SUPPORT-thaet-conjunction"
+            ],
+            "scope_note": ""
+          }
+        }
+      }
+    },
+    "mann-1": {
+      "sense_id": "mann-1",
+      "gloss": "man; human being",
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-VOC-mann"
+      ],
+      "evidence_refs": [
+        "LEX-mann"
+      ],
+      "used_in_tasks": [
+        "EX-I-01-14",
+        "EX-I-02-07",
+        "EX-I-02-11",
+        "CH01-F03",
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-COMP06",
+        "CH01-CASE09",
+        "CH01-CASE10",
+        "CH01-MINI01",
+        "CH01-REVIEW02"
+      ],
+      "assessed_in": [
+        "EX-I-01-14",
+        "EX-I-02-07",
+        "EX-I-02-11",
+        "CH01-F03",
+        "CH01-CASE01",
+        "CH01-CASE02",
+        "CH01-CASE04",
+        "CH01-CASE05",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-COMP06",
+        "CH01-CASE09",
+        "CH01-CASE10",
+        "CH01-MINI01",
+        "CH01-REVIEW02"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "he-possessor": {
+      "sense_id": "he-possessor",
+      "gloss": "his, her, its, their: invariant genitive possessors",
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-POSS"
+      ],
+      "teaching_ids": [
+        "NEW-U02-VOC-he"
+      ],
+      "used_in_tasks": [
+        "NEW-U02-C06",
+        "NEW-U02-C07",
+        "NEW-U02-C08",
+        "NEW-U02-T05",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N05",
+        "NEW-U02-N06",
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07",
+        "NEW-U02-TEXT-NARRATIVE-01",
+        "NEW-U02-EXAMPLE-04"
+      ],
+      "assessed_in": [
+        "NEW-U02-C06",
+        "NEW-U02-C07",
+        "NEW-U02-C08",
+        "NEW-U02-T05",
+        "NEW-U02-N01",
+        "NEW-U02-N05",
+        "NEW-U02-N06",
+        "NEW-U02-R01",
+        "NEW-U02-R04",
+        "NEW-U02-R07"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "sense_id": "he-possessor",
+          "gloss": "his, her, its, their: invariant genitive possessors",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-POSS"
+          ],
+          "teaching_ids": [
+            "NEW-U02-VOC-he"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-C06",
+            "NEW-U02-C07",
+            "NEW-U02-C08",
+            "NEW-U02-T05",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N05",
+            "NEW-U02-N06",
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-EXAMPLE-04"
+          ],
+          "assessed_in": [
+            "NEW-U02-C06",
+            "NEW-U02-C07",
+            "NEW-U02-C08",
+            "NEW-U02-T05",
+            "NEW-U02-N01",
+            "NEW-U02-N05",
+            "NEW-U02-N06",
+            "NEW-U02-R01",
+            "NEW-U02-R04",
+            "NEW-U02-R07"
+          ]
+        }
+      }
+    },
+    "licgan-1": {
+      "sense_id": "licgan-1",
+      "gloss": "lie; be at rest",
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U05-CORE",
+        "U05-SOUND",
+        "U05-UMLAUT",
+        "U05-V",
+        "U05-WRIGHT-V",
+        "U05-LIE-FRAME"
+      ],
+      "teaching_ids": [
+        "NEW-U05-VOC-licgan"
+      ],
+      "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+      "used_in_tasks": [
+        "NEW-U05-F08",
+        "NEW-U05-E04",
+        "NEW-U05-VOC-licgan"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": "ch05",
+      "production_taught_in": "ch05",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "reviewed_chapters": [
+        "ch05"
+      ],
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "records_by_chapter": {
+        "ch05": {
+          "sense_id": "licgan-1",
+          "gloss": "lie; be at rest",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U05-CORE",
+            "U05-SOUND",
+            "U05-UMLAUT",
+            "U05-V",
+            "U05-WRIGHT-V",
+            "U05-LIE-FRAME"
+          ],
+          "teaching_ids": [
+            "NEW-U05-VOC-licgan"
+          ],
+          "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+          "used_in_tasks": [
+            "NEW-U05-F08",
+            "NEW-U05-E04",
+            "NEW-U05-VOC-licgan"
+          ],
+          "assessed_in": []
+        }
+      }
+    },
+    "he-1": {
+      "sense_id": "he-1",
+      "gloss": "third-person personal reference: he, she, it, they and ordinary object cases",
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U02-VOC-he"
+      ],
+      "evidence_refs": [
+        "READING",
+        "U02-PRON"
+      ],
+      "used_in_tasks": [
+        "CH01-READ05",
+        "CH01-READ06",
+        "CH01-READ08",
+        "NEW-U02-P04",
+        "NEW-U02-P05",
+        "NEW-U02-F07",
+        "NEW-U02-F15",
+        "NEW-U02-C01",
+        "NEW-U02-C02",
+        "NEW-U02-C05",
+        "NEW-U02-C07",
+        "NEW-U02-C08",
+        "NEW-U02-C09",
+        "NEW-U02-C10",
+        "NEW-U02-C11",
+        "NEW-U02-C12",
+        "NEW-U02-C13",
+        "NEW-U02-T01",
+        "NEW-U02-T03",
+        "NEW-U02-T04",
+        "NEW-U02-T05",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-N06",
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-X03",
+        "NEW-U02-TEXT-NARRATIVE-01",
+        "NEW-U02-TEXT-DIALOGUE-01",
+        "NEW-U02-EXAMPLE-05",
+        "NEW-U02-EXAMPLE-07",
+        "NEW-U02-EXAMPLE-08"
+      ],
+      "assessed_in": [
+        "NEW-U02-P04",
+        "NEW-U02-P05",
+        "NEW-U02-F07",
+        "NEW-U02-F15",
+        "NEW-U02-C01",
+        "NEW-U02-C02",
+        "NEW-U02-C05",
+        "NEW-U02-C07",
+        "NEW-U02-C08",
+        "NEW-U02-C09",
+        "NEW-U02-C10",
+        "NEW-U02-C11",
+        "NEW-U02-C12",
+        "NEW-U02-C13",
+        "NEW-U02-T01",
+        "NEW-U02-T03",
+        "NEW-U02-T04",
+        "NEW-U02-T05",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-N06",
+        "NEW-U02-R01",
+        "NEW-U02-R03",
+        "NEW-U02-R07",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-X03"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [
+        "ch01"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "reviewed_chapters": [
+        "ch01",
+        "ch02"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "sense_id": "he-1",
+          "gloss": "he; it (neuter hit refers to light)",
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-READ-SUPPORT"
+          ],
+          "evidence_refs": [
+            "READING"
+          ],
+          "used_in_tasks": [
+            "CH01-READ05",
+            "CH01-READ06",
+            "CH01-READ08"
+          ],
+          "assessed_in": [],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch02": {
+          "sense_id": "he-1",
+          "gloss": "third-person personal reference: he, she, it, they and ordinary object cases",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "teaching_ids": [
+            "NEW-U02-VOC-he"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-P04",
+            "NEW-U02-P05",
+            "NEW-U02-F07",
+            "NEW-U02-F15",
+            "NEW-U02-C01",
+            "NEW-U02-C02",
+            "NEW-U02-C05",
+            "NEW-U02-C07",
+            "NEW-U02-C08",
+            "NEW-U02-C09",
+            "NEW-U02-C10",
+            "NEW-U02-C11",
+            "NEW-U02-C12",
+            "NEW-U02-C13",
+            "NEW-U02-T01",
+            "NEW-U02-T03",
+            "NEW-U02-T04",
+            "NEW-U02-T05",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-N06",
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-X03",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-TEXT-DIALOGUE-01",
+            "NEW-U02-EXAMPLE-05",
+            "NEW-U02-EXAMPLE-07",
+            "NEW-U02-EXAMPLE-08"
+          ],
+          "assessed_in": [
+            "NEW-U02-P04",
+            "NEW-U02-P05",
+            "NEW-U02-F07",
+            "NEW-U02-F15",
+            "NEW-U02-C01",
+            "NEW-U02-C02",
+            "NEW-U02-C05",
+            "NEW-U02-C07",
+            "NEW-U02-C08",
+            "NEW-U02-C09",
+            "NEW-U02-C10",
+            "NEW-U02-C11",
+            "NEW-U02-C12",
+            "NEW-U02-C13",
+            "NEW-U02-T01",
+            "NEW-U02-T03",
+            "NEW-U02-T04",
+            "NEW-U02-T05",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-N06",
+            "NEW-U02-R01",
+            "NEW-U02-R03",
+            "NEW-U02-R07",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-X03"
+          ]
+        }
+      }
+    },
+    "and-1": {
+      "sense_id": "and-1",
+      "gloss": "and; simple coordination",
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-GRAM-COORDINATION"
+      ],
+      "evidence_refs": [
+        "READING",
+        "EX1"
+      ],
+      "used_in_tasks": [
+        "EX-I-01-01",
+        "EX-I-01-02",
+        "EX-I-01-03",
+        "EX-I-01-04",
+        "EX-I-01-05",
+        "EX-I-01-06",
+        "EX-I-01-07",
+        "EX-I-01-08",
+        "EX-I-01-09",
+        "EX-I-01-10",
+        "EX-I-01-11",
+        "EX-I-01-12",
+        "EX-I-01-13",
+        "EX-I-01-14",
+        "EX-I-01-15",
+        "EX-I-01-16",
+        "EX-I-02-01",
+        "EX-I-02-02",
+        "EX-I-02-03",
+        "EX-I-02-04",
+        "EX-I-02-05",
+        "EX-I-02-06",
+        "EX-I-02-07",
+        "EX-I-02-08",
+        "EX-I-02-09",
+        "EX-I-02-10",
+        "EX-I-02-11",
+        "EX-I-02-12",
+        "EX-I-03-13",
+        "CH01-CASE03",
+        "CH01-READ01",
+        "CH01-READ02",
+        "CH01-READ03",
+        "CH01-READ04",
+        "CH01-READ06",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "assessed_in": [
+        "EX-I-01-01",
+        "EX-I-01-02",
+        "EX-I-01-03",
+        "EX-I-01-04",
+        "EX-I-01-05",
+        "EX-I-01-06",
+        "EX-I-01-07",
+        "EX-I-01-08",
+        "EX-I-01-09",
+        "EX-I-01-10",
+        "EX-I-01-11",
+        "EX-I-01-12",
+        "EX-I-01-13",
+        "EX-I-01-14",
+        "EX-I-01-15",
+        "EX-I-01-16",
+        "EX-I-02-01",
+        "EX-I-02-02",
+        "EX-I-02-03",
+        "EX-I-02-04",
+        "EX-I-02-05",
+        "EX-I-02-06",
+        "EX-I-02-07",
+        "EX-I-02-08",
+        "EX-I-02-09",
+        "EX-I-02-10",
+        "EX-I-02-11",
+        "EX-I-02-12",
+        "EX-I-03-13",
+        "CH01-CASE03",
+        "CH01-READ01",
+        "CH01-READ02",
+        "CH01-READ03",
+        "CH01-READ04",
+        "CH01-READ06",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch01",
+      "review_record": "chapters/ch01/review.md",
+      "coverage_contract": "chapters/ch01/coverage.json"
+    },
+    "laedan-1": {
+      "sense_id": "laedan-1",
+      "gloss": "lead",
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-I-LONG",
+        "U02-I-TABLE",
+        "U02-DENTAL"
+      ],
+      "teaching_ids": [
+        "NEW-U02-VOC-laedan"
+      ],
+      "used_in_tasks": [
+        "NEW-U02-F05"
+      ],
+      "assessed_in": [
+        "NEW-U02-F05"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "sense_id": "laedan-1",
+          "gloss": "lead",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-I-LONG",
+            "U02-I-TABLE",
+            "U02-DENTAL"
+          ],
+          "teaching_ids": [
+            "NEW-U02-VOC-laedan"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-F05"
+          ],
+          "assessed_in": [
+            "NEW-U02-F05"
+          ]
+        }
+      }
+    },
+    "to-destination": {
+      "sense_id": "to-destination",
+      "gloss": "to, introducing the destination",
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "U04-SRC-LEX-to",
+        "U04-SRC-TEXT166"
+      ],
+      "teaching_ids": [
+        "NEW-U04-SUPSENSE-to-destination"
+      ],
+      "scope_note": "Local supported source sense only unless its prior recognition milestone is expressly retained.",
+      "used_in_tasks": [
+        "NEW-U04-R01",
+        "NEW-U04-R04",
+        "NEW-U04-R05",
+        "FB-XII-APOLLONIUS-STORM-SHORE-01",
+        "NEW-U04-SUPSENSE-to-destination",
+        "NEW-U04-SUPPORT-U04-SRC-HELP09"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch04"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch04",
+      "reviewed_chapters": [
+        "ch04"
+      ],
+      "review_record": "chapters/ch04/review.md",
+      "coverage_contract": "chapters/ch04/coverage.json",
+      "records_by_chapter": {
+        "ch04": {
+          "sense_id": "to-destination",
+          "gloss": "to, introducing the destination",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U04-SRC-LEX-to",
+            "U04-SRC-TEXT166"
+          ],
+          "teaching_ids": [
+            "NEW-U04-SUPSENSE-to-destination"
+          ],
+          "scope_note": "Local supported source sense only unless its prior recognition milestone is expressly retained.",
+          "used_in_tasks": [
+            "NEW-U04-R01",
+            "NEW-U04-R04",
+            "NEW-U04-R05",
+            "FB-XII-APOLLONIUS-STORM-SHORE-01",
+            "NEW-U04-SUPSENSE-to-destination",
+            "NEW-U04-SUPPORT-U04-SRC-HELP09"
+          ],
+          "assessed_in": []
+        }
+      }
+    },
+    "the-relative-which": {
+      "sense_id": "the-relative-which",
+      "gloss": "which/that, actual object-relative clauses",
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "U02-R-SABBATH",
+        "U02-R-RELATIVE"
+      ],
+      "teaching_ids": [
+        "NEW-U02-SOURCE-SUPPORT"
+      ],
+      "used_in_tasks": [
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "sense_id": "the-relative-which",
+          "gloss": "which/that, actual object-relative clauses",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U02-R-SABBATH",
+            "U02-R-RELATIVE"
+          ],
+          "teaching_ids": [
+            "NEW-U02-SOURCE-SUPPORT"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07"
+          ],
+          "assessed_in": []
+        }
+      }
+    },
+    "to-inflected-infinitive": {
+      "sense_id": "to-inflected-infinitive",
+      "gloss": "to, supplied inflected infinitive phrase",
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "U02-R-SABBATH",
+        "U02-R-INFINITIVE"
+      ],
+      "teaching_ids": [
+        "NEW-U02-SOURCE-SUPPORT"
+      ],
+      "used_in_tasks": [
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "sense_id": "to-inflected-infinitive",
+          "gloss": "to, supplied inflected infinitive phrase",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U02-R-SABBATH",
+            "U02-R-INFINITIVE"
+          ],
+          "teaching_ids": [
+            "NEW-U02-SOURCE-SUPPORT"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07"
+          ],
+          "assessed_in": []
+        }
+      }
+    },
+    "beodan-1": {
+      "sense_id": "beodan-1",
+      "gloss": "offer",
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U04-CORE",
+        "U04-SOUND",
+        "U04-II",
+        "U04-LEX-II"
+      ],
+      "teaching_ids": [
+        "NEW-U04-VOC-beodan"
+      ],
+      "scope_note": "Selected offer sense only; command and infinitive/clausal complements are unassigned.",
+      "used_in_tasks": [
+        "NEW-U04-P02",
+        "NEW-U04-B01",
+        "NEW-U04-B02",
+        "NEW-U04-VOC-beodan"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": "ch04",
+      "production_taught_in": "ch04",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch04",
+      "reviewed_chapters": [
+        "ch04"
+      ],
+      "review_record": "chapters/ch04/review.md",
+      "coverage_contract": "chapters/ch04/coverage.json",
+      "records_by_chapter": {
+        "ch04": {
+          "sense_id": "beodan-1",
+          "gloss": "offer",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U04-CORE",
+            "U04-SOUND",
+            "U04-II",
+            "U04-LEX-II"
+          ],
+          "teaching_ids": [
+            "NEW-U04-VOC-beodan"
+          ],
+          "scope_note": "Selected offer sense only; command and infinitive/clausal complements are unassigned.",
+          "used_in_tasks": [
+            "NEW-U04-P02",
+            "NEW-U04-B01",
+            "NEW-U04-B02",
+            "NEW-U04-VOC-beodan"
+          ],
+          "assessed_in": []
+        }
+      }
+    },
+    "habban-1": {
+      "sense_id": "habban-1",
+      "gloss": "have; possess",
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-III-HAVE",
+        "U02-WEAK"
+      ],
+      "teaching_ids": [
+        "NEW-U02-VOC-habban"
+      ],
+      "used_in_tasks": [
+        "NEW-U02-F15",
+        "NEW-U02-C03",
+        "NEW-U02-C05",
+        "NEW-U02-C07",
+        "NEW-U02-C08",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-N05",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-X03",
+        "NEW-U02-TEXT-NARRATIVE-01",
+        "NEW-U02-TEXT-DIALOGUE-01",
+        "NEW-U02-EXAMPLE-07"
+      ],
+      "assessed_in": [
+        "NEW-U02-F15",
+        "NEW-U02-C03",
+        "NEW-U02-C05",
+        "NEW-U02-C07",
+        "NEW-U02-C08",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N03",
+        "NEW-U02-N05",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-X03"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "sense_id": "habban-1",
+          "gloss": "have; possess",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-III-HAVE",
+            "U02-WEAK"
+          ],
+          "teaching_ids": [
+            "NEW-U02-VOC-habban"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-F15",
+            "NEW-U02-C03",
+            "NEW-U02-C05",
+            "NEW-U02-C07",
+            "NEW-U02-C08",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-N05",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-X03",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-TEXT-DIALOGUE-01",
+            "NEW-U02-EXAMPLE-07"
+          ],
+          "assessed_in": [
+            "NEW-U02-F15",
+            "NEW-U02-C03",
+            "NEW-U02-C05",
+            "NEW-U02-C07",
+            "NEW-U02-C08",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N03",
+            "NEW-U02-N05",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-X03"
+          ]
+        }
+      }
+    },
+    "micel-comp-1": {
+      "sense_id": "micel-comp-1",
+      "gloss": "greater/larger",
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U03-COMPARE",
+        "U03-WEAK",
+        "U03-WRIGHT-COMPARE",
+        "U03-COMP-GEN"
+      ],
+      "teaching_ids": [
+        "NEW-U03-VOC-micel-comp"
+      ],
+      "used_in_tasks": [
+        "NEW-U03-P05",
+        "NEW-U03-C01",
+        "NEW-U03-C02",
+        "NEW-U03-C04",
+        "NEW-U03-L01",
+        "NEW-U03-L04",
+        "NEW-U03-L05",
+        "NEW-U03-R01",
+        "NEW-U03-R03",
+        "NEW-U03-X01",
+        "NEW-U03-X03",
+        "EX-I-04-08",
+        "NEW-U03-TEXT-DWELLINGS-01"
+      ],
+      "assessed_in": [
+        "NEW-U03-P05",
+        "NEW-U03-C01",
+        "NEW-U03-C02",
+        "NEW-U03-C04",
+        "NEW-U03-L01",
+        "NEW-U03-L04",
+        "NEW-U03-L05",
+        "NEW-U03-R01",
+        "NEW-U03-R03",
+        "NEW-U03-X01",
+        "NEW-U03-X03",
+        "EX-I-04-08",
+        "NEW-U03-TEXT-DWELLINGS-01"
+      ],
+      "scope_note": "",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch03",
+      "reviewed_chapters": [
+        "ch03"
+      ],
+      "review_record": "chapters/ch03/review.md",
+      "coverage_contract": "chapters/ch03/coverage.json",
+      "records_by_chapter": {
+        "ch03": {
+          "sense_id": "micel-comp-1",
+          "gloss": "greater/larger",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U03-COMPARE",
+            "U03-WEAK",
+            "U03-WRIGHT-COMPARE",
+            "U03-COMP-GEN"
+          ],
+          "teaching_ids": [
+            "NEW-U03-VOC-micel-comp"
+          ],
+          "used_in_tasks": [
+            "NEW-U03-P05",
+            "NEW-U03-C01",
+            "NEW-U03-C02",
+            "NEW-U03-C04",
+            "NEW-U03-L01",
+            "NEW-U03-L04",
+            "NEW-U03-L05",
+            "NEW-U03-R01",
+            "NEW-U03-R03",
+            "NEW-U03-X01",
+            "NEW-U03-X03",
+            "EX-I-04-08",
+            "NEW-U03-TEXT-DWELLINGS-01"
+          ],
+          "assessed_in": [
+            "NEW-U03-P05",
+            "NEW-U03-C01",
+            "NEW-U03-C02",
+            "NEW-U03-C04",
+            "NEW-U03-L01",
+            "NEW-U03-L04",
+            "NEW-U03-L05",
+            "NEW-U03-R01",
+            "NEW-U03-R03",
+            "NEW-U03-X01",
+            "NEW-U03-X03",
+            "EX-I-04-08",
+            "NEW-U03-TEXT-DWELLINGS-01"
+          ],
+          "scope_note": ""
+        }
+      }
+    },
+    "sellan-give": {
+      "sense_id": "sellan-give",
+      "gloss": "give",
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-FRAME-GIVING",
+        "NEW-U02-VOC-sellan"
+      ],
+      "evidence_refs": [
+        "FB117-GIVE",
+        "U02-I-IRREG",
+        "U02-I-TABLE"
+      ],
+      "used_in_tasks": [
+        "CH01-CASE09",
+        "CH01-CASE10",
+        "NEW-U02-F08",
+        "NEW-U02-F20",
+        "NEW-U02-C02",
+        "NEW-U02-C03",
+        "NEW-U02-C13",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-N05",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-X03",
+        "NEW-U02-TEXT-NARRATIVE-01",
+        "NEW-U02-TEXT-DIALOGUE-01",
+        "NEW-U02-EXAMPLE-03"
+      ],
+      "assessed_in": [
+        "NEW-U02-F08",
+        "NEW-U02-F20",
+        "NEW-U02-C02",
+        "NEW-U02-C03",
+        "NEW-U02-C13",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N03",
+        "NEW-U02-N05",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-X03"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [
+        "ch01"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "reviewed_chapters": [
+        "ch01",
+        "ch02"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "sense_id": "sellan-give",
+          "gloss": "give",
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-FRAME-GIVING"
+          ],
+          "evidence_refs": [
+            "FB117-GIVE"
+          ],
+          "used_in_tasks": [
+            "CH01-CASE09",
+            "CH01-CASE10"
+          ],
+          "assessed_in": [],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch02": {
+          "sense_id": "sellan-give",
+          "gloss": "give",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-I-IRREG",
+            "U02-I-TABLE"
+          ],
+          "teaching_ids": [
+            "NEW-U02-VOC-sellan"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-F08",
+            "NEW-U02-F20",
+            "NEW-U02-C02",
+            "NEW-U02-C03",
+            "NEW-U02-C13",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-N05",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-X03",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-TEXT-DIALOGUE-01",
+            "NEW-U02-EXAMPLE-03"
+          ],
+          "assessed_in": [
+            "NEW-U02-F08",
+            "NEW-U02-F20",
+            "NEW-U02-C02",
+            "NEW-U02-C03",
+            "NEW-U02-C13",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N03",
+            "NEW-U02-N05",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-X03"
+          ]
+        }
+      }
+    },
+    "apollonius-person": {
+      "sense_id": "apollonius-person",
+      "gloss": "Apollonius, the traveller named in the story",
+      "knowledge_status": "supplied",
+      "evidence_refs": [
+        "U04-SRC-FB54",
+        "U04-SRC-TEXT166"
+      ],
+      "teaching_ids": [
+        "NEW-U04-SUPSENSE-apollonius-person"
+      ],
+      "scope_note": "Local supported source sense only unless its prior recognition milestone is expressly retained.",
+      "used_in_tasks": [
+        "NEW-U04-R01",
+        "NEW-U04-R02",
+        "NEW-U04-R03",
+        "NEW-U04-R04",
+        "NEW-U04-R05",
+        "FB-XII-APOLLONIUS-STORM-SHORE-01",
+        "NEW-U04-SUPSENSE-apollonius-person",
+        "NEW-U04-SUPPORT-U04-SRC-HELP06",
+        "NEW-U04-SUPPORT-U04-SRC-HELP08"
+      ],
+      "assessed_in": [],
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch04"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch04",
+      "reviewed_chapters": [
+        "ch04"
+      ],
+      "review_record": "chapters/ch04/review.md",
+      "coverage_contract": "chapters/ch04/coverage.json",
+      "records_by_chapter": {
+        "ch04": {
+          "sense_id": "apollonius-person",
+          "gloss": "Apollonius, the traveller named in the story",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U04-SRC-FB54",
+            "U04-SRC-TEXT166"
+          ],
+          "teaching_ids": [
+            "NEW-U04-SUPSENSE-apollonius-person"
+          ],
+          "scope_note": "Local supported source sense only unless its prior recognition milestone is expressly retained.",
+          "used_in_tasks": [
+            "NEW-U04-R01",
+            "NEW-U04-R02",
+            "NEW-U04-R03",
+            "NEW-U04-R04",
+            "NEW-U04-R05",
+            "FB-XII-APOLLONIUS-STORM-SHORE-01",
+            "NEW-U04-SUPSENSE-apollonius-person",
+            "NEW-U04-SUPPORT-U04-SRC-HELP06",
+            "NEW-U04-SUPPORT-U04-SRC-HELP08"
+          ],
+          "assessed_in": []
+        }
+      }
+    },
+    "cwethan-1": {
+      "sense_id": "cwethan-1",
+      "gloss": "say",
+      "knowledge_status": "new_production",
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U03-SUPPORT-cwethan",
+        "NEW-U05-VOC-cwethan"
+      ],
+      "evidence_refs": [
+        "READING",
+        "U03-S-READ125",
+        "U05-CORE",
+        "U05-SOUND",
+        "U05-UMLAUT",
+        "U05-V",
+        "U05-WRIGHT-V",
+        "U05-SRC-READ123",
+        "U05-SRC-READ124"
+      ],
+      "used_in_tasks": [
+        "CH01-READ04",
+        "CH01-READ08",
+        "NEW-U03-R01",
+        "NEW-U05-F05",
+        "NEW-U05-C06",
+        "NEW-U05-R01",
+        "NEW-U05-R04",
+        "NEW-U05-R05",
+        "NEW-U05-R08",
+        "NEW-U05-E08",
+        "FB-I-CREATION-FIRST-DAY-01",
+        "FB-I-CREATION-SECOND-DAY-01",
+        "NEW-U05-VOC-cwethan"
+      ],
+      "assessed_in": [
+        "NEW-U05-C06",
+        "NEW-U05-R01",
+        "NEW-U05-R04",
+        "NEW-U05-R05",
+        "NEW-U05-R08"
+      ],
+      "recognition_taught_in": "ch05",
+      "production_taught_in": "ch05",
+      "supplied_in": [
+        "ch01",
+        "ch03"
+      ],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "scope_note": "Full indicative morphology and the explicitly taught direct-quotation frame. The quoted clause is independent; content clauses and other complements remain supplied or unassigned.",
+      "prior_history": {
+        "recognition_taught_in": null,
+        "production_taught_in": null,
+        "supplied_in": [
+          "ch01",
+          "ch03"
+        ],
+        "coverage_contract": "chapters/ch03/coverage.json",
+        "review_record": "chapters/ch03/review.md",
+        "status": "reviewed",
+        "evidence_refs": [
+          "READING",
+          "U03-S-READ125"
+        ],
+        "teaching_ids": [
+          "CH01-READ-SUPPORT",
+          "NEW-U03-SUPPORT-cwethan"
+        ],
+        "scope_note": ""
+      },
+      "reviewed_chapters": [
+        "ch01",
+        "ch03",
+        "ch05"
+      ],
+      "records_by_chapter": {
+        "ch01": {
+          "sense_id": "cwethan-1",
+          "gloss": "say",
+          "knowledge_status": "supplied",
+          "teaching_ids": [
+            "CH01-READ-SUPPORT"
+          ],
+          "evidence_refs": [
+            "READING"
+          ],
+          "used_in_tasks": [
+            "CH01-READ04",
+            "CH01-READ08"
+          ],
+          "assessed_in": [],
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json"
+        },
+        "ch03": {
+          "sense_id": "cwethan-1",
+          "gloss": "say",
+          "knowledge_status": "supplied",
+          "evidence_refs": [
+            "U03-S-READ125"
+          ],
+          "teaching_ids": [
+            "NEW-U03-SUPPORT-cwethan"
+          ],
+          "used_in_tasks": [
+            "NEW-U03-R01"
+          ],
+          "assessed_in": [],
+          "scope_note": "",
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01"
+            ],
+            "coverage_contract": "chapters/ch01/coverage.json"
+          }
+        },
+        "ch05": {
+          "sense_id": "cwethan-1",
+          "gloss": "say",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U05-CORE",
+            "U05-SOUND",
+            "U05-UMLAUT",
+            "U05-V",
+            "U05-WRIGHT-V",
+            "U05-SRC-READ123",
+            "U05-SRC-READ124"
+          ],
+          "teaching_ids": [
+            "NEW-U05-VOC-cwethan"
+          ],
+          "scope_note": "Full indicative morphology and the explicitly taught direct-quotation frame. The quoted clause is independent; content clauses and other complements remain supplied or unassigned.",
+          "used_in_tasks": [
+            "NEW-U05-F05",
+            "NEW-U05-C06",
+            "NEW-U05-R01",
+            "NEW-U05-R04",
+            "NEW-U05-R05",
+            "NEW-U05-R08",
+            "NEW-U05-E08",
+            "FB-I-CREATION-FIRST-DAY-01",
+            "FB-I-CREATION-SECOND-DAY-01",
+            "NEW-U05-VOC-cwethan"
+          ],
+          "assessed_in": [
+            "NEW-U05-C06",
+            "NEW-U05-R01",
+            "NEW-U05-R04",
+            "NEW-U05-R05",
+            "NEW-U05-R08"
+          ],
+          "prior_history": {
+            "recognition_taught_in": null,
+            "production_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch03"
+            ],
+            "coverage_contract": "chapters/ch03/coverage.json",
+            "review_record": "chapters/ch03/review.md",
+            "status": "reviewed",
+            "evidence_refs": [
+              "READING",
+              "U03-S-READ125"
+            ],
+            "teaching_ids": [
+              "CH01-READ-SUPPORT",
+              "NEW-U03-SUPPORT-cwethan"
+            ],
+            "scope_note": ""
+          }
+        }
+      }
+    },
+    "niman-1": {
+      "sense_id": "niman-1",
+      "gloss": "take",
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U05-CORE",
+        "U05-SOUND",
+        "U05-UMLAUT",
+        "U05-IV",
+        "U05-WRIGHT-IV",
+        "U05-TAKE-FRAME"
+      ],
+      "teaching_ids": [
+        "NEW-U05-VOC-niman"
+      ],
+      "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+      "used_in_tasks": [
+        "NEW-U05-F02",
+        "NEW-U05-C01",
+        "NEW-U05-C05",
+        "NEW-U05-E02",
+        "NEW-U05-VOC-niman"
+      ],
+      "assessed_in": [
+        "NEW-U05-C01",
+        "NEW-U05-C05"
+      ],
+      "recognition_taught_in": "ch05",
+      "production_taught_in": "ch05",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch05",
+      "reviewed_chapters": [
+        "ch05"
+      ],
+      "review_record": "chapters/ch05/review.md",
+      "coverage_contract": "chapters/ch05/coverage.json",
+      "records_by_chapter": {
+        "ch05": {
+          "sense_id": "niman-1",
+          "gloss": "take",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U05-CORE",
+            "U05-SOUND",
+            "U05-UMLAUT",
+            "U05-IV",
+            "U05-WRIGHT-IV",
+            "U05-TAKE-FRAME"
+          ],
+          "teaching_ids": [
+            "NEW-U05-VOC-niman"
+          ],
+          "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+          "used_in_tasks": [
+            "NEW-U05-F02",
+            "NEW-U05-C01",
+            "NEW-U05-C05",
+            "NEW-U05-E02",
+            "NEW-U05-VOC-niman"
+          ],
+          "assessed_in": [
+            "NEW-U05-C01",
+            "NEW-U05-C05"
+          ]
+        }
+      }
+    },
+    "ic-personal": {
+      "sense_id": "ic-personal",
+      "gloss": "speaker reference: I/me/we/us",
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-PRON"
+      ],
+      "teaching_ids": [
+        "NEW-U02-VOC-ic"
+      ],
+      "used_in_tasks": [
+        "NEW-U02-P01",
+        "NEW-U02-P02",
+        "NEW-U02-P03",
+        "NEW-U02-F08",
+        "NEW-U02-F12",
+        "NEW-U02-F15",
+        "NEW-U02-C02",
+        "NEW-U02-C03",
+        "NEW-U02-C04",
+        "NEW-U02-C09",
+        "NEW-U02-C11",
+        "NEW-U02-C12",
+        "NEW-U02-C13",
+        "NEW-U02-T02",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-TEXT-NARRATIVE-01",
+        "NEW-U02-TEXT-DIALOGUE-01",
+        "NEW-U02-EXAMPLE-01",
+        "NEW-U02-EXAMPLE-02",
+        "NEW-U02-EXAMPLE-07"
+      ],
+      "assessed_in": [
+        "NEW-U02-P01",
+        "NEW-U02-P02",
+        "NEW-U02-P03",
+        "NEW-U02-F08",
+        "NEW-U02-F12",
+        "NEW-U02-F15",
+        "NEW-U02-C02",
+        "NEW-U02-C03",
+        "NEW-U02-C04",
+        "NEW-U02-C09",
+        "NEW-U02-C11",
+        "NEW-U02-C12",
+        "NEW-U02-C13",
+        "NEW-U02-T02",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-X01",
+        "NEW-U02-X02"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "sense_id": "ic-personal",
+          "gloss": "speaker reference: I/me/we/us",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "teaching_ids": [
+            "NEW-U02-VOC-ic"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-P01",
+            "NEW-U02-P02",
+            "NEW-U02-P03",
+            "NEW-U02-F08",
+            "NEW-U02-F12",
+            "NEW-U02-F15",
+            "NEW-U02-C02",
+            "NEW-U02-C03",
+            "NEW-U02-C04",
+            "NEW-U02-C09",
+            "NEW-U02-C11",
+            "NEW-U02-C12",
+            "NEW-U02-C13",
+            "NEW-U02-T02",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-TEXT-DIALOGUE-01",
+            "NEW-U02-EXAMPLE-01",
+            "NEW-U02-EXAMPLE-02",
+            "NEW-U02-EXAMPLE-07"
+          ],
+          "assessed_in": [
+            "NEW-U02-P01",
+            "NEW-U02-P02",
+            "NEW-U02-P03",
+            "NEW-U02-F08",
+            "NEW-U02-F12",
+            "NEW-U02-F15",
+            "NEW-U02-C02",
+            "NEW-U02-C03",
+            "NEW-U02-C04",
+            "NEW-U02-C09",
+            "NEW-U02-C11",
+            "NEW-U02-C12",
+            "NEW-U02-C13",
+            "NEW-U02-T02",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-X01",
+            "NEW-U02-X02"
+          ]
+        }
+      }
+    },
+    "thu-personal": {
+      "sense_id": "thu-personal",
+      "gloss": "addressee reference: you, singular/dual/plural",
+      "knowledge_status": "new_production",
+      "evidence_refs": [
+        "U02-PRON"
+      ],
+      "teaching_ids": [
+        "NEW-U02-VOC-thu"
+      ],
+      "used_in_tasks": [
+        "NEW-U02-P01",
+        "NEW-U02-P02",
+        "NEW-U02-P03",
+        "NEW-U02-F01",
+        "NEW-U02-F12",
+        "NEW-U02-F15",
+        "NEW-U02-C04",
+        "NEW-U02-C10",
+        "NEW-U02-C12",
+        "NEW-U02-T02",
+        "NEW-U02-T04",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-TEXT-DIALOGUE-01",
+        "NEW-U02-EXAMPLE-03",
+        "NEW-U02-EXAMPLE-06"
+      ],
+      "assessed_in": [
+        "NEW-U02-P01",
+        "NEW-U02-P02",
+        "NEW-U02-P03",
+        "NEW-U02-F01",
+        "NEW-U02-F12",
+        "NEW-U02-F15",
+        "NEW-U02-C04",
+        "NEW-U02-C10",
+        "NEW-U02-C12",
+        "NEW-U02-T02",
+        "NEW-U02-T04",
+        "NEW-U02-N03",
+        "NEW-U02-N04"
+      ],
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "status": "reviewed",
+      "reviewed_in": "ch02",
+      "reviewed_chapters": [
+        "ch02"
+      ],
+      "review_record": "chapters/ch02/review.md",
+      "coverage_contract": "chapters/ch02/coverage.json",
+      "records_by_chapter": {
+        "ch02": {
+          "sense_id": "thu-personal",
+          "gloss": "addressee reference: you, singular/dual/plural",
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "teaching_ids": [
+            "NEW-U02-VOC-thu"
+          ],
+          "used_in_tasks": [
+            "NEW-U02-P01",
+            "NEW-U02-P02",
+            "NEW-U02-P03",
+            "NEW-U02-F01",
+            "NEW-U02-F12",
+            "NEW-U02-F15",
+            "NEW-U02-C04",
+            "NEW-U02-C10",
+            "NEW-U02-C12",
+            "NEW-U02-T02",
+            "NEW-U02-T04",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-TEXT-DIALOGUE-01",
+            "NEW-U02-EXAMPLE-03",
+            "NEW-U02-EXAMPLE-06"
+          ],
+          "assessed_in": [
+            "NEW-U02-P01",
+            "NEW-U02-P02",
+            "NEW-U02-P03",
+            "NEW-U02-F01",
+            "NEW-U02-F12",
+            "NEW-U02-F15",
+            "NEW-U02-C04",
+            "NEW-U02-C10",
+            "NEW-U02-C12",
+            "NEW-U02-T02",
+            "NEW-U02-T04",
+            "NEW-U02-N03",
+            "NEW-U02-N04"
+          ]
+        }
+      }
+    }
+  },
+  "boundary": "Actual records inspected, not inferred from lemma presence. Earlier supplied nonfinite forms and source constructions are not prior production. Prior contracts remain unchanged."
+}

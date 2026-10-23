@@ -1,0 +1,70 @@
+{
+  "schema_version": 1,
+  "audit_id": "unit06-source-validation",
+  "status": "pass",
+  "checks": {
+    "exact_source_words": 76,
+    "source_tokens_contiguous": true,
+    "line_join_and_note_cue_removal_exact": true,
+    "only_learner_added_closing_quote": true,
+    "source_unresolved_count": 0,
+    "composition_sequences": 39,
+    "composition_surface_or_query_errors": 0,
+    "composition_unresolved_count": 0,
+    "evidence_entries": 48,
+    "all_retained_evidence_image_hashes_match": true,
+    "final_grammar_sequences_reconciled": 39,
+    "final_grammar_distinct_new_cells_reconciled": 60,
+    "final_grammar_surface_or_analysis_changes": 0,
+    "final_grammar_unresolved_count": 0,
+    "original_review_preserved": true
+  },
+  "deliverable_hashes": {
+    "audit.json": "01ac4e6d18f52066a2cd50304a93f9ad5257f889f50acd51c15de09571d3e03a",
+    "evidence.json": "2f37033df5418d58f6960cdf727ee85576833a68fcd55a67cbca25d36e81fed1",
+    "prior-inputs.json": "4f999d8b9e831ec88af62ea5d2a168d1441a839211dd0655da2dedef1cbbf03e",
+    "composition-review.json": "8e77accaded6484cdebc21f934e8a958a7353688196f7a558477406a9f9a5ac9",
+    "source-text.txt": "3dd8bdc65a685a57bc17697210e94d67d6bb3cbd5f98d58a8abba172763ccac2",
+    "source-lines.txt": "96aeb4a27fbc213c1fc32e71d49ae7d0531f705822a8545e831c8cb4b484dbed",
+    "learner-excerpt.txt": "f70f4b55de8049498010ba1444f7e302f9ec83742808d3fb91244d2d4269d06b",
+    "source-notes.md": "e0b6691c62414a547feaa825890c31d133d86d4c412b18cf39c1256f9b8100d9",
+    "change-notes.md": "11bbca152f9eccc606bfae3015a1c53f8cd196a552357a94add72aac1d252fa8",
+    "audit-translations.md": "5d1ba6b59f609053a129bb0775b44355885f9138c0a80de89d06a42663e27438",
+    "report.md": "d16d7b3c7b1882024f420955858106622bfc13fa2bd4b813006082f4f2bbdbfb",
+    "final-grammar-reconciliation.json": "384a6b7a1ab314a922c50f87c182df22d9e52bad0c796c99ebac1c8ae93426ac"
+  },
+  "boundary": "Validation certifies source/editorial consistency and the exact frozen composition inputs; it is not the later key-blind task review or the complete grammar-paradigm audit.",
+  "final_grammar_reconciliation": {
+    "path": "sources/audits/unit06-source/final-grammar-reconciliation.json",
+    "sha256": "384a6b7a1ab314a922c50f87c182df22d9e52bad0c796c99ebac1c8ae93426ac",
+    "original_validation_sha256": "3442beb207901a0cd1c354793a037b83cdac130a060f197a1aae721ca9dc72c2",
+    "final_grammar_inputs": [
+      {
+        "path": "sources/audits/unit06-grammar/paradigms.json",
+        "sha256": "d9aec3a1eb6f4dcdfeeb383c4eff35b601c8a7721b78154613586badf4166f97"
+      },
+      {
+        "path": "sources/audits/unit06-grammar/rules.json",
+        "sha256": "2f0fd64401bca99933ee70e8b7a01044f5a59b55bd17792abb942a17f0912c44"
+      },
+      {
+        "path": "sources/audits/unit06-grammar/lexical-frames.json",
+        "sha256": "331422ebce1492f1f8cf22cc514d3181120bc25f758bd9cd05a7b1cc38a6f057"
+      },
+      {
+        "path": "sources/audits/unit06-grammar/evidence.json",
+        "sha256": "db20803f4eba60f5f65eaf822a8b78448040028bd883303fa877c07c34bac112"
+      }
+    ],
+    "coordinator_scope_override": {
+      "decision_owner": "coordinator/root",
+      "decision": "Keep availability construction itself supplied, including its actual full source clauses. The contract overrides the grammar recommendation of new_recognition. No extra recognition rule is introduced.",
+      "overridden_frame_id": "u06-habban-to-infinitive",
+      "overridden_rule_id": "u06-source-inflected-habban",
+      "grammar_recommendation": "new_recognition",
+      "contract_scope": "supplied",
+      "unchanged_morphology_scope": "bēodanne/sęllanne and infinitive-marker morphology are new production; the local habban availability/recipient/relative construction remains supplied.",
+      "assessment_boundary": "NEW-U06-R03 uses printed local support; no independent recall or formation of the source availability construction is assessed."
+    }
+  }
+}

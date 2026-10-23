@@ -1,10 +1,10 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–5 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Unit 5 exports and reviewed registers are saved at **`37a52c3`**; its final handoff is **`45fa02e`**. Its epic and all eight stage tasks are closed. **Unit 6 is in source and curriculum analysis**, following the user's request. Its contract must precede prose.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–5 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Unit 5 exports and reviewed registers are saved at **`37a52c3`**; its final handoff is **`45fa02e`**. Its epic and all eight stage tasks are closed. **Unit 6 has a reconciled and validated learning contract**, following the user's request. No learner/key prose has begun.
 
 ## Unit 6 in progress
 
-Beads epic `oec-u06` and the grammar, connected-source and curriculum-design tasks are active. Three agents own separate audit/proposal directories; the coordinator alone updates Beads and shared records. The selected scope is frequent irregular indicative verbs, the alternative bēon present series, commands, and elementary infinitive uses. The proposed source is the fisherman's kindness and first direction in Cook's *Apollonius*, p167/PDF183; exact wording and dependencies are still under audit.
+Beads epic `oec-u06` is active; independent grammar, connected-source and curriculum-design tasks are closed. The [brief](curriculum/UNIT_06_BRIEF.md) and [contract](chapters/ch06/coverage.json) specify 72 tasks, 126 new indicative cells, 88 imperative cells and 92 nonfinite cells. Forty-two earlier citation forms are explicitly promoted. The new 68-word dialogue and ten examples are checked, and the exact 76-word fisherman gift/first-direction excerpt has ten supports and three original notes. Final source/grammar reconciliation and concrete dependency checks pass. Save this contract checkpoint before authorizing prose.
 
 The immutable working baseline preserves the actual five prior contracts/registers, 485 earlier active files and 134 archived files at `45fa02e`. Earlier infinitive citations and reading help do not count as prior productive teaching. Unit 6 adds no numbered Cook set; I.4.18 remains deferred to Unit 7. No Unit 6 learner/key prose or Unit 7 work has begun.
 
