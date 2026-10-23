@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch06",
   "title": "Frequent irregular verbs, infinitives, and commands",
-  "status": "contracted_before_prose",
+  "status": "draft_complete_awaiting_independent_review",
   "contract_date": "2026-10-23",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -88542,8 +88542,15 @@
     "typeset": "oec-u06-typeset",
     "finish": "oec-u06-finish"
   },
-  "review_status": "not_yet_drafted",
-  "amendments": [],
+  "review_status": "independent_solving_pending",
+  "amendments": [
+    {
+      "id": "U06-META-01",
+      "date": "2026-10-23",
+      "kind": "metadata_only",
+      "description": "Record saved pre-prose checkpoint 3bfc05e; no source, task, form or teaching change."
+    }
+  ],
   "validation_at_contract": {
     "graded_tasks": 72,
     "cook_items": 0,
@@ -89834,5 +89841,30 @@
         "U06-SRC-FB-106"
       ]
     }
-  ]
+  ],
+  "pre_prose_checkpoint": "3bfc05e",
+  "draft_artifacts": {
+    "student.md": {
+      "sha256": "44084fcc0735308b89b37ab29755fb6bcb7a2504f64d77fa24b7b738378219c5",
+      "sha256_normalized_lf": "44084fcc0735308b89b37ab29755fb6bcb7a2504f64d77fa24b7b738378219c5"
+    },
+    "answer-key.md": {
+      "sha256": "c4db9db02ba21710bafda124f4617bc593ec4b028afef6be562a00f369eec127",
+      "sha256_normalized_lf": "c4db9db02ba21710bafda124f4617bc593ec4b028afef6be562a00f369eec127"
+    }
+  },
+  "coordinator_draft_checks": {
+    "all_exact_prompts": 72,
+    "actual_display_matrices": 12,
+    "teaching_support_markers": 215,
+    "complete_master_read": true,
+    "scope_amendments_needed": false,
+    "repairs": [
+      "Introductory coaching removed; habbanne explanation clarified.",
+      "Item markers separated into Markdown blocks.",
+      "WILLAN dictionary sense reference corrected to II(a) against facsimile p1226b.",
+      "Original Cook note punctuation restored in key source note."
+    ],
+    "independent_review_pending": true
+  }
 }

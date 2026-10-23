@@ -37,6 +37,36 @@ def chars(value):
     return re.sub(r'\s+', '', value.replace('\u00ad', '-'))
 
 
+def check_display_tables(contract, student):
+    """Compare actual learner rows, labels and cells with the frozen display plan."""
+    headers = {
+        'finite_paradigm_table': ['Verb label', '1 sg.', '2 sg.', '3 sg.', '1–3 pl.'],
+        'alternate_present_comparison': ['Person and number', 'Earlier eom series', 'Alternative bēo series'],
+        'imperative_infinitive_matrix': ['Verb', 'Command to one', 'Command to two or more', 'Plain infinitive', 'Inflected infinitive after tō'],
+        'additional_infinitive_pairs': ['Verb', 'Plain infinitive', 'Inflected infinitive after tō'],
+    }
+    for table in contract['display_plan']['tables']:
+        tid = table['display_id']
+        marker = r'<!--\s*table:\s*' + re.escape(tid) + r'\s*-->'
+        matches = list(re.finditer(marker, student))
+        require(len(matches) == 1, f'{tid}: display marker not unique')
+        if len(matches) != 1:
+            continue
+        block = re.match(r'\s*(\|[^\n]+(?:\n\|[^\n]+)*)', student[matches[0].end():])
+        require(block is not None, f'{tid}: no adjacent Markdown table')
+        if block is None:
+            continue
+        rows = [[cell.strip().replace('**', '') for cell in line.strip().strip('|').split('|')]
+                for line in block[1].splitlines()]
+        expected = [headers[table['kind']]]
+        for row in table['rows']:
+            if table['kind'] == 'alternate_present_comparison':
+                expected.append([row['label'] + '.', row['prior_eom']['surface'], row['new_beon']['surface']])
+            else:
+                expected.append([row['display_headword']] + [cell['surface'] for cell in row['cells']])
+        require([rows[0]] + rows[2:] == expected, f'{tid}: displayed row, label or cell differs')
+
+
 def same_identity(path, record):
     raw = (ROOT / path).read_bytes()
     return (hashlib.sha256(raw).hexdigest() == record.get('sha256') or
@@ -232,6 +262,7 @@ def main():
     if args.draft or args.tex:
         student = (ROOT / master_paths[1]).read_text(encoding='utf-8')
         key = (ROOT / master_paths[2]).read_text(encoding='utf-8')
+        check_display_tables(c, student)
         parts = re.split(r'<!--\s*(?:item:\s*)?(NEW-U06-[A-Z]\d+)\s*-->', student)
         prompts = {parts[i]: re.sub(r'^\d+\.\s*', '', parts[i+1].strip().split('\n\n')[0])
                    for i in range(1, len(parts), 2)}
@@ -272,7 +303,7 @@ def main():
         raise SystemExit(1)
     print('Unit 6 checks pass: 72 tasks; complete indicative, imperative and infinitive systems; '
           '76-word source and 68-word dialogue; Cook crosswalk and earlier files preserved.' +
-          (' Learner/key markers and exact prompts checked.' if args.draft or args.tex else '') +
+          (' All twelve learner matrices, learner/key markers and exact prompts checked.' if args.draft or args.tex else '') +
           (' TeX/PDF markers and clean logs checked.' if args.tex else ''))
 
 
