@@ -1,6 +1,6 @@
 # Handoff to the next session
 
-The eighteen-unit outline and complete Cook map are settled. **Units 1–3 are complete**: independent solving and review, separate keys, complete LuaLaTeX exports, every-page inspection, and integrated cumulative registers. Unit 3's final Beads/Git closure is recorded at the end after saving; do not restart its audits or authorship.
+The eighteen-unit outline and complete Cook map are settled. **Units 1–3 are complete**: independent solving and review, separate keys, complete LuaLaTeX exports, every-page inspection, and integrated cumulative registers. The entire Unit 3 Beads chain is closed; do not restart its audits or authorship.
 
 1. Read root `AGENTS.md`, `STATUS.md`, `EDITORIAL_POLICY.md`, and `docs/WORKFLOW.md`; run `bd prime` then `bd ready` sequentially. Read actual issues by explicit ID. The coordinator remains the sole embedded-Dolt writer.
 2. Read `curriculum/COURSE_PLAN.md`, `curriculum/COOK_MAP.md`, `sources/registry.json`, **all three active coverage contracts**, and the actual `lexicon/entries.json` and `curriculum/grammar.json`. Only their reviewed milestones count. Archived course statuses never count as prior teaching.
@@ -33,4 +33,4 @@ Unit 1 and Unit 2 retain their own `scripts/check_unit.py` and `scripts/check_un
 
 Reuse checked facts and documented corrections. Keep source transcription, learner text and change notes separate. No publication or remote push is configured.
 
-Final Unit 3 exports/registers checkpoint and tracker closure: pending immediate local save.
+Final Unit 3 exports/registers checkpoint: **`95c68d6`**. Its epic and all eight stage tasks are closed; `bd ready` reports no open issues. The final handoff revision records that closure and the exported tracker. No Unit 4 contract or prose was drafted.

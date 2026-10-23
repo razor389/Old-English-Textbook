@@ -36,4 +36,4 @@ From the repository root, run `python -X utf8 scripts/check_unit03.py --draft --
 
 Only copy rebuilt PDFs over the retained final PDFs after complete parity and page review. The final images can be reproduced with Ghostscript's `png16m` device, `-r150`, `-dTextAlphaBits=4` and `-dGraphicsAlphaBits=4`; the local TeX Live Ghostscript also needs its `Resource/Init`, `lib` and `kanji` directories supplied with `-I`.
 
-The pre-prose contract was saved at `9626f6f`; independently accepted text at `e528af8`. Later presentation-only captions and emphasis changes were independently checked and are recorded in the review. This export stage adds no new grammatical or lexical scope.
+The pre-prose contract was saved at `9626f6f`; independently accepted text at `e528af8`; complete exports and reviewed registers at **`95c68d6`**. Later presentation-only captions and emphasis changes were independently checked and are recorded in the review. This export stage adds no new grammatical or lexical scope.
