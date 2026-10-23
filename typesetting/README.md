@@ -6,6 +6,8 @@ The complete [Unit 1 exports](ch01/README.md) are reviewed: [learner PDF](ch01/c
 
 The complete [Unit 2 exports](ch02/README.md) are also reviewed: [learner PDF](ch02/chapter-02.pdf), 19 pages, and [key PDF](ch02/answer-key.pdf), 14 pages. Complete TeX, content parity and every-page inspection are recorded with the exports.
 
+The reviewed [Unit 3 exports](ch03/README.md) have 30 learner and 19 key pages; the reviewed [Unit 4 exports](ch04/README.md) have 20 learner and 19 key pages. Their complete content checks, independent page ledgers and final file identities are retained alongside the TeX and PDFs. Unit 5 is in independent textual review; its exports follow acceptance.
+
 Use `chapter-template.tex` as a minimal document shell for later units. Create a unit directory, put complete learner and key TeX files there, and input `../book-layout.tex`. Set `\runningtitle` before the input. Build from that directory with LuaLaTeX, writing products to its ignored `build/` directory. Run sufficient passes for stable references.
 
 Compare all content with Markdown: paradigms, vocabulary, source prompts, added tasks, reading support, keys, IDs, and notes. Inspect every page and check the logs for missing characters, font substitutions, and box warnings. Copy the final complete PDFs out of `build/` only after review. Preserve stable IDs in TeX comments.

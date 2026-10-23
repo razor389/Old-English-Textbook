@@ -1,6 +1,6 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–4 are complete and independently reviewed**, with complete LuaLaTeX learner/key PDFs and cumulative teaching records. The entire Unit 4 Beads chain is closed. **Unit 5 independent review is in progress**, under `oec-u05-review`, after complete learner/key delivery under the pre-prose source/contract checkpoint **`fc29cf9`**. Source, grammar, design, contract and draft stages are closed. The reviewer is solving all 67 tasks before key access.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–4 are complete and independently reviewed**, with complete LuaLaTeX learner/key PDFs and cumulative teaching records. **Unit 5 has passed independent textual review**: all 67 tasks were solved before key access and all key entries, complete paradigms and dependencies checked. No material finding remains. Complete LuaLaTeX exports, every-page inspection and final register integration are next. The pre-prose checkpoint is **`fc29cf9`**, complete drafts **`a28b266`**, and frozen pre-key solutions **`d807acf`**.
 
 ## Established direction
 
