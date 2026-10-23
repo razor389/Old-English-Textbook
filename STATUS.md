@@ -1,6 +1,6 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–4 are complete. Unit 5 has completed independent review, full exports, every-page inspection and reviewed register integration.** Its final local completion checkpoint and Beads closure are being saved. No material textual or presentation finding remains; no Unit 6 prose has been drafted.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–5 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Unit 5 exports and reviewed registers are saved at **`37a52c3`**. Its epic and all eight stage tasks are closed. No material finding remains; no Unit 6 prose has been drafted.
 
 ## Established direction
 
@@ -36,13 +36,13 @@ The [learner PDF](typesetting/ch04/chapter-04.pdf) has **20 pages** and the [sep
 
 The source/contract checkpoint preceded prose at **`856a5fa`**; independently accepted text was saved at **`5f47f26`**; complete exports and reviewed registers at **`12663ff`**. The Unit 4 epic and all eight stage tasks are closed.
 
-## Completed Unit 5 content and exports
+## Completed Unit 5
 
 The [brief](curriculum/UNIT_05_BRIEF.md) and [contract](chapters/ch05/coverage.json) cover **strong verbs IV–VII**, with four additional I–III lexical systems: **33 complete productive indicative systems, 396 finite cells and 132 principal-part positions**. All **67 tasks**, including the sixteen unchanged Cook I.5 prompts, were solved independently before key access. Eight examples, a 51-word new account, the exact 69-word first-day revisit and the complete 58-word second day have checked dependencies. All **18 supports and 34 source notes** are included.
 
 The [learner PDF](typesetting/ch05/chapter-05.pdf) has **25 pages** and the [separate key](typesetting/ch05/answer-key.pdf) **21**. All **46 final pages** passed non-author visual inspection. Complete parity verifies **554 prose/heading/list blocks, 53 tables, 906 table cells and 474 editorial comments**. The sole presentation finding was resolved by keeping X2's supplied citation with its task; the two revised pages were reopened and all other images verified unchanged. See the [independent review](chapters/ch05/review.md), [frozen solutions](chapters/ch05/independent-solutions.md), [export record](typesetting/ch05/README.md) and [final page acceptance](typesetting/ch05/page-review.json).
 
-Checkpoints: source/contract before prose **`fc29cf9`**; complete drafts **`a28b266`**; frozen pre-key solutions **`d807acf`**; accepted text **`7bbb334`**. Neither master nor the frozen solutions changed during export.
+Checkpoints: source/contract before prose **`fc29cf9`**; complete drafts **`a28b266`**; frozen pre-key solutions **`d807acf`**; accepted text **`7bbb334`**. Complete exports and reviewed registers are saved at **`37a52c3`**. Neither master nor the frozen solutions changed during export.
 
 ## Cumulative records and next work
 

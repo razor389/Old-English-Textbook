@@ -1,10 +1,10 @@
 # Handoff to the next session
 
-The eighteen-unit outline and complete Cook mapping are settled. **Units 1–4 are complete. Unit 5 has completed independent review, full LuaLaTeX exports, every-page inspection and reviewed register integration.** Its final local checkpoint and Beads closure are being saved. Do not restart completed units or draft another unit without a user request.
+The eighteen-unit outline and complete Cook mapping are settled. **Units 1–5 are complete**: independent textual review, full learner/key PDFs, every-page inspection and reviewed register integration. Unit 5 complete exports/registers are saved at **`37a52c3`**; its epic and all eight stage tasks are closed. Do not restart completed units or draft another unit without a user request.
 
 ## Unit 5 accepted artifacts
 
-The [learner](../chapters/ch05/student.md) and [separate key](../chapters/ch05/answer-key.md) cover strong verbs IV–VII and four additional I–III lexical systems: **33 complete productive indicative systems, 396 finite cells, 132 principal-part positions and 67 tasks**, including all sixteen Cook I.5 prompts. The [contract](../chapters/ch05/coverage.json) preceded all prose at **`fc29cf9`**. Complete drafts were saved at **`a28b266`**, all 67 independent solutions before key access at **`d807acf`**, and independently accepted text at **`7bbb334`**.
+The [learner](../chapters/ch05/student.md) and [separate key](../chapters/ch05/answer-key.md) cover strong verbs IV–VII and four additional I–III lexical systems: **33 complete productive indicative systems, 396 finite cells, 132 principal-part positions and 67 tasks**, including all sixteen Cook I.5 prompts. The [contract](../chapters/ch05/coverage.json) preceded all prose at **`fc29cf9`**. Complete drafts were saved at **`a28b266`**, all 67 independent solutions before key access at **`d807acf`**, and independently accepted text at **`7bbb334`**. Complete exports and integrated registers are saved at **`37a52c3`**; this handoff records subsequent final closure without changing those accepted artifacts.
 
 The [review](../chapters/ch05/review.md) discloses the reviewer's prior grammar-evidence work and independence from learner/key authorship. It preserves the [pre-key solutions](../chapters/ch05/independent-solutions.md) and [complete review ledger](../chapters/ch05/review-ledger.json). All tasks, actual displayed cells, prior dependencies and source/support links passed. The key handles English fish-number ambiguity and the new account's reference limits. No material textual finding remains.
 
