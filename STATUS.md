@@ -1,6 +1,12 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–7 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Unit 7's complete exports and reviewed registers are saved at **`b186c8b`**. Its epic and all eight stage tasks are closed and exported. Unit 8 has not been drafted.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–7 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Unit 7's complete exports and reviewed registers are saved at **`b186c8b`**. Its epic and all eight stage tasks are closed and exported. Unit 8 is requested and its independent source, grammar and curriculum audits are in progress; its contract and prose are not yet drafted.
+
+## Active Unit 8
+
+The planned unit is questions and relative clauses, including complete selected remaining pronoun systems and all seventeen original Cook I.8 prompts. Source inspection will settle a connected *Trades and Occupations* passage and every needed form, sense and construction before the contract. Earlier reading help does not establish prior teaching.
+
+The coordinator alone updates Beads and shared files. Parallel workers exclusively own `sources/audits/unit08-source/`, `sources/audits/unit08-grammar/` and `curriculum/proposals/unit08/`. The immutable baseline at **`eda6f87`** includes all seven active contracts, actual registers, 823 earlier active artifacts and 134 archived files. The retained [prior-state record](sources/audits/unit08-coordinator/prior-state.json) identifies those files. Finish Unit 8 through independent solving, complete exports, every-page inspection and preserved register integration before another unit. Current assignments remain 113 assigned / 531 deferred until the new contract explicitly resolves I.8.
 
 ## Completed Unit 7
 

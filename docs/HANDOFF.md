@@ -1,8 +1,16 @@
 # Handoff to the next session
 
+## Active Unit 8
+
+The user has requested Unit 8. Root coordinates `oec-u08` and remains the sole Beads writer. The ready source, grammar and curriculum tasks are in progress with exclusive directories `sources/audits/unit08-source/`, `sources/audits/unit08-grammar/` and `curriculum/proposals/unit08/`. Their reconciled evidence must precede `curriculum/UNIT_08_BRIEF.md` and `chapters/ch08/coverage.json`, then separate authorship, independent pre-key solving, full exports and every-page inspection, register integration and local checkpoints. Do not draft Unit 9.
+
+Questions, relative clauses and complete selected remaining pronoun systems are the intended scope. Preserve all seventeen Cook I.8 prompts exactly. A coherent *Trades and Occupations* Q&A passage is being audited; no candidate is assigned yet. Audit source details against images, explicitly teach or support every dependency, and preserve earlier supplied/recognition limits until deliberately promoted.
+
+The immutable ignored `build/unit08-prior-baseline.json` captures actual state at **`eda6f87`**: all seven contracts, 289 lemmas, 4,533 forms, 327 senses and 280 constructions, with 823 earlier active artifacts and 134 archived files. Do not overwrite it. Compact `build/unit08-prior-*-read.*` files are reading aids, not assignment authorities. The retained `sources/audits/unit08-coordinator/prior-state.json` stores the prior identities. The current Cook crosswalk is still 113 assigned / 531 deferred until the Unit 8 contract records its new assignments.
+
 ## Unit 7 accepted artifacts
 
-Units 1–7 are complete. Unit 7's full learner/key exports, page acceptance and reviewed register integration are saved at **`b186c8b`**. Its epic and all eight stage tasks are closed and exported. This subsequent handoff checkpoint records final closure without changing the accepted masters, exports or integrated registers. Do not draft Unit 8 without a new request.
+Units 1–7 are complete. Unit 7's full learner/key exports, page acceptance and reviewed register integration are saved at **`b186c8b`**. Its epic and all eight stage tasks are closed and exported. This subsequent handoff checkpoint records final closure without changing the accepted masters, exports or integrated registers. The new Unit 8 request is now active as described above.
 
 The [contract](../chapters/ch07/coverage.json) and [brief](../curriculum/UNIT_07_BRIEF.md) preceded prose at **`74404d8`**. Complete drafts were saved at **`db1ef63`**, all 80 [independent pre-key solutions](../chapters/ch07/independent-solutions.md) at **`aa31f25`**, and independently accepted text at **`089039d`**. The [review](../chapters/ch07/review.md) and [full ledger](../chapters/ch07/review-ledger.json) accept every actual task, all 82 logical paradigms / 1,060 cells, displayed rules and source dependencies. The reviewer authored neither master and discloses earlier grammar-audit and public-composition inspection. The source-backed spatial *ofer* clarification is resolved; frozen solutions remain unchanged.
 
