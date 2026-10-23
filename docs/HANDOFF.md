@@ -1,15 +1,14 @@
 # Handoff to the next session
 
-## Unit 7 pre-prose handoff
+## Unit 7 draft handoff
 
-The three independent audits are complete and reconciled. `curriculum/UNIT_07_BRIEF.md` and `chapters/ch07/coverage.json` are ready for the required local checkpoint before either prose master. The contract assigns 80 tasks (34 exact Cook prompts), 82 complete logical paradigms, the checked 56-word account and eleven examples, and the exact 89-word fifth-day source with ten supports and eighteen notes. `scripts/check_unit07.py` passes the contract, dependency, source, crosswalk and preservation checks.
+The reconciled contract and independent audits were checkpointed before prose at `74404d8`. Both complete masters now exist: `chapters/ch07/student.md` and `chapters/ch07/answer-key.md`. The learner has 41 complete displayed matrices, all 80 tasks (34 exact Cook prompts), eleven examples, both exact readings, ten supports and eighteen original notes. The key gives all 80 models/analyses, complete independent translations, alternatives and diagnoses. `scripts/check_unit07.py --draft` passes.
 
-The cumulative numbered Cook crosswalk is now 113 assigned / 531 deferred. Earlier contracts remain unchanged; I.4.18 and the birds alias are explicitly resolved here. Registers still represent Units 1–6 and are not yet integrated. The immutable baseline is `build/unit07-prior-baseline.json` at `47b92a4`: 667 prior files (including two registers), 134 archive files, 275 lemmas, 3,487 forms, 305 senses and 241 constructions.
+Next: the grammar auditor independently solves all actual learner tasks before key/private-answer access. Save and freeze those solutions, then compare the key and inspect all displayed language, scope and source dependencies. This reviewer authored neither master but previously audited grammar and public composition seeds; disclose that role. Textual acceptance must precede complete LuaLaTeX exports and every-page inspection.
 
-Next: save this pre-prose checkpoint, authorize exclusive learner/key authorship, then independent actual-task solving before key access. The intended reviewer has done grammar evidence and public-composition checks but has not read private ordered models or key prose; disclose that role. No Unit 8 work. The coordinator remains the sole Beads writer. Source/design/grammar tasks are closed; contract is being checkpointed under `oec-u07-contract`.
+The canonical numbered Cook crosswalk is 113 assigned / 531 deferred, with I.4.18 and the birds alias explicitly resolved. Registers still represent Units 1–6. The guarded integration dry run preserves every earlier record, all 665 earlier active artifacts and all 134 archive files. The immutable baseline remains `build/unit07-prior-baseline.json` at `47b92a4`.
 
-
-The eighteen-unit outline and complete Cook mapping are settled. **Units 1–6 are complete**: independent textual review, complete learner/key exports, every-page inspection and reviewed register integration. Unit 6's complete exports/registers are saved at **`ce4ee34`**, with final handoff **`47b92a4`**. **The user has authorized Unit 7**, and its three initial audits are active. No Unit 7 lesson prose has been drafted.
+The coordinator alone writes Beads and shared files. Draft stage is being closed/checkpointed; review is next. Do not draft Unit 8.
 
 ## Active Unit 7 handoff
 

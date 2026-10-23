@@ -1,14 +1,14 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–6 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Unit 6's complete exports and reviewed registers are saved at **`ce4ee34`**. Its epic and all eight stage tasks are closed. **Unit 7 has a reconciled contract ready for its pre-prose checkpoint** under `oec-u07`. Its independent source, grammar and curriculum audits are complete. No Unit 7 lesson prose has been drafted.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–6 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Unit 6's complete exports and reviewed registers are saved at **`ce4ee34`**. Its epic and all eight stage tasks are closed. **Unit 7's reconciled contract is saved at `74404d8`**, before prose. Its independent source, grammar and curriculum audits are complete; the complete learner lesson and separate key now pass the full draft checks. Independent solving and review are next.
 
 ## Active Unit 7
 
 The [brief](curriculum/UNIT_07_BRIEF.md) and [contract](chapters/ch07/coverage.json) assign subjunctive, participles and passive: **80 tasks**, including unchanged Cook I.4.18 and all of I.6–7. The contract contains 56 complete mood systems (678 cells), five new indicative systems (60 cells), a command pair, twelve participle pairs, five complete agreement models (240 cells), and 56 nominal cells. The checked 56-word account and eleven examples precede the exact 89-word fifth day, with ten supports and all eighteen original notes. Every dependency resolves.
 
-The independent audits are reconciled in [the coordinator record](sources/audits/unit07-coordinator/reconciliation.json). The canonical Cook crosswalk is now **113 assigned / 531 deferred**, including explicit resolution of I.4.18 and the contained birds alias. The three exact source participles and four formal geweald plurals are recognition-only; all larger supplied source constructions keep their limits. Spatial ofer has direct primary evidence. No lesson or key prose exists yet.
+The independent audits are reconciled in [the coordinator record](sources/audits/unit07-coordinator/reconciliation.json). The canonical Cook crosswalk is now **113 assigned / 531 deferred**, including explicit resolution of I.4.18 and the contained birds alias. The three exact source participles and four formal geweald plurals are recognition-only; all larger supplied source constructions keep their limits. Spatial ofer has direct primary evidence. Learner and key authors have exclusive files; independent task solving will precede reviewer access to the key.
 
-The coordinator alone updates Beads, contracts and shared registers. The immutable baseline is `build/unit07-prior-baseline.json`, taken at **`47b92a4`**, with all six active contracts and actual registers. Save the completed contract before prose, then finish independent review, complete exports and register integration. Unit 8 is not being drafted.
+The coordinator alone updates Beads, contracts and shared registers. The immutable baseline is `build/unit07-prior-baseline.json`, taken at **`47b92a4`**, with all six active contracts and actual registers. The contract preceded prose at `74404d8`; finish independent review, complete exports and register integration. Unit 8 is not being drafted.
 
 ## Completed Unit 6
 

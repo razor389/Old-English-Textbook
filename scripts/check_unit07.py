@@ -175,6 +175,34 @@ def main():
             require(form(fid) is not None, f'{pid}: unknown cell {fid}')
             scope = 'new_recognition' if fid.startswith('geweald-') and fid.endswith('-pl') else 'new_production'
             require(status('form', fid) == scope, f'{pid}: incorrect cell scope {fid}')
+    # Compare selected cells with the separately prepared grammar evidence.
+    aliases = c['form_id_aliases']
+    audited = []
+    mood_audit = read('sources/audits/unit07-grammar/subjunctive-systems.json')
+    for system in mood_audit['systems']:
+        audited.extend(system['full_person_number_cells'])
+        audited.extend(system.get('alternative_present_cells', []))
+    for system in read('sources/audits/unit07-grammar/new-verb-systems.json')['systems']:
+        audited.extend(system['full_indicative_cells'])
+    for system in read('sources/audits/unit07-grammar/nominal-systems.json')['systems']:
+        audited.extend(system['forms'])
+    for cell in audited:
+        fid = aliases.get(cell['form_id'], cell['form_id'])
+        actual = form(fid)
+        require(actual is not None and surface(actual['form']) == surface(cell['form']),
+                f'{fid}: independent grammar surface differs')
+        if actual:
+            for field, value in cell['analysis'].items():
+                require(actual['analysis'].get(field) == value,
+                        f'{fid}: independent grammar analysis differs: {field}')
+    for model in read('sources/audits/unit07-grammar/participle-agreement.json')['models']:
+        display = next(t for t in c['display_plan']['tables']
+                       if t['kind'] == 'full_participle_agreement' and t['citation'] == model['citation'])
+        for cell in model['full_cells']:
+            candidates = [v for v in display['cells'] if all(
+                v['analysis'][k] == cell[k] for k in ['case', 'number', 'gender', 'declension'])]
+            require(len(candidates) == 1 and candidates[0]['form'] == cell['form'],
+                    f'{model["citation"]}: audited agreement cell differs: {cell}')
     # Compare every display surface with the underlying contracted identities.
     def walk_display(value):
         if isinstance(value, dict):
@@ -190,6 +218,15 @@ def main():
     walk_display(c['display_plan'])
 
     passages = c['source_spans'] + c['new_compositions'] + c['new_material_examples']
+    for tid, task in tasks.items():
+        for sequence in task.get('input_sequences', []):
+            for token in sequence:
+                record = form(token['form_id'])
+                require(record is not None and surface(record['form']) == surface(token['form']),
+                        f'{tid}: input-token surface differs')
+                for kind in ['form', 'sense']:
+                    require(status(kind, token[f'{kind}_id']) == token[f'{kind}_status'],
+                            f'{tid}: input-token {kind} scope differs')
     for passage in passages:
         pid = passage.get('source_record_id', passage.get('composition_id', passage.get('example_id')))
         value = passage.get('learner_text', passage.get('text', ''))
