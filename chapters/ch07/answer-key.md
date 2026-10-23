@@ -842,4 +842,3 @@ Page references distinguish the printed page from the one-based page number of t
 [6] Cook, *First Book*, §156(f), printed p. 91 / PDF 107, and vocabulary **gīeman**, printed p. 296 / PDF 312, for the governed genitive; §173, printed p. 97 / PDF 113, for the naming double accusative. The authority use of **ofer** with accusative is directly illustrated in the Creation passage, printed p. 127 / PDF 143, including **ofer ealle gesceafta**. The selected spatial phrases and function phrases are checked against the Creation text and vocabulary. **Ǣlc** has the printed long initial vowel in the *First Book* vocabulary, p. 274 / PDF 290, and in *Exercises*, p. 46 / PDF 54.
 
 [7] Cook, *First Book*, Reader I, “The Creation,” fifth-day paragraph, printed p. 126 / PDF 142, editorially counted prose lines 5–14 and original notes 4–21. The reading help is new editorial support; it is kept separate from the exact source text and Cook’s original apparatus.
-
