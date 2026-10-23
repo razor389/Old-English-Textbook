@@ -1,8 +1,10 @@
 # Handoff to the next session
 
-The eighteen-unit outline and complete Cook mapping are settled. **Units 1–5 are complete**. **Unit 6's independent textual review, complete learner/key exports, every-page inspection and register integration are accepted**; the final local checkpoint and Beads closure are being recorded. Unit 5 exports/registers remain saved at `37a52c3`, with final handoff `45fa02e`. No Unit 7 drafting has begun; another unit requires a user request.
+The eighteen-unit outline and complete Cook mapping are settled. **Units 1–6 are complete**: independent textual review, complete learner/key exports, every-page inspection and reviewed register integration. Unit 6's complete exports/registers are saved at **`ce4ee34`**; its epic and all eight stage tasks are closed. This handoff records final closure without changing the accepted masters or PDFs. No Unit 7 drafting has begun; another unit requires a user request.
 
 ## Accepted Unit 6 artifacts
+
+The full Unit 6 Beads chain is closed and exported. Its complete-artifact checkpoint is **`ce4ee34`**; the subsequent handoff checkpoint contains only completion metadata, documentation and the final tracker export.
 
 The [contract](../chapters/ch06/coverage.json) and [brief](../curriculum/UNIT_06_BRIEF.md) preceded prose at **`3bfc05e`**, complete drafts were saved at **`2e2b275`**, and all 72 [independent solutions](../chapters/ch06/independent-solutions.md) before key access at **`f42beb0`**. Independently accepted text is saved at **`3955a2a`**. The [review](../chapters/ch06/review.md) and [ledger](../chapters/ch06/review-ledger.json) accept every actual task, displayed system, earlier dependency and source/support link. The reviewer authored neither master and discloses its earlier grammar-audit role. All four material findings are resolved: C6/X5 prompt clarifications, X4's subject/agreement explanation, and exact headword/word-class metadata for 23 supplied-only lemmas. Original prompts, metadata, frozen solutions and initial evidence remain preserved. The coordinator is the sole Beads/shared-file writer.
 
