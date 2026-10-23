@@ -1,6 +1,6 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–4 have complete, independently reviewed texts, LuaLaTeX learner/key PDFs and cumulative teaching records.** Unit 4's final local checkpoint and Beads closure are being recorded.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–4 are complete and independently reviewed**, with complete LuaLaTeX learner/key PDFs and cumulative teaching records. The entire Unit 4 Beads chain is closed.
 
 ## Established direction
 
@@ -28,13 +28,13 @@ The [brief](curriculum/UNIT_03_BRIEF.md) and [contract](chapters/ch03/coverage.j
 
 The [learner PDF](typesetting/ch03/chapter-03.pdf) has **30 pages** and the [separate key PDF](typesetting/ch03/answer-key.pdf) **19**. Every final page was visually inspected, complete content parity passes, and all material and presentation findings are resolved. See [the independent review](chapters/ch03/review.md), [preserved solutions](chapters/ch03/independent-solutions.md), [export record](typesetting/ch03/README.md), and [register integration record](chapters/ch03/register-integration.json). The contract preceded prose at `9626f6f`; independently accepted text was saved at `e528af8`; complete exports and registers at **`95c68d6`**. The entire Unit 3 Beads chain is closed.
 
-## Reviewed Unit 4
+## Completed Unit 4
 
 The [brief](curriculum/UNIT_04_BRIEF.md) and [contract](chapters/ch04/coverage.json) cover **strong verbs I–III**: 24 productive and two recognition-reference finite systems, all 312 present/preterite indicative cells, 104 principal-part entries and four complete noun paradigms with 32 cells. All 52 original tasks were solved before key access. Eight teaching examples, a 51-word controlled account and the exact 44-word *Apollonius* storm-to-shore reading have complete dependency records. Ten local support groups and all four relevant source notes are retained. Unit 4 adds no numbered Cook exercise assignments.
 
 The [learner PDF](typesetting/ch04/chapter-04.pdf) has **20 pages** and the [separate key](typesetting/ch04/answer-key.pdf) **19**. All 39 final pages passed non-author visual inspection. Complete content parity covers 394 prose/heading/list blocks, 51 tables, 1,138 table cells and 370 editorial comments. All textual and presentation findings are resolved or withdrawn. See [the independent review](chapters/ch04/review.md), [preserved solutions](chapters/ch04/independent-solutions.md), [export record](typesetting/ch04/README.md) and [page acceptance](typesetting/ch04/page-review.json).
 
-The source/contract checkpoint preceded prose at **`856a5fa`**; independently accepted text was saved at **`5f47f26`**. Complete exports and reviewed registers are ready for the final local checkpoint. The Unit 4 finish issue remains open until that revision and tracker closure are saved.
+The source/contract checkpoint preceded prose at **`856a5fa`**; independently accepted text was saved at **`5f47f26`**; complete exports and reviewed registers at **`12663ff`**. The Unit 4 epic and all eight stage tasks are closed.
 
 ## Cumulative records and next work
 

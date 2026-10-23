@@ -1,6 +1,6 @@
 # Handoff to the next session
 
-The eighteen-unit outline and complete Cook map are settled. **Units 1–4 have complete, independently reviewed texts, separate keys, full LuaLaTeX exports, every-page inspection and integrated cumulative registers.** Unit 4's final local checkpoint and Beads closure are being recorded. Do not restart completed audits or authorship.
+The eighteen-unit outline and complete Cook map are settled. **Units 1–4 are complete**: independently reviewed texts, separate keys, full LuaLaTeX exports, every-page inspection and integrated cumulative registers. Unit 4's complete exports/registers checkpoint is **`12663ff`**; its epic and all eight stage tasks are closed. Do not restart completed audits or authorship.
 
 1. Read root `AGENTS.md`, `STATUS.md`, `EDITORIAL_POLICY.md`, and `docs/WORKFLOW.md`; run `bd prime` then `bd ready` sequentially. Read actual issues by explicit ID. The coordinator remains the sole embedded-Dolt writer.
 2. Read `curriculum/COURSE_PLAN.md`, `curriculum/COOK_MAP.md`, `sources/registry.json`, **all four active coverage contracts**, and the actual `lexicon/entries.json` and `curriculum/grammar.json`. Only their reviewed milestones count. Archived course statuses never count as prior teaching.
@@ -35,4 +35,4 @@ Units 1–3 retain `scripts/check_unit.py`, `scripts/check_unit02.py`, `scripts/
 
 Reuse checked facts and documented corrections. Keep source transcription, learner text and change notes separate. No publication or remote push is configured.
 
-Final Unit 3 exports/registers checkpoint: **`95c68d6`**, followed by handoff **`176eb8e`**; its chain remains closed. Unit 4's grammar, source, design, contract, draft, textual review and typesetting issues are closed. Its accepted exports and integrated registers are ready for the local completion checkpoint; `oec-u04-finish` remains in progress until that revision and final tracker closure are saved.
+Final Unit 3 exports/registers checkpoint: **`95c68d6`**, followed by handoff **`176eb8e`**; its chain remains closed. Unit 4's complete exports and reviewed registers are saved at **`12663ff`**. The Unit 4 epic and all eight stage issues are closed, with the final issue export and completion metadata saved in the following local handoff revision. No Unit 5 prose has been drafted.

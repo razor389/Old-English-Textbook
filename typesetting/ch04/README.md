@@ -38,4 +38,4 @@ Retained TeX is authoritative for rebuilding. One-use assembly and parity helper
 
 Page images use Ghostscript's `png16m` device with `-r150 -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -dBATCH -dNOPAUSE`. The installed TeX Live Ghostscript also needs its `Resource/Init`, `lib` and `kanji` directories supplied with `-I`. Final ledgers retain the image hashes even though render files are ignored.
 
-The pre-prose source/contract checkpoint is **`856a5fa`**; independently accepted text is **`5f47f26`**. Complete exports and integrated registers are saved in the subsequent local checkpoint recorded in the root status and handoff.
+The pre-prose source/contract checkpoint is **`856a5fa`**; independently accepted text is **`5f47f26`**; complete exports and integrated registers are saved at **`12663ff`**. The subsequent handoff revision records final Beads closure and completion metadata without changing the accepted masters or PDFs.
