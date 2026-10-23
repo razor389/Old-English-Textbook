@@ -1,6 +1,6 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–4 are complete and independently reviewed**, with complete LuaLaTeX learner/key PDFs and cumulative teaching records. **Unit 5 has passed independent textual review**: all 67 tasks were solved before key access and all key entries, complete paradigms and dependencies checked. No material finding remains. Complete LuaLaTeX exports, every-page inspection and final register integration are next. The pre-prose checkpoint is **`fc29cf9`**, complete drafts **`a28b266`**, and frozen pre-key solutions **`d807acf`**.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–4 are complete. Unit 5 has completed independent review, full exports, every-page inspection and reviewed register integration.** Its final local completion checkpoint and Beads closure are being saved. No material textual or presentation finding remains; no Unit 6 prose has been drafted.
 
 ## Established direction
 
@@ -14,7 +14,7 @@ Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are
 
 The [Unit 1 contract](chapters/ch01/coverage.json) assigns all 46 prompts of Cook I.1–3 and the complete 69-word first-day Creation reading. Its 92 graded tasks, full nominal/article/copular systems and two controlled mini-readings passed independent solving. The [learner PDF](typesetting/ch01/chapter-01.pdf) has 22 pages and the [key PDF](typesetting/ch01/answer-key.pdf) 12, all inspected. See [the review](chapters/ch01/review.md) and [exports](typesetting/ch01/README.md). Checkpoints: contract before prose `09990cf`, textual acceptance `dc3ca6c`, complete exports/registers `fa067f4`.
 
-Unit 1 established 326 productive and 52 recognition-only forms, 49 productive senses, 28 productive and five recognition-only constructions. Its original contract, learner/key text and earliest milestones remain unchanged. At that checkpoint, the other 598 Cook items and two reader candidates were deferred; the current crosswalk below records Unit 3's later assignments.
+Unit 1 established 326 productive and 52 recognition-only forms, 49 productive senses, 28 productive and five recognition-only constructions. Its original contract, learner/key text and earliest milestones remain unchanged. At that checkpoint, the other 598 Cook items and two reader candidates were deferred; the current crosswalk below records the later Unit 3 and Unit 5 assignments.
 
 ## Completed Unit 2
 
@@ -36,12 +36,20 @@ The [learner PDF](typesetting/ch04/chapter-04.pdf) has **20 pages** and the [sep
 
 The source/contract checkpoint preceded prose at **`856a5fa`**; independently accepted text was saved at **`5f47f26`**; complete exports and reviewed registers at **`12663ff`**. The Unit 4 epic and all eight stage tasks are closed.
 
+## Completed Unit 5 content and exports
+
+The [brief](curriculum/UNIT_05_BRIEF.md) and [contract](chapters/ch05/coverage.json) cover **strong verbs IV–VII**, with four additional I–III lexical systems: **33 complete productive indicative systems, 396 finite cells and 132 principal-part positions**. All **67 tasks**, including the sixteen unchanged Cook I.5 prompts, were solved independently before key access. Eight examples, a 51-word new account, the exact 69-word first-day revisit and the complete 58-word second day have checked dependencies. All **18 supports and 34 source notes** are included.
+
+The [learner PDF](typesetting/ch05/chapter-05.pdf) has **25 pages** and the [separate key](typesetting/ch05/answer-key.pdf) **21**. All **46 final pages** passed non-author visual inspection. Complete parity verifies **554 prose/heading/list blocks, 53 tables, 906 table cells and 474 editorial comments**. The sole presentation finding was resolved by keeping X2's supplied citation with its task; the two revised pages were reopened and all other images verified unchanged. See the [independent review](chapters/ch05/review.md), [frozen solutions](chapters/ch05/independent-solutions.md), [export record](typesetting/ch05/README.md) and [final page acceptance](typesetting/ch05/page-review.json).
+
+Checkpoints: source/contract before prose **`fc29cf9`**; complete drafts **`a28b266`**; frozen pre-key solutions **`d807acf`**; accepted text **`7bbb334`**. Neither master nor the frozen solutions changed during export.
+
 ## Cumulative records and next work
 
-The [lexical register](lexicon/entries.json) now has **211 lemmas, 2,735 form records and 231 senses**; [grammar](curriculum/grammar.json) has **165 constructions**. Unit 4 establishes 320 productive and 24 recognition-only form milestones, 28 productive and two recognition-only senses, and 25 productive and two recognition-only constructions. Its 74 supplied forms, 23 supplied senses and 11 supplied constructions acquire no production milestone from that exposure.
+The [lexical register](lexicon/entries.json) now contains **242 lemmas, 3,198 forms and 265 senses**; [grammar](curriculum/grammar.json) contains **205 constructions**. Unit 5 establishes **396 productive form milestones, 33 productive senses and 30 productive constructions**. Its **89 supplied forms, 21 supplied senses and 19 supplied constructions** acquire no independent-production milestone from that exposure. The 66 nonfinite principal-part positions remain supplied citations.
 
-The [integration record](chapters/ch04/register-integration.json) verifies every earlier milestone, evidence link and supplied history, all **42 earlier active files** and all **134 archived evidence files**. Previously supplied **wearð** is deliberately taught here with ordinary “become”; supplied **tō**, recognition-only **eall** and reference-only **\*sǣwa** retain their boundaries. No archived teaching milestone has been imported.
+The [Unit 5 integration record](chapters/ch05/register-integration.json) verifies every earlier milestone, evidence link, supplied history, existing per-chapter record and lemma metadata, all **382 earlier active files** and all **134 archived evidence files** against baseline **`80e0406`**. Seven earlier supplied finite forms are deliberately promoted, with their earlier histories retained. Ordinary standan is distinct from the supplied opposing-winds sense. The current gesēon display has checked quantity; earlier metadata and exact geseah remain preserved. Recognition-only eall, earlier personal genitives/instrumentals and reference-only *sǣwa retain their limits. No archived teaching milestone has been imported.
 
-The canonical crosswalk now has **79 assigned and 565 deferred Cook items**, with none omitted. The [Unit 5 contract](chapters/ch05/coverage.json) assigns all sixteen Cook I.5 items. I.4.18 and the birds candidate remain deferred to Unit 7; the lights candidate is subsumed in Unit 3's fourth-day span. **Unit 5: strong verbs IV–VII** defines 33 complete indicative systems (396 finite cells, 132 principal parts), 67 tasks, eight examples, a 51-word controlled account, the exact 69-word first-day revisit and the complete 58-word second day. All 34 source notes and 18 support groups are retained. Independent source checks and the coordinator's concrete reference/preservation check pass; **`fc29cf9`** predates all learner/key prose. Baseline `80e0406` preserves all earlier teaching records, 382 earlier active files and 134 archived evidence files; active registers still reflect only the four completed units.
+The canonical crosswalk has **79 assigned and 565 deferred Cook items**, with none omitted. Unit 5 assigns the complete I.5 set; its first-day reading is an explicit revisit, not a new duplicate assignment. I.4.18 and the birds candidate remain deferred to Unit 7. The outline and mapping are settled; continue only the next unit requested by the user. Unit 6 has not been drafted.
 
-The archived experiment remains an unchanged evidence snapshot. No remote, publication or distribution is configured.
+The archived experiment remains unchanged. No remote, publication or distribution is configured.

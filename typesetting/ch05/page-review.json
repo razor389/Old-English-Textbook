@@ -1,0 +1,829 @@
+{
+  "schema_version": 1,
+  "chapter_id": "ch05",
+  "status": "PASS",
+  "accepted_at_utc": "2026-10-23T16:11:50.382042+00:00",
+  "presentation_aggregator": "coordinator",
+  "aggregation_method": "Reconciled three non-author ledgers against every final PDF/image identity, full content parity and clean logs. Reviewers directly opened every assigned page. After the one pagination repair, changed pages22/23 were directly reopened and all other learner images independently verified byte-identical to the previously inspected images. The coordinator spot-inspected pages but does not claim to have personally opened all46.",
+  "accepted_text_checkpoint": "7bbb334",
+  "accepted_text_identities": [
+    {
+      "path": "chapters/ch05/student.md",
+      "sha256": "ce3122adca166c5eec0038ecb209b6e14b15a9dbefb349caab6fc5d92f533d59",
+      "sha256_normalized_lf": "50b7a9719484a966c7a1efe41823b1a3b10571bb52a944e9c250ebcd4ccfcd50"
+    },
+    {
+      "path": "chapters/ch05/answer-key.md",
+      "sha256": "9a7db0cc0954765bb21680a5d086e8c488f18bd3dde394fc3754a56e726aa079",
+      "sha256_normalized_lf": "16d3c595ef46d19d7f79a32b94063247effa7793f8f42feec4ad5b69ce4a5c70"
+    },
+    {
+      "path": "chapters/ch05/independent-solutions.md",
+      "sha256": "7dd6498e6d968cd9b1ed277ea57d764df9d5a3bd3ea818fc6ef7a632c4cc6861",
+      "sha256_normalized_lf": "7dd6498e6d968cd9b1ed277ea57d764df9d5a3bd3ea818fc6ef7a632c4cc6861"
+    },
+    {
+      "path": "chapters/ch05/review.md",
+      "sha256": "2a303fc41d2a09415ff801e3d65afbcb32635a7451ec0d981df61ed36e235548",
+      "sha256_normalized_lf": "2a303fc41d2a09415ff801e3d65afbcb32635a7451ec0d981df61ed36e235548"
+    },
+    {
+      "path": "chapters/ch05/review-ledger.json",
+      "sha256": "4ba18ddffbe2fead36f42c62a351e6f7d039cbe3acf1b8ccfd25093c253fdfeb",
+      "sha256_normalized_lf": "bbd735b4967aee154205715aa2dde064f1038afdbfd43b3fed1439d390cd6b69"
+    }
+  ],
+  "page_totals": {
+    "learner": 25,
+    "key": 21,
+    "total": 46
+  },
+  "every_final_page_visually_inspected_by_non_author": true,
+  "page_coverage_complete_without_overlap": true,
+  "reviewer_ledgers": [
+    {
+      "path": "typesetting/ch05/reviews/learner-first.json",
+      "sha256": "fcd4d69848f7c66b0e55215b0aa23920d4e483590afe62feb4be2352f57e7057",
+      "sha256_normalized_lf": "0e6f435cce613dc1adf42d3e7ec600c087416fd52acc1d8aeeb604d5f448330d"
+    },
+    {
+      "path": "typesetting/ch05/reviews/learner-last.json",
+      "sha256": "6ca71b022b7db63db4865548342c477fc2180c9047a528ae7a43c65e4d13b90b",
+      "sha256_normalized_lf": "8652c070dec4d5a76403f099a92c9fac3b28eadf133b3cffe4eb877fb079397e"
+    },
+    {
+      "path": "typesetting/ch05/reviews/key.json",
+      "sha256": "d3c70cf218b1aab6c128faa237eb817ebc97c2cc39fb2c49a0a978345bac6ab8",
+      "sha256_normalized_lf": "0ea0a924002e702891b6f75a36ed7b170f43209365b6cc5ed73f226f257aaa0e"
+    }
+  ],
+  "documents": [
+    {
+      "kind": "learner",
+      "path": "typesetting/ch05/chapter-05.pdf",
+      "sha256": "24746c00de5973f65fd7aaa8b271fa3abbb5664ec767825528fa96475efa73a6",
+      "build_path": "typesetting/ch05/build/chapter-05.pdf",
+      "pages": 25,
+      "render_dpi": 150,
+      "page_review_records": [
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 1,
+          "image_path": "typesetting/ch05/build/learner-v2-p01.png",
+          "image_sha256": "b31b928a0297dacc59ae640631cafe1faf9a6bab5f0f57dc4c9fcab11cf1e0bf",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "Title, running header, three-column ending table and footer are legible. Wrapped table labels remain aligned. Macron, æ, ð and hookedę render visibly. The final prose paragraph continues clearly onto page2; no clipping.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p01.png",
+            "image_sha256": "b31b928a0297dacc59ae640631cafe1faf9a6bab5f0f57dc4c9fcab11cf1e0bf",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 2,
+          "image_path": "typesetting/ch05/build/learner-v2-p02.png",
+          "image_sha256": "97222070313d21a12d0691b5acf18b7b09dbad8449a2a16222ae394bc2bb2e25",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "Continuation is readable. ClassIV principal parts, citation note and complete present table fit with clear headers and columns. Macrons and the 1–3pl label are visible; the preterite table starts separately on page3 without a split row.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p02.png",
+            "image_sha256": "97222070313d21a12d0691b5acf18b7b09dbad8449a2a16222ae394bc2bb2e25",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 3,
+          "image_path": "typesetting/ch05/build/learner-v2-p03.png",
+          "image_sha256": "97f3560edd26588195332ef0404a1ca0fd4981094cf2197556536beca80d4ce4",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "Complete ClassIV preterite table and ClassV principal-part table are legible. All nine V rows and the citation note remain together. Short/long æ and ea quantities are distinguishable; margins and footer are clear.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p03.png",
+            "image_sha256": "97f3560edd26588195332ef0404a1ca0fd4981094cf2197556536beca80d4ce4",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 4,
+          "image_path": "typesetting/ch05/build/learner-v2-p04.png",
+          "image_sha256": "d1d24a03829644d1749fb3d3a0b7a71aba2847a1874a66a10c9826f9734e56e5",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "Both nine-row ClassV finite tables are complete, with person/number headers. Sēon/gesēon and their vowel marks remain readable. Following exception notes fit without clipping or isolated headings.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p04.png",
+            "image_sha256": "d1d24a03829644d1749fb3d3a0b7a71aba2847a1874a66a10c9826f9734e56e5",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 5,
+          "image_path": "typesetting/ch05/build/learner-v2-p05.png",
+          "image_sha256": "24dce0e930817bedff325a59c52f9a0d123df7c942e91c9ace0dd6935064d217",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "ClassV exception prose and ClassVI principal parts are clear. Long headwords and the create/shape gloss remain in distinct columns; all seven rows and the citation note are present. Hookedę and long-vowel marks are visible.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p05.png",
+            "image_sha256": "24dce0e930817bedff325a59c52f9a0d123df7c942e91c9ace0dd6935064d217",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 6,
+          "image_path": "typesetting/ch05/build/learner-v2-p06.png",
+          "image_sha256": "7468e7e2dc4f1ceea5d25c1ef464ad8cb5e4fb8099e25de0003f0d3ce648c885",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "Both seven-row ClassVI finite tables are legible and correctly aligned. The longest prefixed forms fit within their columns. Hookedę in hębban/swęrian/standan forms is clear. Alternatives prose continues onto page7 without lost text.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p06.png",
+            "image_sha256": "7468e7e2dc4f1ceea5d25c1ef464ad8cb5e4fb8099e25de0003f0d3ce648c885",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 7,
+          "image_path": "typesetting/ch05/build/learner-v2-p07.png",
+          "image_sha256": "d13da36aac254cfc8f09bfb3efc441fde728ddb055da4d83934d7a097be0f5c9",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "The carried-over alternatives paragraph is readable. ClassVII heading, ēo-group principal parts and all seven present rows fit on the page. Wēpan/wōpen and short/long ie distinctions display clearly; citation note and table headers are intact.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p07.png",
+            "image_sha256": "d13da36aac254cfc8f09bfb3efc441fde728ddb055da4d83934d7a097be0f5c9",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 8,
+          "image_path": "typesetting/ch05/build/learner-v2-p08.png",
+          "image_sha256": "c6a8f4ba0bb8b60c7406d495666b4b1fd8f81a7fcd1fa90937c9d7c987e73422",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "Seven-row VII ēo preterite table, explanatory prose, and VII ē principal-part/present tables are complete. Headers and all three ē-group rows remain clear. Macrons over æ/ē/ō and dental endings render without collisions.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p08.png",
+            "image_sha256": "c6a8f4ba0bb8b60c7406d495666b4b1fd8f81a7fcd1fa90937c9d7c987e73422",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 9,
+          "image_path": "typesetting/ch05/build/learner-v2-p09.png",
+          "image_sha256": "b915207265b5242b34fe0485c3cc1c63e2b619104a75b2d282876663a79c3bc9",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "VII ē preterite table is complete. Hātan/hātte discussion and ClassI–III introduction are legible. Four bridge principal-part rows and citation note stay together; columns, running header and footer are clear.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p09.png",
+            "image_sha256": "b915207265b5242b34fe0485c3cc1c63e2b619104a75b2d282876663a79c3bc9",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 10,
+          "image_path": "typesetting/ch05/build/learner-v2-p10.png",
+          "image_sha256": "e90493621da1649563ae3fe87d6aa4c1ac9deaa551d7ce32fc397db379b0ad6c",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "Both four-row bridge finite tables are complete, with longī/īe and short-i/u forms readable. Ordinary-uses heading has following text. The first two example/translation pairs remain together; no text or rule is clipped.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p10.png",
+            "image_sha256": "e90493621da1649563ae3fe87d6aa4c1ac9deaa551d7ce32fc397db379b0ad6c",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 11,
+          "image_path": "typesetting/ch05/build/learner-v2-p11.png",
+          "image_sha256": "4127c930a53d3d2017b3a8c36f10af12716b84b8c6cabf57438c5eb735bd11aa",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "Ordinary-use prose and example/translation pairs are clear, including męnn, stęnt and ūres. The complete direct-quotation explanation ends this page and its paired example follows on page12; the break does not orphan a heading or split an example/translation pair.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p11.png",
+            "image_sha256": "4127c930a53d3d2017b3a8c36f10af12716b84b8c6cabf57438c5eb735bd11aa",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_grammar; non-author of learner master and TeX",
+          "ledger": "typesetting/ch05/reviews/learner-first.json",
+          "page": 12,
+          "image_path": "typesetting/ch05/build/learner-v2-p12.png",
+          "image_sha256": "e6aa246141d3a17c5fd0f157e4aa9a1978f4329698b87c105e53813579972812",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": "Direct quotation and its English translation remain together at the top. Section8 instructions and P1–P4 labels are legible, with every label attached to its full prompt. Supplied citations and quantities are visible; margins and footer are clear.",
+          "original_visual_inspection": {
+            "image_path": "typesetting/ch05/build/learner-v1-p12.png",
+            "image_sha256": "e6aa246141d3a17c5fd0f157e4aa9a1978f4329698b87c105e53813579972812",
+            "pdf_sha256": "c2e78ec698c211a442ed1af7d3e12799efe3b07fb743ce249c1af112d182b033",
+            "inspection_basis": "direct visual inspection"
+          },
+          "final_image_basis": "Exact byte identity independently verified against the directly visually inspected v1 image; no new visual inspection claimed."
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 13,
+          "image_path": "typesetting/ch05/build/learner-v2-p13.png",
+          "image_sha256": "3ecd61abf9ff158f6aced249d4e969397f85dd5eb8bbf4c4b3af03564f6c7c6e",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "F1–F12 labels and all prompt lines are legible and complete; cweðan, sēon and gesēon characters render correctly.",
+            "No clipping, overlap or detached label at the page end.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p13.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 14,
+          "image_path": "typesetting/ch05/build/learner-v2-p14.png",
+          "image_sha256": "27c28193e1f06b729d01b67f9a372de5aec3a3137cb14fac167f3847ec99d43f",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "F13–F24 continue in order; hooked ę in hębban/swęrian, æ with macron in lǣtan, and vowel lengths remain legible.",
+            "F24 finishes before the footer; headers and body are separated.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p14.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 15,
+          "image_path": "typesetting/ch05/build/learner-v2-p15.png",
+          "image_sha256": "24a267e0e1d568e7d1d2922b8935efa012b35c756b6573b7dbb5deec974db1a5",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "C1–C8 and Cook I.5.1–4 have complete visible prompts and labels.",
+            "Quoted speech and Old English ð/ē render clearly; the Cook heading remains with its introduction and first items.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p15.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 16,
+          "image_path": "typesetting/ch05/build/learner-v2-p16.png",
+          "image_sha256": "a67dd907abf22ab0c9c0603d47ee01519b3be9a551f43ce1c09728d55b460b72",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Cook I.5.5–16 are complete; the supplied eall ðā ðing paragraph is immediately above I.5.6 and states the production boundary visibly.",
+            "The new-account heading and pronoun-reference introduction remain together; neither hīe nor Ān mann loses its length mark.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p16.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 17,
+          "image_path": "typesetting/ch05/build/learner-v2-p17.png",
+          "image_sha256": "776241798c81e7cc25ea701141a14d531f62a1dd6bca9ee7955f84a931d2a2ea",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "The full new account and T1–T4 are legible; the account is not clipped at the top.",
+            "The first-day heading, locator, revisit statement and entire Old English span remain together. Macrons, ǣ, ę and ð render clearly in the source.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p17.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 18,
+          "image_path": "typesetting/ch05/build/learner-v2-p18.png",
+          "image_sha256": "e8912984b05f3b4362185ad98ef6a7bc8f7a3face869f2cbc8d8140f3fde2ba4",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "First-day help begins with its scope statement and six complete support groups.",
+            "Heofonan, sōðlice, nēowolnesse, brādnesse and gefęred are legible; no heading or explanatory line is lost at the bottom.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p18.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 19,
+          "image_path": "typesetting/ch05/build/learner-v2-p19.png",
+          "image_sha256": "b4351f319193d60b87e54e647822a114fb93d2ef1cf19e91ec60ad7d55ebe8a4",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "The remaining first-day help covers the wish, passive, content clause, separation, naming and complete closing formula.",
+            "Quotation marks, long vowels and special letters remain legible; each support heading stays with its explanation.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p19.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 20,
+          "image_path": "typesetting/ch05/build/learner-v2-p20.png",
+          "image_sha256": "ce4646294dfc4a23308b79144eea423feef921bf7e35ff9a55bc8bcfa521338d",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "R1–R4 labels and prompts are complete, including the added supplied citation before R2.",
+            "The second-day heading and locator accurately distinguish printed line anchors from editorial counting; all 58 source words fit in one paragraph, followed by the local-help heading and introduction.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p20.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 21,
+          "image_path": "typesetting/ch05/build/learner-v2-p21.png",
+          "image_sha256": "2a82c09882eaae2b555ee1c5df0dc9de0ef330c913232fd4c431d4917562937f",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Five second-day support groups are complete and readable; printed ę in ęft, ǣ in tōtwǣme/tōtwǣmde, and ō in gedōn remain distinct.",
+            "The subject-relative and substantival-demonstrative explanations are visible with their source phrases; no clipping or detached support heading.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p21.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 22,
+          "image_path": "typesetting/ch05/build/learner-v2-p22.png",
+          "image_sha256": "d73fc3d55e7e5b67bd652a53b852045b0ec33b58028bc699115da3555cf06f1e",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Directly reopened learner-v2-p22.png after the layout repair. The final second-day support and all R5–R8 prompts remain complete and legible.",
+            "The page now ends after R8, keeping the source-reading exercises together. All special characters remain intact, with no clipping or overlap."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p22.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 23,
+          "image_path": "typesetting/ch05/build/learner-v2-p23.png",
+          "image_sha256": "7cda9e080f61e0a6366bc7845722893113c553ebe3aa2ed41b9415fb2d96a91e",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Directly reopened learner-v2-p23.png after the layout repair. Section 13, its introduction, X1, the supplied X2 citations, X2 and X3 now appear together on this page.",
+            "The supplied citations are directly above X2. Macrons, hooked e, eth and the parenthesized citation notation are legible. Heading, labels and paragraphs have sufficient separation; no clipping or overflow."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p23.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 24,
+          "image_path": "typesetting/ch05/build/learner-v2-p24.png",
+          "image_sha256": "2b432a52d13cba92b7e6061be2519dd4a7defd08f3faa983260efe7d2871d95e",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "The source-note heading and explanatory paragraphs are complete; weaxen is visibly identified as a rule-derived supplied citation.",
+            "All first-page notes P.123, 1–18 are legible, including hooked e and macrons. The final note remains above the footer without clipping.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p24.png"
+        },
+        {
+          "reviewer": "unit05_source; non-author of learner text",
+          "ledger": "typesetting/ch05/reviews/learner-last.json",
+          "page": 25,
+          "image_path": "typesetting/ch05/build/learner-v2-p25.png",
+          "image_sha256": "9e6dfe44659da3bb354233e938349a1e5c8a9bbc215e34c095dbc1320f8b6100",
+          "status": "accepted",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "P.124 first-day notes 1–7 and second-day notes 8–16 are complete, with a clear subheading separating the two sets.",
+            "Special letters in gedǣlan, hātan, tōtwǣman and gedōn are legible; the appendix ends cleanly with no overflow.",
+            "The final v2 image was independently hash-checked and is byte-identical to the v1 image directly inspected."
+          ],
+          "previous_image_path": "typesetting/ch05/build/learner-v1-p25.png"
+        }
+      ]
+    },
+    {
+      "kind": "key",
+      "path": "typesetting/ch05/answer-key.pdf",
+      "sha256": "006ba4afe9526e567e8c63566a199d32ed0faf358f5fef7f5a82941ddbe25053",
+      "build_path": "typesetting/ch05/build/answer-key.pdf",
+      "pages": 21,
+      "render_dpi": 150,
+      "page_review_records": [
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 1,
+          "image_path": "typesetting/ch05/build/key-v1-p01.png",
+          "image_sha256": "46507bb159e78fdcb925108ce310ec94d1c7e32b975c1928643fc2433bcb84a9",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Title, running header and Using the key heading are clear. Quantity contrasts æ/ǣ, ea/ēa, ie/īe, e/ē and the supplied eall phrase render distinctly; full introduction fits without clipping."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 2,
+          "image_path": "typesetting/ch05/build/key-v1-p02.png",
+          "image_sha256": "4867e37a0870e6e7a11f1fef02f48ce995dda33210821d184112360c997881f5",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "P1–P4 labels remain attached to their answers. Principal-part and subject/form tables have readable columns and rules; bær/bǣre/bǣron and gescēope quantities remain clear. No clipped text at the foot."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 3,
+          "image_path": "typesetting/ch05/build/key-v1-p03.png",
+          "image_sha256": "471424e1d812a63ff9f07adeb112feb04c0cf549ad4d148cd28f3c1789d4e648",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Finite forms heading and F1–F5 answers are placed coherently. Three- and four-column tables retain aligned headings and forms; macrons and ð are visible. F5 explanation completes before the footer."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 4,
+          "image_path": "typesetting/ch05/build/key-v1-p04.png",
+          "image_sha256": "a49e9863f7aa2c9e1d38db3b9db9ad6d33fa34b54a9947f927e8f58121788cde",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "F6–F10 tables and explanations are complete. geaf/gēafon, ligð/lǣgon and æt/ǣt contrasts are legible; table rules do not collide with text. Labels are not stranded."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 5,
+          "image_path": "typesetting/ch05/build/key-v1-p05.png",
+          "image_sha256": "917b07922a08d9a6af9bfac70172c929545bed7397b7701b66cd6239b78cd53b",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "F11–F16 fit with intact tables and explanations. Short ie and long ā in seeing forms, slēa/sliehst, and ogonek ę in stęnt/hębbe remain visible. The dense final answer clears the page number."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 6,
+          "image_path": "typesetting/ch05/build/key-v1-p06.png",
+          "image_sha256": "6e5058dc81513aff6e824b50e54965f4dde63539936401134e31c4f447373272",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "F17 mixed-verb table has readable five-column headings, correctly visible dashes and prefixed forms. F18–F20 tables and quantities render cleanly, including swęrie and wēoxon; no overflow."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 7,
+          "image_path": "typesetting/ch05/build/key-v1-p07.png",
+          "image_sha256": "822013bd7d7460d613f98fabee575eb35db3ac562a92ce81f0f89091dbe4fb25",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "F21–F24 tables and accompanying notes are intact. Long īe, ā/ǣ, contracted fōn forms and doubled consonants in swimming are clear. Four answer groups remain complete on the page."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 8,
+          "image_path": "typesetting/ch05/build/key-v1-p08.png",
+          "image_sha256": "93c8cdceef40f743088df5dd19d7701a821d0ada4030e1c4a91e99a385fa734e",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Clauses heading and C1–C5 labels/models are clear. Quotation marks, semicolon, macrons and ę render properly; long model C3 fits in the text width. C5 explanation finishes without clipping."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 9,
+          "image_path": "typesetting/ch05/build/key-v1-p09.png",
+          "image_sha256": "4573c457930f66ceb1ce18fa747bd9cf417e5ef9ee3e12d75564b3c3c56a9da2",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "C6–C8 are complete, followed by the Cook heading, its introduction and I.5.1. Heading placement supplies sufficient following content. Quoted speech, genitive forms and the long creation explanation are readable."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 10,
+          "image_path": "typesetting/ch05/build/key-v1-p10.png",
+          "image_sha256": "fbc5ab061faf003c4e7b64f3e317c151db8d467b82111d06c727e21f69d59603",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Cook I.5.2–I.5.6 retain prompts, models and explanations. æ/ǣ, ð and macrons are distinct; the supplied eall phrase remains legible. No answer label or model is separated from its explanation."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 11,
+          "image_path": "typesetting/ch05/build/key-v1-p11.png",
+          "image_sha256": "5249a1729b863a9a68873ff3f476b6b381ee62acf5100d7b1625f0869379d4ea",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Cook I.5.7–I.5.11 are complete. The fish-number comparison table keeps both model sentences within their column; singular/plural labels and the following explanation are readable. Bottom text clears the footer."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 12,
+          "image_path": "typesetting/ch05/build/key-v1-p12.png",
+          "image_sha256": "b11fb88f916a025fc5e6ecdd1ee15c2ff086543d3f42e990e1cab4f4e511b8ca",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Cook I.5.12–I.5.16 are complete. Growth and shining quantities, męnn, and the swimming alternatives remain clear. Item boundaries and page margin are clean."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 13,
+          "image_path": "typesetting/ch05/build/key-v1-p13.png",
+          "image_sha256": "13f43aa6745e7ecf58ac9542b78881bafe3ed53cf7cf44adc4f8ae0d5ca9f368",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Connected-account heading and T1–T3 are complete. The recipient/object/subject table has clear three-column alignment. Space at the bottom permits T4 to begin as a complete answer on the next page."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 14,
+          "image_path": "typesetting/ch05/build/key-v1-p14.png",
+          "image_sha256": "e95fa962f1b9d3da907b0dba7f3973a3a441660a913ffeffefe3a247cfb3131c",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "T4 translation and interpretive explanation are intact. The Creation first-day heading has its full R1 table and explanation beneath it. The long final table heading wraps inside its column; no overlap."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 15,
+          "image_path": "typesetting/ch05/build/key-v1-p15.png",
+          "image_sha256": "5efe33069648f1f63f3e07e04212ccdb6ddf18a89e56cea1d00de3815e3c9d53",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "R2 and R3 are complete. The noun/gender/number table wraps weak-feminine and plural descriptions clearly. Remaining space is acceptable because the complete R4 translation/commentary begins on the next page."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 16,
+          "image_path": "typesetting/ch05/build/key-v1-p16.png",
+          "image_sha256": "23784d15fdcab77cd10c83a96c9cd291ac21f78eb043eb433785fd895f125c20",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "R4 translation and commentary are complete, followed by the second-day heading and R5. The four-column verb-analysis table has clean wrapping, including supplied tōtwǣmde; final explanation is not clipped."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 17,
+          "image_path": "typesetting/ch05/build/key-v1-p17.png",
+          "image_sha256": "37b2190a349b942f3165696a30e26595089a8d6f20e3143d6fc22bf93e52eb2d",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "R6 and R7 retain full relative-clause and naming explanations. ðǣm, wǣron, Heofonan and ōðer/dæg are readable. Space below keeps R8 together on the next page."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 18,
+          "image_path": "typesetting/ch05/build/key-v1-p18.png",
+          "image_sha256": "4c5aac5b32999bac1cb9913a6bb5bfaa88852c596f73efc21edc5d99d14088c7",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "R8 translation and commentary remain together on one page. Quotation marks, ęft, nū and the closing formula render clearly. The final blank area is a coherent break before cumulative review."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 19,
+          "image_path": "typesetting/ch05/build/key-v1-p19.png",
+          "image_sha256": "91aa3348e19c432c65a735804a8a8e8952dca4d9092b9bc59e80469706aed9c0",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Cumulative review X1–X3 is complete. All three tables fit; X3 wrapped headers and analyses stay in their columns. īe versus ie and the sēoð/sīeð/siehð contrast remain visually distinct."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 20,
+          "image_path": "typesetting/ch05/build/key-v1-p20.png",
+          "image_sha256": "bf6289b6e70d9c02b44c80484218bc9808864c0e0f9df5844c9321c35b7e6a71",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "Source-notes heading and notes 1–8 are legible at the selected size. Section signs, arrows, þ/ð, macrons and ogoneks render correctly. Note 8 begins in the last two lines and continues clearly on page 21; no clipping or repair is needed."
+          ]
+        },
+        {
+          "reviewer": "unit05_design (learner author; non-author reviewer of the answer key)",
+          "ledger": "typesetting/ch05/reviews/key.json",
+          "page": 21,
+          "image_path": "typesetting/ch05/build/key-v1-p21.png",
+          "image_sha256": "646615005fae6876ee9fcfccae747959ae70f383226857d9437f8e4692475510",
+          "status": "pass",
+          "inspection_basis": "direct visual inspection",
+          "notes": [
+            "The two-line continuation of note 8 and complete notes 9–10 are readable. Printed-page/PDF locators and note ranges retain punctuation; the document ends cleanly with no truncated text."
+          ]
+        }
+      ]
+    }
+  ],
+  "resolved_findings": [
+    {
+      "ledger": "typesetting/ch05/reviews/learner-last.json",
+      "id": "VIS-U05-LEARNER-X2-SUPPORT-PAGINATION",
+      "page": 22,
+      "status": "resolved",
+      "description": "The X2 supplied citations end page 22, but X2 and X3 alone occupy the top of page 23. Insert a page break before section 13, Cumulative review, to keep the full short review and its citation support together on page 23; retain the existing source-note page break. No textual or character defect was found.",
+      "resolution": "The coordinator added a page break before section 13. Direct visual inspection of final v2 pages 22 and 23 confirms the complete cumulative review and X2 citation support now occupy page 23 together. Other assigned final images match the previously inspected v1 image hashes byte-for-byte."
+    }
+  ],
+  "unresolved_findings": [],
+  "content_parity": {
+    "identity": {
+      "path": "typesetting/ch05/content-parity.json",
+      "sha256": "1acf3301b0bc3f707139b919ea442b6c3f973a8d944dae62e1efb3d28e5ba5e6",
+      "sha256_normalized_lf": "1cb583dc60b4cc2a36166e1dbede3227310186c88de12002572a113dc7545064"
+    },
+    "counts": {
+      "paragraph_heading_list_blocks": 554,
+      "original_tables": 53,
+      "original_table_cells_including_headers": 906,
+      "all_editorial_comments_preserved": 474
+    },
+    "documents": [
+      {
+        "master": "chapters/ch05/student.md",
+        "master_sha256": "ce3122adca166c5eec0038ecb209b6e14b15a9dbefb349caab6fc5d92f533d59",
+        "tex": "typesetting/ch05/chapter-05.tex",
+        "tex_sha256": "086c605df2cc77537fd8acf37c28aee3f444013250b9b1f10fc1a069aa19b12d",
+        "tex_sha256_normalized_lf": "5fab9c2fe9de294f5a88732db7be99466b8d1b3079026a6d6a7c136b222366d4",
+        "paragraph_heading_list_blocks": 342,
+        "original_tables": 19,
+        "original_table_cells_including_headers": 600,
+        "all_editorial_comments_preserved": 340,
+        "paragraph_and_cell_parity": "PASS",
+        "pdf_complete_paragraph_character_parity": "PASS",
+        "title_parity": "PASS",
+        "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+      },
+      {
+        "master": "chapters/ch05/answer-key.md",
+        "master_sha256": "9a7db0cc0954765bb21680a5d086e8c488f18bd3dde394fc3754a56e726aa079",
+        "tex": "typesetting/ch05/answer-key.tex",
+        "tex_sha256": "a298ac658f98643676e80ef132097d3ac1f5091a4b1d7f69c88227571f011efa",
+        "tex_sha256_normalized_lf": "7f290c42962827fdbe4a037f0fb4b68642e3df6ca03e7c8dbd219bdced6e21e2",
+        "paragraph_heading_list_blocks": 212,
+        "original_tables": 34,
+        "original_table_cells_including_headers": 306,
+        "all_editorial_comments_preserved": 134,
+        "paragraph_and_cell_parity": "PASS",
+        "pdf_complete_paragraph_character_parity": "PASS",
+        "title_parity": "PASS",
+        "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+      }
+    ]
+  },
+  "compilation_logs": [
+    {
+      "path": "typesetting/ch05/build/chapter-05.log",
+      "sha256": "4f18df5db688894daa2750d39894028183c2f90139bc70ca395a60d47cafb570",
+      "diagnostics": [],
+      "checked_diagnostics": [
+        "Missing character:",
+        "Overfull \\hbox",
+        "Overfull \\vbox",
+        "Underfull \\hbox",
+        "Underfull \\vbox",
+        "Font shape",
+        "Rerun to get",
+        "Table widths have changed",
+        "Fatal error",
+        "! LaTeX Error"
+      ],
+      "output_line": "Output written on chapter-05.pdf (25 pages, 142992 bytes)."
+    },
+    {
+      "path": "typesetting/ch05/build/answer-key.log",
+      "sha256": "8fdd8eda6295a08cef136514664e2132748c347460255560913b54312d0bc327",
+      "diagnostics": [],
+      "checked_diagnostics": [
+        "Missing character:",
+        "Overfull \\hbox",
+        "Overfull \\vbox",
+        "Underfull \\hbox",
+        "Underfull \\vbox",
+        "Font shape",
+        "Rerun to get",
+        "Table widths have changed",
+        "Fatal error",
+        "! LaTeX Error"
+      ],
+      "output_line": "Output written on answer-key.pdf (21 pages, 134815 bytes)."
+    }
+  ],
+  "masters_unchanged_since_textual_acceptance": true,
+  "frozen_solutions_unchanged": true,
+  "build_and_retained_pdf_bytes_identical": true,
+  "scope_limit": "Accepts only the identified Unit5 complete exports and presentation. Register integration and final Beads/checkpoint closure are separate."
+}

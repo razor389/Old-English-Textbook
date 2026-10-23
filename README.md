@@ -14,7 +14,7 @@ The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/an
 
 **Unit 4 is complete:** [learner PDF](typesetting/ch04/chapter-04.pdf), 20 pages, and [separate key PDF](typesetting/ch04/answer-key.pdf), 19 pages. Strong verbs I–III have 26 complete finite systems with explicit production/recognition limits, four noun paradigms, 52 tasks, a controlled account and the complete selected Apollonius reading. See the [review and export record](typesetting/ch04/README.md).
 
-**Unit 5 is under independent review:** its [contract](chapters/ch05/coverage.json) covers strong verbs IV–VII, 33 complete finite systems, all sixteen Cook I.5 items, 67 tasks, a controlled account and the first two Creation days. Complete learner and key drafts are saved; exports and register integration follow review.
+**Unit 5 is complete in content, review and export:** [learner PDF](typesetting/ch05/chapter-05.pdf), 25 pages, and [separate key PDF](typesetting/ch05/answer-key.pdf), 21 pages. Strong verbs IV–VII and four additional I–III systems provide 33 complete productive paradigms, 67 tasks including all sixteen Cook I.5 items, a controlled account and the first two Creation days. All 46 final pages were independently inspected; reviewed milestones are integrated. See the [review and export record](typesetting/ch05/README.md).
 
 The earlier two-chapter experiment is preserved under [reference/previous-course](reference/previous-course/README.md), with its source evidence, corrections, and complete PDFs. Its learning milestones do not apply to this course.
 
