@@ -1035,7 +1035,7 @@ Translate the whole controlled text. Preserve the distinctions among a wish to t
 
 <!-- item: NEW-U06-C06 -->
 
-Rewrite the man’s first quoted commands, Cumað and helpað mē, as commands to one companion. Then put the first sentence of the narrative into the present, keeping the quotation itself unchanged.
+Rewrite the man’s first quoted commands, Cumað and helpað mē, as commands to one companion. Separately, put the first sentence of the original narrative into the present, keeping its original quotation unchanged.
 
 ## 7. The fisherman’s gift and first direction
 
@@ -1381,7 +1381,7 @@ Compare the statement Gē gāð with the command Gāð. Explain the shared spell
 
 <!-- item: NEW-U06-X05 -->
 
-Write four connected Old English sentences about a man and two companions: one past arrival with an explicitly stated purpose, one statement of willingness, one direct command addressed to both companions, and one completed past action. Use cuman, helpan, willan and beran, with mann, gefēra and męte and any needed taught articles or pronouns. Label the three new constructions.
+Write four connected Old English sentences about a man and two companions: one past arrival with an explicitly stated purpose, one statement of willingness, one direct command addressed to both companions, and one completed past action. Use cuman, helpan, willan and beran, with mann, gefēra and męte and any needed taught articles, numerals or pronouns. Label the three new constructions.
 
 ## 9. Sources and form choices
 

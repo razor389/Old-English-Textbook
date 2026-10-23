@@ -130,6 +130,35 @@ def main():
             if exists and isinstance(image, dict) and image.get('sha256'):
                 require(same_identity(path, image), f'{eid}: changed image {path}')
 
+    metadata = c.get('lexical_headword_reconciliation')
+    require(bool(metadata), 'Missing reviewed source-headword reconciliation')
+    if metadata:
+        require(same_identity(metadata['path'], metadata), 'Changed source-headword witness')
+        witness = read(metadata['path'])
+        lemmas = {lemma['lemma_id']: lemma for lemma in c['lexical_inventory']}
+        require(len(witness['records']) == 23, 'Expected 23 supplied-only metadata records')
+        require(sum(not row['headword_unchanged'] for row in witness['records']) == 17,
+                'Expected 17 corrected source headwords')
+        for row in witness['records']:
+            lid = row['lemma_id']
+            lemma = lemmas[lid]
+            for field, expected in row['recommended_metadata'].items():
+                require(lemma.get(field) == expected, f'{lid}: checked metadata differs: {field}')
+            require(lemma['display_headword'] == row['source_headword'], f'{lid}: headword differs from source')
+            for kind in ('forms', 'senses'):
+                key = kind[:-1] + '_id'
+                require({r[key] for r in lemma[kind]} == set(row[f'unchanged_source_{key}s']),
+                        f'{lid}: metadata repair changed {kind} inventory')
+                require(all(r['knowledge_status'] == 'supplied' for r in lemma[kind]),
+                        f'{lid}: metadata repair changed supplied scope')
+            for ref in lemma.get('metadata_evidence_refs', []):
+                require(ref in evidence, f'{lid}: unknown metadata evidence {ref}')
+            if row['source_gender_values']:
+                require(lemma.get('source_gender_values') == row['source_gender_values'] and
+                        lemma.get('gender_scope') == row['gender_scope'], f'{lid}: source gender limits lost')
+        require(all(lemmas[r['lemma_id']]['part_of_speech'] != 'source-only' for r in witness['records']),
+                'Exposure status incorrectly retained as a word class in repaired metadata')
+
     tasks = index(c['assigned_items'], 'task_id', 'task')
     require(len(tasks) == 72, 'Expected 72 graded tasks')
     require(not any(tid.startswith('EX-') for tid in tasks), 'Unit 6 adds no numbered Cook set')

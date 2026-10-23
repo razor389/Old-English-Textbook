@@ -939,7 +939,7 @@ The final coordinated verbs are both third-singular preterites. Preserve short *
 
 **X04.**
 
-**Gē gāð** is a statement: “You, plural, go.” **Gāð** is a command: “Go,” addressed to more than one person. The first has a second-plural present indicative selected by its stated subject; the second uses the second-plural imperative. Their spelling is shared, but their functions differ.
+**Gē gāð** is a statement: “You, plural, go.” **Gāð** is a command: “Go,” addressed to more than one person. In the first, **gē** fixes second-plural agreement; the task’s stipulated statement use identifies **gāð** as present indicative. An expressed second-person subject can also accompany a command. The second uses the second-plural imperative. Their spelling is shared, but their functions differ.
 
 **Hē dēð ðæt weorc** means “He does the work,” with third-singular present indicative **dēð**. **Dō ðæt weorc** means “Do the work,” a command to one person. Here the indicative and imperative forms visibly differ. **Dō** can serve first-singular indicative in a different sentence, so an ending alone is not a complete account of its use. Identify the actual statement or command in context. [1,3]
 

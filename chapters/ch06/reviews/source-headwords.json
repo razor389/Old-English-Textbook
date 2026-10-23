@@ -1,0 +1,1735 @@
+{
+  "schema_version": 1,
+  "review_id": "U06-RV-HEADWORDS",
+  "status": "complete_for_coordinator_metadata_amendment",
+  "review_date": "2026-10-23",
+  "scope": "All and only the 23 new supplied-only lemmas whose contract metadata used an ASCII-ID display and source-only POS; ten new productive verbs and every prior lemma are excluded.",
+  "input_identities": [
+    {
+      "path": "chapters/ch06/coverage.json",
+      "sha256": "e746bb32d449aa14b823bd3c4d1bffcb64970b3cbec4c36a5d0a105d5e941c64"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "f7862dd4410af3d98d87f847db1c9e57c1f3b28b852105da0977ed36665a8417"
+    },
+    {
+      "path": "sources/audits/unit06-source/evidence.json",
+      "sha256": "2f37033df5418d58f6960cdf727ee85576833a68fcd55a67cbca25d36e81fed1"
+    }
+  ],
+  "source_pdf_identity": {
+    "path": "sources/cache/cook_fb_1895_2.pdf",
+    "sha256": "693537064f0dc335b6dd9e57079e07e2e5311383c9b102406019bbf4fb70d0f3"
+  },
+  "locator_convention": "Cook printed page +16 = one-based PDF page in the selected scan. Vocabulary column/region locators are editorial descriptions, not printed line numbers. Existing Unit1 nominal-N image names are rendering sequence names: printed page 25+N, PDF page 41+N.",
+  "method": "Inventory selected against the actual prior lexicon. Reopened all 21 selected vocabulary page images and the linked noun-class images; OCR was not used to certify a spelling. Read source metadata and the already audited source text, not independent reviewer solutions. Actual image hashes were compared with retained audit hashes where present.",
+  "metadata_boundary": "This is a lexical metadata amendment only. No form text, sense gloss, source transcription, learner prose, key, paradigm, assignment, or supplied status is changed by this record. Headword spelling does not establish an independently taught infinitive or noun form.",
+  "coverage": {
+    "expected_new_supplied_only_lemmas": 23,
+    "record_count": 23,
+    "headword_changes": 17,
+    "headwords_unchanged": 6,
+    "part_of_speech_corrections": 23,
+    "nouns_with_checked_gender": 10,
+    "vocabulary_pages_reopened": 21,
+    "new_productive_verbs_included": 0,
+    "prior_lemmas_included": 0,
+    "unresolved_records": 0
+  },
+  "records": [
+    {
+      "lemma_id": "sona",
+      "old_display_headword": "sona",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "sona",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "sōna",
+      "recommended_metadata": {
+        "display_headword": "sōna",
+        "part_of_speech": "adverb"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "adverb",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "sōna, soon; immediately; at once; as soon; when.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 313,
+        "pdf_page_one_based": 329,
+        "section": "Vocabulary",
+        "column_and_region": "left column, middle",
+        "entry": "sōna"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-313",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf329-p313.png",
+          "sha256": "bb107095b1cfb9adb7f0d271c5921971fc2214d9beca97a737b387d18d603ff3"
+        }
+      ],
+      "classification_basis": "The adverbial vocabulary gloss and the supplied sōna swā temporal expression identify the word as an adverb within that expression.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Only the already supplied temporal occurrence is retained; the compound temporal expression is not newly taught.",
+      "unchanged_source_form_ids": [
+        "sona-invariant-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "sona-as-soon-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "fiscere",
+      "old_display_headword": "fiscere",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "fiscere",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "fiscere",
+      "recommended_metadata": {
+        "display_headword": "fiscere",
+        "part_of_speech": "noun",
+        "gender": "masculine"
+      },
+      "headword_unchanged": true,
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "source_gender_values": [
+        "masculine"
+      ],
+      "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference.",
+      "source_entry_excerpt": "fiscere (44, 143), fisher(man).",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 287,
+        "pdf_page_one_based": 303,
+        "section": "Vocabulary",
+        "column_and_region": "left column, near bottom",
+        "entry": "fiscere"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-287",
+        "FB44",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf303-p287.png",
+          "sha256": "c72dda94dbbe686d78e4d131de5f93fef91cda65c6cbb55733a5207b37dba2e1"
+        }
+      ],
+      "classification_basis": "The entry refers to §44, whose printed heading is Masculines in -e; §44.1 specifically includes nouns in -ere.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "The headword is unchanged. Gender is lexical metadata; no full fiscere paradigm or independent vocabulary milestone is added.",
+      "unchanged_source_form_ids": [
+        "fiscere-nom-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "fiscere-fisherman-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "geong",
+      "old_display_headword": "geong",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "geong",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "geong",
+      "recommended_metadata": {
+        "display_headword": "geong",
+        "part_of_speech": "adjective"
+      },
+      "headword_unchanged": true,
+      "part_of_speech": "adjective",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "geong (58, 65, 18), young.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 293,
+        "pdf_page_one_based": 309,
+        "section": "Vocabulary",
+        "column_and_region": "right column, lower portion",
+        "entry": "geong"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-293",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf309-p293.png",
+          "sha256": "5cdff75e56a6d7d63e6cf60c3511f03d473ef24f2ffe8fe02ba6c31b5c9cb789"
+        }
+      ],
+      "classification_basis": "The vocabulary adjective citation and young gloss identify the word class; the supplied geonga modifies mann in the source.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "The headword is unchanged. No inherent lexical gender is assigned to an adjective; the source form alone has masculine agreement.",
+      "unchanged_source_form_ids": [
+        "geong-nom-m-sg-weak-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "geong-young-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "aet",
+      "old_display_headword": "aet",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "aet",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "æt",
+      "recommended_metadata": {
+        "display_headword": "æt",
+        "part_of_speech": "preposition"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "preposition",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "æt (4), at; from; to",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 274,
+        "pdf_page_one_based": 290,
+        "section": "Vocabulary",
+        "column_and_region": "right column, near bottom; entry after the separate noun ǣt",
+        "entry": "æt"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-274",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf290-p274.png",
+          "sha256": "15e1857f4ee0754147bd28d01e55450f3ed2ba3200bb8a96286a3ace25e27658"
+        }
+      ],
+      "classification_basis": "The prepositional glosses and the actual supplied æt his fōtum phrase identify the preposition.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "This is short æt, not adjacent long-vowel ǣt, food. Only the locally supplied at sense is retained.",
+      "unchanged_source_form_ids": [
+        "aet-invariant-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "aet-at-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "fot",
+      "old_display_headword": "fot",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "fot",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "fōt",
+      "recommended_metadata": {
+        "display_headword": "fōt",
+        "part_of_speech": "noun",
+        "gender": "masculine"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "source_gender_values": [
+        "masculine"
+      ],
+      "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference.",
+      "source_entry_excerpt": "fōt (46), foot.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 289,
+        "pdf_page_one_based": 305,
+        "section": "Vocabulary",
+        "column_and_region": "left column, first entry",
+        "entry": "fōt"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-289",
+        "FB46",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf305-p289.png",
+          "sha256": "a9fbf7c2a6a83dfc48189ea9d663c295810ed4a13fcb5633f8f9d5fede149d04"
+        }
+      ],
+      "classification_basis": "The vocabulary refers to §46, which explicitly names fōt under the heading Umlaut masculines.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "The checked headword has long ō. The supplied dative plural fōtum is unchanged; checking a reference paradigm creates no additional learning milestone.",
+      "unchanged_source_form_ids": [
+        "fot-dat-pl-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "fot-foot-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "mildheortnes",
+      "old_display_headword": "mildheortnes",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "mildheortnes",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "mild-heortnes",
+      "recommended_metadata": {
+        "display_headword": "mild-heortnes",
+        "part_of_speech": "noun",
+        "gender": "feminine"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "source_gender_values": [
+        "feminine"
+      ],
+      "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference.",
+      "source_entry_excerpt": "mild-heortnes (51. 5), mercy, compassion, loving-kindness.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 305,
+        "pdf_page_one_based": 321,
+        "section": "Vocabulary",
+        "column_and_region": "right column, lower portion",
+        "entry": "mild-heortnes"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-305",
+        "FB51",
+        "FB51.5",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf321-p305.png",
+          "sha256": "990014500f824d74c53880d02e85d0230b32924d903b0a5cad76766420efa674"
+        }
+      ],
+      "classification_basis": "The entry refers to §51.5 within the Strong feminines section; that note covers -nes nouns.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Retain the lexical hyphen and single final s of the citation. Supplied mildheortnesse remains the separate exact reading token.",
+      "unchanged_source_form_ids": [
+        "mildheortnes-dat-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "mildheortnes-compassion-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "up-ahebban",
+      "old_display_headword": "up-ahebban",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "up-ahebban",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "ūp-ā-hębban",
+      "recommended_metadata": {
+        "display_headword": "ūp-ā-hębban",
+        "part_of_speech": "verb"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "verb",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "ūp-ā-hębban (VI. 107), lift up.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 320,
+        "pdf_page_one_based": 336,
+        "section": "Vocabulary",
+        "column_and_region": "left column, middle",
+        "entry": "ūp-ā-hębban"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-320",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf336-p320.png",
+          "sha256": "cc0e0a1e26ec9e349a7fd04a88e83e87a56a130e0bcfcb0c4ce593d0d2beb0e8"
+        }
+      ],
+      "classification_basis": "The vocabulary gives the infinitive under strong class VI and the verbal gloss lift up.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Retain both printed hyphens, long ū and ā, and hooked ę. This prefixed verb is not the prior unprefixed hębban lemma; supplied ūpāhōf is unchanged.",
+      "unchanged_source_form_ids": [
+        "up-ahebban-pret-3-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "up-ahebban-lift-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "hus",
+      "old_display_headword": "hus",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "hus",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "hūs",
+      "recommended_metadata": {
+        "display_headword": "hūs",
+        "part_of_speech": "noun",
+        "gender": "neuter"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "noun",
+      "gender": "neuter",
+      "source_gender_values": [
+        "neuter"
+      ],
+      "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference.",
+      "source_entry_excerpt": "hūs (47), house.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 300,
+        "pdf_page_one_based": 316,
+        "section": "Vocabulary",
+        "column_and_region": "left column, lower portion",
+        "entry": "hūs"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-300",
+        "FB47",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf316-p300.png",
+          "sha256": "1793413c39d11e1dc967befb91c2b7246a47c71157581ae641236cc9136da92f"
+        }
+      ],
+      "classification_basis": "The entry refers directly to §47, headed Strong neuters.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Long ū is directly printed. Only the supplied dative singular hūse is retained; no hūs paradigm is added.",
+      "unchanged_source_form_ids": [
+        "hus-dat-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "hus-house-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "est",
+      "old_display_headword": "est",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "est",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "ēst",
+      "recommended_metadata": {
+        "display_headword": "ēst",
+        "part_of_speech": "noun",
+        "gender": "masculine"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "source_gender_values": [
+        "feminine",
+        "masculine"
+      ],
+      "gender_scope": "Selected masculine provisions occurrence; the source also records feminine classification.",
+      "source_entry_excerpt": "ēst (51. 1; 165; 43; 30), provisions; consent, will.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 285,
+        "pdf_page_one_based": 301,
+        "section": "Vocabulary",
+        "column_and_region": "right column, lower portion",
+        "entry": "ēst"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-285",
+        "FB51",
+        "FB43",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf301-p285.png",
+          "sha256": "e33209393d2e3162eb79d2861cfceec75a3e894d9d470021c7e4013c63b78ace"
+        }
+      ],
+      "classification_basis": "The entry explicitly points to both feminine §51.1 and masculine §43. The already supplied ēstas occurrence is accusative masculine plural, consistent with §43.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Recommended gender is masculine for this course’s bounded provisions occurrence. The source also classifies the lemma as feminine: preserve that fact in source_gender_values and this limit, without inventing feminine -as forms or introducing either full paradigm.",
+      "unchanged_source_form_ids": [
+        "est-acc-m-pl-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "est-food-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "beforan",
+      "old_display_headword": "beforan",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "beforan",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "be-foran",
+      "recommended_metadata": {
+        "display_headword": "be-foran",
+        "part_of_speech": "preposition"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "preposition",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "be-foran, before.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 278,
+        "pdf_page_one_based": 294,
+        "section": "Vocabulary",
+        "column_and_region": "left column, upper portion",
+        "entry": "be-foran"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-278",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf294-p278.png",
+          "sha256": "27dbd04a407262256fcd9d33de267c5b1348771d79e65dbbf8edbd9b4b0797cc"
+        }
+      ],
+      "classification_basis": "The vocabulary supplies before; the checked source has the relational phrase him beforan with its dative pronoun before the preposition.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "The recommended POS describes the supplied prepositional/postpositional use. It is not an exclusive claim about every possible use of be-foran. Retain the printed hyphen in the headword; the reading token beforan is unchanged.",
+      "unchanged_source_form_ids": [
+        "beforan-invariant-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "beforan-before-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "lecgean",
+      "old_display_headword": "lecgean",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "lecgean",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "lęcgean",
+      "recommended_metadata": {
+        "display_headword": "lęcgean",
+        "part_of_speech": "verb"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "verb",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "lęcgean (115, note), place, put, set.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 302,
+        "pdf_page_one_based": 318,
+        "section": "Vocabulary",
+        "column_and_region": "right column, middle",
+        "entry": "lęcgean"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-302",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf318-p302.png",
+          "sha256": "022f32558c73d2807d6fcb2972458c8b290ec496b8865ead04b5b75c80abb4b0"
+        }
+      ],
+      "classification_basis": "The entry cites the weak-verb section and gives verbal glosses. Its note contrasts the stem historically with licgan.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Keep Cook’s complete lęcgean citation, including hooked ę and the written e after g; do not silently replace it with another edition’s spelling or the distinct prior licgan lemma.",
+      "unchanged_source_form_ids": [
+        "lecgean-pret-3-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "lecgean-place-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "giet",
+      "old_display_headword": "giet",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "giet",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "gīet",
+      "recommended_metadata": {
+        "display_headword": "gīet",
+        "part_of_speech": "adverb"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "adverb",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "gīet (gīt, gȳt), yet; still; as yet, hitherto.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 296,
+        "pdf_page_one_based": 312,
+        "section": "Vocabulary",
+        "column_and_region": "right column, upper portion",
+        "entry": "gīet"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-296",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf312-p296.png",
+          "sha256": "5acf2ce4db1ebdfa3b83461b4d90e9818e46a5dddd9cfc3d93f20b5da1cd47a3"
+        }
+      ],
+      "classification_basis": "The entry’s temporal adverbial glosses and the supplied source occurrence identify the word class.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Display the exact leading headword gīet. The parenthesized source alternatives gīt and gȳt are documented here only; they receive no new form records or learning milestones.",
+      "unchanged_source_form_ids": [
+        "giet-invariant-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "giet-still-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "be",
+      "old_display_headword": "be",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "be",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "be",
+      "recommended_metadata": {
+        "display_headword": "be",
+        "part_of_speech": "preposition"
+      },
+      "headword_unchanged": true,
+      "part_of_speech": "preposition",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "be, near; concerning; according to; on.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 277,
+        "pdf_page_one_based": 293,
+        "section": "Vocabulary",
+        "column_and_region": "right column, upper portion; entry before the separate prefix be-",
+        "entry": "be"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-277",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf293-p277.png",
+          "sha256": "29c2ec1b4600d68e4a20cd74698800d1f148996747273aa8ae0f6f5480bab3ad"
+        }
+      ],
+      "classification_basis": "The prepositional glosses and supplied be his mihte phrase identify the preposition.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "The headword is unchanged. Do not merge this free preposition with the separately printed bound prefix be-. Only according to is supplied here.",
+      "unchanged_source_form_ids": [
+        "be-invariant-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "be-according-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "miht",
+      "old_display_headword": "miht",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "miht",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "miht",
+      "recommended_metadata": {
+        "display_headword": "miht",
+        "part_of_speech": "noun",
+        "gender": "feminine"
+      },
+      "headword_unchanged": true,
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "source_gender_values": [
+        "feminine"
+      ],
+      "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference.",
+      "source_entry_excerpt": "miht (51. 1), power, might.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 305,
+        "pdf_page_one_based": 321,
+        "section": "Vocabulary",
+        "column_and_region": "right column, below mid-ðȳ entries",
+        "entry": "miht"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-305",
+        "FB51",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf321-p305.png",
+          "sha256": "990014500f824d74c53880d02e85d0230b32924d903b0a5cad76766420efa674"
+        }
+      ],
+      "classification_basis": "The noun’s entry points to §51.1 within Strong feminines and glosses power, might.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "The headword is unchanged and its i is short as printed. Distinguish the following separate miht entry that refers the reader to mugan; supplied mihte here is the noun, not a modal verb.",
+      "unchanged_source_form_ids": [
+        "miht-dat-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "miht-power-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "arfaestnes",
+      "old_display_headword": "arfaestnes",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "arfaestnes",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "ār-fæstnes",
+      "recommended_metadata": {
+        "display_headword": "ār-fæstnes",
+        "part_of_speech": "noun",
+        "gender": "feminine"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "source_gender_values": [
+        "feminine"
+      ],
+      "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference.",
+      "source_entry_excerpt": "ār-fæstnes (51. 5), kindness; compassion.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 276,
+        "pdf_page_one_based": 292,
+        "section": "Vocabulary",
+        "column_and_region": "right column, upper middle",
+        "entry": "ār-fæstnes"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-276",
+        "FB51",
+        "FB51.5",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf292-p276.png",
+          "sha256": "0ae6c3f979514d32f63a9630ea2a43b8b6e4c2b1dcb2325565c6e4742b127794"
+        }
+      ],
+      "classification_basis": "The entry’s §51.5 reference places the noun in the Strong feminines section.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Retain long ā, the printed hyphen, æ and single final s. The exact reading’s ārfæstnesse and Cook’s manuscript note remain unchanged.",
+      "unchanged_source_form_ids": [
+        "arfaestnes-acc-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "arfaestnes-kindness-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "gecythan",
+      "old_display_headword": "gecythan",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "gecythan",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "ge-cȳðan",
+      "recommended_metadata": {
+        "display_headword": "ge-cȳðan",
+        "part_of_speech": "verb"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "verb",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "ge-cȳðan (113; 164. b), announce; prove, evince, show, exhibit, display; designate.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 291,
+        "pdf_page_one_based": 307,
+        "section": "Vocabulary",
+        "column_and_region": "left column, lower middle",
+        "entry": "ge-cȳðan"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-291",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf307-p291.png",
+          "sha256": "e4eaaa6a94a791005630fcd80c274ef4b72060ffd27747bc777784994455ab2a"
+        }
+      ],
+      "classification_basis": "The entry identifies a weak verb by §113 and gives the supplied show sense; §164b is a separate government reference.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Retain ge-, long ȳ and eth ð. The local plain infinitive gecȳðan remains supplied; checking the lemma does not teach the full verb or additional senses.",
+      "unchanged_source_form_ids": [
+        "gecythan-infinitive-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "gecythan-show-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "toslitan",
+      "old_display_headword": "toslitan",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "toslitan",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "tō-slītan",
+      "recommended_metadata": {
+        "display_headword": "tō-slītan",
+        "part_of_speech": "verb"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "verb",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "tō-slītan (I. 102), rend, tear, destroy.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 316,
+        "pdf_page_one_based": 332,
+        "section": "Vocabulary",
+        "column_and_region": "right column, middle",
+        "entry": "tō-slītan"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-316",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf332-p316.png",
+          "sha256": "0e3867e2d3667f29abcc36e66393bb61a6107b3eac3f9e7bb923321a33405538"
+        }
+      ],
+      "classification_basis": "The entry identifies strong class I and gives verbal glosses.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Retain the printed hyphen and both long vowels, ō and ī. The source preterite tōslāt is unchanged; no whole prefixed paradigm is introduced.",
+      "unchanged_source_form_ids": [
+        "toslitan-pret-3-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "toslitan-tear-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "waefels",
+      "old_display_headword": "waefels",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "waefels",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "wǣfels",
+      "recommended_metadata": {
+        "display_headword": "wǣfels",
+        "part_of_speech": "noun",
+        "gender": "masculine"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "source_gender_values": [
+        "masculine"
+      ],
+      "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference.",
+      "source_entry_excerpt": "wǣfels (43), cloak, mantle.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 320,
+        "pdf_page_one_based": 336,
+        "section": "Vocabulary",
+        "column_and_region": "right column, upper middle",
+        "entry": "wǣfels"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-320",
+        "FB43",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf336-p320.png",
+          "sha256": "cc0e0a1e26ec9e349a7fd04a88e83e87a56a130e0bcfcb0c4ce593d0d2beb0e8"
+        }
+      ],
+      "classification_basis": "The vocabulary refers to §43, Masculines ending in a consonant.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Retain long ǣ and the complete final ls. The supplied accusative singular occurrence is unchanged.",
+      "unchanged_source_form_ids": [
+        "waefels-acc-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "waefels-cloak-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "healf",
+      "old_display_headword": "healf",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "healf",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "healf",
+      "recommended_metadata": {
+        "display_headword": "healf",
+        "part_of_speech": "adjective"
+      },
+      "headword_unchanged": true,
+      "part_of_speech": "adjective",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "healf (58), half.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 298,
+        "pdf_page_one_based": 314,
+        "section": "Vocabulary",
+        "column_and_region": "left column, upper middle; second healf entry",
+        "entry": "healf"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-298",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf314-p298.png",
+          "sha256": "d4dc08ac4c3699711e640ffa47e82f01bfb7009011f6231359259329b20af808"
+        }
+      ],
+      "classification_basis": "The second entry refers to the adjective section and glosses half; supplied healfan modifies dǣl.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "The headword is unchanged. Do not take the gender of the preceding homographic noun healf (51. b), hand, i.e. side, as the lexical gender of this adjective.",
+      "unchanged_source_form_ids": [
+        "healf-acc-m-sg-weak-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "healf-half-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "dael",
+      "old_display_headword": "dael",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "dael",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "dǣl",
+      "recommended_metadata": {
+        "display_headword": "dǣl",
+        "part_of_speech": "noun",
+        "gender": "masculine"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "noun",
+      "gender": "masculine",
+      "source_gender_values": [
+        "masculine"
+      ],
+      "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference.",
+      "source_entry_excerpt": "dǣl (43; 78. 4; 24), part; amount, quantity, number.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 282,
+        "pdf_page_one_based": 298,
+        "section": "Vocabulary",
+        "column_and_region": "right column, middle",
+        "entry": "dǣl"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-282",
+        "FB43",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf298-p282.png",
+          "sha256": "7761292bb0e5073c88277bfdfa954f9ebbc8efc9c70f8840ace39635d2a7282a"
+        }
+      ],
+      "classification_basis": "The entry’s §43 reference identifies a masculine noun ending in a consonant.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Long ǣ is directly printed. The assigned local part sense and supplied accusative singular occurrence remain unchanged.",
+      "unchanged_source_form_ids": [
+        "dael-acc-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "dael-part-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "thus",
+      "old_display_headword": "thus",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "thus",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "ðus",
+      "recommended_metadata": {
+        "display_headword": "ðus",
+        "part_of_speech": "adverb"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "adverb",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "ðus, thus (always with a verb of utterance in these texts).",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 319,
+        "pdf_page_one_based": 335,
+        "section": "Vocabulary",
+        "column_and_region": "left column, second entry",
+        "entry": "ðus"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-319",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf335-p319.png",
+          "sha256": "32505a2019d3516ecfff9b94848b08ef0e58b1b85b10f4195c90b40ee4d1d544"
+        }
+      ],
+      "classification_basis": "The gloss thus and the printed restriction to verbs of utterance identify the adverb in the supplied ðus cweðende phrase.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Retain eth, not ASCII th or an unrequested thorn substitution. The participle and its syntax remain supplied separately.",
+      "unchanged_source_form_ids": [
+        "thus-invariant-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "thus-thus-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "into",
+      "old_display_headword": "into",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "into",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "in-tō",
+      "recommended_metadata": {
+        "display_headword": "in-tō",
+        "part_of_speech": "preposition"
+      },
+      "headword_unchanged": false,
+      "part_of_speech": "preposition",
+      "gender": null,
+      "source_gender_values": [],
+      "gender_scope": "Not an inherent gender property of this lexical category.",
+      "source_entry_excerpt": "in-tō, into.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 301,
+        "pdf_page_one_based": 317,
+        "section": "Vocabulary",
+        "column_and_region": "right column, middle",
+        "entry": "in-tō"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-301",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf317-p301.png",
+          "sha256": "fd88a6b0eb491145bd87124e8dfcfc51323e5367de63287a996e0b69a4a520e3"
+        }
+      ],
+      "classification_basis": "The directional prepositional gloss and the actual supplied intō ðǣre ceastre phrase identify the preposition.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "Retain Cook’s lexical hyphen and long ō. The reading’s unhyphenated intō and local dative phrase are unchanged; this is not a general motion-government rule.",
+      "unchanged_source_form_ids": [
+        "into-invariant-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "into-destination-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    },
+    {
+      "lemma_id": "ceaster",
+      "old_display_headword": "ceaster",
+      "old_part_of_speech": "source-only",
+      "old_gender_present": false,
+      "old_gender": null,
+      "old_metadata": {
+        "display_headword": "ceaster",
+        "part_of_speech": "source-only"
+      },
+      "source_headword": "ceaster",
+      "recommended_metadata": {
+        "display_headword": "ceaster",
+        "part_of_speech": "noun",
+        "gender": "feminine"
+      },
+      "headword_unchanged": true,
+      "part_of_speech": "noun",
+      "gender": "feminine",
+      "source_gender_values": [
+        "feminine"
+      ],
+      "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference.",
+      "source_entry_excerpt": "ceaster (51. 4), city.",
+      "source_locator": {
+        "source_id": "cook_fb_1895_2",
+        "printed_page": 281,
+        "pdf_page_one_based": 297,
+        "section": "Vocabulary",
+        "column_and_region": "left column, upper middle",
+        "entry": "ceaster"
+      },
+      "evidence_refs": [
+        "U06-SRC-FB-281",
+        "FB51",
+        "U06-SRC-EXCERPT"
+      ],
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf297-p281.png",
+          "sha256": "d26bf461512258221b04516104faadcacd9d1c1ded162e8636228e3fa9f351cb"
+        }
+      ],
+      "classification_basis": "The entry refers to §51.4 within the Strong feminines section; the source also has feminine dative ðǣre ceastre.",
+      "normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+      "limits": "The headword is unchanged. Do not substitute the inflected ceastre for the citation; no full noun paradigm is added.",
+      "unchanged_source_form_ids": [
+        "ceaster-dat-sg-source"
+      ],
+      "unchanged_source_sense_ids": [
+        "ceaster-city-source"
+      ],
+      "knowledge_status_after_metadata_repair": "supplied",
+      "adds_learning_milestones": false
+    }
+  ],
+  "evidence_catalog": {
+    "U06-SRC-FB-274": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 274,
+      "pdf_page_one_based": 290,
+      "original_identifier": "Vocabulary, æt",
+      "claim": "æt: at; supplies the initial feet-location phrase.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf290-p274.png",
+          "sha256": "15e1857f4ee0754147bd28d01e55450f3ed2ba3200bb8a96286a3ace25e27658"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-276": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 276,
+      "pdf_page_one_based": 292,
+      "original_identifier": "Vocabulary, ār-fæstnes",
+      "claim": "ār-fæstnes: kindness, compassion; source ārfæstnesse is the object of gecȳðan.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf292-p276.png",
+          "sha256": "0ae6c3f979514d32f63a9630ea2a43b8b6e4c2b1dcb2325565c6e4742b127794"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-277": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 277,
+      "pdf_page_one_based": 293,
+      "original_identifier": "Vocabulary, be",
+      "claim": "be: according to; source be his mihte is a supplied phrase.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf293-p277.png",
+          "sha256": "29c2ec1b4600d68e4a20cd74698800d1f148996747273aa8ae0f6f5480bab3ad"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-278": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 278,
+      "pdf_page_one_based": 294,
+      "original_identifier": "Vocabulary, be-foran; bēodan",
+      "claim": "beforan: before; bēodan includes offer. Source sense is offer, not command.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf294-p278.png",
+          "sha256": "27dbd04a407262256fcd9d33de267c5b1348771d79e65dbbf8edbd9b4b0797cc"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-281": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 281,
+      "pdf_page_one_based": 297,
+      "original_identifier": "Vocabulary, ceaster",
+      "claim": "ceaster: city/town; local ceastre is dative singular after intō.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf297-p281.png",
+          "sha256": "d26bf461512258221b04516104faadcacd9d1c1ded162e8636228e3fa9f351cb"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-282": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 282,
+      "pdf_page_one_based": 298,
+      "original_identifier": "Vocabulary, dǣl; cuman",
+      "claim": "dǣl: part; cuman: come. Independent cuman purpose frame is evidenced by §200.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf298-p282.png",
+          "sha256": "7761292bb0e5073c88277bfdfa954f9ebbc8efc9c70f8840ace39635d2a7282a"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-285": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 285,
+      "pdf_page_one_based": 301,
+      "original_identifier": "Vocabulary, ēst",
+      "claim": "ēst includes provisions; masculine usage is compatible with source accusative plural ēstas; note6 adds Latin epulas.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf301-p285.png",
+          "sha256": "e33209393d2e3162eb79d2861cfceec75a3e894d9d470021c7e4013c63b78ace"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-287": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 287,
+      "pdf_page_one_based": 303,
+      "original_identifier": "Vocabulary, fiscere",
+      "claim": "fiscere: fisherman.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf303-p287.png",
+          "sha256": "c72dda94dbbe686d78e4d131de5f93fef91cda65c6cbb55733a5207b37dba2e1"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-289": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 289,
+      "pdf_page_one_based": 305,
+      "original_identifier": "Vocabulary, fōt",
+      "claim": "fōt: foot; source fōtum is supplied dative plural.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf305-p289.png",
+          "sha256": "a9fbf7c2a6a83dfc48189ea9d663c295810ed4a13fcb5633f8f9d5fede149d04"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-291": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 291,
+      "pdf_page_one_based": 307,
+      "original_identifier": "Vocabulary, ge-cȳðan",
+      "claim": "ge-cȳðan: show/exhibit among its senses; §164b explicitly illustrates a dative recipient.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf307-p291.png",
+          "sha256": "e4eaaa6a94a791005630fcd80c274ef4b72060ffd27747bc777784994455ab2a"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-293": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 293,
+      "pdf_page_one_based": 309,
+      "original_identifier": "Vocabulary, geong",
+      "claim": "geong: young; source geonga is weak nominative masculine singular.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf309-p293.png",
+          "sha256": "5cdff75e56a6d7d63e6cf60c3511f03d473ef24f2ffe8fe02ba6c31b5c9cb789"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-296": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 296,
+      "pdf_page_one_based": 312,
+      "original_identifier": "Vocabulary, gīet",
+      "claim": "gīet (gīt, gȳt): yet/still; preserves the source quantity.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf312-p296.png",
+          "sha256": "5acf2ce4db1ebdfa3b83461b4d90e9818e46a5dddd9cfc3d93f20b5da1cd47a3"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-298": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 298,
+      "pdf_page_one_based": 314,
+      "original_identifier": "Vocabulary, healf",
+      "claim": "healf: half; healfan modifies masculine accusative dǣl.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf314-p298.png",
+          "sha256": "d4dc08ac4c3699711e640ffa47e82f01bfb7009011f6231359259329b20af808"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-300": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 300,
+      "pdf_page_one_based": 316,
+      "original_identifier": "Vocabulary, hūs",
+      "claim": "hūs: house; source hūse is supplied dative singular.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf316-p300.png",
+          "sha256": "1793413c39d11e1dc967befb91c2b7246a47c71157581ae641236cc9136da92f"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-301": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 301,
+      "pdf_page_one_based": 317,
+      "original_identifier": "Vocabulary, in-tō",
+      "claim": "intō: into; exact source shows dative ðǣre ceastre.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf317-p301.png",
+          "sha256": "fd88a6b0eb491145bd87124e8dfcfc51323e5367de63287a996e0b69a4a520e3"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-302": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 302,
+      "pdf_page_one_based": 318,
+      "original_identifier": "Vocabulary, lęcgean",
+      "claim": "lęcgean: place, put, set; source lęgde is the finite preterite, a separate lemma from previously taught licgan.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf318-p302.png",
+          "sha256": "022f32558c73d2807d6fcb2972458c8b290ec496b8865ead04b5b75c80abb4b0"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-305": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 305,
+      "pdf_page_one_based": 321,
+      "original_identifier": "Vocabulary, mid; miht; mild-heortnes",
+      "claim": "mid: with; miht: power; mild-heortnes: compassion. The source manner/accompaniment frames are supplied.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf321-p305.png",
+          "sha256": "990014500f824d74c53880d02e85d0230b32924d903b0a5cad76766420efa674"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-313": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 313,
+      "pdf_page_one_based": 329,
+      "original_identifier": "Vocabulary, sōna",
+      "claim": "sōna: soon/immediately; with swā in the source supplies as soon as.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf329-p313.png",
+          "sha256": "bb107095b1cfb9adb7f0d271c5921971fc2214d9beca97a737b387d18d603ff3"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-316": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 316,
+      "pdf_page_one_based": 332,
+      "original_identifier": "Vocabulary, tō; tō-slītan",
+      "claim": "tō-slītan: tear/rend; on twā supplies division into two. tō may introduce the gerund/inflected infinitive.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf332-p316.png",
+          "sha256": "0e3867e2d3667f29abcc36e66393bb61a6107b3eac3f9e7bb923321a33405538"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-319": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 319,
+      "pdf_page_one_based": 335,
+      "original_identifier": "Vocabulary, ðus",
+      "claim": "ðus: thus; cweðende is separately supplied as a present participle.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf335-p319.png",
+          "sha256": "32505a2019d3516ecfff9b94848b08ef0e58b1b85b10f4195c90b40ee4d1d544"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-FB-320": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 320,
+      "pdf_page_one_based": 336,
+      "original_identifier": "Vocabulary, ūp-ā-hębban; wǣfels",
+      "claim": "ūp-ā-hębban: lift up; wǣfels: cloak/mantle. Do not identify prefixed ūpāhōf as an unprefixed hębban form.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf336-p320.png",
+          "sha256": "cc0e0a1e26ec9e349a7fd04a88e83e87a56a130e0bcfcb0c4ce593d0d2beb0e8"
+        }
+      ],
+      "metadata_recheck": "Reopened and visually checked for the exact headword and printed lexical classification in this bounded metadata review."
+    },
+    "U06-SRC-EXCERPT": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 167,
+      "pdf_page_one_based": 183,
+      "original_identifier": "Reader XII, editorial prose lines 3–10; printed marginal line numbers 5 and 10",
+      "claim": "Exact continuous fisherman charity, gift, and first complete direction sentence. Source continues after ceastre. on printed line10; selected speech is not the entire encounter. Printed læg is unmarked and gīet has long ī.",
+      "origin_category": "exact_source",
+      "verification": "Page image visually inspected; OCR used only to locate material.",
+      "images": [
+        {
+          "path": "sources/audits/unit06-source/fb-pdf183-p167-600dpi.png",
+          "sha256": "b5b9f47be2aa7624ec41aa11ecc034c52a7416d5ae5dbaddea82caeebbb0ab34"
+        }
+      ]
+    },
+    "FB43": {
+      "source_id": "cook_fb_1895_2",
+      "section": "43",
+      "printed_page": "28",
+      "pdf_page_1_based": 44,
+      "image": "sources/audits/unit01-source/nominal-3.png",
+      "scan_checked": true,
+      "notes": "",
+      "images": [
+        {
+          "path": "sources/audits/unit01-source/nominal-3.png",
+          "sha256": "d8c146c5e56f09744b1bb6cd7758623846fd2c7ce2e59f520492438d222ba9d7"
+        }
+      ],
+      "metadata_recheck": "Each listed image was reopened in this review to check the printed class heading or explicit noun membership; metadata only, no added paradigm scope."
+    },
+    "FB44": {
+      "source_id": "cook_fb_1895_2",
+      "section": "44",
+      "printed_page": "30",
+      "pdf_page_1_based": 46,
+      "image": "sources/audits/unit01-source/nominal-5.png",
+      "scan_checked": true,
+      "notes": "",
+      "images": [
+        {
+          "path": "sources/audits/unit01-source/nominal-5.png",
+          "sha256": "4c90b1c67ee7b279caa35128b6bb6ebd8ee9936308d22a2e2726075e5d3e977c"
+        }
+      ],
+      "metadata_recheck": "Each listed image was reopened in this review to check the printed class heading or explicit noun membership; metadata only, no added paradigm scope."
+    },
+    "FB46": {
+      "source_id": "cook_fb_1895_2",
+      "section": "46",
+      "printed_page": "31–32",
+      "pdf_page_1_based": [
+        47,
+        48
+      ],
+      "image": [
+        "sources/audits/unit01-source/nominal-6.png",
+        "sources/audits/unit01-source/nominal-7.png"
+      ],
+      "scan_checked": true,
+      "notes": "",
+      "images": [
+        {
+          "path": "sources/audits/unit01-source/nominal-6.png",
+          "sha256": "a913dbff34cb07fa50bcfd9a2310acb29790a6c8459092a38dc355957f43a560"
+        },
+        {
+          "path": "sources/audits/unit01-source/nominal-7.png",
+          "sha256": "c8eb44546d66443d5f2dbbd38fb250bb57e90c2b0dd4bf88f439e3926b52f840"
+        }
+      ],
+      "metadata_recheck": "Each listed image was reopened in this review to check the printed class heading or explicit noun membership; metadata only, no added paradigm scope."
+    },
+    "FB47": {
+      "source_id": "cook_fb_1895_2",
+      "section": "47",
+      "printed_page": "32",
+      "pdf_page_1_based": 48,
+      "image": "sources/audits/unit01-source/nominal-7.png",
+      "scan_checked": true,
+      "notes": "",
+      "images": [
+        {
+          "path": "sources/audits/unit01-source/nominal-7.png",
+          "sha256": "c8eb44546d66443d5f2dbbd38fb250bb57e90c2b0dd4bf88f439e3926b52f840"
+        }
+      ],
+      "metadata_recheck": "Each listed image was reopened in this review to check the printed class heading or explicit noun membership; metadata only, no added paradigm scope."
+    },
+    "FB51": {
+      "source_id": "cook_fb_1895_2",
+      "section": "51",
+      "printed_page": "34–35",
+      "pdf_page_1_based": [
+        50,
+        51
+      ],
+      "image": [
+        "sources/audits/unit01-source/nominal-9.png",
+        "sources/audits/unit01-source/nominal-10.png"
+      ],
+      "scan_checked": true,
+      "notes": "",
+      "images": [
+        {
+          "path": "sources/audits/unit01-source/nominal-9.png",
+          "sha256": "69c958aaec26da4e90c31e13655d1e99baff4a9c9de0d6a7edfc3192719a979f"
+        },
+        {
+          "path": "sources/audits/unit01-source/nominal-10.png",
+          "sha256": "4a1e3f6c894f5151423a570f6e98e5bfa39460a01d72a1186715e0c53e47dca7"
+        }
+      ],
+      "metadata_recheck": "Each listed image was reopened in this review to check the printed class heading or explicit noun membership; metadata only, no added paradigm scope."
+    },
+    "FB51.5": {
+      "source_id": "cook_fb_1895_2",
+      "section": "51.5",
+      "printed_page": "36",
+      "pdf_page_1_based": 52,
+      "image": "sources/audits/unit01-source/nominal-11.png",
+      "scan_checked": true,
+      "notes": "",
+      "images": [
+        {
+          "path": "sources/audits/unit01-source/nominal-11.png",
+          "sha256": "51074437437d2ec47feaa61d15c8f7d75ae012f38b7c5999377d31da8752c398"
+        }
+      ],
+      "metadata_recheck": "Each listed image was reopened in this review to check the printed class heading or explicit noun membership; metadata only, no added paradigm scope."
+    }
+  },
+  "validation": {
+    "exact_inventory_set_match": true,
+    "all_selected_forms_and_senses_remain_supplied": true,
+    "all_vocabulary_image_hashes_match_frozen_evidence": true,
+    "all_input_hashes_unchanged_after_review": true,
+    "reviewer_solutions_read": false
+  }
+}
