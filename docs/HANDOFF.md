@@ -1,6 +1,14 @@
 # Handoff to the next session
 
-The eighteen-unit outline and complete Cook mapping are settled. **Units 1–5 are complete**: independent textual review, full learner/key PDFs, every-page inspection and reviewed register integration. Unit 5 complete exports/registers are saved at **`37a52c3`**; its epic and all eight stage tasks are closed. Do not restart completed units or draft another unit without a user request.
+The eighteen-unit outline and complete Cook mapping are settled. **Units 1–5 are complete**: independent textual review, full learner/key PDFs, every-page inspection and reviewed register integration. Unit 5 complete exports/registers are saved at **`37a52c3`**, with final handoff **`45fa02e`**; its epic and all eight stage tasks are closed. The user has now requested **Unit 6**. Complete it before beginning another unit.
+
+## Active Unit 6 work
+
+`oec-u06` coordinates the source→contract→draft→independent review→complete exports→register integration chain. Grammar audit (`sources/audits/unit06-grammar/`), source audit (`sources/audits/unit06-source/`) and curriculum design (`curriculum/proposals/unit06/`) have exclusive workers. The coordinator is the sole Beads/shared-file writer. No Unit 6 prose exists; save the reconciled contract and brief before drafting.
+
+The current scope follows the settled outline: needed preterite-present and anomalous indicative systems, alternate bēon, complete bounded imperative patterns, plain and inflected infinitives with elementary uses. The proposed exact source is the fisherman’s charity and first instruction, Cook p167/PDF183, a contiguous excerpt rather than the whole encounter. Audit source-only later syntax explicitly. Cook's numbered crosswalk remains 79 assigned/565 deferred, with I.4.18 at Unit7.
+
+Do not overwrite `build/unit06-prior-baseline.json`: it freezes all five actual contracts/registers and hashes of 485 earlier active and 134 archived files at `45fa02e`. Compact working views are `build/unit06-prior-contracts-read.json`, `build/unit06-prior-lexicon-read.txt` and `build/unit06-prior-grammar-read.txt`. Prior infinitive citations remain supplied until explicitly taught in Unit6; recognition-only and source-only boundaries persist. No Unit7 work is authorized.
 
 ## Unit 5 accepted artifacts
 

@@ -1,6 +1,12 @@
 # Status
 
-Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–5 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Unit 5 exports and reviewed registers are saved at **`37a52c3`**. Its epic and all eight stage tasks are closed. No material finding remains; no Unit 6 prose has been drafted.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–5 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Unit 5 exports and reviewed registers are saved at **`37a52c3`**; its final handoff is **`45fa02e`**. Its epic and all eight stage tasks are closed. **Unit 6 is in source and curriculum analysis**, following the user's request. Its contract must precede prose.
+
+## Unit 6 in progress
+
+Beads epic `oec-u06` and the grammar, connected-source and curriculum-design tasks are active. Three agents own separate audit/proposal directories; the coordinator alone updates Beads and shared records. The selected scope is frequent irregular indicative verbs, the alternative bēon present series, commands, and elementary infinitive uses. The proposed source is the fisherman's kindness and first direction in Cook's *Apollonius*, p167/PDF183; exact wording and dependencies are still under audit.
+
+The immutable working baseline preserves the actual five prior contracts/registers, 485 earlier active files and 134 archived files at `45fa02e`. Earlier infinitive citations and reading help do not count as prior productive teaching. Unit 6 adds no numbered Cook set; I.4.18 remains deferred to Unit 7. No Unit 6 learner/key prose or Unit 7 work has begun.
 
 ## Established direction
 
