@@ -32,6 +32,12 @@ The [learner PDF](typesetting/ch03/chapter-03.pdf) has **30 pages** and the [sep
 
 The [lexical register](lexicon/entries.json) now has **163 lemmas, 2,319 form records and 178 senses**; [grammar](curriculum/grammar.json) has **127 constructions**. Unit 3 establishes 1,450 productive and 94 recognition-only form milestones, 63 productive and one recognition-only sense, and 34 productive and one recognition-only construction. Supplied reading forms and constructions remain supplied. Earlier milestones, evidence and supplied histories survive integration; all ten earlier text/review files and all 134 archived evidence files are unchanged. Reconstructed **\*sǣwa** remains reference-only. No archived teaching milestone has been imported.
 
-The canonical crosswalk now has **63 assigned and 581 deferred Cook items**, with none silently omitted. I.4.18 and the birds candidate remain deferred to Unit 7; the lights candidate is explicitly subsumed in Unit 3's fourth-day span. Next in the settled outline is **Unit 4: strong verbs I–III**. No Unit 4 contract or prose has been drafted. Follow [the handoff](docs/HANDOFF.md) and audit its exact forms, uses and source reading before its learning contract.
+The canonical crosswalk now has **63 assigned and 581 deferred Cook items**, with none silently omitted. I.4.18 and the birds candidate remain deferred to Unit 7; the lights candidate is explicitly subsumed in Unit 3's fourth-day span.
+
+## Unit 4 in progress
+
+The requested next unit is **strong verbs I–III**, under [its brief](curriculum/UNIT_04_BRIEF.md). Parallel grammar, source and curriculum audits establish 24 productive and two recognition-reference finite systems, four complete noun paradigms, 52 original tasks, eight teaching examples, a 51-word controlled account and an exact 44-word *Apollonius* reading. The source reading has explicit local support and four retained apparatus notes. Unit 4 adds no numbered Cook assignments.
+
+The coordinator is reconciling the pre-prose contract and its evidence checks. No learner/key prose is authorized until that contract has a local Git checkpoint. Registers still contain only the reviewed Units 1–3. The Unit 4 Beads chain is `oec-u04`; [the workflow](docs/WORKFLOW.md) governs its remaining authorship, independent review, complete exports and final integration. Unit 5 has not been drafted.
 
 The archived experiment remains an unchanged evidence snapshot. No remote, publication or distribution is configured.

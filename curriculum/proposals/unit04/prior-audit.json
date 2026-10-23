@@ -1,0 +1,4656 @@
+{
+  "status": "prior_boundary_verified_final_design_reconciled",
+  "chapter": "ch04",
+  "baseline_checkpoint": "176eb8e",
+  "read_actual_contracts": [
+    "chapters/ch01/coverage.json",
+    "chapters/ch02/coverage.json",
+    "chapters/ch03/coverage.json"
+  ],
+  "read_actual_registers": [
+    "lexicon/entries.json",
+    "curriculum/grammar.json"
+  ],
+  "prior_chapters": [
+    "ch01",
+    "ch02",
+    "ch03"
+  ],
+  "source_files": {
+    "chapters/ch01/coverage.json": {
+      "sha256": "d829e1e239a8e8452ca99bf8354db29d02f1e640941bfec5fbed647dd6577b27",
+      "sha256_normalized_lf": "9ef1920c76b25df15a89851c9de117396d0ba2c38ac60849c4a1955d4e069e17"
+    },
+    "chapters/ch02/coverage.json": {
+      "sha256": "cf13e0c96ae80fcec8ff5f10a567715913d54f27ce11c94a44f683b1a9012fa6",
+      "sha256_normalized_lf": "cf13e0c96ae80fcec8ff5f10a567715913d54f27ce11c94a44f683b1a9012fa6"
+    },
+    "chapters/ch03/coverage.json": {
+      "sha256": "0d78e024da44545d9949800a16a3e5deefe0e24e7f34fc4ef2682ce90e958703",
+      "sha256_normalized_lf": "0d78e024da44545d9949800a16a3e5deefe0e24e7f34fc4ef2682ce90e958703"
+    },
+    "lexicon/entries.json": {
+      "sha256": "b2818639eb7ec947bf342958601c63e9e41b6e36e2b17c821cac899db5879348",
+      "sha256_normalized_lf": "b2818639eb7ec947bf342958601c63e9e41b6e36e2b17c821cac899db5879348"
+    },
+    "curriculum/grammar.json": {
+      "sha256": "ec6ed7c129bfe963d30596bda8b066e48b474612aa011b072fdb1c195dcb7a20",
+      "sha256_normalized_lf": "ec6ed7c129bfe963d30596bda8b066e48b474612aa011b072fdb1c195dcb7a20"
+    }
+  },
+  "prior_counts": {
+    "lemmas": 163,
+    "forms": 2319,
+    "senses": 178,
+    "features": 127,
+    "form_scopes": {
+      "production": 2075,
+      "supplied_or_reference_only": 84,
+      "recognition_only": 160
+    },
+    "sense_scopes": {
+      "production": 139,
+      "supplied_or_reference_only": 35,
+      "recognition_only": 4
+    },
+    "feature_scopes": {
+      "recognition_only": 9,
+      "production": 84,
+      "supplied_or_reference_only": 34
+    }
+  },
+  "important_nonprior_records": [
+    {
+      "lemma_id": "sae",
+      "forms": [
+        {
+          "form_id": "sae-gen-pl",
+          "form": "*sǣwa",
+          "analysis": {
+            "case": "genitive",
+            "number": "plural",
+            "gender": "masculine"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ],
+      "senses": []
+    },
+    {
+      "lemma_id": "on",
+      "forms": [],
+      "senses": [
+        {
+          "sense_id": "on-time-supplied",
+          "gloss": "in, temporal: On anginne, in the beginning",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        },
+        {
+          "sense_id": "on-sabbath-temporal",
+          "gloss": "on the seventh/on that day: actual temporal on+accusative",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "fram",
+      "forms": [],
+      "senses": [
+        {
+          "sense_id": "fram-rest-from",
+          "gloss": "from work, supplied rest-from construction",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "gescieppan",
+      "forms": [
+        {
+          "form_id": "gescieppan-pret-3-sg",
+          "form": "gescēop",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular",
+            "strong_class": "VI"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch02"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "gescieppan-1",
+          "gloss": "create",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "ofer",
+      "forms": [
+        {
+          "form_id": "ofer-invariant",
+          "form": "ofer",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "ofer-1",
+          "gloss": "over; in the two supplied local constructions with dative and accusative",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "cwethan",
+      "forms": [
+        {
+          "form_id": "cwethan-pret-3-sg",
+          "form": "cwæð",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "cwethan-1",
+          "gloss": "say",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "tha-adverb",
+      "forms": [
+        {
+          "form_id": "tha-adverb-invariant",
+          "form": "ðā",
+          "analysis": {
+            "inflection": "invariant",
+            "part_of_speech": "temporal adverb"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch02",
+            "ch03"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "tha-adverb-1",
+          "gloss": "then",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch02",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "geweorthan",
+      "forms": [
+        {
+          "form_id": "geweorthan-pres-subj-3-sg",
+          "form": "geweorðe",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive/optative",
+            "person": 3,
+            "number": "singular",
+            "use": "command/wish"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        },
+        {
+          "form_id": "geweorthan-past-participle",
+          "form": "geworden",
+          "analysis": {
+            "form": "past participle",
+            "use": "supplied resultative/perfect wæs geworden"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "geweorthan-1",
+          "gloss": "come to be; become",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "weorthan",
+      "forms": [
+        {
+          "form_id": "weorthan-pret-3-sg",
+          "form": "wearð",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular",
+            "use": "supplied passive"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "weorthan-1",
+          "gloss": "become; here passive auxiliary",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "geseon",
+      "forms": [
+        {
+          "form_id": "geseon-pret-3-sg",
+          "form": "geseah",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "geseon-1",
+          "gloss": "see",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "hatan",
+      "forms": [
+        {
+          "form_id": "hatan-pret-3-sg",
+          "form": "hēt",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular",
+            "subject": "understood from preceding clause"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "hatan-1",
+          "gloss": "call/name",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "an",
+      "forms": [
+        {
+          "form_id": "an-nom-m-pl-strong",
+          "form": "āne",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-gen-m-pl-strong",
+          "form": "ānra",
+          "analysis": {
+            "case": "gen",
+            "gender": "m",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-dat-m-pl-strong",
+          "form": "ānum",
+          "analysis": {
+            "case": "dat",
+            "gender": "m",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-acc-m-pl-strong",
+          "form": "āne",
+          "analysis": {
+            "case": "acc",
+            "gender": "m",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-nom-n-pl-strong",
+          "form": "ān",
+          "analysis": {
+            "case": "nom",
+            "gender": "n",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-gen-n-pl-strong",
+          "form": "ānra",
+          "analysis": {
+            "case": "gen",
+            "gender": "n",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-dat-n-pl-strong",
+          "form": "ānum",
+          "analysis": {
+            "case": "dat",
+            "gender": "n",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-acc-n-pl-strong",
+          "form": "ān",
+          "analysis": {
+            "case": "acc",
+            "gender": "n",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-nom-f-pl-strong",
+          "form": "āna",
+          "analysis": {
+            "case": "nom",
+            "gender": "f",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-gen-f-pl-strong",
+          "form": "ānra",
+          "analysis": {
+            "case": "gen",
+            "gender": "f",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-dat-f-pl-strong",
+          "form": "ānum",
+          "analysis": {
+            "case": "dat",
+            "gender": "f",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-acc-f-pl-strong",
+          "form": "āna",
+          "analysis": {
+            "case": "acc",
+            "gender": "f",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-ins-m-sg-strong",
+          "form": "āne",
+          "analysis": {
+            "case": "ins",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "an-ins-n-sg-strong",
+          "form": "āne",
+          "analysis": {
+            "case": "ins",
+            "gender": "n",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ],
+      "senses": []
+    },
+    {
+      "lemma_id": "ic",
+      "forms": [
+        {
+          "form_id": "ic-gen-sg",
+          "form": "mīn",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "genitive"
+          },
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "ic-gen-dual",
+          "form": "uncer",
+          "analysis": {
+            "person": 1,
+            "number": "dual",
+            "gender": null,
+            "case": "genitive"
+          },
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "ic-gen-pl",
+          "form": "ūre",
+          "analysis": {
+            "person": 1,
+            "number": "plural",
+            "gender": null,
+            "case": "genitive"
+          },
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "ic-genitive-citation",
+          "gloss": "genitive citation identifying person/number; attributive use not taught",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "thu",
+      "forms": [
+        {
+          "form_id": "thu-gen-sg",
+          "form": "ðīn",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "genitive"
+          },
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "thu-gen-dual",
+          "form": "incer",
+          "analysis": {
+            "person": 2,
+            "number": "dual",
+            "gender": null,
+            "case": "genitive"
+          },
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "thu-gen-pl",
+          "form": "ēower",
+          "analysis": {
+            "person": 2,
+            "number": "plural",
+            "gender": null,
+            "case": "genitive"
+          },
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "thu-genitive-citation",
+          "gloss": "genitive citation identifying person/number; attributive use not taught",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "eall",
+      "forms": [
+        {
+          "form_id": "eall-nom-f-sg",
+          "form": "eall",
+          "analysis": {
+            "case": "nom",
+            "gender": "f",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        },
+        {
+          "form_id": "eall-dat-n-sg",
+          "form": "eallum",
+          "analysis": {
+            "case": "dat",
+            "gender": "n",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        },
+        {
+          "form_id": "eall-nom-m-sg-strong",
+          "form": "eall",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-gen-m-sg-strong",
+          "form": "ealles",
+          "analysis": {
+            "case": "gen",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-dat-m-sg-strong",
+          "form": "eallum",
+          "analysis": {
+            "case": "dat",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-acc-m-sg-strong",
+          "form": "ealne",
+          "analysis": {
+            "case": "acc",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-nom-n-sg-strong",
+          "form": "eall",
+          "analysis": {
+            "case": "nom",
+            "gender": "n",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-gen-n-sg-strong",
+          "form": "ealles",
+          "analysis": {
+            "case": "gen",
+            "gender": "n",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-acc-n-sg-strong",
+          "form": "eall",
+          "analysis": {
+            "case": "acc",
+            "gender": "n",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-gen-f-sg-strong",
+          "form": "ealre",
+          "analysis": {
+            "case": "gen",
+            "gender": "f",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-dat-f-sg-strong",
+          "form": "ealre",
+          "analysis": {
+            "case": "dat",
+            "gender": "f",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-acc-f-sg-strong",
+          "form": "ealle",
+          "analysis": {
+            "case": "acc",
+            "gender": "f",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-nom-m-pl-strong",
+          "form": "ealle",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-gen-m-pl-strong",
+          "form": "ealra",
+          "analysis": {
+            "case": "gen",
+            "gender": "m",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-dat-m-pl-strong",
+          "form": "eallum",
+          "analysis": {
+            "case": "dat",
+            "gender": "m",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-acc-m-pl-strong",
+          "form": "ealle",
+          "analysis": {
+            "case": "acc",
+            "gender": "m",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-nom-n-pl-strong",
+          "form": "eall",
+          "analysis": {
+            "case": "nom",
+            "gender": "n",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-gen-n-pl-strong",
+          "form": "ealra",
+          "analysis": {
+            "case": "gen",
+            "gender": "n",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-dat-n-pl-strong",
+          "form": "eallum",
+          "analysis": {
+            "case": "dat",
+            "gender": "n",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-acc-n-pl-strong",
+          "form": "eall",
+          "analysis": {
+            "case": "acc",
+            "gender": "n",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-nom-f-pl-strong",
+          "form": "ealla",
+          "analysis": {
+            "case": "nom",
+            "gender": "f",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-gen-f-pl-strong",
+          "form": "ealra",
+          "analysis": {
+            "case": "gen",
+            "gender": "f",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-dat-f-pl-strong",
+          "form": "eallum",
+          "analysis": {
+            "case": "dat",
+            "gender": "f",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-acc-f-pl-strong",
+          "form": "ealla",
+          "analysis": {
+            "case": "acc",
+            "gender": "f",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-ins-m-sg-strong",
+          "form": "ealle",
+          "analysis": {
+            "case": "ins",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        },
+        {
+          "form_id": "eall-ins-n-sg-strong",
+          "form": "ealle",
+          "analysis": {
+            "case": "ins",
+            "gender": "n",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "eall-all",
+          "gloss": "all",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "geswican",
+      "forms": [
+        {
+          "form_id": "geswican-pret-3-sg",
+          "form": "geswāc",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular",
+            "strong_class": "I"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "geswican-cease",
+          "gloss": "cease from, actual verb+genitive",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "nu",
+      "forms": [
+        {
+          "form_id": "nu-invariant",
+          "form": "nū",
+          "analysis": {
+            "source_analysis": "adverb now"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "nu-1",
+          "gloss": "now",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "scinan",
+      "forms": [
+        {
+          "form_id": "scinan-pres-subj-3-pl",
+          "form": "scīnen",
+          "analysis": {
+            "source_analysis": "present subjunctive/optative 3 plural"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        },
+        {
+          "form_id": "scinan-pret-subj-3-pl",
+          "form": "scinen",
+          "analysis": {
+            "source_analysis": "preterite subjunctive/optative 3 plural"
+          },
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ],
+      "senses": [
+        {
+          "sense_id": "scinan-1",
+          "gloss": "shine",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    }
+  ],
+  "prior_construction_boundaries": [
+    {
+      "feature_id": "orthography",
+      "description": "Recognize æ, interchangeable manuscript þ/ð, Cook's preference for ð, his hooked ę, and quantity marks; preserve exact printed quantities.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": null,
+      "supplied_in": []
+    },
+    {
+      "feature_id": "syllable-weight",
+      "description": "Distinguish long vowels/diphthongs from syllable weight due to two consonants or a geminate; apply only the stated noun-pattern domains.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": null,
+      "supplied_in": []
+    },
+    {
+      "feature_id": "noun-gender",
+      "description": "Use the assigned lexical gender; do not infer it from English or from a bare nominative ending alone.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "case-syncretism",
+      "description": "Identical spellings may occupy different case/number cells; determine syntactic role from construction and agreement.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": null,
+      "supplied_in": []
+    },
+    {
+      "feature_id": "noun-coordination",
+      "description": "Coordinate nominal phrases with and; each article agrees with its own head.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-masc",
+      "description": "Strong masculine consonant stems: complete N/G/D/A singular and plural; assign only the listed lexical senses.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-masc-e",
+      "description": "Strong masculine -e: replace the nominative -e appropriately; no invented mętees.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-masc-ae-a",
+      "description": "Complete dæg and hwæl patterns, with æ in singular and a in plural; do not extend to clusters such as wæstm.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-masc-syncope",
+      "description": "Complete selected fugol and morgen patterns; loss of medial vowel with endings and lexical diagnostic forms. Source variants remain valid.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-neut-weight",
+      "description": "Complete hof and sǣd patterns; short-stem monosyllabic neuter N/A plural -u versus heavy-stem zero; explain geminates and clusters.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-neut-treo",
+      "description": "Complete trēo paradigm with w before endings and selected exceptional N/A plural trēowu.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-neut-disyllable",
+      "description": "Complete selected ǣfen, tācen, wæter, nīeten patterns; retain or syncopate medial vowel as documented, not by an unrestricted weight rule.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-fem-long",
+      "description": "Complete long-stem strong feminine pattern; selected N/A plural -a, with source -e variants noted separately.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-fem-acc-zero",
+      "description": "Complete selected tīd and wyrt patterns; endingless accusative singular despite ordinary -e feminine obliques.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-fem-nes",
+      "description": "Complete -nes pattern; -ness- in obliques/plural, retaining e; apply to each listed diagnostic stem.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-fem-ung",
+      "description": "Complete selected -ung/-ing feminine pattern, productive -e singular obliques; source -a variants separately noted.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-weak",
+      "description": "Complete weak masculine steorra and weak feminine eorðe patterns; contrast all singular/plural cases.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-exception-mann",
+      "description": "Complete mann: męnn dative singular and nominative/accusative plural; other selected cases as listed.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-exception-niht",
+      "description": "Complete selected niht paradigm, including genitive singular niht and endingless nominative/accusative plural.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-exception-sae",
+      "description": "Complete selected sea table, with productive attested cells and explicitly supplied reconstructed genitive plural *sǣwa.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "paradigm-exception-thiestru",
+      "description": "Complete selected plural-only darkness paradigm; no singular invented.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "article-agreement",
+      "description": "Produce the selected article forms agreeing with their own noun in gender, number and nominative/genitive/dative/accusative case.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "article-instrumental-reference",
+      "description": "Recognize distinct instrumental masculine/neuter singular ðȳ and ðon as reference cells; no productive instrumental syntax.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": null,
+      "supplied_in": []
+    },
+    {
+      "feature_id": "copula-indicative",
+      "description": "Produce every person/number cell of the present eom/eart/is/sindon and preterite wæs/wǣre/wæs/wǣron indicative series.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "subject-predicate",
+      "description": "Finite subjects and noun predicates identifying the subject are nominative; ordinary bare noun predicates need no translated indefinite article.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "subject-agreement",
+      "description": "Use the copula's appropriate number/person in the taught ordinary clauses.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "genitive-relationship",
+      "description": "Produce limiting relational genitives. Follow Cook's exercise target: dependent first, head noun without its own article; retain the dependent's required article.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "accusative-object",
+      "description": "Select accusative direct-object noun/article forms in explicitly supplied transitive finite-verb frames.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "on-dative-location",
+      "description": "Use taught locative on with dative ('in/on'); this is a selected construction, not a universal spatial rule.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "fram-dative-separation",
+      "description": "Use fram plus dative for the entity from which something is separated, in an explicitly supplied separating frame.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "nested-genitive-phrase",
+      "description": "Preserve the head's externally governed case while its own limiting dependent remains genitive; the genitive article belongs to that dependent.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "source-word-order",
+      "description": "Recognize that the opening On anginne gescēop God places the subject after the verb; parse by construction and forms, not English order alone.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": null,
+      "supplied_in": []
+    },
+    {
+      "feature_id": "reading-on-anginne",
+      "description": "On anginne is the supplied temporal phrase 'in the beginning'; temporal on use is not added to productive locative syntax.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-heofone",
+      "description": "heofonan is accusative singular of supplied weak feminine heofone, not a plural of productive masculine heofon.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-adjective-predicates",
+      "description": "The actual īdel/ǣmtig feminine and gōd neuter predicate forms are supplied; full adjective inflection is not taught.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-ofer-dative",
+      "description": "In ofer ðǣre nēowolnesse brādnesse, ofer governs dative brādnesse; ðǣre nēowolnesse is its genitive dependent.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-ofer-accusative",
+      "description": "ofer wæteru has accusative plural wæteru; supply the actual local government, without generalizing all ofer phrases.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-passive-gefered",
+      "description": "wæs gefęred is the complete supplied passive 'was borne/carried', contextually 'moved'.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-optative-command",
+      "description": "Geweorðe lēoht is supplied as 'Let light come to be'; finite third singular present subjunctive/optative, not infinitive or indicative.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-passive-geworht",
+      "description": "wearð geworht is the complete supplied passive 'was made/came into being'.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-content-clause",
+      "description": "ðæt hit gōd wæs means 'that it was good'; ðæt is a conjunction, hit refers to light, and wæs follows the predicate in this embedded clause.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-personal-pronouns",
+      "description": "Supply hē 'he' referring to God and hit 'it' referring to neuter light; do not infer a productive pronoun paradigm.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-temporal-tha",
+      "description": "Supply temporal ðā 'then', distinct from the identically spelled accusative/nominative plural or feminine accusative article.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-naming",
+      "description": "hēt takes object and naming accusatives; God/hē is the understood subject. Supply the complete naming frame.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "reading-resultative-ending",
+      "description": "Supply the complete first-day formula Ðā wæs geworden ǣfen and morgen ān dæg. Its resultative/perfect phrase is distinct from the earlier passives; do not demand unique subject/predicate analysis or generalize agreement from it.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ]
+    },
+    {
+      "feature_id": "dative-recipient",
+      "description": "Use a dative recipient and accusative thing given in the explicitly supplied sealde frame; distinguish to/for-recipient from the direct object.",
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-personal-pronouns",
+      "description": "Complete selected personal N/D/A and third-person G forms; singular, dual, plural and third-person singular gender.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-personal-genitive-citation",
+      "description": "Recognize first/second-person genitive person/number; inflecting attributive possessives wait for Unit3.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": null,
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-dual-agreement",
+      "description": "Dual subjects take ordinary plural verb forms; object pronouns do not control finite agreement.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-pronoun-reference",
+      "description": "Use nominative subjects and governed object/recipient cases; grammatical gender/number tracks referents, including inanimate nouns. Syncretic spelling alone does not settle antecedence.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-third-person-possessors",
+      "description": "his/hiere/hiera are invariant possessors; possessor reference determines choice, while the head keeps its own case/number.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-indicative-scope",
+      "description": "Complete present/preterite indicative morphology of22 affirmative weak lemma systems; class/stem changes are not inferred from infinitive ending alone.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-I-long",
+      "description": "Long-stem ClassI full indicative; all assigned dental/consonant subpatterns together with exact2/3singular and preterite surfaces.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-I-irregular",
+      "description": "sęllan and gewyrcean: explicitly learned irregular preterite stems; no unrestricted prefix rule.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-I-short",
+      "description": "Short/geminated gefręmman and sonorant ęfnan: full finite paradigms, geminate/simple alternation and linking vowel.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-I-ian",
+      "description": "Short ClassI nęrian full finite paradigm, distinguished from ClassII -ian.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-II",
+      "description": "Full ClassII lufian/geblētsian/gehālgian present/preterite, selected -ode/-odon series.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-III-habban",
+      "description": "Complete selected present/preterite of habban; source alternatives separate.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-III-libban",
+      "description": "Complete selected present/preterite of libban; source alternatives separate.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-III-secgan",
+      "description": "Complete selected present/preterite of secgan; source alternatives separate.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-weak-III-hycgan",
+      "description": "Complete selected present/preterite of hycgan; source alternatives separate.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-nabban-reference",
+      "description": "Recognize full contracted negative companion of habban; no unaided production required.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": null,
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-citation-boundary",
+      "description": "Identify finite preterites using supplied principal-part entries; no infinitive, passive, perfect or participial syntax follows from citation display.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": null,
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-active-agreement",
+      "description": "Ordinary independent active clauses: nominative subject, finite person/number agreement. Exercise order is a model, not a universal mandatory rule.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-direct-object",
+      "description": "Accusative object with audited senses of hīeran, cyssan, sęttan, sęndan, lǣdan, mētan, nęrian, lufian, habban, gefyllan, gewyrcean, gefręmman, geblētsian, gehālgian and the thing given with sęllan. Not every weak verb governs accusative.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-giving-recipient",
+      "description": "Independently formed sęllan: dative recipient, accusative thing, noun/pronoun arguments. No sęndan recipient government inferred.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-reflexive-use",
+      "description": "Personal pronouns reflexively: geręstan+accusative self and sęllan with dative recipient coreferential with subject. No self adjective.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-clause-coordination",
+      "description": "Coordinate simple clauses/predicates with and, allowing the same subject to remain understood in the second finite predicate of the stated examples.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-simple-negation",
+      "description": "ne before noncontracting finite weak verbs in simple clauses. nabban is recognition-only; uncontracted ne hæbbe is source-permitted and valid contractions remain valid. Negative copula/concord not assigned.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-direct-quotation",
+      "description": "Subject+sęcgan introduces a direct independent utterance with colon/quotation marks. Quoted pronouns belong to its speaker; no indirect complement syntax.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-libban-location",
+      "description": "Intransitive live with prior locative on+dative; no new object or goal government.",
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u02-reading-sabbath-passive",
+      "description": "wǣron fullfręmede = were completed/finished; the coordinated subject is the heavens, the earth, and all their array. wǣron is a familiar form but this use with a participle remains supplied.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u02-reading-sabbath-adverbials",
+      "description": "Eornostlice = accordingly/thus; ðā = then, an adverb rather than the identically spelled article. No article form is being parsed at those tokens.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u02-reading-sabbath-adjective-eall",
+      "description": "eall hiera frætwung = all their array; eall modifies feminine singular frætwung. fram eallum ðǣm weorce = from all the work; eallum and ðǣm agree with neuter dative singular weorce.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u02-reading-sabbath-ordinal",
+      "description": "ðone seofoðan dæg = the seventh day: masculine accusative singular with the actual weak ordinal form seofoðan. No other ordinal forms are required.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u02-reading-sabbath-temporal-on-accusative",
+      "description": "on ðone seofoðan dæg = on the seventh day; on ðone dæg = on that day/the day just named. These are temporal phrases with accusative. Do not replace dæg with dative dæge or infer motion. Unit 1 locative on + dative does not license this use.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u02-reading-sabbath-relative-object",
+      "description": "ðe introduces which/that clauses referring to work: which he made; which he performed; which he created to make. The relative particle represents the direct object within each clause, although its antecedents weorc, weorce, weorces have different external cases. Supply clause boundaries and this relation; do not assign general relative syntax.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u02-reading-sabbath-rest-fram",
+      "description": "Here geręstan + reflexive pronoun + fram-phrase means rest from work. fram governs dative weorce. The form of fram and separation use were taught in Unit 1, but that contract confined independent use to a supplied separating frame.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u02-reading-sabbath-causal",
+      "description": "for-ðon-ðe introduces the reason: because he ceased from his work on that day. The clause continues through the final supplied relative/infinitive phrase.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u02-reading-sabbath-cessation-genitive",
+      "description": "geswāc his weorces = ceased from his work. geswāc governs genitive weorces; his is its possessive genitive, not a second direct object. The known genitive form does not imply this new government was taught.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u02-reading-sabbath-created-to-make",
+      "description": "ðe hē gescēop tō wyrceanne = which he created to make. Cook gives Latin creavit ut faceret and the margin rendering created to make. tō wyrceanne is an inflected infinitive indicating the making for which he created the work. Preserve the actual source relation; do not silently substitute created and made or finished creating. This compact calque is supplied whole, with no independent infinitive target or unique idiomatic-translation demand.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch02"
+      ]
+    },
+    {
+      "feature_id": "u03-agreement",
+      "description": "Adjectives agree with their own noun/referent in case, number and gender; attributive and ordinary positive predicate uses are taught.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-strong-adjectives",
+      "description": "Complete selected strong N/G/D/A singular/plural in all genders; lexical alternations and distinct reference instrumentals are identified.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-weak-adjectives",
+      "description": "Complete selected weak N/G/D/A singular/plural; ordinary genitive plural -ra and explicitly audited comparative exceptions.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-long-stems",
+      "description": "Long adjective stems: zero feminine nominative singular and neuter N/A plural in selected monosyllabic strong paradigms.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-short-stems",
+      "description": "Short adjective stems: selected -u in feminine nominative singular and neuter N/A plural; complete lexical paradigms determine spelling.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-ae-a",
+      "description": "glæd alternates æ/a in its checked cells; this is not an unrestricted substitution rule.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-syncope",
+      "description": "Selected disyllabic stems and vowel loss are taught together with exceptions; preserve the audited cell rather than delete every medial vowel.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-e-stem",
+      "description": "Complete -e adjective pattern represented by æppelbǣre, distinguishing lexical -e from case endings.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-u-w",
+      "description": "Complete gearu pattern with checked u/w alternation.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-h-loss",
+      "description": "Complete hēah pattern, including h loss and the selected contraction before endings.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-determiner-conditions",
+      "description": "Ordinary attributive adjectives are weak after article/demonstrative; bare ordinary adjectives are strong. After possessives Cook permits strong and sometimes weak; no universal possessive→weak rule and no new rule for adjectives after limiting genitives.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-predicate-adjective",
+      "description": "Ordinary positive predicative adjectives are strong and nominative, agreeing with the subject even when its noun phrase contains an article. Comparatives remain weak.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-instrumental-reference",
+      "description": "Recognize distinct masculine/neuter singular strong adjective and demonstrative instrumental citations; no instrumental construction is independently taught.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": null,
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-possessive-agreement",
+      "description": "The six agreeing possessives have complete strong morphology. Their endings agree with the possessed noun, not the possessor; personal-genitive citations retain separate records.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-possessor-reference",
+      "description": "Choose mīn/ðīn/uncer/incer/ūre/ēower for the possessor person/number, then inflect for the possessed head. Contrast prior invariant his/hiere/hiera. No self or sīn teaching.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-comparison-regular",
+      "description": "Regular lēof/lēofra/lēofost series, with full assigned degree inflections.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-comparison-umlaut",
+      "description": "eald/ieldra/ieldest is the assigned umlaut series; no universal umlaut instruction.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-comparison-irregular",
+      "description": "Complete selected gōd, yfel, micel and lȳtel comparison series; exact stems and superlative choices are lexical.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-comparative-weak",
+      "description": "Comparatives are weak attributively and predicatively; full paradigms include transparently derived genitive plural contractions and licensed -ena selections.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-superlative",
+      "description": "Full strong/weak superlative morphology; ordinary attributive superlatives normally weak, taught predicate use strong. Partitive/substantival uses remain unassigned.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-comparison-thonne",
+      "description": "Bounded subject A + copula + comparative + ðonne + parallel subject B: B is nominative, with repeated copula understood. No generalized comparative-clause or genitive-standard syntax.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-adverb-formation",
+      "description": "Selected supplied adjective citations wīd/swīð/sōð yield checked -e/-lice adverbs; no full adjective system implied by these citation bases.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-adverb-use",
+      "description": "Selected adverbs qualify actions or whole statements without case/number/gender agreement; sōðlice truly is distinct from the supplied source connective sense.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-adverb-degree",
+      "description": "swīðe very qualifies an adjective; adverb has no adjective-agreement ending.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-adverb-comparison",
+      "description": "wīde/wīdor/wīdost and wel/bęt/bętst are invariant adverbial degrees; no new comparative-clause syntax.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-cardinal-one",
+      "description": "Complete ān singular cardinal forms with singular count nouns; plural reference cells confer no productive plural-one sense.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-cardinal-two-three",
+      "description": "Complete twēgen/ðrīe N/G/D/A plural across genders; no noun dual paradigm.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-cardinal-four-twelve",
+      "description": "Checked cardinal 4–12 forms used invariantly before plural count nouns; no postposed/substantival inflection or higher-number partitive syntax.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-cardinal-counting",
+      "description": "Cardinal one with singular nouns, 2–12 with plural count nouns; numeral gender/case agrees where the selected system inflects.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-ordinals",
+      "description": "Complete selected first, third–seventh weak paradigms express order. Ordinary noun case is supplied by already taught syntax; no temporal on+accusative production implied.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-ordinal-other",
+      "description": "ōðer second remains strong even after the article; selected syncope and feminine ōðru with valid variants are explicit.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-near-demonstrative",
+      "description": "Complete ðes/ðēos/ðis system: this/these, agreeing with the noun in N/G/D/A; reference instrumentals do not create syntax milestones.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-far-demonstrative",
+      "description": "Existing se/sēo/ðæt morphology now also expresses pointing that/those; relative and general third-person pronoun uses remain unassigned.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-thing-noun",
+      "description": "Complete new ðing heavy-neuter paradigm in the sense thing/things; prior ordinary case constructions apply.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-light-count-sense",
+      "description": "Counted lēoht luminary distinct from mass light; prior singular morphology retained and all four plural cases promoted to production.",
+      "recognition_taught_in": "ch03",
+      "production_taught_in": "ch03",
+      "supplied_in": []
+    },
+    {
+      "feature_id": "u03-source-quote",
+      "description": "Direct speech introduced by supplied cwæð, with then and connective sōðlice. Unit2 productive quotation was specifically with sęcgan.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-wish",
+      "description": "Plural finite optatives express a wish/command. Bēon is not an infinitive; all coordinated verbs share the lights as subject.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-heaven-gen",
+      "description": "on governs dative fæstnesse; ðǣre heofonan is embedded genitive feminine singular, from weak heofone.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-to-function",
+      "description": "tō + dative expresses assigned function/purpose. Noun cells are prior; this prepositional use is not taught by Unit2 tō wyrceanne.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-fulfilment",
+      "description": "Resultative fulfillment formula; prior wæs form does not establish independent perfect/resultative syntax.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-set-heaven",
+      "description": "gesętte has omitted God/he subject; hīe is accusative plural object. on ðǣre heofonan has dative feminine singular heofonan, not genitive.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-purpose",
+      "description": "ðæt introduces purpose; scinen, gīemden, tōdǣlden are past optatives. This is not the content-that sense.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-over",
+      "description": "ofer eorðan means over the earth. Source spelling eorðan is compatible with accusative or dative singular; do not require one uniquely.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-rule-gen",
+      "description": "gīeman governs genitive in this exact construction, explicitly documented by §156f. Genitive forms themselves are prior.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-see-content",
+      "description": "Supplied strong geseah plus content clause ðæt hit gōd wæs. New predicate-adjective morphology can be observed within supplied content-clause syntax.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    },
+    {
+      "feature_id": "u03-source-close",
+      "description": "Closing resultative formula and source word order supplied. The new ordinal fēorða agrees with dæg; męrgen is a source vowel variant of selected morgen.",
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch03"
+      ]
+    }
+  ],
+  "active_prior_lemma_scopes": [
+    {
+      "lemma_id": "aefen",
+      "display_headword": "ǣfen",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "aefen-1",
+          "gloss": "evening",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "morgen",
+      "display_headword": "morgen",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "morgen-1",
+          "gloss": "morning",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "daeg",
+      "display_headword": "dæg",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "daeg-1",
+          "gloss": "day",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "niht",
+      "display_headword": "niht",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "niht-1",
+          "gloss": "night",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "eorthe",
+      "display_headword": "eorðe",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "eorthe-1",
+          "gloss": "earth",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "heofon",
+      "display_headword": "heofon",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "heofon-1",
+          "gloss": "heaven; sky",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "fisc",
+      "display_headword": "fisc",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "fisc-1",
+          "gloss": "fish",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "fugol",
+      "display_headword": "fugol",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "fugol-1",
+          "gloss": "bird",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gaers",
+      "display_headword": "gærs",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "gaers-1",
+          "gloss": "grass",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "saed",
+      "display_headword": "sǣd",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "saed-1",
+          "gloss": "seed",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "treo",
+      "display_headword": "trēo",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "treo-1",
+          "gloss": "tree",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "wyrt",
+      "display_headword": "wyrt",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "wyrt-1",
+          "gloss": "herb; plant",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "drygnes",
+      "display_headword": "drȳgnes",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "drygnes-1",
+          "gloss": "dry land",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "waeter",
+      "display_headword": "wæter",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "waeter-1",
+          "gloss": "water",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "andlicnes",
+      "display_headword": "andlīcnes",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "andlicnes-1",
+          "gloss": "image",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gelicnes",
+      "display_headword": "gelīcnes",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "gelicnes-1",
+          "gloss": "likeness",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "leoht",
+      "display_headword": "lēoht",
+      "scope_note": "Previously taught mass light remains; newly counted light/luminary sense permits ordinary singular and plural count use.",
+      "senses": [
+        {
+          "sense_id": "leoht-1",
+          "gloss": "light",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "leoht-count-luminary",
+          "gloss": "a light; luminary (counted individual light)",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "thiestru",
+      "display_headword": "ðīestru",
+      "scope_note": "Plural only; no singular is assigned.",
+      "senses": [
+        {
+          "sense_id": "thiestru-1",
+          "gloss": "darkness",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "tacen",
+      "display_headword": "tācen",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "tacen-1",
+          "gloss": "sign",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "tid",
+      "display_headword": "tīd",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "tid-1",
+          "gloss": "season; time",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gast",
+      "display_headword": "gāst",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "gast-1",
+          "gloss": "spirit",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "lif",
+      "display_headword": "līf",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "lif-1",
+          "gloss": "life",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gesceaft",
+      "display_headword": "gesceaft",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "gesceaft-1",
+          "gloss": "creature; created being or thing",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "mete",
+      "display_headword": "męte",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "mete-1",
+          "gloss": "food",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gear",
+      "display_headword": "gēar",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "gear-1",
+          "gloss": "year",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "mann",
+      "display_headword": "mann",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "mann-1",
+          "gloss": "man; human being",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "deor",
+      "display_headword": "dēor",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "deor-1",
+          "gloss": "animal; beast",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "waestm",
+      "display_headword": "wæstm",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "waestm-1",
+          "gloss": "fruit; produce",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "faestnes",
+      "display_headword": "fæstnes",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "faestnes-1",
+          "gloss": "firmament",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "neowolnes",
+      "display_headword": "nēowolnes",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "neowolnes-1",
+          "gloss": "abyss; the deep",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "sae",
+      "display_headword": "sǣ",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "sae-1",
+          "gloss": "sea",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "hwael",
+      "display_headword": "hwæl",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "hwael-1",
+          "gloss": "whale",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "nieten",
+      "display_headword": "nīeten",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "nieten-1",
+          "gloss": "animal; beast; in the plural, cattle",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "anginn",
+      "display_headword": "anginn",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "anginn-1",
+          "gloss": "beginning",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "god",
+      "display_headword": "God",
+      "scope_note": "Only the proper-name singular; common-noun 'god/gods' is outside scope.",
+      "senses": [
+        {
+          "sense_id": "god-1",
+          "gloss": "God (proper divine name)",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "bradnes",
+      "display_headword": "brādnes",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "bradnes-1",
+          "gloss": "surface; face (of the deep)",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gegaderung",
+      "display_headword": "gegaderung",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "gegaderung-1",
+          "gloss": "gathering; collection; congregation (of waters)",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "lyft",
+      "display_headword": "lyft",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "lyft-1",
+          "gloss": "air",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "fraetwung",
+      "display_headword": "frætwung",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "fraetwung-1",
+          "gloss": "array",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "weorc",
+      "display_headword": "weorc",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "weorc-1",
+          "gloss": "work",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "cynn",
+      "display_headword": "cynn",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "cynn-1",
+          "gloss": "kind",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "steorra",
+      "display_headword": "steorra",
+      "scope_note": "The selected singular/plural senses and forms are productive.",
+      "senses": [
+        {
+          "sense_id": "steorra-1",
+          "gloss": "star",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "liehting",
+      "display_headword": "līehting",
+      "scope_note": "Singular meaning productive; displayed plural inflections recognition only.",
+      "senses": [
+        {
+          "sense_id": "liehting-1",
+          "gloss": "illumination",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "hof",
+      "display_headword": "hof",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "hof-1",
+          "gloss": "dwelling",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "se",
+      "display_headword": "se, sēo, ðæt",
+      "scope_note": "Same forms as Unit1 article; the pointing/demonstrative sense is new production. Relative and general third-person functions are deferred.",
+      "senses": [
+        {
+          "sense_id": "se-the",
+          "gloss": "the",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "se-that",
+          "gloss": "that; those",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "wesan",
+      "display_headword": "wesan",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "wesan-be",
+          "gloss": "be: present and past states/identification",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "and",
+      "display_headword": "and",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "on",
+      "display_headword": "on",
+      "scope_note": "Local supplied reading sense only; existing productive form/senses unchanged.",
+      "senses": [
+        {
+          "sense_id": "on-1",
+          "gloss": "in/on, locating an entity; with dative in the taught construction",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "on-time-supplied",
+          "gloss": "in, temporal: On anginne, in the beginning",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        },
+        {
+          "sense_id": "on-sabbath-temporal",
+          "gloss": "on the seventh/on that day: actual temporal on+accusative",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "fram",
+      "display_headword": "fram",
+      "scope_note": "Local supplied reading sense only; existing productive form/senses unchanged.",
+      "senses": [
+        {
+          "sense_id": "fram-1",
+          "gloss": "from; separation, with dative in the taught frame",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "fram-rest-from",
+          "gloss": "from work, supplied rest-from construction",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "heofone",
+      "display_headword": "heofone",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "heofone-1",
+          "gloss": "heaven/sky; weak feminine alternative in the reading",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "gescieppan",
+      "display_headword": "gescieppan",
+      "scope_note": "Actual supplied source form/sense only; no full paradigm or independent production.",
+      "senses": [
+        {
+          "sense_id": "gescieppan-1",
+          "gloss": "create",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "sothlice",
+      "display_headword": "sōðlice",
+      "scope_note": "Indeclinable adverb; assigned ordinary meanings only. sōðlice connective but/however is a separate supplied reader sense, not this vocabulary sense.",
+      "senses": [
+        {
+          "sense_id": "sothlice-1",
+          "gloss": "now/for its part (connective; source note Latin autem)",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        },
+        {
+          "sense_id": "sothlice-truly",
+          "gloss": "truly; indeed",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "idel",
+      "display_headword": "īdel",
+      "scope_note": "Selected syncope before vowel endings, retained full stem before consonantal -ne/-re/-ra. Rare u-cells are pattern-derived unless separately marked.",
+      "senses": [
+        {
+          "sense_id": "idel-1",
+          "gloss": "empty; void",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "aemtig",
+      "display_headword": "ǣmtig",
+      "scope_note": "Selected retained medial i; Cook permits both retention and syncope in disyllables. The endingless feminine occurs in Creation. This is not a universal zero-u rule.",
+      "senses": [
+        {
+          "sense_id": "aemtig-1",
+          "gloss": "empty; void",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "ofer",
+      "display_headword": "ofer",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "ofer-1",
+          "gloss": "over; in the two supplied local constructions with dative and accusative",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "geferian",
+      "display_headword": "gefęrian",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "geferian-1",
+          "gloss": "carry/bear; here was borne/carried (moved)",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "cwethan",
+      "display_headword": "cweðan",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "cwethan-1",
+          "gloss": "say",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "tha-adverb",
+      "display_headword": "ðā",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "tha-adverb-1",
+          "gloss": "then",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch02",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "geweorthan",
+      "display_headword": "geweorðan",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "geweorthan-1",
+          "gloss": "come to be; become",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "weorthan",
+      "display_headword": "weorðan",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "weorthan-1",
+          "gloss": "become; here passive auxiliary",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "gewyrcean",
+      "display_headword": "gewyrcean",
+      "scope_note": "Accusative thing made/built; no passive/resultative construction acquired from the participle citation.",
+      "senses": [
+        {
+          "sense_id": "gewyrcean-1",
+          "gloss": "make; build",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "geseon",
+      "display_headword": "geseon",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "geseon-1",
+          "gloss": "see",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "thaet-conjunction",
+      "display_headword": "ðæt",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "thaet-conjunction-1",
+          "gloss": "that; introduces the supplied content clause",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03"
+          ]
+        },
+        {
+          "sense_id": "thaet-purpose",
+          "gloss": "so that; purpose conjunction in the supplied clause",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "he",
+      "display_headword": "hē",
+      "scope_note": "AllNGDA displayed; first/second genitives recognition-only, attributive possessive adjectives deferred.",
+      "senses": [
+        {
+          "sense_id": "he-1",
+          "gloss": "third-person personal reference: he, she, it, they and ordinary object cases",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": [
+            "ch01"
+          ]
+        },
+        {
+          "sense_id": "he-possessor",
+          "gloss": "his, her, its, their: invariant genitive possessors",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "god-adjective",
+      "display_headword": "gōd",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "god-adjective-1",
+          "gloss": "good",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "gedaelan",
+      "display_headword": "gedǣlan",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "gedaelan-1",
+          "gloss": "divide/separate",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "hatan",
+      "display_headword": "hātan",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "hatan-1",
+          "gloss": "call/name",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "an",
+      "display_headword": "ān",
+      "scope_note": "Cardinal one: independent use with singular count nouns. Plural forms reference/recognition only; no plural-count-one or alone sense is assigned.",
+      "senses": [
+        {
+          "sense_id": "an-1",
+          "gloss": "one",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "sellan",
+      "display_headword": "sęllan",
+      "scope_note": "Accusative thing and dative recipient; Unit1 supplied sealde did not establish the new finite paradigm.",
+      "senses": [
+        {
+          "sense_id": "sellan-give",
+          "gloss": "give",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": [
+            "ch01"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "hieran",
+      "display_headword": "hīeran",
+      "scope_note": "Transitive hear with an accusative object; no infinitive complement taught.",
+      "senses": [
+        {
+          "sense_id": "hieran-1",
+          "gloss": "hear",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gefyllan",
+      "display_headword": "gefyllan",
+      "scope_note": "Productive selected reading sense finish/accomplish with accusative work; filling something with a substance is a separate construction.",
+      "senses": [
+        {
+          "sense_id": "gefyllan-1",
+          "gloss": "finish; accomplish (a work)",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "cyssan",
+      "display_headword": "cyssan",
+      "scope_note": "Ordinary transitive kiss, person accusative; no novel complement construction.",
+      "senses": [
+        {
+          "sense_id": "cyssan-1",
+          "gloss": "kiss",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "settan",
+      "display_headword": "sęttan",
+      "scope_note": "Thing set is accusative; no new directional preposition inferred.",
+      "senses": [
+        {
+          "sense_id": "settan-1",
+          "gloss": "set; place",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "sendan",
+      "display_headword": "sęndan",
+      "scope_note": "Person/thing sent is accusative; recipient/destination government not added from the English gloss.",
+      "senses": [
+        {
+          "sense_id": "sendan-1",
+          "gloss": "send",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "laedan",
+      "display_headword": "lǣdan",
+      "scope_note": "Ordinary transitive lead, person accusative; destinations not added.",
+      "senses": [
+        {
+          "sense_id": "laedan-1",
+          "gloss": "lead",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "iecan",
+      "display_headword": "īecan",
+      "scope_note": "Diagnostic morphology only unless a particular complement frame is separately checked.",
+      "senses": [
+        {
+          "sense_id": "iecan-1",
+          "gloss": "increase",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gerestan",
+      "display_headword": "geręstan",
+      "scope_note": "Productive reflexive rest: subject and accusative personal pronoun have same referent; exact source hē geręste hine.",
+      "senses": [
+        {
+          "sense_id": "gerestan-1",
+          "gloss": "rest; repose",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "metan",
+      "display_headword": "mētan",
+      "scope_note": "Meet/find person or thing accusative; distinguish selected sense from unassigned find-out complements.",
+      "senses": [
+        {
+          "sense_id": "metan-1",
+          "gloss": "meet; find",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gierwan",
+      "display_headword": "gierwan",
+      "scope_note": "Diagnostic morphology only; no food-preparation frame inferred merely from English prepare.",
+      "senses": [
+        {
+          "sense_id": "gierwan-1",
+          "gloss": "prepare",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gefremman",
+      "display_headword": "gefręmman",
+      "scope_note": "Accusative work/action performed; no general ge- prefix meaning taught.",
+      "senses": [
+        {
+          "sense_id": "gefremman-1",
+          "gloss": "perform; accomplish (a work)",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "efnan",
+      "display_headword": "ęfnan",
+      "scope_note": "Diagnostic morphology. Do not infer that every class member is personal; source exemplar hyngran is impersonal.",
+      "senses": [
+        {
+          "sense_id": "efnan-1",
+          "gloss": "perform",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "nerian",
+      "display_headword": "nęrian",
+      "scope_note": "Save person/thing accusative; no infinitive complement taught.",
+      "senses": [
+        {
+          "sense_id": "nerian-1",
+          "gloss": "save",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "lufian",
+      "display_headword": "lufian",
+      "scope_note": "Ordinary accusative object of love.",
+      "senses": [
+        {
+          "sense_id": "lufian-1",
+          "gloss": "love",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gebletsian",
+      "display_headword": "geblētsian",
+      "scope_note": "Accusative person/thing blessed; day object attested in reading.",
+      "senses": [
+        {
+          "sense_id": "gebletsian-1",
+          "gloss": "bless",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gehalgian",
+      "display_headword": "gehālgian",
+      "scope_note": "Accusative person/thing hallowed; reading hine refers to the day.",
+      "senses": [
+        {
+          "sense_id": "gehalgian-1",
+          "gloss": "hallow; consecrate",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "habban",
+      "display_headword": "habban",
+      "scope_note": "Possessed entity accusative; no auxiliary perfect syntax.",
+      "senses": [
+        {
+          "sense_id": "habban-1",
+          "gloss": "have; possess",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "libban",
+      "display_headword": "libban",
+      "scope_note": "Intransitive live; locative on+dative already taught, no new temporal or manner adjunct inferred.",
+      "senses": [
+        {
+          "sense_id": "libban-1",
+          "gloss": "live",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "secgan",
+      "display_headword": "sęcgan",
+      "scope_note": "Bounded subject+sægð: followed by direct utterance is source-supported. Finite morphology does not teach indirect speech or every recipient/complement frame.",
+      "senses": [
+        {
+          "sense_id": "secgan-1",
+          "gloss": "say",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "hycgan",
+      "display_headword": "hycgan",
+      "scope_note": "Diagnostic morphology only until a particular syntactic frame is checked; no complement construction inferred.",
+      "senses": [
+        {
+          "sense_id": "hycgan-1",
+          "gloss": "think",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "nabban",
+      "display_headword": "nabban",
+      "scope_note": "Recognition-only companion; ordinary ne + habban also permitted by frequent rather than universal contraction in §29; not an independent production recall target.",
+      "senses": [
+        {
+          "sense_id": "nabban-1",
+          "gloss": "have not",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "ic",
+      "display_headword": "ic",
+      "scope_note": "AllNGDA displayed; first/second genitives recognition-only, attributive possessive adjectives deferred.",
+      "senses": [
+        {
+          "sense_id": "ic-personal",
+          "gloss": "speaker reference: I/me/we/us",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "ic-genitive-citation",
+          "gloss": "genitive citation identifying person/number; attributive use not taught",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "thu",
+      "display_headword": "ðū",
+      "scope_note": "AllNGDA displayed; first/second genitives recognition-only, attributive possessive adjectives deferred.",
+      "senses": [
+        {
+          "sense_id": "thu-personal",
+          "gloss": "addressee reference: you, singular/dual/plural",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "thu-genitive-citation",
+          "gloss": "genitive citation identifying person/number; attributive use not taught",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": null,
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "ne",
+      "display_headword": "ne",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "ne-1",
+          "gloss": "not; simple clause negation",
+          "recognition_taught_in": "ch02",
+          "production_taught_in": "ch02",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "eornostlice",
+      "display_headword": "eornostlice",
+      "scope_note": "Actual supplied source form/sense only; no full paradigm or independent production.",
+      "senses": [
+        {
+          "sense_id": "eornostlice-thus",
+          "gloss": "accordingly; thus",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "fullfremman",
+      "display_headword": "fullfręmman",
+      "scope_note": "Actual supplied source form/sense only; no full paradigm or independent production.",
+      "senses": [
+        {
+          "sense_id": "fullfremman-finish",
+          "gloss": "finish/complete in actual supplied passive",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "eall",
+      "display_headword": "eall",
+      "scope_note": "Strong-only morphology reference, new recognition only; two earlier supplied forms retain their exposure histories. No productive all-quantifier task or independent quantifier construction.",
+      "senses": [
+        {
+          "sense_id": "eall-all",
+          "gloss": "all",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "seofotha",
+      "display_headword": "seofoða",
+      "scope_note": "Ordinal weak regardless of article; ōðer is separately strong.",
+      "senses": [
+        {
+          "sense_id": "seofotha-seventh",
+          "gloss": "seventh",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "the-relative",
+      "display_headword": "ðe",
+      "scope_note": "Actual supplied source form/sense only; no full paradigm or independent production.",
+      "senses": [
+        {
+          "sense_id": "the-relative-which",
+          "gloss": "which/that, actual object-relative clauses",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "for-thon-the",
+      "display_headword": "for-ðon-ðe",
+      "scope_note": "Actual supplied source form/sense only; no full paradigm or independent production.",
+      "senses": [
+        {
+          "sense_id": "for-thon-the-because",
+          "gloss": "because, actual causal clause",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "geswican",
+      "display_headword": "geswīcan",
+      "scope_note": "Actual supplied source form/sense only; no full paradigm or independent production.",
+      "senses": [
+        {
+          "sense_id": "geswican-cease",
+          "gloss": "cease from, actual verb+genitive",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "to",
+      "display_headword": "tō",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "to-inflected-infinitive",
+          "gloss": "to, supplied inflected infinitive phrase",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        },
+        {
+          "sense_id": "to-function-purpose",
+          "gloss": "for; assigned function or purpose with the supplied dative phrases",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "wyrcean",
+      "display_headword": "wyrcean",
+      "scope_note": "Actual supplied source form/sense only; no full paradigm or independent production.",
+      "senses": [
+        {
+          "sense_id": "wyrcean-make",
+          "gloss": "make, supplied inflected infinitive",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch02"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "glaed",
+      "display_headword": "glæd",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "glaed-1",
+          "gloss": "glad",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "micel",
+      "display_headword": "micel",
+      "scope_note": "Selected syncope before vowel endings, retained full stem before consonantal -ne/-re/-ra. Rare u-cells are pattern-derived unless separately marked.",
+      "senses": [
+        {
+          "sense_id": "micel-1",
+          "gloss": "great; large",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "aeppelbaere",
+      "display_headword": "æppelbǣre",
+      "scope_note": "Cook compound dictionary hyphen omitted by declared headword normalization; long -e pattern. Double r in -rre/-rra is retained.",
+      "senses": [
+        {
+          "sense_id": "aeppelbaere-1",
+          "gloss": "fruit-bearing",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "lytel",
+      "display_headword": "lȳtel",
+      "scope_note": "Selected syncope before vowel endings, retained full stem before consonantal -ne/-re/-ra. Rare u-cells are pattern-derived unless separately marked.",
+      "senses": [
+        {
+          "sense_id": "lytel-1",
+          "gloss": "little; small",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "styriendlic",
+      "display_headword": "styriendlic",
+      "scope_note": "Lexical derived adjective, not a present-participle assignment. Final -lic is not syncopated.",
+      "senses": [
+        {
+          "sense_id": "styriendlic-1",
+          "gloss": "moving",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "leof",
+      "display_headword": "lēof",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "leof-1",
+          "gloss": "dear",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "eald",
+      "display_headword": "eald",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "eald-1",
+          "gloss": "old",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "yfel",
+      "display_headword": "yfel",
+      "scope_note": "Selected full medial e of short disyllable. Source also admits syncopated yfles/yflum; no automatic adjective→adverb or morality distinction follows.",
+      "senses": [
+        {
+          "sense_id": "yfel-1",
+          "gloss": "bad; evil",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "gearu",
+      "display_headword": "gearu",
+      "scope_note": "u/w alternation; o before consonantal endings as printed by Wright.",
+      "senses": [
+        {
+          "sense_id": "gearu-1",
+          "gloss": "ready",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "heah",
+      "display_headword": "hēah",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "heah-1",
+          "gloss": "high",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "leof-comp",
+      "display_headword": "lēofra",
+      "scope_note": "Comparative always weak, including predicate. Gpl is transparently rule-derived; lǣssena/wiersena select the licensed -ena alternative.",
+      "senses": [
+        {
+          "sense_id": "leof-comp-1",
+          "gloss": "dearer",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "eald-comp",
+      "display_headword": "ieldra",
+      "scope_note": "Comparative always weak, including predicate. Gpl is transparently rule-derived; lǣssena/wiersena select the licensed -ena alternative.",
+      "senses": [
+        {
+          "sense_id": "eald-comp-1",
+          "gloss": "older",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "god-adjective-comp",
+      "display_headword": "bętera",
+      "scope_note": "Comparative always weak, including predicate. Gpl is transparently rule-derived; lǣssena/wiersena select the licensed -ena alternative.",
+      "senses": [
+        {
+          "sense_id": "god-adjective-comp-1",
+          "gloss": "better",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "yfel-comp",
+      "display_headword": "wiersa",
+      "scope_note": "Comparative always weak, including predicate. Gpl is transparently rule-derived; lǣssena/wiersena select the licensed -ena alternative.",
+      "senses": [
+        {
+          "sense_id": "yfel-comp-1",
+          "gloss": "worse",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "micel-comp",
+      "display_headword": "māra",
+      "scope_note": "Comparative always weak, including predicate. Gpl is transparently rule-derived; lǣssena/wiersena select the licensed -ena alternative.",
+      "senses": [
+        {
+          "sense_id": "micel-comp-1",
+          "gloss": "greater/larger",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "lytel-comp",
+      "display_headword": "lǣssa",
+      "scope_note": "Comparative always weak, including predicate. Gpl is transparently rule-derived; lǣssena/wiersena select the licensed -ena alternative.",
+      "senses": [
+        {
+          "sense_id": "lytel-comp-1",
+          "gloss": "smaller",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "leof-superl",
+      "display_headword": "lēofost",
+      "scope_note": "Weak usual attributive superlative; strong predicate or explicitly strong environment. Full forms do not teach partitive or substantival superlative syntax.",
+      "senses": [
+        {
+          "sense_id": "leof-superl-1",
+          "gloss": "dearest",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "eald-superl",
+      "display_headword": "ieldest",
+      "scope_note": "Weak usual attributive superlative; strong predicate or explicitly strong environment. Full forms do not teach partitive or substantival superlative syntax.",
+      "senses": [
+        {
+          "sense_id": "eald-superl-1",
+          "gloss": "oldest",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "god-adjective-superl",
+      "display_headword": "bętst",
+      "scope_note": "Weak usual attributive superlative; strong predicate or explicitly strong environment. Full forms do not teach partitive or substantival superlative syntax.",
+      "senses": [
+        {
+          "sense_id": "god-adjective-superl-1",
+          "gloss": "best",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "yfel-superl",
+      "display_headword": "wierrest",
+      "scope_note": "Weak usual attributive superlative; strong predicate or explicitly strong environment. Full forms do not teach partitive or substantival superlative syntax.",
+      "senses": [
+        {
+          "sense_id": "yfel-superl-1",
+          "gloss": "worst",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "micel-superl",
+      "display_headword": "mǣst",
+      "scope_note": "Weak usual attributive superlative; strong predicate or explicitly strong environment. Full forms do not teach partitive or substantival superlative syntax.",
+      "senses": [
+        {
+          "sense_id": "micel-superl-1",
+          "gloss": "greatest/largest",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "lytel-superl",
+      "display_headword": "lǣst",
+      "scope_note": "Weak usual attributive superlative; strong predicate or explicitly strong environment. Full forms do not teach partitive or substantival superlative syntax.",
+      "senses": [
+        {
+          "sense_id": "lytel-superl-1",
+          "gloss": "smallest",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "min-poss",
+      "display_headword": "mīn",
+      "scope_note": "Agreeing possessive adjective; separate lexical/syntactic record from the personal-pronoun genitive citation.",
+      "senses": [
+        {
+          "sense_id": "min-poss-1",
+          "gloss": "my; mine",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "thin-poss",
+      "display_headword": "ðīn",
+      "scope_note": "Agreeing possessive adjective; separate lexical/syntactic record from the personal-pronoun genitive citation.",
+      "senses": [
+        {
+          "sense_id": "thin-poss-1",
+          "gloss": "your; yours (one possessor)",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "uncer-poss",
+      "display_headword": "uncer",
+      "scope_note": "Agreeing strong possessive; possessed noun controls gender/number/case, owner count selects lemma. u-cells are by-pattern, not individually attested; retain medial e before consonantal -ne/-re/-ra.",
+      "senses": [
+        {
+          "sense_id": "uncer-poss-1",
+          "gloss": "our; ours (two possessors)",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "incer-poss",
+      "display_headword": "incer",
+      "scope_note": "Agreeing strong possessive; possessed noun controls gender/number/case, owner count selects lemma. u-cells are by-pattern, not individually attested; retain medial e before consonantal -ne/-re/-ra.",
+      "senses": [
+        {
+          "sense_id": "incer-poss-1",
+          "gloss": "your; yours (two possessors)",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "eower-poss",
+      "display_headword": "ēower",
+      "scope_note": "Agreeing strong possessive; possessed noun controls gender/number/case, owner count selects lemma. u-cells are by-pattern, not individually attested; retain medial e before consonantal -ne/-re/-ra.",
+      "senses": [
+        {
+          "sense_id": "eower-poss-1",
+          "gloss": "your; yours (plural possessors)",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "ure-poss",
+      "display_headword": "ūre",
+      "scope_note": "Special F.Nsg ūre, not *ūru. Neuter plural ūru follows explicitly cited wilde; -e alternative is admitted by Cook59. Strong agreeing adjective, separate from personal genitive ūre.",
+      "senses": [
+        {
+          "sense_id": "ure-poss-1",
+          "gloss": "our; ours (plural possessors)",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "twegen",
+      "display_headword": "twēgen",
+      "scope_note": "Plural counted noun agrees in case and gender; plural verb agreement. No partitive genitive construction assigned.",
+      "senses": [
+        {
+          "sense_id": "twegen-1",
+          "gloss": "two",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "thrie",
+      "display_headword": "ðrīe",
+      "scope_note": "Plural counted noun agrees in case and gender; plural verb agreement. No partitive genitive construction assigned.",
+      "senses": [
+        {
+          "sense_id": "thrie-1",
+          "gloss": "three",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "feower",
+      "display_headword": "fēower",
+      "scope_note": "Selected ordinary invariant use before a plural count noun only; postposed or substantival numeral inflection is outside this unit.",
+      "senses": [
+        {
+          "sense_id": "feower-1",
+          "gloss": "4",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "fif",
+      "display_headword": "fīf",
+      "scope_note": "Selected ordinary invariant use before a plural count noun only; postposed or substantival numeral inflection is outside this unit.",
+      "senses": [
+        {
+          "sense_id": "fif-1",
+          "gloss": "5",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "siex",
+      "display_headword": "siex",
+      "scope_note": "Selected ordinary invariant use before a plural count noun only; postposed or substantival numeral inflection is outside this unit.",
+      "senses": [
+        {
+          "sense_id": "siex-1",
+          "gloss": "6",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "seofon",
+      "display_headword": "seofon",
+      "scope_note": "Selected ordinary invariant use before a plural count noun only; postposed or substantival numeral inflection is outside this unit.",
+      "senses": [
+        {
+          "sense_id": "seofon-1",
+          "gloss": "7",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "eahta",
+      "display_headword": "eahta",
+      "scope_note": "Selected ordinary invariant use before a plural count noun only; postposed or substantival numeral inflection is outside this unit.",
+      "senses": [
+        {
+          "sense_id": "eahta-1",
+          "gloss": "8",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "nigon",
+      "display_headword": "nigon",
+      "scope_note": "Selected ordinary invariant use before a plural count noun only; postposed or substantival numeral inflection is outside this unit.",
+      "senses": [
+        {
+          "sense_id": "nigon-1",
+          "gloss": "9",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "tien",
+      "display_headword": "tīen",
+      "scope_note": "Selected ordinary invariant use before a plural count noun only; postposed or substantival numeral inflection is outside this unit.",
+      "senses": [
+        {
+          "sense_id": "tien-1",
+          "gloss": "10",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "endlefan",
+      "display_headword": "endlefan",
+      "scope_note": "Selected ordinary invariant use before a plural count noun only; postposed or substantival numeral inflection is outside this unit.",
+      "senses": [
+        {
+          "sense_id": "endlefan-1",
+          "gloss": "11",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "twelf",
+      "display_headword": "twęlf",
+      "scope_note": "Selected ordinary invariant use before a plural count noun only; postposed or substantival numeral inflection is outside this unit.",
+      "senses": [
+        {
+          "sense_id": "twelf-1",
+          "gloss": "12",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "other",
+      "display_headword": "ōðer",
+      "scope_note": "Selected syncope before vowel endings, retained full stem before consonantal -ne/-re/-ra. Rare u-cells are pattern-derived unless separately marked.",
+      "senses": [
+        {
+          "sense_id": "other-1",
+          "gloss": "second",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "aeresta",
+      "display_headword": "ǣresta",
+      "scope_note": "Ordinal weak regardless of article; ōðer is separately strong.",
+      "senses": [
+        {
+          "sense_id": "aeresta-1",
+          "gloss": "first",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "thridda",
+      "display_headword": "ðridda",
+      "scope_note": "Ordinal weak regardless of article; ōðer is separately strong.",
+      "senses": [
+        {
+          "sense_id": "thridda-1",
+          "gloss": "third",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "feortha",
+      "display_headword": "fēorða",
+      "scope_note": "Ordinal weak regardless of article; ōðer is separately strong.",
+      "senses": [
+        {
+          "sense_id": "feortha-1",
+          "gloss": "fourth",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "fifta",
+      "display_headword": "fīfta",
+      "scope_note": "Ordinal weak regardless of article; ōðer is separately strong.",
+      "senses": [
+        {
+          "sense_id": "fifta-1",
+          "gloss": "fifth",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "siexta",
+      "display_headword": "siexta",
+      "scope_note": "Ordinal weak regardless of article; ōðer is separately strong.",
+      "senses": [
+        {
+          "sense_id": "siexta-1",
+          "gloss": "sixth",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "thes",
+      "display_headword": "ðes, ðēos, ðis",
+      "scope_note": "Selected Cook short-e masculine ðes and double-s variants; neither new length nor a different dialect is silently imposed.",
+      "senses": [
+        {
+          "sense_id": "thes-1",
+          "gloss": "this; these",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "wide",
+      "display_headword": "wīde",
+      "scope_note": "Indeclinable adverb; assigned ordinary meanings only. sōðlice connective but/however is a separate supplied reader sense, not this vocabulary sense.",
+      "senses": [
+        {
+          "sense_id": "wide-positive",
+          "gloss": "widely; far and wide",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "wide-comparative",
+          "gloss": "more widely",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "wide-superlative",
+          "gloss": "most widely",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "wel",
+      "display_headword": "wel",
+      "scope_note": "Indeclinable adverb; assigned ordinary meanings only. sōðlice connective but/however is a separate supplied reader sense, not this vocabulary sense.",
+      "senses": [
+        {
+          "sense_id": "wel-positive",
+          "gloss": "well",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "wel-comparative",
+          "gloss": "better",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        },
+        {
+          "sense_id": "wel-superlative",
+          "gloss": "best",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "swithe",
+      "display_headword": "swīðe",
+      "scope_note": "Indeclinable adverb; assigned ordinary meanings only. sōðlice connective but/however is a separate supplied reader sense, not this vocabulary sense.",
+      "senses": [
+        {
+          "sense_id": "swithe-positive",
+          "gloss": "very",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "wid-citation",
+      "display_headword": "wīd",
+      "scope_note": "Supplied base for an adverb derivation; no adjective declension or independent clause use assigned.",
+      "senses": [
+        {
+          "sense_id": "wid-citation-1",
+          "gloss": "wide",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "swith-citation",
+      "display_headword": "swīð",
+      "scope_note": "Supplied base for an adverb derivation; no adjective declension or independent clause use assigned.",
+      "senses": [
+        {
+          "sense_id": "swith-citation-1",
+          "gloss": "strong",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "soth-citation",
+      "display_headword": "sōð",
+      "scope_note": "Supplied base for an adverb derivation; no adjective declension or independent clause use assigned.",
+      "senses": [
+        {
+          "sense_id": "soth-citation-1",
+          "gloss": "true",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "thonne",
+      "display_headword": "ðonne",
+      "scope_note": "Bounded comparison of two parallel nominative subjects; no temporal or other subordinate use.",
+      "senses": [
+        {
+          "sense_id": "thonne-than",
+          "gloss": "than",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "thing",
+      "display_headword": "ðing",
+      "scope_note": "Complete heavy strong neuter; thing/things, ordinary case uses from Unit1.",
+      "senses": [
+        {
+          "sense_id": "thing-1",
+          "gloss": "thing; in plural, things",
+          "recognition_taught_in": "ch03",
+          "production_taught_in": "ch03",
+          "supplied_in": []
+        }
+      ]
+    },
+    {
+      "lemma_id": "nu",
+      "display_headword": "nū",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "nu-1",
+          "gloss": "now",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "todaelan",
+      "display_headword": "tōdǣlen / tōdǣlden (source forms)",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "todaelan-1",
+          "gloss": "separate; distinguish",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "scinan",
+      "display_headword": "scīnen / scinen (source forms)",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "scinan-1",
+          "gloss": "shine",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "aliehtan",
+      "display_headword": "ālīehten (source form)",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "aliehtan-1",
+          "gloss": "illuminate",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "swa",
+      "display_headword": "swā",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "swa-1",
+          "gloss": "thus; so",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "gesettan",
+      "display_headword": "gesętte (source form)",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "gesettan-1",
+          "gloss": "set; place (actual supplied gesętte)",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "gieman",
+      "display_headword": "gīemden (source form)",
+      "scope_note": "",
+      "senses": [
+        {
+          "sense_id": "gieman-1",
+          "gloss": "rule over; govern (actual supplied genitive objects)",
+          "recognition_taught_in": null,
+          "production_taught_in": null,
+          "supplied_in": [
+            "ch03"
+          ]
+        }
+      ]
+    }
+  ],
+  "source_assignment_rule": {
+    "assigned_cook_items": 63,
+    "deferred_cook_items": 581,
+    "new_numbered_cook_assignments": [],
+    "preserved_named_deferrals": [
+      "EX-I-04-18",
+      "ch02-reader-birds"
+    ],
+    "planned_unit_for_named_deferrals": 7,
+    "rule": "Carry forward every prior assigned, deferred and excluded source disposition. An original reading selected here creates its own exact source-span record; it does not resolve an unrelated numbered Cook or birds deferral."
+  },
+  "boundaries_to_preserve": [
+    "No productive strong I–III finite paradigm is present in the actual prior register.",
+    "Prior scīnen/scinen, geswāc, wearð and geworden are supplied records, not prior productive strong paradigms.",
+    "Earlier cweðan, geseon, gescieppan and hātan exposure does not teach their later-class systems.",
+    "First/second personal genitive citations remain distinct from productive agreeing possessive adjective lemmas.",
+    "Instrumental morphology is reference only; instrumental syntax is not prior production.",
+    "Plural ān and eall have recognition-only boundaries; no general quantifier, partitive or substantival numeral syntax is prior.",
+    "Temporal on, directional prepositions, resultative/passive/infinitive constructions, relative and other subordinate clauses remain supplied where prior contracts say so.",
+    "Simple negation was explicitly taught with noncontracting weak verbs; extension to strong indicative verbs needs its own bounded feature.",
+    "Familiar stems and prefixes do not establish unrecorded senses, prefixed lexemes or government.",
+    "No archived teaching milestone is imported."
+  ]
+}
