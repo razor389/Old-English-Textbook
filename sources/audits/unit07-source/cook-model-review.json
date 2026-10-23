@@ -1,0 +1,914 @@
+{
+  "schema_version": 1,
+  "reviewer": "unit07_source",
+  "access_note": "AUTHOR ONLY: contains target solutions. This is supporting pre-contract model reconciliation, not the independent pre-key learner-task review.",
+  "status": "all_34_final_models_accepted_after_recorded_corrections",
+  "baseline_checkpoint": "47b92a4",
+  "sources_reviewed": [
+    {
+      "path": "curriculum/proposals/unit07/author-only-models.json",
+      "sha256": "32451ae11929052ca2d2d54f5dd21fdedf6509d2ed68945c86c8b05394e81951"
+    },
+    {
+      "path": "curriculum/proposals/unit07/author-only-token-seed.json",
+      "sha256": "a739f3dcbca07e4ff4c69bafccc3419d2b4e060af48c8ac3c1443e9d80ce1987"
+    },
+    {
+      "path": "sources/audits/unit07-source/exercises-prompts.json",
+      "sha256": "35873f6470d94856137fa0fe9b42f5a6198eb613b444f77338d04cbe7cd2f1e0"
+    }
+  ],
+  "method": "Read all exact original prompts and private ordered targets; independently resolved symbolic queries against the actual prior register and checked grammar models, then compared all34 compiled final model texts. Checked grammatical role and sense separately from surface identity. No learner or key prose drafted.",
+  "corrections_sent_to_design": [
+    {
+      "source_item_id": "EX-I-07-13",
+      "kind": "material_source_fidelity",
+      "before": "he-m-nom-sg, hē, replacing original God",
+      "after": "god-nom-sg, God",
+      "status": "corrected_and_verified_in_final_model"
+    },
+    {
+      "source_item_ids": [
+        "EX-I-06-11",
+        "EX-I-06-12"
+      ],
+      "kind": "canonical_dependency_reference",
+      "before": [
+        "god-adjective-nom-n-pl",
+        "god-adjective-nom-m-pl"
+      ],
+      "after": [
+        "god-adjective-nom-n-pl-strong",
+        "god-adjective-nom-m-pl-strong"
+      ],
+      "status": "corrected_and_verified_in_final_model"
+    }
+  ],
+  "rendering_requirements_sent_to_design": [
+    {
+      "source_item_id": "EX-I-06-16",
+      "requirement": "Capitalize assigned name Heofon when rendering the raw token sequence."
+    },
+    {
+      "source_item_id": "EX-I-07-17",
+      "requirement": "Add explicit direct-speech punctuation/quotation around Bēo ðæt lēoht tō tācne. The raw model text is an unpunctuated token join."
+    }
+  ],
+  "general_grading_rule": "A valid alternative can miss an expressly stated teaching target. Explain that difference; do not label valid language ungrammatical. Do not impose an unstated number on you or require unique analysis of a syncretic spelling without context.",
+  "count": 34,
+  "prior_milestone_validation_errors": [],
+  "items": [
+    {
+      "source_item_id": "EX-I-04-18",
+      "exact_original_prompt": "Increase (sing.) and be multiplied.",
+      "printed_pages": [
+        2
+      ],
+      "pdf_pages_1_based": [
+        10
+      ],
+      "reviewed_model_text_raw": "Weax and bēo gemanigfield.",
+      "reviewed_target_form_ids": [
+        [
+          "weaxan-imp-2-sg",
+          "and-invariant",
+          "wesan-beon-imp-2-sg",
+          "gemanigfieldan-past-participle"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Both verbs address one person: weax and bēo are singular imperatives; gemanigfield supplies the passive predicate. The model preserves increase plus be multiplied.",
+      "permitted_number_alternatives_and_limits": "Singular address is explicit; plural commands do not meet the prompt.",
+      "permitted_lexical_form_order_alternatives_and_limits": "The uninflected participle is valid without inventing the addressee's gender. An agreeing variant may be accepted only with an explicitly justified gender/analysis; the source does not specify one."
+    },
+    {
+      "source_item_id": "EX-I-06-01",
+      "exact_original_prompt": "The animal lives.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðæt dēor leofað.",
+      "reviewed_target_form_ids": [
+        [
+          "se-n-nom-sg",
+          "deor-nom-sg",
+          "libban-pres-3-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Neuter singular article and animal form the subject; leofað is the registered third-singular present of libban.",
+      "permitted_number_alternatives_and_limits": "Animal and finite verb must be singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Prior nīeten can also mean animal; it requires the same neuter singular agreement."
+    },
+    {
+      "source_item_id": "EX-I-06-02",
+      "exact_original_prompt": "The bird flies.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Se fugol flīehð.",
+      "reviewed_target_form_ids": [
+        [
+          "se-m-nom-sg",
+          "fugol-nom-sg",
+          "fleogan-pres-3-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Se fugol is masculine singular; flīehð is the selected third-singular present.",
+      "permitted_number_alternatives_and_limits": "Keep one bird.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Attested registered variants of flēogan are valid if they preserve the same finite analysis; no arbitrary plural fly form."
+    },
+    {
+      "source_item_id": "EX-I-06-03",
+      "exact_original_prompt": "The tree grows.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðæt trēo wiext.",
+      "reviewed_target_form_ids": [
+        [
+          "se-n-nom-sg",
+          "treo-nom-sg",
+          "weaxan-pres-3-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Ðæt trēo is neuter singular; wiext is the actual registered third-singular present of weaxan.",
+      "permitted_number_alternatives_and_limits": "Keep one tree.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Trēow is a defensible lexical spelling alternative where supported by the course's prior variant policy; preserve the same neuter singular analysis."
+    },
+    {
+      "source_item_id": "EX-I-06-04",
+      "exact_original_prompt": "The man rules over the cattle of the earth.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Se mann gīemð ðǣre eorðan nīetena.",
+      "reviewed_target_form_ids": [
+        [
+          "se-m-nom-sg",
+          "mann-nom-sg",
+          "gieman-present-3-sg",
+          "se-f-gen-sg",
+          "eorthe-gen-sg",
+          "nieten-gen-pl"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Gīemð governs genitive nīetena. The embedded genitive ðǣre eorðan identifies the cattle's earth; its prefixed position is valid and does not make it the sole governed object.",
+      "permitted_number_alternatives_and_limits": "Man singular; cattle plural under the selected nīeten sense.",
+      "permitted_lexical_form_order_alternatives_and_limits": "The possessed noun may precede its genitive dependent in another defensible word order. Another ruling verb must be judged under its own government, not by applying gīeman's genitive rule universally."
+    },
+    {
+      "source_item_id": "EX-I-06-05",
+      "exact_original_prompt": "Let him be over the birds and (over) the beasts.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Bēo hē ofer ðā fuglas and ofer ðā dēor.",
+      "reviewed_target_form_ids": [
+        [
+          "wesan-present-subj-3-sg-beo",
+          "he-m-nom-sg",
+          "ofer-invariant",
+          "se-all-acc-pl",
+          "fugol-acc-pl",
+          "and-invariant",
+          "ofer-invariant",
+          "se-all-acc-pl",
+          "deor-acc-pl"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Third-singular subjunctive bēo expresses the wish; authority ofer takes accusative birds and beasts.",
+      "permitted_number_alternatives_and_limits": "Him singular; birds and beasts plural.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Sīe is the selected alternative subjunctive. The second ofer may be omitted or repeated, exactly as the prompt's parenthesis permits."
+    },
+    {
+      "source_item_id": "EX-I-06-06",
+      "exact_original_prompt": "The stars are above the sea.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðā steorran sindon bufan ðǣm sǣ.",
+      "reviewed_target_form_ids": [
+        [
+          "se-all-nom-pl",
+          "steorra-nom-pl",
+          "wesan-pres-3-pl",
+          "bufan-invariant",
+          "se-m-dat-sg",
+          "sae-dat-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Plural stars govern sindon. Bufan takes dative ðǣm sǣ, using the selected masculine sea.",
+      "permitted_number_alternatives_and_limits": "Stars plural; sea singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Other attested present plural be forms can be valid under the declared paradigm. A feminine sea alternative must not be silently mixed with the selected masculine course table."
+    },
+    {
+      "source_item_id": "EX-I-06-07",
+      "exact_original_prompt": "It is for your food [to you for food].",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Hit is ēow tō męte.",
+      "reviewed_target_form_ids": [
+        [
+          "he-n-nom-sg",
+          "wesan-pres-3-sg",
+          "thu-dat-pl",
+          "to-preposition-dative-invariant",
+          "mete-dat-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Hit is is singular; ēow is a separate beneficiary dative and tō męte the assigned-function phrase. This preserves the bracketed literal prompt.",
+      "permitted_number_alternatives_and_limits": "English you is not numbered: ðē, ēow, or contextually appropriate inc may be used.",
+      "permitted_lexical_form_order_alternatives_and_limits": "A possessive-only paraphrase may convey similar meaning but does not demonstrate the expressly selected beneficiary-plus-tō construction. Do not reject singular or dual you merely because the model uses ēow."
+    },
+    {
+      "source_item_id": "EX-I-06-08",
+      "exact_original_prompt": "The herb bears seed.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Sēo wyrt birð sǣd.",
+      "reviewed_target_form_ids": [
+        [
+          "se-f-nom-sg",
+          "wyrt-nom-sg",
+          "beran-pres-3-sg",
+          "saed-acc-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Sēo wyrt is the feminine singular subject; birð is present3sg beran in the newly taught produce-bearing sense; sǣd is its accusative object.",
+      "permitted_number_alternatives_and_limits": "Herb singular; mass seed may be modeled as accusative singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Do not infer that the earlier carry sense alone licenses this production. Any alternate verb must actually mean bear/produce seed in its taught frame."
+    },
+    {
+      "source_item_id": "EX-I-06-09",
+      "exact_original_prompt": "The tree yields fruit.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðæt trēo wyrcð wæstm.",
+      "reviewed_target_form_ids": [
+        [
+          "se-n-nom-sg",
+          "treo-nom-sg",
+          "wyrcean-present-3-sg",
+          "waestm-acc-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Unprefixed wyrcð is the audited present3sg of wyrcean; wæstm is accusative fruit/produce.",
+      "permitted_number_alternatives_and_limits": "Tree singular; mass fruit is correctly represented by singular wæstm.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Plural wæstmas can be defensible when fruit is construed as individual fruits. Beran in the new produce sense is a semantic alternative if no explicit direction requires the newly taught wyrcean target."
+    },
+    {
+      "source_item_id": "EX-I-06-10",
+      "exact_original_prompt": "The air is very good.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðæt lyft is swīðe gōd.",
+      "reviewed_target_form_ids": [
+        [
+          "se-n-nom-sg",
+          "lyft-nom-sg",
+          "wesan-pres-3-sg",
+          "swithe-positive",
+          "god-adjective-nom-n-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "The model correctly uses prior neuter lyft and matching ðæt/gōd; swīðe is already taught.",
+      "permitted_number_alternatives_and_limits": "Air is the selected singular mass noun.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Feminine lyft exists in the source tradition, but it is outside the selected prior paradigm. Do not mix genders or call a coherent attested alternative intrinsically ungrammatical."
+    },
+    {
+      "source_item_id": "EX-I-06-11",
+      "exact_original_prompt": "The things are very good.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðā ðing sindon swīðe gōd.",
+      "reviewed_target_form_ids": [
+        [
+          "se-all-nom-pl",
+          "thing-nom-pl",
+          "wesan-pres-3-pl",
+          "swithe-positive",
+          "god-adjective-nom-n-pl-strong"
+        ]
+      ],
+      "fidelity_verdict": "accepted_after_reference_correction",
+      "grammar_verdict": "accepted",
+      "analysis": "Neuter plural ðing takes plural sindon and the selected neuter plural predicate gōd. Canonical adjective ID now ends -strong.",
+      "permitted_number_alternatives_and_limits": "Things plural; gōd has zero neuter plural ending in the assigned table.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Do not grade this as masculine plural gōde merely because the English noun is plural. Additional historical variants need their own evidence and target distinction."
+    },
+    {
+      "source_item_id": "EX-I-06-12",
+      "exact_original_prompt": "The birds were very good.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðā fuglas wǣron swīðe gōde.",
+      "reviewed_target_form_ids": [
+        [
+          "se-all-nom-pl",
+          "fugol-nom-pl",
+          "wesan-pret-3-pl",
+          "swithe-positive",
+          "god-adjective-nom-m-pl-strong"
+        ]
+      ],
+      "fidelity_verdict": "accepted_after_reference_correction",
+      "grammar_verdict": "accepted",
+      "analysis": "Masculine plural fuglas takes wǣron and gōde. Canonical adjective ID now ends -strong.",
+      "permitted_number_alternatives_and_limits": "Birds plural and past time are explicit.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Registered syncopated or unsyncopated bird forms can be valid; each must retain masculine plural agreement."
+    },
+    {
+      "source_item_id": "EX-I-06-13",
+      "exact_original_prompt": "The light of the stars was very good.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðāra steorrena lēoht wæs swīðe gōd.",
+      "reviewed_target_form_ids": [
+        [
+          "se-all-gen-pl",
+          "steorra-gen-pl",
+          "leoht-nom-sg",
+          "wesan-pret-3-sg",
+          "swithe-positive",
+          "god-adjective-nom-n-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "The prefixed genitive ðāra steorrena depends on singular lēoht. Wæs and gōd correctly agree with light, not stars.",
+      "permitted_number_alternatives_and_limits": "One light; plural stars.",
+      "permitted_lexical_form_order_alternatives_and_limits": "A defensible postposed genitive order is possible. The adjective and verb remain singular regardless of the genitive's position."
+    },
+    {
+      "source_item_id": "EX-I-06-14",
+      "exact_original_prompt": "He gave them all trees.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Hē geaf him eall trēowu.",
+      "reviewed_target_form_ids": [
+        [
+          "he-m-nom-sg",
+          "giefan-pret-3-sg",
+          "he-dat-pl",
+          "eall-acc-n-pl-strong",
+          "treo-acc-pl"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Hē geaf is past singular. Him is the registered plural recipient here; eall trēowu is neuter accusative plural.",
+      "permitted_number_alternatives_and_limits": "He singular, them plural, trees plural; do not misread syncretic him as necessarily singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Prior sęllan in its give frame can supply a lexical alternative to giefan unless an explicit target selects giefan."
+    },
+    {
+      "source_item_id": "EX-I-06-15",
+      "exact_original_prompt": "I give you all things upon earth.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ic giefe ēow eall ðing on eorðan.",
+      "reviewed_target_form_ids": [
+        [
+          "ic-nom-sg",
+          "giefan-pres-1-sg",
+          "thu-dat-pl",
+          "eall-acc-n-pl-strong",
+          "thing-acc-pl",
+          "on-invariant",
+          "eorthe-dat-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Ic giefe is present1sg, ēow recipient dative, eall ðing accusative neuter plural, and on eorðan a locative dative.",
+      "permitted_number_alternatives_and_limits": "I singular; things plural; you may be singular, plural, or dual as context permits.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Sęllan can be a taught lexical alternative to giefan. The model's plural ēow is not an unstated source restriction."
+    },
+    {
+      "source_item_id": "EX-I-06-16",
+      "exact_original_prompt": "I call the firmament Heaven.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ic hāte ðā fæstnesse Heofon.",
+      "reviewed_target_form_ids": [
+        [
+          "ic-nom-sg",
+          "hatan-pres-1-sg",
+          "se-f-acc-sg",
+          "faestnes-acc-sg",
+          "heofon-acc-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted_with_presentation_note",
+      "grammar_verdict": "accepted",
+      "analysis": "Hāte has accusative thing ðā fæstnesse and accusative predicate name Heofon; both cases match the new naming frame.",
+      "permitted_number_alternatives_and_limits": "Firmament and assigned name singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Another independently supported naming verb may be valid but must use its own frame. Preserve capital Heofon as the assigned name in the rendered key; the raw token join currently lowercases it."
+    },
+    {
+      "source_item_id": "EX-I-07-01",
+      "exact_original_prompt": "He has dominion.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Hē rīcsað.",
+      "reviewed_target_form_ids": [
+        [
+          "he-m-nom-sg",
+          "ricsian-present-3-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Rīcsað is the audited third-singular present of intransitive rīcsian, have dominion.",
+      "permitted_number_alternatives_and_limits": "He singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "A verified equivalent may be valid Old English, but an explicit rīcsian target should be assessed separately. Do not fabricate a new abstract habban frame merely from a literal English have."
+    },
+    {
+      "source_item_id": "EX-I-07-02",
+      "exact_original_prompt": "He blesses the earth.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Hē geblētsað ðā eorðan.",
+      "reviewed_target_form_ids": [
+        [
+          "he-m-nom-sg",
+          "gebletsian-pres-3-sg",
+          "se-f-acc-sg",
+          "eorthe-acc-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Geblētsað belongs to the already productive prefixed lemma geblētsian and governs accusative ðā eorðan.",
+      "permitted_number_alternatives_and_limits": "He and earth singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Plain blētsian is source-supported language but its present system has not been silently promoted from the supplied reading blētsode. Distinguish valid language from assigned-lemma compliance."
+    },
+    {
+      "source_item_id": "EX-I-07-03",
+      "exact_original_prompt": "He says thus.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Hē sægð ðus.",
+      "reviewed_target_form_ids": [
+        [
+          "he-m-nom-sg",
+          "secgan-pres-3-sg",
+          "thus-invariant-source"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Sægð is the exact registered present3sg of sęcgan; ðus is the newly productive speech adverb.",
+      "permitted_number_alternatives_and_limits": "He singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Prior cweðan with its registered third-singular present is a defensible direct-speech lexical alternative. Preserve ordinary thus, not the conjunctive as-if sense of another word."
+    },
+    {
+      "source_item_id": "EX-I-07-04",
+      "exact_original_prompt": "Now is the season.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Nū is sēo tīd.",
+      "reviewed_target_form_ids": [
+        [
+          "nu-invariant",
+          "wesan-pres-3-sg",
+          "se-f-nom-sg",
+          "tid-nom-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Nū now plus singular is and sēo tīd gives the required statement without a new narrative sense of nū.",
+      "permitted_number_alternatives_and_limits": "Season singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Other defensible main-clause word order does not alter the target. This item does not authorize a new now/then narrative sense."
+    },
+    {
+      "source_item_id": "EX-I-07-05",
+      "exact_original_prompt": "It was so called.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Hit wæs swā hāten.",
+      "reviewed_target_form_ids": [
+        [
+          "he-n-nom-sg",
+          "wesan-pret-3-sg",
+          "swa-invariant",
+          "hatan-participle-citation"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Hit wæs swā hāten is the ordinary past passive of calling/naming, with the selected unprefixed participle.",
+      "permitted_number_alternatives_and_limits": "It singular; past tense and passive voice retained.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Gehāten may be linguistically defensible if its prefix variant is justified; hātte is also a historical alternative but is outside the assigned special-form system. Do not call an attested alternative bad language merely for missing the requested ordinary-passive target."
+    },
+    {
+      "source_item_id": "EX-I-07-06",
+      "exact_original_prompt": "Behold, God rules over the earth.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Efne, God gīemð ðǣre eorðan.",
+      "reviewed_target_form_ids": [
+        [
+          "efne-invariant",
+          "god-nom-sg",
+          "gieman-present-3-sg",
+          "se-f-gen-sg",
+          "eorthe-gen-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Efne is an interjection; God is the subject; gīemð governs genitive ðǣre eorðan.",
+      "permitted_number_alternatives_and_limits": "God and earth singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "A different ruling verb requires its own taught/evidenced government. Do not replace efne with an unscaffolded imperative of a look/behold verb and treat that as the same target."
+    },
+    {
+      "source_item_id": "EX-I-07-07",
+      "exact_original_prompt": "The tree is in the midst of the grass.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðæt trēo is tōmiddes ðǣm gærse.",
+      "reviewed_target_form_ids": [
+        [
+          "se-n-nom-sg",
+          "treo-nom-sg",
+          "wesan-pres-3-sg",
+          "tomiddes-invariant",
+          "se-n-dat-sg",
+          "gaers-dat-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Neuter singular tree with is; tōmiddes governs neuter dative ðǣm gærse.",
+      "permitted_number_alternatives_and_limits": "Tree singular; grass mass singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "A supported alternative spatial expression can be valid but does not demonstrate an explicit tōmiddes+dative target."
+    },
+    {
+      "source_item_id": "EX-I-07-08",
+      "exact_original_prompt": "The earth is in the midst of the air.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Sēo eorðe is tōmiddes ðǣm lyfte.",
+      "reviewed_target_form_ids": [
+        [
+          "se-f-nom-sg",
+          "eorthe-nom-sg",
+          "wesan-pres-3-sg",
+          "tomiddes-invariant",
+          "se-n-dat-sg",
+          "lyft-dat-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Feminine singular earth is subject; tōmiddes governs the correctly selected neuter dative ðǣm lyfte.",
+      "permitted_number_alternatives_and_limits": "Earth and air singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Do not silently introduce feminine lyft or change only its article. Coherent external gender variants are a language-validity question separate from the selected course paradigm."
+    },
+    {
+      "source_item_id": "EX-I-07-09",
+      "exact_original_prompt": "The waters are under the firmament.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Ðā wæteru sindon under ðǣre fæstnesse.",
+      "reviewed_target_form_ids": [
+        [
+          "se-all-nom-pl",
+          "waeter-nom-pl",
+          "wesan-pres-3-pl",
+          "under-invariant",
+          "se-f-dat-sg",
+          "faestnes-dat-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Plural wæteru controls sindon; under governs feminine dative ðǣre fæstnesse.",
+      "permitted_number_alternatives_and_limits": "Waters plural; firmament singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Other recorded plural be forms may be valid; dative after the selected static under frame remains required."
+    },
+    {
+      "source_item_id": "EX-I-07-10",
+      "exact_original_prompt": "Birds are the food of the animal.",
+      "printed_pages": [
+        3
+      ],
+      "pdf_pages_1_based": [
+        11
+      ],
+      "reviewed_model_text_raw": "Fuglas sindon ðæs dēores męte.",
+      "reviewed_target_form_ids": [
+        [
+          "fugol-nom-pl",
+          "wesan-pres-3-pl",
+          "se-n-gen-sg",
+          "deor-gen-sg",
+          "mete-nom-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Bare plural fuglas is the subject, sindon agrees with it, and singular męte is a predicate noun qualified by genitive ðæs dēores. Predicate nouns need not match subject number.",
+      "permitted_number_alternatives_and_limits": "Birds plural; one animal; food singular mass noun.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Nīeten may replace dēor with the corresponding neuter genitive. Defensible placement of the animal genitive is possible; do not force food into a plural to match birds."
+    },
+    {
+      "source_item_id": "EX-I-07-11",
+      "exact_original_prompt": "Divide (plur.) the waters from the waters.",
+      "printed_pages": [
+        3,
+        4
+      ],
+      "pdf_pages_1_based": [
+        11,
+        12
+      ],
+      "reviewed_model_text_raw": "Tōtwǣmað ðā wæteru fram ðǣm wæterum.",
+      "reviewed_target_form_ids": [
+        [
+          "totwaeman-imp-2-pl",
+          "se-all-acc-pl",
+          "waeter-acc-pl",
+          "fram-invariant",
+          "se-all-dat-pl",
+          "waeter-dat-pl"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Tōtwǣmað is second-plural imperative. The divided waters are accusative, and fram governs dative ðǣm wæterum.",
+      "permitted_number_alternatives_and_limits": "Explicit plural addressees and plural waters on both sides.",
+      "permitted_lexical_form_order_alternatives_and_limits": "A taught/evidenced divide verb such as gedǣlan may be a lexical alternative if no explicit tōtwǣman target is imposed; retain the accusative object and fram+dative separation frame."
+    },
+    {
+      "source_item_id": "EX-I-07-12",
+      "exact_original_prompt": "God's dominion is over all creatures.",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages_1_based": [
+        12
+      ],
+      "reviewed_model_text_raw": "Godes geweald is ofer ealla gesceafta.",
+      "reviewed_target_form_ids": [
+        [
+          "god-gen-sg",
+          "geweald-nom-sg",
+          "wesan-pres-3-sg",
+          "ofer-invariant",
+          "eall-acc-f-pl-strong",
+          "gesceaft-acc-pl"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Godes is genitive dependent on singular neuter geweald. Authority ofer takes accusative feminine plural ealla gesceafta.",
+      "permitted_number_alternatives_and_limits": "God's dominion singular; all creatures plural.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Ealle gesceafta is directly attested in the authority frame on FB127 and is a defensible linguistic variant, even when the selected table prints ealla. Do not generalize the authority accusative into every spatial ofer use."
+    },
+    {
+      "source_item_id": "EX-I-07-13",
+      "exact_original_prompt": "God hallows each day.",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages_1_based": [
+        12
+      ],
+      "reviewed_model_text_raw": "God gehālgað ǣlcne dæg.",
+      "reviewed_target_form_ids": [
+        [
+          "god-nom-sg",
+          "gehalgian-pres-3-sg",
+          "aelc-acc-m-sg-strong",
+          "daeg-acc-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted_after_fidelity_correction",
+      "grammar_verdict": "accepted",
+      "analysis": "Final model now preserves God as subject. Gehālgað is present3sg; long-ǣ ǣlcne agrees with accusative masculine singular dæg.",
+      "permitted_number_alternatives_and_limits": "Each day is singular distributive; God singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "A verified equivalent for each can be linguistically valid, but the selected ǣlc target is distinct from whole/all day. The original draft hē was a source-fidelity error and has been corrected."
+    },
+    {
+      "source_item_id": "EX-I-07-14",
+      "exact_original_prompt": "Let the birds increase and be multiplied.",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages_1_based": [
+        12
+      ],
+      "reviewed_model_text_raw": "Weaxen ðā fuglas and bēon gemanigfielde.",
+      "reviewed_target_form_ids": [
+        [
+          "weaxan-present-subj-3-pl",
+          "se-all-nom-pl",
+          "fugol-nom-pl",
+          "and-invariant",
+          "wesan-pres-subj-3-pl-beon",
+          "gemanigfieldan-past-participle-predicate-pl"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Weaxen and bēon are coordinated third-plural subjunctives; gemanigfielde is the audited plural verbal-predicate participle. The second verb shares the overt bird subject.",
+      "permitted_number_alternatives_and_limits": "Birds plural and third-person wish, not second-person direct command.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Sīen is the alternate selected present subjunctive. An uninflected gemanigfield predicate is also admissible under the taught passive rule; the source-attested -e remains the model."
+    },
+    {
+      "source_item_id": "EX-I-07-15",
+      "exact_original_prompt": "Let the men swim in the sea.",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages_1_based": [
+        12
+      ],
+      "reviewed_model_text_raw": "Swimmen ðā męnn on ðǣm sǣ.",
+      "reviewed_target_form_ids": [
+        [
+          "swimman-present-subj-3-pl",
+          "se-all-nom-pl",
+          "mann-nom-pl",
+          "on-invariant",
+          "se-m-dat-sg",
+          "sae-dat-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Swimmen is third-plural present subjunctive with masculine plural męnn; on takes the selected masculine dative ðǣm sǣ.",
+      "permitted_number_alternatives_and_limits": "Men plural; wish third person; sea singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "A supported word-order alternative may place the subject first. Do not use a second-person imperative just because English begins Let."
+    },
+    {
+      "source_item_id": "EX-I-07-16",
+      "exact_original_prompt": "Let the tree bear fruit.",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages_1_based": [
+        12
+      ],
+      "reviewed_model_text_raw": "Bere ðæt trēo wæstm.",
+      "reviewed_target_form_ids": [
+        [
+          "beran-present-subj-3-sg",
+          "se-n-nom-sg",
+          "treo-nom-sg",
+          "waestm-acc-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted",
+      "grammar_verdict": "accepted",
+      "analysis": "Bere is present third-singular subjunctive; tree is neuter singular subject and wæstm accusative fruit under the newly taught produce sense.",
+      "permitted_number_alternatives_and_limits": "One tree; singular mass fruit is the model.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Plural wæstmas can be defensible for individual fruits. A yield-verb alternative must retain the wish and its own evidenced object frame."
+    },
+    {
+      "source_item_id": "EX-I-07-17",
+      "exact_original_prompt": "He says likewise, Let the light be for a sign.",
+      "printed_pages": [
+        4
+      ],
+      "pdf_pages_1_based": [
+        12
+      ],
+      "reviewed_model_text_raw": "Hē sægð swilce: “Bēo ðæt lēoht tō tācne.”",
+      "reviewed_target_form_ids": [
+        [
+          "he-m-nom-sg",
+          "secgan-pres-3-sg",
+          "swilce-adverb-invariant",
+          "wesan-present-subj-3-sg-beo",
+          "se-n-nom-sg",
+          "leoht-nom-sg",
+          "to-preposition-dative-invariant",
+          "tacen-dat-sg"
+        ]
+      ],
+      "fidelity_verdict": "accepted_with_presentation_note",
+      "grammar_verdict": "accepted",
+      "analysis": "Sægð is an indicative speech verb; swilce is the adverb likewise. Bēo is a quoted third-singular wish whose subject is light, and tō tācne is function with dative.",
+      "permitted_number_alternatives_and_limits": "He, light, and sign singular.",
+      "permitted_lexical_form_order_alternatives_and_limits": "Cweðan can replace sęcgan; sīe can replace bēo; ēac swilce can be a defensible also/likewise phrase. Render a clear direct-quotation boundary; do not turn the unpunctuated token join into an untaught reported-content construction."
+    }
+  ]
+}
