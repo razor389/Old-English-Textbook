@@ -1,0 +1,560 @@
+{
+  "schema_version": "1.0",
+  "chapter_id": "ch04",
+  "status": "PASS",
+  "presentation_verdict": "PASS",
+  "accepted_at_utc": "2026-10-23T13:34:14.338415+00:00",
+  "presentation_aggregator": "/root/page_learner_last",
+  "aggregation_method": "Independently reconciled the three final non-author page ledgers with every current PNG/PDF hash, prior directly viewed identical-image hashes, accepted master identities, actual TeX identities, full parity inventory counts and clean current logs. Page coverage has no gaps or overlap. The aggregator personally viewed learner pages 12–21 in v1 and revised final page 20; colleagues personally inspected the other assigned pages. This is not a claim that the aggregator personally opened all 39 pages.",
+  "prior_textual_reviewer": "opening_source",
+  "accepted_text_checkpoint": "5f47f26",
+  "accepted_text_identities": [
+    {
+      "path": "chapters/ch04/student.md",
+      "raw_sha256": "bcaabb3fef42b5395e107d8d371a7b0865706515b05edbc46f93d8d001108748",
+      "normalized_lf_sha256": "bcaabb3fef42b5395e107d8d371a7b0865706515b05edbc46f93d8d001108748"
+    },
+    {
+      "path": "chapters/ch04/answer-key.md",
+      "raw_sha256": "532e945f5e4c2483e9cf08ddb2b204f0c38c7f72182454ed54102140f4535c3e",
+      "normalized_lf_sha256": "532e945f5e4c2483e9cf08ddb2b204f0c38c7f72182454ed54102140f4535c3e"
+    },
+    {
+      "path": "chapters/ch04/independent-solutions.md",
+      "raw_sha256": "22080b2c56dc015ddc29adf85388d855ec50b6fa296f78b3d916f31461d4299e",
+      "normalized_lf_sha256": "22080b2c56dc015ddc29adf85388d855ec50b6fa296f78b3d916f31461d4299e"
+    }
+  ],
+  "page_totals": {
+    "learner": 20,
+    "key": 19,
+    "total": 39
+  },
+  "every_final_page_visually_inspected_by_non_author": true,
+  "page_coverage_complete_without_overlap": true,
+  "reviewer_ledgers": [
+    {
+      "path": "typesetting/ch04/reviews/learner-01-11.json",
+      "sha256": "ecca35119bffdbafe920025ec5faca75e75e5bea70a9f3b18bc4464b718a60c2",
+      "sha256_normalized_lf": "ecca35119bffdbafe920025ec5faca75e75e5bea70a9f3b18bc4464b718a60c2",
+      "reviewer": "/root/page_learner_first",
+      "scope": "Learner pages 1–11"
+    },
+    {
+      "path": "typesetting/ch04/reviews/learner-12-21.json",
+      "sha256": "8223ef34807977809b0d810da4e16433704f3c11a0fd4cd3292e17cceec29c0f",
+      "sha256_normalized_lf": "8223ef34807977809b0d810da4e16433704f3c11a0fd4cd3292e17cceec29c0f",
+      "reviewer": "/root/page_learner_last",
+      "scope": "Learner pages 12–20"
+    },
+    {
+      "path": "typesetting/ch04/reviews/key-01-19.json",
+      "sha256": "2868e37b0017494c19755e61ef92065a9d6f1caef3b19241ce3d3f903c06650e",
+      "sha256_normalized_lf": "2868e37b0017494c19755e61ef92065a9d6f1caef3b19241ce3d3f903c06650e",
+      "reviewer": "/root/page_key",
+      "scope": "Key pages 1–19"
+    }
+  ],
+  "documents": [
+    {
+      "kind": "learner",
+      "path": "typesetting/ch04/chapter-04.pdf",
+      "sha256": "4fdfdf41abc6d3c2400f07cf9a16d1cd84abf53dfa3f0d5415415b865fd22fba",
+      "build_path": "typesetting/ch04/build/chapter-04.pdf",
+      "build_and_retained_bytes_identical": true,
+      "pages": 20,
+      "render_set": "learner-v2",
+      "render_dpi": 150,
+      "page_review_records": [
+        {
+          "page": 1,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p01.png",
+          "image_sha256": "bc4aa168041bd591619cbb5782dc2f964f43c3f493ab5b7925099f53b0c960d0",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p02.png",
+          "image_sha256": "c0fc303de4b5c4a72417d3237dcb5b9a3081fa88bfd684341dcd42bccb9a60c9",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p03.png",
+          "image_sha256": "75d51416a38361aa860d02d0640b6d08acd8c22f0470bb0f7def13a1e631f324",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p04.png",
+          "image_sha256": "6909649cd3e30a25d3c85a5b986aaec3c84f11dd97e2cc91ceb0e0e73b418b76",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p05.png",
+          "image_sha256": "d015a61021c83d9c4eda6219b97722654c5f41ede559d87e338e8ca9e60d280f",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 6,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p06.png",
+          "image_sha256": "1575b001bb1cb5b2e08f4cfe29ebd4875ab542d9ee500a008cc9f4abf32eaedf",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 7,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p07.png",
+          "image_sha256": "c98358bef4da3287da7827dbd1c8eafcef58aeabdb8c0b304cb74101c8885235",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 8,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p08.png",
+          "image_sha256": "7d9016d347fa8b5dc8b581f1e3bd1b1ffb6ac87626513ba187a7694e0a38458e",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 9,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p09.png",
+          "image_sha256": "f467c2a1718f8e23925a4e98dbb44396c546005653b353327e487d2242d9d7dd",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 10,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p10.png",
+          "image_sha256": "ae68bb18f30e8495cbf49289599bb22f04c2112584ff316d1d34462624663551",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 11,
+          "reviewer": "/root/page_learner_first",
+          "ledger": "typesetting/ch04/reviews/learner-01-11.json",
+          "image": "typesetting/ch04/build/learner-v2-p11.png",
+          "image_sha256": "061e5165b5c4e1f11d55ced2d72090ce8c6d19d83a793d20dd3898d863e9e827",
+          "inspection_basis": "v1_visual_inspection_retained_after_independent_identical_image_hash_check",
+          "status": "PASS"
+        },
+        {
+          "page": 12,
+          "reviewer": "/root/page_learner_last",
+          "ledger": "typesetting/ch04/reviews/learner-12-21.json",
+          "image": "typesetting/ch04/build/learner-v2-p12.png",
+          "image_sha256": "515ef3431573e865abbe4a834e2ee889ffb90e8bdabaf79b1c390f78f14b568a",
+          "inspection_basis": "Exact PNG bytes independently compared with the previously visually inspected v1 page; unchanged.",
+          "status": "PASS"
+        },
+        {
+          "page": 13,
+          "reviewer": "/root/page_learner_last",
+          "ledger": "typesetting/ch04/reviews/learner-12-21.json",
+          "image": "typesetting/ch04/build/learner-v2-p13.png",
+          "image_sha256": "ec56a411674e21aace3ed9c77cf03dd6c41ffb3bedcd0ac63b77a91c8adcb9fb",
+          "inspection_basis": "Exact PNG bytes independently compared with the previously visually inspected v1 page; unchanged.",
+          "status": "PASS"
+        },
+        {
+          "page": 14,
+          "reviewer": "/root/page_learner_last",
+          "ledger": "typesetting/ch04/reviews/learner-12-21.json",
+          "image": "typesetting/ch04/build/learner-v2-p14.png",
+          "image_sha256": "3f142c83660cabb82b2b8251edeeb0c68dccab848d18cb39e0a2b2480b9625e9",
+          "inspection_basis": "Exact PNG bytes independently compared with the previously visually inspected v1 page; unchanged.",
+          "status": "PASS"
+        },
+        {
+          "page": 15,
+          "reviewer": "/root/page_learner_last",
+          "ledger": "typesetting/ch04/reviews/learner-12-21.json",
+          "image": "typesetting/ch04/build/learner-v2-p15.png",
+          "image_sha256": "b04685093a2c5e98e527267c888d8a3ac7fde02e3a9a919cf6e84ad14cb49dd8",
+          "inspection_basis": "Exact PNG bytes independently compared with the previously visually inspected v1 page; unchanged.",
+          "status": "PASS"
+        },
+        {
+          "page": 16,
+          "reviewer": "/root/page_learner_last",
+          "ledger": "typesetting/ch04/reviews/learner-12-21.json",
+          "image": "typesetting/ch04/build/learner-v2-p16.png",
+          "image_sha256": "baba133eaec7a416c69358d6f4c89703dc4ffcf92aa4ed36c19d96043233ac34",
+          "inspection_basis": "Exact PNG bytes independently compared with the previously visually inspected v1 page; unchanged.",
+          "status": "PASS"
+        },
+        {
+          "page": 17,
+          "reviewer": "/root/page_learner_last",
+          "ledger": "typesetting/ch04/reviews/learner-12-21.json",
+          "image": "typesetting/ch04/build/learner-v2-p17.png",
+          "image_sha256": "1b66a3f7621001acafb442be26e541a5b9decc93503e8cf1429e1457501ecfa2",
+          "inspection_basis": "Exact PNG bytes independently compared with the previously visually inspected v1 page; unchanged.",
+          "status": "PASS"
+        },
+        {
+          "page": 18,
+          "reviewer": "/root/page_learner_last",
+          "ledger": "typesetting/ch04/reviews/learner-12-21.json",
+          "image": "typesetting/ch04/build/learner-v2-p18.png",
+          "image_sha256": "e9c758b033876884bfaf6aaf8446ca088ee21c36ef33355909dfd5b5b2ee8cc2",
+          "inspection_basis": "Exact PNG bytes independently compared with the previously visually inspected v1 page; unchanged.",
+          "status": "PASS"
+        },
+        {
+          "page": 19,
+          "reviewer": "/root/page_learner_last",
+          "ledger": "typesetting/ch04/reviews/learner-12-21.json",
+          "image": "typesetting/ch04/build/learner-v2-p19.png",
+          "image_sha256": "6907f6e34c3a1f60e2a4d54628241ee51ce8b898abaf932a098b2080ce3c38bc",
+          "inspection_basis": "Exact PNG bytes independently compared with the previously visually inspected v1 page; unchanged.",
+          "status": "PASS"
+        },
+        {
+          "page": 20,
+          "reviewer": "/root/page_learner_last",
+          "ledger": "typesetting/ch04/reviews/learner-12-21.json",
+          "image": "typesetting/ch04/build/learner-v2-p20.png",
+          "image_sha256": "6c8a9f31664ab15162d946e6912d7fc9133d2531b315221066351bfa5a570cd0",
+          "inspection_basis": "Reopened revised final page directly.",
+          "status": "PASS"
+        }
+      ]
+    },
+    {
+      "kind": "key",
+      "path": "typesetting/ch04/answer-key.pdf",
+      "sha256": "f592bc77e423931a83960165fbdd0cf7f69facec70141235f6f51d1099f84a26",
+      "build_path": "typesetting/ch04/build/answer-key.pdf",
+      "build_and_retained_bytes_identical": true,
+      "pages": 19,
+      "render_set": "key-v3",
+      "render_dpi": 150,
+      "page_review_records": [
+        {
+          "page": 1,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p01.png",
+          "image_sha256": "817ebcbd5f28db094aa09ebd45724181a1561dcf7e2dcaa4a90bcd8b3e23b94a",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 2,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p02.png",
+          "image_sha256": "1676245e02b37b70aa9c6a3d72bbe08d479ca5a8e841570ba17948b60935d7df",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 3,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p03.png",
+          "image_sha256": "8a4a336fbc83d8fdf44b1c341ca0e46be356468feeed7b1a1983044a6b1f169e",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 4,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p04.png",
+          "image_sha256": "79897a7e85cf38909512ba2eb6b9b22638c6d506cdfff382dc3195e03b585a76",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 5,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p05.png",
+          "image_sha256": "4cfca24aca2a6846a47c87dc5abf8755faebc9d0917096b9471187e83d893b37",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 6,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p06.png",
+          "image_sha256": "626df70f150d870f896560ba1f6756ccc25061612e7534c4a5869a4855a8275a",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 7,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p07.png",
+          "image_sha256": "ff00e21dc81a936a7cb9055b8e297dff3408ea77c78ae61d0424408dce2e1a6e",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 8,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p08.png",
+          "image_sha256": "cab85037ed6e84e5854f18ad294aad59477cb7c468089eb86c49305d2becdcbc",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 9,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p09.png",
+          "image_sha256": "7a4777602e9535f6d17a962317767b14db86666d616e76211ed6fe761e470311",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 10,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p10.png",
+          "image_sha256": "888699e837ca2fefdf2e71417d6cedfe8342e209c910f431e1e0f79256bf0bfb",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 11,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p11.png",
+          "image_sha256": "c2812f150c16afe49545ff46dd969013ef7645488ca1b69201369d8900ffc5d8",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 12,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p12.png",
+          "image_sha256": "5645a24e005e8d52eb2210ed51e14bd6315c46ecc93cd337302e3fcf5f1c80b4",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 13,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p13.png",
+          "image_sha256": "a5f51338fa56dea34fcb6d0a45620dc7328a2aab754b82801c6adf80b24078f6",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 14,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p14.png",
+          "image_sha256": "4b60d0ddd0c16525563cfb8938baf3f7a1a0518018c8c4dfc82a7b216a48fb4e",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 15,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p15.png",
+          "image_sha256": "f85f6bba0993526372a7ee428b88d659d2b28c43d849bcfcd852074ebe472965",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 16,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p16.png",
+          "image_sha256": "b830c37c2d5bdbb99b93e12b3e09b84ab1a4974ce599a4b6ea0955f337866309",
+          "inspection_basis": "direct visual inspection of v3",
+          "status": "PASS"
+        },
+        {
+          "page": 17,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p17.png",
+          "image_sha256": "82b471dbb5d5aa88c1cd5390cbdb3dc8b2cc47da2182b7c1b552c4fac86b771d",
+          "inspection_basis": "direct visual inspection of v3",
+          "status": "PASS"
+        },
+        {
+          "page": 18,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p18.png",
+          "image_sha256": "a767bc0c15698cf2debe4257d46f01310db70a47e6ab7f7d1bfabb7a48474f9f",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        },
+        {
+          "page": 19,
+          "reviewer": "/root/page_key",
+          "ledger": "typesetting/ch04/reviews/key-01-19.json",
+          "image": "typesetting/ch04/build/key-v3-p19.png",
+          "image_sha256": "e12b30498c6c761c97cc0a0eb388a5c8a4a93fcbcb608aa6dd0ef49193be8fdd",
+          "inspection_basis": "byte-identical to directly inspected v2 page",
+          "status": "PASS"
+        }
+      ]
+    }
+  ],
+  "resolved_findings": [
+    {
+      "finding_id": "U04-L12-21-01",
+      "status": "resolved",
+      "resolution": "The source-notes group uses 1.5pt paragraph spacing with unchanged font size/leading and text. Direct inspection of revised page20 confirms the final explanatory line now fits beneath Cook note3; the nearly blank terminal page is gone. Pages12–19 have exactly the same image bytes as the inspected initial pages.",
+      "source_ledger": "typesetting/ch04/reviews/learner-12-21.json"
+    },
+    {
+      "finding_id": "U04-KEY-P16-HEADING",
+      "status": "resolved",
+      "resolution": "A clear page before Cumulative review places the heading directly above X1 on final page 17. Final page 16 ends with complete R5, and page 17 retains complete X1 and X2. Both revised pages were directly inspected.",
+      "source_ledger": "typesetting/ch04/reviews/key-01-19.json"
+    }
+  ],
+  "withdrawn_observations": [
+    {
+      "observation_id": "U04-L01-11-OBS01",
+      "status": "withdrawn_after_verification",
+      "verification": "The same PNG was reopened. A read-only bitmap check at header rows 778–798 finds the final Meaning ink at x347 and initial Preterite ink at x416, leaving 68 clear pixel columns. The coordinator also independently inspected the gap. The initial visual impression was mistaken.",
+      "source_ledger": "typesetting/ch04/reviews/learner-01-11.json"
+    }
+  ],
+  "unresolved_findings": [],
+  "content_parity": {
+    "path": "typesetting/ch04/content-parity.json",
+    "sha256": "ca8f9f26075d21189c1d4a83eb27ad2c38dd59d2fb5fdaf9899f8a5d175f432f",
+    "sha256_normalized_lf": "510df823feb2f49bd95edf5da47870425ae1c44a793ac440c05b91e54eba24b3",
+    "status": "PASS",
+    "counts": {
+      "paragraph_heading_list_blocks": 394,
+      "original_tables": 51,
+      "original_table_cells_including_headers": 1138,
+      "all_editorial_comments_preserved": 370
+    },
+    "actual_master_and_tex_hashes_match": true,
+    "inventory_counts_independently_reconciled": true,
+    "documents": [
+      {
+        "master": "chapters/ch04/student.md",
+        "master_sha256": "bcaabb3fef42b5395e107d8d371a7b0865706515b05edbc46f93d8d001108748",
+        "tex": "typesetting/ch04/chapter-04.tex",
+        "tex_sha256": "adab56bbf505d4fec6117f2109d5ecef13ffd3ec9154d40a703054e7614426c6",
+        "tex_sha256_normalized_lf": "44aba7513a3fb5790e5ca5b3c36c56d0b8af5f22b011f607fec7f3d4af2385a3",
+        "paragraph_heading_list_blocks": 233,
+        "original_tables": 18,
+        "original_table_cells_including_headers": 563,
+        "all_editorial_comments_preserved": 266,
+        "paragraph_and_cell_parity": "PASS",
+        "pdf_complete_paragraph_character_parity": "PASS",
+        "title_parity": "PASS",
+        "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+      },
+      {
+        "master": "chapters/ch04/answer-key.md",
+        "master_sha256": "532e945f5e4c2483e9cf08ddb2b204f0c38c7f72182454ed54102140f4535c3e",
+        "tex": "typesetting/ch04/answer-key.tex",
+        "tex_sha256": "b94ec51dade8e29c3d3c8c987d38d73a2b744fefa6de1920cd582f38a8522647",
+        "tex_sha256_normalized_lf": "7647e74ae817284c3d70ae0e5edb978481f10ca323427a7af1acfdb62e3c7eda",
+        "paragraph_heading_list_blocks": 161,
+        "original_tables": 33,
+        "original_table_cells_including_headers": 575,
+        "all_editorial_comments_preserved": 104,
+        "paragraph_and_cell_parity": "PASS",
+        "pdf_complete_paragraph_character_parity": "PASS",
+        "title_parity": "PASS",
+        "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+      }
+    ]
+  },
+  "compilation_logs": [
+    {
+      "path": "typesetting/ch04/build/chapter-04.log",
+      "sha256": "d7b8302aa9bc10bd601db2fa1ca1a7538654c4b6573ae491f90f4a81e2f26234",
+      "diagnostic_count": 0,
+      "diagnostics": [],
+      "checked_diagnostics": [
+        "Missing character:",
+        "Overfull \\hbox",
+        "Overfull \\vbox",
+        "Underfull \\hbox",
+        "Underfull \\vbox",
+        "Font shape",
+        "Rerun to get",
+        "Table widths have changed",
+        "Fatal error",
+        "! LaTeX Error"
+      ],
+      "output_line": "Output written on chapter-04.pdf (20 pages, 131994 bytes)."
+    },
+    {
+      "path": "typesetting/ch04/build/answer-key.log",
+      "sha256": "5a2349f8bcc0e7a8273860d9f975c0e952b74ab686edf55816b0680b71482c96",
+      "diagnostic_count": 0,
+      "diagnostics": [],
+      "checked_diagnostics": [
+        "Missing character:",
+        "Overfull \\hbox",
+        "Overfull \\vbox",
+        "Underfull \\hbox",
+        "Underfull \\vbox",
+        "Font shape",
+        "Rerun to get",
+        "Table widths have changed",
+        "Fatal error",
+        "! LaTeX Error"
+      ],
+      "output_line": "Output written on answer-key.pdf (19 pages, 128007 bytes)."
+    }
+  ],
+  "masters_unchanged_since_textual_acceptance": true,
+  "frozen_solutions_unchanged": true,
+  "build_and_retained_pdf_bytes_identical": true,
+  "pre_presentation_textual_review_files": [
+    {
+      "path": "chapters/ch04/review.md",
+      "sha256": "ae32fe0d2b14c25fed106c129b343e729fd2891310304a2e53bb7c7eb530b4f1",
+      "sha256_normalized_lf": "4a46c0fcb3aede25f4c7b4a6a9e005ab4c6635f0b09a9cb13a725d936f3496bf"
+    },
+    {
+      "path": "chapters/ch04/review-findings.json",
+      "sha256": "45785beb36ec7b134fdc226b76851463f7f4592ef77f75815ea5c5913f20ae7f",
+      "sha256_normalized_lf": "c91f6dd540576c05c2ec9e81ddffae644458541f83a006c93d4ffd4fe1368799"
+    }
+  ],
+  "scope_limit": "This record accepts only the identified Unit 4 complete exports and presentation. It preserves the earlier independent textual review and does not certify register integration, Beads closure or a later modified artifact."
+}

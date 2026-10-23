@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch04",
   "title": "Strong verbs I–III",
-  "status": "text_reviewed_exports_pending",
+  "status": "reviewed_exports_and_registers_checkpoint_pending",
   "contract_date": "2026-10-22",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -46076,7 +46076,7 @@
     "typeset": "oec-u04-typeset",
     "finish": "oec-u04-finish"
   },
-  "review_status": "independently_accepted_text",
+  "review_status": "independently_accepted_text_and_exports",
   "amendments": [],
   "validation_at_contract": {
     "graded_tasks": 52,
@@ -46093,9 +46093,17 @@
   },
   "completion": {
     "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false,
-    "independent_review_clear": true
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "independent_review_clear": true,
+    "register_integration_record": "chapters/ch04/register-integration.json",
+    "register_counts": {
+      "lemmas": 211,
+      "forms": 2735,
+      "senses": 231,
+      "constructions": 165
+    },
+    "no_later_unit_drafted": true
   },
   "pre_prose_checkpoint": "856a5fa",
   "metadata_history": [
@@ -46125,6 +46133,29 @@
     "learner_sha256": "bcaabb3fef42b5395e107d8d371a7b0865706515b05edbc46f93d8d001108748",
     "key_sha256": "532e945f5e4c2483e9cf08ddb2b204f0c38c7f72182454ed54102140f4535c3e",
     "material_findings_remaining": 0,
-    "minor_findings_remaining": 0
+    "minor_findings_remaining": 0,
+    "accepted_text_checkpoint": "5f47f26",
+    "learner_sha256_normalized_lf": "bcaabb3fef42b5395e107d8d371a7b0865706515b05edbc46f93d8d001108748",
+    "key_sha256_normalized_lf": "532e945f5e4c2483e9cf08ddb2b204f0c38c7f72182454ed54102140f4535c3e"
+  },
+  "accepted_text_checkpoint": "5f47f26",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch04/page-review.json",
+    "complete_content_parity": true,
+    "every_page_inspected": true,
+    "lualatex_logs_clean": true,
+    "pdfs": {
+      "learner": {
+        "path": "typesetting/ch04/chapter-04.pdf",
+        "pages": 20,
+        "sha256": "4fdfdf41abc6d3c2400f07cf9a16d1cd84abf53dfa3f0d5415415b865fd22fba"
+      },
+      "key": {
+        "path": "typesetting/ch04/answer-key.pdf",
+        "pages": 19,
+        "sha256": "f592bc77e423931a83960165fbdd0cf7f69facec70141235f6f51d1099f84a26"
+      }
+    }
   }
 }

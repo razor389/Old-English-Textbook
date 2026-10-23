@@ -2,7 +2,7 @@
   "schema_version": 1,
   "unit": 4,
   "reviewer": "opening_source",
-  "status": "textual review complete; presentation review pending",
+  "status": "textual and presentation reviews complete",
   "solve_freeze_utc": "2026-10-23T02:07:51Z",
   "learner_at_solve_sha256": "bcaabb3fef42b5395e107d8d371a7b0865706515b05edbc46f93d8d001108748",
   "independent_solutions_sha256": "22080b2c56dc015ddc29adf85388d855ec50b6fa296f78b3d916f31461d4299e",
@@ -64,7 +64,7 @@
   "prior_exposure": "Grammar/source auditor; reviewed proposed teaching examples and controlled narrative. No learner/key authorship, task target witnesses, answer models or source-audit independent translation before solve. Learner local supports used.",
   "findings": [],
   "textual_verdict": "PASS",
-  "presentation_verdict": "PENDING",
+  "presentation_verdict": "PASS",
   "comparison_completed_utc": "2026-10-23T02:23:12+00:00",
   "coordinator_acknowledged_pre_key_checkpoint": true,
   "key_opened_only_after_solutions_frozen": true,
@@ -1107,5 +1107,88 @@
   "open_material_findings": 0,
   "open_minor_findings": 0,
   "textual_acceptance_scope": "Complete learner/key text, every assigned task, full displayed paradigms, lexical/grammar scope, source fidelity and supported/independent grading boundaries at accepted identities.",
-  "presentation_limit": "No Unit4 export page has yet been inspected by this reviewer."
+  "presentation_limit": "Presentation accepted for the exact final learner PDF with 20 pages and key PDF with 19 pages in typesetting/ch04/page-review.json. The original textual reviewer did not perform this later aggregation; individual page inspectors and their scopes are explicitly attributed.",
+  "presentation_aggregator": "/root/page_learner_last",
+  "presentation_review": {
+    "status": "PASS",
+    "accepted_at_utc": "2026-10-23T13:34:14.338415+00:00",
+    "record": "typesetting/ch04/page-review.json",
+    "record_sha256": "ac7b84802870f3de9aee1c761ce3b8965020be9a0be1d884a7fb14f888750310",
+    "aggregator": "/root/page_learner_last",
+    "prior_textual_reviewer": "opening_source",
+    "textual_data_preserved": true,
+    "every_page_visually_inspected_by_non_author": true,
+    "page_totals": {
+      "learner": 20,
+      "key": 19,
+      "total": 39
+    },
+    "reviewer_ledgers": [
+      {
+        "path": "typesetting/ch04/reviews/learner-01-11.json",
+        "sha256": "ecca35119bffdbafe920025ec5faca75e75e5bea70a9f3b18bc4464b718a60c2",
+        "sha256_normalized_lf": "ecca35119bffdbafe920025ec5faca75e75e5bea70a9f3b18bc4464b718a60c2",
+        "reviewer": "/root/page_learner_first",
+        "scope": "Learner pages 1–11"
+      },
+      {
+        "path": "typesetting/ch04/reviews/learner-12-21.json",
+        "sha256": "8223ef34807977809b0d810da4e16433704f3c11a0fd4cd3292e17cceec29c0f",
+        "sha256_normalized_lf": "8223ef34807977809b0d810da4e16433704f3c11a0fd4cd3292e17cceec29c0f",
+        "reviewer": "/root/page_learner_last",
+        "scope": "Learner pages 12–20"
+      },
+      {
+        "path": "typesetting/ch04/reviews/key-01-19.json",
+        "sha256": "2868e37b0017494c19755e61ef92065a9d6f1caef3b19241ce3d3f903c06650e",
+        "sha256_normalized_lf": "2868e37b0017494c19755e61ef92065a9d6f1caef3b19241ce3d3f903c06650e",
+        "reviewer": "/root/page_key",
+        "scope": "Key pages 1–19"
+      }
+    ],
+    "pdfs": [
+      {
+        "path": "typesetting/ch04/chapter-04.pdf",
+        "sha256": "4fdfdf41abc6d3c2400f07cf9a16d1cd84abf53dfa3f0d5415415b865fd22fba",
+        "pages": 20
+      },
+      {
+        "path": "typesetting/ch04/answer-key.pdf",
+        "sha256": "f592bc77e423931a83960165fbdd0cf7f69facec70141235f6f51d1099f84a26",
+        "pages": 19
+      }
+    ],
+    "content_parity_counts": {
+      "paragraph_heading_list_blocks": 394,
+      "original_tables": 51,
+      "original_table_cells_including_headers": 1138,
+      "all_editorial_comments_preserved": 370
+    },
+    "current_logs_clean": true,
+    "build_and_retained_pdfs_identical": true,
+    "frozen_solutions_unchanged": true,
+    "unresolved_findings": []
+  },
+  "presentation_findings": [
+    {
+      "finding_id": "U04-L12-21-01",
+      "status": "resolved",
+      "resolution": "The source-notes group uses 1.5pt paragraph spacing with unchanged font size/leading and text. Direct inspection of revised page20 confirms the final explanatory line now fits beneath Cook note3; the nearly blank terminal page is gone. Pages12–19 have exactly the same image bytes as the inspected initial pages.",
+      "source_ledger": "typesetting/ch04/reviews/learner-12-21.json"
+    },
+    {
+      "finding_id": "U04-KEY-P16-HEADING",
+      "status": "resolved",
+      "resolution": "A clear page before Cumulative review places the heading directly above X1 on final page 17. Final page 16 ends with complete R5, and page 17 retains complete X1 and X2. Both revised pages were directly inspected.",
+      "source_ledger": "typesetting/ch04/reviews/key-01-19.json"
+    }
+  ],
+  "withdrawn_presentation_observations": [
+    {
+      "observation_id": "U04-L01-11-OBS01",
+      "status": "withdrawn_after_verification",
+      "verification": "The same PNG was reopened. A read-only bitmap check at header rows 778–798 finds the final Meaning ink at x347 and initial Preterite ink at x416, leaving 68 clear pixel columns. The coordinator also independently inspected the gap. The initial visual impression was mistaken.",
+      "source_ledger": "typesetting/ch04/reviews/learner-01-11.json"
+    }
+  ]
 }

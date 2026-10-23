@@ -1,6 +1,6 @@
 # Status
 
-Updated 22 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–3 are complete and independently reviewed**, with complete LuaLaTeX learner/key PDFs and cumulative teaching records.
+Updated 23 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–4 have complete, independently reviewed texts, LuaLaTeX learner/key PDFs and cumulative teaching records.** Unit 4's final local checkpoint and Beads closure are being recorded.
 
 ## Established direction
 
@@ -28,16 +28,20 @@ The [brief](curriculum/UNIT_03_BRIEF.md) and [contract](chapters/ch03/coverage.j
 
 The [learner PDF](typesetting/ch03/chapter-03.pdf) has **30 pages** and the [separate key PDF](typesetting/ch03/answer-key.pdf) **19**. Every final page was visually inspected, complete content parity passes, and all material and presentation findings are resolved. See [the independent review](chapters/ch03/review.md), [preserved solutions](chapters/ch03/independent-solutions.md), [export record](typesetting/ch03/README.md), and [register integration record](chapters/ch03/register-integration.json). The contract preceded prose at `9626f6f`; independently accepted text was saved at `e528af8`; complete exports and registers at **`95c68d6`**. The entire Unit 3 Beads chain is closed.
 
+## Reviewed Unit 4
+
+The [brief](curriculum/UNIT_04_BRIEF.md) and [contract](chapters/ch04/coverage.json) cover **strong verbs I–III**: 24 productive and two recognition-reference finite systems, all 312 present/preterite indicative cells, 104 principal-part entries and four complete noun paradigms with 32 cells. All 52 original tasks were solved before key access. Eight teaching examples, a 51-word controlled account and the exact 44-word *Apollonius* storm-to-shore reading have complete dependency records. Ten local support groups and all four relevant source notes are retained. Unit 4 adds no numbered Cook exercise assignments.
+
+The [learner PDF](typesetting/ch04/chapter-04.pdf) has **20 pages** and the [separate key](typesetting/ch04/answer-key.pdf) **19**. All 39 final pages passed non-author visual inspection. Complete content parity covers 394 prose/heading/list blocks, 51 tables, 1,138 table cells and 370 editorial comments. All textual and presentation findings are resolved or withdrawn. See [the independent review](chapters/ch04/review.md), [preserved solutions](chapters/ch04/independent-solutions.md), [export record](typesetting/ch04/README.md) and [page acceptance](typesetting/ch04/page-review.json).
+
+The source/contract checkpoint preceded prose at **`856a5fa`**; independently accepted text was saved at **`5f47f26`**. Complete exports and reviewed registers are ready for the final local checkpoint. The Unit 4 finish issue remains open until that revision and tracker closure are saved.
+
 ## Cumulative records and next work
 
-The [lexical register](lexicon/entries.json) now has **163 lemmas, 2,319 form records and 178 senses**; [grammar](curriculum/grammar.json) has **127 constructions**. Unit 3 establishes 1,450 productive and 94 recognition-only form milestones, 63 productive and one recognition-only sense, and 34 productive and one recognition-only construction. Supplied reading forms and constructions remain supplied. Earlier milestones, evidence and supplied histories survive integration; all ten earlier text/review files and all 134 archived evidence files are unchanged. Reconstructed **\*sǣwa** remains reference-only. No archived teaching milestone has been imported.
+The [lexical register](lexicon/entries.json) now has **211 lemmas, 2,735 form records and 231 senses**; [grammar](curriculum/grammar.json) has **165 constructions**. Unit 4 establishes 320 productive and 24 recognition-only form milestones, 28 productive and two recognition-only senses, and 25 productive and two recognition-only constructions. Its 74 supplied forms, 23 supplied senses and 11 supplied constructions acquire no production milestone from that exposure.
 
-The canonical crosswalk now has **63 assigned and 581 deferred Cook items**, with none silently omitted. I.4.18 and the birds candidate remain deferred to Unit 7; the lights candidate is explicitly subsumed in Unit 3's fourth-day span.
+The [integration record](chapters/ch04/register-integration.json) verifies every earlier milestone, evidence link and supplied history, all **42 earlier active files** and all **134 archived evidence files**. Previously supplied **wearð** is deliberately taught here with ordinary “become”; supplied **tō**, recognition-only **eall** and reference-only **\*sǣwa** retain their boundaries. No archived teaching milestone has been imported.
 
-## Unit 4 in progress
-
-The requested next unit is **strong verbs I–III**, under [its brief](curriculum/UNIT_04_BRIEF.md). Parallel grammar, source and curriculum audits establish 24 productive and two recognition-reference finite systems, four complete noun paradigms, 52 original tasks, eight teaching examples, a 51-word controlled account and an exact 44-word *Apollonius* reading. The source reading has explicit local support and four retained apparatus notes. Unit 4 adds no numbered Cook assignments.
-
-The validated pre-prose [contract](chapters/ch04/coverage.json) and frozen audits were saved in local checkpoint **`856a5fa`** before learner/key prose. Both masters are independently accepted: all 52 tasks were solved before key access, all 312 finite cells, 32 noun cells and 104 principal parts were recovered from the learner tables, and source/dependency checks pass with no open findings. Complete exports and final integration remain. Registers still contain only the reviewed Units 1–3. The Unit 4 Beads chain is `oec-u04`; [the workflow](docs/WORKFLOW.md) governs the remaining stages. Unit 5 has not been drafted.
+The canonical crosswalk remains **63 assigned and 581 deferred Cook items**, with none omitted. I.4.18 and the birds candidate remain deferred to Unit 7; the lights candidate is subsumed in Unit 3's fourth-day span. The next planned unit is **Unit 5: strong verbs IV–VII**, with Cook I.5. No Unit 5 prose has been drafted.
 
 The archived experiment remains an unchanged evidence snapshot. No remote, publication or distribution is configured.

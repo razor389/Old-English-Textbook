@@ -1,6 +1,6 @@
 # Unit 4 independent review
 
-Textual verdict: **PASS**, 23 October 2026 UTC. Presentation verdict: **PENDING**.
+Textual verdict: **PASS**, 23 October 2026 UTC. Presentation verdict: **PASS**.
 
 ## Independent solve checkpoint
 
@@ -63,4 +63,16 @@ There are no open textual findings. The learner and key are accepted at the exac
 
 ## Presentation verdict
 
-**PENDING**. No Unit 4 exported page has been inspected in this review.
+**PASS**, 23 October 2026 UTC. Final presentation aggregation: `/root/page_learner_last`. The original textual review above remains attributed to `opening_source`; its solutions, matrices, findings and acceptance identities are unchanged.
+
+The retained learner PDF has **20 pages**, and the separate key has **19**. All **39 final pages** were visually inspected by non-authors. `/root/page_learner_first` inspected learner pages 1–11, `/root/page_learner_last` learner pages 12–20, and `/root/page_key` every key page. The aggregator personally inspected its assigned learner pages and the revised ending; it verified colleagues' page ledgers and exact image identities without claiming personal visual inspection of their pages. Unchanged final images are byte-identical to the images directly inspected earlier. All changed pages were reopened.
+
+The [consolidated page record](../../typesetting/ch04/page-review.json) identifies every final PDF and rendered page, all three reviewer ledgers, clean compilation logs, accepted master identities and the complete content-parity record. Independent reconciliation confirms full page coverage without gaps or overlap, all current PNG/PDF hashes, and byte identity between retained and build PDFs. Complete parity covers **394 prose/heading/list blocks**, **51 tables**, **1,138 table cells including headers** and **370 editorial comments**. Actual Markdown inventories and TeX identities match the recorded parity results. The learner and key remain exactly the accepted masters, and the original pre-key solutions remain unchanged.
+
+Two presentation findings were resolved: the learner's final section 79 explanation now fits with Cook note 3 on page 20, and the key's Cumulative review heading now stays above X1 on page 17. A reported rare-table header-spacing concern was withdrawn after direct reinspection and image verification. Original observations and render histories remain in the [page ledgers](../../typesetting/ch04/reviews/). No presentation finding remains open.
+
+Accepted learner SHA256: `4fdfdf41abc6d3c2400f07cf9a16d1cd84abf53dfa3f0d5415415b865fd22fba`.
+
+Accepted key SHA256: `f592bc77e423931a83960165fbdd0cf7f69facec70141235f6f51d1099f84a26`.
+
+This presentation acceptance applies to those exact exports. Register integration and final project closure remain the coordinator's separate responsibilities.
