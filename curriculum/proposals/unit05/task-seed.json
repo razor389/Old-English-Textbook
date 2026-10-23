@@ -1,0 +1,1064 @@
+{
+  "schema_version": 1,
+  "status": "superseded_planning_record",
+  "chapter": "ch05",
+  "tasks": [
+    {
+      "task_id": "NEW-U05-P01",
+      "key_id": "KEY-NEW-U05-P01",
+      "origin": "new_teaching_material",
+      "mode": "supported_recognition",
+      "prompt": "The printed entry gives beran, bær, bǣron, boren. Label the four principal-part positions. Which entries are finite, and which are nonfinite citations?",
+      "target_specification": "Identify the four positions and distinguish indicative entries from citation-only nonfinite forms.",
+      "target_form_ids": [
+        "beran-pret-1-sg",
+        "beran-pret-3-pl"
+      ],
+      "required_feature_ids": [
+        "u04-principal-parts-reference"
+      ],
+      "supplied_form_ids": [
+        "beran-infinitive-citation",
+        "beran-participle-citation"
+      ]
+    },
+    {
+      "task_id": "NEW-U05-P02",
+      "key_id": "KEY-NEW-U05-P02",
+      "origin": "new_teaching_material",
+      "mode": "recognition",
+      "prompt": "Compare geaf and sealde, both meaning gave. Identify the strong form and the weak form; explain the difference in preterite formation.",
+      "target_specification": "Strong vowel alternation versus weak dental preterite; do not classify by the English gloss.",
+      "target_form_ids": [
+        "giefan-pret-3-sg",
+        "sellan-pret-3-sg"
+      ],
+      "required_feature_ids": [
+        "u04-strong-weak-contrast",
+        "u05-class-V"
+      ]
+    },
+    {
+      "task_id": "NEW-U05-P03",
+      "key_id": "KEY-NEW-U05-P03",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "For beran, give the preterite indicative forms for I, you (singular), he, and we. Identify the forms using the preterite plural stem.",
+      "target_specification": "Second singular takes the plural stem plus -e; plural takes -on, while first/third singular share the singular stem.",
+      "target_form_ids": [
+        "beran-pret-1-sg",
+        "beran-pret-2-sg",
+        "beran-pret-3-sg",
+        "beran-pret-1-pl"
+      ],
+      "required_feature_ids": [
+        "u04-preterite-endings",
+        "u05-class-IV"
+      ]
+    },
+    {
+      "task_id": "NEW-U05-P04",
+      "key_id": "KEY-NEW-U05-P04",
+      "origin": "new_teaching_material",
+      "mode": "supported_production",
+      "prompt": "The printed entry gives gescieppan, gescēop, gescēopon, gesceapen. Using it, give you (singular) created and we created. Is gesceapen itself a finite preterite?",
+      "target_specification": "Form the requested finite endings from the supplied plural principal part; classify the final nonfinite citation without producing participial syntax.",
+      "target_form_ids": [
+        "gescieppan-pret-2-sg",
+        "gescieppan-pret-1-pl"
+      ],
+      "required_feature_ids": [
+        "u04-preterite-endings",
+        "u04-principal-parts-reference",
+        "u05-class-VI"
+      ],
+      "supplied_form_ids": [
+        "gescieppan-infinitive-citation",
+        "gescieppan-participle-citation",
+        "gescieppan-pret-3-pl",
+        "gescieppan-pret-3-sg"
+      ]
+    },
+    {
+      "task_id": "NEW-U05-F01",
+      "key_id": "KEY-NEW-U05-F01",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of beran: present 2sg; preterite 1sg and 2sg.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "beran-pres-2-sg",
+        "beran-pret-1-sg",
+        "beran-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-IV",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F02",
+      "key_id": "KEY-NEW-U05-F02",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of niman: present 3sg; preterite 3sg and 1pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "niman-pres-3-sg",
+        "niman-pret-3-sg",
+        "niman-pret-1-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-IV",
+        "u05-nasal-IV",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F03",
+      "key_id": "KEY-NEW-U05-F03",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of cuman: present 1sg, 2sg and 3sg; preterite 3pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "cuman-pres-1-sg",
+        "cuman-pres-2-sg",
+        "cuman-pres-3-sg",
+        "cuman-pret-3-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-IV",
+        "u05-nasal-IV",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F04",
+      "key_id": "KEY-NEW-U05-F04",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of sprecan: present 2sg and 3sg; preterite 2sg.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "sprecan-pres-2-sg",
+        "sprecan-pres-3-sg",
+        "sprecan-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-V",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F05",
+      "key_id": "KEY-NEW-U05-F05",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of cweðan: present 2sg and 3sg; preterite 3pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "cwethan-pres-2-sg",
+        "cwethan-pres-3-sg",
+        "cwethan-pret-3-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-V",
+        "u05-cwethan-consonants",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F06",
+      "key_id": "KEY-NEW-U05-F06",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of giefan: present 2sg and 3sg; preterite 1sg and 1pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "giefan-pres-2-sg",
+        "giefan-pres-3-sg",
+        "giefan-pret-1-sg",
+        "giefan-pret-1-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-V",
+        "u05-palatal-V",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F07",
+      "key_id": "KEY-NEW-U05-F07",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of biddan: present 1sg and 3sg; preterite 2sg.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "biddan-pres-1-sg",
+        "biddan-pres-3-sg",
+        "biddan-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-V",
+        "u05-j-present-V",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F08",
+      "key_id": "KEY-NEW-U05-F08",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of licgan: present 2sg and 3sg; preterite 1pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "licgan-pres-2-sg",
+        "licgan-pres-3-sg",
+        "licgan-pret-1-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-V",
+        "u05-j-present-V",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F09",
+      "key_id": "KEY-NEW-U05-F09",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of sittan: present 3sg; preterite 1sg and 2sg.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "sittan-pres-3-sg",
+        "sittan-pret-1-sg",
+        "sittan-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-V",
+        "u05-j-present-V",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F10",
+      "key_id": "KEY-NEW-U05-F10",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of etan: present 2sg and 3sg; preterite 1sg and 2sg.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "etan-pres-2-sg",
+        "etan-pres-3-sg",
+        "etan-pret-1-sg",
+        "etan-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-V",
+        "u05-etan-exception",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F11",
+      "key_id": "KEY-NEW-U05-F11",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of sēon: present 1sg, 2sg and 3pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "seon-pres-1-sg",
+        "seon-pres-2-sg",
+        "seon-pres-3-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-V",
+        "u05-contract-V",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F12",
+      "key_id": "KEY-NEW-U05-F12",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of gesēon: present 3sg; preterite 2sg and 2pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "geseon-pres-3-sg",
+        "geseon-pret-2-sg",
+        "geseon-pret-2-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-V",
+        "u05-contract-V",
+        "u05-prefixed-lexemes",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F13",
+      "key_id": "KEY-NEW-U05-F13",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of faran: present 2sg and 3sg; preterite 1pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "faran-pres-2-sg",
+        "faran-pres-3-sg",
+        "faran-pret-1-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-VI",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F14",
+      "key_id": "KEY-NEW-U05-F14",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of slēan: present 1sg, 2sg and 2pl; preterite 2sg.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "slean-pres-1-sg",
+        "slean-pres-2-sg",
+        "slean-pres-2-pl",
+        "slean-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-VI",
+        "u05-contract-VI",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F15",
+      "key_id": "KEY-NEW-U05-F15",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of standan: present 2sg and 3sg; preterite 3sg.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "standan-pres-2-sg",
+        "standan-pres-3-sg",
+        "standan-pret-3-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-VI",
+        "u05-standan-nasal",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F16",
+      "key_id": "KEY-NEW-U05-F16",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of hębban: present 1sg and 3sg; preterite 1pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "hebban-pres-1-sg",
+        "hebban-pres-3-sg",
+        "hebban-pret-1-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-VI",
+        "u05-j-present-VI",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F17",
+      "key_id": "KEY-NEW-U05-F17",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of scieppan and gescieppan: scieppan: present 1sg and 2sg, preterite 3sg; gescieppan: preterite 3pl.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "scieppan-pres-1-sg",
+        "scieppan-pres-2-sg",
+        "scieppan-pret-3-sg",
+        "gescieppan-pret-3-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-VI",
+        "u05-j-present-VI",
+        "u05-prefixed-lexemes",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F18",
+      "key_id": "KEY-NEW-U05-F18",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of swęrian: present 1sg, 2sg and 3sg; preterite 2sg.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "swerian-pres-1-sg",
+        "swerian-pres-2-sg",
+        "swerian-pres-3-sg",
+        "swerian-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-VI",
+        "u05-j-present-VI",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F19",
+      "key_id": "KEY-NEW-U05-F19",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of feallan, healdan and weaxan: present 3sg of each; preterite 1pl of weaxan.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "feallan-pres-3-sg",
+        "healdan-pres-3-sg",
+        "weaxan-pres-3-sg",
+        "weaxan-pret-1-pl"
+      ],
+      "required_feature_ids": [
+        "u05-class-VII-eo",
+        "u05-VII-present-changes",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F20",
+      "key_id": "KEY-NEW-U05-F20",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of cnāwan and wēpan: present 2sg and preterite 2sg of each.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "cnawan-pres-2-sg",
+        "cnawan-pret-2-sg",
+        "wepan-pres-2-sg",
+        "wepan-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-VII-eo",
+        "u05-VII-present-changes",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F21",
+      "key_id": "KEY-NEW-U05-F21",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of hēawan and flōwan: present 2sg and preterite 2sg of each.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "heawan-pres-2-sg",
+        "heawan-pret-2-sg",
+        "flowan-pres-2-sg",
+        "flowan-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-VII-eo",
+        "u05-VII-present-changes",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F22",
+      "key_id": "KEY-NEW-U05-F22",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of lǣtan, hātan and fōn: present 3sg of each; preterite 2sg of fōn.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "laetan-pres-3-sg",
+        "hatan-pres-3-sg",
+        "fon-pres-3-sg",
+        "fon-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u05-class-VII-e",
+        "u05-contract-VII",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F23",
+      "key_id": "KEY-NEW-U05-F23",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of geswīcan and scīnan: present 3sg and preterite 2sg of each.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "geswican-pres-3-sg",
+        "geswican-pret-2-sg",
+        "scinan-pres-3-sg",
+        "scinan-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u04-class-I",
+        "u05-bridges-I-III",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-F24",
+      "key_id": "KEY-NEW-U05-F24",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the selected indicative forms of flēogan and swimman: present 3sg and preterite 3pl of each.",
+      "target_specification": "Produce the requested cells with exact selected stem vowels, consonants and endings; documented variants remain valid language and must be distinguished from this selected-form target.",
+      "target_form_ids": [
+        "fleogan-pres-3-sg",
+        "fleogan-pret-3-pl",
+        "swimman-pres-3-sg",
+        "swimman-pret-3-pl"
+      ],
+      "required_feature_ids": [
+        "u04-class-II",
+        "u04-class-III-nasal",
+        "u05-bridges-I-III",
+        "u04-indicative-scope",
+        "u04-present-endings",
+        "u04-preterite-endings"
+      ],
+      "headwords_supplied": true
+    },
+    {
+      "task_id": "NEW-U05-C01",
+      "key_id": "KEY-NEW-U05-C01",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate: You (singular) carry the food, and I take the fish.",
+      "target_specification": "Present second and first singular; accusative food and fish.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-carry-take-objects",
+        "u02-clause-coordination"
+      ],
+      "target_sequences_ids": [
+        [
+          "thu-nom-sg",
+          "beran-pres-2-sg",
+          "se-m-acc-sg",
+          "mete-acc-sg",
+          "and-invariant",
+          "ic-nom-sg",
+          "niman-pres-1-sg",
+          "se-m-acc-sg",
+          "fisc-acc-sg"
+        ]
+      ]
+    },
+    {
+      "task_id": "NEW-U05-C02",
+      "key_id": "KEY-NEW-U05-C02",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate using giefan: We (two) gave the men our food (belonging to us two).",
+      "target_specification": "Dual speaker subject takes plural finite verb; men dative; food accusative with agreeing dual-possessor adjective.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-giving-recipient",
+        "u02-dual-agreement",
+        "u03-possessive-agreement"
+      ],
+      "target_sequences_ids": [
+        [
+          "ic-nom-dual",
+          "giefan-pret-1-pl",
+          "se-all-dat-pl",
+          "mann-dat-pl",
+          "uncer-poss-acc-m-sg-strong",
+          "mete-acc-sg"
+        ]
+      ]
+    },
+    {
+      "task_id": "NEW-U05-C03",
+      "key_id": "KEY-NEW-U05-C03",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate: The companions sat in the dwelling, and the man stood on the shore.",
+      "target_specification": "Plural sat and singular stood; two inherited locative on+dative phrases.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-intransitive-posture",
+        "on-dative-location",
+        "u02-clause-coordination"
+      ],
+      "target_sequences_ids": [
+        [
+          "se-all-nom-pl",
+          "gefera-nom-pl",
+          "sittan-pret-3-pl",
+          "on-invariant",
+          "se-n-dat-sg",
+          "hof-dat-sg",
+          "and-invariant",
+          "se-m-nom-sg",
+          "mann-nom-sg",
+          "standan-pret-3-sg",
+          "on-invariant",
+          "se-m-dat-sg",
+          "strand-dat-sg"
+        ]
+      ]
+    },
+    {
+      "task_id": "NEW-U05-C04",
+      "key_id": "KEY-NEW-U05-C04",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate using etan: I did not eat the food; you (singular) ate it.",
+      "target_specification": "Different first/second singular preterite cells; ne before finite; accusative masculine hine refers to masculine męte despite English it.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-eat",
+        "u05-simple-negation",
+        "u02-pronoun-reference"
+      ],
+      "target_sequences_ids": [
+        [
+          "ic-nom-sg",
+          "ne-invariant",
+          "etan-pret-1-sg",
+          "se-m-acc-sg",
+          "mete-acc-sg"
+        ],
+        [
+          "thu-nom-sg",
+          "etan-pret-2-sg",
+          "he-m-acc-sg"
+        ]
+      ]
+    },
+    {
+      "task_id": "NEW-U05-C05",
+      "key_id": "KEY-NEW-U05-C05",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Rewrite with hīe as subject and plural objects: Hē geseah ðone fugol and nōm ðone fisc.",
+      "target_specification": "Change both finite verbs and both object phrases to plural, retaining the understood second subject.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-see-object",
+        "u05-carry-take-objects",
+        "u02-clause-coordination",
+        "u02-active-agreement"
+      ],
+      "target_sequences_ids": [
+        [
+          "he-nom-pl",
+          "geseon-pret-3-pl",
+          "se-all-acc-pl",
+          "fugol-acc-pl",
+          "and-invariant",
+          "niman-pret-3-pl",
+          "se-all-acc-pl",
+          "fisc-acc-pl"
+        ]
+      ]
+    },
+    {
+      "task_id": "NEW-U05-C06",
+      "key_id": "KEY-NEW-U05-C06",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate using cweðan to introduce direct speech: The man says, “I see the trees.”",
+      "target_specification": "Direct quotation with first person referring to its speaker; no indirect content clause.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-direct-quotation",
+        "u05-see-object"
+      ],
+      "target_sequences_ids": [
+        [
+          "se-m-nom-sg",
+          "mann-nom-sg",
+          "cwethan-pres-3-sg"
+        ],
+        [
+          "ic-nom-sg",
+          "seon-pres-1-sg",
+          "se-all-acc-pl",
+          "treo-acc-pl"
+        ]
+      ]
+    },
+    {
+      "task_id": "NEW-U05-C07",
+      "key_id": "KEY-NEW-U05-C07",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate using geswīcan: You (plural) cease from your work.",
+      "target_specification": "Genitive work governed by geswīcan; agreeing plural-possessor adjective in genitive neuter singular.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-cessation-genitive",
+        "u03-possessive-agreement"
+      ],
+      "target_sequences_ids": [
+        [
+          "thu-nom-pl",
+          "geswican-pres-2-pl",
+          "eower-poss-gen-n-sg-strong",
+          "weorc-gen-sg"
+        ]
+      ]
+    },
+    {
+      "task_id": "NEW-U05-C08",
+      "key_id": "KEY-NEW-U05-C08",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate: The tree falls, and the men hold the ship.",
+      "target_specification": "Intransitive singular falls and transitive plural hold with accusative ship; no motion preposition.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-intransitive-motion",
+        "u05-strike-hold-objects",
+        "u02-clause-coordination"
+      ],
+      "target_sequences_ids": [
+        [
+          "se-n-nom-sg",
+          "treo-nom-sg",
+          "feallan-pres-3-sg",
+          "and-invariant",
+          "se-all-nom-pl",
+          "mann-nom-pl",
+          "healdan-pres-3-pl",
+          "se-n-acc-sg",
+          "scip-acc-sg"
+        ]
+      ]
+    },
+    {
+      "task_id": "NEW-U05-T01",
+      "key_id": "KEY-NEW-U05-T01",
+      "origin": "new_teaching_material",
+      "mode": "recognition",
+      "prompt": "In the new account, what did one man do with his food, and what did its recipients do next?",
+      "target_specification": "Recover the stated food-sharing action and the birds’ subsequent actions from the connected text.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-giving-recipient",
+        "u05-eat",
+        "u05-bridge-intransitive"
+      ],
+      "composition_id": "NEW-U05-TEXT-A"
+    },
+    {
+      "task_id": "NEW-U05-T02",
+      "key_id": "KEY-NEW-U05-T02",
+      "origin": "new_teaching_material",
+      "mode": "recognition",
+      "prompt": "In ðǣm gefērum ðone męte, identify the recipient and the thing given, and explain their cases. What subject controls gēafon?",
+      "target_specification": "Dative companions, accusative food, and plural men controlling the plural finite verb.",
+      "target_form_ids": [
+        "se-all-dat-pl",
+        "gefera-dat-pl",
+        "se-m-acc-sg",
+        "mete-acc-sg",
+        "mann-nom-pl",
+        "giefan-pret-3-pl"
+      ],
+      "required_feature_ids": [
+        "u05-giving-recipient",
+        "u02-active-agreement"
+      ],
+      "composition_id": "NEW-U05-TEXT-A"
+    },
+    {
+      "task_id": "NEW-U05-T03",
+      "key_id": "KEY-NEW-U05-T03",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Retell the last two sentences of the new account in the present indicative. Keep the subjects, objects and location phrases.",
+      "target_specification": "Change sat/saw/swam to the corresponding present indicative while preserving all argument and locative relations.",
+      "target_form_ids": [],
+      "required_feature_ids": [
+        "u05-intransitive-posture",
+        "u05-see-object",
+        "u05-bridge-intransitive",
+        "on-dative-location"
+      ],
+      "composition_id": "NEW-U05-TEXT-A",
+      "target_sequences_ids": [
+        [
+          "se-m-nom-sg",
+          "mann-nom-sg",
+          "sittan-pres-3-sg",
+          "on-invariant",
+          "se-m-dat-sg",
+          "strand-dat-sg",
+          "and-invariant",
+          "geseon-pres-3-sg",
+          "se-all-acc-pl",
+          "fisc-acc-pl"
+        ],
+        [
+          "se-all-nom-pl",
+          "fisc-nom-pl",
+          "swimman-pres-3-pl",
+          "on-invariant",
+          "se-n-dat-sg",
+          "waeter-dat-sg"
+        ]
+      ]
+    },
+    {
+      "task_id": "NEW-U05-T04",
+      "key_id": "KEY-NEW-U05-T04",
+      "origin": "new_teaching_material",
+      "mode": "recognition",
+      "prompt": "Translate the complete new account.",
+      "target_specification": "Preserve the whole sequence and reference. The hīe after the giving clause naturally refers to the companions in context, but its form alone does not force one unique antecedent; retain they or accept a contextually defended reading.",
+      "target_form_ids": [],
+      "required_feature_ids": [],
+      "composition_id": "NEW-U05-TEXT-A"
+    },
+    {
+      "task_id": "NEW-U05-R01",
+      "key_id": "KEY-NEW-U05-R01",
+      "origin": "new_teaching_material",
+      "mode": "supported_recognition",
+      "prompt": "In the first-day text, identify the lemma, strong class, tense, person and number of gescēop, cwæð, geseah and hēt. Use the clauses to identify the subject of hēt.",
+      "target_specification": "Analyse newly taught finite forms in the unchanged text; hēt has the understood divine subject. Naming syntax remains supplied.",
+      "target_form_ids": [
+        "gescieppan-pret-3-sg",
+        "cwethan-pret-3-sg",
+        "geseon-pret-3-sg",
+        "hatan-pret-3-sg"
+      ],
+      "required_feature_ids": [],
+      "reading_id": "FB-I-CREATION-FIRST-DAY-01"
+    },
+    {
+      "task_id": "NEW-U05-R02",
+      "key_id": "KEY-NEW-U05-R02",
+      "origin": "new_teaching_material",
+      "mode": "supported_recognition",
+      "prompt": "Use the first-day notes to distinguish the ordinary meaning of weorðan from its use in wearð geworht. Which word is finite in that supplied phrase?",
+      "target_specification": "Productive finite recognition is distinct from understanding a locally supplied passive phrase; no unaided passive formation.",
+      "target_form_ids": [
+        "weorthan-pret-3-sg"
+      ],
+      "required_feature_ids": [],
+      "reading_id": "FB-I-CREATION-FIRST-DAY-01"
+    },
+    {
+      "task_id": "NEW-U05-R03",
+      "key_id": "KEY-NEW-U05-R03",
+      "origin": "new_teaching_material",
+      "mode": "supported_recognition",
+      "prompt": "The first-day text has heofonan; Cook I.5.1 says the heavens. Using the source note, explain the difference in noun, gender and number.",
+      "target_specification": "Supplied weak-feminine singular is not the productive masculine plural; support remains visible.",
+      "target_form_ids": [
+        "heofone-acc-sg",
+        "heofon-acc-pl"
+      ],
+      "required_feature_ids": [],
+      "reading_id": "FB-I-CREATION-FIRST-DAY-01"
+    },
+    {
+      "task_id": "NEW-U05-R04",
+      "key_id": "KEY-NEW-U05-R04",
+      "origin": "new_teaching_material",
+      "mode": "supported_recognition",
+      "prompt": "Translate the complete first-day passage, using the printed local help where needed.",
+      "target_specification": "Translate all69 words, preserving sequence, speech, naming and source-supported constructions without omitting hard clauses.",
+      "target_form_ids": [],
+      "required_feature_ids": [],
+      "reading_id": "FB-I-CREATION-FIRST-DAY-01"
+    },
+    {
+      "task_id": "NEW-U05-R05",
+      "key_id": "KEY-NEW-U05-R05",
+      "origin": "new_teaching_material",
+      "mode": "supported_recognition",
+      "prompt": "In the second-day text, distinguish cwæð and hēt from geworhte and the supplied tōtwǣmde. Identify strong and weak preterites, and identify their common subject.",
+      "target_specification": "Strong/weak comparison from actual clauses. Tōtwǣmde is supplied as a weak preterite, without a new productive conjugation.",
+      "target_form_ids": [
+        "cwethan-pret-3-sg",
+        "hatan-pret-3-sg",
+        "gewyrcean-pret-3-sg"
+      ],
+      "required_feature_ids": [],
+      "reading_id": "FB-I-CREATION-SECOND-DAY-01"
+    },
+    {
+      "task_id": "NEW-U05-R06",
+      "key_id": "KEY-NEW-U05-R06",
+      "origin": "new_teaching_material",
+      "mode": "supported_recognition",
+      "prompt": "Using the second-day local help, explain which waters are separated from which. What does ðǣm refer to in fram ðǣm ðe wǣron bufan ðǣre fæstnesse?",
+      "target_specification": "Supported relative/reference comprehension; distinguish the substantival demonstrative from an article before an expressed noun.",
+      "target_form_ids": [],
+      "required_feature_ids": [],
+      "reading_id": "FB-I-CREATION-SECOND-DAY-01"
+    },
+    {
+      "task_id": "NEW-U05-R07",
+      "key_id": "KEY-NEW-U05-R07",
+      "origin": "new_teaching_material",
+      "mode": "supported_recognition",
+      "prompt": "What does God call the firmament in the second-day account? Explain why ōðer agrees with dæg in the closing formula, while keeping the formula itself supplied.",
+      "target_specification": "Naming is supplied comprehension; ordinal morphology and agreement are prior learned knowledge.",
+      "target_form_ids": [
+        "other-nom-m-sg-strong",
+        "daeg-nom-sg"
+      ],
+      "required_feature_ids": [],
+      "reading_id": "FB-I-CREATION-SECOND-DAY-01"
+    },
+    {
+      "task_id": "NEW-U05-R08",
+      "key_id": "KEY-NEW-U05-R08",
+      "origin": "new_teaching_material",
+      "mode": "supported_recognition",
+      "prompt": "Translate the complete second-day passage, using the printed local help where needed.",
+      "target_specification": "Translate all58 words, retaining the relation of the two sets of waters, naming and complete ending; no silent omission or invented command mood.",
+      "target_form_ids": [],
+      "required_feature_ids": [],
+      "reading_id": "FB-I-CREATION-SECOND-DAY-01"
+    },
+    {
+      "task_id": "NEW-U05-X01",
+      "key_id": "KEY-NEW-U05-X01",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Compare hē geaf and hē sealde. Give the corresponding preterite clauses with ðū, and explain why the endings differ.",
+      "target_specification": "Strong second singular plural stem plus -e versus weak second singular -est; neither verb is classified by English gave.",
+      "target_form_ids": [
+        "he-m-nom-sg",
+        "giefan-pret-3-sg",
+        "sellan-pret-3-sg",
+        "thu-nom-sg",
+        "giefan-pret-2-sg",
+        "sellan-pret-2-sg"
+      ],
+      "required_feature_ids": [
+        "u04-strong-weak-contrast",
+        "u04-preterite-endings"
+      ]
+    },
+    {
+      "task_id": "NEW-U05-X02",
+      "key_id": "KEY-NEW-U05-X02",
+      "origin": "new_teaching_material",
+      "mode": "supported_production",
+      "prompt": "The printed entries give swęrian, swōr, swōron, sworen and lufian, lufode, (ge)lufod. Explain why -ian alone does not identify a weak verb. Give the present first-person singular of each.",
+      "target_specification": "Strong swęrian has a changed-vowel preterite despite -ian; contrast full strong j-present and weak ClassII first singular. Nonfinite entries are supplied.",
+      "target_form_ids": [
+        "swerian-pres-1-sg",
+        "lufian-pres-1-sg"
+      ],
+      "required_feature_ids": [
+        "u05-j-present-VI",
+        "u04-strong-weak-contrast"
+      ],
+      "supplied_form_ids": [
+        "swerian-infinitive-citation",
+        "swerian-participle-citation",
+        "lufian-infinitive-citation",
+        "lufian-participle-citation",
+        "swerian-pret-3-sg",
+        "swerian-pret-3-pl",
+        "lufian-pret-3-sg"
+      ]
+    },
+    {
+      "task_id": "NEW-U05-X03",
+      "key_id": "KEY-NEW-U05-X03",
+      "origin": "new_teaching_material",
+      "mode": "recognition",
+      "prompt": "Within the taught indicative systems, compare gē sēoð and hē sīeð. Identify each verb, class, tense, person and number. These are form-identification examples; add no complement.",
+      "target_specification": "Contracted see plural versus boil third singular; short ie and long īe distinguish the selected systems.",
+      "target_form_ids": [
+        "thu-nom-pl",
+        "seon-pres-2-pl",
+        "he-m-nom-sg",
+        "seothan-pres-3-sg"
+      ],
+      "required_feature_ids": [
+        "u05-contract-V",
+        "u04-class-II",
+        "u04-present-mutation"
+      ]
+    }
+  ],
+  "superseded_by": "curriculum/proposals/unit05/task-plan.json"
+}

@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "chapter": "ch05",
+  "status": "candidate_pending_grammar_and_source_reconciliation",
+  "compositions": [
+    {
+      "composition_id": "NEW-U05-TEXT-A",
+      "title": "Food for the companions and the birds",
+      "origin": "new_teaching_material",
+      "status": "candidate_pending_grammar_and_source_reconciliation",
+      "candidate_text": "Twēgen męnn bǣron męte. Hiera gefēran sǣton on ðǣm hofe. Ðā męnn gēafon ðǣm gefērum ðone męte, and hīe ǣton. Ān mann ne ǣt. Hē geaf his męte ðǣm fuglum. Ðā fuglas ǣton and flugon. Se mann sæt on ðǣm strande and geseah ðā fiscas. Ðā fiscas swummon on ðǣm wætere.",
+      "sequences_ids": [
+        [
+          "twegen-nom-m-pl",
+          "mann-nom-pl",
+          "beran-pret-3-pl",
+          "mete-acc-sg"
+        ],
+        [
+          "he-gen-pl",
+          "gefera-nom-pl",
+          "sittan-pret-3-pl",
+          "on-invariant",
+          "se-n-dat-sg",
+          "hof-dat-sg"
+        ],
+        [
+          "se-all-nom-pl",
+          "mann-nom-pl",
+          "giefan-pret-3-pl",
+          "se-all-dat-pl",
+          "gefera-dat-pl",
+          "se-m-acc-sg",
+          "mete-acc-sg",
+          "and-invariant",
+          "he-nom-pl",
+          "etan-pret-3-pl"
+        ],
+        [
+          "an-nom-m-sg",
+          "mann-nom-sg",
+          "ne-invariant",
+          "etan-pret-3-sg"
+        ],
+        [
+          "he-m-nom-sg",
+          "giefan-pret-3-sg",
+          "he-m-gen-sg",
+          "mete-acc-sg",
+          "se-all-dat-pl",
+          "fugol-dat-pl"
+        ],
+        [
+          "se-all-nom-pl",
+          "fugol-nom-pl",
+          "etan-pret-3-pl",
+          "and-invariant",
+          "fleogan-pret-3-pl"
+        ],
+        [
+          "se-m-nom-sg",
+          "mann-nom-sg",
+          "sittan-pret-3-sg",
+          "on-invariant",
+          "se-m-dat-sg",
+          "strand-dat-sg",
+          "and-invariant",
+          "geseon-pret-3-sg",
+          "se-all-acc-pl",
+          "fisc-acc-pl"
+        ],
+        [
+          "se-all-nom-pl",
+          "fisc-nom-pl",
+          "swimman-pret-3-pl",
+          "on-invariant",
+          "se-n-dat-sg",
+          "waeter-dat-sg"
+        ]
+      ],
+      "intended_meaning": "Two men carried food. Their companions sat in the dwelling. The men gave the companions the food, and they ate. One man did not eat. He gave his food to the birds. The birds ate and flew. The man sat on the shore and saw the fish. The fish swam in the water.",
+      "sense_overrides": {
+        "he-gen-pl": "he-possessor",
+        "he-m-gen-sg": "he-possessor"
+      },
+      "required_feature_ids": [
+        "u05-carry-take-objects",
+        "u05-giving-recipient",
+        "u05-intransitive-posture",
+        "u05-eat",
+        "u05-see-object",
+        "u05-bridge-intransitive",
+        "u05-simple-negation",
+        "u02-clause-coordination",
+        "u02-active-agreement",
+        "u02-pronoun-reference",
+        "u02-third-person-possessors",
+        "on-dative-location",
+        "u03-cardinal-counting",
+        "u03-cardinal-two-three"
+      ],
+      "scope": "All nouns and constructions are prior or explicitly new productive. No source-only quantifier, temporal adverb, goal phrase, relative/content clause or nonfinite construction. The bird recipients/food use are declared ordinary lexical applications, not claims of verbatim source quotation.",
+      "candidate_word_count": 51
+    }
+  ],
+  "teaching_examples": [
+    {
+      "example_id": "NEW-U05-E01",
+      "candidate_text": "Ðū birst ðone męte.",
+      "meaning": "You (singular) carry the food.",
+      "origin": "new_teaching_material",
+      "graded": false,
+      "form_ids": [
+        "thu-nom-sg",
+        "beran-pres-2-sg",
+        "se-m-acc-sg",
+        "mete-acc-sg"
+      ],
+      "required_feature_ids": [
+        "u05-carry-take-objects",
+        "u05-class-IV"
+      ],
+      "purpose": "Present second-singular stem and accusative object."
+    },
+    {
+      "example_id": "NEW-U05-E02",
+      "candidate_text": "Hē nimð ðone fisc.",
+      "meaning": "He takes the fish.",
+      "origin": "new_teaching_material",
+      "graded": false,
+      "form_ids": [
+        "he-m-nom-sg",
+        "niman-pres-3-sg",
+        "se-m-acc-sg",
+        "fisc-acc-sg"
+      ],
+      "required_feature_ids": [
+        "u05-carry-take-objects",
+        "u05-nasal-IV"
+      ],
+      "purpose": "Present third-singular niman and accusative object."
+    },
+    {
+      "example_id": "NEW-U05-E03",
+      "candidate_text": "Ic giefe ðǣm męnn ðone męte.",
+      "meaning": "I give the man the food.",
+      "origin": "new_teaching_material",
+      "graded": false,
+      "form_ids": [
+        "ic-nom-sg",
+        "giefan-pres-1-sg",
+        "se-m-dat-sg",
+        "mann-dat-sg",
+        "se-m-acc-sg",
+        "mete-acc-sg"
+      ],
+      "required_feature_ids": [
+        "u05-giving-recipient"
+      ],
+      "purpose": "Recipient dative and thing-given accusative."
+    },
+    {
+      "example_id": "NEW-U05-E04",
+      "candidate_text": "Se mann ligð on ðǣm hofe.",
+      "meaning": "The man lies in the dwelling.",
+      "origin": "new_teaching_material",
+      "graded": false,
+      "form_ids": [
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "licgan-pres-3-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "hof-dat-sg"
+      ],
+      "required_feature_ids": [
+        "u05-intransitive-posture",
+        "on-dative-location"
+      ],
+      "purpose": "Ordinary intransitive posture with prior locative phrase."
+    },
+    {
+      "example_id": "NEW-U05-E05",
+      "candidate_text": "Se mann stęnt on ðǣm strande.",
+      "meaning": "The man stands on the shore.",
+      "origin": "new_teaching_material",
+      "graded": false,
+      "form_ids": [
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "standan-pres-3-sg",
+        "on-invariant",
+        "se-m-dat-sg",
+        "strand-dat-sg"
+      ],
+      "required_feature_ids": [
+        "u05-intransitive-posture",
+        "u05-standan-nasal",
+        "on-dative-location"
+      ],
+      "purpose": "Ordinary posture separate from the earlier supplied opposing-winds use."
+    },
+    {
+      "example_id": "NEW-U05-E06",
+      "candidate_text": "Ðæt trēo fielð.",
+      "meaning": "The tree falls.",
+      "origin": "new_teaching_material",
+      "graded": false,
+      "form_ids": [
+        "se-n-nom-sg",
+        "treo-nom-sg",
+        "feallan-pres-3-sg"
+      ],
+      "required_feature_ids": [
+        "u05-intransitive-motion",
+        "u05-VII-present-changes"
+      ],
+      "purpose": "Intransitive fall and the selected mutated present singular."
+    },
+    {
+      "example_id": "NEW-U05-E07",
+      "candidate_text": "Wē geswīcað ūres weorces.",
+      "meaning": "We cease from our work.",
+      "origin": "new_teaching_material",
+      "graded": false,
+      "form_ids": [
+        "ic-nom-pl",
+        "geswican-pres-1-pl",
+        "ure-poss-gen-n-sg-strong",
+        "weorc-gen-sg"
+      ],
+      "required_feature_ids": [
+        "u05-cessation-genitive",
+        "u03-possessive-agreement"
+      ],
+      "purpose": "Genitive of the work ceased from; agreeing possessive remains genitive."
+    },
+    {
+      "example_id": "NEW-U05-E08",
+      "candidate_text": "Se mann cwið: “Ic sēo ðone fugol.”",
+      "meaning": "The man says, “I see the bird.”",
+      "origin": "new_teaching_material",
+      "graded": false,
+      "form_ids": [
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "cwethan-pres-3-sg",
+        "ic-nom-sg",
+        "seon-pres-1-sg",
+        "se-m-acc-sg",
+        "fugol-acc-sg"
+      ],
+      "required_feature_ids": [
+        "u05-direct-quotation",
+        "u05-see-object"
+      ],
+      "purpose": "Bounded direct quotation, with first person interpreted within the quote."
+    }
+  ]
+}
