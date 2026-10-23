@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch03",
   "title": "Adjectives, comparison and number",
-  "status": "contracted_before_prose",
+  "status": "complete_reviewed",
   "contract_date": "2026-10-22",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -99044,12 +99044,17 @@
     "typeset": "oec-u03-typeset",
     "finish": "oec-u03-finish"
   },
-  "review_status": "text_accepted_exports_pending",
+  "review_status": "independently_accepted_text_and_exports",
   "amendments": [
     {
       "kind": "nonmaterial_source_locator",
       "finding": "U03-REV-01",
       "change": "Learner source note82–83 extended to82–85; no teaching, task, form or key change.",
+      "independently_verified": true
+    },
+    {
+      "kind": "presentation_clarity",
+      "change": "Added Strong hēah and Weak hēah captions and corrected book-title emphasis; all linguistic content, tasks and readings unchanged.",
       "independently_verified": true
     }
   ],
@@ -99067,9 +99072,19 @@
     "design_validation": "curriculum/proposals/unit03/validation.json"
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "independent_review_clear": true,
+    "register_integration_record": "chapters/ch03/register-integration.json",
+    "register_counts": {
+      "lemmas": 163,
+      "forms": 2319,
+      "senses": 178,
+      "constructions": 127
+    },
+    "no_later_unit_drafted": true,
+    "local_export_checkpoint": "pending immediate checkpoint"
   },
   "contract_checkpoint": "9626f6f",
   "file_identity_policy": "Raw SHA256 identifies audited working bytes; normalized-LF companion identifies the same text after Git line-ending conversion. Neither normalizes spelling or Unicode.",
@@ -99088,9 +99103,29 @@
     "review": "chapters/ch03/review.md",
     "findings": "chapters/ch03/review-findings.json",
     "independent_solutions": "chapters/ch03/independent-solutions.md",
-    "learner_sha256": "45da8804bee6c52d1e31bedfd86b0ded47d653f093e6fed8dc861d4fd37f03ec",
-    "learner_sha256_normalized_lf": "95399bf4c6ceb9d38872a60a31d924b6228efcae213234e3ee03c9f16ca6cbed",
+    "learner_sha256": "30afcad1a4a9338aeb2ca3826754573fe5ce299f5ea8cd9e48309ef7166605d9",
+    "learner_sha256_normalized_lf": "f01f6f325ffe0e335a72c60f1c7a4e83f9a3874d5216f572f9a5606486e93187",
     "key_sha256": "7a97bb18d56bb907e12abe76d82bf56b63d13211534928a58c1bc3d8709fc202",
-    "material_findings_remaining": 0
+    "material_findings_remaining": 0,
+    "accepted_text_checkpoint": "e528af8"
+  },
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch03/page-review.json",
+    "complete_content_parity": true,
+    "every_page_inspected": true,
+    "lualatex_logs_clean": true,
+    "pdfs": {
+      "learner": {
+        "path": "typesetting/ch03/chapter-03.pdf",
+        "pages": 30,
+        "sha256": "f6f7a35fe1a51adb62aba56823051a6ca1a6484aaa552aefd6423da73d96733e"
+      },
+      "key": {
+        "path": "typesetting/ch03/answer-key.pdf",
+        "pages": 19,
+        "sha256": "9ef35625e6918eeef6ab0e22ea7408f593711e13f0bd4871e4514e99ce82d5f1"
+      }
+    }
   }
 }

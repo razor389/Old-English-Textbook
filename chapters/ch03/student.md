@@ -244,6 +244,8 @@ Hēah loses h and contracts in much of its inflection. Use this complete selecte
 
 <!-- teaching: NEW-U03-PAR-heah-strong -->
 
+**Strong hēah.**
+
 | Number | Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- | --- |
 | Singular | Nom. | hēah | hēah | hēa |
@@ -258,6 +260,8 @@ Hēah loses h and contracts in much of its inflection. Use this complete selecte
 Instrumental singular, recognition only: masculine hēa; neuter hēa.
 
 <!-- teaching: NEW-U03-PAR-heah-weak -->
+
+**Weak hēah.**
 
 | Number | Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- | --- |
@@ -1429,7 +1433,7 @@ Write four connected Old English sentences: introduce two dwellings of unequal s
 
 The grammar follows Cook, **A First Book in Old English**, second edition (1895), §§55–70, 77–80 and 82–85, with the ordinary adjective/adverb uses in §§179–182. Wright’s grammar corroborates stem variation, possessives and comparison. The bounded nominative comparison is supported by Fulk, §35. The tables distinguish selected teaching forms from supported alternatives. Forms expanded from a checked stem and paradigm need not be separately attested in a printed source.
 
-Cook’s Exercise I.4 is on printed p.2, one-based PDF p.10 of the selected exercise scan. Its original item wording and references are retained. The source reading is *First Book*, Reader I, printed p.125, editorially counted lines 8–15, and p.126, lines 1–4; one-based PDF pp.141–142. On p.125 the marginal line numbers 10 and 15 are printed; the other line numbers here are editorial counts. The new reading spans the whole fourth day.
+Cook’s Exercise I.4 is on printed p.2, one-based PDF p.10 of the selected exercise scan. Its original item wording and references are retained. The source reading is **First Book**, Reader I, printed p.125, editorially counted lines 8–15, and p.126, lines 1–4; one-based PDF pp.141–142. On p.125 the marginal line numbers 10 and 15 are printed; the other line numbers here are editorial counts. The new reading spans the whole fourth day.
 
 The reading removes apparatus cues, joins line and page breaks, and rejoins the line-divided words tācnum and līehtinge. It otherwise preserves the source’s letters, vowel marks and punctuation, including the colon after twā miclu lēoht. The following eighteen entries preserve Cook’s apparatus for this span. Questions in these historical notes are not additional assigned exercises; use the local support above for forms beyond this unit.
 

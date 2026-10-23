@@ -1,0 +1,41 @@
+{
+  "unit": "03",
+  "method": "Independent block inventory from accepted Markdown; decoded actual TeX paragraph bodies, all table rows and cells, and every editorial comment. Full non-whitespace Unicode sequences also checked in extracted PDF prose after removal of running matter and normalization of Xpdf soft-hyphen encoding to the original literal hyphen.",
+  "formatting_changes": [
+    "All table rows/cells retain their Markdown order; wide tables may use adjusted column widths.",
+    "Long tables repeat their header across page breaks.",
+    "Line wrapping, emphasis commands and page furniture differ from Markdown; linguistic text and punctuation are preserved."
+  ],
+  "documents": [
+    {
+      "master": "chapters/ch03/student.md",
+      "master_sha256": "30afcad1a4a9338aeb2ca3826754573fe5ce299f5ea8cd9e48309ef7166605d9",
+      "tex": "typesetting/ch03/chapter-03.tex",
+      "tex_sha256": "78c9431eaa661c547397943b4cf5ce4d46a21bbe91a460100163b2cdfff137bd",
+      "tex_sha256_normalized_lf": "84ea3dc7072f7ad39fb98e8ba7d008570e36e359c1e9ac1133db53c63e2a785d",
+      "paragraph_heading_list_blocks": 282,
+      "original_tables": 29,
+      "original_table_cells_including_headers": 1063,
+      "all_editorial_comments_preserved": 288,
+      "paragraph_and_cell_parity": "PASS",
+      "pdf_complete_paragraph_character_parity": "PASS",
+      "title_parity": "PASS",
+      "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+    },
+    {
+      "master": "chapters/ch03/answer-key.md",
+      "master_sha256": "7a97bb18d56bb907e12abe76d82bf56b63d13211534928a58c1bc3d8709fc202",
+      "tex": "typesetting/ch03/answer-key.tex",
+      "tex_sha256": "5bfc7e2f402d980005f10bdc5f712b9d0b877a7ffbd741fa133c834f2b8c7fcf",
+      "tex_sha256_normalized_lf": "5bfc7e2f402d980005f10bdc5f712b9d0b877a7ffbd741fa133c834f2b8c7fcf",
+      "paragraph_heading_list_blocks": 128,
+      "original_tables": 22,
+      "original_table_cells_including_headers": 505,
+      "all_editorial_comments_preserved": 140,
+      "paragraph_and_cell_parity": "PASS",
+      "pdf_complete_paragraph_character_parity": "PASS",
+      "title_parity": "PASS",
+      "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+    }
+  ]
+}

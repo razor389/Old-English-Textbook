@@ -1,0 +1,79 @@
+{
+  "unit": "ch03",
+  "status": "PASS",
+  "total_pages": 49,
+  "documents": [
+    {
+      "pdf": "typesetting/ch03/chapter-03.pdf",
+      "pdf_sha256": "f6f7a35fe1a51adb62aba56823051a6ca1a6484aaa552aefd6423da73d96733e",
+      "pages": 30,
+      "all_pages_independently_visually_inspected": true,
+      "master": "chapters/ch03/student.md",
+      "master_sha256": "30afcad1a4a9338aeb2ca3826754573fe5ce299f5ea8cd9e48309ef7166605d9",
+      "master_sha256_normalized_lf": "f01f6f325ffe0e335a72c60f1c7a4e83f9a3874d5216f572f9a5606486e93187",
+      "tex_sha256": "78c9431eaa661c547397943b4cf5ce4d46a21bbe91a460100163b2cdfff137bd",
+      "log_sha256": "95c94b1839bdad0f1b5b471d06138a7fcf614d0d8f0349847f5aa954379805ec",
+      "compilation_log": "PASS: no box, missing-character, warning or error diagnostics"
+    },
+    {
+      "pdf": "typesetting/ch03/answer-key.pdf",
+      "pdf_sha256": "9ef35625e6918eeef6ab0e22ea7408f593711e13f0bd4871e4514e99ce82d5f1",
+      "pages": 19,
+      "all_pages_independently_visually_inspected": true,
+      "master": "chapters/ch03/answer-key.md",
+      "master_sha256": "7a97bb18d56bb907e12abe76d82bf56b63d13211534928a58c1bc3d8709fc202",
+      "master_sha256_normalized_lf": "7a97bb18d56bb907e12abe76d82bf56b63d13211534928a58c1bc3d8709fc202",
+      "tex_sha256": "5bfc7e2f402d980005f10bdc5f712b9d0b877a7ffbd741fa133c834f2b8c7fcf",
+      "log_sha256": "5e852ea3a540db54df21de35b11ed606d7caabb2901c06e41a6261c1ac9d6891",
+      "compilation_log": "PASS: no box, missing-character, warning or error diagnostics"
+    }
+  ],
+  "independent_page_ledgers": [
+    {
+      "path": "typesetting/ch03/reviews/learner-01-16.json",
+      "sha256": "5b88800a7d3cbd3cdf618209a9b6da19bb03f016747109595dde57a8913b0104"
+    },
+    {
+      "path": "typesetting/ch03/reviews/learner-17-32.json",
+      "sha256": "b6819e16c04a8cd3e2e02cd02e7db95a36bb4e73d2fb10939aa2aad737822a70"
+    },
+    {
+      "path": "typesetting/ch03/reviews/key-01-19.json",
+      "sha256": "c6dda5e2a27abf95f29b576f964c2c914a00f38ce5930dd1df3d81ec447de06f"
+    }
+  ],
+  "content_parity": {
+    "path": "typesetting/ch03/content-parity.json",
+    "sha256": "47a0d35fb12be9df1b266d6965a969c495f38d0dbbc533cd5610890671273e1f",
+    "status": "PASS"
+  },
+  "method": "Each final page was visually opened by a reviewer who did not author that master. Inspected earlier PNGs are retained only after byte-identity comparison with the final render. Individual observations and every image hash remain in the ledgers. The coordinator independently verifies complete page ranges, current PDF/TeX/master identities, parity and clean logs.",
+  "coordinator_additional_image_checks": {
+    "learner_v3": [
+      5,
+      6,
+      26,
+      29
+    ],
+    "learner_v2_identical_to_v3": [
+      2,
+      3,
+      4
+    ],
+    "key_v1_final": [
+      3,
+      4,
+      7
+    ]
+  },
+  "resolved_presentation_issues": [
+    "Stranded section3 heading",
+    "Two near-empty overflow pages",
+    "Explicit strong/weak heah table captions bound to tables",
+    "Literal Markdown book-title stars",
+    "Wide key table header fit"
+  ],
+  "unresolved_findings": [],
+  "rendering": "Ghostscript10.08.0 png16m,150dpi,text/graphics antialiasing4; final learner u03v3, key u03v1.",
+  "reproduction": "typesetting/ch03/README.md"
+}

@@ -3,7 +3,7 @@
   "chapter_id": "ch03",
   "reviewer": "/root/opening_source",
   "textual_status": "pass",
-  "presentation_status": "not_yet_reviewed",
+  "presentation_status": "pass",
   "solve_checkpoint": {
     "time": "2026-10-22T17:41:21.750129-05:00",
     "learner_sha256": "db3b368edc760a400c79c02cd8c10abd0b5ae20e61f781f4d4d4ca700ff71870",
@@ -405,8 +405,8 @@
     "eall_recognition_only": true,
     "instrumental_syntax_production": false
   },
-  "accepted_learner_sha256": "45da8804bee6c52d1e31bedfd86b0ded47d653f093e6fed8dc861d4fd37f03ec",
-  "accepted_learner_sha256_normalized_lf": "95399bf4c6ceb9d38872a60a31d924b6228efcae213234e3ee03c9f16ca6cbed",
+  "accepted_learner_sha256": "30afcad1a4a9338aeb2ca3826754573fe5ce299f5ea8cd9e48309ef7166605d9",
+  "accepted_learner_sha256_normalized_lf": "f01f6f325ffe0e335a72c60f1c7a4e83f9a3874d5216f572f9a5606486e93187",
   "citation_repair_verification": {
     "timestamp": "2026-10-22T18:01:55.392109-05:00",
     "sole_content_change": "§§55–70, 77–80 and 82–83 → §§55–70, 77–80 and 82–85",
@@ -415,5 +415,222 @@
     "accepted_LF_sha256": "95399bf4c6ceb9d38872a60a31d924b6228efcae213234e3ee03c9f16ca6cbed",
     "key_sha256": "7a97bb18d56bb907e12abe76d82bf56b63d13211534928a58c1bc3d8709fc202",
     "unchanged_solutions_sha256": "44b5d43bbb0c6cd43e81940d5f752a685d7ac3190c303880b87fc6bc9f36d089"
-  }
+  },
+  "presentation_copyedit_verification": {
+    "time": "2026-10-22T19:03:49.543688-05:00",
+    "changes": [
+      "Add strong hēah table label",
+      "Add weak hēah table label",
+      "Render short First Book title with supported bold Markdown emphasis"
+    ],
+    "accepted_raw_sha256": "30afcad1a4a9338aeb2ca3826754573fe5ce299f5ea8cd9e48309ef7166605d9",
+    "accepted_LF_sha256": "f01f6f325ffe0e335a72c60f1c7a4e83f9a3874d5216f572f9a5606486e93187",
+    "other_text_changed": false
+  },
+  "presentation_review": {
+    "verification_time": "2026-10-22T19:24:33.325740-05:00",
+    "verdict": "PASS",
+    "pdfs": [
+      {
+        "path": "typesetting/ch03/chapter-03.pdf",
+        "sha256": "f6f7a35fe1a51adb62aba56823051a6ca1a6484aaa552aefd6423da73d96733e",
+        "pages": 30
+      },
+      {
+        "path": "typesetting/ch03/answer-key.pdf",
+        "sha256": "9ef35625e6918eeef6ab0e22ea7408f593711e13f0bd4871e4514e99ce82d5f1",
+        "pages": 19
+      }
+    ],
+    "reports": [
+      {
+        "path": "typesetting/ch03/reviews/learner-01-16.json",
+        "sha256": "5b88800a7d3cbd3cdf618209a9b6da19bb03f016747109595dde57a8913b0104",
+        "reviewer": "/root/source_map",
+        "artifact": "typesetting/ch03/chapter-03.pdf",
+        "page_range": [
+          1,
+          16
+        ],
+        "verdict": "PASS"
+      },
+      {
+        "path": "typesetting/ch03/reviews/learner-17-32.json",
+        "sha256": "b6819e16c04a8cd3e2e02cd02e7db95a36bb4e73d2fb10939aa2aad737822a70",
+        "reviewer": "/root/opening_source",
+        "artifact": "typesetting/ch03/chapter-03.pdf",
+        "page_range": [
+          17,
+          30
+        ],
+        "verdict": "PASS"
+      },
+      {
+        "path": "typesetting/ch03/reviews/key-01-19.json",
+        "sha256": "c6dda5e2a27abf95f29b576f964c2c914a00f38ce5930dd1df3d81ec447de06f",
+        "reviewer": "/root/curriculum_design",
+        "artifact": "typesetting/ch03/answer-key.pdf",
+        "page_range": [
+          1,
+          19
+        ],
+        "verdict": "PASS"
+      }
+    ],
+    "page_coverage": {
+      "learner": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30
+      ],
+      "key": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19
+      ],
+      "all_49_page_image_hashes_verified": true
+    },
+    "division_of_inspection": "Opening_source directly inspected final-layout learner pages 17–30 in v2 and independently verified their byte identity with v3. Source_map inspected learner 1–16, directly viewing v3 5–16 and retaining actually viewed byte-identical v2 1–4. Curriculum_design inspected all 19 key pages. Opening_source additionally viewed key p19 for the report-only iċ correction. Overall acceptance combines these explicit visual reports; it does not claim all pages were personally viewed by one reviewer.",
+    "content_parity": {
+      "path": "typesetting/ch03/content-parity.json",
+      "sha256": "47a0d35fb12be9df1b266d6965a969c495f38d0dbbc533cd5610890671273e1f",
+      "actual_master_and_tex_hashes_verified": true,
+      "documents": [
+        {
+          "master": "chapters/ch03/student.md",
+          "master_sha256": "30afcad1a4a9338aeb2ca3826754573fe5ce299f5ea8cd9e48309ef7166605d9",
+          "tex": "typesetting/ch03/chapter-03.tex",
+          "tex_sha256": "78c9431eaa661c547397943b4cf5ce4d46a21bbe91a460100163b2cdfff137bd",
+          "tex_sha256_normalized_lf": "84ea3dc7072f7ad39fb98e8ba7d008570e36e359c1e9ac1133db53c63e2a785d",
+          "paragraph_heading_list_blocks": 282,
+          "original_tables": 29,
+          "original_table_cells_including_headers": 1063,
+          "all_editorial_comments_preserved": 288,
+          "paragraph_and_cell_parity": "PASS",
+          "pdf_complete_paragraph_character_parity": "PASS",
+          "title_parity": "PASS",
+          "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+        },
+        {
+          "master": "chapters/ch03/answer-key.md",
+          "master_sha256": "7a97bb18d56bb907e12abe76d82bf56b63d13211534928a58c1bc3d8709fc202",
+          "tex": "typesetting/ch03/answer-key.tex",
+          "tex_sha256": "5bfc7e2f402d980005f10bdc5f712b9d0b877a7ffbd741fa133c834f2b8c7fcf",
+          "tex_sha256_normalized_lf": "5bfc7e2f402d980005f10bdc5f712b9d0b877a7ffbd741fa133c834f2b8c7fcf",
+          "paragraph_heading_list_blocks": 128,
+          "original_tables": 22,
+          "original_table_cells_including_headers": 505,
+          "all_editorial_comments_preserved": 140,
+          "paragraph_and_cell_parity": "PASS",
+          "pdf_complete_paragraph_character_parity": "PASS",
+          "title_parity": "PASS",
+          "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+        }
+      ]
+    },
+    "compilation_logs": [
+      {
+        "path": "typesetting/ch03/build/chapter-03.log",
+        "sha256": "95c94b1839bdad0f1b5b471d06138a7fcf614d0d8f0349847f5aa954379805ec",
+        "diagnostic_count": 0,
+        "output_line": "Output written on chapter-03.pdf (30 pages, 152868 bytes)."
+      },
+      {
+        "path": "typesetting/ch03/build/answer-key.log",
+        "sha256": "5e852ea3a540db54df21de35b11ed606d7caabb2901c06e41a6261c1ac9d6891",
+        "diagnostic_count": 0,
+        "output_line": "Output written on answer-key.pdf (19 pages, 133211 bytes)."
+      }
+    ],
+    "build_and_tracked_pdf_bytes_identical": true,
+    "unchanged_solutions_sha256": "44b5d43bbb0c6cd43e81940d5f752a685d7ac3190c303880b87fc6bc9f36d089",
+    "unresolved_findings": []
+  },
+  "presentation_findings": [
+    {
+      "finding_id": "U03-L01-16-F01",
+      "status": "resolved",
+      "resolution": "Section 3 starts page 3 with its first model and table; confirmed in v2 and byte-identical v3 images.",
+      "source_ledger": "typesetting/ch03/reviews/learner-01-16.json"
+    },
+    {
+      "finding_id": "U03-L01-16-F02",
+      "status": "resolved",
+      "resolution": "The instrumental note and section 4 share page 4 normally; the nearly empty page is removed, confirmed in v2 and byte-identical v3 images.",
+      "source_ledger": "typesetting/ch03/reviews/learner-01-16.json"
+    },
+    {
+      "finding_id": "U03-L01-16-F03",
+      "status": "resolved",
+      "resolution": "Both paradigms have explicit Strong hēah and Weak hēah captions, each attached to its complete table on v3 page 6.",
+      "source_ledger": "typesetting/ch03/reviews/learner-01-16.json"
+    },
+    {
+      "finding_id": "U03-L01-16-F04",
+      "status": "resolved",
+      "resolution": "V3 page 5 ends with the introduction; page 6 has both captions immediately above their own complete tables. Both pages directly inspected.",
+      "source_ledger": "typesetting/ch03/reviews/learner-01-16.json"
+    },
+    {
+      "finding_id": "U03-PAGE-01",
+      "status": "resolved",
+      "resolution": "Final pp26–27 retain a normal paragraph continuation with the six reading tasks on p27, eliminating the nearly blank two-line page; visually verified.",
+      "source_ledger": "typesetting/ch03/reviews/learner-17-32.json"
+    },
+    {
+      "finding_id": "coordinator-short-title-emphasis",
+      "status": "resolved",
+      "resolution": "Final p29 prints First Book in bold without literal stars. All four intended X2 error stars remain on p28; both pages visually verified.",
+      "source_ledger": "typesetting/ch03/reviews/learner-17-32.json"
+    },
+    {
+      "finding_id": "U03-KEY-REPORT-01",
+      "status": "resolved",
+      "resolution": "The key page-19 report metadata was corrected from īċ to actual short-i iċ after direct image inspection. Master, TeX, PDF and image bytes were already correct and are unchanged.",
+      "source_ledger": "typesetting/ch03/reviews/key-01-19.json"
+    }
+  ]
 }
