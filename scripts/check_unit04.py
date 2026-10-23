@@ -140,6 +140,24 @@ def main():
     carry = c['source_assignment_policy']
     require(set(carry['new_cook_assignments']) == cook_ids, 'Canonical assignment crosswalk differs')
     require(carry['total_assigned_cook_items'] == 63 and carry['still_deferred_cook_items'] == 581, 'Canonical Cook totals differ')
+    assignments = {}
+    for chapter in ['ch01','ch02','ch03','ch04']:
+        chapter_contract = c if chapter == 'ch04' else read(f'chapters/{chapter}/coverage.json')
+        for item in chapter_contract['assigned_items']:
+            if item['task_id'].startswith('EX-'):
+                assignments[item['task_id']] = 'assigned'
+        for field, disposition in [('deferred_source_items','deferred'),('excluded_source_items','excluded')]:
+            for item in chapter_contract.get(field, []):
+                item_id = item.get('source_item_id', '')
+                if item_id.startswith('EX-'):
+                    assignments[item_id] = disposition
+    require(len(assignments) == 644, 'Canonical crosswalk does not account for all 644 Cook items')
+    require(sum(v == 'assigned' for v in assignments.values()) == 63 and sum(v == 'deferred' for v in assignments.values()) == 581, 'Folded active-contract crosswalk differs')
+    for input_record in c['analysis_inputs']:
+        raw = (ROOT/input_record['path']).read_bytes()
+        actual = hashlib.sha256(raw).hexdigest()
+        normalized = hashlib.sha256(raw.replace(b'\r\n', b'\n')).hexdigest()
+        require(actual == input_record['sha256'] or normalized == input_record.get('sha256_normalized_lf'), f'Frozen analysis input changed: {input_record["path"]}')
     for path, digest in c['prior_files'].items():
         if path in {'lexicon/entries.json', 'curriculum/grammar.json'}:
             continue
