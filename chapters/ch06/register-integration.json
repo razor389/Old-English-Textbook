@@ -1,0 +1,3326 @@
+{
+  "unit": "ch06",
+  "status": "PASS",
+  "baseline_checkpoint": "45fa02e",
+  "contract_checkpoint": "3bfc05e",
+  "accepted_text_checkpoint": "3955a2a",
+  "metrics": {
+    "before": {
+      "lemmas": 242,
+      "forms": 3198,
+      "senses": 265,
+      "features": 205
+    },
+    "after": {
+      "lemmas": 275,
+      "forms": 3487,
+      "senses": 305,
+      "features": 241
+    },
+    "unit06_status_counts": {
+      "forms": {
+        "new_production": 307,
+        "new_recognition_only": 0,
+        "supplied_here": 31
+      },
+      "senses": {
+        "new_production": 12,
+        "new_recognition_only": 0,
+        "supplied_here": 34
+      },
+      "features": {
+        "new_production": 29,
+        "new_recognition_only": 1,
+        "supplied_here": 6
+      }
+    }
+  },
+  "prior_text_files": [
+    {
+      "path": "chapters/ch01/answer-key.md",
+      "sha256": "3946fa37fbdfff0ee9a3e5a153bd5866d26bcf7c51d5dfb29a52b046e7267d97",
+      "sha256_normalized_lf": "b09c138c489de87568c4212b2a5edd2589b7c2fdf3281266f262613bde3839c8",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "d829e1e239a8e8452ca99bf8354db29d02f1e640941bfec5fbed647dd6577b27",
+      "sha256_normalized_lf": "9ef1920c76b25df15a89851c9de117396d0ba2c38ac60849c4a1955d4e069e17",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch01/editorial-notes.md",
+      "sha256": "455fed1686f313daf503e3921a4db620e53ad85c019bc7f5b6a4695ae9c573aa",
+      "sha256_normalized_lf": "455fed1686f313daf503e3921a4db620e53ad85c019bc7f5b6a4695ae9c573aa",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch01/independent-solutions.md",
+      "sha256": "f3a5f1c37e318510ca989c9a23a05ab45d823c049335024a4d816d14633900c0",
+      "sha256_normalized_lf": "f3a5f1c37e318510ca989c9a23a05ab45d823c049335024a4d816d14633900c0",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch01/register-proposals.json",
+      "sha256": "93fa27ff076a7770121bef87c5feb4fa059855b7d134ca6c52058f5ff98846ed",
+      "sha256_normalized_lf": "3698a0462f64477038dfe6c766b838758510c604561a22cb178799b861649279",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch01/review.md",
+      "sha256": "0d1b8e0ee7117be5b1d678e3767fdc8aac5596cb0d80ad00fc27185e0b1fd244",
+      "sha256_normalized_lf": "0d1b8e0ee7117be5b1d678e3767fdc8aac5596cb0d80ad00fc27185e0b1fd244",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch01/student.md",
+      "sha256": "54f75e982d811b9c305d183ff954bab825f8ed1ca8dbd91f2e4ad42de4d2b126",
+      "sha256_normalized_lf": "b0bc5de674ae7e3532ca08474dba7509e99b623dac4056962bd69c4917820364",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch02/answer-key.md",
+      "sha256": "d857f67bf3ee98905dea2b9cbccf21f3f4d88644c3f81e499d18a661c097bdf5",
+      "sha256_normalized_lf": "d857f67bf3ee98905dea2b9cbccf21f3f4d88644c3f81e499d18a661c097bdf5",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch02/coverage.json",
+      "sha256": "cf13e0c96ae80fcec8ff5f10a567715913d54f27ce11c94a44f683b1a9012fa6",
+      "sha256_normalized_lf": "cf13e0c96ae80fcec8ff5f10a567715913d54f27ce11c94a44f683b1a9012fa6",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch02/editorial-notes.md",
+      "sha256": "635bf04bdf63d536cfbd78508b455020bf311d14a3a76a074a7b785b76d09139",
+      "sha256_normalized_lf": "635bf04bdf63d536cfbd78508b455020bf311d14a3a76a074a7b785b76d09139",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch02/independent-solutions.md",
+      "sha256": "b223dda5e9197d3b6981cc3543472bfb8c444d5acd822467a91d4ed366efa870",
+      "sha256_normalized_lf": "b223dda5e9197d3b6981cc3543472bfb8c444d5acd822467a91d4ed366efa870",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch02/review.md",
+      "sha256": "03f926ceac48ebd795cce1ca340a7c356b5ee62b6f3f87ccaf84467d79c44f3f",
+      "sha256_normalized_lf": "03f926ceac48ebd795cce1ca340a7c356b5ee62b6f3f87ccaf84467d79c44f3f",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch02/student.md",
+      "sha256": "7ac884d55c143f1e5ce6d5eead3b09ec11ea9121cb5f23f4c96e0a9addb0dea2",
+      "sha256_normalized_lf": "7ac884d55c143f1e5ce6d5eead3b09ec11ea9121cb5f23f4c96e0a9addb0dea2",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch03/answer-key.md",
+      "sha256": "7a97bb18d56bb907e12abe76d82bf56b63d13211534928a58c1bc3d8709fc202",
+      "sha256_normalized_lf": "7a97bb18d56bb907e12abe76d82bf56b63d13211534928a58c1bc3d8709fc202",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch03/coverage.json",
+      "sha256": "0d78e024da44545d9949800a16a3e5deefe0e24e7f34fc4ef2682ce90e958703",
+      "sha256_normalized_lf": "0d78e024da44545d9949800a16a3e5deefe0e24e7f34fc4ef2682ce90e958703",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch03/independent-solutions.md",
+      "sha256": "44b5d43bbb0c6cd43e81940d5f752a685d7ac3190c303880b87fc6bc9f36d089",
+      "sha256_normalized_lf": "44b5d43bbb0c6cd43e81940d5f752a685d7ac3190c303880b87fc6bc9f36d089",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch03/register-integration.json",
+      "sha256": "cab3f831eb8ce1a08cc045d153d2f098382d561bfaee6210391ff3c31714f8dd",
+      "sha256_normalized_lf": "cab3f831eb8ce1a08cc045d153d2f098382d561bfaee6210391ff3c31714f8dd",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch03/review-findings.json",
+      "sha256": "d2999774d9e4a43dcb6babf672593713af8027888aa4c5ba20f5cfaaaf5d3594",
+      "sha256_normalized_lf": "80130d10ed20281944a01eaa3557645ba3b0e23ad46fffd37533a34dcbf6709a",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch03/review.md",
+      "sha256": "e7ee9fa4616dcce4b07035ec664129274b05c87d382b9ebbabf36188d1793c1a",
+      "sha256_normalized_lf": "e31927ea264bd4a07a2e2275715c9eeb873346c4a6c482349ba2e5b2e1c14619",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch03/student.md",
+      "sha256": "30afcad1a4a9338aeb2ca3826754573fe5ce299f5ea8cd9e48309ef7166605d9",
+      "sha256_normalized_lf": "f01f6f325ffe0e335a72c60f1c7a4e83f9a3874d5216f572f9a5606486e93187",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch04/answer-key.md",
+      "sha256": "532e945f5e4c2483e9cf08ddb2b204f0c38c7f72182454ed54102140f4535c3e",
+      "sha256_normalized_lf": "532e945f5e4c2483e9cf08ddb2b204f0c38c7f72182454ed54102140f4535c3e",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch04/coverage.json",
+      "sha256": "9d900715219de8acdb1f64ebe3590888781cf95102ee9ae877e088fdf663fd5e",
+      "sha256_normalized_lf": "9d900715219de8acdb1f64ebe3590888781cf95102ee9ae877e088fdf663fd5e",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch04/independent-solutions.md",
+      "sha256": "22080b2c56dc015ddc29adf85388d855ec50b6fa296f78b3d916f31461d4299e",
+      "sha256_normalized_lf": "22080b2c56dc015ddc29adf85388d855ec50b6fa296f78b3d916f31461d4299e",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch04/register-integration.json",
+      "sha256": "042f712bb3c3848720b1728731c61e332cd62694b2f80d223fabd5272a18d1ac",
+      "sha256_normalized_lf": "042f712bb3c3848720b1728731c61e332cd62694b2f80d223fabd5272a18d1ac",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch04/review-findings.json",
+      "sha256": "42afb2b8f221a6d47c03bb330115642d2e9936fbba928ac81bba61610cd4eef9",
+      "sha256_normalized_lf": "42afb2b8f221a6d47c03bb330115642d2e9936fbba928ac81bba61610cd4eef9",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch04/review.md",
+      "sha256": "2f49b9561074bdd8a689a936710d46d0312fcac8b3b0479918127299a4edcfda",
+      "sha256_normalized_lf": "2f49b9561074bdd8a689a936710d46d0312fcac8b3b0479918127299a4edcfda",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch04/student.md",
+      "sha256": "bcaabb3fef42b5395e107d8d371a7b0865706515b05edbc46f93d8d001108748",
+      "sha256_normalized_lf": "bcaabb3fef42b5395e107d8d371a7b0865706515b05edbc46f93d8d001108748",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch05/answer-key.md",
+      "sha256": "9a7db0cc0954765bb21680a5d086e8c488f18bd3dde394fc3754a56e726aa079",
+      "sha256_normalized_lf": "16d3c595ef46d19d7f79a32b94063247effa7793f8f42feec4ad5b69ce4a5c70",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch05/coverage.json",
+      "sha256": "0e37b344c6c640467741c01aee1a22fd2da569c7a202f1c3eb5e894ad6825fe6",
+      "sha256_normalized_lf": "0e37b344c6c640467741c01aee1a22fd2da569c7a202f1c3eb5e894ad6825fe6",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch05/independent-solutions.md",
+      "sha256": "7dd6498e6d968cd9b1ed277ea57d764df9d5a3bd3ea818fc6ef7a632c4cc6861",
+      "sha256_normalized_lf": "7dd6498e6d968cd9b1ed277ea57d764df9d5a3bd3ea818fc6ef7a632c4cc6861",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch05/register-integration.json",
+      "sha256": "a17fefc232dfa13d635f53053fdf37cf66cae21ce77f4f818f1954f9c2aa49f3",
+      "sha256_normalized_lf": "a17fefc232dfa13d635f53053fdf37cf66cae21ce77f4f818f1954f9c2aa49f3",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch05/review-ledger.json",
+      "sha256": "4ba18ddffbe2fead36f42c62a351e6f7d039cbe3acf1b8ccfd25093c253fdfeb",
+      "sha256_normalized_lf": "bbd735b4967aee154205715aa2dde064f1038afdbfd43b3fed1439d390cd6b69",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch05/review.md",
+      "sha256": "2a303fc41d2a09415ff801e3d65afbcb32635a7451ec0d981df61ed36e235548",
+      "sha256_normalized_lf": "2a303fc41d2a09415ff801e3d65afbcb32635a7451ec0d981df61ed36e235548",
+      "unchanged": true
+    },
+    {
+      "path": "chapters/ch05/student.md",
+      "sha256": "ce3122adca166c5eec0038ecb209b6e14b15a9dbefb349caab6fc5d92f533d59",
+      "sha256_normalized_lf": "50b7a9719484a966c7a1efe41823b1a3b10571bb52a944e9c250ebcd4ccfcd50",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit02/compositions.json",
+      "sha256": "f5ab11a2fee8bb0fb4dbe1f1625a38ff2d9ba133e957880503bb060c1e3afd36",
+      "sha256_normalized_lf": "c163f04193a83b20c1f18b0225ca544ec604b8f9a525263eae7c458f7e604ee8",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit02/inventory.json",
+      "sha256": "482ccbe86a4b2e886e1cdfb591836b3e1b2c028f250d58c4a93511382cd545ec",
+      "sha256_normalized_lf": "a251681153a36466f2cb9f356fc218ebda94f4efe50d0557560e9e3ef4a89260",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit02/prior-audit.json",
+      "sha256": "fe8fdf59a714072f87a7c16fdbc1fdbbaeab4fa7b7c7d8da6bdbe7fb5ed5180b",
+      "sha256_normalized_lf": "76037b7ce87cdde960c3e8f20080258d7b1b3a96f990e06b361f94c7d82a0b05",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit02/report.md",
+      "sha256": "1537eb179026986dce28553a876ec63807c1bbbe5ab4b127fe04528cbe4972e9",
+      "sha256_normalized_lf": "1537eb179026986dce28553a876ec63807c1bbbe5ab4b127fe04528cbe4972e9",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit02/task-plan.json",
+      "sha256": "dce90166a61de7c4982f9efcab58fc092260e255fc21d3d7d67eb87cca1f0ce2",
+      "sha256_normalized_lf": "6eb00111582ee9cf760a931f4f1ad753d7ce194901c0beac9a9d212e850fbe1b",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit02/validation.json",
+      "sha256": "407f2dd1fb16a227412d38149666c5da2e6815855b222a43eac832ed28691102",
+      "sha256_normalized_lf": "c3c0107f158520c71d18e9e6f166d351f50e235ec48dd747589d980906b4ed97",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit03/composition-seed.json",
+      "sha256": "514c4affbc71184dcd70983254de73a67cf3e16f921370638d78ddd715afb551",
+      "sha256_normalized_lf": "514c4affbc71184dcd70983254de73a67cf3e16f921370638d78ddd715afb551",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit03/compositions.json",
+      "sha256": "9df3c7126dbc7617a11b92cb5557ca3182f005f5ac3bb382512dd0005c1a43e0",
+      "sha256_normalized_lf": "8a8809171df2c78d1633774db3d61d868e8572a9f30b464ed56d423f8f8db4ac",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit03/inventory.json",
+      "sha256": "8c1b92238a1876dfff7990e6ab3b7d55c609dfa50d9b7e07bf1799e2f3c0551b",
+      "sha256_normalized_lf": "b3f6d85b3f213969e38318c23b57c13ee6dbd305d77a513a1179894de49e20ff",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit03/prior-audit.json",
+      "sha256": "6f51c967927b0c84b48e7c90b0de426c909e793a7db4df03efc8f07914839fdb",
+      "sha256_normalized_lf": "567ec18af1c1c9467f883d337261c29b02a5b5914182474923008c7839d2586c",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit03/report.md",
+      "sha256": "d728a5a4f0f965399f42a96d738a7cd16bc3a8b0daee39e3f5c3cc7d5d83d9e8",
+      "sha256_normalized_lf": "d728a5a4f0f965399f42a96d738a7cd16bc3a8b0daee39e3f5c3cc7d5d83d9e8",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit03/task-plan.json",
+      "sha256": "60ce29b7cc081bfe1282a39e86123d55fb1a5225e2f3682bd527ca15c5c5bcc7",
+      "sha256_normalized_lf": "1e88845d4e5b7ea6da13c1468287115624bd725a05ac3e90ea496e793b126961",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit03/task-seed.json",
+      "sha256": "aaf53ae35a328b3ceeeb41d423c5d7aa0038be713878b1f815a513906aff992f",
+      "sha256_normalized_lf": "7d8fc11afaba7f8c8da31bdbf51cf347cece0348d8b7b22dd99cb11ed12671c7",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit03/validation.json",
+      "sha256": "d0b2e13fbdae83bae327b47c2f131d74a4d5f3b4220d84e0d4c0e966bfd32324",
+      "sha256_normalized_lf": "77c2c93bd15efd981b97aa833fa93bf71d50ead11e7275310b6e869944ccc69b",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit04/composition-seed.json",
+      "sha256": "7a26c5fafd09ff21327965271515471b3b2fcb4fd7577a3cefdd4b94b0eea8a6",
+      "sha256_normalized_lf": "7a26c5fafd09ff21327965271515471b3b2fcb4fd7577a3cefdd4b94b0eea8a6",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit04/compositions.json",
+      "sha256": "9a9419852da4875b3c8fc079a1100721be1fce2bc29158a5c2e38b2ea8b3a7b0",
+      "sha256_normalized_lf": "9a9419852da4875b3c8fc079a1100721be1fce2bc29158a5c2e38b2ea8b3a7b0",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit04/design-outline.md",
+      "sha256": "0a8bd07babbe74f3480a1acd72a98ed005c3ef7da682fb774586ca1c7dc2c3de",
+      "sha256_normalized_lf": "0a8bd07babbe74f3480a1acd72a98ed005c3ef7da682fb774586ca1c7dc2c3de",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit04/inventory.json",
+      "sha256": "ccceb69d2ea1f0fb09bdb40d4af9ba2e214f2eea6a34664b0497fc5ac0d86513",
+      "sha256_normalized_lf": "ccceb69d2ea1f0fb09bdb40d4af9ba2e214f2eea6a34664b0497fc5ac0d86513",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit04/prior-audit.json",
+      "sha256": "e104e98c74d2a8724fc34dcbbff1a376f197bd609e91eb3b050ee1ffcc274dda",
+      "sha256_normalized_lf": "e104e98c74d2a8724fc34dcbbff1a376f197bd609e91eb3b050ee1ffcc274dda",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit04/report.md",
+      "sha256": "d4d62a1d42bcfc013a5f9e7f682e9108ba1645e460b5e0550eb32a852b2c2647",
+      "sha256_normalized_lf": "d4d62a1d42bcfc013a5f9e7f682e9108ba1645e460b5e0550eb32a852b2c2647",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit04/task-plan.json",
+      "sha256": "eb65e5b68a4c0febe9ca7a210a50e607be6b9a9105bee3ae095207eea35b0581",
+      "sha256_normalized_lf": "eb65e5b68a4c0febe9ca7a210a50e607be6b9a9105bee3ae095207eea35b0581",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit04/task-seed.json",
+      "sha256": "20b5c1bfc9798260855409ea8d08e606c5a7195b1746085e6e97813a41e7c874",
+      "sha256_normalized_lf": "20b5c1bfc9798260855409ea8d08e606c5a7195b1746085e6e97813a41e7c874",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit04/validation.json",
+      "sha256": "21dbc3dee8dc311cc8b9e8e50012761e1f7654811c5a1dfb410d44433ae348d1",
+      "sha256_normalized_lf": "21dbc3dee8dc311cc8b9e8e50012761e1f7654811c5a1dfb410d44433ae348d1",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/composition-seed.json",
+      "sha256": "11c9f212578b9c8033f402ab6c43dd701673c1b56aca6c08d0ab6018b5a34816",
+      "sha256_normalized_lf": "be7144e4f014af82c672a2ff934aefbcc6c5a5de0750fab2869e77014c63cc24",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/compositions.json",
+      "sha256": "a179f40ea2430b3b087c8940bb391c64614d41e3f46da485ed4ae0bd45d9233e",
+      "sha256_normalized_lf": "a237569282e65a375defec65c6ece32928d97c8efbe7bf54fb002a2637df32be",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/design-outline.md",
+      "sha256": "ead158823047e5f94788764d8ef14ee0360c4b5a026ef0d86db05b8db3a2d9e5",
+      "sha256_normalized_lf": "ead158823047e5f94788764d8ef14ee0360c4b5a026ef0d86db05b8db3a2d9e5",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/feature-seed.json",
+      "sha256": "769061bdc72d1aa82966aa53a9a32e307f0e93c9a464ed23d010d581446a6918",
+      "sha256_normalized_lf": "2049d11cda9d8c6911fea52fafcda7e634e0cab97cb3ea77e828e750da2ef919",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/inventory.json",
+      "sha256": "9b179b6dc136a09bc5698815d5584bc7fe6bf513985d6c7cee091215f6ed08b1",
+      "sha256_normalized_lf": "aee5d126f57c4a1dc625c2015d6e05976b69332f7f3cc8f41dcbc53f33da1be1",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/prior-audit.json",
+      "sha256": "64000f228557f686b1de3492c1c4ca1f6b0eb9c8b83ce72cf2d1fba8cb0cff24",
+      "sha256_normalized_lf": "e82454c92372c905c17480440e878800ad9afe81c08624bae3b95a39e232423a",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/report.md",
+      "sha256": "1fce69d67293359d989ec2bd9d9b4ea39f1a1254e3f9f4acd465d7381d0d915f",
+      "sha256_normalized_lf": "1fce69d67293359d989ec2bd9d9b4ea39f1a1254e3f9f4acd465d7381d0d915f",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/task-plan.json",
+      "sha256": "ba8099c108a2fd941040299aeaadd0ae88294ef3cc5609730ead591c5e27398b",
+      "sha256_normalized_lf": "1b75321d1a7677b1ba47b1011c80726ef60def76001a1836f1cf26766d9eeda0",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/task-seed.json",
+      "sha256": "a895066c95076a42c41e4c8f07948027ecc58589dc11aefab968967f62451339",
+      "sha256_normalized_lf": "8f66f5e2700efab1c3cb7a90d2bbdbf1fb47865ce99f528f5e6526102199cd23",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/proposals/unit05/validation.json",
+      "sha256": "d61c902fad2dcabdde452cff33a563746111c1b43a749fc3dd7d75c2169b539b",
+      "sha256_normalized_lf": "084d46104884261a1392ee962b7740c0881a2280988704291f3841c94e889448",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/UNIT_01_BRIEF.md",
+      "sha256": "05d1740d5adc101b130adf72f23c25d4688a9a40eec5b3db9b3a33bc7dc20712",
+      "sha256_normalized_lf": "8b03c519202996ff0ba8709baa48910f17dba09702e84fdd5a5f944247310865",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/UNIT_02_BRIEF.md",
+      "sha256": "52d3148748d0897f6e98601975e45cda532300d4fa17a6cf9c8c2eb50f672098",
+      "sha256_normalized_lf": "52d3148748d0897f6e98601975e45cda532300d4fa17a6cf9c8c2eb50f672098",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/UNIT_03_BRIEF.md",
+      "sha256": "f7d711930be83bc4373c18edc72808c8a3466fb10bddbf66e7e4cc7c06034ecb",
+      "sha256_normalized_lf": "f7d711930be83bc4373c18edc72808c8a3466fb10bddbf66e7e4cc7c06034ecb",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/UNIT_04_BRIEF.md",
+      "sha256": "168e75cf88a7fbfd8c167bc6ca7f18703234156233d419ed7f9680e3509ab9d6",
+      "sha256_normalized_lf": "168e75cf88a7fbfd8c167bc6ca7f18703234156233d419ed7f9680e3509ab9d6",
+      "unchanged": true
+    },
+    {
+      "path": "curriculum/UNIT_05_BRIEF.md",
+      "sha256": "b66d09dcbe256063293548379b978f681db66553a912b287a20bb03cfd926127",
+      "sha256_normalized_lf": "b66d09dcbe256063293548379b978f681db66553a912b287a20bb03cfd926127",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/copula-1.png",
+      "sha256": "e226fdce6472255087cadf108ed7f97696d7aaaca7808393a651a1531dfab37d",
+      "sha256_normalized_lf": "46d21876af1a6173376ce1509d2cf421bb1b7bcdf61a7cc1ea79ca513fe2ba82",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/copula-2.png",
+      "sha256": "dcc9dbcbada33b553a374286d665a5e639944dddfb75e28ebbf4400f7c20a210",
+      "sha256_normalized_lf": "edb282d8b6b928f1867e31f2fdd320ea89d0cde47ad35e881555621e2a041d8d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/creation-first-day.md",
+      "sha256": "c03878047de7e04d928284da997b29e0fb6b0eaac988e25f7e85a6118482f54c",
+      "sha256_normalized_lf": "c03878047de7e04d928284da997b29e0fb6b0eaac988e25f7e85a6118482f54c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-finding-aid.txt",
+      "sha256": "94391e905455da799023a7611fced535c3d7c69f5fc04f9a49dec18f96997d56",
+      "sha256_normalized_lf": "dc9c992309bfa7f1b5a1f442cc0d1667f2b20554ce63a8151ac7c9d1bc403b92",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-p002.png",
+      "sha256": "8a516759cf5f452db0c6e5d94a2b5c76d07b1034b92ff157d3d5bfcc31534ed1",
+      "sha256_normalized_lf": "94931a85669b6582e0f883d58d69d69a4b2459ed9d08a9e9a4968f1dfd894b3a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf46.png",
+      "sha256": "64b562206adfff6700db408afe9441a562e57d4fb515501adc49f4019202813a",
+      "sha256_normalized_lf": "6e8be50d9677369ff8c5699ce11f0df268f6f281a4d45656827d79dbcdd6d4a5",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf47.png",
+      "sha256": "523a8b0ee8bfcc941020c21b2230b5a5112e9ac42591b078dae74aff6126846f",
+      "sha256_normalized_lf": "8bf1e54ce0124dd95f6f5ca2cce380ee32f41965898c3cda07c87737c65994cd",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf48.png",
+      "sha256": "52188ad78589ec820d0db2d4859dac167d3d1003e06a9f5d823e02da0625b882",
+      "sha256_normalized_lf": "94c64fc15d953c3ddbc2fe416e33772dd136e5910a30f642847403ce3fd22f76",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf51.png",
+      "sha256": "345207b72aaecf7e8dd1c5142c2ce8bcf31f47767edf839d746aed4f157679ce",
+      "sha256_normalized_lf": "b5ed2ee397ef8df3fabf45ce44c8b0a2c9f2bfab78e05e2eb6e6c0c0426a6a84",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf55.png",
+      "sha256": "f9bf5a49cc0e33b5d0af6b03ca5d226cd1e850e6da154e84b420b398d7365ad1",
+      "sha256_normalized_lf": "de060baf2d1afcaf8ef6463b6cbb3105e8d2498e6a80fc1808e14a82a58ff4ab",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf57.png",
+      "sha256": "6de351dd7a4acf59be8ef03e7b6beb6db073ed55630134bbe8f5b16ec4a8faf7",
+      "sha256_normalized_lf": "6714e30cdb9d541178a2f038bdd0287425f6d3842b9633279c9cf021b4c60005",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf59.png",
+      "sha256": "4b28d92596964d96edb7c41a68acc9bfdd31238aae3fecd8deab38dc7364403d",
+      "sha256_normalized_lf": "350fb4b10e4f8b0ce448cee564c072d722c3f06ae31c9ba3b80829ae07aea62f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf60.png",
+      "sha256": "9a5a5e26a08d46bb92ba7995c764013672564dc35f304c08af841650f6ba4117",
+      "sha256_normalized_lf": "1c3a8caefa100cf7b14fd1b52294b0c7f4b11290363949180a94547fa6e0c836",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf61.png",
+      "sha256": "b33183e1efc34e07914b46bdc39543d3e0f9a940683c12c64bb896be88d435c9",
+      "sha256_normalized_lf": "e489dca44a9cbf0ec33eb0973f635bb722c4917878ed8850d1994411d384098d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf71.png",
+      "sha256": "cd0f99c20ecb0f80d51b2f789c0f30a6485bd0ff3dac0fba5e5f7ce6a926b3c3",
+      "sha256_normalized_lf": "d89916df9d28f3f0a1040023f92b42e76d98f1a07635adf8dfd39f35c9e8f384",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf75.png",
+      "sha256": "5d8c14208ac5694ea193e853180a2ae2655f422b52a980824dbf7bff2fd3ab66",
+      "sha256_normalized_lf": "4f4dc6d06ab42c3aec5169e8c1513f495d436b8a53e1b0c1cb01c0b49515068e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/ex-pdf76.png",
+      "sha256": "29370b3aea3f26100ec8cac32207183f6a1ee7be1c6881ba91c4a05fe24ba61a",
+      "sha256_normalized_lf": "9e7e4a4b9c2ecb0085472c92ee7fb04aab7e3751381807f3f17d293d806f75d3",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/exercise-3.md",
+      "sha256": "23c0c4f31a700ff8b235416068cefbc59faffa49c72cb375ed7afea28ca38ce6",
+      "sha256_normalized_lf": "23c0c4f31a700ff8b235416068cefbc59faffa49c72cb375ed7afea28ca38ce6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/expanded-grammar.md",
+      "sha256": "634cc9b84cb2e9f39c1e6aa683758f243d0071f84cdb81968a42d953a05fc181",
+      "sha256_normalized_lf": "634cc9b84cb2e9f39c1e6aa683758f243d0071f84cdb81968a42d953a05fc181",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/fb-p324.png",
+      "sha256": "fe1069c7046018295b0dcc12afb6b8e3bdcef7d4ee2959cb1177a69e9165f084",
+      "sha256_normalized_lf": "3c40c3d50c715aee7802e0042eff662b68f60ca2c5b8c80844287b372f5862dd",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-1.png",
+      "sha256": "f3a50b15ba9fdd97a55df6c244c110ade3c659a01d05d0af1fb674d5619c34b6",
+      "sha256_normalized_lf": "3140050fa64d5d6b4e82a2f6014b071f2cf8f0d3f2f92b11715dbafc635411d8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-10.png",
+      "sha256": "4a1e3f6c894f5151423a570f6e98e5bfa39460a01d72a1186715e0c53e47dca7",
+      "sha256_normalized_lf": "8450b4fcf811c1a4a4929fd0c9e29d0c96045495bc3efc7fdee55170ca30a580",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-11.png",
+      "sha256": "51074437437d2ec47feaa61d15c8f7d75ae012f38b7c5999377d31da8752c398",
+      "sha256_normalized_lf": "34d2c2dcea7268e3f099970117d437d7211d4afc6ea8b6d22b1421ae7164f3bc",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-12.png",
+      "sha256": "723b6624b9ab7e3e45248e20f66949c70120ae15fc1274202974659d450f47e3",
+      "sha256_normalized_lf": "da11965905aa88940a0bcf908de8ee54c1e72ef795186ee343eafeb03e77096d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-2.png",
+      "sha256": "452376193785623084fbdd38d7e6c9f416a7e7dd82730f88c6035e6d3ec54744",
+      "sha256_normalized_lf": "1d755e6d1db79ce8585dd0ba44c5178b81045079f88f99754752e5d9dd335f55",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-3.png",
+      "sha256": "d8c146c5e56f09744b1bb6cd7758623846fd2c7ce2e59f520492438d222ba9d7",
+      "sha256_normalized_lf": "d8fe30c8fa07f0954183ff40ed16366ecf4279065721ced2ff1086eb8b265a0f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-4.png",
+      "sha256": "d8b485b9180ec333f8c06aaae6d62935d588a9d37e9740debf9a562caf4fe17c",
+      "sha256_normalized_lf": "39c506168c4c37c0b3d6eaa2dbccf1c307d82802e57e48c598f2c037a90395d2",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-5.png",
+      "sha256": "4c90b1c67ee7b279caa35128b6bb6ebd8ee9936308d22a2e2726075e5d3e977c",
+      "sha256_normalized_lf": "bfce0ac7c499cae6441dce294ca70bb97ae58f31bd53c2f20a8c094c34716e43",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-6.png",
+      "sha256": "a913dbff34cb07fa50bcfd9a2310acb29790a6c8459092a38dc355957f43a560",
+      "sha256_normalized_lf": "76e932c87b4c56d243aa20adf0b89c5cd147ec7f248b82edafbc7ad143db3626",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-7.png",
+      "sha256": "c8eb44546d66443d5f2dbbd38fb250bb57e90c2b0dd4bf88f439e3926b52f840",
+      "sha256_normalized_lf": "f82ce92da0821008873130505b84d96bac54d556e828de9b37071b2d831f2dc7",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-8.png",
+      "sha256": "37d5500a9a75a788ea1a082df09724c2e8c5fc1b927ce987d157195656d43594",
+      "sha256_normalized_lf": "4fa480aede9eec7cc28f6014552bac098a4b519e862bd40adbfe7dfb4815bc21",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/nominal-9.png",
+      "sha256": "69c958aaec26da4e90c31e13655d1e99baff4a9c9de0d6a7edfc3192719a979f",
+      "sha256_normalized_lf": "73e62cf8cbaf406c559789235512c18d8f40c947fca7f74bdce5e3159c0a3593",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/pronouns-1.png",
+      "sha256": "839ea0f0c3a8e84fdd4a4f82139c5be36c5f507015875ec25c1086b27526c55b",
+      "sha256_normalized_lf": "78baf4e161091a69cd2403f5401d1819b2164f5e8bb703793931f7bb8d5970d0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/pronouns-2.png",
+      "sha256": "74ddaf937d360acb905e7a62700771dd41986df623d27d74877901b06c2547fe",
+      "sha256_normalized_lf": "7662408efae17e413d646a11e8323ec947b40e9c298c7e723c3a806aa6c5c02a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/reader-1.png",
+      "sha256": "14cd1f3113cefd9a4f573d5a21dc7b45aa14c841d394026ba6cd27fb8401c878",
+      "sha256_normalized_lf": "e917b5b2974831a1d8b875ba23a2a7bcc0e2a5619bbab3ccc1700f9808356cb0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/reader-2.png",
+      "sha256": "0405abe179fc275c7ea1d9c394c469606f8fa60395df921dfe67c879ca4adb56",
+      "sha256_normalized_lf": "9252f30d18762f1f946fc60230ef85d4611991673a2ca1dc35c6a94623cb1241",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit01-source/reader-p123-detail.png",
+      "sha256": "6ff24eba61ac1ef828c26313e97b528161f859631efed7f625eb20c9a3a84a0d",
+      "sha256_normalized_lf": "ffe13ec55b45c8e85bb7c2a91816cb7e6eab95f3000251c8c08aa3869a3bfc79",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-finding.txt",
+      "sha256": "d64eef2af32205dfa62c63979762b2498a35139d83f3ced75ba9c6acacd001e8",
+      "sha256_normalized_lf": "d64eef2af32205dfa62c63979762b2498a35139d83f3ced75ba9c6acacd001e8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p100.png",
+      "sha256": "cf0ed0e5e4a68903ca2a50e6b15808d7114e028f0078fac913e3038733314732",
+      "sha256_normalized_lf": "0b285004a876e2c07b30cff842d93e694516751de5819e2f99327e8ca2719132",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p101.png",
+      "sha256": "abd9957aee28f33d9f68a4d66cc6ade0d99b1d4e6c2ef4e4a4f2fa66100ced6c",
+      "sha256_normalized_lf": "334e47d26fcae0f0a1040845d86e7f4b678d302266cd769b386500ce0831b033",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p102.png",
+      "sha256": "ce368b7fbc30419ee74fd06b216c793d8dfb27f1d75a94cddb068d9f91003d0c",
+      "sha256_normalized_lf": "c23b54560362374a3dfb0c17e5305f65f6a2e938822e1fa8cd7ad00ea6436869",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p128.png",
+      "sha256": "bbeee141b3219160511f9bf9f57a7be7aeeff2d9caa3c556f20db08d8571584b",
+      "sha256_normalized_lf": "ebf875388feac78abecaab64bfb267e950f65d355c9c331ccf7aae4fc07f961e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p129.png",
+      "sha256": "5bf7b5734911671459e06935d6f59c90260ae09441b7e9382087638447e46856",
+      "sha256_normalized_lf": "3c15eaac7732a2571e13dfc4b4ab288c7c9f848de7e2e44aa74fa84db21e105c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p130.png",
+      "sha256": "7883e4373a223ac39c596971c302e086b92ec6cfadc37759b9fbefc7f3ff6df1",
+      "sha256_normalized_lf": "5c256af722c06f12b0c8fc36b1d2c0e55d093da8a640df1159786eb81b5575d4",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p132.png",
+      "sha256": "e0e9f7162a6a6c9eb04d1355dbd4798d2a10a95e88b49eba0544d2e9f063ba64",
+      "sha256_normalized_lf": "c5811d2aa8b12359411499536a0c5d85924325b8cdbafdb0ea7babc14b71bd5f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p136.png",
+      "sha256": "a62d4224d286b77d638aa70d2f5d2977c5314dca0bd887e8e1677a9cf4a97004",
+      "sha256_normalized_lf": "2d685fb86d21c74c311e1ce5d4fd8b234dba673e45fba642d7dd5b0ad391f889",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p14.png",
+      "sha256": "0d7bc646d305072d8997600eb0e17deb7937b74ee5440b5ff871768f3fdfb466",
+      "sha256_normalized_lf": "4b124d2d5588c5f743ef0922e403e57e3c7aedf01583219a226355c452a5723e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p149.png",
+      "sha256": "f213f4d017cd967578fd1d99f141a9e07e9d997090b933fc166b30110b77e7fd",
+      "sha256_normalized_lf": "16437139d7040931224eefc3264d149610c97782dba3f299f9c40db01dd7480f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p15.png",
+      "sha256": "1a45c37c402ac80e5f1cc61f41a44c85120f999936bfcd52c11524eb1f97c932",
+      "sha256_normalized_lf": "a67f2fb2f18b0a56ea4fa03b2463800755c03c68857203ef65aa197990c7ebf0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p18.png",
+      "sha256": "b2a1189b95707741fccb9d74013546d23ae10063c1c7a24f46b06adfa0ae227a",
+      "sha256_normalized_lf": "44b1d17b54cb275f44df64595b8903d8a35c35171727f3fc85b2ecbb4b1cf0d4",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p19.png",
+      "sha256": "41025f402c1006fcca86f3191d8240b7aff8ca03ab232ac3e423f68feee04f65",
+      "sha256_normalized_lf": "86959516f1eb61da298509441a32e1d729305660ed3416863bb163e7286847f8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p22.png",
+      "sha256": "ec3a56faf1a94dde8bf8912dc9b85a739ec5085429adbdb2c938cc45c022bcfd",
+      "sha256_normalized_lf": "877910749a969b3092b0170ccb0fc08d7c35ceccd24dac1d56cecd5fdf2e24e5",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p23.png",
+      "sha256": "c8459f9d47cd928df912836d02865b6ee60a5463a42c7b232fabee7deee047e5",
+      "sha256_normalized_lf": "71d32405e97c50537875d0753acdc2da15cd3a36baa53256eaf17d8a81601a0b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p24.png",
+      "sha256": "661d6698be94dbc83bdefcc3a66a92e3d77488c483d23019503f397e8b44c3ed",
+      "sha256_normalized_lf": "bd4eaa60dab0866ebd53237a5432ddcc523cfd45d707f72353d017eb2d613c2e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p25.png",
+      "sha256": "5162a4457217d6e37a0019583c447773f331c6b541b439471701624aa3258092",
+      "sha256_normalized_lf": "7b2575a731044074c8daa4a956ade94477d41aa33c008e0799432bfe8baff1e1",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p296.png",
+      "sha256": "e286831cfa298be7256c6728d69d925e7e3becaee38f0ecd9f7791b50dd5aa7a",
+      "sha256_normalized_lf": "feecfaa979d2692ff41eb4a9e901b2c8a5692cd54c55cb83e747550953cfbdd2",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p299.png",
+      "sha256": "00d4990970c5f3674073af657c8dc80d420e20b3cd09e192a893bdf54a411913",
+      "sha256_normalized_lf": "e1e6d04b80800f07efdbf69ac82e8cb0f835ab37530855763eb6ca4ccae1edc2",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p305.png",
+      "sha256": "ec682a0530687a266b037f1b8cdce43e478e951a7390cdfeb91e42aa6bd47a38",
+      "sha256_normalized_lf": "0c430b216e14cd3d9093f9f661732bbb8525a4b85d51366f9d521f1c617cb5e0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p306.png",
+      "sha256": "f3e9c08aad557a12a148346a811db48836b4f73a4ae265ef0fdf4b8236d33089",
+      "sha256_normalized_lf": "d5d49b537bf7b982359ed32a7ad65b0e074920b43cf84948714fe8abb5a3b266",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p312.png",
+      "sha256": "fbcab4a5d00d2ec8b54c10794af79e84129a09b3550992da0037a307f839cbe7",
+      "sha256_normalized_lf": "6d724244f1e253cc25ed487a8220e02ec3a3925e811d87dd414bfd910adedeee",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p324.png",
+      "sha256": "fe1069c7046018295b0dcc12afb6b8e3bdcef7d4ee2959cb1177a69e9165f084",
+      "sha256_normalized_lf": "3c40c3d50c715aee7802e0042eff662b68f60ca2c5b8c80844287b372f5862dd",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p48.png",
+      "sha256": "d6bf1341dc7d9d58044d1a25866fce51662a04a9d348c8812ed2881a8c0c78ea",
+      "sha256_normalized_lf": "d325a7ed74fa3a9f969e550b3229a08cefc577ba802bee86e8dd0e39276432d4",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p49.png",
+      "sha256": "839ea0f0c3a8e84fdd4a4f82139c5be36c5f507015875ec25c1086b27526c55b",
+      "sha256_normalized_lf": "78baf4e161091a69cd2403f5401d1819b2164f5e8bb703793931f7bb8d5970d0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p50.png",
+      "sha256": "74ddaf937d360acb905e7a62700771dd41986df623d27d74877901b06c2547fe",
+      "sha256_normalized_lf": "7662408efae17e413d646a11e8323ec947b40e9c298c7e723c3a806aa6c5c02a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p54.png",
+      "sha256": "2b48db153ee8a75f0461b82a59d3609539e34f62c80d1ce69b4c8ed6ccc83400",
+      "sha256_normalized_lf": "be84d6296cba3979e73d6a6e0fcc49374ad7abc3057068865107f44240daa002",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p55.png",
+      "sha256": "d9a9a9168da1014b09b6a39b48145a95439ea133baf541cb3f8729f659589d91",
+      "sha256_normalized_lf": "bf67106b8c96b0a0dd2092bf0de46ccb16420b448d4b08ee7ab69186409e7d89",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p56.png",
+      "sha256": "e3bde93852741788a4066388bb77ccc0f1df10b86fa63dbd07328aae5b8b01bf",
+      "sha256_normalized_lf": "9a55b50375473a71d399e0c36f2f254c4d16fe7cbf43d8297f19bfab94a7bae5",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p67.png",
+      "sha256": "3df7536fbd928cb2d5aea9ff676ce15564b57d4d1177317c66a6608905d1b00f",
+      "sha256_normalized_lf": "81a8990364a7ba31086edc2f2b6aef62cf4741d771c7b8f6a4c9338133b32350",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p68.png",
+      "sha256": "3fb39931a05a2a8e5969df1948b1d657b00820dfa537c57223b28657ae1f3ffb",
+      "sha256_normalized_lf": "de111c729301310cd608eb72464ee378cd8df4590a3787834f25a32f766bc9be",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p69.png",
+      "sha256": "d6b9882b669c56aa2b784c5f152371890ad19f7e41dc0f46308a51712180d1c1",
+      "sha256_normalized_lf": "982e06ef985a78e6f4d875e1b7f91efd83f54db3c22a09430d6980385680a9d0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p70.png",
+      "sha256": "464b3bf2d8af050c892ba0c37e46cf852c0b5db1c400eee595e68e1561e9aea3",
+      "sha256_normalized_lf": "e411a50ec858d2f583f26689ea7225fa1fbd4f26814b6dd171d4998adbe87617",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p71.png",
+      "sha256": "a50d46c58eb69c3ff977b66516f4cd20bcc2546c5472474dea431cf928078c4f",
+      "sha256_normalized_lf": "376a2d7706c8b1bdf5352780553b0424178d08cacd6cc2c4da756e7a1e885c36",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p72.png",
+      "sha256": "976143a90bc0da9174830a6a53927e73c3293abd0d1d8212d8b6e7dbb6c4355f",
+      "sha256_normalized_lf": "eb0420b52c3454c088ba3aad4e99ee97a3b52288cb36008f481067662e080d49",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p73.png",
+      "sha256": "aa6a43f53322a9bc8824cf07bbe322695d693dbe660d89610e58ae20be62b69b",
+      "sha256_normalized_lf": "846c8077da7b4785bb116e49071cbb911b04687169b2718f07185fb4f0d0bd54",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p74.png",
+      "sha256": "d12fa174147fa084651ef36becb1cf517b036ed33d63cccfc47a7e3981d027b0",
+      "sha256_normalized_lf": "0cd7cb22f9dcb25f4f68e59a0c4a4f63ef84c589bdb55bf8e675e6a5e190e550",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p75.png",
+      "sha256": "84137d27f08272887b579fbb186b1700845b34908183ef22d7369411b7ee6656",
+      "sha256_normalized_lf": "d24b054013c5cb141f68d3496e29d0d9ca224e9c5c33a4cb7c449196dab0e649",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p76.png",
+      "sha256": "f81220aac136daf67354e33ecf61c8d793853b7d2f212c94b01dcce480342a47",
+      "sha256_normalized_lf": "274cbcbb35029124384b7137028eace8b9a804b70bea6d2bb6249c4de17134c1",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p96.png",
+      "sha256": "9be0b8f31245d1b288a2a7f253284fff2d91833d4d57a4935c26cb933d6d11e0",
+      "sha256_normalized_lf": "57e1a202cfb832f4da05ca1f5ae9fa9228f2729c671c229cf63ea869248d3662",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p97.png",
+      "sha256": "6c1ebb051481bbb5ad6d62b5a874ea8025ece2825ba0fe0fc6cf1f9452accc2b",
+      "sha256_normalized_lf": "bd4d984eb6ec8f8d3f0569f5dde417c73a8c00ded3cd9b01f0c9e312a74a3852",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/paradigms.json",
+      "sha256": "b15464c9adde174d0f4e90857c8be021a9c9bd1647bb45ffb6634633df72b694",
+      "sha256_normalized_lf": "a06df5d47ab5ac41aa479e807dcd46b0a7299c162e7391dd9f4a640289fed816",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-grammar/report.md",
+      "sha256": "3e58d05493b365686ebdbe71cd5975f161d9dde6f97d9386378e8b06301d2704",
+      "sha256_normalized_lf": "3e58d05493b365686ebdbe71cd5975f161d9dde6f97d9386378e8b06301d2704",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/audit.json",
+      "sha256": "6c94152431b1dcf0e693a51a5ba8b5cb80889e72fbe4ef7cdc422de422e76b36",
+      "sha256_normalized_lf": "6e941625cef057dc4d5fd116598529548d4dc86c97b1dfa166567f49913f253e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/candidate-finding.txt",
+      "sha256": "8d26fa03f4dacc5e1f4bb1f133ca8ca80e4be83dabe1e64aa8dd602066d3c91e",
+      "sha256_normalized_lf": "8d26fa03f4dacc5e1f4bb1f133ca8ca80e4be83dabe1e64aa8dd602066d3c91e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf108-p92.png",
+      "sha256": "be55fec47b4a23d8ca1eb189f8259c4f6c4dc3ec36d8ae724314411145d4a6c9",
+      "sha256_normalized_lf": "6c01ddf6eff63581c1618582b59d4cc923d365a31a157ac67ce49f2ab13f457e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf112-p96.png",
+      "sha256": "b975c73ec66c3a4587aaed8190ebf83fdf73e6ae82fd809d96675509435e0487",
+      "sha256_normalized_lf": "92ba3e367f5c1d7bc04afd304d40f4c4deefeec7a13aed981d4a4fc3839a6541",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf113-p97.png",
+      "sha256": "560b681946a80985c27cc81bc747c7a58bb296bf08140f63a9d9d3b3381236d0",
+      "sha256_normalized_lf": "2776bd73668650bb147614971d21c46debc8283c7ce4afedb53dcdf464aa8572",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf116-p100.png",
+      "sha256": "6d9733a8c0dcf3e6a2456b03f053efb3914462e1744c053ea10e31a056b3a0c2",
+      "sha256_normalized_lf": "59ded94a71547762b295173b930b81f7b5a688e5190abf2eae4cc8b303a5ed5b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf117-p101.png",
+      "sha256": "6b20f706ed4a347af317b2e03583403d43a34a5a604521f4b82e502040bd7669",
+      "sha256_normalized_lf": "d1af1fdd00d1e3b30e195b53811bb26b1acea4e9010488fbc31afaccff6d5173",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf122-p106.png",
+      "sha256": "385a9e6b6bde599fa6e7e6e3117361fb116c1d286f983dfaf81850c0b09e9eb9",
+      "sha256_normalized_lf": "b8b4d8ed6270c2a0fe10acd48599981ee0d961eda7853919e3340d7631166db5",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf144-p128.png",
+      "sha256": "8da3bc5b68eaf53329afc7689f8257207730fd19d351aae729b8cff8c2af7324",
+      "sha256_normalized_lf": "3e3f3343cec6f2e6b10a986f7982245a917067d17446947e4f4ca67317293a94",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf301-p285.png",
+      "sha256": "0ec761a0f39ef63d746945c23bf1fbe862d20704e018545452f963db1357100f",
+      "sha256_normalized_lf": "369c6e92553d30101573704d483e22870066253e6f61ade118c0c950932bbdc8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf304-p288.png",
+      "sha256": "95139c022915b36fd50ed5f4c0a5d878f62dddc91be3fe6d6f77d8bdc71b3f0f",
+      "sha256_normalized_lf": "c1c784d23e097b8266cbfee3a669866e86c6fc76171cb123a5e76fdd097820a4",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf305-p289.png",
+      "sha256": "095dcab0407db92789165e9aa339a4bd1e9dea1e73b10eb910a8fb953efb80b3",
+      "sha256_normalized_lf": "2b0be3982c2754042c7e17306eb8547eebe674d3bd16c4d37530278fe356bef6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf306-p290.png",
+      "sha256": "89b0d1686489ad283d64c778a01ca675095ffd8c7b3ed3d5123f78467e7a4a33",
+      "sha256_normalized_lf": "d4ad3cc85dceb2b3de74b460e750328f5f50f67792a3e45abfa3f19639c59cef",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf308-p292.png",
+      "sha256": "4c51bc6160a6d8602bb088e14ab8447224d2033d7e4cbb70f5c3cd1c88965169",
+      "sha256_normalized_lf": "5223e8fe1da3ca0f169ae83b39699a9a6c82d570c28282a35fa471a2ea5af368",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf310-p294.png",
+      "sha256": "83263d19700bf0e71252c5e3a47d7642418c5a7d5dd2b089f5cc44d34b12ee9c",
+      "sha256_normalized_lf": "bf0d7e7a7f4388f8753c5856d567db3014d765967e6763aac0fc65b75dcb008f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf311-p295.png",
+      "sha256": "1d9325455dc53c0534be3cb5932e504b9c2cc504eb61b4de9c0c32c599e07103",
+      "sha256_normalized_lf": "d120d2111554ec0ce2717d2b9996e5f1a7ca8389d3fea181733aa4ab693c5cb6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf312-p296.png",
+      "sha256": "ea61f497ef6325b3cc71f7d22202f972c44c343b043a2294cf45d213d94127c1",
+      "sha256_normalized_lf": "36b909c68d63dc4eb37d1a4683e678a4235dc3d28f2f129cdd1aa9aaf3a7a3ee",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf56-p40.png",
+      "sha256": "491b91af49f44d9675f156b02d96844f46788cabfcdc83aadb463776b6763a2f",
+      "sha256_normalized_lf": "4fa77bcfccddf599d55d5676fa7c2adabc988e41e7bcd9bf4eb2c78de7358c27",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf63-p47.png",
+      "sha256": "825bf9eda8b95f3d702947aedece55fd650674bc7eb10fe3c804c261918ade63",
+      "sha256_normalized_lf": "51b8004de05b4fd75439564a3dd5b9bf6aad1d5af07d97c53bf4eb4345c39445",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf64-p48.png",
+      "sha256": "0efd741fad17683c9b4249c1e005c8a41f160ccf590548b574bab245e2e68c04",
+      "sha256_normalized_lf": "bfc3b944ec8e36e8a372e736ce830c355eaf630cd0055571963c9dbf9d800d98",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf65-p49.png",
+      "sha256": "f1a21beacb3a1409344b003ef88eaad04ebb763195fca94c2fe137aacdd2785d",
+      "sha256_normalized_lf": "5a88b1b0e003553aa7bb2f2fd09cc894f6a5906d7d13ffa1eeed0a0cc004ca84",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf66-p50.png",
+      "sha256": "1d49af12c6d573ca03d70f47dfd17abf55da1f74a5428e0fed6bc90109d9b3ac",
+      "sha256_normalized_lf": "9ac773d60dc75ee86602c77d25a3b82016fb1171560522cff5b0e76c3823b7e3",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/fb-pdf68-p52.png",
+      "sha256": "31e3f68e7b94c4b194e4109b6685a6c46a09867fb741b2bab89d6065cc3baf64",
+      "sha256_normalized_lf": "143fd83b2b7e5872a544b0b83325eb94df8983115ec969bdf3d0ff91b3095854",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/grammar-crosscheck.md",
+      "sha256": "7b82d1353f937d6828cd9ae54a8d86d5a99ddc8bf0a065ebc57ddf7210d48fb2",
+      "sha256_normalized_lf": "7b82d1353f937d6828cd9ae54a8d86d5a99ddc8bf0a065ebc57ddf7210d48fb2",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/report.md",
+      "sha256": "22076eb41457b2bb269cc433b81bb51e609aa396fba24f303af98bb660de7e62",
+      "sha256_normalized_lf": "965d637f3e6964848ab79ca3db1af81e0b7dfe49c940dfcbdcb61697ce8960f8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/source-lines.txt",
+      "sha256": "65eaf34c74919cb8e360f47ae184fddf657a22efbd3ba515e364392d786776ab",
+      "sha256_normalized_lf": "296559d17453ded345cf2bd64dcbc71853fcc4aa61fbbae77dec2fd3ed0e2cd2",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/source-text.txt",
+      "sha256": "ea40c1bfaf484fb056475556ce9d129d47280f43de4985583a1240eff375bc9a",
+      "sha256_normalized_lf": "a689243f4dc242715b58c7455b40f716ccd1310ac3a1d4b5421fee169f2c5424",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/wright-pdf171-p151.png",
+      "sha256": "3d0793124099d9ec078f8d82184d47738f7f6d167901855929234d7eca04e95f",
+      "sha256_normalized_lf": "c9eef37b959c96093ba130ded759b09d8fd2277f0e148d40b654b3b4f43f0837",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/wright-pdf268-p248.png",
+      "sha256": "c4b826d049ef34288d653825d28ff5a0c9bb8447359aa7c1441e8ef3babe0474",
+      "sha256_normalized_lf": "298caa1f863fca477aa51e7e3ea921d12ad99e031381dd6c148997dbf11527f9",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/wright-pdf286-p266.png",
+      "sha256": "d8ddb8110c0fd57ac9f362f8c5ec0d590df9f439d96bc7f2b1d495d617b05eeb",
+      "sha256_normalized_lf": "4ea9612a918c671ca59c987e2876c5009f4405e34d449c971adb6bba4216464f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/wright-pdf287-p267.png",
+      "sha256": "a9be2d837c4f7ad2265a6eca3f9a07789d25a796937c9c03bd63275b04af227e",
+      "sha256_normalized_lf": "b28c52d220c6ee87d7681b2cee75864f8ce17764cf4d7b1b760f5900a94432d3",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/wright-pdf288-p268.png",
+      "sha256": "6991cee01fc23c9b5bb57799bfc8fd94e215389fe975867acde5846fc7541380",
+      "sha256_normalized_lf": "345491f9c2d5b453c2b39ecd637b20c968080f301436d7772cfeb100143b7a80",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/wright-pdf289-p269.png",
+      "sha256": "141f5a3fbc0152a53eff88e358cbed020b6954bd71a4783aff82913e7ade25f1",
+      "sha256_normalized_lf": "3c31b250ad6175335061d8a68bce333005e3d7c90ebfcf6db6f96fa62d3540b3",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/wright-pdf290-p270.png",
+      "sha256": "e18c635f21ec14a89fe7fab67a5fc638a34a320762e7c051b556b5eb9b0771c1",
+      "sha256_normalized_lf": "63a2e80256c091c7e6bd3a775a8bf5f313da992dbdafa54407918ce821d82913",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/wright-pdf292-p272.png",
+      "sha256": "61b7dd7bdad32806ac9723470e7027ca61416bf2c31d89da49e4d02008ef99ad",
+      "sha256_normalized_lf": "ee86eb9e90390e51444e9c77091ae1a285798cc6b1d4b88304cdd834b5cbf11b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-reading/wright-pdf293-p273.png",
+      "sha256": "304773f0dbc7f124d9a30148843f7ee2022afe476069396ac7a22550b581e4cf",
+      "sha256_normalized_lf": "ac738dc6c5bd73172a8a17ac0034ae83ea6bcf4c05ee2ae1030718d62e24402e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit02-supplementary/dual-agreement.md",
+      "sha256": "6aba11c36ca5a911c36570e12e6ad531dc99a0c765e0cdd47ef9843333174a37",
+      "sha256_normalized_lf": "6aba11c36ca5a911c36570e12e6ad531dc99a0c765e0cdd47ef9843333174a37",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-coordinator/comparative-crosscheck.md",
+      "sha256": "97608fbc9f68240c1d39b93808d86990318b40de1d87fe1922e084e04c9a1123",
+      "sha256_normalized_lf": "97608fbc9f68240c1d39b93808d86990318b40de1d87fe1922e084e04c9a1123",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-coordinator/wright-p130-pdf150.png",
+      "sha256": "e0ad7e67f8f212fc771175fd4517887d5651eaf297eecf2aae1a710ebe01715d",
+      "sha256_normalized_lf": "c5240de537892b56661503e57630ecc74ea3b672ca6a5e9bde211f9f038d8ce7",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p100.png",
+      "sha256": "2ba51d913a2863bd682d983d27a8bec0c2b1217acc77713384c22a36149b3c80",
+      "sha256_normalized_lf": "1a15d67d96cdaa07c3dfb2541e509b6bb5067104d7104ea8a3883d471a684735",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p21.png",
+      "sha256": "ec61913c4e6f2b3fac3e14acce7af7e295f148f3d814b88a5b708a8fb69d9e88",
+      "sha256_normalized_lf": "cb1c70ee8082c8bacb9a4bbf09c49b05830b83ee9ccc5803bbdc631c5ad0bcdb",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p22.png",
+      "sha256": "3cd4b1ce3ff36245c1df274eec2ad3dad586b0bfdeb41b651ef02a9ee6426bd7",
+      "sha256_normalized_lf": "6c59f64755d2c9eb1e52d6872a909c8ec5a6d0703fc04826516942b7a97e9709",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p301.png",
+      "sha256": "4df279547a45fdc35240464562cec399f10dac6590e916e429f35ad6620f0808",
+      "sha256_normalized_lf": "1172bb3ee892126b6ec18f9ef359a0d9d9911e06764eb85ab3e077e8e156a2a9",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p313.png",
+      "sha256": "8f511d77141781dbcc36d33dd23662849a7b5ec865ca3de32643455928691ce0",
+      "sha256_normalized_lf": "bca2e6c30c76769dd3b1f468c4aba45209b0ca58baae359ef934cd7035511d73",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p315.png",
+      "sha256": "13548fc381b1cca9696a599e80430d7a831284026566cd5dace2b1ae7897d027",
+      "sha256_normalized_lf": "f5e4ee28a0a9c4ad92d0d44107053fba16edf2a79539a5a2ab344972951e175f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p321.png",
+      "sha256": "d49a9c2f188c6e9724ce36f67a1f61c97c9f1fbd294c7a8e673d3b83e091407b",
+      "sha256_normalized_lf": "5ae5cfaece37277c63618b6fbfe5a72f1c69e31ae85b333d4e4cf2401f0e90df",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p322.png",
+      "sha256": "dfdba8308fa90fc7a69aaeed4563c986dacfd943ab058328c41ea344337a055a",
+      "sha256_normalized_lf": "ee7c9308a4c1a88efd17e4fceadade4010ab9720a30c301b7bd1c47f642d73aa",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p38.png",
+      "sha256": "e9f8e5eb356f6f08757d16564b40c67f18edd56863329bb81e342d7c7011253d",
+      "sha256_normalized_lf": "3810f4d0c29a6b4376a6ad52433342936c2afc9e7dafb5404075d261d8ff4d7d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p39.png",
+      "sha256": "6e970a824562d84fd546d85b26620c1a1d6f4c47b0c786b6c71cc2413479eb7c",
+      "sha256_normalized_lf": "873eb88f4a0e421118c86974254513ab17e8576d8c0077962b441722949b0ee0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p40.png",
+      "sha256": "a4ff3d12208ba6835d03d67476d43742373e6c137aeeb304eb924bb1e7f8c65d",
+      "sha256_normalized_lf": "efcf1b5a1ba7103ff78ae26d5ee94752c6d342b50d94a4e061a065c6e05b5667",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p41.png",
+      "sha256": "208c8460a6baf41a99b6b0275c7f42c00843764b17cef00a5d599645490b984e",
+      "sha256_normalized_lf": "806cabfdae7447fb531b7606fca964afa5f1b293b5b943ec5e9cca22f8cd5ca1",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p42.png",
+      "sha256": "0159494d6836d73b774d54ead20111dd4cadad3d4c24ea85a2276a56c1b48306",
+      "sha256_normalized_lf": "57cfdf8bce0e1587191e014b5dd853b72039b4dda0e38d9ee6b384b1400179c1",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p43.png",
+      "sha256": "43975784ee40d7cd746f4df03d2cae9c7bc57fd844f6aeb484eb6153b4946e09",
+      "sha256_normalized_lf": "763b8320ab3e63aab1f4edd4f5bc524f7c7b33cecf64fbdbbed58b96481cc97d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p44.png",
+      "sha256": "f36bd984973cf167cbb94cdbfe89f8e3dd00a569c94715bb048e7eaf1cc9ff09",
+      "sha256_normalized_lf": "cd3aaa412bdbf2be0b788c2d9a361808d8558a35bd149d817c30132518574aad",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p45.png",
+      "sha256": "d6deed6771bbe4442d810de1274abbcf143a98bffaaf85910e1c145a3e9ac895",
+      "sha256_normalized_lf": "41aea33191bea2a6be19f5208e2a108a6222cc8f830d5322dab128a675252079",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p46-detail.png",
+      "sha256": "ecbdb4fce56afe5d5ce606bea20c50ac6041621f4faee78cd89240fcbae0c5ac",
+      "sha256_normalized_lf": "72012ea53d9607318775b8872a97027a2908d99ae29f864de3c1114687d705d7",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p46.png",
+      "sha256": "563fcf76fa170f4e65fbd889e947b799595f5b0b22167947a7fd13e042d32f13",
+      "sha256_normalized_lf": "7d1f4e2eeaf4a65177aad7d81b6455a7a1d7c9b68abe9f7f714298f274a74cb9",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p47.png",
+      "sha256": "71bad30974f56928bec5bf24f7d5da1a14986b608f0ede51dfe12f9e43964982",
+      "sha256_normalized_lf": "01eff77a10317a217d9a89812017611dc62c9b7ce27c5459a9e3a51330a7d4e6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p48.png",
+      "sha256": "50e6c512d5d9f8e841dc567512c94fa3006601d2a6075741ba34d0b88bdb40e2",
+      "sha256_normalized_lf": "f5ad6cfa1c655b402b2c82435f22b9cc15cd1b3addaa4a48deb58c663f2e0776",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p49.png",
+      "sha256": "f0867324cf1d63c07c0df3753ea1916f8cb93cb69836c94d2824962a04453a3b",
+      "sha256_normalized_lf": "fe279b80ae95cefacf60c2cbc842475735008dd1b72970d53f8f97d4f405f2cd",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p50.png",
+      "sha256": "99489376b6ed0ac89c1238e4cc87f06b7e9e86b9fb5bb0d3f83533506708d897",
+      "sha256_normalized_lf": "af7a495ad100dc839506917cef748ae0df16282584c074a81463de57c941d8bd",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p51-detail.png",
+      "sha256": "91ff08d7d7b59ddcf5e901042387d05a0ec67778c202f97c3314a7dccc2e3868",
+      "sha256_normalized_lf": "7e01853fe888335a816de737c6c6bee04bbb1845e7181644786dbae7e90d4d5c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p51.png",
+      "sha256": "00ab58b021fbb2b5092f67f324948deb273a9368a87ad86a0789466ef5c7ee64",
+      "sha256_normalized_lf": "63163a6c7afb9a9d2134e2443d5bb90be94d15c79c8c66ec99f86237db6d31e0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p98.png",
+      "sha256": "4d98e7ca8fab1a002b2b2783ff58c7829adac66da1ba61982afaa991b751b400",
+      "sha256_normalized_lf": "3f2be643e0f1941ae89b8f9598b22ca772955dc7111749beb69a29283339efcc",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/cook-fb-p99.png",
+      "sha256": "e0435c01e1cfca4d730b2a5e0ac7dd99f9e38c0382267ceeb802b0ddcbb1ab29",
+      "sha256_normalized_lf": "4ad6ba22bf3bf7e17ba8bf66b0f0a7d79f4d7482ae126eca50c371da31e8f023",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/fulk-2020-p22.png",
+      "sha256": "8a5128a85d077dfcc03737cc06788f1967f1dd64b5c71aa3c74d72ad4fce395d",
+      "sha256_normalized_lf": "92335dafdf675c35758b83d2c50f446f9e5c73deb43cd1c2aadf3e9b9392396d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/paradigms.json",
+      "sha256": "7f2d4250c9f0c2f55dc33da0b931c6fc01ba1f2eeaad8c631154b1b15a973112",
+      "sha256_normalized_lf": "c834397fd05939b2fffb40060034bd2b819a6241d3269993afec40a70f485798",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/report.md",
+      "sha256": "3684cf1f2b74d28d048bd7b57c4c499cbc48fa61b651f264a836a949ce5c87d1",
+      "sha256_normalized_lf": "3684cf1f2b74d28d048bd7b57c4c499cbc48fa61b651f264a836a949ce5c87d1",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p206.png",
+      "sha256": "da47b827329b05014f3e0f893aa11a598f95c88c0bb07d603b21e1d6f0d4b480",
+      "sha256_normalized_lf": "88b4ceec0b014bc5a4e1706fe8e3ec704fc391a20533664d645da73d0beb7364",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p207.png",
+      "sha256": "0d78804dae0c21f588b789a8e2c5703e55b04d9f5cfd58397b64355d9e6a5830",
+      "sha256_normalized_lf": "e5ad2f747443660948bd54ab2fc11168ffb8ddcb74274a730629e929b6177d29",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p208.png",
+      "sha256": "914061ce7c4b716c65c70c5537dac719f2940b269ad21106be4260646d70e470",
+      "sha256_normalized_lf": "8b8e78cdd08067e6a1d080324090a05a7d873e7f8ec2c153fad4a1bcdf126d60",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p210.png",
+      "sha256": "761be6e228dfcdfa7b5a7847c4defb384b0987880cb267834264ddc3d32e0097",
+      "sha256_normalized_lf": "5a9518715ee184548a860b156346a76667b174a4d8f2e848d1017355a34d9e5a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p211.png",
+      "sha256": "b72cd86965139047d787cb5537c2ec0650585828cc68683af6eb41365ea2f689",
+      "sha256_normalized_lf": "d390ff89a023568aa026b250fd6e18fbe168988ccc7fde9378fc5dfc597f3ee4",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p212.png",
+      "sha256": "dcb3292f0dcecd86c15c563250a8e100e4282164c94d47a8a886c6772271d204",
+      "sha256_normalized_lf": "f450d846918d09816e551d8bd0bc82b09e6deebfda9c7720d075e073d18d12ed",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p213.png",
+      "sha256": "32afb437c601541369eb11a6ef53c821f701c0c026f16833f9bba048ad23c3f7",
+      "sha256_normalized_lf": "7e1a93fc1bfa41e11f1b2e13ed88a852d4b1558edb64f04672a08f2c11fb14d9",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p215.png",
+      "sha256": "418120cd92279244273ccd55b499baba2fa51dd3c336ab986e34946eb05d0ace",
+      "sha256_normalized_lf": "ab90d114707e8d0cc87301bf73d5cb473188ab62d7b6fe6e2bf4f6851bb18efa",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p217.png",
+      "sha256": "e4a1520ab26bc6ae94902a49ef51f01c395722e1cf5a37e498f47bc945c0ac33",
+      "sha256_normalized_lf": "e0031f3bfd5e1882ce422207dc8e4339282b771fd2350e7ac09184b724a5ddce",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p219.png",
+      "sha256": "4d92241b8dae0113b7506b4d8b399653f67cd3e91338c0d327607131b4c4b914",
+      "sha256_normalized_lf": "3b0534fce9027a55de1ab1267a4995914ea89f449fbdbfaedc6f9e8582631243",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p221.png",
+      "sha256": "9c1defad97c9b9e8762decb7be1aa486842a8b8e59f76788b2e1c0c7c226d8dc",
+      "sha256_normalized_lf": "6bf7b0bfc7d4c7dcf4266ccdbfdb6bdfa5af741bd834b69f6613c16e12b4c421",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p225.png",
+      "sha256": "e57183f2c818402e19408ca7050a6c3f70d63afd01e84eed12fd20fa7fbab9d6",
+      "sha256_normalized_lf": "5d01c10381b22b680dd28f1c2ab42ad2c95d06fe149eb25f50bc3a99f5e11e8c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p226.png",
+      "sha256": "b3e1a2b489646b3a15e60de5c60245e2d6624c11b722df8543c217cbfcee5651",
+      "sha256_normalized_lf": "5dad8bc06a33de760c0d54af0b4e52d546bbbc538a96c4fd846370b8bd823e94",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p227.png",
+      "sha256": "ec783891a0fa053aa35d18c32067364c3fead4a9f96ce00c38275d3940e0574f",
+      "sha256_normalized_lf": "bef94bd68a8cf5a1505d692149900add21e5c810dcf230fade4d7a09b90e1546",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p234.png",
+      "sha256": "32d568bbde0df55bbaf69e1e9df590003ed57deefe8418c85edb51c3e6042194",
+      "sha256_normalized_lf": "65280a3bb8a2c0b1b242c4f39155e783a034a80a0a8578b0f20fcad0335726b1",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p290.png",
+      "sha256": "0cdf9818e9047aeab6a55d657fdaea3d011c33565d2a6a43e0d5587233448068",
+      "sha256_normalized_lf": "6604f5ce2f5e9d5639b603eaf11d404002d5222b558b92311779b174594dd627",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p291.png",
+      "sha256": "e14c30dc5cc8202a6220972fc2af6df0e520aa276086cf28e65418c7293be295",
+      "sha256_normalized_lf": "1f0b27d83c753eef0913f210ce95e61d7297f8436b150f10e239654418bb71d6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p97.png",
+      "sha256": "4005918bf9398f5e7de5cf189070765cbf8d9f530cda4f51e34e6f0ad79f61c2",
+      "sha256_normalized_lf": "4cfb7c37149a216330ba895c11a3c6cc3f086607aee217b09e0d7e68cbd0e7cd",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-grammar/wright-p98.png",
+      "sha256": "cc77fe7860b244104029932642d7f5855d6c5c62385207b9539d60db7f923f6d",
+      "sha256_normalized_lf": "478587e53db7231c58de716bd308d9ce67836f218d4a532923e1e152ae698495",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/evidence.json",
+      "sha256": "c8109e8d1a64e198d8428832ce1b2a5e4e7491bdd6d574be1553b0a0260e0e74",
+      "sha256_normalized_lf": "c8109e8d1a64e198d8428832ce1b2a5e4e7491bdd6d574be1553b0a0260e0e74",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/ex-pdf54-p46.png",
+      "sha256": "7b3f1881871becf0eb6de9f9366eb73c81e1f0ef7fb0037f505480fc2aa736b0",
+      "sha256_normalized_lf": "e1c87b1757818983760a306e919482d6c1604346b9477351e44c50d88d149071",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/ex-pdf55-p47.png",
+      "sha256": "54fa50dae7315b4773339aaa9e1802ece14401660f05dfa1e33ff31371a7df64",
+      "sha256_normalized_lf": "201f7cf619b137b60f11d91040beaa31e5ed2a968fbe832f77ae0a43c600b76b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/ex-pdf56-p48.png",
+      "sha256": "ad09685823b11c714c7760af8ca58852216c1e8732dd5ce479d1b3ddb7147d89",
+      "sha256_normalized_lf": "e7daa62f6052b5cb504d0bedf3b6db78474632485a7aadf7cfa6780625bfde9c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/ex-pdf57-p49.png",
+      "sha256": "13251aeb9cfa2f12bfdb7ee479bc12796b19b2f012254f5153976506c72713b2",
+      "sha256_normalized_lf": "81333a1858c3861fdf898b77f913427eb13a3f1f298d315eadcb6d5c25089393",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/ex-pdf63-p55.png",
+      "sha256": "52d812863221ecd827ffa5ed15e72ce8d7c9aeaeff09a4134fde9bce735fc9cd",
+      "sha256_normalized_lf": "144fc2a3a0f4895aa0d9d59cf0268dd9a67b35d671c4b440d57b2c82792076b3",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/ex-pdf69-p61.png",
+      "sha256": "e21da33a86bf1c25aa87661e20d001c6fcdba9b9458cdc9fbfb3e4006b76a4f6",
+      "sha256_normalized_lf": "eddb42639f98faea2e617613c8413a19cf3026ba89dd218f005dfec0aaf274f5",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/ex-pdf70-p62.png",
+      "sha256": "d66fc23819a3be3348618f9675f001827d6f715523b2fddc5e1e8ace3935a492",
+      "sha256_normalized_lf": "fe4ad07078bb49802107a476336ae7ebad71948fb57ff77d6c587172181fa9e3",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/ex-pdf72-p64.png",
+      "sha256": "4c04889800ec2a6aa3041ef054c931f944da54b1935442cd62ef745de202b099",
+      "sha256_normalized_lf": "94aa5d9cdde20c3d7504ff0a96cde22b6f4812f4c944a8a89aecae0c031da679",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/ex-pdf74-p66.png",
+      "sha256": "29f4fa59e56b824752010c663b9246298827ea01445047f63f5e8f8de364fdca",
+      "sha256_normalized_lf": "0d04db5c0dddac45bf40e9a62b9ee5c1a6961c0f7bc1e9f72e6de7b3b1503aaf",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/exercise-4.json",
+      "sha256": "4fdabcb2f41ae36277822502c12671e2484f1099de99b042ea572e5380ee1c8a",
+      "sha256_normalized_lf": "4fdabcb2f41ae36277822502c12671e2484f1099de99b042ea572e5380ee1c8a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf107-p91.png",
+      "sha256": "647adbfe0e93323082648c72ef5ed51054b293d5225b51023ae6478d57e2f844",
+      "sha256_normalized_lf": "08c45db3569ce352c4cf665248816c86ecae490eff63476eccb13b373a223c39",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf108-p92.png",
+      "sha256": "be55fec47b4a23d8ca1eb189f8259c4f6c4dc3ec36d8ae724314411145d4a6c9",
+      "sha256_normalized_lf": "6c01ddf6eff63581c1618582b59d4cc923d365a31a157ac67ce49f2ab13f457e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf111-p95.png",
+      "sha256": "62f3d5ed9c4f1431946ce34782b43ea490b561ac3539ce4778cc0e87296ba4b5",
+      "sha256_normalized_lf": "1ccd6b1cd0986b4629711529f3d55449d6f5df611935e9ee9ceefd933a793ee1",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf118-p102.png",
+      "sha256": "f348d6385e9a641b063013c9c8bc2232f39d534be4da0bf4d424a3a8352be907",
+      "sha256_normalized_lf": "298ec7e0244c9131bc779f332a46795521ac435696da22666eea16dcef313375",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf119-p103.png",
+      "sha256": "c4aab5a71c10668685607e6c4bc86c463147403f5796a8283be9e767f6de5a8c",
+      "sha256_normalized_lf": "193aa02160c8308072f0eb64deefbcc29e8e7f11510d366399ab201b33052faf",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf120-p104.png",
+      "sha256": "4e36b2e6f274c405bc8543c5812c9603ec9898c42b7759f878d3a23d829bbc0e",
+      "sha256_normalized_lf": "da01a83c36b16444b59f46d4ae9eb493bccb945557d784f0dbf633d568052382",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf121-p105.png",
+      "sha256": "3fbf272b7400399f3a7911bfd4f7273057bc4bb1d9165900cc96cb6837a4ea90",
+      "sha256_normalized_lf": "6641699d651703ccab2c3358802451a0575a87f918a59f99809f6add20e0959f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf141-p125.png",
+      "sha256": "c9048db68a948212ddf1f27d32b8dbb8e7b65ade1f52d108ee3f384837760bca",
+      "sha256_normalized_lf": "76bec30dbe4d50ee577101950e0fefe3c6254e66c891ef12fe38b5c3bed80dbd",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf142-p126.png",
+      "sha256": "33786978972baf57e3e9c8b9b6148525f353145b097acf7114b4f9a442769d94",
+      "sha256_normalized_lf": "39b99248c0d86f37099b8fb43f77e91da6bfbc095c8b44f2998c0f63ba2f7f9f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf290-p274.png",
+      "sha256": "feb624e91a32833d9e3c96c2b25eda088b3291a1d3b331afe52ad3247353a935",
+      "sha256_normalized_lf": "0a3cc1d4123a63cca7fb9961272650ba6464df57a2c647bdda766c0a2249bc56",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf291-p275.png",
+      "sha256": "81e9932e4027d72852cde6aa46c31be2a21ef5e09badd7b97e2b2895042cd80c",
+      "sha256_normalized_lf": "618166ec1f14f3cd79548fd4f3517d1921dfd243d8590ffdea6791e6468d57ea",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf310-p294.png",
+      "sha256": "83263d19700bf0e71252c5e3a47d7642418c5a7d5dd2b089f5cc44d34b12ee9c",
+      "sha256_normalized_lf": "bf0d7e7a7f4388f8753c5856d567db3014d765967e6763aac0fc65b75dcb008f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf312-p296.png",
+      "sha256": "ea61f497ef6325b3cc71f7d22202f972c44c343b043a2294cf45d213d94127c1",
+      "sha256_normalized_lf": "36b909c68d63dc4eb37d1a4683e678a4235dc3d28f2f129cdd1aa9aaf3a7a3ee",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf318-p302.png",
+      "sha256": "7b4b59d49c954ff9b6adc9044ae51fe73bd76c37828bda9ee7babce6ced0ea73",
+      "sha256_normalized_lf": "519a879999ffd4a7bf91cdfe523bce641d80809405405359ce7c771ca6aa3a5f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf319-p303.png",
+      "sha256": "1020d4534ffa28b08d795a58f0ef139ccdc34dc100d9aba703e7b021d7b306cb",
+      "sha256_normalized_lf": "6fac2be775fb54ccc564afd711d89403180a910f033b4e72ca9027a71e10a31f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf321-p305.png",
+      "sha256": "207a88e11f8d21280fbe53c691e61f5d16fc7589fa0e28ebf839f359af6739a3",
+      "sha256_normalized_lf": "f6ac3122b9dee22879f0001ff0cc90afef63ed9db34d1a45f178aa43f9cb71c8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf323-p307.png",
+      "sha256": "232094742168eedd14930c4e9274cf450ed4be818126df14d1243e492d32b980",
+      "sha256_normalized_lf": "a4da37bbc19019a4430c26056200b8e9dd83dc4bd42c8834a553dff1ede11000",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf327-p311.png",
+      "sha256": "5f2fe1ab3dbc62999105413d634386ba49707e22b2f39ffe8d5406eac6c87d71",
+      "sha256_normalized_lf": "874334772c55494121ee9729495895ed3f86e3e16dabb6a6c5d52d93768ced22",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf330-p314.png",
+      "sha256": "216d73103acc031057c81ad93ef9e98fd651def24921479ab36d226d49e9347e",
+      "sha256_normalized_lf": "37c7f61f7ad703fe02e56292faee8c163e4002964a1508c2d86745a829ae9c23",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf332-p316.png",
+      "sha256": "03e4d82efa96575cd03358a2261514c123f24428e29fcec220b4af727f626fe6",
+      "sha256_normalized_lf": "6442b2699bcfde2f4b4666efcf996b268f4efe05b11b8c8d1c0d9e6d55f30496",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf334-p318.png",
+      "sha256": "978ffad8bb9f1a82706eda58a077a7cc3b1de0c3e7692492f8120f6d4c3b21bc",
+      "sha256_normalized_lf": "480c8e4b205f476fe0a18a78038b5ebc7734702dcaf8e788ac8bfc324631058e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf48-p32.png",
+      "sha256": "d57c5d62a3eac1a5f108353c992cc13185bd7a594084d349cfd7f2927bbfc884",
+      "sha256_normalized_lf": "baf48f28e972d3c83c69d8e7ab04aa3d4dd8c4a4bb6a9fc2d3ff0b8d107058a1",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf49-p33.png",
+      "sha256": "b99a914023896c5b8be3440bc699d46c1ea8e67f022712b0a2ccbec33b239751",
+      "sha256_normalized_lf": "5d3649417c9fa0f0e4f2785455a212c20d8a21b5d80f8606598417b868363cf0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf54-p38.png",
+      "sha256": "c240d5f55268840b9dc9aa319456f1edab93524aa72555925c1554f096b79b21",
+      "sha256_normalized_lf": "8263d340945156d5451f7bdb5d0218757c071375706282650f0c3e8c766c0f51",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fb-pdf95-p79.png",
+      "sha256": "4ffa650ee37c0eb36516935c3dd29d69aff25a16af160765da3555118c663b66",
+      "sha256_normalized_lf": "afc684ed229aa22a2b790a36ca166f200671e8cb52b0f5248b8ea5d3f1c947e4",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fourth-day-lines.txt",
+      "sha256": "a7ec2a96dbdc52cdcea3692ac21ba4ef5363c2b0fa0c2035783d379801625a4c",
+      "sha256_normalized_lf": "a7ec2a96dbdc52cdcea3692ac21ba4ef5363c2b0fa0c2035783d379801625a4c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fourth-day-text.txt",
+      "sha256": "417680f17cd9c114d6f77f2739c06c1dbfd14eefbf24b45c57e4bcadeaeaf459",
+      "sha256_normalized_lf": "417680f17cd9c114d6f77f2739c06c1dbfd14eefbf24b45c57e4bcadeaeaf459",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/fourth-day.json",
+      "sha256": "09119649f62a26e063ae3fc9912ef57eb5b21d6a347c9386a57c352361b75b8f",
+      "sha256_normalized_lf": "09119649f62a26e063ae3fc9912ef57eb5b21d6a347c9386a57c352361b75b8f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit03-source/report.md",
+      "sha256": "a1999994e9bca4a6d0fe3d632ea2bab95ed9e13f4c4032fdeb885b426241aea4",
+      "sha256_normalized_lf": "a1999994e9bca4a6d0fe3d632ea2bab95ed9e13f4c4032fdeb885b426241aea4",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-coordinator/bt-main-p275.jpg",
+      "sha256": "7e3282f364f7c8d0ed52ad39c85e65f5047ce38d7af8414a34479c8f2a36d901",
+      "sha256_normalized_lf": "a1ff17c8deff809c715a3feff9ed17d1be32903636951c80926bfafa696a0429",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-coordinator/bt-supplement-p211.jpg",
+      "sha256": "00f80ad01e57174b8b16306a2ca452d2d845c452868de2f12a0ebdb677eb51d7",
+      "sha256_normalized_lf": "2556be68a852df7fdea6f476f1a63122a93420a8c021e631abe4ef07dc3f4af8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-coordinator/reconciliation.md",
+      "sha256": "b29e2795b26965e340d010b71fcaa0d0de8e876fa556cdc5253428f86e16a4cb",
+      "sha256_normalized_lf": "b29e2795b26965e340d010b71fcaa0d0de8e876fa556cdc5253428f86e16a4cb",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/bt-b0102.jpg",
+      "sha256": "f62e6138b82394cf44ca7c7ac80d524084f095fb5b033d80bc3ade043f451b34",
+      "sha256_normalized_lf": "f2762e7fb278063e93499fa3646263c48d07764852d5cb7db5c9f5d5dc9ca8f0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/bt-b0212.jpg",
+      "sha256": "49ae77fd2913eec13cc12c0245715a79eef11ef4fb45a3b819a93a80ae1a0a15",
+      "sha256_normalized_lf": "13a8372e5d2de71966f8997b5b45a182ed934bcbb55dc03e51be45038e854992",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/bt-b0527.jpg",
+      "sha256": "c9716f92d6bf2f8acc67709d4fb3c9d5c40aae03645a57aabb23e541ffc3c4c9",
+      "sha256_normalized_lf": "e47fd4782834e6f2cc13edecb0e6450d6147f7131320bb2910472d54feb35c1d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/bt-b0795.jpg",
+      "sha256": "fa31d5d4bad4a19cf1b0c1bb5e4e66c9334a509e827b585cfc94342be56281fc",
+      "sha256_normalized_lf": "5a7e7ac1503863907ce9132318ab3294006c60a4112ef4d596ddf396f7be8786",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/bt-d0157.jpg",
+      "sha256": "c372aca40359ec539db0ae1e4817392de049028ff65f5e9e4b7932a262902e44",
+      "sha256_normalized_lf": "c96d1d6852513dc8f6577d729f26c565f8ed30fa3b2797f4ed2c568c54bc8406",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/bt-d0158.jpg",
+      "sha256": "053f5e500bb404de932cdf4044bb0856819803475dd558b887297a9d86cd7416",
+      "sha256_normalized_lf": "bac64f258928021341aaf50abaaa20c826b0269af9dbb71f189f8e9fcb19be07",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p18-pdf34.png",
+      "sha256": "c0c7bd3b83ab8b61eeaee870d2ac6783f41fcf67412c66f67efbe4bdebc9e9cb",
+      "sha256_normalized_lf": "02035a9328ef3cbe590979f8786ac5808651b42df0967bca48047eb526ab0c6b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p180-pdf196.png",
+      "sha256": "5dd0752a768d63347fdba9bd20028b278d855324d86ae2bc724adaca1467f3bc",
+      "sha256_normalized_lf": "c637f3aeb3ccdcac621af0c663f4a89d59a491740450db7932e213a1ead7bc42",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p181-pdf197.png",
+      "sha256": "90937c52f7945f9f109eb07af7a0e00dd6997f0fba97151bc50e8ac1b09c27af",
+      "sha256_normalized_lf": "8ea414affd26b78c7e112610d7cc75ad3781b70917f88f60e14719f2b9b8a573",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p190-pdf206.png",
+      "sha256": "a9ca9300d3d7f0d2502f222673c67464a9128e522101f0e0847fb03fdd58d8d4",
+      "sha256_normalized_lf": "20bf6eaa0c818f463ed68d6f0962451c1b64f60425d55336f844bac5327fc49b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p22-pdf38.png",
+      "sha256": "d25c7a1933f30252654df2f5b24dec54bace353595afa59ebb012ba0881a4b32",
+      "sha256_normalized_lf": "018938e8b3d72e1997a6a09f08262c7d815b1f62b1991212b999cbff37862549",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p23-pdf39.png",
+      "sha256": "f912171ac0c9557d2da1700d3b917789f513fb736e330f299d711d6228076483",
+      "sha256_normalized_lf": "4650727aba0337c6c3cfa6eef2710c232582ac16591441ce55618cc0c39aecdc",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p24-pdf40.png",
+      "sha256": "26bfa8288214ac09deaa5e4de71197bf95fd77964980ec479996311ab8c78048",
+      "sha256_normalized_lf": "95782f4bae8cdc4b64633f06038f297f6e87c14b868e36352fe2dd8f62c090cb",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p25-pdf41.png",
+      "sha256": "91d9ee88084e355a39edf360ccb0a219eee4291f36b94577eb13be2451f8d55a",
+      "sha256_normalized_lf": "7e7af477ccf83762e2f7c6f86a3e8e9f7d8bec1cca2c96ef668d01ec6c7a854d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p278-pdf294.png",
+      "sha256": "f1c986ca36fed0dc4a663b705e811144b7e41fb95956691f88e3041040d4cc12",
+      "sha256_normalized_lf": "372bc66d76f8e8d971ccb888302265a431329815ae57bfdf605a2091ede336ff",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p280-pdf296.png",
+      "sha256": "e4d96de21c68126de367aad5ecde3c5234cbd7b579aca05edb69c92c92599ee8",
+      "sha256_normalized_lf": "f5529eb7d9b4d9fe1533f329f47c871168caf79bf46b7cb821d559812a65d337",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p281-pdf297.png",
+      "sha256": "7f8adef6e43fafbfd032cbe396c5595231144bea3344443386a63a99b832e0d1",
+      "sha256_normalized_lf": "997a437e4d13cb439fe57ff08769404ddce2b9d58e6227c912f45362afdca70d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p283-pdf299.png",
+      "sha256": "58c180df081c7753c65edaed960819af1b5cd12d9de49a136fb0562188c77537",
+      "sha256_normalized_lf": "07486bf1c8a1c06b8fc8aecb3a4dff55fbd74648fb4100204c888a52b390bbfe",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p286-pdf302.png",
+      "sha256": "a8c9b9f4c7b3b58cbdb2f6a9bd8010899e831ff6639e39d2ad31b839def9b90a",
+      "sha256_normalized_lf": "836b0110727fbae57b6797c715838e636e653eb6baaa70fb5628f84691e91ec9",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p287-pdf303.png",
+      "sha256": "d417fc28c9d9000becf596bd2c6118617b662597ced3f0037e2c8bf15f43242a",
+      "sha256_normalized_lf": "ebf61bca109acd40f524baa10f8bfdcbbe5afdcdb85b25e0f2bb6a6e3b0058f9",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p288-pdf304.png",
+      "sha256": "8f5dfe79f01fd084cc70cffc6097de80fd7d0f995ac6717ebda0c3aee276cf31",
+      "sha256_normalized_lf": "1027da7572d2bcf55370a5dbae466e5594c8671debc25b47d8d22de6e9691c6d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p298-pdf314.png",
+      "sha256": "f285f96f0ea4a7d4ac339de2d99bbf54820c4a69bb2c21bc3fe3cf0a2fe0b465",
+      "sha256_normalized_lf": "ab422d2869fbb90db842c5c24acc177e6aa9ae164f0758e2d42e5db35a5ac7dc",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p310-pdf326.png",
+      "sha256": "a7a60f0d05566c9104afd6cd4ba2737f858b0b8b428aa4a4caca9c9a70a95e73",
+      "sha256_normalized_lf": "da44bc80b23b08a38276d54daafc45c9a4a80493eb9aa75c6c2eb1fad40224ef",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p312-pdf328.png",
+      "sha256": "85366478acb3f5afdf51715050a728dec42e26196ea52e4d89f86006eb837901",
+      "sha256_normalized_lf": "03e5bad3f2c6ac249232c8713d13a910dc095e72cefbd083514eb1dcf83fee26",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p315-pdf331.png",
+      "sha256": "7e17f731c97f58e3189b6599ea3c68600bc6a4654e73eaa9e27f6ae3b6701536",
+      "sha256_normalized_lf": "75a943ed32413583829e5d343f319ea7915b16f9410abf3d93ac10733e793f47",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p316-pdf332.png",
+      "sha256": "457921e2fa23437079a55f620aa68c4b5c75354106899c2bad903e3b3463cb85",
+      "sha256_normalized_lf": "ea6f4dd1cce8f19c21b4913b279a0bc3a114add8c8744e7f4d7a23e1b61bcf22",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p321-pdf337.png",
+      "sha256": "f33f31ef26dc4bda72b0f7fac407d281e47afafdcbed4db1be86006d099f1a5b",
+      "sha256_normalized_lf": "af06ffc84ef80a64139df7fe3b4690367a249e204f01801ca3e034266d1ea1f7",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p322-pdf338.png",
+      "sha256": "8d53b4ea49d01ea4c4e15784fee1cfcd82bc524fc7a2895b121bfca62e5c1d33",
+      "sha256_normalized_lf": "ad1288616405c1fd5f2d5e6147856d55e4b16f98e28419875a6ab8c7c68c4375",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p323-pdf339.png",
+      "sha256": "20c00a52bbbe07ce26d8832c625d2873ed4e0ed0b55d208626c4765bb6570585",
+      "sha256_normalized_lf": "10644c7238ee932128ade6b7294abf574ad618dcbeb9533dffa6350088d48d95",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p54-pdf70.png",
+      "sha256": "e767c238e0f69c19d0b0f90b342c556903dff944ee91cb40617a62165b746938",
+      "sha256_normalized_lf": "7f6182d3a13bf27eedd1b119cbd7af24298e273bdc92e24af0f6388895a908b8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p55-pdf71.png",
+      "sha256": "d93477bf5dfd8a68f5de235e61472933cd80566decd1aa194ec53603fcfd5b2d",
+      "sha256_normalized_lf": "ea849493483c7339886980e770f1b09040e51c830004e93afa668938506f836c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p58-pdf74.png",
+      "sha256": "fed1fc4e0185b281d12b6bf67ed53efefbb51cf740fcd7f7ad5fae48d4d3d4a2",
+      "sha256_normalized_lf": "d3cbdc4edc70fd4476de8c94891c4a74eeb13a06d61c5c80376ee04ee492c01c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p59-pdf75.png",
+      "sha256": "ad283ef8306e6434fa043876dffce862d976a9b8daba66fa38db6286d5923010",
+      "sha256_normalized_lf": "de0e0b6bc2d698c98241c4f2f15858588173b20aaffe16c2e7036c9114bad8eb",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p60-pdf76.png",
+      "sha256": "69c92d7f3c6375c5e7c8d4f01b81c01927e134f253cf47a5653bad3206f4d72a",
+      "sha256_normalized_lf": "649ad79788fcb25f67e42919b056f21f4d4da7c63a34edf3affd7a56cd463ea6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p61-pdf77.png",
+      "sha256": "1999d740a5bb95b0f32e8a99d361b3b54472b0da21f28db1b8e5080e4a008448",
+      "sha256_normalized_lf": "43e1967fc0f7b81048adbf7df4fcefe4489483edfd5e29bd2903098b4b21475a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p62-pdf78.png",
+      "sha256": "51e7a3790d9c03d62ce7485ac6d8037268fc462a5f90d4c3b9d678f1dd06c176",
+      "sha256_normalized_lf": "f67ae735a24178b9ef0e5aac3f1c7d9f5960a720bb28d492e56ac331e3b6eb55",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p63-pdf79.png",
+      "sha256": "bcde5119fcc071f65d8ce96a18eb81d9549f0bceca0f934bedbc587bd59c2824",
+      "sha256_normalized_lf": "979278dfd1da6ac70b0827df42eee8fefc7373e97983c647ebd718a9e70a24a8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p88-pdf104.png",
+      "sha256": "a3dfd298eab6d4461d680a35c6b1fe9dd194a5d57f04970428337e41a98ff8d0",
+      "sha256_normalized_lf": "9300376a7acfeebc8d3d85c347b880dbf2c7fb172eecce4a9a2ff3a83221ecf7",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p96-pdf112.png",
+      "sha256": "3c0bb0a12ccda5d9d0ae549b3e4ab9b171a0b71f9d4720da0bfa10a31aa9cb9d",
+      "sha256_normalized_lf": "c30afadae7a12f2df9883fbacc90e68f14656e22d5ab15573617d34a9014cbef",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/lexical-frames.json",
+      "sha256": "379ea73993ae4eb7c3f0e29853040948ab1936db03f504ee0a73d5cc818cbe9e",
+      "sha256_normalized_lf": "1ab164056bbdcbc141add0cc7591095d6d852716f01a2ff8d40938d290624009",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/paradigms.json",
+      "sha256": "97018d2843a502809ef246f5f20db280ebe392d639ad9ca3a5f5f89f7ca10d2c",
+      "sha256_normalized_lf": "a5d6485d40e188d84c06eaf6bb8e34d6da48a48465d98ae3210cca3f7d5368f4",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/report.md",
+      "sha256": "0487b8893b7757ae8dde2bd279bd8e96793a60d9f1eb9f220097b9df0a7b336e",
+      "sha256_normalized_lf": "17fdfd0dc6a1775956f5d878baaf8697745c2355eb1a8b56bead282f97b5acb9",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/validation.json",
+      "sha256": "5913837e8ce94374e6e4b5762373ff5f09cd2d4cd7264d3c2089b4758e4701dd",
+      "sha256_normalized_lf": "47311df78de5652b4fe4731f7e97f3ef67c59171aef760b28148e4a48fc6142b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p247-pdf267.png",
+      "sha256": "af4147a5a7c22d71773f9f5d54681eb5c184ef429cd151eefc0d0c197fd215c4",
+      "sha256_normalized_lf": "bb873ecc3c28fca501f969a08c79963ec44eb9c9fcd5ecb041d648ee3a101b30",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p248-pdf268.png",
+      "sha256": "c4056f18a6ea7e73bbd5866998100ccd9e408b6774d4c4f564a6c259dbeb0301",
+      "sha256_normalized_lf": "69514f8b568460eecb98aefc1dbd01edc38c57360d32f824732899f5b0227332",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p249-pdf269.png",
+      "sha256": "5b1fea6ee7b4d8f4deebdcf63a2ef64b0e9164df1aa7a4616bc7d9be0de4396b",
+      "sha256_normalized_lf": "be9e74d4352eea33c17302465328f43c32f92635f80e5d3712177e98fce1f444",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p250-pdf270.png",
+      "sha256": "d5290caa7b66fc55da788fce0ac4ffc2271de6280aa093782f083409f1cf12d8",
+      "sha256_normalized_lf": "d95ab12b3115efbcdc42032c6855d09c24f0bef45b02aa42f891bc55634a364f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p255-pdf275.png",
+      "sha256": "c2ce9505854e3a6d9477aa02e8bee55069a2ad299a89423553628ab222185e43",
+      "sha256_normalized_lf": "cd7b9a1fdf230f9f5d2189f8a10d6dda75016a91667ecc0f953cf3491659620e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p256-pdf276.png",
+      "sha256": "20ad0c74538683b123390c238e8ff4ac8646f5b989093ae7df053cf207c3081c",
+      "sha256_normalized_lf": "da60bdc39cc9e4b6cf32a781dd7ee8db88a13929e80395b32592b6e1d6b3065c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p257-pdf277.png",
+      "sha256": "3115eca0006292ed342080fc439f76247457273b480048b828e87a33599e1304",
+      "sha256_normalized_lf": "9f4803ed077bdf82405a2a4382c6bd159582c2c6e34a5da56e86b090aef3d98f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p258-pdf278.png",
+      "sha256": "6b5a6f05d65f1c4a9c16b4680db068edefafd7c35618200e96d3e1639319776f",
+      "sha256_normalized_lf": "cd72a365f886fb59e5296f48dfbb57dc09ea1550bd7e25beb2eaa7adf4183049",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p259-pdf279.png",
+      "sha256": "5042bf19220834c5de25c28de8f008509ea0e4b5560d0a57d32fff7ac0f9165d",
+      "sha256_normalized_lf": "2c8e192ebc32d89d6cd6726dc952c31adf7dfeb99ff4a0c1e9054b081f916ab7",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-grammar/wright-p260-pdf280.png",
+      "sha256": "6aa69a5d130b0b1e2c3512cd8d2f98ce2be331d3e5b7328851a0961bad16130d",
+      "sha256_normalized_lf": "f254ec99520edd3774c51d6f3d4f0a4278b474f1678cd332042c40f35f48a691",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/audit.json",
+      "sha256": "c3248a2fa4b8d68208536885c078974cbd7ccace2ce45eee838adaa4691840c9",
+      "sha256_normalized_lf": "c3248a2fa4b8d68208536885c078974cbd7ccace2ce45eee838adaa4691840c9",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/change-notes.md",
+      "sha256": "e36eb2b2b312da79d55f3a17f2f12a00205ba1f4094e087f17f28c5a176d2bf3",
+      "sha256_normalized_lf": "e36eb2b2b312da79d55f3a17f2f12a00205ba1f4094e087f17f28c5a176d2bf3",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/evidence.json",
+      "sha256": "9832be1766d9fd093ac14ddd11b4c6dee6b0b58f482b3c17d2d8bfc06a1ca14a",
+      "sha256_normalized_lf": "9832be1766d9fd093ac14ddd11b4c6dee6b0b58f482b3c17d2d8bfc06a1ca14a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-candidate-01.png",
+      "sha256": "a2a9587a5f4d00627c646f5437a04c3ce958d10f6e2f3f4bf2310490c40431f6",
+      "sha256_normalized_lf": "efaecf76da4450ec7111e9179ac4dd94ec1eea9d9a9197c4560f041866a9c43c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-candidate-02.png",
+      "sha256": "b2d6a6ee2d11ec2530bf9c0a745fbc285d2e2edfdc09f5ec26a26ba661c2f92a",
+      "sha256_normalized_lf": "b15eaa0ece25c6f5befdc21998870836d5824a3d70a1e7a688f9d19649651b7b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf111-p95.png",
+      "sha256": "39358acdb6aea16c4c36f6a019e800b06e11b6956cbdd0f97d2838e1a86fca49",
+      "sha256_normalized_lf": "8aeac89e5e8a38ec20b8a93af6a8ac5270f1a77fce1c182ec0f2253215d10162",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf114-p98.png",
+      "sha256": "79ac60c2121d0490e5fe98391c77b291f6d5b7e7a2faa715bbe52844102ce01d",
+      "sha256_normalized_lf": "c12fb86decf8e947ce6ae94c067b45957268efeaee119fb742c06f38d7af0f81",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf181-p165-400dpi.png",
+      "sha256": "f91014986e1e7a65771a5b1fcfee47cf3949beb4a3d52c7c74fd090e8b3775de",
+      "sha256_normalized_lf": "596de63cbc7c41ec2d997578bfd7b784b2cf13132edcdafc205213b498283ee8",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf182-p166-400dpi.png",
+      "sha256": "a645c7f08d20143bf9a00af7877c95230af49d14ab5d363f83dc217ad1b629a7",
+      "sha256_normalized_lf": "be7e204aa636108a8a33f72a5a788f695c843e2d008ae69d183c2b0a7b5ec142",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf292-p276.png",
+      "sha256": "0ae6c3f979514d32f63a9630ea2a43b8b6e4c2b1dcb2325565c6e4742b127794",
+      "sha256_normalized_lf": "0b304a0dd916ea6153c112030e434dd2933fb52fe38f7e4be25c325d544bd1db",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf293-p277.png",
+      "sha256": "29c2ec1b4600d68e4a20cd74698800d1f148996747273aa8ae0f6f5480bab3ad",
+      "sha256_normalized_lf": "bdb84f391ef7e8ce0d9eb720d58eadb2485018b84ac2d6a45e2aae7f96dea389",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf298-p282.png",
+      "sha256": "7761292bb0e5073c88277bfdfa954f9ebbc8efc9c70f8840ace39635d2a7282a",
+      "sha256_normalized_lf": "e7f736a3799aeb04dfbd7cbcfd33cb1cc18825772a975e128d72f34704b33598",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf300-p284.png",
+      "sha256": "38bc087a42a778dde1979242dd4c6e8c185848743bbe1e453f3d908c131f94ae",
+      "sha256_normalized_lf": "a28fc8d0e108b1a0229e0210933b44ff9b35433ea08c63a1b10bb1ce0317ed8e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf304-p288.png",
+      "sha256": "3f014e51a61a619d056f1654fc3f909914c0e97f811d06c2258a20e2294fb94a",
+      "sha256_normalized_lf": "6661968e1b058b8131462175b8492e5e4b07818a6f5ac5144ec5b92d3280d13a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf307-p291.png",
+      "sha256": "e4eaaa6a94a791005630fcd80c274ef4b72060ffd27747bc777784994455ab2a",
+      "sha256_normalized_lf": "1f7ae31a3c0f4c8a317a9e40678d513f22125cd1bded1cb966e9ee1c4f0a0f4f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf316-p300.png",
+      "sha256": "1793413c39d11e1dc967befb91c2b7246a47c71157581ae641236cc9136da92f",
+      "sha256_normalized_lf": "ff2d2595ae6d1803227e67f4979d1c7a0fa5564e87404a524c365f658bb38b49",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf318-p302.png",
+      "sha256": "022f32558c73d2807d6fcb2972458c8b290ec496b8865ead04b5b75c80abb4b0",
+      "sha256_normalized_lf": "15d6e867bb4ad462853023087321c0d8e56834367840703415aa91cab725bccc",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf324-p308.png",
+      "sha256": "2d747303ce6541fbb70112de5626a0e5cad533655f9f98ea2953ba53c13d71fc",
+      "sha256_normalized_lf": "e023a5bb04f040cc3af79b5a333f00fb7a1c66d2ddf0c42ac4a4b09e32c27840",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf327-p311.png",
+      "sha256": "66a94f5fbe1015b404edc7da80ade59e293627c4d4f036cb3ea9ffb669da9879",
+      "sha256_normalized_lf": "7a93590c2cfbfd1a012f2ec68c2e7baa7038100970d7c560a87020bb472794d3",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf329-p313.png",
+      "sha256": "bb107095b1cfb9adb7f0d271c5921971fc2214d9beca97a737b387d18d603ff3",
+      "sha256_normalized_lf": "6c092218434739b4bf14fd7c11007e118ec00221d491d20408ea15e152a2f97b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf330-p314.png",
+      "sha256": "d5e9ca3d360d742b2f931f9105eb907e4d809e518a0346c17cff500e86394c24",
+      "sha256_normalized_lf": "47e2e98823661846c571642a2a603caafabe978b0f013ece53687f360531feba",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf332-p316.png",
+      "sha256": "0e3867e2d3667f29abcc36e66393bb61a6107b3eac3f9e7bb923321a33405538",
+      "sha256_normalized_lf": "9e0947acb640950e083325c3243fb755ed0e69ce70c893087a5080b33ad3c6ae",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf333-p317.png",
+      "sha256": "cd1bb0f046c57bbbb89e5af2d35d14ea414c9bad1eaef661ee46c06f314dd33c",
+      "sha256_normalized_lf": "cc5378e07fea885494ab85908373a6f33f94a7cb05b02d4365eb3d8254b2f27a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf336-p320.png",
+      "sha256": "cc0e0a1e26ec9e349a7fd04a88e83e87a56a130e0bcfcb0c4ce593d0d2beb0e8",
+      "sha256_normalized_lf": "e2a3f2c3f49a7053dfff1222c86d726530c41a7ca2fa791a18816c1411c84b95",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf338-p322.png",
+      "sha256": "29a6b7f1543227e81e61c2e23f3a3f6a5a68bcba60fff6d38a2d6d73ab363caa",
+      "sha256_normalized_lf": "666f5641b43ce53e465aadb03540084659945551331baefb5b5df2b695ac4a94",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf96-p80.png",
+      "sha256": "212b49f93b0a24a20c16750e8a39882375d337a5bd168d0286740171da7247f8",
+      "sha256_normalized_lf": "059ddea48df00ba8a1f99644f671f2924c0f4cccef5f74e4cc20f3289e9e9f43",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/fb-pdf97-p81.png",
+      "sha256": "d73a45a2ce06d9c0979db891b219e1b247f6d42f4a6a438da57607957f4acf97",
+      "sha256_normalized_lf": "038289738b85216a4f3a1393e3574be784a79913c8679acd8c2776212f66dfec",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/new-nouns.json",
+      "sha256": "b6f9afd543d333f085bcfa4ca12876129b4be5485c51f22ed4633cef54e3f34d",
+      "sha256_normalized_lf": "b6f9afd543d333f085bcfa4ca12876129b4be5485c51f22ed4633cef54e3f34d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/report.md",
+      "sha256": "7ba8e76879c2e7f1ba4d9dc6f8089b1180f74d5bdcfca6d8efea9d4e07d5ef55",
+      "sha256_normalized_lf": "7ba8e76879c2e7f1ba4d9dc6f8089b1180f74d5bdcfca6d8efea9d4e07d5ef55",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/source-lines.txt",
+      "sha256": "b650a8a4f76d1a27a47be4ae4598b07b90c879b060576b0ff6a587b8c63f11db",
+      "sha256_normalized_lf": "b650a8a4f76d1a27a47be4ae4598b07b90c879b060576b0ff6a587b8c63f11db",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit04-source/source-text.txt",
+      "sha256": "28391e7331954bb68b111425c16a221277e9c35c92dbe1cad103aafb249f102d",
+      "sha256_normalized_lf": "28391e7331954bb68b111425c16a221277e9c35c92dbe1cad103aafb249f102d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-coordinator/reconciliation.md",
+      "sha256": "1ba507dd380b64013fe66f97df7d94da84e5f68f13d28c6ac6dbf71ce4112471",
+      "sha256_normalized_lf": "1ba507dd380b64013fe66f97df7d94da84e5f68f13d28c6ac6dbf71ce4112471",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt-downloads.json",
+      "sha256": "35dd2365457747d0bf6fb33d33501b650ba55a473923eeb06c74853952428597",
+      "sha256_normalized_lf": "1179c318c949491a7b1740c600865293bf7d690a078f38aef230f3d8e85a4f8e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt-extra-downloads.json",
+      "sha256": "e470131f75e6efa832ee4b7825315f529d60160ae476b2d2f9b26a3431b179ed",
+      "sha256_normalized_lf": "9383fb9f553813c07eea8b6eac9c2fe3a5a4ad919de815d747ad638b34ad7055",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0088.jpg",
+      "sha256": "142fc2deb649786c4391b49c4e6df7e9a407f2bdbb21cab98db7166716ebedca",
+      "sha256_normalized_lf": "3eb8a10243b8c2e29d9e4df532b0e34113add8c29fd236e2d098a89a6ab8c2f6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0259.jpg",
+      "sha256": "6deaf3b653a7b85c04828c1cd3c52525c32bf4f1f20db905769cc75f7dd198d6",
+      "sha256_normalized_lf": "8dc7da6427043f12b3ac3a4dcd536c91ed75b4c4cdde3d647e3b76accac8af80",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0271.jpg",
+      "sha256": "253aa6414dd9c317ad5e0f63057acdde2748f99ad7f4672909bc547ba5191e25",
+      "sha256_normalized_lf": "0bad59fc89ec09f509721aa777ae30ceae439e5a3e6a3f7790b179e05f8fbe16",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0474.jpg",
+      "sha256": "09378eb1c3daff4d963380a823f4d41007d88b8526968e346827de716e3b8d74",
+      "sha256_normalized_lf": "9ac88bf07c75ae08c74d5b374868a0bda925a37e1f11db1aabe212ef341b68ac",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0517.jpg",
+      "sha256": "a8c655a6eab3369ef17a9c50a56e17e8203a00667b80e341fa1394122fac2d4c",
+      "sha256_normalized_lf": "73cc5b6cf47b8aa04c8b72b4bb12df9d81a812769d932bf67b23f8ed8f6255d6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0636.jpg",
+      "sha256": "48501b9f3d794b861f84d3f5e1fb0df126ec6fccdaaf4b2ec10a9a927d67ca36",
+      "sha256_normalized_lf": "269919aaf0fab414662f16e67350d3273bdd8d6532863fe6a431aa5e6f8a3c65",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0637.jpg",
+      "sha256": "33f06c1571b3be4656c3621b55addda2346756cc2a7704ce01c3b28ea71db9d2",
+      "sha256_normalized_lf": "3022c27179c9618f570d9786dac6f9d4ddb4a4bd626bd861726e9c2f9358f82f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0721.jpg",
+      "sha256": "af7eaf01a2cb3667da5a776874def41e112859e9338cc33348f84854be8a2b1c",
+      "sha256_normalized_lf": "211b3ff24b9206f7185c384abe5034b91cd8394387bee0bc8c4f10d934c09d0a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0879.jpg",
+      "sha256": "2960fcab4f8077a26833d26dba5ffdd8f9c9ed28ffc77e4af7535312a6335ba1",
+      "sha256_normalized_lf": "eb8ba664289f0dab7db4aebc54f9d8112d6cd58e65b1f79ed8cf0b3004348196",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0882.jpg",
+      "sha256": "f8d9dd12183ac50fc70bf4142fe8de626f574ea3ff3d0aee0cfae0d52d042fc8",
+      "sha256_normalized_lf": "f762f319c4647d9b7bfeb6d7cac29a764c747fe0ca200b9273ca366a3cf8a61c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0910.jpg",
+      "sha256": "70b0600690d5bc725b2a5f05b78713c186619ef407b09fef86c89e93168f7a1a",
+      "sha256_normalized_lf": "b78b517c06928108d82ba5bea439a9d73fdc73d07251ed7e402d52aa45c1ef3d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_b0952.jpg",
+      "sha256": "d033a7f30d7f6938705e8c17c48463afed297ab8e2e25d10c149076cfbafcce5",
+      "sha256_normalized_lf": "4af882a7aa6c758161ce05a437ae0487f5ea2e5195f1f2e56e4420956a876ef6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_d0195.jpg",
+      "sha256": "2d2ec6415f4415c68ce02ce3e1f7fcc68d5c407fc4dbc9ddaf4b28d2db61db76",
+      "sha256_normalized_lf": "29f6b4da2609b2c94efb419e69e4c373dee3511efb86ebfba8788b9391fc38b2",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/bt_d0717.jpg",
+      "sha256": "b1f4b10af842b8ec3c0a61ee38eecf1b40288ba0ac8a24e51f21b3cc64340fd4",
+      "sha256_normalized_lf": "688412e89fe7f4c31c3577eaf90a52aab0fc93f8d1e209681b56fb4487b00772",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/cook-p12-pdf28.png",
+      "sha256": "6707a57ee82d8771f6983eee240a95ada5dc703017ea82de0a98bad1f604a836",
+      "sha256_normalized_lf": "f47c75779a4e7f5d678c84d0ab6add9ba1d1eec39e7fee07f5ac3219eae5eeba",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/cook-p13-pdf29.png",
+      "sha256": "429dbd9146f5ce96f805555415df3919fc8b26047d376591d69b0b4047c53c56",
+      "sha256_normalized_lf": "a694db51b4f1856d4b878cc6cfaa53678508b3fe58b6633ec1f34e8f7eb9c66a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/cook-p14-pdf30.png",
+      "sha256": "b3770719a3b089a352cdb1fdcedd7196668db2a1695ef76715fdb335c89a03c0",
+      "sha256_normalized_lf": "1b9dcb3a57187fbd4437929043057a8b106ad50edbf0090a5040d4628258e2c0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/cook-p63-pdf79.png",
+      "sha256": "faf77702d78f1ac7c30a7f66e3a44e8a747093dc264a6f0229644b1268a90b68",
+      "sha256_normalized_lf": "baeacbd349fb6c7e95b982b1fe40d84bb78c644fb5a5c02f87b96f5c3c72153e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/cook-p64-pdf80.png",
+      "sha256": "18dfabb78af22e3c94394573b1d9134a8c63baf1eb3fb239e4bea7f4de74b19b",
+      "sha256_normalized_lf": "cac10ae3db4349511e4ab619363d30a8ff1aa90749ceaee195c3e7108efc7c0e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/cook-p65-pdf81.png",
+      "sha256": "ff7bb760e9ef2f990a329bfe5296c3d1abac0cf769e2d7537311e2c181348c6f",
+      "sha256_normalized_lf": "1f7a6ec1f4ca525cf248de39c96e45a83a2aa164377e4baaf1d5bca05c0cf3a0",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/cook-p66-pdf82.png",
+      "sha256": "a3809b56c2741e785b1599dfe01d9807c8bc8bbff47075c33046fc559823d62e",
+      "sha256_normalized_lf": "62bb45e09b3b88849ff88a225dfea925854d30dbfbafe895ae2f11addb727a5b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/cook-p67-pdf83.png",
+      "sha256": "25b1079da9b4e89db9173c9b0a6c173ba058f0626de9cd9cac382ba5729051d7",
+      "sha256_normalized_lf": "80ae132a43aa8fd644d7f79abec00cdbb56bcf715aaebcf671347078bbcf7beb",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/lexical-frames.json",
+      "sha256": "7103c4953ca71a9c7a5dd73e58caa55ef4e3d3c80b24765918a42bdd3e2348b1",
+      "sha256_normalized_lf": "a47d5195225862b0b07d6dd9bd6d371d61f8a76f4e622cca9074d126cba7d9cf",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/paradigms.json",
+      "sha256": "6124c75e5f7b9a45e6d877831dc6043c07ed23d14eba34cfbf55b1ffc2eacb86",
+      "sha256_normalized_lf": "5a452350ef2f0edae061ecf8d2e7844327f7d4aa6736e01189c802ff4376b807",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/prior-inputs.json",
+      "sha256": "182578e016c6339cf6dc0012844547c636a6f0a994f00ad609d525f4baf440af",
+      "sha256_normalized_lf": "9a7c4ab33568a0597c67555845858d13cdbc8612ed0fe795fb4739684d6cc147",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/report.md",
+      "sha256": "6c21bf1b62ee54557ab8f25d0ae03d9149928ae3e7f7dd77411bc403e953ea5f",
+      "sha256_normalized_lf": "6c21bf1b62ee54557ab8f25d0ae03d9149928ae3e7f7dd77411bc403e953ea5f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/source-transcriptions.json",
+      "sha256": "7f9d4b291c71e8c321fb8c670fab17ddfe1c5ef0d7b754b5174fb0656bd1eaca",
+      "sha256_normalized_lf": "7f9d4b291c71e8c321fb8c670fab17ddfe1c5ef0d7b754b5174fb0656bd1eaca",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/validation.json",
+      "sha256": "692e2f1b5f91a90f4fa3ace7016faea445bc7884d5e22ef98e22ab0a7377d9e7",
+      "sha256_normalized_lf": "53a6eab2b3f28747e490fd97c778f8940677aeec2b1011d3b73b77f4186ba9ab",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/wright-p260-pdf280.png",
+      "sha256": "a490864c7c2fdcf243d06984eb14520ebd78b3174a260ac23191f3786bf2c92c",
+      "sha256_normalized_lf": "a3d783d5e305f177326200cda8364f041c4256ad941b269f21592ef5ac31c8cd",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/wright-p261-pdf281.png",
+      "sha256": "6c7e1e9b6c5d82214d237ea88779225a5a83c30204133930937f54ef626c1a30",
+      "sha256_normalized_lf": "09a83c0dbb2e17119a093df30c5f3dd63052e46838c174980ac5ec8371ec38c7",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/wright-p262-pdf282.png",
+      "sha256": "532088fa2a2965d23a837c7026da2a7b1514c4690462a6e2a22ed0f518f24eab",
+      "sha256_normalized_lf": "bc6616e9335bfb11c78f75cfa02ce735a2b85c64262989e228ed81c8fa8cc71a",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/wright-p263-pdf283.png",
+      "sha256": "40e06b722cba4c514d5f8ca79d11247123aff67373062d7fea7eac275649bec1",
+      "sha256_normalized_lf": "50c69f377d223e31e2e24b26f001d3dfb96846086715ccdf79ae5e74a54fa239",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/wright-p264-pdf284.png",
+      "sha256": "b8d8fbc2e1955a7ec2e10d8499894633b06cc166a185955c50406d8a2233076d",
+      "sha256_normalized_lf": "811cfa0de659d30e9b1befb4e583a9b1d09946dee2addd22496cd620266ba4fc",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-grammar/wright-p265-pdf285.png",
+      "sha256": "efcd92352aaaca555071eb929da2194a0fca2315d334e8425dd1749dd22a36c7",
+      "sha256_normalized_lf": "677226cc2277818d865786e921fa69929a7338e070cbdfaffa15e69841f05b7b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/audit-translations.md",
+      "sha256": "303061e45b93d59274545bc9753c74c5e827f6fdebe51808aa636d1df6553a6d",
+      "sha256_normalized_lf": "303061e45b93d59274545bc9753c74c5e827f6fdebe51808aa636d1df6553a6d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/audit.json",
+      "sha256": "68702bc8418ba30ed9974b5f12d1e5923133b27fd74d5cfa47afba2165ff338e",
+      "sha256_normalized_lf": "31ce34104b8067d545374f45ffa5e849ea0fb73ae5d9e1789893265417c80a52",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/bt-main-p291.jpg",
+      "sha256": "2c6b9ab47d56ca2f45d180d1ee302ce63d30406a0d3cd6e94293ced8dec7be2e",
+      "sha256_normalized_lf": "e3a68ddd38dae78c8a0d2b1082bb4869150ac22a1efe96281d340feb6dd107c3",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/bt-main-p439.jpg",
+      "sha256": "88d2e040455a207421f1d744b80e57716fb67f6d9ffd68377b2ff3f11e92c58f",
+      "sha256_normalized_lf": "65533e05a25ff6bc5dbd26a246ed02521bb41f8c8ec8dd3dc5f1fdc9df191945",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/bt-main-p833.jpg",
+      "sha256": "74c934f931ab90626d6a12ab07e1b9530d8ebaaa01d280f475e1d15e50ac4e04",
+      "sha256_normalized_lf": "7d4268361ecae247f05ab3e60a32b5e41a56a267612e0faeabf5fd208d59e2da",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/bt-main-p864.jpg",
+      "sha256": "f1f14a18574420509750a80fe7b754ad8f0e7fbae23f6bec24e22bd4e8b25a56",
+      "sha256_normalized_lf": "98a2f1cae92497b400519bac786233c12b9db05cd021f229359f718a7df4fb9c",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/bt-main-p957.jpg",
+      "sha256": "32b4e92d8a7a36c6805363bedfa8710b100e68074ac2ad50651ae8ecbfae1ac4",
+      "sha256_normalized_lf": "5b4e17d17007edcba93ad6cf219cabb46e69c4fbaab0ae73523c3d1a184b276f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/change-notes.md",
+      "sha256": "acbb6e63b5f135eaae2fdc484431d002e990f3b732be80ac63bc9aef47ca6d85",
+      "sha256_normalized_lf": "acbb6e63b5f135eaae2fdc484431d002e990f3b732be80ac63bc9aef47ca6d85",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/composition-review.json",
+      "sha256": "65087b6b817bc796f9b5118019266eeb682fac60c2a18bb85f8d6e9a67f50a11",
+      "sha256_normalized_lf": "09cfee14d85c66fb902440e2a5e77c427156221a3e55cea50c83cf5cffa3832e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/composition-review.md",
+      "sha256": "b50ea294b7f83a59a075f0ad007636822393d0c3bec577863800699342bcd866",
+      "sha256_normalized_lf": "b50ea294b7f83a59a075f0ad007636822393d0c3bec577863800699342bcd866",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/evidence.json",
+      "sha256": "1d38a61657b6d15fe997120f83e6bf0efe7558bfc08946839956ad6c85f0b924",
+      "sha256_normalized_lf": "c48d7675637029dbfd668fcb476f642af4f1fc9404f3cb4e4b2fe97eb7821c43",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/ex-pdf11-p3.png",
+      "sha256": "df4da353195ec8409e052858a7f42eac0b1873d05b7fa5976a67379b505903d2",
+      "sha256_normalized_lf": "9c291ff3170596c22b5bc0a4b10d58338daefd44b0f70ba49e3eef71d8c9c6a4",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/ex-pdf46-p38.png",
+      "sha256": "ecc0d9063ac1cfe11c005f353f2c8450cec24aa26dd6fd5a0066186336a5a91f",
+      "sha256_normalized_lf": "bd848ee0bd56cdb14beac9af52c02eff396a7ca36d0472c066cd3fb599cbe23d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/ex-pdf50-p42.png",
+      "sha256": "0e98fe90475914a45beb25a16aaf23d76707133b217fa2b8baa0d05cbe3cbd05",
+      "sha256_normalized_lf": "af47cfe63aceee7c95ad616a8c188eef2f43143e4d4fc67da221b93932288134",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/ex-pdf52-p44.png",
+      "sha256": "37c18d8b5f6d7c9e6686377806cfd8656afad7aa5e2ab76cdd4089c4cb7645b5",
+      "sha256_normalized_lf": "eb3883b0364387960ebcc171202d324a7867dd949a263954129c58a6315f0da6",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/ex-pdf56-p48.png",
+      "sha256": "e0762b0e918fdffd78eeedfbb09368716c67d0657021680c39d31cb4c4c91918",
+      "sha256_normalized_lf": "39321aef4e61ebf8f3d33db17b3b0d16360703c05e018fe617ed54df4668a966",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/ex-pdf58-p50.png",
+      "sha256": "cfa1417d88f3854cea97fb7c3b0f84b550c324a8b689d28851815c4a162dec21",
+      "sha256_normalized_lf": "2d518e6fc67b7a87d0375fc11c994fe3c7df969f12149c2fa603f2a4e85dd0ef",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/ex-pdf69-p61.png",
+      "sha256": "0492ea717a13b715cb8db30d31b2cd0efe95bb0d3dbae0f3c3c80247d1c17678",
+      "sha256_normalized_lf": "3f0b379faa0796d7353b914388892bcc2328590bf1127ab8b6f669f0a59ce03d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/ex-pdf72-p64.png",
+      "sha256": "e4166dd4be1ce64f12b1e89671fcd6071c5c4f50cae5d4cdb04db00b8cef690b",
+      "sha256_normalized_lf": "063b343a0106c4df00aa03e37bf6f45e68e5080ed546abbead1e72d4a9adc476",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/exercise-5.json",
+      "sha256": "a77375f5302a4650f283c533c466f7e1c899cfcb28c1108aba711b84106bf8a4",
+      "sha256_normalized_lf": "1c8c24575657b663a5b95376ad7859e4c7dec04ba9c6a4a2b79a3481e3560433",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-pdf108-p92.png",
+      "sha256": "181df001b118079b84aaa0807645e5a22f1f329462e2173107d243e30696afa7",
+      "sha256_normalized_lf": "264aa1b8660b7ea7a4868a2afed182c39c8b6ce0c1cbc1fb3e14f06f25f97162",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-pdf113-p97.png",
+      "sha256": "2d84a7e38dde1a22a788a2f6380d37bc84dada3f72de8041f0eb30cd789e06e7",
+      "sha256_normalized_lf": "f1991b27b57688fc75df77f36c49927367ed54bbf78fad2546509a51d1de0505",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-pdf144-p128.png",
+      "sha256": "53de1d2bf6992ae69e96bd9c5a550e1160e6733a6e1ffaff5928890c59596400",
+      "sha256_normalized_lf": "b7eb185a8c1de4e3dc2fea783b41f266ba9a65c1d14aa5b2ba581f94b64a2eaf",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-pdf300-p284.png",
+      "sha256": "c9d620ec3741057e35c2d7acce7a3d11851389741be9ff3af9f98b993fc79b76",
+      "sha256_normalized_lf": "d1bb0b9c37b86e780f1879063829978c2980a3989bd77af0b5f194cef9e4b2be",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-pdf310-p294.png",
+      "sha256": "48259eedf9e6634a69ce6f41d3046c8598c82c4bd50530a6d33a622e5a78cd1f",
+      "sha256_normalized_lf": "e57ca20c82683dbb4ba049e0e70fa46a78543e1f1990b5564239430c962ceb8f",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-pdf313-p297.png",
+      "sha256": "d9712a7f7b9de1e8ee6f8febd8e78e59af21a533f7ba57c2c437c46ea9353e6a",
+      "sha256_normalized_lf": "f7c441a8382ca906475e9cc3533df7b9309cc5be8384214b18625b6d9eea67a9",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-pdf314-p298.png",
+      "sha256": "e441fe56f3cfb802ec4b5a935d3a794ca32df4092a4573282b98526e7eb81c34",
+      "sha256_normalized_lf": "3a3cda8e7088b0976dc757d601211e07826113ed2dfce0e54cc582c72d109363",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-pdf53-p37.png",
+      "sha256": "e13a18ab990847120f8b50260c28284cd831a80051710496ba4220b4a12e8b9a",
+      "sha256_normalized_lf": "6af293e1819b66330fb3a608efb32cdf40ff16d6c97fa29090f62e9ec2968c67",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-pdf68-p52.png",
+      "sha256": "266a597ab1ab324295bef3c0bb9a1dea51452832de7ee7ce45048fa2f049d447",
+      "sha256_normalized_lf": "cb96f65a3c3165c94a103f29038357287573809ed1689db28f45723f060c52df",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-reader-1.png",
+      "sha256": "6ff24eba61ac1ef828c26313e97b528161f859631efed7f625eb20c9a3a84a0d",
+      "sha256_normalized_lf": "ffe13ec55b45c8e85bb7c2a91816cb7e6eab95f3000251c8c08aa3869a3bfc79",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-reader-2.png",
+      "sha256": "b7c12d023f70e51d7821db85c4c2c4a3931741a975356a177223b0527595dac4",
+      "sha256_normalized_lf": "8fdd9c18d950091e5337895347ba13c72365a96f206abda064ca48b837689638",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/fb-reader-3.png",
+      "sha256": "5a2033dbbb35d6a6f1003f39523d5caea383f3cb21450840402fba74b2906782",
+      "sha256_normalized_lf": "3085f63cd48cbcbedef90c699321a856e554470227029f9ebfa6f7923b399634",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/first-day-source-lines.txt",
+      "sha256": "871e773822998ef94f876ca9e1c8e7297ffc163476ee55d75c41a6bd98140a7e",
+      "sha256_normalized_lf": "871e773822998ef94f876ca9e1c8e7297ffc163476ee55d75c41a6bd98140a7e",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/first-day-text.txt",
+      "sha256": "ae1042792ce109cd470e9f97e4b34f42ac8c04bd4a7542e142afe420872c1846",
+      "sha256_normalized_lf": "d1ad8ea63a436140ce46f905ec7134ecb12150c69abed03797c3b2a674a50d6b",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/report.md",
+      "sha256": "cda09983babb8a7536ff2f08bfa2ab14eac30356abc446d9e637bb31b6ba1e48",
+      "sha256_normalized_lf": "cda09983babb8a7536ff2f08bfa2ab14eac30356abc446d9e637bb31b6ba1e48",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/second-day-source-lines.txt",
+      "sha256": "48b6347e65d2d449495d4c6d4369c5d4d2641fa65f1a96f2e01f23a816985879",
+      "sha256_normalized_lf": "48b6347e65d2d449495d4c6d4369c5d4d2641fa65f1a96f2e01f23a816985879",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/second-day-text.txt",
+      "sha256": "541825cb39ad61f5e50c5fef90f2933687b3ddd3769c6d08fcece46b146ff43d",
+      "sha256_normalized_lf": "541825cb39ad61f5e50c5fef90f2933687b3ddd3769c6d08fcece46b146ff43d",
+      "unchanged": true
+    },
+    {
+      "path": "sources/audits/unit05-source/source-notes.md",
+      "sha256": "6a9699a246d2a461ed24a865eaacbdbcee2cfb79d2d6962f22318937b756a017",
+      "sha256_normalized_lf": "6a9699a246d2a461ed24a865eaacbdbcee2cfb79d2d6962f22318937b756a017",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/book-layout.tex",
+      "sha256": "98c0b802184aacf9b33319b3acdd8a6aa630b13c49059b1d5672e462e9728a47",
+      "sha256_normalized_lf": "96778bde2ca046a8b498491cc1d6bba378a3b409f3435bb5b4ec72d6d0e8493a",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch01/answer-key.pdf",
+      "sha256": "3d5a72d2d5f6f78010235e76dceb6eb5268db24328b102745f439845359d693f",
+      "sha256_normalized_lf": "a4101f0d2ece0e4f7ebef738f6fb650c3fd90fb3b9b7ea4b8b15f4bf94e99dd1",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch01/answer-key.tex",
+      "sha256": "7f60d100fcfe4148774e22ce344588f9725da303f6770a3d3c4dc96e10dc6443",
+      "sha256_normalized_lf": "9ca2fb765a1dd9cfddb3beac0daba431ab47c479b24d72f1c112638e05473d79",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch01/chapter-01.pdf",
+      "sha256": "2a59aae475ca3bf98d07d73d7a7af3f9656e5caf2c0c8547e38e9a4f760064d0",
+      "sha256_normalized_lf": "5852f68d9e1732ccaab584c6c2af8f301e3f6748e83a3e79d695ca17294ea0da",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch01/chapter-01.tex",
+      "sha256": "bd76425decbf12d80d1de418cf330a438bb0413d3380b4067b4851f4a510745f",
+      "sha256_normalized_lf": "a2b7f5d9aab37ab7297e9b63c992207fc1806bd6e1a6ecc653925a36e61470c9",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch01/README.md",
+      "sha256": "804e5fc88d9b4742f1b1ae3ccedc5e5573bd64bbf183a67cceb86993db0c59ca",
+      "sha256_normalized_lf": "804e5fc88d9b4742f1b1ae3ccedc5e5573bd64bbf183a67cceb86993db0c59ca",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch02/answer-key.pdf",
+      "sha256": "d9ef81ef44157f08d4e9f1e1a450eaa761b30031c986ecbb61608534df3c1608",
+      "sha256_normalized_lf": "4c329659997e6df0a8da4ecdc10e9bd8c3faf351a4a4d97f1a7ebc5d2a513fb3",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch02/answer-key.tex",
+      "sha256": "a2f1dbff5f31da08427d8c8c1b3e19ed9b8810c6b781a7554398fe1dcfb2172c",
+      "sha256_normalized_lf": "3fae39cc48e3eab7aef960748adf6e40d862972c43cdf5b582e5fb767df0843c",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch02/chapter-02.pdf",
+      "sha256": "54eddab2d7f2284a6e4bd82c5da34cb1fd71baa7af11e7db576ada41b10b3a0d",
+      "sha256_normalized_lf": "54eddab2d7f2284a6e4bd82c5da34cb1fd71baa7af11e7db576ada41b10b3a0d",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch02/chapter-02.tex",
+      "sha256": "f11a328bc269b47094eda1f5958d98ac5d7250b05bd5f49a5a2638fe2c82a49a",
+      "sha256_normalized_lf": "5d184c8474c931a0858b6e5688703e4d3909f4ea4a171eae2568df7323b56262",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch02/content-parity.json",
+      "sha256": "c09fc96cf75b7fc2142df221d814b59c15ee1ecc3fc3004b5da1cf5c9485955f",
+      "sha256_normalized_lf": "61cc2667b90140b9427b086fd11a2f0b7d15aae1e7f204187d2b5753df44086c",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch02/page-review.json",
+      "sha256": "127a676d0407a88a3c29f569e9a6ad89fca6f008b2ae17b91c4737c1b42cda33",
+      "sha256_normalized_lf": "b139723f6b3ca480d42d521fd3deb80b1dba8b62168b379d9dce830c60774fca",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch02/README.md",
+      "sha256": "0543efbd1f902fb91b7550c29648eaebc0f7524715aa1e6311037cb830b3977a",
+      "sha256_normalized_lf": "0543efbd1f902fb91b7550c29648eaebc0f7524715aa1e6311037cb830b3977a",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/answer-key.pdf",
+      "sha256": "9ef35625e6918eeef6ab0e22ea7408f593711e13f0bd4871e4514e99ce82d5f1",
+      "sha256_normalized_lf": "8445050ecee108b3dced267e913c15e0f68a5c3369f46065fd85d0eeecc6b330",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/answer-key.tex",
+      "sha256": "5bfc7e2f402d980005f10bdc5f712b9d0b877a7ffbd741fa133c834f2b8c7fcf",
+      "sha256_normalized_lf": "5bfc7e2f402d980005f10bdc5f712b9d0b877a7ffbd741fa133c834f2b8c7fcf",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/chapter-03.pdf",
+      "sha256": "f6f7a35fe1a51adb62aba56823051a6ca1a6484aaa552aefd6423da73d96733e",
+      "sha256_normalized_lf": "4e64dcb0f441c0f68551e3e845733081716345e5ffa976fa2a6fe2f88d5d075f",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/chapter-03.tex",
+      "sha256": "78c9431eaa661c547397943b4cf5ce4d46a21bbe91a460100163b2cdfff137bd",
+      "sha256_normalized_lf": "84ea3dc7072f7ad39fb98e8ba7d008570e36e359c1e9ac1133db53c63e2a785d",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/content-parity.json",
+      "sha256": "47a0d35fb12be9df1b266d6965a969c495f38d0dbbc533cd5610890671273e1f",
+      "sha256_normalized_lf": "5ed470044549487c7cfbd96979dacf4710705a00d0edbcec9b944c2d40b708ef",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/page-review.json",
+      "sha256": "3992f813e21db653c0c1aa06cb215bf2bdccd422b43b97b786693508a0d8e746",
+      "sha256_normalized_lf": "3992f813e21db653c0c1aa06cb215bf2bdccd422b43b97b786693508a0d8e746",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/README.md",
+      "sha256": "f30083634ab8e12c0f0a5c0dd5e941f53d415d4961023760432b5b4e213c63f1",
+      "sha256_normalized_lf": "f30083634ab8e12c0f0a5c0dd5e941f53d415d4961023760432b5b4e213c63f1",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/reviews/key-01-19.json",
+      "sha256": "c6dda5e2a27abf95f29b576f964c2c914a00f38ce5930dd1df3d81ec447de06f",
+      "sha256_normalized_lf": "c6dda5e2a27abf95f29b576f964c2c914a00f38ce5930dd1df3d81ec447de06f",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/reviews/learner-01-16.json",
+      "sha256": "5b88800a7d3cbd3cdf618209a9b6da19bb03f016747109595dde57a8913b0104",
+      "sha256_normalized_lf": "5b88800a7d3cbd3cdf618209a9b6da19bb03f016747109595dde57a8913b0104",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch03/reviews/learner-17-32.json",
+      "sha256": "b6819e16c04a8cd3e2e02cd02e7db95a36bb4e73d2fb10939aa2aad737822a70",
+      "sha256_normalized_lf": "e5b3e1dc295a4c8ed4a54aa70d028ed0513e8a70e2488895ca86df5f9cd6f0df",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/answer-key.pdf",
+      "sha256": "f592bc77e423931a83960165fbdd0cf7f69facec70141235f6f51d1099f84a26",
+      "sha256_normalized_lf": "f592bc77e423931a83960165fbdd0cf7f69facec70141235f6f51d1099f84a26",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/answer-key.tex",
+      "sha256": "b94ec51dade8e29c3d3c8c987d38d73a2b744fefa6de1920cd582f38a8522647",
+      "sha256_normalized_lf": "7647e74ae817284c3d70ae0e5edb978481f10ca323427a7af1acfdb62e3c7eda",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/chapter-04.pdf",
+      "sha256": "4fdfdf41abc6d3c2400f07cf9a16d1cd84abf53dfa3f0d5415415b865fd22fba",
+      "sha256_normalized_lf": "946047b75e7d98e05b3886a9b6ce79f5ecde50095db09df39167f3f73d073ceb",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/chapter-04.tex",
+      "sha256": "adab56bbf505d4fec6117f2109d5ecef13ffd3ec9154d40a703054e7614426c6",
+      "sha256_normalized_lf": "44aba7513a3fb5790e5ca5b3c36c56d0b8af5f22b011f607fec7f3d4af2385a3",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/content-parity.json",
+      "sha256": "ca8f9f26075d21189c1d4a83eb27ad2c38dd59d2fb5fdaf9899f8a5d175f432f",
+      "sha256_normalized_lf": "510df823feb2f49bd95edf5da47870425ae1c44a793ac440c05b91e54eba24b3",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/page-review.json",
+      "sha256": "ac7b84802870f3de9aee1c761ce3b8965020be9a0be1d884a7fb14f888750310",
+      "sha256_normalized_lf": "ac7b84802870f3de9aee1c761ce3b8965020be9a0be1d884a7fb14f888750310",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/README.md",
+      "sha256": "17724a96cdeaa25eec2f5283576e1afca351906600091c6d790ed376830bb59a",
+      "sha256_normalized_lf": "17724a96cdeaa25eec2f5283576e1afca351906600091c6d790ed376830bb59a",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/reviews/key-01-19.json",
+      "sha256": "2868e37b0017494c19755e61ef92065a9d6f1caef3b19241ce3d3f903c06650e",
+      "sha256_normalized_lf": "2868e37b0017494c19755e61ef92065a9d6f1caef3b19241ce3d3f903c06650e",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/reviews/learner-01-11.json",
+      "sha256": "ecca35119bffdbafe920025ec5faca75e75e5bea70a9f3b18bc4464b718a60c2",
+      "sha256_normalized_lf": "ecca35119bffdbafe920025ec5faca75e75e5bea70a9f3b18bc4464b718a60c2",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch04/reviews/learner-12-21.json",
+      "sha256": "8223ef34807977809b0d810da4e16433704f3c11a0fd4cd3292e17cceec29c0f",
+      "sha256_normalized_lf": "8223ef34807977809b0d810da4e16433704f3c11a0fd4cd3292e17cceec29c0f",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/answer-key.pdf",
+      "sha256": "006ba4afe9526e567e8c63566a199d32ed0faf358f5fef7f5a82941ddbe25053",
+      "sha256_normalized_lf": "36be6de8810374a71d51929d594664e4b1cfcabc0d2307949ea9e9235eb0592c",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/answer-key.tex",
+      "sha256": "a298ac658f98643676e80ef132097d3ac1f5091a4b1d7f69c88227571f011efa",
+      "sha256_normalized_lf": "7f290c42962827fdbe4a037f0fb4b68642e3df6ca03e7c8dbd219bdced6e21e2",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/chapter-05.pdf",
+      "sha256": "24746c00de5973f65fd7aaa8b271fa3abbb5664ec767825528fa96475efa73a6",
+      "sha256_normalized_lf": "1405cb429c2d2c045f8ad44d009158233e49eb1ece2cc412986750b8e35e6d9a",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/chapter-05.tex",
+      "sha256": "086c605df2cc77537fd8acf37c28aee3f444013250b9b1f10fc1a069aa19b12d",
+      "sha256_normalized_lf": "5fab9c2fe9de294f5a88732db7be99466b8d1b3079026a6d6a7c136b222366d4",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/content-parity.json",
+      "sha256": "1acf3301b0bc3f707139b919ea442b6c3f973a8d944dae62e1efb3d28e5ba5e6",
+      "sha256_normalized_lf": "1cb583dc60b4cc2a36166e1dbede3227310186c88de12002572a113dc7545064",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/page-review.json",
+      "sha256": "1ff0894976bb04e154adb552a325e4d64251c9d72c4c254fe0dcbf20066d15f7",
+      "sha256_normalized_lf": "1ff0894976bb04e154adb552a325e4d64251c9d72c4c254fe0dcbf20066d15f7",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/README.md",
+      "sha256": "cd28fd325e7500cf2b1d6fc3dbe447095c5a2d3343e71b56bcdc434f3057d4d5",
+      "sha256_normalized_lf": "cd28fd325e7500cf2b1d6fc3dbe447095c5a2d3343e71b56bcdc434f3057d4d5",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/reviews/key.json",
+      "sha256": "d3c70cf218b1aab6c128faa237eb817ebc97c2cc39fb2c49a0a978345bac6ab8",
+      "sha256_normalized_lf": "0ea0a924002e702891b6f75a36ed7b170f43209365b6cc5ed73f226f257aaa0e",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/reviews/learner-first.json",
+      "sha256": "fcd4d69848f7c66b0e55215b0aa23920d4e483590afe62feb4be2352f57e7057",
+      "sha256_normalized_lf": "0e6f435cce613dc1adf42d3e7ec600c087416fd52acc1d8aeeb604d5f448330d",
+      "unchanged": true
+    },
+    {
+      "path": "typesetting/ch05/reviews/learner-last.json",
+      "sha256": "6ca71b022b7db63db4865548342c477fc2180c9047a528ae7a43c65e4d13b90b",
+      "sha256_normalized_lf": "8652c070dec4d5a76403f099a92c9fac3b28eadf133b3cffe4eb877fb079397e",
+      "unchanged": true
+    }
+  ],
+  "history_checks": {
+    "forms": {
+      "prior_records_preserved": 3198,
+      "earliest_milestones_and_supplied_history_preserved": true,
+      "all_existing_per_chapter_records_preserved": true
+    },
+    "senses": {
+      "prior_records_preserved": 265,
+      "earliest_milestones_and_supplied_history_preserved": true,
+      "all_existing_per_chapter_records_preserved": true
+    },
+    "features": {
+      "prior_records_preserved": 205,
+      "earliest_milestones_and_supplied_history_preserved": true,
+      "all_existing_per_chapter_records_preserved": true
+    }
+  },
+  "archived_evidence_files_unchanged": 134,
+  "archive_tree_sha256": "0f268d880862962c696701e92a31a2f48a7d96950fa699c1cab322ffced1e727",
+  "register_hashes": {
+    "lexicon/entries.json": "7651591eda97b9c1eb09ddc16327b8299d647f35afb2eeb92d6ad188146cb637",
+    "curriculum/grammar.json": "273e5c035fe15f465b589e80d901edbe80c15d42d4009f3063b2b1402c75ae54"
+  },
+  "register_hashes_normalized_lf": {
+    "lexicon/entries.json": "7651591eda97b9c1eb09ddc16327b8299d647f35afb2eeb92d6ad188146cb637",
+    "curriculum/grammar.json": "273e5c035fe15f465b589e80d901edbe80c15d42d4009f3063b2b1402c75ae54"
+  },
+  "prior_evidence_catalogs_and_lemma_metadata_preserved": true,
+  "previously_supplied_citation_forms_deliberately_promoted": [
+    {
+      "form_id": "hatan-infinitive-citation",
+      "form": "hātan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "sellan-infinitive-citation",
+      "form": "sęllan",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "hieran-infinitive-citation",
+      "form": "hīeran",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "gefyllan-infinitive-citation",
+      "form": "gefyllan",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "cyssan-infinitive-citation",
+      "form": "cyssan",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "settan-infinitive-citation",
+      "form": "sęttan",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "gierwan-infinitive-citation",
+      "form": "gierwan",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "gefremman-infinitive-citation",
+      "form": "gefręmman",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "nerian-infinitive-citation",
+      "form": "nęrian",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "lufian-infinitive-citation",
+      "form": "lufian",
+      "earlier_supplied_in": [
+        "ch02",
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "habban-infinitive-citation",
+      "form": "habban",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "libban-infinitive-citation",
+      "form": "libban",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "secgan-infinitive-citation",
+      "form": "sęcgan",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "hycgan-infinitive-citation",
+      "form": "hycgan",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "drifan-infinitive-citation",
+      "form": "drīfan",
+      "earlier_supplied_in": [
+        "ch04"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "wreon-infinitive-citation",
+      "form": "wrēon",
+      "earlier_supplied_in": [
+        "ch04"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "beodan-infinitive-citation",
+      "form": "bēodan",
+      "earlier_supplied_in": [
+        "ch04"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "teon-infinitive-citation",
+      "form": "tēon",
+      "earlier_supplied_in": [
+        "ch04"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "bindan-infinitive-citation",
+      "form": "bindan",
+      "earlier_supplied_in": [
+        "ch04"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "helpan-infinitive-citation",
+      "form": "helpan",
+      "earlier_supplied_in": [
+        "ch04"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "drincan-infinitive-citation",
+      "form": "drincan",
+      "earlier_supplied_in": [
+        "ch04"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "singan-infinitive-citation",
+      "form": "singan",
+      "earlier_supplied_in": [
+        "ch04"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "cuman-infinitive-citation",
+      "form": "cuman",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "standan-infinitive-citation",
+      "form": "standan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "beran-infinitive-citation",
+      "form": "beran",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "niman-infinitive-citation",
+      "form": "niman",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "giefan-infinitive-citation",
+      "form": "giefan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "biddan-infinitive-citation",
+      "form": "biddan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "licgan-infinitive-citation",
+      "form": "licgan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "sittan-infinitive-citation",
+      "form": "sittan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "etan-infinitive-citation",
+      "form": "etan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "seon-infinitive-citation",
+      "form": "sēon",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "faran-infinitive-citation",
+      "form": "faran",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "slean-infinitive-citation",
+      "form": "slēan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "hebban-infinitive-citation",
+      "form": "hębban",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "scieppan-infinitive-citation",
+      "form": "scieppan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "swerian-infinitive-citation",
+      "form": "swęrian",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "healdan-infinitive-citation",
+      "form": "healdan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "weaxan-infinitive-citation",
+      "form": "weaxan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "laetan-infinitive-citation",
+      "form": "lǣtan",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "fon-infinitive-citation",
+      "form": "fōn",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "swimman-infinitive-citation",
+      "form": "swimman",
+      "earlier_supplied_in": [
+        "ch05"
+      ],
+      "production_taught_in": "ch06"
+    },
+    {
+      "form_id": "to-before-inflected-infinitive",
+      "form": "tō",
+      "earlier_supplied_in": [
+        "ch02"
+      ],
+      "production_taught_in": "ch06"
+    }
+  ],
+  "scope": "Only the reviewed Unit 6 contract is merged. No archived milestone is imported; supplied-only and reference-only records receive no independent-production milestone."
+}
