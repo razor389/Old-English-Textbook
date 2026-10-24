@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch09",
   "title": "Complements and reported content",
-  "status": "text_accepted_exports_pending",
+  "status": "artifacts_verified_checkpoint_pending",
   "contract_date": "2026-10-24",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -161038,7 +161038,7 @@
     "typeset": "oec-u09-typeset",
     "finish": "oec-u09-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_complete",
   "amendments": [
     {
       "amendment_id": "U09-AMEND-01",
@@ -161095,8 +161095,11 @@
   },
   "completion": {
     "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "final_text_checkpoint": "7f81e43",
+    "page_review": "typesetting/ch09/page-review.json",
+    "register_integration": "chapters/ch09/register-integration.json"
   },
   "form_id_aliases": {
     "wician-infinitive": "wician-inf",
@@ -162079,5 +162082,26 @@
     "independence": "Reviewer authored neither master or graded task, solved all97 actual tasks before key/private-answer access, and disclosed prior grammar-audit/public-composition work.",
     "material_open_findings": 0,
     "scope_limit": "Accepts the identified text and substantive contract. Complete exports, every-page inspection and register integration remain separate gates."
+  },
+  "accepted_text_checkpoint": "7f81e43",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch09/page-review.json",
+    "sha256": "3dbd7e9a4e818258bd6dc7a4655f96d7f93b0252f4557bc70990cbe298b2e43e",
+    "page_totals": {
+      "learner": 44,
+      "key": 26,
+      "total": 70
+    },
+    "content_parity": "typesetting/ch09/content-parity.json",
+    "reviewer_ledgers": [
+      "typesetting/ch09/reviews/learner-first.json",
+      "typesetting/ch09/reviews/learner-last.json",
+      "typesetting/ch09/reviews/key.json"
+    ],
+    "material_open_findings": 0,
+    "accepted_text_unchanged": true,
+    "accepted_text_checkpoint": "7f81e43",
+    "all_pages_inspected": true
   }
 }

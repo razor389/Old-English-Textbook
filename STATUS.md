@@ -1,46 +1,43 @@
 # Status
 
-Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–8 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`d36f134`**. Unit 9 has a learning contract saved before prose at **`aafd2a1`** and complete separate learner/key drafts at **`c45cc58`**. All 97 pre-key solutions were frozen at 72a5b2d. Independent text review is accepted, including the verified source-token correction; complete exports are next.
+Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–9 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are ready for their local checkpoint. Unit 10 has not been drafted.
 
-## Active Unit 9
+## Completed Unit 9
 
-The [brief](curriculum/UNIT_09_BRIEF.md) and [contract](chapters/ch09/coverage.json) assign complements and reported content, all **64 Cook II.9–12 prompts**, **33 original tasks**, **87 complete paradigms / 876 cells in 57 matrices and explicit shared-model derivations**, twelve examples, a 52-word controlled dialogue and the exact 62-word *Choice of Occupations* opening. The source retains four turns, thirteen original notes and eleven local helps. The canonical numbered assignments are now **194 assigned / 450 deferred**; earlier contracts remain intact.
+The [brief](curriculum/UNIT_09_BRIEF.md) and [contract](chapters/ch09/coverage.json) cover finite knowing/saying content, dependent questions, command/perception infinitives, object predicates and bounded unreal wishes. There are **97 tasks**, including **all 64 unchanged Cook II.9–12 prompts**, twelve teaching examples and **87 logical paradigms / 876 cells**. Fifty-seven matrices and 54 noun diagnostic rows make every cell recoverable: 336 literal nominal cells, 312 explicit nominal derivations, and 228 literal verb cells.
 
-The coordinator alone updates Beads and shared files. `unit09_source` owns `chapters/ch09/student.md`; `unit09_design` owns the separate key. `unit09_grammar` authored neither master and solved all actual tasks before key access; the complete text review is accepted. Contract and source proposals are frozen at **`aafd2a1`**. The immutable baseline at **`cb687a9`** captures eight contracts, actual registers, **935 earlier active artifacts** and **134 archived files**. The [prior-state record](sources/audits/unit09-coordinator/prior-state.json) retains their identities. Complete review, full exports, every-page inspection and preserved register integration before another unit.
+The 52-word new dialogue precedes the exact 62-word Choice of Occupations opening, Cook p131 / PDF147, editorial prose lines7–15. Four turns, thirteen original notes and eleven local helps are preserved. The three exercise help phrases and source judgment/passive constructions retain their bounded support.
 
-## Completed Unit 8
+The [reviewer](chapters/ch09/review.md) solved all actual tasks before key/private-answer access; [solutions](chapters/ch09/independent-solutions.md) were frozen at **`72a5b2d`**. The [ledger](chapters/ch09/review-ledger.json) records every task, paradigm display route, source evidence and accepted identity. No material finding remains open. The reviewer authored neither master nor graded task and discloses prior grammar/public-composition work.
 
-The [brief](curriculum/UNIT_08_BRIEF.md) and [contract](chapters/ch08/coverage.json) cover questions, complete selected pronoun systems and relative clauses. There are **66 tasks**, including **all seventeen exact Cook I.8 prompts**, **16 checked examples**, and **27 logical paradigms / 368 cells in 36 print matrices**. The **62-word new dialogue** precedes the exact **72-word, four-turn merchant opening**, Cook pp. 129–130 / one-based PDF pp. 145–146, with **12 local helps and 15 original notes**. The following goods catalogue remains unassigned.
+The [learner PDF](typesetting/ch09/chapter-09.pdf) has **44 pages**, the [key](typesetting/ch09/answer-key.pdf) **26**. All **70 final pages** passed non-author visual inspection. [Full parity](typesetting/ch09/content-parity.json) covers 825 prose/heading/list blocks, 78 tables, 1461 cells and 607 editorial comments. [Page acceptance](typesetting/ch09/page-review.json) retains final identities and clean logs.
 
-The [reviewer](chapters/ch08/review.md) solved every actual task before key/private-answer access, with [solutions frozen](chapters/ch08/independent-solutions.md) at **`9763993`**. The [full ledger](chapters/ch08/review-ledger.json) records task/key comparisons, all paradigm cells, source evidence and dependencies. The reviewer authored neither master and discloses prior grammar-audit/public-example work. No material finding remains open. The two post-contract form-ID aliases reconcile source proposals without changing forms, analyses or assignments.
-
-The [learner PDF](typesetting/ch08/chapter-08.pdf) has **30 pages** and the [separate key](typesetting/ch08/answer-key.pdf) **24**. All **54 final pages** passed non-author visual inspection. [Complete parity](typesetting/ch08/content-parity.json) covers **600 prose/heading/list blocks, 48 tables, 793 table cells and 402 editorial comments**. [Page acceptance](typesetting/ch08/page-review.json) identifies every final page and clean build log. A minor introductory wording correction was independently reaccepted before final exports; final accepted masters and frozen solutions remain unchanged.
-
-Checkpoints: contract before prose **`8751984`**, complete drafts **`d20c6d5`**, frozen solutions **`9763993`**, accepted text **`72ee930`**. See the [export record](typesetting/ch08/README.md) and [handoff](docs/HANDOFF.md) for final artifact and tracker closure records.
+Checkpoints: contract **`aafd2a1`**, drafts **`c45cc58`**, solutions **`72a5b2d`**, accepted text **`7f81e43`**. See the [export record](typesetting/ch09/README.md) and [handoff](docs/HANDOFF.md).
 
 ## Completed course artifacts
 
-| Unit | Grammar | Learner / key pages | Complete exports and registers |
+| Unit | Grammar | Learner / key pages | Complete exports/registers |
 | --- | --- | --- | --- |
 | [1](typesetting/ch01/README.md) | Nouns, article, eom/wæs | 22 / 12 | fa067f4 |
-| [2](typesetting/ch02/README.md) | Personal pronouns and weak indicative verbs | 19 / 14 | 74c7802 |
+| [2](typesetting/ch02/README.md) | Personal pronouns and weak indicatives | 19 / 14 | 74c7802 |
 | [3](typesetting/ch03/README.md) | Adjectives, comparison and number | 30 / 19 | 95c68d6 |
 | [4](typesetting/ch04/README.md) | Strong verbs I–III | 20 / 19 | 12663ff |
 | [5](typesetting/ch05/README.md) | Strong verbs IV–VII | 25 / 21 | 37a52c3 |
-| [6](typesetting/ch06/README.md) | Frequent irregular verbs, infinitives and commands | 25 / 28 | ce4ee34 |
+| [6](typesetting/ch06/README.md) | Irregular verbs, infinitives and commands | 25 / 28 | ce4ee34 |
 | [7](typesetting/ch07/README.md) | Subjunctive, participles and passive | 37 / 30 | b186c8b |
 | [8](typesetting/ch08/README.md) | Questions and relative clauses | 30 / 24 | d36f134 |
+| [9](typesetting/ch09/README.md) | Complements and reported content | 44 / 26 | Checkpoint pending |
 
-Every unit retains its evidence, coverage contract, separate key, independent solutions/review, full TeX/PDFs and page ledger. Earlier units and archived evidence remain unchanged.
+Every unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent review, full TeX/PDFs and page ledger. Earlier artifacts and the archived experiment remain unchanged.
 
 ## Cumulative records and boundaries
 
-The [lexical register](lexicon/entries.json) contains **328 lemmas, 4,876 forms and 371 senses**; [grammar](curriculum/grammar.json) contains **322 constructions**. Unit 8 establishes **293 productive form milestones**, **30 recognition-only forms**, **19 productive senses**, **one recognition-only sense**, **22 productive constructions** and **three recognition-only constructions**. Its **30 supplied forms, 31 supplied senses and 17 supplied constructions** retain their limits. Seven earlier forms and two senses are explicitly promoted.
+The [lexicon](lexicon/entries.json) contains **400 lemmas, 5,770 forms and 455 senses**; [grammar](curriculum/grammar.json) contains **365 constructions**. Unit 9 establishes 785 productive form milestones, 101 recognition-only forms, 96 productive senses, 32 productive constructions and one recognition-only construction. Its 30 supplied forms, twelve supplied senses and ten supplied constructions retain their limits. Twenty-two earlier forms and 24 earlier senses are explicitly promoted.
 
-The [integration record](chapters/ch08/register-integration.json) verifies every earlier milestone, per-chapter record, evidence link, supplied history, surface, analysis and lemma-metadata history against **`eda6f87`**. All **823 earlier active files** and **134 archived files** are preserved. Contextual analysis reconciliations are retained separately from earlier form analyses. No archived teaching milestone has been imported.
+The [integration audit](chapters/ch09/register-integration.json) preserves every earlier milestone, per-chapter record, evidence link, supplied history, surface, analysis and metadata history against **`cb687a9`**. All **935 earlier active artifacts** and **134 archived files** are unchanged. Twenty-one contextual form analyses are retained separately from earlier analyses. No archived teaching milestone was imported.
 
-Complete forms do not assign every syntactic use. Distinct instrumental forms, gehwā, case attraction and the personal-pronoun relative strategy retain recognition scope. The merchant's unfamiliar vocabulary and larger constructions, and exact gesęte, remain supplied. Earlier personal-genitive, plural ān, defective-verb and reference-only *sǣwa limits remain in force. Cook §89 families deferred to Unit 15 have explicit dispositions.
+Full morphology does not assign every use. Singular manig, unassigned mass/count counterparts, instrumental reference forms, gehwā and case attraction retain their limits. Personal ēower is productive only in its assigned partitive frame. New verbal citations do not add unassigned infinitive/participle systems; exact fēt is locally supplied, distinct from productive āfēdan. The broader tense, causal, impersonal, free-choice and higher-numeral systems remain later work.
 
-The active contracts now establish a Cook crosswalk of **194 assigned / 450 deferred / none excluded**, accounting for all **644 items**. Exercises **1–12** have full item-level audits; **13–48** remain structurally audited only. The planning index will be refreshed with Unit 9 completion. Later explicit assignments resolve prior deferrals without rewriting earlier contracts.
+The canonical [Cook crosswalk](curriculum/COOK_MAP.md) is **194 assigned / 450 deferred / none excluded**, accounting for all 644 numbered items. Exercises **1–12** have full item-level audits; **13–48** remain structurally audited only. Later assignments resolve earlier deferrals without rewriting their contracts.
 
-Continue only a requested unit. Read all eight active contracts and the actual registers first; use the sole-coordinator Beads workflow and save the contract before prose. No remote, publication or distribution is configured.
+Continue only a requested unit. Read all nine active contracts and actual registers first, use the sole-coordinator Beads workflow and checkpoint the contract before prose. No remote or publication is configured.

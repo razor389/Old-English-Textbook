@@ -1,6 +1,6 @@
 # Old English: Cook / Lambdin-style course
 
-A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **Units 1–8 are complete** with separate learner and answer-key PDFs.
+A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **Units 1–9 are complete** with separate learner and answer-key PDFs.
 
 Start with [STATUS.md](STATUS.md), [AGENTS.md](AGENTS.md), and the [course plan](curriculum/COURSE_PLAN.md). The [handoff](docs/HANDOFF.md) gives the next session's starting task; [prompts/START_HERE.txt](prompts/START_HERE.txt) can be pasted directly into it.
 
@@ -21,6 +21,8 @@ The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/an
 **Unit 7 is complete:** [learner PDF](typesetting/ch07/chapter-07.pdf), 37 pages, and [separate key PDF](typesetting/ch07/answer-key.pdf), 30 pages. Subjunctive, participles and passive have 82 complete logical paradigms, 80 tasks including all 34 assigned Cook prompts, a connected account and the complete fifth-day Creation paragraph. All 67 pages passed non-author inspection; reviewed teaching records preserve earlier history. See the [review and export record](typesetting/ch07/README.md).
 
 **Unit 8 is complete:** [learner PDF](typesetting/ch08/chapter-08.pdf), 30 pages, and [separate key PDF](typesetting/ch08/answer-key.pdf), 24 pages. Questions and relative clauses have 27 complete logical paradigms with 368 cells, 66 tasks including all seventeen Cook I.8 prompts, a controlled dialogue and the exact merchant opening with local help and original notes. All 54 pages passed non-author inspection; reviewed teaching records preserve earlier history. See the [review and export record](typesetting/ch08/README.md).
+
+**Unit 9 is complete:** [learner PDF](typesetting/ch09/chapter-09.pdf), 44 pages, and [separate key PDF](typesetting/ch09/answer-key.pdf), 26 pages. Complements and reported content accompany 87 complete logical paradigms / 876 cells and 97 tasks, including all 64 Cook II.9–12 prompts. A new connected dialogue prepares the exact Choice of Occupations opening with local help and original notes. All 70 pages passed non-author inspection; reviewed records preserve earlier teaching history. See the [review and export record](typesetting/ch09/README.md).
 
 The earlier two-chapter experiment is preserved under [reference/previous-course](reference/previous-course/README.md), with its source evidence, corrections, and complete PDFs. Its learning milestones do not apply to this course.
 
