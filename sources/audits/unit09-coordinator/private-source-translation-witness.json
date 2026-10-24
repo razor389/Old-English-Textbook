@@ -1,0 +1,88 @@
+{
+  "chapter_id": "ch09",
+  "reviewer": "coordinator",
+  "date": "2026-10-24",
+  "scope": "Initial independent source comparison before private source translations or model-answer access; not learner-task review or contract acceptance.",
+  "inspected_images": [
+    {
+      "path": "sources/audits/unit09-source/cook_ex_1895-p4.png",
+      "sha256": "281aa26876b18ad357564dbfe56eea7262fa1f1a7d94eb8e021838950469eaad",
+      "printed_page": 4,
+      "pdf_page_one_based": 12,
+      "method": "Actually opened with view_image; text and page boundaries visually compared by coordinator."
+    },
+    {
+      "path": "sources/audits/unit09-source/cook_ex_1895-p5.png",
+      "sha256": "ac4cfac0393944248b68c3f3b241410265d88e71fcd9b55c23009c579ba23409",
+      "printed_page": 5,
+      "pdf_page_one_based": 13,
+      "method": "Actually opened with view_image; text and page boundaries visually compared by coordinator."
+    },
+    {
+      "path": "sources/audits/unit09-source/cook_ex_1895-p6.png",
+      "sha256": "38aad43efcd8cd70dd0cb29a082fb4bce131d7e2212584c6992603d96ad26bc7",
+      "printed_page": 6,
+      "pdf_page_one_based": 14,
+      "method": "Actually opened with view_image; text and page boundaries visually compared by coordinator."
+    },
+    {
+      "path": "sources/audits/unit09-source/cook_fb_1895_2-p131.png",
+      "sha256": "06f50ba28d20118f32543656f7473ab01822ae943833a1cabed11322a15eb851",
+      "printed_page": 131,
+      "pdf_page_one_based": 147,
+      "method": "Actually opened with view_image; text and page boundaries visually compared by coordinator."
+    }
+  ],
+  "prompt_comparison": {
+    "items": 64,
+    "exercises": [
+      9,
+      10,
+      11,
+      12
+    ],
+    "status": "Exact English prompts compared with printed Exercises pp4–6; preserve parenthetical/bracketed controls and the original comma at II.9.11.",
+    "particular_checks": [
+      "II.9.13 crosses pp4–5.",
+      "II.11.9 has no printed that; do not add it to the original prompt.",
+      "II.12.9 has the ālīehtan hint.",
+      "II.12.13 retains 365 and section78."
+    ]
+  },
+  "reading_comparison": {
+    "source_span_id": "FB-II-CHOICE-OCCUPATIONS-01",
+    "word_count": 62,
+    "speaker_turns": 4,
+    "original_notes": 13,
+    "printed_page": 131,
+    "pdf_page_one_based": 147,
+    "lines": "Editorial prose7–15, anchored by printed margins10/15; heading not counted.",
+    "status": "Compared continuous transcription and notes11–23 with actual page image.",
+    "editorial_limits": [
+      "Three note12 is tokens are Cook conjectures, not manuscript certainty.",
+      "Note20 preserves cræftas woruld as manuscript reading; retain Cook woruldcræftas in exact edition text.",
+      "The first turn has furðra nominative per note14.",
+      "The prior merchant catalogue and price exchange are not inside this span."
+    ]
+  },
+  "independent_source_translation": [
+    {
+      "turn": "Teacher 1",
+      "english": "What do you say, wise one? Which occupation seems to you to be more important among these?"
+    },
+    {
+      "turn": "Counsellor 1",
+      "english": "I tell you, it seems to me that the service of God holds first place among these occupations, just as it is read in the Gospel: First seek the kingdom of God and his righteousness, and all these things will be added to you."
+    },
+    {
+      "turn": "Teacher 2",
+      "english": "And which among worldly occupations seems to you to hold first place?"
+    },
+    {
+      "turn": "Counsellor 2",
+      "english": "Agriculture, because the ploughman feeds us all."
+    }
+  ],
+  "translation_method": "Prepared directly from actual Old English before opening private source/model files. English clauses render source infinitival relations idiomatically; this is a witness, not an endorsed learner key.",
+  "open_check": "Mixed-gender oil and wine predicate agreement in II.9.6 requires an explicitly evidenced selection. Source and grammar auditors notified; later reconciliation decides scope."
+}

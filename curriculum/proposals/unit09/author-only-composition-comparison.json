@@ -1,0 +1,124 @@
+{
+  "schema_version": 1,
+  "visibility": "private_author_coordinator_only_before_reviewer_freezes_solutions",
+  "method": "The curriculum analyst read every independent witness translation against the actual public Old English and the saved intended interpretation. This file records that human/model linguistic comparison; the helper only serializes it and checks identities.",
+  "chronology": "The source editor prepared the witness from literal public Old English before access to author translations or private task models. The curriculum analyst saved all twelve intended example translations and the complete intended controlled-reading translation before opening the witness. The author's translations were written after the independent source witness existed; no claim of reverse chronology is made.",
+  "input_sha256": {
+    "curriculum/proposals/unit09/composition-seed.json": "7b54ff3f45569d3dee030d1b70e12ccadfb7649f9a331af1862320bf1755cc94",
+    "curriculum/proposals/unit09/author-only-model-seed.json": "f97d92ec381db8ae5e2ad433cd406a14d5be588367ca5e2cb9c7ca75a9d1ff2f",
+    "sources/audits/unit09-source/private-composition-witness.json": "8e0c928b0b5df6c32db3cfca5e5ab06d95259cf5f4a9cabdea38f57e99c3d602",
+    "sources/audits/unit09-source/composition-independent-check.json": "e07f996819efc5d2a299b6ff347f919d98edb19ef98a232a98a125bd30b55579"
+  },
+  "example_comparisons": [
+    {
+      "example_id": "NEW-U09-EXAMPLE-01",
+      "actual_old_english": "Ic wāt, ðæt se fisc gōd is.",
+      "author_intended_translation": "I know that the fish is good.",
+      "independent_translation": "I know that the fish is good.",
+      "result": "semantic_match",
+      "comparison_note": "Known fact, indicative; singular masculine fish and predicate agree."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-02",
+      "actual_old_english": "Hē sægð, ðæt se fisc gōd sīe.",
+      "author_intended_translation": "He says that the fish is good.",
+      "independent_translation": "He says that the fish is good.",
+      "result": "semantic_match",
+      "comparison_note": "Present report: subjunctive marks the selected reporting stance, not falsity."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-03",
+      "actual_old_english": "Hē sægde, ðæt se fisc gōd wǣre.",
+      "author_intended_translation": "He said that the fish was good.",
+      "independent_translation": "He said that the fish was good (at the time of his speech).",
+      "result": "semantic_match",
+      "comparison_note": "Past report: the fish's being good is simultaneous with the reported speech."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-04",
+      "actual_old_english": "Ic wāt, hwæt ðū hæbbe.",
+      "author_intended_translation": "I know what you have.",
+      "independent_translation": "I know what you have.",
+      "result": "semantic_match",
+      "comparison_note": "Dependent question, with hwæt as the internal object of habban."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-05",
+      "actual_old_english": "Saga mē, hwæðer ðā męnn gearwe sīen.",
+      "author_intended_translation": "Tell me whether the men are ready.",
+      "independent_translation": "Tell me whether the men are ready.",
+      "result": "semantic_match",
+      "comparison_note": "Dependent yes/no question, not inflected which-of-two hwæðer."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-06",
+      "actual_old_english": "Se mann hēt hine ðone fisc beran.",
+      "author_intended_translation": "The man commanded him to carry the fish.",
+      "independent_translation": "The man ordered him to carry the fish.",
+      "result": "semantic_match",
+      "comparison_note": "The man commands the accusative actor to carry the fish; ordered/commanded are equivalent here."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-07",
+      "actual_old_english": "Ic gesēo ðone mann ðone fisc beran.",
+      "author_intended_translation": "I see the man carrying the fish.",
+      "independent_translation": "I see the man carrying the fish.",
+      "result": "semantic_match",
+      "comparison_note": "The man is the observed actor; the fish is the infinitive's own object."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-08",
+      "actual_old_english": "God geworhte ðone mann gōdne.",
+      "author_intended_translation": "God made the man good.",
+      "independent_translation": "God made the man good.",
+      "result": "semantic_match",
+      "comparison_note": "Good is a predicate of the object man; gōdne is accusative masculine singular."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-09",
+      "actual_old_english": "Wǣre ic cyning!",
+      "author_intended_translation": "Would that I were king!",
+      "independent_translation": "Would that I were king!",
+      "result": "semantic_match",
+      "comparison_note": "Nonpast unreal wish, not assertion that the speaker formerly was king."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-10",
+      "actual_old_english": "Ic wille ðone fisc beran.",
+      "author_intended_translation": "I want/am willing to carry the fish.",
+      "independent_translation": "I want to carry the fish.",
+      "result": "semantic_match",
+      "comparison_note": "Want/am willing are defensible volitional renderings in this setting."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-11",
+      "actual_old_english": "Hē hēt ðone mann cyning.",
+      "author_intended_translation": "He called/named the man king.",
+      "independent_translation": "He called the man king.",
+      "result": "semantic_match",
+      "comparison_note": "Named/called are equivalent for the naming sense, distinct from a command."
+    },
+    {
+      "example_id": "NEW-U09-EXAMPLE-12",
+      "actual_old_english": "Hē hēt ðone mann gān.",
+      "author_intended_translation": "He commanded the man to go.",
+      "independent_translation": "He ordered the man to go.",
+      "result": "semantic_match",
+      "comparison_note": "The object man is the actor of going in the commanded event."
+    }
+  ],
+  "reading_comparison": {
+    "composition_id": "NEW-U09-READING-01",
+    "author_intended_translation": "The fisherman and his companion stand on the shore. The companion says: ‘Tell me what you have.’ The fisherman says that he has food. He commands his companion to carry the fish. The companion carries the fish. The fisherman says: ‘I see you carrying the fish. Now I know that you are helping me.’",
+    "independent_witness": {
+      "composition_id": "NEW-U09-READING-01",
+      "actual_old_english": "Se fiscere and his gefēra standað on ðǣm strande. Se gefēra cwið: “Saga mē, hwæt ðū hæbbe.” Se fiscere sægð, ðæt hē męte hæbbe. Hē hǣtt his gefēran ðone fisc beran. Se gefēra birð ðone fisc. Se fiscere cwið: “Ic gesēo ðē ðone fisc beran. Nū wāt ic, ðæt ðū mē hilpst.”",
+      "independent_translation": "The fisherman and his companion stand on the shore. The companion says, “Tell me what you have.” The fisherman says that he has food. He orders his companion to carry the fish. The companion carries the fish. The fisherman says, “I see you carrying the fish. Now I know that you help me.”",
+      "judgment": "Coherent connected exchange. First hē/his continues fisherman; following explicit companion subject resolves reference. Perception infinitive describes carrying, not a finite report. Hilpst governs dative mē; carried object is accusative."
+    },
+    "result": "semantic_match",
+    "comparison_note": "All participants, speaker changes, the fisherman's food, the command, the companion's carrying action, the observed carrying and the final known fact agree. Simple present birð states carrying, without a completion/aspect claim."
+  },
+  "material_mismatches": [],
+  "boundary": "Independent composition validation only. It is not the later independent learner-task/key review and does not certify every source prompt or exported page."
+}

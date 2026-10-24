@@ -1,0 +1,521 @@
+{
+  "schema_version": 1,
+  "chapter": "ch09",
+  "status": "pre_contract_task_proposal",
+  "source_tasks": "sources/audits/unit09-source/exercises-prompts.json",
+  "remaining_original_tasks": "None; all33 original prompts are proposed. Exact dependencies remain to reconcile with the source/grammar audit records.",
+  "tasks": [
+    {
+      "task_id": "NEW-U09-F01",
+      "key_id": "KEY-NEW-U09-F01",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the nominative, genitive, dative and accusative singular and plural of sunu. Distinguish the dative singular from the nominative and accusative singular.",
+      "target_specification": "Complete newly assigned u-stem noun system, with every NGDA cell.",
+      "input_texts": [],
+      "requested_feature_ids": [],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-F02",
+      "key_id": "KEY-NEW-U09-F02",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the complete present and preterite indicative of bycgan. Name all three persons in each number, including cells with identical spellings.",
+      "target_specification": "Complete new indicative system and lexical dental-stem exception.",
+      "input_texts": [],
+      "requested_feature_ids": [],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-F03",
+      "key_id": "KEY-NEW-U09-F03",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the singular and plural commands of rōwan and bycgan. State which forms address one person and which address more than one.",
+      "target_specification": "Complete two-person command systems; stem alternations are lexical.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u06-imperative-use"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-F04",
+      "key_id": "KEY-NEW-U09-F04",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Give the nominative, genitive, dative and accusative singular and plural of rīce and geðeahtend. Identify the characteristic plural endings of each pattern.",
+      "target_specification": "Complete new neuter -e and masculine -end noun patterns; lexical variants remain separate.",
+      "input_texts": [],
+      "requested_feature_ids": [],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-F05",
+      "key_id": "KEY-NEW-U09-F05",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate the nominative noun phrase ‘the kingdoms of the counsellors’, placing the genitive dependent first and omitting a separate article for the head noun. Then translate ‘I give the fish (sing.) to the counsellors.’ Explain the different cases of ‘counsellors’.",
+      "target_specification": "Meaningful use of the new nominal systems with earlier genitive and recipient government.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "genitive-relationship",
+        "u02-giving-recipient"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-A01",
+      "key_id": "KEY-NEW-U09-A01",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Classify every ðæt in these sentences as demonstrative/article, relative, or content conjunction. For each inflected occurrence, give its case and explain whether it agrees with a noun or functions within the relative clause. (a) Ðæt scip is gōd. (b) Ic wāt, ðæt ðæt scip gōd is. (c) Ðæt scip, ðæt ðū hæfst, is gōd.",
+      "target_specification": "Separate homographic demonstrative, relative and content-conjunction functions.",
+      "input_texts": [
+        "Ðæt scip is gōd.",
+        "Ic wāt, ðæt ðæt scip gōd is.",
+        "Ðæt scip, ðæt ðū hæfst, is gōd."
+      ],
+      "requested_feature_ids": [
+        "u09-content-that",
+        "u08-relative-demonstrative",
+        "u08-relative-internal-case"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-A02",
+      "key_id": "KEY-NEW-U09-A02",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate: I know that the ships are empty. Present their emptiness as an asserted fact and use the indicative in the content clause.",
+      "target_specification": "Known factual finite content after witan, with plural agreement.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-content-that"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-A03",
+      "key_id": "KEY-NEW-U09-A03",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Se fiscere cwið: “Ic hæbbe twēgen fiscas.” Report his words beginning Se fiscere sægð and using ðæt with the present subjunctive. The fisherman is the possessor in both versions.",
+      "target_specification": "Present reported content and reference change from quoted first person to reported third person.",
+      "input_texts": [
+        "Se fiscere cwið: “Ic hæbbe twēgen fiscas.”"
+      ],
+      "requested_feature_ids": [
+        "u09-reported-statement",
+        "u09-report-reference"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-A04",
+      "key_id": "KEY-NEW-U09-A04",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Se mann cwæð: “Ic hæbbe twēgen fiscas.” Report the same state at the time of his past speech, beginning Se mann sægde. Use ðæt and the preterite subjunctive; the same man possessed the fish.",
+      "target_specification": "Bounded simultaneous past report; reference changes do not alter the referent.",
+      "input_texts": [
+        "Se mann cwæð: “Ic hæbbe twēgen fiscas.”"
+      ],
+      "requested_feature_ids": [
+        "u09-reported-statement",
+        "u09-report-reference"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-A05",
+      "key_id": "KEY-NEW-U09-A05",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "A task requests a subjunctive report, but a learner writes Hē sægð, ðæt hē gōd is. Is the sentence necessarily ungrammatical? Give the requested form and explain the distinction.",
+      "target_specification": "Distinguish valid indicative reporting from compliance with an explicit subjunctive target.",
+      "input_texts": [
+        "Hē sægð, ðæt hē gōd is."
+      ],
+      "requested_feature_ids": [
+        "u09-reported-statement"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-Q01",
+      "key_id": "KEY-NEW-U09-Q01",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate both clauses and explain the case of the question word. (a) Ic wāt, hwā ðone fisc hæbbe. (b) Ic wāt, hwǣm ðū ðone fisc sęlle.",
+      "target_specification": "The question word's internal subject or recipient role determines its case.",
+      "input_texts": [
+        "Ic wāt, hwā ðone fisc hæbbe.",
+        "Ic wāt, hwǣm ðū ðone fisc sęlle."
+      ],
+      "requested_feature_ids": [
+        "u09-dependent-question",
+        "u08-interrogative-case",
+        "u02-giving-recipient"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-Q02",
+      "key_id": "KEY-NEW-U09-Q02",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Turn Hwæt hæfst ðū? into a dependent question after Saga mē. Keep the same addressee and use the present subjunctive.",
+      "target_specification": "Dependent object question after tell, with dative recipient and internal accusative hwæt.",
+      "input_texts": [
+        "Hwæt hæfst ðū?"
+      ],
+      "requested_feature_ids": [
+        "u09-dependent-question"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-Q03",
+      "key_id": "KEY-NEW-U09-Q03",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Turn Hæfð se mann twēgen fiscas? into a dependent yes/no question after Saga mē. Use hwæðer and the present subjunctive.",
+      "target_specification": "Invariant whether introduces a dependent yes/no question.",
+      "input_texts": [
+        "Hæfð se mann twēgen fiscas?"
+      ],
+      "requested_feature_ids": [
+        "u09-dependent-question",
+        "u09-dependent-whether"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-Q04",
+      "key_id": "KEY-NEW-U09-Q04",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate and distinguish the two uses of hwæðer. In (a), two men are under discussion. (a) Hwæðer mann is ðīn gefēra? (b) Saga mē, hwæðer se mann ðīn gefēra sīe.",
+      "target_specification": "Earlier agreeing which-of-two adjective versus new invariant whether conjunction.",
+      "input_texts": [
+        "Hwæðer mann is ðīn gefēra?",
+        "Saga mē, hwæðer se mann ðīn gefēra sīe."
+      ],
+      "requested_feature_ids": [
+        "u08-interrogative-adjectives",
+        "u09-dependent-whether"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-Q05",
+      "key_id": "KEY-NEW-U09-Q05",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate: I know whom you (sing.) help. Use a dependent question with hwǣm and the present subjunctive.",
+      "target_specification": "Preserve helpan's dative government inside a dependent question.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-dependent-question",
+        "u04-helpan-dative"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-I01",
+      "key_id": "KEY-NEW-U09-I01",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate both sentences and identify who carries the fish. (a) Ic wille ðone fisc beran. (b) Ic hāte hine ðone fisc beran. Explain why beran has no person ending in either sentence.",
+      "target_specification": "Same-subject volition versus an independently expressed commanded actor.",
+      "input_texts": [
+        "Ic wille ðone fisc beran.",
+        "Ic hāte hine ðone fisc beran."
+      ],
+      "requested_feature_ids": [
+        "u06-volition-willan",
+        "u06-plain-infinitive-complement",
+        "u09-command-infinitive"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-I02",
+      "key_id": "KEY-NEW-U09-I02",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "The fisherman told two companions, “Berað ðone fisc.” Report this as a past command using hātan, hīe for the companions, and a plain infinitive.",
+      "target_specification": "Reported command with plural accusative actor and invariant infinitive.",
+      "input_texts": [
+        "Berað ðone fisc."
+      ],
+      "requested_feature_ids": [
+        "u09-command-infinitive"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-I03",
+      "key_id": "KEY-NEW-U09-I03",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate: I see the men carrying the fish (sing.). Use gesēon with an accusative actor and a plain infinitive; label both accusative noun phrases.",
+      "target_specification": "Perception complement with an actor distinct from the infinitive's object.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-perception-infinitive"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-I04",
+      "key_id": "KEY-NEW-U09-I04",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate both sentences using gewyrcean followed by an object and an agreeing predicate adjective: God made the man good. God made the men good. Explain the adjective endings.",
+      "target_specification": "Strong predicate adjective agrees with an accusative object, independently of the article inside the object noun phrase.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-object-predicate"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-I05",
+      "key_id": "KEY-NEW-U09-I05",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate and distinguish the two complements: Hē hēt ðone mann cyning. Hē hēt ðone mann gān. State the case/function of cyning and the form/function of gān.",
+      "target_specification": "Prior naming predicate versus newly assigned command infinitive.",
+      "input_texts": [
+        "Hē hēt ðone mann cyning.",
+        "Hē hēt ðone mann gān."
+      ],
+      "requested_feature_ids": [
+        "u07-naming-two-accusatives",
+        "u09-command-infinitive"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-W01",
+      "key_id": "KEY-NEW-U09-W01",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "You have no ship. Express the present unreal wish “Would that I had one ship!” using the preterite subjunctive of habban.",
+      "target_specification": "A bounded present unreal wish; inflectional preterite does not require past time.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-unreal-wish"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-W02",
+      "key_id": "KEY-NEW-U09-W02",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate these in their stated settings: (a) a report about last year, Ic hæfde ān scip.; (b) a wish by someone who has no ship now, Hæfde ic ān scip! Explain what the shared spelling hæfde can and cannot show.",
+      "target_specification": "Context distinguishes past assertion from present unreal wish despite syncretic morphology.",
+      "input_texts": [
+        "Ic hæfde ān scip.",
+        "Hæfde ic ān scip!"
+      ],
+      "requested_feature_ids": [
+        "u09-unreal-wish"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-R01",
+      "key_id": "KEY-NEW-U09-R01",
+      "origin": "new_teaching_material",
+      "mode": "comprehension",
+      "prompt": "In the controlled reading, who requests information, and who is reported to have food? Answer in English and cite the two relevant clauses.",
+      "target_specification": "Track speaker reference across direct speech and reported content.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-report-reference",
+        "u09-dependent-question"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-R02",
+      "key_id": "KEY-NEW-U09-R02",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "In the controlled reading, compare hwæt ðū hæbbe, ðæt hē męte hæbbe, and ðæt ðū mē hilpst. Identify each clause type and explain the selected moods.",
+      "target_specification": "Dependent question, reported statement and asserted factual content in one connected context.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-content-that",
+        "u09-reported-statement",
+        "u09-dependent-question"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-R03",
+      "key_id": "KEY-NEW-U09-R03",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Identify the commanded actor in Hē hǣtt his gefēran ðone fisc beran and the observed actor in Ic gesēo ðē ðone fisc beran. For each sentence, distinguish that actor from the fish and identify the finite verb.",
+      "target_specification": "Parse actor and object within two plain-infinitive complements.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-command-infinitive",
+        "u09-perception-infinitive"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-R04",
+      "key_id": "KEY-NEW-U09-R04",
+      "origin": "new_teaching_material",
+      "mode": "translation",
+      "prompt": "Translate the complete controlled reading, preserving the speakers, the command, the carrying action and the final distinction between report and asserted knowledge.",
+      "target_specification": "Complete connected interpretation without source-only support.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-content-that",
+        "u09-reported-statement",
+        "u09-report-reference",
+        "u09-dependent-question",
+        "u09-command-infinitive",
+        "u09-perception-infinitive"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-S01",
+      "key_id": "KEY-NEW-U09-S01",
+      "origin": "new_teaching_material",
+      "mode": "supported_comprehension",
+      "prompt": "In the source dialogue, which occupation receives first place overall, and which receives first place among worldly occupations? Explain why the two answers do not contradict one another.",
+      "target_specification": "Preserve the source's two different comparison domains and speaker links.",
+      "input_texts": [],
+      "requested_feature_ids": [],
+      "design_notes": [
+        "Use the printed source supports for the comparison and seems constructions; no independent recall of those supplied frames is tested."
+      ],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-S02",
+      "key_id": "KEY-NEW-U09-S02",
+      "origin": "new_teaching_material",
+      "mode": "supported_analysis",
+      "prompt": "Identify the beginning and end of the Gospel quotation in the source dialogue. What does it command, and what does it promise? Use the printed helps for unfamiliar forms.",
+      "target_specification": "Interpret a complete embedded quotation and distinguish command from promised result.",
+      "input_texts": [],
+      "requested_feature_ids": [],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-S03",
+      "key_id": "KEY-NEW-U09-S03",
+      "origin": "new_teaching_material",
+      "mode": "supported_analysis",
+      "prompt": "In Ic sęcge ðē, mē is geðūht, explain the different roles of ðē and mē using the local help. Who is addressed, and whose judgment follows?",
+      "target_specification": "Distinguish a speech recipient from the experiencer in the supplied judgment frame.",
+      "input_texts": [],
+      "requested_feature_ids": [],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-S04",
+      "key_id": "KEY-NEW-U09-S04",
+      "origin": "new_teaching_material",
+      "mode": "supported_comprehension",
+      "prompt": "What reason does the Counsellor give for agriculture's place? Explain the reference of ūs ealle in the final turn and identify the subject of fēt.",
+      "target_specification": "Read the stated causal explanation and maintain the contrast between feeder and those fed.",
+      "input_texts": [],
+      "requested_feature_ids": [],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-S05",
+      "key_id": "KEY-NEW-U09-S05",
+      "origin": "new_teaching_material",
+      "mode": "supported_translation",
+      "prompt": "Translate all four source turns, including the complete Gospel quotation. Preserve the distinction between the overall ranking and the later question about worldly occupations.",
+      "target_specification": "Complete exact-source interpretation with all local supports and editorial limits.",
+      "input_texts": [],
+      "requested_feature_ids": [],
+      "design_notes": [
+        "Cook's conjectural is insertions and other original notes remain visible; the translation renders his edited text without claiming a diplomatic manuscript transcription."
+      ],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-X01",
+      "key_id": "KEY-NEW-U09-X01",
+      "origin": "new_teaching_material",
+      "mode": "production",
+      "prompt": "Translate this connected account: The fisherman commanded the men to carry the fish (sing.). I saw them carry it. I know that they helped him. Use hātan and gesēon with plain infinitives, then an indicative factual content clause.",
+      "target_specification": "Independent cumulative command/perception/content production with coherent actor and object reference.",
+      "input_texts": [],
+      "requested_feature_ids": [
+        "u09-command-infinitive",
+        "u09-perception-infinitive",
+        "u09-content-that",
+        "u04-helpan-dative"
+      ],
+      "design_notes": [],
+      "dependency_status": "awaiting_record_reconciliation"
+    },
+    {
+      "task_id": "NEW-U09-X02",
+      "key_id": "KEY-NEW-U09-X02",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Repair the case relations in these intended sentences and explain each repair: (a) ‘I see him carrying the fish’, written Ic gesēo hē ðone fisc beran.; (b) ‘God made the man good’, written God geworhte ðone mann gōd. Keep the selected complements.",
+      "target_specification": "Diagnose an infinitive actor's case and an object predicate's agreement.",
+      "input_texts": [
+        "Ic gesēo hē ðone fisc beran.",
+        "God geworhte ðone mann gōd."
+      ],
+      "requested_feature_ids": [
+        "u09-perception-infinitive",
+        "u09-object-predicate"
+      ],
+      "design_notes": [
+        "Input deliberately contains errors; retain a declared erroneous-input token category rather than treating them as assigned good-language forms."
+      ],
+      "dependency_status": "awaiting_record_reconciliation"
+    }
+  ]
+}

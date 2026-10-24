@@ -1,0 +1,61 @@
+{
+  "status": "passed_for_contract_reconciliation",
+  "baseline_checkpoint": "cb687a9",
+  "counts": {
+    "Cook_items": 64,
+    "Cook_counts_by_exercise": {
+      "9": 16,
+      "10": 15,
+      "11": 17,
+      "12": 16
+    },
+    "source_reading_words": 62,
+    "source_reading_turns": 4,
+    "original_source_notes": 13,
+    "local_reading_helps": 11,
+    "noun_lemmas": 54,
+    "adjective_lemmas": 5,
+    "nominal_adjectival_form_records": 648,
+    "nominal_adjectival_paradigms": 63,
+    "productive_function_word_records": 2,
+    "supplied_numeral_lemmas": 2,
+    "literal_new_composition_tokens_checked": 122,
+    "evidence": {
+      "actually_viewed_own_page_images": 67,
+      "actually_viewed_reused_page_images": 5,
+      "lexical_entries": 59
+    }
+  },
+  "checks": [
+    "All64 exact source prompts present and linked to independent private models.",
+    "All public item form/sense/construction IDs resolve; zero pending grammar forms.",
+    "All62 source tokens resolve to exact matching form surfaces and sense records.",
+    "All648 nominal/adjectival cells have declared scope and unique IDs; manig singular reference-only.",
+    "All own evidence references and image hashes resolve.",
+    "All literal new-composition tokens have productive form records; independent translations remain separate."
+  ],
+  "limits": [
+    "This source audit does not certify the future lesson/key, exported pages, independent review, or shared-register integration.",
+    "Source-specific passive/impersonal frames and the three whole Cook support phrases remain supplied.",
+    "Displayed number counterparts do not add unassigned mass/count senses."
+  ],
+  "output_sha256": {
+    "exercises-prompts.json": "86260b87c44493e34579a099df0a7928611a05a9bde3ea00e00c158a1624db34",
+    "exercises-dependencies.json": "7e7a9fb82bed54e99e9c4257242fc8a043770328a736b5eed12eb87748b65520",
+    "private-cook-models.json": "9b39992ff5096efae6f02013277946dbf278db9f6b0e67e0911153117a18209b",
+    "reading-source.json": "d01c41466397ed63314d3c37fe9ebe4101324c6760278b190c4cd249920ca329",
+    "reading-tokens.json": "3c91445ad097c721f9cc08493e42b278a2ac9932c947dacee5a16c739124fcd2",
+    "reading-support.json": "43ab4c1c200da6725b267956807be975d7527d2ec70e9c6a2f33b238c2a69bfe",
+    "reading-construction-requirements.json": "8fbb508b327e1eac91cfea1199054caf7ba315aa884f233d80f135ab33d3faeb",
+    "private-reading-witness.json": "6c854139afa830a1042c7a44352bd313f38d1954d4d4d8ce587189d5dda6dfb0",
+    "lexical-inventory.json": "acb50f10a0c7d1777b7e200d6ffaccb300b134b1e6c33cca9257fd45473df4c5",
+    "noun-adjective-paradigms.json": "1dfc99733cbda3a9535039d5fe7457bf31af19e619250c788fad1fd8a1882c1c",
+    "lexical-metadata.json": "2362461f917d11cd7f611321fa80ebd4dd70ab74db28bc5c72d96dc688b25243",
+    "function-words.json": "fccb3ef6f597d7de7c3f3456832daddee7c180d9471b0e17516cb346cbefcd51",
+    "cook-local-support.json": "607298db0eb38e89fa239385f02c79d07b9918c3bc211d8c0a33beb71e404a83",
+    "evidence-catalog.json": "22768822dfbd7e766ed6f268533522fe89ce157df7fad4db4eee9acabee11acb",
+    "prior-source-audit.json": "5028d9a14f948c55f8bcdd4a5e43cb098477a9ed9ff44e87dc0c0ddbf1d7055a",
+    "private-composition-witness.json": "8e0c928b0b5df6c32db3cfca5e5ab06d95259cf5f4a9cabdea38f57e99c3d602",
+    "composition-independent-check.json": "a8efa2eb2fb7f3bdbae3b443bfaeafc607b171a96dfba81961e56167a34f1f84"
+  }
+}
