@@ -1,0 +1,3563 @@
+{
+  "schema_version": 1,
+  "chapter": "ch08",
+  "status": "reconciled_pre_contract_design",
+  "private_interpretations": "curriculum/proposals/unit08/author-only-models.json; do not show to the later pre-key reviewer",
+  "compositions": [
+    {
+      "composition_id": "NEW-U08-READING-01",
+      "title": "The ship and the fish",
+      "origin": "new_teaching_material",
+      "text": "On ðǣm strande sindon ðrīe męnn and ān scip. Sum mann cwið: “Hwā is se mann, ðe ðæt scip hæfð?” His gefēra cwið: “Se mann is mīn gefēra. Hē hæfð ðā fiscas, ðe wē sēoð.” “Hwǣm sęlst ðū ðone fisc?” “Ic sęlle hine ðǣm męnn, se ðe mē healp.” “Hwilc scip hæfð hē?” “Hē hæfð ðæt lȳtle scip, ðæt ðe ðū gesāwe.”",
+      "word_count": 62,
+      "scope_note": "New controlled dialogue, not attributed to a historical source. Three men are present; one asks his companion about the third man. Questions and subject/object relatives use only assigned new pronouns and earlier lexical systems. The genitive his refers back to the first speaker. The dative antecedent menn and nominative se in the relative deliberately have different cases.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "on-invariant",
+          "sense_id": "on-1",
+          "lemma_id": "on",
+          "form": "on",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "se-m-dat-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "strand-dat-sg",
+          "sense_id": "strand-1",
+          "lemma_id": "strand",
+          "form": "strande",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "wesan-pres-3-pl",
+          "sense_id": "wesan-be",
+          "lemma_id": "wesan",
+          "form": "sindon",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "thrie-nom-m-pl",
+          "sense_id": "thrie-1",
+          "lemma_id": "thrie",
+          "form": "ðrīe",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "form_id": "mann-nom-pl",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "męnn",
+          "analysis": {
+            "case": "nominative",
+            "number": "plural",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "lemma_id": "and",
+          "form": "and",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "an-nom-n-sg-strong",
+          "sense_id": "an-1",
+          "lemma_id": "an",
+          "form": "ān",
+          "analysis": {
+            "case": "nom",
+            "gender": "n",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "form_id": "scip-nom-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "form_id": "sum-nom-m-sg-strong",
+          "sense_id": "sum-some",
+          "lemma_id": "sum",
+          "form": "sum",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 11,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 12,
+          "form_id": "cwethan-pres-3-sg",
+          "sense_id": "cwethan-1",
+          "lemma_id": "cwethan",
+          "form": "cwið",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 13,
+          "form_id": "hwa-nom-mf-sg",
+          "sense_id": "hwa-interrogative",
+          "lemma_id": "hwa",
+          "form": "hwā",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine/feminine",
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 14,
+          "form_id": "wesan-pres-3-sg",
+          "sense_id": "wesan-be",
+          "lemma_id": "wesan",
+          "form": "is",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 15,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 16,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 17,
+          "form_id": "the-relative-invariant",
+          "sense_id": "the-relative-which",
+          "lemma_id": "the-relative",
+          "form": "ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "relative_particle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 18,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 19,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 20,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 21,
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "lemma_id": "he",
+          "form": "his",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 22,
+          "form_id": "gefera-nom-sg",
+          "sense_id": "gefera-1",
+          "lemma_id": "gefera",
+          "form": "gefēra",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 23,
+          "form_id": "cwethan-pres-3-sg",
+          "sense_id": "cwethan-1",
+          "lemma_id": "cwethan",
+          "form": "cwið",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 24,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 25,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 26,
+          "form_id": "wesan-pres-3-sg",
+          "sense_id": "wesan-be",
+          "lemma_id": "wesan",
+          "form": "is",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 27,
+          "form_id": "min-poss-nom-m-sg-strong",
+          "sense_id": "min-poss-1",
+          "lemma_id": "min-poss",
+          "form": "mīn",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 28,
+          "form_id": "gefera-nom-sg",
+          "sense_id": "gefera-1",
+          "lemma_id": "gefera",
+          "form": "gefēra",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 29,
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "lemma_id": "he",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 30,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 31,
+          "form_id": "se-all-acc-pl",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "ðā",
+          "analysis": {
+            "case": "accusative",
+            "number": "plural",
+            "gender": "all"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 32,
+          "form_id": "fisc-acc-pl",
+          "sense_id": "fisc-1",
+          "lemma_id": "fisc",
+          "form": "fiscas",
+          "analysis": {
+            "case": "accusative",
+            "number": "plural",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 33,
+          "form_id": "the-relative-invariant",
+          "sense_id": "the-relative-which",
+          "lemma_id": "the-relative",
+          "form": "ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "relative_particle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 34,
+          "form_id": "ic-nom-pl",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "wē",
+          "analysis": {
+            "person": 1,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 35,
+          "form_id": "seon-pres-1-pl",
+          "sense_id": "seon-1",
+          "lemma_id": "seon",
+          "form": "sēoð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 36,
+          "form_id": "hwa-dat-mf-sg",
+          "sense_id": "hwa-interrogative",
+          "lemma_id": "hwa",
+          "form": "hwǣm",
+          "analysis": {
+            "case": "dative",
+            "gender": "masculine/feminine",
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 37,
+          "form_id": "sellan-pres-2-sg",
+          "sense_id": "sellan-give",
+          "lemma_id": "sellan",
+          "form": "sęlst",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 38,
+          "form_id": "thu-nom-sg",
+          "sense_id": "thu-personal",
+          "lemma_id": "thu",
+          "form": "ðū",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 39,
+          "form_id": "se-m-acc-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "ðone",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 40,
+          "form_id": "fisc-acc-sg",
+          "sense_id": "fisc-1",
+          "lemma_id": "fisc",
+          "form": "fisc",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 41,
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 42,
+          "form_id": "sellan-pres-1-sg",
+          "sense_id": "sellan-give",
+          "lemma_id": "sellan",
+          "form": "sęlle",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 43,
+          "form_id": "he-m-acc-sg",
+          "sense_id": "he-1",
+          "lemma_id": "he",
+          "form": "hine",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "accusative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 44,
+          "form_id": "se-m-dat-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 45,
+          "form_id": "mann-dat-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "męnn",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 46,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-relative",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 47,
+          "form_id": "the-relative-invariant",
+          "sense_id": "the-relative-which",
+          "lemma_id": "the-relative",
+          "form": "ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "relative_particle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 48,
+          "form_id": "ic-dat-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "mē",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 49,
+          "form_id": "helpan-pret-3-sg",
+          "sense_id": "helpan-1",
+          "lemma_id": "helpan",
+          "form": "healp",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 50,
+          "form_id": "hwilc-acc-n-sg-strong",
+          "sense_id": "hwilc-which",
+          "lemma_id": "hwilc",
+          "form": "hwilc",
+          "analysis": {
+            "case": "accusative",
+            "gender": "neuter",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 51,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 52,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 53,
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "lemma_id": "he",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 54,
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "lemma_id": "he",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 55,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 56,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 57,
+          "form_id": "lytel-acc-n-sg-weak",
+          "sense_id": "lytel-1",
+          "lemma_id": "lytel",
+          "form": "lȳtle",
+          "analysis": {
+            "case": "acc",
+            "gender": "n",
+            "number": "sg",
+            "declension": "weak",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 58,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 59,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-relative",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 60,
+          "form_id": "the-relative-invariant",
+          "sense_id": "the-relative-which",
+          "lemma_id": "the-relative",
+          "form": "ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "relative_particle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 61,
+          "form_id": "thu-nom-sg",
+          "sense_id": "thu-personal",
+          "lemma_id": "thu",
+          "form": "ðū",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 62,
+          "form_id": "geseon-pret-2-sg",
+          "sense_id": "geseon-1",
+          "lemma_id": "geseon",
+          "form": "gesāwe",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 2,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "an-nom-n-sg-strong",
+        "and-invariant",
+        "cwethan-pres-3-sg",
+        "fisc-acc-pl",
+        "fisc-acc-sg",
+        "gefera-nom-sg",
+        "geseon-pret-2-sg",
+        "habban-pres-3-sg",
+        "he-m-acc-sg",
+        "he-m-gen-sg",
+        "he-m-nom-sg",
+        "helpan-pret-3-sg",
+        "hwa-dat-mf-sg",
+        "hwa-nom-mf-sg",
+        "hwilc-acc-n-sg-strong",
+        "ic-dat-sg",
+        "ic-nom-pl",
+        "ic-nom-sg",
+        "lytel-acc-n-sg-weak",
+        "mann-dat-sg",
+        "mann-nom-pl",
+        "mann-nom-sg",
+        "min-poss-nom-m-sg-strong",
+        "on-invariant",
+        "scip-acc-sg",
+        "scip-nom-sg",
+        "se-all-acc-pl",
+        "se-m-acc-sg",
+        "se-m-dat-sg",
+        "se-m-nom-sg",
+        "se-n-acc-sg",
+        "sellan-pres-1-sg",
+        "sellan-pres-2-sg",
+        "seon-pres-1-pl",
+        "strand-dat-sg",
+        "sum-nom-m-sg-strong",
+        "the-relative-invariant",
+        "thrie-nom-m-pl",
+        "thu-nom-sg",
+        "wesan-pres-3-pl",
+        "wesan-pres-3-sg"
+      ],
+      "required_sense_ids": [
+        "an-1",
+        "and-1",
+        "cwethan-1",
+        "fisc-1",
+        "gefera-1",
+        "geseon-1",
+        "habban-1",
+        "he-1",
+        "he-possessor",
+        "helpan-1",
+        "hwa-interrogative",
+        "hwilc-which",
+        "ic-personal",
+        "lytel-1",
+        "mann-1",
+        "min-poss-1",
+        "on-1",
+        "scip-1",
+        "se-relative",
+        "se-that",
+        "se-the",
+        "sellan-give",
+        "seon-1",
+        "strand-1",
+        "sum-some",
+        "the-relative-which",
+        "thrie-1",
+        "thu-personal",
+        "wesan-be"
+      ],
+      "required_feature_ids": [
+        "u08-direct-questions",
+        "u08-interrogative-case",
+        "u08-interrogative-adjectives",
+        "u08-indefinites",
+        "u08-relative-the",
+        "u08-relative-demonstrative",
+        "u08-relative-internal-case",
+        "u08-relative-person-agreement",
+        "on-dative-location",
+        "u02-giving-recipient",
+        "u04-helpan-dative",
+        "u05-see-object",
+        "u05-direct-quotation",
+        "u03-cardinal-counting",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design"
+    }
+  ],
+  "teaching_examples": [
+    {
+      "example_id": "NEW-U08-EXAMPLE-01",
+      "text": "Hæfð se mann scip?",
+      "target": "Direct yes/no question; finite verb before noun subject.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "habban-pres-3-sg",
+        "mann-nom-sg",
+        "scip-acc-sg",
+        "se-m-nom-sg"
+      ],
+      "required_sense_ids": [
+        "habban-1",
+        "mann-1",
+        "scip-1",
+        "se-the"
+      ],
+      "required_feature_ids": [
+        "u08-direct-questions",
+        "u02-active-agreement",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 4
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-02",
+      "text": "Hwā hæfð ðæt scip? Hwone siehð se mann?",
+      "target": "Subject who versus accusative whom; explicit case contrast.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "hwa-nom-mf-sg",
+          "sense_id": "hwa-interrogative",
+          "lemma_id": "hwa",
+          "form": "hwā",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine/feminine",
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "hwa-acc-mf-sg",
+          "sense_id": "hwa-interrogative",
+          "lemma_id": "hwa",
+          "form": "hwone",
+          "analysis": {
+            "case": "accusative",
+            "gender": "masculine/feminine",
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "form_id": "seon-pres-3-sg",
+          "sense_id": "seon-1",
+          "lemma_id": "seon",
+          "form": "siehð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "habban-pres-3-sg",
+        "hwa-acc-mf-sg",
+        "hwa-nom-mf-sg",
+        "mann-nom-sg",
+        "scip-acc-sg",
+        "se-m-nom-sg",
+        "se-n-acc-sg",
+        "seon-pres-3-sg"
+      ],
+      "required_sense_ids": [
+        "habban-1",
+        "hwa-interrogative",
+        "mann-1",
+        "scip-1",
+        "se-that",
+        "se-the",
+        "seon-1"
+      ],
+      "required_feature_ids": [
+        "u08-direct-questions",
+        "u08-interrogative-case",
+        "u05-see-object",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 8
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-03",
+      "text": "Hwǣm sęlst ðū ðone fisc? Hwæs scip siehst ðū?",
+      "target": "Dative recipient and genitive possessor questions; no productive personal genitive promotion.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "hwa-dat-mf-sg",
+          "sense_id": "hwa-interrogative",
+          "lemma_id": "hwa",
+          "form": "hwǣm",
+          "analysis": {
+            "case": "dative",
+            "gender": "masculine/feminine",
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "form_id": "sellan-pres-2-sg",
+          "sense_id": "sellan-give",
+          "lemma_id": "sellan",
+          "form": "sęlst",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "thu-nom-sg",
+          "sense_id": "thu-personal",
+          "lemma_id": "thu",
+          "form": "ðū",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "se-m-acc-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðone",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "fisc-acc-sg",
+          "sense_id": "fisc-1",
+          "lemma_id": "fisc",
+          "form": "fisc",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "form_id": "hwa-gen-mf-sg",
+          "sense_id": "hwa-interrogative",
+          "lemma_id": "hwa",
+          "form": "hwæs",
+          "analysis": {
+            "case": "genitive",
+            "gender": "masculine/feminine",
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 7,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "seon-pres-2-sg",
+          "sense_id": "seon-1",
+          "lemma_id": "seon",
+          "form": "siehst",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "form_id": "thu-nom-sg",
+          "sense_id": "thu-personal",
+          "lemma_id": "thu",
+          "form": "ðū",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "fisc-acc-sg",
+        "hwa-dat-mf-sg",
+        "hwa-gen-mf-sg",
+        "scip-acc-sg",
+        "se-m-acc-sg",
+        "sellan-pres-2-sg",
+        "seon-pres-2-sg",
+        "thu-nom-sg"
+      ],
+      "required_sense_ids": [
+        "fisc-1",
+        "hwa-interrogative",
+        "scip-1",
+        "se-that",
+        "sellan-give",
+        "seon-1",
+        "thu-personal"
+      ],
+      "required_feature_ids": [
+        "u08-direct-questions",
+        "u08-interrogative-case",
+        "u02-giving-recipient",
+        "u05-see-object",
+        "genitive-relationship",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 9
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-04",
+      "text": "Hwæt hæfð se mann? Hū swimð hē? Hwȳ swimð hē?",
+      "target": "Neuter object what, lexical how and lexical why; not general instrumental syntax.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "hwa-acc-n-sg",
+          "sense_id": "hwa-interrogative",
+          "lemma_id": "hwa",
+          "form": "hwæt",
+          "analysis": {
+            "case": "accusative",
+            "gender": "neuter",
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "hu-invariant",
+          "sense_id": "hu-how",
+          "lemma_id": "hu",
+          "form": "hū",
+          "analysis": {
+            "invariant": true,
+            "function": "direct_question_adverb"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "form_id": "swimman-pres-3-sg",
+          "sense_id": "swimman-1",
+          "lemma_id": "swimman",
+          "form": "swimð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "lemma_id": "he",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "hwy-invariant",
+          "sense_id": "hwy-why",
+          "lemma_id": "hwy",
+          "form": "hwȳ",
+          "analysis": {
+            "invariant": true,
+            "function": "direct_question_adverb"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 9,
+          "form_id": "swimman-pres-3-sg",
+          "sense_id": "swimman-1",
+          "lemma_id": "swimman",
+          "form": "swimð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "lemma_id": "he",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "habban-pres-3-sg",
+        "he-m-nom-sg",
+        "hu-invariant",
+        "hwa-acc-n-sg",
+        "hwy-invariant",
+        "mann-nom-sg",
+        "se-m-nom-sg",
+        "swimman-pres-3-sg"
+      ],
+      "required_sense_ids": [
+        "habban-1",
+        "he-1",
+        "hu-how",
+        "hwa-interrogative",
+        "hwy-why",
+        "mann-1",
+        "se-the",
+        "swimman-1"
+      ],
+      "required_feature_ids": [
+        "u08-direct-questions",
+        "u08-interrogative-case",
+        "u05-see-object",
+        "u08-interrogative-adverbs",
+        "u05-bridge-intransitive",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 10
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-05",
+      "text": "Hwilc mann hæfð ðæt scip? Hwæðer mann hæfð ðæt scip? Hūlic is ðæt scip?",
+      "target": "Which, which of two and what sort; the second sentence assumes two candidate men supplied in context.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "hwilc-nom-m-sg-strong",
+          "sense_id": "hwilc-which",
+          "lemma_id": "hwilc",
+          "form": "hwilc",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "form_id": "hwaether-nom-m-sg-strong",
+          "sense_id": "hwaether-which-two",
+          "lemma_id": "hwaether",
+          "form": "hwæðer",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 7,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 11,
+          "form_id": "hulic-nom-n-sg-strong",
+          "sense_id": "hulic-what-sort",
+          "lemma_id": "hulic",
+          "form": "hūlic",
+          "analysis": {
+            "case": "nominative",
+            "gender": "neuter",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 12,
+          "form_id": "wesan-pres-3-sg",
+          "sense_id": "wesan-be",
+          "lemma_id": "wesan",
+          "form": "is",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 13,
+          "form_id": "se-n-nom-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 14,
+          "form_id": "scip-nom-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "habban-pres-3-sg",
+        "hulic-nom-n-sg-strong",
+        "hwaether-nom-m-sg-strong",
+        "hwilc-nom-m-sg-strong",
+        "mann-nom-sg",
+        "scip-acc-sg",
+        "scip-nom-sg",
+        "se-n-acc-sg",
+        "se-n-nom-sg",
+        "wesan-pres-3-sg"
+      ],
+      "required_sense_ids": [
+        "habban-1",
+        "hulic-what-sort",
+        "hwaether-which-two",
+        "hwilc-which",
+        "mann-1",
+        "scip-1",
+        "se-that",
+        "wesan-be"
+      ],
+      "required_feature_ids": [
+        "u08-direct-questions",
+        "u08-interrogative-adjectives",
+        "u03-predicate-adjective",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 14
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-06",
+      "text": "Sum mann hæfð scip. Sume męnn habbað scipu.",
+      "target": "Ordinary attributive singular/plural sum; no partitive construction.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "sum-nom-m-sg-strong",
+          "sense_id": "sum-some",
+          "lemma_id": "sum",
+          "form": "sum",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "sum-nom-m-pl-strong",
+          "sense_id": "sum-some",
+          "lemma_id": "sum",
+          "form": "sume",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "plural",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "form_id": "mann-nom-pl",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "męnn",
+          "analysis": {
+            "case": "nominative",
+            "number": "plural",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "habban-pres-3-pl",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "habbað",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "scip-acc-pl",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scipu",
+          "analysis": {
+            "case": "acc",
+            "number": "pl",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "habban-pres-3-pl",
+        "habban-pres-3-sg",
+        "mann-nom-pl",
+        "mann-nom-sg",
+        "scip-acc-pl",
+        "scip-acc-sg",
+        "sum-nom-m-pl-strong",
+        "sum-nom-m-sg-strong"
+      ],
+      "required_sense_ids": [
+        "habban-1",
+        "mann-1",
+        "scip-1",
+        "sum-some"
+      ],
+      "required_feature_ids": [
+        "u08-indefinites",
+        "u03-agreement",
+        "u02-active-agreement"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 8
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-07",
+      "text": "Hæfst ðū ǣnigne fisc? Gehwilc mann hæfð scip.",
+      "target": "Any in a direct question; each in an affirmative singular clause.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "habban-pres-2-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfst",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "thu-nom-sg",
+          "sense_id": "thu-personal",
+          "lemma_id": "thu",
+          "form": "ðū",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "aenig-acc-m-sg-strong",
+          "sense_id": "aenig-any",
+          "lemma_id": "aenig",
+          "form": "ǣnigne",
+          "analysis": {
+            "case": "accusative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 4,
+          "form_id": "fisc-acc-sg",
+          "sense_id": "fisc-1",
+          "lemma_id": "fisc",
+          "form": "fisc",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "gehwilc-nom-m-sg-strong",
+          "sense_id": "gehwilc-each",
+          "lemma_id": "gehwilc",
+          "form": "gehwilc",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "aenig-acc-m-sg-strong",
+        "fisc-acc-sg",
+        "gehwilc-nom-m-sg-strong",
+        "habban-pres-2-sg",
+        "habban-pres-3-sg",
+        "mann-nom-sg",
+        "scip-acc-sg",
+        "thu-nom-sg"
+      ],
+      "required_sense_ids": [
+        "aenig-any",
+        "fisc-1",
+        "gehwilc-each",
+        "habban-1",
+        "mann-1",
+        "scip-1",
+        "thu-personal"
+      ],
+      "required_feature_ids": [
+        "u08-direct-questions",
+        "u08-indefinites",
+        "u02-active-agreement",
+        "u03-agreement",
+        "u05-see-object",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 8
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-08",
+      "text": "Se ōðer mann hæfð ōðer scip. Se ilca mann hæfð ðæt scip.",
+      "target": "Other/another and same; full prior other morphology reused with new sense.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "other-nom-m-sg-strong",
+          "sense_id": "other-other",
+          "lemma_id": "other",
+          "form": "ōðer",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 3,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "other-acc-n-sg-strong",
+          "sense_id": "other-other",
+          "lemma_id": "other",
+          "form": "ōðer",
+          "analysis": {
+            "case": "accusative",
+            "gender": "neuter",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "ilca-nom-m-sg-weak",
+          "sense_id": "ilca-same",
+          "lemma_id": "ilca",
+          "form": "ilca",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "weak"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 9,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 11,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 12,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "habban-pres-3-sg",
+        "ilca-nom-m-sg-weak",
+        "mann-nom-sg",
+        "other-acc-n-sg-strong",
+        "other-nom-m-sg-strong",
+        "scip-acc-sg",
+        "se-m-nom-sg",
+        "se-n-acc-sg"
+      ],
+      "required_sense_ids": [
+        "habban-1",
+        "ilca-same",
+        "mann-1",
+        "other-other",
+        "scip-1",
+        "se-that",
+        "se-the"
+      ],
+      "required_feature_ids": [
+        "u08-other-sense",
+        "u03-ordinal-other",
+        "u08-ilca",
+        "u02-giving-recipient",
+        "u05-see-object"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 12
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-09",
+      "text": "Hē self geseah ðæt scip.",
+      "target": "Strong self emphasizing the masculine nominative subject; personal-pronoun reflexivity remains distinct.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "lemma_id": "he",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "self-nom-m-sg-strong",
+          "sense_id": "self-emphatic-reflexive",
+          "lemma_id": "self",
+          "form": "self",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 3,
+          "form_id": "geseon-pret-3-sg",
+          "sense_id": "geseon-1",
+          "lemma_id": "geseon",
+          "form": "geseah",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "geseon-pret-3-sg",
+        "he-m-nom-sg",
+        "scip-acc-sg",
+        "se-n-acc-sg",
+        "self-nom-m-sg-strong"
+      ],
+      "required_sense_ids": [
+        "geseon-1",
+        "he-1",
+        "scip-1",
+        "se-that",
+        "self-emphatic-reflexive"
+      ],
+      "required_feature_ids": [
+        "u08-self",
+        "u02-direct-object",
+        "u05-see-object"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 5
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-10",
+      "text": "Swilc mann is gōd. Swilce męnn sindon gōde.",
+      "target": "Inflected such, distinct from invariant swilce likewise; context identifies the kind of man.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "swilc-nom-m-sg-strong",
+          "sense_id": "swilc-such",
+          "lemma_id": "swilc",
+          "form": "swilc",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "wesan-pres-3-sg",
+          "sense_id": "wesan-be",
+          "lemma_id": "wesan",
+          "form": "is",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "god-adjective-nom-m-sg-strong",
+          "sense_id": "god-adjective-1",
+          "lemma_id": "god-adjective",
+          "form": "gōd",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "swilc-nom-m-pl-strong",
+          "sense_id": "swilc-such",
+          "lemma_id": "swilc",
+          "form": "swilce",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "plural",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "form_id": "mann-nom-pl",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "męnn",
+          "analysis": {
+            "case": "nominative",
+            "number": "plural",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "wesan-pres-3-pl",
+          "sense_id": "wesan-be",
+          "lemma_id": "wesan",
+          "form": "sindon",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "god-adjective-nom-m-pl-strong",
+          "sense_id": "god-adjective-1",
+          "lemma_id": "god-adjective",
+          "form": "gōde",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "pl",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "god-adjective-nom-m-pl-strong",
+        "god-adjective-nom-m-sg-strong",
+        "mann-nom-pl",
+        "mann-nom-sg",
+        "swilc-nom-m-pl-strong",
+        "swilc-nom-m-sg-strong",
+        "wesan-pres-3-pl",
+        "wesan-pres-3-sg"
+      ],
+      "required_sense_ids": [
+        "god-adjective-1",
+        "mann-1",
+        "swilc-such",
+        "wesan-be"
+      ],
+      "required_feature_ids": [
+        "u08-indefinites",
+        "u07-adverbs-interjection",
+        "u03-predicate-adjective"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 8
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-11",
+      "text": "Se mann, ðe ðæt scip hæfð, is mīn gefēra.",
+      "target": "Invariant subject relative with a masculine singular antecedent.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "the-relative-invariant",
+          "sense_id": "the-relative-which",
+          "lemma_id": "the-relative",
+          "form": "ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "relative_particle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 4,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "wesan-pres-3-sg",
+          "sense_id": "wesan-be",
+          "lemma_id": "wesan",
+          "form": "is",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "min-poss-nom-m-sg-strong",
+          "sense_id": "min-poss-1",
+          "lemma_id": "min-poss",
+          "form": "mīn",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "form_id": "gefera-nom-sg",
+          "sense_id": "gefera-1",
+          "lemma_id": "gefera",
+          "form": "gefēra",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "gefera-nom-sg",
+        "habban-pres-3-sg",
+        "mann-nom-sg",
+        "min-poss-nom-m-sg-strong",
+        "scip-acc-sg",
+        "se-m-nom-sg",
+        "se-n-acc-sg",
+        "the-relative-invariant",
+        "wesan-pres-3-sg"
+      ],
+      "required_sense_ids": [
+        "gefera-1",
+        "habban-1",
+        "mann-1",
+        "min-poss-1",
+        "scip-1",
+        "se-that",
+        "se-the",
+        "the-relative-which",
+        "wesan-be"
+      ],
+      "required_feature_ids": [
+        "u08-relative-the",
+        "u08-relative-internal-case",
+        "u08-relative-person-agreement",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 9
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-12",
+      "text": "Ic geseah ðæt scip, ðe se mann hæfð.",
+      "target": "Invariant object relative; the internal noun subject stays nominative.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "geseon-pret-1-sg",
+          "sense_id": "geseon-1",
+          "lemma_id": "geseon",
+          "form": "geseah",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 1,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "the-relative-invariant",
+          "sense_id": "the-relative-which",
+          "lemma_id": "the-relative",
+          "form": "ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "relative_particle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "habban-pres-3-sg",
+          "sense_id": "habban-1",
+          "lemma_id": "habban",
+          "form": "hæfð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "geseon-pret-1-sg",
+        "habban-pres-3-sg",
+        "ic-nom-sg",
+        "mann-nom-sg",
+        "scip-acc-sg",
+        "se-m-nom-sg",
+        "se-n-acc-sg",
+        "the-relative-invariant"
+      ],
+      "required_sense_ids": [
+        "geseon-1",
+        "habban-1",
+        "ic-personal",
+        "mann-1",
+        "scip-1",
+        "se-the",
+        "the-relative-which"
+      ],
+      "required_feature_ids": [
+        "u08-relative-the",
+        "u08-relative-internal-case",
+        "u05-see-object",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 8
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-13",
+      "text": "Ic sęlle ðone fisc ðǣm męnn, se ðe mē healp.",
+      "target": "Dative antecedent but nominative relative se, governed within its own clause.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "sellan-pres-1-sg",
+          "sense_id": "sellan-give",
+          "lemma_id": "sellan",
+          "form": "sęlle",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "se-m-acc-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "ðone",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "fisc-acc-sg",
+          "sense_id": "fisc-1",
+          "lemma_id": "fisc",
+          "form": "fisc",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "se-m-dat-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "form_id": "mann-dat-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "męnn",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-relative",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 8,
+          "form_id": "the-relative-invariant",
+          "sense_id": "the-relative-which",
+          "lemma_id": "the-relative",
+          "form": "ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "relative_particle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 9,
+          "form_id": "ic-dat-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "mē",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "form_id": "helpan-pret-3-sg",
+          "sense_id": "helpan-1",
+          "lemma_id": "helpan",
+          "form": "healp",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "fisc-acc-sg",
+        "helpan-pret-3-sg",
+        "ic-dat-sg",
+        "ic-nom-sg",
+        "mann-dat-sg",
+        "se-m-acc-sg",
+        "se-m-dat-sg",
+        "se-m-nom-sg",
+        "sellan-pres-1-sg",
+        "the-relative-invariant"
+      ],
+      "required_sense_ids": [
+        "fisc-1",
+        "helpan-1",
+        "ic-personal",
+        "mann-1",
+        "se-relative",
+        "se-the",
+        "sellan-give",
+        "the-relative-which"
+      ],
+      "required_feature_ids": [
+        "u08-relative-demonstrative",
+        "u08-relative-internal-case",
+        "u02-giving-recipient",
+        "u04-helpan-dative",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 10
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-14",
+      "text": "Ic geseah ðone mann, ðǣm ðe ic healp.",
+      "target": "Accusative antecedent but dative relative with helpan.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "geseon-pret-1-sg",
+          "sense_id": "geseon-1",
+          "lemma_id": "geseon",
+          "form": "geseah",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 1,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "se-m-acc-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "ðone",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "mann-acc-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "se-m-dat-sg",
+          "sense_id": "se-relative",
+          "lemma_id": "se",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "form_id": "the-relative-invariant",
+          "sense_id": "the-relative-which",
+          "lemma_id": "the-relative",
+          "form": "ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "relative_particle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 7,
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "helpan-pret-1-sg",
+          "sense_id": "helpan-1",
+          "lemma_id": "helpan",
+          "form": "healp",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 1,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "geseon-pret-1-sg",
+        "helpan-pret-1-sg",
+        "ic-nom-sg",
+        "mann-acc-sg",
+        "se-m-acc-sg",
+        "se-m-dat-sg",
+        "the-relative-invariant"
+      ],
+      "required_sense_ids": [
+        "geseon-1",
+        "helpan-1",
+        "ic-personal",
+        "mann-1",
+        "se-relative",
+        "se-the",
+        "the-relative-which"
+      ],
+      "required_feature_ids": [
+        "u08-relative-demonstrative",
+        "u08-relative-internal-case",
+        "u05-see-object",
+        "u04-helpan-dative",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 8
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-15",
+      "text": "Ðū, ðe mē hulpe, sęle mē ðone fisc.",
+      "target": "Second-person relative agreement and singular command; no third-person substitution merely because English uses who.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "thu-nom-sg",
+          "sense_id": "thu-personal",
+          "lemma_id": "thu",
+          "form": "ðū",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "the-relative-invariant",
+          "sense_id": "the-relative-which",
+          "lemma_id": "the-relative",
+          "form": "ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "relative_particle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 3,
+          "form_id": "ic-dat-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "mē",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "form_id": "helpan-pret-2-sg",
+          "sense_id": "helpan-1",
+          "lemma_id": "helpan",
+          "form": "hulpe",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 2,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "sellan-imp-2-sg",
+          "sense_id": "sellan-give",
+          "lemma_id": "sellan",
+          "form": "sęle",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "form_id": "ic-dat-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "mē",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "se-m-acc-sg",
+          "sense_id": "se-that",
+          "lemma_id": "se",
+          "form": "ðone",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "fisc-acc-sg",
+          "sense_id": "fisc-1",
+          "lemma_id": "fisc",
+          "form": "fisc",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "fisc-acc-sg",
+        "helpan-pret-2-sg",
+        "ic-dat-sg",
+        "se-m-acc-sg",
+        "sellan-imp-2-sg",
+        "the-relative-invariant",
+        "thu-nom-sg"
+      ],
+      "required_sense_ids": [
+        "fisc-1",
+        "helpan-1",
+        "ic-personal",
+        "se-that",
+        "sellan-give",
+        "the-relative-which",
+        "thu-personal"
+      ],
+      "required_feature_ids": [
+        "u08-relative-the",
+        "u08-relative-person-agreement",
+        "u04-helpan-dative",
+        "u06-imperative-use",
+        "u02-giving-recipient",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 8
+    },
+    {
+      "example_id": "NEW-U08-EXAMPLE-16",
+      "text": "Se mann, ðæs scip ic geseah, is gōd.",
+      "target": "Genitive possessive relative: nominative antecedent mann, genitive relative ðæs, accusative possessed noun scip. Ordinary internal-clause case, without attraction.",
+      "narrow_checks": [
+        "sources/audits/unit08-source/composition-independent-check.json",
+        "sources/audits/unit08-grammar/composition-check.json"
+      ],
+      "tokens": [
+        {
+          "token_index": 1,
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "lemma_id": "se",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "lemma_id": "mann",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "form_id": "se-m-gen-sg",
+          "sense_id": "se-relative",
+          "lemma_id": "se",
+          "form": "ðæs",
+          "analysis": {
+            "case": "genitive",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 4,
+          "form_id": "scip-acc-sg",
+          "sense_id": "scip-1",
+          "lemma_id": "scip",
+          "form": "scip",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "lemma_id": "ic",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "form_id": "geseon-pret-1-sg",
+          "sense_id": "geseon-1",
+          "lemma_id": "geseon",
+          "form": "geseah",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 1,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "form_id": "wesan-pres-3-sg",
+          "sense_id": "wesan-be",
+          "lemma_id": "wesan",
+          "form": "is",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "form_id": "god-adjective-nom-m-sg-strong",
+          "sense_id": "god-adjective-1",
+          "lemma_id": "god-adjective",
+          "form": "gōd",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "geseon-pret-1-sg",
+        "god-adjective-nom-m-sg-strong",
+        "ic-nom-sg",
+        "mann-nom-sg",
+        "scip-acc-sg",
+        "se-m-gen-sg",
+        "se-m-nom-sg",
+        "wesan-pres-3-sg"
+      ],
+      "required_sense_ids": [
+        "geseon-1",
+        "god-adjective-1",
+        "ic-personal",
+        "mann-1",
+        "scip-1",
+        "se-relative",
+        "se-the",
+        "wesan-be"
+      ],
+      "required_feature_ids": [
+        "u08-relative-the",
+        "u08-relative-demonstrative",
+        "u08-relative-internal-case",
+        "genitive-relationship",
+        "u08-clause-order"
+      ],
+      "origin_category": "new_teaching_material",
+      "graded": false,
+      "status": "reconciled_pre_contract_design",
+      "word_count": 8
+    }
+  ]
+}

@@ -1,0 +1,4103 @@
+{
+  "baseline_checkpoint": "eda6f87",
+  "token_count": 72,
+  "speaker_labels_excluded_from_tokenization": true,
+  "status": "source_editor_mapping_complete; coordinator reconciles proposed u08 feature/pronoun IDs into contract",
+  "tokens": [
+    {
+      "token_id": "U08-SRC-T001",
+      "token_number": 1,
+      "surface": "Hwæt",
+      "lemma_id": "hwa",
+      "form_ids": [
+        "hwa-acc-n-sg"
+      ],
+      "sense_id": "hwa-interrogative",
+      "form_knowledge_status": "new_production",
+      "sense_knowledge_status": "new_production",
+      "contextual_analysis": "neuter accusative singular interrogative; object of sægst",
+      "support_ids": [],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-direct-questions",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-interrogative-case",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "hwa-acc-n-sg"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T002",
+      "token_number": 2,
+      "surface": "sægst",
+      "lemma_id": "secgan",
+      "form_ids": [
+        "secgan-pres-2-sg"
+      ],
+      "sense_id": "secgan-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "present indicative second singular, question predicate",
+      "support_ids": [],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-direct-questions",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [
+        "u02-active-agreement"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "secgan",
+          "record": {
+            "form_id": "secgan-pres-2-sg",
+            "form": "sægst",
+            "analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 2,
+              "number": "singular"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+            "evidence_refs": [
+              "U02-III-LIVE-SAY",
+              "U02-WEAK",
+              "U02-DIRECT-SPEECH"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "secgan",
+        "record": {
+          "sense_id": "secgan-1",
+          "gloss": "say",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-III-LIVE-SAY",
+            "U02-WEAK",
+            "U02-DIRECT-SPEECH"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T003",
+      "token_number": 3,
+      "surface": "ðū",
+      "lemma_id": "thu",
+      "form_ids": [
+        "thu-nom-sg"
+      ],
+      "sense_id": "thu-personal",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "nominative singular question subject",
+      "support_ids": [],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-direct-questions",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [
+        "u02-pronoun-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "thu",
+          "record": {
+            "form_id": "thu-nom-sg",
+            "form": "ðū",
+            "analysis": {
+              "person": 2,
+              "number": "singular",
+              "gender": null,
+              "case": "nominative"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+            "evidence_refs": [
+              "U02-PRON",
+              "U02-POSS"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "thu",
+        "record": {
+          "sense_id": "thu-personal",
+          "gloss": "addressee reference: you, singular/dual/plural",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T004",
+      "token_number": 4,
+      "surface": "mangere",
+      "lemma_id": "mangere",
+      "form_ids": [
+        "mangere-nom-sg-source"
+      ],
+      "sense_id": "mangere-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "nominative singular used in direct address",
+      "support_ids": [
+        "U08-SRC-HELP01"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-vocative",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "mangere-nom-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-mangere"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T005",
+      "token_number": 5,
+      "surface": "Ic",
+      "lemma_id": "ic",
+      "form_ids": [
+        "ic-nom-sg"
+      ],
+      "sense_id": "ic-personal",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "nominative singular subject",
+      "support_ids": [],
+      "construction_dependencies": [],
+      "prior_construction_refs": [
+        "u02-pronoun-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "ic",
+          "record": {
+            "form_id": "ic-nom-sg",
+            "form": "ic",
+            "analysis": {
+              "person": 1,
+              "number": "singular",
+              "gender": null,
+              "case": "nominative"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+            "evidence_refs": [
+              "U02-PRON",
+              "U02-POSS"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "ic",
+        "record": {
+          "sense_id": "ic-personal",
+          "gloss": "speaker reference: I/me/we/us",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T006",
+      "token_number": 6,
+      "surface": "sęcge",
+      "lemma_id": "secgan",
+      "form_ids": [
+        "secgan-pres-1-sg"
+      ],
+      "sense_id": "secgan-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "present indicative first singular introduces supplied content clause",
+      "support_ids": [],
+      "construction_dependencies": [],
+      "prior_construction_refs": [
+        "u02-active-agreement"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "secgan",
+          "record": {
+            "form_id": "secgan-pres-1-sg",
+            "form": "sęcge",
+            "analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 1,
+              "number": "singular"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
+            "evidence_refs": [
+              "U02-III-LIVE-SAY",
+              "U02-WEAK",
+              "U02-DIRECT-SPEECH"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "secgan",
+        "record": {
+          "sense_id": "secgan-1",
+          "gloss": "say",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-III-LIVE-SAY",
+            "U02-WEAK",
+            "U02-DIRECT-SPEECH"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T007",
+      "token_number": 7,
+      "surface": "ðæt",
+      "lemma_id": "thaet-conjunction",
+      "form_ids": [
+        "thaet-conjunction-invariant"
+      ],
+      "sense_id": "thaet-conjunction-1",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "supplied content conjunction after sęcge; not a relative or demonstrative",
+      "support_ids": [
+        "U08-SRC-HELP02"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-content-clause",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "thaet-conjunction",
+          "record": {
+            "form_id": "thaet-conjunction-invariant",
+            "form": "ðæt",
+            "analysis": {
+              "source_analysis": "introduces a supplied finite content clause"
+            },
+            "production_taught_in": null,
+            "recognition_taught_in": null,
+            "supplied_in": [
+              "ch01",
+              "ch03",
+              "ch05",
+              "ch06",
+              "ch07"
+            ],
+            "knowledge_status": "supplied",
+            "scope_note": "Supplied actual source form; no new independent recall or construction from reuse.",
+            "evidence_refs": [
+              "FB84",
+              "READING",
+              "U03-S-READ126",
+              "U03-S-FB196F",
+              "U05-SRC-READ123",
+              "U06-SRC-EXCERPT",
+              "U07-C-READ126"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "thaet-conjunction",
+        "record": {
+          "sense_id": "thaet-conjunction-1",
+          "gloss": "that",
+          "production_taught_in": null,
+          "recognition_taught_in": null,
+          "supplied_in": [
+            "ch01",
+            "ch03",
+            "ch05",
+            "ch06",
+            "ch07"
+          ],
+          "knowledge_status": "supplied",
+          "scope_note": "Exact source exposure; prior supplied context preserved.",
+          "evidence_refs": [
+            "FB84",
+            "READING",
+            "U03-S-READ126",
+            "U03-S-FB194",
+            "U05-SRC-READ123",
+            "U06-SRC-EXCERPT",
+            "U07-C-READ126"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T008",
+      "token_number": 8,
+      "surface": "behēfe",
+      "lemma_id": "behefe",
+      "form_ids": [
+        "behefe-pred-nom-m-sg-source"
+      ],
+      "sense_id": "behefe-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "predicate adjective with first-person subject; dative recipients",
+      "support_ids": [
+        "U08-SRC-HELP02"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-content-clause",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "behefe-pred-nom-m-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-behefe"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T009",
+      "token_number": 9,
+      "surface": "ic",
+      "lemma_id": "ic",
+      "form_ids": [
+        "ic-nom-sg"
+      ],
+      "sense_id": "ic-personal",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "nominative singular subject",
+      "support_ids": [
+        "U08-SRC-HELP02"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-content-clause",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u02-pronoun-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "ic",
+          "record": {
+            "form_id": "ic-nom-sg",
+            "form": "ic",
+            "analysis": {
+              "person": 1,
+              "number": "singular",
+              "gender": null,
+              "case": "nominative"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+            "evidence_refs": [
+              "U02-PRON",
+              "U02-POSS"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "ic",
+        "record": {
+          "sense_id": "ic-personal",
+          "gloss": "speaker reference: I/me/we/us",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T010",
+      "token_number": 10,
+      "surface": "eom",
+      "lemma_id": "wesan",
+      "form_ids": [
+        "wesan-pres-1-sg"
+      ],
+      "sense_id": "wesan-be",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "present indicative first singular copula",
+      "support_ids": [
+        "U08-SRC-HELP02"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-content-clause",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u02-active-agreement"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "wesan",
+          "record": {
+            "form_id": "wesan-pres-1-sg",
+            "form": "eom",
+            "analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 1,
+              "number": "singular"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Ordinary copular uses only; auxiliary use in the reading is supplied separately.",
+            "evidence_refs": [
+              "FB138"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "wesan",
+        "record": {
+          "sense_id": "wesan-be",
+          "gloss": "be: present and past states/identification",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "FB138",
+            "FB149-150"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T011",
+      "token_number": 11,
+      "surface": "ge",
+      "lemma_id": "ge-conjunction",
+      "form_ids": [
+        "ge-conjunction-invariant-source"
+      ],
+      "sense_id": "ge-conjunction-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "first member of supplied correlative coordination",
+      "support_ids": [
+        "U08-SRC-HELP03"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-ge-and",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "ge-conjunction-invariant-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-ge-conjunction"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T012",
+      "token_number": 12,
+      "surface": "cyninge",
+      "lemma_id": "cyning",
+      "form_ids": [
+        "cyning-dat-sg-source"
+      ],
+      "sense_id": "cyning-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "dative singular recipient with behēfe",
+      "support_ids": [
+        "U08-SRC-HELP03"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-ge-and",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "cyning-dat-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-cyning"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T013",
+      "token_number": 13,
+      "surface": "and",
+      "lemma_id": "and",
+      "form_ids": [
+        "and-invariant"
+      ],
+      "sense_id": "and-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "coordination; scope shown in context",
+      "support_ids": [
+        "U08-SRC-HELP03"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-ge-and",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "noun-coordination",
+        "u02-clause-coordination"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "and",
+          "record": {
+            "form_id": "and-invariant",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "READING",
+              "EX1"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "and",
+        "record": {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "EX1"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T014",
+      "token_number": 14,
+      "surface": "ealdormannum",
+      "lemma_id": "ealdormann",
+      "form_ids": [
+        "ealdormann-dat-pl-source"
+      ],
+      "sense_id": "ealdormann-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "dative plural recipients with behēfe",
+      "support_ids": [
+        "U08-SRC-HELP03"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-ge-and",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "ealdormann-dat-pl-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-ealdormann"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T015",
+      "token_number": 15,
+      "surface": "and",
+      "lemma_id": "and",
+      "form_ids": [
+        "and-invariant"
+      ],
+      "sense_id": "and-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "coordination; scope shown in context",
+      "support_ids": [
+        "U08-SRC-HELP03"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-ge-and",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "noun-coordination",
+        "u02-clause-coordination"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "and",
+          "record": {
+            "form_id": "and-invariant",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "READING",
+              "EX1"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "and",
+        "record": {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "EX1"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T016",
+      "token_number": 16,
+      "surface": "weligum",
+      "lemma_id": "welig",
+      "form_ids": [
+        "welig-dat-m-pl-strong-source"
+      ],
+      "sense_id": "welig-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "substantival dative masculine plural, wealthy people",
+      "support_ids": [
+        "U08-SRC-HELP03"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-ge-and",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-substantival-weligum",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "welig-dat-m-pl-strong-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-welig"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T017",
+      "token_number": 17,
+      "surface": "and",
+      "lemma_id": "and",
+      "form_ids": [
+        "and-invariant"
+      ],
+      "sense_id": "and-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "coordination; scope shown in context",
+      "support_ids": [
+        "U08-SRC-HELP03"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-ge-and",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "noun-coordination",
+        "u02-clause-coordination"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "and",
+          "record": {
+            "form_id": "and-invariant",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "READING",
+              "EX1"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "and",
+        "record": {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "EX1"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T018",
+      "token_number": 18,
+      "surface": "eallum",
+      "lemma_id": "eall",
+      "form_ids": [
+        "eall-dat-n-sg"
+      ],
+      "sense_id": "eall-all",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "strong dative neuter singular agrees with collective singular folce",
+      "support_ids": [
+        "U08-SRC-HELP03"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-ge-and",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u03-agreement"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "eall",
+          "record": {
+            "form_id": "eall-dat-n-sg",
+            "form": "eallum",
+            "analysis": {
+              "case": "dative",
+              "gender": "neuter",
+              "number": "singular",
+              "declension": "strong"
+            },
+            "production_taught_in": "ch07",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [
+              "ch02"
+            ],
+            "knowledge_status": "new_production",
+            "scope_note": "Promote existing actual24NGDA cells from prior recognition/supply. Preserve earlier milestones and aliases. Only ordinary whole/all attributive and source-selected uses; instrumental, adverbial ealle/ealles and weak forms unpromoted. eall keeps ll before vowels but ealne/ealre/ealra before consonantal endings.",
+            "evidence_refs": [
+              "U02-R-SABBATH",
+              "U03-STRONG",
+              "U03-WRIGHT-USE",
+              "U07-LEX-eall",
+              "U07-C-57-62"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "eall",
+        "record": {
+          "sense_id": "eall-all",
+          "gloss": "all; whole",
+          "production_taught_in": "ch07",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [
+            "ch02",
+            "ch05"
+          ],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U02-R-SABBATH",
+            "U03-STRONG",
+            "U03-WRIGHT-USE",
+            "U04-SRC-TEXT165",
+            "U04-SRC-TEXT166",
+            "U05-SRC-EX-ALL",
+            "U05-SRC-FB-EALL-EFT",
+            "U05-SRC-SABBATH-COMPARISON",
+            "U07-LEX-eall",
+            "U07-C-89"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T019",
+      "token_number": 19,
+      "surface": "folce",
+      "lemma_id": "folc",
+      "form_ids": [
+        "folc-dat-sg-source"
+      ],
+      "sense_id": "folc-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "dative neuter singular recipient; collective people",
+      "support_ids": [
+        "U08-SRC-HELP03"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-useful-dative",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-ge-and",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "folc-dat-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-folc"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T020",
+      "token_number": 20,
+      "surface": "And",
+      "lemma_id": "and",
+      "form_ids": [
+        "and-invariant"
+      ],
+      "sense_id": "and-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "coordination; scope shown in context",
+      "support_ids": [
+        "U08-SRC-HELP02"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-elliptical-how",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-direct-questions",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [
+        "noun-coordination",
+        "u02-clause-coordination"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "and",
+          "record": {
+            "form_id": "and-invariant",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "READING",
+              "EX1"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "and",
+        "record": {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "EX1"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T021",
+      "token_number": 21,
+      "surface": "hū",
+      "lemma_id": "hu",
+      "form_ids": [
+        "hu-invariant"
+      ],
+      "sense_id": "hu-how",
+      "form_knowledge_status": "new_production",
+      "sense_knowledge_status": "new_production",
+      "contextual_analysis": "interrogative adverb; elliptical how-question",
+      "support_ids": [
+        "U08-SRC-HELP02"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-elliptical-how",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-direct-questions",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "hu-invariant"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T022",
+      "token_number": 22,
+      "surface": "Ic",
+      "lemma_id": "ic",
+      "form_ids": [
+        "ic-nom-sg"
+      ],
+      "sense_id": "ic-personal",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "nominative singular subject",
+      "support_ids": [],
+      "construction_dependencies": [],
+      "prior_construction_refs": [
+        "u02-pronoun-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "ic",
+          "record": {
+            "form_id": "ic-nom-sg",
+            "form": "ic",
+            "analysis": {
+              "person": 1,
+              "number": "singular",
+              "gender": null,
+              "case": "nominative"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+            "evidence_refs": [
+              "U02-PRON",
+              "U02-POSS"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "ic",
+        "record": {
+          "sense_id": "ic-personal",
+          "gloss": "speaker reference: I/me/we/us",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T023",
+      "token_number": 23,
+      "surface": "āstīge",
+      "lemma_id": "astigan",
+      "form_ids": [
+        "astigan-pres-1-sg-source"
+      ],
+      "sense_id": "astigan-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "present indicative first singular; scip is direct object",
+      "support_ids": [
+        "U08-SRC-HELP04"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-board-cargo",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "astigan-pres-1-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-astigan"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T024",
+      "token_number": 24,
+      "surface": "mīn",
+      "lemma_id": "min-poss",
+      "form_ids": [
+        "min-poss-acc-n-sg-strong"
+      ],
+      "sense_id": "min-poss-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "strong accusative neuter singular agrees with scip, not personal genitive",
+      "support_ids": [
+        "U08-SRC-HELP04"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-board-cargo",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u03-possessive-agreement",
+        "u03-possessor-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "min-poss",
+          "record": {
+            "form_id": "min-poss-acc-n-sg-strong",
+            "form": "mīn",
+            "analysis": {
+              "case": "acc",
+              "gender": "n",
+              "number": "sg",
+              "declension": "strong",
+              "degree": "positive"
+            },
+            "production_taught_in": "ch03",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Agreeing possessive adjective; separate lexical/syntactic record from the personal-pronoun genitive citation.",
+            "evidence_refs": [
+              "U03-POSSESSIVE",
+              "U03-STRONG",
+              "U03-WRIGHT-POSSESSIVE"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "min-poss",
+        "record": {
+          "sense_id": "min-poss-1",
+          "gloss": "my; mine",
+          "production_taught_in": "ch03",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U03-POSSESSIVE",
+            "U03-STRONG",
+            "U03-WRIGHT-POSSESSIVE"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T025",
+      "token_number": 25,
+      "surface": "scip",
+      "lemma_id": "scip",
+      "form_ids": [
+        "scip-acc-sg"
+      ],
+      "sense_id": "scip-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "accusative neuter singular direct object of supplied board sense",
+      "support_ids": [
+        "U08-SRC-HELP04"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-board-cargo",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "scip",
+          "record": {
+            "form_id": "scip-acc-sg",
+            "form": "scip",
+            "analysis": {
+              "case": "acc",
+              "number": "sg",
+              "gender": "neuter"
+            },
+            "production_taught_in": "ch04",
+            "recognition_taught_in": "ch04",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Ordinary noun senses and prior subject, object, limiting-genitive and explicitly taught prepositional uses only. Does not establish new government, quantifiers or source-only idioms.",
+            "evidence_refs": [
+              "U04-SRC-LEX-scip",
+              "U04-SRC-FB47"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "scip",
+        "record": {
+          "sense_id": "scip-1",
+          "gloss": "ship",
+          "production_taught_in": "ch04",
+          "recognition_taught_in": "ch04",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "Ordinary noun senses and prior subject, object, limiting-genitive and explicitly taught prepositional uses only. Does not establish new government, quantifiers or source-only idioms.",
+          "evidence_refs": [
+            "U04-SRC-LEX-scip",
+            "U04-SRC-FB47"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T026",
+      "token_number": 26,
+      "surface": "mid",
+      "lemma_id": "mid",
+      "form_ids": [
+        "mid-invariant-source"
+      ],
+      "sense_id": "mid-accompaniment-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "supplied accompaniment with dative hlæstum mīnum",
+      "support_ids": [
+        "U08-SRC-HELP04"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-board-cargo",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "mid",
+          "record": {
+            "form_id": "mid-invariant-source",
+            "form": "mid",
+            "analysis": {
+              "source_analysis": "preposition with dative abstract noun; source manner supplied"
+            },
+            "production_taught_in": null,
+            "recognition_taught_in": null,
+            "supplied_in": [
+              "ch04",
+              "ch06"
+            ],
+            "knowledge_status": "supplied",
+            "scope_note": "Local supplied occurrence; no independent recall milestone.",
+            "evidence_refs": [
+              "U04-SRC-FB174",
+              "U04-SRC-LEX-mid",
+              "U04-SRC-TEXT166",
+              "U06-SRC-EXCERPT",
+              "U06-SRC-FB-305"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "mid",
+        "record": {
+          "sense_id": "mid-accompaniment-source",
+          "gloss": "with",
+          "production_taught_in": null,
+          "recognition_taught_in": null,
+          "supplied_in": [
+            "ch06"
+          ],
+          "knowledge_status": "supplied",
+          "scope_note": "Local supplied sense only; prior histories remain preserved.",
+          "evidence_refs": [
+            "U06-SRC-EXCERPT",
+            "U06-SRC-FB-305"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T027",
+      "token_number": 27,
+      "surface": "hlæstum",
+      "lemma_id": "hlaest",
+      "form_ids": [
+        "hlaest-dat-pl-source"
+      ],
+      "sense_id": "hlaest-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "dative neuter plural after mid",
+      "support_ids": [
+        "U08-SRC-HELP04"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-board-cargo",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "hlaest-dat-pl-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-hlaest"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T028",
+      "token_number": 28,
+      "surface": "mīnum",
+      "lemma_id": "min-poss",
+      "form_ids": [
+        "min-poss-dat-n-pl-strong"
+      ],
+      "sense_id": "min-poss-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "strong dative neuter plural possessive modifying hlæstum",
+      "support_ids": [
+        "U08-SRC-HELP04"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-board-cargo",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u03-possessive-agreement",
+        "u03-possessor-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "min-poss",
+          "record": {
+            "form_id": "min-poss-dat-n-pl-strong",
+            "form": "mīnum",
+            "analysis": {
+              "case": "dat",
+              "gender": "n",
+              "number": "pl",
+              "declension": "strong",
+              "degree": "positive"
+            },
+            "production_taught_in": "ch03",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Agreeing possessive adjective; separate lexical/syntactic record from the personal-pronoun genitive citation.",
+            "evidence_refs": [
+              "U03-POSSESSIVE",
+              "U03-STRONG",
+              "U03-WRIGHT-POSSESSIVE"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "min-poss",
+        "record": {
+          "sense_id": "min-poss-1",
+          "gloss": "my; mine",
+          "production_taught_in": "ch03",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U03-POSSESSIVE",
+            "U03-STRONG",
+            "U03-WRIGHT-POSSESSIVE"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T029",
+      "token_number": 29,
+      "surface": "and",
+      "lemma_id": "and",
+      "form_ids": [
+        "and-invariant"
+      ],
+      "sense_id": "and-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "coordination; scope shown in context",
+      "support_ids": [],
+      "construction_dependencies": [],
+      "prior_construction_refs": [
+        "noun-coordination",
+        "u02-clause-coordination"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "and",
+          "record": {
+            "form_id": "and-invariant",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "READING",
+              "EX1"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "and",
+        "record": {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "EX1"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T030",
+      "token_number": 30,
+      "surface": "rōwe",
+      "lemma_id": "rowan",
+      "form_ids": [
+        "rowan-pres-1-sg-source"
+      ],
+      "sense_id": "rowan-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "present indicative first singular",
+      "support_ids": [
+        "U08-SRC-HELP05"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-nautical-motion",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "rowan-pres-1-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-rowan"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T031",
+      "token_number": 31,
+      "surface": "ofer",
+      "lemma_id": "ofer",
+      "form_ids": [
+        "ofer-invariant"
+      ],
+      "sense_id": "ofer-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "spatial over/across with accusative sǣlice dǣlas",
+      "support_ids": [
+        "U08-SRC-HELP05"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-nautical-motion",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "ofer",
+          "record": {
+            "form_id": "ofer-invariant",
+            "form": "ofer",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch07",
+            "recognition_taught_in": "ch07",
+            "supplied_in": [
+              "ch01",
+              "ch03",
+              "ch05"
+            ],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the explicitly selected sense/frame is productive; prior supplied source analyses remain preserved.",
+            "evidence_refs": [
+              "READING",
+              "FB166",
+              "FB172",
+              "U03-S-READ126",
+              "U03-S-FB-DICT307",
+              "U05-SRC-READ123",
+              "U07-SRC-FB-307"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "ofer",
+        "record": {
+          "sense_id": "ofer-1",
+          "gloss": "Bounded spatial over/across sense; Fulk§36 explicitly names ofer as a two-case preposition. Case depends on construction/meaning; source eorðan does not force one. No unrestricted new sense or exceptionless universal rule.",
+          "production_taught_in": "ch07",
+          "recognition_taught_in": "ch07",
+          "supplied_in": [
+            "ch01",
+            "ch03",
+            "ch05"
+          ],
+          "knowledge_status": "new_production",
+          "scope_note": "accusative_or_dative_spatial",
+          "evidence_refs": [
+            "READING",
+            "FB166",
+            "FB172",
+            "U03-S-READ126",
+            "U03-S-FB-DICT307",
+            "U05-SRC-READ123",
+            "U07-F-36-OFER",
+            "U07-SRC-FB-307",
+            "U07-C-READ126"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T032",
+      "token_number": 32,
+      "surface": "sǣlice",
+      "lemma_id": "saelic",
+      "form_ids": [
+        "saelic-acc-m-pl-strong-source"
+      ],
+      "sense_id": "saelic-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "strong accusative masculine plural modifying dǣlas",
+      "support_ids": [
+        "U08-SRC-HELP05"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-nautical-motion",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "saelic-acc-m-pl-strong-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-saelic"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T033",
+      "token_number": 33,
+      "surface": "dǣlas",
+      "lemma_id": "dael",
+      "form_ids": [
+        "dael-acc-pl-source"
+      ],
+      "sense_id": "dael-part-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "accusative masculine plural after spatial ofer",
+      "support_ids": [
+        "U08-SRC-HELP05"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-nautical-motion",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": {
+        "lemma_id": "dael",
+        "record": {
+          "sense_id": "dael-part-source",
+          "gloss": "part",
+          "production_taught_in": null,
+          "recognition_taught_in": null,
+          "supplied_in": [
+            "ch06"
+          ],
+          "knowledge_status": "supplied",
+          "scope_note": "Local supplied sense only; prior histories remain preserved.",
+          "evidence_refs": [
+            "U06-SRC-EXCERPT",
+            "U06-SRC-FB-282"
+          ]
+        }
+      },
+      "new_form_ids": [
+        "dael-acc-pl-source"
+      ],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-dael"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T034",
+      "token_number": 34,
+      "surface": "and",
+      "lemma_id": "and",
+      "form_ids": [
+        "and-invariant"
+      ],
+      "sense_id": "and-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "coordination; scope shown in context",
+      "support_ids": [],
+      "construction_dependencies": [],
+      "prior_construction_refs": [
+        "noun-coordination",
+        "u02-clause-coordination"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "and",
+          "record": {
+            "form_id": "and-invariant",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "READING",
+              "EX1"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "and",
+        "record": {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "EX1"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T035",
+      "token_number": 35,
+      "surface": "cīepe",
+      "lemma_id": "ciepan",
+      "form_ids": [
+        "ciepan-pres-1-sg-source"
+      ],
+      "sense_id": "ciepan-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "present indicative first singular with accusative goods",
+      "support_ids": [
+        "U08-SRC-HELP06"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-buy-sell",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "ciepan-pres-1-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-ciepan"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T036",
+      "token_number": 36,
+      "surface": "mīn",
+      "lemma_id": "min-poss",
+      "form_ids": [
+        "min-poss-acc-n-pl-strong"
+      ],
+      "sense_id": "min-poss-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "strong accusative neuter plural possessive modifying ðing",
+      "support_ids": [
+        "U08-SRC-HELP06"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-buy-sell",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u03-possessive-agreement",
+        "u03-possessor-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "min-poss",
+          "record": {
+            "form_id": "min-poss-acc-n-pl-strong",
+            "form": "mīn",
+            "analysis": {
+              "case": "acc",
+              "gender": "n",
+              "number": "pl",
+              "declension": "strong",
+              "degree": "positive"
+            },
+            "production_taught_in": "ch03",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Agreeing possessive adjective; separate lexical/syntactic record from the personal-pronoun genitive citation.",
+            "evidence_refs": [
+              "U03-POSSESSIVE",
+              "U03-STRONG",
+              "U03-WRIGHT-POSSESSIVE"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "min-poss",
+        "record": {
+          "sense_id": "min-poss-1",
+          "gloss": "my; mine",
+          "production_taught_in": "ch03",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U03-POSSESSIVE",
+            "U03-STRONG",
+            "U03-WRIGHT-POSSESSIVE"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T037",
+      "token_number": 37,
+      "surface": "ðing",
+      "lemma_id": "thing",
+      "form_ids": [
+        "thing-acc-pl"
+      ],
+      "sense_id": "thing-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "accusative neuter plural; goods sold",
+      "support_ids": [
+        "U08-SRC-HELP06"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-buy-sell",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "accusative-object"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "thing",
+          "record": {
+            "form_id": "thing-acc-pl",
+            "form": "ðing",
+            "analysis": {
+              "case": "accusative",
+              "number": "plural",
+              "gender": "neuter"
+            },
+            "production_taught_in": "ch03",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "",
+            "evidence_refs": [
+              "U03-S-EX-THING-THIRD",
+              "U03-S-FB-DICT318",
+              "U03-S-FB47"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "thing",
+        "record": {
+          "sense_id": "thing-1",
+          "gloss": "thing; in plural, things",
+          "production_taught_in": "ch03",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U03-S-EX-THING-THIRD",
+            "U03-S-FB-DICT318",
+            "U03-S-FB47"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T038",
+      "token_number": 38,
+      "surface": "and",
+      "lemma_id": "and",
+      "form_ids": [
+        "and-invariant"
+      ],
+      "sense_id": "and-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "coordination; scope shown in context",
+      "support_ids": [
+        "U08-SRC-HELP06"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-buy-sell",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "noun-coordination",
+        "u02-clause-coordination"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "and",
+          "record": {
+            "form_id": "and-invariant",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "READING",
+              "EX1"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "and",
+        "record": {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "EX1"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T039",
+      "token_number": 39,
+      "surface": "bycge",
+      "lemma_id": "bycgan",
+      "form_ids": [
+        "bycgan-pres-1-sg-source"
+      ],
+      "sense_id": "bycgan-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "present indicative first singular with accusative goods",
+      "support_ids": [
+        "U08-SRC-HELP06"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-buy-sell",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "bycgan-pres-1-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-bycgan"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T040",
+      "token_number": 40,
+      "surface": "ðing",
+      "lemma_id": "thing",
+      "form_ids": [
+        "thing-acc-pl"
+      ],
+      "sense_id": "thing-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "accusative neuter plural; goods bought; antecedent of nominative relative ðā",
+      "support_ids": [
+        "U08-SRC-HELP06"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-buy-sell",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-relative-internal-case",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [
+        "accusative-object"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "thing",
+          "record": {
+            "form_id": "thing-acc-pl",
+            "form": "ðing",
+            "analysis": {
+              "case": "accusative",
+              "number": "plural",
+              "gender": "neuter"
+            },
+            "production_taught_in": "ch03",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "",
+            "evidence_refs": [
+              "U03-S-EX-THING-THIRD",
+              "U03-S-FB-DICT318",
+              "U03-S-FB47"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "thing",
+        "record": {
+          "sense_id": "thing-1",
+          "gloss": "thing; in plural, things",
+          "production_taught_in": "ch03",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U03-S-EX-THING-THIRD",
+            "U03-S-FB-DICT318",
+            "U03-S-FB47"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T041",
+      "token_number": 41,
+      "surface": "dēorwierðu",
+      "lemma_id": "deorwierth",
+      "form_ids": [
+        "deorwierth-acc-n-pl-strong-source"
+      ],
+      "sense_id": "deorwierth-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "strong accusative neuter plural with ðing",
+      "support_ids": [
+        "U08-SRC-HELP06"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-buy-sell",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-relative-internal-case",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "deorwierth-acc-n-pl-strong-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-deorwierth"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T042",
+      "token_number": 42,
+      "surface": "ðā",
+      "lemma_id": "se",
+      "form_ids": [
+        "se-all-nom-pl"
+      ],
+      "sense_id": "se-relative",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "new_production",
+      "contextual_analysis": "nominative neuter plural relative pronoun; subject of bēoð; not adverb then",
+      "support_ids": [
+        "U08-SRC-HELP07"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-relative-internal-case",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-relative-demonstrative",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "se",
+          "record": {
+            "form_id": "se-all-nom-pl",
+            "form": "ðā",
+            "analysis": {
+              "case": "nominative",
+              "number": "plural",
+              "gender": "all"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "",
+            "evidence_refs": [
+              "FB84"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T043",
+      "token_number": 43,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_ids": [
+        "on-invariant"
+      ],
+      "sense_id": "on-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "prior locative in with dative ðissum lande",
+      "support_ids": [
+        "U08-SRC-HELP07"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-relative-internal-case",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-relative-demonstrative",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "on",
+          "record": {
+            "form_id": "on-invariant",
+            "form": "on",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "FB172"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "on",
+        "record": {
+          "sense_id": "on-1",
+          "gloss": "in/on, locating an entity; with dative in the taught construction",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "FB172"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T044",
+      "token_number": 44,
+      "surface": "ðissum",
+      "lemma_id": "thes",
+      "form_ids": [
+        "thes-dat-n-sg"
+      ],
+      "sense_id": "thes-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "dative neuter singular near demonstrative agreeing with lande",
+      "support_ids": [
+        "U08-SRC-HELP07"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-relative-internal-case",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-relative-demonstrative",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [
+        "u03-agreement"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "thes",
+          "record": {
+            "form_id": "thes-dat-n-sg",
+            "form": "ðissum",
+            "analysis": {
+              "case": "dat",
+              "gender": "n",
+              "number": "sg",
+              "declension": "demonstrative",
+              "degree": "positive"
+            },
+            "production_taught_in": "ch03",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Selected Cook short-e masculine ðes and double-s variants; neither new length nor a different dialect is silently imposed.",
+            "evidence_refs": [
+              "U03-DEMONSTRATIVE"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "thes",
+        "record": {
+          "sense_id": "thes-1",
+          "gloss": "this; these",
+          "production_taught_in": "ch03",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U03-DEMONSTRATIVE"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T045",
+      "token_number": 45,
+      "surface": "lande",
+      "lemma_id": "land",
+      "form_ids": [
+        "land-dat-sg-source"
+      ],
+      "sense_id": "land-country",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "supplied dative neuter singular after locative on",
+      "support_ids": [
+        "U08-SRC-HELP07"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-relative-internal-case",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-relative-demonstrative",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "land",
+          "record": {
+            "form_id": "land-dat-sg-source",
+            "form": "lande",
+            "analysis": "neuter dative singular noun in apposition",
+            "production_taught_in": null,
+            "recognition_taught_in": null,
+            "supplied_in": [
+              "ch04"
+            ],
+            "knowledge_status": "supplied",
+            "scope_note": "Prior recognition remains recognition; supplied source forms are available locally, without independent recall.",
+            "evidence_refs": [
+              "U04-SRC-LEX-land",
+              "U04-SRC-TEXT166"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "land",
+        "record": {
+          "sense_id": "land-country",
+          "gloss": "land; country",
+          "production_taught_in": null,
+          "recognition_taught_in": null,
+          "supplied_in": [
+            "ch04"
+          ],
+          "knowledge_status": "supplied",
+          "scope_note": "Local supported source sense only unless its prior recognition milestone is expressly retained.",
+          "evidence_refs": [
+            "U04-SRC-LEX-land",
+            "U04-SRC-TEXT166"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T046",
+      "token_number": 46,
+      "surface": "ne",
+      "lemma_id": "ne",
+      "form_ids": [
+        "ne-invariant"
+      ],
+      "sense_id": "ne-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "actual negation in supplied ne bēoð ācęnnede; prior ne spelling does not independently assign this entire passive construction",
+      "support_ids": [
+        "U08-SRC-HELP07"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-relative-internal-case",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-relative-demonstrative",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-source-produced-passive",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "ne",
+          "record": {
+            "form_id": "ne-invariant",
+            "form": "ne",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "evidence_refs": [
+              "U02-NE-LEX",
+              "U02-NEG-READER"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "ne",
+        "record": {
+          "sense_id": "ne-1",
+          "gloss": "not; simple clause negation",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-NE-LEX",
+            "U02-NEG-READER"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T047",
+      "token_number": 47,
+      "surface": "bēoð",
+      "lemma_id": "wesan",
+      "form_ids": [
+        "wesan-beon-pres-3-pl"
+      ],
+      "sense_id": "wesan-passive",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "present indicative third plural passive auxiliary; source generic/habitual use is locally supplied",
+      "support_ids": [
+        "U08-SRC-HELP07"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-relative-internal-case",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-relative-demonstrative",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-source-produced-passive",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u02-active-agreement"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "wesan",
+          "record": {
+            "form_id": "wesan-beon-pres-3-pl",
+            "form": "bēoð",
+            "analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 3,
+              "number": "pl"
+            },
+            "production_taught_in": "ch06",
+            "recognition_taught_in": "ch06",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "",
+            "evidence_refs": [
+              "U06-ANOM"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "wesan",
+        "record": {
+          "sense_id": "wesan-passive",
+          "gloss": "be as an auxiliary with the selected passive participle",
+          "production_taught_in": "ch07",
+          "recognition_taught_in": "ch07",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "Does not change the earlier ordinary copular sense or teach every perfect/progressive construction.",
+          "evidence_refs": [
+            "U07-C-187-188",
+            "U07-F-48-50"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T048",
+      "token_number": 48,
+      "surface": "ācęnnede",
+      "lemma_id": "acennan",
+      "form_ids": [
+        "acennan-past-part-pl-source"
+      ],
+      "sense_id": "acennan-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "predicate past participle plural with bēoð; passively produced",
+      "support_ids": [
+        "U08-SRC-HELP07"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-relative-internal-case",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-relative-demonstrative",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u08-source-produced-passive",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "acennan-past-part-pl-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-acennan"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T049",
+      "token_number": 49,
+      "surface": "and",
+      "lemma_id": "and",
+      "form_ids": [
+        "and-invariant"
+      ],
+      "sense_id": "and-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "coordination; scope shown in context",
+      "support_ids": [],
+      "construction_dependencies": [],
+      "prior_construction_refs": [
+        "noun-coordination",
+        "u02-clause-coordination"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "and",
+          "record": {
+            "form_id": "and-invariant",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "READING",
+              "EX1"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "and",
+        "record": {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "EX1"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T050",
+      "token_number": 50,
+      "surface": "ic",
+      "lemma_id": "ic",
+      "form_ids": [
+        "ic-nom-sg"
+      ],
+      "sense_id": "ic-personal",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "nominative singular subject",
+      "support_ids": [
+        "U08-SRC-HELP08"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-bring-goods",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u02-pronoun-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "ic",
+          "record": {
+            "form_id": "ic-nom-sg",
+            "form": "ic",
+            "analysis": {
+              "person": 1,
+              "number": "singular",
+              "gender": null,
+              "case": "nominative"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+            "evidence_refs": [
+              "U02-PRON",
+              "U02-POSS"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "ic",
+        "record": {
+          "sense_id": "ic-personal",
+          "gloss": "speaker reference: I/me/we/us",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T051",
+      "token_number": 51,
+      "surface": "hit",
+      "lemma_id": "he",
+      "form_ids": [
+        "he-n-acc-sg"
+      ],
+      "sense_id": "he-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "accusative neuter singular object, source collective reference to merchandise; exact reference supplied",
+      "support_ids": [
+        "U08-SRC-HELP08"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-bring-goods",
+          "knowledge_status": "supplied"
+        },
+        {
+          "feature_id": "u08-source-collective-hit",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u02-pronoun-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "he",
+          "record": {
+            "form_id": "he-n-acc-sg",
+            "form": "hit",
+            "analysis": {
+              "person": 3,
+              "number": "singular",
+              "gender": "n",
+              "case": "accusative"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+            "evidence_refs": [
+              "U02-PRON",
+              "U02-POSS"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "he",
+        "record": {
+          "sense_id": "he-1",
+          "gloss": "third-person personal reference: he, she, it, they and ordinary object cases",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [
+            "ch01"
+          ],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "U02-PRON"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T052",
+      "token_number": 52,
+      "surface": "tōgelǣde",
+      "lemma_id": "togelaedan",
+      "form_ids": [
+        "togelaedan-pres-1-sg-source"
+      ],
+      "sense_id": "togelaedan-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "present indicative first singular, thing brought accusative and recipient dative",
+      "support_ids": [
+        "U08-SRC-HELP08"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-bring-goods",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "togelaedan-pres-1-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-togelaedan"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T053",
+      "token_number": 53,
+      "surface": "ēow",
+      "lemma_id": "thu",
+      "form_ids": [
+        "thu-dat-pl"
+      ],
+      "sense_id": "thu-personal",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "dative plural recipient of things brought",
+      "support_ids": [
+        "U08-SRC-HELP08"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-bring-goods",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u02-pronoun-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "thu",
+          "record": {
+            "form_id": "thu-dat-pl",
+            "form": "ēow",
+            "analysis": {
+              "person": 2,
+              "number": "plural",
+              "gender": null,
+              "case": "dative"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+            "evidence_refs": [
+              "U02-PRON",
+              "U02-POSS"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "thu",
+        "record": {
+          "sense_id": "thu-personal",
+          "gloss": "addressee reference: you, singular/dual/plural",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T054",
+      "token_number": 54,
+      "surface": "hider",
+      "lemma_id": "hider",
+      "form_ids": [
+        "hider-invariant-source"
+      ],
+      "sense_id": "hider-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "direction adverb",
+      "support_ids": [
+        "U08-SRC-HELP08"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-bring-goods",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "hider-invariant-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-hider"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T055",
+      "token_number": 55,
+      "surface": "mid",
+      "lemma_id": "mid",
+      "form_ids": [
+        "mid-invariant-source"
+      ],
+      "sense_id": "mid-circumstance-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "supplied circumstance at/with great risk; dative complement",
+      "support_ids": [
+        "U08-SRC-HELP09"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-risk",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "mid",
+          "record": {
+            "form_id": "mid-invariant-source",
+            "form": "mid",
+            "analysis": {
+              "source_analysis": "preposition with dative abstract noun; source manner supplied"
+            },
+            "production_taught_in": null,
+            "recognition_taught_in": null,
+            "supplied_in": [
+              "ch04",
+              "ch06"
+            ],
+            "knowledge_status": "supplied",
+            "scope_note": "Local supplied occurrence; no independent recall milestone.",
+            "evidence_refs": [
+              "U04-SRC-FB174",
+              "U04-SRC-LEX-mid",
+              "U04-SRC-TEXT166",
+              "U06-SRC-EXCERPT",
+              "U06-SRC-FB-305"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T056",
+      "token_number": 56,
+      "surface": "miclum",
+      "lemma_id": "micel",
+      "form_ids": [
+        "micel-dat-m-sg-strong"
+      ],
+      "sense_id": "micel-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "strong dative masculine singular with plihte",
+      "support_ids": [
+        "U08-SRC-HELP09"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-risk",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u03-agreement"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "micel",
+          "record": {
+            "form_id": "micel-dat-m-sg-strong",
+            "form": "miclum",
+            "analysis": {
+              "case": "dat",
+              "gender": "m",
+              "number": "sg",
+              "declension": "strong",
+              "degree": "positive"
+            },
+            "production_taught_in": "ch03",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Selected syncope before vowel endings, retained full stem before consonantal -ne/-re/-ra. Rare u-cells are pattern-derived unless separately marked.",
+            "evidence_refs": [
+              "U03-STRONG",
+              "U03-WEAK",
+              "U03-WRIGHT-SYNCOPE",
+              "U03-LEX-MICEL"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "micel",
+        "record": {
+          "sense_id": "micel-1",
+          "gloss": "great; large",
+          "production_taught_in": "ch03",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U03-STRONG",
+            "U03-WEAK",
+            "U03-WRIGHT-SYNCOPE",
+            "U03-LEX-MICEL"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T057",
+      "token_number": 57,
+      "surface": "plihte",
+      "lemma_id": "pliht",
+      "form_ids": [
+        "pliht-dat-sg-source"
+      ],
+      "sense_id": "pliht-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "dative masculine singular with mid; circumstance",
+      "support_ids": [
+        "U08-SRC-HELP09"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-risk",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "pliht-dat-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-pliht"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T058",
+      "token_number": 58,
+      "surface": "ofer",
+      "lemma_id": "ofer",
+      "form_ids": [
+        "ofer-invariant"
+      ],
+      "sense_id": "ofer-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "spatial over/across; accusative extent interpretation is contextual because singular sǣ is accusative/dative syncretic",
+      "support_ids": [
+        "U08-SRC-HELP09"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-risk",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "ofer",
+          "record": {
+            "form_id": "ofer-invariant",
+            "form": "ofer",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch07",
+            "recognition_taught_in": "ch07",
+            "supplied_in": [
+              "ch01",
+              "ch03",
+              "ch05"
+            ],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the explicitly selected sense/frame is productive; prior supplied source analyses remain preserved.",
+            "evidence_refs": [
+              "READING",
+              "FB166",
+              "FB172",
+              "U03-S-READ126",
+              "U03-S-FB-DICT307",
+              "U05-SRC-READ123",
+              "U07-SRC-FB-307"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "ofer",
+        "record": {
+          "sense_id": "ofer-1",
+          "gloss": "Bounded spatial over/across sense; Fulk§36 explicitly names ofer as a two-case preposition. Case depends on construction/meaning; source eorðan does not force one. No unrestricted new sense or exceptionless universal rule.",
+          "production_taught_in": "ch07",
+          "recognition_taught_in": "ch07",
+          "supplied_in": [
+            "ch01",
+            "ch03",
+            "ch05"
+          ],
+          "knowledge_status": "new_production",
+          "scope_note": "accusative_or_dative_spatial",
+          "evidence_refs": [
+            "READING",
+            "FB166",
+            "FB172",
+            "U03-S-READ126",
+            "U03-S-FB-DICT307",
+            "U05-SRC-READ123",
+            "U07-F-36-OFER",
+            "U07-SRC-FB-307",
+            "U07-C-READ126"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T059",
+      "token_number": 59,
+      "surface": "sǣ",
+      "lemma_id": "sae",
+      "form_ids": [
+        "sae-acc-sg",
+        "sae-dat-sg"
+      ],
+      "sense_id": "sae-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "singular sea after spatial ofer; accusative extent is a contextual interpretation, while the actual sǣ form is accusative/dative syncretic and does not force unique case",
+      "support_ids": [
+        "U08-SRC-HELP09"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-risk",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "sae",
+          "record": {
+            "form_id": "sae-acc-sg",
+            "form": "sǣ",
+            "analysis": {
+              "case": "accusative",
+              "number": "singular",
+              "gender": "masculine"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Morphological production in assigned number; only the unit's ordinary syntactic uses are taught.",
+            "evidence_refs": [
+              "LEX-sae",
+              "SAE-COOK"
+            ]
+          }
+        },
+        {
+          "lemma_id": "sae",
+          "record": {
+            "form_id": "sae-dat-sg",
+            "form": "sǣ",
+            "analysis": {
+              "case": "dative",
+              "number": "singular",
+              "gender": "masculine"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Morphological production in assigned number; only the unit's ordinary syntactic uses are taught.",
+            "evidence_refs": [
+              "LEX-sae",
+              "SAE-COOK"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "sae",
+        "record": {
+          "sense_id": "sae-1",
+          "gloss": "sea",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "LEX-sae"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ],
+      "preferred_contextual_form_id": "sae-acc-sg",
+      "case_assessment_limit": "Accusative is a contextual extent interpretation, not a case demonstrable from the syncretic surface. No task requires a unique case here."
+    },
+    {
+      "token_id": "U08-SRC-T060",
+      "token_number": 60,
+      "surface": "and",
+      "lemma_id": "and",
+      "form_ids": [
+        "and-invariant"
+      ],
+      "sense_id": "and-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "coordination; scope shown in context",
+      "support_ids": [],
+      "construction_dependencies": [],
+      "prior_construction_refs": [
+        "noun-coordination",
+        "u02-clause-coordination"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "and",
+          "record": {
+            "form_id": "and-invariant",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "production_taught_in": "ch01",
+            "recognition_taught_in": "ch01",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Only the listed sense/use is assigned.",
+            "evidence_refs": [
+              "READING",
+              "EX1"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "and",
+        "record": {
+          "sense_id": "and-1",
+          "gloss": "and; simple coordination",
+          "production_taught_in": "ch01",
+          "recognition_taught_in": "ch01",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "READING",
+            "EX1"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T061",
+      "token_number": 61,
+      "surface": "hwīlum",
+      "lemma_id": "hwilum",
+      "form_ids": [
+        "hwilum-invariant-source"
+      ],
+      "sense_id": "hwilum-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "adverb of frequency; no productive noun paradigm inferred",
+      "support_ids": [
+        "U08-SRC-HELP10"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-shipwreck",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "hwilum-invariant-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-hwilum"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T062",
+      "token_number": 62,
+      "surface": "forlidennesse",
+      "lemma_id": "forlidennes",
+      "form_ids": [
+        "forlidennes-acc-sg-source"
+      ],
+      "sense_id": "forlidennes-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "accusative feminine singular object of ðolie",
+      "support_ids": [
+        "U08-SRC-HELP10"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-shipwreck",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "forlidennes-acc-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-forlidennes"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T063",
+      "token_number": 63,
+      "surface": "ic",
+      "lemma_id": "ic",
+      "form_ids": [
+        "ic-nom-sg"
+      ],
+      "sense_id": "ic-personal",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "nominative singular subject",
+      "support_ids": [
+        "U08-SRC-HELP10"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-shipwreck",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u02-pronoun-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "ic",
+          "record": {
+            "form_id": "ic-nom-sg",
+            "form": "ic",
+            "analysis": {
+              "person": 1,
+              "number": "singular",
+              "gender": null,
+              "case": "nominative"
+            },
+            "production_taught_in": "ch02",
+            "recognition_taught_in": "ch02",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+            "evidence_refs": [
+              "U02-PRON",
+              "U02-POSS"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "ic",
+        "record": {
+          "sense_id": "ic-personal",
+          "gloss": "speaker reference: I/me/we/us",
+          "production_taught_in": "ch02",
+          "recognition_taught_in": "ch02",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T064",
+      "token_number": 64,
+      "surface": "ðolie",
+      "lemma_id": "tholian",
+      "form_ids": [
+        "tholian-pres-1-sg-source"
+      ],
+      "sense_id": "tholian-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "present indicative first singular; source omits optional g",
+      "support_ids": [
+        "U08-SRC-HELP10"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-shipwreck",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "tholian-pres-1-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-tholian"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T065",
+      "token_number": 65,
+      "surface": "mid",
+      "lemma_id": "mid",
+      "form_ids": [
+        "mid-invariant-source"
+      ],
+      "sense_id": "mid-circumstance-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "supplied circumstance with loss; dative complement",
+      "support_ids": [
+        "U08-SRC-HELP11"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-loss-genitive",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "mid",
+          "record": {
+            "form_id": "mid-invariant-source",
+            "form": "mid",
+            "analysis": {
+              "source_analysis": "preposition with dative abstract noun; source manner supplied"
+            },
+            "production_taught_in": null,
+            "recognition_taught_in": null,
+            "supplied_in": [
+              "ch04",
+              "ch06"
+            ],
+            "knowledge_status": "supplied",
+            "scope_note": "Local supplied occurrence; no independent recall milestone.",
+            "evidence_refs": [
+              "U04-SRC-FB174",
+              "U04-SRC-LEX-mid",
+              "U04-SRC-TEXT166",
+              "U06-SRC-EXCERPT",
+              "U06-SRC-FB-305"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T066",
+      "token_number": 66,
+      "surface": "lyre",
+      "lemma_id": "lyre",
+      "form_ids": [
+        "lyre-dat-sg-source"
+      ],
+      "sense_id": "lyre-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "dative masculine singular after mid; ealra ðinga mīnra is its genitive dependent",
+      "support_ids": [
+        "U08-SRC-HELP11"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-loss-genitive",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "lyre-dat-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-lyre"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T067",
+      "token_number": 67,
+      "surface": "ealra",
+      "lemma_id": "eall",
+      "form_ids": [
+        "eall-gen-n-pl-strong"
+      ],
+      "sense_id": "eall-all",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "strong genitive neuter plural agrees with ðinga",
+      "support_ids": [
+        "U08-SRC-HELP11"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-loss-genitive",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u03-agreement"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "eall",
+          "record": {
+            "form_id": "eall-gen-n-pl-strong",
+            "form": "ealra",
+            "analysis": {
+              "case": "genitive",
+              "gender": "neuter",
+              "number": "plural",
+              "declension": "strong"
+            },
+            "production_taught_in": "ch07",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Promote existing actual24NGDA cells from prior recognition/supply. Preserve earlier milestones and aliases. Only ordinary whole/all attributive and source-selected uses; instrumental, adverbial ealle/ealles and weak forms unpromoted. eall keeps ll before vowels but ealne/ealre/ealra before consonantal endings.",
+            "evidence_refs": [
+              "U03-STRONG",
+              "U03-WRIGHT-USE",
+              "U07-LEX-eall",
+              "U07-C-57-62"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "eall",
+        "record": {
+          "sense_id": "eall-all",
+          "gloss": "all; whole",
+          "production_taught_in": "ch07",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [
+            "ch02",
+            "ch05"
+          ],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U02-R-SABBATH",
+            "U03-STRONG",
+            "U03-WRIGHT-USE",
+            "U04-SRC-TEXT165",
+            "U04-SRC-TEXT166",
+            "U05-SRC-EX-ALL",
+            "U05-SRC-FB-EALL-EFT",
+            "U05-SRC-SABBATH-COMPARISON",
+            "U07-LEX-eall",
+            "U07-C-89"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T068",
+      "token_number": 68,
+      "surface": "ðinga",
+      "lemma_id": "thing",
+      "form_ids": [
+        "thing-gen-pl"
+      ],
+      "sense_id": "thing-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "genitive neuter plural dependent of lyre loss",
+      "support_ids": [
+        "U08-SRC-HELP11"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-loss-genitive",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "genitive-relationship"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "thing",
+          "record": {
+            "form_id": "thing-gen-pl",
+            "form": "ðinga",
+            "analysis": {
+              "case": "genitive",
+              "number": "plural",
+              "gender": "neuter"
+            },
+            "production_taught_in": "ch03",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "",
+            "evidence_refs": [
+              "U03-S-EX-THING-THIRD",
+              "U03-S-FB-DICT318",
+              "U03-S-FB47"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "thing",
+        "record": {
+          "sense_id": "thing-1",
+          "gloss": "thing; in plural, things",
+          "production_taught_in": "ch03",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U03-S-EX-THING-THIRD",
+            "U03-S-FB-DICT318",
+            "U03-S-FB47"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T069",
+      "token_number": 69,
+      "surface": "mīnra",
+      "lemma_id": "min-poss",
+      "form_ids": [
+        "min-poss-gen-n-pl-strong"
+      ],
+      "sense_id": "min-poss-1",
+      "form_knowledge_status": "prior_production",
+      "sense_knowledge_status": "prior_production",
+      "contextual_analysis": "strong genitive neuter plural possessive agrees with ðinga",
+      "support_ids": [
+        "U08-SRC-HELP11"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-loss-genitive",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [
+        "u03-possessive-agreement",
+        "u03-possessor-reference"
+      ],
+      "actual_prior_form_records": [
+        {
+          "lemma_id": "min-poss",
+          "record": {
+            "form_id": "min-poss-gen-n-pl-strong",
+            "form": "mīnra",
+            "analysis": {
+              "case": "gen",
+              "gender": "n",
+              "number": "pl",
+              "declension": "strong",
+              "degree": "positive"
+            },
+            "production_taught_in": "ch03",
+            "recognition_taught_in": "ch03",
+            "supplied_in": [],
+            "knowledge_status": "new_production",
+            "scope_note": "Agreeing possessive adjective; separate lexical/syntactic record from the personal-pronoun genitive citation.",
+            "evidence_refs": [
+              "U03-POSSESSIVE",
+              "U03-STRONG",
+              "U03-WRIGHT-POSSESSIVE"
+            ]
+          }
+        }
+      ],
+      "actual_prior_sense_record": {
+        "lemma_id": "min-poss",
+        "record": {
+          "sense_id": "min-poss-1",
+          "gloss": "my; mine",
+          "production_taught_in": "ch03",
+          "recognition_taught_in": "ch03",
+          "supplied_in": [],
+          "knowledge_status": "new_production",
+          "scope_note": "",
+          "evidence_refs": [
+            "U03-POSSESSIVE",
+            "U03-STRONG",
+            "U03-WRIGHT-POSSESSIVE"
+          ]
+        }
+      },
+      "new_form_ids": [],
+      "new_sense": false,
+      "evidence_refs": [
+        "U08-SRC-READ129-130"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T070",
+      "token_number": 70,
+      "surface": "unēaðe",
+      "lemma_id": "uneathe",
+      "form_ids": [
+        "uneathe-invariant-source"
+      ],
+      "sense_id": "uneathe-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "adverb qualifying escape alive",
+      "support_ids": [
+        "U08-SRC-HELP12"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-escape-participle",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "uneathe-invariant-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-uneathe"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T071",
+      "token_number": 71,
+      "surface": "cwic",
+      "lemma_id": "cwic",
+      "form_ids": [
+        "cwic-nom-m-sg-strong-source"
+      ],
+      "sense_id": "cwic-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "predicative nominative masculine singular referring to ic",
+      "support_ids": [
+        "U08-SRC-HELP12"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-escape-participle",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "cwic-nom-m-sg-strong-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-cwic"
+      ]
+    },
+    {
+      "token_id": "U08-SRC-T072",
+      "token_number": 72,
+      "surface": "ætberstende",
+      "lemma_id": "aetberstan",
+      "form_ids": [
+        "aetberstan-present-part-nom-m-sg-source"
+      ],
+      "sense_id": "aetberstan-source",
+      "form_knowledge_status": "supplied",
+      "sense_knowledge_status": "supplied",
+      "contextual_analysis": "present participle nominative masculine singular; accompanying circumstance",
+      "support_ids": [
+        "U08-SRC-HELP12"
+      ],
+      "construction_dependencies": [
+        {
+          "feature_id": "u08-source-escape-participle",
+          "knowledge_status": "supplied"
+        }
+      ],
+      "prior_construction_refs": [],
+      "actual_prior_form_records": [],
+      "actual_prior_sense_record": null,
+      "new_form_ids": [
+        "aetberstan-present-part-nom-m-sg-source"
+      ],
+      "new_sense": true,
+      "evidence_refs": [
+        "U08-SRC-READ129-130",
+        "U08-LEX-aetberstan"
+      ]
+    }
+  ],
+  "validation_errors": [],
+  "audience": "author_only",
+  "pre_key_review_access": "Contains supplied source analyses that answer reading tasks; withhold until independent reviewer solutions are frozen."
+}

@@ -1,0 +1,132 @@
+{
+  "status": "passed_reconciled_pre_contract_design",
+  "chapter": "ch08",
+  "baseline_checkpoint": "eda6f87",
+  "baseline_preserved": true,
+  "counts": {
+    "tasks": 66,
+    "cook_tasks": 17,
+    "original_tasks": 49,
+    "teaching_examples": 16,
+    "controlled_readings": 1,
+    "controlled_reading_words": 62,
+    "public_composition_example_tokens": 199,
+    "private_model_and_paradigm_tokens": 424,
+    "source_reading_words": 72,
+    "source_support_groups": 12,
+    "original_source_notes": 15,
+    "logical_paradigms": 27,
+    "logical_paradigm_cells": 368,
+    "print_matrices": 36,
+    "print_form_cells": 361,
+    "printed_logical_form_cells_including_extra_references": 377,
+    "audited_inflection_rules": 13,
+    "pronoun_dispositions": 33,
+    "inventory_lemmas_touched": 52,
+    "new_lemma_ids": 39,
+    "forms_by_scope": {
+      "new_production": 293,
+      "new_recognition": 30,
+      "supplied": 30
+    },
+    "senses_by_scope": {
+      "new_production": 19,
+      "new_recognition": 1,
+      "supplied": 31
+    },
+    "features_by_scope": {
+      "new_production": 22,
+      "new_recognition": 3,
+      "supplied": 17
+    },
+    "new_distinct_form_ids": 343,
+    "new_distinct_sense_ids": 44,
+    "new_distinct_feature_ids": 42,
+    "promoted_prior_forms": 7,
+    "promoted_prior_senses": 2
+  },
+  "projected_register_totals_after_coordinator_integration": {
+    "lemmas": 328,
+    "forms": 4876,
+    "senses": 371,
+    "features": 322
+  },
+  "checks": {
+    "all17CookIDsAndPromptsExact": true,
+    "all66TasksAndKeysBijection": true,
+    "allRequiredIDsAndEvidenceResolve": true,
+    "allActualResponseTokensBoundToFormsAndSenses": true,
+    "noRecognitionOrSuppliedRecallInIndependentProduction": true,
+    "Cook13ExplicitLocalSupport": true,
+    "completePrintMatrixParity": true,
+    "allPriorContractsAndRegistersUnchanged": true,
+    "sourceTextAnd72TokenOrderExact": true,
+    "sourceImageHashesMatch": true,
+    "sourceSeaCaseAmbiguityPreserved": true,
+    "all16ExamplesAndReadingHaveIndependentAcceptance": true,
+    "sourceOriginal15NotesAnd12SupportsRetained": true,
+    "all13RulesAnd33ScopeDispositionsRetained": true,
+    "noUnusedBTAenigEvidenceClaim": true
+  },
+  "independent_check_hash_convention": {
+    "audited_original15ExampleSeedSHA256": "d28d33f1da487d2349b53acdc2c9fc56c7bba2c457282373ba87a5dd9bbce2df",
+    "final16ExampleSeedSHA256": "f6c975a1b4101f0f2983b6ccd1f7ca8456cce99400e6293aa849bd3bb967aefb",
+    "meaning": "The source public_seed_sha256 and grammar field named reading_text_sha256 both identify the complete pre-example16 seed file, not the isolated reading text. Removing only the appended example16 reproduces that exact identity. The final example16 is separately accepted by its exact text in both ledgers. No claim is made that the old hash identifies the revised whole seed.",
+    "new_example16_text": "Se mann, ðæs scip ic geseah, is gōd."
+  },
+  "pre_key_review_exclusions": [
+    "curriculum/proposals/unit08/author-only-models.json",
+    "sources/audits/unit08-source/exercise-requirements.json",
+    "sources/audits/unit08-source/author-only-reading-witness.json",
+    "sources/audits/unit08-source/composition-independent-check.json",
+    "sources/audits/unit08-source/cook-model-independent-check.json",
+    "sources/audits/unit08-source/reading-tokens.json",
+    "sources/audits/unit08-source/reading-construction-requirements.json"
+  ],
+  "author_only_sequence_boundary": "Public task dependencies are sorted sets. Ordered output-token sequences, paradigm answers and independent source/example translations remain in the private model files. Literal learner inputs and public teaching text retain their own ordered tokens.",
+  "artifact_sha256": {
+    "curriculum/proposals/unit08/inventory.json": "d13f17aa7108ba52e5248b09c5b5f38324bc1416b60b3302111eef63c5902a29",
+    "curriculum/proposals/unit08/task-plan.json": "379290e1db918fcb8fd6a683cd02098984668eb26fe3bd5686ce970551f40f30",
+    "curriculum/proposals/unit08/compositions.json": "dfa0cb42add288f1a28c4737eab1281337775ce85c5c2e95f16e00e90134c0bf",
+    "curriculum/proposals/unit08/display-matrices.json": "876806ab99e6f13057f6c120f8df70c0a0485820b78c1627f0c18531713e70c6",
+    "curriculum/proposals/unit08/author-only-models.json": "a4d7ea8f2e7772f316b4d1f4ca0d163f546756b4c9c2f7b6dad97f982c5c162a",
+    "curriculum/proposals/unit08/prior-audit.json": "1045d2c2f59fec9aaf39c32b4320f965025234c8d58b7984e22efae9876b035b",
+    "curriculum/proposals/unit08/source-crosscheck.json": "3dd00c010f7c1ae4e29155e655a7d479dd6c7e3fc1027c9927b06e7e1812ebdc",
+    "curriculum/proposals/unit08/composition-seed.json": "f6c975a1b4101f0f2983b6ccd1f7ca8456cce99400e6293aa849bd3bb967aefb",
+    "curriculum/proposals/unit08/task-seed.json": "dd135540b3af4f8dbd712dab4b709e5b25c046965a5cac726b7f7f41a685ef48",
+    "curriculum/proposals/unit08/design-outline.md": "96d50d399bbab95ca993792d7c6ac0c9dc261e6d28f5f2ba6dacac91d616f387"
+  },
+  "audit_input_sha256": {
+    "sources/audits/unit08-grammar/bt-image-downloads.json": "18b99ab043e771a9bef638e8a78c6ec7bb4e1bfc7ceba1b717e7f637b18cc025",
+    "sources/audits/unit08-grammar/composition-check.json": "b1a76e1fee4fbf7210bd5f54e969f150878f32eed55e34cde3718a9ecc4bd75c",
+    "sources/audits/unit08-grammar/evidence-catalog.json": "a5db5a475cb3fb1894e3d20d201127c54cc99c3ed5e882a277f0e98ce00dafa3",
+    "sources/audits/unit08-grammar/grammar-records.json": "0973443951bc128d55547e47118062d97660dc4275c3fd1aaaf40b02da47042e",
+    "sources/audits/unit08-grammar/image-evidence.json": "a56b83fc3066dcf01e7036e6a73267f6f7dddbe53df0ab7fa4a5dff979a5f87c",
+    "sources/audits/unit08-grammar/inflection-rules.json": "1138896c81f09261e8f57a396dd2968d24b094134d0e93dc6e48b2011cc706fb",
+    "sources/audits/unit08-grammar/pronoun-dispositions.json": "256845afc2845c6b94d0be0844f5828c34fab10672c9b844a9d8ed038967402f",
+    "sources/audits/unit08-grammar/pronoun-systems.json": "40bf690e72d9c32d944f87c7d4eb2cf9a3e0b77f16dc949616cb3eb3ec70c89a",
+    "sources/audits/unit08-grammar/rendered-images.json": "d00c62be77e669a3569429bf569cb4f0e6d4f119c5015d103409f987c278bb1a",
+    "sources/audits/unit08-grammar/validation.json": "b8815575768db4aa21f93a19c9afa02a138b3fe2046a76b0468bbc619f30cd36",
+    "sources/audits/unit08-grammar/verb-noun-systems.json": "7ce3adb4ea30c8f773ba82121f8b6af878cff36d8ef8876056a9c7b8d59e58f7",
+    "sources/audits/unit08-source/composition-independent-check.json": "0923dfc743d6d5a9796b70f414c607c05b315f5a8292d1f1a4aebc678b552a12",
+    "sources/audits/unit08-source/cook-model-independent-check.json": "bc8580931a668dfa2ce7d86fa338da6e522410ab31417263e2a842159d21c95c",
+    "sources/audits/unit08-source/evidence-catalog.json": "4925ac02e3cb21dfe1c6c529c63ff4b2bd81420f270b36d022dd3db168c89549",
+    "sources/audits/unit08-source/evidence.json": "0ec6d42fabc77d468089593e21fecf8d06db41445c6f902c0c199a48a28fa3d2",
+    "sources/audits/unit08-source/exercise-requirements.json": "be6c14bf1ed2519ff0f0270eca3d696b597bcd19f7b8bfd66b1e586aac52c9b8",
+    "sources/audits/unit08-source/exercises-prompts.json": "d4bc2e4620fa590d3aa40127036f47db41eb526bbea4b1d438e3a86d3d644ad8",
+    "sources/audits/unit08-source/lexical-metadata.json": "8fac220e42ba1d925cc72e31030b251c7d681ab8c453915ce964a7046e44ee3d",
+    "sources/audits/unit08-source/reading-construction-requirements.json": "4ca172bf57d7a7a636f4555ff7396ff653267f952409d2c5910e0c4dcd509b2b",
+    "sources/audits/unit08-source/reading-source.json": "fe9c20d1558882de55eb28e13310219c2aaafabbf9602ad23818c66d51ba911e",
+    "sources/audits/unit08-source/reading-support.json": "be17bcdbe75d99559287c2292305f236dc931194ae69c893d31fd3549bf8b268",
+    "sources/audits/unit08-source/reading-tokens.json": "6c061f6d70b26da08ccc8cb8b127cf764b63f9f4dec6d7f4c2f3ddf72aca4c1c",
+    "sources/audits/unit08-source/rendered-images.json": "72571ad4be04f2744574088a3a59e768d26aa3f32df8630c5ddb7f995c7d7565",
+    "sources/audits/unit08-source/review-exposure.json": "c94555b00ddaeb88d50085ac5677e1547d06fe593dc60d6712e62a8d212b5a33",
+    "sources/audits/unit08-source/validation.json": "877da191f316edd761e2de87425d7b8852d712d4c67c444e15a26e1d99aa2981"
+  },
+  "errors": [],
+  "limits": [
+    "Mechanical validation does not replace independent linguistic review of the actual learner and key.",
+    "This is the complete design proposal, not the canonical coverage contract or a completed chapter. No learner/key masters, shared registers, Beads state or prior/archive files were written by this worker.",
+    "The ignored compiler is a guarded pre-contract assembler. Do not rerun it after prior-register integration changes without an explicit new reconciliation."
+  ]
+}
