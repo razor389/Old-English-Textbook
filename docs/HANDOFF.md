@@ -2,7 +2,9 @@
 
 ## Unit 8 complete
 
-The user's requested Unit 8 is complete; Units 1–8 now have reviewed learner/key masters, full LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are ready for their local checkpoint. The main [README](../README.md) and [typesetting index](../typesetting/README.md) include Unit 8. Do not draft Unit 9 without a new request.
+The user's requested Unit 8 is complete; Units 1–8 now have reviewed learner/key masters, full LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`d36f134`**. The main [README](../README.md) and [typesetting index](../typesetting/README.md) include Unit 8. Do not draft Unit 9 without a new request.
+
+The Unit 8 epic and all eight stage issues are closed and exported. This subsequent handoff checkpoint records final closure and completion metadata without changing the accepted masters, PDFs, page ledgers or integrated registers.
 
 The [contract](../chapters/ch08/coverage.json) preceded prose at **`8751984`**; full drafts were saved at **`d20c6d5`**. All 66 [independent pre-key solutions](../chapters/ch08/independent-solutions.md) were frozen at **`9763993`**, before the reviewer opened the separate key or the seven private source/model files. The reviewer authored neither master and discloses prior grammar-audit/public-example work. [Review](../chapters/ch08/review.md) and its [ledger](../chapters/ch08/review-ledger.json) accept all tasks, 27 paradigms / 368 cells, rules, source material and dependencies. Accepted text was saved at **`72ee930`**. No material finding remains open.
 
@@ -33,7 +35,7 @@ The canonical numbered Cook crosswalk is **130 assigned / 514 deferred / none ex
 | 5 | fc29cf9 | 7bbb334 | 37a52c3 | 45fa02e | 25 / 21 |
 | 6 | 3bfc05e | 3955a2a | ce4ee34 | 47b92a4 | 25 / 28 |
 | 7 | 74404d8 | 089039d | b186c8b | eda6f87 | 37 / 30 |
-| 8 | 8751984 | 72ee930 | Checkpoint pending | This handoff checkpoint | 30 / 24 |
+| 8 | 8751984 | 72ee930 | d36f134 | This handoff checkpoint | 30 / 24 |
 
 Earlier chapters, contracts, reviews, exports and teaching histories remain unchanged. The archived experiment is reusable evidence, not the active syllabus.
 

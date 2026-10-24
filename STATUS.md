@@ -1,6 +1,6 @@
 # Status
 
-Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–8 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are ready for their local checkpoint. Unit 9 has not been drafted.
+Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–8 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`d36f134`**. Unit 9 has not been drafted.
 
 ## Completed Unit 8
 
@@ -23,7 +23,7 @@ Checkpoints: contract before prose **`8751984`**, complete drafts **`d20c6d5`**,
 | [5](typesetting/ch05/README.md) | Strong verbs IV–VII | 25 / 21 | 37a52c3 |
 | [6](typesetting/ch06/README.md) | Frequent irregular verbs, infinitives and commands | 25 / 28 | ce4ee34 |
 | [7](typesetting/ch07/README.md) | Subjunctive, participles and passive | 37 / 30 | b186c8b |
-| [8](typesetting/ch08/README.md) | Questions and relative clauses | 30 / 24 | Checkpoint pending |
+| [8](typesetting/ch08/README.md) | Questions and relative clauses | 30 / 24 | d36f134 |
 
 Every unit retains its evidence, coverage contract, separate key, independent solutions/review, full TeX/PDFs and page ledger. Earlier units and archived evidence remain unchanged.
 

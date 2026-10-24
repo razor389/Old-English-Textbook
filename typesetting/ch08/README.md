@@ -38,4 +38,4 @@ Render every page with Ghostscript's `png16m` device and `-r150 -dTextAlphaBits=
 
 Retained TeX is authoritative for rebuilding. The one-use assembly/parity aids under ignored `build/` directories are not required generators; reassembly can discard reviewed presentation adjustments. PDF metadata can change during rebuilding. Replace a retained PDF only after complete content and page review.
 
-Checkpoints: contract before prose **`8751984`**, full drafts **`d20c6d5`**, frozen pre-key solutions **`9763993`**, accepted text **`72ee930`**. Complete exports and reviewed registers are ready for their local checkpoint. The [handoff](../../docs/HANDOFF.md) records final Beads closure and completion metadata.
+Checkpoints: contract before prose **`8751984`**, full drafts **`d20c6d5`**, frozen pre-key solutions **`9763993`**, accepted text **`72ee930`**. Complete exports and reviewed registers are saved at **`d36f134`**. The [handoff](../../docs/HANDOFF.md) records final Beads closure and completion metadata.
