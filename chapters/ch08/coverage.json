@@ -84721,6 +84721,16 @@
       },
       "linguistic_or_assignment_change": false,
       "verification": "Independent reviewer verified that the two source-proposal aliases identify the canonical forms already selected before prose; see the full review ledger."
+    },
+    {
+      "amendment_id": "U08-C02",
+      "kind": "editorial_prose_clarification",
+      "status": "resolved_verified",
+      "date": "2026-10-24",
+      "prior_text_checkpoint": "117f3c5",
+      "description": "Remove numbered from the introductory reference to examples, because their internal IDs are not printed as visible numbers. No example, task, form, source text or teaching scope changes.",
+      "linguistic_or_assignment_change": false,
+      "verification": "Independent reviewer verified the exact one-word deletion against the original accepted learner hash, unchanged substantive contract, task/table/source content and frozen witness."
     }
   ],
   "validation_at_contract": {
@@ -85942,12 +85952,12 @@
     "reviewer": "unit08_grammar",
     "record": "chapters/ch08/review.md",
     "ledger": "chapters/ch08/review-ledger.json",
-    "review_record_sha256": "2f3ed5f11459abea555c17b81d3f43f0e6e4733b14ad2b9dbab4e581fdcc8c61",
-    "review_ledger_sha256": "236280834f22ecba5bc4294451dbae998a75ffe17d13f9149ce47fed7d7c2127",
+    "review_record_sha256": "e11aea1cb2f559f147eb6be59f5804841d87a017d9dadd6288f2abdf710f1fff",
+    "review_ledger_sha256": "630e8b8523ba8da29d3c76879846203f2ae6734c1e57f7d3372e91c7ffa763a8",
     "accepted_artifacts": {
       "student.md": {
-        "sha256": "0cb0a50c5b86557c7977f903ad49fc7dd367d5f755456808b8f20c3785dd8018",
-        "sha256_normalized_lf": "0cb0a50c5b86557c7977f903ad49fc7dd367d5f755456808b8f20c3785dd8018"
+        "sha256": "1b0ba8a7bc9fd6f7ad3b64c6958c45ecb7486fe8618eba82cc005cac48f14ba1",
+        "sha256_normalized_lf": "1b0ba8a7bc9fd6f7ad3b64c6958c45ecb7486fe8618eba82cc005cac48f14ba1"
       },
       "answer-key.md": {
         "sha256": "41f74e8c6e77abdc6b0f491d4efb95a214d49d4ed60a3572280d9802d562e4f6",
@@ -86033,13 +86043,14 @@
       "note": "Acceptance identities contain only learner, key and frozen independent solutions. Raw coverage identity is separate. Only excluded top-level lifecycle fields may change without changing this identity. All substantive top-level values are hashed verbatim, including nested knowledge_status and valid_unselected_variant records."
     },
     "accepted_contract_artifact_at_review": {
-      "sha256": "1129227da9ab74d3729667c65b8392c2e0f8a2e2b51e8820ede335e8f118ac1d",
-      "sha256_normalized_lf": "1129227da9ab74d3729667c65b8392c2e0f8a2e2b51e8820ede335e8f118ac1d"
+      "sha256": "88c049a415da53c18ae94d8ff2b26536c4148edbe9992064e1ede5d88a4b9fad",
+      "sha256_normalized_lf": "88c049a415da53c18ae94d8ff2b26536c4148edbe9992064e1ede5d88a4b9fad"
     },
     "identity_scope_note": "Immutable text identities cover the two masters and frozen pre-key solutions. The separately retained raw contract identity records review-time metadata; the substantive accepted hash protects the learning contract through later completion metadata updates.",
     "independent_solutions_checkpoint": "9763993",
     "independence": "Reviewer authored neither master, solved all 66 actual tasks before key/private-answer access, and disclosed prior grammar-audit and public-example inspection.",
     "material_open_findings": 0,
     "scope_limit": "Accepts the identified text and substantive contract; full exports, every-page inspection and register integration remain separate."
-  }
+  },
+  "accepted_text_checkpoint": "117f3c5"
 }

@@ -4,7 +4,7 @@ This unit gives direct questions, the remaining selected pronoun and pronominal-
 
 Tables distinguish singular and plural, masculine, neuter and feminine, and nominative, genitive, dative and accusative. In verb tables, **1**, **2** and **3** mean first, second and third person. A row labelled “persons 1, 2, 3” includes every person in that number. Dual subjects take plural finite forms. Forms labelled **reference** are for recognition; their display does not require independent use of a new construction. Preserve vowel length and the distinction between e and ę.
 
-The numbered examples and “The ship and the fish” are new teaching material. The merchant dialogue is an exact source excerpt with separate local help and original notes.
+The examples and “The ship and the fish” are new teaching material. The merchant dialogue is an exact source excerpt with separate local help and original notes.
 
 ## 1. Direct questions
 

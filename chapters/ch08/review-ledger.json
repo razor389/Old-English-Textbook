@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "chapter_id": "ch08",
-  "review_date": "2026-10-23",
+  "review_date": "2026-10-24",
   "phase": 2,
   "status": "accepted_pre_export",
   "reviewer": "unit08_grammar",
@@ -25,8 +25,8 @@
   "accepted_artifact_identities": [
     {
       "path": "chapters/ch08/student.md",
-      "raw_sha256": "0cb0a50c5b86557c7977f903ad49fc7dd367d5f755456808b8f20c3785dd8018",
-      "normalized_lf_sha256": "0cb0a50c5b86557c7977f903ad49fc7dd367d5f755456808b8f20c3785dd8018"
+      "raw_sha256": "1b0ba8a7bc9fd6f7ad3b64c6958c45ecb7486fe8618eba82cc005cac48f14ba1",
+      "normalized_lf_sha256": "1b0ba8a7bc9fd6f7ad3b64c6958c45ecb7486fe8618eba82cc005cac48f14ba1"
     },
     {
       "path": "chapters/ch08/answer-key.md",
@@ -41,8 +41,8 @@
   ],
   "contract_raw_identity": {
     "path": "chapters/ch08/coverage.json",
-    "raw_sha256": "1129227da9ab74d3729667c65b8392c2e0f8a2e2b51e8820ede335e8f118ac1d",
-    "normalized_lf_sha256": "1129227da9ab74d3729667c65b8392c2e0f8a2e2b51e8820ede335e8f118ac1d"
+    "raw_sha256": "88c049a415da53c18ae94d8ff2b26536c4148edbe9992064e1ede5d88a4b9fad",
+    "normalized_lf_sha256": "88c049a415da53c18ae94d8ff2b26536c4148edbe9992064e1ede5d88a4b9fad"
   },
   "accepted_contract_semantic_identity": {
     "keys": [
@@ -19427,7 +19427,41 @@
         "U05-I",
         "U06-SRC-FB-52"
       ]
+    },
+    {
+      "finding_id": "U08-C02",
+      "kind": "editorial_prose_clarification",
+      "status": "resolved_verified",
+      "issue": "The opening phrase called the examples numbered although their internal IDs are not printed as visible numbers.",
+      "resolution": "Verified removal of numbered as the sole learner edit by restoring it once and reproducing the original accepted SHA256. All66 task hashes,36 tables,source material,key and frozen solutions remain unchanged; semantic contract hash is identical. Renewed text acceptance does not close the separate page-layout finding.",
+      "material_open": false
     }
   ],
-  "acceptance_limit": "Accepted text and semantic contract before export. This review does not certify exported pagination, font glyphs, every PDF page, final register integration or repository completion; the coordinator must complete those remaining export and closure gates. Any substantive change to the accepted artifacts or semantic payload requires renewed review."
+  "acceptance_limit": "Accepted text and semantic contract before export. This review does not certify exported pagination, font glyphs, every PDF page, final register integration or repository completion; the coordinator must complete those remaining export and closure gates. Any substantive change to the accepted artifacts or semantic payload requires renewed review.",
+  "initial_acceptance_checkpoint": "117f3c5",
+  "reacceptances": [
+    {
+      "amendment_id": "U08-C02",
+      "date": "2026-10-24",
+      "initial_acceptance_checkpoint": "117f3c5",
+      "previous_accepted_student_sha256": "0cb0a50c5b86557c7977f903ad49fc7dd367d5f755456808b8f20c3785dd8018",
+      "new_accepted_student_sha256": "1b0ba8a7bc9fd6f7ad3b64c6958c45ecb7486fe8618eba82cc005cac48f14ba1",
+      "reconstructed_original_student_sha256": "0cb0a50c5b86557c7977f903ad49fc7dd367d5f755456808b8f20c3785dd8018",
+      "change": "Single deletion of numbered from The numbered examples in the opening declaration.",
+      "all66_task_block_hashes_unchanged": true,
+      "all36_tables_16examples_12helps_15notes_and_both_readings_unchanged": true,
+      "complete_other_bytes_unchanged_by_reconstruction": true,
+      "answer_key_and_frozen_solutions_unchanged": true,
+      "phase1_student_hash_preserved": true,
+      "semantic_contract_sha256_unchanged": "bd78ca4ed4568001c091bf773e65d4b0c32d3124b674e2ad4f57f246ca58057c",
+      "status": "accepted_pre_export"
+    }
+  ],
+  "prior_contract_raw_identities": [
+    {
+      "path": "chapters/ch08/coverage.json",
+      "raw_sha256": "1129227da9ab74d3729667c65b8392c2e0f8a2e2b51e8820ede335e8f118ac1d",
+      "normalized_lf_sha256": "1129227da9ab74d3729667c65b8392c2e0f8a2e2b51e8820ede335e8f118ac1d"
+    }
+  ]
 }
