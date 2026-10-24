@@ -2,7 +2,7 @@
 
 ## Active Unit 8
 
-The user has requested Unit 8. Root coordinates `oec-u08` and remains the sole Beads writer. Source, grammar and curriculum audits are accepted and frozen in their exclusive directories. `curriculum/UNIT_08_BRIEF.md` and `chapters/ch08/coverage.json` are reconciled before prose. Save the contract checkpoint before separate learner/key authorship, then independent pre-key solving, full exports and every-page inspection, register integration and local checkpoints. Do not draft Unit 9.
+The user has requested Unit 8. Root coordinates `oec-u08` and remains the sole Beads writer. Source, grammar and curriculum audits are accepted and frozen in their exclusive directories. `curriculum/UNIT_08_BRIEF.md` and `chapters/ch08/coverage.json` preceded prose at **`8751984`**. Separate authors completed the full learner and key; all draft parity checks pass. Independent pre-key solving is next, followed by full review, exports and every-page inspection, register integration and local checkpoints. Do not draft Unit 9.
 
 The contract contains 66 tasks, including all seventeen exact Cook I.8 prompts; 16 examples; 27 logical paradigms / 368 cells in 36 print matrices; and 13 rules with 33 family dispositions. Read the 62-word new dialogue independently and the exact 72-word, four-turn merchant opening with its 12 helps and 15 notes. All dependencies resolve. The seven files listed in the contract's `pre_key_review_exclusions` must remain closed to the independent reviewer until solutions are frozen. Initial composition hashes identify the 15-example seed; exact separate checks accept the later genitive-relative example, as documented in design validation.
 

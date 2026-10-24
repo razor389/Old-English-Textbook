@@ -84707,7 +84707,21 @@
     "finish": "oec-u08-finish"
   },
   "review_status": "not_yet_drafted",
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": "U08-C01",
+      "kind": "source_proposal_id_reconciliation",
+      "status": "recorded_for_independent_review",
+      "date": "2026-10-23",
+      "base_contract_checkpoint": "8751984",
+      "description": "Record two source-editor provisional form-ID aliases for Cook I.8.12/15. All selected surfaces, analyses, requirements, teaching scopes and tasks were already present in the pre-prose contract and remain unchanged.",
+      "form_id_aliases": {
+        "aeteowian-present-subj-3-sg": "aeteowian-pres-subj-3-sg",
+        "scinan-present-subj-3-pl": "scinan-pres-subj-3-pl"
+      },
+      "linguistic_or_assignment_change": false
+    }
+  ],
   "validation_at_contract": {
     "tasks": 66,
     "cook_tasks": 17,
@@ -84757,7 +84771,10 @@
     "registers_integrated": false,
     "pdfs_inspected": false
   },
-  "form_id_aliases": {},
+  "form_id_aliases": {
+    "aeteowian-present-subj-3-sg": "aeteowian-pres-subj-3-sg",
+    "scinan-present-subj-3-pl": "scinan-pres-subj-3-pl"
+  },
   "form_identity_reconciliation": [
     {
       "form_id": "other-nom-m-sg-strong",
@@ -85897,5 +85914,23 @@
   ],
   "independent_composition_review": "sources/audits/unit08-source/composition-independent-check.json",
   "independent_cook_review": "sources/audits/unit08-source/cook-model-independent-check.json",
-  "review_independence": "The reviewer first solves the actual learner tasks and freezes the solutions. Do not open any of the seven listed solution-bearing files or derived key material before that freeze; source audit filenames are not a guarantee that they contain no solutions."
+  "review_independence": "The reviewer first solves the actual learner tasks and freezes the solutions. Do not open any of the seven listed solution-bearing files or derived key material before that freeze; source audit filenames are not a guarantee that they contain no solutions.",
+  "source_form_reconciliation": [
+    {
+      "audit_record": "sources/audits/unit08-source/exercise-requirements.json",
+      "source_item_id": "EX-I-08-12",
+      "proposed_form_id": "aeteowian-present-subj-3-sg",
+      "canonical_form_id": "aeteowian-pres-subj-3-sg",
+      "selected_surface": "ætēowie",
+      "decision": "The source-editor proposal spells the tense component present; the existing contracted identity spells it pres. Same selected form and analysis; no new teaching, task or surface change."
+    },
+    {
+      "audit_record": "sources/audits/unit08-source/exercise-requirements.json",
+      "source_item_id": "EX-I-08-15",
+      "proposed_form_id": "scinan-present-subj-3-pl",
+      "canonical_form_id": "scinan-pres-subj-3-pl",
+      "selected_surface": "scīnen",
+      "decision": "The source-editor proposal spells the tense component present; the existing contracted identity spells it pres. Same selected form and analysis; no new teaching, task or surface change."
+    }
+  ]
 }
