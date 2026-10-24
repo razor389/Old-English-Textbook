@@ -1,6 +1,12 @@
 # Status
 
-Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–8 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`d36f134`**. Unit 9 has not been drafted.
+Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–8 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`d36f134`**. Unit 9 is requested and its independent source, grammar and curriculum audits are in progress; its contract and prose are not yet drafted.
+
+## Active Unit 9
+
+The planned unit is complements and reported content: content clauses, dependent questions, infinitive complements and object/predicate constructions. All **64 original Cook II.9–12 prompts** are planned together. Independent audits will settle each dependency and a connected *Trades and Occupations* passage before assignment. Earlier reading help creates no teaching milestone.
+
+The coordinator alone updates Beads and shared files. Workers exclusively own `sources/audits/unit09-source/`, `sources/audits/unit09-grammar/` and `curriculum/proposals/unit09/`. The immutable baseline at **`cb687a9`** captures all eight contracts, the actual registers, **935 earlier active artifacts** and **134 archived files**. The [prior-state record](sources/audits/unit09-coordinator/prior-state.json) retains their identities. Current assignments remain **130 assigned / 514 deferred** until the new contract resolves them. Complete Unit 9 through independent solving, review, full exports, every-page inspection and preserved register integration before another unit.
 
 ## Completed Unit 8
 

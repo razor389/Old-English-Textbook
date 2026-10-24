@@ -1,8 +1,16 @@
 # Handoff to the next session
 
+## Active Unit 9
+
+The user has requested Unit 9. Root coordinates `oec-u09` and is the sole Beads writer. The source, grammar and curriculum tasks are in progress with exclusive directories `sources/audits/unit09-source/`, `sources/audits/unit09-grammar/` and `curriculum/proposals/unit09/`. Reconcile their evidence in `curriculum/UNIT_09_BRIEF.md` and `chapters/ch09/coverage.json`, and checkpoint the contract before prose. Then complete separate learner/key authorship, independent pre-key solving, linguistic review, full LuaLaTeX exports and every-page inspection, preserved register integration and local checkpoints. Do not draft Unit 10.
+
+Complements and reported content are the planned core. Preserve all **64 Cook II.9–12 prompts** exactly. A coherent four-turn *Choice of Occupations* exchange on Cook p.131 is under source audit; it is not yet assigned. The preceding merchant goods catalogue and price exchange need not be assigned to select a later coherent excerpt. Audit actual images, explicit form/sense/construction dependencies and complete selected paradigms. Supplied and recognition material remains bounded unless deliberately promoted.
+
+The immutable ignored `build/unit09-prior-baseline.json` captures actual state at **`cb687a9`**: all eight contracts, **328 lemmas, 4,876 forms, 371 senses and 322 constructions**, with **935 earlier active artifacts** and **134 archived files**. Do not overwrite it. Compact `build/unit09-prior-*-read.*` files are reading aids, not assignment authorities. The retained `sources/audits/unit09-coordinator/prior-state.json` records prior identities. The Cook crosswalk remains **130 assigned / 514 deferred** until the new contract explicitly resolves assignments.
+
 ## Unit 8 complete
 
-The user's requested Unit 8 is complete; Units 1–8 now have reviewed learner/key masters, full LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`d36f134`**. The main [README](../README.md) and [typesetting index](../typesetting/README.md) include Unit 8. Do not draft Unit 9 without a new request.
+The user's requested Unit 8 is complete; Units 1–8 now have reviewed learner/key masters, full LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`d36f134`**. The main [README](../README.md) and [typesetting index](../typesetting/README.md) include Unit 8. The new Unit 9 request is now active as described above.
 
 The Unit 8 epic and all eight stage issues are closed and exported. This subsequent handoff checkpoint records final closure and completion metadata without changing the accepted masters, PDFs, page ledgers or integrated registers.
 
