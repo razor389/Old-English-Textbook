@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch08",
   "title": "Questions and relative clauses",
-  "status": "drafts_complete_independent_review",
+  "status": "text_accepted_exports_pending",
   "contract_date": "2026-10-23",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -84706,12 +84706,12 @@
     "typeset": "oec-u08-typeset",
     "finish": "oec-u08-finish"
   },
-  "review_status": "pre_key_solutions_frozen",
+  "review_status": "accepted_pre_export",
   "amendments": [
     {
       "amendment_id": "U08-C01",
       "kind": "source_proposal_id_reconciliation",
-      "status": "recorded_for_independent_review",
+      "status": "resolved_verified",
       "date": "2026-10-23",
       "base_contract_checkpoint": "8751984",
       "description": "Record two source-editor provisional form-ID aliases for Cook I.8.12/15. All selected surfaces, analyses, requirements, teaching scopes and tasks were already present in the pre-prose contract and remain unchanged.",
@@ -84719,7 +84719,8 @@
         "aeteowian-present-subj-3-sg": "aeteowian-pres-subj-3-sg",
         "scinan-present-subj-3-pl": "scinan-pres-subj-3-pl"
       },
-      "linguistic_or_assignment_change": false
+      "linguistic_or_assignment_change": false,
+      "verification": "Independent reviewer verified that the two source-proposal aliases identify the canonical forms already selected before prose; see the full review ledger."
     }
   ],
   "validation_at_contract": {
@@ -85934,5 +85935,111 @@
     }
   ],
   "contract_checkpoint": "8751984",
-  "complete_drafts_checkpoint": "d20c6d5"
+  "complete_drafts_checkpoint": "d20c6d5",
+  "independent_solutions_checkpoint": "9763993",
+  "textual_review": {
+    "status": "accepted",
+    "reviewer": "unit08_grammar",
+    "record": "chapters/ch08/review.md",
+    "ledger": "chapters/ch08/review-ledger.json",
+    "review_record_sha256": "2f3ed5f11459abea555c17b81d3f43f0e6e4733b14ad2b9dbab4e581fdcc8c61",
+    "review_ledger_sha256": "236280834f22ecba5bc4294451dbae998a75ffe17d13f9149ce47fed7d7c2127",
+    "accepted_artifacts": {
+      "student.md": {
+        "sha256": "0cb0a50c5b86557c7977f903ad49fc7dd367d5f755456808b8f20c3785dd8018",
+        "sha256_normalized_lf": "0cb0a50c5b86557c7977f903ad49fc7dd367d5f755456808b8f20c3785dd8018"
+      },
+      "answer-key.md": {
+        "sha256": "41f74e8c6e77abdc6b0f491d4efb95a214d49d4ed60a3572280d9802d562e4f6",
+        "sha256_normalized_lf": "41f74e8c6e77abdc6b0f491d4efb95a214d49d4ed60a3572280d9802d562e4f6"
+      },
+      "independent-solutions.md": {
+        "sha256": "bbd4d0fcc2234ae6b77ca9971fd9d915783fc0539146ef6708c27e416bb94440",
+        "sha256_normalized_lf": "bbd4d0fcc2234ae6b77ca9971fd9d915783fc0539146ef6708c27e416bb94440"
+      }
+    },
+    "counts": {
+      "tasks": 66,
+      "original_tasks": 49,
+      "cook_tasks": 17,
+      "logical_paradigms": 27,
+      "logical_paradigm_cells_checked": 368,
+      "physical_morphology_matrices": 36,
+      "new_examples": 16,
+      "new_account_words": 62,
+      "source_paragraph_words": 72,
+      "source_supports": 12,
+      "source_notes": 15,
+      "audited_inflection_rules": 13,
+      "pronoun_family_dispositions": 33,
+      "prior_form_references": 180,
+      "prior_sense_references": 78,
+      "prior_feature_references": 48,
+      "earlier_files_checked": 825,
+      "archive_files_hash_checked": 134,
+      "teaching_markers": 123,
+      "earlier_grammar_images_hash_verified": 35,
+      "fresh_phase2_images": 26,
+      "resolved_evidence_refs": 239,
+      "material_open_findings": 0
+    },
+    "accepted_contract_semantic_identity": {
+      "keys": [
+        "prerequisite_chapters",
+        "prior_teaching_boundary",
+        "productive_outcomes",
+        "recognition_outcomes",
+        "bounded_scope",
+        "audited_inflection_rules",
+        "pronoun_family_dispositions",
+        "audit_recommendation_precedence",
+        "display_plan",
+        "source_assignment_policy",
+        "assigned_items",
+        "key_item_ids",
+        "deferred_source_items",
+        "excluded_source_items",
+        "source_alias_assignments",
+        "source_spans",
+        "paradigms",
+        "teaching_records",
+        "new_material_examples",
+        "new_compositions",
+        "lexical_inventory",
+        "grammar_inventory",
+        "prior_requirements",
+        "evidence_catalog",
+        "analysis_inputs",
+        "form_id_aliases",
+        "form_identity_reconciliation",
+        "sense_id_aliases",
+        "construction_id_aliases",
+        "source_apparatus",
+        "source_form_reconciliation",
+        "authoring_rules",
+        "independent_composition_review",
+        "independent_cook_review"
+      ],
+      "excluded_top_level_lifecycle_keys": [
+        "amendments",
+        "complete_drafts_checkpoint",
+        "completion",
+        "contract_checkpoint",
+        "review_status",
+        "status"
+      ],
+      "canonicalization": "UTF-8 JSON of the explicit substantive top-level keys VERBATIM; ensure_ascii=False; sort_keys=True; separators comma/colon. No recursive filtering; nested status and variant records are protected.",
+      "sha256": "bd78ca4ed4568001c091bf773e65d4b0c32d3124b674e2ad4f57f246ca58057c",
+      "note": "Acceptance identities contain only learner, key and frozen independent solutions. Raw coverage identity is separate. Only excluded top-level lifecycle fields may change without changing this identity. All substantive top-level values are hashed verbatim, including nested knowledge_status and valid_unselected_variant records."
+    },
+    "accepted_contract_artifact_at_review": {
+      "sha256": "1129227da9ab74d3729667c65b8392c2e0f8a2e2b51e8820ede335e8f118ac1d",
+      "sha256_normalized_lf": "1129227da9ab74d3729667c65b8392c2e0f8a2e2b51e8820ede335e8f118ac1d"
+    },
+    "identity_scope_note": "Immutable text identities cover the two masters and frozen pre-key solutions. The separately retained raw contract identity records review-time metadata; the substantive accepted hash protects the learning contract through later completion metadata updates.",
+    "independent_solutions_checkpoint": "9763993",
+    "independence": "Reviewer authored neither master, solved all 66 actual tasks before key/private-answer access, and disclosed prior grammar-audit and public-example inspection.",
+    "material_open_findings": 0,
+    "scope_limit": "Accepts the identified text and substantive contract; full exports, every-page inspection and register integration remain separate."
+  }
 }
