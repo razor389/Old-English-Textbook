@@ -1,0 +1,109 @@
+{
+  "chapter_id": "ch08",
+  "status": "accepted",
+  "baseline_checkpoint": "eda6f87dad82718d19a31f8e0d64ed43fd062dcf",
+  "method": "Deep comparison against the immutable seven-unit baseline: every unassigned record unchanged, every old per-chapter record and earliest milestone preserved, evidence and source contracts preserved, existing surfaces identical, metadata history retained, new records equal accepted coverage.",
+  "metrics": {
+    "before": {
+      "lemmas": 289,
+      "forms": 4533,
+      "senses": 327,
+      "features": 280
+    },
+    "after": {
+      "lemmas": 328,
+      "forms": 4876,
+      "senses": 371,
+      "features": 322
+    },
+    "unit08_status_counts": {
+      "forms": {
+        "new_production": 293,
+        "new_recognition_only": 30,
+        "supplied_here": 30
+      },
+      "senses": {
+        "new_production": 19,
+        "new_recognition_only": 1,
+        "supplied_here": 31
+      },
+      "features": {
+        "new_production": 22,
+        "new_recognition_only": 3,
+        "supplied_here": 17
+      }
+    }
+  },
+  "earlier_records_preserved": {
+    "forms": 4533,
+    "senses": 327,
+    "features": 280
+  },
+  "explicit_prior_promotions": {
+    "forms": [
+      "lif-nom-pl",
+      "lif-gen-pl",
+      "lif-dat-pl",
+      "lif-acc-pl",
+      "the-relative-invariant",
+      "scinan-pres-subj-3-pl",
+      "scinan-pret-subj-3-pl"
+    ],
+    "senses": [
+      "gefyllan-fill-source",
+      "the-relative-which"
+    ],
+    "features": []
+  },
+  "prior_metadata_retained_for_changed_lemmas": [
+    "se",
+    "the-relative",
+    "gesettan"
+  ],
+  "prior_active_files_preserved": 823,
+  "archived_files_preserved": 134,
+  "all_earlier_records_by_chapter_preserved": true,
+  "all_unassigned_records_unchanged": true,
+  "all_earliest_milestones_preserved": true,
+  "all_prior_evidence_and_supplied_histories_preserved": true,
+  "earlier_source_surfaces_unchanged": true,
+  "earlier_form_analyses_unchanged": true,
+  "contextual_analysis_reconciliations": 57,
+  "contextual_analysis_register_location": "lexicon/entries.json:form_analysis_reconciliations_by_chapter.ch08",
+  "new_record_status_counts": {
+    "forms": {
+      "new_production": 293,
+      "new_recognition": 30,
+      "supplied": 30
+    },
+    "senses": {
+      "new_production": 19,
+      "new_recognition": 1,
+      "supplied": 31
+    },
+    "features": {
+      "new_production": 22,
+      "new_recognition": 3,
+      "supplied": 17
+    }
+  },
+  "limits": [
+    "Full form paradigms do not assign all syntactic uses.",
+    "Distinct instrumental forms, gehwā, case attraction and personal-pronoun relative strategy retain their recognition limits.",
+    "Merchant larger constructions and reader-only vocabulary, plus exact gesęte, remain supplied.",
+    "No Unit 9 work or archived teaching milestone is included."
+  ],
+  "accepted_text_checkpoint": "72ee930",
+  "register_identities": [
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "dfb16651cfb2ce9140422122759aec12792f6de8c51ad1e0c9feccab2219b7de",
+      "sha256_normalized_lf": "dfb16651cfb2ce9140422122759aec12792f6de8c51ad1e0c9feccab2219b7de"
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "sha256": "0daba57438581afcee16c16e01d2be9704e947cee0764b93ac75c6e6a7d53755",
+      "sha256_normalized_lf": "0daba57438581afcee16c16e01d2be9704e947cee0764b93ac75c6e6a7d53755"
+    }
+  ]
+}

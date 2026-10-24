@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch08",
   "title": "Questions and relative clauses",
-  "status": "text_accepted_exports_pending",
+  "status": "complete",
   "contract_date": "2026-10-23",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -84706,7 +84706,7 @@
     "typeset": "oec-u08-typeset",
     "finish": "oec-u08-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_complete",
   "amendments": [
     {
       "amendment_id": "U08-C01",
@@ -84778,9 +84778,13 @@
     "design_validation": "curriculum/proposals/unit08/validation.json"
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "final_text_checkpoint": "72ee930",
+    "page_review": "typesetting/ch08/page-review.json",
+    "register_integration": "chapters/ch08/register-integration.json",
+    "tracker_and_artifact_checkpoint": "pending_final_local_checkpoint"
   },
   "form_id_aliases": {
     "aeteowian-present-subj-3-sg": "aeteowian-pres-subj-3-sg",
@@ -86052,5 +86056,65 @@
     "material_open_findings": 0,
     "scope_limit": "Accepts the identified text and substantive contract; full exports, every-page inspection and register integration remain separate."
   },
-  "accepted_text_checkpoint": "117f3c5"
+  "accepted_text_checkpoint": "72ee930",
+  "initial_accepted_text_checkpoint": "117f3c5",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch08/page-review.json",
+    "sha256": "694c7ce0dab1329d91720a1472e300b13b63877fd3cb47cc6b3975dfb80ede58",
+    "page_totals": {
+      "learner": 30,
+      "key": 24,
+      "total": 54
+    },
+    "content_parity": "typesetting/ch08/content-parity.json",
+    "reviewer_ledgers": [
+      "typesetting/ch08/reviews/learner-first.json",
+      "typesetting/ch08/reviews/learner-last.json",
+      "typesetting/ch08/reviews/key.json"
+    ],
+    "material_open_findings": 0,
+    "accepted_text_unchanged": true,
+    "accepted_text_checkpoint": "72ee930",
+    "all_pages_inspected": true
+  },
+  "register_integration": {
+    "status": "accepted",
+    "record": "chapters/ch08/register-integration.json",
+    "sha256": "35e44b1e50001ec4451ac628172801e7ec723c8471dccf88c8e774e0f6e42436",
+    "metrics": {
+      "before": {
+        "lemmas": 289,
+        "forms": 4533,
+        "senses": 327,
+        "features": 280
+      },
+      "after": {
+        "lemmas": 328,
+        "forms": 4876,
+        "senses": 371,
+        "features": 322
+      },
+      "unit08_status_counts": {
+        "forms": {
+          "new_production": 293,
+          "new_recognition_only": 30,
+          "supplied_here": 30
+        },
+        "senses": {
+          "new_production": 19,
+          "new_recognition_only": 1,
+          "supplied_here": 31
+        },
+        "features": {
+          "new_production": 22,
+          "new_recognition_only": 3,
+          "supplied_here": 17
+        }
+      }
+    },
+    "prior_active_files_preserved": 823,
+    "archived_files_preserved": 134,
+    "earlier_histories_preserved": true
+  }
 }
