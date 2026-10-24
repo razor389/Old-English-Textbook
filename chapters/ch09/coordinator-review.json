@@ -1,0 +1,54 @@
+{
+  "chapter_id": "ch09",
+  "status": "complete_drafts_preflight_passed",
+  "contract_checkpoint": "aafd2a1",
+  "coordinator_role": "Reconciled evidence and contract; read actual learner exposition and independently compared source/private models. Authored neither learner nor key master. These checks do not replace the later independent pre-key solving and full review.",
+  "findings": [
+    {
+      "finding_id": "U09-D01",
+      "artifact": "chapters/ch09/student.md",
+      "finding": "The opening described examples as numbered, although their identifiers were invisible editorial markers.",
+      "resolution": "Learner author replaced numbered examples with examples before draft handoff.",
+      "status": "resolved_verified",
+      "contract_change": false
+    },
+    {
+      "finding_id": "U09-D02",
+      "artifact": "chapters/ch09/student.md",
+      "finding": "The initial noun instructions generalized headword-shaped accusative singular across masculine patterns, conflicting with weak masculine -an.",
+      "resolution": "Learner author narrowed the statement to appropriate strong patterns and explicitly directed weak masculine accusatives to their -an model.",
+      "status": "resolved_verified",
+      "contract_change": false
+    },
+    {
+      "finding_id": "U09-D03",
+      "artifact": "chapters/ch09/student.md",
+      "finding": "Opening study coaching and in-line source locators needed reconciliation with EDITORIAL_POLICY.md: terse exposition and citations/editorial discussion in notes.",
+      "resolution": "Requested removal of study coaching and compact source/editorial endnotes while retaining essential source identity and local teaching support beside the passage.",
+      "status": "resolved_verified",
+      "contract_change": false
+    }
+  ],
+  "scope_limit": "No final learner/key or export acceptance recorded yet. Earlier units, archive and shared registers remain unchanged.",
+  "learner_identity_at_preflight": {
+    "path": "chapters/ch09/student.md",
+    "sha256": "985f526939b050cefe521fb66300aaaa6cdc188426eda798aaf5f4323d1ca60b"
+  },
+  "checks": [
+    "Read actual main exposition, noun/adjective/verb rules, diagnostics and reading support; all97task/prompts57matrices234teaching markers pass repeated checker.",
+    "Draft corrections changed prose only; contracted forms, tasks, examples,source text and all earlier artifacts remain unchanged.",
+    "Both complete masters pass scripts/check_unit09.py --draft; key author independently verified all64 unchanged Cook prompts,97item/key pairs and complete requested paradigms/translations. Root read actual key samples and full source translation; independent full review remains pending."
+  ],
+  "draft_artifact_identities": [
+    {
+      "path": "chapters/ch09/student.md",
+      "sha256": "985f526939b050cefe521fb66300aaaa6cdc188426eda798aaf5f4323d1ca60b",
+      "sha256_normalized_lf": "49ef88a28d3b5acb81ade42b9e2498a3da13aa2d6ce8c2b35779146e869dee53"
+    },
+    {
+      "path": "chapters/ch09/answer-key.md",
+      "sha256": "28e21ea9437f1d6289487267c5247ae14700bf4aeceda6c183c608d531dd5d1d",
+      "sha256_normalized_lf": "0f87cabdfdbf6df6ff784f22a0a86454402913a937a9c3e9d215e3ef7bae544c"
+    }
+  ]
+}

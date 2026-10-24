@@ -1,12 +1,12 @@
 # Status
 
-Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–8 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`d36f134`**. Unit 9 is requested and its independent source, grammar and curriculum audits are in progress; its contract and prose are not yet drafted.
+Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–8 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`d36f134`**. Unit 9 has a reviewed source audit and learning contract saved before prose at **`aafd2a1`**; separate learner and key drafts are in progress.
 
 ## Active Unit 9
 
-The planned unit is complements and reported content: content clauses, dependent questions, infinitive complements and object/predicate constructions. All **64 original Cook II.9–12 prompts** are planned together. Independent audits will settle each dependency and a connected *Trades and Occupations* passage before assignment. Earlier reading help creates no teaching milestone.
+The [brief](curriculum/UNIT_09_BRIEF.md) and [contract](chapters/ch09/coverage.json) assign complements and reported content, all **64 Cook II.9–12 prompts**, **33 original tasks**, **87 complete paradigms / 876 cells in 57 matrices and explicit shared-model derivations**, twelve examples, a 52-word controlled dialogue and the exact 62-word *Choice of Occupations* opening. The source retains four turns, thirteen original notes and eleven local helps. The canonical numbered assignments are now **194 assigned / 450 deferred**; earlier contracts remain intact.
 
-The coordinator alone updates Beads and shared files. Workers exclusively own `sources/audits/unit09-source/`, `sources/audits/unit09-grammar/` and `curriculum/proposals/unit09/`. The immutable baseline at **`cb687a9`** captures all eight contracts, the actual registers, **935 earlier active artifacts** and **134 archived files**. The [prior-state record](sources/audits/unit09-coordinator/prior-state.json) retains their identities. Current assignments remain **130 assigned / 514 deferred** until the new contract resolves them. Complete Unit 9 through independent solving, review, full exports, every-page inspection and preserved register integration before another unit.
+The coordinator alone updates Beads and shared files. `unit09_source` owns `chapters/ch09/student.md`; `unit09_design` owns the separate key. `unit09_grammar` remains independent of both masters and private answers until solving all actual tasks. Contract and source proposals are frozen at **`aafd2a1`**. The immutable baseline at **`cb687a9`** captures eight contracts, actual registers, **935 earlier active artifacts** and **134 archived files**. The [prior-state record](sources/audits/unit09-coordinator/prior-state.json) retains their identities. Complete review, full exports, every-page inspection and preserved register integration before another unit.
 
 ## Completed Unit 8
 
@@ -41,6 +41,6 @@ The [integration record](chapters/ch08/register-integration.json) verifies every
 
 Complete forms do not assign every syntactic use. Distinct instrumental forms, gehwā, case attraction and the personal-pronoun relative strategy retain recognition scope. The merchant's unfamiliar vocabulary and larger constructions, and exact gesęte, remain supplied. Earlier personal-genitive, plural ān, defective-verb and reference-only *sǣwa limits remain in force. Cook §89 families deferred to Unit 15 have explicit dispositions.
 
-The canonical [Cook crosswalk](curriculum/COOK_MAP.md) is **130 assigned / 514 deferred / none excluded**, accounting for all **644 items**. Exercises **1–8** have full item-level audits; **9–48** remain structurally audited only. Later explicit assignments resolve prior deferrals without rewriting earlier contracts.
+The active contracts now establish a Cook crosswalk of **194 assigned / 450 deferred / none excluded**, accounting for all **644 items**. Exercises **1–12** have full item-level audits; **13–48** remain structurally audited only. The planning index will be refreshed with Unit 9 completion. Later explicit assignments resolve prior deferrals without rewriting earlier contracts.
 
 Continue only a requested unit. Read all eight active contracts and the actual registers first; use the sole-coordinator Beads workflow and save the contract before prose. No remote, publication or distribution is configured.
