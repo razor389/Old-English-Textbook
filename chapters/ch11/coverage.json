@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch11",
   "title": "Adverbial clauses",
-  "status": "text_accepted_exports_pending",
+  "status": "reviewed_complete",
   "contract_date": "2026-10-25",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -199713,7 +199713,7 @@
     "typeset": "oec-u11-typeset",
     "finish": "oec-u11-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_text_and_exports",
   "amendments": [
     {
       "amendment_id": "U11-AMEND-01",
@@ -199905,9 +199905,18 @@
     "design_validation": "curriculum/proposals/unit11/validation.json"
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "date": "2026-10-25",
+    "register_integration": "chapters/ch11/register-integration.json",
+    "presentation_review": "typesetting/ch11/page-review.json",
+    "learner_pdf": "typesetting/ch11/chapter-11.pdf",
+    "key_pdf": "typesetting/ch11/answer-key.pdf",
+    "all_assigned_tasks_reviewed": 92,
+    "all_cook_items_retained": 46,
+    "next_unit_policy": "Unit12 remains undrafted; begin only when requested.",
+    "checkpoint_note": "Completion files and tracker export are committed locally; final handoff records the resulting revision."
   },
   "form_id_aliases": {},
   "form_identity_reconciliation": [
@@ -201441,7 +201450,7 @@
     "material_open_findings": 0,
     "scope_limit": "Accepts the identified text and substantive contract. Complete exports, every-page inspection and register integration remain separate gates."
   },
-  "accepted_text_checkpoint": "8c21a9a",
+  "accepted_text_checkpoint": "460b825",
   "textual_review_history": [
     {
       "accepted_text_checkpoint": "8c21a9a",
@@ -201575,5 +201584,32 @@
       },
       "superseded_only_by": "U11-AMEND-04 visible captions; linguistic content and substantive contract unchanged."
     }
-  ]
+  ],
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch11/page-review.json",
+    "record_sha256": "8df975a31e4943e63553cfbbadd08934568f6a387b8643955d338f3e912875bc",
+    "page_totals": {
+      "learner": 42,
+      "key": 31,
+      "total": 73
+    },
+    "complete_content_parity": "typesetting/ch11/content-parity.json",
+    "every_page_inspected_by_non_author": true,
+    "unresolved_findings": [],
+    "documents": [
+      {
+        "kind": "learner",
+        "path": "typesetting/ch11/chapter-11.pdf",
+        "sha256": "af70c636ede4071850b6cb628629d17db62968acb6feae5d0590d8e2de63932f",
+        "pages": 42
+      },
+      {
+        "kind": "key",
+        "path": "typesetting/ch11/answer-key.pdf",
+        "sha256": "1a3d98367331b972acb9d197511473a3746d3041ed28323d5d04637bd51cf502",
+        "pages": 31
+      }
+    ]
+  }
 }

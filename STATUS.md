@@ -1,16 +1,20 @@
 # Status
 
-Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–10 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`126e927`**. Unit 11 has passed independent textual review; complete exports and register integration are in progress. Its contract was saved before prose at `a9c6ce5`, drafts at `730dffe`, and all 92 independent solutions before key access at `f2b3974`.
+Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–11 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are included in this local completion checkpoint. Unit 12 has not been drafted.
 
-## Completed Unit 10
+## Completed Unit 11
 
-The [brief](curriculum/UNIT_10_BRIEF.md) and [contract](chapters/ch10/coverage.json) cover dependent and governed genitives, selected nominal partitives, dative frames and experiencers, accompaniment and instrumental means. There are **89 tasks**, including **all 55 Cook III.13–15 prompts**, fourteen translated examples and **56 defined paradigms / 779 supported cells**. Thirty-six matrices and 29 lexical diagnostic rows give 306 literal nominal cells, 336 explicit nominal derivations and 137 literal grammar cells. Unnan retains a visible evidence gap in its present second singular.
+The [brief](curriculum/UNIT_11_BRIEF.md) and [contract](chapters/ch11/coverage.json) cover temporal, causal, purpose, result, concessive and selected conditional clauses, with contextual mood choices and explicit lexical frames. There are **92 tasks**, including **all 46 Cook IV.16–17/V.18 prompts**, fourteen translated examples and **61 complete defined systems / 826 cells**. Thirty-eight matrices and 38 diagnostic rows give 486 literal cells and 340 explicit model derivations. New exceptional patterns are printed in full.
 
-The 50-word new account precedes the exact 59-word Judgment opening, Cook p134 / PDF150, editorial lines1–7 anchored by printed5. All fourteen original notes and nine source helps remain. Two exercise expressions and larger source constructions retain local support. Correction C02, the static right-side idiom and selected visiting government are documented.
+The 59-word new account precedes two exact source spans: the 35-word Britain metals-and-jet passage, Cook p139/PDF155, editorial lines 1–4, and the complete 195-word sea-rescue episode, pp142–143/PDF158–159, editorial lines 142.8–143.14. The dash in the first span is punctuation. All 32 attached original notes, one referenced note, 21 reading helps and five Cook helps remain. Prior storm context is separate English support.
 
-All 89 [independent solutions](chapters/ch10/independent-solutions.md) were frozen at **`3684087`** before key/private-answer access. [Review](chapters/ch10/review.md) and its [ledger](chapters/ch10/review-ledger.json) accept the actual tasks, display routes, rules, scope and evidence. No material finding remains open. The reviewer authored neither master nor graded task and discloses prior grammar/public-composition work.
+All 92 [independent solutions](chapters/ch11/independent-solutions.md) were frozen at **`f2b3974`** before key/private-answer access. [Review](chapters/ch11/review.md) and its [ledger](chapters/ch11/review-ledger.json) accept the actual tasks, all 826 cell routes, rules, scope and evidence. No material finding remains open. The reviewer authored neither master nor graded task and discloses prior grammar/public-composition work.
 
-The [learner PDF](typesetting/ch10/chapter-10.pdf) has **40 pages**, the [key](typesetting/ch10/answer-key.pdf) **29**. All **69 final pages** passed non-author inspection. [Full parity](typesetting/ch10/content-parity.json) covers 775 prose/heading/list blocks, 49 tables and 1205 cells. [Page acceptance](typesetting/ch10/page-review.json) binds final identities and clean logs. Checkpoints: contract **`86e073f`**, drafts **`a1f8d6f`**, accepted text **`08ed659`**.
+A separate [paradigm review](chapters/ch11/reviews/paradigms.json) checked all cells against their displayed forms and primary evidence. It identified the unsupported weak genitive plural blacra. Amendment U11-AMEND-02 corrects the three cells to **blæcra**, following Cook and Wright, and preserves the original audits and frozen solutions.
+
+Presentation amendment U11-AMEND-04 adds eleven visible adjective-table captions from the accepted contract. The reviewer verified this exact bounded addition and retained the initial textual acceptance at `8c21a9a` alongside the final caption supplement.
+
+The [learner PDF](typesetting/ch11/chapter-11.pdf) has **42 pages**, the [key](typesetting/ch11/answer-key.pdf) **31**. All **73 final pages** passed non-author inspection. [Full parity](typesetting/ch11/content-parity.json) covers 860 prose/heading/list blocks, 52 tables and 1075 cells including headers. [Page acceptance](typesetting/ch11/page-review.json) binds final identities and clean logs. Checkpoints: contract **`a9c6ce5`**, drafts **`730dffe`**, accepted text **`460b825`**.
 
 ## Completed course artifacts
 
@@ -26,17 +30,18 @@ The [learner PDF](typesetting/ch10/chapter-10.pdf) has **40 pages**, the [key](t
 | [8](typesetting/ch08/README.md) | Questions and relative clauses | 30 / 24 | d36f134 |
 | [9](typesetting/ch09/README.md) | Complements and reported content | 44 / 26 | 140e2bd |
 | [10](typesetting/ch10/README.md) | The case system in extended sentences | 40 / 29 | 126e927 |
+| [11](typesetting/ch11/README.md) | Adverbial clauses | 42 / 31 | This completion checkpoint |
 
 Every unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent review, complete TeX/PDFs and page ledger. Earlier artifacts and the archived experiment remain unchanged.
 
 ## Cumulative records and boundaries
 
-The [lexicon](lexicon/entries.json) contains **447 lemmas, 6,564 forms and 519 senses**; [grammar](curriculum/grammar.json) contains **428 constructions**. Unit 10 establishes 735 productive form milestones, 50 recognition-only forms, 56 productive senses and 51 productive constructions. Twenty-four forms, eighteen senses and twelve constructions record supplied exposure here. Fourteen earlier forms and seven earlier senses are explicitly promoted; earlier source-only records supplied again receive exposure history without a teaching promotion.
+The [lexicon](lexicon/entries.json) contains **560 lemmas, 7,481 forms and 663 senses**; [grammar](curriculum/grammar.json) contains **507 constructions**. Unit 11 establishes 774 productive form milestones, 73 recognition-only forms, 81 productive senses and 55 productive constructions. It records supplied exposure for 88 forms, 78 senses and 25 constructions. Seven earlier forms and eight earlier senses are explicitly promoted. Earlier supplied source records reused here receive exposure history without an automatic teaching promotion.
 
-The [integration audit](chapters/ch10/register-integration.json) preserves all earlier milestones, per-chapter records, evidence, supplied histories, surfaces, analyses and metadata against **`bb598a1`**. All **1,136 earlier active artifacts** and **134 archived files** remain unchanged. Contextual analyses are retained separately. No archived teaching milestone was imported.
+The [integration audit](chapters/ch11/register-integration.json) preserves every earlier milestone, per-chapter record, evidence link, supplied history, surface, analysis and metadata against **`fdddbe6`**. All **1,301 earlier active artifacts** and **134 archived files** remain unchanged. Contextual analyses remain separate; no archived teaching milestone was imported.
 
-Full morphology does not assign every use. Only selected se/gōd instrumental forms become productive; other instrumental reference forms retain their limits. Dōm, rēaf and woruld plurals remain recognition reference; Crīst has only assigned singular forms. The two Cook helps and larger source constructions stay supplied. Later free-choice, higher-numeral and broader clause systems remain later work.
+Full morphology does not assign every use. Mass, abstract and astronomical plural cells retain their reference limits; Hǣlend has four assigned singular title forms. Source periphrases, perception complements, lexical variants and negative auxiliary helps retain bounded support. Purpose/result and concessive/conditional choices are contextual, not conjunction-to-mood transformations. Unit 12's broader tense/voice systems remain later work.
 
-The canonical crosswalk has **249 assigned / 395 deferred / none excluded**, accounting for all 644 numbered items. Exercises **1–15** have full item-level audits; **16–48** still require them. Active contracts govern assignment; later assignments resolve prior deferrals without rewriting them.
+The canonical crosswalk has **295 assigned / 349 deferred / none excluded**, accounting for all 644 numbered items. Exercises **1–18** have full item-level audits; **19–48** still require them. Active contracts govern assignment; later assignments resolve prior deferrals without rewriting them.
 
-Continue only a requested unit. Read all ten active contracts and actual registers first; use the sole-coordinator Beads workflow and checkpoint the contract before prose. No remote or publication is configured.
+Continue only a requested unit. Read all eleven active contracts and actual registers first; use the sole-coordinator Beads workflow and checkpoint the contract before prose. No remote or publication is configured.

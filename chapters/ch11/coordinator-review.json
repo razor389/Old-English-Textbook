@@ -1,6 +1,6 @@
 {
   "chapter_id": "ch11",
-  "status": "accepted_independent_text_review",
+  "status": "accepted_text_exports_and_registers",
   "contract_checkpoint": "a9c6ce5",
   "coordinator_role": "Reconciled source/grammar/design and wrote the canonical contract. Authored neither master nor graded task. Coordinator checks supplement independent solving and full review.",
   "findings": [
@@ -89,7 +89,7 @@
       "finding": "Verified section boundary and complete page locator for draft endnotes."
     }
   ],
-  "scope_limit": "Both complete drafts passed coordinator checks. Independent pre-key solving and full review remain required before exports; no active register integration yet.",
+  "scope_limit": "Accepted independent text review, all final pages and preserved cumulative integration. Unit12 is outside this work.",
   "draft_artifact_identities": [
     {
       "path": "chapters/ch11/student.md",
@@ -143,17 +143,26 @@
         "actually_viewed": true
       }
     ],
-    "final_learner_sha256": "4d3087af7476838fe2bbc507e3f41617d2f206acf39fb9f1589ded828c0ee637",
     "parallel_review": {
       "path": "chapters/ch11/reviews/paradigms.json",
       "sha256": "c0a1e49ee0c6b20b04c4b1687fbdfd4191a258bd75241e0c8d7cfea172e06110"
     },
     "preservation": "Original sealed audits and independent solutions at f2b3974 remain unchanged. Tasks, selected outputs, cell counts and teaching milestones are unchanged.",
-    "scope_limit": "Coordinator corroboration supplements the independently authored reviews; final textual acceptance is a separate gate."
+    "scope_limit": "Coordinator corroboration supplements the independently authored reviews; final textual acceptance is a separate gate.",
+    "learner_sha256_at_amendments_02_03": "4d3087af7476838fe2bbc507e3f41617d2f206acf39fb9f1589ded828c0ee637"
   },
   "independent_acceptance": {
     "record": "chapters/ch11/review.md",
     "ledger": "chapters/ch11/review-ledger.json",
     "material_open_findings": 0
+  },
+  "presentation_acceptance": "typesetting/ch11/page-review.json",
+  "register_integration": "chapters/ch11/register-integration.json",
+  "caption_supplement": {
+    "amendment": "U11-AMEND-04",
+    "initial_text_checkpoint": "8c21a9a",
+    "accepted_text_checkpoint": "460b825",
+    "accepted_learner_sha256": "a4e7e40f168e085e723f5ea188d50284c2d834bea1e0a85aee5bf5c4a1d81918",
+    "verified_scope": "Eleven visible titles repeat accepted canonical matrix titles; removing them restores the initial accepted learner bytes exactly. Independent bounded review retained in review.md and review-ledger.json."
   }
 }

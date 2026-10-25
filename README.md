@@ -1,6 +1,6 @@
 # Old English: Cook / Lambdin-style course
 
-A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **Units 1–10 are complete** with separate learner and answer-key PDFs.
+A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **Units 1–11 are complete** with separate learner and answer-key PDFs.
 
 Start with [STATUS.md](STATUS.md), [AGENTS.md](AGENTS.md), and the [course plan](curriculum/COURSE_PLAN.md). The [handoff](docs/HANDOFF.md) gives the next session's starting task; [prompts/START_HERE.txt](prompts/START_HERE.txt) can be pasted directly into it.
 
@@ -25,6 +25,8 @@ The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/an
 **Unit 9 is complete:** [learner PDF](typesetting/ch09/chapter-09.pdf), 44 pages, and [separate key PDF](typesetting/ch09/answer-key.pdf), 26 pages. Complements and reported content accompany 87 complete logical paradigms / 876 cells and 97 tasks, including all 64 Cook II.9–12 prompts. A new connected dialogue prepares the exact Choice of Occupations opening with local help and original notes. All 70 pages passed non-author inspection; reviewed records preserve earlier teaching history. See the [review and export record](typesetting/ch09/README.md).
 
 **Unit 10 is complete:** [learner PDF](typesetting/ch10/chapter-10.pdf), 40 pages, and [separate key PDF](typesetting/ch10/answer-key.pdf), 29 pages. The case system in extended sentences has 56 defined paradigms / 779 supported cells and 89 tasks, including all 55 Cook III.13–15 prompts. A new connected account prepares the exact Judgment opening with local help and original notes. All 69 pages passed non-author inspection; reviewed registers preserve earlier history. See the [review and export record](typesetting/ch10/README.md).
+
+**Unit 11 is complete:** [learner PDF](typesetting/ch11/chapter-11.pdf), 42 pages, and [separate key PDF](typesetting/ch11/answer-key.pdf), 31 pages. Adverbial clauses have 61 complete defined systems / 826 cells and 92 tasks, including all 46 Cook IV.16–17 and V.18 prompts. A new connected account prepares the exact Britain metals-and-jet and sea-rescue readings, with local help and original notes. All 73 pages passed non-author inspection; reviewed registers preserve earlier history. See the [review and export record](typesetting/ch11/README.md).
 
 The earlier two-chapter experiment is preserved under [reference/previous-course](reference/previous-course/README.md), with its source evidence, corrections, and complete PDFs. Its learning milestones do not apply to this course.
 
