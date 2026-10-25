@@ -1,0 +1,39 @@
+{
+  "schema_version": 1,
+  "chapter": "ch10",
+  "access": "PRIVATE: exclude from independent solver until all learner solutions are frozen.",
+  "model_identity": {
+    "path": "curriculum/proposals/unit10/author-only-model-seed.json",
+    "sha256": "6fc936e447ee015f96706592648331633e5bcba5546fca2f2828c06a39b7eaf1"
+  },
+  "chronology": "The designer wrote the R04 and S04 translations in author-only-model-seed.json before opening the source editor’s corresponding private witnesses. The current seed was subsequently regenerated for public prompt wording changes; the translation wording was unchanged. No frozen pre-access hash is claimed. This comparison is an author/source check, not independent learner-task review.",
+  "records": [
+    {
+      "task_id": "NEW-U10-R04",
+      "designer_model": "A certain stranger came to the inn. He was hungry, and he was sick. One of the monks saw the stranger. The monk gave him food and water. The stranger said, “You do not deny me food.” The monk said, “I feed you with good food.” The stranger ate the food and drank the water.",
+      "independent_source_translation": "A stranger came to the inn. He was hungry, and he was sick. One of the monks saw the stranger. The monk gave him food and water. The stranger said, “You do not deny me food.” The monk said, “I feed you with good food.” The stranger ate the food and drank the water.",
+      "witness_identity": {
+        "path": "sources/audits/unit10-source/private-composition-witness.json",
+        "sha256": "4cceb9f24db262c3db9da90becbf667161fa302ff179a7c22143c1f73b918bb9"
+      },
+      "comparison": "Essential participants, actions, case relations and clause sequence agree. Stylistic differences a stranger/a certain stranger and at/on his right hand do not change meaning.",
+      "remaining_linguistic_disagreement": false
+    },
+    {
+      "task_id": "NEW-U10-S04",
+      "designer_model": "Now the Son of Man will come in his majesty, and all the angels together with him to the great judgment. Then he will sit on the throne of his majesty, and all nations will be gathered before him, and he will separate them into two groups, just as a shepherd separates sheep from goats. Then he will place the sheep on his right hand, and the goats on his left.",
+      "independent_source_translation": "Now the Son of Man will come in his majesty, and all the angels together with him, to the great judgment. Then he will sit on the throne of his majesty, and all nations will be gathered before him, and he will separate them into two groups, just as a shepherd separates sheep from goats. Then he will place the sheep at his right hand, and the goats at his left.",
+      "witness_identity": {
+        "path": "sources/audits/unit10-source/private-reading-witness.json",
+        "sha256": "82089e344707dbfa8ff0c59e5edda7bf876f88642404c9ae3cd73335b737b004"
+      },
+      "comparison": "Essential participants, actions, case relations and clause sequence agree. Stylistic differences a stranger/a certain stranger and at/on his right hand do not change meaning.",
+      "remaining_linguistic_disagreement": false
+    }
+  ],
+  "witness_note_reconciliation": {
+    "artifact": "sources/audits/unit10-source/private-composition-witness.json",
+    "finding": "Both mē and ðē in the two quotations refer to the stranger. The speakers change, but these two pronoun referents do not.",
+    "action": "Reported to source editor for correction of nominal_check; the source translation already has the correct dialogue meaning."
+  }
+}

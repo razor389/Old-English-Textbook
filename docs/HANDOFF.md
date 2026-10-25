@@ -2,13 +2,11 @@
 
 ## Active Unit 10
 
-The user has requested Unit 10. The coordinator owns `oec-u10`; source, grammar and design tasks are active.
+The [brief](../curriculum/UNIT_10_BRIEF.md) and [contract](../chapters/ch10/coverage.json) assign all **55 Cook III.13–15 prompts** and **34 originals**, fourteen examples, a fifty-word new account and the exact 59-word Judgment opening (Cook p134 / PDF150, ending **on his winstran.**). The reading retains fourteen original notes and nine helps. There are **56 defined paradigms / 779 supported cells**, displayed through 36 matrices and explicit model derivations. The supported unnan system has a visible present second-singular gap. Correction C02, the static right-hand idiom and selected visiting government are documented.
 
-The planned core is the case system in extended sentences: systematic bounded genitive, dative and instrumental uses, quantity, governed objects and impersonal frames, with complete necessary lexical paradigms. All **55 original Cook III.13–15 prompts** are planned together. A connected passage from *The Day of Judgment* (Reader III, beginning Cook p.134 / PDF150) is under source audit; no boundary or new assignment is yet accepted.
+Root alone writes Beads, the contract and shared files. Audit inputs are sealed. After the contract commit, source and curriculum agents author separate learner/key masters. The grammar analyst retains the pre-key firewall and will solve all actual tasks independently before key access. Preserve the frozen witness, independent review and every-page non-author inspection. Do not draft Unit 11.
 
-Root alone writes Beads and shared files. The source, grammar and curriculum agents exclusively own `sources/audits/unit10-source/`, `sources/audits/unit10-grammar/` and `curriculum/proposals/unit10/`. Reconcile their actual evidence in `curriculum/UNIT_10_BRIEF.md` and `chapters/ch10/coverage.json`, and checkpoint the contract before any learner/key prose. Preserve independent pre-key solving, separate authorship and every-page non-author inspection. Do not draft Unit 11.
-
-The immutable ignored `build/unit10-prior-baseline.json` captures **`bb598a1`**: all nine contracts, **400 lemmas, 5,770 forms, 455 senses and 365 constructions**, **1136 earlier active artifacts** and **134 archived files**. Do not overwrite it or rerun older merge helpers. Compact reading aids do not replace the actual records. The retained prior-state audit records file identities. The numbered crosswalk remains **194 assigned / 450 deferred** until the new contract explicitly resolves assignments. Earlier supplied/recognition material requires explicit teaching before promotion.
+The immutable ignored `build/unit10-prior-baseline.json` captures **`bb598a1`**: all nine contracts, **400 lemmas, 5,770 forms, 455 senses and 365 constructions**, **1136 earlier active artifacts** and **134 archived files**. Do not overwrite it or rerun older merge helpers. Registers remain unchanged pending full completion. The new contract resolves the numbered crosswalk to **249 assigned / 395 deferred / none excluded** and explicitly identifies 21 promotions. Earlier artifacts and all archive files remain unchanged.
 
 ## Unit 9 complete
 
@@ -28,7 +26,7 @@ The immutable ignored `build/unit09-prior-baseline.json` captures actual eight-u
 
 Knowing/saying content, dependent questions, command/perception infinitives and object predicates are productive only in their stated frames. Contextual indicative remains possible; subjunctive is not a falsity marker or an automatic backshift. Selected refusal uses ne plus positive willan. Personal ēower is newly productive only in the assigned partitive frame. Hīe sume apposition differs from the genitive alternative. Singular manig and unassigned mass/count counterparts retain recognition limits. New citation infinitives are supplied except wician. Exact fēt, source judgment/passive frames and the three exercise help phrases remain supplied. Earlier instrumental, free-choice, defective-verb and reference-only *sǣwa limits remain intact unless explicitly changed in an accepted contract.
 
-The numbered crosswalk is **194 assigned / 450 deferred / none excluded**, totaling 644. Exercises **1–12** have full item-level audits; **13–48** still need them before prose. Active contracts govern assignment; later assignments resolve earlier deferrals without rewriting their history. Archived milestones and planning rows create no teaching.
+The Unit9 checkpoint had **194 assigned / 450 deferred / none excluded**. The new Unit10 contract raises this to **249 assigned / 395 deferred / none excluded**, totaling 644. Exercises **1–15** now have full item-level audits; **16–48** still need them before prose. Active contracts govern assignment; later assignments resolve earlier deferrals without rewriting their history. Archived milestones and planning rows create no teaching.
 
 ## Recoverable checkpoints
 

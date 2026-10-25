@@ -1,0 +1,49 @@
+# Unit 10 brief: the case system in extended sentences
+
+Unit 10 follows the nine reviewed units. Consolidate the case of a complete noun phrase, distinguish it from the case of its dependent genitive, and teach the bounded case constructions needed for Cook III.13–15 and purposeful original practice. Actual earlier form, sense and construction milestones define the starting point. Save the reconciled coverage contract in a local Git checkpoint before learner or key prose. Finish this unit before drafting Unit 11.
+
+## Evidence and assignment
+
+Use the registered Cook editions and inspected corroborating evidence. Preserve original identifiers, English wording, grammatical references, Old English letters and quantities. Distinguish printed pages from one-based PDF pages. Retain declared punctuation spacing, apostrophe and line-joining normalizations separately from the source transcription. OCR is a finding aid. The archived course supplies evidence, not teaching milestones.
+
+Assign all **55 Cook III.13–15 items**: 16, 17 and 22 respectively, printed pp6–7 / PDF14–15. Keep each complete set together. Preserve the bracketed **[God’s Son]**, the singular sheep, the plural visiting command, **tailor’s** needles, the **(169)** reference, and the instruction to omit English **Do** in III.15.22. These assignments resolve earlier deferrals without rewriting prior contracts. The numbered crosswalk becomes **249 assigned, 395 deferred, no exclusions**, totaling 644.
+
+Read the complete opening three sentences of **The Day of Judgment**, Cook's *First Book*, printed p134 / PDF150: **Witodlice Mannes Bearn cymð … on his winstran.** The 59-word passage forms a coherent tableau: arrival, enthronement, gathering, separation and right/left placement. Editorial prose lines1–7 are anchored by the printed marginal5; the following royal speech begins partway through line7 and remains unassigned. Preserve all fourteen original notes separately from nine local help groups.
+
+Retain **ęnglas, ðǣm, miclan, cymð, sitt, swā-swā, scēaphierde, scēap** and **gǣt**. There are six overt finite predicates and a coordinated angels phrase with an understood coming predicate. Both **ðonne** occurrences are sequencing adverbs. The nations are the following nominative plural subject of the supplied passive; the goats in the final clause are accusative plural. Keep historical questions in Cook's apparatus as source notes, without silently making them learner assignments.
+
+## Case constructions
+
+Begin with the distinction between the external case of a noun phrase and its internal dependent genitive: a recipient phrase can be dative while a possessor within it is genitive. Contrast dependent genitives with the genitive object directly governed by a selected verb. Preserve the earlier scopes of **geswīcan** and **gīeman**. Teach the selected **forwiernan** and **unnan** frames explicitly: dative person and genitive thing. English object order does not determine Old English case.
+
+Introduce nominal partitives with selected **ān, sum** and **hwilc**, and invariant **fela** with a genitive plural. Contrast a nominal quantity plus its genitive whole with an agreeing numeral or attributive adjective. Cardinal **ān** in this frame does not introduce the wider indefinite-article or free-choice systems reserved for later units. Do not silently promote all personal-pronoun genitives, singular **manig**, or higher cardinal expressions.
+
+Organize dative uses by their constructions: recipient, beneficiary, selected governed person, and experiencer. Reuse **helpan, fręmman** and **behēfe** within their actual earlier scopes. Teach bounded **ðyncan** with dative experiencer, a neuter nominative subject and an agreeing predicate **gōd**. Distinguish this from genuinely subjectless **hyngran**, which uses an accusative experiencer and third-singular verb. Give each precisely defined system; no unrestricted impersonal or content-clause rule follows.
+
+Contrast **mid** accompaniment, **mid + dative** means, and bare instrumental means. Promote the selected distinct masculine/neuter singular instrumental forms deliberately. Show how noun forms, feminine singular and plural merge with the dative. A distinct morphological cell, an instrumental relation, and the complement of a dative-governing preposition are different facts. Other displayed instrumental cells retain their expressly stated recognition limits.
+
+## Complete forms and lexical frames
+
+Print complete singular/plural paradigms for the new exceptional noun systems, with selected forms, variants, stem alternations and exceptions explained together. **Fæder** follows Cook §43.8's exceptional consonant masculine treatment; do not blindly substitute the **brōðor** pattern. Give full **gāt** and its mutated cells. Give **hand** with its endingless accusative and documented oblique variants. Proper-name **Crīst** has only the assigned singular lexical forms; a complete class model does not invent plural senses for a proper name or mass noun.
+
+The nominal display plan covers 38 logical systems and 642 cells: 306 literal cells and 336 explicitly recoverable from printed models and 29 lexical diagnostic rows. Every derived form must have its actual displayed model, diagnostic stem or headword, ending operation and grammatical coordinate. All new exceptional systems are literal. Print complete selected strong/weak adjective families and the separately scoped comparative **swīðra**. Distinguish ordinary agreement from the new uses in which an adjective names people.
+
+Print the complete clearly defined present/preterite systems and command forms assigned by the reconciled grammar audit, including all endings, stem changes and important exceptions. **Unnan** has a visibly unsupported second-singular present indicative cell in the checked sources; mark that gap rather than fabricate a form. Give its complete supported indicative and subjunctive systems. The selected grant or wish uses the evidenced subjunctive command substitute. Cook §129 explicitly labels **unne** imperative; Fulk §123 describes the subjunctive substitution. Preserve this difference in terminology while teaching the supported surface. Do not manufacture a plural **unnað**.
+
+Teach each additional lexical construction before it is needed. This includes perception with an agreeing object description, **hīeran** with an accusative actor and plain infinitive, temporal **hwonne** questions, selected destination **tō + dative**, visiting a person, feeding and clothing, and the bounded right-hand idiom. Similar English meanings and familiar verb classes do not establish government.
+
+The expression **on … swīðran hand** uses accusative even with **standan** in the checked source. Learn the bounded side-expression alongside ordinary **on + dative** location; do not explain its case by motion alone. The bare noun and lexical evidence support the analysis. Weak **-an** on its own is not diagnostic. The following unassigned source sentence is corroborating evidence, not another reading assignment.
+
+Explain future reference through the selected Old English present or a defensible explicitly taught volitional construction. Do not make English *will* equivalent to **willan** or require one model string when the prompt permits another valid meaning. Cook §153.d misidentifies **ęgesan** as the objective genitive in **in Frēan ęgesan**: teach **Frēan** as the dependent objective genitive, preserve the original statement in evidence, and cite correction C02 without changing the phrase.
+
+## Practice, support and review
+
+Retain 89 tasks: all55 Cook prompts and 34 originals comprising six form tasks, twelve analysis/contrast tasks, eight controlled compositions and eight reading tasks. Fourteen translated teaching examples introduce the principal distinctions. The connected 50-word new account **The stranger and the monk** uses only taught material and is clearly labeled new teaching material. It has an arrival, an exchange and a resolution; it is not a disguised source quotation.
+
+Audit every actual input and required output form, sense and construction. Bind the complete paradigms as well as the contextual exercises. Print explicit local support for larger constructions such as the **as long as** clause and the selected **give me to drink** expression wherever required by the contract. Supplied forms and constructions may support scaffolded work without becoming unaided recall targets.
+
+Keep the source connective, understood predicate, glory expression, genitive of quality, exact gathered passive, division phrase, comparison and elliptical final hand transparent through the local helps. Familiar headwords do not silently promote source-only forms or senses. Earlier supplied histories remain intact even when a separately defined broader frame is taught here.
+
+The coordinator owns the contract, shared registers, source indexes and Beads. Reconcile evidence and dependencies, export Beads and save the contract before separate learner and key authorship. The key needs models, targets, essential meaning, explanations, defensible alternatives and useful diagnoses. Distinguish valid language from compliance with a stated target.
+
+The independent reviewer solves all actual learner tasks before opening the key or private answer-bearing files, freezes the witness, discloses earlier roles and edits only review files. Resolve material findings before typesetting. Export the entire learner and separate key through LuaLaTeX; verify complete content parity and inspect every final page, table and special character. Preserve baseline **bb598a1**, all prior active artifacts, earlier register histories and the archived snapshot. Update README, status, handoff, source indexes and cumulative registers, export Beads and save recoverable local Git revisions. No remote or push is required. Do not draft Unit 11.

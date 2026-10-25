@@ -1,0 +1,34 @@
+{
+  "status": "pass",
+  "checked_by": "unit10_source",
+  "baseline_checkpoint": "bb598a1",
+  "counts": {
+    "prompts": 55,
+    "prompt_groups": {
+      "III.13": 16,
+      "III.14": 17,
+      "III.15": 22
+    },
+    "private_cook_models": 55,
+    "reading_tokens": 59,
+    "reading_helps": 9,
+    "nominal_adjectival_paradigms": 38,
+    "paradigm_cells": 642,
+    "lexical_proposal_records": 43,
+    "lexical_proposal_forms": 653,
+    "evidence_records": 90,
+    "actually_viewed_images": 51
+  },
+  "checks": [
+    "All55originalIDs/prompts match across public prompt, unordered dependency and private witness files.",
+    "All55routes have nonempty actual construction requirements and no unresolved form/sense dependencies.",
+    "Every supplied exercise dependency has an explicitly linked local help.",
+    "Every reading token matches an actual prior/proposed form and a sense under the same lemma; supplied tokens have local helps.",
+    "Complete642nominal/adjectivalcells and11specialformrecords have unique IDs and valid image evidence links.",
+    "All actually viewed image hashes match retained files.",
+    "All nine prior active contracts and actual cumulative register identities remain recorded separately."
+  ],
+  "limitations": [
+    "This validates the source/editorial proposal, not the later chapter key, cumulative-register integration or PDF rendering."
+  ]
+}

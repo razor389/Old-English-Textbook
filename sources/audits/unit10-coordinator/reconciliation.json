@@ -1,0 +1,276 @@
+{
+  "status": "accepted_for_contract",
+  "date": "2026-10-25",
+  "baseline_checkpoint": "bb598a1",
+  "prior_artifacts_unchanged": 1136,
+  "prior_registers_unchanged": true,
+  "archive_files_unchanged": 134,
+  "accepted_audits": {
+    "source": {
+      "status": "pass",
+      "checked_by": "unit10_source",
+      "baseline_checkpoint": "bb598a1",
+      "counts": {
+        "prompts": 55,
+        "prompt_groups": {
+          "III.13": 16,
+          "III.14": 17,
+          "III.15": 22
+        },
+        "private_cook_models": 55,
+        "reading_tokens": 59,
+        "reading_helps": 9,
+        "nominal_adjectival_paradigms": 38,
+        "paradigm_cells": 642,
+        "lexical_proposal_records": 43,
+        "lexical_proposal_forms": 653,
+        "evidence_records": 90,
+        "actually_viewed_images": 51
+      },
+      "checks": [
+        "All55originalIDs/prompts match across public prompt, unordered dependency and private witness files.",
+        "All55routes have nonempty actual construction requirements and no unresolved form/sense dependencies.",
+        "Every supplied exercise dependency has an explicitly linked local help.",
+        "Every reading token matches an actual prior/proposed form and a sense under the same lemma; supplied tokens have local helps.",
+        "Complete642nominal/adjectivalcells and11specialformrecords have unique IDs and valid image evidence links.",
+        "All actually viewed image hashes match retained files.",
+        "All nine prior active contracts and actual cumulative register identities remain recorded separately."
+      ],
+      "limitations": [
+        "This validates the source/editorial proposal, not the later chapter key, cumulative-register integration or PDF rendering."
+      ]
+    },
+    "grammar": {
+      "schema_version": 1,
+      "chapter": "ch10",
+      "status": "pass",
+      "counts": {
+        "lemma_groups": 29,
+        "forms": 155,
+        "new_form_ids": 143,
+        "promoted_existing_form_ids": 12,
+        "senses": 25,
+        "new_sense_ids": 20,
+        "promoted_existing_sense_ids": 5,
+        "features": 50,
+        "paradigms": 18,
+        "evidence_records": 46,
+        "unique_checked_images": 65,
+        "public_source_items": 55
+      },
+      "paradigms": [
+        {
+          "paradigm_id": "NEW-U10-PAR-fedan-IND",
+          "cells": 12,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-fedan-IMP",
+          "cells": 2,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-scrydan-IND",
+          "cells": 12,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-scrydan-IMP",
+          "cells": 2,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-forwiernan-IND",
+          "cells": 12,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-andswarian-IND",
+          "cells": 12,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-scencan-IND",
+          "cells": 12,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-geneosian-IND",
+          "cells": 12,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-geneosian-IMP",
+          "cells": 2,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-gewitan-IND",
+          "cells": 12,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-togelaedan-IND",
+          "cells": 12,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-unnan-IND",
+          "cells": 11,
+          "visible_unsupported_cells": 1
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-unnan-SUBJ",
+          "cells": 12,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-hyngran-IMPERSONAL-IND",
+          "cells": 2,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-thyncan-EXPERIENCER-IND",
+          "cells": 2,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-wyrcean-IMP",
+          "cells": 2,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-se-SELECTED-INSTR",
+          "cells": 4,
+          "visible_unsupported_cells": 0
+        },
+        {
+          "paradigm_id": "NEW-U10-PAR-god-adjective-SELECTED-INSTR",
+          "cells": 2,
+          "visible_unsupported_cells": 0
+        }
+      ],
+      "promoted_form_ids": [
+        "fedan-pres-3-sg-source",
+        "togelaedan-pres-1-sg-source",
+        "ciepan-inf",
+        "bycgan-inf",
+        "blawan-inf",
+        "se-m-ins-sg",
+        "se-m-ins-sg-variant",
+        "se-n-ins-sg",
+        "se-n-ins-sg-variant",
+        "god-adjective-ins-m-sg-strong",
+        "god-adjective-ins-n-sg-strong",
+        "beforan-invariant-source"
+      ],
+      "promoted_sense_ids": [
+        "fedan-feed-source",
+        "togelaedan-source",
+        "beforan-before-source",
+        "to-destination",
+        "mid-by-means"
+      ],
+      "errors": [],
+      "source_public_missing_form_ids": [],
+      "checks": [
+        "Unique IDs and complete declared paradigm shapes; visible unsupported unnan2sg separate from lexical records.",
+        "Every new record evidence reference resolves; all retained referenced image hashes match.",
+        "Every promotion retains exact earlier form surface and full prior record.",
+        "No duplicate mid sense or fictional separate mete instrumental form.",
+        "All55 public source dependency sets inspected without private answers.",
+        "Public composition morphology/government review complete."
+      ],
+      "not_certified": [
+        "Final chapter coverage/key reconciliation",
+        "Private answer correctness",
+        "Independent frozen task solving",
+        "Exported PDF/layout inspection",
+        "Coordinator register integration or Git/Beads status"
+      ]
+    },
+    "design": {
+      "schema_version": 1,
+      "chapter": "ch10",
+      "status": "reconciled_pre_contract_design",
+      "counts": {
+        "tasks": 89,
+        "cook_tasks": 55,
+        "original_tasks": 34,
+        "teaching_examples": 14,
+        "controlled_reading_words": 50,
+        "source_reading_words": 59,
+        "source_notes": 14,
+        "source_helps": 9,
+        "nominal_paradigms": 38,
+        "nominal_paradigm_cells": 642,
+        "all_proposed_lemmas": 71,
+        "new_lemma_identities": 47,
+        "proposed_forms": 808,
+        "proposed_senses": 71,
+        "features": 63,
+        "paradigms": 56,
+        "promotions": 21,
+        "source_package_lexical_forms": 653,
+        "new_form_identities": 794,
+        "new_sense_identities": 64,
+        "logical_paradigm_cells": 779,
+        "literal_display_cells": 443,
+        "derived_display_cells": 336,
+        "display_matrices": 36,
+        "Cook_local_helps": 2
+      },
+      "errors": [],
+      "unresolved": [],
+      "pre_key_review_exclusions": [
+        "curriculum/proposals/unit10/author-only-model-seed.json",
+        "curriculum/proposals/unit10/author-only-models.json",
+        "curriculum/proposals/unit10/author-only-sequence-bindings.json",
+        "curriculum/proposals/unit10/author-only-composition-comparison.json",
+        "sources/audits/unit10-source/private-cook-models.json",
+        "sources/audits/unit10-source/private-reading-witness.json",
+        "sources/audits/unit10-source/private-composition-witness.json",
+        "curriculum/proposals/unit10/build/private_originals.py",
+        "curriculum/proposals/unit10/build/private_bindings.py",
+        "curriculum/proposals/unit10/build/compare_witnesses.py",
+        "curriculum/proposals/unit10/author-only-cook-sequence-bindings.json",
+        "curriculum/proposals/unit10/build/private_cook_bindings.py"
+      ]
+    }
+  },
+  "accepted_manifests": [
+    {
+      "path": "sources/audits/unit10-source/manifest.json",
+      "sha256": "395310f7a762d03f8c4fd3373cff53ff6638b73659ff2f0516abff7124dc273d",
+      "sha256_normalized_lf": "395310f7a762d03f8c4fd3373cff53ff6638b73659ff2f0516abff7124dc273d"
+    },
+    {
+      "path": "curriculum/proposals/unit10/manifest.json",
+      "sha256": "b3369f068b4a8bcd69a13f35210dfc71e250cd0d6bee1b1b7d9accb623689652",
+      "sha256_normalized_lf": "7d223e51315685f41fd34a95b2eb8b592d95929e51d50415a763961f18f9a08e"
+    }
+  ],
+  "coordinator_inspections": [
+    "sources/audits/unit10-coordinator/initial-source-check.json",
+    "sources/audits/unit10-coordinator/private-source-translation-witness.json",
+    "sources/audits/unit10-coordinator/nominal-display-check.json"
+  ],
+  "decisions": [
+    "All 55 Cook III.13–15 prompts are preserved with declared typography changes only. Original controls, bracketed hint, tailor’s, the 169 reference and Do (om.) remain. The cumulative crosswalk has 249 assigned, 395 deferred and no excluded items.",
+    "The 89 tasks, fourteen translated examples and fifty-word controlled account have complete form, sense and construction bindings. Every supported output has local help. The source editor and designer’s independent private translations agree in essential meaning; later learner-task solving remains required.",
+    "The exact 59-word Judgment tableau has three complete sentences, six overt finite predicates, fourteen original notes and nine helps. It ends before the royal speech. The coordinator independently viewed p134 and translated the passage before opening the source editor’s private witness.",
+    "The 56 defined paradigms contain 779 supported cells: 443 are literal in 36 matrices; 336 nominal cells derive from actual printed models and 29 diagnostic rows. The coordinator independently reconstructed all 642 nominal cells and read all 137 grammar-cell surfaces.",
+    "Unnan has eleven supported indicative and twelve subjunctive cells. The present second-singular gap is visible and has no lexical record. Cook’s Imper. unne is preserved alongside Fulk’s subjunctive-substitution analysis. The addressed grant uses second-person unne; the shared spelling does not change its person.",
+    "Fæder follows Cook §43.8; gāt has the selected umlaut cells; hand has an endingless accusative and documented oblique variants. Crīst is singular only. Dōm, rēaf and woruld retain recognition scope for their plural morphology; no new number senses are inferred.",
+    "The bounded right/left-side expression on … hand uses accusative even with static standan. The coordinator checked the p134 continuation, p297 lexical cross-reference, p35 rule and Cook §172.1 warning. Weak -an alone does not identify the case.",
+    "C02 corrects Cook §153.d’s objective-genitive analysis from ęgesan to dependent Frēan without altering the phrase. The coordinator independently viewed the primary page; the shared ledger preserves the original, error, replacement and evidence.",
+    "Genēosian with an accusative person is supported by unambiguous hine in the BT p421 facsimile, independently viewed by the coordinator and grammar analyst. Cook’s long ē is preserved. The separate genitive frame of nēosian remains valid.",
+    "The case syllabus distinguishes dependent and governed genitives, nominal quantity, recipient, governed person, beneficiary and experiencer. Means with mid plus dative is contrasted with the bare instrumental, preserving the stylistic qualification. Only the selected distinct se and gōd instrumental cells are promoted.",
+    "Subjectless hyngran with an accusative experiencer is distinct from ðyncan with a dative experiencer and neuter nominative subject. The earlier whole geðūht source frame remains supplied.",
+    "Explicit frames cover hearing/perception, object predicates, bringing to a recipient, working deeds, destination, name and side idioms, standing before someone, future reference and predicate ellipsis. Sęllan with drincan and swā lange swā remain locally supplied. Preserve the latter’s inasmuch-as force without imposing duration.",
+    "All fourteen shared form surfaces and analyses and seven shared sense glosses are preserved. Twenty-one promotions are explicit; new contextual analyses are separate. No archived milestones are imported. A report-only dating slip was repaired before freeze: cuman begins production in Unit6, sitt in Unit5.",
+    "The grammar analyst has read no private Unit10 answer files. The later reviewer will solve actual learner tasks before key access and disclose earlier public grammar work. Learner and key authors receive exclusive masters only after the committed contract."
+  ],
+  "material_open_issues": [],
+  "authorship_gate": "Coverage contract, brief and reconciliation must be committed locally after Beads export before learner/key prose."
+}
