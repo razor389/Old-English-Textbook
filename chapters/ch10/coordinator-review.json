@@ -1,0 +1,62 @@
+{
+  "chapter_id": "ch10",
+  "status": "coordinator_preflight_pass_independent_review_pending",
+  "contract_checkpoint": "86e073f",
+  "coordinator_role": "Reconciled source/grammar/design and wrote the contract. Authored neither master nor graded task; read actual exposition and selected key entries. These checks do not replace independent solving and full review.",
+  "findings": [
+    {
+      "finding_id": "U10-D01",
+      "artifact": "chapters/ch10/student.md",
+      "finding": "Four dative-role list items used a Markdown bullet style unsupported by the retained assembly inventory.",
+      "resolution": "Learner author changed their markers to the established hyphen list style; linguistic content unchanged.",
+      "status": "resolved_verified",
+      "contract_change": false
+    },
+    {
+      "finding_id": "U10-D02",
+      "artifact": "chapters/ch10/student.md",
+      "finding": "Help1 identified Witodlice as a connective and cited Latin autem without supplying its English sense. The audience need not know Latin.",
+      "resolution": "Learner author printed now; and, matching the canonical supplied sense. Root verified the sentence; source and original notes unchanged.",
+      "status": "resolved_verified",
+      "contract_change": false
+    },
+    {
+      "finding_id": "U10-D03",
+      "artifact": "chapters/ch10/student.md",
+      "finding": "Learner author’s final primary-image pass found draft section/page locators for strong neuters and weak nouns were wrong.",
+      "resolution": "Author corrected strong neuters to §47 pp32–33 and weak nouns to §53 p37 before handoff; retained forms unchanged. This was an author-reported correction.",
+      "status": "resolved_verified",
+      "contract_change": false
+    }
+  ],
+  "checks": [
+    "Root read actual noun/adjective models, diagnostic operations, case exposition, all new verb-rule prose and source helps/original notes.",
+    "Root read actual complete form key, T03–T06, III.15.12–22, both full reading translations and source clause analyses. They agree with the reconciled scope and root source witness; complete independent comparison remains pending.",
+    "scripts/check_unit10.py --draft passes all89task/key identities,55exactCookprompts,36matrices,173teachingmarkers,14examples,50wordnewaccount,59wordsource,14originalnotes,9sourcehelps,dependencies,evidenceidentitiesandpriorartifactpreservation.",
+    "Dry cumulative integration preserves every old per-chapter record, earliest milestone, surface, analysis, evidence link and supplied history. All1136prioractiveartifactsand134archivefiles unchanged. No actual register write yet."
+  ],
+  "draft_artifact_identities": [
+    {
+      "path": "chapters/ch10/student.md",
+      "sha256": "2f9c56cf2f8d1595b1ccc92249c62d59caaf66f45bbbc1d1299455b2e39aa70b",
+      "sha256_normalized_lf": "2f9c56cf2f8d1595b1ccc92249c62d59caaf66f45bbbc1d1299455b2e39aa70b"
+    },
+    {
+      "path": "chapters/ch10/answer-key.md",
+      "sha256": "2ad957050bb3b40c3e70bcfe4f205c587b351cde422e088a6a8ec8aa33259094",
+      "sha256_normalized_lf": "b19a0960cbf961cc9d22b14707936e838daaa70c932d150629b2e5a1421dedb0"
+    }
+  ],
+  "additional_actual_image_checks": [
+    {
+      "path": "sources/audits/unit10-source/cook_fb_1895_2-p40.png",
+      "sha256": "a4ff3d12208ba6835d03d67476d43742373e6c137aeeb304eb924bb1e7f8c65d",
+      "sha256_normalized_lf": "efcf1b5a1ba7103ff78ae26d5ee94752c6d342b50d94a4e061a065c6e05b5667",
+      "printed_page": 40,
+      "pdf_page_one_based": 56,
+      "method": "Actually opened with view_image and read by coordinator.",
+      "finding": "§59 explicitly derives -e adjectives as short monosyllables with lexical -e retained in uninflected positions; grēnu confirms the assigned selected -u cells. No draft correction required."
+    }
+  ],
+  "scope_limit": "Independent text acceptance, full exports, every-page proof and final register integration are not claimed here."
+}
