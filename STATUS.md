@@ -1,6 +1,6 @@
 # Status
 
-Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–10 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`126e927`**. Unit 11 has complete drafts and is undergoing independent review; exports and register integration remain pending. Its contract was saved before prose at `a9c6ce5`, drafts at `730dffe`, and all 92 independent solutions before key access at `f2b3974`.
+Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–10 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`126e927`**. Unit 11 has passed independent textual review; complete exports and register integration are in progress. Its contract was saved before prose at `a9c6ce5`, drafts at `730dffe`, and all 92 independent solutions before key access at `f2b3974`.
 
 ## Completed Unit 10
 
