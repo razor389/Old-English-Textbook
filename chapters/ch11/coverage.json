@@ -76726,13 +76726,12 @@
         "feower-invariant-count",
         "mann-gen-pl",
         "se-all-nom-pl",
-        "the-relative-subject-invariant",
+        "the-relative-invariant",
         "thusend-cardinal-source",
         "wesan-pret-3-pl",
         "wif-dat-pl"
       ],
       "supplied_form_ids": [
-        "the-relative-subject-invariant",
         "thusend-cardinal-source"
       ],
       "tested_form_ids": [
@@ -76743,6 +76742,7 @@
         "feower-invariant-count",
         "mann-gen-pl",
         "se-all-nom-pl",
+        "the-relative-invariant",
         "wesan-pret-3-pl",
         "wif-dat-pl"
       ],
@@ -199628,7 +199628,33 @@
     "finish": "oec-u11-finish"
   },
   "review_status": "not_yet_drafted",
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": "U11-AMEND-01",
+      "date": "2026-10-25",
+      "stage": "drafting_after_contract_checkpoint",
+      "affected_task_ids": [
+        "EX-IV-17-17"
+      ],
+      "original_binding": {
+        "form_id": "the-relative-subject-invariant",
+        "scope": "supplied"
+      },
+      "replacement_binding": {
+        "form_id": "the-relative-invariant",
+        "scope": "previously_taught",
+        "production_taught_in": "ch08"
+      },
+      "reason": "Cook17.17 uses ordinary subject-relative ðe, explicitly taught in Unit8. A provisional match chose the older supplied Unit5 surface identity. Root and learner author compared actual Unit8 scope and corrected this task only. The exact reading retains its historical supplied source identity.",
+      "evidence": [
+        "chapters/ch08/coverage.json:u08-relative-the",
+        "chapters/ch08/coverage.json:u08-relative-demonstrative",
+        "chapters/ch08/coverage.json:u08-relative-internal-case",
+        "lexicon/entries.json:the-relative-invariant"
+      ],
+      "limits": "No wording, source assignment, paradigm, new teaching milestone or sealed audit is changed. Private pre-contract bindings remain historical and this explicit task-scoped reconciliation supersedes their old identity."
+    }
+  ],
   "validation_at_contract": {
     "tasks": 92,
     "cook_tasks": 46,

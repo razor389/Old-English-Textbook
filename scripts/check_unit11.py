@@ -320,6 +320,12 @@ def main():
                 prompt = student[hits[0].end():].strip().split('\n\n')[0]
                 prompt = re.sub(r'^\d+\.\s*','',prompt)
                 require(prompt == t['prompt'],tid+': actual prompt differs')
+                tail = student[hits[0].end():]
+                next_item = re.search(r'<!--\s*item:\s*',tail)
+                task_body = tail[:next_item.start()] if next_item else tail
+                positions = [task_body.replace('**','').find(s['text']) for s in t.get('input_sequences',[])]
+                require(all(p >= 0 for p in positions) and positions == sorted(positions),
+                        tid+': actual ordered analysis inputs missing or changed')
             require(len(re.findall(r'<!--\s*(?:key:\s*)?'+re.escape(t['key_id'])+r'\s*-->',key)) == 1,tid+': key marker missing/repeated')
         for tid in teaching:
             require(tid in student,tid+': teaching marker missing')
