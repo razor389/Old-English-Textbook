@@ -1,0 +1,3718 @@
+{
+  "schema_version": 1,
+  "chapter": "ch11",
+  "status": "reconciled_pre_contract_design",
+  "private_interpretations": "Complete account/source translations remain in excluded author-only records.",
+  "teaching_examples": [
+    {
+      "example_id": "NEW-U11-EXAMPLE01",
+      "origin": "new_teaching_material",
+      "text": "Ðā se fiscere cōm, ðā sæt se sunu on ðǣm hūse.",
+      "translation": "When the fisherman came, the son was sitting in the house.",
+      "target": "Past when/then.",
+      "provisional_feature_roles": [
+        "past_when_then"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Ðā",
+          "surface": "Ðā",
+          "lemma_id": "tha-conjunction",
+          "form_id": "tha-conjunction-invariant",
+          "sense_id": "tha-when",
+          "form": "ðā",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "fiscere",
+          "surface": "fiscere",
+          "lemma_id": "fiscere",
+          "form_id": "fiscere-nom-sg-source",
+          "sense_id": "fiscere-fisherman-source",
+          "form": "fiscere",
+          "analysis": {
+            "source_analysis": "nominative masculine singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "cōm,",
+          "surface": "cōm",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pret-3-sg",
+          "sense_id": "cuman-come",
+          "form": "cōm",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "ðā",
+          "surface": "ðā",
+          "lemma_id": "tha-adverb",
+          "form_id": "tha-adverb-invariant",
+          "sense_id": "tha-adverb-1",
+          "form": "ðā",
+          "analysis": {
+            "source_analysis": "temporal adverb"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "literal": "sæt",
+          "surface": "sæt",
+          "lemma_id": "sittan",
+          "form_id": "sittan-pret-3-sg",
+          "sense_id": "sittan-1",
+          "form": "sæt",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "sunu",
+          "surface": "sunu",
+          "lemma_id": "sunu",
+          "form_id": "sunu-nom-sg",
+          "sense_id": "sunu-1",
+          "form": "sunu",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "literal": "on",
+          "surface": "on",
+          "lemma_id": "on",
+          "form_id": "on-invariant",
+          "sense_id": "on-1",
+          "form": "on",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "literal": "ðǣm",
+          "surface": "ðǣm",
+          "lemma_id": "se",
+          "form_id": "se-n-dat-sg",
+          "sense_id": "se-the",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 11,
+          "literal": "hūse.",
+          "surface": "hūse",
+          "lemma_id": "hus",
+          "form_id": "hus-dat-sg-source",
+          "sense_id": "hus-house-source",
+          "form": "hūse",
+          "analysis": {
+            "source_analysis": "dative neuter singular after tō"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "on-dative-location",
+        "u05-intransitive-posture",
+        "u06-cuman-intransitive",
+        "u11-clause-roles-order",
+        "u11-past-when-then"
+      ],
+      "word_count": 11,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "cuman-pret-3-sg",
+        "fiscere-nom-sg-source",
+        "hus-dat-sg-source",
+        "on-invariant",
+        "se-m-nom-sg",
+        "se-n-dat-sg",
+        "sittan-pret-3-sg",
+        "sunu-nom-sg",
+        "tha-adverb-invariant",
+        "tha-conjunction-invariant"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "cuman-come",
+        "fiscere-fisherman-source",
+        "hus-house-source",
+        "on-1",
+        "se-the",
+        "sittan-1",
+        "sunu-1",
+        "tha-adverb-1",
+        "tha-when"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "on-dative-location",
+        "u05-intransitive-posture",
+        "u06-cuman-intransitive",
+        "u11-clause-roles-order",
+        "u11-past-when-then"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-tha-when",
+        "U11-FRAME-tha-adverb-1"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE02",
+      "origin": "new_teaching_material",
+      "text": "Ðonne se munuc cymð, ðonne sęlð se mann him męte.",
+      "translation": "When the monk comes, the man gives him food.",
+      "target": "Recurring when/then in the stated repeated-event setting.",
+      "provisional_feature_roles": [
+        "recurring_when_then"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Ðonne",
+          "surface": "Ðonne",
+          "lemma_id": "thonne-conjunction",
+          "form_id": "thonne-conjunction-invariant",
+          "sense_id": "thonne-when",
+          "form": "ðonne",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "munuc",
+          "surface": "munuc",
+          "lemma_id": "munuc",
+          "form_id": "munuc-nom-sg",
+          "sense_id": "munuc-1",
+          "form": "munuc",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "cymð,",
+          "surface": "cymð",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pres-3-sg",
+          "sense_id": "cuman-come",
+          "form": "cymð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "ðonne",
+          "surface": "ðonne",
+          "lemma_id": "thonne",
+          "form_id": "thonne-invariant",
+          "sense_id": "thonne-then-source",
+          "form": "ðonne",
+          "analysis": {
+            "type": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "literal": "sęlð",
+          "surface": "sęlð",
+          "lemma_id": "sellan",
+          "form_id": "sellan-pres-3-sg",
+          "sense_id": "sellan-give",
+          "form": "sęlð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "mann",
+          "surface": "mann",
+          "lemma_id": "mann",
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "literal": "him",
+          "surface": "him",
+          "lemma_id": "he",
+          "form_id": "he-m-dat-sg",
+          "sense_id": "he-1",
+          "form": "him",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "literal": "męte.",
+          "surface": "męte",
+          "lemma_id": "mete",
+          "form_id": "mete-acc-sg",
+          "sense_id": "mete-1",
+          "form": "męte",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u02-giving-recipient",
+        "u06-cuman-intransitive",
+        "u11-clause-roles-order",
+        "u11-recurring-when-then"
+      ],
+      "word_count": 10,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "cuman-pres-3-sg",
+        "he-m-dat-sg",
+        "mann-nom-sg",
+        "mete-acc-sg",
+        "munuc-nom-sg",
+        "se-m-nom-sg",
+        "sellan-pres-3-sg",
+        "thonne-conjunction-invariant",
+        "thonne-invariant"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "cuman-come",
+        "he-1",
+        "mann-1",
+        "mete-1",
+        "munuc-1",
+        "se-the",
+        "sellan-give",
+        "thonne-then-source",
+        "thonne-when"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "u02-giving-recipient",
+        "u02-pronoun-reference",
+        "u06-cuman-intransitive",
+        "u11-clause-roles-order",
+        "u11-recurring-when-then"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-thonne-when",
+        "U11-FRAME-thonne-then-source"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE03",
+      "origin": "new_teaching_material",
+      "text": "Ðā-hwīle-ðe se munuc sang, se sunu dranc wæter.",
+      "translation": "While the monk sang, the son drank water.",
+      "target": "Factual simultaneous events.",
+      "provisional_feature_roles": [
+        "while"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Ðā-hwīle-ðe",
+          "surface": "Ðā-hwīle-ðe",
+          "lemma_id": "tha-hwile-the",
+          "form_id": "tha-hwile-the-invariant",
+          "sense_id": "tha-hwile-the-while",
+          "form": "ðā-hwīle-ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "munuc",
+          "surface": "munuc",
+          "lemma_id": "munuc",
+          "form_id": "munuc-nom-sg",
+          "sense_id": "munuc-1",
+          "form": "munuc",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "sang,",
+          "surface": "sang",
+          "lemma_id": "singan",
+          "form_id": "singan-pret-3-sg",
+          "sense_id": "singan-1",
+          "form": "sang",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "sunu",
+          "surface": "sunu",
+          "lemma_id": "sunu",
+          "form_id": "sunu-nom-sg",
+          "sense_id": "sunu-1",
+          "form": "sunu",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "dranc",
+          "surface": "dranc",
+          "lemma_id": "drincan",
+          "form_id": "drincan-pret-3-sg",
+          "sense_id": "drincan-1",
+          "form": "dranc",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "wæter.",
+          "surface": "wæter",
+          "lemma_id": "waeter",
+          "form_id": "waeter-acc-sg",
+          "sense_id": "waeter-1",
+          "form": "wæter",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u04-direct-objects",
+        "u04-intransitive-actions",
+        "u11-clause-roles-order",
+        "u11-while"
+      ],
+      "word_count": 8,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "drincan-pret-3-sg",
+        "munuc-nom-sg",
+        "se-m-nom-sg",
+        "singan-pret-3-sg",
+        "sunu-nom-sg",
+        "tha-hwile-the-invariant",
+        "waeter-acc-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "drincan-1",
+        "munuc-1",
+        "se-the",
+        "singan-1",
+        "sunu-1",
+        "tha-hwile-the-while",
+        "waeter-1"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "u04-direct-objects",
+        "u04-intransitive-actions",
+        "u11-clause-roles-order",
+        "u11-while"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-tha-hwile-the-while"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE04",
+      "origin": "new_teaching_material",
+      "text": "Mid-ðȳ se sunu ǣt, se fæder sæt on ðǣm hūse.",
+      "translation": "While the son ate, the father sat in the house.",
+      "target": "Temporal mid-ðȳ.",
+      "provisional_feature_roles": [
+        "mid_when"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Mid-ðȳ",
+          "surface": "Mid-ðȳ",
+          "lemma_id": "mid-thy",
+          "form_id": "mid-thy-invariant",
+          "sense_id": "mid-thy-when",
+          "form": "mid-ðȳ",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "sunu",
+          "surface": "sunu",
+          "lemma_id": "sunu",
+          "form_id": "sunu-nom-sg",
+          "sense_id": "sunu-1",
+          "form": "sunu",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "ǣt,",
+          "surface": "ǣt",
+          "lemma_id": "etan",
+          "form_id": "etan-pret-3-sg",
+          "sense_id": "etan-1",
+          "form": "ǣt",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "fæder",
+          "surface": "fæder",
+          "lemma_id": "faeder",
+          "form_id": "faeder-nom-sg",
+          "sense_id": "faeder-1",
+          "form": "fæder",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "sæt",
+          "surface": "sæt",
+          "lemma_id": "sittan",
+          "form_id": "sittan-pret-3-sg",
+          "sense_id": "sittan-1",
+          "form": "sæt",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "on",
+          "surface": "on",
+          "lemma_id": "on",
+          "form_id": "on-invariant",
+          "sense_id": "on-1",
+          "form": "on",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "literal": "ðǣm",
+          "surface": "ðǣm",
+          "lemma_id": "se",
+          "form_id": "se-n-dat-sg",
+          "sense_id": "se-the",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "literal": "hūse.",
+          "surface": "hūse",
+          "lemma_id": "hus",
+          "form_id": "hus-dat-sg-source",
+          "sense_id": "hus-house-source",
+          "form": "hūse",
+          "analysis": {
+            "source_analysis": "dative neuter singular after tō"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "on-dative-location",
+        "u05-eat",
+        "u05-intransitive-posture",
+        "u11-clause-roles-order",
+        "u11-mid-thy-temporal"
+      ],
+      "word_count": 10,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "etan-pret-3-sg",
+        "faeder-nom-sg",
+        "hus-dat-sg-source",
+        "mid-thy-invariant",
+        "on-invariant",
+        "se-m-nom-sg",
+        "se-n-dat-sg",
+        "sittan-pret-3-sg",
+        "sunu-nom-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "etan-1",
+        "faeder-1",
+        "hus-house-source",
+        "mid-thy-when",
+        "on-1",
+        "se-the",
+        "sittan-1",
+        "sunu-1"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "on-dative-location",
+        "u05-eat",
+        "u05-intransitive-posture",
+        "u11-clause-roles-order",
+        "u11-mid-thy-temporal"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-mid-thy-when"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE05",
+      "origin": "new_teaching_material",
+      "text": "Ne farað, ǣr se munuc cume.",
+      "translation": "Do not go before the monk comes.",
+      "target": "Plural command and an anticipated coming.",
+      "provisional_feature_roles": [
+        "before_anticipated"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Ne",
+          "surface": "Ne",
+          "lemma_id": "ne",
+          "form_id": "ne-invariant",
+          "sense_id": "ne-1",
+          "form": "ne",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "farað,",
+          "surface": "farað",
+          "lemma_id": "faran",
+          "form_id": "faran-imp-2-pl",
+          "sense_id": "faran-1",
+          "form": "farað",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "ǣr",
+          "surface": "ǣr",
+          "lemma_id": "aer-conjunction",
+          "form_id": "aer-conjunction-invariant",
+          "sense_id": "aer-before",
+          "form": "ǣr",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 4,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "munuc",
+          "surface": "munuc",
+          "lemma_id": "munuc",
+          "form_id": "munuc-nom-sg",
+          "sense_id": "munuc-1",
+          "form": "munuc",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "cume.",
+          "surface": "cume",
+          "lemma_id": "cuman",
+          "form_id": "cuman-present-subj-3-sg",
+          "sense_id": "cuman-come",
+          "form": "cume",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u06-cuman-intransitive",
+        "u06-faran-intransitive",
+        "u06-imperative-use",
+        "u11-before-anticipated",
+        "u11-clause-roles-order"
+      ],
+      "word_count": 6,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "aer-conjunction-invariant",
+        "cuman-present-subj-3-sg",
+        "faran-imp-2-pl",
+        "munuc-nom-sg",
+        "ne-invariant",
+        "se-m-nom-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "aer-before",
+        "cuman-come",
+        "faran-1",
+        "munuc-1",
+        "ne-1",
+        "se-the"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "u06-cuman-intransitive",
+        "u06-faran-intransitive",
+        "u06-imperative-use",
+        "u11-before-anticipated",
+        "u11-clause-roles-order"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-aer-before"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE06",
+      "origin": "new_teaching_material",
+      "text": "Wes hēr, oð-ðæt wē cumen.",
+      "translation": "Be here until we come.",
+      "target": "Singular command and an anticipated plural coming.",
+      "provisional_feature_roles": [
+        "until_anticipated"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Wes",
+          "surface": "Wes",
+          "lemma_id": "wesan",
+          "form_id": "wesan-imp-2-sg",
+          "sense_id": "wesan-be",
+          "form": "wes",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "hēr,",
+          "surface": "hēr",
+          "lemma_id": "her",
+          "form_id": "her-invariant",
+          "sense_id": "her-1",
+          "form": "hēr",
+          "analysis": {
+            "invariant": true,
+            "part_of_speech": "adverb"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 3,
+          "literal": "oð-ðæt",
+          "surface": "oð-ðæt",
+          "lemma_id": "oth-thaet",
+          "form_id": "oth-thaet-invariant",
+          "sense_id": "oth-thaet-until",
+          "form": "oð-ðæt",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 4,
+          "literal": "wē",
+          "surface": "wē",
+          "lemma_id": "ic",
+          "form_id": "ic-nom-pl",
+          "sense_id": "ic-personal",
+          "form": "wē",
+          "analysis": {
+            "person": 1,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "cumen.",
+          "surface": "cumen",
+          "lemma_id": "cuman",
+          "form_id": "cuman-present-subj-1-pl",
+          "sense_id": "cuman-come",
+          "form": "cumen",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 1,
+            "number": "plural"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u06-cuman-intransitive",
+        "u06-imperative-use",
+        "u11-clause-roles-order",
+        "u11-until-anticipated"
+      ],
+      "word_count": 5,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "cuman-present-subj-1-pl",
+        "her-invariant",
+        "ic-nom-pl",
+        "oth-thaet-invariant",
+        "wesan-imp-2-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "cuman-come",
+        "her-1",
+        "ic-personal",
+        "oth-thaet-until",
+        "wesan-be"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "u02-pronoun-reference",
+        "u06-cuman-intransitive",
+        "u06-imperative-use",
+        "u11-clause-roles-order",
+        "u11-until-anticipated"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-oth-thaet-until"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE07",
+      "origin": "new_teaching_material",
+      "text": "Se mann healp ðǣm cuman, for-ðon-ðe hē wæs untrum.",
+      "translation": "The man helped the stranger because the stranger was sick.",
+      "target": "Factual cause; hē is explicitly taken to refer to the stranger in this example.",
+      "provisional_feature_roles": [
+        "cause"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Se",
+          "surface": "Se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "mann",
+          "surface": "mann",
+          "lemma_id": "mann",
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "healp",
+          "surface": "healp",
+          "lemma_id": "helpan",
+          "form_id": "helpan-pret-3-sg",
+          "sense_id": "helpan-1",
+          "form": "healp",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "ðǣm",
+          "surface": "ðǣm",
+          "lemma_id": "se",
+          "form_id": "se-m-dat-sg",
+          "sense_id": "se-the",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "cuman,",
+          "surface": "cuman",
+          "lemma_id": "cuma",
+          "form_id": "cuma-dat-sg",
+          "sense_id": "cuma-1",
+          "form": "cuman",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "for-ðon-ðe",
+          "surface": "for-ðon-ðe",
+          "lemma_id": "for-thon-the",
+          "form_id": "for-thon-the-invariant",
+          "sense_id": "for-thon-the-because",
+          "form": "for-ðon-ðe",
+          "analysis": {
+            "inflection": "invariant",
+            "part_of_speech": "causal conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 7,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "wæs",
+          "surface": "wæs",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pret-3-sg",
+          "sense_id": "wesan-be",
+          "form": "wæs",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "literal": "untrum.",
+          "surface": "untrum",
+          "lemma_id": "untrum",
+          "form_id": "untrum-nom-m-sg-strong",
+          "sense_id": "untrum-1",
+          "form": "untrum",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u03-predicate-adjective",
+        "u04-helpan-dative",
+        "u11-causal-for-thon-the",
+        "u11-clause-roles-order"
+      ],
+      "word_count": 9,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "cuma-dat-sg",
+        "for-thon-the-invariant",
+        "he-m-nom-sg",
+        "helpan-pret-3-sg",
+        "mann-nom-sg",
+        "se-m-dat-sg",
+        "se-m-nom-sg",
+        "untrum-nom-m-sg-strong",
+        "wesan-pret-3-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "cuma-1",
+        "for-thon-the-because",
+        "he-1",
+        "helpan-1",
+        "mann-1",
+        "se-the",
+        "untrum-1",
+        "wesan-be"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "u02-pronoun-reference",
+        "u03-agreement",
+        "u03-predicate-adjective",
+        "u04-helpan-dative",
+        "u11-causal-for-thon-the",
+        "u11-clause-roles-order"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-for-thon-the-because"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE08",
+      "origin": "new_teaching_material",
+      "text": "Ic cume, ðæt ic ðē helpe.",
+      "translation": "I come so that I may help you.",
+      "target": "Present purpose with its own finite verb.",
+      "provisional_feature_roles": [
+        "purpose"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Ic",
+          "surface": "Ic",
+          "lemma_id": "ic",
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "cume,",
+          "surface": "cume",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pres-1-sg",
+          "sense_id": "cuman-come",
+          "form": "cume",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "thaet-conjunction",
+          "form_id": "thaet-conjunction-invariant",
+          "sense_id": "thaet-purpose",
+          "form": "ðæt",
+          "analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 4,
+          "literal": "ic",
+          "surface": "ic",
+          "lemma_id": "ic",
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "ðē",
+          "surface": "ðē",
+          "lemma_id": "thu",
+          "form_id": "thu-dat-sg",
+          "sense_id": "thu-personal",
+          "form": "ðē",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "helpe.",
+          "surface": "helpe",
+          "lemma_id": "helpan",
+          "form_id": "helpan-present-subj-1-sg",
+          "sense_id": "helpan-1",
+          "form": "helpe",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 1,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u04-helpan-dative",
+        "u06-cuman-intransitive",
+        "u11-clause-roles-order",
+        "u11-purpose"
+      ],
+      "word_count": 6,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "cuman-pres-1-sg",
+        "helpan-present-subj-1-sg",
+        "ic-nom-sg",
+        "thaet-conjunction-invariant",
+        "thu-dat-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "cuman-come",
+        "helpan-1",
+        "ic-personal",
+        "thaet-purpose",
+        "thu-personal"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "u02-pronoun-reference",
+        "u04-helpan-dative",
+        "u06-cuman-intransitive",
+        "u11-clause-roles-order",
+        "u11-purpose"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-thaet-purpose"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE09",
+      "origin": "new_teaching_material",
+      "text": "Se fæder cōm, ðæt hē his suna hulpe.",
+      "translation": "The father came so that he might help his son.",
+      "target": "Past purpose with preterite subjunctive.",
+      "provisional_feature_roles": [
+        "purpose"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Se",
+          "surface": "Se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "fæder",
+          "surface": "fæder",
+          "lemma_id": "faeder",
+          "form_id": "faeder-nom-sg",
+          "sense_id": "faeder-1",
+          "form": "fæder",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "cōm,",
+          "surface": "cōm",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pret-3-sg",
+          "sense_id": "cuman-come",
+          "form": "cōm",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "thaet-conjunction",
+          "form_id": "thaet-conjunction-invariant",
+          "sense_id": "thaet-purpose",
+          "form": "ðæt",
+          "analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 5,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "his",
+          "surface": "his",
+          "lemma_id": "he",
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "form": "his",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "suna",
+          "surface": "suna",
+          "lemma_id": "sunu",
+          "form_id": "sunu-dat-sg",
+          "sense_id": "sunu-1",
+          "form": "suna",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "hulpe.",
+          "surface": "hulpe",
+          "lemma_id": "helpan",
+          "form_id": "helpan-preterite-subj-3-sg",
+          "sense_id": "helpan-1",
+          "form": "hulpe",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "genitive-relationship",
+        "u04-helpan-dative",
+        "u06-cuman-intransitive",
+        "u11-clause-roles-order",
+        "u11-purpose"
+      ],
+      "word_count": 8,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "cuman-pret-3-sg",
+        "faeder-nom-sg",
+        "he-m-gen-sg",
+        "he-m-nom-sg",
+        "helpan-preterite-subj-3-sg",
+        "se-m-nom-sg",
+        "sunu-dat-sg",
+        "thaet-conjunction-invariant"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "cuman-come",
+        "faeder-1",
+        "he-1",
+        "he-possessor",
+        "helpan-1",
+        "se-the",
+        "sunu-1",
+        "thaet-purpose"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "genitive-relationship",
+        "u02-pronoun-reference",
+        "u04-helpan-dative",
+        "u06-cuman-intransitive",
+        "u11-clause-roles-order",
+        "u11-purpose"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-thaet-purpose"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE10",
+      "origin": "new_teaching_material",
+      "text": "Heald ðæt dēor, ðȳ-lǣs-ðe hit ðone męte nime.",
+      "translation": "Hold the animal, lest it take the food.",
+      "target": "Intended prevention, not an extra negative in the main command.",
+      "provisional_feature_roles": [
+        "negative_purpose"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Heald",
+          "surface": "Heald",
+          "lemma_id": "healdan",
+          "form_id": "healdan-imp-2-sg",
+          "sense_id": "healdan-1",
+          "form": "heald",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "se",
+          "form_id": "se-n-acc-sg",
+          "sense_id": "se-the",
+          "form": "ðæt",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "dēor,",
+          "surface": "dēor",
+          "lemma_id": "deor",
+          "form_id": "deor-acc-sg",
+          "sense_id": "deor-1",
+          "form": "dēor",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "ðȳ-lǣs-ðe",
+          "surface": "ðȳ-lǣs-ðe",
+          "lemma_id": "thy-laes-the",
+          "form_id": "thy-laes-the-invariant",
+          "sense_id": "thy-laes-the-lest",
+          "form": "ðȳ-lǣs-ðe",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 5,
+          "literal": "hit",
+          "surface": "hit",
+          "lemma_id": "he",
+          "form_id": "he-n-nom-sg",
+          "sense_id": "he-1",
+          "form": "hit",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "n",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "ðone",
+          "surface": "ðone",
+          "lemma_id": "se",
+          "form_id": "se-m-acc-sg",
+          "sense_id": "se-the",
+          "form": "ðone",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "męte",
+          "surface": "męte",
+          "lemma_id": "mete",
+          "form_id": "mete-acc-sg",
+          "sense_id": "mete-1",
+          "form": "męte",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "nime.",
+          "surface": "nime",
+          "lemma_id": "niman",
+          "form_id": "niman-present-subj-3-sg",
+          "sense_id": "niman-1",
+          "form": "nime",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u05-carry-take-objects",
+        "u05-strike-hold-objects",
+        "u06-imperative-use",
+        "u11-clause-roles-order",
+        "u11-negative-purpose"
+      ],
+      "word_count": 8,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "deor-acc-sg",
+        "he-n-nom-sg",
+        "healdan-imp-2-sg",
+        "mete-acc-sg",
+        "niman-present-subj-3-sg",
+        "se-m-acc-sg",
+        "se-n-acc-sg",
+        "thy-laes-the-invariant"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "deor-1",
+        "he-1",
+        "healdan-1",
+        "mete-1",
+        "niman-1",
+        "se-the",
+        "thy-laes-the-lest"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "u02-pronoun-reference",
+        "u05-carry-take-objects",
+        "u05-strike-hold-objects",
+        "u06-imperative-use",
+        "u11-clause-roles-order",
+        "u11-negative-purpose"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-thy-laes-the-lest"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE11",
+      "origin": "new_teaching_material",
+      "text": "Se sunu wæs swā glæd, ðæt hē sang.",
+      "translation": "The son was so glad that he sang.",
+      "target": "Result asserted to have occurred.",
+      "provisional_feature_roles": [
+        "result"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Se",
+          "surface": "Se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "sunu",
+          "surface": "sunu",
+          "lemma_id": "sunu",
+          "form_id": "sunu-nom-sg",
+          "sense_id": "sunu-1",
+          "form": "sunu",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "wæs",
+          "surface": "wæs",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pret-3-sg",
+          "sense_id": "wesan-be",
+          "form": "wæs",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "swā",
+          "surface": "swā",
+          "lemma_id": "swa",
+          "form_id": "swa-invariant",
+          "sense_id": "swa-1",
+          "form": "swā",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "glæd,",
+          "surface": "glæd",
+          "lemma_id": "glaed",
+          "form_id": "glaed-nom-m-sg-strong",
+          "sense_id": "glaed-1",
+          "form": "glæd",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "thaet-conjunction",
+          "form_id": "thaet-conjunction-invariant",
+          "sense_id": "thaet-result",
+          "form": "ðæt",
+          "analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 7,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "sang.",
+          "surface": "sang",
+          "lemma_id": "singan",
+          "form_id": "singan-pret-3-sg",
+          "sense_id": "singan-1",
+          "form": "sang",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u03-predicate-adjective",
+        "u04-intransitive-actions",
+        "u11-clause-roles-order",
+        "u11-factual-result"
+      ],
+      "word_count": 8,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "glaed-nom-m-sg-strong",
+        "he-m-nom-sg",
+        "se-m-nom-sg",
+        "singan-pret-3-sg",
+        "sunu-nom-sg",
+        "swa-invariant",
+        "thaet-conjunction-invariant",
+        "wesan-pret-3-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "glaed-1",
+        "he-1",
+        "se-the",
+        "singan-1",
+        "sunu-1",
+        "swa-1",
+        "thaet-result",
+        "wesan-be"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "u02-pronoun-reference",
+        "u03-agreement",
+        "u03-predicate-adjective",
+        "u04-intransitive-actions",
+        "u11-clause-roles-order",
+        "u11-factual-result"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": []
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE12",
+      "origin": "new_teaching_material",
+      "text": "Ðēah se fiscere sīe eald, hē hilpð his suna.",
+      "translation": "Although the fisherman is old, he helps his son.",
+      "target": "Concession with an admitted fact.",
+      "provisional_feature_roles": [
+        "concession"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Ðēah",
+          "surface": "Ðēah",
+          "lemma_id": "theah",
+          "form_id": "theah-invariant",
+          "sense_id": "theah-although",
+          "form": "ðēah",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "fiscere",
+          "surface": "fiscere",
+          "lemma_id": "fiscere",
+          "form_id": "fiscere-nom-sg-source",
+          "sense_id": "fiscere-fisherman-source",
+          "form": "fiscere",
+          "analysis": {
+            "source_analysis": "nominative masculine singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "sīe",
+          "surface": "sīe",
+          "lemma_id": "wesan",
+          "form_id": "wesan-present-subj-3-sg",
+          "sense_id": "wesan-be",
+          "form": "sīe",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "eald,",
+          "surface": "eald",
+          "lemma_id": "eald",
+          "form_id": "eald-nom-m-sg-strong",
+          "sense_id": "eald-1",
+          "form": "eald",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "hilpð",
+          "surface": "hilpð",
+          "lemma_id": "helpan",
+          "form_id": "helpan-pres-3-sg",
+          "sense_id": "helpan-1",
+          "form": "hilpð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "his",
+          "surface": "his",
+          "lemma_id": "he",
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "form": "his",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "literal": "suna.",
+          "surface": "suna",
+          "lemma_id": "sunu",
+          "form_id": "sunu-dat-sg",
+          "sense_id": "sunu-1",
+          "form": "suna",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "genitive-relationship",
+        "u03-predicate-adjective",
+        "u04-helpan-dative",
+        "u11-clause-roles-order",
+        "u11-concession"
+      ],
+      "word_count": 9,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "eald-nom-m-sg-strong",
+        "fiscere-nom-sg-source",
+        "he-m-gen-sg",
+        "he-m-nom-sg",
+        "helpan-pres-3-sg",
+        "se-m-nom-sg",
+        "sunu-dat-sg",
+        "theah-invariant",
+        "wesan-present-subj-3-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "eald-1",
+        "fiscere-fisherman-source",
+        "he-1",
+        "he-possessor",
+        "helpan-1",
+        "se-the",
+        "sunu-1",
+        "theah-although",
+        "wesan-be"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "genitive-relationship",
+        "u02-pronoun-reference",
+        "u03-agreement",
+        "u03-predicate-adjective",
+        "u04-helpan-dative",
+        "u11-clause-roles-order",
+        "u11-concession"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-theah-although"
+      ]
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE13",
+      "origin": "new_teaching_material",
+      "text": "Gif se munuc is hēr, hē hilpð ðǣm męnn.",
+      "translation": "If the monk is here, he helps the man.",
+      "target": "Open condition; the speaker does not know whether he is here.",
+      "provisional_feature_roles": [
+        "open_condition"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Gif",
+          "surface": "Gif",
+          "lemma_id": "gif",
+          "form_id": "gif-invariant",
+          "sense_id": "gif-if",
+          "form": "gif",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "munuc",
+          "surface": "munuc",
+          "lemma_id": "munuc",
+          "form_id": "munuc-nom-sg",
+          "sense_id": "munuc-1",
+          "form": "munuc",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "is",
+          "surface": "is",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pres-3-sg",
+          "sense_id": "wesan-be",
+          "form": "is",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "hēr,",
+          "surface": "hēr",
+          "lemma_id": "her",
+          "form_id": "her-invariant",
+          "sense_id": "her-1",
+          "form": "hēr",
+          "analysis": {
+            "invariant": true,
+            "part_of_speech": "adverb"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "hilpð",
+          "surface": "hilpð",
+          "lemma_id": "helpan",
+          "form_id": "helpan-pres-3-sg",
+          "sense_id": "helpan-1",
+          "form": "hilpð",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "ðǣm",
+          "surface": "ðǣm",
+          "lemma_id": "se",
+          "form_id": "se-m-dat-sg",
+          "sense_id": "se-the",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "literal": "męnn.",
+          "surface": "męnn",
+          "lemma_id": "mann",
+          "form_id": "mann-dat-sg",
+          "sense_id": "mann-1",
+          "form": "męnn",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u04-helpan-dative",
+        "u07-basic-conditionals"
+      ],
+      "word_count": 9,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "gif-invariant",
+        "he-m-nom-sg",
+        "helpan-pres-3-sg",
+        "her-invariant",
+        "mann-dat-sg",
+        "munuc-nom-sg",
+        "se-m-dat-sg",
+        "se-m-nom-sg",
+        "wesan-pres-3-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "gif-if",
+        "he-1",
+        "helpan-1",
+        "her-1",
+        "mann-1",
+        "munuc-1",
+        "se-the",
+        "wesan-be"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "u02-pronoun-reference",
+        "u04-helpan-dative",
+        "u07-basic-conditionals"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": []
+    },
+    {
+      "example_id": "NEW-U11-EXAMPLE14",
+      "origin": "new_teaching_material",
+      "text": "Gif se munuc wǣre hēr, hē hulpe ðǣm męnn.",
+      "translation": "If the monk were here, he would help the man.",
+      "target": "Contrary-present condition; the monk is absent now.",
+      "provisional_feature_roles": [
+        "contrary_present"
+      ],
+      "graded": false,
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Gif",
+          "surface": "Gif",
+          "lemma_id": "gif",
+          "form_id": "gif-invariant",
+          "sense_id": "gif-if",
+          "form": "gif",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "munuc",
+          "surface": "munuc",
+          "lemma_id": "munuc",
+          "form_id": "munuc-nom-sg",
+          "sense_id": "munuc-1",
+          "form": "munuc",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "wǣre",
+          "surface": "wǣre",
+          "lemma_id": "wesan",
+          "form_id": "wesan-preterite-subj-3-sg",
+          "sense_id": "wesan-be",
+          "form": "wǣre",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "hēr,",
+          "surface": "hēr",
+          "lemma_id": "her",
+          "form_id": "her-invariant",
+          "sense_id": "her-1",
+          "form": "hēr",
+          "analysis": {
+            "invariant": true,
+            "part_of_speech": "adverb"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 6,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "hulpe",
+          "surface": "hulpe",
+          "lemma_id": "helpan",
+          "form_id": "helpan-preterite-subj-3-sg",
+          "sense_id": "helpan-1",
+          "form": "hulpe",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "ðǣm",
+          "surface": "ðǣm",
+          "lemma_id": "se",
+          "form_id": "se-m-dat-sg",
+          "sense_id": "se-the",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "literal": "męnn.",
+          "surface": "męnn",
+          "lemma_id": "mann",
+          "form_id": "mann-dat-sg",
+          "sense_id": "mann-1",
+          "form": "męnn",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "target_feature_ids": [
+        "u04-helpan-dative",
+        "u11-clause-roles-order",
+        "u11-contrary-present-condition"
+      ],
+      "word_count": 9,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "gif-invariant",
+        "he-m-nom-sg",
+        "helpan-preterite-subj-3-sg",
+        "her-invariant",
+        "mann-dat-sg",
+        "munuc-nom-sg",
+        "se-m-dat-sg",
+        "se-m-nom-sg",
+        "wesan-preterite-subj-3-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "gif-if",
+        "he-1",
+        "helpan-1",
+        "her-1",
+        "mann-1",
+        "munuc-1",
+        "se-the",
+        "wesan-be"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "u02-pronoun-reference",
+        "u04-helpan-dative",
+        "u11-clause-roles-order",
+        "u11-contrary-present-condition"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": []
+    }
+  ],
+  "compositions": [
+    {
+      "composition_id": "NEW-U11-READING-01",
+      "title": "The fisherman and his son",
+      "origin": "new_teaching_material",
+      "text": "Se ealda fiscere cōm tō ðǣm hūse, ðæt hē his suna hulpe. Ðā hē cōm, ðā wæs se sunu hungrig. Se fiscere sealde him męte. Mid-ðȳ se sunu ǣt, se fiscere bær wæter. Ðēah se fiscere wǣre eald, hē healp his suna. Se sunu cwæð: “Wes hēr, oð-ðæt ic cume.” Hē gewāt and cōm and sealde his fæder wæter.",
+      "word_count_whitespace": 59,
+      "target": "A father helps his hungry son; the son responds with a promise to return and gives his father water. Purpose, past correlation, simultaneity, factual concession and anticipated until are explicit.",
+      "provisional_feature_roles": [
+        "purpose",
+        "past_when_then",
+        "mid_when",
+        "concession",
+        "until_anticipated"
+      ],
+      "support_policy": "All required forms, senses and constructions must be productive before this independent reading. No private full translation appears in this public seed.",
+      "origin_category": "new_teaching_material",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Se",
+          "surface": "Se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "ealda",
+          "surface": "ealda",
+          "lemma_id": "eald",
+          "form_id": "eald-nom-m-sg-weak",
+          "sense_id": "eald-1",
+          "form": "ealda",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "weak",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "fiscere",
+          "surface": "fiscere",
+          "lemma_id": "fiscere",
+          "form_id": "fiscere-nom-sg-source",
+          "sense_id": "fiscere-fisherman-source",
+          "form": "fiscere",
+          "analysis": {
+            "source_analysis": "nominative masculine singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "cōm",
+          "surface": "cōm",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pret-3-sg",
+          "sense_id": "cuman-come",
+          "form": "cōm",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "tō",
+          "surface": "tō",
+          "lemma_id": "to",
+          "form_id": "to-preposition-dative-invariant",
+          "sense_id": "to-destination",
+          "form": "tō",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "ðǣm",
+          "surface": "ðǣm",
+          "lemma_id": "se",
+          "form_id": "se-n-dat-sg",
+          "sense_id": "se-the",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "hūse,",
+          "surface": "hūse",
+          "lemma_id": "hus",
+          "form_id": "hus-dat-sg-source",
+          "sense_id": "hus-house-source",
+          "form": "hūse",
+          "analysis": {
+            "source_analysis": "dative neuter singular after tō"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 8,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "thaet-conjunction",
+          "form_id": "thaet-conjunction-invariant",
+          "sense_id": "thaet-purpose",
+          "form": "ðæt",
+          "analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 9,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "literal": "his",
+          "surface": "his",
+          "lemma_id": "he",
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "form": "his",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 11,
+          "literal": "suna",
+          "surface": "suna",
+          "lemma_id": "sunu",
+          "form_id": "sunu-dat-sg",
+          "sense_id": "sunu-1",
+          "form": "suna",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 12,
+          "literal": "hulpe.",
+          "surface": "hulpe",
+          "lemma_id": "helpan",
+          "form_id": "helpan-preterite-subj-3-sg",
+          "sense_id": "helpan-1",
+          "form": "hulpe",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 13,
+          "literal": "Ðā",
+          "surface": "Ðā",
+          "lemma_id": "tha-conjunction",
+          "form_id": "tha-conjunction-invariant",
+          "sense_id": "tha-when",
+          "form": "ðā",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 14,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 15,
+          "literal": "cōm,",
+          "surface": "cōm",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pret-3-sg",
+          "sense_id": "cuman-come",
+          "form": "cōm",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 16,
+          "literal": "ðā",
+          "surface": "ðā",
+          "lemma_id": "tha-adverb",
+          "form_id": "tha-adverb-invariant",
+          "sense_id": "tha-adverb-1",
+          "form": "ðā",
+          "analysis": {
+            "source_analysis": "temporal adverb"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 17,
+          "literal": "wæs",
+          "surface": "wæs",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pret-3-sg",
+          "sense_id": "wesan-be",
+          "form": "wæs",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 18,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 19,
+          "literal": "sunu",
+          "surface": "sunu",
+          "lemma_id": "sunu",
+          "form_id": "sunu-nom-sg",
+          "sense_id": "sunu-1",
+          "form": "sunu",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 20,
+          "literal": "hungrig.",
+          "surface": "hungrig",
+          "lemma_id": "hungrig",
+          "form_id": "hungrig-nom-m-sg-strong",
+          "sense_id": "hungrig-1",
+          "form": "hungrig",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 21,
+          "literal": "Se",
+          "surface": "Se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 22,
+          "literal": "fiscere",
+          "surface": "fiscere",
+          "lemma_id": "fiscere",
+          "form_id": "fiscere-nom-sg-source",
+          "sense_id": "fiscere-fisherman-source",
+          "form": "fiscere",
+          "analysis": {
+            "source_analysis": "nominative masculine singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 23,
+          "literal": "sealde",
+          "surface": "sealde",
+          "lemma_id": "sellan",
+          "form_id": "sellan-pret-3-sg",
+          "sense_id": "sellan-give",
+          "form": "sealde",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 24,
+          "literal": "him",
+          "surface": "him",
+          "lemma_id": "he",
+          "form_id": "he-m-dat-sg",
+          "sense_id": "he-1",
+          "form": "him",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 25,
+          "literal": "męte.",
+          "surface": "męte",
+          "lemma_id": "mete",
+          "form_id": "mete-acc-sg",
+          "sense_id": "mete-1",
+          "form": "męte",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 26,
+          "literal": "Mid-ðȳ",
+          "surface": "Mid-ðȳ",
+          "lemma_id": "mid-thy",
+          "form_id": "mid-thy-invariant",
+          "sense_id": "mid-thy-when",
+          "form": "mid-ðȳ",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 27,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 28,
+          "literal": "sunu",
+          "surface": "sunu",
+          "lemma_id": "sunu",
+          "form_id": "sunu-nom-sg",
+          "sense_id": "sunu-1",
+          "form": "sunu",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 29,
+          "literal": "ǣt,",
+          "surface": "ǣt",
+          "lemma_id": "etan",
+          "form_id": "etan-pret-3-sg",
+          "sense_id": "etan-1",
+          "form": "ǣt",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 30,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 31,
+          "literal": "fiscere",
+          "surface": "fiscere",
+          "lemma_id": "fiscere",
+          "form_id": "fiscere-nom-sg-source",
+          "sense_id": "fiscere-fisherman-source",
+          "form": "fiscere",
+          "analysis": {
+            "source_analysis": "nominative masculine singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 32,
+          "literal": "bær",
+          "surface": "bær",
+          "lemma_id": "beran",
+          "form_id": "beran-pret-3-sg",
+          "sense_id": "beran-1",
+          "form": "bær",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 33,
+          "literal": "wæter.",
+          "surface": "wæter",
+          "lemma_id": "waeter",
+          "form_id": "waeter-acc-sg",
+          "sense_id": "waeter-1",
+          "form": "wæter",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 34,
+          "literal": "Ðēah",
+          "surface": "Ðēah",
+          "lemma_id": "theah",
+          "form_id": "theah-invariant",
+          "sense_id": "theah-although",
+          "form": "ðēah",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 35,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 36,
+          "literal": "fiscere",
+          "surface": "fiscere",
+          "lemma_id": "fiscere",
+          "form_id": "fiscere-nom-sg-source",
+          "sense_id": "fiscere-fisherman-source",
+          "form": "fiscere",
+          "analysis": {
+            "source_analysis": "nominative masculine singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 37,
+          "literal": "wǣre",
+          "surface": "wǣre",
+          "lemma_id": "wesan",
+          "form_id": "wesan-preterite-subj-3-sg",
+          "sense_id": "wesan-be",
+          "form": "wǣre",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 38,
+          "literal": "eald,",
+          "surface": "eald",
+          "lemma_id": "eald",
+          "form_id": "eald-nom-m-sg-strong",
+          "sense_id": "eald-1",
+          "form": "eald",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "sg",
+            "declension": "strong",
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 39,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 40,
+          "literal": "healp",
+          "surface": "healp",
+          "lemma_id": "helpan",
+          "form_id": "helpan-pret-3-sg",
+          "sense_id": "helpan-1",
+          "form": "healp",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 41,
+          "literal": "his",
+          "surface": "his",
+          "lemma_id": "he",
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "form": "his",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 42,
+          "literal": "suna.",
+          "surface": "suna",
+          "lemma_id": "sunu",
+          "form_id": "sunu-dat-sg",
+          "sense_id": "sunu-1",
+          "form": "suna",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 43,
+          "literal": "Se",
+          "surface": "Se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "form": "se",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 44,
+          "literal": "sunu",
+          "surface": "sunu",
+          "lemma_id": "sunu",
+          "form_id": "sunu-nom-sg",
+          "sense_id": "sunu-1",
+          "form": "sunu",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 45,
+          "literal": "cwæð:",
+          "surface": "cwæð",
+          "lemma_id": "cwethan",
+          "form_id": "cwethan-pret-3-sg",
+          "sense_id": "cwethan-1",
+          "form": "cwæð",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 46,
+          "literal": "“Wes",
+          "surface": "Wes",
+          "lemma_id": "wesan",
+          "form_id": "wesan-imp-2-sg",
+          "sense_id": "wesan-be",
+          "form": "wes",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 47,
+          "literal": "hēr,",
+          "surface": "hēr",
+          "lemma_id": "her",
+          "form_id": "her-invariant",
+          "sense_id": "her-1",
+          "form": "hēr",
+          "analysis": {
+            "invariant": true,
+            "part_of_speech": "adverb"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 48,
+          "literal": "oð-ðæt",
+          "surface": "oð-ðæt",
+          "lemma_id": "oth-thaet",
+          "form_id": "oth-thaet-invariant",
+          "sense_id": "oth-thaet-until",
+          "form": "oð-ðæt",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 49,
+          "literal": "ic",
+          "surface": "ic",
+          "lemma_id": "ic",
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 50,
+          "literal": "cume.”",
+          "surface": "cume",
+          "lemma_id": "cuman",
+          "form_id": "cuman-present-subj-1-sg",
+          "sense_id": "cuman-come",
+          "form": "cume",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 1,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 51,
+          "literal": "Hē",
+          "surface": "Hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 52,
+          "literal": "gewāt",
+          "surface": "gewāt",
+          "lemma_id": "gewitan",
+          "form_id": "gewitan-pret-3-sg",
+          "sense_id": "gewitan-depart",
+          "form": "gewāt",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 53,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "form": "and",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 54,
+          "literal": "cōm",
+          "surface": "cōm",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pret-3-sg",
+          "sense_id": "cuman-come",
+          "form": "cōm",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 55,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "form": "and",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 56,
+          "literal": "sealde",
+          "surface": "sealde",
+          "lemma_id": "sellan",
+          "form_id": "sellan-pret-3-sg",
+          "sense_id": "sellan-give",
+          "form": "sealde",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 57,
+          "literal": "his",
+          "surface": "his",
+          "lemma_id": "he",
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "form": "his",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 58,
+          "literal": "fæder",
+          "surface": "fæder",
+          "lemma_id": "faeder",
+          "form_id": "faeder-dat-sg",
+          "sense_id": "faeder-1",
+          "form": "fæder",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 59,
+          "literal": "wæter.",
+          "surface": "wæter",
+          "lemma_id": "waeter",
+          "form_id": "waeter-acc-sg",
+          "sense_id": "waeter-1",
+          "form": "wæter",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "neuter"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "word_count": 59,
+      "status": "reconciled_pre_contract_design",
+      "required_form_ids": [
+        "and-invariant",
+        "beran-pret-3-sg",
+        "cuman-present-subj-1-sg",
+        "cuman-pret-3-sg",
+        "cwethan-pret-3-sg",
+        "eald-nom-m-sg-strong",
+        "eald-nom-m-sg-weak",
+        "etan-pret-3-sg",
+        "faeder-dat-sg",
+        "fiscere-nom-sg-source",
+        "gewitan-pret-3-sg",
+        "he-m-dat-sg",
+        "he-m-gen-sg",
+        "he-m-nom-sg",
+        "helpan-pret-3-sg",
+        "helpan-preterite-subj-3-sg",
+        "her-invariant",
+        "hungrig-nom-m-sg-strong",
+        "hus-dat-sg-source",
+        "ic-nom-sg",
+        "mete-acc-sg",
+        "mid-thy-invariant",
+        "oth-thaet-invariant",
+        "se-m-nom-sg",
+        "se-n-dat-sg",
+        "sellan-pret-3-sg",
+        "sunu-dat-sg",
+        "sunu-nom-sg",
+        "tha-adverb-invariant",
+        "tha-conjunction-invariant",
+        "thaet-conjunction-invariant",
+        "theah-invariant",
+        "to-preposition-dative-invariant",
+        "waeter-acc-sg",
+        "wesan-imp-2-sg",
+        "wesan-pret-3-sg",
+        "wesan-preterite-subj-3-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_sense_ids": [
+        "and-1",
+        "beran-1",
+        "cuman-come",
+        "cwethan-1",
+        "eald-1",
+        "etan-1",
+        "faeder-1",
+        "fiscere-fisherman-source",
+        "gewitan-depart",
+        "he-1",
+        "he-possessor",
+        "helpan-1",
+        "her-1",
+        "hungrig-1",
+        "hus-house-source",
+        "ic-personal",
+        "mete-1",
+        "mid-thy-when",
+        "oth-thaet-until",
+        "se-the",
+        "sellan-give",
+        "sunu-1",
+        "tha-adverb-1",
+        "tha-when",
+        "thaet-purpose",
+        "theah-although",
+        "to-destination",
+        "waeter-1",
+        "wesan-be"
+      ],
+      "supplied_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "genitive-relationship",
+        "u02-giving-recipient",
+        "u02-pronoun-reference",
+        "u03-agreement",
+        "u03-predicate-adjective",
+        "u03-weak-adjectives",
+        "u04-helpan-dative",
+        "u05-carry-take-objects",
+        "u05-direct-quotation",
+        "u05-eat",
+        "u06-cuman-intransitive",
+        "u06-direct-quotation",
+        "u06-imperative-use",
+        "u10-gewitan-departure",
+        "u10-to-destination",
+        "u11-clause-roles-order",
+        "u11-concession",
+        "u11-mid-thy-temporal",
+        "u11-past-when-then",
+        "u11-purpose",
+        "u11-until-anticipated"
+      ],
+      "supplied_feature_ids": [],
+      "lexical_frame_ids": [
+        "U11-FRAME-tha-when",
+        "U11-FRAME-mid-thy-when",
+        "U11-FRAME-oth-thaet-until",
+        "U11-FRAME-theah-although",
+        "U11-FRAME-tha-adverb-1",
+        "U11-FRAME-thaet-purpose"
+      ]
+    }
+  ]
+}

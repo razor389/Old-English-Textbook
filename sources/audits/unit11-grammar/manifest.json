@@ -1,0 +1,381 @@
+{
+  "schema_version": 1,
+  "chapter": "ch11",
+  "agent": "unit11_grammar",
+  "date": "2026-10-25",
+  "status": "completed_audit_pending_coordinator_contract",
+  "exclusive_write_root": "sources/audits/unit11-grammar",
+  "baseline_checkpoint": "fdddbe6",
+  "canonical_files": [
+    {
+      "path": "sources/audits/unit11-grammar/REPORT.md",
+      "sha256": "7a4bb9848082ebaf175fb11f287d4274b9f9b98b48136db82e280e37cc118c16",
+      "bytes": 7694
+    },
+    {
+      "path": "sources/audits/unit11-grammar/grammar-records.json",
+      "sha256": "177d35658df852708b66b1aea0630456e6bbb97871adaa1ed17eff4955071860",
+      "bytes": 478955
+    },
+    {
+      "path": "sources/audits/unit11-grammar/lexical-frames.json",
+      "sha256": "99f2ce165c81b3376a2b281dc265cb7fa08bf08ea3ab517980cc2781e3853688",
+      "bytes": 15223
+    },
+    {
+      "path": "sources/audits/unit11-grammar/evidence-catalog.json",
+      "sha256": "25d30c19342f76fc4ffccabff81fdf774fb49ac85156417a6ab92073364b0cb3",
+      "bytes": 73252
+    },
+    {
+      "path": "sources/audits/unit11-grammar/rules.json",
+      "sha256": "c745c0b71aad781fd552f9237d48cc3266c05c914fb344f744574d7f9ac68d56",
+      "bytes": 30028
+    },
+    {
+      "path": "sources/audits/unit11-grammar/prior-audit.json",
+      "sha256": "ceb320715785c1ef50504817c133b0975468d96721babeb65849d53362b07107",
+      "bytes": 1614253
+    },
+    {
+      "path": "sources/audits/unit11-grammar/public-composition-review.json",
+      "sha256": "24dd07c655d5f55c494b38a21d6b3b117248c64e4b7e509773d879798592d161",
+      "bytes": 5800
+    },
+    {
+      "path": "sources/audits/unit11-grammar/validation.json",
+      "sha256": "9d11de945aa8740717dea33d0b8cfc991033caf992ce4587253ca3be7f2ed151",
+      "bytes": 719
+    }
+  ],
+  "catalogued_images": [
+    {
+      "path": "sources/audits/course-map/ex-page09.png",
+      "sha256": "642238c797a7ae9c8670af25e0bbcd4595654bc4043776e8507cf323ddedb3d9"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/bt-10346-bt_b0277.jpg",
+      "sha256": "b8618cdd76689271f90b17d3ff765c2f699a077cc6396e9acad99662a04aa447"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/bt-11157-bt_b0300.jpg",
+      "sha256": "1068fff1a5d084ee190b2bea661dc14e945943a38d928bf40ef0b40224061ec1"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/bt-20338-bt_b0582.jpg",
+      "sha256": "bff52928da90c3bb1cd9df1e63e60295768bd0716b6e0a35f51f0500387d594c"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/bt-24560-bt_b0751.jpg",
+      "sha256": "5ef654dc907c029b0ee533566e97e7d268da6c1e27fc502a9a614df7598a6589"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/bt-26747-bt_b0830.jpg",
+      "sha256": "1ca9e6abeb993fa60934c8aa757cd3912e8fd952d56da6c6569781b09da82cf3"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/bt-44727-bt_d0211.jpg",
+      "sha256": "00f80ad01e57174b8b16306a2ca452d2d845c452868de2f12a0ebdb677eb51d7"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/bt-49015-bt_d0378.jpg",
+      "sha256": "697f898caf7e61282d894f55aedf27481efeb59bd40a940a9b6bb9b6e6e4a6a4"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/bt-6957-bt_b0179.jpg",
+      "sha256": "746a34935293faf4d8ca3623bbd6d7b35d0d12cf4b8206ed67c909a30133eaad"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/bt_b0583.jpg",
+      "sha256": "fccaa22c508ad89ba6a541aaf09989561c9a2420ca4fb6b7e39d2fe0aea59f7d"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p100.png",
+      "sha256": "62e3fd3972e30664e5fa5bf162b1f0d871e13fb91229d2a492b00bc78e3cf53e"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p101.png",
+      "sha256": "133bf7e9915a53c77e04b138dc604627889729ca33ccc3bd5a5b91c3027f9759"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p104.png",
+      "sha256": "2229807938a8bf657a631e79de69578347632c46d828ad50d408abdc4dabfdf2"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p105.png",
+      "sha256": "55a07b600c312043ea610ad8706c0aabcb59eb4f71b6463c9cafdc8b05daec0f"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p106.png",
+      "sha256": "effc3672514b4774de0eb5f572a7ecf04a41673e1899e4af122b8f8dacb7708a"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p107.png",
+      "sha256": "318442754a651ce2d5fb646a58cf589a6308bee318fc1b6e99a8c22edbce1af2"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p138.png",
+      "sha256": "81f87b566bb665be9d7bc4d083e3768cdfd9d4f5ed77833967f398b2c3aa6e69"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p139.png",
+      "sha256": "6bb64ef51c70e7f6441556637014901cfd7b2c31b9ca799d524e57ffee717afe"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p141.png",
+      "sha256": "2dfed9d9cd09aa483f8d0a672a6f16f5a255f9fd914acf30f04a1228bbce33ca"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p142.png",
+      "sha256": "2043b6fbbb03014fc4a9c0f7cb835fda21628f4334e01834953f03c8c3e395cd"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p143.png",
+      "sha256": "7bba9d5baa5a4f02781f51fa7c0d55ab75aa17a549821ec126174fec73300d1f"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p179.png",
+      "sha256": "1beb963953fa0060b1fca4e6adac35a81936aef2a149aeff7272f7584965c220"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p212.png",
+      "sha256": "37f546cba739f525cf2ae9f71dba52a323d6cc94eef6b0cce23821e162b8a8b7"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p24.png",
+      "sha256": "935228ec19f5516429cf0b13720d065d58c4edf8d464589b32e2f11ac802588e"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p25.png",
+      "sha256": "e9d1ef63e980d30d453e3a5dce309ffd3ea1001322d0dba4f866d7dc4ff234e5"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p273.png",
+      "sha256": "0d3b535018aba21faec7e2d48fb2cfdb6ccb437c014880d9163d6e372afdd0dc"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p280.png",
+      "sha256": "4c56d8b214f2c2562eeeb6b16d17fb0745995ae37a721019555663dd1d361626"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p284.png",
+      "sha256": "43d340abba244aa6a3a4bf1cb88cf87577a5cd90c3cd0cd98cad5624d5dc7454"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p288.png",
+      "sha256": "e94a50ecf966fdf7840739adf599824720b25ad88ffb1d85d0dfeaee0cf6a39b"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p293.png",
+      "sha256": "183f918a581ee64bc863750aba05198eeab212654d509c5ea433dc825ad2f11a"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p296.png",
+      "sha256": "c1f27d89274fa16c852f76e0d37047d11126fdb3be35a602986f0a2e9348c0de"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p299.png",
+      "sha256": "a7a41ae1b828a34bbef047987adcbb9e5a1af9edc07ba0e7688c1f00312ea120"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p300.png",
+      "sha256": "8ab3fc27f1000d489776a4c71efd0cca80dce31af0da1422f1a22bf387bd8b6f"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p305.png",
+      "sha256": "0a471bf0e2420274429ef45f807325836c0011b072bd8c5f53273c28dbc2ff86"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p306.png",
+      "sha256": "766705d256d57a9159bf5b4c2e6e1e21707ff3c03d7824a1ea1ba3cac5183365"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p308.png",
+      "sha256": "2bc05e5ff48ace7c485c3165f438f15345d687f02c06eabdd2c551d3735c29cf"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p309.png",
+      "sha256": "12b4e3b213339b1e7bc832c22ea641b4a6f05622a77369a2966b79cf17a54bd7"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p311.png",
+      "sha256": "bad036cb1fcd2f8a641bda1a79e3193728b5567ee661603edc3ca281124eba8e"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p314.png",
+      "sha256": "0741cca874351f481a8892c6e0084e29afff491fcff884d15d05c6612d0e581f"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p317.png",
+      "sha256": "1c7fb6b5365700a83c7c577103e7f624baf3cb339701f008a2fbbd3789d0a111"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p318.png",
+      "sha256": "5e73a1313c1db244486acc30eff43c1793d2261672629c161270a9f045e32a62"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p319.png",
+      "sha256": "e9cb99a8c952656eae54586953def1597771f56079f00ad05cb7f163dd19dc3a"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p320.png",
+      "sha256": "e589ce5322961085a198d8d53719c3f57591c99cb930d5be383e81eb04010c02"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p323.png",
+      "sha256": "922acbd5bdb294e70ed333eae2c5d4767293a70f08f04bbcfc70edbcbe96984f"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p38.png",
+      "sha256": "171b9cb094680e077317cbf20dda89bd360e138f20641b20f2e3e47e8d2bcb89"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p52.png",
+      "sha256": "926dc3bc4c6302daa484d6315fab9c694d01aec5aac9fcfd26f205b8f47168a3"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p54.png",
+      "sha256": "f80c1bbc61516924f542cbcb54b06f1652437b43f27904934066e251c884948d"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p55.png",
+      "sha256": "28cdb5d808b9bc87deca6bbdc8d16f5cff7bb4884b89320f703d056e58187526"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p59.png",
+      "sha256": "5bdd5558f334f64606d1e1d3828e923a5be5500b57841d6b80e97553a5e45eb9"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p61.png",
+      "sha256": "bfea4e15f104841e2c4c0f8fe5dc2b43cbc7dc16812ebf37cf3547c2a9b9100a"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p62.png",
+      "sha256": "95d49c786aa1b416caceebbd880379eabdbcb106c062b9000b7acbdc87afac77"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p68.png",
+      "sha256": "636180b20c0311165b98938159aa6119c3753b3d4818678817df4da59818f061"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p69.png",
+      "sha256": "312b6352b8d12440df1bd8451ddf429710cea4e5d38e7e4a43beedf363d1f23a"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p70.png",
+      "sha256": "7b9e3afda6c108d386e820b2bfbab4529d823c802ca163eab4abffd44989721b"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p71.png",
+      "sha256": "6bec66101e1ed8c60b3afd81c44472d44598a41b7f211487054a628523bbb51f"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p72.png",
+      "sha256": "d0f5d9b572f89bf264abcb5098fa0b9ee7505e02ceb2f62a7df77f11185ef6c4"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p73.png",
+      "sha256": "d61298feb4525afd4e5b2537710a280ecf51a268ba7bfb7367b340c06d471a2c"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p74.png",
+      "sha256": "fb31787fcb4c10974b969c58def9653273ce893edc5776cdc2a1586de7f47072"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p78.png",
+      "sha256": "4cf27c87f66638de545f0e5428ea63e51b4f451cf77777fec3393807306ea8c8"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p89.png",
+      "sha256": "3b04c10fb9469a8304bf4f0019df15da7608445b79d6cec7ec53f2499e02e2f6"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p93.png",
+      "sha256": "d34e0dd8da9abf03c45765cb6591d8f9b36fc00d151f928b8760eb10da089e65"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p94.png",
+      "sha256": "c29e7b2777fc7a1fe3deb577d34b50895870ba3f9b922d102c66cb05b76776a9"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p96.png",
+      "sha256": "cb7d71d2e0f2e714f216e22276c1395c2de77ffe804c361edc4d98ef316f0508"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p97.png",
+      "sha256": "1a1163eca58e4676500a72c2cad28cecc6594e2fa511b59e4788cfa22d3cd2c3"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/cook_fb_1895_2-p99.png",
+      "sha256": "4cf6b71c08a93899eab3cdc667c9009166b84f737f3d9c279250ca3b8ff7843d"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p148.png",
+      "sha256": "1faad42f747b89d3db38e1bfd5dff6b87db6ed5d84163b553accacbad84c95e7"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p158.png",
+      "sha256": "5b86365a3e4ff044667a7a192038a33ad2c194093a001cf19c2b17f5b9dd5456"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p199.png",
+      "sha256": "fe8c17b74bb67f8e15c402188584df081f1e2cb9340de005aa204eb3a007dfaf"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p28.png",
+      "sha256": "cecb3ba8a23c2b34a89a40e4bbc4f29d98678a352d9718a1c21bf6d4f0536eda"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p29.png",
+      "sha256": "8e0206967c6213248445c4cb0646680ec8c1862a2d44ef0559ed6766d53865c5"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p30.png",
+      "sha256": "8164120ca0a7c9dcdb4a9c47a096f867859887a0b9e1166ca6c97bc70bd9b796"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p37.png",
+      "sha256": "9733acbd6bbdde838c1f3f2028ba76c6069a27860e30957e3af78f906987ca8a"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p54.png",
+      "sha256": "8b8319521bed3a3b6127687ea570d5278fa535c6a250491b1e926dd0a40a1938"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p55.png",
+      "sha256": "dce1294a0bcebf864f30ef7579ca4818731767b5ce49f79769b3220c7184b69a"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p73.png",
+      "sha256": "bcd5e801d2eec8925a70cadbdb3f2cbfccab8d15eb35090337d9e6a7dcb341cc"
+    },
+    {
+      "path": "sources/audits/unit11-grammar/fulk-2020-p74.png",
+      "sha256": "54e682e9fc12d5a0c8ba2f1ad540d3a71add8ffb234d31e466e06ce20cd5fdfa"
+    }
+  ],
+  "counts": {
+    "lemmas": 37,
+    "forms": 124,
+    "senses": 33,
+    "features": 51,
+    "paradigms": 14,
+    "paradigm_cells": 98,
+    "evidence_records": 45
+  },
+  "review_independence": {
+    "private_files_opened": [],
+    "learner_tasks_authored": false,
+    "key_models_authored": false,
+    "beads_commands_run": false,
+    "git_commands_run": false
+  },
+  "remaining_coordinator_work": [
+    "Reconcile51 proposed features and33 lexical frames in contract before prose.",
+    "Bind u11-articled-righteous-persons to Cook17.13 and u11-nalaes-negation to18.5 before sealing.",
+    "Author learner text and separate key; freeze learner tasks for independent pre-key solutions.",
+    "Complete chapter review, exports and register/status integration."
+  ],
+  "unresolved_linguistic_dependencies": [],
+  "helper_policy": "One-use scripts and fetched HTML remain under ignored build; exploratory images not present in evidence catalog establish no claim."
+}

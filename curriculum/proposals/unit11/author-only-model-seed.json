@@ -1,0 +1,1596 @@
+{
+  "schema_version": 1,
+  "chapter": "ch11",
+  "access": "Author/coordinator only until independent solutions are frozen. No reserved reviewer access before then.",
+  "status": "private_design_models_pending_final_audit_bindings",
+  "translation_witness": {
+    "prepared_by": "unit11_design",
+    "basis": "Actual public Old English composition and the directly inspected Cook page images139/142/143, before consulting the source editor's private translation witness.",
+    "original_account": "The old fisherman came to the house so that he might help his son. When he came, the son was hungry. He gave him food. While the son ate, the fisherman carried water. Although the fisherman was old, he helped his son. The son said, ‘Be here until I come.’ He went away and came back and gave his father water.",
+    "bede": "Likewise it is also rich in veins of metal—copper and iron, lead and silver. Jet is also found here; the stone is a black gem. If one puts it in fire, then snakes flee away from there.",
+    "sea": "Then, after a long time, when we raised our gaze from a distance, we saw on Farne, the island, the father Æthelwald, dear to God, coming out of his secluded place, so that he might watch our journey and see what was happening to us, for he heard the crashing of the storms and of the seething sea. When he then looked at us and saw us placed in distress and despair, he bent his knees to the Father of our Lord and Saviour Christ and prayed for our safety and our life. And when he completed that prayer, he then at the same time both calmed the swollen sea and stilled the storm, so that the violence of the storm ceased entirely and favourable winds brought us to land through the very calm sea. When we then came up onto land and also carried our ship up from the waves, the same storm soon returned and came again: it had ceased for a short time for our sake, and it was very great and strong all that day. Thus people could clearly understand that the short period of calm which had come there was granted from heaven at the prayers of that man of God for our rescue.",
+    "limits": [
+      "The reading reports the narrator's causal and miraculous interpretation; the translation preserves that claim without adding an external historical judgment.",
+      "The sea passage's pronoun hē remains he at the calming action; do not silently insert God as a uniquely determined grammatical subject.",
+      "The past participial periphrases are rendered as the source note directs, without claiming a universal progressive tense.",
+      "Final forgiefen means given/granted here, not forgiven; the exact source note is controlling.",
+      "English back in the account is an interpretive rendering of coming after departure, not an additional Old English token."
+    ]
+  },
+  "models": [
+    {
+      "task_id": "NEW-U11-F01",
+      "model": "bæð: bæð, bæðes, bæðe, bæð, baðu, baða, baðum, baðu; geat: geat, geates, geate, geat, gatu, gata, gatum, gatu; sīðfæt plural diagnostics: sīðfatas, sīðfatum",
+      "morphology_groups": [
+        {
+          "label": "bæð",
+          "paradigm_id": "NEW-U11-NOM-BAETH",
+          "forms": [
+            {
+              "form_id": "baeth-nom-sg",
+              "form": "bæð",
+              "analysis": {
+                "case": "nom",
+                "number": "sg",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "baeth-gen-sg",
+              "form": "bæðes",
+              "analysis": {
+                "case": "gen",
+                "number": "sg",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "baeth-dat-sg",
+              "form": "bæðe",
+              "analysis": {
+                "case": "dat",
+                "number": "sg",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "baeth-acc-sg",
+              "form": "bæð",
+              "analysis": {
+                "case": "acc",
+                "number": "sg",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "baeth-nom-pl",
+              "form": "baðu",
+              "analysis": {
+                "case": "nom",
+                "number": "pl",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "baeth-gen-pl",
+              "form": "baða",
+              "analysis": {
+                "case": "gen",
+                "number": "pl",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "baeth-dat-pl",
+              "form": "baðum",
+              "analysis": {
+                "case": "dat",
+                "number": "pl",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "baeth-acc-pl",
+              "form": "baðu",
+              "analysis": {
+                "case": "acc",
+                "number": "pl",
+                "gender": "n"
+              }
+            }
+          ]
+        },
+        {
+          "label": "geat",
+          "paradigm_id": "NEW-U11-NOM-GEAT",
+          "forms": [
+            {
+              "form_id": "geat-nom-sg",
+              "form": "geat",
+              "analysis": {
+                "case": "nom",
+                "number": "sg",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "geat-gen-sg",
+              "form": "geates",
+              "analysis": {
+                "case": "gen",
+                "number": "sg",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "geat-dat-sg",
+              "form": "geate",
+              "analysis": {
+                "case": "dat",
+                "number": "sg",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "geat-acc-sg",
+              "form": "geat",
+              "analysis": {
+                "case": "acc",
+                "number": "sg",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "geat-nom-pl",
+              "form": "gatu",
+              "analysis": {
+                "case": "nom",
+                "number": "pl",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "geat-gen-pl",
+              "form": "gata",
+              "analysis": {
+                "case": "gen",
+                "number": "pl",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "geat-dat-pl",
+              "form": "gatum",
+              "analysis": {
+                "case": "dat",
+                "number": "pl",
+                "gender": "n"
+              }
+            },
+            {
+              "form_id": "geat-acc-pl",
+              "form": "gatu",
+              "analysis": {
+                "case": "acc",
+                "number": "pl",
+                "gender": "n"
+              }
+            }
+          ]
+        },
+        {
+          "label": "sīðfæt plural diagnostics",
+          "paradigm_id": null,
+          "forms": [
+            {
+              "form_id": "sithfaet-nom-pl",
+              "form": "sīðfatas",
+              "analysis": {
+                "case": "nom",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "sithfaet-dat-pl",
+              "form": "sīðfatum",
+              "analysis": {
+                "case": "dat",
+                "number": "pl",
+                "gender": "m"
+              }
+            }
+          ]
+        }
+      ],
+      "required_output_form_ids": [
+        "baeth-nom-sg",
+        "baeth-gen-sg",
+        "baeth-dat-sg",
+        "baeth-acc-sg",
+        "baeth-nom-pl",
+        "baeth-gen-pl",
+        "baeth-dat-pl",
+        "baeth-acc-pl",
+        "geat-nom-sg",
+        "geat-gen-sg",
+        "geat-dat-sg",
+        "geat-acc-sg",
+        "geat-nom-pl",
+        "geat-gen-pl",
+        "geat-dat-pl",
+        "geat-acc-pl",
+        "sithfaet-nom-pl",
+        "sithfaet-dat-pl"
+      ],
+      "target": "Complete selected bæð/geat systems and the related but independently specified sīðfæt plural stem.",
+      "explanation": "Bæð keeps æ in singular but has plural bað-; geat keeps ea in singular but has plural gat-. Sīðfæt has independently specified plural sīðfat-. These are lexical alternations, not a universal change before every suffix.",
+      "alternatives": "Accept the documented variants within their stated lexical and morphological scope. A valid variant does not justify an unassigned sense or syntax.",
+      "diagnosis": "Bæð keeps æ in singular but has plural bað-; geat keeps ea in singular but has plural gat-. Sīðfæt has independently specified plural sīðfat-. These are lexical alternations, not a universal change before every suffix.",
+      "status": "complete_morphology_model"
+    },
+    {
+      "task_id": "NEW-U11-F02",
+      "model": "seolh: seolh, sēoles, sēole, seolh, sēolas, sēola, sēolum, sēolas",
+      "morphology_groups": [
+        {
+          "label": "seolh",
+          "paradigm_id": "NEW-U11-NOM-SEOLH",
+          "forms": [
+            {
+              "form_id": "seolh-nom-sg",
+              "form": "seolh",
+              "analysis": {
+                "case": "nom",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "seolh-gen-sg",
+              "form": "sēoles",
+              "analysis": {
+                "case": "gen",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "seolh-dat-sg",
+              "form": "sēole",
+              "analysis": {
+                "case": "dat",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "seolh-acc-sg",
+              "form": "seolh",
+              "analysis": {
+                "case": "acc",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "seolh-nom-pl",
+              "form": "sēolas",
+              "analysis": {
+                "case": "nom",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "seolh-gen-pl",
+              "form": "sēola",
+              "analysis": {
+                "case": "gen",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "seolh-dat-pl",
+              "form": "sēolum",
+              "analysis": {
+                "case": "dat",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "seolh-acc-pl",
+              "form": "sēolas",
+              "analysis": {
+                "case": "acc",
+                "number": "pl",
+                "gender": "m"
+              }
+            }
+          ]
+        }
+      ],
+      "required_output_form_ids": [
+        "seolh-nom-sg",
+        "seolh-gen-sg",
+        "seolh-dat-sg",
+        "seolh-acc-sg",
+        "seolh-nom-pl",
+        "seolh-gen-pl",
+        "seolh-dat-pl",
+        "seolh-acc-pl"
+      ],
+      "target": "The complete new h-loss and lengthening subpattern, not an unsupported general rule for every h.",
+      "explanation": "Bare singular seolh retains h and short eo; the ending-bearing cells use sēol-, losing h and lengthening the vowel. Preserve both parts of the alternation.",
+      "alternatives": "Accept the documented variants within their stated lexical and morphological scope. A valid variant does not justify an unassigned sense or syntax.",
+      "diagnosis": "Bare singular seolh retains h and short eo; the ending-bearing cells use sēol-, losing h and lengthening the vowel. Preserve both parts of the alternation.",
+      "status": "complete_morphology_model"
+    },
+    {
+      "task_id": "NEW-U11-F03",
+      "model": "sumer: sumer, sumeres, sumere, sumer, sumeras, sumera, sumerum, sumeras; winter: winter, wintres, wintre, winter, wintras, wintra, wintrum, wintras",
+      "morphology_groups": [
+        {
+          "label": "sumer",
+          "paradigm_id": "NEW-U11-NOM-SUMER",
+          "forms": [
+            {
+              "form_id": "sumer-nom-sg",
+              "form": "sumer",
+              "analysis": {
+                "case": "nom",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "sumer-gen-sg",
+              "form": "sumeres",
+              "analysis": {
+                "case": "gen",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "sumer-dat-sg",
+              "form": "sumere",
+              "analysis": {
+                "case": "dat",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "sumer-acc-sg",
+              "form": "sumer",
+              "analysis": {
+                "case": "acc",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "sumer-nom-pl",
+              "form": "sumeras",
+              "analysis": {
+                "case": "nom",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "sumer-gen-pl",
+              "form": "sumera",
+              "analysis": {
+                "case": "gen",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "sumer-dat-pl",
+              "form": "sumerum",
+              "analysis": {
+                "case": "dat",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "sumer-acc-pl",
+              "form": "sumeras",
+              "analysis": {
+                "case": "acc",
+                "number": "pl",
+                "gender": "m"
+              }
+            }
+          ]
+        },
+        {
+          "label": "winter",
+          "paradigm_id": "NEW-U11-NOM-WINTER",
+          "forms": [
+            {
+              "form_id": "winter-nom-sg",
+              "form": "winter",
+              "analysis": {
+                "case": "nom",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "winter-gen-sg",
+              "form": "wintres",
+              "analysis": {
+                "case": "gen",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "winter-dat-sg",
+              "form": "wintre",
+              "analysis": {
+                "case": "dat",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "winter-acc-sg",
+              "form": "winter",
+              "analysis": {
+                "case": "acc",
+                "number": "sg",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "winter-nom-pl",
+              "form": "wintras",
+              "analysis": {
+                "case": "nom",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "winter-gen-pl",
+              "form": "wintra",
+              "analysis": {
+                "case": "gen",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "winter-dat-pl",
+              "form": "wintrum",
+              "analysis": {
+                "case": "dat",
+                "number": "pl",
+                "gender": "m"
+              }
+            },
+            {
+              "form_id": "winter-acc-pl",
+              "form": "wintras",
+              "analysis": {
+                "case": "acc",
+                "number": "pl",
+                "gender": "m"
+              }
+            }
+          ]
+        }
+      ],
+      "required_output_form_ids": [
+        "sumer-nom-sg",
+        "sumer-gen-sg",
+        "sumer-dat-sg",
+        "sumer-acc-sg",
+        "sumer-nom-pl",
+        "sumer-gen-pl",
+        "sumer-dat-pl",
+        "sumer-acc-pl",
+        "winter-nom-sg",
+        "winter-gen-sg",
+        "winter-dat-sg",
+        "winter-acc-sg",
+        "winter-nom-pl",
+        "winter-gen-pl",
+        "winter-dat-pl",
+        "winter-acc-pl"
+      ],
+      "target": "Complete season-noun systems, lexical syncope and explicitly bounded accepted variants.",
+      "explanation": "Selected sumer keeps its medial vowel before endings, while winter uses wintr-. Cook’s occasional -a genitive/dative singular and nominative plural variants are accepted within the expressly documented cells; no universal -a rule is inferred.",
+      "alternatives": "Accept the documented variants within their stated lexical and morphological scope. A valid variant does not justify an unassigned sense or syntax.",
+      "diagnosis": "Selected sumer keeps its medial vowel before endings, while winter uses wintr-. Cook’s occasional -a genitive/dative singular and nominative plural variants are accepted within the expressly documented cells; no universal -a rule is inferred.",
+      "status": "complete_morphology_model"
+    },
+    {
+      "task_id": "NEW-U11-F04",
+      "model": "Diagnostic adjective forms: blæcne, blacu, blaca, stilne, fægerra, fægerre, fægerre, dēorwierðrum, dēorwierðrum, dēorwierðrum",
+      "morphology_groups": [
+        {
+          "label": "Diagnostic adjective forms",
+          "paradigm_id": null,
+          "forms": [
+            {
+              "form_id": "blaec-acc-m-sg-strong",
+              "form": "blæcne",
+              "analysis": {
+                "case": "acc",
+                "gender": "m",
+                "number": "sg",
+                "declension": "strong",
+                "degree": "positive"
+              }
+            },
+            {
+              "form_id": "blaec-nom-f-sg-strong",
+              "form": "blacu",
+              "analysis": {
+                "case": "nom",
+                "gender": "f",
+                "number": "sg",
+                "declension": "strong",
+                "degree": "positive"
+              }
+            },
+            {
+              "form_id": "blaec-nom-m-sg-weak",
+              "form": "blaca",
+              "analysis": {
+                "case": "nom",
+                "gender": "m",
+                "number": "sg",
+                "declension": "weak",
+                "degree": "positive"
+              }
+            },
+            {
+              "form_id": "stille-acc-m-sg-strong",
+              "form": "stilne",
+              "analysis": {
+                "case": "acc",
+                "gender": "m",
+                "number": "sg",
+                "declension": "strong",
+                "degree": "positive"
+              }
+            },
+            {
+              "form_id": "faeger-comp-nom-m-sg-weak",
+              "form": "fægerra",
+              "analysis": {
+                "case": "nom",
+                "gender": "m",
+                "number": "sg",
+                "declension": "weak",
+                "degree": "comparative"
+              }
+            },
+            {
+              "form_id": "faeger-comp-nom-f-sg-weak",
+              "form": "fægerre",
+              "analysis": {
+                "case": "nom",
+                "gender": "f",
+                "number": "sg",
+                "declension": "weak",
+                "degree": "comparative"
+              }
+            },
+            {
+              "form_id": "faeger-comp-nom-n-sg-weak",
+              "form": "fægerre",
+              "analysis": {
+                "case": "nom",
+                "gender": "n",
+                "number": "sg",
+                "declension": "weak",
+                "degree": "comparative"
+              }
+            },
+            {
+              "form_id": "deorwierth-comp-dat-m-pl-weak",
+              "form": "dēorwierðrum",
+              "analysis": {
+                "case": "dat",
+                "gender": "m",
+                "number": "pl",
+                "declension": "weak",
+                "degree": "comparative"
+              }
+            },
+            {
+              "form_id": "deorwierth-comp-dat-f-pl-weak",
+              "form": "dēorwierðrum",
+              "analysis": {
+                "case": "dat",
+                "gender": "f",
+                "number": "pl",
+                "declension": "weak",
+                "degree": "comparative"
+              }
+            },
+            {
+              "form_id": "deorwierth-comp-dat-n-pl-weak",
+              "form": "dēorwierðrum",
+              "analysis": {
+                "case": "dat",
+                "gender": "n",
+                "number": "pl",
+                "declension": "weak",
+                "degree": "comparative"
+              }
+            }
+          ]
+        }
+      ],
+      "required_output_form_ids": [
+        "blaec-acc-m-sg-strong",
+        "blaec-nom-f-sg-strong",
+        "blaec-nom-m-sg-weak",
+        "stille-acc-m-sg-strong",
+        "faeger-comp-nom-m-sg-weak",
+        "faeger-comp-nom-f-sg-weak",
+        "faeger-comp-nom-n-sg-weak",
+        "deorwierth-comp-dat-m-pl-weak",
+        "deorwierth-comp-dat-f-pl-weak",
+        "deorwierth-comp-dat-n-pl-weak"
+      ],
+      "target": "Apply checked vowel alternation, consonant reduction and the weak comparative pattern to diagnostic cells.",
+      "explanation": "Blæc retains æ before the consonantal -ne but has a before vowel endings. Stille has the reduced single-consonant form stilne before -ne. Both comparatives remain weak; their nominative and dative endings follow the displayed gender/number system.",
+      "alternatives": "Accept the documented variants within their stated lexical and morphological scope. A valid variant does not justify an unassigned sense or syntax.",
+      "diagnosis": "Blæc retains æ before the consonantal -ne but has a before vowel endings. Stille has the reduced single-consonant form stilne before -ne. Both comparatives remain weak; their nominative and dative endings follow the displayed gender/number system.",
+      "status": "complete_morphology_model"
+    },
+    {
+      "task_id": "NEW-U11-F05",
+      "model": "scęððan: scęððe, scęðest, scęðeð, scęððað, scęððað, scęððað, scęðede, scęðedest, scęðede, scęðedon, scęðedon, scęðedon; genēalǣcan: genēalǣce, genēalǣcst, genēalǣcð, genēalǣcað, genēalǣcað, genēalǣcað, genēalǣcte, genēalǣctest, genēalǣcte, genēalǣcton, genēalǣcton, genēalǣcton",
+      "morphology_groups": [
+        {
+          "label": "scęððan",
+          "paradigm_id": "NEW-U11-PAR-sceththan-IND",
+          "forms": [
+            {
+              "form_id": "sceththan-pres-1-sg",
+              "form": "scęððe",
+              "analysis": {
+                "tense": "present",
+                "person": 1,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pres-2-sg",
+              "form": "scęðest",
+              "analysis": {
+                "tense": "present",
+                "person": 2,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pres-3-sg",
+              "form": "scęðeð",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pres-1-pl",
+              "form": "scęððað",
+              "analysis": {
+                "tense": "present",
+                "person": 1,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pres-2-pl",
+              "form": "scęððað",
+              "analysis": {
+                "tense": "present",
+                "person": 2,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pres-3-pl",
+              "form": "scęððað",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pret-1-sg",
+              "form": "scęðede",
+              "analysis": {
+                "tense": "preterite",
+                "person": 1,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pret-2-sg",
+              "form": "scęðedest",
+              "analysis": {
+                "tense": "preterite",
+                "person": 2,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pret-3-sg",
+              "form": "scęðede",
+              "analysis": {
+                "tense": "preterite",
+                "person": 3,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pret-1-pl",
+              "form": "scęðedon",
+              "analysis": {
+                "tense": "preterite",
+                "person": 1,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pret-2-pl",
+              "form": "scęðedon",
+              "analysis": {
+                "tense": "preterite",
+                "person": 2,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceththan-pret-3-pl",
+              "form": "scęðedon",
+              "analysis": {
+                "tense": "preterite",
+                "person": 3,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            }
+          ]
+        },
+        {
+          "label": "genēalǣcan",
+          "paradigm_id": "NEW-U11-PAR-genealaecan-IND",
+          "forms": [
+            {
+              "form_id": "genealaecan-pres-1-sg",
+              "form": "genēalǣce",
+              "analysis": {
+                "tense": "present",
+                "person": 1,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pres-2-sg",
+              "form": "genēalǣcst",
+              "analysis": {
+                "tense": "present",
+                "person": 2,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pres-3-sg",
+              "form": "genēalǣcð",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pres-1-pl",
+              "form": "genēalǣcað",
+              "analysis": {
+                "tense": "present",
+                "person": 1,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pres-2-pl",
+              "form": "genēalǣcað",
+              "analysis": {
+                "tense": "present",
+                "person": 2,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pres-3-pl",
+              "form": "genēalǣcað",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pret-1-sg",
+              "form": "genēalǣcte",
+              "analysis": {
+                "tense": "preterite",
+                "person": 1,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pret-2-sg",
+              "form": "genēalǣctest",
+              "analysis": {
+                "tense": "preterite",
+                "person": 2,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pret-3-sg",
+              "form": "genēalǣcte",
+              "analysis": {
+                "tense": "preterite",
+                "person": 3,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pret-1-pl",
+              "form": "genēalǣcton",
+              "analysis": {
+                "tense": "preterite",
+                "person": 1,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pret-2-pl",
+              "form": "genēalǣcton",
+              "analysis": {
+                "tense": "preterite",
+                "person": 2,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "genealaecan-pret-3-pl",
+              "form": "genēalǣcton",
+              "analysis": {
+                "tense": "preterite",
+                "person": 3,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            }
+          ]
+        }
+      ],
+      "required_output_form_ids": [
+        "sceththan-pres-1-sg",
+        "sceththan-pres-2-sg",
+        "sceththan-pres-3-sg",
+        "sceththan-pres-1-pl",
+        "sceththan-pres-2-pl",
+        "sceththan-pres-3-pl",
+        "sceththan-pret-1-sg",
+        "sceththan-pret-2-sg",
+        "sceththan-pret-3-sg",
+        "sceththan-pret-1-pl",
+        "sceththan-pret-2-pl",
+        "sceththan-pret-3-pl",
+        "genealaecan-pres-1-sg",
+        "genealaecan-pres-2-sg",
+        "genealaecan-pres-3-sg",
+        "genealaecan-pres-1-pl",
+        "genealaecan-pres-2-pl",
+        "genealaecan-pres-3-pl",
+        "genealaecan-pret-1-sg",
+        "genealaecan-pret-2-sg",
+        "genealaecan-pret-3-sg",
+        "genealaecan-pret-1-pl",
+        "genealaecan-pret-2-pl",
+        "genealaecan-pret-3-pl"
+      ],
+      "target": "Two complete, independently evidenced weak systems with important lexical stem behavior.",
+      "explanation": "The complete tables determine the selected short weak-I scęððan forms and genēalǣcan’s lexical dental-preterite stem. Keep each independently evidenced stem rather than deriving one from a misleading modern spelling.",
+      "alternatives": "Accept the documented variants within their stated lexical and morphological scope. A valid variant does not justify an unassigned sense or syntax.",
+      "diagnosis": "The complete tables determine the selected short weak-I scęððan forms and genēalǣcan’s lexical dental-preterite stem. Keep each independently evidenced stem rather than deriving one from a misleading modern spelling.",
+      "status": "complete_morphology_model"
+    },
+    {
+      "task_id": "NEW-U11-F06",
+      "model": "feohtan: fiehtst, fieht, feaht, fuhte, fuhton; bringan: bringst, bringð, brōhte, brōhtest, brōhton",
+      "morphology_groups": [
+        {
+          "label": "feohtan",
+          "paradigm_id": null,
+          "forms": [
+            {
+              "form_id": "feohtan-pres-2-sg",
+              "form": "fiehtst",
+              "analysis": {
+                "tense": "present",
+                "person": 2,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "feohtan-pres-3-sg",
+              "form": "fieht",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "feohtan-pret-1-sg",
+              "form": "feaht",
+              "analysis": {
+                "tense": "preterite",
+                "person": 1,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "feohtan-pret-2-sg",
+              "form": "fuhte",
+              "analysis": {
+                "tense": "preterite",
+                "person": 2,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "feohtan-pret-1-pl",
+              "form": "fuhton",
+              "analysis": {
+                "tense": "preterite",
+                "person": 1,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            }
+          ]
+        },
+        {
+          "label": "bringan",
+          "paradigm_id": null,
+          "forms": [
+            {
+              "form_id": "bringan-pres-2-sg",
+              "form": "bringst",
+              "analysis": {
+                "tense": "present",
+                "person": 2,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "bringan-pres-3-sg",
+              "form": "bringð",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "bringan-pret-1-sg",
+              "form": "brōhte",
+              "analysis": {
+                "tense": "preterite",
+                "person": 1,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "bringan-pret-2-sg",
+              "form": "brōhtest",
+              "analysis": {
+                "tense": "preterite",
+                "person": 2,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "bringan-pret-1-pl",
+              "form": "brōhton",
+              "analysis": {
+                "tense": "preterite",
+                "person": 1,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            }
+          ]
+        }
+      ],
+      "required_output_form_ids": [
+        "feohtan-pres-2-sg",
+        "feohtan-pres-3-sg",
+        "feohtan-pret-1-sg",
+        "feohtan-pret-2-sg",
+        "feohtan-pret-1-pl",
+        "bringan-pres-2-sg",
+        "bringan-pres-3-sg",
+        "bringan-pret-1-sg",
+        "bringan-pret-2-sg",
+        "bringan-pret-1-pl"
+      ],
+      "target": "Diagnostic strong and mixed-preterite contrasts drawn from the complete printed systems.",
+      "explanation": "Feohtan has the strong preterite vowel series, including the distinct second-singular/plural stem. Bringan has a mixed dental preterite with its checked lexical stem; a strong-looking present does not license an invented strong past.",
+      "alternatives": "Accept the documented variants within their stated lexical and morphological scope. A valid variant does not justify an unassigned sense or syntax.",
+      "diagnosis": "Feohtan has the strong preterite vowel series, including the distinct second-singular/plural stem. Bringan has a mixed dental preterite with its checked lexical stem; a strong-looking present does not license an invented strong past.",
+      "status": "complete_morphology_model"
+    },
+    {
+      "task_id": "NEW-U11-F07",
+      "model": "fon: fōnde, fangen; findan: findende, funden; fedan: fēdende, fēded; geweorthian: geweorðiende, geweorðod; hydan: hȳdende, hȳded",
+      "morphology_groups": [
+        {
+          "label": "fon",
+          "paradigm_id": "NEW-U11-PAR-fon-PART",
+          "forms": [
+            {
+              "form_id": "fon-present-participle",
+              "form": "fōnde",
+              "analysis": {
+                "tense": "present"
+              }
+            },
+            {
+              "form_id": "fon-participle-citation",
+              "form": "fangen",
+              "analysis": {
+                "tense": "past"
+              }
+            }
+          ]
+        },
+        {
+          "label": "findan",
+          "paradigm_id": "NEW-U11-PAR-findan-PART",
+          "forms": [
+            {
+              "form_id": "findan-present-participle",
+              "form": "findende",
+              "analysis": {
+                "tense": "present"
+              }
+            },
+            {
+              "form_id": "findan-participle-citation",
+              "form": "funden",
+              "analysis": {
+                "tense": "past"
+              }
+            }
+          ]
+        },
+        {
+          "label": "fedan",
+          "paradigm_id": "NEW-U11-PAR-fedan-PART",
+          "forms": [
+            {
+              "form_id": "fedan-present-participle",
+              "form": "fēdende",
+              "analysis": {
+                "tense": "present"
+              }
+            },
+            {
+              "form_id": "fedan-past-participle",
+              "form": "fēded",
+              "analysis": {
+                "tense": "past"
+              }
+            }
+          ]
+        },
+        {
+          "label": "geweorthian",
+          "paradigm_id": "NEW-U11-PAR-geweorthian-PART",
+          "forms": [
+            {
+              "form_id": "geweorthian-present-participle",
+              "form": "geweorðiende",
+              "analysis": {
+                "tense": "present"
+              }
+            },
+            {
+              "form_id": "geweorthian-past-participle",
+              "form": "geweorðod",
+              "analysis": {
+                "tense": "past"
+              }
+            }
+          ]
+        },
+        {
+          "label": "hydan",
+          "paradigm_id": "NEW-U11-PAR-hydan-PART",
+          "forms": [
+            {
+              "form_id": "hydan-present-participle",
+              "form": "hȳdende",
+              "analysis": {
+                "tense": "present"
+              }
+            },
+            {
+              "form_id": "hydan-past-participle",
+              "form": "hȳded",
+              "analysis": {
+                "tense": "past"
+              }
+            }
+          ]
+        }
+      ],
+      "required_output_form_ids": [
+        "fon-present-participle",
+        "fon-participle-citation",
+        "findan-present-participle",
+        "findan-participle-citation",
+        "fedan-present-participle",
+        "fedan-past-participle",
+        "geweorthian-present-participle",
+        "geweorthian-past-participle",
+        "hydan-present-participle",
+        "hydan-past-participle"
+      ],
+      "target": "Complete two-member base participle systems and their morphological contrast; syntactic uses remain separately scoped.",
+      "explanation": "The ordinary present-participle bases have -ende; contracted fōn has the selected fōnde, not an invented fōnende. Strong fōn/findan past-participle bases have -en; the three weak verbs retain their checked dental past-participle formation. Bases do not by themselves assign new attributive declensions or compound tense uses.",
+      "alternatives": "Accept the documented variants within their stated lexical and morphological scope. A valid variant does not justify an unassigned sense or syntax.",
+      "diagnosis": "The ordinary present-participle bases have -ende; contracted fōn has the selected fōnde, not an invented fōnende. Strong fōn/findan past-participle bases have -en; the three weak verbs retain their checked dental past-participle formation. Bases do not by themselves assign new attributive declensions or compound tense uses.",
+      "status": "complete_morphology_model"
+    },
+    {
+      "task_id": "NEW-U11-F08",
+      "model": "gewītan commands: gewīt, gewītað; hydan: hȳdde, hȳddon; sceawian: scēawað, scēawiað; geweorthian: geweorðað, geweorðiað",
+      "morphology_groups": [
+        {
+          "label": "gewītan commands",
+          "paradigm_id": "NEW-U11-PAR-gewitan-IMP",
+          "forms": [
+            {
+              "form_id": "gewitan-imp-2-sg",
+              "form": "gewīt",
+              "analysis": {
+                "person": 2,
+                "number": "sg",
+                "mood": "imperative"
+              }
+            },
+            {
+              "form_id": "gewitan-imp-2-pl",
+              "form": "gewītað",
+              "analysis": {
+                "person": 2,
+                "number": "pl",
+                "mood": "imperative"
+              }
+            }
+          ]
+        },
+        {
+          "label": "hydan",
+          "paradigm_id": null,
+          "forms": [
+            {
+              "form_id": "hydan-pret-3-sg",
+              "form": "hȳdde",
+              "analysis": {
+                "tense": "preterite",
+                "person": 3,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "hydan-pret-3-pl",
+              "form": "hȳddon",
+              "analysis": {
+                "tense": "preterite",
+                "person": 3,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            }
+          ]
+        },
+        {
+          "label": "sceawian",
+          "paradigm_id": null,
+          "forms": [
+            {
+              "form_id": "sceawian-pres-3-sg",
+              "form": "scēawað",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "sceawian-pres-3-pl",
+              "form": "scēawiað",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            }
+          ]
+        },
+        {
+          "label": "geweorthian",
+          "paradigm_id": null,
+          "forms": [
+            {
+              "form_id": "geweorthian-pres-3-sg",
+              "form": "geweorðað",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "sg",
+                "mood": "indicative"
+              }
+            },
+            {
+              "form_id": "geweorthian-pres-3-pl",
+              "form": "geweorðiað",
+              "analysis": {
+                "tense": "present",
+                "person": 3,
+                "number": "pl",
+                "mood": "indicative"
+              }
+            }
+          ]
+        }
+      ],
+      "required_output_form_ids": [
+        "gewitan-imp-2-sg",
+        "gewitan-imp-2-pl",
+        "hydan-pret-3-sg",
+        "hydan-pret-3-pl",
+        "sceawian-pres-3-sg",
+        "sceawian-pres-3-pl",
+        "geweorthian-pres-3-sg",
+        "geweorthian-pres-3-pl"
+      ],
+      "target": "New command pair and contrasting finite number forms in supporting systems.",
+      "explanation": "The command pair distinguishes one addressee from several. Ordinary indicative third-person number contrasts use the selected present or dental-past endings; do not add personal endings to a participle or confuse an indicative with the corresponding command.",
+      "alternatives": "Accept the documented variants within their stated lexical and morphological scope. A valid variant does not justify an unassigned sense or syntax.",
+      "diagnosis": "The command pair distinguishes one addressee from several. Ordinary indicative third-person number contrasts use the selected present or dental-past endings; do not add personal endings to a participle or confuse an indicative with the corresponding command.",
+      "status": "complete_morphology_model"
+    },
+    {
+      "task_id": "NEW-U11-A01",
+      "model": "When the monk came, the man gave him water.",
+      "explanation": "Ðā se munuc cōm is the temporal subordinate clause; cōm is third singular preterite indicative. The second ðā resumes it as then in the main clause, whose sealde is third singular preterite indicative. Him is the monk as dative recipient.",
+      "alternatives": "When the monk arrived, then the man gave him water; idiomatic English may omit then.",
+      "diagnosis": "Do not read either ðā as a plural article or make sealde a subjunctive solely because its spelling can be syncretic."
+    },
+    {
+      "task_id": "NEW-U11-A02",
+      "model": "When you come, I help you.",
+      "explanation": "The context is repeated visits. Gē cumað is the temporal subordinate clause, with second plural present indicative; the second ðonne is correlating then, and helpe is first singular present indicative in its stated main-clause context. Ēow is a plural dative governed by helpan.",
+      "alternatives": "Whenever you come, I help you; then I help you preserves the explicit correlate.",
+      "diagnosis": "Do not translate temporal ðonne as than or infer a subjunctive from first-singular helpe alone."
+    },
+    {
+      "task_id": "NEW-U11-A03",
+      "model": "While he ate, I carried water. Both statements express the same simultaneous relation.",
+      "explanation": "Ðā-hwīle-ðe and mid-ðȳ introduce the overlapping circumstance. Ǣt is third singular and bær first singular preterite indicative. Neither conjunction alone asserts that eating caused the carrying.",
+      "alternatives": "As he was eating, I carried water; an English progressive is a contextual translation, not a new Old English tense analysis.",
+      "diagnosis": "Do not make the accompanying action a causal clause merely because it precedes the main clause."
+    },
+    {
+      "task_id": "NEW-U11-A04",
+      "model": "Do not go before I come. Be here until I come.",
+      "explanation": "Both come-events are still anticipated. Cume is first singular present subjunctive in the selected clauses; the surface is identical to the first singular indicative, so the stated construction and context identify the analysis. Far and wes are singular imperatives.",
+      "alternatives": "Stay here until I come is idiomatic for the second instruction. Other evidenced temporal choices may be valid language but must satisfy the stated target.",
+      "diagnosis": "Do not force an English will auxiliary or claim that the spelling cume alone distinguishes mood."
+    },
+    {
+      "task_id": "NEW-U11-A05",
+      "model": "I help you because you are sick.",
+      "explanation": "For-ðon-ðe ðū eart untrum gives the factual reason; ic helpe ðē is the explained action. Eart is second singular present indicative. Ðē is the dative person helped.",
+      "alternatives": "Since you are sick can render the causal force if since is clearly causal.",
+      "diagnosis": "Do not reverse cause and consequence or label the clause a purpose."
+    },
+    {
+      "task_id": "NEW-U11-A06",
+      "model": "I know that the monk comes. The monk comes so that he may help me. The monk is so good that he helps me.",
+      "explanation": "The first ðæt clause supplies known content and has cymð, third singular present indicative. The second states intended purpose and has helpe, third singular present subjunctive. The last states a result and has hilpð, third singular present indicative. The same spelling ðæt does not fix its function.",
+      "alternatives": "The monk is coming / comes can fit the present setting. Purpose may be rendered in order to help me, provided the finite Old English subject and mood are identified.",
+      "diagnosis": "Do not call the intended act an asserted accomplished result or convert every ðæt clause to subjunctive."
+    },
+    {
+      "task_id": "NEW-U11-A07",
+      "model": "The man held the animal lest it take the food.",
+      "explanation": "The intended prevention concerns the animal's taking the food. Nōme is third singular preterite subjunctive, related to the past holding. The negative-purpose conjunction already expresses prevention; the sentence does not assert that the animal took food.",
+      "alternatives": "So that it would not take the food; to prevent it from taking the food.",
+      "diagnosis": "Do not negate the holding or assert the feared outcome happened."
+    },
+    {
+      "task_id": "NEW-U11-A08",
+      "model": "Although he is sick, he helps me.",
+      "explanation": "Sīe is third singular present subjunctive of wesan. The concessive clause admits a circumstance despite which the main event occurs. The stipulated factual illness is compatible with this ordinary concessive subjunctive.",
+      "alternatives": "Though he is sick; even though he is sick.",
+      "diagnosis": "Subjunctive here does not imply that his illness is false or uncertain."
+    },
+    {
+      "task_id": "NEW-U11-A09",
+      "model": "If he is here, he helps me. If he were here, he would help me.",
+      "explanation": "The open condition uses present indicatives is and hilpð. The explicitly contrary-present setting uses preterite subjunctives wǣre and hulpe; these refer to the present hypothetical situation, not to earlier completed events. Gif alone does not impose mood.",
+      "alternatives": "He will help me can suit a forward-looking consequence in the first open setting; the second must preserve the stated absence now.",
+      "diagnosis": "Do not translate the second as a past factual visit, or insert willan mechanically for English would."
+    },
+    {
+      "task_id": "NEW-U11-A10",
+      "model": "When does the monk come? When the monk comes, I help him. The monk is older than the fisherman.",
+      "explanation": "Hwonne asks a direct question. Initial ðonne in the second sentence introduces a temporal clause. In the last, ðonne introduces the comparison standard, with the repeated copula understood and fiscere nominative.",
+      "alternatives": "When is the monk coming?; whenever the monk comes, in the stated recurring use.",
+      "diagnosis": "Do not merge the three functions into a single when or than rule."
+    },
+    {
+      "task_id": "NEW-U11-A11",
+      "model": "The fisherman came to help the man. The fisherman came so that the monk might help the man.",
+      "explanation": "The earlier cuman plus tō-inflected-infinitive frame has the fisherman's own helping as its purpose. The finite clause explicitly makes se munuc the subject of hulpe. The dative męnn is the person helped in each.",
+      "alternatives": "In order to help; in order that the monk should help.",
+      "diagnosis": "Do not impose the main-clause subject on an explicitly different finite purpose-clause subject."
+    },
+    {
+      "task_id": "NEW-U11-A12",
+      "model": "It is the day when he came.",
+      "explanation": "Ðe relates the coming to its temporal antecedent se dæg. It does not ask a question and does not set an if condition. Cōm is third singular preterite indicative.",
+      "alternatives": "It is the day on which he came.",
+      "diagnosis": "Do not replace the temporal relative with direct-question hwonne merely because English uses when."
+    },
+    {
+      "task_id": "NEW-U11-T01",
+      "model": "Ðā se fæder cōm, ðā sealde se sunu him wæter.",
+      "target": "Past when/then correlation; father as temporal subject, son as giving subject, father as dative recipient.",
+      "alternatives": "Defensible clause order and an explicit dative father phrase are acceptable; retain the required ðā … ðā target.",
+      "diagnosis": "Subject and recipient must not be reversed.",
+      "old_english_outputs": [
+        "Ðā se fæder cōm, ðā sealde se sunu him wæter."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T02",
+      "model": "Ðonne ðā fisceras cumað, ðonne sęlð se cyning him męte.",
+      "target": "Recurring temporal indicative; plural fishermen and dative plural him.",
+      "alternatives": "A defensible expanded dative noun phrase or word order; retain the requested correlation.",
+      "diagnosis": "Do not use past-event ðā for the requested recurring sense or singular cymð with fisceras.",
+      "old_english_outputs": [
+        "Ðonne ðā fisceras cumað, ðonne sęlð se cyning him męte."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T03",
+      "model": "Mid-ðȳ ðā fisceras sǣton on ðǣm hūse, se sunu bær wæter.",
+      "target": "Factual simultaneous past clauses with selected mid-ðȳ, plural sitting subject and singular carrying subject.",
+      "alternatives": "The main clause may use an evidenced correlating ðā; another conjunction can be valid but would miss the stated mid-ðȳ target.",
+      "diagnosis": "Sǣton and bær express the given past events; do not make one a purpose of the other or use a singular verb with plural fishermen.",
+      "old_english_outputs": [
+        "Mid-ðȳ ðā fisceras sǣton on ðǣm hūse, se sunu bær wæter."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T04",
+      "model": "Ne far, ǣr ic cume.",
+      "target": "One addressee; singular imperative and anticipated-before clause.",
+      "alternatives": "Do not go before I arrive is the intended sense; documented word-order variants accepted.",
+      "diagnosis": "The anticipated event requires the selected subjunctive analysis; cume is syncretic with the first indicative and must be explained contextually.",
+      "old_english_outputs": [
+        "Ne far, ǣr ic cume."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T05",
+      "model": "Wesað on ðǣm hūse, oð-ðæt ðā fisceras cumen.",
+      "target": "Plural command, ordinary locative dative and plural present subjunctive for the anticipated coming.",
+      "alternatives": "Bēoð is an available alternative command; the selected context is waiting for an unrealized arrival.",
+      "diagnosis": "Cumen, not ordinary indicative cumað, satisfies the requested anticipated-until target; command number must address several people.",
+      "old_english_outputs": [
+        "Wesað on ðǣm hūse, oð-ðæt ðā fisceras cumen."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T06",
+      "model": "Se munuc sęlð ðǣm męnn wæter, for-ðon-ðe se mann is ðurstig.",
+      "target": "Factual cause with indicative and agreeing predicate adjective.",
+      "essential_meaning": "The monk gives the man water; the man’s thirst is the reason.",
+      "alternatives": "A different defensible order or a pronoun with clear reference is acceptable.",
+      "diagnoses": "The recipient is dative; the thirsty man is nominative and controls the adjective. Do not introduce an unaudited thirst verb.",
+      "old_english_outputs": [
+        "Se munuc sęlð ðǣm męnn wæter, for-ðon-ðe se mann is ðurstig."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T07",
+      "model": "Ðā fisceras cōmon, ðæt se munuc him hulpe.",
+      "target": "Plural past main subject, different singular purpose subject, dative plural people helped.",
+      "alternatives": "Defensible order and explicit dative fiscerum; retain a finite purpose clause rather than substitute the earlier same-subject infinitive.",
+      "diagnosis": "The monk, not the fishermen, is the subject of helping; him can be dative plural here.",
+      "old_english_outputs": [
+        "Ðā fisceras cōmon, ðæt se munuc him hulpe."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T08",
+      "model": "Ðā męnn wǣron swā hungrige, ðæt hīe ǣton ðone męte.",
+      "target": "Plural predicate agreement and factual past result with indicative ǣton.",
+      "alternatives": "Defensible word order and a repeated subject in place of hīe; preserve an asserted result.",
+      "diagnosis": "Do not replace indicative ǣton with an unassigned purpose subjunctive or leave the masculine plural adjective singular.",
+      "old_english_outputs": [
+        "Ðā męnn wǣron swā hungrige, ðæt hīe ǣton ðone męte."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T09",
+      "model": "Ðā fisceras hēoldon ðā dēor, ðȳ-lǣs-ðe ðā dēor ūrne męte nōmen.",
+      "target": "Past holding intended to prevent plural animals from taking food; nōmen is plural preterite subjunctive.",
+      "alternatives": "Pronoun hīe for the animals is defensible with a clear antecedent; preserve the purpose of prevention.",
+      "diagnosis": "The source of negative force is the conjunction; do not assert the taking happened or make our agree with the animals rather than singular męte.",
+      "old_english_outputs": [
+        "Ðā fisceras hēoldon ðā dēor, ðȳ-lǣs-ðe ðā dēor ūrne męte nōmen."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T10",
+      "model": "Ðēah se munuc wǣre untrum, hē healp ðǣm męnn.",
+      "target": "Admitted factual illness with concessive preterite subjunctive; past indicative consequence and dative helped person.",
+      "alternatives": "Ðēah ðe if assigned as a documented alternative; grammatical alternatives remain separate from a selected-form target.",
+      "diagnosis": "Wǣre need not deny the illness; do not mistake healp for the similar subjunctive hulpe.",
+      "old_english_outputs": [
+        "Ðēah se munuc wǣre untrum, hē healp ðǣm męnn."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-T11",
+      "model": "Gif se cyning wǣre hēr, hē hulpe ūs.",
+      "target": "Both preterite subjunctives refer to the present contrary-to-fact setting; ūs is dative plural.",
+      "alternatives": "Accept defensible clause order; no new willan auxiliary is necessary.",
+      "diagnosis": "Do not change the stipulated time to past or infer that gif always requires this pair.",
+      "old_english_outputs": [
+        "Gif se cyning wǣre hēr, hē hulpe ūs."
+      ]
+    },
+    {
+      "task_id": "NEW-U11-R01",
+      "translation_witness_key": "original_account",
+      "target": "Translate the complete 59-word new account, preserving its purpose, timing, concession, reference and reciprocal help."
+    },
+    {
+      "task_id": "NEW-U11-R02",
+      "model": "Purpose: ðæt hē his suna hulpe, explaining why the father came; hulpe is third singular preterite subjunctive. While: Mid-ðȳ se sunu ǣt, giving simultaneous eating; ǣt is third singular preterite indicative. Concession: Ðēah se fiscere wǣre eald, admitting age despite which he helps; wǣre is third singular preterite subjunctive.",
+      "diagnosis": "Do not call all dependent clauses conditions or read preterite subjunctive as necessarily unreal past."
+    },
+    {
+      "task_id": "NEW-U11-R03",
+      "model": "The fisherman/father gives food to his son: se fiscere names the subject and him is understood as the son, the dative recipient. At the end the son gives water to his father; hē continues the son after his own direct speech, his refers to the son, and fæder has the selected endingless dative singular. Reference uses the discourse, not morphological gender alone.",
+      "diagnosis": "Case and discourse determine the recipient; the endingless fæder does not force a nominative subject. A pronoun's masculine singular shape alone does not name one of the two men uniquely."
+    },
+    {
+      "task_id": "NEW-U11-R04",
+      "model": "Ic is the son who is speaking. His coming is still expected when he tells his father to be here; cume is first singular present subjunctive in the anticipated-until clause. The later cōm, following the son's departure, fulfills it.",
+      "diagnosis": "The direct quotation's first person is not the narrator or father. Cume is formally syncretic with first singular indicative; identify the selected anticipated-until analysis from context, not spelling alone."
+    },
+    {
+      "task_id": "NEW-U11-B01",
+      "translation_witness_key": "bede",
+      "target": "Translate the entire exact observation, retaining the metals, jet description and conditional claim; all helps remain available."
+    },
+    {
+      "task_id": "NEW-U11-B02",
+      "model": "The condition is gif man hine on fȳr dēð, if one puts it in fire. The main clause is ðonne flēoð ðǣr næddran onwęg, then snakes flee away from there. Dēð is third singular present indicative of dōn; flēoð is third plural present indicative of flēon. Ðonne is the main-clause correlate then, not than.",
+      "diagnosis": "The unfamiliar generic man and flight form are supplied; explaining them does not confer independent recall."
+    },
+    {
+      "task_id": "NEW-U11-B03",
+      "model": "First hit refers to Britain/the island in the introduction, a neuter referent. Hine refers to the masculine stone just named and is accusative as the thing put into the fire. The source changes referent; it does not use two interchangeable pronouns for one noun.",
+      "diagnosis": "Do not let nearest English word order erase the supplied antecedent or the stone's masculine reference."
+    },
+    {
+      "task_id": "NEW-U11-S01",
+      "translation_witness_key": "sea",
+      "target": "Translate the entire rescue through its final interpretation, using every printed support as needed."
+    },
+    {
+      "task_id": "NEW-U11-S02",
+      "model": "They see Æthelwald; Æthelwald prays; the sea becomes calm; they reach land; the storm returns. Before it returns, they have come ashore and carried the ship up from the waves.",
+      "diagnosis": "Do not end the episode at the calm or put the renewed storm before the landing."
+    },
+    {
+      "task_id": "NEW-U11-S03",
+      "model": "Ðæt hē wolde ūrne sīðfæt scēawian, and gesēon hwæt ūs gelumpe gives his purpose: to watch their journey and see what was happening to them. For-ðon hē gehīerde … gives his reason: he heard the crashing of the storm and sea. The purpose's wolde is locally explained as might/in order to, not merely a statement of past desire.",
+      "diagnosis": "Do not confuse the dependent question hwæt … gelumpe inside the purpose with the outer purpose clause."
+    },
+    {
+      "task_id": "NEW-U11-S04",
+      "model": "Tō ðon ðætte introduces the outcome: all the storm's violence ceased, and favourable winds carried the sailors to land through the very calm sea. The actual wæs blinnende follows its supplied periphrastic analysis, not a newly invented progressive system.",
+      "diagnosis": "This is the narrated result, not simply Æthelwald's desired outcome."
+    },
+    {
+      "task_id": "NEW-U11-S05",
+      "model": "Mid-ðȳ hē ðā ūs ēac scēawode … describes Æthelwald seeing their distress; the main action begins ðā biegde hē his cnēowu. Mid-ðȳ wē ðā ūp cōmon tō lande … includes landing and carrying the ship up; the main action begins ðā sōna se ilca storm ęft hwearf and cōm.",
+      "diagnosis": "The coordinated action inside the second temporal clause belongs before the renewed storm; do not stop the clause at lande."
+    },
+    {
+      "task_id": "NEW-U11-S06",
+      "model": "Here wæs gebiddende means prayed (or was praying as an idiomatic English contextual rendering). Cook refers back to his note that this present-participle-plus-be construction can express a simple past, as it does here. It is therefore unsafe to infer a universal English progressive category from the shape.",
+      "diagnosis": "The supplied source construction is not independently productive tense teaching."
+    },
+    {
+      "task_id": "NEW-U11-S07",
+      "model": "People understand that the brief calm was granted from heaven, at the prayers of the man of God, for the sailors' rescue. Godes depends on weres; the man's prayers are named by bēnum, and ūre identifies the rescued sailors. Forgiefen means given/granted here, not forgiven.",
+      "diagnosis": "Do not translate the rescue as a forgiveness or make God the person whose prayers are named."
+    },
+    {
+      "task_id": "NEW-U11-S08",
+      "model": "No. The storm returns once the people and ship are safely ashore and remains severe throughout that day. Its short suspension at the needed moment supports the narrator's interpretation that the calm was specially granted for their rescue in answer to prayer.",
+      "diagnosis": "The conclusion requires the ending of the passage, not an isolated sentence about a calm sea."
+    }
+  ]
+}

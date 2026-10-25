@@ -1,0 +1,623 @@
+{
+  "schema_version": 1,
+  "chapter": "ch11",
+  "status": "post_seal_coordinator_metadata_repair_proposal",
+  "request": "Bind all reused supplied earlier task requirements outside the proposed inventory to actual visible support and a contracted teaching record.",
+  "input_hashes": {
+    "curriculum/proposals/unit11/inventory.json": "bf3f0a4cf1a8a84ec8d9c2f4e0f0ca1de3c93079cbf68ba6ea71c927784dc528",
+    "curriculum/proposals/unit11/task-plan.json": "7a1373326af480f9e963f2d841fa09c2a9f236ee05b03e0caf25e44a0fa61841"
+  },
+  "counts": {
+    "forms": 11,
+    "senses": 7,
+    "features": 1,
+    "total_identities": 19,
+    "visible_helps": 10
+  },
+  "teaching_record_patch": {
+    "teaching_id": "NEW-U11-LOCAL-HELPS",
+    "operation": "Union these IDs and evidence references into the existing record; preserve all existing entries.",
+    "form_ids": [
+      "aefter-invariant-source",
+      "aet-invariant-source",
+      "becuman-pret-3-sg-source",
+      "eft-invariant",
+      "ge-conjunction-invariant-source",
+      "geseon-infinitive-citation",
+      "land-dat-sg-source",
+      "samod-invariant-source",
+      "sona-invariant-source",
+      "thaer-invariant-source",
+      "the-relative-subject-invariant"
+    ],
+    "sense_ids": [
+      "acennan-source",
+      "aet-at-source",
+      "eft-again-also",
+      "land-country",
+      "samod-source",
+      "sellan-give-drink",
+      "thaer-there"
+    ],
+    "feature_ids": [
+      "u10-sellan-drink-infinitive"
+    ],
+    "evidence_refs": [
+      "U11-EX-P8",
+      "U11-EX-P9",
+      "U11-SRC-P139",
+      "U11-SRC-P142",
+      "U11-SRC-P143"
+    ]
+  },
+  "source_span_teaching_id_patch": {
+    "source_span_ids": [
+      "FB-IV-BRITAIN-METALS-01",
+      "FB-V-SEA-RESCUE-01"
+    ],
+    "old_teaching_id": "NEW-U11-SOURCE-HELPS",
+    "new_teaching_id": "NEW-U11-LOCAL-HELPS",
+    "reason": "The current source-span label names no actual teaching record; the existing local-help aggregator is the canonical record for the same visible help."
+  },
+  "local_help_metadata_patch": {
+    "task_id": "EX-V-18-07",
+    "support_id": "U11-COOK-HELP-18-07",
+    "append_sense_ids": [
+      "acennan-source"
+    ],
+    "reason": "The actual text explicitly gives born and its passive use; its empty sense_ids is a metadata omission. The exact source hint supplies this local sense without a new birth-verb paradigm."
+  },
+  "bindings": [
+    {
+      "kind": "forms",
+      "id": "aefter-invariant-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S01"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "aet-invariant-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S12"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "becuman-pret-3-sg-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S16"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "eft-invariant",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S14"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "ge-conjunction-invariant-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S09"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "geseon-infinitive-citation",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S04"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "land-dat-sg-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S12",
+        "U11-SRC-HELP-S13"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "samod-invariant-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S09"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "sona-invariant-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S14"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "thaer-invariant-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-B04",
+        "U11-SRC-HELP-S16"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P139",
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-IV-BRITAIN-METALS-01",
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-B01",
+        "NEW-U11-B02",
+        "NEW-U11-B03",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "forms",
+      "id": "the-relative-subject-invariant",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S16"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "EX-IV-17-17",
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "senses",
+      "id": "acennan-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-COOK-HELP-18-07"
+      ],
+      "evidence_refs": [
+        "U11-EX-P9"
+      ],
+      "used_in_tasks": [
+        "EX-V-18-07"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "senses",
+      "id": "aet-at-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S12"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "senses",
+      "id": "eft-again-also",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S14"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "senses",
+      "id": "land-country",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S12",
+        "U11-SRC-HELP-S13"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "senses",
+      "id": "samod-source",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-S09"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "senses",
+      "id": "sellan-give-drink",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-COOK-HELP-17-11"
+      ],
+      "evidence_refs": [
+        "U11-EX-P8"
+      ],
+      "used_in_tasks": [
+        "EX-IV-17-11"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "senses",
+      "id": "thaer-there",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-SRC-HELP-B04",
+        "U11-SRC-HELP-S16"
+      ],
+      "evidence_refs": [
+        "U11-SRC-P139",
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ],
+      "used_in_tasks": [
+        "FB-IV-BRITAIN-METALS-01",
+        "FB-V-SEA-RESCUE-01",
+        "NEW-U11-B01",
+        "NEW-U11-B02",
+        "NEW-U11-B03",
+        "NEW-U11-S01",
+        "NEW-U11-S02",
+        "NEW-U11-S03",
+        "NEW-U11-S04",
+        "NEW-U11-S05",
+        "NEW-U11-S06",
+        "NEW-U11-S07",
+        "NEW-U11-S08"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    },
+    {
+      "kind": "features",
+      "id": "u10-sellan-drink-infinitive",
+      "knowledge_status": "supplied",
+      "teaching_id": "NEW-U11-LOCAL-HELPS",
+      "visible_help_ids": [
+        "U11-COOK-HELP-17-11"
+      ],
+      "evidence_refs": [
+        "U11-EX-P8"
+      ],
+      "used_in_tasks": [
+        "EX-IV-17-11"
+      ],
+      "finding": "Actual visible support supplies the required source form, meaning or construction; no independent recall or promotion follows."
+    }
+  ],
+  "visible_support": [
+    {
+      "help_id": "U11-COOK-HELP-17-11",
+      "text": "Retain the previously supplied give-to-drink pattern: sęle mē wæter drincan. Sęle is the singular command give, mē the recipient, wæter the thing given; the plain infinitive, without tō, expresses what the recipient is to do. The whole construction remains supplied.",
+      "evidence_refs": [
+        "U11-EX-P8"
+      ]
+    },
+    {
+      "help_id": "U11-COOK-HELP-18-07",
+      "text": "Cook supplies ācenned, born (past participle), with plain e. Use with the taught passive auxiliary; this exact hint does not establish a complete ācennan system.",
+      "evidence_refs": [
+        "U11-EX-P9"
+      ]
+    },
+    {
+      "help_id": "U11-SRC-HELP-B04",
+      "text": "Flēoð is third plural present indicative of flēon, flee; it is not the verb fly. Ðǣr, there; næddran, snakes/adders, nominative plural of weak feminine næddre; onwęg, away. Both d letters in næddran belong to the printed text.",
+      "evidence_refs": [
+        "U11-SRC-P139"
+      ]
+    },
+    {
+      "help_id": "U11-SRC-HELP-S01",
+      "text": "Read the whole opening as “then, after a long time, it happened that ...”. Æfter governs the dative; langum fæce means a long interval. The opening ðæt belongs to this supplied time-introduction frame.",
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ]
+    },
+    {
+      "help_id": "U11-SRC-HELP-S04",
+      "text": "The ðæt clause gives his purpose. Wolde with the infinitives scēawian and gesēon is read here “that he might watch and see” or “in order to watch and see”; do not make private desire the only force. Hwæt ūs gelumpe is a dependent question, what might happen to us. Gelumpe is third singular preterite subjunctive, and ūs is dative.",
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ]
+    },
+    {
+      "help_id": "U11-SRC-HELP-S09",
+      "text": "Gebed is prayer, accusative singular; gefylde is the already taught finished/accomplished. Samod ætgædere means together/at once. Paired ge ... ge coordinates both ... and; the first ge introduces the sea-calming and the second the storm-stilling.",
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ]
+    },
+    {
+      "help_id": "U11-SRC-HELP-S12",
+      "text": "Gesyndge is the exact syncopated source form beside taught gesyndige, favorable, nominative plural. Smyltestan is the weak masculine accusative superlative calmest/very calm. Ðurh governs ðone ... sǣ; ūs is the accusative people brought. Æt lande means to/at land in this exact arrival expression. Gebrōhton is the prefixed third plural preterite brought.",
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ]
+    },
+    {
+      "help_id": "U11-SRC-HELP-S13",
+      "text": "The temporal clause has the two completed actions: we came up onto land and carried our ship up from the waves. Lande is the locally supplied dative of land; ȳðum is dative plural waves after fram. Ābǣron is first plural preterite of prefixed carry. Ūre scip is the accusative object, not a new subject.",
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ]
+    },
+    {
+      "help_id": "U11-SRC-HELP-S14",
+      "text": "Sōna, immediately; ęft, again; hwearf, returned. Se-ðe is the exact relative complex referring to masculine storm. For ūrum intingan, for our sake; intingan is dative singular. Medmicel fæc is accusative duration, a short interval. Gestilde is intransitive ceased/became still in this relative clause; the earlier transitive sense alone is insufficient. English had ceased may clarify the sequence.",
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ]
+    },
+    {
+      "help_id": "U11-SRC-HELP-S16",
+      "text": "Fierst is masculine nominative singular, interval/period; medmicla is its weak adjective, short. Ðǣre stilnesse, of the calm, is genitive singular. In the relative clause, ðǣr means there and becōm means occurred/came about in this context.",
+      "evidence_refs": [
+        "U11-SRC-P142",
+        "U11-SRC-P143"
+      ]
+    }
+  ],
+  "inspection_notes": [
+    "All nineteen bindings were checked against actual printed-help text, not inferred merely from covers metadata.",
+    "The standalone relative ðe identity belongs to S16, whose help explicitly identifies the relative clause; S14 instead contains the distinct exact se-ðe complex.",
+    "S09 explicitly supplies ge ... ge; a second mechanical covers link in S10 is unnecessary for this semantic support mapping.",
+    "The prior productive relative-clause instruction supplies the ordinary relative analysis; S16 preserves the local supplied source-form identity.",
+    "No sealed design artifact or independent audit file was edited. This supplemental record documents the coordinator’s contract-integration metadata repair."
+  ],
+  "errors": [],
+  "unresolved": []
+}
