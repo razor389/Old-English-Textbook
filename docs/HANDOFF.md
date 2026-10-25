@@ -2,7 +2,7 @@
 
 ## Unit 9 complete
 
-The requested Unit 9 is complete; **Units 1–9** have reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are ready for their local checkpoint. The main [README](../README.md), [source/course indexes](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 9. Do not draft Unit 10 without a new request.
+The requested Unit 9 is complete; **Units 1–9** have reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`140e2bd`**. The main [README](../README.md), [source/course indexes](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 9. Do not draft Unit 10 without a new request.
 
 The [contract](../chapters/ch09/coverage.json) preceded prose at **`aafd2a1`**; complete drafts were saved at **`c45cc58`**. All 97 [pre-key solutions](../chapters/ch09/independent-solutions.md) were frozen at **`72a5b2d`**, before private model/key access under the retained [protocol](../chapters/ch09/review-protocol.json). The reviewer authored neither master nor graded task and discloses prior grammar/public-composition work. [Review](../chapters/ch09/review.md) and its [ledger](../chapters/ch09/review-ledger.json) accept all tasks, 87 paradigms / 876 literal-or-derived cells, rules, lexical scope, sources and dependencies. Accepted text was saved at **`7f81e43`**. Verified amendment U09-AMEND-01 corrects source token 21 to nominative in all canonical dependencies while preserving the sealed proposal annotation; it changes no master text or teaching scope. No material finding remains open; the frozen witness was not silently rewritten.
 
@@ -32,7 +32,7 @@ The numbered crosswalk is **194 assigned / 450 deferred / none excluded**, total
 | 6 | 3bfc05e | 3955a2a | ce4ee34 | 47b92a4 | 25 / 28 |
 | 7 | 74404d8 | 089039d | b186c8b | eda6f87 | 37 / 30 |
 | 8 | 8751984 | 72ee930 | d36f134 | cb687a9 | 30 / 24 |
-| 9 | aafd2a1 | 7f81e43 | Checkpoint pending | This handoff checkpoint | 44 / 26 |
+| 9 | aafd2a1 | 7f81e43 | 140e2bd | This handoff checkpoint | 44 / 26 |
 
 Earlier chapters, reviews, exports and the archived experiment remain unchanged. The archive is reusable evidence, not the active syllabus.
 
