@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch10",
   "title": "The case system in extended sentences",
-  "status": "complete_drafts_independent_review_in_progress",
+  "status": "text_accepted_exports_pending",
   "contract_date": "2026-10-25",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -121139,7 +121139,7 @@
           "evidence_refs": [
             "U10-G-FB-JUDGMENT-SUPPORT"
           ],
-          "scope_note": "Both swā tokens belong to this supplied temporal correlation; prior so/thus does not teach it.",
+          "scope_note": "Both swā tokens belong to the supplied swā lange swā connection (here inasmuch as); prior so/thus does not teach it.",
           "teaching_ids": [
             "NEW-U10-COOK-HELPS"
           ],
@@ -145096,10 +145096,12 @@
     "U10-G-FB-INSTRUMENT": {
       "source_id": "cook_fb_1895_2",
       "printed_pages": [
+        97,
         98,
         99
       ],
       "pdf_pages_one_based": [
+        113,
         114,
         115
       ],
@@ -145109,6 +145111,14 @@
       "origin_category": "exact_source",
       "verification": "Actually inspected page images; OCR used only as a finding aid.",
       "images": [
+        {
+          "path": "sources/audits/unit09-grammar/cook_fb_1895_2-p97.png",
+          "sha256": "21ef73238d1f32b071158f1e2c8feb589f14a500e4fc897fec57cdbc6168668e",
+          "actually_viewed": true,
+          "viewed_by": "coordinator",
+          "inspection_date": "2026-10-25",
+          "inspection_note": "Reopened actual page during review: §174 begins at the bottom of printed p97; the following sections continue on pp98–99. Earlier Unit9 image reused unchanged."
+        },
         {
           "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p98.png",
           "sha256": "dd3f18dc9e3cbdd2690a589c475928de89f0b146252c7222a5338f9adeb1a2f5",
@@ -145123,7 +145133,8 @@
           "viewed_by": "unit10_grammar",
           "inspection_date": "2026-10-24"
         }
-      ]
+      ],
+      "canonical_locator_reconciliation": "U10-AMEND-01 adds the opening page of the cited section range. The sealed original audit remains unchanged; no teaching scope is expanded."
     },
     "U10-G-FB-IMPERSONAL": {
       "source_id": "cook_fb_1895_2",
@@ -145232,12 +145243,14 @@
         38,
         39,
         40,
+        41,
         100
       ],
       "pdf_pages_one_based": [
         54,
         55,
         56,
+        57,
         116
       ],
       "original_identifier": "§§55–60,181",
@@ -145268,13 +145281,22 @@
           "inspection_date": "2026-10-24"
         },
         {
+          "path": "sources/audits/unit10-source/cook_fb_1895_2-p41.png",
+          "sha256": "208c8460a6baf41a99b6b0275c7f42c00843764b17cef00a5d599645490b984e",
+          "actually_viewed": true,
+          "viewed_by": "coordinator",
+          "inspection_date": "2026-10-25",
+          "inspection_note": "Actually reopened during review: §60 continues with complete weak adjective table and genitive plural -ra on printed41/PDF57."
+        },
+        {
           "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p100.png",
           "sha256": "62e3fd3972e30664e5fa5bf162b1f0d871e13fb91229d2a492b00bc78e3cf53e",
           "actually_viewed": true,
           "viewed_by": "unit10_grammar",
           "inspection_date": "2026-10-24"
         }
-      ]
+      ],
+      "canonical_locator_reconciliation": "U10-AMEND-01 includes p41, the continuation of §60 and its complete weak table; the sealed original audit remains unchanged."
     },
     "U10-G-FB-JUDGMENT-SUPPORT": {
       "source_id": "cook_fb_1895_2",
@@ -146346,8 +146368,227 @@
     "typeset": "oec-u10-typeset",
     "finish": "oec-u10-finish"
   },
-  "review_status": "independent_solving_before_key",
-  "amendments": [],
+  "review_status": "accepted_pre_export",
+  "amendments": [
+    {
+      "amendment_id": "U10-AMEND-01",
+      "date": "2026-10-25",
+      "stage": "independent_text_review",
+      "reason": "Fresh primary inspection completed instrumental and adjective section locators; canonical frame review found temporal wording inconsistent with the already supplied inasmuch-as interpretation.",
+      "changes": [
+        {
+          "record": "evidence_catalog.U10-G-FB-INSTRUMENT",
+          "original_record": {
+            "source_id": "cook_fb_1895_2",
+            "printed_pages": [
+              98,
+              99
+            ],
+            "pdf_pages_one_based": [
+              114,
+              115
+            ],
+            "original_identifier": "§§174–178",
+            "claim": "Bare instrumental function (especially poetry) contrasted with prose mid+dative. Distinct instrument after mid is especially Anglian and not the selected default.",
+            "evidence_limits": "Selected concrete means only; transport, passive-agent-like uses, respect, time and comparative measure are not all assigned.",
+            "origin_category": "exact_source",
+            "verification": "Actually inspected page images; OCR used only as a finding aid.",
+            "images": [
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p98.png",
+                "sha256": "dd3f18dc9e3cbdd2690a589c475928de89f0b146252c7222a5338f9adeb1a2f5",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              },
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p99.png",
+                "sha256": "4cf6b71c08a93899eab3cdc667c9009166b84f737f3d9c279250ca3b8ff7843d",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              }
+            ]
+          },
+          "corrected_record": {
+            "source_id": "cook_fb_1895_2",
+            "printed_pages": [
+              97,
+              98,
+              99
+            ],
+            "pdf_pages_one_based": [
+              113,
+              114,
+              115
+            ],
+            "original_identifier": "§§174–178",
+            "claim": "Bare instrumental function (especially poetry) contrasted with prose mid+dative. Distinct instrument after mid is especially Anglian and not the selected default.",
+            "evidence_limits": "Selected concrete means only; transport, passive-agent-like uses, respect, time and comparative measure are not all assigned.",
+            "origin_category": "exact_source",
+            "verification": "Actually inspected page images; OCR used only as a finding aid.",
+            "images": [
+              {
+                "path": "sources/audits/unit09-grammar/cook_fb_1895_2-p97.png",
+                "sha256": "21ef73238d1f32b071158f1e2c8feb589f14a500e4fc897fec57cdbc6168668e",
+                "actually_viewed": true,
+                "viewed_by": "coordinator",
+                "inspection_date": "2026-10-25",
+                "inspection_note": "Reopened actual page during review: §174 begins at the bottom of printed p97; the following sections continue on pp98–99. Earlier Unit9 image reused unchanged."
+              },
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p98.png",
+                "sha256": "dd3f18dc9e3cbdd2690a589c475928de89f0b146252c7222a5338f9adeb1a2f5",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              },
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p99.png",
+                "sha256": "4cf6b71c08a93899eab3cdc667c9009166b84f737f3d9c279250ca3b8ff7843d",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              }
+            ],
+            "canonical_locator_reconciliation": "U10-AMEND-01 adds the opening page of the cited section range. The sealed original audit remains unchanged; no teaching scope is expanded."
+          },
+          "evidence": "sources/audits/unit09-grammar/cook_fb_1895_2-p97.png",
+          "actual_observation": "§174 begins on printed97/PDF113; the complete range §§174–178 is pp97–99. The learner and key citation ranges were corrected by their authors."
+        },
+        {
+          "records": [
+            "lexical_frames.U10-FRAME-swa-as-long-as-source.frame_and_boundary",
+            "lexical_inventory.swa.senses.swa-as-long-as-source.scope_note"
+          ],
+          "original": "Both swā tokens belong to this supplied temporal correlation; prior so/thus does not teach it.",
+          "replacement": "Both swā tokens belong to the supplied swā lange swā connection (here inasmuch as); prior so/thus does not teach it.",
+          "evidence_refs": [
+            "U10-G-FB-JUDGMENT-SUPPORT"
+          ],
+          "actual_observation": "Cook p135 note17 explains the biblical inasmuch-as connection; both actual masters already preserve that interpretation."
+        },
+        {
+          "record": "evidence_catalog.U10-G-FB-ADJECTIVES",
+          "original_record": {
+            "source_id": "cook_fb_1895_2",
+            "printed_pages": [
+              38,
+              39,
+              40,
+              100
+            ],
+            "pdf_pages_one_based": [
+              54,
+              55,
+              56,
+              116
+            ],
+            "original_identifier": "§§55–60,181",
+            "claim": "Strong adjective instrumental -e and full declension rules; adjective substantives can name masculine/feminine people, ordinarily weak under the selected conditions.",
+            "evidence_limits": "Only the stated construction/form is proposed; the rest of the printed section is not automatically taught.",
+            "origin_category": "exact_source",
+            "verification": "Actually inspected page images; OCR used only as a finding aid.",
+            "images": [
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p38.png",
+                "sha256": "171b9cb094680e077317cbf20dda89bd360e138f20641b20f2e3e47e8d2bcb89",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              },
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p39.png",
+                "sha256": "cc16502d8f8a2647160050dddd658a396c3f91735f30d6a0f45b79875871a3d0",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              },
+              {
+                "path": "sources/audits/unit10-source/cook_fb_1895_2-p40.png",
+                "sha256": "a4ff3d12208ba6835d03d67476d43742373e6c137aeeb304eb924bb1e7f8c65d",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              },
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p100.png",
+                "sha256": "62e3fd3972e30664e5fa5bf162b1f0d871e13fb91229d2a492b00bc78e3cf53e",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              }
+            ]
+          },
+          "corrected_record": {
+            "source_id": "cook_fb_1895_2",
+            "printed_pages": [
+              38,
+              39,
+              40,
+              41,
+              100
+            ],
+            "pdf_pages_one_based": [
+              54,
+              55,
+              56,
+              57,
+              116
+            ],
+            "original_identifier": "§§55–60,181",
+            "claim": "Strong adjective instrumental -e and full declension rules; adjective substantives can name masculine/feminine people, ordinarily weak under the selected conditions.",
+            "evidence_limits": "Only the stated construction/form is proposed; the rest of the printed section is not automatically taught.",
+            "origin_category": "exact_source",
+            "verification": "Actually inspected page images; OCR used only as a finding aid.",
+            "images": [
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p38.png",
+                "sha256": "171b9cb094680e077317cbf20dda89bd360e138f20641b20f2e3e47e8d2bcb89",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              },
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p39.png",
+                "sha256": "cc16502d8f8a2647160050dddd658a396c3f91735f30d6a0f45b79875871a3d0",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              },
+              {
+                "path": "sources/audits/unit10-source/cook_fb_1895_2-p40.png",
+                "sha256": "a4ff3d12208ba6835d03d67476d43742373e6c137aeeb304eb924bb1e7f8c65d",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              },
+              {
+                "path": "sources/audits/unit10-source/cook_fb_1895_2-p41.png",
+                "sha256": "208c8460a6baf41a99b6b0275c7f42c00843764b17cef00a5d599645490b984e",
+                "actually_viewed": true,
+                "viewed_by": "coordinator",
+                "inspection_date": "2026-10-25",
+                "inspection_note": "Actually reopened during review: §60 continues with complete weak adjective table and genitive plural -ra on printed41/PDF57."
+              },
+              {
+                "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p100.png",
+                "sha256": "62e3fd3972e30664e5fa5bf162b1f0d871e13fb91229d2a492b00bc78e3cf53e",
+                "actually_viewed": true,
+                "viewed_by": "unit10_grammar",
+                "inspection_date": "2026-10-24"
+              }
+            ],
+            "canonical_locator_reconciliation": "U10-AMEND-01 includes p41, the continuation of §60 and its complete weak table; the sealed original audit remains unchanged."
+          },
+          "evidence": "sources/audits/unit10-source/cook_fb_1895_2-p41.png",
+          "actual_observation": "§60 starts on p40 but its full weak table and genitive-plural rule continue on p41. Learner note4 now cites §§55–60, pp38–41."
+        }
+      ],
+      "preservation": "Sealed grammar/source/design audits and frozen independent solutions remain unchanged. Original evidence and scope annotations are retained in this amendment and their sealed audits; the canonical corrections supersede them.",
+      "scope_effect": "No task, prompt, source text, model form, teaching milestone, knowledge status or assignment changes. The support stays supplied; the note does not introduce an unrestricted temporal-clause construction."
+    }
+  ],
   "validation_at_contract": {
     "tasks": 89,
     "cook_tasks": 55,
@@ -146847,7 +147088,7 @@
       "sense_id": "swa-as-long-as-source",
       "gloss": "as ... as (swā lange swā)",
       "knowledge_status": "supplied",
-      "frame_and_boundary": "Both swā tokens belong to this supplied temporal correlation; prior so/thus does not teach it.",
+      "frame_and_boundary": "Both swā tokens belong to the supplied swā lange swā connection (here inasmuch as); prior so/thus does not teach it.",
       "evidence_refs": [
         "U10-G-FB-JUDGMENT-SUPPORT"
       ]
@@ -147206,5 +147447,130 @@
     }
   ],
   "contract_checkpoint": "86e073f",
-  "complete_drafts_checkpoint": "a1f8d6f"
+  "complete_drafts_checkpoint": "a1f8d6f",
+  "independent_solutions_checkpoint": "3684087",
+  "textual_review": {
+    "status": "accepted",
+    "reviewer": "unit10_grammar",
+    "record": "chapters/ch10/review.md",
+    "ledger": "chapters/ch10/review-ledger.json",
+    "review_record_sha256": "f5ceae764081ad3afa788c18f3cfa0bc570f6283de5cf6d21520f02ce73f0a7d",
+    "review_ledger_sha256": "480f534332f800071d8132a63de8f96646ab8a6cfe177d8d8ea81d7d371f5b16",
+    "accepted_artifacts": {
+      "student.md": {
+        "sha256": "2afdc5fd37c0b5502061641ec5bda6458760b54f69a51c81aa9b1be9ccdc5606",
+        "sha256_normalized_lf": "2afdc5fd37c0b5502061641ec5bda6458760b54f69a51c81aa9b1be9ccdc5606"
+      },
+      "answer-key.md": {
+        "sha256": "5e40dca9a01685a5a293249095560b2491eae6545d935d86ecf67a0922b97003",
+        "sha256_normalized_lf": "14c21bb1f080bbecb4f109dcbbaea57ffde5edf2bba1f0ecb51a0fbfdd5069b5"
+      },
+      "independent-solutions.md": {
+        "sha256": "04e7ae1afa7f827034e38a1242cc74ed4e34aaec554287369f703da22faf8463",
+        "sha256_normalized_lf": "04e7ae1afa7f827034e38a1242cc74ed4e34aaec554287369f703da22faf8463"
+      }
+    },
+    "counts": {
+      "assigned_tasks": 89,
+      "task_reviews": 89,
+      "cook_tasks": 55,
+      "new_tasks": 34,
+      "logical_paradigms": 56,
+      "logical_paradigm_cells": 779,
+      "display_matrices": 36,
+      "lexical_diagnostics": 29,
+      "literal_cells": 443,
+      "independently_derived_cells": 336,
+      "nonlexical_evidence_gap_positions": 1,
+      "teaching_records": 173,
+      "required_dependency_occurrences": 2059,
+      "prior_records_rechecked": 333,
+      "grammar_rules": 47,
+      "lexical_frames": 25,
+      "translated_examples": 14,
+      "controlled_reading_words": 50,
+      "source_reading_words": 59,
+      "public_original_sequence_tokens": 224,
+      "exact_source_tokens": 59,
+      "original_source_notes": 14,
+      "source_help_groups": 9,
+      "cook_local_help_groups": 2,
+      "fresh_page_images": 47,
+      "material_open_findings": 0,
+      "minor_findings_resolved": 2,
+      "witness_substantive_errors_found": 0
+    },
+    "accepted_contract_semantic_identity": {
+      "keys": [
+        "analysis_inputs",
+        "archive_tree_sha256",
+        "assigned_items",
+        "audit_recommendation_precedence",
+        "audited_inflection_rules",
+        "authoring_rules",
+        "bounded_scope",
+        "brief",
+        "chapter_id",
+        "contract_date",
+        "contract_prepared_before_prose",
+        "deferred_source_items",
+        "display_plan",
+        "evidence_catalog",
+        "excluded_source_items",
+        "form_id_aliases",
+        "form_identity_reconciliation",
+        "grammar_inventory",
+        "independent_composition_review",
+        "independent_image_crosscheck",
+        "issues",
+        "key_item_ids",
+        "lexical_frames",
+        "lexical_frames_source",
+        "lexical_inventory",
+        "new_compositions",
+        "new_material_examples",
+        "paradigms",
+        "pre_key_review_exclusions",
+        "prerequisite_chapters",
+        "prior_checkpoint",
+        "prior_files",
+        "prior_files_lf_sha256",
+        "prior_requirements",
+        "prior_teaching_boundary",
+        "productive_outcomes",
+        "promotions",
+        "recognition_outcomes",
+        "review_independence",
+        "schema_version",
+        "sense_id_aliases",
+        "source_alias_assignments",
+        "source_assignment_policy",
+        "source_corrections",
+        "source_spans",
+        "teaching_records",
+        "title",
+        "validation_at_contract"
+      ],
+      "sha256": "aff15a5909d0c6604d2f792e8c644b9fc0cc07870de270853ca34df1458a7ba3",
+      "serialization": "UTF-8, json.dumps(ensure_ascii=False,sort_keys=True,separators=(comma,colon)); full nested values preserved.",
+      "excluded_top_level_metadata_keys": [
+        "amendments",
+        "complete_drafts_checkpoint",
+        "completion",
+        "contract_checkpoint",
+        "review_status",
+        "status"
+      ],
+      "scope": "Only top-level stage/completion/review/checkpoint metadata and historical amendment log omitted. Every nested substantive value, including every nested status and all canonical evidence/scope repairs, is included. No recursive field-name filtering."
+    },
+    "accepted_contract_artifact_at_review": {
+      "sha256": "0ec962c2a5d8d373d0b76def7a4afaaca3a61a0031758859031792932604b84f",
+      "sha256_normalized_lf": "0ec962c2a5d8d373d0b76def7a4afaaca3a61a0031758859031792932604b84f"
+    },
+    "identity_scope_note": "Immutable identities cover both masters and frozen pre-key solutions. The semantic identity projects explicit top-level contract keys with every nested value preserved; later completion metadata does not change accepted learning content.",
+    "independent_solutions_checkpoint": "3684087",
+    "independence": "Reviewer authored neither master or graded task, solved all89 actual tasks before key/private-answer access, and disclosed prior grammar-audit/public-composition work.",
+    "material_open_findings": 0,
+    "scope_limit": "Accepts the identified text and substantive contract. Complete exports, every-page inspection and register integration remain separate gates."
+  }
 }
