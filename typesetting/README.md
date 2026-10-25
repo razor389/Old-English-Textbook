@@ -14,6 +14,8 @@ The reviewed [Unit 8 exports](ch08/README.md) have **30 learner and 24 key pages
 
 The reviewed [Unit 9 exports](ch09/README.md) have **44 learner and 26 key pages**. All 70 pages have non-author visual records; full text/table parity and final identities accompany both complete PDFs.
 
+The reviewed [Unit 10 exports](ch10/README.md) have **40 learner and 29 key pages**. All 69 pages have non-author visual records; full text/table parity and final identities accompany both complete PDFs.
+
 Use `chapter-template.tex` as a minimal document shell for later units. Create a unit directory, put complete learner and key TeX files there, and input `../book-layout.tex`. Set `\runningtitle` before the input. Build from that directory with LuaLaTeX, writing products to its ignored `build/` directory. Run sufficient passes for stable references.
 
 Compare all content with Markdown: paradigms, vocabulary, source prompts, added tasks, reading support, keys, IDs, and notes. Inspect every page and check the logs for missing characters, font substitutions, and box warnings. Copy the final complete PDFs out of `build/` only after review. Preserve stable IDs in TeX comments.

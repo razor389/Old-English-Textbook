@@ -1,0 +1,43 @@
+{
+  "unit": "10",
+  "method": "Independent block inventory from accepted Markdown; decoded actual TeX paragraph bodies, all table rows and cells, and every editorial comment. Full non-whitespace Unicode sequences also checked in extracted PDF prose after removal of running matter and normalization of Xpdf soft-hyphen encoding to the original literal hyphen.",
+  "formatting_changes": [
+    "Both documents use Ligatures=TeXOff to preserve the masters' literal punctuation in extracted PDF text.",
+    "Seven-column adjective tables use stacked singular/plural panels at readable 10.5pt type; the repeated case column is furniture. Reconstructing the panels reproduces every original coordinate, header and cell. Other tables retain their original columns.",
+    "The complete three-sentence source paragraph uses the reading style and remains together; short examples stay with their translations.",
+    "Cook labels remain with their prompts; final page-specific repairs are recorded in the page review.",
+    "Line wrapping, emphasis commands and page furniture differ from Markdown; linguistic text and punctuation are preserved."
+  ],
+  "documents": [
+    {
+      "master": "chapters/ch10/student.md",
+      "master_sha256": "2afdc5fd37c0b5502061641ec5bda6458760b54f69a51c81aa9b1be9ccdc5606",
+      "tex": "typesetting/ch10/chapter-10.tex",
+      "tex_sha256": "5c4aed945f6114f1214e0d3cb1623533fdd8e8ac8a60e7c545c8b01fa29addfc",
+      "tex_sha256_normalized_lf": "5c4aed945f6114f1214e0d3cb1623533fdd8e8ac8a60e7c545c8b01fa29addfc",
+      "paragraph_heading_list_blocks": 407,
+      "original_tables": 40,
+      "original_table_cells_including_headers": 1052,
+      "all_editorial_comments_preserved": 368,
+      "paragraph_and_cell_parity": "PASS",
+      "pdf_complete_paragraph_character_parity": "PASS",
+      "title_parity": "PASS",
+      "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+    },
+    {
+      "master": "chapters/ch10/answer-key.md",
+      "master_sha256": "5e40dca9a01685a5a293249095560b2491eae6545d935d86ecf67a0922b97003",
+      "tex": "typesetting/ch10/answer-key.tex",
+      "tex_sha256": "9b9b0f244a9d39695d37c043361cc91ba5af28892bf4bb785152e7ae5863a92b",
+      "tex_sha256_normalized_lf": "9b9b0f244a9d39695d37c043361cc91ba5af28892bf4bb785152e7ae5863a92b",
+      "paragraph_heading_list_blocks": 368,
+      "original_tables": 9,
+      "original_table_cells_including_headers": 153,
+      "all_editorial_comments_preserved": 178,
+      "paragraph_and_cell_parity": "PASS",
+      "pdf_complete_paragraph_character_parity": "PASS",
+      "title_parity": "PASS",
+      "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+    }
+  ]
+}
