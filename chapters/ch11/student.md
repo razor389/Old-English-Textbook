@@ -610,7 +610,7 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 
 <!-- teaching: NEW-U11-VOC-BLAEC -->
 
-**blæc**, black. Stem **blæc-**. In the strong system, use **blac-** before a vowel ending, but retain **blæc-** before a consonantal ending or no ending. The short stem takes -u in strong feminine nominative singular and neuter nominative/accusative plural. The selected weak system uses **blac-** throughout.
+**blæc**, black. Stem **blæc-**. In the strong system, use **blac-** before a vowel ending, but retain **blæc-** before a consonantal ending or no ending. The short stem takes -u in strong feminine nominative singular and neuter nominative/accusative plural. The weak system uses **blac-** before vowel endings and **blæc-** before genitive plural -ra.
 
 <!-- teaching: NEW-U11-ADJ-BLAEC-STRONG -->
 
@@ -631,12 +631,12 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 | Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
 | --- | --- | --- | --- | --- | --- | --- |
 | Nominative | blaca | blace | blace | blacan | blacan | blacan |
-| Genitive | blacan | blacan | blacan | blacra | blacra | blacra |
+| Genitive | blacan | blacan | blacan | blæcra | blæcra | blæcra |
 | Dative | blacan | blacan | blacan | blacum | blacum | blacum |
 | Accusative | blacan | blacan | blace | blacan | blacan | blacan |
 | Instrumental | blacan | as dative | blacan | as dative | as dative | as dative |
 
-Thus strong masculine accusative blæcne retains æ before -ne; weak masculine nominative blaca has a before -a. The selected weak genitive plural blacra also keeps the weak stem blac-.
+Thus strong masculine accusative blæcne retains æ before -ne; weak masculine nominative blaca has a before -a. The weak genitive plural **blæcra** uses **blæc-** before -ra, the ending shared with the strong declension.
 
 <!-- teaching: NEW-U11-VOC-FAEGER -->
 
@@ -1038,6 +1038,8 @@ The present-participle ending is **-nde**: the ordinary linking vowel is e, clas
 | --- | --- |
 | Present participle | hȳdende |
 | Past participle | hȳded |
+
+The past participles fēded and hȳded also have contracted forms fēd and hȳd. These are acceptable variants; the tables retain fēded and hȳded as the selected bases.
 
 Thus the plural subject still controls a plural auxiliary, while the chosen predicate can remain bare. Present participle forms are learned morphologically here; their display does not create a general progressive tense. Nor do these pairs introduce a new perfect tense or all possible prefixed variants. The exact readings supply their own additional realizations.
 

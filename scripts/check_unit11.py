@@ -206,11 +206,30 @@ def main():
     audit=read('sources/audits/unit11-grammar/grammar-records.json')
     audited={p['paradigm_id']:p for p in audit['paradigms']}
     audited.update({p['paradigm_id']:p for p in read('sources/audits/unit11-source/noun-adjective-paradigms.json')['paradigms']})
+    # Preserve sealed audit data while checking the narrowly evidenced review correction.
+    amendment=next((a for a in c['amendments'] if a['amendment_id']=='U11-AMEND-02'),{})
+    corrections={v['form_id']:v for v in amendment.get('paradigm_cell_corrections',[])}
+    expected_corrections={f'blaec-gen-{g}-pl-weak' for g in ['m','n','f']}
+    require(set(corrections)==expected_corrections,'U11-AMEND-02: expected three declared cell corrections')
+    for fid,change in corrections.items():
+        require(change['paradigm_id']=='NEW-U11-ADJ-BLAEC-WEAK' and
+                change['original']=='blacra' and change['replacement']=='blæcra',
+                fid+': unexpected amendment scope')
+        require(set(change['evidence_refs'])=={f'U11-REVIEW-WRIGHT-P{n}' for n in [207,209,217]},
+                fid+': correction evidence differs')
+        require(all(eid in evidence for eid in change['evidence_refs']),fid+': missing correction evidence')
     for p in c['paradigms']:
         require(p['paradigm_id'] in audited,p['paradigm_id']+': no source paradigm')
         if p['paradigm_id'] in audited:
+            expected=[]
+            for v in audited[p['paradigm_id']]['cells']:
+                change=corrections.get(v['form_id'])
+                if change:
+                    require(change['original']==v['form'] and change['paradigm_id']==p['paradigm_id'],
+                            v['form_id']+': original audit correction binding differs')
+                expected.append((v['form_id'],change['replacement'] if change else v['form']))
             require([(v['form_id'],v['form']) for v in p['cells']]==
-                    [(v['form_id'],v['form']) for v in audited[p['paradigm_id']]['cells']],
+                    expected,
                     p['paradigm_id']+': audited cells differ')
     for m in matrices:
         require(len(m['rows'])==len(m['cell_form_ids']),m['matrix_id']+': row mapping differs')
