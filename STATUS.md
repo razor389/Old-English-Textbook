@@ -1,6 +1,14 @@
 # Status
 
-Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–9 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`140e2bd`**. Unit 10 has not been drafted.
+Updated 24 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–9 are complete and independently reviewed**, with full learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`140e2bd`**. Unit 10 is requested; its independent source, grammar and curriculum audits are in progress. Its contract and prose have not yet been drafted.
+
+## Active Unit 10
+
+The planned core is the case system in extended sentences: systematic bounded genitive, dative and instrumental uses, quantity, governed objects and impersonal frames, with complete necessary lexical paradigms. All **55 original Cook III.13–15 prompts** are planned together. A connected passage from *The Day of Judgment* (Reader III, beginning Cook p.134 / PDF150) is under source audit; no boundary or new assignment is yet accepted.
+
+Root alone writes Beads and shared files. The source, grammar and curriculum agents exclusively own `sources/audits/unit10-source/`, `sources/audits/unit10-grammar/` and `curriculum/proposals/unit10/`. Reconcile their actual evidence in `curriculum/UNIT_10_BRIEF.md` and `chapters/ch10/coverage.json`, and checkpoint the contract before any learner/key prose. Preserve independent pre-key solving, separate authorship and every-page non-author inspection. Do not draft Unit 11.
+
+The immutable ignored `build/unit10-prior-baseline.json` captures **`bb598a1`**: all nine contracts, **400 lemmas, 5,770 forms, 455 senses and 365 constructions**, **1136 earlier active artifacts** and **134 archived files**. Do not overwrite it or rerun older merge helpers. Compact reading aids do not replace the actual records. The retained prior-state audit records file identities. The numbered crosswalk remains **194 assigned / 450 deferred** until the new contract explicitly resolves assignments. Earlier supplied/recognition material requires explicit teaching before promotion.
 
 ## Completed Unit 9
 

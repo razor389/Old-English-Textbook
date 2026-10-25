@@ -1,8 +1,18 @@
 # Handoff to the next session
 
+## Active Unit 10
+
+The user has requested Unit 10. The coordinator owns `oec-u10`; source, grammar and design tasks are active.
+
+The planned core is the case system in extended sentences: systematic bounded genitive, dative and instrumental uses, quantity, governed objects and impersonal frames, with complete necessary lexical paradigms. All **55 original Cook III.13–15 prompts** are planned together. A connected passage from *The Day of Judgment* (Reader III, beginning Cook p.134 / PDF150) is under source audit; no boundary or new assignment is yet accepted.
+
+Root alone writes Beads and shared files. The source, grammar and curriculum agents exclusively own `sources/audits/unit10-source/`, `sources/audits/unit10-grammar/` and `curriculum/proposals/unit10/`. Reconcile their actual evidence in `curriculum/UNIT_10_BRIEF.md` and `chapters/ch10/coverage.json`, and checkpoint the contract before any learner/key prose. Preserve independent pre-key solving, separate authorship and every-page non-author inspection. Do not draft Unit 11.
+
+The immutable ignored `build/unit10-prior-baseline.json` captures **`bb598a1`**: all nine contracts, **400 lemmas, 5,770 forms, 455 senses and 365 constructions**, **1136 earlier active artifacts** and **134 archived files**. Do not overwrite it or rerun older merge helpers. Compact reading aids do not replace the actual records. The retained prior-state audit records file identities. The numbered crosswalk remains **194 assigned / 450 deferred** until the new contract explicitly resolves assignments. Earlier supplied/recognition material requires explicit teaching before promotion.
+
 ## Unit 9 complete
 
-The requested Unit 9 is complete; **Units 1–9** have reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`140e2bd`**. The main [README](../README.md), [source/course indexes](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 9. Do not draft Unit 10 without a new request.
+The requested Unit 9 is complete; **Units 1–9** have reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`140e2bd`**. The main [README](../README.md), [source/course indexes](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 9. The new Unit 10 request is active as described above.
 
 The [contract](../chapters/ch09/coverage.json) preceded prose at **`aafd2a1`**; complete drafts were saved at **`c45cc58`**. All 97 [pre-key solutions](../chapters/ch09/independent-solutions.md) were frozen at **`72a5b2d`**, before private model/key access under the retained [protocol](../chapters/ch09/review-protocol.json). The reviewer authored neither master nor graded task and discloses prior grammar/public-composition work. [Review](../chapters/ch09/review.md) and its [ledger](../chapters/ch09/review-ledger.json) accept all tasks, 87 paradigms / 876 literal-or-derived cells, rules, lexical scope, sources and dependencies. Accepted text was saved at **`7f81e43`**. Verified amendment U09-AMEND-01 corrects source token 21 to nominative in all canonical dependencies while preserving the sealed proposal annotation; it changes no master text or teaching scope. No material finding remains open; the frozen witness was not silently rewritten.
 
