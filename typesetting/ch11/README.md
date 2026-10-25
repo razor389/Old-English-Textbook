@@ -40,4 +40,4 @@ From the repository root, `python -X utf8 scripts/check_unit11.py --draft --tex`
 
 Build products and export-page images are ignored; inspected identities remain in the ledgers. Source evidence images remain tracked. One-use helpers in ignored build directories are not required generators; rerunning assembly can discard reviewed repairs. Rebuilt PDF metadata can differ, so replace retained PDFs only after full parity and page review.
 
-Checkpoints: contract **`a9c6ce5`**, complete drafts **`730dffe`**, pre-key solutions **`f2b3974`**, accepted text **`460b825`**. The [handoff](../../docs/HANDOFF.md) records complete exports, register integration and final closure.
+Checkpoints: contract **`a9c6ce5`**, complete drafts **`730dffe`**, pre-key solutions **`f2b3974`**, accepted text **`460b825`**. Complete exports and reviewed registers are saved at **`b096aca`**. The [handoff](../../docs/HANDOFF.md) records final closure.

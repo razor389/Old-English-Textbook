@@ -1,6 +1,6 @@
 # Handoff to the next session
 
-The requested Unit 11 is complete. **Units 1–11** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are included in this local completion checkpoint. The main [README](../README.md), [course/source indexes](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 11. Unit 12 has not been drafted.
+The requested Unit 11 is complete. **Units 1–11** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`b096aca`**. The main [README](../README.md), [course/source indexes](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 11. Unit 12 has not been drafted.
 
 ## Unit 11 evidence and review
 
@@ -38,7 +38,7 @@ The canonical crosswalk is **295 assigned / 349 deferred / none excluded**, tota
 | 8 | 8751984 | 72ee930 | d36f134 | cb687a9 | 30 / 24 |
 | 9 | aafd2a1 | 7f81e43 | 140e2bd | bb598a1 | 44 / 26 |
 | 10 | 86e073f | 08ed659 | 126e927 | fdddbe6 | 40 / 29 |
-| 11 | a9c6ce5 | 460b825 | This completion checkpoint | This handoff checkpoint | 42 / 31 |
+| 11 | a9c6ce5 | 460b825 | b096aca | This handoff checkpoint | 42 / 31 |
 
 ## Resuming and reproducing
 

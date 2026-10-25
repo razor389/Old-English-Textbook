@@ -1,6 +1,6 @@
 # Status
 
-Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–11 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are included in this local completion checkpoint. Unit 12 has not been drafted.
+Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–11 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`b096aca`**. Unit 12 has not been drafted.
 
 ## Completed Unit 11
 
@@ -30,7 +30,7 @@ The [learner PDF](typesetting/ch11/chapter-11.pdf) has **42 pages**, the [key](t
 | [8](typesetting/ch08/README.md) | Questions and relative clauses | 30 / 24 | d36f134 |
 | [9](typesetting/ch09/README.md) | Complements and reported content | 44 / 26 | 140e2bd |
 | [10](typesetting/ch10/README.md) | The case system in extended sentences | 40 / 29 | 126e927 |
-| [11](typesetting/ch11/README.md) | Adverbial clauses | 42 / 31 | This completion checkpoint |
+| [11](typesetting/ch11/README.md) | Adverbial clauses | 42 / 31 | b096aca |
 
 Every unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent review, complete TeX/PDFs and page ledger. Earlier artifacts and the archived experiment remain unchanged.
 
