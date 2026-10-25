@@ -2,6 +2,8 @@
 
 Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–11 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`b096aca`**. Unit 12 has not been drafted.
 
+Unit 12 is in parallel source, grammar and curriculum analysis under `oec-u12`. Its planned scope is tense, sequence and voice, all 38 Cook VI.19–21 prompts, and a connected Picts and Scots excerpt. The actual eleven-unit baseline is preserved at `74da7bb`; the contract must be reconciled and checkpointed before prose.
+
 ## Completed Unit 11
 
 The [brief](curriculum/UNIT_11_BRIEF.md) and [contract](chapters/ch11/coverage.json) cover temporal, causal, purpose, result, concessive and selected conditional clauses, with contextual mood choices and explicit lexical frames. There are **92 tasks**, including **all 46 Cook IV.16–17/V.18 prompts**, fourteen translated examples and **61 complete defined systems / 826 cells**. Thirty-eight matrices and 38 diagnostic rows give 486 literal cells and 340 explicit model derivations. New exceptional patterns are printed in full.
