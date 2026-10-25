@@ -1,10 +1,10 @@
 # Unit 11 independent review
 
-**Accepted before export.** The identified learner master, separate key and substantive contract pass this review after U11-AMEND-02 and U11-AMEND-03. There are no open material findings. Exported-page inspection and final integration remain separate completion gates.
+**Accepted before export.** The identified learner master, separate key and substantive contract pass this review after U11-AMEND-02, U11-AMEND-03 and the bounded caption supplement U11-AMEND-04. There are no open material findings. Exported-page inspection and final integration remain separate completion gates.
 
 Reviewer: `unit11_grammar`, 2026-10-25. I previously prepared the public grammar audit and inspected the public examples and original reading; I authored neither master nor any graded task. Before opening the key, private models or the parallel review, I solved all 92 actual learner tasks. The complete witness was saved at Git `f2b3974`, after drafts checkpoint `730dffe` and contract-before-prose checkpoint `a9c6ce5`. The coordinator then explicitly unlocked comparison. The witness is unchanged.
 
-The exact acceptance identities and individual findings are in [review-ledger.json](review-ledger.json). The accepted learner SHA256 is `4d3087af7476838fe2bbc507e3f41617d2f206acf39fb9f1589ded828c0ee637`; the raw key SHA256 is `58deca76e747c542b3b265a5305e181d01ed7f7df22ed02a1a2c49ba6edc15e4`. The frozen witness SHA256 remains `d5f5027e6673cee84603c77dc45dc85447aeb9c1a88db365612343ee3dda0fe0`. The ledger separately records raw and normalized-LF hashes, including those of the parallel report.
+The exact acceptance identities and individual findings are in [review-ledger.json](review-ledger.json). The current accepted learner SHA256 is `a4e7e40f168e085e723f5ea188d50284c2d834bea1e0a85aee5bf5c4a1d81918`; the raw key SHA256 is `58deca76e747c542b3b265a5305e181d01ed7f7df22ed02a1a2c49ba6edc15e4`. The frozen witness SHA256 remains `d5f5027e6673cee84603c77dc45dc85447aeb9c1a88db365612343ee3dda0fe0`. The ledger separately records raw and normalized-LF hashes, including those of the parallel report.
 
 ## Tasks, meanings and support
 
@@ -38,3 +38,9 @@ The seven new finite systems are explicitly complete present/preterite indicativ
 Other differences concern defensible word order, ellipsis, temporal-conjunction choice or English rendering. In particular, the key's repeated cymð versus my ellipsis in IV.16.12, postposed versus preposed genitive in IV.17.12, and ðā-hwīle-ðe versus mid-ðȳ in V.18.8 preserve the intended relations. The key properly allows contextual alternatives in the original account without pretending that pronoun morphology alone fixes an antecedent.
 
 This acceptance covers the exact texts and substantive contract identified in the ledger. The coordinator must still finish LuaLaTeX exports, inspect every exported page and special character, integrate registers and status, close Beads work, and save the final recoverable revision.
+
+## Bounded caption supplement: U11-AMEND-04
+
+Page proof identified that the strong/weak titles of eleven seven-column adjective matrices were present only in hidden markers and the contract. I checked the eleven newly visible bold captions against the canonical matrix titles and the previously reviewed headers and cells. Each caption immediately precedes its matching table marker. Removing precisely those eleven caption paragraphs reproduces the earlier accepted learner bytes and SHA256 `4d3087af7476838fe2bbc507e3f41617d2f206acf39fb9f1589ded828c0ee637` exactly. Every previous paragraph, table cell, task and reading is therefore unchanged; the separate key and frozen witness are also byte-identical. The substantive contract projection remains unchanged.
+
+The ledger preserves the original acceptance at `8c21a9a`, its artifact/report identities and the earlier detailed records, then binds this bounded supplement to the current learner identity. Original detailed line locators describe the earlier identity; the supplement records current caption locations. Final rendered-page acceptance remains separate.

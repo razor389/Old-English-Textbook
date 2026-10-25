@@ -570,6 +570,8 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 
 <!-- teaching: NEW-U11-ADJ-HAT-STRONG -->
 
+**hāt — strong**
+
 <!-- table: NEW-U11-ADJ-HAT-STRONG -->
 
 | Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
@@ -581,6 +583,8 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 | Instrumental | hāte | as dative | hāte | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-HAT-WEAK -->
+
+**hāt — weak**
 
 <!-- table: NEW-U11-ADJ-HAT-WEAK -->
 
@@ -614,6 +618,8 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 
 <!-- teaching: NEW-U11-ADJ-BLAEC-STRONG -->
 
+**blæc — strong**
+
 <!-- table: NEW-U11-ADJ-BLAEC-STRONG -->
 
 | Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
@@ -625,6 +631,8 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 | Instrumental | blace | as dative | blace | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-BLAEC-WEAK -->
+
+**blæc — weak**
 
 <!-- table: NEW-U11-ADJ-BLAEC-WEAK -->
 
@@ -644,6 +652,8 @@ Thus strong masculine accusative blæcne retains æ before -ne; weak masculine n
 
 <!-- teaching: NEW-U11-ADJ-FAEGER-STRONG -->
 
+**fæger — strong**
+
 <!-- table: NEW-U11-ADJ-FAEGER-STRONG -->
 
 | Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
@@ -655,6 +665,8 @@ Thus strong masculine accusative blæcne retains æ before -ne; weak masculine n
 | Instrumental | fægere | as dative | fægere | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-FAEGER-WEAK -->
+
+**fæger — weak**
 
 <!-- table: NEW-U11-ADJ-FAEGER-WEAK -->
 
@@ -690,6 +702,8 @@ Cook also allows internal-vowel loss in such disyllabic adjectives, and occasion
 
 <!-- teaching: NEW-U11-ADJ-SMYLTE-STRONG -->
 
+**smylte — strong**
+
 <!-- table: NEW-U11-ADJ-SMYLTE-STRONG -->
 
 | Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
@@ -701,6 +715,8 @@ Cook also allows internal-vowel loss in such disyllabic adjectives, and occasion
 | Instrumental | smylte | as dative | smylte | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-SMYLTE-WEAK -->
+
+**smylte — weak**
 
 <!-- table: NEW-U11-ADJ-SMYLTE-WEAK -->
 
@@ -718,6 +734,8 @@ Cook also allows internal-vowel loss in such disyllabic adjectives, and occasion
 
 <!-- teaching: NEW-U11-ADJ-STILLE-STRONG -->
 
+**stille — strong**
+
 <!-- table: NEW-U11-ADJ-STILLE-STRONG -->
 
 | Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
@@ -729,6 +747,8 @@ Cook also allows internal-vowel loss in such disyllabic adjectives, and occasion
 | Instrumental | stille | as dative | stille | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-STILLE-WEAK -->
+
+**stille — weak**
 
 <!-- table: NEW-U11-ADJ-STILLE-WEAK -->
 
@@ -751,6 +771,8 @@ The literal stille tables show why substituting still- mechanically into smylte 
 Attach the weak endings to the comparative stem. Before genitive plural -ra, the resulting -ðrr- group simplifies to -ðr-: **dēorwierðra**. Thus masculine nominative singular and genitive plural happen to share a spelling. The instrumental row merely refers to the dative forms.
 
 <!-- teaching: NEW-U11-ADJ-DEORWIERTH-COMP-WEAK -->
+
+**dēorwierðra — weak**
 
 <!-- table: NEW-U11-ADJ-DEORWIERTH-COMP-WEAK -->
 
