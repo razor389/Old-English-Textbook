@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "status": "passed_source_audit_checks",
+  "counts": {
+    "cook_items": 38,
+    "cook_items_by_exercise": {
+      "19": 17,
+      "20": 9,
+      "21": 12
+    },
+    "private_cook_model_tokens": 322,
+    "reading_words": 155,
+    "reading_paragraphs": 2,
+    "retained_original_notes": 21,
+    "reading_help_groups": 16,
+    "cook_local_help_groups": 11,
+    "nominal_adjective_paradigms": 36,
+    "nominal_adjective_cells": 540,
+    "source_lemma_proposals": 90,
+    "source_form_proposals": 598,
+    "source_sense_proposals": 90,
+    "evidence_records": 104,
+    "public_teaching_examples": 12,
+    "new_account_words": 53,
+    "original_tasks": 38
+  },
+  "checks": [
+    "All38 exact source prompts align one-to-one with public dependencies and separately private corrected models.",
+    "Every corrected model word has an exact ordered form/sense binding; no recognition-only production.",
+    "Every supplied Cook form/sense has task-specific visible help.",
+    "All155 reading words match exact source surfaces and have sense/form identities.",
+    "All supplied reading form/sense records have visible local support.",
+    "Complete36 noun/adjective paradigms have540 unique-in-paradigm cells; each cell agrees with lexical inventory.",
+    "Directly inspected primary image hashes are unchanged.",
+    "New source-namespace evidence references resolve.",
+    "Original12 teaching examples,38 task prompts and53-word composition independently inspected; exact input words exist in prior/new inventories.",
+    "Exercise20.6 repaired: both hortatives use prior gewyrcean + accusative object, with separately taught ābūtan + accusative; the narrower dōn + on-goal frame is not extended. The unchanged20-word model has exact public/private form and sense agreement; all other37 items and both original witnesses remain unchanged.",
+    "Exercise21.10 scope repaired: its single swā uses new swa-predicative-as and u12-swa-predicative-comparison from checked BT evidence; no finite-clause or two-token degree construction is inferred. Model text, all prompts and the other37 item bindings are unchanged.",
+    "Exercise21.5 lexical roles repaired: first swā is swa-equative-degree and second swā is swa-equative-standard, both newly productive under the existing u12-equative-swa-swa construction. Model text, all prompts and the other37 item bindings are unchanged."
+  ],
+  "independence_limit": {
+    "task_id": "EX-VI-21-04",
+    "status": "limited_pre_exposure_requires_fresh_blind_review",
+    "description": "During a negation/frame discussion the source editor sent the reserved grammar reviewer one full proposed21.4 clause. The reviewer disclosed the exposure to the coordinator. No private witness files or other model answers were shared with that reviewer. The coordinator will obtain a fresh reviewer’s blind21.4 solution after drafting; the original reserved reviewer is not treated as fully blind on this item."
+  },
+  "unresolved_source_dependencies": [],
+  "completion_limit": "This seals source evidence and dependency preparation only. It does not certify a learner draft, answer key, independent full review, exports or completion of Unit12.",
+  "source_repairs": [
+    {
+      "repair_id": "U12-SRC-REPAIR-20-06",
+      "task_id": "EX-VI-20-06",
+      "status": "validated",
+      "description": "Replaced the second hortative dōn with gewyrcen to stay within the actually taught accusative build-object frame. Removed don-put, don-present-subj-1-pl and u11-don-placement from this item; added prior u02-direct-object. No prompt or independent witness changed."
+    },
+    {
+      "repair_id": "U12-SRC-REPAIR-21-10",
+      "task_id": "EX-VI-21-10",
+      "status": "validated",
+      "description": "Rebound the single swā token to swa-predicative-as and replaced u12-equative-swa-swa with u12-swa-predicative-comparison. Exact private/public form and sense sets agree; model text and original prompt are unchanged."
+    },
+    {
+      "repair_id": "U12-SRC-REPAIR-21-05",
+      "task_id": "EX-VI-21-05",
+      "status": "validated",
+      "description": "Rebound the first and second swā tokens to the explicit degree and standard senses, replacing the stale finite-comparison sense requirement. Exact private/public form and sense sets agree; model text and original prompt are unchanged."
+    }
+  ]
+}

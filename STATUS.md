@@ -2,7 +2,7 @@
 
 Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–11 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`b096aca`**. Unit 12 has not been drafted.
 
-Unit 12 is in parallel source, grammar and curriculum analysis under `oec-u12`. Its planned scope is tense, sequence and voice, all 38 Cook VI.19–21 prompts, and a connected Picts and Scots excerpt. The actual eleven-unit baseline is preserved at `74da7bb`; the contract must be reconciled and checkpointed before prose.
+Unit 12's source, grammar and curriculum audits are reconciled under `oec-u12`. Its [contract](chapters/ch12/coverage.json) covers tense, sequence and voice, all 38 Cook VI.19–21 prompts, 38 original tasks, 62 complete defined systems / 692 cells, and twelve separately counted construction positions. A 53-word new narrative precedes the exact 155-word Picts and Scots extract with all 21 attached notes. Contract and preservation checks pass against the eleven-unit baseline `74da7bb`; a local checkpoint precedes learner/key authorship. Independent text review, complete exports and register integration remain pending.
 
 ## Completed Unit 11
 

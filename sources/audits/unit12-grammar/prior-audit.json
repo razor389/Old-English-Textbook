@@ -1,0 +1,1720 @@
+{
+  "chapter": "ch12",
+  "status": "all_actual_prior_contracts_and_registers_read",
+  "baseline_checkpoint": "74da7bb",
+  "counts": {
+    "contracts": 11,
+    "lemmas": 560,
+    "forms": 7481,
+    "senses": 663,
+    "features": 507
+  },
+  "sources_read": [
+    {
+      "path": "sources/registry.json",
+      "sha256": "92333cb448041ebe5556d647a8d756cbf89393db8697574452884bafb194ed51"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "decde3cf667e770e0ab5193277ce39d411c51feddaeae2fbf309be1910c1ab45"
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "sha256": "2e7274639256c3772fdb3d728bdbd13505607d5f934ca769742daf54fa146f49"
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "d829e1e239a8e8452ca99bf8354db29d02f1e640941bfec5fbed647dd6577b27"
+    },
+    {
+      "path": "chapters/ch02/coverage.json",
+      "sha256": "cf13e0c96ae80fcec8ff5f10a567715913d54f27ce11c94a44f683b1a9012fa6"
+    },
+    {
+      "path": "chapters/ch03/coverage.json",
+      "sha256": "0d78e024da44545d9949800a16a3e5deefe0e24e7f34fc4ef2682ce90e958703"
+    },
+    {
+      "path": "chapters/ch04/coverage.json",
+      "sha256": "9d900715219de8acdb1f64ebe3590888781cf95102ee9ae877e088fdf663fd5e"
+    },
+    {
+      "path": "chapters/ch05/coverage.json",
+      "sha256": "0e37b344c6c640467741c01aee1a22fd2da569c7a202f1c3eb5e894ad6825fe6"
+    },
+    {
+      "path": "chapters/ch06/coverage.json",
+      "sha256": "21e027256da1a12248f9780e643dc9612ade0f1de05c785dccaee5e3c993264a"
+    },
+    {
+      "path": "chapters/ch07/coverage.json",
+      "sha256": "4f93f053b051c6b6a6a509c03af2afe6ce57ca436f6957100a052bc314c345fe"
+    },
+    {
+      "path": "chapters/ch08/coverage.json",
+      "sha256": "e9b4cbd48aef934e0e71d6ff02f94b87926b7f8dfdee133e7ab2bf68280c41d0"
+    },
+    {
+      "path": "chapters/ch09/coverage.json",
+      "sha256": "cf5ed7d913db34ec47e14b9f998f64dcdbce40176a33bfcfdc713d913414339a"
+    },
+    {
+      "path": "chapters/ch10/coverage.json",
+      "sha256": "d7a2eab333238bcc687244b4fe973c2b8ea70e312a0448c4ae37bbfae70460c1"
+    },
+    {
+      "path": "chapters/ch11/coverage.json",
+      "sha256": "0fa47cc44cafd40d34f81aea3819e89abd53a57d0686e84e7a14889edda6473c"
+    }
+  ],
+  "contract_scope": {
+    "ch01": {
+      "status": "reviewed_complete",
+      "productive_outcomes": [
+        "Use the assigned lexical gender; do not infer it from English or from a bare nominative ending alone.",
+        "Coordinate nominal phrases with and; each article agrees with its own head.",
+        "Strong masculine consonant stems: complete N/G/D/A singular and plural; assign only the listed lexical senses.",
+        "Strong masculine -e: replace the nominative -e appropriately; no invented mętees.",
+        "Complete dæg and hwæl patterns, with æ in singular and a in plural; do not extend to clusters such as wæstm.",
+        "Complete selected fugol and morgen patterns; loss of medial vowel with endings and lexical diagnostic forms. Source variants remain valid.",
+        "Complete hof and sǣd patterns; short-stem monosyllabic neuter N/A plural -u versus heavy-stem zero; explain geminates and clusters.",
+        "Complete trēo paradigm with w before endings and selected exceptional N/A plural trēowu.",
+        "Complete selected ǣfen, tācen, wæter, nīeten patterns; retain or syncopate medial vowel as documented, not by an unrestricted weight rule.",
+        "Complete long-stem strong feminine pattern; selected N/A plural -a, with source -e variants noted separately.",
+        "Complete selected tīd and wyrt patterns; endingless accusative singular despite ordinary -e feminine obliques.",
+        "Complete -nes pattern; -ness- in obliques/plural, retaining e; apply to each listed diagnostic stem.",
+        "Complete selected -ung/-ing feminine pattern, productive -e singular obliques; source -a variants separately noted.",
+        "Complete weak masculine steorra and weak feminine eorðe patterns; contrast all singular/plural cases.",
+        "Complete mann: męnn dative singular and nominative/accusative plural; other selected cases as listed.",
+        "Complete selected niht paradigm, including genitive singular niht and endingless nominative/accusative plural.",
+        "Complete selected sea table, with productive attested cells and explicitly supplied reconstructed genitive plural *sǣwa.",
+        "Complete selected plural-only darkness paradigm; no singular invented.",
+        "Produce the selected article forms agreeing with their own noun in gender, number and nominative/genitive/dative/accusative case.",
+        "Produce every person/number cell of the present eom/eart/is/sindon and preterite wæs/wǣre/wæs/wǣron indicative series.",
+        "Finite subjects and noun predicates identifying the subject are nominative; ordinary bare noun predicates need no translated indefinite article.",
+        "Use the copula's appropriate number/person in the taught ordinary clauses.",
+        "Produce limiting relational genitives. Follow Cook's exercise target: dependent first, head noun without its own article; retain the dependent's required article.",
+        "Select accusative direct-object noun/article forms in explicitly supplied transitive finite-verb frames.",
+        "Use taught locative on with dative ('in/on'); this is a selected construction, not a universal spatial rule.",
+        "Use fram plus dative for the entity from which something is separated, in an explicitly supplied separating frame.",
+        "Preserve the head's externally governed case while its own limiting dependent remains genitive; the genitive article belongs to that dependent.",
+        "Use a dative recipient and accusative thing given in the explicitly supplied sealde frame; distinguish to/for-recipient from the direct object."
+      ],
+      "recognition_outcomes": [
+        "Recognize æ, interchangeable manuscript þ/ð, Cook's preference for ð, his hooked ę, and quantity marks; preserve exact printed quantities.",
+        "Distinguish long vowels/diphthongs from syllable weight due to two consonants or a geminate; apply only the stated noun-pattern domains.",
+        "Identical spellings may occupy different case/number cells; determine syntactic role from construction and agreement.",
+        "Recognize distinct instrumental masculine/neuter singular ðȳ and ðon as reference cells; no productive instrumental syntax.",
+        "Recognize that the opening On anginne gescēop God places the subject after the verb; parse by construction and forms, not English order alone."
+      ],
+      "bounded_scope": {
+        "source_nouns": 43,
+        "added_productive_noun": "hof",
+        "total_noun_lemmas": 44,
+        "full_case_cells": true,
+        "source_tasks": 46,
+        "added_tasks": 38,
+        "guided_reading_tasks": 8,
+        "productive_scope": "All chosen noun cells marked new_production, article N/G/D/A, bounded copula indicative, listed lexical senses and ordinary constructions.",
+        "mass_abstract_unused_plurals": "Formal morphology recognized; no new contextual plural-sense claim or independent production.",
+        "proper_God": "Singular proper-name sense only.",
+        "darkness": "Plural only; no singular assigned.",
+        "sea_genitive_plural": "Supplied starred reconstruction with null recognition/production milestones.",
+        "variants": "Source/key variants remain nonassigned notes unless a form record explicitly assigns status."
+      },
+      "amendments": [
+        {
+          "date": "2026-10-22",
+          "stage": "integration before independent learner review",
+          "change": "EXAMPLE06 provenance corrected to declared adaptation; no linguistic or scope change",
+          "affected_ids": [
+            "CH01-EXAMPLE06"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "stage": "authoring presentation",
+          "change": "Consolidated repeated directions for new tasks; exact Cook prompts unchanged; no dependency or scope change",
+          "affected_ids": [
+            "CH01-COP01",
+            "CH01-COP02",
+            "CH01-COP03",
+            "CH01-COP04",
+            "CH01-COP05",
+            "CH01-COP06",
+            "CH01-CASE01",
+            "CH01-CASE02",
+            "CH01-CASE03",
+            "CH01-CASE04",
+            "CH01-CASE05",
+            "CH01-CASE06",
+            "CH01-CASE07",
+            "CH01-CASE08",
+            "CH01-COMP01",
+            "CH01-COMP02",
+            "CH01-COMP03",
+            "CH01-COMP04",
+            "CH01-COMP05",
+            "CH01-COMP06",
+            "CH01-COMP07",
+            "CH01-COMP08"
+          ]
+        },
+        {
+          "date": "2026-10-22",
+          "stage": "linguistic review",
+          "finding_id": "ROOT-R01",
+          "change": "REVIEW03 now supplies singular English context; key explicitly distinguishes syntactic accusative from contextually determined number",
+          "affected_ids": [
+            "CH01-REVIEW03",
+            "KEY-CH01-REVIEW03"
+          ]
+        }
+      ]
+    },
+    "ch02": {
+      "status": "complete_reviewed",
+      "productive_outcomes": [
+        "Use complete personal N/D/A and third-person G forms, including duals and contextually justified reference.",
+        "Produce the complete present/preterite indicative morphology of22 affirmative weak verbs within separately stated lexical and syntactic scopes.",
+        "Compose affirmative and simple negative active clauses with taught subjects, accusative objects, giving recipients, invariant third-person possessors, reflexive resting and bounded direct quotation.",
+        "Read the two new connected texts using taught material and the exact Sabbath paragraph using its printed local supports."
+      ],
+      "recognition_outcomes": [
+        "Recognize six first-/second-person personal genitives without assuming possessive-adjective inflection.",
+        "Recognize the complete12-cell nabban indicative companion.",
+        "Identify supplied infinitive/participle citations without independent recall or nonfinite syntax."
+      ],
+      "bounded_scope": [
+        "Morphology-only diagnostic lemmas acquire no arbitrary object/complement syntax.",
+        "First/second genitives and nabban are recognition, not independent recall.",
+        "Nonfinite citations/source constructions marked supplied create no milestones.",
+        "Source variants are valid alternatives without assigned recall milestones.",
+        "No source numbered Cook exercise is assigned by this audit.",
+        "Full12 finite cells are stored even when a learner table combines allplural persons and past1/3sg. Dual pronoun subjects use corresponding plural verb forms; no separate dual finite endings are invented.",
+        "Selected forms are a coherent bounded target, not a claim that unselected source variants are erroneous.",
+        "First/second-person genitives are recognition-only; mīn/ðīn/ūre/ēower/uncer/incer as agreeing possessive adjectives and sīn/self are deferred.",
+        "his/hiere/hiera are invariant possessives; possessive choice follows possessor, not possessed noun gender/number/case.",
+        "Simple productive negation uses ne with noncontracting weak verbs. nabban companion is recognition-only; copula contractions not taught. Source allows ne hæbbe as well as næbbe, etc.",
+        "Morphology does not grant new government/complement frames. īecan, gierwan, ęfnan, hycgan diagnostic paradigms can be practised as isolated form selection; ēhtan is an unassigned source comparison, with no new government rule assigned.",
+        "No passive/perfect/infinitive/subjunctive/imperative mastery follows from principal-part citations or reading support.",
+        "Prefixed reading verbs are separately checked lexemes; no general ge- aspect or sense rule."
+      ],
+      "amendments": [
+        {
+          "date": "2026-10-22",
+          "id": "U02-META-01",
+          "kind": "metadata_only",
+          "description": "Record saved pre-prose checkpoint and canonical LF hashes alongside raw CRLF worktree hashes. No source words, assignments, teaching scope or task prompts change."
+        },
+        {
+          "id": "U02-SCOPE-SUMMARY-01",
+          "date": "2026-10-22",
+          "kind": "existing_scope_summary_clarification",
+          "description": "Add cyssan and lǣdan to u02-direct-object enumeration. Their original contracted lemma scope_notes already expressly license an accusative person, and learner vocabulary states exactly that. No new construction, task, form, sense or evidence is introduced."
+        },
+        {
+          "id": "U02-CITE-01",
+          "date": "2026-10-22",
+          "kind": "citation_clarification",
+          "description": "Explicit page/PDF locator for Cook §96 in learner note3. No assignment, linguistic text, prompt or learning-scope change. Independent solve preserved at original learner hash; reviewer rechecked amended source note."
+        }
+      ]
+    },
+    "ch03": {
+      "status": "complete_reviewed",
+      "productive_outcomes": [
+        "Use the complete strong/weak adjective NGDA systems and selected stem changes in ordinary attributive and predicate agreement.",
+        "Use six agreeing possessives, distinguishing possessor reference from the gender, number and case of the possessed noun.",
+        "Form and use six comparison series, selected adverb degrees, and bounded copular comparisons with a nominative standard after ðonne.",
+        "Use one through twelve in their stated count-noun frames, first through seventh as ordinals, and this/that demonstratives.",
+        "Complete Cook I.4.1–17 and original graded tasks, read the controlled account independently, and interpret the complete fourth-day source with its explicit local support."
+      ],
+      "recognition_outcomes": [
+        "Identify displayed distinct instrumental forms without productive instrumental syntax.",
+        "Recognize plural ān morphology without a plural-count-one meaning.",
+        "Recognize the strong-only eall reference paradigm without productive quantifier syntax."
+      ],
+      "bounded_scope": [
+        "Instrumental cells and plural ān are recognition/reference; they do not establish instrumental syntax or cardinal-one plural meaning.",
+        "Ordinary adjectives after possessives admit strong and sometimes weak; no universal possessive→weak rule.",
+        "Complete forms do not imply substantival, partitive, adverbial, participial, temporal or clause syntax beyond explicit features.",
+        "No general prefix rule, subjunctive/imperative production, perfect/passive production, or expanded comparative clause syntax.",
+        "eall strong-only reference cells/sense are new recognition; no independent production or general quantifier syntax.",
+        "Source-only connective sōðlice remains supplied despite the newly productive adverb truly sharing its invariant spelling.",
+        "All unselected variants are valid source alternatives, with no automatic extra milestones.",
+        "Audit cell recommendations are inputs to the learning contract, not assignments or milestones. Existing supplied histories remain intact.",
+        "NGDA forms and ordinary agreement are productive only where contract assigns them. Instrumental cells remain recognition reference; means/manner/measure syntax is not taught.",
+        "Agreeing possessive lemmas are separate from personal genitives. Invariant his/hiere/hiera remain the Unit2 system. sīn/self/relative uses are deferred.",
+        "eall is a new-recognition morphology reference exception, with no production or independent all-quantifier syntax. ān plural is morphological recognition only; alone is not assigned.",
+        "Other Cook comparison families, defective spatial/time degrees, higher numerals/fractions, inflected substantive4–19, and advanced comparison standards are outside this bounded unit.",
+        "Connected source-reading subjunctives, strong preterites, perfect/resultative/purpose constructions and lexical prefixed verbs require the source editor’s explicit support; adjective tables do not teach them."
+      ],
+      "amendments": [
+        {
+          "kind": "nonmaterial_source_locator",
+          "finding": "U03-REV-01",
+          "change": "Learner source note82–83 extended to82–85; no teaching, task, form or key change.",
+          "independently_verified": true
+        },
+        {
+          "kind": "presentation_clarity",
+          "change": "Added Strong hēah and Weak hēah captions and corrected book-title emphasis; all linguistic content, tasks and readings unchanged.",
+          "independently_verified": true
+        }
+      ]
+    },
+    "ch04": {
+      "status": "complete_reviewed",
+      "productive_outcomes": [
+        "Use all present and preterite indicative cells of the 24 selected strong I–III verbs, with their vowel series, stem changes and lexical exceptions.",
+        "Interpret the four principal-part positions while retaining the nonfinite columns as supplied citations rather than productive syntax.",
+        "Use independently audited accusative, intransitive, dative-help and become-predicate frames, and explicitly extended simple ne negation.",
+        "Use complete scip, wind, strand and gefera noun paradigms in prior case/agreement constructions.",
+        "Complete 52 original graded tasks, interpret the controlled connected account independently, and read the exact Apollonius storm-to-shore episode with local support."
+      ],
+      "recognition_outcomes": [
+        "Recognize complete bregdan and feolan reference systems with their explicit evidence/derivation limits and no independent production requirement.",
+        "Distinguish selected forms from documented unselected alternatives, including first-person funde and third-person fand."
+      ],
+      "bounded_scope": [
+        "No numbered Cook set is assigned in Unit4.",
+        "Only reviewed Unit1–3 milestones count as prior teaching.",
+        "All nonfinite principal parts are supplied citations; no infinitive, participial, perfect/passive or new mood construction follows.",
+        "Eall keeps its prior recognition status; its source quantifier uses are supplied. Āna alone is a separate supplied sense and weak form.",
+        "Ordinary weorðan become is separate from prior supplied passive weorthan-1. The existing wearð form is explicitly promoted with its supplied history retained.",
+        "No directional on rule, instrumental transport, productive prefix semantics or unbounded lexical government. No change to reference-only *sǣwa.",
+        "The source him antecedent is a contextual guiding inference, not a morphologically unique graded fact."
+      ],
+      "grammar_audit_boundaries": {
+        "productive_finite_systems": 24,
+        "recognition_finite_systems": 2,
+        "finite_cells_total": 312,
+        "prior_forms_promoted": [
+          "weorthan-pret-3-sg"
+        ],
+        "new_sense_distinction": {
+          "weorthan-become": "ordinary become with explicitly taught nominative predicate",
+          "weorthan-1": "prior supplied passive auxiliary; unchanged"
+        },
+        "no_new_scope": [
+          "subjunctive",
+          "imperative",
+          "perfect",
+          "passive",
+          "independent infinitive syntax",
+          "participial syntax",
+          "preterite-present verbs",
+          "unbounded prefix meanings",
+          "untaught complements"
+        ]
+      },
+      "amendments": []
+    },
+    "ch05": {
+      "status": "complete_reviewed",
+      "productive_outcomes": [
+        "Use all present and preterite indicative cells of the29 selected IV–VII systems and the four separately introduced I–III lexical systems, with complete stem and ending rules.",
+        "Use the four principal-part positions to identify and form finite indicatives while retaining infinitive/participle entries as supplied citations.",
+        "Apply the independently audited ordinary lexical frames, including accusative objects, giving recipients, intransitive actions, geswīcan+genitive and the explicitly extended direct-quotation construction.",
+        "Complete all16 CookI.5 prompts and original graded practice using actual earlier nominal, adjectival, pronominal and weak-verb knowledge.",
+        "Read the controlled connected account independently; revisit the exact first-day source and interpret the complete second day with precise local support."
+      ],
+      "recognition_outcomes": [
+        "Distinguish finite morphology from the source-only wishes, passive/resultative, content, relative and naming constructions.",
+        "Distinguish selected course spellings and finite forms from valid documented alternatives and unassigned source catalogue examples."
+      ],
+      "bounded_scope": [
+        "No nonfinite syntax, mood, passive, perfect or auxiliary-system promotion from citation display.",
+        "No productive quantifier eall, reference instrumental, plural-cardinal-one or *sǣwa promotion.",
+        "Keep first-day source identity and original contract unchanged; the new encounter is an explicit revisit.",
+        "No new productive naming, relative/content/purpose clause or source-only preposition construction.",
+        "Prior actual milestones and supplied histories remain recoverable; no archived teaching milestone is imported."
+      ],
+      "grammar_audit_boundaries": {
+        "productive_finite_systems": 33,
+        "recognition_finite_systems": 0,
+        "finite_cells_total": 396,
+        "principal_part_entries": 132,
+        "prior_forms_promoted": [
+          "gescieppan-pret-3-sg",
+          "cwethan-pret-3-sg",
+          "geseon-pret-3-sg",
+          "hatan-pret-3-sg",
+          "geswican-pret-3-sg",
+          "cuman-pret-3-pl-source",
+          "standan-pret-3-sg-source"
+        ],
+        "new_sense_distinction": {
+          "standan-ordinary": "ordinary upright posture",
+          "standan-stand": "previous supplied opposition sense; no new government assigned"
+        },
+        "no_new_scope": [
+          "subjunctive",
+          "imperative",
+          "nonfinite recall",
+          "infinitive clauses",
+          "participle syntax",
+          "perfect",
+          "passive",
+          "hātte system",
+          "naming double-accusative production",
+          "unbounded complement frames",
+          "arbitrary prefix meanings"
+        ]
+      },
+      "amendments": []
+    },
+    "ch06": {
+      "status": "complete_reviewed",
+      "productive_outcomes": [
+        "Use the complete present/preterite indicative systems of seven selected preterite-present and three anomalous verbs, with their exact changes and bounded elementary uses.",
+        "Use the six alternative bēo present-indicative cells with an evidenced ordinary future-state use, retaining the earlier eom/wæs series and avoiding an absolute tense division.",
+        "Use complete singular/plural imperative pairs for selected lexical models covering weak I–III, strong I–VII and needed anomalous patterns, including important exceptions and simple negative commands.",
+        "Use the selected plain/inflected infinitive pairs in elementary modal/volitional complements and bounded purposive cuman+tō constructions, retaining each lexical government.",
+        "Distinguish knowledge of a matter from learned ability, modal sense from morphological tense, and volition from completed action; use new and prior material in meaningful connected practice.",
+        "Complete all72 original graded tasks, read the checked controlled dialogue independently, and interpret the exact fisherman excerpt with its explicitly bounded support."
+      ],
+      "recognition_outcomes": [
+        "Distinguish actual usable forms from uncertain or unattested modal citation labels; no regular modal imperative or inflected infinitive is invented.",
+        "Distinguish taught infinitive morphology from supplied availability, relative, content and participial constructions in the source.",
+        "Distinguish selected course forms from valid documented alternatives and unassigned additional lexical rows."
+      ],
+      "bounded_scope": [
+        "First/second personal genitives remain recognition-only; agreeing possessives are separate productive lemmas.",
+        "Instrumental forms, plural ān and eall remain recognition/reference; *sǣwa remains a supplied starred reconstruction without milestones.",
+        "Nabban, bregdan and fēolan remain at prior recognition scope; their presence in a prior table does not authorize productive new commands.",
+        "Diagnostic īecan, gierwan, ęfnan and hycgan lack arbitrary productive argument frames; use isolated form exercises unless a frame is expressly audited.",
+        "Hātan active indicative morphology does not teach hātte, infinitival causatives or double-accusative naming.",
+        "Beodan offer and lǣtan let do not automatically license command/causative complement frames; biddan ask needs an explicit new construction if used with an infinitive.",
+        "Prior source-only temporal/connective ðā, nū, ęft, swā, sōðlice, destination tō, motion on, mid and relative/content/purpose clauses remain supplied unless explicitly newly taught.",
+        "Simple ne negation extends only to newly audited systems; no negative copula, negative concord or every contracted negative form follows.",
+        "Participles, passive, subjunctive/optative wishes and unsupported subordinate moods remain supplied/deferred. Creation wishes must not be labelled imperative morphology.",
+        "No ge- or other prefix generalization; new prefixed lexemes need their own evidence.",
+        "I.4.18 and the birds candidate remain Unit7 deferrals; no earlier active or archived artifact is rewritten.",
+        "Only43 imperative-model lemma systems (44 rows with alternate bēon) and two additional infinitive-only skill verbs receive these new nonfinite/imperative milestones.",
+        "Finite indicative roster is ten complete12-cell systems plus alternate bēon6; no new modal imperative or defective modal infinitive is fabricated.",
+        "Existing plain-infinitive citation IDs are promoted only after same-lemma/same-surface/morphology identity checks; their old analysis and supplied/per-chapter histories remain explicit.",
+        "The new thing-matters sense is distinct from earlier thing-1; prior noun forms remain unchanged.",
+        "No numbered Cook set is assigned; existing79 assigned/565 deferred items, I.4.18 and birds deferments persist.",
+        "The source-local habban plus tō-inflected infinitive availability construction remains supplied as a whole, together with its clauses. The coordinator explicitly overrides the grammar audit’s new_recognition recommendation; no general recognition milestone or unaided recall target is added.",
+        "Ordinary intransitive cuman is explicitly new production in u06-cuman-intransitive. Earlier finite morphology did not teach this construction; it is required both in the connected account and before the selected same-subject purpose construction.",
+        "The grammar audit’s postposed-pronoun imperative variant is reference evidence only. Assigned commands omit the subject or use a preposed subject; no extra plural -e recall milestone is assigned."
+      ],
+      "grammar_audit_boundaries": [
+        {
+          "lemma_ids": [
+            "durran",
+            "sculan",
+            "magan",
+            "motan"
+          ],
+          "claim": "Infinitive-looking headwords are unattested citation labels, supported by Fulk§123 and partly flagged by Cook125. No inflected infinitive or imperative generated.",
+          "evidence_refs": [
+            "U06-PP",
+            "U06-FULK-DEFECTS"
+          ]
+        },
+        {
+          "lemma_ids": [
+            "willan"
+          ],
+          "claim": "No positive imperative assigned. Cook139 supplies only negative plural nellað/nyllað; do not invent singular will or pair will/willað.",
+          "evidence_refs": [
+            "U06-ANOM"
+          ]
+        },
+        {
+          "lemma_ids": [
+            "witan"
+          ],
+          "claim": "Cook §126/§198 and Wright §540 call wite (and Wright witaþ) imperative. Fulk §123 says preterite-presents have no formal imperative and use subjunctive substitutes. No regular modal imperative system is generated or assigned here; documented command substitutes are not denied.",
+          "status": "resolved: documented functional commands, deliberately unassigned",
+          "evidence_refs": [
+            "U06-PP",
+            "U06-FULK-DEFECTS",
+            "U06-WRIGHT-WITAN"
+          ]
+        },
+        {
+          "lemma_ids": [
+            "cunnan",
+            "thurfan"
+          ],
+          "claim": "No imperative in Cook130–131 or Fulk123; no complete imperative pair proposed. Attested uninflected citations do not license unattested modal imperative reconstruction.",
+          "evidence_refs": [
+            "U06-PP",
+            "U06-FULK-DEFECTS"
+          ]
+        }
+      ],
+      "amendments": [
+        {
+          "id": "U06-META-01",
+          "date": "2026-10-23",
+          "kind": "metadata_only",
+          "description": "Record saved pre-prose checkpoint 3bfc05e; no source, task, form or teaching change."
+        },
+        {
+          "amendment_id": "U06-REV-01",
+          "date": "2026-10-23",
+          "stage": "Independent comparison after frozen pre-key solutions f42beb0",
+          "kind": "New-material prompt clarification and key explanation repair",
+          "changes": [
+            {
+              "task_id": "NEW-U06-C06",
+              "original_prompt": "Rewrite the man’s first quoted commands, Cumað and helpað mē, as commands to one companion. Then put the first sentence of the narrative into the present, keeping the quotation itself unchanged.",
+              "revised_prompt": "Rewrite the man’s first quoted commands, Cumað and helpað mē, as commands to one companion. Separately, put the first sentence of the original narrative into the present, keeping its original quotation unchanged.",
+              "finding": "U06-RV-C6",
+              "reason": "Independent solver found two reasonable antecedents for unchanged quotation. Clarify two separate operations on the original text; intended Old English answers and dependencies are unchanged."
+            },
+            {
+              "task_id": "NEW-U06-X05",
+              "original_prompt": "Write four connected Old English sentences about a man and two companions: one past arrival with an explicitly stated purpose, one statement of willingness, one direct command addressed to both companions, and one completed past action. Use cuman, helpan, willan and beran, with mann, gefēra and męte and any needed taught articles or pronouns. Label the three new constructions.",
+              "revised_prompt": "Write four connected Old English sentences about a man and two companions: one past arrival with an explicitly stated purpose, one statement of willingness, one direct command addressed to both companions, and one completed past action. Use cuman, helpan, willan and beran, with mann, gefēra and męte and any needed taught articles, numerals or pronouns. Label the three new constructions.",
+              "finding": "U06-RV-X5",
+              "reason": "Explicitly permit taught numerals already present in the audited optional model. twegen-dat-m-pl is productive in ch03; no new form, sense, construction or composition is introduced."
+            }
+          ],
+          "key_explanation_repair": {
+            "task_id": "NEW-U06-X04",
+            "finding": "U06-RV-X4",
+            "decision": "Explain that gē selects second-plural agreement; the task stipulates statement use. An expressed subject can also occur with an imperative."
+          },
+          "evidence": [
+            "chapters/ch06/independent-solutions.md at f42beb0",
+            "twegen-dat-m-pl in actual ch03 reviewed register",
+            "Cook §198, p105/PDF121; taught imperative-use construction"
+          ],
+          "preserved": [
+            "All task/key IDs and counts",
+            "All numbered Cook dispositions and source wording",
+            "All306 verbal cells and prior teaching boundaries",
+            "All audited Old English models, examples and readings",
+            "Original pre-prose analysis inputs and original prompts above"
+          ],
+          "reviewer_recheck_required": true,
+          "reviewer_rechecked": true,
+          "independent_review_record": "chapters/ch06/review.md"
+        },
+        {
+          "amendment_id": "U06-REV-02",
+          "date": "2026-10-23",
+          "stage": "Independent contract review before register integration",
+          "finding": "U06-RV-HEADWORDS",
+          "reason": "ASCII lemma IDs and exposure status were mistakenly used as display headwords and word classes in new source-only metadata. Replace with image-checked selected-edition metadata; preserve exact source hyphens and quantity.",
+          "witness": {
+            "path": "chapters/ch06/reviews/source-headwords.json",
+            "sha256": "aecafc41ad98e3ff31b9652c57073b715ca648fda877ec8df2adc975efa04480",
+            "sha256_normalized_lf": "aecafc41ad98e3ff31b9652c57073b715ca648fda877ec8df2adc975efa04480"
+          },
+          "changes": [
+            {
+              "lemma_id": "sona",
+              "original_metadata": {
+                "lemma_id": "sona",
+                "display_headword": "sona",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "sona",
+                "display_headword": "sōna",
+                "part_of_speech": "adverb",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-sona"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "sona",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "fiscere",
+              "original_metadata": {
+                "lemma_id": "fiscere",
+                "display_headword": "fiscere",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "fiscere",
+                "display_headword": "fiscere",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "masculine",
+                "metadata_evidence_refs": [
+                  "U06-HW-fiscere"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "fiscere",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "masculine"
+                ],
+                "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference."
+              }
+            },
+            {
+              "lemma_id": "geong",
+              "original_metadata": {
+                "lemma_id": "geong",
+                "display_headword": "geong",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "geong",
+                "display_headword": "geong",
+                "part_of_speech": "adjective",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-geong"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "geong",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "aet",
+              "original_metadata": {
+                "lemma_id": "aet",
+                "display_headword": "aet",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "aet",
+                "display_headword": "æt",
+                "part_of_speech": "preposition",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-aet"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "aet",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "fot",
+              "original_metadata": {
+                "lemma_id": "fot",
+                "display_headword": "fot",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "fot",
+                "display_headword": "fōt",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "masculine",
+                "metadata_evidence_refs": [
+                  "U06-HW-fot"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "fot",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "masculine"
+                ],
+                "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference."
+              }
+            },
+            {
+              "lemma_id": "mildheortnes",
+              "original_metadata": {
+                "lemma_id": "mildheortnes",
+                "display_headword": "mildheortnes",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "mildheortnes",
+                "display_headword": "mild-heortnes",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "feminine",
+                "metadata_evidence_refs": [
+                  "U06-HW-mildheortnes"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "mildheortnes",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "feminine"
+                ],
+                "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference."
+              }
+            },
+            {
+              "lemma_id": "up-ahebban",
+              "original_metadata": {
+                "lemma_id": "up-ahebban",
+                "display_headword": "up-ahebban",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "up-ahebban",
+                "display_headword": "ūp-ā-hębban",
+                "part_of_speech": "verb",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-up-ahebban"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "up-ahebban",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "hus",
+              "original_metadata": {
+                "lemma_id": "hus",
+                "display_headword": "hus",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "hus",
+                "display_headword": "hūs",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "neuter",
+                "metadata_evidence_refs": [
+                  "U06-HW-hus"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "hus",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "neuter"
+                ],
+                "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference."
+              }
+            },
+            {
+              "lemma_id": "est",
+              "original_metadata": {
+                "lemma_id": "est",
+                "display_headword": "est",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "est",
+                "display_headword": "ēst",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "masculine",
+                "metadata_evidence_refs": [
+                  "U06-HW-est"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "est",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "feminine",
+                  "masculine"
+                ],
+                "gender_scope": "Selected masculine provisions occurrence; the source also records feminine classification."
+              }
+            },
+            {
+              "lemma_id": "beforan",
+              "original_metadata": {
+                "lemma_id": "beforan",
+                "display_headword": "beforan",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "beforan",
+                "display_headword": "be-foran",
+                "part_of_speech": "preposition",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-beforan"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "beforan",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "lecgean",
+              "original_metadata": {
+                "lemma_id": "lecgean",
+                "display_headword": "lecgean",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "lecgean",
+                "display_headword": "lęcgean",
+                "part_of_speech": "verb",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-lecgean"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "lecgean",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "giet",
+              "original_metadata": {
+                "lemma_id": "giet",
+                "display_headword": "giet",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "giet",
+                "display_headword": "gīet",
+                "part_of_speech": "adverb",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-giet"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "giet",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "be",
+              "original_metadata": {
+                "lemma_id": "be",
+                "display_headword": "be",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "be",
+                "display_headword": "be",
+                "part_of_speech": "preposition",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-be"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "be",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "miht",
+              "original_metadata": {
+                "lemma_id": "miht",
+                "display_headword": "miht",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "miht",
+                "display_headword": "miht",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "feminine",
+                "metadata_evidence_refs": [
+                  "U06-HW-miht"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "miht",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "feminine"
+                ],
+                "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference."
+              }
+            },
+            {
+              "lemma_id": "arfaestnes",
+              "original_metadata": {
+                "lemma_id": "arfaestnes",
+                "display_headword": "arfaestnes",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "arfaestnes",
+                "display_headword": "ār-fæstnes",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "feminine",
+                "metadata_evidence_refs": [
+                  "U06-HW-arfaestnes"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "arfaestnes",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "feminine"
+                ],
+                "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference."
+              }
+            },
+            {
+              "lemma_id": "gecythan",
+              "original_metadata": {
+                "lemma_id": "gecythan",
+                "display_headword": "gecythan",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "gecythan",
+                "display_headword": "ge-cȳðan",
+                "part_of_speech": "verb",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-gecythan"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "gecythan",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "toslitan",
+              "original_metadata": {
+                "lemma_id": "toslitan",
+                "display_headword": "toslitan",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "toslitan",
+                "display_headword": "tō-slītan",
+                "part_of_speech": "verb",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-toslitan"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "toslitan",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "waefels",
+              "original_metadata": {
+                "lemma_id": "waefels",
+                "display_headword": "waefels",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "waefels",
+                "display_headword": "wǣfels",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "masculine",
+                "metadata_evidence_refs": [
+                  "U06-HW-waefels"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "waefels",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "masculine"
+                ],
+                "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference."
+              }
+            },
+            {
+              "lemma_id": "healf",
+              "original_metadata": {
+                "lemma_id": "healf",
+                "display_headword": "healf",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "healf",
+                "display_headword": "healf",
+                "part_of_speech": "adjective",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-healf"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "healf",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "dael",
+              "original_metadata": {
+                "lemma_id": "dael",
+                "display_headword": "dael",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "dael",
+                "display_headword": "dǣl",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "masculine",
+                "metadata_evidence_refs": [
+                  "U06-HW-dael"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "dael",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "masculine"
+                ],
+                "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference."
+              }
+            },
+            {
+              "lemma_id": "thus",
+              "original_metadata": {
+                "lemma_id": "thus",
+                "display_headword": "thus",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "thus",
+                "display_headword": "ðus",
+                "part_of_speech": "adverb",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-thus"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "thus",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "into",
+              "original_metadata": {
+                "lemma_id": "into",
+                "display_headword": "into",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "into",
+                "display_headword": "in-tō",
+                "part_of_speech": "preposition",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "metadata_evidence_refs": [
+                  "U06-HW-into"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "into",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling."
+              }
+            },
+            {
+              "lemma_id": "ceaster",
+              "original_metadata": {
+                "lemma_id": "ceaster",
+                "display_headword": "ceaster",
+                "part_of_speech": "source-only",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope."
+              },
+              "revised_metadata": {
+                "lemma_id": "ceaster",
+                "display_headword": "ceaster",
+                "part_of_speech": "noun",
+                "scope_note": "Only individually assigned form/sense/construction records establish new scope.",
+                "gender": "feminine",
+                "metadata_evidence_refs": [
+                  "U06-HW-ceaster"
+                ],
+                "metadata_review_record": {
+                  "path": "chapters/ch06/reviews/source-headwords.json",
+                  "lemma_id": "ceaster",
+                  "amendment_ref": "U06-REV-02"
+                },
+                "headword_normalization_note": "No spelling normalization. The recommended display copies the exact leading Cook vocabulary headword, preserving length marks, special letters and internal hyphens. Typographic boldface and following punctuation are not part of the stored headword; printed alternate citations, if any, are retained in the entry excerpt and limits. The lemma_id remains an identifier, not a display spelling.",
+                "source_gender_values": [
+                  "feminine"
+                ],
+                "gender_scope": "Directly checked via the vocabulary’s grammar cross-reference."
+              }
+            }
+          ],
+          "boundaries": "Only23 new supplied-only lemma metadata records. No prior/productive lemma, form, sense, paradigm, task, source text or learning milestone changes. Masculine ēst is bounded to the supplied provisions occurrence; both source gender classifications are preserved.",
+          "reviewer_recheck_required": true,
+          "earlier_review_witness_draft": {
+            "path": "chapters/ch06/reviews/source-headwords.json",
+            "sha256": "7e577c678181d5585aabf74b0f267a7bd7ba6d97ede5c8923393e081bc25eb13",
+            "sha256_normalized_lf": "7e577c678181d5585aabf74b0f267a7bd7ba6d97ede5c8923393e081bc25eb13"
+          },
+          "witness_terminology_repair": "Only dǣl classification wording changed from masculine consonant-stem noun to masculine noun ending in a consonant, matching Cook §43. No recommended metadata, form, sense or scope changed.",
+          "reviewer_rechecked": true,
+          "independent_review_record": "chapters/ch06/review.md"
+        }
+      ]
+    },
+    "ch07": {
+      "status": "complete",
+      "productive_outcomes": [
+        "Use all twelve present/preterite subjunctive person-number cells of each of 56 selected lexical systems, plus the alternative six-cell bēo present series, with their endings, stem changes and exceptions.",
+        "Use independent wishes and first-person exhortations, distinguish assertions and second-person commands, and interpret the taught modal senses without an automatic English would/future rule.",
+        "Use bounded open and contingent gif conditions with their stated contexts; gif alone does not determine mood.",
+        "Form the twelve selected present/past participle pairs and apply all five complete strong/weak agreement models; distinguish obligatory adjectival analysis from optional verbal-predicate inflection.",
+        "Use elementary passives with wesan/bēon and weorðan in statements, commands and wishes; state/result versus event is a tendency, not an absolute distinction.",
+        "Use five new complete indicative systems and the complete tōtwǣman command pair, with their separately taught lexical frames.",
+        "Use productive eall, strong ǣlc morphology with bounded singular each/every use, singular geweald, naming, the selected spatial/function expressions and adverbs.",
+        "Complete all 34 unchanged Cook prompts and 46 original tasks, read the 56-word controlled account independently and the 89-word original fifth-day paragraph with its stated recognition and local support."
+      ],
+      "recognition_outcomes": [
+        "Recognize the exact source participles swimmendu, flēogendu and libbendu as strong accusative neuter plurals without independent recall or promotion of other cells.",
+        "Recognize the four formal geweald plural cells without inventing a plural dominions meaning.",
+        "Interpret preterite subjunctives in one explicitly unreal nonpast setting with supplied interpretation; no unrestricted counterfactual production system is assigned.",
+        "Distinguish source realizations, documented variants and unassigned audit examples from the selected productive roster."
+      ],
+      "bounded_scope": [
+        "Earlier participles are citations/supplied source forms until explicitly promoted with their actual morphology and sense.",
+        "An identical indicative/subjunctive surface requires distinct mood records; a citation containing optional (ge) is not an actual surface form.",
+        "Nabban, bregdan and feolan remain recognition-only; no new productive mood, command or participle follows automatically.",
+        "Eall is recognition-only before Unit7; swithe-positive is already productive. Nu, swa, thus, ofer, bufan, under and tomiddes are supplied before Unit7.",
+        "Hatan active morphology does not establish double-accusative naming or hatte. Weorthan-become does not establish the passive auxiliary sense.",
+        "First/second personal genitives, instrumental syntax, plural cardinal an and reconstructed *saewa retain their recorded limits.",
+        "Source-only relative/content/purpose/temporal clauses, reflexive self, and prefixed lexical senses receive no automatic milestones.",
+        "The new source styriendlicu is not the earlier selected styriendlic neuter plural form.",
+        "The new full fifth-day reading contains and resolves the earlier ch02-text-01 / ch02-reader-birds deferred alias; it is not a second independent assignment of the same source clause."
+      ],
+      "amendments": [
+        {
+          "amendment_id": "U07-C01",
+          "type": "exposition_clarification",
+          "record": "chapters/ch07/coordinator-review.json",
+          "original": "With spatial ofer, direction and location help explain the two cases, but they are not an exceptionless rule for every use.",
+          "replacement": "With spatial ofer, the accusative commonly marks direction over or across a landmark, while the dative commonly marks location. This is a tendency, not an exceptionless rule for every use.",
+          "evidence_refs": [
+            "U07-F-36-OFER"
+          ],
+          "scope_changed": false,
+          "task_prompts_changed": false,
+          "independent_solutions_preserved": true,
+          "status": "resolved_verified",
+          "verification": "Independent reviewer reopened Fulk p23/PDF35, checked the applied correspondence and preserved qualification; no task or scope change."
+        }
+      ]
+    },
+    "ch08": {
+      "status": "complete",
+      "productive_outcomes": [
+        "Use the complete singular common-personal/neuter hwā/hwæt NGDA paradigm, with primary hwǣm and personal accusative hwone; no invented plural.",
+        "Use complete strong hwilc, hwæðer, hūlic, sum, ǣnig, gehwilc and swilc paradigms, weak ilca, strong/weak self, and prior ōðer forms with the new other/another sense within the stated ordinary uses.",
+        "Form direct yes/no and interrogative questions, govern interrogative case by its function, distinguish hū and hwȳ, and apply common clause-order tendencies without dummy do or a rigid universal formula.",
+        "Use invariant ðe, inflected demonstrative relatives and demonstrative plus ðe; distinguish antecedent case from internal relative case and preserve personal-antecedent verb agreement.",
+        "Use complete ætēowian present/preterite indicative and subjunctive, complete scīnan subjunctives, both geblētsian commands, productive count plural līf and the bounded cognate-accusative, fill and control constructions.",
+        "Complete all17 unchanged Cook I.8 prompts and49 original tasks; read the62word new dialogue independently and the72word exact merchant excerpt with its approved local help."
+      ],
+      "recognition_outcomes": [
+        "Recognize documented hwām and distinct instrumental reference forms while lexical hwȳ why remains separately productive; general instrumental syntax is not assigned.",
+        "Recognize singular-only gehwā/gehwæt morphology, relative case attraction and the less common ðe plus personal pronoun strategy without independent production of these constructions.",
+        "Distinguish supplied source forms and contextual analyses from productive paradigms; ofer sǣ is surface-syncretic and its preferred accusative reading is contextual."
+      ],
+      "bounded_scope": [
+        "Course Units1–7 are the sole prior-teaching authority. Archived evidence is reused without importing archived milestones.",
+        "Direct questions and ordinary subject/object/dative relatives are productive. Main-clause and relative-clause cases are independently governed in the assigned model. Case attraction is a limited recognition note; embedded interrogatives and extended content-clause syntax remain later work.",
+        "Hwā/hwæt has singular common-personal and neuter columns only. The nominal instrumental reference forms do not establish general instrumental syntax; lexical hwȳ why is separately bounded.",
+        "Full hwilc, hwæðer and hūlic morphology supports ordinary direct interrogative uses; hwæðer is practised attributively with a supplied two-person context, without a new partitive construction.",
+        "Existing se/ðes morphology, eall and ǣlc, and ōðer second retain their actual prior milestones. New relative and other/another senses require explicit teaching.",
+        "New sum, ǣnig, gehwilc and swilc uses are ordinary attributive certain/some, any, each and such; ilca is weak only and self has complete strong/weak morphology with bounded emphasis/reflexive use.",
+        "Cook§89 indefinite ān a/certain, negative/either families, indeclinable anything/nothing families, -hwega formations and broad free-choice/partitive patterns are explicitly deferred to Unit15. Prior cardinal ān does not teach its indefinite sense.",
+        "Līf plural morphology is promoted for individual lives and the explicitly taught libban cognate-accusative frame. Gefyllan fill is distinct from finish/accomplish; prior supplied history is retained.",
+        "Ætēowian has complete assigned indicative and subjunctive systems; scīnan has complete new subjunctives; geblētsian has both new commands. Familiar verb headwords do not supply missing moods or commands.",
+        "The exact Cook hint gesęte remains supplied with a bounded placement-in-location explanation. No independent prefixed gesettan system is assigned.",
+        "The habban...on...gewealde control frame is taught separately from spatial on and under. Geweald singular is prior; its plural remains recognition-only.",
+        "All72 exact merchant words, four complete turns and15 original notes are retained. The12 local helps support source-only maritime vocabulary, content clause, useful-datives, correlator, collective hit and accompanying participle; those supplied dependencies are never tested for unaided recall.",
+        "The62word new dialogue and16 examples are declared new teaching material. Their public text has independent source and grammar checks; all answer models and ordered output tokens stay in the clearly named author-only file."
+      ],
+      "amendments": [
+        {
+          "amendment_id": "U08-C01",
+          "kind": "source_proposal_id_reconciliation",
+          "status": "resolved_verified",
+          "date": "2026-10-23",
+          "base_contract_checkpoint": "8751984",
+          "description": "Record two source-editor provisional form-ID aliases for Cook I.8.12/15. All selected surfaces, analyses, requirements, teaching scopes and tasks were already present in the pre-prose contract and remain unchanged.",
+          "form_id_aliases": {
+            "aeteowian-present-subj-3-sg": "aeteowian-pres-subj-3-sg",
+            "scinan-present-subj-3-pl": "scinan-pres-subj-3-pl"
+          },
+          "linguistic_or_assignment_change": false,
+          "verification": "Independent reviewer verified that the two source-proposal aliases identify the canonical forms already selected before prose; see the full review ledger."
+        },
+        {
+          "amendment_id": "U08-C02",
+          "kind": "editorial_prose_clarification",
+          "status": "resolved_verified",
+          "date": "2026-10-24",
+          "prior_text_checkpoint": "117f3c5",
+          "description": "Remove numbered from the introductory reference to examples, because their internal IDs are not printed as visible numbers. No example, task, form, source text or teaching scope changes.",
+          "linguistic_or_assignment_change": false,
+          "verification": "Independent reviewer verified the exact one-word deletion against the original accepted learner hash, unchanged substantive contract, task/table/source content and frozen witness."
+        }
+      ]
+    },
+    "ch09": {
+      "status": "complete",
+      "productive_outcomes": [
+        "Use finite ðæt content clauses after selected knowing/saying frames, distinguishing factual indicative from contextual report subjunctive and bounded person/time reference.",
+        "Use dependent wh-questions and hwæðer whether with internal case government and the selected indicative/subjunctive contexts.",
+        "Use hātan command and gesēon perception with an accusative actor and plain infinitive; distinguish naming and same-subject modal complements.",
+        "Use gewyrcean with an accusative object and an agreeing adjective; express bounded present unreal wishes with preterite subjunctives.",
+        "Use full new sunu, rīce and geðeahtend noun systems; complete selected nominal/adjectival forms within their lexical and number limits, with explicit familiar-class models and diagnostics.",
+        "Use seventeen complete present/preterite indicative systems, six command pairs and complete sēcan subjunctives with endings, stem changes and important exceptions.",
+        "Use explicitly assigned trade frames, dative benefit/usefulness, direct address, refusal, preference, accompaniment, temporal day, factual cause, partitive/appositional and bring-forth uses.",
+        "Complete all64 unchanged Cook II.9–12 prompts and33 original tasks; read the52word new dialogue independently and the62word exact source with its approved local support."
+      ],
+      "recognition_outcomes": [
+        "Recognize stated noun number and adjective scope limits; singular manig and unassigned material/abstract count senses remain reference rather than production.",
+        "Recognize documented inflectional variants, including source sēceað, while distinguishing them from selected productive forms.",
+        "Interpret the exact source judgment/passive frames and unfamiliar forms through local helps without inferring whole impersonal, passive or participial systems."
+      ],
+      "bounded_scope": [
+        "The actual eight active coverage contracts and cumulative registers are the sole prior-teaching authority. The archived course is evidence only; every Unit9 promotion retains its earlier supplied/recognition history.",
+        "Finite content clauses are productive after the selected knowing/saying frames only. Seeing receives the separately audited perception infinitive; no generalized seeing-content clause assignment is inferred.",
+        "Reported statements and dependent questions commonly select subjunctive in the stated settings. Contextual indicative can be valid; subjunctive does not assert falsity. Simultaneous present/past reports do not teach an automatic English backshift or the whole later tense/sequence system.",
+        "Inflected interrogative hwæðer and invariant whether hwæðer remain distinct lemmas and senses. Wh forms take their function's case inside the dependent clause.",
+        "Command hātan, perception gesēon and object-predicate gewyrcean each have a checked bounded lexical frame. Same-subject modal infinitives and naming hātan retain their distinct prior scopes.",
+        "The preterite subjunctive receives a bounded nonpast unreal-wish use. This does not teach general unreal conditionals or pluperfect constructions.",
+        "Only personal ēower in the assigned partitive frame is newly productive. Cook's hīe sume apposition is explained separately from a valid genitive alternative; other personal-genitive and indefinite systems remain limited.",
+        "The three new noun classes have literal complete NGDA tables. Other new nouns use complete earlier-class models plus explicit lexical stems and diagnostics. Every derivative cell is mapped, not falsely certified as printed verbatim.",
+        "Manig is productive as plural attributive many. Its singular forms and unassigned mass/abstract count-plurals remain recognition reference; displaying them creates no unassigned sense or syntax.",
+        "All17 selected new verb indicatives, six command pairs and sēcan subjunctives are complete. Other new infinitive citations remain supplied except the separately productive wician preference complement.",
+        "Sēceað is the exact source command variant, recognized with help. Sēcað is the selected productive plural command. Local fēt does not follow productively from prefixed āfēdan.",
+        "Supply the complete ivory, living-creatures and365-days phrases in their Cook tasks. The365 phrase is an explicit adaptation of numbered rules, not an exact source quotation or a complete higher-numeral system.",
+        "The source's seems frames, passives, among phrases, comparative furðra, substantival address and feeding phrase retain local support. Nominative hwilc/furðra must not be forced into the command/perception accusative-actor model.",
+        "All62 source words, four turns, thirteen notes and eleven help groups remain. The three conjectural is tokens and manuscript woruldcræftas note are explicit; nearby merchant/catalogue and smith passages remain unassigned.",
+        "Every public input and private required output is identified by actual form/sense IDs. Deliberately erroneous correction inputs are labeled and do not certify their syntax as good Old English.",
+        "The independent reviewer solves the actual learner tasks before reading any listed private answer/model file, freezes those solutions and discloses the earlier grammar-evidence role. Independent composition checks are not substitutes for the later full task/key review."
+      ],
+      "amendments": [
+        {
+          "amendment_id": "U09-AMEND-01",
+          "date": "2026-10-24",
+          "reason": "Independent review found a source-token case annotation inconsistent with Cook p131 note16 and §149.",
+          "resolution_record": "source_token_reconciliations/U09-SRC21-NOM",
+          "base_contract_checkpoint": "aafd2a1",
+          "original_proposals_preserved": true,
+          "changes_teaching_scope": false,
+          "masters_changed": false,
+          "status": "independently_verified",
+          "review_finding_id": "U09-REV-001"
+        }
+      ]
+    },
+    "ch10": {
+      "status": "complete",
+      "productive_outcomes": [
+        "Distinguish a complete noun phrase’s externally governed case from its internal dependent genitive; use selected verbs with genitive objects and dative person/genitive thing.",
+        "Use bounded nominal partitives with ān, sum and hwilc and fela with genitive plural, keeping these distinct from agreeing numerals and attributive adjectives.",
+        "Distinguish ordinary dative recipient/beneficiary/governed-person uses from bounded ðyncan with dative experiencer and nominative subject, and hyngran with accusative experiencer and a third-singular impersonal verb.",
+        "Express selected means by mid plus dative or by the bare instrumental; use explicitly promoted masculine/neuter singular instrumental determiner/adjective forms and explain syncretism.",
+        "Use full assigned exceptional fæder, hand and gāt noun systems and complete nominal/adjectival morphology within its stated lexical, number and syntactic limits; familiar classes have actual printed models and explicit diagnostic rows.",
+        "Use complete defined new verbal systems with all endings, stem changes, exceptions and scope boundaries; preserve unnan’s unsupported present2sg gap and use the evidenced subjunctive command substitute.",
+        "Use explicitly assigned source lexical frames, object descriptions, substantival adjectives, temporal questions, destination, right/left-side idiom, hearing/perception and selected future-reference contexts without generalizing whole later clause systems.",
+        "Complete all55 unchanged Cook III.13–15 prompts and34 purposeful original tasks; read the50word new account independently and the59word exact Judgment tableau with its approved local support."
+      ],
+      "recognition_outcomes": [
+        "Recognize documented variants and reference-only number, adjective and instrumental cells without inferring productive syntax from their display.",
+        "Distinguish the exact source forms, connective senses, elliptical predicates, quality genitive, passive, comparison and division/placement expressions through printed support.",
+        "Recognize evidence limits in defective verbal cells, source ambiguity and original apparatus; correct Cook153d’s analysis while preserving its wording."
+      ],
+      "bounded_scope": [
+        "Complete morphology does not promote unassigned syntax or number senses.",
+        "Crīst has only four singular proper-name cells; dōm/rēaf/woruld plural cells remain recognition within assigned senses.",
+        "New adjective instrumental cells remain recognition; only selected earlier demonstrative and gōd instrumental cells receive productive means scope.",
+        "No broad subjunctive, oblique-case, passive, future, preposition or impersonal grammar is inferred from local helps.",
+        "Unnan has no evidenced present indicative second-singular cell and no separately asserted formal imperative; supported subjunctives supply the command.",
+        "The 59-word exact reading ends before royal speech; all nine helps and fourteen original notes remain available."
+      ],
+      "amendments": [
+        {
+          "amendment_id": "U10-AMEND-01",
+          "date": "2026-10-25",
+          "stage": "independent_text_review",
+          "reason": "Fresh primary inspection completed instrumental and adjective section locators; canonical frame review found temporal wording inconsistent with the already supplied inasmuch-as interpretation.",
+          "changes": [
+            {
+              "record": "evidence_catalog.U10-G-FB-INSTRUMENT",
+              "original_record": {
+                "source_id": "cook_fb_1895_2",
+                "printed_pages": [
+                  98,
+                  99
+                ],
+                "pdf_pages_one_based": [
+                  114,
+                  115
+                ],
+                "original_identifier": "§§174–178",
+                "claim": "Bare instrumental function (especially poetry) contrasted with prose mid+dative. Distinct instrument after mid is especially Anglian and not the selected default.",
+                "evidence_limits": "Selected concrete means only; transport, passive-agent-like uses, respect, time and comparative measure are not all assigned.",
+                "origin_category": "exact_source",
+                "verification": "Actually inspected page images; OCR used only as a finding aid.",
+                "images": [
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p98.png",
+                    "sha256": "dd3f18dc9e3cbdd2690a589c475928de89f0b146252c7222a5338f9adeb1a2f5",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  },
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p99.png",
+                    "sha256": "4cf6b71c08a93899eab3cdc667c9009166b84f737f3d9c279250ca3b8ff7843d",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  }
+                ]
+              },
+              "corrected_record": {
+                "source_id": "cook_fb_1895_2",
+                "printed_pages": [
+                  97,
+                  98,
+                  99
+                ],
+                "pdf_pages_one_based": [
+                  113,
+                  114,
+                  115
+                ],
+                "original_identifier": "§§174–178",
+                "claim": "Bare instrumental function (especially poetry) contrasted with prose mid+dative. Distinct instrument after mid is especially Anglian and not the selected default.",
+                "evidence_limits": "Selected concrete means only; transport, passive-agent-like uses, respect, time and comparative measure are not all assigned.",
+                "origin_category": "exact_source",
+                "verification": "Actually inspected page images; OCR used only as a finding aid.",
+                "images": [
+                  {
+                    "path": "sources/audits/unit09-grammar/cook_fb_1895_2-p97.png",
+                    "sha256": "21ef73238d1f32b071158f1e2c8feb589f14a500e4fc897fec57cdbc6168668e",
+                    "actually_viewed": true,
+                    "viewed_by": "coordinator",
+                    "inspection_date": "2026-10-25",
+                    "inspection_note": "Reopened actual page during review: §174 begins at the bottom of printed p97; the following sections continue on pp98–99. Earlier Unit9 image reused unchanged."
+                  },
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p98.png",
+                    "sha256": "dd3f18dc9e3cbdd2690a589c475928de89f0b146252c7222a5338f9adeb1a2f5",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  },
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p99.png",
+                    "sha256": "4cf6b71c08a93899eab3cdc667c9009166b84f737f3d9c279250ca3b8ff7843d",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  }
+                ],
+                "canonical_locator_reconciliation": "U10-AMEND-01 adds the opening page of the cited section range. The sealed original audit remains unchanged; no teaching scope is expanded."
+              },
+              "evidence": "sources/audits/unit09-grammar/cook_fb_1895_2-p97.png",
+              "actual_observation": "§174 begins on printed97/PDF113; the complete range §§174–178 is pp97–99. The learner and key citation ranges were corrected by their authors."
+            },
+            {
+              "records": [
+                "lexical_frames.U10-FRAME-swa-as-long-as-source.frame_and_boundary",
+                "lexical_inventory.swa.senses.swa-as-long-as-source.scope_note"
+              ],
+              "original": "Both swā tokens belong to this supplied temporal correlation; prior so/thus does not teach it.",
+              "replacement": "Both swā tokens belong to the supplied swā lange swā connection (here inasmuch as); prior so/thus does not teach it.",
+              "evidence_refs": [
+                "U10-G-FB-JUDGMENT-SUPPORT"
+              ],
+              "actual_observation": "Cook p135 note17 explains the biblical inasmuch-as connection; both actual masters already preserve that interpretation."
+            },
+            {
+              "record": "evidence_catalog.U10-G-FB-ADJECTIVES",
+              "original_record": {
+                "source_id": "cook_fb_1895_2",
+                "printed_pages": [
+                  38,
+                  39,
+                  40,
+                  100
+                ],
+                "pdf_pages_one_based": [
+                  54,
+                  55,
+                  56,
+                  116
+                ],
+                "original_identifier": "§§55–60,181",
+                "claim": "Strong adjective instrumental -e and full declension rules; adjective substantives can name masculine/feminine people, ordinarily weak under the selected conditions.",
+                "evidence_limits": "Only the stated construction/form is proposed; the rest of the printed section is not automatically taught.",
+                "origin_category": "exact_source",
+                "verification": "Actually inspected page images; OCR used only as a finding aid.",
+                "images": [
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p38.png",
+                    "sha256": "171b9cb094680e077317cbf20dda89bd360e138f20641b20f2e3e47e8d2bcb89",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  },
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p39.png",
+                    "sha256": "cc16502d8f8a2647160050dddd658a396c3f91735f30d6a0f45b79875871a3d0",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  },
+                  {
+                    "path": "sources/audits/unit10-source/cook_fb_1895_2-p40.png",
+                    "sha256": "a4ff3d12208ba6835d03d67476d43742373e6c137aeeb304eb924bb1e7f8c65d",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  },
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p100.png",
+                    "sha256": "62e3fd3972e30664e5fa5bf162b1f0d871e13fb91229d2a492b00bc78e3cf53e",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  }
+                ]
+              },
+              "corrected_record": {
+                "source_id": "cook_fb_1895_2",
+                "printed_pages": [
+                  38,
+                  39,
+                  40,
+                  41,
+                  100
+                ],
+                "pdf_pages_one_based": [
+                  54,
+                  55,
+                  56,
+                  57,
+                  116
+                ],
+                "original_identifier": "§§55–60,181",
+                "claim": "Strong adjective instrumental -e and full declension rules; adjective substantives can name masculine/feminine people, ordinarily weak under the selected conditions.",
+                "evidence_limits": "Only the stated construction/form is proposed; the rest of the printed section is not automatically taught.",
+                "origin_category": "exact_source",
+                "verification": "Actually inspected page images; OCR used only as a finding aid.",
+                "images": [
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p38.png",
+                    "sha256": "171b9cb094680e077317cbf20dda89bd360e138f20641b20f2e3e47e8d2bcb89",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  },
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p39.png",
+                    "sha256": "cc16502d8f8a2647160050dddd658a396c3f91735f30d6a0f45b79875871a3d0",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  },
+                  {
+                    "path": "sources/audits/unit10-source/cook_fb_1895_2-p40.png",
+                    "sha256": "a4ff3d12208ba6835d03d67476d43742373e6c137aeeb304eb924bb1e7f8c65d",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  },
+                  {
+                    "path": "sources/audits/unit10-source/cook_fb_1895_2-p41.png",
+                    "sha256": "208c8460a6baf41a99b6b0275c7f42c00843764b17cef00a5d599645490b984e",
+                    "actually_viewed": true,
+                    "viewed_by": "coordinator",
+                    "inspection_date": "2026-10-25",
+                    "inspection_note": "Actually reopened during review: §60 continues with complete weak adjective table and genitive plural -ra on printed41/PDF57."
+                  },
+                  {
+                    "path": "sources/audits/unit10-grammar/cook_fb_1895_2-p100.png",
+                    "sha256": "62e3fd3972e30664e5fa5bf162b1f0d871e13fb91229d2a492b00bc78e3cf53e",
+                    "actually_viewed": true,
+                    "viewed_by": "unit10_grammar",
+                    "inspection_date": "2026-10-24"
+                  }
+                ],
+                "canonical_locator_reconciliation": "U10-AMEND-01 includes p41, the continuation of §60 and its complete weak table; the sealed original audit remains unchanged."
+              },
+              "evidence": "sources/audits/unit10-source/cook_fb_1895_2-p41.png",
+              "actual_observation": "§60 starts on p40 but its full weak table and genitive-plural rule continue on p41. Learner note4 now cites §§55–60, pp38–41."
+            }
+          ],
+          "preservation": "Sealed grammar/source/design audits and frozen independent solutions remain unchanged. Original evidence and scope annotations are retained in this amendment and their sealed audits; the canonical corrections supersede them.",
+          "scope_effect": "No task, prompt, source text, model form, teaching milestone, knowledge status or assignment changes. The support stays supplied; the note does not introduce an unrestricted temporal-clause construction."
+        }
+      ]
+    },
+    "ch11": {
+      "status": "reviewed_complete",
+      "productive_outcomes": [
+        "Identify temporal, causal, purpose, result, concessive and conditional clause relations, distinguishing them from content clauses and relatives and from homographic adverbs or determiners.",
+        "Use the selected past and recurring when/then correlations, simultaneous while connections and anticipated before/until constructions with contextual mood choices and ordinary word-order tendencies.",
+        "Distinguish intended purpose, intended prevention and asserted result; use finite clauses with their own expressed subjects and contrast the earlier same-subject purpose infinitive.",
+        "Use the selected factual causal and concessive frames, and distinguish an open condition from an explicitly contrary-present condition without mechanically assigning mood from a conjunction.",
+        "Use complete assigned nominal, adjectival and verbal systems, including the new vowel, h-loss, syncope and consonant subpatterns, with their endings, important variants and lexical limits together.",
+        "Use explicitly assigned additional lexical and case frames required by all three Cook sets; distinguish each new productive sense or construction from familiar morphology and locally supplied expressions.",
+        "Complete all46 unchanged Cook IV.16–17 and V.18 prompts and the contracted original practice; read the connected new account independently and both exact source extracts with their printed local support."
+      ],
+      "recognition_outcomes": [
+        "Recognize documented variants and reference-only nominal/adjectival cells without inferring new senses or syntax from complete morphological display.",
+        "Interpret the exact source participial periphrases, lexical variants and larger constructions through bounded help; do not impose a mechanical English progressive or perfect system.",
+        "Distinguish genuine source forms and original apparatus from declared formatting normalization and new teaching material."
+      ],
+      "bounded_scope": [
+        "The actual ten-unit baseline alone establishes prior teaching.",
+        "Factual results use their audited indicative pattern; Cook’s optative curse is not a universal result-mood rule.",
+        "Concession can concede an admitted fact; gif does not automatically require subjunctive.",
+        "Only bounded anticipated before/until and explicitly contrary-present conditions are newly assigned. Broad tense sequence and past-counterfactual systems remain later work.",
+        "Complete base participle pairs do not assign unlisted adjective declensions, compound tenses or source periphrases.",
+        "Recognition number counterparts, adjective instrumental reference cells and exact supplied source spellings remain separately scoped.",
+        "The conventional singular moon is a lexical referential scope, not a mass-noun classification.",
+        "Both source spans remain exact, including the punctuation-only Bede dash, all original notes and the referenced earlier periphrasis note.",
+        "Source aids remain visible during supported tasks and never become unaided-recall targets."
+      ],
+      "amendments": [
+        {
+          "amendment_id": "U11-AMEND-01",
+          "date": "2026-10-25",
+          "stage": "drafting_after_contract_checkpoint",
+          "affected_task_ids": [
+            "EX-IV-17-17"
+          ],
+          "original_binding": {
+            "form_id": "the-relative-subject-invariant",
+            "scope": "supplied"
+          },
+          "replacement_binding": {
+            "form_id": "the-relative-invariant",
+            "scope": "previously_taught",
+            "production_taught_in": "ch08"
+          },
+          "reason": "Cook17.17 uses ordinary subject-relative ðe, explicitly taught in Unit8. A provisional match chose the older supplied Unit5 surface identity. Root and learner author compared actual Unit8 scope and corrected this task only. The exact reading retains its historical supplied source identity.",
+          "evidence": [
+            "chapters/ch08/coverage.json:u08-relative-the",
+            "chapters/ch08/coverage.json:u08-relative-demonstrative",
+            "chapters/ch08/coverage.json:u08-relative-internal-case",
+            "lexicon/entries.json:the-relative-invariant"
+          ],
+          "limits": "No wording, source assignment, paradigm, new teaching milestone or sealed audit is changed. Private pre-contract bindings remain historical and this explicit task-scoped reconciliation supersedes their old identity."
+        },
+        {
+          "amendment_id": "U11-AMEND-02",
+          "date": "2026-10-25",
+          "stage": "independent_review_after_pre_key_witness_freeze",
+          "finding_id": "U11-PR-01",
+          "review_report": "chapters/ch11/reviews/paradigms.json",
+          "independent_solutions_checkpoint": "f2b3974",
+          "paradigm_cell_corrections": [
+            {
+              "paradigm_id": "NEW-U11-ADJ-BLAEC-WEAK",
+              "form_id": "blaec-gen-m-pl-weak",
+              "original": "blacra",
+              "replacement": "blæcra",
+              "evidence_refs": [
+                "U11-REVIEW-WRIGHT-P207",
+                "U11-REVIEW-WRIGHT-P209",
+                "U11-REVIEW-WRIGHT-P217"
+              ]
+            },
+            {
+              "paradigm_id": "NEW-U11-ADJ-BLAEC-WEAK",
+              "form_id": "blaec-gen-n-pl-weak",
+              "original": "blacra",
+              "replacement": "blæcra",
+              "evidence_refs": [
+                "U11-REVIEW-WRIGHT-P207",
+                "U11-REVIEW-WRIGHT-P209",
+                "U11-REVIEW-WRIGHT-P217"
+              ]
+            },
+            {
+              "paradigm_id": "NEW-U11-ADJ-BLAEC-WEAK",
+              "form_id": "blaec-gen-f-pl-weak",
+              "original": "blacra",
+              "replacement": "blæcra",
+              "evidence_refs": [
+                "U11-REVIEW-WRIGHT-P207",
+                "U11-REVIEW-WRIGHT-P209",
+                "U11-REVIEW-WRIGHT-P217"
+              ]
+            }
+          ],
+          "reason": "The original audit and initial draft overextended blac- to the weak genitive plural. Cook pp39–41 and Wright §§424–425,440 support æ before -ra; Wright explicitly places blæc under glæd and identifies weak -ra as the strong ending. No checked lexical exception supports blacra.",
+          "evidence_refs": [
+            "U11-LEX-blaec",
+            "U11-FB-P39",
+            "U11-FB-P41",
+            "U11-REVIEW-WRIGHT-P207",
+            "U11-REVIEW-WRIGHT-P209",
+            "U11-REVIEW-WRIGHT-P217"
+          ],
+          "affected_records": [
+            "paradigms",
+            "display_plan.matrices",
+            "lexical_inventory",
+            "audited_inflection_rules",
+            "student.md"
+          ],
+          "limits": "Three newly introduced form surfaces and their explanation are corrected. IDs, teaching scope, 92 task prompts, requested outputs and all key models remain unchanged. Original audit/proposal artifacts and the frozen witness remain unchanged; the final review adjudicates the witness F04 explanation separately.",
+          "original_source_audit": "sources/audits/unit11-source/noun-adjective-paradigms.json"
+        },
+        {
+          "amendment_id": "U11-AMEND-03",
+          "date": "2026-10-25",
+          "stage": "independent_review_after_pre_key_witness_freeze",
+          "finding_id": "U11-PR-02",
+          "reason": "Make the already audited and key-accepted contracted past participles fēd/hȳd explicit beside the learner tables. The evidence catalog already records these valid variants under U11-G-FB-WI; fresh Cook pp68–69 inspection confirms §113.",
+          "affected_records": [
+            "student.md",
+            "paradigms.NEW-U11-PAR-fedan-PART.scope/accepted_variants",
+            "paradigms.NEW-U11-PAR-hydan-PART.scope/accepted_variants",
+            "grammar_inventory",
+            "audited_inflection_rules"
+          ],
+          "evidence_refs": [
+            "U11-G-FB-WI"
+          ],
+          "limits": "The selected fēded/hȳded bases, 826 cells, all prompts and requested outputs remain unchanged. No form ID, teaching milestone or independent recall requirement is added. The key already accepts the variants in F07, Cook17.5 and Cook18.9; sealed audits and frozen witness remain unchanged."
+        },
+        {
+          "amendment_id": "U11-AMEND-04",
+          "date": "2026-10-25",
+          "stage": "presentation_review",
+          "reason": "Adjective tables lacked visible declension labels although canonical matrix titles and hidden IDs carried them. Add the eleven accepted matrix titles visibly to both Markdown and export.",
+          "caption_additions": [
+            {
+              "matrix_id": "NEW-U11-ADJ-HAT-STRONG",
+              "caption": "hāt — strong"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-HAT-WEAK",
+              "caption": "hāt — weak"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-BLAEC-STRONG",
+              "caption": "blæc — strong"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-BLAEC-WEAK",
+              "caption": "blæc — weak"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-FAEGER-STRONG",
+              "caption": "fæger — strong"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-FAEGER-WEAK",
+              "caption": "fæger — weak"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-SMYLTE-STRONG",
+              "caption": "smylte — strong"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-SMYLTE-WEAK",
+              "caption": "smylte — weak"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-STILLE-STRONG",
+              "caption": "stille — strong"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-STILLE-WEAK",
+              "caption": "stille — weak"
+            },
+            {
+              "matrix_id": "NEW-U11-ADJ-DEORWIERTH-COMP-WEAK",
+              "caption": "dēorwierðra — weak"
+            }
+          ],
+          "old_learner_sha256": "4d3087af7476838fe2bbc507e3f41617d2f206acf39fb9f1589ded828c0ee637",
+          "new_learner_sha256": "a4e7e40f168e085e723f5ea188d50284c2d834bea1e0a85aee5bf5c4a1d81918",
+          "bounded_change_verified": "Removing exactly the eleven bold caption paragraphs restores the previously accepted learner bytes and SHA256.",
+          "limits": "No old prose, table header or cell, task, key, source note, teaching status, dependency or source assignment changes. Captions repeat accepted canonical matrix titles. Frozen witness and initial textual acceptance history remain preserved."
+        }
+      ]
+    }
+  }
+}
