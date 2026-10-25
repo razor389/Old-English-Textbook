@@ -179,7 +179,7 @@ He gave food to the stranger. He denied the stranger food. The person is dative 
 
 **Target and interpretation:** Dative recipient/person with accusative giving versus genitive denial. Withheld food from the stranger preserves the second meaning. The English word food looks identical but the two Old English verbs govern it differently.
 
-**A06. Useful to whom?.**
+**A06. Useful to whom?**
 
 <!-- item: NEW-U10-A06 -->
 <!-- key: KEY-NEW-U10-A06 -->

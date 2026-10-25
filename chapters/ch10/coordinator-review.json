@@ -24,7 +24,15 @@
       "finding_id": "U10-D03",
       "artifact": "chapters/ch10/student.md",
       "finding": "Learner author’s final primary-image pass found draft section/page locators for strong neuters and weak nouns were wrong.",
-      "resolution": "Author corrected strong neuters to §47 pp32–33 and weak nouns to §53 p37 before handoff; retained forms unchanged. This was an author-reported correction.",
+      "resolution": "Author corrected strong neuters to §47 pp32–33 and weak nouns to §53 p37 before handoff; retained forms unchanged. This was an author-reported correction. Coordinator subsequently reopened both actual page images and verified these locators.",
+      "status": "resolved_verified",
+      "contract_change": false
+    },
+    {
+      "finding_id": "U10-D04",
+      "artifact": "chapters/ch10/answer-key.md",
+      "finding": "A06 label had an extra period after its question mark.",
+      "resolution": "Key author removed that period only after the initial draft checkpoint; all89 entries remain. Root verified the actual label.",
       "status": "resolved_verified",
       "contract_change": false
     }
@@ -33,7 +41,8 @@
     "Root read actual noun/adjective models, diagnostic operations, case exposition, all new verb-rule prose and source helps/original notes.",
     "Root read actual complete form key, T03–T06, III.15.12–22, both full reading translations and source clause analyses. They agree with the reconciled scope and root source witness; complete independent comparison remains pending.",
     "scripts/check_unit10.py --draft passes all89task/key identities,55exactCookprompts,36matrices,173teachingmarkers,14examples,50wordnewaccount,59wordsource,14originalnotes,9sourcehelps,dependencies,evidenceidentitiesandpriorartifactpreservation.",
-    "Dry cumulative integration preserves every old per-chapter record, earliest milestone, surface, analysis, evidence link and supplied history. All1136prioractiveartifactsand134archivefiles unchanged. No actual register write yet."
+    "Dry cumulative integration preserves every old per-chapter record, earliest milestone, surface, analysis, evidence link and supplied history. All1136prioractiveartifactsand134archivefiles unchanged. No actual register write yet.",
+    "Root additionally read actual A02–A12 key models and explanations; no material finding."
   ],
   "draft_artifact_identities": [
     {
@@ -56,6 +65,22 @@
       "pdf_page_one_based": 56,
       "method": "Actually opened with view_image and read by coordinator.",
       "finding": "§59 explicitly derives -e adjectives as short monosyllables with lexical -e retained in uninflected positions; grēnu confirms the assigned selected -u cells. No draft correction required."
+    },
+    {
+      "path": "sources/audits/unit10-source/cook_fb_1895_2-p32.png",
+      "sha256": "c8eb44546d66443d5f2dbbd38fb250bb57e90c2b0dd4bf88f439e3926b52f840",
+      "printed_page": 32,
+      "pdf_page_one_based": 48,
+      "method": "Actually opened with view_image and read by coordinator after the draft checkpoint.",
+      "finding": "§47 identifies strong neuters and prints both hof and long-stem word models; long-stem nominative/accusative plural is endingless."
+    },
+    {
+      "path": "sources/audits/unit10-source/cook_fb_1895_2-p37.png",
+      "sha256": "723b6624b9ab7e3e45248e20f66949c70120ae15fc1274202974659d450f47e3",
+      "printed_page": 37,
+      "pdf_page_one_based": 53,
+      "method": "Actually opened with view_image and read by coordinator after the draft checkpoint.",
+      "finding": "§53 is the weak-noun section, with full mona/tunge patterns; this confirms the corrected learner endnote locator."
     }
   ],
   "scope_limit": "Independent text acceptance, full exports, every-page proof and final register integration are not claimed here."
