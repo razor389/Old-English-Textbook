@@ -1,6 +1,8 @@
 # Handoff to the next session
 
-The requested Unit 12 is complete. **Units 1–12** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`6f4f1e2`**. The main [README](../README.md), [course/source indexes](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 12. Unit 13 has not been drafted.
+**Unit 13 is underway, with complete drafts under fresh independent review.** Its reconciled contract preceded prose at **`40bb0ba`**; both masters are saved at **`23199c1`**. Follow the [current status](../STATUS.md) and [strict blind-review protocol](../chapters/ch13/review-protocol.json). The solver must finish all 90 tasks before root freezes the witness in Git and unlocks the key. A separate non-author is checking all 76 systems / 1,008 cells. Exports and register integration still await review. Do not rerun the pre-prose assembler or overwrite the immutable `build/unit13-prior-baseline.json`.
+
+The latest completed unit is Unit 12. **Units 1–12** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`6f4f1e2`**. The main [README](../README.md), [course/source indexes](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 12. Unit 14 is not assigned.
 
 ## Unit 12 evidence and review
 

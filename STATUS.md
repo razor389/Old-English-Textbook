@@ -1,10 +1,12 @@
 # Status
 
-Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–12 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`6f4f1e2`**. **Unit 13 is in source and curriculum audit; no prose has been drafted.**
+Updated 26 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–12 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`6f4f1e2`**. **Unit 13 has complete drafts and is undergoing independent review.**
 
 ## Unit 13 underway
 
-The authorized unit concerns clause order and reference, all 52 Cook VII.22–25 prompts, and a connected extract from *The Passing of Chad*. Three agents have exclusive source, grammar and curriculum proposal files; the coordinator alone writes Beads and the canonical contract. The selected 236-word music-and-summons extract runs from printed 152.3 to 153.9 (partial), one-based PDF 168–169. Its preceding context will be supplied separately in English.
+The authorized unit concerns clause order and reference, all 52 Cook VII.22–25 prompts, and a connected extract from *The Passing of Chad*. The independent source, grammar and design audits were reconciled in the [contract](chapters/ch13/coverage.json), saved before prose at **`40bb0ba`**. Complete learner and separate-key drafts are saved at **`23199c1`**: 90 tasks, 76 defined systems / 1,008 cells, twelve examples and an 87-word new account. The exact 236-word music-and-summons extract runs from printed 152.3 to 153.9 (partial), one-based PDF 168–169, with all 24 original notes and 29 attachments. Its preceding context is supplied separately in English.
+
+Fresh non-author agents are solving the actual learner tasks and checking all paradigm routes. The [review protocol](chapters/ch13/review-protocol.json) withholds current keys, audits, proposals and contract analyses from the blind solver until every solution is frozen in Git. U13-AMEND-01 makes an already assigned source subspan visible as a concrete dependent-order counterexample; it adds no source assignment or paradigm. The active registers remain in their accepted twelve-unit state. Exports, every-page inspection and final integration still await independent textual acceptance.
 
 The prior course is frozen against `e17fc5f`: all twelve active contracts, the actual registers (647 lemmas, 8,235 forms, 778 senses and 599 constructions), 1,818 prior active artifacts and 134 archived files. The new contract must reconcile all required senses, forms and constructions before authorship. No Unit 14 work is assigned.
 
