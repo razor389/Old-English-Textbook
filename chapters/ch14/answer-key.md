@@ -188,7 +188,7 @@ In **Ic lufie rihtwīsnesse**, “I love righteousness”, rihtwīsnesse is femi
 
 **Hē onfēng gōdum:** “He received goods/possessions.” Gōdum is dative plural of the assigned neuter noun gōd. Onfōn governs the dative thing received; an English direct object does not establish an Old English accusative.
 
-**Ic geseah ðā rihtwīsan:** “I saw the righteous people.” Rihtwīsan is a weak masculine accusative plural adjective used substantivally. It denotes the people seen and agrees with the article in case, number and gender. The article supplies the definite expression, and the adjective retains its weak inflection.
+**Ic geseah ðā rihtwīsan:** “I saw the righteous people.” In the chapter's selected generic masculine people interpretation, rihtwīsan is a weak accusative plural adjective used substantivally. It denotes the people seen and agrees with the article in case, number and gender. The article supplies the definite expression, and the adjective retains its weak inflection. The plural endings do not distinguish gender. In isolation, the same string could also mean “I saw the righteous woman”, with feminine accusative singular; the chapter's explicit people gloss selects the plural reading for this task.
 
 An absent following noun does not by itself decide lexical category. Gōd here is the separately evidenced lexical noun “goods”; rihtwīs has the previously taught adjectival personal use. The same surface ending can occur in different word classes and cases. [5]
 
@@ -366,9 +366,9 @@ The subject is a certain rich man. **Mid gōdwębbe** uses the supplied material
 <!-- item: EX-VIII-27-04 -->
 <!-- key: KEY-EX-VIII-27-04 -->
 
-Nān mann him ne sealde; ac hundas cōmon and liccodon his wunda.
+Nān mann him ne geaf; ac hundas cōmon and liccodon his wunda.
 
-No one gave to him; dogs nevertheless came and licked his sores. The negative expression is supplied, with dative **him** and an unexpressed thing given. **Hundas** is the plural of the dog noun; both **cōmon** and **liccodon** are plural past. **Wunda** is feminine accusative plural, not a masculine form inferred from the original faulty §43 pointer. C04 supplies the evidenced correction while preserving Cook's hint. [6]
+No one gave to him; dogs nevertheless came and licked his sores. The negative expression is supplied, with dative **him** and an unexpressed thing given. **Geaf** uses giefan, the verb named in the omission construction taught in §5. **Hundas** is the plural of the dog noun; both **cōmon** and **liccodon** are plural past. **Wunda** is feminine accusative plural, not a masculine form inferred from the original faulty §43 pointer. C04 supplies the evidenced correction while preserving Cook's hint. [6]
 
 The thing given need not be invented. Adding a plausible “food” would add material absent from this prompt. The possessive his belongs to the poor man, while the dogs are the subjects doing the licking.
 
@@ -522,11 +522,11 @@ Another genuine pair or repetition is acceptable if quoted accurately and tied t
 
 **2. Nouns and reference cells.** Cook, *A First Book in Old English*, second edition (1895), §§43, 47, 51 and 53, printed pp. 28–37 / PDF 44–53. Section 53.2 gives the weak-neuter ēage relation and alternate genitive plural ēagna. Section 51.5 explains -nes with oblique -ness-. Selected lexical quantities are checked against the glossary: dūst at p. 283 / PDF 299, gōd-wębb at p. 296 / PDF 312. Tables mark abstract/material number references separately from ordinary production.
 
-**3. Verbal systems.** Cook §§93–95, pp. 54–55; strong-II/III models pp. 60–62; strong V–VII pp. 63–67; weak I pp. 68–72; weak II §§118–119, pp. 73–74; dental changes pp. 24–25. These rules and the individual lexical entries support the selected complete systems. Past participle prefixes and lexical ge- remain distinct. Bosworth–Toller, main p. 303a, for-ceorfan, corroborates forceorfende and forcorfen. Citation diagnostics do not assign unlisted syntactic uses.
+**3. Verbal systems.** Cook §§93–95, pp. 54–55; strong-II/III models pp. 60–62; strong V–VII pp. 63–67; weak I pp. 68–72; weak II §§118–119, pp. 73–74; dental changes pp. 24–25. These rules and the individual lexical entries support the selected complete systems. Past participle prefixes and lexical ge- remain distinct. Bosworth–Toller, main p. 303b, for-ceorfan, corroborates forceorfende and forcorfen. Citation diagnostics do not assign unlisted syntactic uses.
 
 **4. Word formation.** Cook §§142–147, pp. 81–87, supplies the bounded prefix, suffix and compound analysis; §70, p. 44, supplies the selected adverb families. The individual glossary entries establish whole-word meanings. The source ealdordōmes and eorðlican have their supplied contextual analyses; no additional productive paradigms follow from their segmentation.
 
-**5. Government and earlier scope.** Cook's dative and genitive constructions, pp. 91–95, and prepositions, pp. 96–99, are read with the actual lexical entries. The selected onfōn and gemiltsian dative examples occur on p. 94. Reflexive uses under §184.a/b are on pp. 100–101. Earlier Unit 11 explicitly teaches the article-plus-weak rihtwīs personal expression; Unit 12 teaches the sęndan recipient and command frames; Unit 13 teaches the hālsian request. Unit 3 allows strong or weak adjectives after a possessive; weak inflection is not compulsory solely because his precedes the adjective.
+**5. Government and earlier scope.** Cook's dative and genitive constructions, pp. 91–95, and prepositions, pp. 96–99, are read with the actual lexical entries. The selected onfōn and gemiltsian dative examples occur on p. 94. Bosworth–Toller, main p. 411b, ge-lýfan, directly corroborates belief on + accusative in on hine gelýfan; the course retains Cook’s selected ie spelling. Reflexive uses under §184.a/b are on pp. 100–101. Earlier Unit 11 explicitly teaches the article-plus-weak rihtwīs personal expression; Unit 12 teaches the sęndan recipient and command frames; Unit 13 teaches the hālsian request. Unit 3 allows strong or weak adjectives after a possessive; weak inflection is not compulsory solely because his precedes the adjective.
 
 **6. Original controls and corrections.** Cook §87.d, p. 52 / PDF 68, gives bare relative ðe. Purpose under §196.f, p. 105 / PDF 121, is distinct from asserted result. Preserve the final-verb controls in 26.7, 27.2 and the concessive clause of 27.10. Correction C01 retains original wǣstm in 26.6 while selecting evidenced wæstm. C04 retains 27.4's original wund, 43 but identifies the feminine wound noun: Bosworth–Toller main p. 1281a and Supplement p. 570b, where the relevant Luke 16.21 citation has his wunda liccodon. Cook's §43 is masculine; §51.b, p. 35, supplies the selected feminine pattern. The adjective wund in Cook's glossary is a distinct word.
 

@@ -1,0 +1,75 @@
+{
+  "chapter_id": "ch14",
+  "status": "accepted_independent_text_review",
+  "coordinator": "root",
+  "date": "2026-10-26",
+  "contract_checkpoint": "18cfa3a",
+  "complete_drafts_checkpoint": "e8cf9ce",
+  "author_roles": {
+    "student": "unit14_design",
+    "answer_key": "root"
+  },
+  "independence_limit": "Root and the source, grammar and design authors do not claim fresh blind independence. A fresh non-author froze every solution at d78de6f before explicit comparison access; a separate fresh non-author verified the paradigms.",
+  "automated_checks": {
+    "command": "python -X utf8 scripts/check_unit14.py --draft",
+    "result": "PASS",
+    "tasks": 44,
+    "exact_cook_prompts": 21,
+    "literal_cells": 324,
+    "matrices": 38,
+    "teaching_locations": 206,
+    "source_words": 159,
+    "original_source_notes": 24,
+    "note_anchors": 25,
+    "requested_output_positions": 156,
+    "morphology_outputs": 74,
+    "earlier_artifacts": "All1975 fixed earlier active artifacts plus134 archived files remain unchanged; both actual registers remain at thirteen-unit baseline."
+  },
+  "draft_artifact_identities": [
+    {
+      "path": "chapters/ch14/student.md",
+      "raw_sha256": "0f83585b45a348df5ab346d05537f1537d61fe611ee331c293eb6d09f932458d",
+      "normalized_lf_sha256": "da627deee704e2cc7705c61a1832b960ab77bb0be73f2e6fc2f2d383cdd6741d"
+    },
+    {
+      "path": "chapters/ch14/answer-key.md",
+      "raw_sha256": "790a8658ac49df982a041c7764ac450b3d425ca1248ac683cfab608082dec5df",
+      "normalized_lf_sha256": "fed6a89e55531cfe1d4157e0955e93723c4ad6034bdd2103c60815e3c80a62f8"
+    }
+  ],
+  "authoring_observations": [
+    "All21 Cook key models checked against final reconciled author models, original controls, case relations and supplied constructions.",
+    "Original F/A/C/S answers include complete requested cells, meanings, analyses, model translations, alternatives and concrete error diagnoses.",
+    "The source translation keeps beðǣm separate from accusativeðābȳsena and translates līegum as thunderbolts/lightning; first author witnesses remain unchanged.",
+    "Strong possessive dēorwierðu remains valid under actual Unit3 scope. Bare-relative and final-verb controls are assessed separately from general grammatical validity.",
+    "U14-A01 repairs preliminary gate-help copies to existing gatum. U14-A02 corrects evidence metadata only, verified from actual images. Sealed audit packets remain unchanged."
+  ],
+  "remaining_gates": [
+    "Produce complete LuaLaTeX exports, full parity and every-page non-author inspection.",
+    "Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally."
+  ],
+  "independent_acceptance": {
+    "record": "chapters/ch14/review.md",
+    "ledger": "chapters/ch14/review-ledger.json",
+    "paradigms": "chapters/ch14/reviews/paradigms.json",
+    "material_open_findings": 0
+  },
+  "accepted_artifact_identities": [
+    {
+      "path": "chapters/ch14/student.md",
+      "raw_sha256": "0f83585b45a348df5ab346d05537f1537d61fe611ee331c293eb6d09f932458d",
+      "normalized_lf_sha256": "da627deee704e2cc7705c61a1832b960ab77bb0be73f2e6fc2f2d383cdd6741d"
+    },
+    {
+      "path": "chapters/ch14/answer-key.md",
+      "raw_sha256": "c109f905cd5a08fe5e734426ea61202b8ae7888845ae80682bc31057bc17886b",
+      "normalized_lf_sha256": "5b38f63d251c4da9912aa15a992940843511ccba68e44658652f2577d2f3bd37"
+    },
+    {
+      "path": "chapters/ch14/independent-solutions.md",
+      "raw_sha256": "6064a8f05c5a7e4b7ccda13dc417bfc0ae20c066209331096d0625ca9b5683e6",
+      "normalized_lf_sha256": "6064a8f05c5a7e4b7ccda13dc417bfc0ae20c066209331096d0625ca9b5683e6"
+    }
+  ],
+  "scope_limit": "Independent text and paradigm review accepted. Export inspection and register integration remain separate gates. Earlier draft observations and identities are retained as historical records."
+}

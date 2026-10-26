@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch14",
   "title": "Word formation and lexical families",
-  "status": "contracted_before_prose",
+  "status": "text_accepted_exports_pending",
   "contract_date": "2026-10-26",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -25218,7 +25218,8 @@
         "u14-onfon-indicative"
       ],
       "input_source_token_indices": [],
-      "assessment_boundary": "Supplied material remains visible and is not tested for independent recall. English analysis does not establish productive Old English use."
+      "assessment_boundary": "Supplied material remains visible and is not tested for independent recall. English analysis does not establish productive Old English use.",
+      "assessment_note": "The visible chapter supplies the plural people reading and earlier generic masculine frame. Plural endings do not uniquely identify gender; isolated ðā rihtwīsan also permits feminine accusative singular. Acknowledge valid morphology separately from this contextual target; no new paradigm or task is added."
     },
     {
       "task_id": "NEW-U14-C01",
@@ -51226,7 +51227,7 @@
         "mann-nom-sg",
         "nan-u14-nom-m-sg-source",
         "ne-invariant",
-        "sellan-pret-3-sg",
+        "giefan-pret-3-sg",
         "wund-acc-pl"
       ],
       "required_output_sense_ids": [
@@ -51240,7 +51241,7 @@
         "mann-1",
         "nan-u14-source",
         "ne-1",
-        "sellan-give",
+        "giefan-1",
         "wund-1"
       ],
       "local_support": [
@@ -51311,7 +51312,7 @@
             "mann-nom-sg",
             "nan-u14-nom-m-sg-source",
             "ne-invariant",
-            "sellan-pret-3-sg",
+            "giefan-pret-3-sg",
             "wund-acc-pl"
           ],
           "required_sense_ids": [
@@ -51325,7 +51326,7 @@
             "mann-1",
             "nan-u14-source",
             "ne-1",
-            "sellan-give",
+            "giefan-1",
             "wund-1"
           ],
           "required_feature_ids": [
@@ -51346,7 +51347,7 @@
         "mann-nom-sg",
         "nan-u14-nom-m-sg-source",
         "ne-invariant",
-        "sellan-pret-3-sg",
+        "giefan-pret-3-sg",
         "wund-acc-pl"
       ],
       "supplied_form_ids": [
@@ -51362,7 +51363,7 @@
         "liccian-pret-3-pl",
         "mann-nom-sg",
         "ne-invariant",
-        "sellan-pret-3-sg",
+        "giefan-pret-3-sg",
         "wund-acc-pl"
       ],
       "required_sense_ids": [
@@ -51376,7 +51377,7 @@
         "mann-1",
         "nan-u14-source",
         "ne-1",
-        "sellan-give",
+        "giefan-1",
         "wund-1"
       ],
       "supplied_sense_ids": [
@@ -51392,7 +51393,7 @@
         "liccian-u14-lick",
         "mann-1",
         "ne-1",
-        "sellan-give",
+        "giefan-1",
         "wund-1"
       ],
       "required_feature_ids": [
@@ -51430,7 +51431,8 @@
         "useful_error_diagnosis": "Correct the misleading original wund43 pointer to the verified feminine pattern without altering the preserved prompt. Do not confuse hund dog with the numeral.",
         "alternatives_policy": "Accept defensible Old English alternatives while separately judging compliance with any explicit original target. Supplied material remains visible; no independent recall is demanded."
       },
-      "dependency_status": "closed"
+      "dependency_status": "closed",
+      "selected_model_note": "U14-A03 selects geaf from previously taught giefan, matching the already visible giefan unexpressed-thing frame. The original English prompt is unchanged; the earlier private sealde model is preserved and superseded."
     },
     {
       "task_id": "EX-VIII-27-05",
@@ -80448,7 +80450,8 @@
       "evidence_refs": [
         "U14-G-FB293",
         "U14-G-FB91",
-        "U14-G-FB97"
+        "U14-G-FB97",
+        "U14-COORD-BT411B"
       ]
     },
     {
@@ -108092,7 +108095,8 @@
       "evidence_refs": [
         "U14-G-FB293",
         "U14-G-FB91",
-        "U14-G-FB97"
+        "U14-G-FB97",
+        "U14-COORD-BT411B"
       ],
       "teaching_ids": [
         "NEW-U14-GRAM-U14-GELIEFAN-ON"
@@ -135486,8 +135490,7 @@
           "NEW-U02-PAR-sellan"
         ],
         "assessed_in": [
-          "EX-VIII-26-02",
-          "EX-VIII-27-04"
+          "EX-VIII-26-02"
         ],
         "evidence_refs": [
           "FB117-GIVE",
@@ -135497,8 +135500,7 @@
         "evidence_basis": "printed paradigm with optional e omitted in selected present2/3sg",
         "scope_note": "Complete finite morphology; syntax limited to separately taught lexical frames.",
         "used_in_tasks": [
-          "EX-VIII-26-02",
-          "EX-VIII-27-04"
+          "EX-VIII-26-02"
         ],
         "recognition_taught_in": "ch02",
         "production_taught_in": "ch02",
@@ -148162,6 +148164,92 @@
         },
         "lemma_id": "sibb",
         "prior_status": "previously_supplied"
+      },
+      {
+        "form_id": "giefan-pret-3-sg",
+        "form": "geaf",
+        "analysis": {
+          "tense": "preterite",
+          "mood": "indicative",
+          "person": 3,
+          "number": "sg"
+        },
+        "knowledge_status": "new_production",
+        "origin_category": "new_teaching_material",
+        "evidence_basis": "Cell placement is a declared grammatical expansion of the checked lexical stems and the complete indicative endings. Even when its spelling occurs in a source principal-parts row, this record does not claim an independently attested person/number token.",
+        "evidence_refs": [
+          "U05-CORE",
+          "U05-SOUND",
+          "U05-UMLAUT",
+          "U05-V",
+          "U05-WRIGHT-V",
+          "U05-GIVE-FRAME"
+        ],
+        "teaching_ids": [
+          "NEW-U05-PAR-giefan"
+        ],
+        "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+        "used_in_tasks": [
+          "EX-VIII-27-04"
+        ],
+        "assessed_in": [
+          "EX-VIII-27-04"
+        ],
+        "accepted_variants": [],
+        "recognition_taught_in": "ch05",
+        "production_taught_in": "ch05",
+        "supplied_in": [],
+        "status": "reviewed",
+        "reviewed_in": "ch05",
+        "reviewed_chapters": [
+          "ch05"
+        ],
+        "review_record": "chapters/ch05/review.md",
+        "coverage_contract": "chapters/ch05/coverage.json",
+        "records_by_chapter": {
+          "ch05": {
+            "form_id": "giefan-pret-3-sg",
+            "form": "geaf",
+            "analysis": {
+              "tense": "preterite",
+              "mood": "indicative",
+              "person": 3,
+              "number": "sg"
+            },
+            "knowledge_status": "new_production",
+            "origin_category": "new_teaching_material",
+            "evidence_basis": "Cell placement is a declared grammatical expansion of the checked lexical stems and the complete indicative endings. Even when its spelling occurs in a source principal-parts row, this record does not claim an independently attested person/number token.",
+            "evidence_refs": [
+              "U05-CORE",
+              "U05-SOUND",
+              "U05-UMLAUT",
+              "U05-V",
+              "U05-WRIGHT-V",
+              "U05-GIVE-FRAME"
+            ],
+            "teaching_ids": [
+              "NEW-U05-PAR-giefan"
+            ],
+            "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+            "used_in_tasks": [
+              "NEW-U05-P02",
+              "NEW-U05-T01",
+              "NEW-U05-T04",
+              "NEW-U05-X01",
+              "NEW-U05-TEXT-A",
+              "NEW-U05-PAR-giefan"
+            ],
+            "assessed_in": [
+              "NEW-U05-P02",
+              "NEW-U05-T01",
+              "NEW-U05-T04",
+              "NEW-U05-X01"
+            ],
+            "accepted_variants": []
+          }
+        },
+        "lemma_id": "giefan",
+        "prior_status": "previously_taught"
       }
     ],
     "senses": [
@@ -159511,12 +159599,10 @@
           "U02-I-TABLE"
         ],
         "used_in_tasks": [
-          "EX-VIII-26-02",
-          "EX-VIII-27-04"
+          "EX-VIII-26-02"
         ],
         "assessed_in": [
-          "EX-VIII-26-02",
-          "EX-VIII-27-04"
+          "EX-VIII-26-02"
         ],
         "recognition_taught_in": "ch02",
         "production_taught_in": "ch02",
@@ -167885,6 +167971,78 @@
         },
         "lemma_id": "nu",
         "prior_status": "previously_taught"
+      },
+      {
+        "sense_id": "giefan-1",
+        "gloss": "give",
+        "knowledge_status": "new_production",
+        "evidence_refs": [
+          "U05-CORE",
+          "U05-SOUND",
+          "U05-UMLAUT",
+          "U05-V",
+          "U05-WRIGHT-V",
+          "U05-GIVE-FRAME"
+        ],
+        "teaching_ids": [
+          "NEW-U05-VOC-giefan"
+        ],
+        "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+        "used_in_tasks": [
+          "EX-VIII-27-04"
+        ],
+        "assessed_in": [
+          "EX-VIII-27-04"
+        ],
+        "recognition_taught_in": "ch05",
+        "production_taught_in": "ch05",
+        "supplied_in": [],
+        "status": "reviewed",
+        "reviewed_in": "ch05",
+        "reviewed_chapters": [
+          "ch05"
+        ],
+        "review_record": "chapters/ch05/review.md",
+        "coverage_contract": "chapters/ch05/coverage.json",
+        "records_by_chapter": {
+          "ch05": {
+            "sense_id": "giefan-1",
+            "gloss": "give",
+            "knowledge_status": "new_production",
+            "evidence_refs": [
+              "U05-CORE",
+              "U05-SOUND",
+              "U05-UMLAUT",
+              "U05-V",
+              "U05-WRIGHT-V",
+              "U05-GIVE-FRAME"
+            ],
+            "teaching_ids": [
+              "NEW-U05-VOC-giefan"
+            ],
+            "scope_note": "Full present and preterite indicative morphology. Only the bounded frame declared in lexical-frames.json is productive.",
+            "used_in_tasks": [
+              "NEW-U05-P02",
+              "NEW-U05-F06",
+              "NEW-U05-C02",
+              "NEW-U05-T01",
+              "NEW-U05-T02",
+              "NEW-U05-T04",
+              "NEW-U05-X01",
+              "NEW-U05-TEXT-A",
+              "NEW-U05-E03",
+              "NEW-U05-VOC-giefan"
+            ],
+            "assessed_in": [
+              "NEW-U05-C02",
+              "NEW-U05-T01",
+              "NEW-U05-T02",
+              "NEW-U05-T04"
+            ]
+          }
+        },
+        "lemma_id": "giefan",
+        "prior_status": "previously_taught"
       }
     ],
     "features": [
@@ -170232,8 +170390,10 @@
       "personally_viewed": true,
       "inspection_agent": "unit14_source",
       "inspection_date": "2026-10-26",
-      "evidence_scope": "Strong masculine model overview and full stān pattern.",
-      "render_dpi": 180
+      "evidence_scope": "§§40–42: cases, uniform endings, and introduction to strong masculine endings. The complete fisc model follows on printed p.28 / PDF44; no full stān table appears here.",
+      "render_dpi": 180,
+      "original_audit_evidence_scope": "Strong masculine model overview and full stān pattern.",
+      "canonical_correction": "U14-A02: verified actual primary image; sealed original audit preserved."
     },
     "U14-FB-P28": {
       "evidence_id": "U14-FB-P28",
@@ -170323,8 +170483,10 @@
       "personally_viewed": true,
       "inspection_agent": "unit14_source",
       "inspection_date": "2026-10-26",
-      "evidence_scope": "§51b complete heavy feminine ār pattern.",
-      "render_dpi": 180
+      "evidence_scope": "§51.b complete heavy feminine glōf model, with alternatives and following rules. The selected -a plural follows this model; this page does not print an ār paradigm.",
+      "render_dpi": 180,
+      "original_audit_evidence_scope": "§51b complete heavy feminine ār pattern.",
+      "canonical_correction": "U14-A02: verified actual primary image; sealed original audit preserved."
     },
     "U14-FB-P36": {
       "evidence_id": "U14-FB-P36",
@@ -171079,7 +171241,7 @@
       "evidence_id": "U14-G-BT303",
       "source_id": "bosworth_toller_1898_1921",
       "printed_page": 303,
-      "column": "a, for-ceorfan entry",
+      "column": "b, for-ceorfan entry",
       "page_image": "sources/audits/unit13-grammar/bt-main-p303.jpg",
       "source_file": "sources/audits/unit13-grammar/bt-main-p303.jpg",
       "locator_convention": "Individually checked dictionary facsimile, printed page; no invented PDF index.",
@@ -171087,7 +171249,9 @@
       "image_sha256": "1d8fb4564a18131347f47f12339b1215df56dc1713cebab130c3dbdfb640d7bd",
       "personally_viewed": true,
       "origin_category": "exact_source",
-      "evidence_limit": "A lexical entry plus inflectional rule supports explicit derived cells; it does not prove that every generated cell is independently attested."
+      "evidence_limit": "A lexical entry plus inflectional rule supports explicit derived cells; it does not prove that every generated cell is independently attested.",
+      "original_audit_column": "a, for-ceorfan entry",
+      "canonical_correction": "U14-A02: verified actual primary image; sealed original audit preserved."
     },
     "U14-G-EX13": {
       "evidence_id": "U14-G-EX13",
@@ -196161,6 +196325,24 @@
       "inspection_agent": "root",
       "evidence_scope": "Exact numbered relative-strategy rule, independently viewed after the blind reviewer identified missing learner guidance.",
       "origin_category": "exact_source"
+    },
+    "U14-COORD-BT411B": {
+      "evidence_id": "U14-COORD-BT411B",
+      "source_id": "bosworth_toller_1898_1921",
+      "printed_page": 411,
+      "column": "b, ge-lýfan entry",
+      "image_path": "sources/audits/unit14-coordinator/bt-main-p411.jpg",
+      "image_sha256": "a5cb66e134a57d651fd5611aa604bfcf31791f16daf34f7b80ad91c1c7323f14",
+      "url": "https://bosworthtoller.com/images-dictionary/bt_b0411.jpg",
+      "accessed": "2026-10-26",
+      "personally_viewed": true,
+      "inspection_agents": [
+        "unit14_paradigms",
+        "root"
+      ],
+      "origin_category": "exact_source",
+      "evidence_scope": "Direct lexical believe-in construction: We sceolon on hine gelýfan, Homl.Th.i274.27; He gelýfþ on God, Mt.Bos27.43; Jn.Bos11.25. Accusative hine makes the government explicit. This corroborates the bounded lexical frame; it does not change selected Cook ie spellings.",
+      "locator_convention": "Individual dictionary facsimile, printed page and column; no invented PDF index."
     }
   },
   "analysis_inputs": [
@@ -196528,6 +196710,11 @@
       "path": "curriculum/proposals/unit14/validation.json",
       "sha256": "c976268bfed809ab864a7f854e9885d88de89a6331e19a9705d1baa1feaebe87",
       "sha256_normalized_lf": "56a0af4b96c7f4701da064a3a95bd0510833d22bdac4a011e466e12f4f9cc73e"
+    },
+    {
+      "path": "chapters/ch14/author-only-model-corrections.json",
+      "sha256": "e30f2eda48d532c59850a12bcdf9077c726a08a43ae85a914cb2ea465f546e9e",
+      "sha256_normalized_lf": "848e06883f026a1dd46549b985d0e6c9658d74e80ae9217f52370fa6f3d1d054"
     }
   ],
   "pre_key_review_exclusions": [
@@ -196562,7 +196749,7 @@
     "typeset": "oec-u14-typeset",
     "finish": "oec-u14-finish"
   },
-  "review_status": "draft_in_progress",
+  "review_status": "accepted_pre_export",
   "amendments": [
     {
       "amendment_id": "U14-A01",
@@ -196575,7 +196762,35 @@
         "sources/audits/unit14-source/author-only-cook-models.json",
         "chapters/ch14/coverage.json: contract_reconciliation_notes"
       ],
-      "contract_before_sha256": "652e8ed9e9f18ca6599c01b734931300257f555cc09f0c08ff595b01e27d6d49"
+      "contract_before_sha256": "652e8ed9e9f18ca6599c01b734931300257f555cc09f0c08ff595b01e27d6d49",
+      "review_status": "verified_by_independent_review",
+      "review_record": "chapters/ch14/review.md"
+    },
+    {
+      "amendment_id": "U14-A02",
+      "date": "2026-10-26",
+      "stage": "independent paradigm review",
+      "finding": "Fresh reviewer identified one wrong dictionary column and two inaccurate model descriptions. Coordinator viewed all four relevant primary images and confirms the corrections.",
+      "scope_effect": "Citation metadata only; no assigned surface, cell, task, requested output or teaching status changes. Key source note 3 now cites BT303b.",
+      "contract_before_sha256": "ef83ac0f52b76fbbb2df76918247df2f700460f47092cdc9b00772f30282c029",
+      "review_status": "verified_by_independent_review",
+      "review_record": "chapters/ch14/review.md"
+    },
+    {
+      "amendment_id": "U14-A03",
+      "date": "2026-10-26",
+      "stage": "independent comparison after blind freeze d78de6f",
+      "basis": "Fresh reviewers and coordinator distinguish linguistic validity from exact taught support and strengthen direct lexical evidence.",
+      "repairs": [
+        "Add direct BT411b believe-in+accusative evidence to gelīefan frame and teaching records without changing selected spelling.",
+        "Select geaf in27.4 and bind actual prior giefan form/sense, matching the current visible omission frame; preserve original private sealde model.",
+        "Clarify A06 intended generic masculine people reading versus isolated gender/number ambiguity."
+      ],
+      "scope_effect": "All44 tasks/156 output positions,21 original prompts,38 systems/324cells,159 source words and24 notes remain. Learner master and blind solutions are unchanged. No new production/recognition milestone.",
+      "contract_before_sha256": "7047262bd66d1f101ddb5225ae5f5e5dfd6299556eb51ea2737c7c72d0eeea5e",
+      "model_correction_record": "chapters/ch14/author-only-model-corrections.json",
+      "review_status": "verified_by_independent_review",
+      "review_record": "chapters/ch14/review.md"
     }
   ],
   "validation_at_contract": {
@@ -196632,7 +196847,8 @@
       "evidence_refs": [
         "U14-G-FB293",
         "U14-G-FB91",
-        "U14-G-FB97"
+        "U14-G-FB97",
+        "U14-COORD-BT411B"
       ],
       "used_in_tasks": [
         "EX-VIII-26-02",
@@ -198064,5 +198280,118 @@
       ],
       "scope": "Supplied exposure only; no new productive milestone"
     }
-  ]
+  ],
+  "answer_model_corrections": {
+    "record": "chapters/ch14/author-only-model-corrections.json",
+    "sha256": "e30f2eda48d532c59850a12bcdf9077c726a08a43ae85a914cb2ea465f546e9e",
+    "task_ids": [
+      "EX-VIII-27-04"
+    ],
+    "effect": "Select geaf for Cook27.4; original sealde model preserved. No other model token changes."
+  },
+  "contract_checkpoint": "18cfa3a",
+  "complete_drafts_checkpoint": "e8cf9ce",
+  "independent_solutions_checkpoint": "d78de6f",
+  "textual_review": {
+    "status": "accepted",
+    "reviewer": "unit14_blind",
+    "record": "chapters/ch14/review.md",
+    "ledger": "chapters/ch14/review-ledger.json",
+    "review_record_sha256": "223ab679e704b38810c00be3dbd9fc64cee258d261ade75607c4d56806af71ae",
+    "review_ledger_sha256": "44b793ffd79279bf1a21c120406efe2caede102c41aa44159290c38f5ccefe26",
+    "accepted_artifacts": {
+      "student.md": {
+        "sha256": "0f83585b45a348df5ab346d05537f1537d61fe611ee331c293eb6d09f932458d",
+        "sha256_normalized_lf": "da627deee704e2cc7705c61a1832b960ab77bb0be73f2e6fc2f2d383cdd6741d"
+      },
+      "answer-key.md": {
+        "sha256": "c109f905cd5a08fe5e734426ea61202b8ae7888845ae80682bc31057bc17886b",
+        "sha256_normalized_lf": "5b38f63d251c4da9912aa15a992940843511ccba68e44658652f2577d2f3bd37"
+      },
+      "independent-solutions.md": {
+        "sha256": "6064a8f05c5a7e4b7ccda13dc417bfc0ae20c066209331096d0625ca9b5683e6",
+        "sha256_normalized_lf": "6064a8f05c5a7e4b7ccda13dc417bfc0ae20c066209331096d0625ca9b5683e6"
+      }
+    },
+    "counts": {
+      "tasks_reviewed": 44,
+      "output_positions_reviewed": 156,
+      "form_cells_reviewed": 74,
+      "cook_items_reviewed": 21,
+      "source_translation_complete": true,
+      "material_open_findings": 0
+    },
+    "accepted_contract_semantic_identity": {
+      "keys": [
+        "analysis_inputs",
+        "answer_model_corrections",
+        "archive_tree_sha256",
+        "assigned_items",
+        "audit_recommendation_precedence",
+        "audited_inflection_rules",
+        "authoring_rules",
+        "bounded_scope",
+        "brief",
+        "chapter_id",
+        "construction_patterns",
+        "contract_date",
+        "contract_metrics",
+        "contract_prepared_before_prose",
+        "contract_reconciliation_notes",
+        "deferred_source_items",
+        "display_plan",
+        "evidence_catalog",
+        "excluded_source_items",
+        "explicit_scope_metrics",
+        "form_identity_reconciliation",
+        "grammar_inventory",
+        "issues",
+        "key_item_ids",
+        "lexical_frames",
+        "lexical_inventory",
+        "new_compositions",
+        "new_material_examples",
+        "paradigms",
+        "pre_key_review_exclusions",
+        "prerequisite_chapters",
+        "principal_parts",
+        "prior_checkpoint",
+        "prior_files",
+        "prior_files_lf_sha256",
+        "prior_manifest_supplement",
+        "prior_requirements",
+        "prior_teaching_boundary",
+        "productive_outcomes",
+        "promotions",
+        "recognition_outcomes",
+        "reused_supplied_support_bindings",
+        "review_independence",
+        "review_independence_protocol",
+        "schema_version",
+        "source_alias_assignments",
+        "source_assignment_policy",
+        "source_authorities",
+        "source_spans",
+        "teaching_records",
+        "title",
+        "validation_at_contract",
+        "word_family_evidence"
+      ],
+      "sha256": "554414f634229e2ea7e226a54aa21d0547c4842999ead5505b547827ac24d26b",
+      "algorithm": "SHA256(UTF8(json.dumps({k:c[k] for k in keys},ensure_ascii=False,sort_keys=True,separators=(comma,colon))))"
+    },
+    "accepted_contract_artifact_at_review": {
+      "sha256": "f5c5c24746a9407ec81c2592f1e2a1f8677c3ac616b3f3713b48e6a95604ebd4",
+      "sha256_normalized_lf": "4b3102b64ce454dd7ddaee3654431c7178a923fef7066132b60d13e270eebc7f"
+    },
+    "identity_scope_note": "Both masters, frozen blind solutions, and substantive contract content are identified. Subsequent completion metadata does not alter accepted teaching.",
+    "independent_solutions_checkpoint": "d78de6f",
+    "independence": "Fresh non-author solved all44 actual learner tasks before key/private-audit access; coordinator froze the witness in Git before unlocking comparison. A separate fresh non-author checked every paradigm and display route against primary evidence.",
+    "fresh_review": {
+      "record": "chapters/ch14/reviews/paradigms.json",
+      "sha256": "ecb16c8618330f7639fcb99eb5f22467ecb53620b28c382e234765fcfcce8f38"
+    },
+    "material_open_findings": 0,
+    "scope_limit": "Complete exports, every-page visual inspection and register integration remain separate gates."
+  }
 }

@@ -1,0 +1,285 @@
+{
+  "chapter_id": "ch14",
+  "private": true,
+  "pre_key_excluded": true,
+  "rule": "Original sealed models remain unchanged. This canonical correction supersedes only the named sequence; all other selected source-audit models retain their evidence and scope.",
+  "amendment_id": "U14-A03",
+  "source": "curriculum/proposals/unit14/author-only-cook-sequence-bindings.json",
+  "source_sha256": "b94ef2811112a821963918ce9718f6143d069ae1b5fd21571261115231f4d0c0",
+  "corrections": [
+    {
+      "task_id": "EX-VIII-27-04",
+      "original_text": "Nān mann him ne sealde; ac hundas cōmon and liccodon his wunda.",
+      "corrected_text": "Nān mann him ne geaf; ac hundas cōmon and liccodon his wunda.",
+      "original_token": {
+        "token_index": 5,
+        "literal": "sealde;",
+        "surface": "sealde",
+        "lemma_id": "sellan",
+        "form_id": "sellan-pret-3-sg",
+        "sense_id": "sellan-give",
+        "form": "sealde",
+        "analysis": {
+          "tense": "preterite",
+          "mood": "indicative",
+          "person": 3,
+          "number": "singular"
+        },
+        "form_status": "previously_taught",
+        "sense_status": "previously_taught"
+      },
+      "corrected_token": {
+        "token_index": 5,
+        "literal": "geaf;",
+        "surface": "geaf",
+        "lemma_id": "giefan",
+        "form_id": "giefan-pret-3-sg",
+        "sense_id": "giefan-1",
+        "form": "geaf",
+        "analysis": {
+          "tense": "preterite",
+          "mood": "indicative",
+          "person": 3,
+          "number": "sg"
+        },
+        "form_status": "previously_taught",
+        "sense_status": "previously_taught"
+      },
+      "basis": "Selected geaf is already productive from Unit5 and matches the exact visible Unit14 giefan omission construction. No additional learner teaching or new paradigm is needed."
+    }
+  ],
+  "corrected_sequences": [
+    {
+      "sequence_id": "EX-VIII-27-04-MODEL",
+      "owner_id": "EX-VIII-27-04",
+      "text": "Nān mann him ne geaf; ac hundas cōmon and liccodon his wunda.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Nān",
+          "surface": "Nān",
+          "lemma_id": "nan",
+          "form_id": "nan-u14-nom-m-sg-source",
+          "sense_id": "nan-u14-source",
+          "form": "nān",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine",
+            "declension": "strong",
+            "function": "negative adjective used alone or with mann"
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied"
+        },
+        {
+          "token_index": 2,
+          "literal": "mann",
+          "surface": "mann",
+          "lemma_id": "mann",
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "form": "mann",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 3,
+          "literal": "him",
+          "surface": "him",
+          "lemma_id": "he",
+          "form_id": "he-m-dat-sg",
+          "sense_id": "he-1",
+          "form": "him",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "ne",
+          "surface": "ne",
+          "lemma_id": "ne",
+          "form_id": "ne-invariant",
+          "sense_id": "ne-1",
+          "form": "ne",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "geaf;",
+          "surface": "geaf",
+          "lemma_id": "giefan",
+          "form_id": "giefan-pret-3-sg",
+          "sense_id": "giefan-1",
+          "form": "geaf",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "ac",
+          "surface": "ac",
+          "lemma_id": "ac",
+          "form_id": "ac-invariant",
+          "sense_id": "ac-but",
+          "form": "ac",
+          "analysis": {
+            "invariant": true,
+            "function": "conjunction"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 7,
+          "literal": "hundas",
+          "surface": "hundas",
+          "lemma_id": "hund-dog",
+          "form_id": "hund-dog-nom-pl",
+          "sense_id": "hund-dog-1",
+          "form": "hundas",
+          "analysis": {
+            "case": "nom",
+            "number": "pl",
+            "gender": "m"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 8,
+          "literal": "cōmon",
+          "surface": "cōmon",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pret-3-pl-source",
+          "sense_id": "cuman-come",
+          "form": "cōmon",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 9,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "form": "and",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 10,
+          "literal": "liccodon",
+          "surface": "liccodon",
+          "lemma_id": "liccian",
+          "form_id": "liccian-pret-3-pl",
+          "sense_id": "liccian-u14-lick",
+          "form": "liccodon",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 11,
+          "literal": "his",
+          "surface": "his",
+          "lemma_id": "he",
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "form": "his",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 12,
+          "literal": "wunda.",
+          "surface": "wunda",
+          "lemma_id": "wund",
+          "form_id": "wund-acc-pl",
+          "sense_id": "wund-1",
+          "form": "wunda",
+          "analysis": {
+            "case": "acc",
+            "number": "pl",
+            "gender": "f"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        }
+      ],
+      "required_form_ids": [
+        "ac-invariant",
+        "and-invariant",
+        "cuman-pret-3-pl-source",
+        "he-m-dat-sg",
+        "he-m-gen-sg",
+        "hund-dog-nom-pl",
+        "liccian-pret-3-pl",
+        "mann-nom-sg",
+        "nan-u14-nom-m-sg-source",
+        "ne-invariant",
+        "giefan-pret-3-sg",
+        "wund-acc-pl"
+      ],
+      "required_sense_ids": [
+        "ac-but",
+        "and-1",
+        "cuman-come",
+        "he-1",
+        "he-possessor",
+        "hund-dog-1",
+        "liccian-u14-lick",
+        "mann-1",
+        "nan-u14-source",
+        "ne-1",
+        "giefan-1",
+        "wund-1"
+      ],
+      "origin": "new_teaching_material: independent composition responding to the exact source prompt, not a quotation from Cook",
+      "source_model_record": "sources/audits/unit14-source/author-only-cook-models.json#EX-VIII-27-04"
+    }
+  ],
+  "correction_record_followup": "Fresh comparison caught two stale aggregate IDs in the corrected sequence. Updated only its required_form_ids/required_sense_ids; original token/text witnesses remain unchanged."
+}

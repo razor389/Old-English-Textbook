@@ -341,6 +341,29 @@ def main():
     require(len(dispositions) == 644 and Counter(dispositions.values()) == {'assigned':406,'deferred':238}, 'Cook crosswalk must be 406 assigned / 238 deferred')
     for r in c['analysis_inputs']:
         require(identity(r['path'],r), 'Frozen analysis input changed: '+r['path'])
+    # Keep the selected Cook models tied to actual forms, senses and task
+    # requirements. Canonical review corrections supersede named sequences;
+    # sealed source/design proposals remain unchanged.
+    cook_models = {s['owner_id']: s for s in read('curriculum/proposals/unit14/author-only-cook-sequence-bindings.json')['sequences']}
+    correction = c.get('answer_model_corrections')
+    if correction:
+        require(identity(correction['record'], correction), 'Canonical model correction changed')
+        for sequence in read(correction['record'])['corrected_sequences']:
+            require(sequence['owner_id'] in cook_models, 'Correction names an unassigned model')
+            cook_models[sequence['owner_id']] = sequence
+    require(set(cook_models) == set(cook), 'Cook selected-model inventory differs')
+    for tid, sequence in cook_models.items():
+        words, tokens = sequence['text'].split(), sequence['tokens']
+        require(len(words) == len(tokens), tid + ': model token count differs')
+        for word, token in zip(words, tokens):
+            fid, sid = token['form_id'], token['sense_id']
+            form_record = record('form', fid)
+            require(form_record is not None and surface(word) == surface(form_record['form']), tid + ': model form differs: ' + fid)
+            require(owners['form'].get(fid) == owners['sense'].get(sid) == token['lemma_id'], tid + ': model identity differs')
+        require({t['form_id'] for t in tokens} <= set(tasks[tid]['required_output_form_ids']), tid + ': model form requirement missing')
+        require({t['sense_id'] for t in tokens} <= set(tasks[tid]['required_output_sense_ids']), tid + ': model sense requirement missing')
+        require({t['form_id'] for t in tokens} == set(sequence['required_form_ids']), tid + ': sequence aggregate form IDs differ')
+        require({t['sense_id'] for t in tokens} == set(sequence['required_sense_ids']), tid + ': sequence aggregate sense IDs differ')
     for path,digest in c['prior_files'].items():
         if path not in {'lexicon/entries.json','curriculum/grammar.json'}:
             require(identity(path,{'sha256':digest,'sha256_normalized_lf':c['prior_files_lf_sha256'].get(path)}), 'Prior artifact changed: '+path)
@@ -349,6 +372,11 @@ def main():
         key = (ROOT/'chapters/ch14/answer-key.md').read_text(encoding='utf-8')
         for label, text in [('student',student),('key',key)]:
             require(text == unicodedata.normalize('NFC',text), label + ': non-NFC text')
+        for tid, sequence in cook_models.items():
+            marker = '<!-- key: ' + tasks[tid]['key_id'] + ' -->'
+            if marker in key:
+                actual_model = key.split(marker, 1)[1].strip().split('\n\n', 1)[0].replace('**', '')
+                require(actual_model == sequence['text'], tid + ': actual key model differs from accepted selection')
         for m in matrices:
             hits = list(re.finditer(r'<!--\s*table:\s*'+re.escape(m['matrix_id'])+r'\s*-->',student))
             require(len(hits) == 1, m['matrix_id']+': matrix marker missing/repeated')
