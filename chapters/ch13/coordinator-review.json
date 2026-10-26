@@ -1,6 +1,6 @@
 {
   "chapter_id": "ch13",
-  "status": "complete_drafts_ready_for_independent_review",
+  "status": "accepted_independent_text_review",
   "coordinator": "root",
   "date": "2026-10-26",
   "contract_checkpoint": "40bb0ba",
@@ -15,7 +15,7 @@
     "result": "pass",
     "tasks_and_keys": 90,
     "exact_cook_prompts": 52,
-    "teaching_locations": 444,
+    "teaching_locations": 445,
     "defined_systems": 76,
     "inflectional_cells": 1008,
     "literal_matrices": 43,
@@ -42,10 +42,8 @@
     "archived_files_unchanged": 134,
     "note": "Known words inside supplied phrases remain previously taught. Only actually unlearned reused source records receive supplied-only exposure; no earlier milestone is demoted."
   },
-  "independence_limit": "Root and the source, grammar and design authors are not eligible to claim fresh blind independence. Two fresh non-author agents will review the actual drafts; the main solver is denied current audits/contract/key/private models until all solutions are frozen in Git.",
+  "independence_limit": "Root and the source, grammar and design authors do not claim fresh blind independence. A fresh non-author froze every solution at d31c692 before explicit comparison access; a separate fresh non-author verified the paradigms.",
   "remaining_gates": [
-    "Freeze every independent solution and both full translations before opening the key/private current analyses.",
-    "Complete independent task and paradigm reviews and resolve material findings.",
     "Produce complete LuaLaTeX exports, full parity and every-page non-author inspection.",
     "Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally."
   ],
@@ -61,7 +59,7 @@
       "sha256_normalized_lf": "18cb2cd408bfc70beafca9d6e55dec8e780c8004e5d9ebdafb2ca5e39bedda25"
     }
   ],
-  "scope_limit": "Complete drafts only; no claim of accepted independent review, inspected exports or integrated registers.",
+  "scope_limit": "Independent text and paradigm review accepted. Export inspection and register integration remain separate gates. Earlier draft observations and identities are retained as historical records.",
   "additional_coordinator_primary_inspections": [
     {
       "path": "sources/audits/unit12-source/cook_fb_1895_2-p38.png",
@@ -104,6 +102,34 @@
       "raw_sha256": "9ff058dbf4d36b85ce6c6918a5d1ddeb057a03e361031adc2b897ea3a830921b",
       "actually_viewed": true,
       "observation": "Cook154 dialogue prints hālsie without g and ðæt ðū mē gesęcge. Canonical evidence observation corrected; sealed audit preserved."
+    }
+  ],
+  "review_records_checkpoint": "5576bcc",
+  "acceptance_gate_note": "First coordinator gate stopped before acceptance metadata: paradigm ledger omitted protected answer_model_corrections from semantic identity. The models themselves had been substantively reviewed. Reviewer-owned metadata repair requested; no export is accepted by this checkpoint.",
+  "independent_acceptance": {
+    "record": "chapters/ch13/review.md",
+    "ledger": "chapters/ch13/review-ledger.json",
+    "paradigms": "chapters/ch13/reviews/paradigms.json",
+    "material_open_findings": 0
+  },
+  "accepted_artifact_identities": [
+    {
+      "path": "chapters/ch13/student.md",
+      "raw_sha256": "5207c40a188f26d95917b96680fa1e1e1f5a222abc0d3cbfbb9463dd81acbf88",
+      "normalized_lf_sha256": "5207c40a188f26d95917b96680fa1e1e1f5a222abc0d3cbfbb9463dd81acbf88",
+      "bytes": 108183
+    },
+    {
+      "path": "chapters/ch13/answer-key.md",
+      "raw_sha256": "1be99f4460b8c467f522532344030fdd010a19d5952ea3ca5ae92a45f18cbf71",
+      "normalized_lf_sha256": "1be99f4460b8c467f522532344030fdd010a19d5952ea3ca5ae92a45f18cbf71",
+      "bytes": 69383
+    },
+    {
+      "path": "chapters/ch13/independent-solutions.md",
+      "raw_sha256": "46e9b55f90e475895ba5e0bc9dbec4fa0b97287e8c0833df2ec80b75a1a32efd",
+      "normalized_lf_sha256": "46e9b55f90e475895ba5e0bc9dbec4fa0b97287e8c0833df2ec80b75a1a32efd",
+      "bytes": 48985
     }
   ]
 }

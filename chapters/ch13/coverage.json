@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch13",
   "title": "Clause order and reference",
-  "status": "drafted_independent_review_pending",
+  "status": "text_accepted_exports_pending",
   "contract_date": "2026-10-25",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -292798,7 +292798,7 @@
     "typeset": "oec-u13-typeset",
     "finish": "oec-u13-finish"
   },
-  "review_status": "independent_review_pending",
+  "review_status": "accepted_pre_export",
   "amendments": [
     {
       "amendment_id": "U13-AMEND-01",
@@ -292823,7 +292823,8 @@
         "U13-SRC-P152",
         "U13-FULK50"
       ],
-      "review_status": "pending_fresh_review"
+      "review_status": "verified_by_independent_review",
+      "review_record": "chapters/ch13/review.md"
     },
     {
       "amendment_id": "U13-AMEND-02",
@@ -292846,7 +292847,8 @@
       ],
       "frozen_solutions_checkpoint": "d31c692",
       "private_correction_record": "chapters/ch13/author-only-model-corrections.json",
-      "review_status": "pending_fresh_verification"
+      "review_status": "verified_by_independent_review",
+      "review_record": "chapters/ch13/review.md"
     },
     {
       "amendment_id": "U13-AMEND-03",
@@ -292871,7 +292873,8 @@
         "U13-FB277"
       ],
       "frozen_solutions_checkpoint": "d31c692",
-      "review_status": "pending_fresh_verification"
+      "review_status": "verified_by_independent_review",
+      "review_record": "chapters/ch13/review.md"
     },
     {
       "amendment_id": "U13-AMEND-04",
@@ -292892,7 +292895,8 @@
       "scope_change": false,
       "frozen_solutions_checkpoint": "d31c692",
       "private_correction_record": "chapters/ch13/author-only-model-corrections.json",
-      "review_status": "pending_fresh_verification"
+      "review_status": "verified_by_independent_review",
+      "review_record": "chapters/ch13/review.md"
     }
   ],
   "validation_at_contract": {
@@ -295132,5 +295136,80 @@
         "u03-determiner-conditions"
       ]
     }
-  ]
+  ],
+  "complete_drafts_checkpoint": "23199c1",
+  "independent_solutions_checkpoint": "d31c692",
+  "textual_review": {
+    "status": "accepted",
+    "reviewer": "unit13_review",
+    "record": "chapters/ch13/review.md",
+    "ledger": "chapters/ch13/review-ledger.json",
+    "review_record_sha256": "f753caf99b91db368360c556b7cd1e6da718ea513ea71006ae25df32717628bb",
+    "review_ledger_sha256": "62019871dda053a6ce0cacefe87ca98bfec932ca8bb5aaabea388924f42ad9e9",
+    "accepted_artifacts": {
+      "student.md": {
+        "sha256": "5207c40a188f26d95917b96680fa1e1e1f5a222abc0d3cbfbb9463dd81acbf88",
+        "sha256_normalized_lf": "5207c40a188f26d95917b96680fa1e1e1f5a222abc0d3cbfbb9463dd81acbf88"
+      },
+      "answer-key.md": {
+        "sha256": "1be99f4460b8c467f522532344030fdd010a19d5952ea3ca5ae92a45f18cbf71",
+        "sha256_normalized_lf": "1be99f4460b8c467f522532344030fdd010a19d5952ea3ca5ae92a45f18cbf71"
+      },
+      "independent-solutions.md": {
+        "sha256": "46e9b55f90e475895ba5e0bc9dbec4fa0b97287e8c0833df2ec80b75a1a32efd",
+        "sha256_normalized_lf": "46e9b55f90e475895ba5e0bc9dbec4fa0b97287e8c0833df2ec80b75a1a32efd"
+      }
+    },
+    "counts": {
+      "tasks_reviewed": 90,
+      "task_reviews": 90,
+      "requested_output_positions": 314,
+      "morphological_output_positions": 101,
+      "cook_items": 52,
+      "original_tasks": 38,
+      "complete_reading_translations": 2,
+      "fresh_page_images": 27,
+      "material_open_findings": 0
+    },
+    "accepted_contract_semantic_identity": {
+      "keys": [
+        "answer_model_corrections",
+        "assigned_items",
+        "audited_inflection_rules",
+        "bounded_scope",
+        "construction_patterns",
+        "contract_reconciliation_notes",
+        "display_plan",
+        "evidence_catalog",
+        "form_identity_reconciliation",
+        "grammar_inventory",
+        "lexical_frames",
+        "lexical_inventory",
+        "new_compositions",
+        "new_material_examples",
+        "paradigms",
+        "prior_requirements",
+        "promotions",
+        "reused_supplied_support_bindings",
+        "source_evidence_examples",
+        "source_spans",
+        "teaching_records"
+      ],
+      "sha256": "5a5ff2725dc1aea4e8eb5a81426f4e562803efac2d07690f610bfbe830871ed4",
+      "serialization": "UTF-8 JSON; ensure_ascii=False, sort_keys=True, separators comma/colon."
+    },
+    "accepted_contract_artifact_at_review": {
+      "sha256": "26819967589deacdaaf873b1c553e1bd5d82b7096eedfbc9a6669c709fe3e0bf",
+      "sha256_normalized_lf": "26819967589deacdaaf873b1c553e1bd5d82b7096eedfbc9a6669c709fe3e0bf"
+    },
+    "identity_scope_note": "Both masters, frozen blind solutions, and substantive contract content are identified. Subsequent completion metadata does not alter accepted teaching.",
+    "independent_solutions_checkpoint": "d31c692",
+    "independence": "Fresh non-author solved all90 actual learner tasks before key/private-audit access; coordinator froze the witness in Git before unlocking comparison. A separate fresh non-author checked every paradigm and display route against primary evidence.",
+    "fresh_review": {
+      "record": "chapters/ch13/reviews/paradigms.json",
+      "sha256": "ee3952467eae9eeb0d7d3974251ed05e24b55384dd9fdb7167854c1104a0a8d2"
+    },
+    "material_open_findings": 0,
+    "scope_limit": "Complete exports, every-page visual inspection and register integration remain separate gates."
+  }
 }
