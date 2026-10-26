@@ -1,0 +1,59 @@
+{
+  "chapter_id": "ch14",
+  "status": "resolved_and_independently_reinspected",
+  "final_review_records": [
+    "typesetting/ch14/reviews/learner-first.json",
+    "typesetting/ch14/reviews/learner-last.json",
+    "typesetting/ch14/reviews/key.json"
+  ],
+  "final_render": "v2",
+  "final_pages": {"learner": 35, "key": 21},
+  "linguistic_masters_changed": false,
+  "initial_layout_repair": {
+    "document": "key",
+    "table": "T10",
+    "finding": "Initial compile reported overfull Expression and heofonfyre cells in the first column.",
+    "repair": "Use 22 mm / 32 mm / 64.37 mm columns, preserving total width, every cell and 10.5 pt type.",
+    "verification": "Second-pass v1 compilation log was clean; v1 key page reviewer found no table defect."
+  },
+  "v1_page_review_repairs": [
+    {
+      "document": "learner",
+      "reported_pages": [
+        9,
+        10,
+        11,
+        12
+      ],
+      "finding": "Four indicative headings were stranded because a following space reservation moved the rule and table.",
+      "repair": "Keep each of the nine indicative headings, complete rule paragraph and complete table together in one minipage; remove conflicting internal reservations.",
+      "tables": [
+        "T23",
+        "T24",
+        "T25",
+        "T26",
+        "T27",
+        "T28",
+        "T29",
+        "T30",
+        "T31"
+      ]
+    },
+    {
+      "document": "key",
+      "reported_pages": [
+        11
+      ],
+      "finding": "Cook VIII.27 section heading was stranded before VIII.27.1.",
+      "repair": "Place the section heading inside the existing unbreakable VIII.27.1 answer block."
+    }
+  ],
+  "tex_sha256_before_heading_repairs": {
+    "chapter-14.tex": "ab4b94fc4a135c982c928db23fa3726ad4370482249b8b477d832b2aa1a7c785",
+    "answer-key.tex": "9e154a863028b7aa515811597c112b99b3dc5e495578146a22b6336f2f678ae7"
+  },
+  "tex_sha256_after_heading_repairs": {
+    "chapter-14.tex": "ff78d454d9dc63ca2869de930e221f9574ca00e4c92e92d4376392b9c2e5a3e6",
+    "answer-key.tex": "6cbb0987093bef1d2967588cc70f02bf48ecf2afbe3150fcf51a91fdbc951ce9"
+  }
+}

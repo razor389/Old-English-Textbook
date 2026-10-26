@@ -1,0 +1,576 @@
+{
+  "schema_version": 1,
+  "chapter_id": "ch14",
+  "document": "key",
+  "reviewer": "unit14_page_key",
+  "status": "pass",
+  "accepted_at_utc": "2026-10-26T21:40:57.7183774Z",
+  "accepted_text_checkpoint": "5721c5f",
+  "render_version": "v2",
+  "dpi": 150,
+  "pdf": "typesetting/ch14/build/answer-key.pdf",
+  "pdf_sha256": "9334562b9b15356953afe9a48f7a856ae8b1578f08b8d260d37fbc6d8ff70a4f",
+  "render_manifest": "typesetting/ch14/build/render-manifest-final.json",
+  "final_identity_verification": {
+    "checked_at_utc": "2026-10-26T21:40:57.7183774Z",
+    "method": "Computed SHA-256 of the actual final PDF and every final PNG; all match the key entry in the final render manifest. Compared all final PNGs with the personally inspected v1 images: only pages 11 and 12 changed.",
+    "pdf_matches_manifest": true,
+    "all_page_images_match_manifest": true,
+    "revised_pages_personally_viewed": [
+      11,
+      12
+    ],
+    "byte_identical_pages_reused": [
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      13,
+      14,
+      15,
+      16,
+      17,
+      18,
+      19,
+      20,
+      21
+    ]
+  },
+  "findings": [
+    {
+      "id": "U14-KEY-LAYOUT-01",
+      "page": 11,
+      "status": "resolved_verified",
+      "finding": "In v1, the section heading Cook VIII.27 stood alone at the bottom of page 11 while VIII.27.1 began page 12.",
+      "original_image_path": "typesetting/ch14/build/key-v1/page-011.png",
+      "original_image_sha256": "2d57cc208b1d744d087add9be03b6baa38b04d6f4c4d3b18240bb7eae52aac14",
+      "requested_repair": "Keep the section heading with VIII.27.1's answer label and opening model using a layout-only page/needspace control.",
+      "resolution": "The section heading now appears at the top of v2 page 12 immediately above VIII.27.1; page 11 ends after VIII.26.10. Both changed pages were personally viewed at original resolution and pass.",
+      "verified_final_pages": [
+        11,
+        12
+      ]
+    }
+  ],
+  "pages": [
+    {
+      "page": 1,
+      "image_path": "typesetting/ch14/build/key-v2/page-001.png",
+      "image_sha256": "882c5852275cc7e17c106aefc4591f58ee29f6ccb7ce3524f9e6247140b05a70",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-001.png",
+        "sha256": "882c5852275cc7e17c106aefc4591f58ee29f6ccb7ce3524f9e6247140b05a70",
+        "render_version": "v1"
+      },
+      "observations": "Title and running header identify Unit 14 answer key; the 44-task coverage and answer-use paragraphs are readable and contained within the text block. Reference [1], hyphenated line ending in word-order, and page number 1 render clearly; no clipping or overlap.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 2,
+      "image_path": "typesetting/ch14/build/key-v2/page-002.png",
+      "image_sha256": "40ee928f13a47830eb625d799df8323894a468c12594af44a2e6550fdb11e876",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-002.png",
+        "sha256": "40ee928f13a47830eb625d799df8323894a468c12594af44a2e6550fdb11e876",
+        "render_version": "v1"
+      },
+      "observations": "F01 wǣdla/ēage declensions and F02 goldhord table retain clear case, singular and plural columns and all rows. Macrons on ǣ/ē/ō and the ogonek in gōdwębbe are distinct; explanatory text fits above the footer without colliding with table rules or headings.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 3,
+      "image_path": "typesetting/ch14/build/key-v2/page-003.png",
+      "image_sha256": "220f602225f88eb239e8dd914105fd6a54b9fb634296a0c1f39211f53332f51a",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-003.png",
+        "sha256": "220f602225f88eb239e8dd914105fd6a54b9fb634296a0c1f39211f53332f51a",
+        "render_version": "v1"
+      },
+      "observations": "F03 liccian table and F04 selected indicative forms have readable headers, aligned answer cells, and complete bottom rules. Eth, æ, ę and quantity marks are legible in the forms and explanations, including liccað, gelīefð, āhruron, āhęfð and onfēnge; prose and footer remain clear.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 4,
+      "image_path": "typesetting/ch14/build/key-v2/page-004.png",
+      "image_sha256": "f55862b5797afaae227dad481ead4c09488a10e757bbaceb60f26facb0544f85",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-004.png",
+        "sha256": "f55862b5797afaae227dad481ead4c09488a10e757bbaceb60f26facb0544f85",
+        "render_version": "v1"
+      },
+      "observations": "F05 subjunctive paradigms, the additional-cell table, and both F06 participle/command tables are complete and have distinct columns and rules. Long-æ in gebǣde/gebǣden, ę in sęnde/geglęngan, and eth in commands render clearly; dense lower prose still clears the page number and margins.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 5,
+      "image_path": "typesetting/ch14/build/key-v2/page-005.png",
+      "image_sha256": "b0df8783fe272334c1c53911b24044140a210f0550b182b893f30db5a251a948",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-005.png",
+        "sha256": "b0df8783fe272334c1c53911b24044140a210f0550b182b893f30db5a251a948",
+        "render_version": "v1"
+      },
+      "observations": "A01's widened compound table displays expression, components/head, and inflection/meaning in separate readable columns; heofonfȳre and hēaclifum stay within their cells. The A02 derived-noun table and explanation fit cleanly; ē/ī/ȳ quantity marks, heading spacing and table rules are readable without clipping or overlap.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 6,
+      "image_path": "typesetting/ch14/build/key-v2/page-006.png",
+      "image_sha256": "b6a40d99116c4aa2bee6cef44fc01714867c590de8d221694a7eab701139f6c0",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-006.png",
+        "sha256": "b6a40d99116c4aa2bee6cef44fc01714867c590de8d221694a7eab701139f6c0",
+        "render_version": "v1"
+      },
+      "observations": "A03, A04 and A05 headings remain attached to their answers and explanatory paragraphs. Eth, ā/ī/ō quantity marks and the derivation/inflection arrows in rihtwīs → rihtwīsnes → rihtwīsnesse are distinct; the complete prose fits within margins.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 7,
+      "image_path": "typesetting/ch14/build/key-v2/page-007.png",
+      "image_sha256": "47340c1b978d91d01b0be587d8d5c4c5af8c303ab4b578957fe94b8b41e68df3",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-007.png",
+        "sha256": "47340c1b978d91d01b0be587d8d5c4c5af8c303ab4b578957fe94b8b41e68df3",
+        "render_version": "v1"
+      },
+      "observations": "A06's two labelled Old English clauses, translations and category explanation are clear, followed by the C section introduction and complete C01/C02 answers. Æ/ǣ, eth and quantity marks in wǣdlan, rihtwīsan, onfēng and ðǣm are readable; answer labels, references, paragraphs and footer do not overlap.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 8,
+      "image_path": "typesetting/ch14/build/key-v2/page-008.png",
+      "image_sha256": "28929ee3da4f0b9f73c8a4a0bcdd6d792524ea3a4a3ce73b0db886d659de124b",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-008.png",
+        "sha256": "28929ee3da4f0b9f73c8a4a0bcdd6d792524ea3a4a3ce73b0db886d659de124b",
+        "render_version": "v1"
+      },
+      "observations": "C03 and C04 are each presented with a visible label, model and complete explanatory paragraph; the Cook VIII.26 section introduction is distinct. VIII.26.1 remains with its complete model and explanation; dūst/dūste, gewęntst and command forms have clear diacritics, and margins are unobstructed.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 9,
+      "image_path": "typesetting/ch14/build/key-v2/page-009.png",
+      "image_sha256": "09fa39fd9dd9e4a811f6ea01eb9ad51169ebf1c401585892671b7f3313c4d617",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-009.png",
+        "sha256": "09fa39fd9dd9e4a811f6ea01eb9ad51169ebf1c401585892671b7f3313c4d617",
+        "render_version": "v1"
+      },
+      "observations": "VIII.26.2–4 each retain their model and complete explanation on the same page; the multiple clauses in VIII.26.2 wrap without clipping. The æ/ǣ, ę, ð and macrons in āncęnnedan, Hǣlend, ðǣm, sōðfæstnes and līf are distinct; note [6] and footer 9 are clear.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 10,
+      "image_path": "typesetting/ch14/build/key-v2/page-010.png",
+      "image_sha256": "b951124b28c2e2ce15b42e72387e7be20cd1493620ef9f75434975a4922d7187",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-010.png",
+        "sha256": "b951124b28c2e2ce15b42e72387e7be20cd1493620ef9f75434975a4922d7187",
+        "render_version": "v1"
+      },
+      "observations": "VIII.26.5–7 models and complete explanations fit without clipped lines; all answer labels remain with content. The source correction contrast wǣstm/wæstm, long vowels in flōdas/hūs/fȳr and eth/æ forms are visually distinct; the reference line and footer are readable.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 11,
+      "image_path": "typesetting/ch14/build/key-v2/page-011.png",
+      "image_sha256": "94e417af5e5a9caed11f4963111b41e111d9ba5f0b802a60e22e7058d94d90f2",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete final v2 page with tools.view_image(detail='original'); inspected the rendered image directly.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v2/page-011.png",
+        "sha256": "94e417af5e5a9caed11f4963111b41e111d9ba5f0b802a60e22e7058d94d90f2",
+        "render_version": "v2"
+      },
+      "observations": "VIII.26.8–10 remain complete and readable, with each answer label attached to its model and explanation. The previously orphaned Cook VIII.27 heading has moved off this page; gebǣde/gebæd, eth, ogonek and quantity marks remain distinct, with no clipping or footer collision.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 12,
+      "image_path": "typesetting/ch14/build/key-v2/page-012.png",
+      "image_sha256": "a7c46abbf43a92dd11da5435a748d07f476ff595f3816c166b412febf4e10fd0",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete final v2 page with tools.view_image(detail='original'); inspected the rendered image directly.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v2/page-012.png",
+        "sha256": "a7c46abbf43a92dd11da5435a748d07f476ff595f3816c166b412febf4e10fd0",
+        "render_version": "v2"
+      },
+      "observations": "Cook VIII.27 now heads the page immediately above VIII.27.1, whose complete model and explanation remain together; the heading defect is resolved. VIII.27.2–3 also remain complete and readable. Macrons and æ/ǣ/ð/ę in the model forms, including gōdwębbe, are distinct; the added heading causes no overlap or clipping.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 13,
+      "image_path": "typesetting/ch14/build/key-v2/page-013.png",
+      "image_sha256": "b5bc7d0d3e2cba2902142d930259f80f9119d0095e7217e2e904563708ecb1f3",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-013.png",
+        "sha256": "b5bc7d0d3e2cba2902142d930259f80f9119d0095e7217e2e904563708ecb1f3",
+        "render_version": "v1"
+      },
+      "observations": "VIII.27.4–7 each keep their answer label, full model and explanation together; paragraphs and punctuation remain clear. Ogonek in ę, æ/ǣ and macrons in ęnglas, bǣron, āhōf, ēagan, sęnd and wǣdla are distinguishable; no line intrudes on the margins or footer.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 14,
+      "image_path": "typesetting/ch14/build/key-v2/page-014.png",
+      "image_sha256": "4a18f2bb86f4c93e1688ebacdaeb1943765ac5ad9ed807b3cb3a24f27331efb5",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-014.png",
+        "sha256": "4a18f2bb86f4c93e1688ebacdaeb1943765ac5ad9ed807b3cb3a24f27331efb5",
+        "render_version": "v1"
+      },
+      "observations": "VIII.27.8–10 are complete, with legible model sentences, commentary and item labels. The request/subjunctive form sęnde, long vowels in onfēnge/ðīnum/līfe/ārīse and eth render clearly; the page has clean margins and no overlap.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 15,
+      "image_path": "typesetting/ch14/build/key-v2/page-015.png",
+      "image_sha256": "84be8c77fa239800b8e4b20f3b92cbca9da2633264419c54117a11fb4d57b01e",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-015.png",
+        "sha256": "84be8c77fa239800b8e4b20f3b92cbca9da2633264419c54117a11fb4d57b01e",
+        "render_version": "v1"
+      },
+      "observations": "VIII.27.11's two-sentence model and both explanatory paragraphs form a complete, readable answer block. The selected gatum appears clearly in model and explanation; quantity marks in ēow/frēonda/ēowrum, eth and æ are clear, with ample footer clearance.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 16,
+      "image_path": "typesetting/ch14/build/key-v2/page-016.png",
+      "image_sha256": "8d3f520029c8269f19bf085ff26c9f7fbd8a47af45d14d73bf6b51ce51bbc6a4",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-016.png",
+        "sha256": "8d3f520029c8269f19bf085ff26c9f7fbd8a47af45d14d73bf6b51ce51bbc6a4",
+        "render_version": "v1"
+      },
+      "observations": "The Dangers of Greatness section and S01 heading introduce the complete translation cleanly; all five English translation paragraphs are legible and contained. Translation alternatives and syntax notes are clear, including woruldgeðyngða, bȳsena and gestęnt; the continuing final commentary paragraph has several lines on this page and clear footer separation.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 17,
+      "image_path": "typesetting/ch14/build/key-v2/page-017.png",
+      "image_sha256": "e324b931a68bb03df1254ebe19d49e117d83d72f29c2513d7b05a71ac792278b",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-017.png",
+        "sha256": "e324b931a68bb03df1254ebe19d49e117d83d72f29c2513d7b05a71ac792278b",
+        "render_version": "v1"
+      },
+      "observations": "The S01 commentary continues intelligibly from page 16; S02 argument and S03 tree-sentence answers each have complete, readable labelled blocks. Eth, long vowels, ǣ and ę in the cited phrases remain distinct; ellipses, quoted translations and [7] references render without overlap.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 18,
+      "image_path": "typesetting/ch14/build/key-v2/page-018.png",
+      "image_sha256": "964c354d245b3332b4b209e0f54947b0b988c0295797c26f1fc00df8b890500d",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-018.png",
+        "sha256": "964c354d245b3332b4b209e0f54947b0b988c0295797c26f1fc00df8b890500d",
+        "render_version": "v1"
+      },
+      "observations": "S04 and S05 answers are complete; S06's subject/outcome table has clear column separation, three complete rows and an unobstructed bottom rule. Long-vowel and eth forms in ealdordōmes, eorðlican and the table are legible; the explanation below the table fits with comfortable footer clearance.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 19,
+      "image_path": "typesetting/ch14/build/key-v2/page-019.png",
+      "image_sha256": "fa941b207df00bb934a1f3a90afb9d0ea60ecaeeef810cf5b0c6ac99533c5020",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-019.png",
+        "sha256": "fa941b207df00bb934a1f3a90afb9d0ea60ecaeeef810cf5b0c6ac99533c5020",
+        "render_version": "v1"
+      },
+      "observations": "S07 pairs/repetitions has its heading and full explanation together, with clear quoted forms and English glosses. The three tō phrases, hēah/hēaclifum/hēagum/hēan family forms, macrons and eth are legible; text and footer remain unobstructed.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 20,
+      "image_path": "typesetting/ch14/build/key-v2/page-020.png",
+      "image_sha256": "5048bfcfd26ec818ab09e19b9957551f0504fd26ec1bdba0eb5c1fee15b5bdca",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-020.png",
+        "sha256": "5048bfcfd26ec818ab09e19b9957551f0504fd26ec1bdba0eb5c1fee15b5bdca",
+        "render_version": "v1"
+      },
+      "observations": "Sources and selected forms displays notes 1–6 in readable smaller type with clear bold note labels and italic titles. Source section symbols, page/PDF references, acute/macron distinctions and ę/æ/ð remain legible; note 6 continues naturally onto page 21 without margin or footer collisions.",
+      "final_identity_verified": true,
+      "status": "pass"
+    },
+    {
+      "page": 21,
+      "image_path": "typesetting/ch14/build/key-v2/page-021.png",
+      "image_sha256": "c774c713815c2b171854291784339735111f4333bf276c90844c1b6e48ec3e88",
+      "actually_viewed": true,
+      "inspection_method": "Personally viewed the complete v1 page with tools.view_image(detail='original'); independently verified that the final v2 PNG is byte-identical by SHA-256. The directly inspected image is identified below.",
+      "personally_viewed_image": {
+        "path": "typesetting/ch14/build/key-v1/page-021.png",
+        "sha256": "c774c713815c2b171854291784339735111f4333bf276c90844c1b6e48ec3e88",
+        "render_version": "v1"
+      },
+      "observations": "The two-line continuation of note 6 and complete note 7 remain readable and clearly separated. Reading-title italics, editorial line locators, gestęnt/sē ōðer wudu and līeg render distinctly; the ending note text and final page number are complete with no clipping.",
+      "final_identity_verified": true,
+      "status": "pass"
+    }
+  ],
+  "initial_review": {
+    "render_version": "v1",
+    "pdf_sha256": "6503e70324f1955750ae3ef9f7dfe47d6dd9e73a608c16161cf42a0c675a9301",
+    "status": "needs_revision",
+    "pages": [
+      {
+        "page": 1,
+        "image_path": "typesetting/ch14/build/key-v1/page-001.png",
+        "image_sha256": "882c5852275cc7e17c106aefc4591f58ee29f6ccb7ce3524f9e6247140b05a70",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "Title and running header identify Unit 14 answer key; the 44-task coverage and answer-use paragraphs are readable and contained within the text block. Reference [1], hyphenated line ending in word-order, and page number 1 render clearly; no clipping or overlap.",
+        "status": "pass"
+      },
+      {
+        "page": 2,
+        "image_path": "typesetting/ch14/build/key-v1/page-002.png",
+        "image_sha256": "40ee928f13a47830eb625d799df8323894a468c12594af44a2e6550fdb11e876",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "F01 wǣdla/ēage declensions and F02 goldhord table retain clear case, singular and plural columns and all rows. Macrons on ǣ/ē/ō and the ogonek in gōdwębbe are distinct; explanatory text fits above the footer without colliding with table rules or headings.",
+        "status": "pass"
+      },
+      {
+        "page": 3,
+        "image_path": "typesetting/ch14/build/key-v1/page-003.png",
+        "image_sha256": "220f602225f88eb239e8dd914105fd6a54b9fb634296a0c1f39211f53332f51a",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "F03 liccian table and F04 selected indicative forms have readable headers, aligned answer cells, and complete bottom rules. Eth, æ, ę and quantity marks are legible in the forms and explanations, including liccað, gelīefð, āhruron, āhęfð and onfēnge; prose and footer remain clear.",
+        "status": "pass"
+      },
+      {
+        "page": 4,
+        "image_path": "typesetting/ch14/build/key-v1/page-004.png",
+        "image_sha256": "f55862b5797afaae227dad481ead4c09488a10e757bbaceb60f26facb0544f85",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "F05 subjunctive paradigms, the additional-cell table, and both F06 participle/command tables are complete and have distinct columns and rules. Long-æ in gebǣde/gebǣden, ę in sęnde/geglęngan, and eth in commands render clearly; dense lower prose still clears the page number and margins.",
+        "status": "pass"
+      },
+      {
+        "page": 5,
+        "image_path": "typesetting/ch14/build/key-v1/page-005.png",
+        "image_sha256": "b0df8783fe272334c1c53911b24044140a210f0550b182b893f30db5a251a948",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "A01's widened compound table displays expression, components/head, and inflection/meaning in separate readable columns; heofonfȳre and hēaclifum stay within their cells. The A02 derived-noun table and explanation fit cleanly; ē/ī/ȳ quantity marks, heading spacing and table rules are readable without clipping or overlap.",
+        "status": "pass"
+      },
+      {
+        "page": 6,
+        "image_path": "typesetting/ch14/build/key-v1/page-006.png",
+        "image_sha256": "b6a40d99116c4aa2bee6cef44fc01714867c590de8d221694a7eab701139f6c0",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "A03, A04 and A05 headings remain attached to their answers and explanatory paragraphs. Eth, ā/ī/ō quantity marks and the derivation/inflection arrows in rihtwīs → rihtwīsnes → rihtwīsnesse are distinct; the complete prose fits within margins.",
+        "status": "pass"
+      },
+      {
+        "page": 7,
+        "image_path": "typesetting/ch14/build/key-v1/page-007.png",
+        "image_sha256": "47340c1b978d91d01b0be587d8d5c4c5af8c303ab4b578957fe94b8b41e68df3",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "A06's two labelled Old English clauses, translations and category explanation are clear, followed by the C section introduction and complete C01/C02 answers. Æ/ǣ, eth and quantity marks in wǣdlan, rihtwīsan, onfēng and ðǣm are readable; answer labels, references, paragraphs and footer do not overlap.",
+        "status": "pass"
+      },
+      {
+        "page": 8,
+        "image_path": "typesetting/ch14/build/key-v1/page-008.png",
+        "image_sha256": "28929ee3da4f0b9f73c8a4a0bcdd6d792524ea3a4a3ce73b0db886d659de124b",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "C03 and C04 are each presented with a visible label, model and complete explanatory paragraph; the Cook VIII.26 section introduction is distinct. VIII.26.1 remains with its complete model and explanation; dūst/dūste, gewęntst and command forms have clear diacritics, and margins are unobstructed.",
+        "status": "pass"
+      },
+      {
+        "page": 9,
+        "image_path": "typesetting/ch14/build/key-v1/page-009.png",
+        "image_sha256": "09fa39fd9dd9e4a811f6ea01eb9ad51169ebf1c401585892671b7f3313c4d617",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "VIII.26.2–4 each retain their model and complete explanation on the same page; the multiple clauses in VIII.26.2 wrap without clipping. The æ/ǣ, ę, ð and macrons in āncęnnedan, Hǣlend, ðǣm, sōðfæstnes and līf are distinct; note [6] and footer 9 are clear.",
+        "status": "pass"
+      },
+      {
+        "page": 10,
+        "image_path": "typesetting/ch14/build/key-v1/page-010.png",
+        "image_sha256": "b951124b28c2e2ce15b42e72387e7be20cd1493620ef9f75434975a4922d7187",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "VIII.26.5–7 models and complete explanations fit without clipped lines; all answer labels remain with content. The source correction contrast wǣstm/wæstm, long vowels in flōdas/hūs/fȳr and eth/æ forms are visually distinct; the reference line and footer are readable.",
+        "status": "pass"
+      },
+      {
+        "page": 11,
+        "image_path": "typesetting/ch14/build/key-v1/page-011.png",
+        "image_sha256": "2d57cc208b1d744d087add9be03b6baa38b04d6f4c4d3b18240bb7eae52aac14",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "VIII.26.8–10 have complete, readable model and explanation blocks; gebǣde/gebæd and quantity marks are distinct. Layout repair required: the section heading Cook VIII.27 stands alone at the page bottom, separated from VIII.27.1 on page 12.",
+        "status": "needs_revision"
+      },
+      {
+        "page": 12,
+        "image_path": "typesetting/ch14/build/key-v1/page-012.png",
+        "image_sha256": "8cbfb8f36a22e0250b0e1f66b3eed3664ca8fae9f69b79c078aba31ee6ca8c66",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "VIII.27.1–3 models and explanations are complete and readable, with clear answer labels. The selected spelling and quantity in gōdwębbe and the distinct æ/ǣ/ð/ę glyphs remain legible; table-free prose has unobstructed margins and footer.",
+        "status": "pass"
+      },
+      {
+        "page": 13,
+        "image_path": "typesetting/ch14/build/key-v1/page-013.png",
+        "image_sha256": "b5bc7d0d3e2cba2902142d930259f80f9119d0095e7217e2e904563708ecb1f3",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "VIII.27.4–7 each keep their answer label, full model and explanation together; paragraphs and punctuation remain clear. Ogonek in ę, æ/ǣ and macrons in ęnglas, bǣron, āhōf, ēagan, sęnd and wǣdla are distinguishable; no line intrudes on the margins or footer.",
+        "status": "pass"
+      },
+      {
+        "page": 14,
+        "image_path": "typesetting/ch14/build/key-v1/page-014.png",
+        "image_sha256": "4a18f2bb86f4c93e1688ebacdaeb1943765ac5ad9ed807b3cb3a24f27331efb5",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "VIII.27.8–10 are complete, with legible model sentences, commentary and item labels. The request/subjunctive form sęnde, long vowels in onfēnge/ðīnum/līfe/ārīse and eth render clearly; the page has clean margins and no overlap.",
+        "status": "pass"
+      },
+      {
+        "page": 15,
+        "image_path": "typesetting/ch14/build/key-v1/page-015.png",
+        "image_sha256": "84be8c77fa239800b8e4b20f3b92cbca9da2633264419c54117a11fb4d57b01e",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "VIII.27.11's two-sentence model and both explanatory paragraphs form a complete, readable answer block. The selected gatum appears clearly in model and explanation; quantity marks in ēow/frēonda/ēowrum, eth and æ are clear, with ample footer clearance.",
+        "status": "pass"
+      },
+      {
+        "page": 16,
+        "image_path": "typesetting/ch14/build/key-v1/page-016.png",
+        "image_sha256": "8d3f520029c8269f19bf085ff26c9f7fbd8a47af45d14d73bf6b51ce51bbc6a4",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "The Dangers of Greatness section and S01 heading introduce the complete translation cleanly; all five English translation paragraphs are legible and contained. Translation alternatives and syntax notes are clear, including woruldgeðyngða, bȳsena and gestęnt; the continuing final commentary paragraph has several lines on this page and clear footer separation.",
+        "status": "pass"
+      },
+      {
+        "page": 17,
+        "image_path": "typesetting/ch14/build/key-v1/page-017.png",
+        "image_sha256": "e324b931a68bb03df1254ebe19d49e117d83d72f29c2513d7b05a71ac792278b",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "The S01 commentary continues intelligibly from page 16; S02 argument and S03 tree-sentence answers each have complete, readable labelled blocks. Eth, long vowels, ǣ and ę in the cited phrases remain distinct; ellipses, quoted translations and [7] references render without overlap.",
+        "status": "pass"
+      },
+      {
+        "page": 18,
+        "image_path": "typesetting/ch14/build/key-v1/page-018.png",
+        "image_sha256": "964c354d245b3332b4b209e0f54947b0b988c0295797c26f1fc00df8b890500d",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "S04 and S05 answers are complete; S06's subject/outcome table has clear column separation, three complete rows and an unobstructed bottom rule. Long-vowel and eth forms in ealdordōmes, eorðlican and the table are legible; the explanation below the table fits with comfortable footer clearance.",
+        "status": "pass"
+      },
+      {
+        "page": 19,
+        "image_path": "typesetting/ch14/build/key-v1/page-019.png",
+        "image_sha256": "fa941b207df00bb934a1f3a90afb9d0ea60ecaeeef810cf5b0c6ac99533c5020",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "S07 pairs/repetitions has its heading and full explanation together, with clear quoted forms and English glosses. The three tō phrases, hēah/hēaclifum/hēagum/hēan family forms, macrons and eth are legible; text and footer remain unobstructed.",
+        "status": "pass"
+      },
+      {
+        "page": 20,
+        "image_path": "typesetting/ch14/build/key-v1/page-020.png",
+        "image_sha256": "5048bfcfd26ec818ab09e19b9957551f0504fd26ec1bdba0eb5c1fee15b5bdca",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "Sources and selected forms displays notes 1–6 in readable smaller type with clear bold note labels and italic titles. Source section symbols, page/PDF references, acute/macron distinctions and ę/æ/ð remain legible; note 6 continues naturally onto page 21 without margin or footer collisions.",
+        "status": "pass"
+      },
+      {
+        "page": 21,
+        "image_path": "typesetting/ch14/build/key-v1/page-021.png",
+        "image_sha256": "c774c713815c2b171854291784339735111f4333bf276c90844c1b6e48ec3e88",
+        "actually_viewed": true,
+        "inspection_method": "Direct tools.view_image display of the complete individual PNG at original resolution.",
+        "observations": "The two-line continuation of note 6 and complete note 7 remain readable and clearly separated. Reading-title italics, editorial line locators, gestęnt/sē ōðer wudu and līeg render distinctly; the ending note text and final page number are complete with no clipping.",
+        "status": "pass"
+      }
+    ]
+  },
+  "special_character_scope": "Read the rendered quantity marks, æ/ǣ, eth and ę where present in forms, tables, models and commentary, including the distinction between wǣstm and wæstm, the selected gatum, and the quantity/ogonek in gōdwębbe.",
+  "scope_limit": "Independent presentation review of the identified complete key export. It does not replace the accepted linguistic/source review, task-solving witness, register integration or coordinator release checks."
+}

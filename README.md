@@ -1,6 +1,6 @@
 # Old English: Cook / Lambdin-style course
 
-A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **Units 1–13 are complete** with separate learner and answer-key PDFs.
+A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **Units 1–14 are complete** with separate learner and answer-key PDFs.
 
 Start with [STATUS.md](STATUS.md), [AGENTS.md](AGENTS.md), and the [course plan](curriculum/COURSE_PLAN.md). The [handoff](docs/HANDOFF.md) gives the next session's starting task; [prompts/START_HERE.txt](prompts/START_HERE.txt) can be pasted directly into it.
 
@@ -31,6 +31,8 @@ The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/an
 **Unit 12 is complete:** [learner PDF](typesetting/ch12/chapter-12.pdf), 47 pages, and [separate key PDF](typesetting/ch12/answer-key.pdf), 30 pages. The unit covers tense, sequence and voice through 62 complete defined systems / 692 cells, a separate twelve-position compound construction table and 76 tasks, including all 38 Cook VI.19–21 prompts. A new connected account prepares the exact first Roman relief and renewed invasion passage, with local help and all 21 attached original notes. All 77 pages passed non-author inspection; reviewed registers preserve earlier history. See the [review and export record](typesetting/ch12/README.md).
 
 **Unit 13 is complete:** [learner PDF](typesetting/ch13/chapter-13.pdf), 52 pages, and [separate key PDF](typesetting/ch13/answer-key.pdf), 30 pages. Clause order and reference are taught through 76 complete defined systems / 1,008 cells and 90 tasks, including all 52 Cook VII.22–25 prompts. An 87-word new account prepares the exact 236-word music-and-summons episode from *The Passing of Chad*, with local help and all 24 original notes. Fresh independent reviews and non-author inspection of all 82 pages are complete. See the [review and export record](typesetting/ch13/README.md).
+
+**Unit 14 is complete:** [learner PDF](typesetting/ch14/chapter-14.pdf), 35 pages, and [separate key PDF](typesetting/ch14/answer-key.pdf), 21 pages. Word formation and lexical families are taught through 38 complete systems / 324 cells and 44 tasks, including all 21 Cook VIII.26–27 prompts. The exact 159-word opening argument of *The Dangers of Greatness* has local help and all 24 original notes. Fresh independent reviews and non-author inspection of all 56 pages are complete. See the [review and export record](typesetting/ch14/README.md).
 
 The earlier two-chapter experiment is preserved under [reference/previous-course](reference/previous-course/README.md), with its source evidence, corrections, and complete PDFs. Its learning milestones do not apply to this course.
 

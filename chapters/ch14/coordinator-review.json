@@ -1,6 +1,6 @@
 {
   "chapter_id": "ch14",
-  "status": "accepted_independent_text_review",
+  "status": "accepted_complete",
   "coordinator": "root",
   "date": "2026-10-26",
   "contract_checkpoint": "18cfa3a",
@@ -44,10 +44,7 @@
     "Strong possessive dēorwierðu remains valid under actual Unit3 scope. Bare-relative and final-verb controls are assessed separately from general grammatical validity.",
     "U14-A01 repairs preliminary gate-help copies to existing gatum. U14-A02 corrects evidence metadata only, verified from actual images. Sealed audit packets remain unchanged."
   ],
-  "remaining_gates": [
-    "Produce complete LuaLaTeX exports, full parity and every-page non-author inspection.",
-    "Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally."
-  ],
+  "remaining_gates": [],
   "independent_acceptance": {
     "record": "chapters/ch14/review.md",
     "ledger": "chapters/ch14/review-ledger.json",
@@ -71,5 +68,90 @@
       "normalized_lf_sha256": "6064a8f05c5a7e4b7ccda13dc417bfc0ae20c066209331096d0625ca9b5683e6"
     }
   ],
-  "scope_limit": "Independent text and paradigm review accepted. Export inspection and register integration remain separate gates. Earlier draft observations and identities are retained as historical records."
+  "scope_limit": "Unit14 complete; no Unit15 drafting. Authors do not claim fresh blind independence. Original witnesses, sealed audits, earlier chapters and archive are preserved.",
+  "presentation_acceptance": {
+    "record": "typesetting/ch14/page-review.json",
+    "sha256": "85eb313089c0bc6c853bad3acd1c2a1156ffd065ea10d23bbbfdc99f66937fdb",
+    "page_totals": {
+      "learner": 35,
+      "key": 21,
+      "total": 56
+    }
+  },
+  "register_integration": {
+    "record": "chapters/ch14/register-integration.json",
+    "sha256": "f410eaf7862aea1a73ba129ddb6965a831dae2676f1076db425bf8a1c1442bc6",
+    "metrics": {
+      "before": {
+        "lemmas": 758,
+        "forms": 9308,
+        "senses": 918,
+        "features": 730
+      },
+      "after": {
+        "lemmas": 830,
+        "forms": 9710,
+        "senses": 1017,
+        "features": 820
+      },
+      "unit14_status_counts": {
+        "forms": {
+          "new_production": 296,
+          "new_recognition_only": 28,
+          "supplied_here": 99
+        },
+        "senses": {
+          "new_production": 34,
+          "new_recognition_only": 0,
+          "supplied_here": 77
+        },
+        "features": {
+          "new_production": 63,
+          "new_recognition_only": 2,
+          "supplied_here": 25
+        }
+      },
+      "reused_supplied_records": {
+        "form": {
+          "leornian-inf-citation": [
+            "NEW-U14-A02"
+          ],
+          "soth-citation-form": [
+            "NEW-U14-A03"
+          ],
+          "swith-citation-form": [
+            "NEW-U14-A03"
+          ],
+          "berstan-infinitive-citation": [
+            "NEW-U14-A04"
+          ],
+          "forweorthan-infinitive-citation": [
+            "NEW-U14-A04"
+          ],
+          "toberstan-infinitive-citation": [
+            "NEW-U14-A04"
+          ],
+          "weorthan-infinitive-citation": [
+            "NEW-U14-A04"
+          ]
+        },
+        "sense": {
+          "soth-citation-1": [
+            "NEW-U14-A03"
+          ],
+          "swith-citation-1": [
+            "NEW-U14-A03"
+          ]
+        },
+        "feature": {}
+      },
+      "reused_taught_in_visible_help": {
+        "form": {},
+        "sense": {},
+        "feature": {}
+      }
+    },
+    "earlier_active_artifacts_preserved": 1975,
+    "archive_files_preserved": 134
+  }
 }

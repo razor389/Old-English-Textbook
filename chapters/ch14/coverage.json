@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch14",
   "title": "Word formation and lexical families",
-  "status": "text_accepted_exports_pending",
+  "status": "reviewed_complete",
   "contract_date": "2026-10-26",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -196749,7 +196749,7 @@
     "typeset": "oec-u14-typeset",
     "finish": "oec-u14-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_text_and_exports",
   "amendments": [
     {
       "amendment_id": "U14-A01",
@@ -196813,9 +196813,18 @@
     "design_validation": "curriculum/proposals/unit14/validation.json"
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "date": "2026-10-26",
+    "register_integration": "chapters/ch14/register-integration.json",
+    "presentation_review": "typesetting/ch14/page-review.json",
+    "learner_pdf": "typesetting/ch14/chapter-14.pdf",
+    "key_pdf": "typesetting/ch14/answer-key.pdf",
+    "all_assigned_tasks_reviewed": 44,
+    "all_cook_items_retained": 21,
+    "next_unit_policy": "Unit15 remains undrafted; begin only when requested.",
+    "checkpoint_note": "Completion files and Beads export are saved locally; final handoff records the resulting revision."
   },
   "form_identity_reconciliation": [],
   "lexical_frames": [
@@ -198393,5 +198402,33 @@
     },
     "material_open_findings": 0,
     "scope_limit": "Complete exports, every-page visual inspection and register integration remain separate gates."
+  },
+  "accepted_text_checkpoint": "5721c5f",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch14/page-review.json",
+    "record_sha256": "85eb313089c0bc6c853bad3acd1c2a1156ffd065ea10d23bbbfdc99f66937fdb",
+    "page_totals": {
+      "learner": 35,
+      "key": 21,
+      "total": 56
+    },
+    "complete_content_parity": "typesetting/ch14/content-parity.json",
+    "every_page_inspected_by_non_author": true,
+    "unresolved_findings": [],
+    "documents": [
+      {
+        "kind": "learner",
+        "path": "typesetting/ch14/chapter-14.pdf",
+        "sha256": "c8e744ae02a81d8456a18a5329f41bc0df963a83f0311758ddf8f986679d76d1",
+        "pages": 35
+      },
+      {
+        "kind": "key",
+        "path": "typesetting/ch14/answer-key.pdf",
+        "sha256": "9334562b9b15356953afe9a48f7a856ae8b1578f08b8d260d37fbc6d8ff70a4f",
+        "pages": 21
+      }
+    ]
   }
 }
