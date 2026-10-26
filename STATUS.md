@@ -1,6 +1,12 @@
 # Status
 
-Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–12 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`6f4f1e2`**. Unit 13 has not been drafted.
+Updated 25 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–12 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete exports and reviewed registers are saved at **`6f4f1e2`**. **Unit 13 is in source and curriculum audit; no prose has been drafted.**
+
+## Unit 13 underway
+
+The authorized unit concerns clause order and reference, all 52 Cook VII.22–25 prompts, and a connected extract from *The Passing of Chad*. Three agents have exclusive source, grammar and curriculum proposal files; the coordinator alone writes Beads and the canonical contract. The selected 236-word music-and-summons extract runs from printed 152.3 to 153.9 (partial), one-based PDF 168–169. Its preceding context will be supplied separately in English.
+
+The prior course is frozen against `e17fc5f`: all twelve active contracts, the actual registers (647 lemmas, 8,235 forms, 778 senses and 599 constructions), 1,818 prior active artifacts and 134 archived files. The new contract must reconcile all required senses, forms and constructions before authorship. No Unit 14 work is assigned.
 
 ## Completed Unit 12
 
