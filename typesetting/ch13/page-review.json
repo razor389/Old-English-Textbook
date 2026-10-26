@@ -1,0 +1,1517 @@
+{
+  "schema_version": 1,
+  "chapter_id": "ch13",
+  "status": "PASS",
+  "accepted_at_utc": "2026-10-26T15:19:29.357227+00:00",
+  "presentation_aggregator": "coordinator",
+  "aggregation_method": "Reconciled three non-author ledgers against every final PDF/image identity, full content parity and clean logs. Every final page has a recorded visual inspection or an explicit verified identity with a directly inspected image. The individual ledgers record the actual inspection and any repair history. The coordinator aggregates those records rather than claiming personal inspection of every page.",
+  "accepted_text_checkpoint": "aec6c7f",
+  "accepted_text_identities": [
+    {
+      "path": "chapters/ch13/student.md",
+      "sha256": "5207c40a188f26d95917b96680fa1e1e1f5a222abc0d3cbfbb9463dd81acbf88",
+      "sha256_normalized_lf": "5207c40a188f26d95917b96680fa1e1e1f5a222abc0d3cbfbb9463dd81acbf88"
+    },
+    {
+      "path": "chapters/ch13/answer-key.md",
+      "sha256": "1be99f4460b8c467f522532344030fdd010a19d5952ea3ca5ae92a45f18cbf71",
+      "sha256_normalized_lf": "1be99f4460b8c467f522532344030fdd010a19d5952ea3ca5ae92a45f18cbf71"
+    },
+    {
+      "path": "chapters/ch13/independent-solutions.md",
+      "sha256": "46e9b55f90e475895ba5e0bc9dbec4fa0b97287e8c0833df2ec80b75a1a32efd",
+      "sha256_normalized_lf": "46e9b55f90e475895ba5e0bc9dbec4fa0b97287e8c0833df2ec80b75a1a32efd"
+    }
+  ],
+  "page_totals": {
+    "learner": 52,
+    "key": 30,
+    "total": 82
+  },
+  "every_final_page_visually_inspected_by_non_author": true,
+  "page_coverage_complete_without_overlap": true,
+  "reviewer_ledgers": [
+    {
+      "path": "typesetting/ch13/reviews/learner-first.json",
+      "sha256": "6c20ac5e2b61a7994cd31747e428363b374c224d87cc4e41d5334e917556a2b6",
+      "sha256_normalized_lf": "6c20ac5e2b61a7994cd31747e428363b374c224d87cc4e41d5334e917556a2b6"
+    },
+    {
+      "path": "typesetting/ch13/reviews/learner-last.json",
+      "sha256": "5537c59e499124ae460b96087e95a01b93190bcb9bd29ac8b58a4994023bccbf",
+      "sha256_normalized_lf": "5537c59e499124ae460b96087e95a01b93190bcb9bd29ac8b58a4994023bccbf"
+    },
+    {
+      "path": "typesetting/ch13/reviews/key.json",
+      "sha256": "3757a67ffe3bc0b86c77d513c4099239d2db33c457fa072160f7af92bcdcac37",
+      "sha256_normalized_lf": "3757a67ffe3bc0b86c77d513c4099239d2db33c457fa072160f7af92bcdcac37"
+    }
+  ],
+  "documents": [
+    {
+      "kind": "learner",
+      "path": "typesetting/ch13/chapter-13.pdf",
+      "sha256": "a2cb58195b9babe3359909a78f2170129e7e55544a0684e21f02f1578dc34a87",
+      "build_path": "typesetting/ch13/build/chapter-13.pdf",
+      "pages": 52,
+      "render_dpi": 150,
+      "page_review_records": [
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 1,
+          "image_path": "typesetting/ch13/build/learner-v2/page-001.png",
+          "image_sha256": "78bb186a3c51cbb212441c1573cdedcd3b78d66f41a3db1c646af4a914c706e5",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-001.png.",
+          "observations": "Title, scope paragraph and section 1 remain together; e/ę distinction and ð in examples are legible. Running head, page number and margins are clear; no clipping or overlap.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-001.png",
+          "personally_viewed_image_sha256": "78bb186a3c51cbb212441c1573cdedcd3b78d66f41a3db1c646af4a914c706e5"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 2,
+          "image_path": "typesetting/ch13/build/learner-v2/page-002.png",
+          "image_sha256": "59f101e82e001c3a463b9894e79c861c05f41f7d00859c8a436c969a95c1896a",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-002.png.",
+          "observations": "Examples 1–4 and the section 2 heading have readable spacing; bold OE macrons and ð/Ð render distinctly. The final explanation stays above the footer without clipping.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-002.png",
+          "personally_viewed_image_sha256": "59f101e82e001c3a463b9894e79c861c05f41f7d00859c8a436c969a95c1896a"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 3,
+          "image_path": "typesetting/ch13/build/learner-v2/page-003.png",
+          "image_sha256": "25a3f2beac63938cfe899f938f076bb016e61581bacd7dccc233d4d5afa8e270",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-003.png.",
+          "observations": "Examples 9–10 and both order-help extracts are readable, including Æ, macrons and ð. Dense page stays within margins; final line clears the page number and no text overlaps.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-003.png",
+          "personally_viewed_image_sha256": "25a3f2beac63938cfe899f938f076bb016e61581bacd7dccc233d4d5afa8e270"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 4,
+          "image_path": "typesetting/ch13/build/learner-v2/page-004.png",
+          "image_sha256": "6cd16d5c7ea66620e1c618eefaf45199488d308627592844eea5bd08c190e03f",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-004.png.",
+          "observations": "Section 2 continuation and section 3 examples 5–7 have clear paragraph and heading spacing. Macrons in pronouns/nouns and ð remain distinct; no stranded heading or collision at the footer.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-004.png",
+          "personally_viewed_image_sha256": "6cd16d5c7ea66620e1c618eefaf45199488d308627592844eea5bd08c190e03f"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 5,
+          "image_path": "typesetting/ch13/build/learner-v2/page-005.png",
+          "image_sha256": "2224066513942bd6f89cb7dcc0e656fb30c5a8b8e90c0108a449b751ef657b98",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-005.png.",
+          "observations": "Section 4 and section 5 headings stay with their examples; quotation punctuation, Æ/Ð and macrons are legible. Example 11 and examples 8/12 fit without line or margin collisions.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-005.png",
+          "personally_viewed_image_sha256": "2224066513942bd6f89cb7dcc0e656fb30c5a8b8e90c0108a449b751ef657b98"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 6,
+          "image_path": "typesetting/ch13/build/learner-v2/page-006.png",
+          "image_sha256": "91259acd1762aec145a66a2cd53d3ecafd49c70bab9f23188cdc3d346946aa15",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-006.png.",
+          "observations": "Section 6 introductory prose leads directly into the noun/gender/meaning table. All three columns are aligned and readable, including unrighteousness; continuation note is separate from the page number.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-006.png",
+          "personally_viewed_image_sha256": "91259acd1762aec145a66a2cd53d3ecafd49c70bab9f23188cdc3d346946aa15"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 7,
+          "image_path": "typesetting/ch13/build/learner-v2/page-007.png",
+          "image_sha256": "296b002ed08ede57cef7e74cee7129a2e9bf977594077303dffdc1a641111d40",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-007.png.",
+          "observations": "Vocabulary continuation repeats its three headers and closes cleanly. ę in hęll, macrons and ð are distinct. The complete-noun-models heading stays with explanatory prose; the paragraph continues normally on page 8.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-007.png",
+          "personally_viewed_image_sha256": "296b002ed08ede57cef7e74cee7129a2e9bf977594077303dffdc1a641111d40"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 8,
+          "image_path": "typesetting/ch13/build/learner-v2/page-008.png",
+          "image_sha256": "7735b66bd5fcfd9c69d5da17849b8ae8e94dd98ff59c46cd66b8c8814dbdb0d9",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-008.png.",
+          "observations": "Noun-model prose and tables 1–3 are clear. All case/singular/plural headings and four-row paradigms align; the reference-only note remains attached to table 1; macrons in īdelnes/mōdor/mēder are intact.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-008.png",
+          "personally_viewed_image_sha256": "7735b66bd5fcfd9c69d5da17849b8ae8e94dd98ff59c46cd66b8c8814dbdb0d9"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 9,
+          "image_path": "typesetting/ch13/build/learner-v2/page-009.png",
+          "image_sha256": "169710d21603f733ebf9420e480257ee32e2e8fe541eaec19330cb9e163136ef",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-009.png.",
+          "observations": "Tables 4–7 retain complete four-case rows, aligned singular/plural columns and clear labels. The leornung reference-only note remains with table 5; līchama macrons and table rules are clean.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-009.png",
+          "personally_viewed_image_sha256": "169710d21603f733ebf9420e480257ee32e2e8fe541eaec19330cb9e163136ef"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 10,
+          "image_path": "typesetting/ch13/build/learner-v2/page-010.png",
+          "image_sha256": "0c5df57c69a03988f58005cc7074d9b4507b66c6c5c5eff768be81e67037486e",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-010.png.",
+          "observations": "Tables 8–11 have intact captions, all case rows, and aligned columns. ēagðȳrel forms preserve both length marks and ð; æx and gefērscipe letters are legible. The reference-only note is attached and rules do not touch text.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-010.png",
+          "personally_viewed_image_sha256": "0c5df57c69a03988f58005cc7074d9b4507b66c6c5c5eff768be81e67037486e"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 11,
+          "image_path": "typesetting/ch13/build/learner-v2/page-011.png",
+          "image_sha256": "237a2ab0da0f6885a92cdb0b5798be56e295d050df25f54b5aeacaf0f53ed73d",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-011.png.",
+          "observations": "Tables 12–15 and section 6.2 fit clearly. brōðor/brēðer and frēond/frīend contrasts remain visible; the new subsection includes its complete introductory paragraph rather than a stranded heading.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-011.png",
+          "personally_viewed_image_sha256": "237a2ab0da0f6885a92cdb0b5798be56e295d050df25f54b5aeacaf0f53ed73d"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 12,
+          "image_path": "typesetting/ch13/build/learner-v2/page-012.png",
+          "image_sha256": "e52c1b16b206d193d5e25e5e2176195031fbb366d46182b852857b7f61847a6a",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-012.png.",
+          "observations": "The long noun/stem/model matrix fits on one page with all rows aligned. Long stems unrihtwīsness and untrymness remain inside the stem column; macrons, ę and ð are visible and all model labels are separate.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-012.png",
+          "personally_viewed_image_sha256": "e52c1b16b206d193d5e25e5e2176195031fbb366d46182b852857b7f61847a6a"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 13,
+          "image_path": "typesetting/ch13/build/learner-v2/page-013.png",
+          "image_sha256": "5f9d5988b6ef35c5b452390b7fd77778bd02f7837f09ed1f0ae4f86b73b616cf",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-013.png.",
+          "observations": "Four-column diagnostic noun table remains readable throughout, with G singular/D singular/N plural labels unambiguous. Long unrihtwīsnes forms fit their columns; ī/ē/ō/ȳ, ð and ę display cleanly.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-013.png",
+          "personally_viewed_image_sha256": "5f9d5988b6ef35c5b452390b7fd77778bd02f7837f09ed1f0ae4f86b73b616cf"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 14,
+          "image_path": "typesetting/ch13/build/learner-v2/page-014.png",
+          "image_sha256": "cf53fe2192707c79582f389c3180db4902703c02ca52a70f6f9a6554e448fb88",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-014.png.",
+          "observations": "Shared-model operation table wraps longer instructions within the third column while preserving row association. Complete-model header wraps cleanly; hęll and macron-bearing stems render correctly; following alternatives paragraph is clear.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-014.png",
+          "personally_viewed_image_sha256": "cf53fe2192707c79582f389c3180db4902703c02ca52a70f6f9a6554e448fb88"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 15,
+          "image_path": "typesetting/ch13/build/learner-v2/page-015.png",
+          "image_sha256": "e42974219b189efffbb2e005a2b6ef9de291238824a0f116ca1209d80c7cf572",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-015.png.",
+          "observations": "Section 6.3 begins with a compact aligned adjective/meaning table followed by complete explanatory paragraphs. hęfig, wīerðe and the comparative/superlative macrons remain readable; no heading or table material is stranded.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-015.png",
+          "personally_viewed_image_sha256": "e42974219b189efffbb2e005a2b6ef9de291238824a0f116ca1209d80c7cf572"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 16,
+          "image_path": "typesetting/ch13/build/learner-v2/page-016.png",
+          "image_sha256": "177ebd6afb3040857acec41c5f6f0eb2284836da10d99ae8b425e4bb858b4dfb",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-016.png.",
+          "observations": "Tables 16–17 keep strong/weak hālig singular and plural panels together. Gender/number labels and instrumental reference cells are clear; wrapped masculine-singular headers do not collide with adjacent columns.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-016.png",
+          "personally_viewed_image_sha256": "177ebd6afb3040857acec41c5f6f0eb2284836da10d99ae8b425e4bb858b4dfb"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 17,
+          "image_path": "typesetting/ch13/build/learner-v2/page-017.png",
+          "image_sha256": "a24c7c9925d99954ac96366978133c76f59856c85f42f6d6c2cfcaf3b8001f2b",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-017.png.",
+          "observations": "Tables 18–19 show swēte strong/weak panels with all case and gender labels legible. ē length marks are distinct in every row; doubled panel rules and inter-table spacing separate the structures cleanly.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-017.png",
+          "personally_viewed_image_sha256": "a24c7c9925d99954ac96366978133c76f59856c85f42f6d6c2cfcaf3b8001f2b"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 18,
+          "image_path": "typesetting/ch13/build/learner-v2/page-018.png",
+          "image_sha256": "7001989f28f4c6ab8b3f8fe6440a0ce009b0cd3d8de6820b3e576954c1f9781f",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-018.png.",
+          "observations": "Tables 20–21 show līchamlic strong/weak paradigms at readable size. Longer forms stay within columns, ī marks remain visible, and all four panels fit without split rows or clipping.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-018.png",
+          "personally_viewed_image_sha256": "7001989f28f4c6ab8b3f8fe6440a0ce009b0cd3d8de6820b3e576954c1f9781f"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 19,
+          "image_path": "typesetting/ch13/build/learner-v2/page-019.png",
+          "image_sha256": "7e316c2d6fad6d19f33333496c9dda8598c41b8e54cd36cb65c50d42abb5db5e",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-019.png.",
+          "observations": "Tables 22–23 keep the comparative and strong superlative panels intact. Repeated gender/number labels and instrumental cells remain readable; ē marks and aligned row baselines show no collision.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-019.png",
+          "personally_viewed_image_sha256": "7e316c2d6fad6d19f33333496c9dda8598c41b8e54cd36cb65c50d42abb5db5e"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 20,
+          "image_path": "typesetting/ch13/build/learner-v2/page-020.png",
+          "image_sha256": "cb173fee092cc89a7beab624db7c94d0ee2f5dfae069465d691eb81e47169f84",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-020.png.",
+          "observations": "Table 24 and the five-column adjective diagnostic matrix fit cleanly. Long header labels and paired model references wrap within their cells; the no-strong-comparative entry stays aligned to swētra, and ę/ð/macrons remain distinct.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-020.png",
+          "personally_viewed_image_sha256": "cb173fee092cc89a7beab624db7c94d0ee2f5dfae069465d691eb81e47169f84"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 21,
+          "image_path": "typesetting/ch13/build/learner-v2/page-021.png",
+          "image_sha256": "16e594c7e6bba5dc0f0c0c075d5282f7a19eb25a04725cb16094318967e99d99",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-021.png.",
+          "observations": "The shared adjective operation matrix is readable despite wrapped model references. Section 7 heading stays with introductory prose and the verb/meaning table; macrons and ę in āstręccean/āsęttan display clearly, with a separate continuation note.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-021.png",
+          "personally_viewed_image_sha256": "16e594c7e6bba5dc0f0c0c075d5282f7a19eb25a04725cb16094318967e99d99"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 22,
+          "image_path": "typesetting/ch13/build/learner-v2/page-022.png",
+          "image_sha256": "5ddea31d71399964c33366e960c2a81abadc4bf2ada11d87304d8f9a65efc90f",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-022.png.",
+          "observations": "Verb vocabulary continuation repeats its headers and closes cleanly. Section 7.1, table 25 and the five-column weak-II diagnostic matrix fit with aligned person/tense labels; long present/preterite forms remain separate and footer clearance is adequate.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-022.png",
+          "personally_viewed_image_sha256": "5ddea31d71399964c33366e960c2a81abadc4bf2ada11d87304d8f9a65efc90f"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 23,
+          "image_path": "typesetting/ch13/build/learner-v2/page-023.png",
+          "image_sha256": "872efc3a9a9def5e022415142980b32fa5dae311e3fe889d08d2f06852488dce",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-023.png.",
+          "observations": "Weak-verb prose and tables 26–27 remain clearly separated. ę in āstręccean forms, ð endings and length marks in onlīesan display distinctly; complete six-row paradigms have intact labels and rules.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-023.png",
+          "personally_viewed_image_sha256": "872efc3a9a9def5e022415142980b32fa5dae311e3fe889d08d2f06852488dce"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 24,
+          "image_path": "typesetting/ch13/build/learner-v2/page-024.png",
+          "image_sha256": "4230e8c1d4072ae13f8dab36e938d8ff9ad52ccf1eeaeb37bbf76418895a5aee",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-024.png.",
+          "observations": "Tables 28–31 fit four complete indicative paradigms on the page. nēalǣcan, āsęttan, gescrȳdan and āsęndan preserve their special characters; repeated tense/person labels align, and the final table clears the footer.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-024.png",
+          "personally_viewed_image_sha256": "4230e8c1d4072ae13f8dab36e938d8ff9ad52ccf1eeaeb37bbf76418895a5aee"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 25,
+          "image_path": "typesetting/ch13/build/learner-v2/page-025.png",
+          "image_sha256": "fe1a5b54687827edb84313538d8b9c8d79451cc78c3cace23c54936706eb9843",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-025.png.",
+          "observations": "Section 7.2 leads directly to tables 32–34. All six-person present/preterite rows remain intact; ę in ęfthweorfan and ð endings are distinct, with no crowding between captions, rules or the footer.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-025.png",
+          "personally_viewed_image_sha256": "fe1a5b54687827edb84313538d8b9c8d79451cc78c3cace23c54936706eb9843"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 26,
+          "image_path": "typesetting/ch13/build/learner-v2/page-026.png",
+          "image_sha256": "e51cb719bd2a97f4ac27de12ae869e5e8ee366c4b325ae18813b8fbcb4be3f10",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-026.png.",
+          "observations": "Principal-part support and strong-verb prose sit above tables 35–37. behēold, ondrǣdan/ondrēd and bebēodan length marks remain visible; all columns and six-row paradigms align without clipping.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-026.png",
+          "personally_viewed_image_sha256": "e51cb719bd2a97f4ac27de12ae869e5e8ee366c4b325ae18813b8fbcb4be3f10"
+        },
+        {
+          "reviewer": "unit13_page_first",
+          "ledger": "typesetting/ch13/reviews/learner-first.json",
+          "page": 27,
+          "image_path": "typesetting/ch13/build/learner-v2/page-027.png",
+          "image_sha256": "27d7dc05f259bf51e1a64cfba02d9c09a0d89805378dd670471f1fd22b856e4b",
+          "actually_viewed": true,
+          "inspection_method": "Personally viewed this page with view_image(detail='original') at full rendered size (150 dpi); read text, special characters and all table cells visually. Final image is byte-identical by SHA-256 to the personally viewed image at typesetting/ch13/build/learner-v1/page-027.png.",
+          "observations": "Fordōn/ingān scope prose and tables 38–40 are readable. Indicative and subjunctive captions are distinct, all six person/number rows remain intact, and macrons/ð in fordēð/ingǣð and inēode are clear.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "personally_viewed_image_path": "typesetting/ch13/build/learner-v1/page-027.png",
+          "personally_viewed_image_sha256": "27d7dc05f259bf51e1a64cfba02d9c09a0d89805378dd670471f1fd22b856e4b"
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 28,
+          "image_path": "typesetting/ch13/build/learner-v2/page-028.png",
+          "image_sha256": "83c7c205abbaebae6c2c15f7dea256d26271db8ab8b4063c7ef6d60dd15a6654",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Section 7.3 and Tables 41–42 are fully visible; command and infinitive columns align, macrons and ð are clear, and the participle introduction ends cleanly above the footer.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-028.png",
+            "sha256": "83c7c205abbaebae6c2c15f7dea256d26271db8ab8b4063c7ef6d60dd15a6654"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 29,
+          "image_path": "typesetting/ch13/build/learner-v2/page-029.png",
+          "image_sha256": "a97ee260d55847818919796b329cdab9d8d71b1579387890e5d6c4d658af585d",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Table 43 has clear participle labels and ę/ȳ glyphs; §8 and §8.1 stay with introductory prose and the first construction rows. The continuation notice is separate from the last complete row.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-029.png",
+            "sha256": "a97ee260d55847818919796b329cdab9d8d71b1579387890e5d6c4d658af585d"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 30,
+          "image_path": "typesetting/ch13/build/learner-v2/page-030.png",
+          "image_sha256": "b72ae00e19325864b5ce1ccd6e55d9d55566a2f741b5da4512c65f655c43a727",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image. The identical v1 image was directly viewed twice to recheck intercolumn spacing.",
+          "observations": "Re-viewed the exact unchanged image after an initial mistaken collision report: oferwinnan and ęfthweorfan have visible intercolumn gaps. All continued §8.1 rows and repeated column labels are readable; no collision or clipping remains.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-030.png",
+            "sha256": "b72ae00e19325864b5ce1ccd6e55d9d55566a2f741b5da4512c65f655c43a727"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 31,
+          "image_path": "typesetting/ch13/build/learner-v2/page-031.png",
+          "image_sha256": "2d1225797df34f06d7ef022b6965504b4030b7a2fd56b6383e866fa3230c1ac4",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Section 8.2 stays with its complete six-row table; macrons and ę are legible and no row is clipped. Lower-page whitespace is acceptable because §8.3's substantial intact table fills the following page.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-031.png",
+            "sha256": "2d1225797df34f06d7ef022b6965504b4030b7a2fd56b6383e866fa3230c1ac4"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 32,
+          "image_path": "typesetting/ch13/build/learner-v2/page-032.png",
+          "image_sha256": "dfe4b4c87c729750e81442a2ac3145e86f80e74cfa4b1f60d780355cfca15dfe",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Section 8.3 and the complete required-constructions table are readable. Multiline expressions, ðȳ, hīeranne and dōn labels align; the following paragraph is intact with adequate footer space.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-032.png",
+            "sha256": "dfe4b4c87c729750e81442a2ac3145e86f80e74cfa4b1f60d780355cfca15dfe"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 33,
+          "image_path": "typesetting/ch13/build/learner-v2/page-033.png",
+          "image_sha256": "1c591d762bfcc22aedf9db974099651f46f171cc8aeb2d743f49e8fcd31a5aab",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "The smaller-words table is aligned and complete; ðǣr, ęft, ǣr/ǣrest and ðider are distinct. Section 9 and Forms/F01–F02 labels remain with their full prompts.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-033.png",
+            "sha256": "1c591d762bfcc22aedf9db974099651f46f171cc8aeb2d743f49e8fcd31a5aab"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 34,
+          "image_path": "typesetting/ch13/build/learner-v2/page-034.png",
+          "image_sha256": "e29f8278bcb441b526191fbd39434a7ebb049fb813594ff8893617adaea442ec",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "F03–F06, the Clause analysis heading, and A01–A03 are complete and correctly grouped. Bold Old English examples preserve ð/Ð, ǣ and macrons without line collisions.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-034.png",
+            "sha256": "e29f8278bcb441b526191fbd39434a7ebb049fb813594ff8893617adaea442ec"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 35,
+          "image_path": "typesetting/ch13/build/learner-v2/page-035.png",
+          "image_sha256": "d9a4223be8a5783665d451d735ee6b076ffbbe8e07f13d2d72af7d47274cb271",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "A04–A10 labels each remain with their full prompts and bold example sentences; quotation marks, ę, ð and macrons are crisp. The final A10 examples fit above the footer.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-035.png",
+            "sha256": "d9a4223be8a5783665d451d735ee6b076ffbbe8e07f13d2d72af7d47274cb271"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 36,
+          "image_path": "typesetting/ch13/build/learner-v2/page-036.png",
+          "image_sha256": "5122aa2c7e9a0eac4e086fe7d9284a157c51472108e65d007339612aacef6bd4",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "A11–A12 and C01–C06 are complete. The Composition heading is attached to C01, supplied order help stays within A12, and the bottom C06 prompt remains clear of the page number.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-036.png",
+            "sha256": "5122aa2c7e9a0eac4e086fe7d9284a157c51472108e65d007339612aacef6bd4"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 37,
+          "image_path": "typesetting/ch13/build/learner-v2/page-037.png",
+          "image_sha256": "940ff162ba26ca9de758432e53a90052c4c1b136cb2fcbd999a1ffd3f4641e33",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "C07–C08 finish intact; §10's Cook instructions and relative controls are readable. VII.22 heading and 22.1–22.4 prompts are attached correctly; supplied Æðelðrȳð and Eastęngla remain visible.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-037.png",
+            "sha256": "940ff162ba26ca9de758432e53a90052c4c1b136cb2fcbd999a1ffd3f4641e33"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 38,
+          "image_path": "typesetting/ch13/build/learner-v2/page-038.png",
+          "image_sha256": "975caa8cd2aeb1f0b32943b90f228e8d0e70b79091c22578b3758dabae87235b",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Cook 22.5–22.15 and 23.1–23.3 are complete and individually labelled. Section VII.23 begins with its instructions; the final 23.3 prompt fits comfortably above the footer.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-038.png",
+            "sha256": "975caa8cd2aeb1f0b32943b90f228e8d0e70b79091c22578b3758dabae87235b"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 39,
+          "image_path": "typesetting/ch13/build/learner-v2/page-039.png",
+          "image_sha256": "743d02fd10695a62d2a89b6b3db9180c320402210371b6cefbe0a8f1fb657426",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Cook 23.4–23.13 prompts are readable with source parenthetical controls preserved. The local helps for 23.8 and 23.9 are intact; the 23.13 supplied-help paragraph continues after the page break and needs the next-page continuity checked.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-039.png",
+            "sha256": "743d02fd10695a62d2a89b6b3db9180c320402210371b6cefbe0a8f1fb657426"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 40,
+          "image_path": "typesetting/ch13/build/learner-v2/page-040.png",
+          "image_sha256": "c7ec61a6f775a7d69850c38c4ec3fe821bfaaac5c64edc478306373bfb3a4ac4",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "The two-line continuation completes the 23.13 supplied help clearly. VII.24 instructions and 24.1–24.6 labels/prompts are intact; sē/ðe, gescrȳdan and fordōn render clearly.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-040.png",
+            "sha256": "c7ec61a6f775a7d69850c38c4ec3fe821bfaaac5c64edc478306373bfb3a4ac4"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 41,
+          "image_path": "typesetting/ch13/build/learner-v2/page-041.png",
+          "image_sha256": "06c327790cd02e9dee628b3ddb039bd8994fab9f3b4c89c65e7e6ee4dca31acd",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Cook 24.7–24.12 remain complete, including all three 24.9 support paragraphs. The VII.25 heading is followed by its full explanatory paragraph rather than stranded alone.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-041.png",
+            "sha256": "06c327790cd02e9dee628b3ddb039bd8994fab9f3b4c89c65e7e6ee4dca31acd"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 42,
+          "image_path": "typesetting/ch13/build/learner-v2/page-042.png",
+          "image_sha256": "e6f37cebea6079a0063db2e4e27d2e355eb81af3a13002f9360c5ae551f85f18",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Cook 25.1–25.9 and their supplied help are legible and correctly grouped; 87.b/87.d controls, hwæthwega and se/sē distinctions remain readable. No clipping or bottom collision.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-042.png",
+            "sha256": "e6f37cebea6079a0063db2e4e27d2e355eb81af3a13002f9360c5ae551f85f18"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 43,
+          "image_path": "typesetting/ch13/build/learner-v2/page-043.png",
+          "image_sha256": "dda28bc48fa51f460902b5e922df03767b01bbf898333afd00cbaec8de729308",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Cook 25.10–25.12 and their long supplied helps fit cleanly. The §11 heading, explicit new-material introduction and full 87-word new account are all present on one page; quotes, ę, ð and macrons are readable.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-043.png",
+            "sha256": "dda28bc48fa51f460902b5e922df03767b01bbf898333afd00cbaec8de729308"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 44,
+          "image_path": "typesetting/ch13/build/learner-v2/page-044.png",
+          "image_sha256": "dee1b4e4c9b169199f71db767eb0c44623f2d6ccf3e2bbe49babb4af4df9635e",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "R01–R04 are complete. Section 12, English context, and Old English text locator remain readable; the source text is intentionally kept together on the following page, with no stranded title alone.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-044.png",
+            "sha256": "dee1b4e4c9b169199f71db767eb0c44623f2d6ccf3e2bbe49babb4af4df9635e"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 45,
+          "image_path": "typesetting/ch13/build/learner-v2/page-045.png",
+          "image_sha256": "58b444495ed3d486f6261fb7b4d3deb71e9a2484adfcafebd0347fec61a8b5d7",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "The full Chad extract from Ðā hē ðā through mid wes is readable as one uninterrupted block; ę/ð/þ-related forms, macrons, punctuation and the final speech render cleanly. Local reading help starts below it, and helps 1–2 are complete.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-045.png",
+            "sha256": "58b444495ed3d486f6261fb7b4d3deb71e9a2484adfcafebd0347fec61a8b5d7"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 46,
+          "image_path": "typesetting/ch13/build/learner-v2/page-046.png",
+          "image_sha256": "be274ef2f19599c451b487054877c28dba25846e23533abb31002846e3da276f",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Reading helps 3–11 are complete, with each bold cue attached to its explanation. Dense paragraphs still separate clearly; ę, ð, long vowels and the ðe ... in notation are readable with no bottom clipping.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-046.png",
+            "sha256": "be274ef2f19599c451b487054877c28dba25846e23533abb31002846e3da276f"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 47,
+          "image_path": "typesetting/ch13/build/learner-v2/page-047.png",
+          "image_sha256": "316f71c3de718bbf3d69a0ffc7716744e5905f9fb0b5a3779d5301dfcb85e271",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Reading helps 12–18 are complete. Long bold cue lines wrap cleanly; ūpāstīgan, ðȳ, unasęcgendre, ēagðȳrel and the final commands retain clear special characters and macrons.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-047.png",
+            "sha256": "316f71c3de718bbf3d69a0ffc7716744e5905f9fb0b5a3779d5301dfcb85e271"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 48,
+          "image_path": "typesetting/ch13/build/learner-v2/page-048.png",
+          "image_sha256": "7a5db3e41c6336bb6d574f931acdf88cc5a49106fe02f02dee9b5db0548b74ca",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "The Source-reading tasks heading and S01–S08 all remain with their full prompts. Embedded Old English excerpts and references are readable; the final S08 prompt ends safely above the footer.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-048.png",
+            "sha256": "7a5db3e41c6336bb6d574f931acdf88cc5a49106fe02f02dee9b5db0548b74ca"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 49,
+          "image_path": "typesetting/ch13/build/learner-v2/page-049.png",
+          "image_sha256": "dc76362eb1e839638ce0aedfc9e835f986e92f92115c8fd3553c8f4defc7b108",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Section 13's explanation and complete 29-row attachment table are visible; Original note, Attached word and Editorial line columns are readable. Long attached forms and macrons render without clipping.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-049.png",
+            "sha256": "dc76362eb1e839638ce0aedfc9e835f986e92f92115c8fd3553c8f4defc7b108"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 50,
+          "image_path": "typesetting/ch13/build/learner-v2/page-050.png",
+          "image_sha256": "29d48ad2a2f6ee18357266dcfbbedc199fc9451de034d1d412e32972e5f22036",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Original notes 152.3–152.13 are complete, with every bold identifier attached to its text. Latin ligatures, Old English macrons and the 152.9a label are readable.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-050.png",
+            "sha256": "29d48ad2a2f6ee18357266dcfbbedc199fc9451de034d1d412e32972e5f22036"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 51,
+          "image_path": "typesetting/ch13/build/learner-v2/page-051.png",
+          "image_sha256": "4d69b074f28c4490384815808cfba8341d2523dba3a330b2a11ef268eb384b4c",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of v1 image; final v2 bytes independently verified SHA256-identical to that personally viewed image.",
+          "observations": "Original notes 152.14–153.6 are complete. Latin æ ligatures, -ðȳrel, hātan and hāl render clearly; the final question remains together and clear of the footer.",
+          "final_identity_verified": true,
+          "status": "pass",
+          "prior_viewed_image": {
+            "path": "typesetting/ch13/build/learner-v1/page-051.png",
+            "sha256": "4d69b074f28c4490384815808cfba8341d2523dba3a330b2a11ef268eb384b4c"
+          }
+        },
+        {
+          "reviewer": "unit13_page_last",
+          "ledger": "typesetting/ch13/reviews/learner-last.json",
+          "page": 52,
+          "image_path": "typesetting/ch13/build/learner-v2/page-052.png",
+          "image_sha256": "030bfdc5979484fade3d69d93682b97a3ac6d733249ad9de499e4678f4695eca",
+          "actually_viewed": true,
+          "inspection_method": "Direct full-size view_image(detail=original) of final v2 page after repair.",
+          "observations": "Repaired final page directly viewed at full size: all §14 notes, including the complete final Exercise controls and variants paragraph and its last sentence, now fit legibly on one page. The retained 10-point type and tighter leading remain readable; bold leads, e/ę, ð, macrons and source locators are clear, with ample separation from the footer.",
+          "final_identity_verified": true,
+          "status": "pass"
+        }
+      ]
+    },
+    {
+      "kind": "key",
+      "path": "typesetting/ch13/answer-key.pdf",
+      "sha256": "fecebd8f8ddc20a87402fee5aca99e4970e3d9f25c28c9d9d438c198b9978dcf",
+      "build_path": "typesetting/ch13/build/answer-key.pdf",
+      "pages": 30,
+      "render_dpi": 150,
+      "page_review_records": [
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 1,
+          "image_path": "typesetting/ch13/build/key-v2/page-001.png",
+          "image_sha256": "6289d6ff11d2e82e0a043acbd55bf8637576e733b49ee9b07ef453088a5f8642",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-001.png",
+            "sha256": "6289d6ff11d2e82e0a043acbd55bf8637576e733b49ee9b07ef453088a5f8642",
+            "render_version": "v1"
+          },
+          "observations": "Title, 90-task scope and grading paragraphs are clear; note [1] is legible. The opening-page white space separates the introduction from the form section, with no orphaned heading."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 2,
+          "image_path": "typesetting/ch13/build/key-v2/page-002.png",
+          "image_sha256": "318f976eafaf8ec7cabf01df27986706da703aa1c853cbd628742406973e64b9",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-002.png",
+            "sha256": "318f976eafaf8ec7cabf01df27986706da703aa1c853cbd628742406973e64b9",
+            "render_version": "v1"
+          },
+          "observations": "F01 labels and all three four-case singular/plural tables align. Macrons in mōdor/mēder/brōðor/brēðer and eth in the brother forms are clear; the complete explanation fits above the footer."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 3,
+          "image_path": "typesetting/ch13/build/key-v2/page-003.png",
+          "image_sha256": "8a4fb3255975865ae48291cb39f90d494026538c2a8d6b7b7b7528e6a7642e34",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-003.png",
+            "sha256": "8a4fb3255975865ae48291cb39f90d494026538c2a8d6b7b7b7528e6a7642e34",
+            "render_version": "v1"
+          },
+          "observations": "F02 æx and ēagðȳrel tables and F03 diagnostic columns are readable. Æ/æ, long ē/ȳ, eth and the wyrttruma row retain distinct shapes; explanations and note [2] are unclipped."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 4,
+          "image_path": "typesetting/ch13/build/key-v2/page-004.png",
+          "image_sha256": "3f5e1604bc38471a6e4a4f8a10a076b563f786f277b03da18249da882cae38fe",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-004.png",
+            "sha256": "3f5e1604bc38471a6e4a4f8a10a076b563f786f277b03da18249da882cae38fe",
+            "render_version": "v1"
+          },
+          "observations": "F04 singular, plural and comparison tables have unambiguous column labels and aligned endings. Swēte/swētu and comparison forms have visible macrons; the explanation remains on the same page without stranding."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 5,
+          "image_path": "typesetting/ch13/build/key-v2/page-005.png",
+          "image_sha256": "b28a25e1094367c668834e3c35516a325c54ae17f1eb79d8cbee78f9494a270a",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-005.png",
+            "sha256": "b28a25e1094367c668834e3c35516a325c54ae17f1eb79d8cbee78f9494a270a",
+            "render_version": "v1"
+          },
+          "observations": "F05 six-person indicative table and F06 command/participle tables are complete and aligned. Present/preterite labels, eth endings, begā/begāð and onlīesan macrons are readable; explanations finish above the footer."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 6,
+          "image_path": "typesetting/ch13/build/key-v2/page-006.png",
+          "image_sha256": "860a64b738bef17d8af999de23dd796dd67dfe6be42a7e0566b1c2b332e4429f",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-006.png",
+            "sha256": "860a64b738bef17d8af999de23dd796dd67dfe6be42a7e0566b1c2b332e4429f",
+            "render_version": "v1"
+          },
+          "observations": "Section A and A01–A04 labels remain attached to their full explanations. Bracketed clauses, ð/Ð, ā/ō/ē and accusative/dative reference examples are clear; no overlap or clipping."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 7,
+          "image_path": "typesetting/ch13/build/key-v2/page-007.png",
+          "image_sha256": "80a00a86d50b0b43f4a6262d64d7af91cb8db3f7cbad35561fffc7e2bf37a27f",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-007.png",
+            "sha256": "80a00a86d50b0b43f4a6262d64d7af91cb8db3f7cbad35561fffc7e2bf37a27f",
+            "render_version": "v1"
+          },
+          "observations": "A05–A09 form five intact answer units. Quoted speech and bold Old English are distinguishable; hē/hine, ðǣm, brōðor and wǣron display clearly, with A09 ending safely above the footer."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 8,
+          "image_path": "typesetting/ch13/build/key-v2/page-008.png",
+          "image_sha256": "2893afb944910e8359166d529a0ecc9568549184b1975806414d78d2944ad22d",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-008.png",
+            "sha256": "2893afb944910e8359166d529a0ecc9568549184b1975806414d78d2944ad22d",
+            "render_version": "v1"
+          },
+          "observations": "A10–A12 are complete. Nested clause brackets in A11 and the long A12 counterexample stay readable; Æfter, ðōn, ēast and ēo combinations retain their characters. No heading is stranded."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 9,
+          "image_path": "typesetting/ch13/build/key-v2/page-009.png",
+          "image_sha256": "b9e5a66993002156f431c129bf7e8d9aaee7a6aa8431bd4e7a8d20d85d23b00c",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-009.png",
+            "sha256": "b9e5a66993002156f431c129bf7e8d9aaee7a6aa8431bd4e7a8d20d85d23b00c",
+            "render_version": "v1"
+          },
+          "observations": "Section C and C01–C05 are clearly numbered. C01's two models align with their numbering; the long C05 model fits the measure. Macrons and eth throughout the models are intact; explanations are unclipped."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 10,
+          "image_path": "typesetting/ch13/build/key-v2/page-010.png",
+          "image_sha256": "0933d7fd89c01c2266a11e179f0f734617a38672264fc5107fe0477d36b15dbd",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-010.png",
+            "sha256": "0933d7fd89c01c2266a11e179f0f734617a38672264fc5107fe0477d36b15dbd",
+            "render_version": "v1"
+          },
+          "observations": "C06–C08 and Exercise 22's heading with 22.1–22.2 are complete and legible. The quotation, nested clause brackets, īdelnes, Æ/eth/ȳ in the supplied name and ę in Eastęngla are distinct; the last explanation clears the footer."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 11,
+          "image_path": "typesetting/ch13/build/key-v2/page-011.png",
+          "image_sha256": "5a4d2431d36d463160f8125050656ee4793378999634398cac797a7cd6e49a1e",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-011.png",
+            "sha256": "5a4d2431d36d463160f8125050656ee4793378999634398cac797a7cd6e49a1e",
+            "render_version": "v1"
+          },
+          "observations": "22.3–22.6 each keep prompt, model and explanation together. Passive and command examples are clearly differentiated; ð, æ, ā and ī glyphs render without clipping, and no answer label is stranded."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 12,
+          "image_path": "typesetting/ch13/build/key-v2/page-012.png",
+          "image_sha256": "a7d63fdc09dc71c20c5e6e209f8d2abc697e9d7746da6edc6843c70b47bb11c3",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-012.png",
+            "sha256": "a7d63fdc09dc71c20c5e6e209f8d2abc697e9d7746da6edc6843c70b47bb11c3",
+            "render_version": "v1"
+          },
+          "observations": "22.7–22.10 fit as intact answer units. The long genitive/infinitive explanation in 22.9 and the movement model in 22.10 remain readable; ū/ā/ī/ē and eth retain their marks."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 13,
+          "image_path": "typesetting/ch13/build/key-v2/page-013.png",
+          "image_sha256": "4800b1cb30bc18638fcf9c865e9c3a1b04ce501333ee1260d10f51490e623b0a",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-013.png",
+            "sha256": "4800b1cb30bc18638fcf9c865e9c3a1b04ce501333ee1260d10f51490e623b0a",
+            "render_version": "v1"
+          },
+          "observations": "22.11–22.14 have clear prompt/model/explanation labels. Genēosian, ǣrest, lǣdan and ðǣm retain their macrons; the final alternative and note [5] are readable and remain with 22.14."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 14,
+          "image_path": "typesetting/ch13/build/key-v2/page-014.png",
+          "image_sha256": "4c27d8b60f0cb724d9190ffacaacbbfe1626d88e271d52da729d680f8cdfeb21",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-014.png",
+            "sha256": "4c27d8b60f0cb724d9190ffacaacbbfe1626d88e271d52da729d680f8cdfeb21",
+            "render_version": "v1"
+          },
+          "observations": "22.15 and the Exercise 23 heading with 23.1–23.2 are intact. The wrapped 22.15 model is unambiguous; ēagðȳrel, genitive measures and styccemǣlum are clear. Remaining space follows complete answers, not a stranded label."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 15,
+          "image_path": "typesetting/ch13/build/key-v2/page-015.png",
+          "image_sha256": "5de74bf1d9d44ec0b19589c796c1f656db10f42f639d7aa50e693a611ef2f26f",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-015.png",
+            "sha256": "5de74bf1d9d44ec0b19589c796c1f656db10f42f639d7aa50e693a611ef2f26f",
+            "render_version": "v1"
+          },
+          "observations": "23.3–23.6 are complete and distinguish prompts from models and commentary. Ogonek in sęcge/ęngles/cęmpan, Æ/ǣ and long vowels in rǣdað/rǣddon are visible. The bottom explanation ends above the footer."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 16,
+          "image_path": "typesetting/ch13/build/key-v2/page-016.png",
+          "image_sha256": "c05f09de36cb6c985ad7a7403b68e6b5fb8d4f6843938a4545ecceae6284bb31",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-016.png",
+            "sha256": "c05f09de36cb6c985ad7a7403b68e6b5fb8d4f6843938a4545ecceae6284bb31",
+            "render_version": "v1"
+          },
+          "observations": "23.7–23.10 stay with their models and complete explanations. The ę in āsęttan/āsętt and sęllan/sęle, æx, and ȳ in lȳtlan display clearly; long answer lines do not overrun the measure."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 17,
+          "image_path": "typesetting/ch13/build/key-v2/page-017.png",
+          "image_sha256": "1175c3c5c2a6cfb48d946ebdcc9810f3a8f422a554d9b5ac1694e96ee12c787c",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-017.png",
+            "sha256": "1175c3c5c2a6cfb48d946ebdcc9810f3a8f422a554d9b5ac1694e96ee12c787c",
+            "render_version": "v1"
+          },
+          "observations": "23.11–23.13 lead into Exercise 24 with 24.1 attached to its heading. Līchamlīcu, hęfigu, ǣnig, wēoxe and ðǣm are readable; the final 24.1 explanation is complete with adequate footer clearance."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 18,
+          "image_path": "typesetting/ch13/build/key-v2/page-018.png",
+          "image_sha256": "bde9d4bf1d2ad8f2d1e69509464e426bb16cecca49eb4242e57c246b98e88897",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-018.png",
+            "sha256": "bde9d4bf1d2ad8f2d1e69509464e426bb16cecca49eb4242e57c246b98e88897",
+            "render_version": "v1"
+          },
+          "observations": "24.2–24.5 are clearly separated full answers. Uppercase/lowercase ogonek in Ęnglas/ęnglas and ȳ/ī in the clothing model are legible; brackets and quotation marks are intact, with no overlap."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 19,
+          "image_path": "typesetting/ch13/build/key-v2/page-019.png",
+          "image_sha256": "c95989b2e66aab0cec34e53847f370c6b9c3f0ff6d41bf4ff8d3814e18892a3a",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-019.png",
+            "sha256": "c95989b2e66aab0cec34e53847f370c6b9c3f0ff6d41bf4ff8d3814e18892a3a",
+            "render_version": "v1"
+          },
+          "observations": "24.6–24.8 remain complete. Ondrǣdað/ondrǣd, hęlle, ingā and ēowru display clear distinctive marks. Blank space after 24.8 is acceptable because the substantial next answer 24.9 stays together on page 20."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 20,
+          "image_path": "typesetting/ch13/build/key-v2/page-020.png",
+          "image_sha256": "d7ee01e003ad9ae140a77276509224743bb2ad02e5209304bc890fc469ddfcce",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-020.png",
+            "sha256": "d7ee01e003ad9ae140a77276509224743bb2ad02e5209304bc890fc469ddfcce",
+            "render_version": "v1"
+          },
+          "observations": "24.9's long prompt/model/explanation and 24.10–24.11 are readable and intact. The inflected relative, gescrȳt, āsęnd, hooked męte, bętere/bętera and singular fēt are clearly printed; no model line is clipped."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 21,
+          "image_path": "typesetting/ch13/build/key-v2/page-021.png",
+          "image_sha256": "bcd93855ea4d77d56ec488724a1662e98b053a5ee9c72cc5b10bd67ba5934331",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-021.png",
+            "sha256": "bcd93855ea4d77d56ec488724a1662e98b053a5ee9c72cc5b10bd67ba5934331",
+            "render_version": "v1"
+          },
+          "observations": "24.12 and the Exercise 25 heading with 25.1–25.2 form clear intact units. The long relative model for 25.1 wraps cleanly; ð/æ and macrons in ē/ō/ī/ǣ remain distinct, with ample footer clearance."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 22,
+          "image_path": "typesetting/ch13/build/key-v2/page-022.png",
+          "image_sha256": "8fce35350abf78313a9f2ab099450d716ef99e3317be1cdf9c8357f932cba9f1",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-022.png",
+            "sha256": "8fce35350abf78313a9f2ab099450d716ef99e3317be1cdf9c8357f932cba9f1",
+            "render_version": "v1"
+          },
+          "observations": "25.3–25.6 are complete. The compound ðā-hwīle-ðe, ēagðȳrlu and plural command/subjunctive model are readable; long 25.6 wraps within the measure, and its explanation ends above the footer."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 23,
+          "image_path": "typesetting/ch13/build/key-v2/page-023.png",
+          "image_sha256": "6630eb3d414ee3d02cb316fc7480e650fde74db9706b3b7fba5b428dd0a2beab",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-023.png",
+            "sha256": "6630eb3d414ee3d02cb316fc7480e650fde74db9706b3b7fba5b428dd0a2beab",
+            "render_version": "v1"
+          },
+          "observations": "25.7–25.9 each keep prompt, model and grading explanation together. The verb-last control and alternatives in 25.7 are legible; tō hīeranne, ðǣre and hrōf retain their marks. No awkward heading break."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 24,
+          "image_path": "typesetting/ch13/build/key-v2/page-024.png",
+          "image_sha256": "2bda0925351b9f319ea7079da8943c1158908c3b64e39a6814df7267f208ad96",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-024.png",
+            "sha256": "2bda0925351b9f319ea7079da8943c1158908c3b64e39a6814df7267f208ad96",
+            "render_version": "v1"
+          },
+          "observations": "25.10–25.12 are intact and clearly labelled. Ogonek in sęmninga, ęngle, hęriendra and ęfthwearf is visible; the two-line wish model and route expression wrap cleanly with no text collision."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 25,
+          "image_path": "typesetting/ch13/build/key-v2/page-025.png",
+          "image_sha256": "e7820d257c35b05aed208b818c0e5b8e0a2f7a29b90abdfa89d729c478eb386f",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally viewed the full-size v1 page with view_image(detail='original'); independently verified that the current v2 image has identical bytes by SHA-256. The actual view is preserved by this verified identity.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v1/page-025.png",
+            "sha256": "e7820d257c35b05aed208b818c0e5b8e0a2f7a29b90abdfa89d729c478eb386f",
+            "render_version": "v1"
+          },
+          "observations": "Section R and R01–R03 are readable. The complete translation is distinct from alternatives, and R03's bracketed clause analyses and bold Old English retain macrons and eth; no clipping or overlap."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 26,
+          "image_path": "typesetting/ch13/build/key-v2/page-026.png",
+          "image_sha256": "8ae85b58fabbc1e66ebc8be68a24a5d23405ee2801110226bb1a79777e886242",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally opened this changed v2 page with view_image(detail='original') and read the complete rendered page; no OCR/contact-sheet substitution.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v2/page-026.png",
+            "sha256": "8ae85b58fabbc1e66ebc8be68a24a5d23405ee2801110226bb1a79777e886242",
+            "render_version": "v2"
+          },
+          "observations": "Personally viewed v2 page: R04 is intact, followed by the S heading and S01's complete translation plus the start of its alternatives. The former large blank is removed. Section labels have substantial following content; macrons, eth and quotation punctuation remain clear. The alternatives paragraph continues with several lines on both sides of the page boundary."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 27,
+          "image_path": "typesetting/ch13/build/key-v2/page-027.png",
+          "image_sha256": "ceec6f0b46a1ed86d790c3003c71d404fd6c40601992872919c399629fbcd2f0",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally opened this changed v2 page with view_image(detail='original') and read the complete rendered page; no OCR/contact-sheet substitution.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v2/page-027.png",
+            "sha256": "ceec6f0b46a1ed86d790c3003c71d404fd6c40601992872919c399629fbcd2f0",
+            "render_version": "v2"
+          },
+          "observations": "Personally viewed v2 page: S01's alternatives continue clearly from page 26 and finish with note [6], then S02 and S03 appear as complete labelled answers. Nested brackets, subject/finite pairs and the 152.9a locator are readable. Macrons and eth are intact, with no overlap or clipping."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 28,
+          "image_path": "typesetting/ch13/build/key-v2/page-028.png",
+          "image_sha256": "ea160c2cb0dd9d91bb2e16bd3f2028862aa90f1a21ba6f318efa62167563b220",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally opened this changed v2 page with view_image(detail='original') and read the complete rendered page; no OCR/contact-sheet substitution.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v2/page-028.png",
+            "sha256": "ea160c2cb0dd9d91bb2e16bd3f2028862aa90f1a21ba6f318efa62167563b220",
+            "render_version": "v2"
+          },
+          "observations": "Personally viewed v2 page: complete S04–S06 answers remain distinct. The Cwæð hē quotation, exact prepositional phrase and nested content map with gap notation are readable; underscores, brackets, macrons and eth remain intact. Remaining space follows a complete answer."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 29,
+          "image_path": "typesetting/ch13/build/key-v2/page-029.png",
+          "image_sha256": "27ed9cac8e9c016cbbc8f3a1e00ce6af2b1814b9463f086c75558804612aef3f",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally opened this changed v2 page with view_image(detail='original') and read the complete rendered page; no OCR/contact-sheet substitution.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v2/page-029.png",
+            "sha256": "27ed9cac8e9c016cbbc8f3a1e00ce6af2b1814b9463f086c75558804612aef3f",
+            "render_version": "v2"
+          },
+          "observations": "Personally viewed v2 page: S07 and S08 are complete, followed by the source/editorial heading, full notes [1]–[2] and the first two lines of [3]. The former isolated-S08 blank page is removed. Ūre, ēagðȳrel, ǣ, eth, section symbols and italic source titles are clear; no heading is stranded."
+        },
+        {
+          "reviewer": "unit13_page_key",
+          "ledger": "typesetting/ch13/reviews/key.json",
+          "page": 30,
+          "image_path": "typesetting/ch13/build/key-v2/page-030.png",
+          "image_sha256": "ac0d3417eb3ca431af182a743cdf94596887ab2824bb4dfeb6ae0089b14dda0e",
+          "actually_viewed": true,
+          "final_identity_verified": true,
+          "status": "pass",
+          "inspection_method": "Personally opened this changed v2 page with view_image(detail='original') and read the complete rendered page; no OCR/contact-sheet substitution.",
+          "personally_viewed_image": {
+            "path": "typesetting/ch13/build/key-v2/page-030.png",
+            "sha256": "ac0d3417eb3ca431af182a743cdf94596887ab2824bb4dfeb6ae0089b14dda0e",
+            "render_version": "v2"
+          },
+          "observations": "Personally viewed v2 page: note [3] continues for three lines from page 29, followed by complete notes [4]–[6] and the final scope paragraph. Source locators, italic titles and special characters are readable. The remaining lower space is ordinary end-of-document space; no text is clipped or overlapped."
+        }
+      ]
+    }
+  ],
+  "resolved_findings": [
+    {
+      "ledger": "typesetting/ch13/reviews/learner-last.json",
+      "id": "U13-L-LAST-01",
+      "pages": [
+        30
+      ],
+      "status": "withdrawn",
+      "initial_report": "Initially reported apparent collision/tight spacing after oferwinnan and ęfthweorfan in §8.1.",
+      "resolution": "A second full-size visual inspection of the identical image (SHA256 b72ae00e19325864b5ce1ccd6e55d9d55566a2f741b5da4512c65f655c43a727) showed clear intercolumn gaps. Initial report was mistaken; no change requested or made."
+    },
+    {
+      "ledger": "typesetting/ch13/reviews/learner-last.json",
+      "id": "U13-L-LAST-02",
+      "pages": [
+        31,
+        32
+      ],
+      "status": "withdrawn",
+      "initial_report": "Noted the large blank lower area on page 31 before §8.3.",
+      "resolution": "The substantial complete §8.3 table fills most of page 32; keeping the tables intact is a defensible layout choice. No stranded material or repair required."
+    },
+    {
+      "ledger": "typesetting/ch13/reviews/learner-last.json",
+      "id": "U13-L-LAST-03",
+      "pages": [
+        52,
+        53
+      ],
+      "status": "resolved_verified",
+      "initial_report": "The final two lines of §14's final paragraph are stranded alone on page 53.",
+      "requested_repair": "Rebalance §14 without changing its text so the final paragraph is kept together or the two lines fit with the rest of the notes.",
+      "resolution": "Coordinator retained the 10-point note type and tightened only §14 leading from 12.8 to 12 points. Direct full-size inspection of final v2 page 52 confirms the complete final paragraph and ending fit legibly with safe footer space. Former page 53 no longer exists in the 52-page final export.",
+      "verified_final_page": 52,
+      "verified_final_image_sha256": "030bfdc5979484fade3d69d93682b97a3ac6d733249ad9de499e4678f4695eca",
+      "retired_viewed_image": {
+        "page": 53,
+        "path": "typesetting/ch13/build/learner-v1/page-053.png",
+        "sha256": "0fbc60e11759bb6342ed95feced8f1ac138518b4c219bf80d2f7247d1dddc276"
+      }
+    },
+    {
+      "ledger": "typesetting/ch13/reviews/key.json",
+      "id": "KEY-P26-01",
+      "status": "resolved_verified",
+      "page": 26,
+      "severity": "presentation",
+      "description": "R04 alone occupies about ten lines at the top of key v1 p26, leaving roughly the lower two-thirds blank before S on p27.",
+      "requested_action": "Rebalance the R/S boundary while preserving the accepted text; for example, move R03 to join R04.",
+      "initial_render_version": "v1",
+      "resolution": "Coordinator removed the forced clearpage before section S. Personally viewed v2 pp.26–27: R04 now precedes S01 on p.26; the full translation is followed by commentary continuing normally onto p.27. No heading is stranded.",
+      "verification_pages": [
+        26,
+        27
+      ]
+    },
+    {
+      "ledger": "typesetting/ch13/reviews/key.json",
+      "id": "KEY-P30-01",
+      "status": "resolved_verified",
+      "page": 30,
+      "severity": "presentation",
+      "description": "S08 alone occupies about fifteen lines at the top of key v1 p30, leaving most of the lower page blank before source notes on p31.",
+      "requested_action": "Rebalance the last reading-answer pages while preserving the accepted text; for example, move S07 to join S08.",
+      "initial_render_version": "v1",
+      "resolution": "Coordinator removed the forced clearpage before source notes. Personally viewed v2 pp.28–30: S07 and S08 share p.29, followed by the notes heading and substantive notes; the remaining notes finish p.30. No isolated S08 blank page remains.",
+      "verification_pages": [
+        28,
+        29,
+        30
+      ]
+    }
+  ],
+  "unresolved_findings": [],
+  "content_parity": {
+    "identity": {
+      "path": "typesetting/ch13/content-parity.json",
+      "sha256": "3e814a1ba4539fc3f1fca5276f6781a422a009e901c116d94ca807c901293082",
+      "sha256_normalized_lf": "0848f9d298ac68ac7d56676addeb83e7da1365dfc8a90de3bb824b40c92fac9e"
+    },
+    "counts": {
+      "paragraph_heading_list_blocks": 805,
+      "original_tables": 67,
+      "original_table_cells_including_headers": 1861,
+      "all_editorial_comments_preserved": 838
+    },
+    "documents": [
+      {
+        "master": "chapters/ch13/student.md",
+        "master_sha256": "5207c40a188f26d95917b96680fa1e1e1f5a222abc0d3cbfbb9463dd81acbf88",
+        "tex": "typesetting/ch13/chapter-13.tex",
+        "tex_sha256": "6c697af6db0900bc72c01246ed5878e0768d4224a1651a933d0b4419814f1e13",
+        "tex_sha256_normalized_lf": "6c697af6db0900bc72c01246ed5878e0768d4224a1651a933d0b4419814f1e13",
+        "paragraph_heading_list_blocks": 479,
+        "original_tables": 56,
+        "original_table_cells_including_headers": 1681,
+        "all_editorial_comments_preserved": 658,
+        "paragraph_and_cell_parity": "PASS",
+        "pdf_complete_paragraph_character_parity": "PASS",
+        "title_parity": "PASS",
+        "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+      },
+      {
+        "master": "chapters/ch13/answer-key.md",
+        "master_sha256": "1be99f4460b8c467f522532344030fdd010a19d5952ea3ca5ae92a45f18cbf71",
+        "tex": "typesetting/ch13/answer-key.tex",
+        "tex_sha256": "6421558555277d8773085680f31f45c89f424e0364d240f61aed06fbe4d0c5e2",
+        "tex_sha256_normalized_lf": "6421558555277d8773085680f31f45c89f424e0364d240f61aed06fbe4d0c5e2",
+        "paragraph_heading_list_blocks": 326,
+        "original_tables": 11,
+        "original_table_cells_including_headers": 180,
+        "all_editorial_comments_preserved": 180,
+        "paragraph_and_cell_parity": "PASS",
+        "pdf_complete_paragraph_character_parity": "PASS",
+        "title_parity": "PASS",
+        "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+      }
+    ]
+  },
+  "compilation_logs": [
+    {
+      "path": "typesetting/ch13/build/chapter-13.log",
+      "sha256": "b4d75053e9e8bccb2300b6717079e86921c2e0952ba1dfa9dd4915f3f23a3ab0",
+      "diagnostics": [],
+      "checked_diagnostics": [
+        "Missing character:",
+        "Overfull \\hbox",
+        "Overfull \\vbox",
+        "Underfull \\hbox",
+        "Underfull \\vbox",
+        "Font shape",
+        "Rerun to get",
+        "Table widths have changed",
+        "Fatal error",
+        "! LaTeX Error"
+      ],
+      "output_line": "Output written on chapter-13.pdf (52 pages, 201976 bytes)."
+    },
+    {
+      "path": "typesetting/ch13/build/answer-key.log",
+      "sha256": "adf8863caeb2bc99da9dcfe9fd3a05f42e3c358bf23d939f80e300b2277c8aba",
+      "diagnostics": [],
+      "checked_diagnostics": [
+        "Missing character:",
+        "Overfull \\hbox",
+        "Overfull \\vbox",
+        "Underfull \\hbox",
+        "Underfull \\vbox",
+        "Font shape",
+        "Rerun to get",
+        "Table widths have changed",
+        "Fatal error",
+        "! LaTeX Error"
+      ],
+      "output_line": "Output written on answer-key.pdf (30 pages, 172425 bytes)."
+    }
+  ],
+  "masters_unchanged_since_textual_acceptance": true,
+  "frozen_solutions_unchanged": true,
+  "build_and_retained_pdf_bytes_identical": true,
+  "scope_limit": "Accepts only the identified Unit13 complete exports and presentation. Register integration and final Beads/checkpoint closure are separate."
+}

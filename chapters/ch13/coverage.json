@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch13",
   "title": "Clause order and reference",
-  "status": "text_accepted_exports_pending",
+  "status": "reviewed_complete",
   "contract_date": "2026-10-25",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -292798,7 +292798,7 @@
     "typeset": "oec-u13-typeset",
     "finish": "oec-u13-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_text_and_exports",
   "amendments": [
     {
       "amendment_id": "U13-AMEND-01",
@@ -292926,9 +292926,18 @@
     "design_validation": "curriculum/proposals/unit13/validation.json"
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "date": "2026-10-26",
+    "register_integration": "chapters/ch13/register-integration.json",
+    "presentation_review": "typesetting/ch13/page-review.json",
+    "learner_pdf": "typesetting/ch13/chapter-13.pdf",
+    "key_pdf": "typesetting/ch13/answer-key.pdf",
+    "all_assigned_tasks_reviewed": 90,
+    "all_cook_items_retained": 52,
+    "next_unit_policy": "Unit14 remains undrafted; begin only when requested.",
+    "checkpoint_note": "Completion files and Beads export are saved locally; final handoff records the resulting revision."
   },
   "form_id_aliases": {},
   "form_identity_reconciliation": [
@@ -295211,5 +295220,33 @@
     },
     "material_open_findings": 0,
     "scope_limit": "Complete exports, every-page visual inspection and register integration remain separate gates."
+  },
+  "accepted_text_checkpoint": "aec6c7f",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch13/page-review.json",
+    "record_sha256": "6cae5d02503d263a79bce11e94212e4699b3466344b73614d415d893be70a68a",
+    "page_totals": {
+      "learner": 52,
+      "key": 30,
+      "total": 82
+    },
+    "complete_content_parity": "typesetting/ch13/content-parity.json",
+    "every_page_inspected_by_non_author": true,
+    "unresolved_findings": [],
+    "documents": [
+      {
+        "kind": "learner",
+        "path": "typesetting/ch13/chapter-13.pdf",
+        "sha256": "a2cb58195b9babe3359909a78f2170129e7e55544a0684e21f02f1578dc34a87",
+        "pages": 52
+      },
+      {
+        "kind": "key",
+        "path": "typesetting/ch13/answer-key.pdf",
+        "sha256": "fecebd8f8ddc20a87402fee5aca99e4970e3d9f25c28c9d9d438c198b9978dcf",
+        "pages": 30
+      }
+    ]
   }
 }

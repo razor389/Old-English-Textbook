@@ -1,6 +1,6 @@
 {
   "chapter_id": "ch13",
-  "status": "accepted_independent_text_review",
+  "status": "reviewed_complete",
   "coordinator": "root",
   "date": "2026-10-26",
   "contract_checkpoint": "40bb0ba",
@@ -37,16 +37,14 @@
   ],
   "preservation_check": {
     "dry_run_passed": true,
-    "active_registers_unchanged": true,
+    "active_registers_unchanged": false,
     "earlier_active_artifacts_unchanged": 1818,
     "archived_files_unchanged": 134,
-    "note": "Known words inside supplied phrases remain previously taught. Only actually unlearned reused source records receive supplied-only exposure; no earlier milestone is demoted."
+    "note": "Known words inside supplied phrases remain previously taught. Only actually unlearned reused source records receive supplied-only exposure; no earlier milestone is demoted.",
+    "active_registers_integrated_with_prior_history_preserved": true
   },
   "independence_limit": "Root and the source, grammar and design authors do not claim fresh blind independence. A fresh non-author froze every solution at d31c692 before explicit comparison access; a separate fresh non-author verified the paradigms.",
-  "remaining_gates": [
-    "Produce complete LuaLaTeX exports, full parity and every-page non-author inspection.",
-    "Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally."
-  ],
+  "remaining_gates": [],
   "draft_artifact_identities": [
     {
       "path": "chapters/ch13/student.md",
@@ -59,7 +57,7 @@
       "sha256_normalized_lf": "18cb2cd408bfc70beafca9d6e55dec8e780c8004e5d9ebdafb2ca5e39bedda25"
     }
   ],
-  "scope_limit": "Independent text and paradigm review accepted. Export inspection and register integration remain separate gates. Earlier draft observations and identities are retained as historical records.",
+  "scope_limit": "Complete Unit13 only. Earlier artifacts and archived files are unchanged; no Unit14 teaching or drafting is included. Actual final checkpoints are recorded in STATUS and HANDOFF.",
   "additional_coordinator_primary_inspections": [
     {
       "path": "sources/audits/unit12-source/cook_fb_1895_2-p38.png",
@@ -131,5 +129,195 @@
       "normalized_lf_sha256": "46e9b55f90e475895ba5e0bc9dbec4fa0b97287e8c0833df2ec80b75a1a32efd",
       "bytes": 48985
     }
-  ]
+  ],
+  "presentation_acceptance": {
+    "status": "accepted",
+    "record": "typesetting/ch13/page-review.json",
+    "record_sha256": "6cae5d02503d263a79bce11e94212e4699b3466344b73614d415d893be70a68a",
+    "page_totals": {
+      "learner": 52,
+      "key": 30,
+      "total": 82
+    },
+    "complete_content_parity": "typesetting/ch13/content-parity.json",
+    "every_page_inspected_by_non_author": true,
+    "unresolved_findings": [],
+    "documents": [
+      {
+        "kind": "learner",
+        "path": "typesetting/ch13/chapter-13.pdf",
+        "sha256": "a2cb58195b9babe3359909a78f2170129e7e55544a0684e21f02f1578dc34a87",
+        "pages": 52
+      },
+      {
+        "kind": "key",
+        "path": "typesetting/ch13/answer-key.pdf",
+        "sha256": "fecebd8f8ddc20a87402fee5aca99e4970e3d9f25c28c9d9d438c198b9978dcf",
+        "pages": 30
+      }
+    ]
+  },
+  "register_integration": {
+    "record": "chapters/ch13/register-integration.json",
+    "sha256": "796878d9dce6b34709216061b7e0ce749c4fae28c35702d3247644700e44755d",
+    "earlier_active_files_preserved": 1818,
+    "archived_files_preserved": 134,
+    "actual_metrics": {
+      "before": {
+        "lemmas": 647,
+        "forms": 8235,
+        "senses": 778,
+        "features": 599
+      },
+      "after": {
+        "lemmas": 758,
+        "forms": 9308,
+        "senses": 918,
+        "features": 730
+      },
+      "unit13_status_counts": {
+        "forms": {
+          "new_production": 973,
+          "new_recognition_only": 46,
+          "supplied_here": 75
+        },
+        "senses": {
+          "new_production": 86,
+          "new_recognition_only": 0,
+          "supplied_here": 70
+        },
+        "features": {
+          "new_production": 94,
+          "new_recognition_only": 1,
+          "supplied_here": 36
+        }
+      },
+      "reused_supplied_records": {
+        "form": {
+          "gehieran-pret-3-sg-source": [
+            "NEW-U13-A12",
+            "NEW-U13-S01",
+            "NEW-U13-S02",
+            "NEW-U13-S03",
+            "NEW-U13-S04",
+            "NEW-U13-S05",
+            "NEW-U13-S06",
+            "NEW-U13-S07",
+            "NEW-U13-S08"
+          ],
+          "astigan-inf": [
+            "NEW-U13-S01",
+            "NEW-U13-S02",
+            "NEW-U13-S03",
+            "NEW-U13-S04",
+            "NEW-U13-S05",
+            "NEW-U13-S06",
+            "NEW-U13-S07",
+            "NEW-U13-S08"
+          ],
+          "becuman-pret-3-sg-source": [
+            "NEW-U13-S01",
+            "NEW-U13-S02",
+            "NEW-U13-S03",
+            "NEW-U13-S04",
+            "NEW-U13-S05",
+            "NEW-U13-S06",
+            "NEW-U13-S07",
+            "NEW-U13-S08"
+          ],
+          "sona-invariant-source": [
+            "NEW-U13-S01",
+            "NEW-U13-S02",
+            "NEW-U13-S03",
+            "NEW-U13-S04",
+            "NEW-U13-S05",
+            "NEW-U13-S06",
+            "NEW-U13-S07",
+            "NEW-U13-S08"
+          ],
+          "se-gen-pl-ae-source": [
+            "EX-VII-23-08"
+          ],
+          "se-m-nom-sg-long-u12-source": [
+            "EX-VII-24-01",
+            "EX-VII-24-04",
+            "EX-VII-24-05",
+            "EX-VII-25-01",
+            "EX-VII-25-06"
+          ],
+          "feallan-infinitive-citation": [
+            "EX-VII-24-03"
+          ]
+        },
+        "sense": {
+          "gehieran-u11-source": [
+            "NEW-U13-A12",
+            "NEW-U13-S01",
+            "NEW-U13-S02",
+            "NEW-U13-S03",
+            "NEW-U13-S04",
+            "NEW-U13-S05",
+            "NEW-U13-S06",
+            "NEW-U13-S07",
+            "NEW-U13-S08"
+          ],
+          "becuman-arrive": [
+            "NEW-U13-S01",
+            "NEW-U13-S02",
+            "NEW-U13-S03",
+            "NEW-U13-S04",
+            "NEW-U13-S05",
+            "NEW-U13-S06",
+            "NEW-U13-S07",
+            "NEW-U13-S08"
+          ],
+          "sona-immediately-source": [
+            "NEW-U13-S01",
+            "NEW-U13-S02",
+            "NEW-U13-S03",
+            "NEW-U13-S04",
+            "NEW-U13-S05",
+            "NEW-U13-S06",
+            "NEW-U13-S07",
+            "NEW-U13-S08"
+          ]
+        },
+        "feature": {}
+      },
+      "reused_taught_in_visible_help": {
+        "form": {
+          "fram-invariant": [
+            "NEW-U13-A12"
+          ],
+          "heofon-gen-sg": [
+            "NEW-U13-A12"
+          ],
+          "thaet-conjunction-invariant": [
+            "NEW-U13-A12"
+          ],
+          "lytel-gen-m-sg-strong": [
+            "EX-VII-24-09"
+          ],
+          "micel-ins-n-sg-strong": [
+            "EX-VII-24-09"
+          ],
+          "thu-nom-pl": [
+            "EX-VII-24-09"
+          ]
+        },
+        "sense": {
+          "fram-1": [
+            "NEW-U13-A12"
+          ],
+          "heofon-1": [
+            "NEW-U13-A12"
+          ],
+          "thaet-conjunction-1": [
+            "NEW-U13-A12"
+          ]
+        },
+        "feature": {}
+      }
+    }
+  }
 }
