@@ -1,6 +1,6 @@
 # Status
 
-Updated 26 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–13 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 13 exports and registers are saved at **`this export checkpoint`**. No Unit 14 work is assigned.
+Updated 26 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–13 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 13 exports and registers are saved at **`85b6911`**. No Unit 14 work is assigned.
 
 ## Completed Unit 13
 
@@ -30,7 +30,7 @@ The [learner PDF](typesetting/ch13/chapter-13.pdf) has **52 pages**; the [key](t
 | [10](typesetting/ch10/README.md) | The case system in extended sentences | 40 / 29 | 126e927 |
 | [11](typesetting/ch11/README.md) | Adverbial clauses | 42 / 31 | b096aca |
 | [12](typesetting/ch12/README.md) | Tense, sequence, and voice | 47 / 30 | 6f4f1e2 |
-| [13](typesetting/ch13/README.md) | Clause order and reference | 52 / 30 | this export checkpoint |
+| [13](typesetting/ch13/README.md) | Clause order and reference | 52 / 30 | 85b6911 |
 
 Each unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent review, complete TeX/PDFs and page ledgers.
 
