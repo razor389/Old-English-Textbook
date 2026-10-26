@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "chapter": "ch14",
+  "owner": "unit14_design",
+  "issue": "oec-u14-design",
+  "authorized_writes": [
+    "curriculum/proposals/unit14/**",
+    "build/u14-design-*"
+  ],
+  "coordinator_owned": [
+    "chapters/ch14/**",
+    "lexicon/entries.json",
+    "curriculum/grammar.json",
+    "sources/registry.json",
+    "curriculum/UNIT_14_BRIEF.md",
+    "STATUS.md",
+    "Beads",
+    "Git"
+  ],
+  "source_audit_owner": "unit14_source",
+  "grammar_audit_owner": "unit14_grammar",
+  "initial_solver_allowed": [
+    "The actual Unit 14 learner chapter being reviewed",
+    "Accepted earlier learner chapters and their actual cumulative registers",
+    "Necessary original primary page images"
+  ],
+  "initial_solver_forbidden_until_all_solutions_frozen": [
+    "chapters/ch14/coverage.json",
+    "chapters/ch14/answer-key.md",
+    "curriculum/UNIT_14_BRIEF.md",
+    "curriculum/proposals/unit14/**",
+    "sources/audits/unit14-*/**",
+    "All current annotated source/token maps",
+    "All current private models and authoring helpers"
+  ],
+  "filename_policy": "A public-looking filename does not permit access to current design or audit content before the complete blind solution is frozen.",
+  "remaining_stages": [
+    "Coordinator reconciliation and saved learning contract",
+    "Learner chapter and key authorship",
+    "Fresh independent learner solving before key or current audit access",
+    "Independent source, paradigm and editorial review",
+    "Inspection of every exported page and special character",
+    "Shared register/status updates, Beads export and recoverable local Git checkpoint"
+  ]
+}

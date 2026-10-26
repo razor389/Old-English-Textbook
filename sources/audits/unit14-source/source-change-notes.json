@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "policy": "Original prompts, diplomatic reading lines, learner text, source apparatus and private models are separate records. Initial editorial misreadings are distinguished from demonstrated source errors.",
+  "changes": [
+    {
+      "change_id": "U14-CN01",
+      "category": "declared_typographic_normalization",
+      "affected": ["exercises-prompts.json"],
+      "description": "All21 original English prompts retained with original group/exercise/item IDs and all parenthetic controls. Line wrapping is joined; typographic quotation marks/apostrophes and dashes are represented in Unicode. Source lexical spellings and source instructions remain intact."
+    },
+    {
+      "change_id": "U14-CN02",
+      "category": "documented_source_correction_in_models_only",
+      "correction_id": "C01",
+      "affected": ["EX-VIII-26-06"],
+      "original": "wǣstm",
+      "selected_model": "wæstm / wæstmas",
+      "description": "Retain Cook’s original quantity hint in the English prompt. Compose with the already checked short-vowel lemma and its exact prior form IDs, under existing C01. No new quantity is inferred.",
+      "record": "sources/CORRECTIONS.md#c01"
+    },
+    {
+      "change_id": "U14-CN03",
+      "category": "documented_source_reference_correction",
+      "correction_id": "C04",
+      "affected": ["EX-VIII-27-04", "NEW-U14-NOM-WUND"],
+      "original": "sores (wund, 43)",
+      "selected_model": "wunda, accusative plural of feminine wund",
+      "description": "Cook43 gives strong masculine forms. The noun wound/sore is feminine, directly identified by Bosworth–Toller Main1281a; Supplement570b quotes the relevant Luke16.21 wunda and liccodon. Cook323’s wund(58) is the adjective wounded and does not license a masculine wound noun. The complete proposed noun table follows Cook51b, printed35. Original prompt unchanged.",
+      "evidence_refs": ["U14-EX-P14", "U14-FB-P28", "U14-FB-P35", "U14-FB-P323", "U14-BT-MAIN-P1281A", "U14-BT-SUPP-P570B"],
+      "record": "sources/CORRECTIONS.md#c04"
+    },
+    {
+      "change_id": "U14-CN04",
+      "category": "documented_apparatus_reference_mismatch",
+      "correction_id": "C05",
+      "affected": ["FB-VIII-DANGERS-157-N1"],
+      "original": "See p. 156, n. 12.",
+      "description": "The exact pointer leads to torrum, probably crag. The relevant parallel for ōðre as the rest of is156n11, on se ōðer wudu. Preserve the original pointer and separately explain the mismatch. The cause and original intention are not asserted as certain.",
+      "evidence_refs": ["U14-SRC-P156", "U14-SRC-P157"],
+      "record": "sources/CORRECTIONS.md#c05"
+    },
+    {
+      "change_id": "U14-CN05",
+      "category": "declared_layout_normalization",
+      "affected": ["reading-source.json", "reading-token-ledger.json"],
+      "description": "Learner text joins print-line division ðā-/ðe as ðā-ðe, preserving its lexical hyphen; it joins ge-/slægene across157–158 as geslægene, removing only the layout hyphen. Note markers are removed from learner words but all25 anchors remain in reading-apparatus.json. No letter, vowel quantity, dialect or word order is regularized."
+    },
+    {
+      "change_id": "U14-CN06",
+      "category": "declared_selection",
+      "affected": ["FB-VIII-DANGERS-OPENING-ARGUMENT"],
+      "description": "Select the complete opening argument,156.1–158.4 (PDF172–174): thesis, proportional danger, three natural illustrations and human conclusion through tō nāhte. The following passage begins a distinct elaboration on worldly display. It remains explicitly unassigned rather than being represented as omitted assigned material. No newly composed replacement reading is added."
+    },
+    {
+      "change_id": "U14-CN07",
+      "category": "correction_of_editorial_misreading_not_source_error",
+      "affected": ["dust", "godwebb"],
+      "description": "Initial low-resolution observations provisionally read dust and god-wębb. The coordinator flagged possible length marks; this source editor independently rendered and personally viewed400dpi pages283/296. The macrons are clear: dūst and gōd-wębb. All final nominal forms preserve these lengths. This is not a Cook erratum and is not a silent quantity normalization.",
+      "evidence_refs": ["U14-FB-P283", "U14-FB-P296"],
+      "images": ["sources/audits/unit14-source/cook-fb-p283-quantity.png", "sources/audits/unit14-source/cook-fb-p296-quantity.png"]
+    }
+  ]
+}

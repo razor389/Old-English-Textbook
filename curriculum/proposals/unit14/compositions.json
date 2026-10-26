@@ -1,0 +1,419 @@
+{
+  "schema_version": 1,
+  "chapter": "ch14",
+  "teaching_examples": [
+    {
+      "example_id": "NEW-U14-EXAMPLE01",
+      "origin": "new_teaching_material",
+      "text": "Ðæt goldhord is on ðǣm hūse.",
+      "translation": "The treasure is in the house.",
+      "target": "Compound noun as a whole inflected noun; familiar nominative and locative frames.",
+      "form_ids": [
+        "se-n-nom-sg",
+        "goldhord-nom-sg",
+        "wesan-pres-3-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "hus-dat-sg-source"
+      ],
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Ðæt",
+          "surface": "Ðæt",
+          "lemma_id": "se",
+          "form_id": "se-n-nom-sg",
+          "sense_id": "se-the",
+          "form": "ðæt",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "goldhord",
+          "surface": "goldhord",
+          "lemma_id": "goldhord",
+          "form_id": "goldhord-nom-sg",
+          "sense_id": "goldhord-1",
+          "form": "goldhord",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "n"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 3,
+          "literal": "is",
+          "surface": "is",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pres-3-sg",
+          "sense_id": "wesan-be",
+          "form": "is",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "on",
+          "surface": "on",
+          "lemma_id": "on",
+          "form_id": "on-invariant",
+          "sense_id": "on-1",
+          "form": "on",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 5,
+          "literal": "ðǣm",
+          "surface": "ðǣm",
+          "lemma_id": "se",
+          "form_id": "se-n-dat-sg",
+          "sense_id": "se-the",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 6,
+          "literal": "hūse.",
+          "surface": "hūse",
+          "lemma_id": "hus",
+          "form_id": "hus-dat-sg-source",
+          "sense_id": "hus-house-source",
+          "form": "hūse",
+          "analysis": {
+            "source_analysis": "dative neuter singular after tō"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "goldhord-nom-sg",
+        "hus-dat-sg-source",
+        "on-invariant",
+        "se-n-dat-sg",
+        "se-n-nom-sg",
+        "wesan-pres-3-sg"
+      ],
+      "supplied_form_ids": [],
+      "tested_form_ids": [],
+      "required_sense_ids": [
+        "goldhord-1",
+        "hus-house-source",
+        "on-1",
+        "se-the",
+        "wesan-be"
+      ],
+      "supplied_sense_ids": [],
+      "tested_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "on-dative-location",
+        "u14-compound-analysis",
+        "u14-nom-goldhord"
+      ],
+      "supplied_feature_ids": [],
+      "tested_feature_ids": []
+    },
+    {
+      "example_id": "NEW-U14-EXAMPLE02",
+      "origin": "new_teaching_material",
+      "text": "Ic forlǣte ēow sibbe.",
+      "translation": "I leave you peace.",
+      "target": "New leave-to-a-person sense and dative-recipient/accusative-thing frame with familiar finite morphology.",
+      "form_ids": [
+        "ic-nom-sg",
+        "forlaetan-pres-1-sg",
+        "thu-dat-pl",
+        "sibb-acc-sg"
+      ],
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Ic",
+          "surface": "Ic",
+          "lemma_id": "ic",
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "forlǣte",
+          "surface": "forlǣte",
+          "lemma_id": "forlaetan",
+          "form_id": "forlaetan-pres-1-sg",
+          "sense_id": "forlaetan-u14-leave-to",
+          "form": "forlǣte",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 3,
+          "literal": "ēow",
+          "surface": "ēow",
+          "lemma_id": "thu",
+          "form_id": "thu-dat-pl",
+          "sense_id": "thu-personal",
+          "form": "ēow",
+          "analysis": {
+            "person": 2,
+            "number": "plural",
+            "gender": null,
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "sibbe.",
+          "surface": "sibbe",
+          "lemma_id": "sibb",
+          "form_id": "sibb-acc-sg",
+          "sense_id": "sibb-u13-source",
+          "form": "sibbe",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "f"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        }
+      ],
+      "required_form_ids": [
+        "forlaetan-pres-1-sg",
+        "ic-nom-sg",
+        "sibb-acc-sg",
+        "thu-dat-pl"
+      ],
+      "supplied_form_ids": [],
+      "tested_form_ids": [],
+      "required_sense_ids": [
+        "forlaetan-u14-leave-to",
+        "ic-personal",
+        "sibb-u13-source",
+        "thu-personal"
+      ],
+      "supplied_sense_ids": [],
+      "tested_sense_ids": [],
+      "required_feature_ids": [
+        "u02-pronoun-reference",
+        "u14-forlaetan-transfer",
+        "u14-nom-sibb"
+      ],
+      "supplied_feature_ids": [],
+      "tested_feature_ids": []
+    },
+    {
+      "example_id": "NEW-U14-EXAMPLE03",
+      "origin": "new_teaching_material",
+      "text": "Hē onfēng ðǣm golde.",
+      "translation": "He received the gold.",
+      "target": "Onfōn governs a dative thing received; distinguish English object function from Old English case.",
+      "form_ids": [
+        "he-m-nom-sg",
+        "onfon-pret-3-sg",
+        "se-n-dat-sg",
+        "gold-dat-sg"
+      ],
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Hē",
+          "surface": "Hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "form": "hē",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 2,
+          "literal": "onfēng",
+          "surface": "onfēng",
+          "lemma_id": "onfon",
+          "form_id": "onfon-pret-3-sg",
+          "sense_id": "onfon-u14-receive",
+          "form": "onfēng",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 3,
+          "literal": "ðǣm",
+          "surface": "ðǣm",
+          "lemma_id": "se",
+          "form_id": "se-n-dat-sg",
+          "sense_id": "se-the",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        },
+        {
+          "token_index": 4,
+          "literal": "golde.",
+          "surface": "golde",
+          "lemma_id": "gold",
+          "form_id": "gold-dat-sg",
+          "sense_id": "gold-1",
+          "form": "golde",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "n"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "gold-dat-sg",
+        "he-m-nom-sg",
+        "onfon-pret-3-sg",
+        "se-n-dat-sg"
+      ],
+      "supplied_form_ids": [],
+      "tested_form_ids": [],
+      "required_sense_ids": [
+        "gold-1",
+        "he-1",
+        "onfon-u14-receive",
+        "se-the"
+      ],
+      "supplied_sense_ids": [],
+      "tested_sense_ids": [],
+      "required_feature_ids": [
+        "article-agreement",
+        "u02-pronoun-reference",
+        "u14-onfon-dative",
+        "u14-onfon-indicative"
+      ],
+      "supplied_feature_ids": [],
+      "tested_feature_ids": []
+    },
+    {
+      "example_id": "NEW-U14-EXAMPLE04",
+      "origin": "new_teaching_material",
+      "text": "Gemiltsa mē.",
+      "translation": "Have mercy on me.",
+      "target": "Singular command with a dative person.",
+      "form_ids": [
+        "gemiltsian-imp-2-sg",
+        "ic-dat-sg"
+      ],
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Gemiltsa",
+          "surface": "Gemiltsa",
+          "lemma_id": "gemiltsian",
+          "form_id": "gemiltsian-imp-2-sg",
+          "sense_id": "gemiltsian-u14-pity",
+          "form": "gemiltsa",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "mē.",
+          "surface": "mē",
+          "lemma_id": "ic",
+          "form_id": "ic-dat-sg",
+          "sense_id": "ic-personal",
+          "form": "mē",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught"
+        }
+      ],
+      "required_form_ids": [
+        "gemiltsian-imp-2-sg",
+        "ic-dat-sg"
+      ],
+      "supplied_form_ids": [],
+      "tested_form_ids": [],
+      "required_sense_ids": [
+        "gemiltsian-u14-pity",
+        "ic-personal"
+      ],
+      "supplied_sense_ids": [],
+      "tested_sense_ids": [],
+      "required_feature_ids": [
+        "u02-pronoun-reference",
+        "u14-gemiltsian-dative",
+        "u14-gemiltsian-imperative"
+      ],
+      "supplied_feature_ids": [],
+      "tested_feature_ids": []
+    }
+  ],
+  "new_reading": null
+}

@@ -1,0 +1,93 @@
+{
+  "chapter_id": "ch14",
+  "status": "accepted_for_contract",
+  "date": "2026-10-26",
+  "coordinator": "root",
+  "prior_checkpoint": "c2cb7d6935d66d8694aa115d28a2a0d1d05b32a8",
+  "separate_workers": {
+    "source": "unit14_source",
+    "grammar": "unit14_grammar",
+    "curriculum": "unit14_design"
+  },
+  "source_report": "sources/audits/unit14-source/README.md",
+  "grammar_report": "sources/audits/unit14-grammar/REPORT.md",
+  "design_report": "curriculum/proposals/unit14/README.md",
+  "sealed_inputs": [
+    {
+      "manifest": {
+        "path": "sources/audits/unit14-source/artifact-manifest.json",
+        "sha256": "63d4346994a7a7188052e5a6ab5b566deb5e337e87ea75dd2635c0a6cdcba212",
+        "sha256_normalized_lf": "d131f745a77064e7112515e7826215cc4cbcc041581e3f0134a8def2e1fd8042"
+      },
+      "verified_file_entries": 96
+    },
+    {
+      "manifest": {
+        "path": "sources/audits/unit14-grammar/manifest.json",
+        "sha256": "66b434e19cb4c68f57d9cbdfdf148bc45b213431c28c391bd1f94b09f158f49b",
+        "sha256_normalized_lf": "76cf737fdbf9c738586e91105762693c1f7878e91b8b9730a21cb4ca9f54dbc8"
+      },
+      "verified_file_entries": 12
+    },
+    {
+      "manifest": {
+        "path": "curriculum/proposals/unit14/manifest.json",
+        "sha256": "9dadf5e1eddd1770d2d0fa76457d6c50d96bee5f4f7c216094082ed82ff95e01",
+        "sha256_normalized_lf": "9577b6cc9a76925b698f7ebd3120561e01918a6ed1fafe161b579ca21cb9ccc5"
+      },
+      "verified_file_entries": 45
+    }
+  ],
+  "primary_crosscheck": "sources/audits/unit14-coordinator/primary-crosscheck.json",
+  "authoring_comparison": "sources/audits/unit14-coordinator/author-only-cook-reconciliation.md",
+  "counts": {
+    "tasks": 44,
+    "cook_tasks": 21,
+    "original_tasks": 23,
+    "examples": 4,
+    "new_reading_words": 0,
+    "source_words": 159,
+    "paradigms": 38,
+    "cells": 324,
+    "display_matrices": 38,
+    "literal_display_cells": 324,
+    "derived_display_cells": 0,
+    "new_inventory_lemmas": 113,
+    "features": 90,
+    "requested_output_positions": 156,
+    "morphology_output_positions": 74
+  },
+  "evidence_catalog_entries": 1571,
+  "independent_source_translations": [
+    "sources/audits/unit14-coordinator/source-first-translation.md",
+    "sources/audits/unit14-source/author-only-reading-witness.json",
+    "sources/audits/unit14-grammar/author-only-independent-witness.json",
+    "curriculum/proposals/unit14/author-only-source-translation-witness.json"
+  ],
+  "decisions": [
+    "Accept the source, grammar and curriculum audits after exact-identity reconciliation and primary crosschecks. They are evidence/design inputs; this contract alone establishes new assignments and teaching scope.",
+    "Assign all21 unchanged Cook VIII.26–27 prompts, keeping both complete sets. Resolve their earlier deferrals; canonical numbered crosswalk406assigned/238deferred/0excluded,644total.",
+    "Assign the exact159-word Dangers opening argument, printed156.1–158.4/PDF172–174, through weorðað tō nāhte. Preserve24original notes and25anchors. The next luxury/death argument remains unassigned.",
+    "Keep original prompts, diplomatic text, declared layout normalization, modern help, source apparatus and new compositions separate. Preserve qualified source attribution.",
+    "Teach practical analysis of attested compounds and word families, whole-word lexical meaning, derivation versus inflection and lexical noun versus substantive adjective. Do not authorize unrestricted coinage or predictable meanings from every affix.",
+    "Display all38 complete systems/324cells literally:18nominal/144cells and20verbal/180cells. Nominal116productive and28reference cells retain explicit number/sense scope. Indicatives, subjunctives, participle bases and commands are separately defined.",
+    "Preserve dūst and gōdwębb quantities verified at400dpi; initial short-vowel readings were audit mistakes. Preserve C01 original wǣstm while teaching wæstm. C04 corrects the inapplicable wund43 reference for the feminine wound noun; C05 preserves and explains the apparent original note-pointer mismatch.",
+    "Retain exact prior cymð,birð,wierð,fēoll,yfele,gatum identities; ordinary selected se rather than a supplied long-ē variant in new26.3 composition. Reuse actual prior dēorwierðu and allow strong or weak after a possessive under Unit3.",
+    "Select ne wæs26.10 and prior hālsian request frame27.9. Supply the exact nān…ne, indefinite, only-begotten, rain, speech-addressee, figurative-way, comparison, lifetime, gate-location, result and foreign-name/participle expressions at point of use.",
+    "Use actual Unit11 article-plus-weak rihtwīs people scope for A06 and Unit12 sęndan recipient/command scope for C04. Preserve all existing form surfaces and analyses, adding contextual refinements separately. Supplied sibb/wuldor identities are explicitly promoted without erasing their histories.",
+    "Bind all44tasks/156requested output positions, including74morphology outputs, four teaching examples,273Cook model tokens and159source tokens. Keep private ordered models outside the fresh reviewer allowlist.",
+    "All20Cook and34reading helps remain visible. Nine reused supplied citation form/sense identities have current teaching-support records without promotion.",
+    "The sealed EALDORDOM family row carries preliminary taskS06; canonical assignment isS05, with -dōm derivation and genitive relationship explicitly bound. S06 covers the final subjects and outcomes.",
+    "Correct initial independent translation witnesses separately: beðǣm is distinct from accusative bȳsena; līegum is thunderbolts/lightning. Preserve every initial witness unchanged. Source gestęnt and the storm/wind coordination retain their original grammar.",
+    "Preserve c2cb7d6 and the union of initial and supplemental manifests:1977earlier files including2registers,1975fixed artifacts,134archive files. Later integration must preserve every prior identity, surface, analysis, evidence record and teaching/supplied history.",
+    "Require the strict fresh blind solve and Git freeze before current key/contract/audit access; separate fresh324-cell review; material-finding resolution; full LuaLaTeX learner/key parity; non-author inspection of every final page; register/index/README/status updates; Beads export and local recoverable commits. Do not draft Unit15."
+  ],
+  "unresolved_dependencies": [],
+  "preflight": {
+    "status": "pass",
+    "command": "python -X utf8 scripts/check_unit14.py --contract build/unit14-coverage-candidate.json",
+    "scope": "Noncanonical candidate structural check passed after schema reconciliation; run again on the actual canonical contract before checkpoint/prose.",
+    "register_dry_run": "Preserved prior surfaces/analyses and earliest milestones in an ignored candidate merge; active registers untouched. Final integration remains gated on independent text/page acceptance."
+  },
+  "prose_authorization": "Only after actual canonical contract validation, Beads export and successful local Git checkpoint."
+}

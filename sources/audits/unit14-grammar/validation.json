@@ -1,0 +1,32 @@
+{
+  "chapter": "ch14",
+  "status": "pass",
+  "baseline": "c2cb7d6",
+  "counts": {
+    "verbal_systems": 20,
+    "verbal_cells": 180,
+    "core_features": 47,
+    "local_support_features": 25,
+    "cook_items": 21,
+    "reading_words": 159,
+    "grammar_reading_bindings": 51,
+    "cook_help_groups": 16,
+    "reading_help_groups": 9,
+    "family_examples": 14,
+    "primary_evidence_entries": 79
+  },
+  "checks": [
+    "Every reused form ID preserves its exact prior surface and analysis; contextual refinements are separate. Reused sense glosses are unchanged.",
+    "All20 defined verbal systems have all required cells:9IND and5SUBJ at12each,4PART and2IMP at2each;180cells.",
+    "All21 original Cook items have exact existing/new form and sense IDs, construction statuses, local-help references and explicit original-control interpretations; no unresolved verbal output.",
+    "All51 grammar-owned reading bindings match the exact159-word source token positions; original hruron note answer is separately supplied, not an extra reading token.",
+    "Every printed principal-part diagnostic has a literal form record; citation/diagnostic supply does not silently teach a nonfinite syntactic use.",
+    "All14 family examples bind exact prior/new/supplied lexical records; transparent analysis and whole-word semantic limits are explicit."
+  ],
+  "errors": [],
+  "limits": [
+    "This validation checks identity, completeness and references; it does not itself establish linguistic truth. Primary inspection and independent coordinator review remain necessary.",
+    "Nominal paradigms and the remaining reading/Cook tokens are owned by the source editor and must be reconciled by the coordinator.",
+    "No chapter prose, active register or contract was edited by this worker. No Beads or Git mutation was performed."
+  ]
+}

@@ -1,0 +1,1608 @@
+{
+  "chapter": "ch14",
+  "scope": "All21 Cook prompts. This packet covers verbal and construction dependencies; the source editor separately owns all nominal items and exact prompt text.",
+  "items": [
+    {
+      "item_id": "EX-VIII-26-01",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pres-2-sg",
+          "sense_id": "wesan-be",
+          "form": "eart",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "gewendan",
+          "form_id": "gewendan-pres-2-sg",
+          "sense_id": "gewendan-u14-return",
+          "form": "gewęntst",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "singular"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-gewendan-indicative",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u14-gewendan-return",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "local_support_ids": [],
+      "original_controls_and_interpretation": [
+        "gewęndan is the specified lexical verb; tō+dative endpoint."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-gewendan-indicative",
+        "u14-gewendan-return"
+      ],
+      "targets": [
+        "gewęndan is the specified lexical verb; tō+dative endpoint."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-26-02",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "lufian",
+          "form_id": "lufian-pret-3-sg",
+          "sense_id": "lufian-1",
+          "form": "lufode",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "sellan",
+          "form_id": "sellan-pret-3-sg",
+          "sense_id": "sellan-give",
+          "form": "sealde",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "forweorthan",
+          "form_id": "forweorthan-pres-subj-3-sg",
+          "sense_id": "forweorthan-1",
+          "form": "forweorðe",
+          "form_status": "new_production",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "geliefan",
+          "form_id": "geliefan-pres-3-sg",
+          "sense_id": "geliefan-u14-believe",
+          "form": "gelīefð",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "habban",
+          "form_id": "habban-present-subj-3-sg",
+          "sense_id": "habban-1",
+          "form": "hæbbe",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "on",
+          "form_id": "on-invariant",
+          "sense_id": "on-u14-belief",
+          "form": "on",
+          "form_status": "previously_taught",
+          "sense_status": "new_production",
+          "analysis": {
+            "invariant": true,
+            "function": "preposition in supplied glory expression"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u11-purpose",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u08-relative-the",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u14-geliefan-on",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u14-forweorthan-subjunctive",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-NONE"
+      ],
+      "original_controls_and_interpretation": [
+        "First so…that gives the expressed extent/result; the two196f references govern the later purpose verbs forweorðe/hæbbe. Do not turn every that-clause into purpose.",
+        "87d explicitly targets bare ðe; on172 requires accusative hine in the belief frame.",
+        "Preserve omitted may and source sęllan rather than inventing a modal."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u11-purpose",
+        "u08-relative-the",
+        "u14-geliefan-on",
+        "u14-forweorthan-subjunctive",
+        "U14-G-COOK-NONE"
+      ],
+      "targets": [
+        "First so…that gives the expressed extent/result; the two196f references govern the later purpose verbs forweorðe/hæbbe. Do not turn every that-clause into purpose.",
+        "87d explicitly targets bare ðe; on172 requires accusative hine in the belief frame.",
+        "Preserve omitted may and source sęllan rather than inventing a modal."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-26-03",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "cwethan",
+          "form_id": "cwethan-pret-3-sg",
+          "sense_id": "cwethan-1",
+          "form": "cwæð",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pres-1-sg",
+          "sense_id": "wesan-be",
+          "form": "eom",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pres-3-sg",
+          "sense_id": "cuman-come",
+          "form": "cymð",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u05-direct-quotation",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u06-cuman-intransitive",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u10-to-destination",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-NONE",
+        "U14-G-COOK-EXCEPT",
+        "U14-G-COOK-SPEECH-TO"
+      ],
+      "original_controls_and_interpretation": [
+        "183 requires negative concord in nān ne cymð. Parenthesis183 does not change the positive morphology of cymð.",
+        "Except-by supplied būtan ðurh; use accusative first-person mē."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u05-direct-quotation",
+        "u06-cuman-intransitive",
+        "u10-to-destination",
+        "U14-G-COOK-NONE",
+        "U14-G-COOK-EXCEPT",
+        "U14-G-COOK-SPEECH-TO"
+      ],
+      "targets": [
+        "183 requires negative concord in nān ne cymð. Parenthesis183 does not change the positive morphology of cymð.",
+        "Except-by supplied būtan ðurh; use accusative first-person mē."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-26-04",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "forlaetan",
+          "form_id": "forlaetan-pres-1-sg",
+          "sense_id": "forlaetan-u14-leave-to",
+          "form": "forlǣte",
+          "form_status": "previously_taught",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "sg"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "forgiefan",
+          "form_id": "forgiefan-pres-1-sg",
+          "sense_id": "forgiefan-u14-give",
+          "form": "forgiefe",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "singular"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-forlaetan-transfer",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u14-forgiefan-giving",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "local_support_ids": [],
+      "original_controls_and_interpretation": [
+        "164a calls for dative recipient; omit English with. Forgiefan means give, not forgive.",
+        "Unmarked English you may permit singular or plural recipients if consistently used; chosen model uses ēow."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-forlaetan-transfer",
+        "u14-forgiefan-giving"
+      ],
+      "targets": [
+        "164a calls for dative recipient; omit English with. Forgiefan means give, not forgive.",
+        "Unmarked English you may permit singular or plural recipients if consistently used; chosen model uses ēow."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-26-05",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "rinan",
+          "form_id": "rinan-u14-source-1",
+          "sense_id": "rinan-u14-source",
+          "form": "rīnde",
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pret-3-pl-source",
+          "sense_id": "cuman-come",
+          "form": "cōmon",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "blawan",
+          "form_id": "blawan-pret-3-pl",
+          "sense_id": "blawan-1",
+          "form": "blēowon",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "ahreosan",
+          "form_id": "ahreosan-pret-3-pl",
+          "sense_id": "ahreosan-u14-fall",
+          "form": "āhruron",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "feallan",
+          "form_id": "feallan-pret-3-sg",
+          "sense_id": "feallan-1",
+          "form": "fēoll",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-ahreosan-on",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u06-cuman-intransitive",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u05-intransitive-motion",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-RAIN"
+      ],
+      "original_controls_and_interpretation": [
+        "Weather rīnde hit is supplied. Preserve the separate plural action sequence and singular house’s fall.",
+        "The specified āhrēosan is distinct from the final feallan; on that house takes accusative."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-ahreosan-on",
+        "u06-cuman-intransitive",
+        "u05-intransitive-motion",
+        "U14-G-COOK-RAIN"
+      ],
+      "targets": [
+        "Weather rīnde hit is supplied. Preserve the separate plural action sequence and singular house’s fall.",
+        "The specified āhrēosan is distinct from the final feallan; on that house takes accusative."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-26-06",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "beran",
+          "form_id": "beran-pres-3-sg",
+          "sense_id": "beran-produce",
+          "form": "birð",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u07-beran-accusative-seed-fruit",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [],
+      "original_controls_and_interpretation": [
+        "Use ordinary present birð in both clauses; the earlier carry sense alone would not suffice.",
+        "Plural fruits; retain C01 corrected wæstm and its existing forms."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u07-beran-accusative-seed-fruit"
+      ],
+      "targets": [
+        "Use ordinary present birð in both clauses; the earlier carry sense alone would not suffice.",
+        "Plural fruits; retain C01 corrected wæstm and its existing forms."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-26-07",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "beran",
+          "form_id": "beran-pres-3-sg",
+          "sense_id": "beran-produce",
+          "form": "birð",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "forceorfan",
+          "form_id": "forceorfan-participle-citation",
+          "sense_id": "forceorfan-u13",
+          "form": "forcorfen",
+          "form_status": "new_production",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "nonfinite": "participle",
+            "tense": "past",
+            "inflection": "base"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "weorpan",
+          "form_id": "weorpan-participle-citation",
+          "sense_id": "weorpan-1",
+          "form": "worpen",
+          "form_status": "new_production",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "nonfinite": "participle",
+            "tense": "past",
+            "inflection": "base"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "wesan",
+          "form_id": "wesan-beon-pres-3-sg",
+          "sense_id": "wesan-passive",
+          "form": "bið",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u08-relative-the",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u07-passive",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u14-weorpan-goal-passive",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u13-dependent-order-tendencies",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [],
+      "original_controls_and_interpretation": [
+        "87d=bared relative ðe. The fruit is explicitly singular.",
+        "Original forceorfan104 is applicable strongIII (unlike earlier23.7 miscitation134).",
+        "The selected model puts finite passive auxiliary bið last as requested; ordinary grammatical alternative order must be distinguished from the explicit target.",
+        "Bare worpen selected; optional geworpen is a valid unassigned spelling/prefix alternative."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u08-relative-the",
+        "u07-passive",
+        "u14-weorpan-goal-passive",
+        "u13-dependent-order-tendencies"
+      ],
+      "targets": [
+        "87d=bared relative ðe. The fruit is explicitly singular.",
+        "Original forceorfan104 is applicable strongIII (unlike earlier23.7 miscitation134).",
+        "The selected model puts finite passive auxiliary bið last as requested; ordinary grammatical alternative order must be distinguished from the explicit target.",
+        "Bare worpen selected; optional geworpen is a valid unassigned spelling/prefix alternative."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-26-08",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "gan",
+          "form_id": "gan-pret-3-sg",
+          "sense_id": "gan-1",
+          "form": "ēode",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "gebiddan",
+          "form_id": "gebiddan-pret-subj-3-sg",
+          "sense_id": "gebiddan-u14-pray",
+          "form": "gebǣde",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "gebiddan",
+          "form_id": "gebiddan-pret-3-sg",
+          "sense_id": "gebiddan-u14-pray",
+          "form": "gebæd",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pret-3-sg",
+          "sense_id": "wesan-be",
+          "form": "wæs",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "scinan",
+          "form_id": "scinan-u14-pres-part-nom-n-sg-source",
+          "sense_id": "scinan-u14-source",
+          "form": "scīnende",
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "analysis": {
+            "nonfinite": "participle",
+            "tense": "present",
+            "case": "nominative",
+            "number": "singular",
+            "gender": "neuter",
+            "declension": "strong"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-gan-on-goal",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u11-purpose",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u14-gebiddan-reflexive",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u11-past-when-then",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-SHINING"
+      ],
+      "original_controls_and_interpretation": [
+        "On172 specifies accusative mountain goal. Both184b references require an accusative reflexive pronoun.",
+        "Purpose after the past journey uses gebǣde; factual when with exact ðā uses gebæd. Do not replace source ðā with a finder error or section95."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-gan-on-goal",
+        "u11-purpose",
+        "u14-gebiddan-reflexive",
+        "u11-past-when-then",
+        "U14-G-COOK-SHINING"
+      ],
+      "targets": [
+        "On172 specifies accusative mountain goal. Both184b references require an accusative reflexive pronoun.",
+        "Purpose after the past journey uses gebǣde; factual when with exact ðā uses gebæd. Do not replace source ðā with a finder error or section95."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-26-09",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "hreosan",
+          "form_id": "hreosan-u14-pres-part-nom-m-sg-source",
+          "sense_id": "hreosan-u14-source",
+          "form": "hrēosende",
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "analysis": {
+            "nonfinite": "participle",
+            "tense": "present",
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine",
+            "declension": "strong"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "weorthan",
+          "form_id": "weorthan-pres-3-sg",
+          "sense_id": "weorthan-become",
+          "form": "wierð",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        }
+      ],
+      "grammar_requirements": [],
+      "local_support_ids": [
+        "U14-G-COOK-FALL-NAUGHT"
+      ],
+      "original_controls_and_interpretation": [
+        "The falling participle and tō nāhte result expression are explicitly supplied; no full hrēosan or nāht system is introduced."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "U14-G-COOK-FALL-NAUGHT"
+      ],
+      "targets": [
+        "The falling participle and tō nāhte result expression are explicitly supplied; no full hrēosan or nāht system is introduced."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-26-10",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pret-3-sg",
+          "sense_id": "wesan-passive",
+          "form": "wæs",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "geglengan",
+          "form_id": "geglengan-past-participle-base",
+          "sense_id": "geglengan-u14-adorn",
+          "form": "geglęnged",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "nonfinite": "participle",
+            "tense": "past",
+            "inflection": "base"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-geglengan-material",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u10-partitive-group",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-AS",
+        "U14-G-COOK-GLORY"
+      ],
+      "original_controls_and_interpretation": [
+        "Use the same newly taught adorned past base as27.2; no extra adornment verb is necessary.",
+        "The comparator ān is nominative; ðissa is the genitive group."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-geglengan-material",
+        "u10-partitive-group",
+        "U14-G-COOK-AS",
+        "U14-G-COOK-GLORY"
+      ],
+      "targets": [
+        "Use the same newly taught adorned past base as27.2; no extra adornment verb is necessary.",
+        "The comparator ān is nominative; ðissa is the genitive group."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-01",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "aetiewan",
+          "form_id": "aetiewan-pret-3-sg",
+          "sense_id": "aetiewan-u14-show",
+          "form": "ætīewde",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "gemetan",
+          "form_id": "gemetan-pp-bare-source",
+          "sense_id": "gemetan-find",
+          "form": "gemētt",
+          "form_status": "new_production",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "nonfinite": "participle",
+            "tense": "past",
+            "inflection": "base"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pret-3-sg",
+          "sense_id": "wesan-passive",
+          "form": "wæs",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-aetiewan-show",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u07-passive",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u03-determiner-conditions",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [],
+      "original_controls_and_interpretation": [
+        "Exact target ætīewan is transitive weakI, not prior intransitive weakII ætēowian.",
+        "Gemētt is the passive participle; gemētte would be a preterite.",
+        "Headless all that source syntax and the numbered noun list require source editor’s separately audited nominal support."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-aetiewan-show",
+        "u07-passive",
+        "u03-determiner-conditions"
+      ],
+      "targets": [
+        "Exact target ætīewan is transitive weakI, not prior intransitive weakII ætēowian.",
+        "Gemētt is the passive participle; gemētte would be a preterite.",
+        "Headless all that source syntax and the numbered noun list require source editor’s separately audited nominal support."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-02",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "geglengan",
+          "form_id": "geglengan-past-participle-base",
+          "sense_id": "geglengan-u14-adorn",
+          "form": "geglęnged",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "nonfinite": "participle",
+            "tense": "past",
+            "inflection": "base"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pret-3-sg",
+          "sense_id": "wesan-passive",
+          "form": "wæs",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "mid",
+          "form_id": "mid-invariant-source",
+          "sense_id": "mid-u14-adornment",
+          "form": "mid",
+          "form_status": "previously_taught",
+          "sense_status": "new_production",
+          "analysis": {
+            "invariant": true,
+            "function": "preposition"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-geglengan-material",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u07-passive",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [],
+      "original_controls_and_interpretation": [
+        "Put finite wæs last in the selected target model. Purple is represented by the source editor’s evidenced material/clothing noun, not a newly invented colour adjective."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-geglengan-material",
+        "u07-passive"
+      ],
+      "targets": [
+        "Put finite wæs last in the selected target model. Purple is represented by the source editor’s evidenced material/clothing noun, not a newly invented colour adjective."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-03",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "licgan",
+          "form_id": "licgan-pret-3-sg",
+          "sense_id": "licgan-1",
+          "form": "læg",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u05-intransitive-posture",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u13-main-fronting-order",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-AT-GATES"
+      ],
+      "original_controls_and_interpretation": [
+        "Retain exact ðā then. A certain can be prior sum; wǣdla is the new lexical poor-man noun."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u05-intransitive-posture",
+        "u13-main-fronting-order",
+        "U14-G-COOK-AT-GATES"
+      ],
+      "targets": [
+        "Retain exact ðā then. A certain can be prior sum; wǣdla is the new lexical poor-man noun."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-04",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "giefan",
+          "form_id": "giefan-pret-3-sg",
+          "sense_id": "giefan-1",
+          "form": "geaf",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pret-3-pl-source",
+          "sense_id": "cuman-come",
+          "form": "cōmon",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "liccian",
+          "form_id": "liccian-pret-3-pl",
+          "sense_id": "liccian-u14-lick",
+          "form": "liccodon",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-giefan-unexpressed-thing",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u14-liccian-object",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-NONE"
+      ],
+      "original_controls_and_interpretation": [
+        "No man gives with a dative recipient and an unexpressed thing. Dogs have plural cōmon/liccodon; wounds are accusative.",
+        "Original noun wund43 remains visible, with the source editor’s evidence-backed feminine correction."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-giefan-unexpressed-thing",
+        "u14-liccian-object",
+        "U14-G-COOK-NONE"
+      ],
+      "targets": [
+        "No man gives with a dative recipient and an unexpressed thing. Dogs have plural cōmon/liccodon; wounds are accusative.",
+        "Original noun wund43 remains visible, with the source editor’s evidence-backed feminine correction."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-05",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "gelimpan",
+          "form_id": "gelimpan-u14-source-1",
+          "sense_id": "gelimpan-u14-source",
+          "form": "gelamp",
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "gewitan",
+          "form_id": "gewitan-pret-3-sg",
+          "sense_id": "gewitan-depart",
+          "form": "gewāt",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "beran",
+          "form_id": "beran-pret-3-pl",
+          "sense_id": "beran-1",
+          "form": "bǣron",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-beran-transport",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-HAPPENED"
+      ],
+      "original_controls_and_interpretation": [
+        "Gelamp plus a past factual ðæt-clause is supplied. Gewītan depart, not the unrelated know verb.",
+        "Abrahames and any proper-name inflection are source editor supplied records."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-beran-transport",
+        "U14-G-COOK-HAPPENED"
+      ],
+      "targets": [
+        "Gelamp plus a past factual ðæt-clause is supplied. Gewītan depart, not the unrelated know verb.",
+        "Abrahames and any proper-name inflection are source editor supplied records."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-06",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "ahebban",
+          "form_id": "ahebban-pret-3-sg",
+          "sense_id": "ahebban-u14-raise",
+          "form": "āhōf",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "geseon",
+          "form_id": "geseon-pret-3-sg",
+          "sense_id": "geseon-1",
+          "form": "geseah",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-ahebban-object",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-AFAR"
+      ],
+      "original_controls_and_interpretation": [
+        "Preserve āhębban target, with separate ūp admissible. Eyes are the accusative thing lifted; Abraham is the object seen."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-ahebban-object",
+        "U14-G-COOK-AFAR"
+      ],
+      "targets": [
+        "Preserve āhębban target, with separate ūp admissible. Eyes are the accusative thing lifted; Abraham is the object seen."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-07",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "gemiltsian",
+          "form_id": "gemiltsian-imp-2-sg",
+          "sense_id": "gemiltsian-u14-pity",
+          "form": "gemiltsa",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "sendan",
+          "form_id": "sendan-imp-2-sg",
+          "sense_id": "sendan-1",
+          "form": "sęnd",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "sg"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-gemiltsian-dative",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u12-sendan-recipient",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [],
+      "original_controls_and_interpretation": [
+        "Pity takes dative mē. Send takes the source-supplied accusative proper name. Singular commands are called for by the direct address."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-gemiltsian-dative",
+        "u12-sendan-recipient"
+      ],
+      "targets": [
+        "Pity takes dative mē. Send takes the source-supplied accusative proper name. Singular commands are called for by the direct address."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-08",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "gemunan",
+          "form_id": "gemunan-u14-source-1",
+          "sense_id": "gemunan-u14-source",
+          "form": "gemun",
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "onfon",
+          "form_id": "onfon-pret-2-sg",
+          "sense_id": "onfon-u14-receive",
+          "form": "onfēnge",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 2,
+            "number": "singular"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-onfon-dative",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-REMEMBER",
+        "U14-G-COOK-LIFETIME"
+      ],
+      "original_controls_and_interpretation": [
+        "Onfēnge is preterite second singular, from onfēng- plus-e.",
+        "The goods are dative plural gōdum; on ðīnum līfe is supplied temporal dative."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-onfon-dative",
+        "U14-G-COOK-REMEMBER",
+        "U14-G-COOK-LIFETIME"
+      ],
+      "targets": [
+        "Onfēnge is preterite second singular, from onfēng- plus-e.",
+        "The goods are dative plural gōdum; on ðīnum līfe is supplied temporal dative."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-09",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "halsian",
+          "form_id": "halsian-pres-1-sg",
+          "sense_id": "halsian-u13",
+          "form": "hālsie",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "singular"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "sendan",
+          "form_id": "sendan-pres-subj-2-sg",
+          "sense_id": "sendan-1",
+          "form": "sęnde",
+          "form_status": "new_production",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 2,
+            "number": "singular"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u13-halsian-request",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u14-sendan-subjunctive",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u12-sendan-recipient",
+          "knowledge_status": "previously_taught"
+        }
+      ],
+      "local_support_ids": [],
+      "original_controls_and_interpretation": [
+        "Prior hālsian-request frame supplies accusative thee and ðæt+subjunctive; the new sęnde is second singular present subjunctive, not imperative.",
+        "His destination is tō plus dative hūse with the independently genitive father group."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u13-halsian-request",
+        "u14-sendan-subjunctive",
+        "u12-sendan-recipient"
+      ],
+      "targets": [
+        "Prior hālsian-request frame supplies accusative thee and ðæt+subjunctive; the new sęnde is second singular present subjunctive, not imperative.",
+        "His destination is tō plus dative hūse with the independently genitive father group."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-10",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "hieran",
+          "form_id": "hieran-pres-3-pl",
+          "sense_id": "hieran-obey",
+          "form": "hīerað",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "geliefan",
+          "form_id": "geliefan-pres-3-pl",
+          "sense_id": "geliefan-u14-believe",
+          "form": "gelīefað",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "arisan",
+          "form_id": "arisan-pres-subj-3-sg",
+          "sense_id": "arisan-u14-arise",
+          "form": "ārīse",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u07-basic-conditionals",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u11-concession",
+          "knowledge_status": "previously_taught"
+        },
+        {
+          "feature_id": "u14-geliefan-on",
+          "knowledge_status": "new_production"
+        },
+        {
+          "feature_id": "u14-arisan-source",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-INDEFINITE-CONCESSIVE"
+      ],
+      "original_controls_and_interpretation": [
+        "Hīeran in the selected model means heed/obey and takes dative prophets; a defensible hear-audibly construction must be considered separately.",
+        "The will is omitted by instruction; selected main belief verb is present indicative. A suitably contextualized subjunctive alternative is morphologically available, not forced.",
+        "Hwā is supplied indefinite anyone; put ārīse at the end of its concessive clause."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u07-basic-conditionals",
+        "u11-concession",
+        "u14-geliefan-on",
+        "u14-arisan-source",
+        "U14-G-COOK-INDEFINITE-CONCESSIVE"
+      ],
+      "targets": [
+        "Hīeran in the selected model means heed/obey and takes dative prophets; a defensible hear-audibly construction must be considered separately.",
+        "The will is omitted by instruction; selected main belief verb is present indicative. A suitably contextualized subjunctive alternative is morphologically available, not forced.",
+        "Hwā is supplied indefinite anyone; put ārīse at the end of its concessive clause."
+      ]
+    },
+    {
+      "item_id": "EX-VIII-27-11",
+      "disposition": "assign",
+      "verbal_requirements": [
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "tilian",
+          "form_id": "tilian-imp-2-pl",
+          "sense_id": "tilian-u14-provide",
+          "form": "tiliað",
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "analysis": {
+            "mood": "imperative",
+            "person": 2,
+            "number": "plural"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "habban",
+          "form_id": "habban-pres-2-pl",
+          "sense_id": "habban-1",
+          "form": "habbað",
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "plural"
+          }
+        },
+        {
+          "kind": "verb_or_supported_form",
+          "lemma_id": "licgan",
+          "form_id": "licgan-u14-pres-part-acc-m-pl-source",
+          "sense_id": "licgan-u14-source",
+          "form": "licgende",
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "analysis": {
+            "nonfinite": "participle",
+            "tense": "present",
+            "case": "accusative",
+            "number": "plural",
+            "gender": "masculine",
+            "declension": "strong"
+          }
+        }
+      ],
+      "grammar_requirements": [
+        {
+          "feature_id": "u14-tilian-genitive-reflexive",
+          "knowledge_status": "new_production"
+        }
+      ],
+      "local_support_ids": [
+        "U14-G-COOK-POOR",
+        "U14-G-COOK-LYING",
+        "U14-G-COOK-AT-GATES"
+      ],
+      "original_controls_and_interpretation": [
+        "184a=dative ēow reflexive beneficiary;156n=genitive frēonda. Do not parse156n as a word-count number or change friends to accusative.",
+        "The printed Lazaras is retained as supplied proper-name accusative plural; licgende describes it."
+      ],
+      "nominal_dependencies_owner": "sources/audits/unit14-source",
+      "remaining_unresolved": [],
+      "required_feature_ids": [
+        "u14-tilian-genitive-reflexive",
+        "U14-G-COOK-POOR",
+        "U14-G-COOK-LYING",
+        "U14-G-COOK-AT-GATES"
+      ],
+      "targets": [
+        "184a=dative ēow reflexive beneficiary;156n=genitive frēonda. Do not parse156n as a word-count number or change friends to accusative.",
+        "The printed Lazaras is retained as supplied proper-name accusative plural; licgende describes it."
+      ]
+    }
+  ]
+}
