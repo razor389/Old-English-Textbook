@@ -120,12 +120,19 @@ def main():
     require(set(c['key_item_ids']) == {t['key_id'] for t in tasks.values()}, 'Task/key crosswalk')
     cook = {r['task_id']: r['prompt_original'] for r in read('sources/audits/unit12-source/exercises-prompts.json')['items']}
     require({tid:t['prompt'] for tid,t in tasks.items() if tid.startswith('EX-')} == cook and len(cook) == 38, 'All 38 Cook prompts must remain exact')
+    prior_requirements = {kind: unique(c['prior_requirements'][field], 'id')
+                          for kind, field in [('form','forms'), ('sense','senses'), ('feature','features')]}
     for tid, t in tasks.items():
         require(t.get('dependency_status') == 'closed', tid + ': dependencies not closed')
         for kind in new:
             required = t.get(f'required_{kind}_ids', [])
             for rid in required:
                 require(status(kind, rid) != 'unresolved', tid + ': unresolved ' + rid)
+                if rid not in new[kind]:
+                    prior_requirement = prior_requirements[kind].get(rid, {})
+                    require(bool(prior_requirement), tid + ': missing prior-requirement record ' + rid)
+                    require(tid in prior_requirement.get('used_in_tasks', []),
+                            tid + ': missing prior-requirement usage ' + rid)
             allowed = {'previously_taught', 'new_production'}
             if t['mode'] in {'analysis','reading','scaffolded_reading','scaffolded_recognition',
                             'supported_comprehension','supported_analysis','supported_translation','reading_analysis','reading_translation','recognition_analysis'}:

@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch12",
   "title": "Tense, sequence, and voice",
-  "status": "contracted_before_prose",
+  "status": "text_accepted_exports_pending",
   "contract_date": "2026-10-25",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -144429,7 +144429,6 @@
           "lemma_id": "se"
         },
         "used_in_tasks": [
-          "EX-VI-20-08",
           "FB-VI-PICTS-SCOTS-RELIEF-01",
           "NEW-U12-S01",
           "NEW-U12-S02",
@@ -144601,6 +144600,58 @@
           "EX-VI-20-08",
           "EX-VI-20-09",
           "NEW-U12-C07"
+        ],
+        "promoted_in_this_unit": false
+      },
+      {
+        "id": "se-m-dat-sg",
+        "knowledge_status": "previously_taught",
+        "actual_prior_record": {
+          "form_id": "se-m-dat-sg",
+          "form": "ðǣm",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "knowledge_status": "new_production",
+          "teaching_ids": [
+            "CH01-GRAM-ARTICLE"
+          ],
+          "assessed_in": [
+            "CH01-F01",
+            "CH01-CASE05",
+            "CH01-COMP05",
+            "CH01-COMP07",
+            "CH01-CASE09",
+            "CH01-CASE10",
+            "CH01-MINI02"
+          ],
+          "evidence_refs": [
+            "FB84"
+          ],
+          "evidence_basis": "exact_source_form_or_paradigm",
+          "scope_note": "",
+          "used_in_tasks": [
+            "CH01-F01",
+            "CH01-CASE05",
+            "CH01-COMP05",
+            "CH01-COMP07",
+            "CH01-CASE09",
+            "CH01-CASE10",
+            "CH01-MINI02"
+          ],
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "supplied_in": [],
+          "status": "reviewed",
+          "reviewed_in": "ch01",
+          "review_record": "chapters/ch01/review.md",
+          "coverage_contract": "chapters/ch01/coverage.json",
+          "lemma_id": "se"
+        },
+        "used_in_tasks": [
+          "EX-VI-20-08"
         ],
         "promoted_in_this_unit": false
       },
@@ -174474,7 +174525,7 @@
     "finish": "oec-u12-finish",
     "review_fresh": "oec-u12-review-fresh"
   },
-  "review_status": "not_yet_drafted",
+  "review_status": "accepted_pre_export",
   "amendments": [
     {
       "amendment_id": "U12-AMEND-01",
@@ -174486,11 +174537,71 @@
       "description": "Correct the dative article agreement for selected masculine sǣ in Cook20.8.",
       "old_form_id": "se-f-dat-sg",
       "correct_form_id": "se-m-dat-sg",
-      "evidence": "Actual prior sae-dat-sg analysis has gender m; prior se-m-dat-sg supplies ðǣm. The brief retains the selected masculine sea noun.",
+      "evidence": "Actual prior sae-dat-sg analysis has gender masculine; prior se-m-dat-sg supplies ðǣm. The brief retains the selected masculine sea noun.",
       "private_ordered_binding_correction": "chapters/ch12/author-only-output-corrections.json",
       "original_audits_and_witnesses_preserved": true,
       "scope": "Same exact English prompt, task count, noun gender and existing morphology. No new form/sense/construction or milestone.",
-      "review_status": "pending_independent_review"
+      "review_status": "verified_by_independent_review",
+      "prior_requirement_reconciliation": {
+        "found_by": "unit12_grammar",
+        "repaired_by": "coordinator",
+        "stage": "independent_review",
+        "description": "Add the actual previously taught se-m-dat-sg record and its 20.8 usage. Remove 20.8 from se-f-dat-sg usage, retaining its source-reading requirements. This completes the original agreement amendment without changing either master or any teaching milestone.",
+        "added_prior_form": "se-m-dat-sg",
+        "prior_production_chapter": "ch01",
+        "removed_stale_usage": {
+          "form_id": "se-f-dat-sg",
+          "task_id": "EX-VI-20-08"
+        },
+        "review_status": "verified_by_independent_review",
+        "review_record": "chapters/ch12/review.md"
+      },
+      "review_record": "chapters/ch12/review.md"
+    },
+    {
+      "amendment_id": "U12-AMEND-02",
+      "stage": "independent_review",
+      "date": "2026-10-25",
+      "found_by": "unit12_grammar",
+      "repaired_by": "coordinator",
+      "description": "Clarify that cȳðst follows a documented analogical retained-dental rule, without claiming a checked exact lexical attestation.",
+      "evidence_refs": [
+        "U12-G-WRIGHT-DENTALS",
+        "U12-G-BT-CYTHAN"
+      ],
+      "evidence_note": "Wright248§476 supports retained-dental analogical formations as a class; checked BT191 documents cȳðde/cȳdde and third-singular cȳþ, not an exact cȳðst token. Selected cȳst/cȳð cells remain unchanged.",
+      "artifact_changes": [
+        {
+          "path": "chapters/ch12/student.md",
+          "before_raw_sha256": "9f275959a0049131b86e0605d32b99f5bb3e25f638a10e9a23ce6b59c2eadef6",
+          "after_raw_sha256": "90b33858f35f8eb035cb40549b794df335115dff423b748a24b19033f4ed8c61",
+          "exact_replacements": [
+            {
+              "before": "Analogical cȳðst is also attested in the second singular.",
+              "after": "Analogical cȳðst follows the documented retained-dental pattern in the second singular."
+            }
+          ]
+        },
+        {
+          "path": "chapters/ch12/answer-key.md",
+          "before_raw_sha256": "b1b1d910cc391f2c5ef7dfc4dff6e3b8b4bce1b8400378d394c725003a212347",
+          "after_raw_sha256": "42493d3250a9403ceb68138c0acee3150b76a70deaa5532b65a01e6bb8c81ae6",
+          "exact_replacements": [
+            {
+              "before": "The documented analogical **cȳðst** is valid language, although **cȳst** matches the selected table.",
+              "after": "**Cȳðst** follows the documented analogical retained-dental pattern and is a valid alternative, although **cȳst** matches the selected table."
+            },
+            {
+              "before": "documented analogical **cȳðst** remains a valid alternative.",
+              "after": "**cȳðst** follows the documented analogical retained-dental pattern and remains a valid alternative. This is a rule-based formation, not a claim that these checked pages attest the exact lexical form."
+            }
+          ]
+        }
+      ],
+      "scope": "Evidence wording only. No paradigm cell, task, prompt, construction or learning milestone changes.",
+      "original_audits_and_witnesses_preserved": true,
+      "review_status": "verified_by_independent_review",
+      "review_record": "chapters/ch12/review.md"
     }
   ],
   "validation_at_contract": {
@@ -177430,5 +177541,104 @@
     }
   ],
   "contract_checkpoint": "3ec8787",
-  "complete_drafts_checkpoint": "4c9bcd8"
+  "complete_drafts_checkpoint": "4c9bcd8",
+  "independent_solutions_checkpoint": "a48c232",
+  "textual_review": {
+    "status": "accepted",
+    "reviewer": "unit12_grammar",
+    "record": "chapters/ch12/review.md",
+    "ledger": "chapters/ch12/review-ledger.json",
+    "review_record_sha256": "ddda82ba09705b6b670394d1bb17109b9fac4c0c0bcc289936a114543a284f51",
+    "review_ledger_sha256": "624e2fbd5224f0e26aa6c3f059599c9e2ce9f636c22f505a4fc4f4aaf0ddfeeb",
+    "accepted_artifacts": {
+      "student.md": {
+        "sha256": "90b33858f35f8eb035cb40549b794df335115dff423b748a24b19033f4ed8c61",
+        "sha256_normalized_lf": "90b33858f35f8eb035cb40549b794df335115dff423b748a24b19033f4ed8c61"
+      },
+      "answer-key.md": {
+        "sha256": "42493d3250a9403ceb68138c0acee3150b76a70deaa5532b65a01e6bb8c81ae6",
+        "sha256_normalized_lf": "42493d3250a9403ceb68138c0acee3150b76a70deaa5532b65a01e6bb8c81ae6"
+      },
+      "independent-solutions.md": {
+        "sha256": "edd7c41085d05b1fc82336ce0f3f44f2e767250d8c4facc7db239e15dd2b8856",
+        "sha256_normalized_lf": "edd7c41085d05b1fc82336ce0f3f44f2e767250d8c4facc7db239e15dd2b8856"
+      }
+    },
+    "counts": {
+      "assigned_tasks": 76,
+      "task_reviews": 76,
+      "cook_tasks": 38,
+      "new_tasks": 38,
+      "requested_F_outputs": 90,
+      "requested_morphology_outputs": 78,
+      "requested_construction_outputs": 12,
+      "full_reading_translations": 2,
+      "logical_paradigms": 62,
+      "logical_paradigm_cells": 692,
+      "display_matrices": 44,
+      "lexical_diagnostics": 29,
+      "literal_cells": 368,
+      "independently_derived_cells": 324,
+      "construction_positions": 12,
+      "teaching_records": 219,
+      "required_dependency_occurrences": 3502,
+      "prior_records_rechecked": 398,
+      "grammar_rules": 73,
+      "lexical_frames": 28,
+      "translated_examples": 12,
+      "controlled_reading_words": 53,
+      "source_reading_words": 155,
+      "reading_example_token_bindings": 290,
+      "task_input_output_token_bindings": 214,
+      "original_source_notes": 21,
+      "source_note_anchors": 22,
+      "local_help_groups": 27,
+      "fresh_page_images": 26,
+      "separately_attributed_parallel_images": 68,
+      "material_open_findings": 0,
+      "material_findings_resolved": 2,
+      "minor_findings_resolved": 2,
+      "witness_precision_findings_adjudicated": 1
+    },
+    "accepted_contract_semantic_identity": {
+      "sha256": "a0c5fb3503b6b3ed1714bf7f22fa9168c1af842731a551372206e6025cc4e011",
+      "keys": [
+        "assigned_items",
+        "paradigms",
+        "display_plan",
+        "construction_patterns",
+        "lexical_inventory",
+        "grammar_inventory",
+        "source_spans",
+        "audited_inflection_rules",
+        "form_identity_reconciliation",
+        "promotions",
+        "teaching_records",
+        "prior_requirements",
+        "new_compositions",
+        "new_material_examples",
+        "evidence_catalog",
+        "bounded_scope",
+        "lexical_frames",
+        "reused_supplied_support_bindings",
+        "contract_reconciliation_notes"
+      ],
+      "serialization": "UTF-8 json.dumps with sort_keys=True,separators=(comma,colon),ensure_ascii=False; no trailing newline",
+      "scope": "Canonical sorted compact UTF-8 JSON over the explicitly listed19 substantive top-level keys, preserving every nested value. Mutable status/review/completion/checkpoints/amendment-log and textual/presentation metadata are excluded."
+    },
+    "accepted_contract_artifact_at_review": {
+      "sha256": "13fe5169d4052af50f423c44f350613c51f8d8ab90244a486300a62b07a49893",
+      "sha256_normalized_lf": "13fe5169d4052af50f423c44f350613c51f8d8ab90244a486300a62b07a49893"
+    },
+    "identity_scope_note": "Immutable identities cover both masters and frozen pre-key solutions. The semantic identity projects explicit top-level contract keys with every nested value preserved; later completion metadata does not change accepted learning content.",
+    "independent_solutions_checkpoint": "a48c232",
+    "independence": "Reviewer authored neither master nor graded task. The frozen solve covers 75 unexposed tasks and one exposed 21.4 check; prior grammar/public-composition work and limited unsolicited 21.4 clause exposure are disclosed. A fresh reviewer froze an unexposed 21.4 solution before key access and independently inspected the paradigms.",
+    "fresh_review": {
+      "record": "chapters/ch12/reviews/paradigms.json",
+      "sha256": "9050357b475e1ab8ae42bf00f92247b4ff8cd530cc25a5874dfe18e17653a2fd",
+      "solutions_checkpoint": "b52a9d3"
+    },
+    "material_open_findings": 0,
+    "scope_limit": "Accepts the identified text and substantive contract. Complete exports, every-page inspection and register integration remain separate gates."
+  }
 }

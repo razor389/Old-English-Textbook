@@ -324,7 +324,7 @@ Weak II geopenian and leornian have present -ie, -ast, -að, -iað and preterite
 
 <!-- teaching: NEW-U12-VOC-CYTHAN -->
 
-**cȳðan: announce; make known.** Cȳðan takes an accusative thing announced or a ðæt content clause; a recipient, when expressed, is dative. The selected present forms are cȳst and cȳð; learn their dental combinations directly. Analogical cȳðst is also attested in the second singular. The selected preterite has cȳðd-; cȳdd- is an attested alternative.
+**cȳðan: announce; make known.** Cȳðan takes an accusative thing announced or a ðæt content clause; a recipient, when expressed, is dative. The selected present forms are cȳst and cȳð; learn their dental combinations directly. Analogical cȳðst follows the documented retained-dental pattern in the second singular. The selected preterite has cȳðd-; cȳdd- is an attested alternative.
 
 <!-- teaching: NEW-U12-PAR-cythan-IND -->
 
