@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "private": true,
+  "pre_key_excluded": true,
+  "amendment_id": "U13-AMEND-02",
+  "frozen_solutions_checkpoint": "d31c692",
+  "original_private_witnesses_preserved": true,
+  "corrections": [
+    {
+      "task_id": "EX-VII-24-09",
+      "original_model": "Gif God swā gescrȳt æceres gærs ðe tō-dæg is and tō-morgen bið on ofen āsęnd, micle mā hē gescrȳt ēow, gē lȳtles gelēafan.",
+      "corrected_model": "Gif God swā gescrȳt æceres gærs ðæt ðe tō-dæg is and tō-morgen bið on ofen āsęnd, micle mā hē gescrȳt ēow, gē lȳtles gelēafan.",
+      "reason": "Bare ðe is grammatical but misses the explicitly cited87.b strategy. Add the previously taught neuter nominative relative demonstrative.",
+      "evidence_refs": [
+        "U13-REVIEW-FB51-87B",
+        "U13-REVIEW-FB52-87D"
+      ],
+      "corrected_sequence": {
+        "sequence_id": "EX-VII-24-09-MODEL",
+        "owner_id": "EX-VII-24-09",
+        "kind": "private_cook_model",
+        "text": "Gif God swā gescrȳt æceres gærs ðæt ðe tō-dæg is and tō-morgen bið on ofen āsęnd, micle mā hē gescrȳt ēow, gē lȳtles gelēafan.",
+        "tokens": [
+          {
+            "token_index": 1,
+            "literal": "Gif",
+            "surface": "Gif",
+            "lemma_id": "gif",
+            "form_id": "gif-invariant",
+            "sense_id": "gif-if",
+            "form": "gif",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "contextual_analysis": {},
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 2,
+            "literal": "God",
+            "surface": "God",
+            "lemma_id": "god",
+            "form_id": "god-nom-sg",
+            "sense_id": "god-1",
+            "form": "God",
+            "analysis": {
+              "case": "nominative",
+              "number": "singular",
+              "gender": "masculine"
+            },
+            "contextual_analysis": {
+              "case": "nom",
+              "number": "sg"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 3,
+            "literal": "swā",
+            "surface": "swā",
+            "lemma_id": "swa",
+            "form_id": "swa-invariant",
+            "sense_id": "swa-1",
+            "form": "swā",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "contextual_analysis": {},
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 4,
+            "literal": "gescrȳt",
+            "surface": "gescrȳt",
+            "lemma_id": "gescrydan",
+            "form_id": "gescrydan-pres-3-sg",
+            "sense_id": "gescrydan-u13",
+            "form": "gescrȳt",
+            "analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 3,
+              "number": "singular"
+            },
+            "contextual_analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 3,
+              "number": "sg"
+            },
+            "form_status": "new_production",
+            "sense_status": "new_production"
+          },
+          {
+            "token_index": 5,
+            "literal": "æceres",
+            "surface": "æceres",
+            "lemma_id": "aecer",
+            "form_id": "aecer-gen-sg",
+            "sense_id": "aecer-1",
+            "form": "æceres",
+            "analysis": {
+              "case": "gen",
+              "number": "sg",
+              "gender": "m"
+            },
+            "contextual_analysis": {
+              "case": "gen",
+              "number": "sg"
+            },
+            "form_status": "new_production",
+            "sense_status": "new_production"
+          },
+          {
+            "token_index": 6,
+            "literal": "gærs",
+            "surface": "gærs",
+            "lemma_id": "gaers",
+            "form_id": "gaers-acc-sg",
+            "sense_id": "gaers-1",
+            "form": "gærs",
+            "analysis": {
+              "case": "accusative",
+              "number": "singular",
+              "gender": "neuter"
+            },
+            "contextual_analysis": {
+              "case": "acc",
+              "number": "sg"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 7,
+            "literal": "ðæt",
+            "surface": "ðæt",
+            "lemma_id": "se",
+            "form_id": "se-n-nom-sg",
+            "sense_id": "se-relative",
+            "form": "ðæt",
+            "analysis": {
+              "case": "nominative",
+              "number": "singular",
+              "gender": "n"
+            },
+            "contextual_analysis": {
+              "function": "subject of the relative, referring to neuter singular gærs"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 8,
+            "literal": "ðe",
+            "surface": "ðe",
+            "lemma_id": "the-relative",
+            "form_id": "the-relative-invariant",
+            "sense_id": "the-relative-which",
+            "form": "ðe",
+            "analysis": {
+              "source_analysis": "object-relative with antecedent ēstas; supplied clause"
+            },
+            "contextual_analysis": {},
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 9,
+            "literal": "tō-dæg",
+            "surface": "tō-dæg",
+            "lemma_id": "to-daeg",
+            "form_id": "to-daeg-invariant",
+            "sense_id": "to-daeg-1",
+            "form": "tō-dæg",
+            "analysis": {
+              "invariant": true,
+              "part_of_speech": "adverb"
+            },
+            "contextual_analysis": {},
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 10,
+            "literal": "is",
+            "surface": "is",
+            "lemma_id": "wesan",
+            "form_id": "wesan-pres-3-sg",
+            "sense_id": "wesan-be",
+            "form": "is",
+            "analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 3,
+              "number": "singular"
+            },
+            "contextual_analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 3,
+              "number": "sg"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 11,
+            "literal": "and",
+            "surface": "and",
+            "lemma_id": "and",
+            "form_id": "and-invariant",
+            "sense_id": "and-1",
+            "form": "and",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "contextual_analysis": {},
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 12,
+            "literal": "tō-morgen",
+            "surface": "tō-morgen",
+            "lemma_id": "to-morgen",
+            "form_id": "to-morgen-invariant-source",
+            "sense_id": "to-morgen-u13-source",
+            "form": "tō-morgen",
+            "analysis": {
+              "source_analysis": "invariant temporal adverb"
+            },
+            "contextual_analysis": {},
+            "form_status": "supplied",
+            "sense_status": "supplied"
+          },
+          {
+            "token_index": 13,
+            "literal": "bið",
+            "surface": "bið",
+            "lemma_id": "wesan",
+            "form_id": "wesan-beon-pres-3-sg",
+            "sense_id": "wesan-passive",
+            "form": "bið",
+            "analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 3,
+              "number": "sg"
+            },
+            "contextual_analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 3,
+              "number": "sg"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 14,
+            "literal": "on",
+            "surface": "on",
+            "lemma_id": "on",
+            "form_id": "on-invariant",
+            "sense_id": "on-1",
+            "form": "on",
+            "analysis": {
+              "inflection": "invariant"
+            },
+            "contextual_analysis": {},
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 15,
+            "literal": "ofen",
+            "surface": "ofen",
+            "lemma_id": "ofen",
+            "form_id": "ofen-acc-sg",
+            "sense_id": "ofen-1",
+            "form": "ofen",
+            "analysis": {
+              "case": "acc",
+              "number": "sg",
+              "gender": "m"
+            },
+            "contextual_analysis": {
+              "case": "acc",
+              "number": "sg"
+            },
+            "form_status": "new_production",
+            "sense_status": "new_production"
+          },
+          {
+            "token_index": 16,
+            "literal": "āsęnd,",
+            "surface": "āsęnd",
+            "lemma_id": "asendan",
+            "form_id": "asendan-past-participle-base",
+            "sense_id": "asendan-u13",
+            "form": "āsęnd",
+            "analysis": {
+              "nonfinite": "participle",
+              "tense": "past",
+              "inflection": "base"
+            },
+            "contextual_analysis": {
+              "special": "pastpart"
+            },
+            "form_status": "new_production",
+            "sense_status": "new_production"
+          },
+          {
+            "token_index": 17,
+            "literal": "micle",
+            "surface": "micle",
+            "lemma_id": "micel",
+            "form_id": "micel-ins-n-sg-strong",
+            "sense_id": "micel-1",
+            "form": "micle",
+            "analysis": {
+              "case": "ins",
+              "gender": "n",
+              "number": "sg",
+              "declension": "strong",
+              "degree": "positive"
+            },
+            "contextual_analysis": {
+              "case": "ins",
+              "number": "sg",
+              "gender": "n",
+              "declension": "strong"
+            },
+            "form_status": "previously_recognition",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 18,
+            "literal": "mā",
+            "surface": "mā",
+            "lemma_id": "ma",
+            "form_id": "ma-invariant",
+            "sense_id": "ma-1",
+            "form": "mā",
+            "analysis": {
+              "invariant": true,
+              "part_of_speech": "adverb"
+            },
+            "contextual_analysis": {},
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 19,
+            "literal": "hē",
+            "surface": "hē",
+            "lemma_id": "he",
+            "form_id": "he-m-nom-sg",
+            "sense_id": "he-1",
+            "form": "hē",
+            "analysis": {
+              "person": 3,
+              "number": "singular",
+              "gender": "m",
+              "case": "nominative"
+            },
+            "contextual_analysis": {
+              "case": "nom",
+              "number": "sg",
+              "gender": "m"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 20,
+            "literal": "gescrȳt",
+            "surface": "gescrȳt",
+            "lemma_id": "gescrydan",
+            "form_id": "gescrydan-pres-3-sg",
+            "sense_id": "gescrydan-u13",
+            "form": "gescrȳt",
+            "analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 3,
+              "number": "singular"
+            },
+            "contextual_analysis": {
+              "tense": "present",
+              "mood": "indicative",
+              "person": 3,
+              "number": "sg"
+            },
+            "form_status": "new_production",
+            "sense_status": "new_production"
+          },
+          {
+            "token_index": 21,
+            "literal": "ēow,",
+            "surface": "ēow",
+            "lemma_id": "thu",
+            "form_id": "thu-acc-pl",
+            "sense_id": "thu-personal",
+            "form": "ēow",
+            "analysis": {
+              "person": 2,
+              "number": "plural",
+              "gender": null,
+              "case": "accusative"
+            },
+            "contextual_analysis": {
+              "case": "acc",
+              "number": "pl"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 22,
+            "literal": "gē",
+            "surface": "gē",
+            "lemma_id": "thu",
+            "form_id": "thu-nom-pl",
+            "sense_id": "thu-personal",
+            "form": "gē",
+            "analysis": {
+              "person": 2,
+              "number": "plural",
+              "gender": null,
+              "case": "nominative"
+            },
+            "contextual_analysis": {
+              "case": "nom",
+              "number": "pl"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 23,
+            "literal": "lȳtles",
+            "surface": "lȳtles",
+            "lemma_id": "lytel",
+            "form_id": "lytel-gen-m-sg-strong",
+            "sense_id": "lytel-1",
+            "form": "lȳtles",
+            "analysis": {
+              "case": "gen",
+              "gender": "m",
+              "number": "sg",
+              "declension": "strong",
+              "degree": "positive"
+            },
+            "contextual_analysis": {
+              "case": "gen",
+              "number": "sg",
+              "gender": "m",
+              "declension": "strong"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 24,
+            "literal": "gelēafan.",
+            "surface": "gelēafan",
+            "lemma_id": "geleafa",
+            "form_id": "geleafa-gen-sg",
+            "sense_id": "geleafa-1",
+            "form": "gelēafan",
+            "analysis": {
+              "case": "gen",
+              "number": "sg",
+              "gender": "m"
+            },
+            "contextual_analysis": {
+              "case": "gen",
+              "number": "sg"
+            },
+            "form_status": "new_production",
+            "sense_status": "new_production"
+          }
+        ],
+        "required_form_ids": [
+          "aecer-gen-sg",
+          "and-invariant",
+          "asendan-past-participle-base",
+          "gaers-acc-sg",
+          "geleafa-gen-sg",
+          "gescrydan-pres-3-sg",
+          "gif-invariant",
+          "god-nom-sg",
+          "he-m-nom-sg",
+          "lytel-gen-m-sg-strong",
+          "ma-invariant",
+          "micel-ins-n-sg-strong",
+          "ofen-acc-sg",
+          "on-invariant",
+          "se-n-nom-sg",
+          "swa-invariant",
+          "the-relative-invariant",
+          "thu-acc-pl",
+          "thu-nom-pl",
+          "to-daeg-invariant",
+          "to-morgen-invariant-source",
+          "wesan-beon-pres-3-sg",
+          "wesan-pres-3-sg"
+        ],
+        "required_sense_ids": [
+          "aecer-1",
+          "and-1",
+          "asendan-u13",
+          "gaers-1",
+          "geleafa-1",
+          "gescrydan-u13",
+          "gif-if",
+          "god-1",
+          "he-1",
+          "lytel-1",
+          "ma-1",
+          "micel-1",
+          "ofen-1",
+          "on-1",
+          "se-relative",
+          "swa-1",
+          "the-relative-which",
+          "thu-personal",
+          "to-daeg-1",
+          "to-morgen-u13-source",
+          "wesan-be",
+          "wesan-passive"
+        ]
+      }
+    },
+    {
+      "task_id": "EX-VII-22-03",
+      "amendment_id": "U13-AMEND-04",
+      "original_model": "Ðæs bisceopes fægere mynster wæs fordilgod.",
+      "corrected_model": "Ðæt fægere mynster ðæs bisceopes wæs fordilgod.",
+      "reason": "Use the already taught article-plus-weak environment. A general weak-adjective rule after a limiting noun genitive was explicitly deferred in Unit3 and is not introduced here.",
+      "prior_feature_ids": [
+        "article-agreement",
+        "u03-determiner-conditions"
+      ],
+      "corrected_sequence": {
+        "sequence_id": "EX-VII-22-03-MODEL",
+        "owner_id": "EX-VII-22-03",
+        "kind": "private_cook_model",
+        "text": "Ðæt fægere mynster ðæs bisceopes wæs fordilgod.",
+        "tokens": [
+          {
+            "token_index": 1,
+            "literal": "Ðæt",
+            "surface": "Ðæt",
+            "lemma_id": "se",
+            "form_id": "se-n-nom-sg",
+            "sense_id": "se-the",
+            "form": "ðæt",
+            "analysis": {
+              "case": "nominative",
+              "number": "singular",
+              "gender": "n"
+            },
+            "contextual_analysis": {
+              "case": "nom",
+              "number": "sg",
+              "gender": "n",
+              "function": "article with the subject mynster"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 2,
+            "literal": "fægere",
+            "surface": "fægere",
+            "lemma_id": "faeger",
+            "form_id": "faeger-nom-n-sg-weak",
+            "sense_id": "faeger-1",
+            "form": "fægere",
+            "analysis": {
+              "case": "nom",
+              "gender": "n",
+              "number": "sg",
+              "declension": "weak",
+              "degree": "positive"
+            },
+            "contextual_analysis": {
+              "case": "nom",
+              "number": "sg",
+              "gender": "n",
+              "declension": "weak"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 3,
+            "literal": "mynster",
+            "surface": "mynster",
+            "lemma_id": "mynster",
+            "form_id": "mynster-nom-sg",
+            "sense_id": "mynster-1",
+            "form": "mynster",
+            "analysis": {
+              "case": "nom",
+              "number": "sg",
+              "gender": "n"
+            },
+            "contextual_analysis": {
+              "case": "nom",
+              "number": "sg"
+            },
+            "form_status": "new_production",
+            "sense_status": "new_production"
+          },
+          {
+            "token_index": 4,
+            "literal": "ðæs",
+            "surface": "ðæs",
+            "lemma_id": "se",
+            "form_id": "se-m-gen-sg",
+            "sense_id": "se-the",
+            "form": "ðæs",
+            "analysis": {
+              "case": "genitive",
+              "number": "singular",
+              "gender": "m"
+            },
+            "contextual_analysis": {
+              "case": "gen",
+              "number": "sg",
+              "gender": "m"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 5,
+            "literal": "bisceopes",
+            "surface": "bisceopes",
+            "lemma_id": "bisceop",
+            "form_id": "bisceop-gen-sg",
+            "sense_id": "bisceop-1",
+            "form": "bisceopes",
+            "analysis": {
+              "case": "gen",
+              "number": "sg",
+              "gender": "m"
+            },
+            "contextual_analysis": {
+              "case": "gen",
+              "number": "sg"
+            },
+            "form_status": "new_production",
+            "sense_status": "new_production"
+          },
+          {
+            "token_index": 6,
+            "literal": "wæs",
+            "surface": "wæs",
+            "lemma_id": "wesan",
+            "form_id": "wesan-pret-3-sg",
+            "sense_id": "wesan-passive",
+            "form": "wæs",
+            "analysis": {
+              "tense": "preterite",
+              "mood": "indicative",
+              "person": 3,
+              "number": "singular"
+            },
+            "contextual_analysis": {
+              "tense": "preterite",
+              "mood": "indicative",
+              "person": 3,
+              "number": "sg"
+            },
+            "form_status": "previously_taught",
+            "sense_status": "previously_taught"
+          },
+          {
+            "token_index": 7,
+            "literal": "fordilgod.",
+            "surface": "fordilgod",
+            "lemma_id": "fordilgian",
+            "form_id": "fordilgian-past-participle-base",
+            "sense_id": "fordilgian-u13",
+            "form": "fordilgod",
+            "analysis": {
+              "nonfinite": "participle",
+              "tense": "past",
+              "inflection": "base"
+            },
+            "contextual_analysis": {
+              "special": "pastpart"
+            },
+            "form_status": "new_production",
+            "sense_status": "new_production"
+          }
+        ],
+        "required_form_ids": [
+          "bisceop-gen-sg",
+          "faeger-nom-n-sg-weak",
+          "fordilgian-past-participle-base",
+          "mynster-nom-sg",
+          "se-m-gen-sg",
+          "se-n-nom-sg",
+          "wesan-pret-3-sg"
+        ],
+        "required_sense_ids": [
+          "bisceop-1",
+          "faeger-1",
+          "fordilgian-u13",
+          "mynster-1",
+          "se-the",
+          "wesan-passive"
+        ]
+      }
+    }
+  ],
+  "amendment_ids": [
+    "U13-AMEND-02",
+    "U13-AMEND-04"
+  ]
+}

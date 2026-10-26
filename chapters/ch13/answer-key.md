@@ -327,9 +327,9 @@ First, words and constituents differ. In **Ðone sang hīerde se munuc**, the tw
 
 **Prompt:** The bishop’s beautiful monastery was destroyed (fordilgian).
 
-**Model:** Ðæs bisceopes fægere mynster wæs fordilgod.
+**Model:** Ðæt fægere mynster ðæs bisceopes wæs fordilgod.
 
-**Explanation:** The monastery is the patient of **wæs fordilgod**, a preterite passive, not the agent of destruction. **Mynster** is neuter singular; the possessive genitive licenses selected weak **fægere**. **Fordilgod** is the separately taught past-participle base. Do not translate with an active “destroyed” unless the monastery is wrongly made the destroyer.
+**Explanation:** The monastery is the patient of **wæs fordilgod**, a preterite passive, not the agent of destruction. **Mynster** is neuter singular; the overt article **ðæt** licenses weak **fægere**. The following genitive **ðæs bisceopes** identifies the possessor. This uses the already taught article-and-adjective pattern without assuming a general rule after limiting noun genitives. **Fordilgod** is the separately taught past-participle base. Do not translate with an active “destroyed” unless the monastery is wrongly made the destroyer.
 
 **22.4.**
 
@@ -529,7 +529,7 @@ First, words and constituents differ. In **Ðone sang hīerde se munuc**, the tw
 
 **Model:** Manige rǣdað ðis gewrit.
 
-**Explanation:** Substantival plural **manige**, “many people”, takes plural **rǣdað**. **Ðis gewrit** is neuter singular accusative, “this writing”. The number of readers does not make the writing plural. A singular “many a person” construal would require corresponding agreement and a different subject pattern; it is not the selected plural construction.
+**Explanation:** Substantival plural **manige**, “many people”, takes plural **rǣdað**. **Ðis gewrit** is neuter singular accusative, “this writing”. The number of readers does not make the writing plural. Written English “read” also permits a past interpretation: **Manige rǣddon ðis gewrit.** A singular “many a person” construal would require corresponding agreement and a different subject pattern; it is not the selected plural construction.
 
 **23.7.**
 
@@ -705,9 +705,9 @@ First, words and constituents differ. In **Ðone sang hīerde se munuc**, the tw
 
 **Prompt:** If God so clothes (om. the) grass of the field, which (87. b) to-day is, and is (bið) to-morrow sent (āsęndan) into (on, 172) the oven, much (178) more he (om. shall) clothe you, O ye of little faith.
 
-**Model:** Gif God swā gescrȳt æceres gærs ðe tō-dæg is and tō-morgen bið on ofen āsęnd, micle mā hē gescrȳt ēow, gē lȳtles gelēafan.
+**Model:** Gif God swā gescrȳt æceres gærs ðæt ðe tō-dæg is and tō-morgen bið on ofen āsęnd, micle mā hē gescrȳt ēow, gē lȳtles gelēafan.
 
-**Explanation:** The **gif** clause contains the relative **ðe tō-dæg is and tō-morgen bið … āsęnd**, referring to neuter **gærs**. The finite **bið** and bare participle make a prospective passive; accusative **on ofen** marks its destination. The main clause is **micle mā hē gescrȳt ēow**, preserving Cook’s omission of an added “shall”. Instrumental adverb **micle**, **tō-morgen**, and address **gē lȳtles gelēafan** remain locally supplied. Trace the relative before returning to the main subject; a single unanalysed string of clauses loses that relation.
+**Explanation:** The **gif** clause contains the relative **ðæt ðe tō-dæg is and tō-morgen bið … āsęnd**, referring to neuter **gærs**. Cook’s **87.b** requests the inflected demonstrative plus **ðe**: **ðæt** is neuter nominative singular as subject within that relative, although its antecedent **gærs** is accusative in the conditional clause. Bare **ðe** is grammatical but misses this stated strategy target. The finite **bið** and bare participle make a prospective passive; accusative **on ofen** marks its destination. The main clause is **micle mā hē gescrȳt ēow**, preserving Cook’s omission of an added “shall”. Instrumental adverb **micle**, **tō-morgen**, and address **gē lȳtles gelēafan** remain locally supplied. Trace the relative before returning to the main subject; a single unanalysed string of clauses loses that relation.
 
 **24.10.**
 
@@ -718,7 +718,7 @@ First, words and constituents differ. In **Ðone sang hīerde se munuc**, the tw
 
 **Model:** Bętere is sēo sāwol ðonne męte and se līchama ðonne his rēaf.
 
-**Explanation:** The fronted comparative predicate **bętere** describes **sēo sāwol**. **Ðonne męte** gives the first comparison, and the second coordinate compares **se līchama** with **his rēaf**, with the corresponding “is better” understood. A full repeated **is bętere** is also valid. Preserve Cook’s hooked **męte** and the singular possessive relation in “its raiment”; neither comparison turns its second term into the subject of the first.
+**Explanation:** The fronted comparative predicate **bętere** describes **sēo sāwol**. **Ðonne męte** gives the first comparison, and the second coordinate compares **se līchama** with **his rēaf**, with the corresponding “is better” understood. A full second predicate is **is bętera**, with masculine nominative **bętera** agreeing with **līchama**; feminine **bętere** belongs with **sāwol**. Preserve Cook’s hooked **męte** and the singular possessive relation in “its raiment”; neither comparison turns its second term into the subject of the first.
 
 **24.11.**
 
@@ -729,7 +729,7 @@ First, words and constituents differ. In **Ðone sang hīerde se munuc**, the tw
 
 **Model:** Behealdað heofones fuglas; ēower heofonlica fæder fēt hīe.
 
-**Explanation:** The model’s plural command **behealdað** corresponds to plural possessive **ēower**; a coherent singular command **beheald** and **ðīn** is defensible if one person is addressed. **Heofones fuglas** is the accusative object of beholding. Singular **ēower heofonlica fæder** is subject of **fēt**, and plural **hīe** refers back to the birds as object. Keep the weak adjective after the possessive and distinguish third-singular **fēt** from a plural finite form.
+**Explanation:** The model’s plural command **behealdað** corresponds to plural possessive **ēower**; a coherent singular command **beheald** and **ðīn** is defensible if one person is addressed. **Heofones fuglas** is the accusative object of beholding. Singular **ēower heofonlica fæder** is subject of **fēt**, and plural **hīe** refers back to the birds as object. The model chooses weak **heofonlica** after the possessive; strong masculine nominative **heofonlic** is also permitted. Distinguish third-singular **fēt** from a plural finite form.
 
 **24.12.**
 
@@ -892,7 +892,7 @@ The bishop sat in the house, and the monk was there. When the monk heard the son
 <!-- item: NEW-U13-R02 -->
 <!-- key: KEY-NEW-U13-R02 -->
 
-In **ðā ēode hē**, **hē** is the monk. **Hine** in the monk’s question refers to masculine **sang**, so English uses “it”. In **geseah hīe**, the bishop sees the returned group, the monk and brothers. The final quotation’s **Ic** is the bishop, its speaker; **ēow** addresses that group. Morphological gender and number constrain these readings, while the stated movements and speech turns identify the actual referents. Neither **hine** nor masculine **hē** must refer to a man merely by form.
+In **ðā ēode hē**, **hē** is the monk. **Hine** in the monk’s question refers to masculine **sang**, so English uses “it”. In **geseah hīe**, the natural reference is the returned group, the monk and brothers. The final quotation’s **Ic** is the bishop, its speaker; **ēow** naturally addresses that group. A narrower reference of **hīe** or **ēow** to the brothers is also defensible: the wording does not force the exact membership of either plural group. Morphological gender and number constrain the reading, while context identifies the participants. Neither **hine** nor masculine **hē** must refer to a man merely by form.
 
 **R03. Clauses and continued subjects.**
 

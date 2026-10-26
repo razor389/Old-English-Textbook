@@ -1462,7 +1462,7 @@ Learn a verb with the case or clause it governs. English prepositions are not a 
 | āstręccean | Prostrate oneself: the reflexive pronoun is accusative and refers to the subject. |
 | onlīesan | Release an accusative person or thing. In the passive, use the uninflected past base onlīesed with wesan. |
 | nēalǣcan | Approach a goal expressed by tō with the dative. |
-| hālsian | Entreat an accusative person. A requested action may be expressed by ðæt with the subjunctive in the already taught request construction. |
+| hālsian | Entreat an accusative person. A requested action may be expressed by ðæt with the subjunctive. |
 | forceorfan | Cut down an accusative tree or other object. |
 | āsęttan | Set or place an accusative object. The passive uses the uninflected past base with wesan; the placement phrase has its own case requirements. |
 | wunian | Dwell or remain, either without a complement or with an ordinary static location. |
@@ -1474,7 +1474,7 @@ Learn a verb with the case or clause it governs. English prepositions are not a 
 | āsęndan | Send an accusative person or thing. The corresponding passive uses the uninflected past base with wesan. |
 | behealdan | Behold or look at an accusative object. |
 | hatian | Hate an accusative person. |
-| bebēodan | Command a dative addressee. A ðæt clause may express the command with the subjunctive in the already taught command construction; a relative can identify what is commanded. |
+| bebēodan | Command a dative addressee. A ðæt clause may express the command with the subjunctive; a relative can identify what is commanded. |
 | ęfthweorfan | Return or turn back, without a direct object. A route expression can specify the way. |
 
 ### 8.2. Additional senses of familiar verbs
@@ -1781,6 +1781,10 @@ Translate: When the bishop whom the monk greeted came, the brothers sang. Use ð
 ## 10. Cook VII.22–25
 
 Translate each English sentence into Old English. The wording, item numbers and original grammatical controls are retained. Parenthesized English and Old English belong to Cook’s prompt. Keep the local helps visible; supplied forms and constructions are not independent recall targets. Original section references are explained in the editorial notes.
+
+<!-- teaching: NEW-U13-COOK-RELATIVE-CONTROLS -->
+
+Cook’s 87.b requests an inflected demonstrative followed by ðe. Its gender and number follow the antecedent, while its case follows its role inside the relative clause; use this strategy in 24.9, 25.1 and 25.6. Cook’s 87.d requests invariant ðe alone; use it in 25.7. These are the relative strategies taught in Unit 8. A different grammatical strategy can preserve the meaning while missing the stated exercise target.
 
 ### Cook VII.22
 
