@@ -34,4 +34,4 @@ From the repository root, `python -X utf8 scripts/check_unit14.py --draft --tex`
 
 Build products and rendered page images are ignored; inspected identities remain in the ledgers. Source evidence images remain tracked. Ignored one-use helpers are not required generators; reassembly can discard layout repairs. Rebuilt PDF metadata can differ, so replace retained PDFs only after full parity and page review.
 
-Checkpoints: contract **`18cfa3a`**, drafts **`e8cf9ce`**, blind solutions **`d78de6f`**, accepted text **`5721c5f`**. Complete exports/registers: **`this export checkpoint`**. The [handoff](../../docs/HANDOFF.md) records final closure.
+Checkpoints: contract **`18cfa3a`**, drafts **`e8cf9ce`**, blind solutions **`d78de6f`**, accepted text **`5721c5f`**. Complete exports/registers: **`a56c403`**. The [handoff](../../docs/HANDOFF.md) records final closure.

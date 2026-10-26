@@ -1,6 +1,6 @@
 # Status
 
-Updated 26 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–14 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 14 exports and registers are saved at **`this export checkpoint`**. Unit 15 is unassigned.
+Updated 26 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–14 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 14 exports and registers are saved at **`a56c403`**. Unit 15 is unassigned.
 
 ## Completed Unit 14
 
@@ -31,7 +31,7 @@ The [learner PDF](typesetting/ch14/chapter-14.pdf) has **35 pages**; the [key](t
 | [11](typesetting/ch11/README.md) | Adverbial clauses | 42 / 31 | b096aca |
 | [12](typesetting/ch12/README.md) | Tense, sequence, and voice | 47 / 30 | 6f4f1e2 |
 | [13](typesetting/ch13/README.md) | Clause order and reference | 52 / 30 | 85b6911 |
-| [14](typesetting/ch14/README.md) | Word formation and lexical families | 35 / 21 | this export checkpoint |
+| [14](typesetting/ch14/README.md) | Word formation and lexical families | 35 / 21 | a56c403 |
 
 Each unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent review, complete TeX/PDFs and page ledgers.
 
