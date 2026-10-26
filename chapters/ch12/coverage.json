@@ -69273,8 +69273,8 @@
         "muth-acc-sg",
         "niman-imp-2-sg",
         "sae-dat-sg",
-        "se-f-dat-sg",
         "se-m-acc-sg",
+        "se-m-dat-sg",
         "to-preposition-dative-invariant",
         "weorpan-imp-2-sg"
       ],
@@ -69290,8 +69290,8 @@
         "muth-acc-sg",
         "niman-imp-2-sg",
         "sae-dat-sg",
-        "se-f-dat-sg",
         "se-m-acc-sg",
+        "se-m-dat-sg",
         "to-preposition-dative-invariant",
         "weorpan-imp-2-sg"
       ],
@@ -174448,7 +174448,8 @@
     "sources/audits/unit12-source/author-only-composition-witness.json",
     "sources/audits/unit12-source/author-only-cook-corrected-models.json",
     "sources/audits/unit12-source/author-only-cook-models.json",
-    "sources/audits/unit12-source/author-only-reading-witness.json"
+    "sources/audits/unit12-source/author-only-reading-witness.json",
+    "chapters/ch12/author-only-output-corrections.json"
   ],
   "authoring_rules": [
     "Preserve every task/key identifier and Cook English prompt, control and reference; keep the three complete sets together. Editorial targets and local helps stay separate from original wording.",
@@ -174474,7 +174475,24 @@
     "review_fresh": "oec-u12-review-fresh"
   },
   "review_status": "not_yet_drafted",
-  "amendments": [],
+  "amendments": [
+    {
+      "amendment_id": "U12-AMEND-01",
+      "stage": "during_authorship_after_contract_checkpoint",
+      "date": "2026-10-25",
+      "found_by": "unit12_design",
+      "verified_by": "coordinator",
+      "task_id": "EX-VI-20-08",
+      "description": "Correct the dative article agreement for selected masculine sǣ in Cook20.8.",
+      "old_form_id": "se-f-dat-sg",
+      "correct_form_id": "se-m-dat-sg",
+      "evidence": "Actual prior sae-dat-sg analysis has gender m; prior se-m-dat-sg supplies ðǣm. The brief retains the selected masculine sea noun.",
+      "private_ordered_binding_correction": "chapters/ch12/author-only-output-corrections.json",
+      "original_audits_and_witnesses_preserved": true,
+      "scope": "Same exact English prompt, task count, noun gender and existing morphology. No new form/sense/construction or milestone.",
+      "review_status": "pending_independent_review"
+    }
+  ],
   "validation_at_contract": {
     "tasks": 76,
     "cook_tasks": 38,
@@ -177410,5 +177428,6 @@
       ],
       "scope": "supplied exposure only; no new productive milestone"
     }
-  ]
+  ],
+  "contract_checkpoint": "3ec8787"
 }
