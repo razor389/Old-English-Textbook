@@ -1,0 +1,443 @@
+{
+  "schema_version": 1,
+  "audit_id": "unit13-source",
+  "status": "sealed source handoff; no unresolved source dependencies",
+  "baseline_checkpoint": "e17fc5f23a58db92d52ebc9777af6d763599c632",
+  "source_editor": "unit13_source",
+  "exclusive_write_area": "sources/audits/unit13-source",
+  "counts": {
+    "checks": 15093,
+    "check_groups": 46,
+    "issues": 0,
+    "Cook_items": 52,
+    "private_Cook_words": 435,
+    "reading_words": 236,
+    "reading_editorial_lines": 27,
+    "original_notes": 24,
+    "note_anchors": 29,
+    "nominal_systems": 42,
+    "nominal_cells": 730,
+    "nominal_literal_cells": 344,
+    "nominal_derived_cells": 386,
+    "reading_support_groups": 18,
+    "Cook_support_groups": 14,
+    "evidence_records": 122,
+    "distinct_primary_images": 78
+  },
+  "files": [
+    {
+      "path": "sources/audits/unit13-source/author-only-cook-models.json",
+      "bytes": 10687,
+      "sha256": "995f6c2cc9cad66e672d4ce92440e7680a73121e82043cbf23a07cd6a8f151d4",
+      "audience": "author only; withhold until independent solving"
+    },
+    {
+      "path": "sources/audits/unit13-source/author-only-reading-witness.json",
+      "bytes": 3473,
+      "sha256": "f3a4365497f7307855ad20096ae2811507acab7a18d6bcce1366c5379c50d069",
+      "audience": "author only; withhold until independent solving"
+    },
+    {
+      "path": "sources/audits/unit13-source/chad-context-p150.png",
+      "bytes": 241815,
+      "sha256": "ba525abd843177fe3428bed2016b0332b4459e37da496e6644425a7e460fe0e3",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/chad-context-p151.png",
+      "bytes": 312018,
+      "sha256": "56c5c9b14f727ff58f21c3e320a67de7818b825b4dd561e534f36233901bdfe0",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/chad-context-p154.png",
+      "bytes": 322117,
+      "sha256": "1f0a353e47754b7e9ce18be62bdc0fcdd64486615d236320e115e0dc892d9f4f",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/chad-context-p155.png",
+      "bytes": 276726,
+      "sha256": "b57dbdfb94701e1bfa816c5761cdc30cb0d4ecf20b885016b07fc7b2eaff7120",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/chad-detail-001.png",
+      "bytes": 599783,
+      "sha256": "3b055a7f804e1b6ed94f4d10a6dfb5f62ef3e4f517d6d0774213634fea520bf8",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/chad-detail-002.png",
+      "bytes": 574584,
+      "sha256": "a56b7ceb970d10db05616ee2f110c24680ed3f6dc9bba31d9eabb8cc4fced535",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/construction-requirements.json",
+      "bytes": 63613,
+      "sha256": "56aa0cdcf3fd9daae8d35c16a396e768fa579a1f430aeb8310930cf1ae8e9f8d",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-ex-001.png",
+      "bytes": 176091,
+      "sha256": "88af3068806515d271e5d3329e57a47fc1b8760390c04d3c20ea5b50453ef60a",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-ex-002.png",
+      "bytes": 201063,
+      "sha256": "2ce545901570a59842fb61626448078fee0cbc33cfab2c333f1cfd4d237a9316",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-ex-003.png",
+      "bytes": 195583,
+      "sha256": "ae11fef2db0e1eea5167f35754fefcdff7df23b1f1203309142eb5ec95037571",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-ex-front-pdf5.png",
+      "bytes": 43117,
+      "sha256": "fff516906f8be61355c6049d1b67e753e6a8b561ba8741a5450efe42493504b1",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-ex-front-pdf7.png",
+      "bytes": 144167,
+      "sha256": "0eb3417f0a410842e2eb3c2e6dc6a24255276b87471fa2b3a52785c6b58d5c12",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-ex-front-pdf8.png",
+      "bytes": 151924,
+      "sha256": "3ad6951bf6cca214b0567e49ca210d70382615a652f4cec1d0a2a0eb0e3fa7a3",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-ex-p12-hints-detail.png",
+      "bytes": 179491,
+      "sha256": "7c43fdb8b9759adc704e7bc18b9dea3a3659e8f87f829792890240c0a89367c2",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-ex-p65.png",
+      "bytes": 310505,
+      "sha256": "bcb78bfa1f96eaab9cb231b0097be028a8081bf40a54a907e3f62e4216d45595",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-fb-p279.png",
+      "bytes": 520492,
+      "sha256": "48ee67dde73132b43b2ba1076d560a37e0081850c3178fe49415678fd5ab236d",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-fb-p291.png",
+      "bytes": 533147,
+      "sha256": "b32eead8123652624179d4c37b99ce72263a52f83348699b76af73286c4d9b4e",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-fb-p294.png",
+      "bytes": 608891,
+      "sha256": "32d7dd661e99d45e8186fd01f53ac1dc311a97da536d9ae03101012ee1568b3a",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-fb-p303.png",
+      "bytes": 512869,
+      "sha256": "bc40f8fd8523a9a5a2460ef9567105a80a0ef22034be6f5e592d6ba5a1cec944",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-fb-p313.png",
+      "bytes": 530099,
+      "sha256": "4eaa8b73241fa5babd1c882c3de027d6925b3516cc26886358e565e9e52f6ea8",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-fb-p315.png",
+      "bytes": 519559,
+      "sha256": "178ce3a75d3fc4a574c7ba906bf9f5387f682ef57907a5d085fc6fb24de321f2",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-fb-p324.png",
+      "bytes": 417721,
+      "sha256": "8c14fe9841ee2d6e77eaedfc057d0db7056c4a201d3aa50972cf56275dd0e760",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-local-support.json",
+      "bytes": 17995,
+      "sha256": "8edac72d1f56696e9ad40c11d4c5f6315f85a07575f8290d172ae9125456db09",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/evidence-catalog.json",
+      "bytes": 84001,
+      "sha256": "56ecfe744adf9af87d3fc676b9fa0b0f7dff37a472bc4d1f97951a05019b8a7d",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/exercises-dependencies.json",
+      "bytes": 749139,
+      "sha256": "34bab9461e41dd39f6e63266e547dd8cf72c601b16b5c2ade07ff25207575426",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/exercises-prompts.json",
+      "bytes": 28580,
+      "sha256": "1b445d250f048d366c6576fcaf938a82b9fadf71d3bf8f8c8aef4ecfe916f9a7",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/lexical-inventory.json",
+      "bytes": 748703,
+      "sha256": "15a270a59e40171b28fbf735334e788b183ce53eb9ea00b7a89f67098a030e87",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/nominal-display-plan.json",
+      "bytes": 15674,
+      "sha256": "89277bacef66dc598bb96db0bc0dacf6f6ab974ee4f8e922669a63e90c6df21b",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/nominal-display-review.json",
+      "bytes": 2970,
+      "sha256": "b784375bf889aacff5a2f87d8a06fd2d93b663e3eabb47db3cd227daf8fe6f83",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/noun-adjective-paradigms.json",
+      "bytes": 688117,
+      "sha256": "e7e1c803a8dcc89d86353c3e4a4433063847aea317c52328df46a191f1abbc52",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/prior-scope-audit.json",
+      "bytes": 2758,
+      "sha256": "667fe2a49358bb28c908c3583a20587e982101e40cc060cf41e6d4e7bb34a98d",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-constructions.json",
+      "bytes": 18554,
+      "sha256": "cc47b84cdd2c81aadd839be0e5166d1fde0449e295b378664071ff3ce06b216c",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-note-anchors.json",
+      "bytes": 12655,
+      "sha256": "06e9673076fbb39f381c7be1056f88eaf3f759302706bac3c0739389912fc3b3",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-source.json",
+      "bytes": 18280,
+      "sha256": "480d0ce747aa7e9153dc0613923b4c4da02a6ac8c4dd60219eca8ffe56fa57c3",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-support.json",
+      "bytes": 23682,
+      "sha256": "68284cdf7192bd48d7200ebc63b3238fbc1bb45404fe582d91d9fe7955d64ac8",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-tokens.json",
+      "bytes": 297440,
+      "sha256": "f05bd7079cf43eab940779e48917eb3102d3fa10235521ca3d37fad8b3507b56",
+      "audience": "annotated source analysis; use reduced learner-facing records and withhold referent/contextual analyses from the fresh solver"
+    },
+    {
+      "path": "sources/audits/unit13-source/REPORT.md",
+      "bytes": 7996,
+      "sha256": "4161b93c487a79666c07abe5ea5afacb05ab634bf164ad81b704a5380c88b502",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/source-change-notes.json",
+      "bytes": 4666,
+      "sha256": "f8ec4ef4a3beb1f38fdb8ff1683fc9cff253db93f47e0e1157ed69960b11ed97",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/source-support-records.json",
+      "bytes": 51780,
+      "sha256": "7ac75579ba58d7320a65e1f0aaf4830941790e91a8fdb38b900e476815b3ee26",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/validation.json",
+      "bytes": 6311,
+      "sha256": "b2bc1d3ccb9c37f04c9167160804fa9791998cd73d6f5f4858e498c97d5089ce",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/wright-p199.png",
+      "bytes": 493844,
+      "sha256": "e0f50b90a6bcefd371a51cfd0a5b39c0ead39bb4f15d873a6f9917773d4a0510",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/wright-p200.png",
+      "bytes": 438364,
+      "sha256": "2ac97519acec38e3187f8c4c40c23e71f88502eb0092710d24281bc0c398622e",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/wright-p201.png",
+      "bytes": 586026,
+      "sha256": "0f7958ebb07e587bd07f92d192964f8f812468320a4151321e00f9fa9124e570",
+      "audience": "source audit and coordinator integration"
+    },
+    {
+      "path": "sources/audits/unit13-source/wright-p294.png",
+      "bytes": 691752,
+      "sha256": "d7b6c3dca06ab931e48958813f63a5b3069d6e00bca0258caa90cac38045c934",
+      "audience": "source audit and coordinator integration"
+    }
+  ],
+  "file_count": 46,
+  "external_inputs": [
+    {
+      "path": "build/unit13-prior-baseline.json",
+      "bytes": 80661703,
+      "sha256": "14645f119da021b15ecd4a969e56240fcb376794faeb105185bcd0d7d7be371f"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "bytes": 26360342,
+      "sha256": "7ddb1103dee4cecbf69250b01e99d03f9822bc4ef5335b7fc43cd05dbce6bca8"
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "bytes": 2273231,
+      "sha256": "84819140d0abf505651cc903b861ebe756d91c91fda90c3d406965c064c0e8e6"
+    },
+    {
+      "path": "sources/registry.json",
+      "bytes": 75593,
+      "sha256": "a0abc3d99f4537124abed5eac8111cee725baf73e19fbad5ddc5c094c9c949a3"
+    },
+    {
+      "path": "sources/cache/cook_ex_1895.pdf",
+      "bytes": 1722192,
+      "sha256": "b34f41f81c1503a8176342389316cc75a1f30c3faf95b3b7b03816a6221ed3d8"
+    },
+    {
+      "path": "sources/cache/cook_fb_1895_2.pdf",
+      "bytes": 18041287,
+      "sha256": "693537064f0dc335b6dd9e57079e07e2e5311383c9b102406019bbf4fb70d0f3"
+    },
+    {
+      "path": "sources/cache/wright_oe_1914.pdf",
+      "bytes": 16242022,
+      "sha256": "04e1fed8e1fa1c54d9f9b1a1754598232946f44d411541a7248905a9ccdbce9c"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/grammar-records.json",
+      "bytes": 677007,
+      "sha256": "9bc8bf7b9bd5db4a29234a35301dcf1187d5ab56a87fb12c8581d01cbf8473d9"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/source-support.json",
+      "bytes": 201089,
+      "sha256": "70f56471856adeca17ec31cfd849bd5ea756ca86887973c911d1a02ad88991f5"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/lexical-frames.json",
+      "bytes": 16946,
+      "sha256": "410fefe9ba7c3410666a6a570f3ecc7d20871929ef269bede05e7e8d62ee33b9"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/evidence-catalog.json",
+      "bytes": 54533,
+      "sha256": "359775452592819c550aa39be2fb788ea8d8882e9627be3042cd49dc9bc3d5c5"
+    },
+    {
+      "path": "curriculum/proposals/unit13/author-only-cook-sequence-bindings.json",
+      "bytes": 287886,
+      "sha256": "fb79fbf425250c00f19084db427f16e02b050cbb482536bda2e6df21106f0077"
+    },
+    {
+      "path": "curriculum/proposals/unit13/cook-targets.json",
+      "bytes": 10340,
+      "sha256": "5a15e24d5db31cb85347d354ab881b0d3e0f71edf1cb7499a702f964e4e682b4"
+    },
+    {
+      "path": "curriculum/proposals/unit13/nominal-display-plan.json",
+      "bytes": 1051224,
+      "sha256": "8d33b1e59a0a2ff57261bc788400b07a16570e2276bb509a4f33d6ac7df04b1b"
+    },
+    {
+      "path": "curriculum/proposals/unit13/display-matrices.json",
+      "bytes": 608121,
+      "sha256": "a0e4a5997460bcafe09a963ad25eb712c0f096be575b02108e7a2394f9075cf9"
+    }
+  ],
+  "prior_contracts": [
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "d829e1e239a8e8452ca99bf8354db29d02f1e640941bfec5fbed647dd6577b27"
+    },
+    {
+      "path": "chapters/ch02/coverage.json",
+      "sha256": "cf13e0c96ae80fcec8ff5f10a567715913d54f27ce11c94a44f683b1a9012fa6"
+    },
+    {
+      "path": "chapters/ch03/coverage.json",
+      "sha256": "0d78e024da44545d9949800a16a3e5deefe0e24e7f34fc4ef2682ce90e958703"
+    },
+    {
+      "path": "chapters/ch04/coverage.json",
+      "sha256": "9d900715219de8acdb1f64ebe3590888781cf95102ee9ae877e088fdf663fd5e"
+    },
+    {
+      "path": "chapters/ch05/coverage.json",
+      "sha256": "0e37b344c6c640467741c01aee1a22fd2da569c7a202f1c3eb5e894ad6825fe6"
+    },
+    {
+      "path": "chapters/ch06/coverage.json",
+      "sha256": "21e027256da1a12248f9780e643dc9612ade0f1de05c785dccaee5e3c993264a"
+    },
+    {
+      "path": "chapters/ch07/coverage.json",
+      "sha256": "4f93f053b051c6b6a6a509c03af2afe6ce57ca436f6957100a052bc314c345fe"
+    },
+    {
+      "path": "chapters/ch08/coverage.json",
+      "sha256": "e9b4cbd48aef934e0e71d6ff02f94b87926b7f8dfdee133e7ab2bf68280c41d0"
+    },
+    {
+      "path": "chapters/ch09/coverage.json",
+      "sha256": "cf5ed7d913db34ec47e14b9f998f64dcdbce40176a33bfcfdc713d913414339a"
+    },
+    {
+      "path": "chapters/ch10/coverage.json",
+      "sha256": "d7a2eab333238bcc687244b4fe973c2b8ea70e312a0448c4ae37bbfae70460c1"
+    },
+    {
+      "path": "chapters/ch11/coverage.json",
+      "sha256": "0fa47cc44cafd40d34f81aea3819e89abd53a57d0686e84e7a14889edda6473c"
+    },
+    {
+      "path": "chapters/ch12/coverage.json",
+      "sha256": "318634004fd9961ad0cb548c5e4e476b58faf240ca27ef94d21fe50e54c7c569"
+    }
+  ],
+  "primary_image_policy": "Every cataloged primary image was personally viewed. The evidence catalog records all image hashes, including primary scans reused from earlier audit directories.",
+  "private_material_policy": "Private translations and ordered model strings are author-only files. Source token referent/contextual annotations are withheld from the fresh solver. Public Cook dependencies are unordered.",
+  "excluded_generated_area": "build/ contains ignored finding aids, temporary renders and reproducible helper scripts; permanent source images and evidence are retained outside it.",
+  "manifest_self_hash_policy": "The manifest does not hash itself.",
+  "unresolved": [],
+  "remaining_coordinator_stages": [
+    "Accept the reconciled learning contract and integrate the source packet.",
+    "Draft and independently solve the learner tasks before revealing private models.",
+    "Reconcile key and review findings, inspect exported pages, and complete canonical register/status/checkpoint work."
+  ]
+}

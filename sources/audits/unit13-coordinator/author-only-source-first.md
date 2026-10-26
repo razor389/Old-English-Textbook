@@ -31,3 +31,11 @@ He remained there for some time, wondering and marvelling; with an attentive min
 - The last words are a coherent summons, not Chad's complete death narrative. The translation's “with us” makes the command's implied company explicit; compare alternative “you too be there”.
 
 This witness preserves initial decisions, including any interpretations subsequently amended by evidence. Canonical teaching and grading belong to the accepted contract and masters.
+
+## New-account witness
+
+Prepared independently from the public 87-word composition seed, before opening any private translation or answer file.
+
+The bishop sat in the house, and the monk was there. When the monk heard the song, he went to the bishop. The monk said, “I heard the song, which was very pleasant. Did you hear it?” The bishop said, “Go now, and bring the brothers here.” Then the monk went to the church and came back with the brothers. The bishop saw them and said, “You are my friends. I want to speak with you.” The monk sat with the brothers, and they heard the bishop's words.
+
+The text gives no explicit answer to the monk's question. The song is the antecedent of masculine accusative «hine»; the group is the object «hīe» after «geseah». The final «hīe» can naturally include the monk and brothers who are now seated together. The quotation's «Ic» is the bishop; «ēow» addresses the group. Do not turn the narrative into a historical claim about Chad.

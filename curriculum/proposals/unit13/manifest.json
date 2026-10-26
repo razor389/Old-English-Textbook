@@ -1,0 +1,497 @@
+{
+  "schema_version": 1,
+  "chapter": "ch13",
+  "status": "design_complete_ready_for_coordinator_contract",
+  "owner": "unit13_design",
+  "writing_boundary": "curriculum/proposals/unit13/ and own ignored build helpers only; no registers, shared contract, prior unit, Beads or Git writes.",
+  "baseline_checkpoint": "e17fc5f",
+  "counts": {
+    "tasks": 90,
+    "cook_tasks": 52,
+    "original_tasks": 38,
+    "examples": 12,
+    "new_reading_words": [
+      87
+    ],
+    "source_words": [
+      236
+    ],
+    "paradigms": 76,
+    "cells": 1008,
+    "new_inventory_lemmas": 147,
+    "features": 131,
+    "prior_required_forms": 260,
+    "prior_required_senses": 152,
+    "prior_required_features": 54,
+    "requested_output_positions": 314,
+    "morphology_output_positions": 101,
+    "display_matrices": 43,
+    "literal_display_cells": 562,
+    "derived_display_cells": 446
+  },
+  "validation": "curriculum/proposals/unit13/validation.json",
+  "files": [
+    {
+      "path": "curriculum/proposals/unit13/author-only-cook-sequence-bindings.json",
+      "sha256": "fb79fbf425250c00f19084db427f16e02b050cbb482536bda2e6df21106f0077",
+      "bytes": 287886,
+      "role": "author_only"
+    },
+    {
+      "path": "curriculum/proposals/unit13/author-only-model-seed.json",
+      "sha256": "f5a2a49202ac7c366b8a9702f52075d88fb01da5980c6b0833d5df3f349eeb2f",
+      "bytes": 64310,
+      "role": "author_only"
+    },
+    {
+      "path": "curriculum/proposals/unit13/author-only-sequence-bindings.json",
+      "sha256": "8f2a2ab233b4b427113fa8d627502d5fce0cde6caab5f760eeb2ea658a3f42db",
+      "bytes": 49923,
+      "role": "author_only"
+    },
+    {
+      "path": "curriculum/proposals/unit13/author-only-source-translation-witness.json",
+      "sha256": "f161cd5434fa041d1b4007f6c95dd15f2a708828fc1802a0d12b06318c1f02f4",
+      "bytes": 4226,
+      "role": "author_only"
+    },
+    {
+      "path": "curriculum/proposals/unit13/author-only-witness-reconciliation.json",
+      "sha256": "7076cc7f56c1a3e3d0912e70bd2caa933a06447d6afa4393bc9d8ff1fa707125",
+      "bytes": 2484,
+      "role": "author_only"
+    },
+    {
+      "path": "curriculum/proposals/unit13/composition-seed.json",
+      "sha256": "d13b2a3fc0f058415712e148e1a15cb92740eacd22308553a8e6cc1cdcdce852",
+      "bytes": 5325,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/compositions.json",
+      "sha256": "a77315dd04fa5c61ab2b2a8c07f2ae1bc73d46fcd5104bb161ae408d57763118",
+      "bytes": 106370,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/cook-targets.json",
+      "sha256": "5a15e24d5db31cb85347d354ab881b0d3e0f71edf1cb7499a702f964e4e682b4",
+      "bytes": 10340,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/design-outline.md",
+      "sha256": "561fed59e008a46b9734326bdd5b6f9659b37323343afc911dfaafafef9dfea9",
+      "bytes": 10929,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/display-matrices.json",
+      "sha256": "a0e4a5997460bcafe09a963ad25eb712c0f096be575b02108e7a2394f9075cf9",
+      "bytes": 608121,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/file-boundaries.json",
+      "sha256": "59d21c1d028806ac8a2e74fa305486c1b7c29b71977ce334a182d86919c29857",
+      "bytes": 8916,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/grammar-display-plan.json",
+      "sha256": "6b7a3922aa72e407773b12f65d20d4ef6ff13c50bf187e5067a8648016bee455",
+      "bytes": 354161,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/grammar-feature-map.json",
+      "sha256": "5d9cf965afe2d6842e7799e14c95558eac0898d33ff26a0e1c5cb800433d31cb",
+      "bytes": 13227,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/handoff.md",
+      "sha256": "46649546af3f21941ca329bfa17ac604352e5bba052a2ee5624970dd6bb058db",
+      "bytes": 3995,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-assemble.py",
+      "sha256": "7650f348015a32bd18e7eef9105ad6eaff871349883f6c698e2a28212f270b9d",
+      "bytes": 35925,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-bind-cook.py",
+      "sha256": "1f2fd74852fa9f32be335d505ff11c72d1d9d936f6f9d3205be651b5667df4ab",
+      "bytes": 13829,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-bind.py",
+      "sha256": "121a1fe7b24870bcc32b5ed7ed9e179a81b3092fedc74869b2b69e82b81b73f0",
+      "bytes": 12540,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-cook-targets.py",
+      "sha256": "a2f04db261d409eb1ec7d5fbb6079325a4c985deda9b16ce2d817a4cba88e029",
+      "bytes": 6906,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-grammar-display.py",
+      "sha256": "36a2847a0562cf924e55ae1ccc076b0f4e275fb903cd95f98168e593a4e3ecbd",
+      "bytes": 10166,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-inspect.py",
+      "sha256": "4c901e11c0159df8e2434d9b0fbac96b47c6588d05358566ca768d02ca0cadd5",
+      "bytes": 4152,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-manifest.py",
+      "sha256": "88eb32cec2a5fd3fa8b16c39356417913c52f7923812a0c4615716520e2d7991",
+      "bytes": 4231,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-nominal-display.py",
+      "sha256": "67f430f78c2fe2a549fc053b422fbf1139c27d92b3ca03f1a596fe37446f73aa",
+      "bytes": 8762,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-prior-audit.py",
+      "sha256": "21b8f866921bc0c8aa93ec9b06ccf20471ac253b4a332f800671685456ae231a",
+      "bytes": 3212,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-private-seed.py",
+      "sha256": "72f3ec33ccb0484e648d1c26dc0260b23245ced40cbfbb3d16cf1a9575fe8505",
+      "bytes": 12068,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-refresh.py",
+      "sha256": "cae84c67a4a7add3a512a623a012ffaf439620e9c9a3192cbb3d6177d5cce12e",
+      "bytes": 797,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-seed.py",
+      "sha256": "49314169ed220ddb2271c11bea96ff57b87ea0f82271a29e9579978c611a3297",
+      "bytes": 23811,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/helpers/unit13-design-validate.py",
+      "sha256": "1b72e5821ad4aa648ab9fc3fd47351e1129e36779aa47953d70a4dedf3139ffa",
+      "bytes": 10641,
+      "role": "design_helper_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/inventory.json",
+      "sha256": "200a2c1685697a6031485aecd31648c5636963b4fab8687d586b5730608b8be7",
+      "bytes": 7906606,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/nominal-display-plan.json",
+      "sha256": "8d33b1e59a0a2ff57261bc788400b07a16570e2276bb509a4f33d6ac7df04b1b",
+      "bytes": 1051224,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/nominal-feature-map.json",
+      "sha256": "37dbafef03449427546bd7316f3b74fc18713a3f3098f46f3792c4cf10abb06d",
+      "bytes": 2207,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/prior-audit.json",
+      "sha256": "4908db776c7fab4eb7e8735a9eb27af135cd3f85010d83de2ee7fdf6bcb591c7",
+      "bytes": 49844,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/public-sequence-bindings.json",
+      "sha256": "641491f737d4f9116d7cd8e38943584965bef05af508d71778793eead988f9fb",
+      "bytes": 162293,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/task-plan.json",
+      "sha256": "215f0248ac7cfcb995b628fcb6af24c7788c9c67858bd14f23590a0bd4a5326c",
+      "bytes": 1107676,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/task-seed.json",
+      "sha256": "6d13c8e73b4546f74787fa33e305e1f86b361c27045a338b51098e75707b0c8d",
+      "bytes": 40301,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    },
+    {
+      "path": "curriculum/proposals/unit13/validation.json",
+      "sha256": "74569cb387f9d16543bb3bb211bea663405b4d6d3be33d6d1df6e263e1e721f6",
+      "bytes": 230587,
+      "role": "editorial_design_input_excluded_before_frozen_solutions"
+    }
+  ],
+  "source_and_grammar_dependencies": [
+    {
+      "path": "sources/audits/unit13-source/author-only-cook-models.json",
+      "sha256": "995f6c2cc9cad66e672d4ce92440e7680a73121e82043cbf23a07cd6a8f151d4"
+    },
+    {
+      "path": "sources/audits/unit13-source/author-only-reading-witness.json",
+      "sha256": "f3a4365497f7307855ad20096ae2811507acab7a18d6bcce1366c5379c50d069"
+    },
+    {
+      "path": "sources/audits/unit13-source/construction-requirements.json",
+      "sha256": "56aa0cdcf3fd9daae8d35c16a396e768fa579a1f430aeb8310930cf1ae8e9f8d"
+    },
+    {
+      "path": "sources/audits/unit13-source/cook-local-support.json",
+      "sha256": "8edac72d1f56696e9ad40c11d4c5f6315f85a07575f8290d172ae9125456db09"
+    },
+    {
+      "path": "sources/audits/unit13-source/evidence-catalog.json",
+      "sha256": "56ecfe744adf9af87d3fc676b9fa0b0f7dff37a472bc4d1f97951a05019b8a7d"
+    },
+    {
+      "path": "sources/audits/unit13-source/exercises-dependencies.json",
+      "sha256": "34bab9461e41dd39f6e63266e547dd8cf72c601b16b5c2ade07ff25207575426"
+    },
+    {
+      "path": "sources/audits/unit13-source/exercises-prompts.json",
+      "sha256": "1b445d250f048d366c6576fcaf938a82b9fadf71d3bf8f8c8aef4ecfe916f9a7"
+    },
+    {
+      "path": "sources/audits/unit13-source/lexical-inventory.json",
+      "sha256": "15a270a59e40171b28fbf735334e788b183ce53eb9ea00b7a89f67098a030e87"
+    },
+    {
+      "path": "sources/audits/unit13-source/manifest.json",
+      "sha256": "8ca4c2bdf7da1cd1bb87bdb1f6e751b99fcc3ad687e4084db46844abf93a6d27"
+    },
+    {
+      "path": "sources/audits/unit13-source/nominal-display-plan.json",
+      "sha256": "89277bacef66dc598bb96db0bc0dacf6f6ab974ee4f8e922669a63e90c6df21b"
+    },
+    {
+      "path": "sources/audits/unit13-source/nominal-display-review.json",
+      "sha256": "b784375bf889aacff5a2f87d8a06fd2d93b663e3eabb47db3cd227daf8fe6f83"
+    },
+    {
+      "path": "sources/audits/unit13-source/noun-adjective-paradigms.json",
+      "sha256": "e7e1c803a8dcc89d86353c3e4a4433063847aea317c52328df46a191f1abbc52"
+    },
+    {
+      "path": "sources/audits/unit13-source/prior-scope-audit.json",
+      "sha256": "667fe2a49358bb28c908c3583a20587e982101e40cc060cf41e6d4e7bb34a98d"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-constructions.json",
+      "sha256": "cc47b84cdd2c81aadd839be0e5166d1fde0449e295b378664071ff3ce06b216c"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-note-anchors.json",
+      "sha256": "06e9673076fbb39f381c7be1056f88eaf3f759302706bac3c0739389912fc3b3"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-source.json",
+      "sha256": "480d0ce747aa7e9153dc0613923b4c4da02a6ac8c4dd60219eca8ffe56fa57c3"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-support.json",
+      "sha256": "68284cdf7192bd48d7200ebc63b3238fbc1bb45404fe582d91d9fe7955d64ac8"
+    },
+    {
+      "path": "sources/audits/unit13-source/reading-tokens.json",
+      "sha256": "f05bd7079cf43eab940779e48917eb3102d3fa10235521ca3d37fad8b3507b56"
+    },
+    {
+      "path": "sources/audits/unit13-source/source-change-notes.json",
+      "sha256": "f8ec4ef4a3beb1f38fdb8ff1683fc9cff253db93f47e0e1157ed69960b11ed97"
+    },
+    {
+      "path": "sources/audits/unit13-source/source-support-records.json",
+      "sha256": "7ac75579ba58d7320a65e1f0aaf4830941790e91a8fdb38b900e476815b3ee26"
+    },
+    {
+      "path": "sources/audits/unit13-source/validation.json",
+      "sha256": "b2bc1d3ccb9c37f04c9167160804fa9791998cd73d6f5f4858e498c97d5089ce"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/display-routes.json",
+      "sha256": "83b2b731b84365ce19f00d553312c2ed1c88510ed002be01160321e5e23b1995"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/evidence-catalog.json",
+      "sha256": "359775452592819c550aa39be2fb788ea8d8882e9627be3042cd49dc9bc3d5c5"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/grammar-records.json",
+      "sha256": "9bc8bf7b9bd5db4a29234a35301dcf1187d5ab56a87fb12c8581d01cbf8473d9"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/lexical-frames.json",
+      "sha256": "410fefe9ba7c3410666a6a570f3ecc7d20871929ef269bede05e7e8d62ee33b9"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/manifest.json",
+      "sha256": "72e5e499e5689d5071152637414b2da15aa12509d30f0d8652b0fe7ecd5b9841"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/principal-parts.json",
+      "sha256": "5c6d8309a752cf08017cf13bfa2605a2c68230e9158cc968eec694f5e24f8854"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/prior-reconciliation.json",
+      "sha256": "9840b8602a22521f4d323f181a4cdb6245f664ca69b482d97b0299b0b8e6f82f"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/public-composition-review.json",
+      "sha256": "87ee94e645de45796ba2ccd1829872e755b2d44315e70aca57244cba15b49fea"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/rules.json",
+      "sha256": "6d602466812a2095868917c1d13bd461c4c0646f723461507ad81ad5e818d5ee"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/source-support.json",
+      "sha256": "70f56471856adeca17ec31cfd849bd5ea756ca86887973c911d1a02ad88991f5"
+    },
+    {
+      "path": "sources/audits/unit13-grammar/validation.json",
+      "sha256": "3d5b2f227a87a515d56a643a7ef8325545276f2c85bc50c31106f27f76f6cd79"
+    }
+  ],
+  "pre_key_review_exclusions": [
+    "build/unit13-design-assemble.py",
+    "build/unit13-design-bind-cook.py",
+    "build/unit13-design-bind.py",
+    "build/unit13-design-cook-targets.py",
+    "build/unit13-design-grammar-display.py",
+    "build/unit13-design-inspect.py",
+    "build/unit13-design-manifest.py",
+    "build/unit13-design-nominal-display.py",
+    "build/unit13-design-prior-audit.py",
+    "build/unit13-design-private-seed.py",
+    "build/unit13-design-refresh.py",
+    "build/unit13-design-seed.py",
+    "build/unit13-design-validate.py",
+    "chapters/ch13/answer-key.md",
+    "chapters/ch13/coverage.json",
+    "curriculum/UNIT_13_BRIEF.md",
+    "curriculum/proposals/unit13/author-only-cook-sequence-bindings.json",
+    "curriculum/proposals/unit13/author-only-model-seed.json",
+    "curriculum/proposals/unit13/author-only-sequence-bindings.json",
+    "curriculum/proposals/unit13/author-only-source-translation-witness.json",
+    "curriculum/proposals/unit13/author-only-witness-reconciliation.json",
+    "curriculum/proposals/unit13/composition-seed.json",
+    "curriculum/proposals/unit13/compositions.json",
+    "curriculum/proposals/unit13/cook-targets.json",
+    "curriculum/proposals/unit13/design-outline.md",
+    "curriculum/proposals/unit13/display-matrices.json",
+    "curriculum/proposals/unit13/file-boundaries.json",
+    "curriculum/proposals/unit13/grammar-display-plan.json",
+    "curriculum/proposals/unit13/grammar-feature-map.json",
+    "curriculum/proposals/unit13/handoff.md",
+    "curriculum/proposals/unit13/helpers/unit13-design-assemble.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-bind-cook.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-bind.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-cook-targets.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-grammar-display.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-inspect.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-manifest.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-nominal-display.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-prior-audit.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-private-seed.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-refresh.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-seed.py",
+    "curriculum/proposals/unit13/helpers/unit13-design-validate.py",
+    "curriculum/proposals/unit13/inventory.json",
+    "curriculum/proposals/unit13/manifest.json",
+    "curriculum/proposals/unit13/nominal-display-plan.json",
+    "curriculum/proposals/unit13/nominal-feature-map.json",
+    "curriculum/proposals/unit13/prior-audit.json",
+    "curriculum/proposals/unit13/public-sequence-bindings.json",
+    "curriculum/proposals/unit13/task-plan.json",
+    "curriculum/proposals/unit13/task-seed.json",
+    "curriculum/proposals/unit13/validation.json",
+    "sources/audits/unit13-coordinator/author-only-source-first.md",
+    "sources/audits/unit13-coordinator/preposition-evidence.json",
+    "sources/audits/unit13-coordinator/primary-inspection.json",
+    "sources/audits/unit13-coordinator/prior-state.json",
+    "sources/audits/unit13-coordinator/reconciliation.json",
+    "sources/audits/unit13-coordinator/review-independence.json",
+    "sources/audits/unit13-grammar/REPORT.md",
+    "sources/audits/unit13-grammar/build/render.py",
+    "sources/audits/unit13-grammar/build_records.py",
+    "sources/audits/unit13-grammar/build_support.py",
+    "sources/audits/unit13-grammar/display-routes.json",
+    "sources/audits/unit13-grammar/evidence-catalog.json",
+    "sources/audits/unit13-grammar/grammar-records.json",
+    "sources/audits/unit13-grammar/lexical-frames.json",
+    "sources/audits/unit13-grammar/manifest.json",
+    "sources/audits/unit13-grammar/principal-parts.json",
+    "sources/audits/unit13-grammar/prior-reconciliation.json",
+    "sources/audits/unit13-grammar/public-composition-review.json",
+    "sources/audits/unit13-grammar/rules.json",
+    "sources/audits/unit13-grammar/seal_audit.py",
+    "sources/audits/unit13-grammar/source-support.json",
+    "sources/audits/unit13-grammar/validate_audit.py",
+    "sources/audits/unit13-grammar/validation.json",
+    "sources/audits/unit13-source/REPORT.md",
+    "sources/audits/unit13-source/author-only-cook-models.json",
+    "sources/audits/unit13-source/author-only-reading-witness.json",
+    "sources/audits/unit13-source/build/audit.py",
+    "sources/audits/unit13-source/build/dependencies.py",
+    "sources/audits/unit13-source/build/evidence.py",
+    "sources/audits/unit13-source/build/frontmatter.py",
+    "sources/audits/unit13-source/build/hint_detail.py",
+    "sources/audits/unit13-source/build/manifest.py",
+    "sources/audits/unit13-source/build/nominals.py",
+    "sources/audits/unit13-source/build/reading-unresolved.json",
+    "sources/audits/unit13-source/build/reading.py",
+    "sources/audits/unit13-source/build/reading_support.py",
+    "sources/audits/unit13-source/build/render.py",
+    "sources/audits/unit13-source/build/render_ex65.py",
+    "sources/audits/unit13-source/build/render_wright294.py",
+    "sources/audits/unit13-source/build/support_records.py",
+    "sources/audits/unit13-source/build/validate.py",
+    "sources/audits/unit13-source/build/witnesses.py",
+    "sources/audits/unit13-source/construction-requirements.json",
+    "sources/audits/unit13-source/cook-local-support.json",
+    "sources/audits/unit13-source/evidence-catalog.json",
+    "sources/audits/unit13-source/exercises-dependencies.json",
+    "sources/audits/unit13-source/exercises-prompts.json",
+    "sources/audits/unit13-source/lexical-inventory.json",
+    "sources/audits/unit13-source/manifest.json",
+    "sources/audits/unit13-source/nominal-display-plan.json",
+    "sources/audits/unit13-source/nominal-display-review.json",
+    "sources/audits/unit13-source/noun-adjective-paradigms.json",
+    "sources/audits/unit13-source/prior-scope-audit.json",
+    "sources/audits/unit13-source/reading-constructions.json",
+    "sources/audits/unit13-source/reading-note-anchors.json",
+    "sources/audits/unit13-source/reading-source.json",
+    "sources/audits/unit13-source/reading-support.json",
+    "sources/audits/unit13-source/reading-tokens.json",
+    "sources/audits/unit13-source/source-change-notes.json",
+    "sources/audits/unit13-source/source-support-records.json",
+    "sources/audits/unit13-source/validation.json"
+  ],
+  "blind_solver_allowlist": [
+    "actual learner master after accepted contract",
+    "accepted earlier units and cumulative registers",
+    "necessary original page images"
+  ],
+  "gate": "No learner or key master before the coordinator has reconciled and committed the learning contract. Later independent review remains separate from this design audit.",
+  "open_material_issues": []
+}

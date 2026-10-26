@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "chapter": "ch13",
+  "status": "protocol_established_before_prose",
+  "reviewer": "unit13_review",
+  "reviewer_assignment": "Fresh agent to be assigned after complete drafts; no current learner/key/task authorship or inherited private-model context.",
+  "exclusive_outputs": [
+    "chapters/ch13/independent-solutions.md",
+    "chapters/ch13/review.md",
+    "chapters/ch13/review-ledger.json"
+  ],
+  "blind_phase_allowlist": [
+    "chapters/ch13/student.md",
+    "chapters/ch01/student.md through chapters/ch12/student.md",
+    "lexicon/entries.json and curriculum/grammar.json in their accepted twelve-unit state",
+    "Original primary source page images or scans, without current editorial annotations"
+  ],
+  "blind_phase_exclusions": [
+    "chapters/ch13/answer-key.md and chapters/ch13/coverage.json",
+    "curriculum/UNIT_13_BRIEF.md and all curriculum/proposals/unit13 files",
+    "All current Unit 13 source, grammar and coordinator audit text/JSON, including token maps containing referent analyses",
+    "All author-only files, ordered output bindings, complete translation witnesses and helpers that expose them",
+    "Other current reviewers’ answer comparisons before the blind witness is frozen"
+  ],
+  "blind_phase_work": "Solve all 90 actual learner tasks, including all requested forms, explanatory outputs, all 52 Cook translations and both complete connected translations. Record uncertainty and genuine ambiguity. Use only actual visible learner support and allowed earlier teaching. Do not open excluded material merely to locate an answer.",
+  "freeze_gate": "Coordinator verifies complete witness coverage and actual learner identity, exports Beads, commits the unchanged witness locally, and explicitly unlocks comparison. Elapsed time, another agent’s completion or a file appearing does not unlock it.",
+  "comparison_phase_work": "Compare every frozen solution against the key, actual contract output positions, primary evidence and task target. Preserve the initial witness; record corrections separately. Distinguish valid language from target compliance and supplied support from independent production.",
+  "separate_paradigm_review": {
+    "reviewer": "unit13_paradigms",
+    "fresh_non_author": true,
+    "exclusive_outputs": ["chapters/ch13/reviews/paradigms.md", "chapters/ch13/reviews/paradigms.json"],
+    "scope": "Check all 76 systems, all 1,008 literal or derived cell routes, actual matrix labels, diagnostics, endings, stem changes, exceptions, rules, lexical scope and primary-page evidence. Structural equality alone is insufficient."
+  },
+  "final_identity_requirements": "Acceptance names actual master hashes, normalized-LF hashes, frozen witness checkpoint, substantive contract identity, personally viewed primary images, item-level review and resolution of all material findings. Later export inspection and register integration are separate gates.",
+  "author_roles": {
+    "student": "unit13_design after committed contract authorization",
+    "answer_key": "root after committed contract authorization",
+    "source": "unit13_source",
+    "grammar": "unit13_grammar"
+  }
+}

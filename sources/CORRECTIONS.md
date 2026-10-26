@@ -14,6 +14,12 @@ Cook's *First Book*, selected 1895 second edition, printed p89 / one-based PDF10
 
 This corrects the grammatical analysis, not the transmitted phrase. Preserve both the phrase and the erroneous statement in source evidence; teach **Frēan** as the objective genitive. The coordinator independently inspected the [page image](audits/unit09-coordinator/cook-fb-p89.png). Unit10's grammar audit independently checks the same primary page. The correction affects Unit10's discussion of dependent genitives and its source note; it does not change any of Cook III.13–15's English prompts or the selected Judgment reading.
 
+## C03: the reference after forceorfan in Cook VII.23.7
+
+Cook's *Exercises*, printed p. 12 / one-based PDF 20, prints **“forceorfan, 134”** in VII.23.7. In the selected 1895 second edition of the *First Book*, §134, printed p. 78 / PDF 94, concerns **munan**, not **forceorfan**. The reference is therefore inapplicable to the selected grammar and is treated as an apparent miscitation. The evidence does not establish how the mismatch arose or whether another edition explains it.
+
+Preserve **134** in the original prompt. Give the verified strong III paradigm and lexical evidence separately, as recorded in the [Unit 13 grammar audit](audits/unit13-grammar/REPORT.md). The coordinator inspected both the [exercise page](audits/unit13-source/cook-ex-002.png) and the [grammar page](audits/unit11-grammar/cook_fb_1895_2-p78.png). This correction concerns a reference; it does not replace the verb, alter the English prompt, or assign the unrelated munan system.
+
 ## Evidence limits to retain
 
 The previous Chapter 2 **ǣfenu** is derived from stated paradigms; its audit did not locate an independent textual occurrence. The reading's **eorðan** permits accusative/dative analyses after **ofer** and was supplied without testing a unique case. See [the Chapter 2 editorial record](../reference/previous-course/chapters/ch02/editorial-notes.md). A new paradigm or reading audit may refine these analyses; it must not silently upgrade their evidence status.

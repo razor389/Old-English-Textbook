@@ -1,0 +1,1308 @@
+{
+  "schema_version": 1,
+  "chapter": "ch13",
+  "status": "ready_for_coordinator_contract_reconciliation",
+  "note": "Public actual inputs and requested positions. No ordered answer models. Morphological targets remain provisional until the source and grammar audits confirm complete systems.",
+  "tasks": [
+    {
+      "task_id": "NEW-U13-F01",
+      "key_id": "KEY-NEW-U13-F01",
+      "origin": "new_teaching_material",
+      "mode": "production_morphology",
+      "prompt": "Give the complete nominative, genitive, dative and accusative singular and plural of mōdor, dohtor and brōðor. Explain the selected oblique and plural stems.",
+      "target_specification": "Complete kinship systems; no inference from the English singular.",
+      "input_texts": [],
+      "feature_roles": [
+        "kinship_systems"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "paradigm",
+          "lemma": "mōdor",
+          "cases": [
+            "nominative",
+            "genitive",
+            "dative",
+            "accusative"
+          ],
+          "numbers": [
+            "singular",
+            "plural"
+          ]
+        },
+        {
+          "kind": "paradigm",
+          "lemma": "dohtor",
+          "cases": [
+            "nominative",
+            "genitive",
+            "dative",
+            "accusative"
+          ],
+          "numbers": [
+            "singular",
+            "plural"
+          ]
+        },
+        {
+          "kind": "paradigm",
+          "lemma": "brōðor",
+          "cases": [
+            "nominative",
+            "genitive",
+            "dative",
+            "accusative"
+          ],
+          "numbers": [
+            "singular",
+            "plural"
+          ]
+        },
+        {
+          "kind": "explanation",
+          "positions": [
+            "mōdor oblique and plural stems",
+            "dohtor oblique and plural stems",
+            "brōðor oblique and plural stems"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-F02",
+      "key_id": "KEY-NEW-U13-F02",
+      "origin": "new_teaching_material",
+      "mode": "production_morphology",
+      "prompt": "Give the complete nominative, genitive, dative and accusative singular and plural of æx and ēagðȳrel. Explain the retained stem in æx and the syncopated stem before endings in ēagðȳrel.",
+      "target_specification": "Complete long feminine and selected syncopating neuter systems; æx is not a new exceptional class.",
+      "input_texts": [],
+      "feature_roles": [
+        "nominal_systems"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "paradigm",
+          "lemma": "æx",
+          "cases": [
+            "nominative",
+            "genitive",
+            "dative",
+            "accusative"
+          ],
+          "numbers": [
+            "singular",
+            "plural"
+          ]
+        },
+        {
+          "kind": "paradigm",
+          "lemma": "ēagðȳrel",
+          "cases": [
+            "nominative",
+            "genitive",
+            "dative",
+            "accusative"
+          ],
+          "numbers": [
+            "singular",
+            "plural"
+          ]
+        },
+        {
+          "kind": "explanation",
+          "positions": [
+            "æx retained stem",
+            "ēagðȳrel syncope"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-F03",
+      "key_id": "KEY-NEW-U13-F03",
+      "origin": "new_teaching_material",
+      "mode": "production_morphology",
+      "prompt": "Give the genitive and dative singular and the nominative and genitive plural of cirice, mynster and wyrttruma. State the model used for each.",
+      "target_specification": "Diagnose complete supporting noun systems through actual model and stem choices.",
+      "input_texts": [],
+      "feature_roles": [
+        "nominal_systems"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "form",
+          "lemma": "cirice",
+          "case": "genitive",
+          "number": "singular"
+        },
+        {
+          "kind": "form",
+          "lemma": "cirice",
+          "case": "dative",
+          "number": "singular"
+        },
+        {
+          "kind": "form",
+          "lemma": "cirice",
+          "case": "nominative",
+          "number": "plural"
+        },
+        {
+          "kind": "form",
+          "lemma": "cirice",
+          "case": "genitive",
+          "number": "plural"
+        },
+        {
+          "kind": "form",
+          "lemma": "mynster",
+          "case": "genitive",
+          "number": "singular"
+        },
+        {
+          "kind": "form",
+          "lemma": "mynster",
+          "case": "dative",
+          "number": "singular"
+        },
+        {
+          "kind": "form",
+          "lemma": "mynster",
+          "case": "nominative",
+          "number": "plural"
+        },
+        {
+          "kind": "form",
+          "lemma": "mynster",
+          "case": "genitive",
+          "number": "plural"
+        },
+        {
+          "kind": "form",
+          "lemma": "wyrttruma",
+          "case": "genitive",
+          "number": "singular"
+        },
+        {
+          "kind": "form",
+          "lemma": "wyrttruma",
+          "case": "dative",
+          "number": "singular"
+        },
+        {
+          "kind": "form",
+          "lemma": "wyrttruma",
+          "case": "nominative",
+          "number": "plural"
+        },
+        {
+          "kind": "form",
+          "lemma": "wyrttruma",
+          "case": "genitive",
+          "number": "plural"
+        },
+        {
+          "kind": "model_identification",
+          "positions": [
+            "cirice",
+            "mynster",
+            "wyrttruma"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-F04",
+      "key_id": "KEY-NEW-U13-F04",
+      "origin": "new_teaching_material",
+      "mode": "production_morphology",
+      "prompt": "For swēte, give all strong nominative, genitive, dative and accusative singular and plural forms in all three genders. Then give the weak masculine nominative singular of its comparative and both strong and weak masculine nominative singular of its superlative. Explain the stems and endings.",
+      "target_specification": "Complete adjective family with comparison; distinct instrumental cells remain reference.",
+      "input_texts": [],
+      "feature_roles": [
+        "adjective_systems"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "paradigm",
+          "lemma": "swēte",
+          "declension": "strong",
+          "cases": [
+            "nominative",
+            "genitive",
+            "dative",
+            "accusative"
+          ],
+          "numbers": [
+            "singular",
+            "plural"
+          ],
+          "genders": [
+            "masculine",
+            "neuter",
+            "feminine"
+          ]
+        },
+        {
+          "kind": "comparison_diagnostics",
+          "positions": [
+            "comparative weak masculine nominative singular",
+            "superlative strong masculine nominative singular",
+            "superlative weak masculine nominative singular"
+          ]
+        },
+        {
+          "kind": "explanation",
+          "positions": [
+            "positive stem and endings",
+            "comparative weak stem and endings",
+            "superlative stem and endings"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-F05",
+      "key_id": "KEY-NEW-U13-F05",
+      "origin": "new_teaching_material",
+      "mode": "production_morphology",
+      "prompt": "Give the complete present and preterite indicative of forceorfan: all three persons in singular and plural. Using the printed principal parts, explain the present singular changes and the distribution of preterite stems.",
+      "target_specification": "Complete defined strong system, with supplied citation status distinguished from productive syntax.",
+      "input_texts": [],
+      "feature_roles": [
+        "verb_systems"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "paradigm",
+          "lemma": "forceorfan",
+          "tenses": [
+            "present",
+            "preterite"
+          ],
+          "mood": "indicative",
+          "persons": [
+            1,
+            2,
+            3
+          ],
+          "numbers": [
+            "singular",
+            "plural"
+          ]
+        },
+        {
+          "kind": "explanation",
+          "positions": [
+            "present singular changes",
+            "preterite stem distribution"
+          ],
+          "support": "printed principal parts remain visible"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-F06",
+      "key_id": "KEY-NEW-U13-F06",
+      "origin": "new_teaching_material",
+      "mode": "production_morphology",
+      "prompt": "Give the singular and plural commands of winnan, begān and behealdan. For fordilgian and onlīesan, give the base present and past participles.",
+      "target_specification": "Complete assigned command pairs and participle bases; no unassigned adjective cells.",
+      "input_texts": [],
+      "feature_roles": [
+        "verb_systems"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "commands",
+          "lemmas": [
+            "winnan",
+            "begān",
+            "behealdan"
+          ],
+          "numbers": [
+            "singular",
+            "plural"
+          ]
+        },
+        {
+          "kind": "participle_bases",
+          "lemmas": [
+            "fordilgian",
+            "onlīesan"
+          ],
+          "types": [
+            "present",
+            "past"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A01",
+      "key_id": "KEY-NEW-U13-A01",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate both clauses. Identify the subject, direct object and finite verb in each; explain which forms settle the participants.",
+      "target_specification": "Case, not first position, identifies the object.",
+      "input_texts": [
+        "Se bisceop grētte ðone munuc.",
+        "Ðone munuc grētte se bisceop."
+      ],
+      "feature_roles": [
+        "clause_roles",
+        "fronting"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "translation",
+          "positions": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "role_labels",
+          "per_input": [
+            "subject",
+            "object",
+            "finite verb"
+          ]
+        },
+        {
+          "kind": "explanation",
+          "topic": "case evidence"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A02",
+      "key_id": "KEY-NEW-U13-A02",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Divide this sentence into clauses; identify each finite verb and its subject. Label every ðā, and translate the whole sentence.",
+      "target_specification": "Temporal correlation and article distinguished by actual function.",
+      "input_texts": [
+        "Ðā se munuc cōm, ðā grētte se bisceop ðā brōðor."
+      ],
+      "feature_roles": [
+        "clause_roles",
+        "correlation"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "clause_map",
+          "positions": [
+            "dependent",
+            "main"
+          ]
+        },
+        {
+          "kind": "token_roles",
+          "targets": [
+            "ðā#1",
+            "ðā#2",
+            "ðā#3"
+          ]
+        },
+        {
+          "kind": "translation",
+          "positions": [
+            1
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A03",
+      "key_id": "KEY-NEW-U13-A03",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate. Identify the main finite verb and the relative-clause finite verb; give the relative antecedent and its role in each clause.",
+      "target_specification": "Embedding does not change the main clause subject; internal relative case differs from antecedent case.",
+      "input_texts": [
+        "Se bisceop, ðe se munuc grētte, sæt on ðǣm hūse."
+      ],
+      "feature_roles": [
+        "clause_roles",
+        "relative_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "translation",
+          "positions": [
+            1
+          ]
+        },
+        {
+          "kind": "finite_verbs",
+          "positions": [
+            "main",
+            "relative"
+          ]
+        },
+        {
+          "kind": "relative_analysis",
+          "fields": [
+            "antecedent",
+            "main-clause case",
+            "relative function"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A04",
+      "key_id": "KEY-NEW-U13-A04",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate. Identify the person greeted, the person who gave the food, and the recipient. Explain the understood subject and the pronoun cases.",
+      "target_specification": "Coordination with a continuing subject and two distinct object roles.",
+      "input_texts": [
+        "Se munuc grētte ðone bisceop and sealde him ðone męte."
+      ],
+      "feature_roles": [
+        "coordination",
+        "reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "translation",
+          "positions": [
+            1
+          ]
+        },
+        {
+          "kind": "participant_map",
+          "roles": [
+            "greeter",
+            "person greeted",
+            "giver",
+            "recipient",
+            "thing given"
+          ]
+        },
+        {
+          "kind": "case_analysis",
+          "tokens": [
+            "him",
+            "męte"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A05",
+      "key_id": "KEY-NEW-U13-A05",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate the second sentence after each context. State the referent of hē in each; explain what morphology establishes and what the context establishes.",
+      "target_specification": "Grammatical gender permits inanimate reference; context identifies the antecedent.",
+      "input_texts": [
+        "Se sang wæs swēte. Hē wæs wynsum.",
+        "Se bisceop cōm. Hē wæs on ðǣm hūse."
+      ],
+      "feature_roles": [
+        "reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "translation",
+          "positions": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "reference",
+          "targets": [
+            "hē#1",
+            "hē#2"
+          ]
+        },
+        {
+          "kind": "explanation",
+          "topic": "gender versus contextual choice"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A06",
+      "key_id": "KEY-NEW-U13-A06",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Give both possible referents of hē in the second sentence. Is either one selected by gender and number alone? Rewrite that sentence twice, naming each possible subject explicitly.",
+      "target_specification": "Recognize real reference ambiguity rather than invent a nearest-noun rule.",
+      "input_texts": [
+        "Se bisceop geseah ðone munuc. Hē sæt on ðǣm hūse."
+      ],
+      "feature_roles": [
+        "reference",
+        "explicit_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "reference_options",
+          "token": "hē",
+          "count": 2
+        },
+        {
+          "kind": "explanation",
+          "topic": "limits of morphology"
+        },
+        {
+          "kind": "old_english_rewrites",
+          "count": 2
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A07",
+      "key_id": "KEY-NEW-U13-A07",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "The monk addresses the bishop. Translate, and identify each speaker/addressee reference in the quotation.",
+      "target_specification": "Direct speech resets first and second person to its own setting.",
+      "input_texts": [
+        "Se munuc cwæð: “Ic hīerde ðone sang. Hīerdest ðū hine?”"
+      ],
+      "feature_roles": [
+        "quoted_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "translation",
+          "positions": [
+            1
+          ]
+        },
+        {
+          "kind": "reference",
+          "targets": [
+            "Ic",
+            "ðū",
+            "hine"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A08",
+      "key_id": "KEY-NEW-U13-A08",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate. Identify the content-clause boundary, its finite verb, and the antecedent of hē. The monk is reporting his own presence.",
+      "target_specification": "Context and reporting stance settle person; verb position is descriptive.",
+      "input_texts": [
+        "Se munuc sægde ðæt hē on ðǣm hūse wǣre."
+      ],
+      "feature_roles": [
+        "clause_roles",
+        "reported_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "translation",
+          "positions": [
+            1
+          ]
+        },
+        {
+          "kind": "clause_analysis",
+          "fields": [
+            "content clause",
+            "finite verb",
+            "hē referent",
+            "report mood"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A09",
+      "key_id": "KEY-NEW-U13-A09",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate, restoring the omitted repeated predicate in English. Then write the second clause in Old English with that predicate expressed and agreeing with its own subject.",
+      "target_specification": "The lexical predicate is recoverable; an expressed finite copula must agree with the plural second subject in this bounded coordination frame.",
+      "input_texts": [
+        "Se bisceop wæs on ðǣre cirican, and ðā brōðor on ðǣm hūse."
+      ],
+      "feature_roles": [
+        "coordination"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "translation",
+          "positions": [
+            1
+          ]
+        },
+        {
+          "kind": "old_english_clause",
+          "count": 1,
+          "agreement": "plural second subject"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A10",
+      "key_id": "KEY-NEW-U13-A10",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate both sentences. Explain which clause each initial phrase belongs to and identify the finite verbs. Are initial words themselves a reliable way to decide who performs an action?",
+      "target_specification": "Distinguish a fronted phrase from a dependent clause, and keep its case relations.",
+      "input_texts": [
+        "On ðǣm hūse sæt se munuc.",
+        "Ðā se munuc on ðǣm hūse sæt, ðā cōm se bisceop."
+      ],
+      "feature_roles": [
+        "clause_roles",
+        "fronting",
+        "correlation"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "translation",
+          "positions": [
+            1,
+            2
+          ]
+        },
+        {
+          "kind": "initial_constituents",
+          "count": 2
+        },
+        {
+          "kind": "finite_verbs",
+          "count": 3
+        },
+        {
+          "kind": "explanation",
+          "topic": "initial position and roles"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A11",
+      "key_id": "KEY-NEW-U13-A11",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "Translate and draw the clause structure, using brackets or indentation. Identify the subject of every finite verb and the referent/function of ðe and ðā.",
+      "target_specification": "Follow embedding inside a temporal clause before returning to the main action.",
+      "input_texts": [
+        "Ðā se munuc, ðe se bisceop grētte, cōm, ðā sungon ðā brōðor."
+      ],
+      "feature_roles": [
+        "long_sentence",
+        "relative_reference",
+        "correlation"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "translation",
+          "positions": [
+            1
+          ]
+        },
+        {
+          "kind": "clause_map",
+          "count": 3
+        },
+        {
+          "kind": "finite_subjects",
+          "count": 3
+        },
+        {
+          "kind": "token_roles",
+          "targets": [
+            "ðe",
+            "ðā#1",
+            "ðā#2",
+            "ðā#3"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-A12",
+      "key_id": "KEY-NEW-U13-A12",
+      "origin": "new_teaching_material",
+      "mode": "analysis",
+      "prompt": "A learner says: “Every main clause has the finite verb as its second word, and every dependent clause puts it last.” Explain two problems with this statement, referring to the chapter’s checked examples. Then explain why Cook 25.7 can nevertheless require a final verb as a particular exercise target.",
+      "target_specification": "Constituents differ from words; tendencies and source-specific controls differ from universal grammatical rules.",
+      "input_texts": [],
+      "feature_roles": [
+        "order_limits"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "explanation",
+          "positions": [
+            "constituents versus words",
+            "attested variation",
+            "specific Cook target"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-C01",
+      "key_id": "KEY-NEW-U13-C01",
+      "origin": "new_teaching_material",
+      "mode": "production_translation",
+      "prompt": "Translate “The brothers heard the song” twice: first with the subject phrase first, then with the object phrase first. Keep the same participants.",
+      "target_specification": "Controlled alternatives use explicit fronting without changing case roles.",
+      "input_texts": [],
+      "feature_roles": [
+        "fronting"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "old_english_sentence",
+          "positions": [
+            "subject initial",
+            "object initial"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-C02",
+      "key_id": "KEY-NEW-U13-C02",
+      "origin": "new_teaching_material",
+      "mode": "production_translation",
+      "prompt": "Translate: Then the bishop greeted the brothers. Begin with ðā and place the finite verb before the nominal subject.",
+      "target_specification": "A stated main-clause target, not the only possible order.",
+      "input_texts": [],
+      "feature_roles": [
+        "fronting"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "old_english_sentence",
+          "count": 1
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-C03",
+      "key_id": "KEY-NEW-U13-C03",
+      "origin": "new_teaching_material",
+      "mode": "production_translation",
+      "prompt": "Translate: When the brothers came, the bishop sang. Use a ðā temporal clause and a main-clause correlative ðā; use a late verb in the dependent clause.",
+      "target_specification": "Productive temporal correlation and clause grouping.",
+      "input_texts": [],
+      "feature_roles": [
+        "correlation"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "old_english_sentence",
+          "count": 1
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-C04",
+      "key_id": "KEY-NEW-U13-C04",
+      "origin": "new_teaching_material",
+      "mode": "production_translation",
+      "prompt": "Translate: The brothers whom the bishop greeted went to the church. Use invariant ðe and keep the relative beside its antecedent.",
+      "target_specification": "Relative object with nominative plural antecedent and plural main-clause agreement.",
+      "input_texts": [],
+      "feature_roles": [
+        "relative_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "old_english_sentence",
+          "count": 1
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-C05",
+      "key_id": "KEY-NEW-U13-C05",
+      "origin": "new_teaching_material",
+      "mode": "production_translation",
+      "prompt": "Translate as two sentences: The bishop greeted the monk. The monk then went to the church. Repeat the second subject as a noun phrase so that the reference is explicit.",
+      "target_specification": "Choose an explicit noun when an unqualified pronoun could refer to either man.",
+      "input_texts": [],
+      "feature_roles": [
+        "explicit_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "old_english_sentences",
+          "count": 2
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-C06",
+      "key_id": "KEY-NEW-U13-C06",
+      "origin": "new_teaching_material",
+      "mode": "production_translation",
+      "prompt": "The monk addresses several brothers. Translate: The monk said, “I want to speak with you.” Preserve the person and number appropriate to direct speech.",
+      "target_specification": "Speaker and addressee reference in quotation.",
+      "input_texts": [],
+      "feature_roles": [
+        "quoted_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "old_english_sentence_with_quote",
+          "count": 1
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-C07",
+      "key_id": "KEY-NEW-U13-C07",
+      "origin": "new_teaching_material",
+      "mode": "production_translation",
+      "prompt": "Translate: The monk saw the bishop and greeted him. Express the subject once; both actions have that subject.",
+      "target_specification": "Continuing subject and accusative personal reference.",
+      "input_texts": [],
+      "feature_roles": [
+        "coordination",
+        "reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "old_english_sentence",
+          "count": 1
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-C08",
+      "key_id": "KEY-NEW-U13-C08",
+      "origin": "new_teaching_material",
+      "mode": "production_translation",
+      "prompt": "Translate: When the bishop whom the monk greeted came, the brothers sang. Use ðe, temporal ðā and a correlative main-clause ðā. Mark the three clauses after writing the sentence.",
+      "target_specification": "Controlled long-sentence composition reuses familiar forms and explicitly taught clause roles.",
+      "input_texts": [],
+      "feature_roles": [
+        "long_sentence",
+        "relative_reference",
+        "correlation"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "old_english_sentence",
+          "count": 1
+        },
+        {
+          "kind": "clause_map",
+          "count": 3
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-R01",
+      "key_id": "KEY-NEW-U13-R01",
+      "origin": "new_teaching_material",
+      "mode": "reading_translation",
+      "prompt": "Translate the complete new account, The bishop and the monk. Preserve the inquiry, command and final speech.",
+      "target_specification": "Connected independent interpretation of the newly taught ordinary vocabulary and cumulative syntax.",
+      "input_texts": [],
+      "feature_roles": [
+        "new_reading"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "whole_reading_translation",
+          "span_id": "NEW-U13-READING"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-R02",
+      "key_id": "KEY-NEW-U13-R02",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "Identify the referents of hē after ēode, hine in the monk’s question, hīe after geseah, and Ic and ēow in the bishop’s final speech. Explain why hine need not refer to a man.",
+      "target_specification": "Sustained reference tracking across narration, inanimate gender and quotation.",
+      "input_texts": [],
+      "feature_roles": [
+        "new_reading",
+        "reference",
+        "quoted_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "reference",
+          "targets": [
+            "hē after ēode",
+            "hine in question",
+            "hīe after geseah",
+            "Ic in final speech",
+            "ēow in final speech"
+          ]
+        },
+        {
+          "kind": "explanation",
+          "topic": "masculine sang"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-R03",
+      "key_id": "KEY-NEW-U13-R03",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "Find the temporal clause and its main clause, the relative clause, and a coordinated finite verb with an unexpressed repeated subject. Give each finite verb and recover each subject.",
+      "target_specification": "Clause map of a complete narrative, including a real repeated-subject omission.",
+      "input_texts": [],
+      "feature_roles": [
+        "new_reading",
+        "clause_roles",
+        "coordination"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "clause_identification",
+          "positions": [
+            "temporal",
+            "associated main",
+            "relative",
+            "coordinated omission"
+          ]
+        },
+        {
+          "kind": "finite_subject_map",
+          "count": 4
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-R04",
+      "key_id": "KEY-NEW-U13-R04",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "Give the narrative order of hearing the song, the monk’s inquiry, the bishop’s command, the monk’s return and the bishop’s final speech. Who is present at the end, and which words establish this?",
+      "target_specification": "Construct a connected event and participant map without adding an unreported answer to the monk’s question.",
+      "input_texts": [],
+      "feature_roles": [
+        "new_reading",
+        "reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "event_sequence",
+          "count": 5
+        },
+        {
+          "kind": "participants_at_end"
+        },
+        {
+          "kind": "evidence_quote"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-S01",
+      "key_id": "KEY-NEW-U13-S01",
+      "origin": "new_teaching_material",
+      "mode": "reading_translation",
+      "prompt": "Translate the complete music-and-summons extract from The Passing of Chad. Use all printed local helps and original notes.",
+      "target_specification": "Connected checked source reading; local support remains visible.",
+      "input_texts": [],
+      "feature_roles": [
+        "source_reading"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "whole_reading_translation",
+          "span_id": "FB-VII-CHAD-MUSIC-SUMMONS"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-S02",
+      "key_id": "KEY-NEW-U13-S02",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "Divide the opening sentence through of heofonum oð eorðan āstīgan into its major clauses. Identify the subjects of dyde, ēodon, dydon, wæs, gehīerde and the parenthetical sægde; distinguish the first two occurrences of ðā and the main-clause ðā before gehīerde.",
+      "target_specification": "Supported long-sentence analysis with changing subjects, a parenthesis and temporal correlation.",
+      "input_texts": [],
+      "feature_roles": [
+        "source_reading",
+        "long_sentence"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "clause_map"
+        },
+        {
+          "kind": "finite_subjects",
+          "targets": [
+            "dyde",
+            "ēodon",
+            "dydon",
+            "wæs",
+            "gehīerde",
+            "sægde"
+          ]
+        },
+        {
+          "kind": "token_roles",
+          "targets": [
+            "ðā#1",
+            "ðā#2",
+            "ðā before gehīerde"
+          ]
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-S03",
+      "key_id": "KEY-NEW-U13-S03",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "Follow the sound through the account. Identify what hē refers to in hē becōm and in ðe hē ǣr cōm; describe its path using the printed vocabulary help.",
+      "target_specification": "Masculine sound reference must be distinguished from human participants.",
+      "input_texts": [],
+      "feature_roles": [
+        "source_reading",
+        "reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "reference",
+          "targets": [
+            "hē becōm",
+            "ðe hē ǣr cōm"
+          ]
+        },
+        {
+          "kind": "path_description"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-S04",
+      "key_id": "KEY-NEW-U13-S04",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "Identify Owini’s actions and Chad’s actions from the arrival of the sound until the command to fetch the brothers. Where does se bisceop make a reference explicit?",
+      "target_specification": "Track a subject shift supported by the appositional noun.",
+      "input_texts": [],
+      "feature_roles": [
+        "source_reading",
+        "reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "actor_event_map",
+          "actors": [
+            "Owini",
+            "Chad"
+          ]
+        },
+        {
+          "kind": "reference_explanation",
+          "target": "hē, se bisceop"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-S05",
+      "key_id": "KEY-NEW-U13-S05",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "In ðe se bisceop in wæs, give the antecedent and explain the role of in using the local help. Translate the complete noun phrase and relative clause.",
+      "target_specification": "Recognize exact supported preposition stranding without requiring unaided production.",
+      "input_texts": [],
+      "feature_roles": [
+        "source_reading",
+        "relative_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "relative_analysis",
+          "fields": [
+            "antecedent",
+            "preposition relation"
+          ]
+        },
+        {
+          "kind": "phrase_translation"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-S06",
+      "key_id": "KEY-NEW-U13-S06",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "In Ðā stefne and ðone sang hē cwæð ðæt hē ǣrest gehīerde, identify the two fronted objects and the verb that governs them. Use Cook’s note 8 and the local help. Show the reporting clause and its content clause without assuming that the fronted objects belong to cwæð.",
+      "target_specification": "Exact source fronting across a clause boundary remains a supported recognition construction.",
+      "input_texts": [],
+      "feature_roles": [
+        "source_reading",
+        "long_sentence"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "objects",
+          "count": 2
+        },
+        {
+          "kind": "governing_verb"
+        },
+        {
+          "kind": "clause_map",
+          "positions": [
+            "reporting",
+            "content"
+          ]
+        },
+        {
+          "kind": "explanation",
+          "topic": "source note 8"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-S07",
+      "key_id": "KEY-NEW-U13-S07",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "In Chad’s final speech, identify the speaker, the addressee, and the referents of ūre, mē and ðū. Which brothers are to come, and is Owini included? Cite the wording and the original note distinguishing the churches.",
+      "target_specification": "Quoted reference and the closing summons complete the narrative arc.",
+      "input_texts": [],
+      "feature_roles": [
+        "source_reading",
+        "quoted_reference"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "speaker_addressee"
+        },
+        {
+          "kind": "reference",
+          "targets": [
+            "ūre",
+            "mē",
+            "ðū"
+          ]
+        },
+        {
+          "kind": "summons_scope"
+        },
+        {
+          "kind": "evidence_quote"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    },
+    {
+      "task_id": "NEW-U13-S08",
+      "key_id": "KEY-NEW-U13-S08",
+      "origin": "new_teaching_material",
+      "mode": "reading_analysis",
+      "prompt": "Choose one main clause and one dependent clause in the extract. Identify their finite verbs, subjects and first constituents. Explain how their actual order relates to the chapter’s tendencies; do not rewrite the source into a compulsory pattern.",
+      "target_specification": "Evidence-based description of attested ordering; the learner may choose any defensible pair.",
+      "input_texts": [],
+      "feature_roles": [
+        "source_reading",
+        "order_limits"
+      ],
+      "requested_outputs": [
+        {
+          "kind": "selected_clauses",
+          "count": 2
+        },
+        {
+          "kind": "clause_roles",
+          "per_clause": [
+            "finite verb",
+            "subject",
+            "first constituent"
+          ]
+        },
+        {
+          "kind": "order_explanation"
+        }
+      ],
+      "local_support": [],
+      "dependency_status": "pending_audit"
+    }
+  ]
+}
