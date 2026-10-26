@@ -1,6 +1,10 @@
 # Status
 
-Updated 26 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–13 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 13 exports and registers are saved at **`85b6911`**. No Unit 14 work is assigned.
+Updated 26 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–13 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 13 exports and registers are saved at **`85b6911`**. The user has requested Unit 14; its source, grammar and curriculum audits are in progress under `oec-u14`.
+
+## Unit 14 in progress
+
+The coordinator saved the actual thirteen-unit baseline at `c2cb7d6` before new teaching: 758 lemmas, 9,308 forms, 918 senses and 730 features. The [prior-state record](sources/audits/unit14-coordinator/prior-state.json) preserves hashes of 1,960 earlier files including both registers, plus 134 archived files. Parallel workers own `sources/audits/unit14-source/`, `sources/audits/unit14-grammar/` and `curriculum/proposals/unit14/` exclusively. The coordinator alone updates Beads, the contract and shared registers. Unit 14 covers word formation and lexical families, all 21 Cook VIII.26–27 prompts and an audited connected passage from *The Dangers of Greatness*. Reconciliation and a local contract checkpoint must precede lesson prose. Unit 15 is unassigned.
 
 ## Completed Unit 13
 

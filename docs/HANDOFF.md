@@ -1,6 +1,10 @@
 # Handoff to the next session
 
-The requested Unit 13 is complete. **Units 1–13** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete exports and reviewed registers are saved at **`85b6911`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 13. Unit 14 has not been drafted.
+The user has requested **Unit 14**. Its independent source, grammar and curriculum audits are in progress under `oec-u14`; no Unit 14 lesson has been drafted. The prior course is saved at `c2cb7d6`: **Units 1–13** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 13 exports and reviewed registers are saved at **`85b6911`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 13.
+
+## Active Unit 14 handoff
+
+The immutable ignored `build/unit14-prior-baseline.json` captures all thirteen actual contracts and both registers at `c2cb7d6`. Its retained [prior-state record](../sources/audits/unit14-coordinator/prior-state.json) records the checkpoint and hashes of 1,960 earlier files including registers and 134 archived files. Do not overwrite this baseline or rerun older integration helpers. The source worker owns `sources/audits/unit14-source/`; the linguistic worker owns `sources/audits/unit14-grammar/`; the curriculum worker owns `curriculum/proposals/unit14/`. Root alone changes Beads and shared files. Reconcile their evidence into the Unit 14 contract and checkpoint it before prose. Complete Unit 14 through blind solving, separate paradigm review, full exports, every-page inspection and preserved register integration. Do not draft Unit 15.
 
 ## Unit 13 evidence and review
 
