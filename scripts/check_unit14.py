@@ -381,7 +381,16 @@ def main():
                 tail = student[hits[0].end():]
                 next_item = re.search(r'<!--\s*item:\s*',tail)
                 task_body = tail[:next_item.start()] if next_item else tail
-                positions = [task_body.replace('**','').find(s['text']) for s in t.get('input_sequences',[])]
+                # Inputs are printed after the exact prompt. A prompt can itself
+                # mention the same forms in a different explanatory order.
+                input_body = task_body.strip().partition('\n\n')[2].replace('**','')
+                positions = []
+                cursor = 0
+                for sequence in t.get('input_sequences',[]):
+                    position = input_body.find(sequence['text'], cursor)
+                    positions.append(position)
+                    if position >= 0:
+                        cursor = position + len(sequence['text'])
                 require(all(p >= 0 for p in positions) and positions == sorted(positions),
                         tid+': actual ordered analysis inputs missing or changed')
             require(len(re.findall(r'<!--\s*(?:key:\s*)?'+re.escape(t['key_id'])+r'\s*-->',key)) == 1,tid+': key marker missing/repeated')
