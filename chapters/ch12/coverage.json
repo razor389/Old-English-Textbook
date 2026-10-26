@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch12",
   "title": "Tense, sequence, and voice",
-  "status": "text_accepted_exports_pending",
+  "status": "reviewed_complete",
   "contract_date": "2026-10-25",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -174525,7 +174525,7 @@
     "finish": "oec-u12-finish",
     "review_fresh": "oec-u12-review-fresh"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_text_and_exports",
   "amendments": [
     {
       "amendment_id": "U12-AMEND-01",
@@ -174636,9 +174636,18 @@
     "design_validation": "curriculum/proposals/unit12/validation.json"
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "date": "2026-10-25",
+    "register_integration": "chapters/ch12/register-integration.json",
+    "presentation_review": "typesetting/ch12/page-review.json",
+    "learner_pdf": "typesetting/ch12/chapter-12.pdf",
+    "key_pdf": "typesetting/ch12/answer-key.pdf",
+    "all_assigned_tasks_reviewed": 76,
+    "all_cook_items_retained": 38,
+    "next_unit_policy": "Unit 13 remains undrafted; begin only when requested.",
+    "checkpoint_note": "Completion files and Beads export are saved locally; final handoff records the resulting revision."
   },
   "form_id_aliases": {},
   "form_identity_reconciliation": [
@@ -177640,5 +177649,33 @@
     },
     "material_open_findings": 0,
     "scope_limit": "Accepts the identified text and substantive contract. Complete exports, every-page inspection and register integration remain separate gates."
+  },
+  "accepted_text_checkpoint": "61f4ea4",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch12/page-review.json",
+    "record_sha256": "91aad29a4312b3d0c1397950b16d6d93a2b0f548a13b4565e99713ac6e61369a",
+    "page_totals": {
+      "learner": 47,
+      "key": 30,
+      "total": 77
+    },
+    "complete_content_parity": "typesetting/ch12/content-parity.json",
+    "every_page_inspected_by_non_author": true,
+    "unresolved_findings": [],
+    "documents": [
+      {
+        "kind": "learner",
+        "path": "typesetting/ch12/chapter-12.pdf",
+        "sha256": "15d22f470d1929f22d05e82d65f9dc65b6a890a371d40aca9e060e3918addfc5",
+        "pages": 47
+      },
+      {
+        "kind": "key",
+        "path": "typesetting/ch12/answer-key.pdf",
+        "sha256": "b271213a5f2fe14abe8effbbcd11a37d13f3d11dfd67921a09a85a7ecf1fa6c1",
+        "pages": 30
+      }
+    ]
   }
 }
