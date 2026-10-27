@@ -1468,6 +1468,357 @@
         "Sealed packets, prior chapter histories and original translation witnesses"
       ],
       "review_status": "requires_independent_verification"
+    },
+    {
+      "amendment_id": "U16-A04",
+      "date": "2026-10-27",
+      "stage": "independent_review",
+      "original_contract_checkpoint": "543e214",
+      "complete_drafts_checkpoint": "9b75319",
+      "blind_solutions_checkpoint": "1bf0e8e",
+      "coordinator": "root",
+      "reported_by": "unit16_paradigms",
+      "reason": "The displayed forms were correct, but two author-written generalizations omitted their exceptions. Make wēn accusative singular and nearu weak genitive plural explicit; clarify the existing wēn source locator and rule without changing any form or teaching boundary.",
+      "primary_evidence": [
+        {
+          "evidence_id": "U16-FB-P321",
+          "locator": "Cook vocabulary p.321, wēn → §51.1"
+        },
+        {
+          "evidence_id": "U16-FB-P35",
+          "locator": "Cook p.35 §51.1, omitted accusative -e"
+        },
+        {
+          "locator": "Wright p.215 §§435–436, nearo- before consonantal endings"
+        },
+        {
+          "locator": "Cook pp.40–41 §60, weak genitive plural -ra"
+        }
+      ],
+      "primary_inspection_record": "chapters/ch16/reviews/paradigms.json",
+      "canonical_changes": [
+        {
+          "path": "/paradigms/19/model",
+          "before": "Cook51.b /51.5; prior strong feminine",
+          "after": "Cook51.b with the §51.1 accusative exception; vocabulary p.321; prior strong feminine"
+        },
+        {
+          "path": "/lexical_inventory/19/declension_model",
+          "before": "Cook51.b /51.5; prior strong feminine",
+          "after": "Cook51.b with the §51.1 accusative exception; vocabulary p.321; prior strong feminine"
+        },
+        {
+          "path": "/display_plan/matrices/19/rules",
+          "before": [],
+          "after": [
+            "Selected singular: nominative/accusative wēn; genitive/dative wēne. The accusative retains no -e, as allowed by Cook §51.1 and specifically identified by the vocabulary entry on p.321."
+          ]
+        },
+        {
+          "path": "/paradigms/19/rules",
+          "before": [],
+          "after": [
+            "Selected singular: nominative/accusative wēn; genitive/dative wēne. The accusative retains no -e, as allowed by Cook §51.1 and specifically identified by the vocabulary entry on p.321."
+          ]
+        },
+        {
+          "path": "/teaching_records/38/rules",
+          "before": [],
+          "after": [
+            "Selected singular: nominative/accusative wēn; genitive/dative wēne. The accusative retains no -e, as allowed by Cook §51.1 and specifically identified by the vocabulary entry on p.321."
+          ]
+        }
+      ],
+      "learner_prose_repairs": [
+        {
+          "before": "The selected nouns have no ending in the nominative singular. Their other singular cases have -e; the plural, where assigned, has nominative/accusative -a, genitive -a and dative -um. Smyltnes doubles its final s before an ending.",
+          "after": "The selected nouns have no ending in the nominative singular. Their genitive and dative singular have -e. The accusative singular also has -e, except wēn, whose accusative is wēn. The plural, where assigned, has nominative/accusative -a, genitive -a and dative -um. Smyltnes doubles its final s before an ending."
+        },
+        {
+          "before": "Learn the alternating stems together: nearu in the selected nominative singular forms; nearw- before vowel endings; nearo- before consonantal -ne, -re and -ra. Thus the case ending can select a different visible stem. The weak forms use nearw-.",
+          "after": "Learn the alternating stems together: nearu in the strong nominative singular, neuter accusative singular and neuter nominative/accusative plural; nearw- before vowel endings; nearo- before consonantal -ne, -re and -ra. The weak forms use nearw- except for genitive plural nearora."
+        }
+      ],
+      "unchanged": [
+        "All literal table cells, form/sense/feature identities and productive boundaries",
+        "Every actual task, output, model, source passage and note",
+        "The initial blind witness and all author/source witnesses",
+        "Sealed source/design packets and prior per-chapter records"
+      ],
+      "review_status": "requires_independent_verification"
+    },
+    {
+      "amendment_id": "U16-A05",
+      "date": "2026-10-27",
+      "stage": "independent_review",
+      "coordinator": "root",
+      "reported_by": "unit16_paradigms",
+      "finding_id": "U16-PAR-03",
+      "original_contract_checkpoint": "543e214",
+      "complete_drafts_checkpoint": "9b75319",
+      "blind_solutions_checkpoint": "1bf0e8e",
+      "reason": "Preserve the original and A03 records; use current clause-specific contextual descriptions for37 independently identified token coordinates.",
+      "previous_correction_record": {
+        "path": "chapters/ch16/model-binding-amendments.json",
+        "sha256": "8db94cc794d3c640e68bd9ab8c5069d395f0cfbaeac0e48e343fddca813112da",
+        "sha256_normalized_lf": "8db94cc794d3c640e68bd9ab8c5069d395f0cfbaeac0e48e343fddca813112da"
+      },
+      "correction_record": {
+        "path": "chapters/ch16/model-binding-review-amendments.json",
+        "sha256": "50e11d9c63906cd905ab1999701fd55da1bca5249318045d8f6da2dac2cb9dc3",
+        "sha256_normalized_lf": "50e11d9c63906cd905ab1999701fd55da1bca5249318045d8f6da2dac2cb9dc3"
+      },
+      "independent_proposal": {
+        "path": "build/u16-paradigms-context-findings.json",
+        "sha256": "cb5cc66025b38f4bc817ceda2c5f17a208b057895d1b93098ec0fd7b81572f88",
+        "sha256_normalized_lf": "cb5cc66025b38f4bc817ceda2c5f17a208b057895d1b93098ec0fd7b81572f88"
+      },
+      "counts": {
+        "all_sequences": 59,
+        "all_tokens": 812,
+        "contextual_coordinate_repairs": 37,
+        "contextual_tasks": 24,
+        "cumulative_override_sequences": 37
+      },
+      "evidence_basis": "Current original learner prompts and model strings, plus independently inspected Cook Exercises pp18–22, Cook p93/p96/p104–106/p167 and BT208; these are contextual parse corrections, not new language or changed answers.",
+      "scope": "Current model token contextual_analysis only. Original analyses and earlier records remain historical; task-specific descriptions now fit their actual governing clauses.",
+      "unchanged": "All text, source prompts, form/sense IDs, assessment roles, original analyses and sealed input packets. Only the indicated contextual_analysis descriptions change relative to A03.",
+      "review_status": "requires_independent_verification"
+    },
+    {
+      "amendment_id": "U16-A06",
+      "date": "2026-10-27",
+      "stage": "independent_review",
+      "coordinator": "root",
+      "reported_by": [
+        "unit16_blind",
+        "unit16_paradigms"
+      ],
+      "original_contract_checkpoint": "543e214",
+      "complete_drafts_checkpoint": "9b75319",
+      "blind_solutions_checkpoint": "1bf0e8e",
+      "reason": "Select previously taught hwæðer for34.6 dependent whether-question; the former gif-if binding did not teach that sense.",
+      "correction_record": {
+        "path": "chapters/ch16/model-binding-final-amendments.json",
+        "sha256": "edf6cb07654905538be4da1e74df822b573e4537d253ec14a140bd3fc2c59ac1",
+        "sha256_normalized_lf": "edf6cb07654905538be4da1e74df822b573e4537d253ec14a140bd3fc2c59ac1"
+      },
+      "previous_correction_record": {
+        "path": "chapters/ch16/model-binding-review-amendments.json",
+        "sha256": "50e11d9c63906cd905ab1999701fd55da1bca5249318045d8f6da2dac2cb9dc3",
+        "sha256_normalized_lf": "50e11d9c63906cd905ab1999701fd55da1bca5249318045d8f6da2dac2cb9dc3"
+      },
+      "counts": {
+        "all_sequences": 59,
+        "all_tokens": 812,
+        "cumulative_override_sequences": 37,
+        "model_words_replaced_here": 1,
+        "linked_input_context_fields": 15
+      },
+      "prior_teaching": {
+        "chapter": "ch09",
+        "learner_location": "chapters/ch09/student.md:73",
+        "form_id": "hwaether-conjunction-invariant",
+        "sense_id": "hwaether-whether",
+        "feature_id": "u09-dependent-whether",
+        "evidence_refs": [
+          "U09-G-BT-SECGAN",
+          "U09-G-F-REPORT",
+          "U09-G-F-HWAETHER"
+        ]
+      },
+      "input_context_note": "Mirror the37 approved A05 contextual descriptions into the exact linked supplied-input tokens where applicable; retain every original text, ID and assessment role.",
+      "linked_input_context_corrections": [
+        {
+          "task_id": "EX-XII-XIII-32-02",
+          "sequence_id": "EX-XII-XIII-32-02-U16-CSUP-01-INPUT-02",
+          "token_index": 1,
+          "source_model_token_index": 13,
+          "field": "context",
+          "before": "exact supplied uppan ðǣre sǣ32.2; dative under166",
+          "after": "exact supplied uppan ðǣm sǣ; preposition governing dative masculine singular in32.2"
+        },
+        {
+          "task_id": "EX-XII-XIII-33-01",
+          "sequence_id": "EX-XII-XIII-33-01-U16-HELP-GANGAN-PARTICIPLE-INPUT-01",
+          "token_index": 3,
+          "source_model_token_index": 4,
+          "field": "source_analysis",
+          "before": "dative neuter singular after tō",
+          "after": "dative neuter singular governed by intō in the supplied participial phrase"
+        },
+        {
+          "task_id": "EX-XII-XIII-33-02",
+          "sequence_id": "EX-XII-XIII-33-02-U16-CSUP-04-INPUT-02",
+          "token_index": 1,
+          "source_model_token_index": 13,
+          "field": "function",
+          "before": "preposition introducing speech addressee",
+          "after": "preposition introducing the destination of fleeing; governs dative Egypta lande"
+        },
+        {
+          "task_id": "EX-XII-XIII-33-06",
+          "sequence_id": "EX-XII-XIII-33-06-U16-CSUP-05-INPUT-01",
+          "token_index": 2,
+          "source_model_token_index": 5,
+          "field": "function",
+          "before": "except before another prepositional phrase",
+          "after": "except, introducing the supplied genitive phrase dēaðes selfes"
+        },
+        {
+          "task_id": "EX-XII-XIII-34-06",
+          "sequence_id": "EX-XII-XIII-34-06-U16-HELP-LIVING-GOD-INPUT-01",
+          "token_index": 1,
+          "source_model_token_index": 4,
+          "field": "function",
+          "before": "preposition governing accusative person as mediator",
+          "after": "preposition governing the accusative oath standard ðone libbendan God"
+        },
+        {
+          "task_id": "EX-XII-XIII-35-08",
+          "sequence_id": "EX-XII-XIII-35-08-U16-HELP-GATE-WAY-AGREEMENT-INPUT-01",
+          "token_index": 1,
+          "source_model_token_index": 2,
+          "field": "function",
+          "before": "direct_question_adverb",
+          "after": "exclamative degree adverb, how narrow"
+        },
+        {
+          "task_id": "EX-XII-XIII-35-08",
+          "sequence_id": "EX-XII-XIII-35-08-U16-HELP-GATE-WAY-AGREEMENT-INPUT-01",
+          "token_index": 9,
+          "source_model_token_index": 10,
+          "field": "source_analysis",
+          "before": "object-relative with antecedent ēstas; supplied clause",
+          "after": "invariant relative particle; subject role in lǣtt, referring to se weg within the supplied singular gate-and-way wording"
+        },
+        {
+          "task_id": "EX-XII-XIII-35-08",
+          "sequence_id": "EX-XII-XIII-35-08-U16-HELP-GATE-WAY-AGREEMENT-INPUT-01",
+          "token_index": 10,
+          "source_model_token_index": 11,
+          "field": "function",
+          "before": "preposition introducing speech addressee",
+          "after": "preposition introducing life as the goal of the way; governs dative līfe"
+        },
+        {
+          "task_id": "EX-XII-XIII-36-02",
+          "sequence_id": "EX-XII-XIII-36-02-U16-CSUP-13-INPUT-01",
+          "token_index": 2,
+          "source_model_token_index": 24,
+          "field": "function",
+          "before": "preposition introducing speech addressee",
+          "after": "preposition introducing the body part for whose care or washing the water is intended; governs dative"
+        },
+        {
+          "task_id": "EX-XII-XIII-36-02",
+          "sequence_id": "EX-XII-XIII-36-02-U16-CSUP-13-INPUT-01",
+          "token_index": 4,
+          "source_model_token_index": 26,
+          "field": "source_analysis",
+          "before": "dative masculine plural after æt",
+          "after": "dative masculine plural governed by tō in the supplied body-care phrase"
+        },
+        {
+          "task_id": "EX-XII-XIII-36-06",
+          "sequence_id": "EX-XII-XIII-36-06-U16-HELP-LESS-RELATIVE-INPUT-01",
+          "token_index": 4,
+          "source_model_token_index": 4,
+          "field": "source_analysis",
+          "before": "object-relative with antecedent ēstas; supplied clause",
+          "after": "invariant relative particle with attracted dative ðǣm; the person is recipient of forgiveness within the relative clause"
+        },
+        {
+          "task_id": "EX-XII-XIII-36-07",
+          "sequence_id": "EX-XII-XIII-36-07-U16-HELP-PERMISSION-WIFE-INPUT-01",
+          "token_index": 6,
+          "source_model_token_index": 6,
+          "field": "function",
+          "before": "preposition introducing speech addressee",
+          "after": "preposition introducing the role as wife in supplied tō wīfe; governs dative"
+        },
+        {
+          "task_id": "EX-XII-XIII-36-07",
+          "sequence_id": "EX-XII-XIII-36-07-U16-CSUP-15-INPUT-01",
+          "token_index": 1,
+          "source_model_token_index": 6,
+          "field": "function",
+          "before": "preposition introducing speech addressee",
+          "after": "preposition introducing the role as wife in supplied tō wīfe; governs dative"
+        },
+        {
+          "task_id": "EX-XII-XIII-36-08",
+          "sequence_id": "EX-XII-XIII-36-08-U16-HELP-PROMISE-FREECHOICE-INPUT-01",
+          "token_index": 10,
+          "source_model_token_index": 10,
+          "field": "function",
+          "before": "proportional comparative correlative",
+          "after": "first member of free-choice swā hwæs swā, whatever requested"
+        },
+        {
+          "task_id": "EX-XII-XIII-36-08",
+          "sequence_id": "EX-XII-XIII-36-08-U16-HELP-PROMISE-FREECHOICE-INPUT-01",
+          "token_index": 12,
+          "source_model_token_index": 12,
+          "field": "function",
+          "before": "proportional comparative correlative",
+          "after": "second member of free-choice swā hwæs swā, whatever requested"
+        }
+      ],
+      "unchanged": [
+        "Exact original Cook English and source reading/apparatus",
+        "All task/output counts and paradigm cells",
+        "All new productive/recognition milestones",
+        "Sealed base packet, historical A03/A05 correction records and frozen blind witness"
+      ],
+      "review_status": "requires_independent_verification"
+    },
+    {
+      "amendment_id": "U16-A07",
+      "date": "2026-10-27",
+      "stage": "independent_review",
+      "coordinator": "root",
+      "reported_by": "unit16_paradigms",
+      "finding_id": "U16-PAR-03",
+      "reason": "A supplied scaffold reused by33.3 points to the33.2 model; propagate the approved destination context across that explicit cross-task link as well.",
+      "changes": [
+        {
+          "task_id": "EX-XII-XIII-33-03",
+          "sequence_id": "EX-XII-XIII-33-03-U16-CSUP-04-INPUT-02",
+          "token_index": 1,
+          "field": "function",
+          "before": "preposition introducing speech addressee",
+          "after": "preposition introducing the destination of fleeing; governs dative Egypta lande",
+          "source_model_sequence_id": "EX-XII-XIII-33-02-MODEL",
+          "source_model_token_index": 13
+        }
+      ],
+      "verification": {
+        "all_linked_input_contexts_checked": 16,
+        "remaining_discrepancies": 0
+      },
+      "unchanged": [
+        "Every surface, form/sense ID and role",
+        "All model strings, prompts, tasks, teaching and counts",
+        "Sealed inputs and all previous correction files"
+      ],
+      "review_status": "requires_independent_verification"
     }
-  ]
+  ],
+  "current_verification": {
+    "status": "accepted_by_independent_review",
+    "amendment_ids": [
+      "U16-A01",
+      "U16-A02",
+      "U16-A03",
+      "U16-A04",
+      "U16-A05",
+      "U16-A06",
+      "U16-A07"
+    ],
+    "text_review": "chapters/ch16/review.md",
+    "paradigm_review": "chapters/ch16/reviews/paradigms.json",
+    "accepted_contract_semantic_sha256": "13b5049da3144ad2a1f3b218a1831852cc1230465a4deb08a2129067edef83ac",
+    "history_note": "Each amendment retains its original creation-stage status; this field records the subsequent independent verification."
+  }
 }

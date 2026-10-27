@@ -271,7 +271,7 @@ Use wolcn- before the displayed vowel endings.
 
 ### Strong feminine nouns
 
-The selected nouns have no ending in the nominative singular. Their other singular cases have -e; the plural, where assigned, has nominative/accusative -a, genitive -a and dative -um. Smyltnes doubles its final s before an ending.
+The selected nouns have no ending in the nominative singular. Their genitive and dative singular have -e. The accusative singular also has -e, except wēn, whose accusative is wēn. The plural, where assigned, has nominative/accusative -a, genitive -a and dative -um. Smyltnes doubles its final s before an ending.
 
 <!-- teaching: NEW-U16-VOC-SMYLTNES -->
 
@@ -445,7 +445,7 @@ The selected forms keep the full eorðlic- stem before endings.
 
 **nearu** — narrow.
 
-Learn the alternating stems together: nearu in the selected nominative singular forms; nearw- before vowel endings; nearo- before consonantal -ne, -re and -ra. Thus the case ending can select a different visible stem. The weak forms use nearw-.
+Learn the alternating stems together: nearu in the strong nominative singular, neuter accusative singular and neuter nominative/accusative plural; nearw- before vowel endings; nearo- before consonantal -ne, -re and -ra. The weak forms use nearw- except for genitive plural nearora.
 
 <!-- teaching: NEW-U16-ADJ-NEARU -->
 

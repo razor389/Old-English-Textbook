@@ -1,6 +1,6 @@
 {
   "chapter_id": "ch16",
-  "status": "complete_drafts_pending_independent_review",
+  "status": "accepted_independent_text_review",
   "coordinator": "root",
   "date": "2026-10-27",
   "contract_checkpoint": "543e214",
@@ -8,7 +8,7 @@
     "student": "unit16_design",
     "answer_key": "unit16_grammar"
   },
-  "independence_limit": "Root reconciled source and design evidence and has read both masters and author witnesses. Root is not the fresh blind reviewer.",
+  "independence_limit": "Root and the source, grammar and design authors do not claim fresh blind independence. A fresh non-author froze every solution at 1bf0e8e before explicit comparison access; a separate fresh non-author verified the paradigms.",
   "draft_artifact_identities": [
     {
       "path": "chapters/ch16/student.md",
@@ -68,11 +68,31 @@
     "Fresh solving, primary-image paradigm review, complete LuaLaTeX exports, every-page inspection and register integration remain mandatory."
   ],
   "remaining_gates": [
-    "Fresh non-author solves every actual learner output; root reads and commits the unchanged witness before explicit key access.",
-    "Separate fresh non-author checks every paradigm, scope and display route against actual primary images.",
-    "Resolve material review findings; bind acceptance to final masters and substantive contract.",
-    "Produce complete LuaLaTeX exports, full parity and every-page non-author visual inspection.",
+    "Produce complete LuaLaTeX exports, full parity and every-page non-author inspection.",
     "Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally."
   ],
-  "scope_limit": "Complete-draft coordinator readback only; no claim of independent acceptance or completion."
+  "scope_limit": "Independent text and paradigm review accepted. Export inspection and register integration remain separate gates. Earlier draft observations and identities are retained as historical records.",
+  "independent_acceptance": {
+    "record": "chapters/ch16/review.md",
+    "ledger": "chapters/ch16/review-ledger.json",
+    "paradigms": "chapters/ch16/reviews/paradigms.json",
+    "material_open_findings": 0
+  },
+  "accepted_artifact_identities": [
+    {
+      "path": "chapters/ch16/student.md",
+      "raw_sha256": "04f539bcefe0ebb231e537d4495d1bd459dbee62dda3f0514f087a9a7eeea49d",
+      "normalized_lf_sha256": "04f539bcefe0ebb231e537d4495d1bd459dbee62dda3f0514f087a9a7eeea49d"
+    },
+    {
+      "path": "chapters/ch16/answer-key.md",
+      "raw_sha256": "083eea687565ad2f7d6323b6ee5d86ee7d58bc722284ce995bff11c8a3169eb4",
+      "normalized_lf_sha256": "9f7c6115c1e6ea300e48116239a640d1ae97f14efd66fc81d281ed7a937d7c7e"
+    },
+    {
+      "path": "chapters/ch16/independent-solutions.md",
+      "raw_sha256": "1e58c84ea387a3e4b3e1a4a4620866ffe735067d97aa80b57480d43f0335e7a6",
+      "normalized_lf_sha256": "1e58c84ea387a3e4b3e1a4a4620866ffe735067d97aa80b57480d43f0335e7a6"
+    }
+  ]
 }

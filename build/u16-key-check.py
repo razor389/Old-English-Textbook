@@ -5,6 +5,9 @@ R=Path(__file__).resolve().parents[1]
 def read(p):return json.loads((R/p).read_text(encoding='utf8'))
 C=read('chapters/ch16/coverage.json');K=(R/'chapters/ch16/answer-key.md').read_text(encoding='utf8')
 tasks=C['assigned_items'];models={x['source_item_id']:x['model']for x in read('sources/audits/unit16-grammar/author-only-cook-models.json')['items']}
+if C.get('selected_model_corrections'):
+    for seq in read(C['selected_model_corrections']['path'])['corrected_sequences']:
+        models[seq['owner_id']]=seq['text']
 errors=[];keys=re.findall(r'<!--\s*key:\s*(\S+)\s*-->',K);outputs=re.findall(r'<!--\s*output:\s*(\S+)\s*-->',K)
 expected_keys=[t['key_item_id']for t in tasks];expected_outputs=[x['output_position_id']for t in tasks for x in t['output_positions']]
 if len(keys)!=len(expected_keys) or set(keys)!=set(expected_keys):errors.append('Key coverage differs from canonical tasks')

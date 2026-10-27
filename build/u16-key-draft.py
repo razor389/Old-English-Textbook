@@ -6,6 +6,10 @@ def read(p):return json.loads((R/p).read_text(encoding='utf8'))
 C=read('chapters/ch16/coverage.json');tasks={x['task_id']:x for x in C['assigned_items']}
 FM={x['task_id']:x for x in read('curriculum/proposals/unit16/author-only-form-models.json')['tasks']}
 CM={x['source_item_id']:x for x in read('sources/audits/unit16-grammar/author-only-cook-models.json')['items']}
+# Declared post-contract corrections leave the sealed original model packet intact.
+if C.get('selected_model_corrections'):
+    for seq in read(C['selected_model_corrections']['path'])['corrected_sequences']:
+        CM[seq['owner_id']]['model']=seq['text']
 COOK=runpy.run_path(str(R/'build/u16-key-cook-notes.py'))['COOK']
 parts=[]
 def put(s=''):parts.append(s)

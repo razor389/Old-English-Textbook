@@ -1,0 +1,344 @@
+{
+  "reviewer": "unit16_paradigms",
+  "finding_id": "U16-PAR-03",
+  "status": "open",
+  "severity": "material_metadata",
+  "scope": "Current contextual_analysis only. Preserve raw historical analysis, original sealed sequences, every model text, token surface, sense/form ID, and assessment role.",
+  "evidence": "Current original learner prompts and model strings, plus independently inspected Cook Exercises pp18–22, Cook p93/p96/p104–106/p167 and BT208; these are contextual parse corrections, not new language or changed answers.",
+  "repair_count": 37,
+  "repairs": [
+    {
+      "task_id": "EX-XII-XIII-32-02",
+      "sequence_id": "EX-XII-XIII-32-02-MODEL",
+      "token_index": 13,
+      "expected_surface": "uppan",
+      "contextual_analysis_key": "context",
+      "proposed_value": "exact supplied uppan ðǣm sǣ; preposition governing dative masculine singular in32.2",
+      "reason": "The current supplied phrase has ðǣm, not historical feminine ðǣre."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-07",
+      "sequence_id": "EX-XII-XIII-32-07-MODEL",
+      "token_index": 11,
+      "expected_surface": "ðæt",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "introduces the finite result clause of causative dōn; git is the nominative actor and bēoð agrees with it",
+      "reason": "This result construction is taught for production; it is not labelled a supplied generic content clause."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-07",
+      "sequence_id": "EX-XII-XIII-32-07-MODEL",
+      "token_index": 18,
+      "expected_surface": "sōna",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "independent temporal adverb meaning immediately, modifying the leaving action",
+      "reason": "Here it is not part of the supplied subordinator sōna swā."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-09",
+      "sequence_id": "EX-XII-XIII-32-09-MODEL",
+      "token_index": 26,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle; subject role in forwearð, referring to ðæt, the one sheep",
+      "reason": "Historical ēstas and object-relative labels are inapplicable."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-10",
+      "sequence_id": "EX-XII-XIII-32-10-MODEL",
+      "token_index": 13,
+      "expected_surface": "ðæt",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "introduces the asserted finite content after sęcge; this occurrence is independently composed",
+      "reason": "This is the second ðæt, outside the supplied gif hit gelimpð clause."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-01",
+      "sequence_id": "EX-XII-XIII-33-01-MODEL",
+      "token_index": 4,
+      "expected_surface": "hūse",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "dative neuter singular governed by intō in the supplied participial phrase",
+      "reason": "Current governor is intō, not tō."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-02",
+      "sequence_id": "EX-XII-XIII-33-02-MODEL",
+      "token_index": 13,
+      "expected_surface": "tō",
+      "contextual_analysis_key": "function",
+      "proposed_value": "preposition introducing the destination of fleeing; governs dative Egypta lande",
+      "reason": "No speech addressee occurs."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-02",
+      "sequence_id": "EX-XII-XIII-33-02-MODEL",
+      "token_index": 19,
+      "expected_surface": "oð",
+      "contextual_analysis_key": "function",
+      "proposed_value": "first component of the temporal subordinator oð ðæt, until",
+      "reason": "Current complement is the finite until clause."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-02",
+      "sequence_id": "EX-XII-XIII-33-02-MODEL",
+      "token_index": 20,
+      "expected_surface": "ðæt",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "second component of temporal oð ðæt introducing ic ðē sęcge",
+      "reason": "Current clause is until, not an independently supplied content clause."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-03",
+      "sequence_id": "EX-XII-XIII-33-03-MODEL",
+      "token_index": 18,
+      "expected_surface": "ðæt",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "introduces the purpose clause that the utterance be fulfilled",
+      "reason": "The purpose sense and subjunctive wǣre distinguish it from an asserted content clause."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-06",
+      "sequence_id": "EX-XII-XIII-33-06-MODEL",
+      "token_index": 5,
+      "expected_surface": "būtan",
+      "contextual_analysis_key": "function",
+      "proposed_value": "except, introducing the supplied genitive phrase dēaðes selfes",
+      "reason": "It is followed by a noun phrase, not another prepositional phrase."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-08",
+      "sequence_id": "EX-XII-XIII-33-08-MODEL",
+      "token_index": 3,
+      "expected_surface": "ðæt",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "introduces the finite content of wēn is; the expectation construction is taught for production",
+      "reason": "This prompt is not solved by an item-local supplied sentence."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-01",
+      "sequence_id": "EX-XII-XIII-34-01-MODEL",
+      "token_index": 1,
+      "expected_surface": "Swā",
+      "contextual_analysis_key": "function",
+      "proposed_value": "first member of free-choice swā hwā swā, whoever",
+      "reason": "Not a proportional comparison."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-01",
+      "sequence_id": "EX-XII-XIII-34-01-MODEL",
+      "token_index": 3,
+      "expected_surface": "swā",
+      "contextual_analysis_key": "function",
+      "proposed_value": "second member of free-choice swā hwā swā, whoever",
+      "reason": "Not a proportional comparison."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-02",
+      "sequence_id": "EX-XII-XIII-34-02-MODEL",
+      "token_index": 6,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle; subject role in fēde, referring to the indefinite person nānne",
+      "reason": "Nānne has matrix accusative; the relative actor feeds. No ēstas antecedent."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-05",
+      "sequence_id": "EX-XII-XIII-34-05-MODEL",
+      "token_index": 5,
+      "expected_surface": "beforan",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "preposition governing dative Gode, before God",
+      "reason": "Current complement is Gode, not source him."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-06",
+      "sequence_id": "EX-XII-XIII-34-06-MODEL",
+      "token_index": 4,
+      "expected_surface": "ðurh",
+      "contextual_analysis_key": "function",
+      "proposed_value": "preposition governing the accusative oath standard ðone libbendan God",
+      "reason": "God is the oath standard, not a mediator."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-06",
+      "sequence_id": "EX-XII-XIII-34-06-MODEL",
+      "token_index": 8,
+      "expected_surface": "ðæt",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "introduces the requested finite content after hālsie",
+      "reason": "The request frame is explicitly taught, not an item-local supplied content sentence."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-11",
+      "sequence_id": "EX-XII-XIII-34-11-MODEL",
+      "token_index": 30,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle; subject role in sęnde, referring to sē, the sender",
+      "reason": "Mē is the object sent; no ēstas antecedent."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-12",
+      "sequence_id": "EX-XII-XIII-34-12-MODEL",
+      "token_index": 12,
+      "expected_surface": "ðæt",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "introduces the reported content after sęcge in the hypothetical condition",
+      "reason": "No item-local supplied content clause."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-13",
+      "sequence_id": "EX-XII-XIII-34-13-MODEL",
+      "token_index": 14,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle; subject role in wuldrað, referring to sē, the Father",
+      "reason": "Mē is the object glorified; no ēstas antecedent."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-13",
+      "sequence_id": "EX-XII-XIII-34-13-MODEL",
+      "token_index": 21,
+      "expected_surface": "ðæt",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "introduces the reported content after cweðað",
+      "reason": "No item-local supplied content clause."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-02",
+      "sequence_id": "EX-XII-XIII-35-02-MODEL",
+      "token_index": 1,
+      "expected_surface": "Hwā",
+      "contextual_analysis_key": "function",
+      "proposed_value": "interrogative who, nominative subject of fēng",
+      "reason": "Not indefinite anyone."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-03",
+      "sequence_id": "EX-XII-XIII-35-03-MODEL",
+      "token_index": 4,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle referring to the route ðæs weges in the clause ðū cōme",
+      "reason": "The route is not a direct object and there is no ēstas antecedent."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-07",
+      "sequence_id": "EX-XII-XIII-35-07-MODEL",
+      "token_index": 6,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle with sē; the man is the subject of wæs lǣded and hīerde",
+      "reason": "Not an object-relative with ēstas."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-07",
+      "sequence_id": "EX-XII-XIII-35-07-MODEL",
+      "token_index": 18,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle; object role with sprecan, referring to ðā word",
+      "reason": "Object relation is right but the current antecedent is words, not ēstas."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-08",
+      "sequence_id": "EX-XII-XIII-35-08-MODEL",
+      "token_index": 2,
+      "expected_surface": "hū",
+      "contextual_analysis_key": "function",
+      "proposed_value": "exclamative degree adverb, how narrow",
+      "reason": "The prompt is an exclamation, not an information question."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-08",
+      "sequence_id": "EX-XII-XIII-35-08-MODEL",
+      "token_index": 10,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle; subject role in lǣtt, referring to se weg within the supplied singular gate-and-way wording",
+      "reason": "No ēstas antecedent; keep the bounded supplied agreement."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-08",
+      "sequence_id": "EX-XII-XIII-35-08-MODEL",
+      "token_index": 11,
+      "expected_surface": "tō",
+      "contextual_analysis_key": "function",
+      "proposed_value": "preposition introducing life as the goal of the way; governs dative līfe",
+      "reason": "Not a speech addressee."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-08",
+      "sequence_id": "EX-XII-XIII-35-08-MODEL",
+      "token_index": 18,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle; subject role in findað, referring to fēawe, the few people",
+      "reason": "Not an object-relative with ēstas."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-02",
+      "sequence_id": "EX-XII-XIII-36-02-MODEL",
+      "token_index": 18,
+      "expected_surface": "hūse",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "dative neuter singular governed by intō",
+      "reason": "Current governor is intō, not tō."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-02",
+      "sequence_id": "EX-XII-XIII-36-02-MODEL",
+      "token_index": 24,
+      "expected_surface": "tō",
+      "contextual_analysis_key": "function",
+      "proposed_value": "preposition introducing the body part for whose care or washing the water is intended; governs dative",
+      "reason": "The supplied wæter tō mīnum fōtum is not speech."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-02",
+      "sequence_id": "EX-XII-XIII-36-02-MODEL",
+      "token_index": 26,
+      "expected_surface": "fōtum",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "dative masculine plural governed by tō in the supplied body-care phrase",
+      "reason": "Current governor is tō, not æt."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-06",
+      "sequence_id": "EX-XII-XIII-36-06-MODEL",
+      "token_index": 4,
+      "expected_surface": "ðe",
+      "contextual_analysis_key": "source_analysis",
+      "proposed_value": "invariant relative particle with attracted dative ðǣm; the person is recipient of forgiveness within the relative clause",
+      "reason": "The matrix subject is understood; this is not an object-relative referring to ēstas."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-07",
+      "sequence_id": "EX-XII-XIII-36-07-MODEL",
+      "token_index": 6,
+      "expected_surface": "tō",
+      "contextual_analysis_key": "function",
+      "proposed_value": "preposition introducing the role as wife in supplied tō wīfe; governs dative",
+      "reason": "Not a speech addressee."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-08",
+      "sequence_id": "EX-XII-XIII-36-08-MODEL",
+      "token_index": 10,
+      "expected_surface": "swā",
+      "contextual_analysis_key": "function",
+      "proposed_value": "first member of free-choice swā hwæs swā, whatever requested",
+      "reason": "Not a proportional comparison; genitive hwæs is governed by biddan."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-08",
+      "sequence_id": "EX-XII-XIII-36-08-MODEL",
+      "token_index": 12,
+      "expected_surface": "swā",
+      "contextual_analysis_key": "function",
+      "proposed_value": "second member of free-choice swā hwæs swā, whatever requested",
+      "reason": "Not a proportional comparison."
+    }
+  ]
+}

@@ -740,13 +740,13 @@ Hīe wǣron bēgen rihtwīse beforan Gode.
 
 <!-- key: KEY-EX-XII-XIII-34-06 -->
 
-Ic hālsie ðē ðurh ðone libbendan God ðæt ðū ūs sęcge gif ðū sīe Crīst, Godes Sunu.
+Ic hālsie ðē ðurh ðone libbendan God ðæt ðū ūs sęcge hwæðer ðū sīe Crīst, Godes Sunu.
 
 <!-- output: EX-XII-XIII-34-06-O001 -->
 
 **Meaning:** I solemnly charge you by the living God to tell us whether you are Christ, the Son of God.
 
-**Hālsie** takes accusative **ðē** and the oath phrase **ðurh ðone libbendan God**. That participial adjective is supplied as a weak accusative masculine form. **Ūs** is the dative recipient of telling; **sęcge** belongs to the request clause. **Gif … sīe** gives the whether-content. Do not confuse the charged person’s accusative with the speech recipient’s dative.
+**Hālsie** takes accusative **ðē** and the oath phrase **ðurh ðone libbendan God**. That participial adjective is supplied as a weak accusative masculine form. **Ūs** is the dative recipient of telling; **sęcge** belongs to the request clause. **Hwæðer** introduces the dependent whether-question, with **sīe**. Do not confuse the charged person’s accusative with the speech recipient’s dative.
 
 ### Cook XII, XIII.34.7
 

@@ -83,6 +83,15 @@ c['textual_review']={
  'material_open_findings':0,
  'scope_limit':'Complete exports, every-page visual inspection and register integration remain separate gates.'}
 write('chapters/ch16/coverage.json',c)
+amendments=read('chapters/ch16/authoring-amendments.json')
+amendments['current_verification']={
+    'status':'accepted_by_independent_review',
+    'amendment_ids':[x['amendment_id'] for x in c['amendments']],
+    'text_review':'chapters/ch16/review.md',
+    'paradigm_review':'chapters/ch16/reviews/paradigms.json',
+    'accepted_contract_semantic_sha256':r['accepted_contract_semantic_identity']['sha256'],
+    'history_note':'Each amendment retains its original creation-stage status; this field records the subsequent independent verification.'}
+write('chapters/ch16/authoring-amendments.json',amendments)
 co=read('chapters/ch16/coordinator-review.json')
 co['status']='accepted_independent_text_review'
 co['independent_acceptance']={'record':'chapters/ch16/review.md','ledger':'chapters/ch16/review-ledger.json','paradigms':'chapters/ch16/reviews/paradigms.json','material_open_findings':0}

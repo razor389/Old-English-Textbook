@@ -2,25 +2,28 @@
   "schema_version": 1,
   "chapter": "ch16",
   "status": "complete_learner_draft_ready_for_independent_review",
-  "recorded_at_utc": "2026-10-27T21:48:18.248776+00:00",
+  "recorded_at_utc": "2026-10-27T22:45:16.960723+00:00",
   "contract_before_prose_checkpoint": "543e214",
   "canonical_amendments_seen": [
     "U16-A01",
     "U16-A02",
-    "U16-A03"
+    "U16-A03",
+    "U16-A04",
+    "U16-A05",
+    "U16-A06"
   ],
   "artifacts": [
     {
       "path": "chapters/ch16/student.md",
-      "sha256": "c15e24b05b86caeea7b13d0fd0bb5facb54fb5ce2ca03d613c61dd700274bd39"
+      "sha256": "04f539bcefe0ebb231e537d4495d1bd459dbee62dda3f0514f087a9a7eeea49d"
     },
     {
       "path": "chapters/ch16/coverage.json",
-      "sha256": "6aa192e0ed1c9ee8b2437f7110936fb61d61eb1896d51ca982a1245779a1e1fe"
+      "sha256": "ab3d8628527a7ccabfa24b7060bbe35844f46bff805b03c071a58682b468da8b"
     },
     {
       "path": "build/u16-learner-validation.json",
-      "sha256": "3bf23c22f3648404039bbf3caf24ba45047643e502fc629f4443ed4afc092646"
+      "sha256": "0736c8258cb1def325e353411d77fe68cc2d71c353a856777a20a23019a759ac"
     },
     {
       "path": "build/u16-learner-hint-reference-audit.json",
@@ -47,11 +50,20 @@
     "Read all17 original tasks and179 response positions for clear requested outputs without leaking private solutions.",
     "Read the continuous444word source and separate original/modern help; retained negative næfde, exact punctuation, source uncertainties, mood syncretism and English access to the Latin parallels.",
     "Verified14 locating excerpts directly against source_lines without repeating footnote anchors or labeling them as new composition.",
-    "Audited all59 prompts against812 model tokens for exact parenthetical hints, returning38 role proposals and20 preserved supplied matches; coordinator recorded A03 centrally."
+    "Audited all59 prompts against812 model tokens for exact parenthetical hints, returning38 role proposals and20 preserved supplied matches; coordinator recorded A03 centrally.",
+    "Applied only the two reviewed rule-prose corrections: the wēn accusative-singular exception and weak nearu genitive plural nearora. Reversing exactly those replacements reproduces the frozen blind-review draft checksum."
   ],
-  "checks": "Actual learner marker/prompt/table/example/source/apparatus/ordered-input and teaching-order checks pass against final A03 coverage. No master rewrite occurred during receipt refresh.",
+  "checks": "Actual learner marker/prompt/table/example/source/apparatus/ordered-input and teaching-order checks pass against final A06 coverage. Learner bytes were not changed during this validation/receipt refresh.",
   "remaining_author_blockers": [],
-  "next_gate": "Fresh independent learner-solving and paradigm review, followed by coordinator reconciliation and export; this receipt does not certify those later stages.",
+  "next_gate": "Final independent review records and coordinator reconciliation, followed by export; this receipt does not certify those later stages.",
   "files_outside_assigned_author_scope_edited": false,
-  "unit17_drafted": false
+  "unit17_drafted": false,
+  "post_review_repairs": {
+    "blind_witness_checkpoint": "1bf0e8e",
+    "frozen_student_sha256": "c15e24b05b86caeea7b13d0fd0bb5facb54fb5ce2ca03d613c61dd700274bd39",
+    "repaired_student_sha256": "04f539bcefe0ebb231e537d4495d1bd459dbee62dda3f0514f087a9a7eeea49d",
+    "approved_paragraph_replacements": 2,
+    "other_master_bytes_changed": false,
+    "validation_contract_amendment": "U16-A06"
+  }
 }
