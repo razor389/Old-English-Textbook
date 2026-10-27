@@ -1,0 +1,99 @@
+{
+  "chapter_id": "ch15",
+  "status": "accepted_after_non_author_reinspection",
+  "linguistic_masters_changed": false,
+  "v1": {
+    "learner_pages": 64,
+    "key_pages": 30,
+    "manifest": "typesetting/ch15/build/render-manifest-v1.json"
+  },
+  "repairs": [
+    {
+      "document": "learner",
+      "v1_pages": [
+        18,
+        21,
+        25
+      ],
+      "change": "Keep the laeran, forlaetan and gelic entry captions with their first complete table using unbreakable layout groups; every table cell and caption is unchanged."
+    },
+    {
+      "document": "learner",
+      "v1_pages": [
+        23
+      ],
+      "change": "Reserve the principal-parts heading with its introduction and reference table, and remove the later reserve that stranded the heading."
+    },
+    {
+      "document": "learner",
+      "v1_pages": [
+        34,
+        39
+      ],
+      "change": "Extend each opening task layout group to include its section heading."
+    },
+    {
+      "document": "learner",
+      "v1_pages": [
+        43
+      ],
+      "change": "Extend Cook28.10 prompt group through the first help paragraph so the modern-help label cannot stand alone."
+    },
+    {
+      "document": "learner",
+      "v1_pages": [
+        61,
+        62
+      ],
+      "change": "Keep the prayer source heading and title with the full reading, and the R01-R05 task introduction with R01."
+    },
+    {
+      "document": "key",
+      "v1_pages": [
+        1,
+        24
+      ],
+      "change": "Remove the inherited forced page break before F and keep its heading with F01; keep the Duties section heading with D01."
+    },
+    {
+      "document": "learner",
+      "found_in_version": "v2",
+      "v2_pages": [
+        24,
+        25
+      ],
+      "change": "Keep the adjective section heading, its subheading and opening paragraph in one layout group. No wording, table or source change."
+    }
+  ],
+  "withdrawn_findings": [
+    {
+      "document": "key",
+      "v1_page": 3,
+      "description": "Suspected F03 header collision withdrawn by the reviewer after personally re-viewing the actual image. The columns are clearly separated; no table-width change was made."
+    }
+  ],
+  "acceptance_limit": "The identified final exports passed full parity, clean logs and non-author inspection of every page. Individual ledgers preserve the actual inspections, repairs and verified byte-identical reuse.",
+  "final_page_totals": {
+    "learner": 64,
+    "key": 30,
+    "total": 94
+  },
+  "final_documents": [
+    {
+      "kind": "learner",
+      "path": "typesetting/ch15/chapter-15.pdf",
+      "sha256": "0407bd1eb2340ba744c96f41297ad30a95cda8c27e286976e993134d40243ff0",
+      "pages": 64
+    },
+    {
+      "kind": "key",
+      "path": "typesetting/ch15/answer-key.pdf",
+      "sha256": "997ececd0a5822d2a87a0e419a7bae03e0b2617f4732baa896c011e7d8a72d87",
+      "pages": 30
+    }
+  ],
+  "final_review_record": "typesetting/ch15/page-review.json",
+  "final_review_record_sha256": "884d2dd7f619b47ce76223d853632eb87ceb1f57fadd4b2332972d0861abc839",
+  "final_content_parity": "typesetting/ch15/content-parity.json",
+  "all_reported_findings_resolved_or_withdrawn": true
+}

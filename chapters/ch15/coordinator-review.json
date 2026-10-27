@@ -1,6 +1,6 @@
 {
   "chapter_id": "ch15",
-  "status": "accepted_independent_text_review",
+  "status": "accepted_complete",
   "coordinator": "root",
   "date": "2026-10-27",
   "contract_checkpoint": "ff7f7c8",
@@ -49,11 +49,8 @@
     "The primary600dpi image corrected the audit transcription to blostmian with m before contract commitment. This is not a Cook erratum; published teaching follows the corrected source.",
     "Dry-run register integration preserves prior surfaces, analyses, metadata histories, milestones and source contracts. Actual integration waits for review and presentation acceptance."
   ],
-  "remaining_gates": [
-    "Produce complete LuaLaTeX exports, full parity and every-page non-author inspection.",
-    "Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally."
-  ],
-  "scope_limit": "Independent text and paradigm review accepted. Export inspection and register integration remain separate gates. Earlier draft observations and identities are retained as historical records.",
+  "remaining_gates": [],
+  "scope_limit": "Unit15 complete; no Unit16 drafting. Authors do not claim fresh blind independence. Original witnesses, sealed audits, earlier chapters and archive are preserved.",
   "independent_acceptance": {
     "record": "chapters/ch15/review.md",
     "ledger": "chapters/ch15/review-ledger.json",
@@ -76,5 +73,94 @@
       "raw_sha256": "2abad21bf90cf8994afbb7e48ec0807b74ab3d1e4cddf80cb30513845ca592fe",
       "normalized_lf_sha256": "2abad21bf90cf8994afbb7e48ec0807b74ab3d1e4cddf80cb30513845ca592fe"
     }
-  ]
+  ],
+  "presentation_acceptance": {
+    "record": "typesetting/ch15/page-review.json",
+    "sha256": "884d2dd7f619b47ce76223d853632eb87ceb1f57fadd4b2332972d0861abc839",
+    "page_totals": {
+      "learner": 64,
+      "key": 30,
+      "total": 94
+    }
+  },
+  "register_integration": {
+    "record": "chapters/ch15/register-integration.json",
+    "sha256": "f008d336a78766f181bddbc8f0842dc2505082248ea8efa89c90efb63fea0dab",
+    "metrics": {
+      "before": {
+        "lemmas": 830,
+        "forms": 9710,
+        "senses": 1017,
+        "features": 820
+      },
+      "after": {
+        "lemmas": 955,
+        "forms": 10470,
+        "senses": 1207,
+        "features": 950
+      },
+      "unit15_status_counts": {
+        "forms": {
+          "new_production": 643,
+          "new_recognition_only": 27,
+          "supplied_here": 143
+        },
+        "senses": {
+          "new_production": 83,
+          "new_recognition_only": 2,
+          "supplied_here": 127
+        },
+        "features": {
+          "new_production": 89,
+          "new_recognition_only": 2,
+          "supplied_here": 39
+        }
+      },
+      "reused_supplied_records": {
+        "form": {
+          "hwaethwega-u13-source-1": [
+            "NEW-U15-A10"
+          ],
+          "geweorthan-past-participle": [
+            "EX-IX-28-10"
+          ],
+          "thurh-invariant-eth-source": [
+            "EX-IX-29-07",
+            "EX-IX-30-01",
+            "EX-IX-30-02"
+          ],
+          "se-m-nom-sg-long-u12-source": [
+            "EX-IX-30-05",
+            "EX-IX-30-06"
+          ],
+          "gewinn-dat-sg-source": [
+            "EX-IX-30-09"
+          ],
+          "geweorthan-pres-subj-3-sg": [
+            "EX-X-XI-31-06"
+          ],
+          "aefter-invariant-source": [
+            "EX-X-XI-31-11"
+          ]
+        },
+        "sense": {
+          "geweorthan-1": [
+            "EX-IX-28-10",
+            "EX-X-XI-31-06"
+          ],
+          "thurh-u14-mediated-source": [
+            "EX-IX-29-07"
+          ]
+        },
+        "feature": {}
+      },
+      "reused_taught_in_visible_help": {
+        "form": {},
+        "sense": {},
+        "feature": {}
+      }
+    },
+    "earlier_active_artifacts_preserved": 2311,
+    "archive_files_preserved": 134
+  }
 }

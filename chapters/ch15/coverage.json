@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch15",
   "title": "Negation, quantity and comparison in discourse",
-  "status": "text_accepted_exports_pending",
+  "status": "reviewed_complete",
   "contract_date": "2026-10-26",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -360901,7 +360901,7 @@
     "typeset": "oec-u15-typeset",
     "finish": "oec-u15-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_text_and_exports",
   "amendments": [
     {
       "amendment_id": "U15-AM01",
@@ -361508,9 +361508,18 @@
     "issues": []
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "date": "2026-10-27",
+    "register_integration": "chapters/ch15/register-integration.json",
+    "presentation_review": "typesetting/ch15/page-review.json",
+    "learner_pdf": "typesetting/ch15/chapter-15.pdf",
+    "key_pdf": "typesetting/ch15/answer-key.pdf",
+    "all_assigned_tasks_reviewed": 105,
+    "all_cook_items_retained": 50,
+    "next_unit_policy": "Unit16 remains undrafted; begin only when requested.",
+    "checkpoint_note": "Completion files and Beads export are saved locally; final handoff records the resulting revision."
   },
   "review_independence_protocol": {
     "schema_version": 1,
@@ -365964,6 +365973,7 @@
   "contract_checkpoint": "ff7f7c8",
   "complete_drafts_checkpoint": "3822d4b",
   "independent_solutions_checkpoint": "ecbdc44",
+  "accepted_text_checkpoint": "0ec6ae3",
   "textual_review": {
     "status": "accepted",
     "reviewer": "unit15_blind",
@@ -366092,5 +366102,32 @@
     },
     "material_open_findings": 0,
     "scope_limit": "Complete exports, every-page visual inspection and register integration remain separate gates."
+  },
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch15/page-review.json",
+    "record_sha256": "884d2dd7f619b47ce76223d853632eb87ceb1f57fadd4b2332972d0861abc839",
+    "page_totals": {
+      "learner": 64,
+      "key": 30,
+      "total": 94
+    },
+    "complete_content_parity": "typesetting/ch15/content-parity.json",
+    "every_page_inspected_by_non_author": true,
+    "unresolved_findings": [],
+    "documents": [
+      {
+        "kind": "learner",
+        "path": "typesetting/ch15/chapter-15.pdf",
+        "sha256": "0407bd1eb2340ba744c96f41297ad30a95cda8c27e286976e993134d40243ff0",
+        "pages": 64
+      },
+      {
+        "kind": "key",
+        "path": "typesetting/ch15/answer-key.pdf",
+        "sha256": "997ececd0a5822d2a87a0e419a7bae03e0b2617f4732baa896c011e7d8a72d87",
+        "pages": 30
+      }
+    ]
   }
 }
