@@ -1,6 +1,6 @@
 # Status
 
-Updated 27 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–15 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 15 exports and registers are saved at **`this export checkpoint`**. Unit 16 has not been drafted.
+Updated 27 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–15 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 15 exports and registers are saved at **`a80bf34`**. Unit 16 has not been drafted.
 
 ## Completed Unit 15
 
@@ -30,7 +30,7 @@ The [learner PDF](typesetting/ch15/chapter-15.pdf) has **64 pages**; the [key](t
 | [12](typesetting/ch12/README.md) | Tense, sequence, and voice | 47 / 30 | 6f4f1e2 |
 | [13](typesetting/ch13/README.md) | Clause order and reference | 52 / 30 | 85b6911 |
 | [14](typesetting/ch14/README.md) | Word formation and lexical families | 35 / 21 | a56c403 |
-| [15](typesetting/ch15/README.md) | Negation, quantity and comparison in discourse | 64 / 30 | this export checkpoint |
+| [15](typesetting/ch15/README.md) | Negation, quantity and comparison in discourse | 64 / 30 | a80bf34 |
 
 Each unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent review, complete TeX/PDFs and page ledgers.
 
