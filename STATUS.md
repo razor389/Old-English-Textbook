@@ -1,6 +1,6 @@
 # Status
 
-Updated 27 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–15 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 15 exports and registers are saved at **`a80bf34`**. Unit 16 has not been drafted.
+Updated 27 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–15 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 15 exports and registers are saved at **`a80bf34`**. **Unit 16 is in source and curriculum analysis** under its [brief](curriculum/UNIT_16_BRIEF.md): all 59 Cook items in Exercises 32–36 and the complete 444-word gymnasium scene, printed 168.1–170.16. Its learning contract must be reconciled and committed before prose; no Unit 16 teaching milestone or assignment is yet established.
 
 ## Completed Unit 15
 

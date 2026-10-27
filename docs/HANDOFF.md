@@ -1,6 +1,6 @@
 # Handoff to the next session
 
-The requested Unit 15 is complete. **Units 1–15** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 15 exports and registers are saved at **`a80bf34`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 15. Unit 16 has not been drafted.
+The requested **Unit 16 is in source and curriculum analysis** under its [brief](../curriculum/UNIT_16_BRIEF.md). Independent workers own `sources/audits/unit16-source/`, `sources/audits/unit16-grammar/` and `curriculum/proposals/unit16/`; root alone writes Beads and owns the contract and integration. Reconcile and commit the contract before prose. The selected scope is all 59 Cook Exercises 32–36 items and the complete 444-word gymnasium scene at printed 168.1–170.16. The immutable actual fifteen-unit baseline is retained in `sources/audits/unit16-coordinator/prior-state.json`; do not recapture it after integration. **Units 1–15** remain complete, with reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Unit 15 exports/registers are saved at **`a80bf34`**, with final handoff at **`e1d94be`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 15. Unit 16 has not been drafted.
 
 ## Unit 15 evidence and review
 
