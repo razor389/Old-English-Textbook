@@ -2426,7 +2426,7 @@ He saw others in (om. the) public place standing (169) idle.
 
 <!-- support: U15-COOK-NOM-28-04 -->
 
-Strǣt here means “public place”, with the earlier feminine declension.
+Strǣt here means “public place”, with the earlier feminine declension. Cook’s reference (169) selects the earlier perception construction: use accusative ōðre with the plain infinitive standan. In 28.7, by contrast, the printed direction explicitly requests a present participle.
 
 <!-- output: EX-IX-28-04-O001 -->
 
@@ -2655,6 +2655,16 @@ Use ðæs Hēahstan, “of the Highest”, as a supplied masculine genitive sing
 <!-- item: EX-IX-29-09 -->
 
 Give, and (om. it) shall be given you.
+
+**Modern help — available throughout this item.**
+
+<!-- teaching: NEW-U15-LOCAL-HELPS -->
+
+<!-- teaching: U15-H-29-09 -->
+
+<!-- support: U15-H-29-09 -->
+
+Use the supplied frame ēow bið giefen, “it will be given to you (plural).” Ēow is the dative recipient; no hit is expressed. For one addressee, use ðē bið giefen with a singular command. Keep the frame available while composing; its independent recall is not required.
 
 <!-- output: EX-IX-29-09-O001 -->
 

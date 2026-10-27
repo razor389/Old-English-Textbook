@@ -1,0 +1,74 @@
+{
+  "amendment_id": "U15-AM03",
+  "status": "applied_pending_independent_recheck",
+  "blind_checkpoint": "ecbdc44",
+  "model_correction_record": {
+    "path": "chapters/ch15/author-only-model-corrections.json",
+    "sha256": "6a0daea93b48815ec618e1506a1a3116ddba76d456af41c2b835b5f3253af026",
+    "sha256_normalized_lf": "6a0daea93b48815ec618e1506a1a3116ddba76d456af41c2b835b5f3253af026"
+  },
+  "primary_image_reinspections": [
+    {
+      "path": "sources/audits/unit12-grammar/cook_fb_1895_2-p93.png",
+      "raw_sha256": "c2702e68c35777b2f4da74f8aa668a176ed8b17377c2e3677b7f7ac4808b22d3",
+      "actually_viewed": true,
+      "observer": "root",
+      "observation": "§159b explicitly marks ðē as accusative with āxian, supporting the taught accusative-person frame."
+    },
+    {
+      "path": "sources/audits/unit12-source/cook_fb_1895_2-p276.png",
+      "raw_sha256": "0ae6c3f979514d32f63a9630ea2a43b8b6e4c2b1dcb2325565c6e4742b127794",
+      "actually_viewed": true,
+      "observer": "root",
+      "observation": "Column b āscian/āxian cross-refers to §159b."
+    },
+    {
+      "path": "sources/audits/unit15-coordinator/cook-ex17-600.png",
+      "raw_sha256": "db99c4cad0c36e61e29dbf48c88a5cff232181a47cb869ccc718adb9653f8421",
+      "actually_viewed": true,
+      "observer": "root",
+      "observation": "30.1 visibly has (om.the) before city and before great king.30.11 has should in both repeated road clauses without a fuller temporal setting."
+    }
+  ],
+  "witness_sha256_unchanged": "2abad21bf90cf8994afbb7e48ec0807b74ab3d1e4cddf80cb30513845ca592fe",
+  "preservation": "No sealed audit/proposal, earlier chapter or blind witness changed.",
+  "contextual_annotation_recheck": {
+    "task_id": "EX-IX-30-01",
+    "changes": [
+      {
+        "token_index": 4,
+        "before": {
+          "invariant": true,
+          "function": "preposition governing accusative person as mediator"
+        },
+        "after": {
+          "invariant": true,
+          "function": "preposition governing an accusative oath standard"
+        }
+      },
+      {
+        "token_index": 12,
+        "before": {
+          "invariant": true,
+          "function": "preposition governing accusative person as mediator"
+        },
+        "after": {
+          "invariant": true,
+          "function": "preposition governing an accusative oath standard"
+        }
+      },
+      {
+        "token_index": 20,
+        "before": {
+          "invariant": true,
+          "function": "preposition governing accusative person as mediator"
+        },
+        "after": {
+          "invariant": true,
+          "function": "preposition governing an accusative oath standard"
+        }
+      }
+    ],
+    "basis": "All three standards in the exact source prompt are things sworn by: heaven, earth and Jerusalem. The oath sense and u15-swerian-thurh frame already identify this use. Original form-record analysis and the frozen original sequence remain historical; contextual_analysis identifies this use."
+  }
+}

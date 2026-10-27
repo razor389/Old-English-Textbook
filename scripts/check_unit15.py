@@ -146,6 +146,18 @@ def main():
     require(sum(len(r['original_note_anchors']) for r in c['source_spans'])==33,'Original33 note anchors')
     modelpath=ROOT/'curriculum/proposals/unit15/author-only-cook-sequence-bindings.json'
     models={s['owner_id']:s for s in read(modelpath.relative_to(ROOT).as_posix())['sequences']} if modelpath.is_file() else {}
+    if c.get('selected_model_corrections'):
+        correction_ref=c['selected_model_corrections']
+        require(identity(correction_ref['path'],correction_ref),'Selected model correction record changed')
+        correction=read(correction_ref['path'])
+        require(identity(correction['source'],{'sha256':correction['source_sha256'],'sha256_normalized_lf':correction['source_sha256_normalized_lf']}),'Original model packet changed')
+        original_changes={x['task_id']:x for x in correction['corrections']}
+        require(len(original_changes)==len(correction['corrected_sequences']),'Correction inventory mismatch')
+        for seq in correction['corrected_sequences']:
+            tid=seq['owner_id'];change=original_changes[tid]
+            require(models[tid]==change['original_sequence'],tid+': original model history differs')
+            require(models[tid]['text']==change['original_text'] and seq['text']==change['corrected_text'],tid+': correction text mismatch')
+            models[tid]=seq
     require(set(models)==set(prompts),'All50 ordered Cook models bound')
     for tid,s in models.items():
         sequence(s,tid)

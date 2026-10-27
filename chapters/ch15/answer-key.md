@@ -752,7 +752,7 @@ Hē geseah ōðre on strǣte īdle standan.
 
 <!-- output: EX-IX-28-04-O001 -->
 
-The perception construction has **hīe/ōðre** as an accusative participant with plain **standan**: he saw others stand/standing. **Īdle** agrees with those people; **on strǣte** is the supplied public-place use without an article. English standing does not require a participle when the exercise explicitly selects this infinitive construction.
+The perception construction has **hīe/ōðre** as an accusative participant with plain **standan**: he saw others stand/standing. **Īdle** agrees with those people; **on strǣte** uses the newly taught public-place sense without an article. English standing does not require a participle when the exercise explicitly selects this infinitive construction.
 
 ### Cook IX.28.5
 
@@ -772,7 +772,7 @@ The perception construction has **hīe/ōðre** as an accusative participant wit
 
 <!-- output: EX-IX-28-06-O001 -->
 
-**Ęft** means once more. **Ymbe** governs the accusative hour expression; the supplied ordinals **siextan/nigoðan** agree with feminine tīd. **Gelīce** is an adverb, “similarly”, modifying dyde; it is not the plural predicate adjective of 29.1. Different grammatical placement of the adverb is possible without changing either hour.
+**Ęft** means once more. **Ymbe** governs the accusative hour expression; familiar **siextan** and supplied **nigoðan** agree with feminine tīd. **Gelīce** is an adverb, “similarly”, modifying dyde; it is not the plural predicate adjective of 29.1. Different grammatical placement of the adverb is possible without changing either hour.
 
 ### Cook IX.28.7
 
@@ -944,7 +944,7 @@ Se leornungcniht nis ofer his lārēow.
 
 <!-- output: EX-IX-29-11-O001 -->
 
-**Ætīew** is the singular command show; its first vowel remains short in the selected spelling. **Unne** is a supplied second-singular present subjunctive used as a request. Unnan takes dative **ūs** and genitive **ðīnre hǣlu** for what is granted. Do not copy the accusative mildheortnesse frame into the grant clause merely because the two verbs share the same English object order.
+**Ætīew** is the singular command show; its first vowel remains short in the selected spelling. **Unne** is the second-singular present subjunctive used as an addressed request, as taught in Unit 10. Unnan takes dative **ūs** and genitive **ðīnre hǣlu** for what is granted. Do not copy the accusative mildheortnesse frame into the grant clause merely because the two verbs share the same English object order.
 
 ## Cook IX.30
 
@@ -952,11 +952,11 @@ Se leornungcniht nis ofer his lārēow.
 
 <!-- key: KEY-EX-IX-30-01 -->
 
-Ne swęre ðū ðurh heofon, for-ðon-ðe hē is Godes setl; ne ðurh eorðan, for-ðon-ðe hēo is his fōtsceamul; ne ðurh Hierusalem, for-ðon-ðe hēo is ðæs mǣran cyninges burg.
+Ne swęre ðū ðurh heofon, for-ðon-ðe hē is Godes setl; ne ðurh eorðan, for-ðon-ðe hēo is his fōtsceamul; ne ðurh Hierusalem, for-ðon-ðe hēo is mǣres cyninges burg.
 
 <!-- output: EX-IX-30-01-O001 -->
 
-**Ne swęre ðū** is a singular prohibition; the following **ne ðurh** phrases continue it. Each **ðurh** names the oath standard in the accusative. Heaven is masculine (**hē**), earth feminine (**hēo**); Hierusalem is supplied. The great king is **ðæs mǣran cyninges**, genitive dependent on burg. English nor may combine the later prohibitions; it must not remove one of the three standards.
+**Ne swęre ðū** is a singular prohibition; the following **ne ðurh** phrases continue it. Each **ðurh** names the oath standard in the accusative. Heaven is masculine (**hē**), earth feminine (**hēo**); Hierusalem is supplied. The great king is **mǣres cyninges**, genitive dependent on burg. Cook directs omission of both articles: the bare genitive phrase takes strong **mǣres**, not article-led weak ðæs mǣran. English nor may combine the later prohibitions; it must not remove one of the three standards.
 
 ### Cook IX.30.2
 
@@ -976,7 +976,7 @@ Sīe ēower word swā, Hit is, hit nis.
 
 <!-- output: EX-IX-30-03-O001 -->
 
-**Sīe** is the supplied present subjunctive wish, “let your speech be …”. **Ēower** refers to plural possessors, while word is singular. The quoted alternatives **hit is, hit nis** contrast affirmation and denial. A second plural possessive does not require a plural verb for the single word/speech.
+**Sīe** expresses the present subjunctive wish taught in Unit 7, “let your speech be …”. **Ēower** refers to plural possessors, while word is singular. The quoted alternatives **hit is, hit nis** contrast affirmation and denial. A second plural possessive does not require a plural verb for the single word/speech.
 
 ### Cook IX.30.4
 
@@ -1056,7 +1056,7 @@ Sēo sunne forbærnde his æcer.
 
 <!-- output: EX-IX-30-11-O001 -->
 
-Both parallel clauses use plural **sceoldon** with plain **blōstmian**; preserve their repetition. The bride is feminine, hence selected **fægeru**, and **hiere hām** is the accusative home left. **Sceal** is singular with brȳd. The noun hām is distinct from the earlier homewards adverb; the modal complements remain infinitives, not participles.
+Both parallel clauses use plural **sceoldon** with plain **blōstmian**; preserve their repetition. The bride is feminine, hence selected **fægeru**, and **hiere hām** is the accusative home left. **Sceal** is singular with brȳd. The noun hām is distinct from the earlier homewards adverb; the modal complements remain infinitives, not participles. The model takes should as modal ought to, using **sceoldon**. English should is not a mechanical instruction to place the event in the past: a coherent present expectation or obligation can use **sculon**. A subjunctive wish such as **scylen** changes the modality and needs an explicit wish reading.
 
 ### Cook IX.30.12
 
@@ -1128,7 +1128,7 @@ Sīe ðīn nama gehālgod.
 
 <!-- output: EX-X-XI-31-05-O001 -->
 
-**Sīe … gehālgod** is the supplied passive wish, “may your name be hallowed”. **Ðīn nama** is the singular subject. The wording expresses a desired state, not a past report that the name was hallowed. A different grammatical wish order is possible here; the next item alone explicitly requires the verb first.
+**Sīe … gehālgod** combines the passive and independent wish taught in Unit 7: “may your name be hallowed”. **Ðīn nama** is the singular subject. The wording expresses a desired state, not a past report that the name was hallowed. A different grammatical wish order is possible here; the next item alone explicitly requires the verb first.
 
 ### Cook X, XI.31.6
 
@@ -1204,11 +1204,11 @@ His mōdor hæfde āne bōc Engliscra lēoða, ðe hēo gehēt swā hwæðrum hi
 
 <!-- key: KEY-EX-X-XI-31-13 -->
 
-Ælfred āscode hiere, Wilt ðū sōðlice ðā bōc ānum uncer sęllan, ðǣm ðe hīe ǣrest ongiett?
+Ælfred āscode hīe, Wilt ðū sōðlice ðā bōc ānum uncer sęllan, ðǣm ðe hīe ǣrest ongiett?
 
 <!-- output: EX-X-XI-31-13-O001 -->
 
-**Ānum uncer** is one recipient selected from us two: dative ānum plus the personal genitive dual uncer. **Ðǣm ðe …** further identifies that recipient. The feminine book is **hīe**, object of **ongiett**; the person who understands is the relative subject. The agreeing possessive uncer, “our”, would not supply the stated partitive relation.
+**Hīe** after āscode is the accusative person asked, following the Unit 13 government frame. **Ānum uncer** is one recipient selected from us two: dative ānum plus the personal genitive dual uncer. **Ðǣm ðe …** further identifies that recipient. The feminine book is **hīe**, object of **ongiett**; the person who understands is the relative subject. The agreeing possessive uncer, “our”, would not supply the stated partitive relation.
 
 ### Cook X, XI.31.14
 

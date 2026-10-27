@@ -1,6 +1,6 @@
 {
   "chapter_id": "ch15",
-  "status": "complete_drafts_pending_independent_review",
+  "status": "accepted_independent_text_review",
   "coordinator": "root",
   "date": "2026-10-27",
   "contract_checkpoint": "ff7f7c8",
@@ -8,7 +8,7 @@
     "student": "unit15_design",
     "answer_key": "root"
   },
-  "independence_limit": "Authors have not claimed fresh blind independence. Fresh solver and separate paradigm reviewer remain required.",
+  "independence_limit": "Root and the source, grammar and design authors do not claim fresh blind independence. A fresh non-author froze every solution at ecbdc44 before explicit comparison access; a separate fresh non-author verified the paradigms.",
   "automated_checks": {
     "command": "python -X utf8 scripts/check_unit15.py --draft",
     "result": "PASS",
@@ -19,7 +19,7 @@
     "actual_form_or_expression_positions": 675,
     "explicitly_unassigned_positions": 16,
     "matrices": 69,
-    "teaching_locations": 595,
+    "teaching_locations": 596,
     "source_words": 415,
     "original_source_notes": 27,
     "note_anchors": 33,
@@ -50,11 +50,31 @@
     "Dry-run register integration preserves prior surfaces, analyses, metadata histories, milestones and source contracts. Actual integration waits for review and presentation acceptance."
   ],
   "remaining_gates": [
-    "Fresh independent solve of every actual learner output, immutable Git freeze before comparison, then full key review.",
-    "Separate fresh paradigm review of691 logical positions against primary evidence and actual displays.",
-    "Resolve material findings and bind textual acceptance to final masters and substantive contract.",
-    "Complete LuaLaTeX exports, full content parity and non-author inspection of every final page.",
+    "Produce complete LuaLaTeX exports, full parity and every-page non-author inspection.",
     "Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally."
   ],
-  "scope_limit": "Complete authorship and structural checks do not certify linguistic truth or final completion."
+  "scope_limit": "Independent text and paradigm review accepted. Export inspection and register integration remain separate gates. Earlier draft observations and identities are retained as historical records.",
+  "independent_acceptance": {
+    "record": "chapters/ch15/review.md",
+    "ledger": "chapters/ch15/review-ledger.json",
+    "paradigms": "chapters/ch15/reviews/paradigms.json",
+    "material_open_findings": 0
+  },
+  "accepted_artifact_identities": [
+    {
+      "path": "chapters/ch15/student.md",
+      "raw_sha256": "25dff8b8c84d934554b56a8609a01a96c4f9e933cebded4581646acd5bac6fe9",
+      "normalized_lf_sha256": "25dff8b8c84d934554b56a8609a01a96c4f9e933cebded4581646acd5bac6fe9"
+    },
+    {
+      "path": "chapters/ch15/answer-key.md",
+      "raw_sha256": "0280e94f36177c129192cbef8cf381b4f1eee6a74fe898f513574fbc9cdf2a2b",
+      "normalized_lf_sha256": "0280e94f36177c129192cbef8cf381b4f1eee6a74fe898f513574fbc9cdf2a2b"
+    },
+    {
+      "path": "chapters/ch15/independent-solutions.md",
+      "raw_sha256": "2abad21bf90cf8994afbb7e48ec0807b74ab3d1e4cddf80cb30513845ca592fe",
+      "normalized_lf_sha256": "2abad21bf90cf8994afbb7e48ec0807b74ab3d1e4cddf80cb30513845ca592fe"
+    }
+  ]
 }
