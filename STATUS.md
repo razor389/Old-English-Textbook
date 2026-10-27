@@ -1,6 +1,6 @@
 # Status
 
-Updated 26 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–14 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 14 exports and registers are saved at **`a56c403`**. The requested Unit 15 is in source and curriculum analysis under `oec-u15`; its contract and prose are not yet drafted. The fourteen-unit baseline is preserved at **`9129cda`**.
+Updated 27 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–14 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 14 exports and registers are saved at **`a56c403`**. The requested Unit 15 has a reconciled contract saved before prose at **`ff7f7c8`**; the learner and separate key are in authorship under `oec-u15-draft`. Independent review, exports and register integration remain pending. The fourteen-unit baseline is preserved at **`9129cda`**.
 
 ## Completed Unit 14
 
