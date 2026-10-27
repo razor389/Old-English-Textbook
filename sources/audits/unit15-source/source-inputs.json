@@ -1,0 +1,91 @@
+{
+  "schema_version": 1,
+  "baseline_checkpoint": "9129cda",
+  "sources": [
+    {
+      "path": "sources/cache/cook_ex_1895.pdf",
+      "sha256": "b34f41f81c1503a8176342389316cc75a1f30c3faf95b3b7b03816a6221ed3d8",
+      "bytes": 1722192
+    },
+    {
+      "path": "sources/cache/cook_fb_1895_2.pdf",
+      "sha256": "693537064f0dc335b6dd9e57079e07e2e5311383c9b102406019bbf4fb70d0f3",
+      "bytes": 18041287
+    },
+    {
+      "path": "sources/cache/wright_oe_1914.pdf",
+      "sha256": "04e1fed8e1fa1c54d9f9b1a1754598232946f44d411541a7248905a9ccdbce9c",
+      "bytes": 16242022
+    }
+  ],
+  "facsimile_images": [
+    {
+      "evidence_id": "U15-BT-P500B",
+      "source_id": "bosworth_toller_1898_1921",
+      "printed_page": "Main500b",
+      "pdf_page_one_based": null,
+      "original_identifier": "s.v. hǽlu, hǽlo",
+      "origin_category": "exact_source",
+      "claim": "Entry explicitly labels the noun indeclinable feminine and gives health, safety, salvation. Cook-style macrons replace dictionary acute quantity marks only in new teaching material.",
+      "image": "sources/audits/unit15-source/bt-main-p500.jpg",
+      "image_sha256": "0e45977eadc92c0043e06f23c4744a7e04650753bd512d247230f7052ad2501a",
+      "personally_viewed": true,
+      "inspection_agent": "unit15_source",
+      "inspection_date": "2026-10-26",
+      "used_by": [
+        "U15-NOM-ABSTRACT-U",
+        "haelu",
+        "haelu-1",
+        "haelu-acc-sg",
+        "haelu-acc-sg-source",
+        "haelu-dat-sg",
+        "haelu-gen-sg",
+        "haelu-gen-sg-source",
+        "haelu-nom-sg",
+        "haetu",
+        "haetu-1",
+        "haetu-acc-sg",
+        "haetu-dat-sg",
+        "haetu-gen-sg",
+        "haetu-nom-sg"
+      ],
+      "limitations": "This page supports the stated lemma, source token or rule; a derived table cell is not asserted to be an individually attested corpus form.",
+      "image_url": "https://bosworthtoller.com/images-dictionary/bt_b0500.jpg"
+    },
+    {
+      "evidence_id": "U15-BT-P506",
+      "source_id": "bosworth_toller_1898_1921",
+      "printed_page": "Main506a–b",
+      "pdf_page_one_based": null,
+      "original_identifier": "s.v. hám, beginning at bottom of a and continuing in b",
+      "origin_category": "exact_source",
+      "claim": "Masculine noun hám with genitive -es; home/house/abode and attested plural forms support a nominal system distinct from the prior directional adverb.",
+      "image": "sources/audits/unit15-source/bt_b0506.jpg",
+      "image_sha256": "ba3c6a3c8f459c6b4b890bc920b055e2b4ac39ac2fcfb128b75b65eb9a40cd83",
+      "personally_viewed": true,
+      "inspection_agent": "unit15_source",
+      "inspection_date": "2026-10-26",
+      "used_by": [
+        "ham-noun",
+        "ham-noun-1",
+        "ham-noun-acc-pl",
+        "ham-noun-acc-sg",
+        "ham-noun-dat-pl",
+        "ham-noun-dat-sg",
+        "ham-noun-gen-pl",
+        "ham-noun-gen-sg",
+        "ham-noun-nom-pl",
+        "ham-noun-nom-sg"
+      ],
+      "limitations": "This page supports the stated lemma, source token or rule; a derived table cell is not asserted to be an individually attested corpus form.",
+      "image_url": "https://bosworthtoller.com/images-dictionary/bt_b0506.jpg"
+    }
+  ],
+  "page_conventions": {
+    "CookExercises": "Printed Arabic page+8 = one-based PDF page.",
+    "CookFirstBook": "Printed Arabic page+16 = one-based PDF page.",
+    "Wright": "Printed184 = one-based PDF204.",
+    "BT": "Independent printed-page facsimiles; a/b indicate columns, no invented local PDF locator.",
+    "reading_lines": "Editorial line counts anchored by printed marginal multiples of five; no claim all numbers appear in print."
+  }
+}

@@ -1,0 +1,36 @@
+"""Incremental exact lexical family scope for the design worker."""
+import json,pathlib,copy
+R=pathlib.Path(__file__).resolve().parents[3]; O=pathlib.Path(__file__).resolve().parent
+L={x['lemma_id']:x for x in json.loads((R/'lexicon/entries.json').read_text(encoding='utf-8-sig'))['lemmas']}
+D={'schema_version':1,'chapter':'ch15','status':'audited_proposal_ready_for_contract','origin_category':'new_teaching_material','lemmas':[],'paradigms':[],'features':[],'rules':[],'pending_separate_packets':[],'companion_packets':['grammar-records-lexical.json','author-only-cook-models.json','source-support.json','evidence-catalog.json']}
+def add(i,h,pos,forms,senses,scope):
+ d={'lemma_id':i,'display_headword':h,'part_of_speech':pos,'prior_lemma_present':i in L,'forms':[],'senses':[],'scope_note':scope}
+ for fid,surf,analysis,status,ev in forms:
+  old=next((f for f in L.get(i,{}).get('forms',[]) if f['form_id']==fid),None)
+  a=copy.deepcopy(old['analysis']) if old else analysis
+  q={'form_id':fid,'form':surf,'analysis':a,'knowledge_status':status,'evidence_refs':ev,'teaching_ids':['NEW-U15-VOC-'+i.upper()],'origin_category':'new_teaching_material','scope_note':scope}
+  if old:q['prior_scope']={k:old.get(k) for k in ('recognition_taught_in','production_taught_in','supplied_in')}
+  d['forms'].append(q)
+ for sid,gloss,status,ev in senses:
+  q={'sense_id':sid,'gloss':gloss,'knowledge_status':status,'evidence_refs':ev,'teaching_ids':['NEW-U15-VOC-'+i.upper()],'scope_note':scope}
+  old=next((s for s in L.get(i,{}).get('senses',[]) if s['sense_id']==sid),None)
+  if old:q['prior_scope']={k:old.get(k) for k in ('recognition_taught_in','production_taught_in','supplied_in')}
+  d['senses'].append(q)
+ D['lemmas'].append(d)
+P='new_production'; S='supplied'; inv={'inflection':'invariant'}
+add('na','nā','adverb',[('na-invariant','nā',inv,P,['U15-G-EX18'])],[('na-u15-constituent','not, negating a contrasted constituent',P,['U15-G-EX18'])],'Constituent negation in ic self and nā ōðer. Not a replacement for finite-clause ne.')
+add('awiht','āwiht','indefinite substantive',[('awiht-u15-citation','āwiht',{'case':'accusative','number':'singular','function':'bounded indefinite object'},S,['U15-G-FB52','U15-G-W240'])],[('awiht-u15-anything','anything',S,['U15-G-FB52','U15-G-W240'])],'Exact supplied accusative in the supported question Hæfð hē āwiht? No complete declension or independent recall assigned.')
+add('nawiht','nāwiht','indefinite substantive',[('nawiht-u15-acc-sg','nāwiht',{'case':'accusative','number':'singular','function':'bounded indefinite object'},P,['U15-G-FB52','U15-G-W240'])],[('nawiht-u15-nothing','nothing',P,['U15-G-FB52','U15-G-W240'])],'Productive accusative object in the bounded negative-concord construction. This is not an assertion that wiht-compounds are globally indeclinable; oblique nāht/nāhte remain distinct supplied material.')
+add('hwaethwega','hwæthwega','indefinite substantive',[],[('hwaethwega-u13-source','something; local indefinite support only',S,['U15-G-FB52','U15-G-W240'])],'Reuse exact prior supplied form hwaethwega-u13-source-1 in the supported accusative context. No new paradigm or independent recall.')
+add('an','ān','indefinite',[],[('an-u15-indefinite','a; a certain (introducing an unnamed singular individual)',P,['U15-G-FB52','U15-G-FB275'])],'Existing productive singular strong cells are reused. Distinguish lexical indefinite use from cardinal one; no plural promotion.')
+add('hwa','hwā / hwæt','pronoun',[],[('hwa-u14-indefinite-source','anyone; anything, in the bounded conditional/concessive or free-choice use',P,['U15-G-FB53','U15-G-W240'])],'Reuse the exact supplied U14 sense identity and the full prior productive NGDA morphology. Instrumental interrogative citations are not automatically promoted.')
+add('hwaether','hwæðer','pronoun',[],[('hwaether-u15-free-choice','whichever of two, in swā hwæðer swā',P,['U15-G-FB53','U15-G-W240'])],'Internal pronoun case follows its own clause role; an explicit resumptive pronoun can carry the main-clause role. The case-attracted Cook31.12 recipient construction remains a whole supplied scaffold.')
+add('swa','swā','adverb/conjunction',[],[('swa-u15-free-choice','free-choice framing: swā hwā/hwæt/hwæðer swā',P,['U15-G-FB53','U15-G-W240']),('swa-u14-proportional-source','the … the, proportional relation',P,['U15-G-FB156','U15-G-FB157','U15-G-BT-SWITHE'])],'Both new scopes use the existing invariant form. Prior supplied proportional sense is promoted explicitly; equal-degree swā…swā remains a different sense.')
+add('mann','man','impersonal subject',[('mann-nom-sg-impersonal-source','man',{},P,['U15-G-FB53','U15-G-W240'])],[('mann-u11-source','one; people generally, impersonal subject with singular verb',P,['U15-G-FB53','U15-G-W240'])],'Only nominative singular impersonal use with third-singular finite agreement. No oblique or plural impersonal forms.')
+add('ic','ic','personal pronoun',[('ic-gen-dual','uncer',{},P,['U15-G-EX18','U15-G-FB94'])],[('ic-u15-partitive-dual','of us two, personal genitive after a selection word',P,['U15-G-EX18','U15-G-FB94'])],'Promote the existing personal genitive-dual form for ānum uncer and corresponding group selection; distinguish possessive adjective uncer, whose endings agree with a possessed noun.')
+add('aegther','ǣgðer','coordinating adverb',[('aegther-u15-invariant','ǣgðer',inv,P,['U15-G-FB162'])],[('aegther-u15-both','both, in ǣgðer ge…ge',P,['U15-G-FB162'])],'Invariant coordinator only. Reuse existing productive ge-conjunction-source / ge-paired-source. This assigns no unneeded inflected either-pronoun paradigm.')
+add('swithe','swīðe','adverb',[('swithe-comparative','swīðor',{'degree':'comparative'},P,['U15-G-BT-SWITHE']),('swithe-superlative','swīðost',{'degree':'superlative'},'new_recognition',['U15-G-BT-SWITHE'])],[('swithe-u15-preference','rather; more, comparing preference',P,['U15-G-BT-SWITHE']),('swithe-u15-superlative','most; very greatly','new_recognition',['U15-G-BT-SWITHE'])],'The complete selected degree series is swīðe (prior productive), swīðor (new productive preference), swīðost (new recognition reference). Distinct syntactic scopes are explicit; -or/-ost do not license every comparison adverb.')
+D['paradigms'].append({'paradigm_id':'NEW-U15-PAR-SWITHE-DEGREES','lemma_id':'swithe','system':'ADVERB-DEGREES','teaching_id':'NEW-U15-PAR-SWITHE-DEGREES','rule_id':'U15-R-SWITHE','scope_note':'Complete three-degree series; production limited as stated in each cell.','evidence_refs':['U15-G-BT-SWITHE'],'cells':[{'form_id':'swithe-positive','form':'swīðe','analysis':{'degree':'positive'},'knowledge_status':'previously_taught'},{'form_id':'swithe-comparative','form':'swīðor','analysis':{'degree':'comparative'},'knowledge_status':P},{'form_id':'swithe-superlative','form':'swīðost','analysis':{'degree':'superlative'},'knowledge_status':'new_recognition'}]})
+D['rules'].append({'rule_id':'U15-R-SWITHE','statement':'The selected adverb has swīðe, swīðor, swīðost, with unchanged long ī. The comparative can mark preference with ðonne; the two compared objects retain their governed case.','evidence_refs':['U15-G-BT-SWITHE']})
+(O/'grammar-records-families.json').write_text(json.dumps(D,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
+print(len(D['lemmas']),'family lemmas written')

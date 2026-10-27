@@ -1,0 +1,178 @@
+{
+  "schema_version": 1,
+  "policy": "Exact source wording, diplomatic line transcript, selected continuous text, retained original apparatus and modern explanation are separate. These records distinguish editorial transcription repairs from demonstrated source errors.",
+  "changes": [
+    {
+      "change_id": "U15-CN01",
+      "category": "declared_typographic_normalization",
+      "affected": [
+        "exercises-prompts.json"
+      ],
+      "description": "All50 English prompts preserve Cook's wording, parenthetic/bracketed hints and original group/exercise/item IDs. Join print wrapping and page divisions, remove typographic word-division hyphens, represent apostrophes with Unicode right apostrophe, and collapse excess spacing before punctuation. The original joint X, XI heading is retained; it is not reassigned to either group alone.",
+      "evidence_refs": [
+        "U15-EX-P15",
+        "U15-EX-P16",
+        "U15-EX-P17",
+        "U15-EX-P18"
+      ]
+    },
+    {
+      "change_id": "U15-CN02",
+      "category": "correction_of_editorial_transcription_not_source_error",
+      "affected": [
+        "EX-IX-28-01",
+        "EX-IX-29-01",
+        "EX-IX-29-04",
+        "EX-IX-29-11",
+        "EX-IX-30-06",
+        "EX-IX-30-08",
+        "EX-IX-30-12"
+      ],
+      "description": "Fresh high-resolution page inspection corrects initial readings to sisters(52.3), burdens(51.5), Camest thou not without an intervening comma, Show us thy mercy, he shall be called great, Is it your(sing.) earth?, and If they can. The last correction requires a can/magan condition rather than a will/willan condition. No Cook erratum is asserted.",
+      "evidence_refs": [
+        "U15-EX-P15",
+        "U15-EX-P16",
+        "U15-EX-P17"
+      ]
+    },
+    {
+      "change_id": "U15-CN03",
+      "category": "exact_source_hint_retained",
+      "affected": [
+        "EX-IX-30-11",
+        "EX-X-XI-31-11"
+      ],
+      "description": "The printed blossom hint is blōstmian(118), with m, confirmed by personal600dpi reinspection under U15-CN10. The earlier n judgment is retained below as superseded audit history. The age prompt reads twelve(155) years(154.c) old. No Cook error or source-word emendation is asserted.",
+      "evidence_refs": [
+        "U15-EX-P17",
+        "U15-EX-P18"
+      ],
+      "superseded_audit_reading": {
+        "reading": "blōstnian(118), with n",
+        "description": "The printed blossom hint is blōstnian(118), with n, and remains unchanged even if a composed model selects another documented variant. The age prompt reads twelve(155) years(154.c) old. Variant composition and source transcription must remain distinguishable.",
+        "status": "withdrawn by U15-CN10; preserved as audit history, not a source variant"
+      }
+    },
+    {
+      "change_id": "U15-CN04",
+      "category": "declared_selection",
+      "affected": [
+        "FB-IX-DUTIES-FIRST-ARGUMENT",
+        "FB-X-ALFRED-PREFACE",
+        "FB-XI-ALFRED-PRAYER"
+      ],
+      "description": "Select ReaderIX's complete opening paragraph/argument159.1–12, ending heofonum,103words; complete ReaderX162.1–17,152words; complete ReaderXI163.1–18,160words. Counts use continuous-source whitespace words with typographic split words rejoined. ReaderIX's outer speech continues160–161 and is not described as complete. The unmatched outer opening quote is preserved with explanatory orientation; no closing quote is inserted.",
+      "evidence_refs": [
+        "U15-FB-P159",
+        "U15-FB-P160",
+        "U15-FB-P161",
+        "U15-FB-P162",
+        "U15-FB-P163"
+      ]
+    },
+    {
+      "change_id": "U15-CN05",
+      "category": "declared_layout_normalization",
+      "affected": [
+        "reading-source.json",
+        "reading-token-ledger.json",
+        "reading-apparatus.json"
+      ],
+      "description": "Diplomatic lines retain all original note markers. Continuous learner text removes markers and rejoins four typographic split words: andgiet-fullicost, manig-fealdum, will-an and tō-foran. Lexical/correlative hyphens in swā-hwæt-swā, swā-swā, for-ðām-ðe, for-ðon-ðe and ðæt-ðæt remain. All27 original notes and33 anchors are separately retained. Individual line numbers are editorial counts anchored by printed marginal multiples of five. Titles/subtitles are retained as source paratext.",
+      "evidence_refs": [
+        "U15-FB-P159",
+        "U15-FB-P162",
+        "U15-FB-P163"
+      ]
+    },
+    {
+      "change_id": "U15-CN06",
+      "category": "correction_of_editorial_reading_not_source_error",
+      "affected": [
+        "FB-XI-ALFRED-PRAYER",
+        "FB-U15-159-N3",
+        "FB-U15-163-N8"
+      ],
+      "description": "Personally inspected400dpi reading images settle gehīersumnesse(obedience), gestaðela and long-ī Sīe. Earlier geðingsumnesse/intercession and gestaðola observations were editorial misreadings and are withdrawn. Personal ðē in Duties/Prayer has a length mark; relative ðe does not. Duties note3 says188, and Prayer note8 says196.d. These repairs preserve the printed source and are not new dialect/quantity normalizations.",
+      "evidence_refs": [
+        "U15-FB-P159",
+        "U15-FB-P163"
+      ]
+    },
+    {
+      "change_id": "U15-CN07",
+      "category": "declared_teaching_selection",
+      "affected": [
+        "haelu",
+        "haetu"
+      ],
+      "description": "Select invariant singular hǣlu and hǣtu/hǣte for production; recognize attested -e/-u/-o variation. Retain existing hǣle form identities. All plural slots are explicitly unassigned because no plural lexical use is established for this unit. This is neither a claim of absolute historical defectiveness nor a mechanical invented plural paradigm.",
+      "evidence_refs": [
+        "U15-FB-P297",
+        "U15-WRIGHT-P184",
+        "U15-BT-P500B"
+      ]
+    },
+    {
+      "change_id": "U15-CN08",
+      "category": "declared_normalization_in_new_teaching_material",
+      "affected": [
+        "haelu",
+        "ham-noun",
+        "fotsceamul"
+      ],
+      "description": "Dictionary acute quantity marks are represented by course macrons in newly composed lexical tables, while original facsimiles remain unchanged. Exact prompt fōtsceamul is selected; dictionary spellings fōtsceamel/fōtsceamol are not silently substituted. Every proposed table states its stem, class/rules and whether a cell is rule-derived rather than individually attested.",
+      "evidence_refs": [
+        "U15-BT-P500B",
+        "U15-BT-P506",
+        "U15-EX-P17",
+        "U15-FB-P28",
+        "U15-FB-P29"
+      ]
+    },
+    {
+      "change_id": "U15-CN09",
+      "category": "explicit_class_reference_and_prior_identity_reconciliation",
+      "affected": [
+        "strengu",
+        "haelu",
+        "haetu",
+        "EX-IX-29-05",
+        "EX-IX-29-11",
+        "EX-X-XI-31-14"
+      ],
+      "description": "The earlier active ðīestru contract taught only four plural cells and classed the source with strong neuters. It did not establish the abstract-u class. Add Wright184's complete strengu eight-cell reference model, all recognition only, with its stated variants; retain hǣlu/hǣtu plural slots as unassigned. Prior wītga and bisceop already have complete productive systems and ordinary prophet/bishop senses, so selected models reuse them rather than introducing redundant wītega/biscop systems. The selected unnan grant construction uses genitive ðīnre hǣlu in29.11.",
+      "evidence_refs": [
+        "U15-WRIGHT-P184"
+      ],
+      "prior_records": [
+        "chapters/ch01/coverage.json",
+        "chapters/ch13/coverage.json",
+        "chapters/ch14/coverage.json",
+        "lexicon/entries.json"
+      ]
+    },
+    {
+      "change_id": "U15-CN10",
+      "category": "correction_of_our_audit_not_source_error",
+      "affected": [
+        "EX-IX-30-11",
+        "exercises-prompts.json",
+        "exercises-dependencies.json",
+        "cook-local-support.json"
+      ],
+      "supersedes": "U15-CN03 earlier n judgment",
+      "previous_audit_reading": "blōstnian",
+      "confirmed_printed_reading": "blōstmian",
+      "description": "The source editor personally viewed the actual Cook printed17/PDF25 page rendered at600dpi, using original image detail. The glyph after t has the two arches of m. The earlier n endorsement, including the fresh220dpi judgment, was wrong and is explicitly withdrawn. Repair only the transcription and dependent hint explanations. This is not a demonstrated Cook error, an inferred variant, or a change of the printed source.",
+      "evidence_refs": [
+        "U15-EX-P17"
+      ],
+      "image": "sources/audits/unit15-source/exercise-p17-600.png",
+      "render_origin": "sources/audits/unit15-coordinator/cook-ex17-600.png",
+      "inspection_agent": "unit15_source"
+    }
+  ],
+  "demonstrated_new_source_errors": [],
+  "open_source_disputes": []
+}

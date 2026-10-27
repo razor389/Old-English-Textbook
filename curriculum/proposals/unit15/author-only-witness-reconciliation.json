@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "chapter": "ch15",
+  "private": true,
+  "pre_key_excluded": true,
+  "status": "reconciled_with_checked_source_ledger_and_source_editor_model",
+  "comparison_record": "sources/audits/unit15-source/author-only-reading-model.json",
+  "comparison_independence_note": "The source editor's final rendering is explicitly a reconciled model, not a blind witness. The design's earlier independent witness is preserved separately. Comparison found agreement on the essential case, reference, modality and discourse relations; the wording need not be identical.",
+  "initial_witness": "curriculum/proposals/unit15/author-only-source-translation-witness.json",
+  "preservation_rule": "The initial independent witness remains unchanged. These are subsequent selected English renderings and an explicit correction record, not an assertion that the first witness was already correct.",
+  "corrections": [
+    {
+      "source_span_id": "FB-IX-DUTIES-FIRST-ARGUMENT",
+      "initial": "the good deed that he did to poor people in my name",
+      "final": "a good deed that one does in my name",
+      "reason": "The actual source has mann gedēð: impersonal one does. There is no poor-people object in this clause. The first optical interpretation was wrong.",
+      "evidence_refs": ["U15-FB-P159"]
+    },
+    {
+      "source_span_id": "FB-IX-DUTIES-FIRST-ARGUMENT",
+      "initial": "worldly life, provisionally",
+      "final": "worldly life",
+      "reason": "Personally viewed Cook vocabulary printed323 explicitly glosses woruld-līf as worldly life. The judgment setting does not authorize silently substituting hereafter.",
+      "evidence_refs": ["U15-FB-P323"]
+    },
+    {
+      "source_span_id": "FB-IX-DUTIES-FIRST-ARGUMENT",
+      "initial": "bounty/gift uncertain",
+      "final": "bounty/bestowal",
+      "reason": "Use the source worker's checked sęlen noun and its bounty/bestowal sense; preserve the construction of removing the addressee from that bounty.",
+      "evidence_record": "sources/audits/unit15-source/reading-support.json#U15-READ-LEX-SELEN"
+    },
+    {
+      "source_span_id": "FB-XI-ALFRED-PRAYER",
+      "initial": "Saint Michael's obedience",
+      "final": "Saint Michael's obedience",
+      "reason": "The initial design witness was correct here. A provisional source packet briefly typed geðingsumnesse/intercession, but the source editor's renewed image inspection confirmed gehīersumnesse. The final task model must not inherit the provisional transcription error.",
+      "evidence_refs": ["U15-FB-P163"]
+    },
+    {
+      "source_span_id": "FB-XI-ALFRED-PRAYER",
+      "initial": "direct me to you better than I have deserved",
+      "final": "guide me better than my conduct toward you has deserved",
+      "reason": "Attach tō ðē to the following comparison's āworhte relation rather than moving it into the guiding clause. The checked source construction help and the source editor's final model agree that āworhte concerns conduct toward God and its desert.",
+      "evidence_record": "sources/audits/unit15-source/reading-support.json#U15-READ-LEX-AWYRCEAN"
+    },
+    {
+      "source_span_id": "FB-XI-ALFRED-PRAYER",
+      "initial": "Trust and soul's need, provisionally",
+      "final": "Trust; benefit of my soul",
+      "reason": "Personally viewed Cook vocabulary printed316 gives trēownes trust; printed317 gives ðearf need/profit/benefit. These support the selected contextual rendering while need remains a defensible literal alternative.",
+      "evidence_refs": ["U15-FB-P316", "U15-FB-P317"]
+    }
+  ],
+  "readings": [
+    {
+      "source_span_id": "FB-IX-DUTIES-FIRST-ARGUMENT",
+      "task_id": "NEW-U15-D05",
+      "translation": "The Savior said to the proud man: ‘Why were you so withholding of my goods, which I gave you? Why did you disregard the gift that I gave you? I shall now remove you from my bounty, which I bestowed on you; then you will be poor in worldly life. Why were you unwilling to consider that I intend to repay each person for a good deed that one does in my name? I shall repay it to him a hundredfold, as it is declared and stated in my gospel: “Whatever you give to one of the least of mine, you always give it to me, and I shall grant you eternal joy in heaven in return for that.”’",
+      "essential_relations": ["The proud man is the person rebuked.", "Mann gedēð is one does, with no poor-people object.", "Whatever names the gift; ānum names the immediate recipient; mē identifies that recipient with the speaker.", "The entire selection is the first argument within a longer speech."],
+      "defensible_alternatives": ["Rich man can be defended contextually from the title; proud/lordly retains the vocabulary's direct sense.", "Beggar for wǣdla, give for grant, and everlasting for eternal preserve the essential meaning.", "English may repeat the anonymous doer or use a passive good deed done in my name."],
+      "quotation_note": "The modern English rendering closes the outer quotation editorially for readability. The exact Old English selection does not: its final single mark closes only the embedded gospel quotation."
+    },
+    {
+      "source_span_id": "FB-X-ALFRED-PREFACE",
+      "task_id": "NEW-U15-P05",
+      "translation": "King Alfred was the translator of this book, and translated it from Latin into English, as it is now done. At times he set word for word, at times sense from sense, as clearly and intelligibly as he could explain it, considering the various and manifold worldly occupations that often troubled him both in mind and in body. The troubles that befell in his days the kingdoms he had received are very hard for us to enumerate. Yet, when he had learned this book and translated it from Latin into English prose, he afterwards made it into verse, as it is now done. And now he asks, and entreats in God's name, each of those who may wish to read this book to pray for him and not blame him if the reader understands it more correctly than Alfred could; for every person must, according to the measure of his understanding and according to his leisure, speak what he speaks and do what he does.",
+      "essential_relations": ["The preface distinguishes word-for-word from sense-for-sense work.", "The troubles are the subject of the first relative; the kingdoms are the object of receiving in the next relative.", "The final five specified pronouns refer to reader, Alfred, Alfred, reader, Alfred.", "Not blaming remains coordinated content of the appeal."],
+      "defensible_alternatives": ["Book-Latin or literary Latin can retain the specific Bōclæden label when the local help explains it.", "Verse or poetry is acceptable for lēoðe.", "Difficult to count/enumerate retains earfoðrīme; merely difficult omits its particular sense.", "The translation may repeat Alfred and the reader to make the pronoun contrast explicit."]
+    },
+      {
+      "source_span_id": "FB-XI-ALFRED-PRAYER",
+      "task_id": "NEW-U15-R05",
+      "translation": "Lord, almighty God, Maker and Ruler of all creatures, I ask you, by your great mercy, by the sign of the holy cross, by Saint Mary's virginity, by Saint Michael's obedience, and by the love of all your saints and their merits, to guide me better than my conduct toward you has deserved. Guide me according to your will and for the benefit of my soul, better than I myself could know how; establish my mind according to your will and for the benefit of my soul; strengthen me against the devil's temptations; remove from me filthy lust and every unrighteousness; shield me against my adversaries, visible and invisible; and teach me to do your will, so that I may love you inwardly above all things, with pure thought and a pure body. For you are my Creator, my Redeemer, my Help, my Comfort, my Trust and my Hope. May praise and glory be yours now and for ever and ever and ever, world without any end. Amen.",
+      "essential_relations": ["The opening appeal supplies grounds of entreaty and a requested action.", "The first comparison concerns the speaker's desert; the second his own ability to know.", "The six imperatives retain their distinct requested actions.", "The purpose clause concerns the speaker's loving; the concluding wish concerns praise and glory to the addressee.", "The source's repeated ā is retained as repeated ever."],
+      "defensible_alternatives": ["For the sake of may render the repeated for in these grounds of entreaty.", "Need/good/benefit of my soul can convey the supported ðearf sense.", "Enemies for adversaries and inwardly/wholeheartedly for inweardlīce are defensible when the essential meaning remains.", "May you have praise and glory is an acceptable English recasting of the final wish."]
+    }
+  ]
+}

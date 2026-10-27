@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "chapter": "ch15",
+  "owner": "/root/unit15_design",
+  "prior_baseline_checkpoint_for_independent_solving": "9129cda",
+  "exclusive_write_paths": ["curriculum/proposals/unit15/**", "build/u15-design-*"],
+  "other_owners": {
+    "source_editor": {"agent": "/root/unit15_source", "paths": ["sources/audits/unit15-source/**"], "scope": "All 50 exact source prompts, the 415-word reader transcription and apparatus, nominal systems, reader token ledger and source help."},
+    "grammar_editor": {"agent": "/root/unit15_grammar", "paths": ["sources/audits/unit15-grammar/**"], "scope": "Other morphology, verbal/pronominal/adjectival systems, lexical frames, grammatical helps and all 50 final Cook model sequences."},
+    "coordinator": {"agent": "/root", "scope": "Shared learning contract, brief, source indexes, lexicon and grammar registers, Beads, Git, final integration and author/reviewer assignments."}
+  },
+  "pre_key_review_exclusions": ["curriculum/proposals/unit15/**", "chapters/ch15/coverage.json", "chapters/ch15/answer-key.md", "curriculum/UNIT_15_BRIEF.md", "sources/audits/unit15-*/**", "build/u15-design-*", "build/unit15-*"],
+  "reviewer_allowed_inputs_before_solution_freeze": ["Actual learner chapter and its printed visible help", "Accepted earlier active learner chapters and the actual prior registers at 9129cda, without Unit 15 additions", "Selected original source PDFs or clean unannotated primary page images provided for necessary source consultation"],
+  "reviewer_boundary": "The initial independent reviewer solves every actual learner task before access to the current contract, brief, proposals, audits, annotated token maps, private models or key. Freeze complete solutions first. Clean primary images are allowed; an audit directory is not blanket permission to read its analytic contents.",
+  "preserved_initial_witnesses": ["author-only-source-translation-witness.json", "author-only-cook-initial-witness.json", "author-only-model-seed.json", "task-seed.json"],
+  "preservation_rule": "Initial witnesses remain intact. Later corrections are recorded separately. Once the final manifest is sealed, the proposal and witness set remains immutable; material amendments require a separate coordinator reconciliation record."
+}
