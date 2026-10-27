@@ -1,0 +1,372 @@
+{
+  "schema_version": 1,
+  "chapter": "ch16",
+  "packet": "unit16-design",
+  "status": "sealed_reconciled_design_proposal",
+  "sealed_at_utc": "2026-10-27T20:56:51.405992+00:00",
+  "baseline_commit": "e1d94be",
+  "counts": {
+    "tasks": 76,
+    "cook_items": 59,
+    "original_tasks": 17,
+    "requested_output_positions": 179,
+    "morphology_output_positions": 56,
+    "morphology_old_english_positions": 48,
+    "morphology_single_form_positions": 45,
+    "morphology_phrase_positions": 3,
+    "morphology_explanation_positions": 8,
+    "morphology_form_tokens": 51,
+    "lemmas": 340,
+    "forms": 1137,
+    "senses": 407,
+    "features": 159,
+    "paradigms": 56,
+    "paradigm_cells": 564,
+    "teaching_records": 273,
+    "source_words": 444,
+    "source_notes": 54,
+    "source_note_anchors": 59,
+    "examples": 4,
+    "cook_model_tokens": 812,
+    "original_oe_input_tokens": 66,
+    "cook_scaffold_input_sequences": 53,
+    "cook_scaffold_input_tokens": 182,
+    "original_oe_output_tokens": 96
+  },
+  "scope_counts": {
+    "forms": {
+      "new_production": 572,
+      "new_recognition": 8,
+      "supplied": 177,
+      "previously_taught": 379,
+      "prior_recognition": 1
+    },
+    "senses": {
+      "new_production": 68,
+      "supplied": 134,
+      "previously_taught": 204,
+      "prior_recognition": 1
+    },
+    "features": {
+      "new_production": 76,
+      "supplied": 54,
+      "previously_taught": 29
+    },
+    "explicit_promotions": 22
+  },
+  "artifacts": [
+    {
+      "path": "curriculum/proposals/unit16/author-only-binding-review.json",
+      "bytes": 622690,
+      "sha256": "f45d50af3129d3cbb4c5dc7d2074a58279b3d1e4f5cd0ff2765ad78f507383a1",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-cook-binding-review.json",
+      "bytes": 255773,
+      "sha256": "23aa78677f01c50957eeaf568c6ac35dc6608f256b1ad6048014cf1559f92087",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-cook-candidates.json",
+      "bytes": 2159075,
+      "sha256": "4c8f120aa0cccd13ba8effeafba2bb05d7298530f4b02909682f0f3325c71a95",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-cook-sequence-bindings.json",
+      "bytes": 692702,
+      "sha256": "816a0898cf8f1e108b0f6aa30f1d308c12d904893d995dad179563a621c2565a",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-form-bindings.json",
+      "bytes": 51870,
+      "sha256": "53cc5c7939fd8f2c029f219fcf8f33bd68287ba3bfb283c5a62e99fea92dea07",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-form-models.json",
+      "bytes": 26755,
+      "sha256": "2154a34e46208a1b0fe9c03936789a099e2df05d791110621fc044b5d75773a0",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-model-seed.json",
+      "bytes": 39625,
+      "sha256": "7910dc464342981af597dd7a97af0c411be7689f3d815d06f7ae0839a8f31dc3",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-original-sequence-bindings.json",
+      "bytes": 93919,
+      "sha256": "d2dcbae105c4ec8a3f6f4ba6339905d2ba7dd7e8e5bbd6896d36a4eae4b0c236",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-output-models.json",
+      "bytes": 130053,
+      "sha256": "3e69a44a65adbda2d14916dd6c0adf2d1a68bb0794274391f436a3ddbdbdbd8b",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-reading-translation-witness.json",
+      "bytes": 6151,
+      "sha256": "83e4206c94d14f2d75578f0bb812f574579a95d28efb0ba90320e857e890fd45",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-sequence-bindings.json",
+      "bytes": 36747,
+      "sha256": "a95e62e294135cc4d89b7ffa0ccb8c03bdee74e26c69fb196113066323c9bfb5",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/composition-bindings.json",
+      "bytes": 30245,
+      "sha256": "d8070603cece460f6ed324726b2ac3511b28a7564a634274194858265343120b",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/composition-seed.json",
+      "bytes": 3455,
+      "sha256": "921d7d8f3644ac69d9720d08300354a7c5466e574078a864c4f8f27557239ffc",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/compositions.json",
+      "bytes": 64428,
+      "sha256": "02fd11f9c597be19790486053b20aeaec677d0e6397bc83b40eb64aa3fbe93d6",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/cook-candidate-summary.json",
+      "bytes": 12210,
+      "sha256": "a2cd40f609bcb58ab0b8da56391d625c23927c3afa0ec12a354e216d6664c970",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/cook-support-closure.json",
+      "bytes": 10637,
+      "sha256": "c8e943f4d86e69331f56b54874d6098b555ee4678de903631964772ff8bfd040",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/design-audit-report.md",
+      "bytes": 7415,
+      "sha256": "7c4cc037e872261476450b0ebb731ae1bf0c646a63d37351fe7593d2b5af1b0c",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/design-outline.md",
+      "bytes": 7607,
+      "sha256": "27a7b4994de5b9c63017566c2a553fd213c6c180f736f3eb701a80674650c4ab",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/display-matrices.json",
+      "bytes": 1063868,
+      "sha256": "68432284a640fa1ca46a4540e62c35a5cc2cf7ca915199a88cc198178bdae052",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/form-input-bindings.json",
+      "bytes": 23420,
+      "sha256": "8c8a531d0ef3bfd4b338b3e954a320cc1f9c20ff23fea8e6c2edc914a6f238a3",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/form-task-plan.json",
+      "bytes": 81618,
+      "sha256": "882c17dcd2171f5b792162ab5e138865f033bb15286df16527f0c760a92607af",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/input-reference-records.json",
+      "bytes": 987,
+      "sha256": "4a771751adca9507330bf3711ca06436f299b49c16fb96a139ff40a728e2c18a",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/integration-validation.json",
+      "bytes": 340,
+      "sha256": "7e356c1cf916dd384a5d449383493502f1001f95c3f7714adcb6c769da1700da",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/inventory.json",
+      "bytes": 8400552,
+      "sha256": "fbb19e338ab8749060c87f96c021ce7598ac648460a5ba01c8f1c846ec27914f",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/outcomes.json",
+      "bytes": 6119,
+      "sha256": "58b56e57dcaedec2394f21a8f1559bb07a7c8acc13c69c11fb83caa476420fc3",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/prior-audit.json",
+      "bytes": 363713,
+      "sha256": "f8f4cd1203c82c5d4422a515d54f10264452a282e66f9aaa3ee9f7869c2653c1",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/public-sequence-bindings.json",
+      "bytes": 35163,
+      "sha256": "30ed6297ca830a3fde3914374d8539e0991df1e1b3e671b8d1a464f7836ccd98",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/reading-sense-reconciliation.json",
+      "bytes": 5926,
+      "sha256": "5eeb263abd098009792db258fd9b82d0d06291e13f306334c4b7e9444f1befed",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/reading-token-bindings.json",
+      "bytes": 717570,
+      "sha256": "859def54e8ad4c6aaec7def8180a73fe29eda791c61c5de6d282713bd0ce0518",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/sequence-binding-validation.json",
+      "bytes": 287,
+      "sha256": "0b1e6e9bd5dbaa655a28d95245004422f07c6b40860ede2eb1c2149fce00ec4a",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/source-task-crosswalk.json",
+      "bytes": 66787,
+      "sha256": "0f4f797d0f0ff41760c1c29d985ff3c20a4e33e26596b09893c498ca9b849798",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/task-plan.json",
+      "bytes": 3236585,
+      "sha256": "64bf9fefd9bbb0d8095f9784b1cea6be2b797732689279c6306af8586a16c401",
+      "role": "operative reconciled proposal"
+    },
+    {
+      "path": "curriculum/proposals/unit16/task-seed.json",
+      "bytes": 31725,
+      "sha256": "60950132f92c4cdbb978385fa978e790bafd5fdbc50e0d1900915693f997d4d7",
+      "role": "retained derivation, seed, or independent audit provenance; not an alternative assignment contract"
+    },
+    {
+      "path": "curriculum/proposals/unit16/validation.json",
+      "bytes": 2046,
+      "sha256": "17fa827269b2db386eab466907fa07bcde492423516a6e943ae0da58e37c08f0",
+      "role": "operative reconciled proposal"
+    }
+  ],
+  "reconciled_inputs": [
+    {
+      "path": "curriculum/grammar.json",
+      "bytes": 3576419,
+      "sha256": "5ef5528adbb4a460b48b251dfe3a1abebb37b4b3fe04d7252059422ac7424891"
+    },
+    {
+      "path": "curriculum/proposals/unit16/input-reference-records.json",
+      "bytes": 987,
+      "sha256": "4a771751adca9507330bf3711ca06436f299b49c16fb96a139ff40a728e2c18a"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "bytes": 35345639,
+      "sha256": "5468d103c55f0341a03b81023350d2c4d6bf22fa61b711698659c88ec9226abf"
+    },
+    {
+      "path": "sources/audits/unit16-coordinator/evidence-catalog.json",
+      "bytes": 9397,
+      "sha256": "88044d5f0c0e8261787cfdd9121f7b56dde3a7c67cdb51852b7e5eb703df46ff"
+    },
+    {
+      "path": "sources/audits/unit16-coordinator/reward-correction.json",
+      "bytes": 6291,
+      "sha256": "b1d993d7ea9fe154b5f5eb87613cb3e4d690b35b99b31db5c572b036cf03eb9f"
+    },
+    {
+      "path": "sources/audits/unit16-grammar/author-only-cook-models.json",
+      "bytes": 925607,
+      "sha256": "d435f3593ed457e6c8dc7f938e7871bd401855c80100d1e1245bd2f916033d6a"
+    },
+    {
+      "path": "sources/audits/unit16-grammar/evidence-catalog.json",
+      "bytes": 120883,
+      "sha256": "4caf1fff3b6bbcb2b0513d00aea446b39540833f6a8f7deac75177e5b4f0301e"
+    },
+    {
+      "path": "sources/audits/unit16-grammar/exercises-verbal-dependencies.json",
+      "bytes": 320285,
+      "sha256": "f8721fbef5050837cd3a6ae5648d1b1e51f969b927fca880df9fd034b6ba6164"
+    },
+    {
+      "path": "sources/audits/unit16-grammar/grammar-records.json",
+      "bytes": 433819,
+      "sha256": "d8e0afdad82bffa590f53a64e04aa005e8d70ac7f5a8580f50b03b90e535d2ce"
+    },
+    {
+      "path": "sources/audits/unit16-grammar/manifest.json",
+      "bytes": 11318,
+      "sha256": "05c26c90fd79ac3be6475df737478c10bb386124152d06e4f43feeb8ba63dce8"
+    },
+    {
+      "path": "sources/audits/unit16-grammar/reading-verbal-support.json",
+      "bytes": 82324,
+      "sha256": "f04b2d5577a223863bbd135bda98229376d3f4e67b771727a5bdf14859a1875a"
+    },
+    {
+      "path": "sources/audits/unit16-grammar/source-support.json",
+      "bytes": 35748,
+      "sha256": "4953958fab9c3e72ad2b1184a2bfefd34fd29d9cb2b67014e5578eb3a3da2ed8"
+    },
+    {
+      "path": "sources/audits/unit16-source/artifact-manifest.json",
+      "bytes": 7378,
+      "sha256": "7a881418a0ba135ea6cba6f3ec758911402ee3b941e28234fae2ab721e5ad0ad"
+    },
+    {
+      "path": "sources/audits/unit16-source/evidence-catalog.json",
+      "bytes": 36028,
+      "sha256": "e470102c07c6fdbb7fe78668b3a483ad647fd0d290818ab77292e3bb05d05c7c"
+    },
+    {
+      "path": "sources/audits/unit16-source/exercise-constructions.json",
+      "bytes": 11977,
+      "sha256": "8b02998bd9055b3d07066574fbb9c66450a3018ae63e8d1a1740741c2fe66e35"
+    },
+    {
+      "path": "sources/audits/unit16-source/exercise-support.json",
+      "bytes": 7195,
+      "sha256": "65fee1618d377826c863da6bd12d8fdce16a268cf2d325bf4f518128a00d4595"
+    },
+    {
+      "path": "sources/audits/unit16-source/exercises-dependencies.json",
+      "bytes": 412723,
+      "sha256": "9ce37836c85f6ea7f205aa9776af7359bbd6c0e452edf9f707237f09363b4752"
+    },
+    {
+      "path": "sources/audits/unit16-source/lexical-inventory.json",
+      "bytes": 617160,
+      "sha256": "5323664c145915d42bb7ba7bfdce387046b7141de6ecc91c6fe5f67684694067"
+    },
+    {
+      "path": "sources/audits/unit16-source/reading-constructions.json",
+      "bytes": 14844,
+      "sha256": "37d315d44c6068205e9d45834c6a5e42a2c74da9b3058413350618a31f56994e"
+    },
+    {
+      "path": "sources/audits/unit16-source/reading-support.json",
+      "bytes": 45906,
+      "sha256": "04e3083e5d9b727cd768e77166997838cc683c839683e197305b58d067de2f8c"
+    },
+    {
+      "path": "sources/audits/unit16-source/reading-token-ledger.json",
+      "bytes": 632019,
+      "sha256": "f497c36d1e26bd2f8faf5ce7ad2a532be66d75dd857ac73f73035a73b3b6e2c7"
+    }
+  ],
+  "remaining_material_blockers": [],
+  "scope_limit": "The coordinator must accept and commit the canonical contract before prose. This seal does not certify the unwritten chapter, independent review, export, or register integration."
+}

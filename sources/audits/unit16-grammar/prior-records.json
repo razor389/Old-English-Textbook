@@ -1,0 +1,97 @@
+{
+  "purpose": "Compact actual-record reading receipt; no new teaching or changes to historical records. The actual cumulative registers and immutable root baseline remain authoritative, not this receipt.",
+  "contracts_read": [
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "d829e1e239a8e8452ca99bf8354db29d02f1e640941bfec5fbed647dd6577b27",
+      "bytes": 1939366
+    },
+    {
+      "path": "chapters/ch02/coverage.json",
+      "sha256": "cf13e0c96ae80fcec8ff5f10a567715913d54f27ce11c94a44f683b1a9012fa6",
+      "bytes": 940227
+    },
+    {
+      "path": "chapters/ch03/coverage.json",
+      "sha256": "0d78e024da44545d9949800a16a3e5deefe0e24e7f34fc4ef2682ce90e958703",
+      "bytes": 3194239
+    },
+    {
+      "path": "chapters/ch04/coverage.json",
+      "sha256": "9d900715219de8acdb1f64ebe3590888781cf95102ee9ae877e088fdf663fd5e",
+      "bytes": 1487060
+    },
+    {
+      "path": "chapters/ch05/coverage.json",
+      "sha256": "0e37b344c6c640467741c01aee1a22fd2da569c7a202f1c3eb5e894ad6825fe6",
+      "bytes": 2230817
+    },
+    {
+      "path": "chapters/ch06/coverage.json",
+      "sha256": "21e027256da1a12248f9780e643dc9612ade0f1de05c785dccaee5e3c993264a",
+      "bytes": 3184327
+    },
+    {
+      "path": "chapters/ch07/coverage.json",
+      "sha256": "4f93f053b051c6b6a6a509c03af2afe6ce57ca436f6957100a052bc314c345fe",
+      "bytes": 4480616
+    },
+    {
+      "path": "chapters/ch08/coverage.json",
+      "sha256": "e9b4cbd48aef934e0e71d6ff02f94b87926b7f8dfdee133e7ab2bf68280c41d0",
+      "bytes": 2971630
+    },
+    {
+      "path": "chapters/ch09/coverage.json",
+      "sha256": "cf5ed7d913db34ec47e14b9f998f64dcdbce40176a33bfcfdc713d913414339a",
+      "bytes": 5555245
+    },
+    {
+      "path": "chapters/ch10/coverage.json",
+      "sha256": "d7a2eab333238bcc687244b4fe973c2b8ea70e312a0448c4ae37bbfae70460c1",
+      "bytes": 5184624
+    },
+    {
+      "path": "chapters/ch11/coverage.json",
+      "sha256": "0fa47cc44cafd40d34f81aea3819e89abd53a57d0686e84e7a14889edda6473c",
+      "bytes": 7262683
+    },
+    {
+      "path": "chapters/ch12/coverage.json",
+      "sha256": "318634004fd9961ad0cb548c5e4e476b58faf240ca27ef94d21fe50e54c7c569",
+      "bytes": 6469331
+    },
+    {
+      "path": "chapters/ch13/coverage.json",
+      "sha256": "af80ff04d79a093e1ea0f6a7c4288ccb49cd896bd11274a211807bf1b8cb87a0",
+      "bytes": 10534121
+    },
+    {
+      "path": "chapters/ch14/coverage.json",
+      "sha256": "5461481aff98b0c991575dd9e06747aad5f6ea0997f4246df0e74ef6cf0e43e1",
+      "bytes": 7821427
+    },
+    {
+      "path": "chapters/ch15/coverage.json",
+      "sha256": "fcd821dcc67f4beb17f8684e66a17451c7b777bb9fc0eef4014f164f7dfd1b7f",
+      "bytes": 13310501
+    }
+  ],
+  "lexicon_identity": {
+    "path": "lexicon/entries.json",
+    "sha256": "5468d103c55f0341a03b81023350d2c4d6bf22fa61b711698659c88ec9226abf",
+    "bytes": 35345639
+  },
+  "grammar_identity": {
+    "path": "curriculum/grammar.json",
+    "sha256": "5ef5528adbb4a460b48b251dfe3a1abebb37b4b3fe04d7252059422ac7424891",
+    "bytes": 3576419
+  },
+  "counts": {
+    "lemmas": 955,
+    "forms": 10470,
+    "senses": 1207,
+    "features": 950
+  },
+  "compaction_note": "The unused37MB diagnostic duplicate of complete registers was replaced by exact input identities/counts. Actual prior forms/senses/milestones are read directly by the packet builders and preserved in selected dependency records. This diagnostic is not a substitute for the actual records."
+}

@@ -29,8 +29,8 @@ evidence('sources/audits/unit02-grammar/cook-fb-p70.png','cook_fb_1895_2',70,86,
          'Viewed while locating113; this page contains the end of114 and beginning of115. It is not cited as the page of113.'),
 evidence('sources/audits/unit02-grammar/cook-fb-p71.png','cook_fb_1895_2',71,87,'115–117',
          'Viewed while locating113; this page contains115–117. It is not cited as the page of113.'),
-evidence('sources/audits/unit16-grammar/ex-p63.png','cook_ex_1895',63,71,'English–Old English vocabulary: swim',
-         'Personally inspected the vocabulary page in the Unit16 model audit; no reward correction is inferred from it.')]
+evidence('sources/audits/unit16-grammar/ex-p63.png','cook_ex_1895',63,71,'English–Old English vocabulary: street; suffice',
+         'Street is strǣt(51.b); suffice and be sufficient for are genyhtsumian(118). Rechecked personally on27October; the former swim locator label was a coordinator metadata error. No reward correction is inferred from this page.')]
 prompts=read('sources/audits/unit16-source/exercises-prompts.json')['items']
 original=next(x['prompt'] for x in prompts if x['source_item_id']=='EX-XII-XIII-34-09')
 correction={
@@ -40,7 +40,7 @@ correction={
  'original_identifier':'XII,XIII.34.9','original_prompt':original,
  'original_hint':'reward (āgyltan, 113)',
  'corrected_guidance':'reward: āgyldan, strong class III (Cook104)',
- 'origin_categories':{'original_prompt':'exact source','correction':'documented editorial correction','model':'new teaching material'},
+ 'origin_categories':{'original_prompt':'exact source','correction':'new teaching material','model':'new teaching material'},
  'decision':'The printed weak headword/class belong to a verb meaning sin or fail in duty. Repay/reward requires the distinct strong gyldan verb. The source English, original hint and original image are all retained; only modern guidance is corrected.',
  'selected_form':'āgylt','analysis':'third-person singular present indicative of strong āgyldan; a valid contracted form, not evidence for weak āgyltan',
  'selected_support':'ðonne āgylt hē ǣlcum be his āgnum weorce',
@@ -54,13 +54,15 @@ correction={
 save('sources/audits/unit16-coordinator/reward-correction.json',correction)
 catalog={
  'U16-C06-REWARD':{'source_id':'cook_ex_1895','printed_page':20,'pdf_page_one_based':28,
- 'original_identifier':'XII,XIII.34.9; correctionC06','origin_category':'documented editorial correction',
+ 'original_identifier':'XII,XIII.34.9; correctionC06','origin_category':'new teaching material',
+ 'editorial_treatment':'Documented correction C06, with exact source prompt and primary evidence preserved separately.',
  'record':'sources/audits/unit16-coordinator/reward-correction.json',
  'image':'sources/audits/unit16-source/exercise-003.png',
  'image_sha256':hashlib.sha256((ROOT/'sources/audits/unit16-source/exercise-003.png').read_bytes()).hexdigest(),
  'personally_viewed':True,'inspection_scope':correction['decision'],'supporting_primary_evidence':records[:5]},
  'U16-LATIN-NOTE10':{'source_id':'cook_fb_1895_2','printed_page':169,'pdf_page_one_based':185,
- 'original_identifier':'printed169 note10','origin_category':'modern English support for exact source apparatus',
+ 'original_identifier':'printed169 note10','origin_category':'new teaching material',
+ 'editorial_treatment':'Modern English support for exact source apparatus; no Old English emendation.',
  'image':'sources/audits/unit16-coordinator/cook-fb-p169-600.png',
  'image_sha256':hashlib.sha256((ROOT/'sources/audits/unit16-coordinator/cook-fb-p169-600.png').read_bytes()).hexdigest(),
  'personally_viewed':True,'inspection_scope':'Latin ceroma fricavit eum means rubbing/anointing him with ointment; the printed Latin contains no explicit shoulder or neck noun. Do not introduce either as a certain literal gloss.',

@@ -112,7 +112,8 @@ c['contract_metrics']={
     **{k:dc[k] for k in ['logical_cells','literal_form_cells','unassigned_table_slots','component_form_occurrences','literal_routes','derived_cells']},
     'new_examples':4,'source_words':[444],'source_notes':54,'source_note_anchors':59,
     'requested_output_positions':sum(len(t['output_positions']) for t in tasks),
-    'morphology_output_positions':validation['counts']['morphology_output_positions']}
+    'morphology_output_positions':validation['counts']['morphology_output_positions'],
+    'single_cell_form_output_positions':sum(p['kind']=='form' for t in tasks for p in t['output_positions'])}
 path='build/unit16-coverage-candidate.json' if args.candidate else 'chapters/ch16/coverage.json'
 write(path,c)
 print(path,json.dumps(c['contract_metrics'],ensure_ascii=False))

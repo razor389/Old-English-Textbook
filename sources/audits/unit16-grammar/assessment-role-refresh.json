@@ -1,0 +1,111 @@
+{
+  "schema_version": 1,
+  "chapter": "ch16",
+  "origin_category": "new teaching material",
+  "record_id": "U16-G-ASSESSMENT-ROLE-REFRESH-01",
+  "recorded_at_utc": "2026-10-27T20:49:23.539186+00:00",
+  "reason": "The aggregate binder had allowed a supplied form scope and a supplied sense scope to cross-contaminate distinct contextual uses. Four previously/newly taught prepositions were therefore incorrectly tagged as visibly supplied. The exact phrase-support assignments are now corrected.",
+  "upstream_binding_path": "curriculum/proposals/unit16/author-only-cook-sequence-bindings.json",
+  "upstream_binding_sha256": "816a0898cf8f1e108b0f6aa30f1d308c12d904893d995dad179563a621c2565a",
+  "changed_positions": [
+    {
+      "source_item_id": "EX-XII-XIII-33-03",
+      "token_index": 15,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-into-goal",
+      "form_status": "previously_taught",
+      "sense_status": "previously_taught",
+      "prior_form_production": "ch01",
+      "prior_sense_production": "ch11",
+      "old_assessment_role": "supplied_position_not_unaided_recall",
+      "new_assessment_role": "independent_production",
+      "removed_inapplicable_support_ids": [
+        "U16-HELP-EX-XII-XIII-33-03-LEXICAL"
+      ],
+      "linguistic_identity_and_analysis_unchanged": true
+    },
+    {
+      "source_item_id": "EX-XII-XIII-33-10",
+      "token_index": 6,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-into-goal",
+      "form_status": "previously_taught",
+      "sense_status": "previously_taught",
+      "prior_form_production": "ch01",
+      "prior_sense_production": "ch11",
+      "old_assessment_role": "supplied_position_not_unaided_recall",
+      "new_assessment_role": "independent_production",
+      "removed_inapplicable_support_ids": [
+        "U16-HELP-EX-XII-XIII-33-10-LEXICAL"
+      ],
+      "linguistic_identity_and_analysis_unchanged": true
+    },
+    {
+      "source_item_id": "EX-XII-XIII-34-07",
+      "token_index": 18,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-1",
+      "form_status": "previously_taught",
+      "sense_status": "previously_taught",
+      "prior_form_production": "ch01",
+      "prior_sense_production": "ch01",
+      "old_assessment_role": "supplied_position_not_unaided_recall",
+      "new_assessment_role": "independent_production",
+      "removed_inapplicable_support_ids": [
+        "U16-HELP-EX-XII-XIII-34-07-LEXICAL"
+      ],
+      "linguistic_identity_and_analysis_unchanged": true
+    },
+    {
+      "source_item_id": "EX-XII-XIII-36-02",
+      "token_index": 5,
+      "surface": "tō",
+      "lemma_id": "to",
+      "form_id": "to-preposition-dative-invariant",
+      "sense_id": "to-destination",
+      "form_status": "previously_taught",
+      "sense_status": "previously_taught",
+      "prior_form_production": "ch07",
+      "prior_sense_production": "ch10",
+      "old_assessment_role": "supplied_position_not_unaided_recall",
+      "new_assessment_role": "independent_production",
+      "removed_inapplicable_support_ids": [
+        "U16-HELP-EX-XII-XIII-36-02-LEXICAL"
+      ],
+      "linguistic_identity_and_analysis_unchanged": true
+    }
+  ],
+  "unchanged_scope": {
+    "cook_models": 59,
+    "ordered_tokens": 812,
+    "model_text": true,
+    "all_lemma_form_sense_ids": true,
+    "all_linguistic_analyses": true,
+    "source_prompts": true,
+    "linguistic_amendment_count": 50
+  },
+  "preserved_witnesses": [
+    {
+      "path": "sources/audits/unit16-grammar/initial-independent-models.json",
+      "sha256": "249bf7081a92aa84787b1e3942383382fb48334c1ab50ee84fc0da857e489f2e"
+    },
+    {
+      "path": "sources/audits/unit16-grammar/model-amendments.json",
+      "sha256": "e1e08dd9ac278c315751e6acb32f621631c67b801a60af43ec91b39aed874ff1"
+    }
+  ],
+  "source_inventory_coordination": "The source editor reports nine reading-sense fallback corrections after its final line-boundary check, including on at169.6 continuing into on ðǣm plegan169.7. These do not expand lexical proposal scope. The grammar auditor independently confirms that lexical-inventory.json retains the exact previously reconciled hash.",
+  "status": "independently_confirmed_metadata_only",
+  "source_inventory_hash_confirmation": {
+    "path": "sources/audits/unit16-source/lexical-inventory.json",
+    "sha256": "5323664c145915d42bb7ba7bfdce387046b7141de6ecc91c6fe5f67684694067",
+    "unchanged_from_pre_refresh_manifest": true
+  },
+  "interruption_recovery": "The four-position linguistic-identity comparison and validation were already complete before the interrupted seal. Recovery reuses that saved audit, verifies its upstream hash and preserved witnesses, then copies the current metadata and reseals."
+}

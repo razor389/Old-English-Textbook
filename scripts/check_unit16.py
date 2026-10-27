@@ -124,7 +124,10 @@ def main():
                 pair=(pos.get('paradigm_id'),pos.get('cell_id'))
                 require(pair in routekeys,t['task_id']+': form output has no actual cell '+str(pair))
     def sequence(seq,label):
-        text=seq.get('learner_text',seq.get('text',''));tokens=seq['tokens'];words=text.split()
+        text=seq.get('learner_text',seq.get('text',''))
+        require('tokens' in seq,label+': missing ordered token bindings')
+        if 'tokens' not in seq:return
+        tokens=seq['tokens'];words=text.split()
         require(len(words)==len(tokens),label+': token count differs')
         for word,t in zip(words,tokens):
             if t.get('kind',t.get('token_type'))=='punctuation':continue
@@ -194,6 +197,13 @@ def main():
             if marker in student:
                 tail=student.split(marker,1)[1];prompt=tail.strip().split('\n\n')[0]
                 require(prompt==t['prompt'],tid+': actual prompt differs')
+                item_at=student.index(marker)
+                for kind in ['form','sense','feature']:
+                    for rid in t.get('tested_'+kind+'_ids',[]):
+                        if status(kind,rid) not in {'new_production','new_recognition'}:continue
+                        record=rec(kind,rid)
+                        locations=[student.find('<!-- teaching: '+x+' -->') for x in record.get('teaching_ids',[])]
+                        require(any(0<=position<item_at for position in locations),tid+': new tested '+rid+' lacks an earlier visible teaching location')
                 body=tail.split('<!-- item:',1)[0].replace('**','');cursor=0
                 for s in t.get('input_sequences',[]):
                     at=body.find(s['text'],cursor);require(at>=0,tid+': ordered input missing');cursor=max(cursor,at+len(s['text']))
@@ -215,7 +225,14 @@ def main():
             if stem=='chapter-16':
                 chars=lambda s:re.sub(r'\s+','',s.replace('\u00ad','-'))
                 for t in tasks.values():require(chars(t['prompt']) in chars(pdftext),t['task_id']+': PDF prompt differs')
+    report={'chapter_id':'ch16','status':'fail' if ERRORS else 'pass',
+            'contract':args.contract,'candidate':args.candidate,'draft':args.draft,'tex':args.tex,
+            'error_count':len(ERRORS),'errors':ERRORS,
+            'scope_limit':'Structural and dependency checks; not a substitute for source inspection or independent linguistic review.'}
+    (ROOT/'build/unit16-check.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
     if ERRORS:
-        print('\n'.join('ERROR: '+e for e in ERRORS));raise SystemExit(1)
+        print('\n'.join('ERROR: '+e for e in ERRORS[:60]))
+        print(str(len(ERRORS))+' total errors; full list: build/unit16-check.json')
+        raise SystemExit(1)
     print(f"Unit16 checks pass:{len(tasks)} tasks,{len(position_ids)} outputs,59 exact Cook prompts,444 reading tokens,54 notes/59 anchors; dependencies/displays/evidence/prior artifacts checked.")
 if __name__=='__main__':main()

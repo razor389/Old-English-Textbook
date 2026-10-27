@@ -75,7 +75,7 @@ for lid, old in old_lemmas.items():
     old_meta = {k: v for k, v in old.items() if k not in ['forms', 'senses', 'metadata_by_chapter']}
     new_meta = {k: v for k, v in new.items() if k not in ['forms', 'senses', 'metadata_by_chapter']}
     if old_meta != new_meta:
-        assert new['metadata_by_chapter']['through_ch16'] == old_meta, lid
+        assert new['metadata_by_chapter']['through_ch15'] == old_meta, lid
         changed_metadata.append(lid)
 for name, before, after in [('lexicon', b['lexicon'], lex), ('grammar', b['grammar'], gram)]:
     assert after['reviewed_chapters'] == before['reviewed_chapters'] + ['ch16'], name

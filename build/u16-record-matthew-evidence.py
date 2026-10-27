@@ -27,7 +27,7 @@ save('sources/registry.json',registry)
 catalog=read(folder+'evidence-catalog.json')
 catalog['U16-MT-P114']={
  'source_id':sid,'printed_page':114,'pdf_page_one_based':124,'original_identifier':'Matthew14.8,14.10; left/first column',
- 'origin_category':'exact source evidence with declared normalization in new teaching material',
+ 'origin_category':'exact source',
  'image':page,'image_sha256':sha(page),'personally_viewed':True,
  'inspection_scope':'Firstcolumn14.8: Iohannes heafod þæs fulluhteres. Firstcolumn14.10: beheafdode Iohannem on þam cwerterne. The genitive Iohannes and accusative Iohannem are directly attested; the rightcolumn variant Iohanne is not silently substituted.',
  'declared_normalization':'Retain the attested endings, writing initial J in Johannes/Johannem solely to follow Cook’s printed Johannes hint. No vowel quantity is inferred and no complete Latin proper-name system is assigned.',

@@ -1,0 +1,961 @@
+{
+  "schema_version": 1,
+  "chapter": "ch16",
+  "status": "complete_four_example_bindings",
+  "sequences": [
+    {
+      "sequence_id": "NEW-U16-EXAMPLE-01-TEXT",
+      "owner_id": "NEW-U16-EXAMPLE-01",
+      "kind": "example",
+      "text": "Se fæder sægde: ‘Ic eom hēr.’ Se fæder sægde ðæt hē ðǣr wǣre.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Se",
+          "surface": "Se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch01",
+          "prior_sense_production": "ch01"
+        },
+        {
+          "token_index": 2,
+          "literal": "fæder",
+          "surface": "fæder",
+          "lemma_id": "faeder",
+          "form_id": "faeder-nom-sg",
+          "sense_id": "faeder-1",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch10",
+          "prior_sense_production": "ch10"
+        },
+        {
+          "token_index": 3,
+          "literal": "sægde:",
+          "surface": "sægde",
+          "lemma_id": "secgan",
+          "form_id": "secgan-pret-3-sg",
+          "sense_id": "secgan-1",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch02"
+        },
+        {
+          "token_index": 4,
+          "literal": "‘Ic",
+          "surface": "Ic",
+          "lemma_id": "ic",
+          "form_id": "ic-nom-sg",
+          "sense_id": "ic-personal",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch02"
+        },
+        {
+          "token_index": 5,
+          "literal": "eom",
+          "surface": "eom",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pres-1-sg",
+          "sense_id": "wesan-be",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch01",
+          "prior_sense_production": "ch01"
+        },
+        {
+          "token_index": 6,
+          "literal": "hēr.’",
+          "surface": "hēr",
+          "lemma_id": "her",
+          "form_id": "her-invariant",
+          "sense_id": "her-1",
+          "analysis": {
+            "invariant": true,
+            "part_of_speech": "adverb"
+          },
+          "contextual_analysis": {
+            "invariant": true,
+            "part_of_speech": "adverb"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch11",
+          "prior_sense_production": "ch11"
+        },
+        {
+          "token_index": 7,
+          "literal": "Se",
+          "surface": "Se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch01",
+          "prior_sense_production": "ch01"
+        },
+        {
+          "token_index": 8,
+          "literal": "fæder",
+          "surface": "fæder",
+          "lemma_id": "faeder",
+          "form_id": "faeder-nom-sg",
+          "sense_id": "faeder-1",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch10",
+          "prior_sense_production": "ch10"
+        },
+        {
+          "token_index": 9,
+          "literal": "sægde",
+          "surface": "sægde",
+          "lemma_id": "secgan",
+          "form_id": "secgan-pret-3-sg",
+          "sense_id": "secgan-content",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch09"
+        },
+        {
+          "token_index": 10,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "thaet-conjunction",
+          "form_id": "thaet-conjunction-invariant",
+          "sense_id": "thaet-conjunction-1",
+          "analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "contextual_analysis": {
+            "invariant": true,
+            "function": "content conjunction",
+            "note": "The prior source-shaped analysis remains intact; the current finite content clause is a taught Unit9 use."
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch09",
+          "prior_sense_production": "ch09"
+        },
+        {
+          "token_index": 11,
+          "literal": "hē",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "source_analysis": "nominative masculine singular subject"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch02"
+        },
+        {
+          "token_index": 12,
+          "literal": "ðǣr",
+          "surface": "ðǣr",
+          "lemma_id": "thaer",
+          "form_id": "thaer-invariant-source",
+          "sense_id": "thaer-there",
+          "analysis": "invariant spatial adverb",
+          "contextual_analysis": {
+            "invariant": true,
+            "function": "adverb"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch13",
+          "prior_sense_production": "ch13"
+        },
+        {
+          "token_index": 13,
+          "literal": "wǣre.",
+          "surface": "wǣre",
+          "lemma_id": "wesan",
+          "form_id": "wesan-preterite-subj-3-sg",
+          "sense_id": "wesan-be",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch07",
+          "prior_sense_production": "ch01"
+        }
+      ],
+      "required_form_ids": [
+        "faeder-nom-sg",
+        "he-m-nom-sg",
+        "her-invariant",
+        "ic-nom-sg",
+        "se-m-nom-sg",
+        "secgan-pret-3-sg",
+        "thaer-invariant-source",
+        "thaet-conjunction-invariant",
+        "wesan-pres-1-sg",
+        "wesan-preterite-subj-3-sg"
+      ],
+      "required_sense_ids": [
+        "faeder-1",
+        "he-1",
+        "her-1",
+        "ic-personal",
+        "se-the",
+        "secgan-1",
+        "secgan-content",
+        "thaer-there",
+        "thaet-conjunction-1",
+        "wesan-be"
+      ],
+      "status": "bound_to_exact_prior_or_assigned_current_records"
+    },
+    {
+      "sequence_id": "NEW-U16-EXAMPLE-02-TEXT",
+      "owner_id": "NEW-U16-EXAMPLE-02",
+      "kind": "example",
+      "text": "Hē geseah ðone mann cuman. Hē wiste ðæt se mann cōme.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Hē",
+          "surface": "Hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "source_analysis": "nominative masculine singular subject"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch02"
+        },
+        {
+          "token_index": 2,
+          "literal": "geseah",
+          "surface": "geseah",
+          "lemma_id": "geseon",
+          "form_id": "geseon-pret-3-sg",
+          "sense_id": "geseon-perceive-action",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "contextual_analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch05",
+          "prior_sense_production": "ch09"
+        },
+        {
+          "token_index": 3,
+          "literal": "ðone",
+          "surface": "ðone",
+          "lemma_id": "se",
+          "form_id": "se-m-acc-sg",
+          "sense_id": "se-the",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch01",
+          "prior_sense_production": "ch01"
+        },
+        {
+          "token_index": 4,
+          "literal": "mann",
+          "surface": "mann",
+          "lemma_id": "mann",
+          "form_id": "mann-acc-sg",
+          "sense_id": "mann-1",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "contextual_analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch01",
+          "prior_sense_production": "ch01"
+        },
+        {
+          "token_index": 5,
+          "literal": "cuman.",
+          "surface": "cuman",
+          "lemma_id": "cuman",
+          "form_id": "cuman-infinitive-citation",
+          "sense_id": "cuman-come",
+          "analysis": {
+            "nonfinite": "infinitive",
+            "infinitive_type": "uninflected",
+            "use": "bounded elementary infinitive syntax only"
+          },
+          "contextual_analysis": {
+            "nonfinite": "infinitive",
+            "infinitive_type": "uninflected",
+            "use": "bounded elementary infinitive syntax only"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch06",
+          "prior_sense_production": "ch05"
+        },
+        {
+          "token_index": 6,
+          "literal": "Hē",
+          "surface": "Hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "source_analysis": "nominative masculine singular subject"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch02"
+        },
+        {
+          "token_index": 7,
+          "literal": "wiste",
+          "surface": "wiste",
+          "lemma_id": "witan",
+          "form_id": "witan-pret-3-sg",
+          "sense_id": "witan-content",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "contextual_analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch06",
+          "prior_sense_production": "ch09"
+        },
+        {
+          "token_index": 8,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "thaet-conjunction",
+          "form_id": "thaet-conjunction-invariant",
+          "sense_id": "thaet-conjunction-1",
+          "analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "contextual_analysis": {
+            "invariant": true,
+            "function": "content conjunction",
+            "note": "The prior source-shaped analysis remains intact; the current finite content clause is a taught Unit9 use."
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch09",
+          "prior_sense_production": "ch09"
+        },
+        {
+          "token_index": 9,
+          "literal": "se",
+          "surface": "se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch01",
+          "prior_sense_production": "ch01"
+        },
+        {
+          "token_index": 10,
+          "literal": "mann",
+          "surface": "mann",
+          "lemma_id": "mann",
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "contextual_analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch01",
+          "prior_sense_production": "ch01"
+        },
+        {
+          "token_index": 11,
+          "literal": "cōme.",
+          "surface": "cōme",
+          "lemma_id": "cuman",
+          "form_id": "cuman-preterite-subj-3-sg",
+          "sense_id": "cuman-come",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch07",
+          "prior_sense_production": "ch05"
+        }
+      ],
+      "required_form_ids": [
+        "cuman-infinitive-citation",
+        "cuman-preterite-subj-3-sg",
+        "geseon-pret-3-sg",
+        "he-m-nom-sg",
+        "mann-acc-sg",
+        "mann-nom-sg",
+        "se-m-acc-sg",
+        "se-m-nom-sg",
+        "thaet-conjunction-invariant",
+        "witan-pret-3-sg"
+      ],
+      "required_sense_ids": [
+        "cuman-come",
+        "geseon-perceive-action",
+        "he-1",
+        "mann-1",
+        "se-the",
+        "thaet-conjunction-1",
+        "witan-content"
+      ],
+      "status": "bound_to_exact_prior_or_assigned_current_records"
+    },
+    {
+      "sequence_id": "NEW-U16-EXAMPLE-03-TEXT",
+      "owner_id": "NEW-U16-EXAMPLE-03",
+      "kind": "example",
+      "text": "Gē cunnon ðone cyning; gē cunnon singan.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Gē",
+          "surface": "Gē",
+          "lemma_id": "thu",
+          "form_id": "thu-nom-pl",
+          "sense_id": "thu-personal",
+          "analysis": {
+            "person": 2,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "person": 2,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch02"
+        },
+        {
+          "token_index": 2,
+          "literal": "cunnon",
+          "surface": "cunnon",
+          "lemma_id": "cunnan",
+          "form_id": "cunnan-pres-2-pl",
+          "sense_id": "cunnan-u16-acquaintance",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "pl"
+          },
+          "contextual_analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production",
+          "prior_form_production": "ch06",
+          "prior_sense_production": null
+        },
+        {
+          "token_index": 3,
+          "literal": "ðone",
+          "surface": "ðone",
+          "lemma_id": "se",
+          "form_id": "se-m-acc-sg",
+          "sense_id": "se-the",
+          "analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "accusative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch01",
+          "prior_sense_production": "ch01"
+        },
+        {
+          "token_index": 4,
+          "literal": "cyning;",
+          "surface": "cyning",
+          "lemma_id": "cyning",
+          "form_id": "cyning-acc-sg",
+          "sense_id": "cyning-source",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch09",
+          "prior_sense_production": "ch09"
+        },
+        {
+          "token_index": 5,
+          "literal": "gē",
+          "surface": "gē",
+          "lemma_id": "thu",
+          "form_id": "thu-nom-pl",
+          "sense_id": "thu-personal",
+          "analysis": {
+            "person": 2,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "person": 2,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch02"
+        },
+        {
+          "token_index": 6,
+          "literal": "cunnon",
+          "surface": "cunnon",
+          "lemma_id": "cunnan",
+          "form_id": "cunnan-pres-2-pl",
+          "sense_id": "cunnan-1",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "pl"
+          },
+          "contextual_analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 2,
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch06",
+          "prior_sense_production": "ch06"
+        },
+        {
+          "token_index": 7,
+          "literal": "singan.",
+          "surface": "singan",
+          "lemma_id": "singan",
+          "form_id": "singan-infinitive-citation",
+          "sense_id": "singan-1",
+          "analysis": {
+            "nonfinite": "infinitive",
+            "infinitive_type": "uninflected",
+            "use": "bounded elementary infinitive syntax only"
+          },
+          "contextual_analysis": {
+            "nonfinite": "infinitive",
+            "infinitive_type": "uninflected",
+            "use": "bounded elementary infinitive syntax only"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch06",
+          "prior_sense_production": "ch04"
+        }
+      ],
+      "required_form_ids": [
+        "cunnan-pres-2-pl",
+        "cyning-acc-sg",
+        "se-m-acc-sg",
+        "singan-infinitive-citation",
+        "thu-nom-pl"
+      ],
+      "required_sense_ids": [
+        "cunnan-1",
+        "cunnan-u16-acquaintance",
+        "cyning-source",
+        "se-the",
+        "singan-1",
+        "thu-personal"
+      ],
+      "status": "bound_to_exact_prior_or_assigned_current_records"
+    },
+    {
+      "sequence_id": "NEW-U16-EXAMPLE-04-TEXT",
+      "owner_id": "NEW-U16-EXAMPLE-04",
+      "kind": "example",
+      "text": "Hē plegode wel, and hīe dydon swā.",
+      "tokens": [
+        {
+          "token_index": 1,
+          "literal": "Hē",
+          "surface": "Hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "source_analysis": "nominative masculine singular subject"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch02"
+        },
+        {
+          "token_index": 2,
+          "literal": "plegode",
+          "surface": "plegode",
+          "lemma_id": "plegian",
+          "form_id": "plegian-pret-3-sg",
+          "sense_id": "plegian-u16-play",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "prior_form_production": null,
+          "prior_sense_production": null
+        },
+        {
+          "token_index": 3,
+          "literal": "wel,",
+          "surface": "wel",
+          "lemma_id": "wel",
+          "form_id": "wel-positive",
+          "sense_id": "wel-positive",
+          "analysis": {
+            "degree": "positive"
+          },
+          "contextual_analysis": {
+            "degree": "positive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch03",
+          "prior_sense_production": "ch03"
+        },
+        {
+          "token_index": 4,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch01",
+          "prior_sense_production": "ch01"
+        },
+        {
+          "token_index": 5,
+          "literal": "hīe",
+          "surface": "hīe",
+          "lemma_id": "he",
+          "form_id": "he-nom-pl",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch02",
+          "prior_sense_production": "ch02"
+        },
+        {
+          "token_index": 6,
+          "literal": "dydon",
+          "surface": "dydon",
+          "lemma_id": "don",
+          "form_id": "don-pret-3-pl",
+          "sense_id": "don-u16-substitute",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          },
+          "contextual_analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "new_production",
+          "prior_form_production": "ch06",
+          "prior_sense_production": null
+        },
+        {
+          "token_index": 7,
+          "literal": "swā.",
+          "surface": "swā",
+          "lemma_id": "swa",
+          "form_id": "swa-invariant",
+          "sense_id": "swa-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "invariant": true,
+            "function": "manner adverb recovering the preceding action",
+            "note": "This is prior swa-1, not the unrelated later proportional-comparison contextual annotation."
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "prior_form_production": "ch07",
+          "prior_sense_production": "ch07"
+        }
+      ],
+      "required_form_ids": [
+        "and-invariant",
+        "don-pret-3-pl",
+        "he-m-nom-sg",
+        "he-nom-pl",
+        "plegian-pret-3-sg",
+        "swa-invariant",
+        "wel-positive"
+      ],
+      "required_sense_ids": [
+        "and-1",
+        "don-u16-substitute",
+        "he-1",
+        "plegian-u16-play",
+        "swa-1",
+        "wel-positive"
+      ],
+      "status": "bound_to_exact_prior_or_assigned_current_records"
+    }
+  ]
+}

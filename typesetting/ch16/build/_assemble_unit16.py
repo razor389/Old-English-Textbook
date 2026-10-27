@@ -100,13 +100,15 @@ def emit_table(rows, table_id, out):
     if len(header)==7 and [h.lower() for h in header[1:4]] in [['masculine singular','feminine singular','neuter singular'],['m sg','f sg','n sg']]:
         # Preserve readable 10.5pt type: print the two numbers in stacked panels.
         # The parity audit reconstructs all original seven-column coordinates.
-        out += ['% table-reflow: singular-plural-panels',r'\par\begingroup',r'\fontsize{10.5}{13.2}\selectfont',r'\begin{minipage}{\linewidth}\raggedright']
+        out += ['% table-reflow: singular-plural-panels',r'\par\begingroup',r'\fontsize{10.5}{13.2}\selectfont']
         for columns in ([0,1,2,3],[0,4,5,6]):
+            out.append(r'\par\begin{minipage}{\linewidth}\raggedright')
             panel_header=[header[i] for i in columns]
             panel_data=[[row[i] for i in columns] for row in data]
             tabular(panel_data,panel_header,[22,31.18,31.18,31.18],'tabular',out)
+            out.append(r'\end{minipage}\par')
             out.append(r'\par\addvspace{5pt}')
-        out += [r'\end{minipage}\par\endgroup','% mdtable:' + table_id + ':end','']
+        out += [r'\par\endgroup','% mdtable:' + table_id + ':end','']
         return
     # Initial widths only; all emitted tables are hand-reviewed after compile.
     n=len(header)
@@ -261,7 +263,7 @@ def assemble(master, stem, title):
                 if following and following[0] == 'table':
                     # Keep a paradigm's noun caption or verbal rule paragraph
                     # with its complete small table, at the existing type size.
-                    table_lines = len(following[1]) + 4
+                    table_lines = 2 * len(following[1]) + 6 if len(following[1][0]) == 7 else len(following[1]) + 4
                     prose_lines = max(2, (len(body) + 64) // 65)
                     out.append(r'\reserve{' + str(min(28, table_lines + prose_lines)) + r'\baselineskip}')
             if body.startswith(('Context:', 'Open condition:', 'Contrary-present condition:')):

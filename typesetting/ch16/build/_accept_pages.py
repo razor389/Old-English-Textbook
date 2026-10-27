@@ -33,8 +33,9 @@ for kind, stem in [('learner','chapter-16'),('key','answer-key')]:
         if ledger['document']!=kind: continue
         assert ledger['status'].lower() in ['pass','accepted'],ledger_path
         assert ledger['pdf_sha256']==expected['sha256'],ledger_path
-        author='unit16_design' if kind=='learner' else 'coordinator'
-        assert ledger['reviewer'] not in ({'unit16_design'} if kind=='learner' else {'root','/root','coordinator'}),('author reviewed own export',ledger_path)
+        author='unit16_design' if kind=='learner' else 'unit16_grammar'
+        reviewer_name=ledger['reviewer'].rsplit('/',1)[-1]
+        assert reviewer_name != author,('author reviewed own export',ledger_path)
         for finding in ledger.get('findings',[]):
             assert finding['status'] in ['resolved','resolved_verified','withdrawn'],finding
             resolved.append({'ledger':ledger_path,**finding})

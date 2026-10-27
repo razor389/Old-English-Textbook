@@ -44,7 +44,7 @@ for proposal in c['lexical_inventory']:
     lemma=lemmas[lid]
     if lid in {l['lemma_id'] for l in baseline['lexicon']['lemmas']}:
         metadata={k:copy.deepcopy(v) for k,v in lemma.items() if k not in ['forms','senses','metadata_by_chapter']}
-        lemma.setdefault('metadata_by_chapter',{}).setdefault('through_ch16',metadata)
+        lemma.setdefault('metadata_by_chapter',{}).setdefault('through_ch15',metadata)
     lemma.setdefault('metadata_by_chapter',{})['ch16']={k:copy.deepcopy(v) for k,v in proposal.items() if k not in ['forms','senses']}
     for k,v in proposal.items():
         if k in ['source_spellings','notes'] and isinstance(v,list): lemma[k]=union(lemma.get(k,[]),v)
