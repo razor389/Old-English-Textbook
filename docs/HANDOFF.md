@@ -1,6 +1,6 @@
 # Handoff to the next session
 
-The requested Unit 14 is complete. **Units 1–14** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 14 exports and registers are saved at **`a56c403`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 14. Unit 15 has not been drafted.
+**Units 1–14** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 14 exports and registers are saved at **`a56c403`**, with final handoff **`9129cda`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 14. The user has requested Unit 15; independent source, grammar and curriculum analysis is in progress under `oec-u15`, with exclusive worker directories and root as sole Beads writer. [Unit 15's brief](../curriculum/UNIT_15_BRIEF.md) records the scope; the contract must be reconciled and committed before prose.
 
 ## Unit 14 evidence and review
 
