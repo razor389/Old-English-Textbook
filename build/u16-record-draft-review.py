@@ -1,0 +1,43 @@
+"""Record coordinator readback of complete Unit16 masters before fresh review."""
+import hashlib,json
+from pathlib import Path
+def identity(path):
+    raw=Path(path).read_bytes()
+    return {'path':path,'raw_sha256':hashlib.sha256(raw).hexdigest(),'normalized_lf_sha256':hashlib.sha256(raw.replace(b'\r\n',b'\n')).hexdigest()}
+c=json.loads(Path('chapters/ch16/coverage.json').read_text(encoding='utf-8'))
+check=json.loads(Path('build/unit16-check.json').read_text(encoding='utf-8'))
+assert check['status']=='pass' and check['draft']
+p=Path('chapters/ch16/coordinator-review.json')
+assert not p.exists()
+r={
+ 'chapter_id':'ch16','status':'complete_drafts_pending_independent_review','coordinator':'root','date':'2026-10-27',
+ 'contract_checkpoint':'543e214',
+ 'author_roles':{'student':'unit16_design','answer_key':'unit16_grammar'},
+ 'independence_limit':'Root reconciled source and design evidence and has read both masters and author witnesses. Root is not the fresh blind reviewer.',
+ 'draft_artifact_identities':[identity('chapters/ch16/'+n) for n in ['student.md','answer-key.md','author-translation-witness.md']],
+ 'automated_checks':{'command':'python -X utf8 scripts/check_unit16.py --draft','result':'PASS',
+     **c['contract_metrics'],'teaching_locations':len(c['teaching_records']),
+     'earlier_artifacts':'2635 fixed prior non-register artifacts and134 archived files preserved; active registers still at fifteen-unit baseline.'},
+ 'actual_readback':[
+   'Root read all59 actual Cook key models, translations and explanations, plus every original form, analysis, composition and reading answer. Separate output markers cover all179 requested responses.',
+   'Root read the actual learner introduction, nominal scope/rules, verbal and clause exposition, original task prompts, reading support/glossary and source-note explanations. The structural check compares all56 actual displayed matrices and564 literal cells with the contract; this equality does not substitute for independent linguistic checking.',
+   'Root read the complete author translation witness and final reading key. The witness was prepared before comparison with complete root/design translations, but its author has source/grammar exposure and does not claim blind reviewer status.',
+   'Root inspected primary source images during reconciliation, including the exact gymnasium reading and C06 reward/coming witnesses. The retained inspection ledger distinguishes actual image viewing from rendering.'
+ ],
+ 'authoring_observations':[
+   'All59 Cook English prompts preserve the original joint group XII, XIII and exercise/item identifiers. The complete gymnasium scene contains444 lexical tokens,54 original notes and59 note attachments.',
+   'All56 paradigm matrices show their564 defined logical cells literally. Bounded singular-only selections and plural-only both are identified; selected stem changes and exception rules accompany the tables.',
+   'The key distinguishes valid alternatives from compliance with lexical, number and ordering targets;35.13 permits an evidenced singular-address alternative.',
+   'Actual readback repaired a beran length typo and a says/said explanation mismatch. Root also requested clearer local reading help, mood-syncretism qualifications and removal of an exact composition answer from reading help.',
+   'A01 corrects three stale supplied-only sense notes. A02 repairs current help/gloss wording and preserves prior per-chapter histories. A03 corrects singular net32.6, two destination-context descriptions and38 visible-reference roles in21 tasks. All59 model strings remain unchanged;32.7 retains plural nets.',
+   'The original negative næfde, uncertain pronoun reference, tentative top interpretation, Latin ointment difference and mixed invitation remain explicit. The key translates the actual Old English rather than replacing it with the Latin parallel.',
+   'Fresh solving, primary-image paradigm review, complete LuaLaTeX exports, every-page inspection and register integration remain mandatory.'
+ ],
+ 'remaining_gates':['Fresh non-author solves every actual learner output; root reads and commits the unchanged witness before explicit key access.',
+     'Separate fresh non-author checks every paradigm, scope and display route against actual primary images.',
+     'Resolve material review findings; bind acceptance to final masters and substantive contract.',
+     'Produce complete LuaLaTeX exports, full parity and every-page non-author visual inspection.',
+     'Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally.'],
+ 'scope_limit':'Complete-draft coordinator readback only; no claim of independent acceptance or completion.'}
+p.write_text(json.dumps(r,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+print('Recorded complete-draft root readback; fresh reviews remain pending.')

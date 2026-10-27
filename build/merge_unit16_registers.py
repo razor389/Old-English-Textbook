@@ -38,17 +38,17 @@ lemmas={l['lemma_id']:l for l in lex['lemmas']}
 for proposal in c['lexical_inventory']:
     lid=proposal['lemma_id']
     if lid not in lemmas:
-        lemmas[lid]={k:copy.deepcopy(v) for k,v in proposal.items() if k not in ['forms','senses']}
+        lemmas[lid]={k:copy.deepcopy(v) for k,v in proposal.items() if k not in ['forms','senses','metadata_by_chapter']}
         lemmas[lid].update(forms=[],senses=[])
         lex['lemmas'].append(lemmas[lid])
     lemma=lemmas[lid]
     if lid in {l['lemma_id'] for l in baseline['lexicon']['lemmas']}:
         metadata={k:copy.deepcopy(v) for k,v in lemma.items() if k not in ['forms','senses','metadata_by_chapter']}
         lemma.setdefault('metadata_by_chapter',{}).setdefault('through_ch15',metadata)
-    lemma.setdefault('metadata_by_chapter',{})['ch16']={k:copy.deepcopy(v) for k,v in proposal.items() if k not in ['forms','senses']}
+    lemma.setdefault('metadata_by_chapter',{})['ch16']={k:copy.deepcopy(v) for k,v in proposal.items() if k not in ['forms','senses','metadata_by_chapter']}
     for k,v in proposal.items():
         if k in ['source_spellings','notes'] and isinstance(v,list): lemma[k]=union(lemma.get(k,[]),v)
-        elif k not in ['forms','senses']: lemma[k]=copy.deepcopy(v)
+        elif k not in ['forms','senses','metadata_by_chapter']: lemma[k]=copy.deepcopy(v)
     for kind,key in [('forms','form_id'),('senses','sense_id')]:
         indexed={r[key]:r for r in lemma[kind]}
         for rec in proposal[kind]:

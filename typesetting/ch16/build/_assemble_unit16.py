@@ -197,7 +197,7 @@ def assemble(master, stem, title):
             task_marker = body.startswith('item:') or (body.startswith('key:') and not (idx > 0 and bs[idx-1][0] == 'comment' and bs[idx-1][1].startswith('item:')))
             if task_marker and not label_pending:
                 close_task()
-                if stem == 'answer-key' and any(code in body for code in ['-F01','-F02','-F03','-F04','-F05','-R01']):
+                if 'NEW-U16-' in body:
                     out.append(r'\reserve{8\baselineskip}')
                 else:
                     out += [r'\par\begin{minipage}{\linewidth}\raggedright']
@@ -223,8 +223,13 @@ def assemble(master, stem, title):
             source_notes = heading in ('10. Original source apparatus', 'Sources', 'Source notes', 'Sources and original reading notes', 'Source and editorial notes', 'Sources and editorial notes', 'Source and form notes', 'Cook’s original notes and source information', '13. Cook’s original notes','13. Cook’s original notes and attachments') or heading.endswith('Sources and selected forms')
             task_heading=(stem=='chapter-16' and bool(re.fullmatch(r'(?:[FACDPRS]\d{2}|Cook (?:XII, XIII|XII,XIII)\.\d+\.\d+)',heading)))
             if task_heading:
-                out += [r'\par\begin{minipage}{\linewidth}\raggedright']
-                task_open=True
+                if re.fullmatch(r'[FACR]\d{2}', heading):
+                    # Multi-output original tasks may span a page. Keep their
+                    # heading with the opening prompt, not their whole body.
+                    out.append(r'\reserve{8\baselineskip}')
+                else:
+                    out += [r'\par\begin{minipage}{\linewidth}\raggedright']
+                    task_open=True
                 label_pending=True
             elif source_notes:
                 # Endnotes can follow the final short reading task; do not strand

@@ -1,0 +1,131 @@
+"""Write the handoff and export record from actual accepted Unit16 artifacts."""
+import argparse
+import json
+import re
+from pathlib import Path
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--exports-checkpoint', default='this export checkpoint')
+args = parser.parse_args()
+def read(path): return json.loads(Path(path).read_text(encoding='utf-8'))
+def write(path, text): Path(path).write_text(text.strip() + '\n', encoding='utf-8', newline='\n')
+c = read('chapters/ch16/coverage.json')
+pages = read('typesetting/ch16/page-review.json')
+reg = read('chapters/ch16/register-integration.json')
+parity = read('typesetting/ch16/content-parity.json')
+assert c['textual_review']['status'] == c['presentation_review']['status'] == 'accepted'
+assert pages['status'] == 'PASS' and reg['status'] == 'accepted' and not pages['unresolved_findings']
+lp, kp = pages['page_totals']['learner'], pages['page_totals']['key']
+total = lp + kp
+contract, draft, blind, accepted = (c[k] for k in ['contract_checkpoint', 'complete_drafts_checkpoint', 'independent_solutions_checkpoint', 'accepted_text_checkpoint'])
+exports = args.exports_checkpoint
+after, scope = reg['metrics']['after'], reg['metrics']['unit16_status_counts']
+m = c['contract_metrics']
+counts = {k: sum(d[k] for d in parity['documents']) for k in ['paragraph_heading_list_blocks', 'original_tables', 'original_table_cells_including_headers', 'all_editorial_comments_preserved']}
+rows = [line for line in Path('STATUS.md').read_text(encoding='utf-8').splitlines() if re.match(r'^\| \[(?:[1-9]|1[0-5])\]\(typesetting/ch', line)]
+assert len(rows) == 15
+course_table = '\n'.join(['| Unit | Grammar | Learner / key pages | Complete exports/registers |', '| --- | --- | --- | --- |'] + rows + [f'| [16](typesetting/ch16/README.md) | Extended narrative and speech | {lp} / {kp} | {exports} |'])
+write('STATUS.md', f'''# Status
+
+Updated 27 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–16 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 16 exports and registers are saved at **`{exports}`**. Unit 17 remains undrafted.
+
+## Completed Unit 16
+
+The [brief](curriculum/UNIT_16_BRIEF.md) and [contract](chapters/ch16/coverage.json) cover extended narrative and speech: participant reference, perception and finite content clauses, relative time, knowing and repeated actions, and bounded lexical government. All **59 Cook joint XII, XIII.32–36 prompts** remain, with 17 original tasks and four translated examples. **{m['paradigms']} complete bounded systems / {m['logical_cells']} literal cells** retain their selected senses, syntax and recognition or supplied limits.
+
+The exact **444-word gymnasium episode** is Cook 168.1–170.16 / one-based PDF 184–186. Its 51 individual line numbers are editorial counts anchored by printed marginal numbers. All **54 original notes / 59 anchors** remain, separately from modern help. Earlier Apollonius extracts and the following feast are outside this assignment. No additional narrative is newly composed.
+
+A fresh non-author froze [all solutions](chapters/ch16/independent-solutions.md) at **`{blind}`** before key/current-contract/audit access. The [review](chapters/ch16/review.md) and [ledger](chapters/ch16/review-ledger.json) reconcile all **{m['tasks']} tasks / {m['requested_output_positions']} requested outputs**. The morphology group has 45 single-form positions, three phrases and eight explanations; given dictionary forms are explicit reference positions. A separate [fresh paradigm review](chapters/ch16/reviews/paradigms.json) verifies every display and primary evidence. No material finding remains open. Sealed packets and initial witnesses remain unchanged; canonical amendments record corrections separately.
+
+The [learner PDF](typesetting/ch16/chapter-16.pdf) has **{lp} pages**; the [key](typesetting/ch16/answer-key.pdf) **{kp}**. All **{total} final pages** passed non-author visual inspection. [Full parity](typesetting/ch16/content-parity.json) covers {counts['paragraph_heading_list_blocks']:,} prose/heading/list blocks, {counts['original_tables']} tables and {counts['original_table_cells_including_headers']:,} table cells including headers. [Presentation acceptance](typesetting/ch16/page-review.json) binds final PDF/image identities and clean logs. Checkpoints: contract **`{contract}`**, drafts **`{draft}`**, accepted text **`{accepted}`**.
+
+## Completed course artifacts
+
+{course_table}
+
+Each unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent review, complete TeX/PDFs and page ledgers.
+
+## Cumulative records and boundaries
+
+The [lexicon](lexicon/entries.json) contains **{after['lemmas']:,} lemmas, {after['forms']:,} forms and {after['senses']:,} senses**; [grammar](curriculum/grammar.json) contains **{after['features']:,} constructions**. Unit 16 establishes {scope['forms']['new_production']} productive form milestones, {scope['forms']['new_recognition_only']} recognition-only forms, {scope['senses']['new_production']} productive senses and {scope['features']['new_production']} productive constructions. Supplied exposure remains separate from independent recall.
+
+The [integration audit](chapters/ch16/register-integration.json) preserves earlier milestones, per-chapter records, evidence, supplied histories, surfaces, analyses and metadata against **`e1d94be`**. All **2,635 fixed prior active artifacts** and **134 archived files** remain unchanged; the immutable baseline also includes both actual registers. Contextual refinements do not replace earlier analyses.
+
+[C06](sources/audits/unit16-coordinator/reward-correction.json) preserves Cook’s erroneous reward hint and supplies strong āgyldan with contracted āgylt. The reward clause and impending tō cumanne remain locally supplied. The exact reading retains negative næfde, unclear reference, uncertain top and mixed speech; English help explains the separate Latin ointment account. Familiar forms do not grant unassigned senses or constructions.
+
+The canonical crosswalk is **515 assigned / 129 deferred / none excluded**, totaling all 644 numbered items. Exercises **1–36** have full item-level audits; **37–48** still require them. Active contracts govern assignments without rewriting earlier dispositions.
+
+Continue only a requested unit. Read all sixteen active contracts and actual registers first; use the sole-coordinator Beads workflow and checkpoint the contract before prose. No remote or publication is configured.
+''')
+
+old = Path('docs/HANDOFF.md').read_text(encoding='utf-8')
+rows = [line for line in old.splitlines() if re.match(r'^\| (?:[1-9]|1[0-5]) \|', line)]
+assert len(rows) == 15
+rows = [line.replace('This handoff checkpoint', 'e1d94be') for line in rows]
+table = '\n'.join(['| Unit | Contract before prose | Accepted text | Complete exports/registers | Final handoff | Learner/key pages |', '| --- | --- | --- | --- | --- | --- |'] + rows + [f'| 16 | {contract} | {accepted} | {exports} | This handoff checkpoint | {lp} / {kp} |'])
+write('docs/HANDOFF.md', f'''# Handoff to the next session
+
+The requested Unit 16 is complete. **Units 1–16** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 16 exports and registers are saved at **`{exports}`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 16. Unit 17 remains undrafted; begin it only when requested.
+
+## Unit 16 evidence and review
+
+The [contract](../chapters/ch16/coverage.json) preceded prose at **`{contract}`**; complete drafts were saved at **`{draft}`**. A fresh non-author froze all [pre-key solutions](../chapters/ch16/independent-solutions.md) at **`{blind}`**, under the [strict protocol](../sources/audits/unit16-coordinator/review-independence.json), before current key/contract/audit/proposal access. The [freeze record](../chapters/ch16/blind-freeze.json) verifies every actual requested output was attempted. The [review](../chapters/ch16/review.md), [ledger](../chapters/ch16/review-ledger.json) and separate [fresh paradigm review](../chapters/ch16/reviews/paradigms.json) accept all {m['tasks']} tasks / {m['requested_output_positions']} outputs and {m['paradigms']} systems / {m['logical_cells']} cells. Accepted text is saved at **`{accepted}`**. No material finding remains open.
+
+All 59 Cook joint XII, XIII.32–36 prompts remain, with 17 original tasks and four translated examples. Preserve EX-XII-XIII-NN-NN IDs. The exact 444-word gymnasium scene spans 168.1–170.16 / PDF 184–186 and retains all 54 original notes / 59 anchors. Individual line numbers are editorial counts. Earlier Apollonius readings and the following feast are not reassigned. Source text, apparatus, modern support and new teaching material remain separate.
+
+[C06](../sources/audits/unit16-coordinator/reward-correction.json) corrects printed āgyltan §113 to strong āgyldan, retaining the contracted third singular āgylt in a supplied reward clause. Matthew132/PDF142 also corroborates the supplied impending tō cumanne; Matthew114/PDF124 supports John endings with declared initial I→J. Books/hooks, hooked letters and ōð-ðæt are transcription repairs, not Cook errata. Preserve næfde, the unresolved reference, tentative top and mixed invitation. The Latin note describes rubbing with ointment without an explicit shoulder noun. Hǣle in the oath uses supplied safety/rescue, distinct from productive salvation. Author and root initial translation witnesses remain immutable; later corrections are separate.
+
+The [learner PDF](../typesetting/ch16/chapter-16.pdf) has **{lp} pages**, the [key](../typesetting/ch16/answer-key.pdf) **{kp}**. All {total} final pages have non-author visual records bound to final PDF/image identities. [Presentation acceptance](../typesetting/ch16/page-review.json) reconciles complete parity and clean logs. See the [export README](../typesetting/ch16/README.md) for reproduction and layout records.
+
+## Registers and preservation
+
+The [integration record](../chapters/ch16/register-integration.json) preserves all prior teaching milestones, per-chapter records, evidence, supplied histories, surfaces, analyses and metadata. Totals: **{after['lemmas']:,} lemmas, {after['forms']:,} forms, {after['senses']:,} senses and {after['features']:,} constructions**. Unit 16 adds {scope['forms']['new_production']} productive form milestones, {scope['forms']['new_recognition_only']} recognition-only forms, {scope['senses']['new_production']} productive senses and {scope['features']['new_production']} productive constructions. Supplied exposure remains separate.
+
+The immutable ignored `build/unit16-prior-baseline.json` captures the actual fifteen-unit state at **`e1d94be`**: 955 lemmas, 10,470 forms, 1,207 senses and 950 features. The retained [prior-state record](../sources/audits/unit16-coordinator/prior-state.json) covers 2,637 earlier files including both registers, plus 134 archived files. Do not recapture it or rerun old merge helpers against integrated registers. All 2,635 fixed prior artifacts and 134 archive files remain unchanged. The merger preserves inherited metadata dictionaries and records the actual prior boundary as through_ch15.
+
+Complete morphology retains its expressly bounded senses and syntax. Nearu and bēgen have full selected systems; singular-only noun senses do not assert inherent defectiveness. The special dēme gē command use is narrowly taught. In36.6 the first lǣs is adverbial accusative, the second nominative passive subject; the attracted dative is not a general dative subject for lufian. The supplied cessation clause36.3 retains both negatives.
+
+The canonical crosswalk is **515 assigned / 129 deferred / none excluded**, totaling 644. Exercises **1–36** have full item-level audits; **37–48** still need them. Active contracts govern assignments.
+
+## Recoverable checkpoints
+
+{table}
+
+## Resuming and reproducing
+
+Read AGENTS.md, STATUS.md, EDITORIAL_POLICY.md, docs/WORKFLOW.md, the plan/map, source registry, all sixteen active contracts and actual registers. Run `bd prime`, then `bd ready`, serially; root remains the sole embedded-Dolt writer. Begin another unit only when requested.
+
+Use parallel agents with exclusive files for source/curriculum analysis. Reconcile and checkpoint the contract before prose. Give a fresh blind solver only the actual learner master, accepted earlier learner teaching/registers and original primary images. Current contracts, audits and token maps may expose answers. Freeze every actual solution in Git before explicit comparison access. Resolve independent review, export complete PDFs and inspect every page before integration. Export Beads before local checkpoints; no remote push is configured.
+
+Run `python -X utf8 scripts/check_unit16.py --draft --tex` after rebuilding ignored PDF text/log products as described in the export record. Retained TeX preserves final layout; rerunning assembly can discard repairs. Raw and normalized-LF hashes distinguish checkout conversion from text changes. Substantive contract identities permit later completion metadata. Do not rerun pre-prose or older merge helpers against integrated state.
+''')
+
+write('typesetting/ch16/README.md', f'''# Unit 16 exports: extended narrative and speech
+
+The complete [learner PDF](chapter-16.pdf) has **{lp} pages** and the separate [answer key](answer-key.pdf) **{kp}**. Their editable masters are [student.md](../../chapters/ch16/student.md) and [answer-key.md](../../chapters/ch16/answer-key.md). All {total} final pages passed non-author inspection; [page-review.json](page-review.json) binds the accepted PDF and page-image identities to the individual ledgers.
+
+The exports include all {m['tasks']} tasks / {m['requested_output_positions']} requested outputs, every one of the 59 assigned Cook prompts, {m['paradigms']} complete bounded systems / {m['logical_cells']} cells, four translated examples, the full 444-word gymnasium scene and all 54 original notes / 59 anchors. Supplied reading and composition help remains visible. The key contains the complete translation and every assigned answer with target, meaning, alternatives and relevant diagnosis.
+
+[Full content parity](content-parity.json) verifies {counts['paragraph_heading_list_blocks']:,} prose/heading/list blocks, {counts['original_tables']} tables and {counts['original_table_cells_including_headers']:,} table cells including headers. It checks complete Markdown/TeX content and PDF characters; it does not substitute for visual inspection. The final logs have no missing-character, font-substitution, box or rerun warnings. [Layout adjustments](layout-adjustments.json) retain the review and repair history. Cambria and the inherited 165 × 241 mm layout remain in use.
+
+The [contract](../../chapters/ch16/coverage.json) preceded prose at `{contract}`. Drafts are saved at `{draft}`, frozen independent solutions at `{blind}`, and accepted text at `{accepted}`. The [independent text review](../../chapters/ch16/review.md) and [separate paradigm review](../../chapters/ch16/reviews/paradigms.json) resolve material findings. Complete exports/registers are saved at `{exports}`.
+
+## Reproduction
+
+Build the retained TeX from `typesetting/ch16` using the installed LuaLaTeX and Cambria fonts. Run each command again when the log requests stable references:
+
+```powershell
+lualatex -interaction=nonstopmode -halt-on-error -output-directory=build chapter-16.tex
+lualatex -interaction=nonstopmode -halt-on-error -output-directory=build answer-key.tex
+```
+
+Extract both build PDFs to the corresponding `build/chapter-16.txt` and `build/answer-key.txt` using `pdftotext -enc UTF-8 -layout`. From the repository root run:
+
+```powershell
+python -X utf8 typesetting/ch16/build/_check_content_parity.py
+python -X utf8 scripts/check_unit16.py --draft --tex
+```
+
+The machine’s Xpdf executable is `C:/Program Files/Git/mingw64/bin/pdftotext.exe`; PowerShell requires the call operator before a quoted executable path. The retained assembly helper documents the initial conversion, but rerunning it can discard manual layout repairs. Rebuilding does not replace the accepted PDFs or establish a new visual review. Use a fresh render version for changed exports and retain the previous inspected images and ledgers. The active registers and sealed source packets are not regenerated by a typesetting rebuild.
+''')
+print('Wrote Unit16 status, handoff and complete export record from accepted artifacts.')

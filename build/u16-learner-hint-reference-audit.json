@@ -1,0 +1,3622 @@
+{
+  "schema_version": 1,
+  "chapter": "ch16",
+  "status": "reviewed_proposal_for_coordinator_A03",
+  "created_at_utc": "2026-10-27T21:42:38.804625+00:00",
+  "inputs": [
+    {
+      "path": "chapters/ch16/coverage.json",
+      "sha256": "49269efb1ac5b60a0785bc4282611630f1dd527ab263dd67e3c0de0d8c4d3ad7"
+    },
+    {
+      "path": "curriculum/proposals/unit16/author-only-cook-sequence-bindings.json",
+      "sha256": "816a0898cf8f1e108b0f6aa30f1d308c12d904893d995dad179563a621c2565a"
+    }
+  ],
+  "scope": "Read-only assessment-role audit of all59 unchanged Cook prompts against the final812 selected model tokens. Only this findings JSON is written.",
+  "method": [
+    "Read every full English prompt and its parenthetical controls.",
+    "Match only literal Old English dictionary/form hints to exact output surfaces after NFC normalization, case folding and edge punctuation removal. Preserve macrons, e/ę, letter spellings and internal word boundaries.",
+    "Do not derive an inflection, expand a lexical variant, or infer a form merely because a lemma is hinted.",
+    "Keep every already visibly supplied token supplied; propose the established given-dictionary-form role only where the exact visible form was incorrectly labeled independent.",
+    "Retain grammatical application, case/number, lexical sense and construction targets; do not equate shared spelling with shared syntactic function."
+  ],
+  "counts": {
+    "cook_prompts_reviewed": 59,
+    "model_tokens_reviewed": 812,
+    "lexical_or_form_hint_parentheses": 103,
+    "exact_matching_output_positions": 58,
+    "proposed_role_changes": 38,
+    "already_supplied_positions_preserved": 20,
+    "affected_tasks": 21
+  },
+  "proposed_role_changes": [
+    {
+      "task_id": "EX-XII-XIII-32-02",
+      "output_position_id": "EX-XII-XIII-32-02-O001",
+      "token_index_one_based": 16,
+      "surface": "gān",
+      "lemma_id": "gan",
+      "form_id": "gan-infinitive",
+      "sense_id": "gan-1",
+      "contextual_analysis": {
+        "nonfinite": "infinitive",
+        "infinitive_type": "uninflected"
+      },
+      "hint_text": "gān",
+      "exact_parenthesis": "(gān)",
+      "prompt_excerpt": "longs (furlang, 47), or thirty, then saw they Jesus walking (gān) on (uppan, 166) the sea (verb last).",
+      "hint_span_zero_based": [
+        105,
+        110
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-06",
+      "output_position_id": "EX-XII-XIII-32-06-O001",
+      "token_index_one_based": 10,
+      "surface": "sęndan",
+      "lemma_id": "sendan",
+      "form_id": "sendan-infinitive-citation",
+      "sense_id": "sendan-1",
+      "contextual_analysis": {
+        "form": "infinitive citation",
+        "citation_notation": true,
+        "nonfinite": "infinitive",
+        "infinitive_type": "plain",
+        "function": "perceived action of the accusative actor"
+      },
+      "hint_text": "sęndan",
+      "exact_parenthesis": "(sęndan)",
+      "prompt_excerpt": "He saw two brethren casting (sęndan) their net (nętt, 47) into (on, 172) the sea; they were fish",
+      "hint_span_zero_based": [
+        28,
+        36
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-06",
+      "output_position_id": "EX-XII-XIII-32-06-O001",
+      "token_index_one_based": 6,
+      "surface": "nętt",
+      "lemma_id": "nett",
+      "form_id": "nett-acc-pl",
+      "sense_id": "nett-u16-sense",
+      "contextual_analysis": {
+        "case": "acc",
+        "number": "pl",
+        "gender": "n"
+      },
+      "hint_text": "nętt",
+      "exact_parenthesis": "(nętt, 47)",
+      "prompt_excerpt": "He saw two brethren casting (sęndan) their net (nętt, 47) into (on, 172) the sea; they were fishers.",
+      "hint_span_zero_based": [
+        47,
+        57
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "pending_A03_number_correction": {
+        "current_sealed_binding_form_id": "nett-acc-pl",
+        "coordinator_agreed_target_form_id": "nett-acc-sg",
+        "target_analysis": {
+          "case": "acc",
+          "number": "sg",
+          "gender": "n"
+        },
+        "reason": "The unchanged English prompt says their net, singular. This independent number correction is separate from the given-form role repair;32.7 remains plural."
+      }
+    },
+    {
+      "task_id": "EX-XII-XIII-32-06",
+      "output_position_id": "EX-XII-XIII-32-06-O001",
+      "token_index_one_based": 7,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-into-goal",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "on",
+      "exact_parenthesis": "(on, 172)",
+      "prompt_excerpt": "saw two brethren casting (sęndan) their net (nętt, 47) into (on, 172) the sea; they were fishers.",
+      "hint_span_zero_based": [
+        63,
+        72
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-07",
+      "output_position_id": "EX-XII-XIII-32-07-O001",
+      "token_index_one_based": 6,
+      "surface": "æfter",
+      "lemma_id": "aefter",
+      "form_id": "aefter-invariant-source",
+      "sense_id": "aefter-u16-follow",
+      "contextual_analysis": {
+        "source_analysis": "preposition governing dative",
+        "case": "dat"
+      },
+      "hint_text": "æfter",
+      "exact_parenthesis": "(æfter, 166)",
+      "prompt_excerpt": "And he said (sęcgean) to them (164. b), Come after (æfter, 166) me, and I (om. will) make (dōn) that ye (dual) are fishers ",
+      "hint_span_zero_based": [
+        51,
+        63
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-08",
+      "output_position_id": "EX-XII-XIII-32-08-O001",
+      "token_index_one_based": 11,
+      "surface": "of",
+      "lemma_id": "of-adverb",
+      "form_id": "of-adverb-invariant",
+      "sense_id": "of-adverb-u16-off",
+      "contextual_analysis": {
+        "inflection": "invariant"
+      },
+      "hint_text": "of",
+      "exact_parenthesis": "(of)",
+      "prompt_excerpt": "oot offend (ǣswician, 118) thee, cut it (āceorfan, 104) off (of), and cast (om. it) from thee; (om. it) is better (om. for) ",
+      "hint_span_zero_based": [
+        80,
+        84
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-08",
+      "output_position_id": "EX-XII-XIII-32-08-O001",
+      "token_index_one_based": 21,
+      "surface": "healt",
+      "lemma_id": "healt",
+      "form_id": "healt-nom-sg-m-strong",
+      "sense_id": "healt-u16-sense",
+      "contextual_analysis": {
+        "case": "nom",
+        "number": "sg",
+        "gender": "m",
+        "strength": "strong"
+      },
+      "hint_text": "healt",
+      "exact_parenthesis": "(healt, 58)",
+      "prompt_excerpt": "; (om. it) is better (om. for) thee (165) that thou go halt (healt, 58) into life, than (om. that) thou have two hands and two feet",
+      "hint_span_zero_based": [
+        173,
+        184
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-09",
+      "output_position_id": "EX-XII-XIII-32-09-O001",
+      "token_index_one_based": 2,
+      "surface": "hwilc",
+      "lemma_id": "hwilc",
+      "form_id": "hwilc-nom-m-sg-strong",
+      "sense_id": "hwilc-u13-any",
+      "contextual_analysis": {
+        "case": "nom",
+        "gender": "m",
+        "number": "sg",
+        "declension": "strong",
+        "strength": "strong"
+      },
+      "hint_text": "hwilc",
+      "exact_parenthesis": "(hwilc)",
+      "prompt_excerpt": "If any (hwilc) man hath (om. a) hundred sheep (154. c), and loseth (forlēo",
+      "hint_span_zero_based": [
+        7,
+        14
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-09",
+      "output_position_id": "EX-XII-XIII-32-09-O001",
+      "token_index_one_based": 27,
+      "surface": "forwearð",
+      "lemma_id": "forweorthan",
+      "form_id": "forweorthan-pret-3-sg",
+      "sense_id": "forweorthan-1",
+      "contextual_analysis": {
+        "tense": "preterite",
+        "mood": "indicative",
+        "person": 3,
+        "number": "sg"
+      },
+      "hint_text": "forwearð",
+      "exact_parenthesis": "(forwearð)",
+      "prompt_excerpt": "eth and seeketh (sēcean) the one that (87. d) was perishing (forwearð)?",
+      "hint_span_zero_based": [
+        238,
+        248
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-10",
+      "output_position_id": "EX-XII-XIII-32-10-O001",
+      "token_index_one_based": 15,
+      "surface": "swīðor",
+      "lemma_id": "swithe",
+      "form_id": "swithe-comparative",
+      "sense_id": "swithe-u16-degree",
+      "contextual_analysis": {
+        "degree": "comparative"
+      },
+      "hint_text": "swīðor",
+      "exact_parenthesis": "(swīðor)",
+      "prompt_excerpt": "nds it, truly I say (sęcgean) to you that he rejoiceth more (swīðor) over (ofer, 172) that one than over the nine and ninety.",
+      "hint_span_zero_based": [
+        90,
+        98
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-10",
+      "output_position_id": "EX-XII-XIII-32-10-O001",
+      "token_index_one_based": 16,
+      "surface": "ofer",
+      "lemma_id": "ofer",
+      "form_id": "ofer-invariant",
+      "sense_id": "ofer-u16-rejoicing",
+      "contextual_analysis": {
+        "inflection": "invariant"
+      },
+      "hint_text": "ofer",
+      "exact_parenthesis": "(ofer, 172)",
+      "prompt_excerpt": "I say (sęcgean) to you that he rejoiceth more (swīðor) over (ofer, 172) that one than over the nine and ninety.",
+      "hint_span_zero_based": [
+        104,
+        115
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-10",
+      "output_position_id": "EX-XII-XIII-32-10-O001",
+      "token_index_one_based": 20,
+      "surface": "ofer",
+      "lemma_id": "ofer",
+      "form_id": "ofer-invariant",
+      "sense_id": "ofer-u16-rejoicing",
+      "contextual_analysis": {
+        "inflection": "invariant"
+      },
+      "hint_text": "ofer",
+      "exact_parenthesis": "(ofer, 172)",
+      "prompt_excerpt": "I say (sęcgean) to you that he rejoiceth more (swīðor) over (ofer, 172) that one than over the nine and ninety.",
+      "hint_span_zero_based": [
+        104,
+        115
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-11",
+      "output_position_id": "EX-XII-XIII-32-11-O001",
+      "token_index_one_based": 3,
+      "surface": "hām",
+      "lemma_id": "ham",
+      "form_id": "ham-invariant",
+      "sense_id": "ham-1",
+      "contextual_analysis": {
+        "invariant": true,
+        "part_of_speech": "adverb"
+      },
+      "hint_text": "hām",
+      "exact_parenthesis": "(hām)",
+      "prompt_excerpt": "When he cometh home (hām), he calleth (cleopian) together his friends and his neighbo",
+      "hint_span_zero_based": [
+        20,
+        25
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-03",
+      "output_position_id": "EX-XII-XIII-33-03-O001",
+      "token_index_one_based": 15,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-into-goal",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "on",
+      "exact_parenthesis": "(on, 172)",
+      "prompt_excerpt": " took the child and his mother by night, and journeyed into (on, 172) the land of the Egyptians; that it (om. might) be fulfilled",
+      "hint_span_zero_based": [
+        78,
+        87
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-03",
+      "output_position_id": "EX-XII-XIII-33-03-O001",
+      "token_index_one_based": 22,
+      "surface": "fram",
+      "lemma_id": "fram",
+      "form_id": "fram-invariant",
+      "sense_id": "fram-1",
+      "contextual_analysis": {
+        "inflection": "invariant"
+      },
+      "hint_text": "fram",
+      "exact_parenthesis": "(fram, 166)",
+      "prompt_excerpt": "e fulfilled (gefyllan) which (87. a) was spoken (cweðan) of (fram, 166) (om. the) Lord by (ðurh, 172) the prophet, From (of, 166) (",
+      "hint_span_zero_based": [
+        196,
+        207
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-03",
+      "output_position_id": "EX-XII-XIII-33-03-O001",
+      "token_index_one_based": 24,
+      "surface": "ðurh",
+      "lemma_id": "thurh",
+      "form_id": "thurh-invariant-eth-source",
+      "sense_id": "thurh-u14-mediated-source",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition governing accusative person as mediator"
+      },
+      "hint_text": "ðurh",
+      "exact_parenthesis": "(ðurh, 172)",
+      "prompt_excerpt": "87. a) was spoken (cweðan) of (fram, 166) (om. the) Lord by (ðurh, 172) the prophet, From (of, 166) (om. the) Egyptians (om. have) ",
+      "hint_span_zero_based": [
+        226,
+        237
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-10",
+      "output_position_id": "EX-XII-XIII-33-10-O001",
+      "token_index_one_based": 3,
+      "surface": "ūt",
+      "lemma_id": "ut",
+      "form_id": "ut-invariant",
+      "sense_id": "ut-u15-out",
+      "contextual_analysis": {
+        "inflection": "invariant"
+      },
+      "hint_text": "ūt",
+      "exact_parenthesis": "(ūt)",
+      "prompt_excerpt": "They went out (ūt), and went into (om. a) ship, and caught nothing (183) in (o",
+      "hint_span_zero_based": [
+        14,
+        18
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-10",
+      "output_position_id": "EX-XII-XIII-33-10-O001",
+      "token_index_one_based": 6,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-into-goal",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "on",
+      "exact_parenthesis": "(on)",
+      "prompt_excerpt": "t), and went into (om. a) ship, and caught nothing (183) in (on) that night.",
+      "hint_span_zero_based": [
+        76,
+        80
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-05",
+      "output_position_id": "EX-XII-XIII-34-05-O001",
+      "token_index_one_based": 5,
+      "surface": "beforan",
+      "lemma_id": "beforan",
+      "form_id": "beforan-invariant-source",
+      "sense_id": "beforan-before-source",
+      "contextual_analysis": {
+        "source_analysis": "source position phrase him beforan with dative pronoun",
+        "case": "dat"
+      },
+      "hint_text": "beforan",
+      "exact_parenthesis": "(beforan, 166)",
+      "prompt_excerpt": "They were both righteous before (beforan, 166) God.",
+      "hint_span_zero_based": [
+        32,
+        46
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-07",
+      "output_position_id": "EX-XII-XIII-34-07-O001",
+      "token_index_one_based": 18,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-1",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "on",
+      "exact_parenthesis": "(on, 172)",
+      "prompt_excerpt": " these (om. things), ye shall see the Son of Man sitting on (on, 172) the right hand of (om. the) majesty of God, and coming in (",
+      "hint_span_zero_based": [
+        77,
+        86
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-08",
+      "output_position_id": "EX-XII-XIII-34-08-O001",
+      "token_index_one_based": 4,
+      "surface": "æfter",
+      "lemma_id": "aefter",
+      "form_id": "aefter-invariant-source",
+      "sense_id": "aefter-according-to-source",
+      "contextual_analysis": {
+        "source_analysis": "preposition governing dative",
+        "case": "dat"
+      },
+      "hint_text": "æfter",
+      "exact_parenthesis": "(æfter)",
+      "prompt_excerpt": "Be (om. it unto) you two (dual, 81) according to (æfter) your faith.",
+      "hint_span_zero_based": [
+        49,
+        56
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-10",
+      "output_position_id": "EX-XII-XIII-34-10-O001",
+      "token_index_one_based": 1,
+      "surface": "Ðonne",
+      "lemma_id": "thonne-conjunction",
+      "form_id": "thonne-conjunction-invariant",
+      "sense_id": "thonne-when",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "conjunction"
+      },
+      "hint_text": "ðonne",
+      "exact_parenthesis": "(ðonne)",
+      "prompt_excerpt": "When (ðonne) Christ cometh, then knoweth no man whence he is.",
+      "hint_span_zero_based": [
+        5,
+        12
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-10",
+      "output_position_id": "EX-XII-XIII-34-10-O001",
+      "token_index_one_based": 4,
+      "surface": "ðonne",
+      "lemma_id": "thonne",
+      "form_id": "thonne-invariant",
+      "sense_id": "thonne-then-source",
+      "contextual_analysis": {
+        "type": "invariant"
+      },
+      "hint_text": "ðonne",
+      "exact_parenthesis": "(ðonne)",
+      "prompt_excerpt": "When (ðonne) Christ cometh, then knoweth no man whence he is.",
+      "hint_span_zero_based": [
+        5,
+        12
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-06",
+      "output_position_id": "EX-XII-XIII-35-06-O001",
+      "token_index_one_based": 1,
+      "surface": "Ðrīwa",
+      "lemma_id": "thriwa",
+      "form_id": "thriwa-u16-invariant",
+      "sense_id": "thriwa-u16-sense",
+      "contextual_analysis": {
+        "part_of_speech": "adverb",
+        "inflection": "invariant"
+      },
+      "hint_text": "ðrīwa",
+      "exact_parenthesis": "(ðrīwa)",
+      "prompt_excerpt": "Thrice (ðrīwa) I suffered shipwreck; a night (170) and a day I was in this",
+      "hint_span_zero_based": [
+        7,
+        14
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-07",
+      "output_position_id": "EX-XII-XIII-35-07-O001",
+      "token_index_one_based": 14,
+      "surface": "ðǣr",
+      "lemma_id": "thaer",
+      "form_id": "thaer-invariant-source",
+      "sense_id": "thaer-there",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "adverb"
+      },
+      "hint_text": "ðǣr",
+      "exact_parenthesis": "(ðǣr)",
+      "prompt_excerpt": " carried (lǣdan) unto (ōð, 172) the third heaven, and there (ðǣr) heard the words that no earthly man may (not) speak (spreca",
+      "hint_span_zero_based": [
+        105,
+        110
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-07",
+      "output_position_id": "EX-XII-XIII-35-07-O001",
+      "token_index_one_based": 24,
+      "surface": "sprecan",
+      "lemma_id": "sprecan",
+      "form_id": "sprecan-infinitive-citation",
+      "sense_id": "sprecan-1",
+      "contextual_analysis": {
+        "nonfinite": "infinitive",
+        "inflection": "uninflected"
+      },
+      "hint_text": "sprecan",
+      "exact_parenthesis": "(sprecan)",
+      "prompt_excerpt": "e (ðǣr) heard the words that no earthly man may (not) speak (sprecan).",
+      "hint_span_zero_based": [
+        163,
+        172
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-09",
+      "output_position_id": "EX-XII-XIII-35-09-O001",
+      "token_index_one_based": 3,
+      "surface": "tō",
+      "lemma_id": "to",
+      "form_id": "to-preposition-dative-invariant",
+      "sense_id": "to-destination",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition introducing speech addressee"
+      },
+      "hint_text": "tō",
+      "exact_parenthesis": "(tō, 166)",
+      "prompt_excerpt": "They come to (tō, 166) you in sheep’s garments (gegierela), but within (innan) the",
+      "hint_span_zero_based": [
+        13,
+        22
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-09",
+      "output_position_id": "EX-XII-XIII-35-09-O001",
+      "token_index_one_based": 9,
+      "surface": "innan",
+      "lemma_id": "innan",
+      "form_id": "innan-u16-invariant",
+      "sense_id": "innan-u16-sense",
+      "contextual_analysis": {
+        "part_of_speech": "adverb",
+        "inflection": "invariant"
+      },
+      "hint_text": "innan",
+      "exact_parenthesis": "(innan)",
+      "prompt_excerpt": "o (tō, 166) you in sheep’s garments (gegierela), but within (innan) they are wolves.",
+      "hint_span_zero_based": [
+        71,
+        78
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-10",
+      "output_position_id": "EX-XII-XIII-35-10-O001",
+      "token_index_one_based": 1,
+      "surface": "Ðā",
+      "lemma_id": "tha-conjunction",
+      "form_id": "tha-conjunction-invariant",
+      "sense_id": "tha-when",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "conjunction"
+      },
+      "hint_text": "ðā",
+      "exact_parenthesis": "(ðā)",
+      "prompt_excerpt": "he came nigh (nēalǣcan) to the gate (163) of the city, then (ðā) was there (ðǣr) a dead man carried (beran).",
+      "hint_span_zero_based": [
+        65,
+        69
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-10",
+      "output_position_id": "EX-XII-XIII-35-10-O001",
+      "token_index_one_based": 7,
+      "surface": "ðā",
+      "lemma_id": "tha-adverb",
+      "form_id": "tha-adverb-invariant",
+      "sense_id": "tha-adverb-1",
+      "contextual_analysis": {
+        "source_analysis": "temporal adverb"
+      },
+      "hint_text": "ðā",
+      "exact_parenthesis": "(ðā)",
+      "prompt_excerpt": "he came nigh (nēalǣcan) to the gate (163) of the city, then (ðā) was there (ðǣr) a dead man carried (beran).",
+      "hint_span_zero_based": [
+        65,
+        69
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-10",
+      "output_position_id": "EX-XII-XIII-35-10-O001",
+      "token_index_one_based": 9,
+      "surface": "ðǣr",
+      "lemma_id": "thaer",
+      "form_id": "thaer-invariant-source",
+      "sense_id": "thaer-there",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "adverb"
+      },
+      "hint_text": "ðǣr",
+      "exact_parenthesis": "(ðǣr)",
+      "prompt_excerpt": "ēalǣcan) to the gate (163) of the city, then (ðā) was there (ðǣr) a dead man carried (beran).",
+      "hint_span_zero_based": [
+        80,
+        85
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-01",
+      "output_position_id": "EX-XII-XIII-36-01-O001",
+      "token_index_one_based": 4,
+      "surface": "be",
+      "lemma_id": "be",
+      "form_id": "be-invariant-source",
+      "sense_id": "be-according-source",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition governing dative"
+      },
+      "hint_text": "be",
+      "exact_parenthesis": "(be)",
+      "prompt_excerpt": "Judge ye not according to (be) appearance (ansīen, 51. b), but judge right judgment (168. ",
+      "hint_span_zero_based": [
+        26,
+        30
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-02",
+      "output_position_id": "EX-XII-XIII-36-02-O001",
+      "token_index_one_based": 16,
+      "surface": "intō",
+      "lemma_id": "into",
+      "form_id": "into-invariant-source",
+      "sense_id": "into-destination-source",
+      "contextual_analysis": {
+        "source_analysis": "source destination phrase with dative; no general motion rule taught",
+        "case": "dat"
+      },
+      "hint_text": "intō",
+      "exact_parenthesis": "(intō)",
+      "prompt_excerpt": " to the woman, and said, Seest thou this woman? I went into (intō) thy house, thou gavest me not water for (tō) my feet; this ",
+      "hint_span_zero_based": [
+        93,
+        99
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-02",
+      "output_position_id": "EX-XII-XIII-36-02-O001",
+      "token_index_one_based": 5,
+      "surface": "tō",
+      "lemma_id": "to",
+      "form_id": "to-preposition-dative-invariant",
+      "sense_id": "to-destination",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition introducing speech addressee"
+      },
+      "hint_text": "tō",
+      "exact_parenthesis": "(tō)",
+      "prompt_excerpt": " I went into (intō) thy house, thou gavest me not water for (tō) my feet; this (om. one hath) washed (101. VI.) my feet with",
+      "hint_span_zero_based": [
+        140,
+        144
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-02",
+      "output_position_id": "EX-XII-XIII-36-02-O001",
+      "token_index_one_based": 31,
+      "surface": "mid",
+      "lemma_id": "mid",
+      "form_id": "mid-invariant-source",
+      "sense_id": "mid-by-means",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "mid",
+      "exact_parenthesis": "(mid)",
+      "prompt_excerpt": "my feet; this (om. one hath) washed (101. VI.) my feet with (mid) her tears.",
+      "hint_span_zero_based": [
+        205,
+        210
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-03",
+      "output_position_id": "EX-XII-XIII-36-03-O001",
+      "token_index_one_based": 3,
+      "surface": "coss",
+      "lemma_id": "coss",
+      "form_id": "coss-acc-sg",
+      "sense_id": "coss-u16-sense",
+      "contextual_analysis": {
+        "case": "acc",
+        "number": "sg",
+        "gender": "m"
+      },
+      "hint_text": "coss",
+      "exact_parenthesis": "(coss, 43)",
+      "prompt_excerpt": "Thou gavest (verb last) me not (om. a) kiss (coss, 43); this (om. one), since (siððan) I entered, (om. hath) cease",
+      "hint_span_zero_based": [
+        44,
+        54
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-03",
+      "output_position_id": "EX-XII-XIII-36-03-O001",
+      "token_index_one_based": 7,
+      "surface": "siððan",
+      "lemma_id": "siththan",
+      "form_id": "siththan-u16-invariant",
+      "sense_id": "siththan-u16-sense",
+      "contextual_analysis": {
+        "part_of_speech": "adverb",
+        "inflection": "invariant"
+      },
+      "hint_text": "siððan",
+      "exact_parenthesis": "(siððan)",
+      "prompt_excerpt": "last) me not (om. a) kiss (coss, 43); this (om. one), since (siððan) I entered, (om. hath) ceased not to kiss [that she kissed] ",
+      "hint_span_zero_based": [
+        78,
+        86
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-05",
+      "output_position_id": "EX-XII-XIII-36-05-O001",
+      "token_index_one_based": 13,
+      "surface": "swīðe",
+      "lemma_id": "swithe",
+      "form_id": "swithe-positive",
+      "sense_id": "swithe-positive",
+      "contextual_analysis": {
+        "degree": "positive"
+      },
+      "hint_text": "swīðe",
+      "exact_parenthesis": "(swīðe)",
+      "prompt_excerpt": "iven (forgiefan) her, because she loved (verb last) me much (swīðe).",
+      "hint_span_zero_based": [
+        122,
+        129
+      ],
+      "previous_assessment_role": "independent_production",
+      "proposed_assessment_role": "given_dictionary_form_position_identification_not_unaided_recall",
+      "retained_support_ids": [],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    }
+  ],
+  "already_supplied_matches_preserved": [
+    {
+      "task_id": "EX-XII-XIII-32-02",
+      "output_position_id": "EX-XII-XIII-32-02-O001",
+      "token_index_one_based": 4,
+      "surface": "swilce",
+      "lemma_id": "swilce",
+      "form_id": "swilce-u16-approximate",
+      "sense_id": "swilce-u16-sense",
+      "contextual_analysis": {
+        "part_of_speech": "adverb",
+        "inflection": "invariant",
+        "context": "swilce twēntig furlanga oððe ðrītig; approximation, not an automatic extension of prior as-if conjunction"
+      },
+      "hint_text": "swilce",
+      "exact_parenthesis": "(swilce)",
+      "prompt_excerpt": "When they had rowed about (swilce) twenty furlongs (furlang, 47), or thirty, then saw they Jes",
+      "hint_span_zero_based": [
+        26,
+        34
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-CSUP-01",
+        "U16-HELP-EX-XII-XIII-32-02-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-02",
+      "output_position_id": "EX-XII-XIII-32-02-O001",
+      "token_index_one_based": 13,
+      "surface": "uppan",
+      "lemma_id": "uppan",
+      "form_id": "uppan-u16-invariant",
+      "sense_id": "uppan-u16-sense",
+      "contextual_analysis": {
+        "part_of_speech": "preposition",
+        "inflection": "invariant",
+        "context": "exact supplied uppan ðǣre sǣ32.2; dative under166"
+      },
+      "hint_text": "uppan",
+      "exact_parenthesis": "(uppan, 166)",
+      "prompt_excerpt": "rlang, 47), or thirty, then saw they Jesus walking (gān) on (uppan, 166) the sea (verb last).",
+      "hint_span_zero_based": [
+        114,
+        126
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-CSUP-01",
+        "U16-HELP-EX-XII-XIII-32-02-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-32-09",
+      "output_position_id": "EX-XII-XIII-32-09-O001",
+      "token_index_one_based": 10,
+      "surface": "of",
+      "lemma_id": "of",
+      "form_id": "of-invariant-dat-source",
+      "sense_id": "of-u15-source-partitive",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "of",
+      "exact_parenthesis": "(of, 166)",
+      "prompt_excerpt": "m. a) hundred sheep (154. c), and loseth (forlēosan) one of (of, 166) them [those], (om. doth) he not leave the nine and ninety i",
+      "hint_span_zero_based": [
+        86,
+        95
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-CSUP-02",
+        "U16-HELP-EX-XII-XIII-32-09-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-01",
+      "output_position_id": "EX-XII-XIII-33-01-O001",
+      "token_index_one_based": 2,
+      "surface": "intō",
+      "lemma_id": "into",
+      "form_id": "into-invariant-source",
+      "sense_id": "into-destination-source",
+      "contextual_analysis": {
+        "source_analysis": "source destination phrase with dative; no general motion rule taught",
+        "case": "dat"
+      },
+      "hint_text": "intō",
+      "exact_parenthesis": "(intō, 166)",
+      "prompt_excerpt": "And, going (gangan) into (intō, 166) the house, they found the child with Mary (Maria, 53) his m",
+      "hint_span_zero_based": [
+        25,
+        36
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-GANGAN-PARTICIPLE"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-02",
+      "output_position_id": "EX-XII-XIII-33-02-O001",
+      "token_index_one_based": 13,
+      "surface": "tō",
+      "lemma_id": "to",
+      "form_id": "to-preposition-dative-invariant",
+      "sense_id": "to-destination",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition introducing speech addressee"
+      },
+      "hint_text": "tō",
+      "exact_parenthesis": "(tō, 166)",
+      "prompt_excerpt": "take (niman) the child and his mother by night, and flee to (tō, 166) (om. the) land of the Egyptians, and be there until (that) ",
+      "hint_span_zero_based": [
+        71,
+        80
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-CSUP-04"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-03",
+      "output_position_id": "EX-XII-XIII-33-03-O001",
+      "token_index_one_based": 11,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-u15-source-during",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "on",
+      "exact_parenthesis": "(on, 172)",
+      "prompt_excerpt": " took the child and his mother by night, and journeyed into (on, 172) the land of the Egyptians; that it (om. might) be fulfilled",
+      "hint_span_zero_based": [
+        78,
+        87
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-EX-XII-XIII-33-03-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-03",
+      "output_position_id": "EX-XII-XIII-33-03-O001",
+      "token_index_one_based": 29,
+      "surface": "Of",
+      "lemma_id": "of",
+      "form_id": "of-invariant-dat-source",
+      "sense_id": "of-u11-source",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "of",
+      "exact_parenthesis": "(of, 166)",
+      "prompt_excerpt": "(fram, 166) (om. the) Lord by (ðurh, 172) the prophet, From (of, 166) (om. the) Egyptians (om. have) I called (cleopian) my son.",
+      "hint_span_zero_based": [
+        256,
+        265
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-CSUP-04"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-33-10",
+      "output_position_id": "EX-XII-XIII-33-10-O001",
+      "token_index_one_based": 12,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-u15-source-during",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "on",
+      "exact_parenthesis": "(on)",
+      "prompt_excerpt": "t), and went into (om. a) ship, and caught nothing (183) in (on) that night.",
+      "hint_span_zero_based": [
+        76,
+        80
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-EX-XII-XIII-33-10-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-06",
+      "output_position_id": "EX-XII-XIII-34-06-O001",
+      "token_index_one_based": 4,
+      "surface": "ðurh",
+      "lemma_id": "thurh",
+      "form_id": "thurh-invariant-eth-source",
+      "sense_id": "thurh-u15-oath",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition governing accusative person as mediator"
+      },
+      "hint_text": "ðurh",
+      "exact_parenthesis": "(ðurh)",
+      "prompt_excerpt": "I conjure thee by (ðurh) the living God, that thou tell us if thou be Christ, (om. t",
+      "hint_span_zero_based": [
+        18,
+        24
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-LIVING-GOD"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-07",
+      "output_position_id": "EX-XII-XIII-34-07-O001",
+      "token_index_one_based": 10,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-placement-side-source",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "on",
+      "exact_parenthesis": "(on, 172)",
+      "prompt_excerpt": " these (om. things), ye shall see the Son of Man sitting on (on, 172) the right hand of (om. the) majesty of God, and coming in (",
+      "hint_span_zero_based": [
+        77,
+        86
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-EX-XII-XIII-34-07-LEXICAL",
+        "U16-HELP-RIGHT-HAND"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-09",
+      "output_position_id": "EX-XII-XIII-34-09-O001",
+      "token_index_one_based": 7,
+      "surface": "on",
+      "lemma_id": "on",
+      "form_id": "on-invariant",
+      "sense_id": "on-glory-source",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "on",
+      "exact_parenthesis": "(on, 166)",
+      "prompt_excerpt": "Truly the Son of Man is to come (200) in (on, 166) his Father’s glory (wuldor), and then (ðonne) (om. shall) r",
+      "hint_span_zero_based": [
+        41,
+        50
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-EX-XII-XIII-34-09-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-09",
+      "output_position_id": "EX-XII-XIII-34-09-O001",
+      "token_index_one_based": 12,
+      "surface": "ðonne",
+      "lemma_id": "thonne",
+      "form_id": "thonne-invariant",
+      "sense_id": "thonne-then-source",
+      "contextual_analysis": {
+        "type": "invariant"
+      },
+      "hint_text": "ðonne",
+      "exact_parenthesis": "(ðonne)",
+      "prompt_excerpt": "me (200) in (on, 166) his Father’s glory (wuldor), and then (ðonne) (om. shall) reward (āgyltan, 113) every one (164) according",
+      "hint_span_zero_based": [
+        89,
+        96
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-REWARD-CLAUSE"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-34-09",
+      "output_position_id": "EX-XII-XIII-34-09-O001",
+      "token_index_one_based": 16,
+      "surface": "be",
+      "lemma_id": "be",
+      "form_id": "be-invariant-source",
+      "sense_id": "be-according-source",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition governing dative"
+      },
+      "hint_text": "be",
+      "exact_parenthesis": "(be)",
+      "prompt_excerpt": ". shall) reward (āgyltan, 113) every one (164) according to (be) his own work.",
+      "hint_span_zero_based": [
+        160,
+        164
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-REWARD-CLAUSE"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-07",
+      "output_position_id": "EX-XII-XIII-35-07-O001",
+      "token_index_one_based": 8,
+      "surface": "ōð",
+      "lemma_id": "oth",
+      "form_id": "oth-u16-invariant",
+      "sense_id": "oth-u16-sense",
+      "contextual_analysis": {
+        "part_of_speech": "preposition",
+        "inflection": "invariant",
+        "context": "supplied ōð ðone ðriddan heofon, accusative goal, in35.7"
+      },
+      "hint_text": "ōð",
+      "exact_parenthesis": "(ōð, 172)",
+      "prompt_excerpt": "(witan) a certain man that (87. d) was carried (lǣdan) unto (ōð, 172) the third heaven, and there (ðǣr) heard the words that no e",
+      "hint_span_zero_based": [
+        67,
+        76
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-CSUP-07",
+        "U16-HELP-EX-XII-XIII-35-07-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-08",
+      "output_position_id": "EX-XII-XIII-35-08-O001",
+      "token_index_one_based": 3,
+      "surface": "nearu",
+      "lemma_id": "nearu",
+      "form_id": "nearu-nom-sg-n-strong",
+      "sense_id": "nearu-u16-sense",
+      "contextual_analysis": {
+        "case": "nom",
+        "number": "sg",
+        "gender": "n",
+        "strength": "strong"
+      },
+      "hint_text": "nearu",
+      "exact_parenthesis": "(nearu, 57. 5)",
+      "prompt_excerpt": "O, how narrow (nearu, 57. 5) is the gate and the way that (87. d) leads to life (verb la",
+      "hint_span_zero_based": [
+        14,
+        28
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-GATE-WAY-AGREEMENT"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-35-13",
+      "output_position_id": "EX-XII-XIII-35-13-O001",
+      "token_index_one_based": 3,
+      "surface": "of",
+      "lemma_id": "of",
+      "form_id": "of-invariant-dat-source",
+      "sense_id": "of-u15-source-partitive",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "of",
+      "exact_parenthesis": "(of, 166)",
+      "prompt_excerpt": "Give (sęllan) us of (of, 166) your oil.",
+      "hint_span_zero_based": [
+        20,
+        29
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-CSUP-10",
+        "U16-HELP-EX-XII-XIII-35-13-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-02",
+      "output_position_id": "EX-XII-XIII-36-02-O001",
+      "token_index_one_based": 24,
+      "surface": "tō",
+      "lemma_id": "to",
+      "form_id": "to-preposition-dative-invariant",
+      "sense_id": "to-u16-body-care",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition introducing speech addressee"
+      },
+      "hint_text": "tō",
+      "exact_parenthesis": "(tō)",
+      "prompt_excerpt": " I went into (intō) thy house, thou gavest me not water for (tō) my feet; this (om. one hath) washed (101. VI.) my feet with",
+      "hint_span_zero_based": [
+        140,
+        144
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-CSUP-13",
+        "U16-HELP-EX-XII-XIII-36-02-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall.",
+      "same_surface_multiple_positions": "The one printed hint makes this spelling available at each exact matching position. This does not merge their distinct senses, analyses or grammatical functions."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-08",
+      "output_position_id": "EX-XII-XIII-36-08-O001",
+      "token_index_one_based": 4,
+      "surface": "mid",
+      "lemma_id": "mid",
+      "form_id": "mid-invariant-source",
+      "sense_id": "mid-u13-manner-source",
+      "contextual_analysis": {
+        "invariant": true,
+        "function": "preposition"
+      },
+      "hint_text": "mid",
+      "exact_parenthesis": "(mid)",
+      "prompt_excerpt": "Then he promised with (mid) oath (āð, 43) to give (sęllan) her whatsoever she (om. shou",
+      "hint_span_zero_based": [
+        22,
+        27
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-EX-XII-XIII-36-08-LEXICAL",
+        "U16-HELP-PROMISE-FREECHOICE"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-09",
+      "output_position_id": "EX-XII-XIII-36-09-O001",
+      "token_index_one_based": 4,
+      "surface": "fram",
+      "lemma_id": "fram",
+      "form_id": "fram-invariant",
+      "sense_id": "fram-1",
+      "contextual_analysis": {
+        "inflection": "invariant"
+      },
+      "hint_text": "fram",
+      "exact_parenthesis": "(fram)",
+      "prompt_excerpt": "Then, admonished (myngian) by (fram) her mother, she said, Give me in a dish (disc, 43) the head",
+      "hint_span_zero_based": [
+        30,
+        36
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-HELP-ADMONISHED-MOTHER"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    },
+    {
+      "task_id": "EX-XII-XIII-36-09",
+      "output_position_id": "EX-XII-XIII-36-09-O001",
+      "token_index_one_based": 12,
+      "surface": "Johannes",
+      "lemma_id": "johannes-name",
+      "form_id": "johannes-name-u16-gen-context",
+      "sense_id": "johannes-name-u16-sense",
+      "contextual_analysis": {
+        "case": "gen",
+        "number": "sg",
+        "gender": "m",
+        "context": "WS Matthew14.8 Iohannes; declared initial I→J to follow Cook’s given headword"
+      },
+      "hint_text": "Johannes",
+      "exact_parenthesis": "(Johannes)",
+      "prompt_excerpt": "er, she said, Give me in a dish (disc, 43) the head of John (Johannes) the Baptist (fuluhtere, 44. 1).",
+      "hint_span_zero_based": [
+        105,
+        115
+      ],
+      "previous_assessment_role": "supplied_position_not_unaided_recall",
+      "proposed_assessment_role": "supplied_position_not_unaided_recall",
+      "retained_support_ids": [
+        "U16-CSUP-16",
+        "U16-HELP-EX-XII-XIII-36-09-LEXICAL"
+      ],
+      "target_retention": "Retain the actual case/number/person/mood, lexical sense and construction targets; the visible spelling is not evidence of unaided form recall."
+    }
+  ],
+  "all_item_results": [
+    {
+      "task_id": "EX-XII-XIII-32-01",
+      "prompt": "I bid you all farewell (grētan).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "grētan",
+          "exact_parenthesis": "(grētan)",
+          "prompt_span_zero_based": [
+            23,
+            31
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-02",
+      "prompt": "When they had rowed about (swilce) twenty furlongs (furlang, 47), or thirty, then saw they Jesus walking (gān) on (uppan, 166) the sea (verb last).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "swilce",
+          "exact_parenthesis": "(swilce)",
+          "prompt_span_zero_based": [
+            26,
+            34
+          ],
+          "matching_model_token_indices": [
+            4
+          ]
+        },
+        {
+          "hint_text": "furlang",
+          "exact_parenthesis": "(furlang, 47)",
+          "prompt_span_zero_based": [
+            51,
+            64
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "gān",
+          "exact_parenthesis": "(gān)",
+          "prompt_span_zero_based": [
+            105,
+            110
+          ],
+          "matching_model_token_indices": [
+            16
+          ]
+        },
+        {
+          "hint_text": "uppan",
+          "exact_parenthesis": "(uppan, 166)",
+          "prompt_span_zero_based": [
+            114,
+            126
+          ],
+          "matching_model_token_indices": [
+            13
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(verb last)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 3,
+      "proposed_role_change_token_indices": [
+        16
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-03",
+      "prompt": "He arose and commanded (bebēodan) the wind (164. b), and said (cweðan) to the sea, Subside.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "bebēodan",
+          "exact_parenthesis": "(bebēodan)",
+          "prompt_span_zero_based": [
+            23,
+            33
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "cweðan",
+          "exact_parenthesis": "(cweðan)",
+          "prompt_span_zero_based": [
+            62,
+            70
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(164. b)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-04",
+      "prompt": "The wind ceased (geswīcan), and there was (weorðan) (om. a) great calm.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "geswīcan",
+          "exact_parenthesis": "(geswīcan)",
+          "prompt_span_zero_based": [
+            16,
+            26
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "weorðan",
+          "exact_parenthesis": "(weorðan)",
+          "prompt_span_zero_based": [
+            42,
+            51
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. a)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-05",
+      "prompt": "Thou hearest his voice, and thou knowest not whence he cometh, nor whither he goeth.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-06",
+      "prompt": "He saw two brethren casting (sęndan) their net (nętt, 47) into (on, 172) the sea; they were fishers.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "sęndan",
+          "exact_parenthesis": "(sęndan)",
+          "prompt_span_zero_based": [
+            28,
+            36
+          ],
+          "matching_model_token_indices": [
+            10
+          ]
+        },
+        {
+          "hint_text": "nętt",
+          "exact_parenthesis": "(nętt, 47)",
+          "prompt_span_zero_based": [
+            47,
+            57
+          ],
+          "matching_model_token_indices": [
+            6
+          ]
+        },
+        {
+          "hint_text": "on",
+          "exact_parenthesis": "(on, 172)",
+          "prompt_span_zero_based": [
+            63,
+            72
+          ],
+          "matching_model_token_indices": [
+            7
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 3,
+      "proposed_role_change_token_indices": [
+        10,
+        6,
+        7
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-07",
+      "prompt": "And he said (sęcgean) to them (164. b), Come after (æfter, 166) me, and I (om. will) make (dōn) that ye (dual) are fishers of men (153. d); and they immediately left their nets.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "sęcgean",
+          "exact_parenthesis": "(sęcgean)",
+          "prompt_span_zero_based": [
+            12,
+            21
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "æfter",
+          "exact_parenthesis": "(æfter, 166)",
+          "prompt_span_zero_based": [
+            51,
+            63
+          ],
+          "matching_model_token_indices": [
+            6
+          ]
+        },
+        {
+          "hint_text": "dōn",
+          "exact_parenthesis": "(dōn)",
+          "prompt_span_zero_based": [
+            90,
+            95
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(164. b)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. will)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(dual)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(153. d)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [
+        6
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-08",
+      "prompt": "If thy hand or thy foot offend (ǣswician, 118) thee, cut it (āceorfan, 104) off (of), and cast (om. it) from thee; (om. it) is better (om. for) thee (165) that thou go halt (healt, 58) into life, than (om. that) thou have two hands and two feet, and be cast into everlasting fire.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "ǣswician",
+          "exact_parenthesis": "(ǣswician, 118)",
+          "prompt_span_zero_based": [
+            31,
+            46
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "āceorfan",
+          "exact_parenthesis": "(āceorfan, 104)",
+          "prompt_span_zero_based": [
+            60,
+            75
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "of",
+          "exact_parenthesis": "(of)",
+          "prompt_span_zero_based": [
+            80,
+            84
+          ],
+          "matching_model_token_indices": [
+            11
+          ]
+        },
+        {
+          "hint_text": "healt",
+          "exact_parenthesis": "(healt, 58)",
+          "prompt_span_zero_based": [
+            173,
+            184
+          ],
+          "matching_model_token_indices": [
+            21
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. it)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. it)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. for)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(165)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. that)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 2,
+      "proposed_role_change_token_indices": [
+        11,
+        21
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-09",
+      "prompt": "If any (hwilc) man hath (om. a) hundred sheep (154. c), and loseth (forlēosan) one of (of, 166) them [those], (om. doth) he not leave the nine and ninety in the mountains, and goeth and seeketh (sēcean) the one that (87. d) was perishing (forwearð)?",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "hwilc",
+          "exact_parenthesis": "(hwilc)",
+          "prompt_span_zero_based": [
+            7,
+            14
+          ],
+          "matching_model_token_indices": [
+            2
+          ]
+        },
+        {
+          "hint_text": "forlēosan",
+          "exact_parenthesis": "(forlēosan)",
+          "prompt_span_zero_based": [
+            67,
+            78
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "of",
+          "exact_parenthesis": "(of, 166)",
+          "prompt_span_zero_based": [
+            86,
+            95
+          ],
+          "matching_model_token_indices": [
+            10
+          ]
+        },
+        {
+          "hint_text": "sēcean",
+          "exact_parenthesis": "(sēcean)",
+          "prompt_span_zero_based": [
+            194,
+            202
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "forwearð",
+          "exact_parenthesis": "(forwearð)",
+          "prompt_span_zero_based": [
+            238,
+            248
+          ],
+          "matching_model_token_indices": [
+            27
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. a)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(154. c)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. doth)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(87. d)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 3,
+      "proposed_role_change_token_indices": [
+        2,
+        27
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-10",
+      "prompt": "And if it happeneth that he finds it, truly I say (sęcgean) to you that he rejoiceth more (swīðor) over (ofer, 172) that one than over the nine and ninety.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "sęcgean",
+          "exact_parenthesis": "(sęcgean)",
+          "prompt_span_zero_based": [
+            50,
+            59
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "swīðor",
+          "exact_parenthesis": "(swīðor)",
+          "prompt_span_zero_based": [
+            90,
+            98
+          ],
+          "matching_model_token_indices": [
+            15
+          ]
+        },
+        {
+          "hint_text": "ofer",
+          "exact_parenthesis": "(ofer, 172)",
+          "prompt_span_zero_based": [
+            104,
+            115
+          ],
+          "matching_model_token_indices": [
+            16,
+            20
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 3,
+      "proposed_role_change_token_indices": [
+        15,
+        16,
+        20
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-32-11",
+      "prompt": "When he cometh home (hām), he calleth (cleopian) together his friends and his neighbors (nēahgebūr, 43), and saith (cweðan), Rejoice with me, because I (om. have) found my lost sheep.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "hām",
+          "exact_parenthesis": "(hām)",
+          "prompt_span_zero_based": [
+            20,
+            25
+          ],
+          "matching_model_token_indices": [
+            3
+          ]
+        },
+        {
+          "hint_text": "cleopian",
+          "exact_parenthesis": "(cleopian)",
+          "prompt_span_zero_based": [
+            38,
+            48
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "nēahgebūr",
+          "exact_parenthesis": "(nēahgebūr, 43)",
+          "prompt_span_zero_based": [
+            88,
+            103
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "cweðan",
+          "exact_parenthesis": "(cweðan)",
+          "prompt_span_zero_based": [
+            115,
+            123
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. have)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [
+        3
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-01",
+      "prompt": "And, going (gangan) into (intō, 166) the house, they found the child with Mary (Maria, 53) his mother.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "gangan",
+          "exact_parenthesis": "(gangan)",
+          "prompt_span_zero_based": [
+            11,
+            19
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "intō",
+          "exact_parenthesis": "(intō, 166)",
+          "prompt_span_zero_based": [
+            25,
+            36
+          ],
+          "matching_model_token_indices": [
+            2
+          ]
+        },
+        {
+          "hint_text": "Maria",
+          "exact_parenthesis": "(Maria, 53)",
+          "prompt_span_zero_based": [
+            79,
+            90
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-02",
+      "prompt": "Arise, and take (niman) the child and his mother by night, and flee to (tō, 166) (om. the) land of the Egyptians, and be there until (that) I tell thee (verb last).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "niman",
+          "exact_parenthesis": "(niman)",
+          "prompt_span_zero_based": [
+            16,
+            23
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "tō",
+          "exact_parenthesis": "(tō, 166)",
+          "prompt_span_zero_based": [
+            71,
+            80
+          ],
+          "matching_model_token_indices": [
+            13
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. the)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(that)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(verb last)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-03",
+      "prompt": "He arose then, and took the child and his mother by night, and journeyed into (on, 172) the land of the Egyptians; that it (om. might) be fulfilled (gefyllan) which (87. a) was spoken (cweðan) of (fram, 166) (om. the) Lord by (ðurh, 172) the prophet, From (of, 166) (om. the) Egyptians (om. have) I called (cleopian) my son.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "on",
+          "exact_parenthesis": "(on, 172)",
+          "prompt_span_zero_based": [
+            78,
+            87
+          ],
+          "matching_model_token_indices": [
+            11,
+            15
+          ]
+        },
+        {
+          "hint_text": "gefyllan",
+          "exact_parenthesis": "(gefyllan)",
+          "prompt_span_zero_based": [
+            148,
+            158
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "cweðan",
+          "exact_parenthesis": "(cweðan)",
+          "prompt_span_zero_based": [
+            184,
+            192
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "fram",
+          "exact_parenthesis": "(fram, 166)",
+          "prompt_span_zero_based": [
+            196,
+            207
+          ],
+          "matching_model_token_indices": [
+            22
+          ]
+        },
+        {
+          "hint_text": "ðurh",
+          "exact_parenthesis": "(ðurh, 172)",
+          "prompt_span_zero_based": [
+            226,
+            237
+          ],
+          "matching_model_token_indices": [
+            24
+          ]
+        },
+        {
+          "hint_text": "of",
+          "exact_parenthesis": "(of, 166)",
+          "prompt_span_zero_based": [
+            256,
+            265
+          ],
+          "matching_model_token_indices": [
+            29
+          ]
+        },
+        {
+          "hint_text": "cleopian",
+          "exact_parenthesis": "(cleopian)",
+          "prompt_span_zero_based": [
+            306,
+            316
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. might)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(87. a)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. the)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. the)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. have)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 5,
+      "proposed_role_change_token_indices": [
+        15,
+        22,
+        24
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-04",
+      "prompt": "What can they ask for [request; 156. b]?",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-05",
+      "prompt": "The sun rules over the day (156. f).",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(156. f)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-06",
+      "prompt": "They expected nothing but [except] death itself (156. g).",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(156. g)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-07",
+      "prompt": "Thou wilt cease from thy work (156. k).",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(156. k)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-08",
+      "prompt": "Perhaps he will find a friend (194. a).",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(194. a)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-09",
+      "prompt": "He said to them, I will (139) go a fishing; they said, And we will go with thee.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(139)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-33-10",
+      "prompt": "They went out (ūt), and went into (om. a) ship, and caught nothing (183) in (on) that night.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "ūt",
+          "exact_parenthesis": "(ūt)",
+          "prompt_span_zero_based": [
+            14,
+            18
+          ],
+          "matching_model_token_indices": [
+            3
+          ]
+        },
+        {
+          "hint_text": "on",
+          "exact_parenthesis": "(on)",
+          "prompt_span_zero_based": [
+            76,
+            80
+          ],
+          "matching_model_token_indices": [
+            6,
+            12
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. a)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(183)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 3,
+      "proposed_role_change_token_indices": [
+        3,
+        6
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-01",
+      "prompt": "Whoever you are (193. c), forsake me not.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(193. c)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-02",
+      "prompt": "If you find nobody (196. d) that will feed you, return hither.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(196. d)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-03",
+      "prompt": "Let my books be sufficient for both of us (see p. 167, l. 13).",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(see p. 167, l. 13)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-04",
+      "prompt": "Both the boys are well educated.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-05",
+      "prompt": "They were both righteous before (beforan, 166) God.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "beforan",
+          "exact_parenthesis": "(beforan, 166)",
+          "prompt_span_zero_based": [
+            32,
+            46
+          ],
+          "matching_model_token_indices": [
+            5
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [
+        5
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-06",
+      "prompt": "I conjure thee by (ðurh) the living God, that thou tell us if thou be Christ, (om. the) Son of God.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "ðurh",
+          "exact_parenthesis": "(ðurh)",
+          "prompt_span_zero_based": [
+            18,
+            24
+          ],
+          "matching_model_token_indices": [
+            4
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. the)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-07",
+      "prompt": "I tell you, After these (om. things), ye shall see the Son of Man sitting on (on, 172) the right hand of (om. the) majesty of God, and coming in (om. the) clouds of heaven.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "on",
+          "exact_parenthesis": "(on, 172)",
+          "prompt_span_zero_based": [
+            77,
+            86
+          ],
+          "matching_model_token_indices": [
+            10,
+            18
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. things)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. the)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. the)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 2,
+      "proposed_role_change_token_indices": [
+        18
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-08",
+      "prompt": "Be (om. it unto) you two (dual, 81) according to (æfter) your faith.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "æfter",
+          "exact_parenthesis": "(æfter)",
+          "prompt_span_zero_based": [
+            49,
+            56
+          ],
+          "matching_model_token_indices": [
+            4
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. it unto)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(dual, 81)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [
+        4
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-09",
+      "prompt": "Truly the Son of Man is to come (200) in (on, 166) his Father’s glory (wuldor), and then (ðonne) (om. shall) reward (āgyltan, 113) every one (164) according to (be) his own work.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "on",
+          "exact_parenthesis": "(on, 166)",
+          "prompt_span_zero_based": [
+            41,
+            50
+          ],
+          "matching_model_token_indices": [
+            7
+          ]
+        },
+        {
+          "hint_text": "wuldor",
+          "exact_parenthesis": "(wuldor)",
+          "prompt_span_zero_based": [
+            70,
+            78
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "ðonne",
+          "exact_parenthesis": "(ðonne)",
+          "prompt_span_zero_based": [
+            89,
+            96
+          ],
+          "matching_model_token_indices": [
+            12
+          ]
+        },
+        {
+          "hint_text": "āgyltan",
+          "exact_parenthesis": "(āgyltan, 113)",
+          "prompt_span_zero_based": [
+            116,
+            130
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "be",
+          "exact_parenthesis": "(be)",
+          "prompt_span_zero_based": [
+            160,
+            164
+          ],
+          "matching_model_token_indices": [
+            16
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(200)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. shall)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(164)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 3,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-10",
+      "prompt": "When (ðonne) Christ cometh, then knoweth no man whence he is.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "ðonne",
+          "exact_parenthesis": "(ðonne)",
+          "prompt_span_zero_based": [
+            5,
+            12
+          ],
+          "matching_model_token_indices": [
+            1,
+            4
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 2,
+      "proposed_role_change_token_indices": [
+        1,
+        4
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-11",
+      "prompt": "Jesus cried (cleopian) and taught (lǣran) in the temple, and said, Me ye know (cunnan), and ye know (witan) whence I am; and I came not from myself [me self], but he is true that (87. d) sent me, whom (87. a) ye know not.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "cleopian",
+          "exact_parenthesis": "(cleopian)",
+          "prompt_span_zero_based": [
+            12,
+            22
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "lǣran",
+          "exact_parenthesis": "(lǣran)",
+          "prompt_span_zero_based": [
+            34,
+            41
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "cunnan",
+          "exact_parenthesis": "(cunnan)",
+          "prompt_span_zero_based": [
+            78,
+            86
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "witan",
+          "exact_parenthesis": "(witan)",
+          "prompt_span_zero_based": [
+            100,
+            107
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(87. d)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(87. a)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-12",
+      "prompt": "Ye have not known (pret.) him; I know him, and if I say that I know (194) him not (verb last), I (om. shall) be like (om. unto) you (165); but I know him, and I keep (healdan) his saying (sprǣc).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "healdan",
+          "exact_parenthesis": "(healdan)",
+          "prompt_span_zero_based": [
+            166,
+            175
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "sprǣc",
+          "exact_parenthesis": "(sprǣc)",
+          "prompt_span_zero_based": [
+            187,
+            194
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(pret.)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(194)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(verb last)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. shall)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. unto)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(165)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-34-13",
+      "prompt": "If I glorify myself, my glory is (183) naught (verb first); my Father (om. it) is, that (87. d) glorifieth me, concerning whom (87. a) ye say (cweðan) that he is (194) your God.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "cweðan",
+          "exact_parenthesis": "(cweðan)",
+          "prompt_span_zero_based": [
+            142,
+            150
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(183)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(verb first)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. it)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(87. d)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(87. a)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(194)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-01",
+      "prompt": "Catch this ball.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-02",
+      "prompt": "Who caught the black ball?",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-03",
+      "prompt": "Go the way that (87. d) you came.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(87. d)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-04",
+      "prompt": "I never played better than I did to-day.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-05",
+      "prompt": "She never sang better than she did now.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-06",
+      "prompt": "Thrice (ðrīwa) I suffered shipwreck; a night (170) and a day I was in this sea.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "ðrīwa",
+          "exact_parenthesis": "(ðrīwa)",
+          "prompt_span_zero_based": [
+            7,
+            14
+          ],
+          "matching_model_token_indices": [
+            1
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(170)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [
+        1
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-07",
+      "prompt": "I knew (witan) a certain man that (87. d) was carried (lǣdan) unto (ōð, 172) the third heaven, and there (ðǣr) heard the words that no earthly man may (not) speak (sprecan).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "witan",
+          "exact_parenthesis": "(witan)",
+          "prompt_span_zero_based": [
+            7,
+            14
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "lǣdan",
+          "exact_parenthesis": "(lǣdan)",
+          "prompt_span_zero_based": [
+            54,
+            61
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "ōð",
+          "exact_parenthesis": "(ōð, 172)",
+          "prompt_span_zero_based": [
+            67,
+            76
+          ],
+          "matching_model_token_indices": [
+            8
+          ]
+        },
+        {
+          "hint_text": "ðǣr",
+          "exact_parenthesis": "(ðǣr)",
+          "prompt_span_zero_based": [
+            105,
+            110
+          ],
+          "matching_model_token_indices": [
+            14
+          ]
+        },
+        {
+          "hint_text": "sprecan",
+          "exact_parenthesis": "(sprecan)",
+          "prompt_span_zero_based": [
+            163,
+            172
+          ],
+          "matching_model_token_indices": [
+            24
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(87. d)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(not)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 3,
+      "proposed_role_change_token_indices": [
+        14,
+        24
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-08",
+      "prompt": "O, how narrow (nearu, 57. 5) is the gate and the way that (87. d) leads to life (verb last), and very few (om. there) are that find the way.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "nearu",
+          "exact_parenthesis": "(nearu, 57. 5)",
+          "prompt_span_zero_based": [
+            14,
+            28
+          ],
+          "matching_model_token_indices": [
+            3
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(87. d)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(verb last)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. there)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-09",
+      "prompt": "They come to (tō, 166) you in sheep’s garments (gegierela), but within (innan) they are wolves.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "tō",
+          "exact_parenthesis": "(tō, 166)",
+          "prompt_span_zero_based": [
+            13,
+            22
+          ],
+          "matching_model_token_indices": [
+            3
+          ]
+        },
+        {
+          "hint_text": "gegierela",
+          "exact_parenthesis": "(gegierela)",
+          "prompt_span_zero_based": [
+            47,
+            58
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "innan",
+          "exact_parenthesis": "(innan)",
+          "prompt_span_zero_based": [
+            71,
+            78
+          ],
+          "matching_model_token_indices": [
+            9
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 2,
+      "proposed_role_change_token_indices": [
+        3,
+        9
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-10",
+      "prompt": "When he came nigh (nēalǣcan) to the gate (163) of the city, then (ðā) was there (ðǣr) a dead man carried (beran).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "nēalǣcan",
+          "exact_parenthesis": "(nēalǣcan)",
+          "prompt_span_zero_based": [
+            18,
+            28
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "ðā",
+          "exact_parenthesis": "(ðā)",
+          "prompt_span_zero_based": [
+            65,
+            69
+          ],
+          "matching_model_token_indices": [
+            1,
+            7
+          ]
+        },
+        {
+          "hint_text": "ðǣr",
+          "exact_parenthesis": "(ðǣr)",
+          "prompt_span_zero_based": [
+            80,
+            85
+          ],
+          "matching_model_token_indices": [
+            9
+          ]
+        },
+        {
+          "hint_text": "beran",
+          "exact_parenthesis": "(beran)",
+          "prompt_span_zero_based": [
+            105,
+            112
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(163)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 3,
+      "proposed_role_change_token_indices": [
+        1,
+        7,
+        9
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-11",
+      "prompt": "I see a girl running (169) along (172) the street.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(169)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(172)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-12",
+      "prompt": "Anoint me with oil.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-13",
+      "prompt": "Give (sęllan) us of (of, 166) your oil.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "sęllan",
+          "exact_parenthesis": "(sęllan)",
+          "prompt_span_zero_based": [
+            5,
+            13
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "of",
+          "exact_parenthesis": "(of, 166)",
+          "prompt_span_zero_based": [
+            20,
+            29
+          ],
+          "matching_model_token_indices": [
+            3
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-35-14",
+      "prompt": "If the Son delivers you, ye (om. shall) indeed be free.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. shall)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-01",
+      "prompt": "Judge ye not according to (be) appearance (ansīen, 51. b), but judge right judgment (168. 1).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "be",
+          "exact_parenthesis": "(be)",
+          "prompt_span_zero_based": [
+            26,
+            30
+          ],
+          "matching_model_token_indices": [
+            4
+          ]
+        },
+        {
+          "hint_text": "ansīen",
+          "exact_parenthesis": "(ansīen, 51. b)",
+          "prompt_span_zero_based": [
+            42,
+            57
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(168. 1)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [
+        4
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-02",
+      "prompt": "Then turned (bewęndan, 184. a) he to the woman, and said, Seest thou this woman? I went into (intō) thy house, thou gavest me not water for (tō) my feet; this (om. one hath) washed (101. VI.) my feet with (mid) her tears.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "bewęndan",
+          "exact_parenthesis": "(bewęndan, 184. a)",
+          "prompt_span_zero_based": [
+            12,
+            30
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "intō",
+          "exact_parenthesis": "(intō)",
+          "prompt_span_zero_based": [
+            93,
+            99
+          ],
+          "matching_model_token_indices": [
+            16
+          ]
+        },
+        {
+          "hint_text": "tō",
+          "exact_parenthesis": "(tō)",
+          "prompt_span_zero_based": [
+            140,
+            144
+          ],
+          "matching_model_token_indices": [
+            5,
+            24
+          ]
+        },
+        {
+          "hint_text": "mid",
+          "exact_parenthesis": "(mid)",
+          "prompt_span_zero_based": [
+            205,
+            210
+          ],
+          "matching_model_token_indices": [
+            31
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. one hath)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(101. VI.)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 4,
+      "proposed_role_change_token_indices": [
+        16,
+        5,
+        31
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-03",
+      "prompt": "Thou gavest (verb last) me not (om. a) kiss (coss, 43); this (om. one), since (siððan) I entered, (om. hath) ceased not to kiss [that she kissed] my feet.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "coss",
+          "exact_parenthesis": "(coss, 43)",
+          "prompt_span_zero_based": [
+            44,
+            54
+          ],
+          "matching_model_token_indices": [
+            3
+          ]
+        },
+        {
+          "hint_text": "siððan",
+          "exact_parenthesis": "(siððan)",
+          "prompt_span_zero_based": [
+            78,
+            86
+          ],
+          "matching_model_token_indices": [
+            7
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(verb last)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. a)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. one)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. hath)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 2,
+      "proposed_role_change_token_indices": [
+        3,
+        7
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-04",
+      "prompt": "My head thou with oils (om. didst) not anoint (smierwan, 113); this one anointed my feet with ointment (sealf, 51. b).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "smierwan",
+          "exact_parenthesis": "(smierwan, 113)",
+          "prompt_span_zero_based": [
+            46,
+            61
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "sealf",
+          "exact_parenthesis": "(sealf, 51. b)",
+          "prompt_span_zero_based": [
+            103,
+            117
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. didst)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-05",
+      "prompt": "Therefore I say (sęcgean) to thee (164. b), Many sins are forgiven (forgiefan) her, because she loved (verb last) me much (swīðe).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "sęcgean",
+          "exact_parenthesis": "(sęcgean)",
+          "prompt_span_zero_based": [
+            16,
+            25
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "forgiefan",
+          "exact_parenthesis": "(forgiefan)",
+          "prompt_span_zero_based": [
+            67,
+            78
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "swīðe",
+          "exact_parenthesis": "(swīðe)",
+          "prompt_span_zero_based": [
+            122,
+            129
+          ],
+          "matching_model_token_indices": [
+            13
+          ]
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(164. b)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(verb last)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [
+        13
+      ],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-06",
+      "prompt": "Less (neut. acc. sing.) loveth (om. to) whom (87. b) less forgiven is.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(neut. acc. sing.)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(om. to)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        },
+        {
+          "parenthesis": "(87. b)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-07",
+      "prompt": "It (om. is) not permitted (ālīefan) thee to have her to wife.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "ālīefan",
+          "exact_parenthesis": "(ālīefan)",
+          "prompt_span_zero_based": [
+            26,
+            35
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. is)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-08",
+      "prompt": "Then he promised with (mid) oath (āð, 43) to give (sęllan) her whatsoever she (om. should) ask (biddan) him.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "mid",
+          "exact_parenthesis": "(mid)",
+          "prompt_span_zero_based": [
+            22,
+            27
+          ],
+          "matching_model_token_indices": [
+            4
+          ]
+        },
+        {
+          "hint_text": "āð",
+          "exact_parenthesis": "(āð, 43)",
+          "prompt_span_zero_based": [
+            33,
+            41
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "sęllan",
+          "exact_parenthesis": "(sęllan)",
+          "prompt_span_zero_based": [
+            50,
+            58
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "biddan",
+          "exact_parenthesis": "(biddan)",
+          "prompt_span_zero_based": [
+            95,
+            103
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [
+        {
+          "parenthesis": "(om. should)",
+          "reason": "English instruction/rewriting or grammatical locator, not an exact Old English lexical/form hint."
+        }
+      ],
+      "exact_surface_match_count": 1,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-09",
+      "prompt": "Then, admonished (myngian) by (fram) her mother, she said, Give me in a dish (disc, 43) the head of John (Johannes) the Baptist (fuluhtere, 44. 1).",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "myngian",
+          "exact_parenthesis": "(myngian)",
+          "prompt_span_zero_based": [
+            17,
+            26
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "fram",
+          "exact_parenthesis": "(fram)",
+          "prompt_span_zero_based": [
+            30,
+            36
+          ],
+          "matching_model_token_indices": [
+            4
+          ]
+        },
+        {
+          "hint_text": "disc",
+          "exact_parenthesis": "(disc, 43)",
+          "prompt_span_zero_based": [
+            77,
+            87
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "Johannes",
+          "exact_parenthesis": "(Johannes)",
+          "prompt_span_zero_based": [
+            105,
+            115
+          ],
+          "matching_model_token_indices": [
+            12
+          ]
+        },
+        {
+          "hint_text": "fuluhtere",
+          "exact_parenthesis": "(fuluhtere, 44. 1)",
+          "prompt_span_zero_based": [
+            128,
+            146
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 2,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-10",
+      "prompt": "Then he sent (āsęndan), and beheaded (behēafdian, 118) John in the prison.",
+      "lexical_or_form_hints": [
+        {
+          "hint_text": "āsęndan",
+          "exact_parenthesis": "(āsęndan)",
+          "prompt_span_zero_based": [
+            13,
+            22
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        },
+        {
+          "hint_text": "behēafdian",
+          "exact_parenthesis": "(behēafdian, 118)",
+          "prompt_span_zero_based": [
+            37,
+            54
+          ],
+          "matching_model_token_indices": [],
+          "disposition": "No exact output-surface match: do not infer an inflected or spelling-variant form from the lemma hint."
+        }
+      ],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    },
+    {
+      "task_id": "EX-XII-XIII-36-11",
+      "prompt": "And one brought his head in a dish.",
+      "lexical_or_form_hints": [],
+      "ignored_control_parentheses": [],
+      "exact_surface_match_count": 0,
+      "proposed_role_change_token_indices": [],
+      "status": "all parenthetical hints inspected; exact matches individually reviewed"
+    }
+  ],
+  "specific_controls": [
+    "32.6 sęndan and nętt are exact visible hints; nętt additionally receives the coordinator-owned accusative-singular correction.",
+    "32.9 forwearð is an explicit finite-form hint, not merely an infinitive lemma.",
+    "34.10 ðonne and35.10 ðā occur in different functions with the same exposed spelling; preserve each actual form/sense ID and analysis.",
+    "35.10 ðǣr is explicitly given.",
+    "The four prepositions repaired in the earlier supplied-scope audit are now correctly identified as given-form references where the printed hint exposes their spelling; they must not regain an inapplicable lexical-supply support ID."
+  ],
+  "no_changes_to": [
+    "source prompt text",
+    "selected Old English model text",
+    "source reading",
+    "lemma/sense IDs",
+    "morphological analyses except the separately agreed coordinator-owned32.6 number repair",
+    "grammatical application targets",
+    "task/output counts",
+    "student master",
+    "sealed audit/proposal packets"
+  ]
+}
