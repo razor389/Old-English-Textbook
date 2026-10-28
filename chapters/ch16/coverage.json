@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch16",
   "title": "Extended narrative and speech",
-  "status": "text_accepted_exports_pending",
+  "status": "reviewed_complete",
   "contract_date": "2026-10-27",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -359084,7 +359084,7 @@
     "typeset": "oec-u16-typeset",
     "finish": "oec-u16-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_text_and_exports",
   "amendments": [
     {
       "amendment_id": "U16-A01",
@@ -360965,9 +360965,18 @@
     }
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "date": "2026-10-27",
+    "register_integration": "chapters/ch16/register-integration.json",
+    "presentation_review": "typesetting/ch16/page-review.json",
+    "learner_pdf": "typesetting/ch16/chapter-16.pdf",
+    "key_pdf": "typesetting/ch16/answer-key.pdf",
+    "all_assigned_tasks_reviewed": 76,
+    "all_cook_items_retained": 59,
+    "next_unit_policy": "Unit17 remains undrafted; begin only when requested.",
+    "checkpoint_note": "Completion files and Beads export are saved locally; final handoff records the resulting revision."
   },
   "review_independence_protocol": {
     "schema_version": 1,
@@ -363905,6 +363914,33 @@
       "scope": "Eight spaces only; initial linguistic reviews and witnesses preserved."
     }
   },
-  "accepted_text_checkpoint": "effe431",
-  "initial_textual_acceptance_checkpoint": "effe431"
+  "accepted_text_checkpoint": "bbf014e",
+  "initial_textual_acceptance_checkpoint": "effe431",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch16/page-review.json",
+    "record_sha256": "50a208964c2a0b6bb981eb004ba2e7fd409bed5bc14ab108c6ddc15b4e569fb9",
+    "page_totals": {
+      "learner": 67,
+      "key": 32,
+      "total": 99
+    },
+    "complete_content_parity": "typesetting/ch16/content-parity.json",
+    "every_page_inspected_by_non_author": true,
+    "unresolved_findings": [],
+    "documents": [
+      {
+        "kind": "learner",
+        "path": "typesetting/ch16/chapter-16.pdf",
+        "sha256": "c3f07a0e887530988993474c7cb16e285c15c52948e5e2e40f002eb339f1fe63",
+        "pages": 67
+      },
+      {
+        "kind": "key",
+        "path": "typesetting/ch16/answer-key.pdf",
+        "sha256": "3747d9c616c645a4536ec1c90affcf8a24d07ca7faad4bf4b04eba712cfa140b",
+        "pages": 32
+      }
+    ]
+  }
 }

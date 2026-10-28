@@ -1,0 +1,44 @@
+{
+  "unit": "16",
+  "method": "Independent block inventory from accepted Markdown; decoded actual TeX paragraph bodies, all table rows and cells, and every editorial comment. Full non-whitespace Unicode sequences also checked in extracted PDF prose after removal of running matter and normalization of Xpdf soft-hyphen encoding to the original literal hyphen.",
+  "formatting_changes": [
+    "Both documents use Ligatures=TeXOff to preserve the masters' literal punctuation in extracted PDF text.",
+    "Every paradigm cell is printed in a complete small matrix at readable 10.5pt type. Any layout changes preserve every original coordinate, header and cell.",
+    "The complete source scene uses the reading style with natural paragraph/page breaks; four short examples stay with their translations.",
+    "Cook labels remain with their prompts; final page-specific repairs are recorded in the page review.",
+    "Line wrapping, emphasis commands and page furniture differ from Markdown; linguistic text and punctuation are preserved.",
+    "Original source-note references and definitions retain their page-specific original note labels; general source notes use a separate numerical sequence. All definition text remains."
+  ],
+  "documents": [
+    {
+      "master": "chapters/ch16/student.md",
+      "master_sha256": "b6914279bce69c87545d1437c6c49605f26b68e1522de9a5f7221fa08ed09b9d",
+      "tex": "typesetting/ch16/chapter-16.tex",
+      "tex_sha256": "010ec168f577a5b89ed157f782ef7fbea82f19ddaf942177c1e1a65e16a9fd37",
+      "tex_sha256_normalized_lf": "1a13558c1dec5422f293249e28f64a68a2d86e13a61a2cffab3a32c45ddaa844",
+      "paragraph_heading_list_blocks": 745,
+      "original_tables": 90,
+      "original_table_cells_including_headers": 1747,
+      "all_editorial_comments_preserved": 589,
+      "paragraph_and_cell_parity": "PASS",
+      "pdf_complete_paragraph_character_parity": "PASS",
+      "title_parity": "PASS",
+      "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+    },
+    {
+      "master": "chapters/ch16/answer-key.md",
+      "master_sha256": "083eea687565ad2f7d6323b6ee5d86ee7d58bc722284ce995bff11c8a3169eb4",
+      "tex": "typesetting/ch16/answer-key.tex",
+      "tex_sha256": "928dd92cca610711c496da06f0f613b2730b613c50ed34dfceb533a74ab7ccd0",
+      "tex_sha256_normalized_lf": "2c9749416b09b0c798b2288f2c310955266fbeaa5c68632c5b352972895c4de8",
+      "paragraph_heading_list_blocks": 401,
+      "original_tables": 0,
+      "original_table_cells_including_headers": 0,
+      "all_editorial_comments_preserved": 255,
+      "paragraph_and_cell_parity": "PASS",
+      "pdf_complete_paragraph_character_parity": "PASS",
+      "title_parity": "PASS",
+      "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+    }
+  ]
+}

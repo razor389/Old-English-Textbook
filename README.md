@@ -1,6 +1,6 @@
 # Old English: Cook / Lambdin-style course
 
-A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **Units 1–15 are complete** with separate learner and answer-key PDFs.
+A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **Units 1–16 are complete** with separate learner and answer-key PDFs.
 
 Start with [STATUS.md](STATUS.md), [AGENTS.md](AGENTS.md), and the [course plan](curriculum/COURSE_PLAN.md). The [handoff](docs/HANDOFF.md) gives the next session's starting task; [prompts/START_HERE.txt](prompts/START_HERE.txt) can be pasted directly into it.
 
@@ -35,6 +35,8 @@ The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/an
 **Unit 14 is complete:** [learner PDF](typesetting/ch14/chapter-14.pdf), 35 pages, and [separate key PDF](typesetting/ch14/answer-key.pdf), 21 pages. Word formation and lexical families are taught through 38 complete systems / 324 cells and 44 tasks, including all 21 Cook VIII.26–27 prompts. The exact 159-word opening argument of *The Dangers of Greatness* has local help and all 24 original notes. Fresh independent reviews and non-author inspection of all 56 pages are complete. See the [review and export record](typesetting/ch14/README.md).
 
 **Unit 15 is complete:** [learner PDF](typesetting/ch15/chapter-15.pdf), 64 pages, and [separate key PDF](typesetting/ch15/answer-key.pdf), 30 pages. Negation, quantity and comparison are taught through 69 defined systems / 691 positions, including 16 explicitly unassigned number slots, and 105 tasks. All 50 Cook IX.28–30 and X, XI.31 prompts remain. Three supported readings total 415 words: the opening argument of *Duties of the Rich toward the Poor*, the complete *Alfred’s Preface to Boethius* and *A Prayer of King Alfred*. All 27 original notes remain. Fresh independent reviews and non-author inspection of all 94 pages are complete. See the [review and export record](typesetting/ch15/README.md).
+
+**Unit 16 is complete:** [learner PDF](typesetting/ch16/chapter-16.pdf), 67 pages, and [separate key PDF](typesetting/ch16/answer-key.pdf), 32 pages. Extended narrative and speech are taught through 56 complete bounded systems / 564 cells and 76 tasks, including all 59 Cook XII, XIII.32–36 prompts. The complete 444-word gymnasium episode from *Apollonius* has local help and all 54 original notes. Fresh independent reviews and non-author inspection of all 99 pages are complete. See the [review and export record](typesetting/ch16/README.md).
 
 The earlier two-chapter experiment is preserved under [reference/previous-course](reference/previous-course/README.md), with its source evidence, corrections, and complete PDFs. Its learning milestones do not apply to this course.
 

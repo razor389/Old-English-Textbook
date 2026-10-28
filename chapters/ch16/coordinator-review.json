@@ -1,6 +1,6 @@
 {
   "chapter_id": "ch16",
-  "status": "accepted_independent_text_review",
+  "status": "accepted_complete",
   "coordinator": "root",
   "date": "2026-10-27",
   "contract_checkpoint": "543e214",
@@ -67,11 +67,8 @@
     "The original negative næfde, uncertain pronoun reference, tentative top interpretation, Latin ointment difference and mixed invitation remain explicit. The key translates the actual Old English rather than replacing it with the Latin parallel.",
     "Fresh solving, primary-image paradigm review, complete LuaLaTeX exports, every-page inspection and register integration remain mandatory."
   ],
-  "remaining_gates": [
-    "Produce complete LuaLaTeX exports, full parity and every-page non-author inspection.",
-    "Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally."
-  ],
-  "scope_limit": "Independent text and paradigm review accepted. Export inspection and register integration remain separate gates. Earlier draft observations and identities are retained as historical records.",
+  "remaining_gates": [],
+  "scope_limit": "Unit16 complete; no Unit17 drafting. Authors do not claim fresh blind independence. Original witnesses, sealed audits, earlier chapters and archive are preserved.",
   "independent_acceptance": {
     "record": "chapters/ch16/review.md",
     "ledger": "chapters/ch16/review-ledger.json",
@@ -119,5 +116,61 @@
     "review_sha256": "3f43d95f99012ac6d7074d557bf8eefab51610d2297c1bbbce0c86e965af7fef",
     "status": "accepted",
     "scope": "Eight spaces only; initial linguistic reviews and witnesses preserved."
+  },
+  "presentation_acceptance": {
+    "record": "typesetting/ch16/page-review.json",
+    "sha256": "50a208964c2a0b6bb981eb004ba2e7fd409bed5bc14ab108c6ddc15b4e569fb9",
+    "page_totals": {
+      "learner": 67,
+      "key": 32,
+      "total": 99
+    }
+  },
+  "register_integration": {
+    "record": "chapters/ch16/register-integration.json",
+    "sha256": "6e0c692b5217b3348e3f07d62a36c4daf1a2ed13db02d68b27f3310b8bf77874",
+    "metrics": {
+      "before": {
+        "lemmas": 955,
+        "forms": 10470,
+        "senses": 1207,
+        "features": 950
+      },
+      "after": {
+        "lemmas": 1067,
+        "forms": 11188,
+        "senses": 1376,
+        "features": 1080
+      },
+      "unit16_status_counts": {
+        "forms": {
+          "new_production": 572,
+          "new_recognition_only": 8,
+          "supplied_here": 177
+        },
+        "senses": {
+          "new_production": 68,
+          "new_recognition_only": 0,
+          "supplied_here": 134
+        },
+        "features": {
+          "new_production": 76,
+          "new_recognition_only": 0,
+          "supplied_here": 54
+        }
+      },
+      "reused_supplied_records": {
+        "form": {},
+        "sense": {},
+        "feature": {}
+      },
+      "reused_taught_in_visible_help": {
+        "form": {},
+        "sense": {},
+        "feature": {}
+      }
+    },
+    "earlier_active_artifacts_preserved": 2635,
+    "archive_files_preserved": 134
   }
 }

@@ -39,6 +39,8 @@ A fresh non-author froze [all solutions](chapters/ch16/independent-solutions.md)
 
 The [learner PDF](typesetting/ch16/chapter-16.pdf) has **{lp} pages**; the [key](typesetting/ch16/answer-key.pdf) **{kp}**. All **{total} final pages** passed non-author visual inspection. [Full parity](typesetting/ch16/content-parity.json) covers {counts['paragraph_heading_list_blocks']:,} prose/heading/list blocks, {counts['original_tables']} tables and {counts['original_table_cells_including_headers']:,} table cells including headers. [Presentation acceptance](typesetting/ch16/page-review.json) binds final PDF/image identities and clean logs. Checkpoints: contract **`{contract}`**, drafts **`{draft}`**, accepted text **`{accepted}`**.
 
+[A08](chapters/ch16/presentation-proofreading-amendment.json) records eight spaces inserted before modern page, exercise and note references during page review. Its [independent confirmation](chapters/ch16/reviews/presentation-proofreading.json) reverses the edit to the initial accepted master and contract identities at `effe431`. The linguistic reviews and frozen witnesses remain unchanged.
+
 ## Completed course artifacts
 
 {course_table}
@@ -73,9 +75,11 @@ The [contract](../chapters/ch16/coverage.json) preceded prose at **`{contract}`*
 
 All 59 Cook joint XII, XIII.32–36 prompts remain, with 17 original tasks and four translated examples. Preserve EX-XII-XIII-NN-NN IDs. The exact 444-word gymnasium scene spans 168.1–170.16 / PDF 184–186 and retains all 54 original notes / 59 anchors. Individual line numbers are editorial counts. Earlier Apollonius readings and the following feast are not reassigned. Source text, apparatus, modern support and new teaching material remain separate.
 
-[C06](../sources/audits/unit16-coordinator/reward-correction.json) corrects printed āgyltan §113 to strong āgyldan, retaining the contracted third singular āgylt in a supplied reward clause. Matthew132/PDF142 also corroborates the supplied impending tō cumanne; Matthew114/PDF124 supports John endings with declared initial I→J. Books/hooks, hooked letters and ōð-ðæt are transcription repairs, not Cook errata. Preserve næfde, the unresolved reference, tentative top and mixed invitation. The Latin note describes rubbing with ointment without an explicit shoulder noun. Hǣle in the oath uses supplied safety/rescue, distinct from productive salvation. Author and root initial translation witnesses remain immutable; later corrections are separate.
+[C06](../sources/audits/unit16-coordinator/reward-correction.json) corrects printed āgyltan §113 to strong āgyldan, retaining the contracted third singular āgylt in a supplied reward clause. Matthew, printed 132 / PDF 142, also corroborates the supplied impending tō cumanne; Matthew, printed 114 / PDF 124, supports John endings with declared initial I→J. “Books” in 34.3, hooked letters and ōð-ðæt are transcription repairs, not Cook errata. Preserve næfde, the unresolved reference, tentative top and mixed invitation. The Latin note describes rubbing with ointment without an explicit shoulder noun. Hǣle in the oath uses supplied safety/rescue, distinct from productive salvation. Author and root initial translation witnesses remain immutable; later corrections are separate.
 
 The [learner PDF](../typesetting/ch16/chapter-16.pdf) has **{lp} pages**, the [key](../typesetting/ch16/answer-key.pdf) **{kp}**. All {total} final pages have non-author visual records bound to final PDF/image identities. [Presentation acceptance](../typesetting/ch16/page-review.json) reconciles complete parity and clean logs. See the [export README](../typesetting/ch16/README.md) for reproduction and layout records.
+
+[A08](../chapters/ch16/presentation-proofreading-amendment.json) is the sole amendment after initial textual acceptance at `effe431`: eight ordinary spaces before modern references. A [separate non-author confirmation](../chapters/ch16/reviews/presentation-proofreading.json) verifies reversibility and unchanged linguistic content; the original reviews and witnesses remain preserved.
 
 ## Registers and preservation
 
@@ -83,7 +87,7 @@ The [integration record](../chapters/ch16/register-integration.json) preserves a
 
 The immutable ignored `build/unit16-prior-baseline.json` captures the actual fifteen-unit state at **`e1d94be`**: 955 lemmas, 10,470 forms, 1,207 senses and 950 features. The retained [prior-state record](../sources/audits/unit16-coordinator/prior-state.json) covers 2,637 earlier files including both registers, plus 134 archived files. Do not recapture it or rerun old merge helpers against integrated registers. All 2,635 fixed prior artifacts and 134 archive files remain unchanged. The merger preserves inherited metadata dictionaries and records the actual prior boundary as through_ch15.
 
-Complete morphology retains its expressly bounded senses and syntax. Nearu and bēgen have full selected systems; singular-only noun senses do not assert inherent defectiveness. The special dēme gē command use is narrowly taught. In36.6 the first lǣs is adverbial accusative, the second nominative passive subject; the attracted dative is not a general dative subject for lufian. The supplied cessation clause36.3 retains both negatives.
+Complete morphology retains its expressly bounded senses and syntax. Nearu and bēgen have full selected systems; singular-only noun senses do not assert inherent defectiveness. The special dēme gē command use is narrowly taught. In 36.6 the first lǣs is adverbial accusative, the second nominative passive subject; the attracted dative is not a general dative subject for lufian. The supplied cessation clause 36.3 retains both negatives.
 
 The canonical crosswalk is **515 assigned / 129 deferred / none excluded**, totaling 644. Exercises **1–36** have full item-level audits; **37–48** still need them. Active contracts govern assignments.
 
@@ -109,6 +113,8 @@ The exports include all {m['tasks']} tasks / {m['requested_output_positions']} r
 [Full content parity](content-parity.json) verifies {counts['paragraph_heading_list_blocks']:,} prose/heading/list blocks, {counts['original_tables']} tables and {counts['original_table_cells_including_headers']:,} table cells including headers. It checks complete Markdown/TeX content and PDF characters; it does not substitute for visual inspection. The final logs have no missing-character, font-substitution, box or rerun warnings. [Layout adjustments](layout-adjustments.json) retain the review and repair history. Cambria and the inherited 165 × 241 mm layout remain in use.
 
 The [contract](../../chapters/ch16/coverage.json) preceded prose at `{contract}`. Drafts are saved at `{draft}`, frozen independent solutions at `{blind}`, and accepted text at `{accepted}`. The [independent text review](../../chapters/ch16/review.md) and [separate paradigm review](../../chapters/ch16/reviews/paradigms.json) resolve material findings. Complete exports/registers are saved at `{exports}`.
+
+[A08](../../chapters/ch16/presentation-proofreading-amendment.json) and its [non-author confirmation](../../chapters/ch16/reviews/presentation-proofreading.json) document eight reference-spacing corrections after the initial accepted text at `effe431`. The accepted export text includes those corrections; no linguistic content changed.
 
 ## Reproduction
 

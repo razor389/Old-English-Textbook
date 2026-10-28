@@ -1,0 +1,1830 @@
+{
+  "schema_version": 1,
+  "chapter_id": "ch16",
+  "status": "PASS",
+  "accepted_at_utc": "2026-10-28T00:39:01.910063+00:00",
+  "presentation_aggregator": "coordinator",
+  "aggregation_method": "Reconciled three non-author ledgers against every final PDF/image identity, full content parity and clean logs. Every final page has a recorded visual inspection or an explicit verified identity with a directly inspected image. The individual ledgers record the actual inspection and any repair history. The coordinator aggregates those records rather than claiming personal inspection of every page.",
+  "accepted_text_checkpoint": "bbf014e",
+  "accepted_text_identities": [
+    {
+      "path": "chapters/ch16/student.md",
+      "sha256": "b6914279bce69c87545d1437c6c49605f26b68e1522de9a5f7221fa08ed09b9d",
+      "sha256_normalized_lf": "b6914279bce69c87545d1437c6c49605f26b68e1522de9a5f7221fa08ed09b9d"
+    },
+    {
+      "path": "chapters/ch16/answer-key.md",
+      "sha256": "083eea687565ad2f7d6323b6ee5d86ee7d58bc722284ce995bff11c8a3169eb4",
+      "sha256_normalized_lf": "9f7c6115c1e6ea300e48116239a640d1ae97f14efd66fc81d281ed7a937d7c7e"
+    },
+    {
+      "path": "chapters/ch16/independent-solutions.md",
+      "sha256": "1e58c84ea387a3e4b3e1a4a4620866ffe735067d97aa80b57480d43f0335e7a6",
+      "sha256_normalized_lf": "1e58c84ea387a3e4b3e1a4a4620866ffe735067d97aa80b57480d43f0335e7a6"
+    }
+  ],
+  "page_totals": {
+    "learner": 67,
+    "key": 32,
+    "total": 99
+  },
+  "every_final_page_visually_inspected_by_non_author": true,
+  "page_coverage_complete_without_overlap": true,
+  "reviewer_ledgers": [
+    {
+      "path": "typesetting/ch16/reviews/learner-first.json",
+      "sha256": "a6c46e326a7027d584391011a1df41c4fdf08069527387d6354bf0f0de02d96e",
+      "sha256_normalized_lf": "a6c46e326a7027d584391011a1df41c4fdf08069527387d6354bf0f0de02d96e"
+    },
+    {
+      "path": "typesetting/ch16/reviews/learner-last.json",
+      "sha256": "e2ad6e7929b49d0d63c84bb664f1a5116da6b4908f85c8d570b6b10e80b92053",
+      "sha256_normalized_lf": "c42db4348920602b46f03d743efeb88f1744f615330e087e30d19d4d0e220c63"
+    },
+    {
+      "path": "typesetting/ch16/reviews/key.json",
+      "sha256": "d7d4e4c8c3dd32d0a0e5deaaefbc3f5e02d436e4ef00da2a3bf5e382454a37de",
+      "sha256_normalized_lf": "d7d4e4c8c3dd32d0a0e5deaaefbc3f5e02d436e4ef00da2a3bf5e382454a37de"
+    }
+  ],
+  "documents": [
+    {
+      "kind": "learner",
+      "path": "typesetting/ch16/chapter-16.pdf",
+      "sha256": "c3f07a0e887530988993474c7cb16e285c15c52948e5e2e40f002eb339f1fe63",
+      "build_path": "typesetting/ch16/build/chapter-16.pdf",
+      "pages": 67,
+      "render_dpi": 150,
+      "page_review_records": [
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 1,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The title, Scope paragraphs and opening nouns section fit cleanly with the source-note marker visible.",
+            "The hooked e and running furniture are legible; this v2 page was directly re-viewed despite its identical v1 image hash."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-001.png",
+          "image_sha256": "a1cd80609336d09f617ff258cb0fbce81944be4be3a71b6e70715b1f2da65e4c"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 2,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The nēahgebūr, ðoðor, coss and disc descriptors remain directly above their complete four-case tables.",
+            "The denser grouping preserves clear Singular/Plural headers, eth glyphs and macrons with no collisions."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-002.png",
+          "image_sha256": "d2462c24a9a6572b87320980ad5f5266891c4ee8cf35efb2dc1c9ed46c16b4b1"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 3,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The āð, tēar and mægenðrymm tables are complete and readable.",
+            "The repaired fuluhtere block now keeps its heading, rule, descriptor, scope and all four singular case rows on this page."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-003.png",
+          "image_sha256": "9086fd5dbbbd3e638a1f201e23f3d2e486dd23e04d7f6a3ec368d86f51336dbb"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 4,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The Weak masculine nouns heading and rule stay with complete cnapa and gegierela tables.",
+            "The Strong neuter nouns heading, explanation and complete furlang table remain together; no orphaned entry appears at the bottom."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-004.png",
+          "image_sha256": "23e0c24939a3a73158ff277b594fca517ccb918eb305e40fabd1f040122c631b"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 5,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The nętt, tempel, mǣden and repaired wolcen blocks each retain their descriptors/rules and complete four-case tables.",
+            "The Strong feminine nouns heading stays with three lines of its rule; that ordinary paragraph continues by two lines on page 6 without a one-line widow."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-005.png",
+          "image_sha256": "2f9828200f1fea972eaa97053d241c8f45d2216be8b66a2a7626e2139262e144"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 6,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The feminine general rule completes at the top, followed by complete smyltnes, stefn, ansīen and sealf blocks.",
+            "The repaired ansīen descriptor, scope note and all four singular rows now remain together; macrons and table rules are clear."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-006.png",
+          "image_sha256": "976637e0be6bbf71dba88a2b1bf2d3b9ce071c9ceb7ff5e782aa3a924d9e73db"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 7,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The wēn and sprǣc descriptors remain with their complete tables, including legible macrons and eth.",
+            "The Adjectives heading stays with its full scope paragraph and note marker, before the complete healt panels on the following page."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-007.png",
+          "image_sha256": "28bd312fae71945d4503622fc1d23714d62ce80cfa3012a15047708e7fb458ee"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 8,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The healt descriptor and stem rule stay with the complete singular panel, followed on this page by the complete plural panel.",
+            "Both panels have readable gender/number headers, full strong/weak rows and clear separation from the running furniture."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-008.png",
+          "image_sha256": "eb1db57c91b0c4765d50cfec198e065f2a85b1a0d5fe4e335b0994e6d2c08632"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 9,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The repaired gelǣred descriptor and stem note remain with complete singular and plural panels on the same page.",
+            "Macron over ash is clear throughout; all nine strong/weak rows in each panel fit above the footer."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-009.png",
+          "image_sha256": "5cd27cc5ca02be1dc864626a09e4ac02f9cba108cfcbcf383349b7f1e684ffcf"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 10,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The repaired eorðlic descriptor and full stem-rule sentence stay with both complete adjective panels.",
+            "Eth glyphs are clear and each gender column remains distinct; there is no stranded descriptor at the page bottom."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-010.png",
+          "image_sha256": "127284f9df463c211b0a1d53ad15859545d36258d8e603263595ffbbccd73421"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 11,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The repaired nearu descriptor and full stem-alternation rule stay with the complete singular and plural panels.",
+            "The final weak-accusative row and bottom table rule clear the footer, with no clipped letters or overlapping columns."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-011.png",
+          "image_sha256": "d87d26920559d61226b202e8145229b936769dda9bd92ae728dc980441b022a1"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 12,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The Both heading, bēgen explanation and complete four-case plural table stay together.",
+            "The dōm paragraph is complete; Verbal systems and their basic uses stays with its full introductory paragraph and source marker."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-012.png",
+          "image_sha256": "9b9707918aacebec80c10b8497f843b74b19ac6e49daf9c2d9bdc873da1de120"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 13,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The repaired Principal parts for reference heading now stays with its complete explanation and fourteen-row table.",
+            "Weak verbs in -ian and the ǣswician descriptor, rule and complete six-person paradigm fit together below; all macrons and table headings remain legible."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-013.png",
+          "image_sha256": "fdd41f721f2d94a0957d494ea337dd0f5d2a1d045f17b4a21683d51fd673f092"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 14,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Blissian, wuldrian and repaired plegian each keep their meaning paragraphs, morphological rules and complete six-person tables together.",
+            "Tense columns remain clearly separated, and the final plegian row clears the footer."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-014.png",
+          "image_sha256": "ab97dadd15b75a5bc51bb376f26a2d06d6ce00c0aa94a4ae0cfacd4c99c2e90c"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 15,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Behēafdian and cleopian each retain the complete descriptive and morphological material immediately above full tables.",
+            "The Strong and contracted verbs heading stays with its complete general ending rule, with no isolated heading."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-015.png",
+          "image_sha256": "054c72f86701269fa425c0c55ee8a1980c13b5d5bd788afc065eb655b6d55b10"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 16,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Ārisan, āceorfan and repaired forlēosan each keep their descriptors, stem rules and all six indicative rows on this page.",
+            "Macrons and eth are distinct; none of the three paradigms collides with its surrounding prose or running furniture."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-016.png",
+          "image_sha256": "369983e9f21feb031dd1e307859f38fdc2bcebe4468b3daac3285e53f87ed988"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 17,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Iernan and repaired ðwēan each keep their full usage and stem-rule paragraphs with all six indicative rows.",
+            "Further weak verbs stays with its complete general rule; eth and macrons are clear and no entry label is stranded."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-017.png",
+          "image_sha256": "f5d167b78f5f83eae4370bf9fddff7fac0b52dc4ac18f61d3092f926cbe9508a"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 18,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Bewęndan and repaired smierwan each form an intact descriptor/rule/paradigm block.",
+            "Both six-row tables have clear tense columns; hooked e and eth are unobstructed."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-018.png",
+          "image_sha256": "13f3726b5233b2dfe6cbf33d676c0eee954a4b068159e22b5771e10b4c4f7af4"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 19,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The ālīesan descriptor, stem rule and full indicative table remain together.",
+            "Commands stays with its full introduction and four complete singular/plural command pairs, each retaining Position/Form headers."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-019.png",
+          "image_sha256": "e19967e44963b5c7ac632e29160c3a59ecaa851c4f35e8e54059c4d69c0719c9"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 20,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Forlǣtan, geswīcan, ęfthweorfan and dēman command pairs each retain their introductory sense paragraph and complete table.",
+            "The dēme gē positional-exception explanation now fits entirely on this page, with its source-note marker visible."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-020.png",
+          "image_sha256": "718f8df83550ba46d9a68e361a5eafce77206d3d3cd676bf51d16d3a0b405b41"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 21,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The Present subjunctives heading, general rule and both six-person tables stay together, followed by the complete usage explanations.",
+            "Participles and infinitives remains with its full introductory paragraph at the bottom; the last line clears the footer."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-021.png",
+          "image_sha256": "8e5e7c44c9fb3b71f1cb44eb0ac3365f3abc5719eecd3df4fe2b52f9a964dbea"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 22,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Forlēosan, lǣdan, gefyllan and forgiefan each keep their usage paragraph with complete present/past participle pairs.",
+            "All Position/Form headers remain readable; ash, eth and macrons are intact."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-022.png",
+          "image_sha256": "845a930e4894f3fefe78a3566b7bee57118c25aa498c64583661266232a492fb"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 23,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The infinitive explanation stays with the iernan and sęndan pairs, each with both rows and headers.",
+            "Clause structure and Reference headings retain their text and both translated examples; the final viewpoint paragraph continues normally across page 24."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-023.png",
+          "image_sha256": "5fed0109e306ee5c2113ac1e1d2c225e15ae00571e4d75d5eb4ad1cf1cfe69d9"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 24,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The viewpoint paragraph completes above Knowing, action comparison and causation, whose examples and glosses remain readable.",
+            "Government and lexical meaning retains introductory text; the Hālsian paragraph begins with two lines before continuing on page 25, with no clipped text."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-024.png",
+          "image_sha256": "f4f0d5004d250e9daf2646df69f13a011aeb1ff4d355a2bb38efc2bbd27ad6d9"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 25,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The Hālsian continuation completes before the healdan/weorðan, motion and blissian-government paragraphs.",
+            "Hooked e, eth, ash and macrons remain distinct; the page ends cleanly before the intact direction-word table on page 26."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-025.png",
+          "image_sha256": "1311aff6f65272007b259cc2ed391ad1856049101a4bb9aadeb9b476810ded8e"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 26,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The Direction, relation and time words heading stays with the complete thirteen-row table; long Use cells wrap within their column.",
+            "The lexical note and Form and clause practice heading/introduction fit beneath the table without touching the footer."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-026.png",
+          "image_sha256": "c71e4ccb3e6a749ebc1ee4a63f472ad46f5acff25cbd4f2af4d011194b02653e"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 27,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "F01 retains the four-verb list, supplied-word table and all sixteen answer prompts on one page.",
+            "Answer lines remain inside the margins, and the longest preterite prompts do not overlap the supplied-word table or adjacent lines."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-027.png",
+          "image_sha256": "b4f3c6a521737fa64480000fa7ddc26ebe882e9971e640ae5a901bd6dcf50a6a"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 28,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "F02 retains its six listed verbs, five supplied-word rows and all eleven response prompts.",
+            "The longer explanation questions wrap cleanly above/beside their answer lines; hooked e and macrons remain visible."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-028.png",
+          "image_sha256": "5c39e65a024036d75b459f61137e1396a7e2d2e0b74f697d61a069c65f55d6ca"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 29,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "F03 includes all seven verbs, seven supplied-word rows and fourteen singular/plural command prompts.",
+            "The final ęfthweorfan prompt and answer line clear the footer; hooked e and macrons are readable."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-029.png",
+          "image_sha256": "8d395d24f79cd1da8880460074aaadbce1353c54351c0631dc71f3861e900183"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 30,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "F04 and F05 retain their complete instructions and all six and nine response prompts respectively.",
+            "Long explanation prompts wrap cleanly, and answer lines do not touch headings or adjacent text."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-030.png",
+          "image_sha256": "ebe7e80598c6a2773b84fdc6fd93e1c57afcf7d28e8e833a47be71e683aa11fe"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 31,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "A01 retains its single example and four response lines; A02 retains both examples and five analysis/translation prompts.",
+            "The Old English eth and macrons render correctly, and both exercise headings remain with their instructions."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-031.png",
+          "image_sha256": "2756bb85ece3ab84702a9858473f7655252e444fd3d1c6ea5738e0a0d8329812"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 32,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "A03 shows all three report sentences and twelve response prompts with legible ash, eth and macrons.",
+            "The New compositions heading, introductory instruction and complete C01 exchange plus three responses fit together at the bottom."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-032.png",
+          "image_sha256": "1b9413d051dfe0949c5647733f6b6bdc1fb45b86486db31f5978e45936c22be0"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 33,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "C02 and C03 retain complete instructions and response lines above the Cook exercise introduction.",
+            "The source-correction/name notes show intact superscripts; Exercise 32 and Cook XII, XIII.32.1 stay with the full first prompt."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-033.png",
+          "image_sha256": "c377b907dec717108e01336d3b173708898f85a9540bffa451d81f251a1089fb"
+        },
+        {
+          "reviewer": "unit16_pages_first",
+          "ledger": "typesetting/ch16/reviews/learner-first.json",
+          "page": 34,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.32.2–7 are complete and each identifier stays with its prompt.",
+            "The 32.2 supplied help and four-row supplied-word table have clear columns; hooked e, eth, ash and macrons are legible throughout."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-034.png",
+          "image_sha256": "0e6f190adc568ef2afe8684ccd4a8f99a94e1e08c4b9b94a2cf8813754d3a57d"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 35,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.32.8–9 and the complete hund/hundnigontig/of support table fit within margins; hooked e, eth, and macrons are distinct."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-035.png",
+          "image_sha256": "72b5deb40e6a4674f1a3d8ac20f694bc8014526f1d42a5694d91f196386b085e"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 36,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.32.10–11 leads into Exercise 33 and item 33.1; the four-row support table and all supplied-help paragraphs are legible without clipping."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-036.png",
+          "image_sha256": "9203615ef2b441c102ac029902850987b8aebe51de09724855d9118c48bd75d4"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 37,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The gangende/Marian continuation and both Egypta/Egyptum/on tables retain clear headings and complete rows; Cook XII, XIII.33.2–3 stay readable."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-037.png",
+          "image_sha256": "9dd8297bd7c9e50d605cac47a0d6b4b4fb91254473bdeb804a05e30e4e1a77ba"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 38,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.33.4–10 and the three support tables fit cleanly; the final one-row time-use on table and lower rule clear the folio."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-038.png",
+          "image_sha256": "852056b348ab3c47c9a9cf6576ec2080fa9abb8f15b46887f5c72717c6600ac8"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 39,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Exercise 34 opens with items 34.1–6; the genyhtsumien and libbendan tables retain their full entries, clear rules, and legible special letters."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-039.png",
+          "image_sha256": "b6aec0b6703d7e68baceb9ee548a05822587572a887f36cc4e0e533464364cdf"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 40,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.34.7–9 and their supplied clauses remain unbroken and legible; the one-row on table has clear column spacing."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-040.png",
+          "image_sha256": "be39e00e0d737ea2c7e5fc1ea0c1f4cdf6714b957447a8323e6be62f5cb0c462"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 41,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The āgylt/āgnum/on continuation table and items 34.10–13 fit within margins; the sōð/sē table and nāwiht note remain clear."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-041.png",
+          "image_sha256": "14d6a6af1f1f25b4843253484a015f74557ae3882712658275f3cd5049c01cef"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 42,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The nāwiht/sē continuation table leads into Exercise 35 items 1–7; both rows of the final oð/sē table and its lower rule are unobstructed."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-042.png",
+          "image_sha256": "4620dcad6e0ee88382b6aa8025496f4f04cd87e0203ea0c7fc67da65bbce7927"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 43,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.35.8–12 and the fēawe and clothing-use on tables are complete; long supplied notes wrap cleanly without squeezing the final item."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-043.png",
+          "image_sha256": "eb8c0cbe58be8ad78f7a5530a5cda6cc6c92e3467a8a4d45be38536e98348e4b"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 44,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Items 35.13–14 lead into Exercise 36 items 1–2; of and frige tables have readable columns, and the final supplied body-part phrase is fully visible."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-044.png",
+          "image_sha256": "53d181e351b53358fccdda213bd7bd500e3efd3925d2b20366abdcd93007dac9"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 45,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The tō support table continues item 36.2 before items 36.3–5; the ęlum table and hooked-e glyph remain clear with no line collisions."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-045.png",
+          "image_sha256": "cff1d0aba8ae5f68701a7b31fa76bda53263fe013f0000cacc756d58e137ee38"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 46,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Items 36.6–7 retain the full explanations and both tables; the two lǣs rows and the āliefð/tō rows stay distinct and within the text block."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-046.png",
+          "image_sha256": "9d7e8bcd50de85a93e20f899c247e3d58b3aa29f6e8592c4af0e297a77de1840"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 47,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.36.8–9 includes the one-row mid table and three-row myngod/Johannes/Johannem table; all supplied help remains readable and clear of the footer."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-047.png",
+          "image_sha256": "ab7cc7df5be4a0aba008a28c846bba086fd439cf46f7263f54bb30bd8922dde8"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 48,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.36.10–11 closes the exercises before section 7; the reading introduction, locator explanation, source-note marker 9, and supplied-help heading are legible."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-048.png",
+          "image_sha256": "2e00631d484dced98898407ba5b027bae962eb3c8fbc69df5c3ffd0fcfdd2d94"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 49,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The reading-forms table opens at ðisum and continues through frige; all three columns and the bottom continuation notice are readable."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-049.png",
+          "image_sha256": "1254ca9f5dcc321f7810fb3bcc299e95e8807a5fda1dcaa7d77251e28048991c"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 50,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The repeated-header reading table runs from ðēowe through męnige; longer entries wrap within their columns and the final rule clears the continuation notice."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-050.png",
+          "image_sha256": "55208c011b6a1545c14f8bfd77c2e56ed2bedc3f7816436a772400e0f3cb8a9b"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 51,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The reading table continues from āgan through snelnesse with repeated headers; the P169N2 ending note fits its role column without touching the adjacent meaning."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-051.png",
+          "image_sha256": "efc61d5d02ab47b72f85e7e5fb774b704e319a43d5d094bf8f6e02b68c658054"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 52,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The ðæt-through-gewęnd table is complete; long hęrede, swilce, and of entries remain separated across columns, with P169N6 clear."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-052.png",
+          "image_sha256": "7344c87baa0d578d1f0860d69e137720c445216dff22b3f4fd8bd8c33f1a86e8"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 53,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The table runs from cynesętle through gehīersumode; the multi-line ðurh gloss and all final rows fit above the continuation notice."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-053.png",
+          "image_sha256": "a65e1f95f37545f4296bc15eb4fc0ee97776aa63f788499ae5509c33e8676fb9"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 54,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The last vocabulary rows, æfter through gereorde, close before Further verbal help; the first five locator-led notes remain legible with complete final lines."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-054.png",
+          "image_sha256": "94e3a0ddd760b95c07b8a21644790437ef1e0d9835b2248e6ded43d006ccf280"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 55,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Further verbal help runs from 168.07 belimpende through 169.04 slōh; the repaired 168.18 phrase now visibly reads “continues on 169.1” with the missing word space restored."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-055.png",
+          "image_sha256": "4f4bd4d0a8b0b8b39624af20e7a0ebef2b6eee2c4a5d954b7a25d6347a30912e"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 56,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Notes 169.05–170.03 remain fully readable; the repaired 169.16 reference visibly reads “the composition 35.3” with a clear word space."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-056.png",
+          "image_sha256": "973b841912174fef5180b9d509e8f0c1cc20740e076902f35d9b65c55102c7c7"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 57,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Notes from 170.04 beseah through the 168.06–168.07 construction help fit within margins; bold locators, macrons, eth, ash, and hooked e are clear."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-057.png",
+          "image_sha256": "40b03c94132d9b8f944863f437e40a0a4abf64d0095417a20887d2b5e71a5ecc"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 58,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Construction notes 168.08–169.17 retain complete paragraphs and readable P169 note references; no line or footer collisions are visible."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-058.png",
+          "image_sha256": "df6996897e32057b76fa0a9722e5e27aee59b8d2c0f4bfaeae9fc10e3d513372"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 59,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The final construction notes, Latin-parallel explanation, and Quotation punctuation paragraph fit cleanly; P170N15 and P169N6/P169N10 references are readable."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-059.png",
+          "image_sha256": "8c59c60f6b6c3a72a681ec33a3f3b9b058f6d45f64b1a13f9811a369d0bc91af"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 60,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The Source text heading stays with the opening passage; superscript P168/P169 labels are legible, and the OE lines through the bath scene do not collide."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-060.png",
+          "image_sha256": "d585af36e797b0cf5b1d87f0f24730c52807ac06a95a047f4fdf72f8224a4c78"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 61,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The source passage continues across the page break and ends with the invitation; Original notes P168N1–P168N13 begin below it with readable superscript labels."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-061.png",
+          "image_sha256": "1d50dda7b0923e06e760a5abe3cea647ce6ddfc1360a188cc63fd0e3f73f9699"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 62,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Original notes continue from P168N14 through P170N1; all Latin paragraphs, note identifiers, and the final note clear the margins and folio."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-062.png",
+          "image_sha256": "19d31fe69d0d5fc76791a2ea36c8e6d66d800f96683b37db9929715c62492215"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 63,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Original notes P170N2–P170N16 conclude before Reading tasks and R01; the task introduction and first answer field are clear and fully visible."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-063.png",
+          "image_sha256": "8785da0efa1def19c73e3ae44d972ccedaf5ec40113479082e07a61ff2a09741"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 64,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "R02 and R03 retain their full prompts, source excerpts, and all eleven answer fields; the OE letters and macrons are distinct."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-064.png",
+          "image_sha256": "25422d2f15c0ab7b35ac9f1d12842c16e13f9c0f7d18894ca0c1c562c9cfdb8e"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 65,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "R04 and R05 retain complete prompts and answer fields; the repaired R05 opening visibly reads “invitation at 170.14–16” with the word space restored."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-065.png",
+          "image_sha256": "5d2cd64e1c45acbb47bd491615eecfcc749933d7dfce3b4057fcd99e6408c325"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 66,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "R06 visibly reads “printed page 169, original notes 6 and 10 (not text lines 6 and 10)”, confirming all five repaired spaces; its four answer fields and editorial notes 1–7 remain readable."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-066.png",
+          "image_sha256": "f162abc4ff0e9d59e87018194a7c47c759ca1673ec0b6fe38a01190a18ae06e7"
+        },
+        {
+          "reviewer": "unit16_pages_last",
+          "ledger": "typesetting/ch16/reviews/learner-last.json",
+          "page": 67,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Editorial note 7 continues cleanly before complete notes 8–9; the I → J normalization and one-based PDF-page locators are legible on the final page."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/learner-v2/page-067.png",
+          "image_sha256": "dde49cb6ed786c5be21454fa919cbd3d506163a36568e20dc34c2133ac207ccb"
+        }
+      ]
+    },
+    {
+      "kind": "key",
+      "path": "typesetting/ch16/answer-key.pdf",
+      "sha256": "3747d9c616c645a4536ec1c90affcf8a24d07ca7faad4bf4b04eba712cfa140b",
+      "build_path": "typesetting/ch16/build/answer-key.pdf",
+      "pages": 32,
+      "render_dpi": 150,
+      "page_review_records": [
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 1,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The Answer key title, introductory grading guidance, and F01 answers 1–7 are legible; the macrons in āceorfan and the æ/ð forms in the guidance render cleanly, with clear separation from the running header and page number."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-001.png",
+          "image_sha256": "c96b9155e1a0fa97891e738ad4baf97c5b9027e38505731b158998ac21ee788a"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 2,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "F01 continues with answer 8 and the ðwēan/iernan forms before the F02 heading and answers 1–8; the hooked e in bewęndan and macrons remain distinct, and the bottom answer stays above the page number."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-002.png",
+          "image_sha256": "57233f419410336956cb1e5ec87cf9eed638ef02f89e8162a3d8267c5a372499"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 3,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "F02 answers 9–11 and their explanation flow into the F03 command pairs 1–12; bold prompts and ordinary-text glosses remain distinguishable, including forlǣtan and plural -að forms."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-003.png",
+          "image_sha256": "0d099e977898de75f7660194acf404537b2f5dc6c0bbb79f5affe92efe6d2a37"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 4,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "F03 answers 13–14 and their note precede F04 and F05; both headings remain with answers, the iernanne explanation is intact, and the F05 stem explanation begins in two clear lines at the bottom before continuing on page 5."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-004.png",
+          "image_sha256": "dee535dbe5320713b8cfeba814395e254c3731f331075a4c97d14990efe517e2"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 5,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The continuation of F05 is legible at the top; the A section heading and A01 stay with their answers, and A02 begins with both sentence translations above the footer."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-005.png",
+          "image_sha256": "a665c0068bab491be445109a880a95991737b1471282ff16748113a4c26b3210"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 6,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "A02 answers 3–5 are followed by the A03 heading and answers 1–7; ðæt, wǣre, sægde and the hooked e in sęcgan render clearly, with no collision in the dense explanatory paragraphs."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-006.png",
+          "image_sha256": "98d4fdbdceed1685ec26edf5d490a79926263f4f91c131a8578a735c99ba28be"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 7,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "A03 answers 8–12 complete above the C. Short compositions heading; C01 contains all three responses and explanations on this page, with clean macrons in the quoted command and adequate footer clearance."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-007.png",
+          "image_sha256": "500c4a670b807c0234f29c78e63ba1f1944c9701ff4f7f6afd2e94cbb625b68f"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 8,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "C02 and C03 contain their complete model sentences and explanations with clear eth, hooked e and macrons. The page now ends after the C03 commentary; the former orphan Cook XII, XIII.32 heading is absent from this page."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-008.png",
+          "image_sha256": "fc45109b1953502922026fb5b4ca1545dff48880220732eebb5a5c880ee490f6"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 9,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.32 now starts at the top with item 32.1 directly below it, resolving the former page 8 orphan. Items 32.1–4 have complete models, Meaning lines and commentary with clear macrons and æ/ð glyphs."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-009.png",
+          "image_sha256": "8a9564601bcbe78e856ebd0e58111b869abc176898bc7f3b3e64ee90bc355af6"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 10,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.32.5–7 are complete, separated answer blocks; item 32.7's two-line model, Meaning and full explanation stay together with ample clearance below."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-010.png",
+          "image_sha256": "12719d4bc4439b14b819cc3bdb0ba921fe54db219371a696c0d5314e1ea5d3de"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 11,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.32.8–10 are complete and readable; the long conditional answer and its comparison clause wrap within the text width without clipping or colliding with the running header."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-011.png",
+          "image_sha256": "a7cde6f3b36d0e21ceb5f953fe390e6b4f535c823941e4d8824efe99d204f652"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 12,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The complete answer for Cook XII, XIII.32.11 occupies the top of the page, including its documented funde alternative; no following group heading is left behind at the bottom."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-012.png",
+          "image_sha256": "334ef06c0887970a0448a93738cda64e9ddfc3af414b4b278e661c419e030f1d"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 13,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.33 begins at the top with item 33.1 and contains complete answers 33.1–3; the long 33.3 quotation and explanation fit without a split heading or collision."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-013.png",
+          "image_sha256": "12df04fb4b3ef5f6bb117a6c60fbccdfdfb4a48fc9b789d4af1df0fb1530ee06"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 14,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.33.4–8 fit as five complete answer blocks. The final possibility-pattern explanation ends above the footer with readable macrons, æ and eth."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-014.png",
+          "image_sha256": "a66d22d609b41024fbdaa9fc3cff3c40a24596a8af15450e5b072c6efdec545c"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 15,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.33.9–10 finish the group in two complete blocks; the two quoted speakers in 33.9 and the negative-concord explanation in 33.10 remain readable, with no detached next-section heading."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-015.png",
+          "image_sha256": "aec92bab072c4f2d32f442e39f0d92d286d04119bd078fb05e6a804ace2ca7f0"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 16,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.34 starts with its heading and item 34.1, followed by complete answers 34.2–4; hooked e in ęfthweorf and macrons/æ in the books and boys answers render cleanly."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-016.png",
+          "image_sha256": "894a85b819b48637128b8dc4a9b9d3e1bd9aa3d552f6c8c4051557f549f4ebc6"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 17,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.34.5–8 remain complete; the long living-God and perception models wrap cleanly, and the dual-pronoun explanation ends with clear footer separation."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-017.png",
+          "image_sha256": "4eea7708291e776e0176adc3f21ebf999317cd1323ac3ca926948c954c2ece64"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 18,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.34.9–11 are intact, including the C06 correction note and the full reference explanation for 34.11; no item heading is detached and no glyph collides with adjacent lines."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-018.png",
+          "image_sha256": "e0e46599fa18af9c86b6482578bd977bdfdca9533ed3af6165580dcd7c187265"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 19,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.34.12–13 complete the group in two legible blocks; the negative and reported forms are visibly distinct and no new group heading is orphaned below them."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-019.png",
+          "image_sha256": "fcbbcd42d9326299f2c0fc141323b4586021af5c73b08412d5e27bd2524dd322"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 20,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.35 begins with its heading and items 35.1–5. All five answers remain intact, including the final substitute-action explanation above the footer; hooked e in bęt and the macrons are clear."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-020.png",
+          "image_sha256": "224f8f35c1c160fe387e8dd1c03dd561e68e6a39e5e1523b246c53caaa08afd9"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 21,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.35.6–9 are complete answer blocks, including the shipwreck, heaven, narrow-gate and garments explanations; all headings remain with their models and the last block clears the footer."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-021.png",
+          "image_sha256": "c0d92fae5a1dfe60bb45ffc5bc847570ac5ae8e59e0b3ab5ec15da3e94830f2a"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 22,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.35.10–13 are intact and readable. The oil model and its singular/plural alternatives render clear hooked e and macrons and remain above the lower margin."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-022.png",
+          "image_sha256": "c347947ccfd3e91d7cb0b1d56de2993d2181efa062b2dfe0a560d4c3b25db6c0"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 23,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.35.14 appears as a complete model/Meaning/commentary block at the top; the frige explanation ends cleanly and there is no orphaned Cook 36 heading."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-023.png",
+          "image_sha256": "9cb9657ce2c726fb443b897c1f04d1e0ccb07bb1ff3241666ac766f9b1d7e709"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 24,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.36 begins with its heading and complete answers 36.1–3; the long quoted washing model and supplied negative cessation construction fit within the measure with clear eth and length marks."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-024.png",
+          "image_sha256": "ea876386d346df936d59d4e2cc105e6a0c3bfd8d195f582432f4c58397af60cc"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 25,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.36.4–7 fit as complete answer blocks; hooked e in ęlum and the macrons in the permission model remain distinct, and each heading stays with its answer."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-025.png",
+          "image_sha256": "bef2a27b928f2d26e38eaf8d09c23df6797addd312dd2c1ca658109c14435828"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 26,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "Cook XII, XIII.36.8–11 complete the group; the final head-on-a-dish event and commentary are present, with no reading heading left at the foot of the page."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-026.png",
+          "image_sha256": "28b1cd7662a79f9bf07a4e9b65c50f883a244188a46f46d6b6d8a128d0882fa6"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 27,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "R. The gymnasium scene and R01 now appear at the top immediately before 1. Whole translation, resolving their former orphaning. The connected translation is readable through the beginning of the messenger's report and continues onto page 28."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-027.png",
+          "image_sha256": "24ea674301d4640e0477c2bc0e5942d9ccc5636a1de301f4577830e7a5f5fabf"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 28,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "The connected translation finishes at the top with the king's invitation, followed by full commentary on plegan, pronouns, top, the oath and mixed address. R02 stays with answers 1–4; answer 4 continues onto page 29."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-028.png",
+          "image_sha256": "6080ccf090bdcee3cc5ddc54c453b291ed501e7eb637ab27bf24ede5ddec8c86"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 29,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "R02 answer 4 continues in two clear lines, followed by the full final-order answer; R03 contains all six reference analyses. R04 stays with its first answer and the start of answer 2, whose continuation is on page 30."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-029.png",
+          "image_sha256": "868a7a1242b636ed2c76318437590a9a1a32b7ed128a7ac575a7a65e748f4ab3"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 30,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "R04 answer 2 continues clearly at the top and answers 3–12 complete the clause analysis; the page ends after the final explanation without an orphaned R05 heading."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-030.png",
+          "image_sha256": "013a1273dc1122faa855449f2371a78c8b8c18959a5854e00993b7f0ba3368ac"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 31,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "R05 now begins at the top immediately before 1. Outer speaker, resolving its former orphaning, and all six R05 answers fit. R06 stays with its first two answers and the start of answer 3, which continues on page 32."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-031.png",
+          "image_sha256": "8b3a3ead8b5e10670dc36c90f4692e233670f78d32c62bce382f1defb0b11a35"
+        },
+        {
+          "reviewer": "unit16_pages_key",
+          "ledger": "typesetting/ch16/reviews/key.json",
+          "page": 32,
+          "status": "pass",
+          "actually_viewed": true,
+          "inspection_method": "Direct visual inspection of full-resolution rendered page with view_image",
+          "observations": [
+            "R06 answer 3 finishes at the top, followed by the complete answer 4 on the limits of Cook's top interpretation; the key ends after the full explanation with clear running furniture and no clipping."
+          ],
+          "final_identity_verified": true,
+          "image_path": "typesetting/ch16/build/key-v2/page-032.png",
+          "image_sha256": "438f45dd6a5324931767511856b79a77faa77d7649483f41777867b000b79870"
+        }
+      ]
+    }
+  ],
+  "resolved_findings": [
+    {
+      "ledger": "typesetting/ch16/reviews/learner-first.json",
+      "id": "L1",
+      "status": "resolved",
+      "category": "orphaned_entry_descriptor",
+      "pages": [
+        3,
+        4,
+        5,
+        6,
+        7,
+        9,
+        10,
+        11,
+        12
+      ],
+      "description": "Entry descriptors for fuluhtere, wolcen, ansīen, gelǣred, eorðlic and nearu are separated from their following rule/scope and paradigm by page breaks. The wolcen, ansīen, gelǣred, eorðlic and nearu descriptors stand alone at the end of a page.",
+      "requested_resolution": "Keep entry descriptors with their following explanatory note and first paradigm/header.",
+      "observed_version": "v1",
+      "resolution_version": "v2",
+      "resolved_on_pages": [
+        3,
+        5,
+        6,
+        9,
+        10,
+        11
+      ],
+      "resolution": "Direct v2 inspection confirms fuluhtere on page 3, wolcen on page 5, ansīen on page 6, gelǣred on page 9, eorðlic on page 10 and nearu on page 11 each retain descriptor, explanatory rule/scope and complete first paradigm. All adjective singular/plural panels fit together."
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/learner-first.json",
+      "id": "L2",
+      "status": "resolved",
+      "category": "orphaned_subsection_heading",
+      "pages": [
+        13,
+        14
+      ],
+      "description": "Principal parts for reference appears alone at the end of page 13; its explanation and table begin page 14.",
+      "requested_resolution": "Move the heading with its explanation/table.",
+      "observed_version": "v1",
+      "resolution_version": "v2",
+      "resolved_on_pages": [
+        13
+      ],
+      "resolution": "Direct v2 inspection confirms the Principal parts for reference heading stays with its full explanation and fourteen-row reference table on page 13."
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/learner-first.json",
+      "id": "L3",
+      "status": "resolved",
+      "category": "split_verb_entry",
+      "pages": [
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20
+      ],
+      "description": "Verb sense descriptors for ǣswician, plegian, forlēosan, ðwēan and smierwan are separated from the following morphology rule and paradigm.",
+      "requested_resolution": "Apply the descriptor-to-rule/table keep consistently.",
+      "observed_version": "v1",
+      "resolution_version": "v2",
+      "resolved_on_pages": [
+        13,
+        14,
+        16,
+        17,
+        18
+      ],
+      "resolution": "Direct v2 inspection confirms ǣswician on page 13, plegian on page 14, forlēosan on page 16, ðwēan on page 17 and smierwan on page 18 each retain descriptor, morphology rule and full paradigm."
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/learner-first.json",
+      "id": "L4",
+      "status": "withdrawn",
+      "category": "initial_visual_misreading",
+      "pages": [
+        11
+      ],
+      "description": "Initial batch viewing suggested a garbled eorðlic sentence. A second direct full-resolution single-page inspection confirms the complete correct sentence, matching student.md:426 and chapter-16.tex:811.",
+      "resolution": "Withdrawn after the documented second direct v1 inspection; no source defect existed. Direct v2 inspection of the eorðlic block on page 10 again confirms the complete correct sentence.",
+      "observed_version": "v1",
+      "resolution_version": "v2",
+      "resolved_on_pages": [
+        10
+      ],
+      "disposition": "withdrawn_after_direct_reinspection"
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/learner-last.json",
+      "id": "U16-L-LAST-01",
+      "page": 56,
+      "status": "resolved",
+      "severity": "minor",
+      "category": "master_copy_spacing",
+      "description": "The 168.18 gemęngde note prints “continues on169.1” without a word space.",
+      "source": "chapters/ch16/student.md:2939",
+      "proposed_resolution": "Insert a word space: “continues on 169.1”.",
+      "first_seen_render_version": "v1",
+      "resolved_in_render_version": "v2",
+      "resolved_current_page": 55,
+      "resolution": "A08 inserted the documented ordinary word spaces in the modern learner help/tasks and corresponding contract fields.",
+      "amendment": "chapters/ch16/presentation-proofreading-amendment.json",
+      "proofreading_confirmation": "chapters/ch16/reviews/presentation-proofreading.json",
+      "visual_confirmation": "Directly viewed the corrected 168.18 note: “continues on 169.1”, with the missing word space visibly restored.",
+      "visual_confirmation_method": "Direct visual inspection with view_image of the final v2 page"
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/learner-last.json",
+      "id": "U16-L-LAST-02",
+      "page": 57,
+      "status": "resolved",
+      "severity": "minor",
+      "category": "master_copy_spacing",
+      "description": "The 169.16 gewęnde note prints “the composition35.3” without a word space.",
+      "source": "chapters/ch16/student.md:2971",
+      "proposed_resolution": "Insert a word space: “the composition 35.3”.",
+      "first_seen_render_version": "v1",
+      "resolved_in_render_version": "v2",
+      "resolved_current_page": 56,
+      "resolution": "A08 inserted the documented ordinary word spaces in the modern learner help/tasks and corresponding contract fields.",
+      "amendment": "chapters/ch16/presentation-proofreading-amendment.json",
+      "proofreading_confirmation": "chapters/ch16/reviews/presentation-proofreading.json",
+      "visual_confirmation": "Directly viewed the corrected 169.16 note: “the composition 35.3”, with the missing word space visibly restored.",
+      "visual_confirmation_method": "Direct visual inspection with view_image of the final v2 page"
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/learner-last.json",
+      "id": "U16-L-LAST-03",
+      "page": 66,
+      "status": "resolved",
+      "severity": "minor",
+      "category": "master_copy_spacing",
+      "description": "R05 prints “the final invitation at170.14–16” without a word space.",
+      "source": "chapters/ch16/student.md:3313",
+      "proposed_resolution": "Insert a word space: “the final invitation at 170.14–16”.",
+      "first_seen_render_version": "v1",
+      "resolved_in_render_version": "v2",
+      "resolved_current_page": 65,
+      "resolution": "A08 inserted the documented ordinary word spaces in the modern learner help/tasks and corresponding contract fields.",
+      "amendment": "chapters/ch16/presentation-proofreading-amendment.json",
+      "proofreading_confirmation": "chapters/ch16/reviews/presentation-proofreading.json",
+      "visual_confirmation": "Directly viewed the corrected R05 prompt: “invitation at 170.14–16”, with the missing word space visibly restored.",
+      "visual_confirmation_method": "Direct visual inspection with view_image of the final v2 page"
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/learner-last.json",
+      "id": "U16-L-LAST-04",
+      "page": 67,
+      "status": "resolved",
+      "severity": "minor",
+      "category": "master_copy_spacing",
+      "description": "R06 prints “printed page169, original notes6 and10 (not text lines6 and10)” without five word spaces.",
+      "source": "chapters/ch16/student.md:3353",
+      "proposed_resolution": "Replace with “printed page 169, original notes 6 and 10 (not text lines 6 and 10)”.",
+      "first_seen_render_version": "v1",
+      "resolved_in_render_version": "v2",
+      "resolved_current_page": 66,
+      "resolution": "A08 inserted the documented ordinary word spaces in the modern learner help/tasks and corresponding contract fields.",
+      "amendment": "chapters/ch16/presentation-proofreading-amendment.json",
+      "proofreading_confirmation": "chapters/ch16/reviews/presentation-proofreading.json",
+      "visual_confirmation": "Directly viewed the corrected R06 prompt: “printed page 169, original notes 6 and 10 (not text lines 6 and 10)”, with all five missing spaces visibly restored.",
+      "visual_confirmation_method": "Direct visual inspection with view_image of the final v2 page"
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/key.json",
+      "id": "KEY-VIS-01",
+      "severity": "material",
+      "status": "resolved_verified",
+      "pages": [
+        8
+      ],
+      "description": "The section heading “Cook XII, XIII.32” is orphaned at the bottom of page 8 with no following section content on the page.",
+      "evidence": "Direct visual inspection of typesetting/ch16/build/key-v1/page-008.png.",
+      "original_render_version": "v1",
+      "resolved_render_version": "v2",
+      "resolution": "Direct inspection of key-v2 pages 8 and 9 verifies that page 8 ends after C03 and Cook XII, XIII.32 begins page 9 together with item 32.1 and its answer.",
+      "verification_images": [
+        {
+          "page": 8,
+          "path": "typesetting/ch16/build/key-v2/page-008.png",
+          "sha256": "fc45109b1953502922026fb5b4ca1545dff48880220732eebb5a5c880ee490f6"
+        },
+        {
+          "page": 9,
+          "path": "typesetting/ch16/build/key-v2/page-009.png",
+          "sha256": "8a9564601bcbe78e856ebd0e58111b869abc176898bc7f3b3e64ee90bc355af6"
+        }
+      ]
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/key.json",
+      "id": "KEY-VIS-02",
+      "severity": "material",
+      "status": "resolved_verified",
+      "pages": [
+        25,
+        26
+      ],
+      "description": "The section heading “R. The gymnasium scene” and task heading “R01” are orphaned at the bottom of page 25; R01's first answer, “1. Whole translation.”, begins on page 26.",
+      "evidence": "Direct visual inspection of typesetting/ch16/build/key-v1/page-025.png and page-026.png.",
+      "original_render_version": "v1",
+      "resolved_render_version": "v2",
+      "resolution": "Direct inspection of key-v2 pages 26 and 27 verifies that the R section heading and R01 appear together at the top of page 27 immediately before the whole-translation answer; no reading heading is left on page 26.",
+      "verification_images": [
+        {
+          "page": 26,
+          "path": "typesetting/ch16/build/key-v2/page-026.png",
+          "sha256": "28b1cd7662a79f9bf07a4e9b65c50f883a244188a46f46d6b6d8a128d0882fa6"
+        },
+        {
+          "page": 27,
+          "path": "typesetting/ch16/build/key-v2/page-027.png",
+          "sha256": "24ea674301d4640e0477c2bc0e5942d9ccc5636a1de301f4577830e7a5f5fabf"
+        }
+      ]
+    },
+    {
+      "ledger": "typesetting/ch16/reviews/key.json",
+      "id": "KEY-VIS-03",
+      "severity": "material",
+      "status": "resolved_verified",
+      "pages": [
+        29,
+        30
+      ],
+      "description": "The task heading “R05” is orphaned at the bottom of page 29; the first answer, “1. Outer speaker”, starts on page 30.",
+      "evidence": "Direct visual inspection of typesetting/ch16/build/key-v1/page-029.png and page-030.png.",
+      "original_render_version": "v1",
+      "resolved_render_version": "v2",
+      "resolution": "Direct inspection of key-v2 pages 30 and 31 verifies that page 30 ends after R04 and R05 begins page 31 immediately above answer 1, Outer speaker.",
+      "verification_images": [
+        {
+          "page": 30,
+          "path": "typesetting/ch16/build/key-v2/page-030.png",
+          "sha256": "013a1273dc1122faa855449f2371a78c8b8c18959a5854e00993b7f0ba3368ac"
+        },
+        {
+          "page": 31,
+          "path": "typesetting/ch16/build/key-v2/page-031.png",
+          "sha256": "8b3a3ead8b5e10670dc36c90f4692e233670f78d32c62bce382f1defb0b11a35"
+        }
+      ]
+    }
+  ],
+  "unresolved_findings": [],
+  "content_parity": {
+    "identity": {
+      "path": "typesetting/ch16/content-parity.json",
+      "sha256": "ac16242fd5e6a7c5171604d3fd76eea84787f66d8312ddeb6efa1d8e39414fec",
+      "sha256_normalized_lf": "f9c4df1a372aceeedf9b42e433c6bb7947d124ed34d71b953911df7d7b2f4181"
+    },
+    "counts": {
+      "paragraph_heading_list_blocks": 1146,
+      "original_tables": 90,
+      "original_table_cells_including_headers": 1747,
+      "all_editorial_comments_preserved": 844
+    },
+    "documents": [
+      {
+        "master": "chapters/ch16/student.md",
+        "master_sha256": "b6914279bce69c87545d1437c6c49605f26b68e1522de9a5f7221fa08ed09b9d",
+        "tex": "typesetting/ch16/chapter-16.tex",
+        "tex_sha256": "010ec168f577a5b89ed157f782ef7fbea82f19ddaf942177c1e1a65e16a9fd37",
+        "tex_sha256_normalized_lf": "1a13558c1dec5422f293249e28f64a68a2d86e13a61a2cffab3a32c45ddaa844",
+        "paragraph_heading_list_blocks": 745,
+        "original_tables": 90,
+        "original_table_cells_including_headers": 1747,
+        "all_editorial_comments_preserved": 589,
+        "paragraph_and_cell_parity": "PASS",
+        "pdf_complete_paragraph_character_parity": "PASS",
+        "title_parity": "PASS",
+        "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+      },
+      {
+        "master": "chapters/ch16/answer-key.md",
+        "master_sha256": "083eea687565ad2f7d6323b6ee5d86ee7d58bc722284ce995bff11c8a3169eb4",
+        "tex": "typesetting/ch16/answer-key.tex",
+        "tex_sha256": "928dd92cca610711c496da06f0f613b2730b613c50ed34dfceb533a74ab7ccd0",
+        "tex_sha256_normalized_lf": "2c9749416b09b0c798b2288f2c310955266fbeaa5c68632c5b352972895c4de8",
+        "paragraph_heading_list_blocks": 401,
+        "original_tables": 0,
+        "original_table_cells_including_headers": 0,
+        "all_editorial_comments_preserved": 255,
+        "paragraph_and_cell_parity": "PASS",
+        "pdf_complete_paragraph_character_parity": "PASS",
+        "title_parity": "PASS",
+        "source_notes": "All source-note paragraphs and apparatus tables included in the complete block/cell counts above."
+      }
+    ]
+  },
+  "compilation_logs": [
+    {
+      "path": "typesetting/ch16/build/chapter-16.log",
+      "sha256": "8b80f5c411a14edae91771cef15e4bd87216e4cc969281d01607236728ea39ea",
+      "diagnostics": [],
+      "checked_diagnostics": [
+        "Missing character:",
+        "Overfull \\hbox",
+        "Overfull \\vbox",
+        "Underfull \\hbox",
+        "Underfull \\vbox",
+        "Font shape",
+        "Rerun to get",
+        "Table widths have changed",
+        "Fatal error",
+        "! LaTeX Error"
+      ],
+      "output_line": "Output written on chapter-16.pdf (67 pages, 234090 bytes)."
+    },
+    {
+      "path": "typesetting/ch16/build/answer-key.log",
+      "sha256": "affd21024f11cefe0e0e27fa525e138cb8b1a584ca9c3ca71e3dde35ddeabe39",
+      "diagnostics": [],
+      "checked_diagnostics": [
+        "Missing character:",
+        "Overfull \\hbox",
+        "Overfull \\vbox",
+        "Underfull \\hbox",
+        "Underfull \\vbox",
+        "Font shape",
+        "Rerun to get",
+        "Table widths have changed",
+        "Fatal error",
+        "! LaTeX Error"
+      ],
+      "output_line": "Output written on answer-key.pdf (32 pages, 170216 bytes)."
+    }
+  ],
+  "masters_unchanged_since_textual_acceptance": true,
+  "frozen_solutions_unchanged": true,
+  "build_and_retained_pdf_bytes_identical": true,
+  "scope_limit": "Accepts only the identified Unit16 complete exports and presentation. Register integration and final Beads/checkpoint closure are separate."
+}
