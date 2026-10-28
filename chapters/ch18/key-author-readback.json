@@ -1,0 +1,955 @@
+{
+  "status": "pass",
+  "role": "key author; not independent or blind reviewer",
+  "contract_checkpoint_authorizing_prose": "6874c20e7127fa33c41406d1aa6c0b087e59c824",
+  "contract_amendments_at_readback": [
+    {
+      "amendment_id": "U18-A01",
+      "date": "2026-10-28",
+      "stage": "authoring",
+      "original_contract_checkpoint": "6874c20e7127fa33c41406d1aa6c0b087e59c824",
+      "coordinator": "root",
+      "reported_by": "unit18_grammar",
+      "reason": "The source has a dative/reflexive reference, not an omission instruction. Remove the erroneous source attribution while retaining the original prompt and model.",
+      "source_item_id": "EX-XII-XIII-45-07",
+      "source_control_id": "U18-HINT-45-07-05",
+      "frozen_audit_witness": "sources/audits/unit18-grammar/numeric-control-analysis.json#U18-HINT-45-07-05",
+      "primary_inspection": {
+        "path": "sources/audits/unit18-source/ex-p30.png",
+        "raw_sha256": "f2cf51fede5e74bc2e1d5d5626d40bf5f9cfb4e84bf312d80b15c05487c45f20",
+        "actually_viewed": true,
+        "reviewer": "root",
+        "printed_page": 30,
+        "pdf_page_one_based": 38,
+        "observation": "Personally reread original45.7: bought wheat (hwǣte,44) for ourselves (161;184.a). No om. instruction accompanies ourselves."
+      },
+      "changes": [
+        {
+          "field_path": "/assigned_items/27/source_control_records/4/explanatory_content/0",
+          "before": "The original comment that “for ourselves” may be omitted permits either the visible benefactive/reflexive dative ūs or its omission. The model retains ūs after bohton: we bought wheat for ourselves. It is not an accusative thing purchased.",
+          "after": "Ūs is the benefactive/reflexive dative in bohton ūs hwǣte: we bought wheat for ourselves. It refers to the buying subject and is not the accusative thing purchased. The original 45.7 prompt contains no instruction to omit this phrase."
+        },
+        {
+          "field_path": "/source_task_crosswalk/original_controls/58/explanatory_content/0",
+          "before": "The original comment that “for ourselves” may be omitted permits either the visible benefactive/reflexive dative ūs or its omission. The model retains ūs after bohton: we bought wheat for ourselves. It is not an accusative thing purchased.",
+          "after": "Ūs is the benefactive/reflexive dative in bohton ūs hwǣte: we bought wheat for ourselves. It refers to the buying subject and is not the accusative thing purchased. The original 45.7 prompt contains no instruction to omit this phrase."
+        }
+      ],
+      "contract_raw_sha256_before": "77427e6fe2593a92baea35a6dc1118b46c7898a1caa8f7a78ae9e51c2f86ecf5",
+      "unchanged": [
+        "All source prompts, original controls and model text",
+        "All task/output targets and dependencies",
+        "All forms, senses, features and paradigm cells",
+        "Frozen audit/proposal packets and earlier chapters/registers"
+      ],
+      "review_status": "requires_independent_verification"
+    }
+  ],
+  "counts": {
+    "tasks": 60,
+    "requested_outputs": 87,
+    "exact_cook_models": 47,
+    "exact_cook_prompts": 47,
+    "original_tasks": 13,
+    "original_answers": 40,
+    "bound_original_oe_outputs": 15,
+    "reading_translation_divisions": 3,
+    "original_reading_notes": 22,
+    "original_note_anchors_retained": 29,
+    "key_whitespace_words": 9927
+  },
+  "checks": [
+    "One key marker per task and one output marker per requested response.",
+    "Every Cook model is the unchanged first paragraph after its key marker, matching the official checker convention.",
+    "Every original output label and bound Old English model is present.",
+    "All47 source prompts and all13 original task prompts are exact.",
+    "All22 original reading note texts and29 anchor relationships are retained.",
+    "Reading translation derives from the preserved independent witness; only division boundaries and surrounding explanation differ.",
+    "Critical distinctions read back:44.7 instrumental/counterfactual perfect;47.5 valid funde;47.11 present commandest;48.6 dative ēowerre;48.7 omitted be; reading6 finite-content see sense and225 accusative reflexive; delayed relative; greatest-part superlative; proposed rather than completed final rest.",
+    "NFC and endnote reference checked."
+  ],
+  "output_readback": [
+    {
+      "task_id": "NEW-U18-A01",
+      "output_position_id": "NEW-U18-A01-O001",
+      "status": "authored and checked",
+      "target": "Keep agent, recipient and object distinct.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-A01",
+      "output_position_id": "NEW-U18-A01-O002",
+      "status": "authored and checked",
+      "target": "Resolve the inanimate feminine pronoun from agreement and syntax.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-A01",
+      "output_position_id": "NEW-U18-A01-O003",
+      "status": "authored and checked",
+      "target": "Recognize genuine ambiguity rather than applying a nearest-noun rule.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-A01",
+      "output_position_id": "NEW-U18-A01-O004",
+      "status": "authored and checked",
+      "target": "Identify the man explicitly as reader while keeping the book pronominal.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-A02",
+      "output_position_id": "NEW-U18-A02-O001",
+      "status": "authored and checked",
+      "target": "Recover the quoted speaker and relative temporal viewpoint.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-A02",
+      "output_position_id": "NEW-U18-A02-O002",
+      "status": "authored and checked",
+      "target": "Use third-person reference to the king, reported content and the requested preterite subjunctive.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-A02",
+      "output_position_id": "NEW-U18-A02-O003",
+      "status": "authored and checked",
+      "target": "Distinguish reporting mood from truth value.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-A03",
+      "output_position_id": "NEW-U18-A03-O001",
+      "status": "authored and checked",
+      "target": "Preserve the men as both seers and singers and the king as object.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-A03",
+      "output_position_id": "NEW-U18-A03-O002",
+      "status": "authored and checked",
+      "target": "Keep the relative clause and main clause agreement relations explicit.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-A03",
+      "output_position_id": "NEW-U18-A03-O003",
+      "status": "authored and checked",
+      "target": "Change the article, noun and both finite verbs; preserve the king as singular object.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-C01",
+      "output_position_id": "NEW-U18-C01-O001",
+      "status": "authored and checked",
+      "target": "The man gives; the king sees that man; the servant receives the book.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-C02",
+      "output_position_id": "NEW-U18-C02-O001",
+      "status": "authored and checked",
+      "target": "Keep the king as commander, the men as instructed actors, the servant as recipient and books as objects.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F01",
+      "output_position_id": "NEW-U18-F01-O001",
+      "status": "authored and checked",
+      "target": "Singular ass is subject; sack is accusative possession.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F01",
+      "output_position_id": "NEW-U18-F01-O002",
+      "status": "authored and checked",
+      "target": "Plural subjects and objects with plural finite agreement.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F01",
+      "output_position_id": "NEW-U18-F01-O003",
+      "status": "authored and checked",
+      "target": "Men give; asses are dative recipients; wheat is a mass singular object.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F01",
+      "output_position_id": "NEW-U18-F01-O004",
+      "status": "authored and checked",
+      "target": "Mass singular wheat controls singular is; static location takes dative plural sacks.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F01",
+      "output_position_id": "NEW-U18-F01-O005",
+      "status": "authored and checked",
+      "target": "Distinguish the two noun patterns while applying ordinary number, recipient and location functions.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F02",
+      "output_position_id": "NEW-U18-F02-O001",
+      "status": "authored and checked",
+      "target": "Present singular need with a genitive thing needed.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F02",
+      "output_position_id": "NEW-U18-F02-O002",
+      "status": "authored and checked",
+      "target": "Preterite plural need with the same genitive mass noun.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F02",
+      "output_position_id": "NEW-U18-F02-O003",
+      "status": "authored and checked",
+      "target": "Separate finite agreement/tense from lexical genitive government.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F03",
+      "output_position_id": "NEW-U18-F03-O001",
+      "status": "authored and checked",
+      "target": "First singular present recognition and accusative person.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F03",
+      "output_position_id": "NEW-U18-F03-O002",
+      "status": "authored and checked",
+      "target": "First plural preterite recognition and unchanged singular object.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F03",
+      "output_position_id": "NEW-U18-F03-O003",
+      "status": "authored and checked",
+      "target": "Third singular present undo/open and accusative sack.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F03",
+      "output_position_id": "NEW-U18-F03-O004",
+      "status": "authored and checked",
+      "target": "Third plural preterite open with plural accusative sacks.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-F03",
+      "output_position_id": "NEW-U18-F03-O005",
+      "status": "authored and checked",
+      "target": "Track independent agreement domains and accusative objects across finite stem changes.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R01",
+      "output_position_id": "NEW-U18-R01-O001",
+      "status": "authored and checked",
+      "target": "Preserve seeing and education, her reaction, the time phrase, permission, donor, recipient, free choice and the source of the gift.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R01",
+      "output_position_id": "NEW-U18-R01-O002",
+      "status": "authored and checked",
+      "target": "Preserve every gift, quantity, material, permission, instruction, promise and narrated result, including the relative clause’s actual antecedent.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R01",
+      "output_position_id": "NEW-U18-R01-O003",
+      "status": "authored and checked",
+      "target": "Preserve the two departures or intended movements, the addressees of each speech, the prior gift and the final purpose.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R02",
+      "output_position_id": "NEW-U18-R02-O001",
+      "status": "authored and checked",
+      "target": "Keep the two possessors and the direction of affection distinct, applying the supplied expression.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R02",
+      "output_position_id": "NEW-U18-R02-O002",
+      "status": "authored and checked",
+      "target": "Recover person and dative recipient within direct speech.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R02",
+      "output_position_id": "NEW-U18-R02-O003",
+      "status": "authored and checked",
+      "target": "Resolve two syncretic pronouns by clause roles and discourse.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R03",
+      "output_position_id": "NEW-U18-R03-O001",
+      "status": "authored and checked",
+      "target": "Separate literal grammatical subject from an idiomatic English rendering.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R03",
+      "output_position_id": "NEW-U18-R03-O002",
+      "status": "authored and checked",
+      "target": "Apply the visible quantity analysis and distinguish counted units from material.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R03",
+      "output_position_id": "NEW-U18-R03-O003",
+      "status": "authored and checked",
+      "target": "Explain separation of antecedent and relative and distinguish subject from object with the source note visible.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R03",
+      "output_position_id": "NEW-U18-R03-O004",
+      "status": "authored and checked",
+      "target": "Apply the supplied farewell expressions and distinguish accusative plural from nominative plural predicate agreement.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R04",
+      "output_position_id": "NEW-U18-R04-O001",
+      "status": "authored and checked",
+      "target": "Distinguish temporal subordination, embedded content and the main event.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R04",
+      "output_position_id": "NEW-U18-R04-O002",
+      "status": "authored and checked",
+      "target": "Apply the visibly supplied permission frame and prior free-choice analysis without treating their introductory forms as interchangeable.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R04",
+      "output_position_id": "NEW-U18-R04-O003",
+      "status": "authored and checked",
+      "target": "Distinguish a proposal, its infinitival action and its purpose.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R05",
+      "output_position_id": "NEW-U18-R05-O001",
+      "status": "authored and checked",
+      "target": "Distinguish authorization from the selection and announcement of gifts.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "NEW-U18-R05",
+      "output_position_id": "NEW-U18-R05-O002",
+      "status": "authored and checked",
+      "target": "Separate intended action from completed narrative and respect the selected boundary.",
+      "essential_meaning_basis": "exact original label plus stated participants, roles and time relations",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-44-01",
+      "output_position_id": "EX-XII-XIII-44-01-O001",
+      "status": "authored and checked",
+      "target": "Direct plural commands after past speech; beneficiary us; partitive food amount.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-44-02",
+      "output_position_id": "EX-XII-XIII-44-02-O001",
+      "status": "authored and checked",
+      "target": "Narrative inversion; oath and finite content; negative permission; except-condition with youngest brother.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-44-03",
+      "output_position_id": "EX-XII-XIII-44-03-O001",
+      "status": "authored and checked",
+      "target": "Conditional willingness; explicit final verb; relative thing-object and need-government; omit English future auxiliary.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-44-04",
+      "output_position_id": "EX-XII-XIII-44-04-O001",
+      "status": "authored and checked",
+      "target": "Past main action; temporal/report clause; comparison/quantity more with plural brethren.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-44-05",
+      "output_position_id": "EX-XII-XIII-44-05-O001",
+      "status": "authored and checked",
+      "target": "Two coordinated indirect questions; reporting and ignorance; desire with genitive demonstrative and following content clause.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-44-06",
+      "output_position_id": "EX-XII-XIII-44-06-O001",
+      "status": "authored and checked",
+      "target": "Singular command; two purpose clauses; negative perish; except-condition and first-person self-imprecation.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-44-07",
+      "output_position_id": "EX-XII-XIII-44-07-O001",
+      "status": "authored and checked",
+      "target": "Unreal past condition and anterior come-construction; accusative occasion second time.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-44-08",
+      "output_position_id": "EX-XII-XIII-44-08-O001",
+      "status": "authored and checked",
+      "target": "Conditional necessity; free-choice manner; partitive source after of; direct and recipient objects.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-45-01",
+      "output_position_id": "EX-XII-XIII-45-01-O001",
+      "status": "authored and checked",
+      "target": "Plural commands with singular shared brother and directional recipient.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-45-02",
+      "output_position_id": "EX-XII-XIII-45-02-O001",
+      "status": "authored and checked",
+      "target": "Optative make with object predicate; wið recipients; purpose giving; relative possessive clause; deprivation genitive.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-45-03",
+      "output_position_id": "EX-XII-XIII-45-03-O001",
+      "status": "authored and checked",
+      "target": "Coordinated past actions; adjective agreement with money; Egyptian territory and named goal.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-45-04",
+      "output_position_id": "EX-XII-XIII-45-04-O001",
+      "status": "authored and checked",
+      "target": "Temporal ðā correlation and nested direct commands/purpose; exact noon expression.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-45-05",
+      "output_position_id": "EX-XII-XIII-45-05-O001",
+      "status": "authored and checked",
+      "target": "Comparative manner clause and impersonal passive with dative person; exact parallel177.10.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-45-06",
+      "output_position_id": "EX-XII-XIII-45-06-O001",
+      "status": "authored and checked",
+      "target": "Temporal correlation; becoming frightened; reciprocal speech; causal money phrase; passive lead and purpose deprivation/enslavement.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-45-07",
+      "output_position_id": "EX-XII-XIII-45-07-O001",
+      "status": "authored and checked",
+      "target": "Respectful address; request finite content; listen with governed object; past purchase and benefactive reflexive.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-45-08",
+      "output_position_id": "EX-XII-XIII-45-08-O001",
+      "status": "authored and checked",
+      "target": "Anterior trading and state heading home; opening sacks; earlier payment; ǣr controls sequence.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-45-09",
+      "output_position_id": "EX-XII-XIII-45-09-O001",
+      "status": "authored and checked",
+      "target": "Restored money and added silver; infinitive purpose with stranded instrumental relation; indirect question.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-46-01",
+      "output_position_id": "EX-XII-XIII-46-01-O001",
+      "status": "authored and checked",
+      "target": "Greeting wish; negative plural command and reflexive fear; compound possessor; omit hath.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-46-02",
+      "output_position_id": "EX-XII-XIII-46-02-O001",
+      "status": "authored and checked",
+      "target": "Coordinated past actions; feet plural; recipient asses and direct fodder.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-46-03",
+      "output_position_id": "EX-XII-XIII-46-03-O001",
+      "status": "authored and checked",
+      "target": "Set forth presents; prospective ongēan ðætte clause, omit should; retain lęcgean hint.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-46-04",
+      "output_position_id": "EX-XII-XIII-46-04-O001",
+      "status": "authored and checked",
+      "target": "Recognition plus alternative indirect questions with adjective and lexical live.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-46-05",
+      "output_position_id": "EX-XII-XIII-46-05-O001",
+      "status": "authored and checked",
+      "target": "Honorific servant; predicative healthy; lexical live with gīet.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-46-06",
+      "output_position_id": "EX-XII-XIII-46-06-O001",
+      "status": "authored and checked",
+      "target": "Temporal seeing; neuter demonstrative with male lad; direct-object relative; optative mercy with dative recipient.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-46-07",
+      "output_position_id": "EX-XII-XIII-46-07-O001",
+      "status": "authored and checked",
+      "target": "Command recipient; plural sacks with genitive contents; distributive possessors and own sack; on goal.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-46-08",
+      "output_position_id": "EX-XII-XIII-46-08-O001",
+      "status": "authored and checked",
+      "target": "Elliptical command object; material silver-cup phrase; price with dependent wheat; relative giving; youngest substantive.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-46-09",
+      "output_position_id": "EX-XII-XIII-46-09-O001",
+      "status": "authored and checked",
+      "target": "Temporal journey; static outside and anterior progress; pursuit command; prospective temporal caught-clause; indirect why question.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-01",
+      "output_position_id": "EX-XII-XIII-47-01-O001",
+      "status": "authored and checked",
+      "target": "Fronted cup and past theft relative; precious with dative standard.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-02",
+      "output_position_id": "EX-XII-XIII-47-02-O001",
+      "status": "authored and checked",
+      "target": "Dative impersonal command; passive catching; object money fronting with relative; return from country; supposition content.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-03",
+      "output_position_id": "EX-XII-XIII-47-03-O001",
+      "status": "authored and checked",
+      "target": "Seek imperative; passive death wish; indefinite/conditional relative with find.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-04",
+      "output_position_id": "EX-XII-XIII-47-04-O001",
+      "status": "authored and checked",
+      "target": "Free-choice with whomsoever; first-person finding; third-person jussives with servant and blameless predicates.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-05",
+      "output_position_id": "EX-XII-XIII-47-05-O001",
+      "status": "authored and checked",
+      "target": "Range from eldest until youngest; finding within sack; return to city.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-06",
+      "output_position_id": "EX-XII-XIII-47-06-O001",
+      "status": "authored and checked",
+      "target": "Entry in first position; accompaniment; collective falling before person.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-07",
+      "output_position_id": "EX-XII-XIII-47-07-O001",
+      "status": "authored and checked",
+      "target": "Past report and direct question with modal willingness; explicit final lexical verb.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-08",
+      "output_position_id": "EX-XII-XIII-47-08-O001",
+      "status": "authored and checked",
+      "target": "Identifying theft relative; servant jussive; plural dismissal with free predicate.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-09",
+      "output_position_id": "EX-XII-XIII-47-09-O001",
+      "status": "authored and checked",
+      "target": "Past speech; recalled prior asking; indirect whether alternatives.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-10",
+      "output_position_id": "EX-XII-XIII-47-10-O001",
+      "status": "authored and checked",
+      "target": "Reported direct speech with present have; omit indefinite article; youngest brother; singular alone and comparative overtopping.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-47-11",
+      "output_position_id": "EX-XII-XIII-47-11-O001",
+      "status": "authored and checked",
+      "target": "Source literal present commandest; command content and purpose; discernment from evidence; negative spies predicate.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-01",
+      "output_position_id": "EX-XII-XIII-48-01-O001",
+      "status": "authored and checked",
+      "target": "Oath with dative father; future-in-past without would; embedded quoted except-condition and continuing guilt wish.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-02",
+      "output_position_id": "EX-XII-XIII-48-02-O001",
+      "status": "authored and checked",
+      "target": "Let plus accusative and infinitive; coordinated first-person predicate without repeated let; substitution for.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-03",
+      "output_position_id": "EX-XII-XIII-48-03-O001",
+      "status": "authored and checked",
+      "target": "Negative dare with infinitive; without person; apprehensive lest-clause.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-04",
+      "output_position_id": "EX-XII-XIII-48-04-O001",
+      "status": "authored and checked",
+      "target": "Negative ability with reflexive concealment; longer comparative; expulsion and purpose no foreign man.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-05",
+      "output_position_id": "EX-XII-XIII-48-05-O001",
+      "status": "authored and checked",
+      "target": "Past crying; instrumental/manner voice; reported identity and direct yes/no question; omit do-support.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-06",
+      "output_position_id": "EX-XII-XIII-48-06-O001",
+      "status": "authored and checked",
+      "target": "Negative fear and grief commands; finite cause/content; sale into realm; explanatory benefactive providence.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-07",
+      "output_position_id": "EX-XII-XIII-48-07-O001",
+      "status": "authored and checked",
+      "target": "Elapsed and prospective duration; source omit be under shall; locative scope and impersonal one; neither/nor agriculture.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-08",
+      "output_position_id": "EX-XII-XIII-48-08-O001",
+      "status": "authored and checked",
+      "target": "Plural message command; appointment as lord; dative Egyptians; command content with coming/dwelling.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-09",
+      "output_position_id": "EX-XII-XIII-48-09-O001",
+      "status": "authored and checked",
+      "target": "Plural do command with negative purpose clause.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    },
+    {
+      "task_id": "EX-XII-XIII-48-10",
+      "output_position_id": "EX-XII-XIII-48-10-O001",
+      "status": "authored and checked",
+      "target": "Present perceiving and indirect manner; relative speech-object; addressee tō.",
+      "essential_meaning_basis": "exact Cook English prompt and unchanged selected model",
+      "explanation": "individual answer paragraph",
+      "alternatives": "shared grammatical-order/equivalent-wording policy plus item-specific distinctions where relevant",
+      "diagnosis": "individual answer paragraph identifies the relevant role, case, agreement, tense/mood or interpretation error"
+    }
+  ],
+  "hashes": {
+    "chapters/ch18/coverage.json": "6a8bf79ffd4d1672d3bd412716bf9ad87e3b452fdb8292fff12e4b8c75d937c3",
+    "chapters/ch18/answer-key.md": "c746e8269a839a52a5a9a80035098696b9942761bb9d453102e6c62aa86750a7",
+    "sources/audits/unit18-grammar/independent-reading-translation.json": "35fa52d5741f5febaf229341c85677ac06cfda5a1f975aed790c3a50032cfb36"
+  },
+  "source_problem_reported": {
+    "item": "45.7",
+    "issue": "A frozen audit explanation incorrectly attributed permission to omit for ourselves to Cook. Exact prompt contains no such omission instruction.",
+    "disposition": "Coordinator recorded bounded amendment U18-A01; key retains and explains ūs, and all frozen audit/proposal files remain untouched by this author."
+  },
+  "unresolved_points": [],
+  "scope_limit": "Author verification establishes coverage, exact model/prompt identity and the stated readback. It does not replace independent solving, source review, full learner/key integration checking or inspection of exported PDF pages."
+}

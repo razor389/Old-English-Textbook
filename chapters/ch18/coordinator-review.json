@@ -1,0 +1,50 @@
+{
+  "chapter_id": "ch18",
+  "reviewer": "root",
+  "status": "complete_drafts_checked_independent_review_pending",
+  "contract_checkpoint": "6874c20e7127fa33c41406d1aa6c0b087e59c824",
+  "precontract_review": "sources/audits/unit18-coordinator/reconciliation.json",
+  "authoring_amendments": "chapters/ch18/authoring-amendments.json",
+  "actual_draft_readbacks": [
+    {
+      "reviewer": "root",
+      "scope": "Learner opening, section outline, all new construction explanations, complete running reading, all principal and lexical reading helps and original notes; key opening/A/F explanations, Cook47.11 and all48 models/explanations, complete reading translation and all15 reading answers and apparatus. All47 model meanings were separately read against exact prompts at precontract stage. This is selective coordinator readback, not the fresh full independent review.",
+      "findings_resolved": [
+        "U18-A01 removes false45.7 omission attribution",
+        "Oath explanation needs no separate tō, not no English to",
+        "Author directive in relative help replaced with learner wording",
+        "Prior hund-scēapa context replaced with current weight expressions and duplicate glossary entries consolidated",
+        "U18-A02 separates expression from locator",
+        "Key A,C,F order matches learner"
+      ],
+      "identities": [
+        {
+          "path": "chapters/ch18/student.md",
+          "raw_sha256": "bef34f261cd1e77bf8cd281a11b2ff10dac23743305172af811e6e287eaf0f1a",
+          "normalized_lf_sha256": "b02143db99b31889d038dae5eb1dbd685c1b96aa6fdc40165cbc03fcf61e41db"
+        },
+        {
+          "path": "chapters/ch18/answer-key.md",
+          "raw_sha256": "f1e50f71213f4038033d664594d7799605f566fa3bbcef24679401bbd216630f",
+          "normalized_lf_sha256": "f1e50f71213f4038033d664594d7799605f566fa3bbcef24679401bbd216630f"
+        }
+      ]
+    }
+  ],
+  "automated_checks": {
+    "contract": "pass after U18-A01",
+    "teaching_locations": 253,
+    "register_dry_run": "pass; active registers unchanged",
+    "earlier_active_artifacts_preserved": 3288,
+    "archived_files_preserved": 134,
+    "complete_drafts": "pass"
+  },
+  "independence_limit": "Root and the source, grammar and curriculum authors are author-preparation participants. Their readbacks do not replace the fresh blind solver and separate paradigm reviewer.",
+  "remaining_gates": [
+    "Complete learner and separate key; coordinator actual readback and draft check",
+    "Fresh solutions frozen unchanged before key access; complete independent paradigm review",
+    "Resolve material findings and accept text",
+    "Complete LuaLaTeX exports, full parity and actual non-author inspection of every page",
+    "Integrate preserved registers, update all indexes, export Beads and commit locally"
+  ]
+}
