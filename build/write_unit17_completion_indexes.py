@@ -20,6 +20,11 @@ assert not pages['unresolved_findings']
 counts=c['contract_metrics']; totals=pages['page_totals']; metrics=reg['metrics']
 lp,kp,total=totals['learner'],totals['key'],totals['total']
 tasks,outputs,systems,cells=(counts[k] for k in ['tasks','requested_output_positions','paradigms','logical_cells'])
+original_outputs=sum(len(t['output_positions']) for t in c['assigned_items'] if t['task_id'].startswith('NEW-'))
+features=len(c['grammar_inventory']); teaching=len(c['teaching_records'])
+assert original_outputs==64
+assert features==c['explicit_scope_metrics']['features']==64
+assert teaching==c['explicit_scope_metrics']['teaching_records']==420
 contract,drafts,solutions,accepted=(c[k] for k in ['contract_checkpoint','complete_drafts_checkpoint','independent_solutions_checkpoint','accepted_text_checkpoint'])
 exports=a.exports_checkpoint
 after=metrics['after']; milestones=metrics['unit17_status_counts']
@@ -37,7 +42,7 @@ newrow='| 17. Connected exposition, praise, and figurative language | Comparativ
 s=replace_once(s,oldrow,newrow)
 s=s.replace('Exercises 1–36 now have full item-level audits; Exercises 37–48 still require them.','Exercises 1–43 now have full item-level audits; Exercises 44–48 still require them.')
 s=replace_once(s,'The current crosswalk is **515 assigned and 129 deferred items**.','Through Unit 16 the crosswalk was **515 assigned and 129 deferred items**.')
-para=f'The [Unit 17 source audit](../sources/audits/unit17-source/source-report.md), [grammar audit](../sources/audits/unit17-grammar/REPORT.md) and [contract](../chapters/ch17/coverage.json) establish all 82 joint XII, XIII.37–43 prompts and the complete music-performance scene. The {systems} bounded systems / {cells:,} cells appear in literal tables. Four translated examples and 21 original tasks provide {outputs} answer positions across the whole unit. The complete Cook sets retain their original hints and Exercise 37’s global instruction. High quantities and source-specific expressions remain visibly supplied. All 19 original notes / 20 anchors remain; later love and gifts are unassigned. The current crosswalk is **597 assigned and 47 deferred items**.'
+para=f'The [Unit 17 source audit](../sources/audits/unit17-source/source-report.md), [grammar audit](../sources/audits/unit17-grammar/REPORT.md) and [contract](../chapters/ch17/coverage.json) establish all 82 joint XII, XIII.37–43 prompts and the complete music-performance scene. The {systems} bounded systems / {cells:,} cells appear in literal tables. Four translated examples support the practice; the 21 original tasks request {original_outputs} responses, and all {tasks} tasks together request {outputs}. The amended contract identifies {features} grammar features and {teaching} teaching records. The complete Cook sets retain their original hints and Exercise 37’s global instruction. High quantities and source-specific expressions remain visibly supplied. All 19 original notes / 20 anchors remain; later love and gifts are unassigned. The current crosswalk is **597 assigned and 47 deferred items**.'
 s=replace_once(s,'Active coverage contracts, not this plan or the archive,',para+'\n\nActive coverage contracts, not this plan or the archive,')
 out['curriculum/COURSE_PLAN.md']=s
 

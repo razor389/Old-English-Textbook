@@ -1541,7 +1541,7 @@ This weak verb follows the nęrian type. The present has hęrie, hęrest and hę
 
 <!-- teaching: u17-gecwethan-indicative12 -->
 
-The present second and third singular have i. The preterite contrasts singular æ with ǣ in the second singular and plural, and changes ð to d. Retain the lexical prefix ge-.
+The present second and third singular have i. In the preterite, first and third singular gecwæð retain æ and ð; second singular gecwǣde and plural gecwǣdon have ǣ and d. Retain the lexical prefix ge-.
 
 <!-- table: u17-gecwethan-indicative12-INDICATIVE-DISPLAY -->
 
@@ -2872,7 +2872,7 @@ Write one complete Old English translation, keeping the printed controls and the
 
 Fire and hail (hægel, 43); snow (snāw, 43) and ice (īs, 47); spirits of the storms (ȳst, 51. b) which fulfil (dōn) his word;
 
-**Construction.** The storm fulfils his word. Keep that meaning of dōn distinct from a general act of making.
+**Construction.** The spirits of the storms fulfil his word; keep this fulfilment sense of dōn distinct from a general act of making.
 
 <!-- teaching: U17-SUP-HAEGEL-NOM-SG -->
 
@@ -3288,7 +3288,7 @@ Solomon then was magnified (mǣrsian, 118) above (ofer, 166) all earthly kings; 
 
 <!-- teaching: NEW-U17-LOCAL-SENSE-OFER-U17-RANK-DATIVE -->
 
-**Construction.** The bracket replaces the infinitive “to see” with a purpose clause, “that they might see”; use the appropriate subjunctive. The rank comparison after ofer is dative as Cook §166 directs.
+**Construction.** The bracket replaces the infinitive “to see” with the finite clause “that they might see”, expressing what all nations desired. This desired-content clause takes the subjunctive (Cook §194.b). The rank comparison after ofer is dative as Cook §166 directs.
 
 **Supplied:** Salomon wæs ðā mǣrsod ofer eallum eorðlicum cyningum; — Solomon was then celebrated above all earthly kings. Ofer here expresses rank and takes the explicitly requested dative complement. Keep that local case choice separate from the accusative rank construction encountered earlier.
 
@@ -3374,7 +3374,7 @@ The angel saluted Mary, and said that she was (194. b) filled (āfyllan, 113) wi
 
 <!-- teaching: U17-SUP-BETWEOX-INVARIANT -->
 
-**Supplied:** betwēox — among; between.
+**Supplied:** betwēox wīfum — Among women. Wīfum is dative plural after betwēox in this expression. Keep the whole phrase available; its government is supplied here.
 
 <!-- output: EX-XII-XIII-40-01-O001 -->
 
@@ -3456,7 +3456,7 @@ Write one complete Old English translation, keeping the printed controls and the
 
 He hath put down (āweorpan) the powerful from (of) (om. their) seat, and lifted up (ūpāhębban) the lowly.
 
-**Construction.** The mighty and the humble are weak masculine plural adjectives naming people. Omit the marked their without deleting the seats.
+**Construction.** The mighty and the humble are weak masculine plural adjectives naming people. Omit the marked their without deleting the seat.
 
 <!-- output: EX-XII-XIII-40-06-O001 -->
 
@@ -3844,7 +3844,11 @@ Write one complete Old English translation, keeping the printed controls and the
 
 And all (om. the) angels stood round about [in circuit of] his throne, and bowed (ālūtan, 103) to God, thus saying,
 
+<!-- teaching: NEW-U17-GRAM-U17-SUPPLIED-ACCOMPANYING-SPEECH -->
+
 **Construction.** Omit the marked article and retain the supplied “in circuit of” arrangement. Possessive his is not an article.
+
+**Supplied:** ðus cweðende — Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available.
 
 <!-- output: EX-XII-XIII-42-05-O001 -->
 
@@ -3907,6 +3911,8 @@ The soldiers platted (windan, 104) (om. a) crown of (of) thorns (ðorn, 43), and
 **Supplied:** Hāl — hale; well, in a greeting; nominative, masculine, singular, strong.
 
 **Supplied:** Iudea — Jews, in the supplied genitive plural; genitive, plural.
+
+**Supplied:** ðus cweðende — Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available.
 
 <!-- output: EX-XII-XIII-42-08-O001 -->
 
@@ -4112,7 +4118,7 @@ Within a few hours, two educated and high-born men came toward him.
 
 <!-- teaching: U17-SUP-TOGEANES-INVARIANT -->
 
-**Supplied:** tōgēanes — towards; to meet.
+**Supplied:** him tōgēanes — Toward him; to meet him. Him is the dative complement, with tōgēanes placed after it. Keep the whole expression available.
 
 <!-- output: EX-XII-XIII-43-13-O001 -->
 
@@ -4138,7 +4144,7 @@ We all say that no one here is (194. b) so acceptable to God as he.
 
 <!-- teaching: U17-SUP-GECWEME-NOM-M-SG -->
 
-**Supplied:** gecwēme — pleasing; acceptable; nominative, masculine, singular, strong.
+**Supplied:** Gode swā gecwēme — So acceptable to God. Gode is dative, naming the person to whom acceptable; gecwēme is the strong masculine nominative singular predicate adjective. The degree word swā stands between them. Keep the whole expression available.
 
 <!-- output: EX-XII-XIII-43-15-O001 -->
 

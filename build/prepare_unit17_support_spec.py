@@ -1,0 +1,58 @@
+"""Record personally inspected primary evidence for the bounded U17-A02 repair."""
+import hashlib,json
+from pathlib import Path
+out=Path('chapters/ch17/support-amendment-spec.json')
+assert not out.exists()
+catalog={}
+for page,locator,observation in [
+ (184,'184.7, 184.9–10 and original note 5',
+  'Line7 cōm tōgēanes ðǣm cyninge has an unequivocal dative complement. Lines9–10 Dianan swā gecwēme has original note5 See165, identifying adjective+dative government.'),
+ (186,'186.12',
+  'Betweox ðǣm cyning and ðǣm folce occurs in the account of the feast; the demonstratives and folce establish dative complements. This source writes unmarked betweox; the selected betwēox length is separately evidenced in Cook glossary278.'),
+ (195,'195.3–4',
+  'God hīe geblētsode ðā, ðus cweðende tō ðǣm fiscum accompanies blessing and introduces speech. The source subject is singular; application to the plural exercise subjects is declared grammatical adaptation, not a claim of verbatim plural attestation.')]:
+    path=f'build/u17-paradigms-fb-p{page}.png'
+    catalog[f'U17P-FB{page}']={
+      'source_id':'cook_fb_1895_2','printed_page':page,'pdf_page_one_based':page+16,
+      'page_convention':'One-based PDF page = printed page +16',
+      'original_identifier':locator,'line_convention':'Editorial physical-line counting anchored by printed marginal multiples of five.',
+      'image_path':path,'image_sha256':hashlib.sha256(Path(path).read_bytes()).hexdigest(),
+      'origin_category':'exact source image','actually_inspected':True,
+      'inspected_by':['unit17_paradigms','root'], 'inspection_date':'2026-10-28',
+      'inspection_method':'Actual view_image inspection; original page text and note inspected.',
+      'verification_observations':observation,
+      'scope_limit':'Evidence for the named construction. The exercise support remains declared teaching material using its independently checked model; it is not a verbatim quotation of this different passage.'}
+items=[
+ {'feature_id':'u17-supplied-betweox-dative','label':'Among women: supplied betwēox phrase',
+  'teaching_id':'U17-SUP-BETWEOX-INVARIANT','task_ids':['EX-XII-XIII-40-01'],
+  'replace_support_ids':{'EX-XII-XIII-40-01':'EX-XII-XIII-40-01-LEXICAL-HELP-024'},
+  'text':'betwēox wīfum','analysis':'Among women. Wīfum is dative plural after betwēox in this expression. Keep the whole phrase available; its government is supplied here.',
+  'evidence_refs':['U17P-FB186','U17-FB-P278','U17-EX-P25'],
+  'evidence_application':'Applies the dative betweox frame attested at186.12 to the already taught dative plural wīfum. Selected betwēox quantity follows glossary278; the whole phrase is new teaching support, not a quotation of186.12.'},
+ {'feature_id':'u17-supplied-accompanying-speech','label':'Thus saying: supplied accompanying participle',
+  'teaching_id':'NEW-U17-GRAM-U17-SUPPLIED-ACCOMPANYING-SPEECH',
+  'task_ids':['EX-XII-XIII-42-05','EX-XII-XIII-42-08'],
+  'text':'ðus cweðende','analysis':'Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available.',
+  'evidence_refs':['U17P-FB195','U07-C-READ126','U17G-FB100','U17-EX-P27','U17-EX-P28'],
+  'evidence_application':'The expression and accompanying-speech use are directly attested at195.3–4 and126.11. Applying cweðende to the exercise plural subjects uses the already evidenced participial morphology/agreement; no general productive accompanying-participle construction is added.'},
+ {'feature_id':'u17-supplied-togeanes-dative','label':'Toward him: supplied postposed tōgēanes',
+  'teaching_id':'U17-SUP-TOGEANES-INVARIANT','task_ids':['EX-XII-XIII-43-13'],
+  'replace_support_ids':{'EX-XII-XIII-43-13':'EX-XII-XIII-43-13-LEXICAL-HELP-011'},
+  'text':'him tōgēanes','analysis':'Toward him; to meet him. Him is the dative complement, with tōgēanes placed after it. Keep the whole expression available.',
+  'evidence_refs':['U17P-FB184','U17G-FB106','U17-FB-P316','U17-EX-P28'],
+  'evidence_application':'Uses the same-lexeme dative frame tōgēanes ðǣm cyninge at184.7 with taught dative him; postposition follows Cook§201 on106. This exercise phrase is a declared application, not a verbatim184.7 quotation.'},
+ {'feature_id':'u17-supplied-gecweme-dative','label':'So acceptable to God: supplied dative adjective frame',
+  'teaching_id':'U17-SUP-GECWEME-NOM-M-SG','task_ids':['EX-XII-XIII-43-15'],
+  'replace_support_ids':{'EX-XII-XIII-43-15':'EX-XII-XIII-43-15-LEXICAL-HELP-010'},
+  'text':'Gode swā gecwēme','analysis':'So acceptable to God. Gode is dative, naming the person to whom acceptable; gecwēme is the strong masculine nominative singular predicate adjective. The degree word swā stands between them. Keep the whole expression available.',
+  'evidence_refs':['U17P-FB184','U17G-FB95','U17-FB-P291','U17-EX-P28'],
+  'evidence_application':'Applies the attested Dianan swā gecwēme frame at184.9–10, whose note5 explicitly cites dative-adjective§165, to taught Gode. The form and masculine predicate follow the selected model; this is declared teaching support, not a quotation of184.'}
+]
+data={'chapter_id':'ch17','amendment_id':'U17-A02',
+      'evidence_status':'primary_images_verified_by_independent_reviewers',
+      'review_findings':['B17-01','B17-02','B17-03','B17-04'],
+      'decision':'Supply the four bounded constructions in five tasks; preserve all original models, prompts, witnesses and earlier production milestones.',
+      'additional_evidence_catalog':catalog,'constructions':items,
+      'review_limit':'Contract and learner/key repairs require actual final independent reread before acceptance.'}
+out.write_text(json.dumps(data,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
+print('Recorded four source-supported construction repairs; no contract/master changed.')

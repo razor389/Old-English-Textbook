@@ -396,7 +396,7 @@ Hęriað hine, ealle his ęnglas; hęriað hine, eall his mægnu.
 
 **Cook's prompt:** Praise ye him, all his angels; praise him, all his powers (mægen).
 
-**Target and explanation:** The angels and powers are the groups addressed, not extra objects of praise. **Ealle ęnglas** is masculine plural; **eall mægnu** is neuter plural, with the explicitly supplied sense “powers.” **His** belongs to both groups. Neither the English collective sense nor the familiar strength gloss licenses a singular reading here.
+**Target and explanation:** The angels and powers are the groups addressed, not extra objects of praise. **Ealle ęnglas** is masculine plural; **eall mægnu** is neuter plural, with the explicitly taught sense “powers.” **His** belongs to both groups. Neither the English collective sense nor the familiar strength gloss licenses a singular reading here.
 
 ### Cook 37.3
 
@@ -766,7 +766,7 @@ Se ęngel grētte Marian and sægde ðæt hēo mid Godes giefe āfylled wǣre, a
 
 **Cook's prompt:** The angel saluted Mary, and said that she was (194. b) filled (āfyllan, 113) with God’s grace [gift], and that God was with her (preposition last); and she was blessed (blētsian) among women.
 
-**Target and explanation:** The two **wǣre** clauses report what the angel said; **hēo** is the filled person, while **God** is the subject of the second reported clause. Keep the postposed **hiere mid** as required. **Godes giefe** is the supplied grace/gift expression, not an independently inferred extension of an earlier gift gloss. The final **hēo wæs blētsod** is the separate assertion about Mary among women.
+**Target and explanation:** The two **wǣre** clauses report what the angel said; **hēo** is the filled person, while **God** is the subject of the second reported clause. Keep the postposed **hiere mid** as required. **Godes giefe** is the supplied grace/gift expression, not an independently inferred extension of an earlier gift gloss. The final **hēo wæs blētsod** is the separate assertion about Mary among women. The complete supplied **betwēox wīfum** gives the dative plural complement; independent recall of this government is not assessed.
 
 ### Cook 40.2
 
@@ -972,7 +972,7 @@ Sęle ūs tōdæg ūrne dæghwāmlīcan hlāf; and forgief ūs ūre gyltas, swā
 
 **Cook's prompt:** Give (sęllan) us to-day our daily (dæghwāmlīc, 55) bread; and forgive (forgiefan) us our debts (gylt, 43), as we forgive (164) our debtors (gyltend, 43. 6).
 
-**Target and explanation:** **Sęle** and **forgief** are singular commands, addressed to God; **ūs** is dative. The daily bread is accusative **ūrne dæghwāmlīcan hlāf**, using the indicated weak adjective choice. **Gyltas** are the debts, but **gyltendum** are the dative debtors forgiven in the comparison clause. **Wē … forgiefað** is first-plural assertion. Exchanging debts and debtors changes both participants and government.
+**Target and explanation:** **Sęle** and **forgief** are singular commands, addressed to God; **ūs** is dative. The daily bread is accusative **ūrne dæghwāmlīcan hlāf**. This model chooses a weak adjective after the possessive; strong **ūrne dæghwāmlīcne hlāf** is also valid and meets the prompt, which specifies neither choice. **Gyltas** are the debts, but **gyltendum** are the dative debtors forgiven in the comparison clause. **Wē … forgiefað** is first-plural assertion. Exchanging debts and debtors changes both participants and government.
 
 ### Cook 41.9
 
@@ -1084,7 +1084,7 @@ And ealle ęnglas stōdon on ymbhwyrfte his ðrymsetles and Gode āluton, ðus c
 
 **Cook's prompt:** And all (om. the) angels stood round about [in circuit of] his throne, and bowed (ālūtan, 103) to God, thus saying,
 
-**Target and explanation:** The angels stand in the circuit of the throne and bow to dative **Gode**. **Āluton** is the plural strong preterite of the intransitive bow verb, not the transitive bend verb used in 42.8. **Ðus cweðende** accompanies their actions and introduces the following speech. It is a participle, not an additional finite verb with its own tense.
+**Target and explanation:** The angels stand in the circuit of the throne and bow to dative **Gode**. **Āluton** is the plural strong preterite of the intransitive bow verb, not the transitive bend verb used in 42.8. The complete supplied **ðus cweðende** accompanies their actions and introduces the following speech. It is a participle, not an additional finite verb with its own tense. Its accompanying-speech construction is not an independent recall target.
 
 ### Cook 42.6
 
@@ -1120,7 +1120,7 @@ Foxas habbað holu, and heofones fuglas nest; sōðlice Mannes Sunu næfð hwǣr
 
 **Cook's prompt:** The soldiers platted (windan, 104) (om. a) crown of (of) thorns (ðorn, 43), and placed on (172) his head, and a reed (hrēod, 47) in his right (om. hand), and bowed their knee before him, thus saying, Hale be thou, King of the Jews (Iudea).
 
-**Target and explanation:** The soldiers plait, place, and bend their knee; keep each action and the shared crown object where the English omits repetition. **Of ðornum** gives material; **on his hēafod** is the placement goal. The supplied **on his swīðran** names his right hand without restoring the omitted noun. **Hiera cnēo** retains the singular knee in the prompt. The final salute addresses one man as King of the Jews; it is the soldiers' speech, not the narrator's approval.
+**Target and explanation:** The soldiers plait, place, and bend their knee; keep each action and the shared crown object where the English omits repetition. **Of ðornum** gives material; **on his hēafod** is the placement goal. The supplied **on his swīðran** names his right hand without restoring the omitted noun. **Hiera cnēo** retains the singular knee in the prompt. The complete supplied **ðus cweðende** accompanies the soldiers' actions and introduces their words; independent recall of that construction is not assessed. The final salute addresses one man as King of the Jews; it is the soldiers' speech, not the narrator's approval.
 
 ### Cook 42.9
 
@@ -1206,7 +1206,7 @@ Hē dyde yfele, for-ðon-ðe hē tǣlde ðā cwēn, ðæs cyninges dohtor.
 
 **Cook's prompt:** He did ill, because he censured the princess, the king’s daughter.
 
-**Target and explanation:** Both **dyde** and **tǣlde** are past singular, connected causally. **Ðā cwēn** is the selected endingless accusative with the specifically supplied princess sense. **Ðæs cyninges dohtor** identifies that princess in apposition. Rendering her merely as a queen would lose the contextual sense even though the headword can bear it elsewhere.
+**Target and explanation:** Both **dyde** and **tǣlde** are past singular, connected causally. **Ðā cwēn** is the selected endingless accusative with the specifically taught princess sense. **Ðæs cyninges dohtor** identifies that princess in apposition. Rendering her merely as a queen would lose the contextual sense even though the headword can bear it elsewhere.
 
 ### Cook 43.7
 
@@ -1290,7 +1290,7 @@ Binnan fēawum tīdum cōmon twēgen gelǣrede and æðelborene męnn him tōgē
 
 **Cook's prompt:** Within a few hours, two educated and high-born men came toward him.
 
-**Target and explanation:** **Binnan fēawum tīdum** supplies the temporal limit. **Twēgen** agrees with masculine **męnn**; both **gelǣrede** and **æðelborene** are plural descriptions of those men. Gelǣrede is the already taught lexical adjective educated/trained. **Him tōgēanes** expresses motion toward him, not merely a static nearby position. Keep both education and birth.
+**Target and explanation:** **Binnan fēawum tīdum** supplies the temporal limit. **Twēgen** agrees with masculine **męnn**; both **gelǣrede** and **æðelborene** are plural descriptions of those men. Gelǣrede is the already taught lexical adjective educated/trained. The complete supplied **him tōgēanes** expresses motion toward him, with a dative complement before the preposition; independent recall of this construction is not assessed. Keep both education and birth.
 
 ### Cook 43.14
 
@@ -1314,7 +1314,7 @@ Wē ealle sęcgað ðæt nān mann hēr Gode swā gecwēme sīe swā hē.
 
 **Cook's prompt:** We all say that no one here is (194. b) so acceptable to God as he.
 
-**Target and explanation:** **Wē ealle** are the plural speakers. Within their report, **nān mann** is singular and **sīe** is present subjunctive third singular, as the source reference directs. **Gode** belongs to the supplied acceptable-to frame; **swā … swā hē** preserves the degree comparison with him. The subjunctive reports their judgment without proving that it is false; the negative stays inside the reported clause.
+**Target and explanation:** **Wē ealle** are the plural speakers. Within their report, **nān mann** is singular and **sīe** is present subjunctive third singular, as the source reference directs. The complete supplied **Gode swā gecwēme** gives dative **Gode**, the person to whom acceptable; independent recall of that adjective's government is not assessed. **Swā … swā hē** preserves the degree comparison with him. The subjunctive reports their judgment without proving that it is false; the negative stays inside the reported clause. **Nān** supplies negation here; the earlier negative-concord pattern with **ne sīe** is also valid.
 
 ### Cook 43.16
 

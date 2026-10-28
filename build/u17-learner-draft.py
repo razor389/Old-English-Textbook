@@ -123,7 +123,7 @@ NOUN_NOTES = {
 
 VERB_NOTES = {
     'herian': 'This weak verb follows the nęrian type. The present has hęrie, hęrest and hęreð, with -i- in plural hęriað. The preterite stem is hęred-. The command is singular hęre, plural hęriað; the present subjunctive is singular hęrie, plural hęrien. Thus hęriað can be a statement or a command, whereas hęrien expresses a plural wish in the praise exercise.',
-    'gecwethan': 'The present second and third singular have i. The preterite contrasts singular æ with ǣ in the second singular and plural, and changes ð to d. Retain the lexical prefix ge-.',
+    'gecwethan': 'The present second and third singular have i. In the preterite, first and third singular gecwæð retain æ and ð; second singular gecwǣde and plural gecwǣdon have ǣ and d. Retain the lexical prefix ge-.',
     'up-ahebban': 'The present stem has doubled bb, but the second and third singular are ūpāhęfst and ūpāhęfð. The preterite has hōf and the past participle hafen, with ūpā- retained. Raising can be physical or, in the explicitly taught exaltation sense, an increase in standing.',
     'oferwyrcean': 'The selected present uses -ean and plural -eað. The weak preterite has worht-. Retain ofer- throughout. The thing overlaid is accusative; the covering material follows mid with the dative.',
     'gesettan': 'Retain tt before a vowel. The selected present second singular has -tst and third singular -tt. The weak dental preterite merges with the final t; it does not add a separate -tde sequence.',
@@ -206,7 +206,7 @@ def source_markers(t, support=None):
 CONTROL_NOTES = {
     '37.5': '“Praise they” calls for a third-person wish with an expressed subject. Cook’s page 190, line 19 begins the said/made example; commanded/created follows on line 20. Use the passive auxiliary with the appropriate predicate participles.',
     '37.6': 'Omit a separate word for hath. In the final coordinated predicate, the decree is the understood subject; God is not the thing that passes away. The supplied present gewīt has future reference.',
-    '37.8': 'The storm fulfils his word. Keep that meaning of dōn distinct from a general act of making.',
+    '37.8': 'The spirits of the storms fulfil his word; keep this fulfilment sense of dōn distinct from a general act of making.',
     '37.9': 'The described trees are addressed directly; use the weak plural adjective form. The quantifier all keeps its own agreement.',
     '37.10': '“(Wild) beasts” specifies the intended animal sense. The winged birds are directly addressed and take a weak plural adjective.',
     '37.12': 'Omit men but retain the people meant by young and old. Their weak masculine plural adjectives carry the direct address.',
@@ -220,14 +220,14 @@ CONTROL_NOTES = {
     '39.1': 'Use the relative particle for “which”. In the that-clause, omit a separate mightest and express the intended purpose with the subjunctive.',
     '39.2': 'Cook §154.c concerns a genitive after a higher numeral; §154.a concerns quantity plus genitive. Both complete quantity expressions are supplied below. Omit the marked indefinite articles.',
     '39.3': 'The requested thing is genitive with giernan; æt with the dative marks the person asked. Keep the main object’s role separate from that of the relative clause.',
-    '39.4': 'The bracket replaces the infinitive “to see” with a purpose clause, “that they might see”; use the appropriate subjunctive. The rank comparison after ofer is dative as Cook §166 directs.',
+    '39.4': 'The bracket replaces the infinitive “to see” with the finite clause “that they might see”, expressing what all nations desired. This desired-content clause takes the subjunctive (Cook §194.b). The rank comparison after ofer is dative as Cook §166 directs.',
     '39.6': 'Cook §164.m calls for the dative thing resisted. The received reward is also dative in the selected onfōn frame. Under §153.e the work is a genitive dependent on reward, expressing its grounds.',
     '39.7': 'Cook §183 calls for negative concord. Keep the subjects eye, ear and heart distinct; the first mæg can govern all three following infinitives. Ēare is singular weak neuter (§53.2). The beneficiaries are dative without a separate for.',
     '40.1': 'Cook §194.b calls for the subjunctive in the reported content. Use the bracketed gift meaning and put the specified preposition after its complement; its government is unchanged.',
     '40.2': 'Omit separate hath and doth. The supplied rejoice-in expression gives on its local relation to the source of joy.',
     '40.3': 'The plural generations are the subject of call. The first-person object has its own agreeing feminine predicate adjective.',
     '40.5': 'Cook §161 marks the dative beneficiaries. Omit on those, but retain the people through the participle. Their fearing still takes accusative him. The generation-to-generation expression is supplied as a whole.',
-    '40.6': 'The mighty and the humble are weak masculine plural adjectives naming people. Omit the marked their without deleting the seats.',
+    '40.6': 'The mighty and the humble are weak masculine plural adjectives naming people. Omit the marked their without deleting the seat.',
     '40.7': 'The hungry and the rich name people without added ones. Good things uses the familiar plural noun for goods; omit a separate things.',
     '41.4': 'Cook §183 calls for negative concord. Retain the specified negative relation through both parts of the sentence.',
     '41.5': 'Use plural commands. The supplied impersonal passive expressions take dative addressees; do not insert the omitted it shall.',
@@ -325,7 +325,9 @@ def task(tid):
         for s in t.get('local_support',[]):
             source_markers(t,s)
             exact = s.get('exact_help_text',s.get('exact_span',''))
-            if s.get('feature_id') == 'U17-H-41-05':
+            if s.get('amendment_id') == 'U17-A02':
+                explanation = s['meaning_and_analysis']
+            elif s.get('feature_id') == 'U17-H-41-05':
                 explanation = ('It will be opened to you.' if 'geopenod' in exact else 'It will be given to you.')+' The addressees are dative plural; singular bið has future reference in this supplied impersonal passive.'
             elif s.get('feature_id') in SUPPORT_NOTES:
                 explanation = SUPPORT_NOTES[s['feature_id']]

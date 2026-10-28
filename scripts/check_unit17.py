@@ -167,6 +167,22 @@ def main():
         sequence(s,tid)
         require({t['form_id'] for t in s['tokens']}<=set(tasks[tid]['required_output_form_ids']),tid+': model output forms absent')
         require({t['sense_id'] for t in s['tokens']}<=set(tasks[tid]['required_output_sense_ids']),tid+': model output senses absent')
+        current=tasks[tid].get('assessed_output_tokens')
+        if current is not None:
+            require(len(current)==len(s['tokens']),tid+': amended output length changed')
+            position=tasks[tid]['output_positions'][0]
+            supports={h['support_id']:h for h in tasks[tid]['local_support']}
+            for original,token in zip(s['tokens'],current):
+                for field in ['token_index','literal','surface','lemma_id','form_id','sense_id','analysis']:
+                    require(token.get(field)==original.get(field),tid+': amended output changed original '+field)
+                for kind,field in [('form','reference_output_positions'),('sense','reference_sense_output_positions')]:
+                    require((token[kind+'_assessment_role']=='visible_reference_position')==(token['token_index'] in position[field]),tid+': output reference role differs')
+                if token.get('amendment_id')=='U17-A02':
+                    route=token.get('local_support_id')
+                    require(route in supports and route in token.get('reference_route_ids',[]),tid+': amended output lacks direct support')
+                    if route in supports:require(token['token_index'] in supports[route]['output_token_positions_one_based'],tid+': support position differs')
+                    if surf(token['literal'])=='cweðende':
+                        require(all(token.get('contextual_analysis',{}).get(k)==v for k,v in [('case','nom'),('number','pl'),('gender','m')]),tid+': accompanying participle context must be plural')
     dispositions={}
     for n in range(1,18):
         chapter=c if n==17 else read(f'chapters/ch{n:02}/coverage.json')

@@ -1,17 +1,29 @@
-Unit 17 independent paradigm review — actual masters checked; repairs pending
+Unit 17 independent paradigm review — accepted
 
-**Acceptance is pending five verified wording repairs.** Reviewer: `unit17_paradigms`. The coordinator explicitly unlocked completed learner and key drafts at `259b14f` under `oec-u17-paradigms`. This reviewer has no current author role and is not the blind solver. The independent blind witness has not been consulted, and these findings have not been disclosed to that reviewer before their unlock.
+**The final learner and key text are accepted.** Reviewer: `unit17_paradigms`, an independent non-author. All **110 systems, 124 actual matrices and 1,234 logical cell routes** were checked against personally inspected primary evidence and independently entered expected forms. There are no form, quantity, stem, ending, header, row or route mismatches and no material open findings. The full learner and key were read; every subsequent changed passage was reread against the final actual files.
 
-All 110 systems, 124 actual Markdown matrices and 1,234 logical cell routes were checked against independently source-derived forms. Every actual surface, header and row agrees; there are no cell, stem, quantity, ending or route mismatches. The learner master was read completely, including every diagnostic rule, scope statement, exercise help and reading note. All key models and analyses were read. Correct table cells do not excuse the explanatory findings below.
+The companion JSON contains all110 per-paradigm checks and all1234 route checks, plus **116 personally viewed image-file receipts** with actual paths, raw SHA-256 values and concrete observations. The original104-image source stage and later115-image stage remain recoverable in [the source-stage JSON](../../../build/u17-paradigms-source-stage.json), [its narrative](../../../build/u17-paradigms-source-stage.md), [the pre-acceptance JSON](../../../build/u17-paradigms-preacceptance.json) and [its narrative](../../../build/u17-paradigms-preacceptance.md). This review is not a claim of blind solving: the contract exposed models. The separate blind witness was frozen at `ed28a8e` before review comparison was unlocked.
 
-The source stage's 104 personally viewed page-image receipts, concrete observations, source hashes, prior-contract reads and register checks remain in the companion JSON. The original source-stage records are preserved unchanged in [the JSON snapshot](../../../build/u17-paradigms-source-stage.json) and [the narrative snapshot](../../../build/u17-paradigms-source-stage.md). Their original no-master-access status describes that earlier stage only. The actual matrix comparison receipt is [u17-paradigms-master-check.json](../../../build/u17-paradigms-master-check.json).
+All original findings retain their details and are now resolved:
 
-The pending findings are:
+- **P17-01:** the **gecweðan** diagnostic explicitly distinguishes first/third singular **gecwæð** from second singular **gecwǣde** and plural **gecwǣdon**.
+- **P17-02:** the key correctly calls the newly productive **mægen** “powers” and **cwēn** “princess” senses **taught**, while preserving the separate local hint boundary.
+- **P17-03:** 39.4 is correctly explained as desired content under a verb of desire, with the selected subjunctive.
+- **P17-04:** 37.8 retains the plural **spirits of the storms** as subject.
+- **P17-05:** 40.6 retains singular **seat**.
 
-1. **P17-01 — material:** learner line 1544 overgeneralizes **gecweðan**'s preterite **ð/d** alternation. State explicitly that first/third singular **gecwæð** retains **æ/ð**, while second singular **gecwǣde** and plural **gecwǣdon** have **ǣ/d**. Cook §106 on printed page 63 supplies the distinction. The actual table is correct, and the canonical diagnostic's “grammatical ð/d alternation” does not make the overbroad claim.
-2. **P17-02 — material:** key lines 399 and 1209 call the **mægen** “powers” and **cwēn** “princess” senses supplied. Both are explicitly taught for production; use **taught**. The original 37.2 hint still supplies its lexical meaning locally, and that task correctly does not assess independent recall of the hinted meaning. Keep the global teaching status distinct from local hint support.
-3. **P17-03 — material:** learner line 3291 calls 39.4's finite desired-content clause a purpose clause. It expresses what they desired, under **gewilnodon**, as in Cook §194(b); the key already correctly describes it as content. Clarify the learner sentence while retaining the subjunctive.
-4. **P17-04 — material:** learner line 2875 makes “the storm” the singular actor in 37.8. The prompt's actors are **the spirits of the storms**, and the correct key uses plural **dōð**. Preserve that plural subject in the help.
-5. **P17-05 — minor:** learner line 3459 says “without deleting the seats.” The 40.6 prompt has singular **seat**, and the model correctly has **of setle**. Change **seats** to **seat**.
+The first revisions of P17-03 and P17-04 inadvertently printed the finite answers **gewilnodon** and **dōð** in task help while their forms remained independently assessed. This reviewer flagged both, and reread the final removal of those surfaces. The grammatical explanations remain correct without changing the intended assessment boundary.
 
-The coordinator agreed P17-01 through P17-04 and has P17-05 for the same repair batch. No paradigm cell, key model, assignment or contract content needs changing for these findings. Author edits are held until the blind witness is frozen. Final acceptance will identify the actual repaired master hashes and the contract semantic identity only after this reviewer rereads the repairs. Exported-page inspection remains a separate later gate.
+**U17-A02** now supplies four constructions in five tasks: **betwēox wīfum** at40.1, **ðus cweðende** at42.5/8, **him tōgēanes** at43.13 and the contiguous model span **Gode swā gecwēme** at43.15. Actual learner help, key explanations, exact input tokens, all reference positions and supplied-only feature scope agree. All22 affected input/output tokens have direct reference routes. The current **cweðende** context is explicitly nominative masculine plural; the inherited singular source analysis is preserved as historical data. No old productive milestone or model was changed. The direct evidence and bounded source applications are recorded in [the support report](../../../build/u17-paradigms-support-review.json); [the amendment check](../../../build/u17-paradigms-amendment-check.json) passes all five task bindings.
+
+The key's additional alternatives were verified independently. Cook §55 permits both the chosen weak **dæghwāmlīcan** and strong **dæghwāmlīcne** after the possessive in41.8; the original prompt mandates neither. Bosworth–Toller709, **nān** I(a)/(b), supports both the unchanged negative expression in43.15 and the optional **ne sīe** concord alternative.
+
+Accepted artifact identities (raw and normalized-LF hashes are identical for both masters):
+
+| Artifact | SHA-256 |
+| --- | --- |
+| student.md | `f387f880e0423dd8c6adddf9765cba7b05d10bbe3850fc8593045fcfeec9d05a` |
+| answer-key.md | `c6710364dde62f50c01f7bfeab57fd6ed813dddaa13d6860cfd55e75b5b2a81d` |
+| Contract semantic identity | `402ff55c715545d88c23663d77ccb1963d24d0dc072acf566c1b31b25d39fc28` |
+
+The semantic identity uses exactly the mutable-field exclusions defined in `build/accept_unit17_text.py`; that coordinator helper was read, never executed by this reviewer. The final actual-display receipt is [here](../../../build/u17-paradigms-master-check.json), and the reread master diff is [here](../../../build/u17-paradigms-final-master-diff.patch). Rendered-page inspection and active-register integration remain separate gates.

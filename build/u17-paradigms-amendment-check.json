@@ -1,0 +1,238 @@
+{
+  "reviewer": "unit17_paradigms",
+  "status": "contract_amendment_checks_passed",
+  "amendment_id": "U17-A02",
+  "reviewed_contract_identity": {
+    "path": "chapters/ch17/coverage.json",
+    "raw_sha256": "c950af9623d38584c23730bc6c7ae1d4fc685fcc22015bf6ae0e47e0fb405056",
+    "normalized_lf_sha256": "c950af9623d38584c23730bc6c7ae1d4fc685fcc22015bf6ae0e47e0fb405056"
+  },
+  "reviewed_specification_identity": {
+    "path": "chapters/ch17/support-amendment-spec.json",
+    "raw_sha256": "2c0715bfc881d876d93e31d7bb69be6958f622ae48a8e0b5624c4f27d4335b67",
+    "normalized_lf_sha256": "2c0715bfc881d876d93e31d7bb69be6958f622ae48a8e0b5624c4f27d4335b67"
+  },
+  "reviewed_history_identity": {
+    "path": "chapters/ch17/support-amendment-history.json",
+    "raw_sha256": "7c78e0e74ef384719ca69e0d1e01383e41ff6abff82817c1a78e440c3a2d5064",
+    "normalized_lf_sha256": "7c78e0e74ef384719ca69e0d1e01383e41ff6abff82817c1a78e440c3a2d5064"
+  },
+  "base_checkpoint": "ed28a8e",
+  "base_contract_raw_sha256": "cd41872f59da02d616db32b5371e034e5334adb067f997e69b9554060be6adbc",
+  "system_cell_and_matrix_content_preserved": true,
+  "prior_teaching_and_lexical_inventory_preserved": true,
+  "source_evidence_review": "build/u17-paradigms-support-review.json",
+  "task_binding_checks": [
+    {
+      "task_id": "EX-XII-XIII-40-01",
+      "feature_id": "u17-supplied-betweox-dative",
+      "support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024",
+      "exact_phrase": "betwēox wīfum",
+      "positions": [
+        24,
+        25
+      ],
+      "token_checks": [
+        {
+          "position": 24,
+          "surface": "betwēox",
+          "form_id": "betweox-u17-invariant",
+          "sense_id": "betweox-u17-local-sense",
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024"
+        },
+        {
+          "position": 25,
+          "surface": "wīfum",
+          "form_id": "wif-dat-pl",
+          "sense_id": "wif-woman",
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "pl"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024"
+        }
+      ],
+      "unchanged_model_text": "Se ęngel grētte Marian and sægde ðæt hēo mid Godes giefe āfylled wǣre, and ðæt God wǣre hiere mid; and hēo wæs blētsod betwēox wīfum.",
+      "source_prompt_and_controls_preserved": true
+    },
+    {
+      "task_id": "EX-XII-XIII-42-05",
+      "feature_id": "u17-supplied-accompanying-speech",
+      "support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+      "exact_phrase": "ðus cweðende",
+      "positions": [
+        12,
+        13
+      ],
+      "token_checks": [
+        {
+          "position": 12,
+          "surface": "ðus",
+          "form_id": "thus-invariant-source",
+          "sense_id": "thus-thus-source",
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+        },
+        {
+          "position": 13,
+          "surface": "cweðende",
+          "form_id": "cwethan-present-participle-source",
+          "sense_id": "cwethan-1",
+          "contextual_analysis": {
+            "verb_form": "present_participle",
+            "case": "nom",
+            "number": "pl",
+            "gender": "m",
+            "function": "accompanying speech by the plural angels or soldiers"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+        }
+      ],
+      "unchanged_model_text": "And ealle ęnglas stōdon on ymbhwyrfte his ðrymsetles and Gode āluton, ðus cweðende:",
+      "source_prompt_and_controls_preserved": true
+    },
+    {
+      "task_id": "EX-XII-XIII-42-08",
+      "feature_id": "u17-supplied-accompanying-speech",
+      "support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+      "exact_phrase": "ðus cweðende",
+      "positions": [
+        23,
+        24
+      ],
+      "token_checks": [
+        {
+          "position": 23,
+          "surface": "ðus",
+          "form_id": "thus-invariant-source",
+          "sense_id": "thus-thus-source",
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+        },
+        {
+          "position": 24,
+          "surface": "cweðende",
+          "form_id": "cwethan-present-participle-source",
+          "sense_id": "cwethan-1",
+          "contextual_analysis": {
+            "verb_form": "present_participle",
+            "case": "nom",
+            "number": "pl",
+            "gender": "m",
+            "function": "accompanying speech by the plural angels or soldiers"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+        }
+      ],
+      "unchanged_model_text": "Ðā cęmpan wundon cynehelm of ðornum and sętton on his hēafod and hrēod on his swīðran, and bīegdon hiera cnēo beforan him, ðus cweðende: Hāl bēo ðū, Iudea cyning!",
+      "source_prompt_and_controls_preserved": true
+    },
+    {
+      "task_id": "EX-XII-XIII-43-13",
+      "feature_id": "u17-supplied-togeanes-dative",
+      "support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011",
+      "exact_phrase": "him tōgēanes",
+      "positions": [
+        10,
+        11
+      ],
+      "token_checks": [
+        {
+          "position": 10,
+          "surface": "him",
+          "form_id": "he-m-dat-sg",
+          "sense_id": "he-1",
+          "contextual_analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "dative"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011"
+        },
+        {
+          "position": 11,
+          "surface": "tōgēanes",
+          "form_id": "togeanes-u17-invariant",
+          "sense_id": "togeanes-u17-local-sense",
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011"
+        }
+      ],
+      "unchanged_model_text": "Binnan fēawum tīdum cōmon twēgen gelǣrede and æðelborene męnn him tōgēanes.",
+      "source_prompt_and_controls_preserved": true
+    },
+    {
+      "task_id": "EX-XII-XIII-43-15",
+      "feature_id": "u17-supplied-gecweme-dative",
+      "support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
+      "exact_phrase": "Gode swā gecwēme",
+      "positions": [
+        8,
+        9,
+        10
+      ],
+      "token_checks": [
+        {
+          "position": 8,
+          "surface": "Gode",
+          "form_id": "god-dat-sg",
+          "sense_id": "god-1",
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "sg"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+        },
+        {
+          "position": 9,
+          "surface": "swā",
+          "form_id": "swa-invariant",
+          "sense_id": "swa-equative-degree",
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+        },
+        {
+          "position": 10,
+          "surface": "gecwēme",
+          "form_id": "gecweme-u17-nom-m-sg",
+          "sense_id": "gecweme-u17-local-sense",
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m",
+            "strength": "strong",
+            "degree": "positive"
+          },
+          "input_and_output_reference_only": true,
+          "local_support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+        }
+      ],
+      "unchanged_model_text": "Wē ealle sęcgað ðæt nān mann hēr Gode swā gecwēme sīe swā hē.",
+      "source_prompt_and_controls_preserved": true
+    }
+  ],
+  "findings": [],
+  "acceptance_limit": "This checks the actual amended contract. Final learner/key acceptance still requires the coordinator final-master-ready message and actual repaired-master reread."
+}

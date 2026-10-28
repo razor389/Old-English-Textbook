@@ -27,6 +27,100 @@
       ],
       "contract_raw_sha256_before": "c5936ec572048ccf2fbd75dc84fdca0ea85e389a411d4cb3b64e5083f6aef224",
       "review_status": "requires_independent_verification"
+    },
+    {
+      "amendment_id": "U17-A02",
+      "date": "2026-10-28",
+      "stage": "independent_review",
+      "original_contract_checkpoint": "6fc6fc1",
+      "complete_drafts_checkpoint": "259b14f",
+      "independent_solutions_checkpoint": "ed28a8e",
+      "coordinator": "root",
+      "reported_by": "unit17_blind",
+      "findings": [
+        "B17-01",
+        "B17-02",
+        "B17-03",
+        "B17-04"
+      ],
+      "reason": "Four unfamiliar constructions were not fully supplied in learner help and task bindings. Supply complete phrases with their case/role, retaining all source prompts and model text.",
+      "specification": "chapters/ch17/support-amendment-spec.json",
+      "history": "chapters/ch17/support-amendment-history.json",
+      "changes": [
+        {
+          "task_id": "EX-XII-XIII-40-01",
+          "feature_id": "u17-supplied-betweox-dative",
+          "support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024",
+          "exact_help_text": "betwēox wīfum",
+          "reference_positions": [
+            24,
+            25
+          ],
+          "meaning_and_analysis": "Among women. Wīfum is dative plural after betwēox in this expression. Keep the whole phrase available; its government is supplied here."
+        },
+        {
+          "task_id": "EX-XII-XIII-42-05",
+          "feature_id": "u17-supplied-accompanying-speech",
+          "support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "exact_help_text": "ðus cweðende",
+          "reference_positions": [
+            12,
+            13
+          ],
+          "meaning_and_analysis": "Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available."
+        },
+        {
+          "task_id": "EX-XII-XIII-42-08",
+          "feature_id": "u17-supplied-accompanying-speech",
+          "support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "exact_help_text": "ðus cweðende",
+          "reference_positions": [
+            23,
+            24
+          ],
+          "meaning_and_analysis": "Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available."
+        },
+        {
+          "task_id": "EX-XII-XIII-43-13",
+          "feature_id": "u17-supplied-togeanes-dative",
+          "support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011",
+          "exact_help_text": "him tōgēanes",
+          "reference_positions": [
+            10,
+            11
+          ],
+          "meaning_and_analysis": "Toward him; to meet him. Him is the dative complement, with tōgēanes placed after it. Keep the whole expression available."
+        },
+        {
+          "task_id": "EX-XII-XIII-43-15",
+          "feature_id": "u17-supplied-gecweme-dative",
+          "support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
+          "exact_help_text": "Gode swā gecwēme",
+          "reference_positions": [
+            8,
+            9,
+            10
+          ],
+          "meaning_and_analysis": "So acceptable to God. Gode is dative, naming the person to whom acceptable; gecwēme is the strong masculine nominative singular predicate adjective. The degree word swā stands between them. Keep the whole expression available."
+        }
+      ],
+      "contract_raw_sha256_before": "cd41872f59da02d616db32b5371e034e5334adb067f997e69b9554060be6adbc",
+      "unchanged": [
+        "All source prompts and models",
+        "All 110 systems / 1234 cells",
+        "Reading and original notes",
+        "Frozen blind witness",
+        "Sealed source/proposal packets",
+        "Earlier chapters and all prior register milestones"
+      ],
+      "review_status": "requires_independent_verification",
+      "verification_refinements": [
+        {
+          "record": "chapters/ch17/support-amendment-history.json#verification_refinements",
+          "reason": "Explicit plural occurrence analysis for accompanying cweðende and direct support-route links for each newly supplied token. Preserve original form analysis and all surfaces.",
+          "reported_by": "unit17_paradigms"
+        }
+      ]
     }
   ],
   "counts": {
@@ -37,7 +131,7 @@
     "original_tasks": 21,
     "bound_original_oe_outputs": 23,
     "reading_translation_divisions": 3,
-    "key_whitespace_words": 13253
+    "key_whitespace_words": 13364
   },
   "checks": [
     "One distinct key marker per task and output marker per requested response.",
@@ -48,8 +142,8 @@
     "NFC and endnote reference checked."
   ],
   "hashes": {
-    "chapters/ch17/coverage.json": "cd41872f59da02d616db32b5371e034e5334adb067f997e69b9554060be6adbc",
-    "chapters/ch17/answer-key.md": "337bc8aaf7967d02ad395818827d370943ebf0938a3dbfeca90cee058f0c6f96",
+    "chapters/ch17/coverage.json": "c950af9623d38584c23730bc6c7ae1d4fc685fcc22015bf6ae0e47e0fb405056",
+    "chapters/ch17/answer-key.md": "c6710364dde62f50c01f7bfeab57fd6ed813dddaa13d6860cfd55e75b5b2a81d",
     "chapters/ch17/key-author-reading-translation-witness.md": "5f1b3c82ede9fdf13df839f9d529a18d83c587e76f117e705519a70a1772e549"
   },
   "scope_limit": "This validates author coverage/identity, not linguistic correctness or the unfinished learner draft. Root runs the full check_unit17.py --draft once both manuscripts are ready; final PDF inspection remains required."

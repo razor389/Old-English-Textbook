@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch17",
   "title": "Connected exposition, praise and figurative language",
-  "status": "contracted_before_prose",
+  "status": "text_accepted_exports_pending",
   "contract_date": "2026-10-28",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -5960,8 +5960,8 @@
     "literal_cells": 1234,
     "identity_aliases": 0,
     "identity_issues": 0,
-    "features": 60,
-    "teaching_records": 419,
+    "features": 64,
+    "teaching_records": 420,
     "tasks": 103,
     "requested_output_positions": 146,
     "source_words": 252,
@@ -161519,7 +161519,8 @@
             "betweox-u17-invariant",
             "bletsian-u17-hint-reference-ad1e3c9f",
             "giefu-u17-dat-sg-grace",
-            "maria-name-u17-acc-sg"
+            "maria-name-u17-acc-sg",
+            "wif-dat-pl"
           ],
           "required_output_form_ids": [
             "afyllan-u17-past-participle",
@@ -161580,22 +161581,23 @@
             "secgan-pret-3-sg",
             "thaet-conjunction-invariant",
             "wesan-pret-3-sg",
-            "wesan-preterite-subj-3-sg",
-            "wif-dat-pl"
+            "wesan-preterite-subj-3-sg"
           ],
           "supplied_form_ids": [
             "afyllan-u17-hint-reference-b94034e2",
             "betweox-u17-invariant",
             "bletsian-u17-hint-reference-ad1e3c9f",
             "giefu-u17-dat-sg-grace",
-            "maria-name-u17-acc-sg"
+            "maria-name-u17-acc-sg",
+            "wif-dat-pl"
           ],
           "required_input_sense_ids": [
             "afyllan-u17-selected",
             "betweox-u17-local-sense",
             "bletsian-u17-bless",
             "giefu-u17-grace",
-            "maria-name-u15-source-sense"
+            "maria-name-u15-source-sense",
+            "wif-woman"
           ],
           "required_output_sense_ids": [
             "afyllan-u17-selected",
@@ -161646,22 +161648,23 @@
             "se-the",
             "secgan-content",
             "thaet-conjunction-1",
-            "wesan-be",
-            "wif-woman"
+            "wesan-be"
           ],
           "supplied_sense_ids": [
             "afyllan-u17-selected",
             "betweox-u17-local-sense",
             "bletsian-u17-bless",
             "giefu-u17-grace",
-            "maria-name-u15-source-sense"
+            "maria-name-u15-source-sense",
+            "wif-woman"
           ],
           "required_feature_ids": [
             "u03-possessive-agreement",
             "u03-possessor-reference",
             "u09-content-that",
             "u12-reported-sequence",
-            "u17-filling-material"
+            "u17-filling-material",
+            "u17-supplied-betweox-dative"
           ],
           "tested_feature_ids": [
             "u03-possessive-agreement",
@@ -161670,18 +161673,22 @@
             "u12-reported-sequence",
             "u17-filling-material"
           ],
-          "supplied_feature_ids": [],
+          "supplied_feature_ids": [
+            "u17-supplied-betweox-dative"
+          ],
           "reference_output_positions": [
             4,
             11,
-            24
+            24,
+            25
           ],
           "reference_sense_output_positions": [
             4,
             11,
             12,
             23,
-            24
+            24,
+            25
           ]
         }
       ],
@@ -161815,7 +161822,7 @@
           "sequence_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024",
           "owner_id": "EX-XII-XIII-40-01",
           "kind": "visible_local_support",
-          "text": "betwēox",
+          "text": "betwēox wīfum",
           "tokens": [
             {
               "token_index": 1,
@@ -161834,14 +161841,56 @@
               "sense_status": "supplied",
               "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
               "assessment_role": "visible_reference_position",
-              "source_output_position_one_based": 24,
+              "reference_route_ids": [
+                "EX-XII-XIII-40-01-LEXICAL-HELP-024"
+              ],
               "independent_recall_assessment": false,
               "form_assessment_role": "visible_reference_position",
-              "sense_assessment_role": "visible_reference_position"
+              "sense_reference_route_ids": [
+                "EX-XII-XIII-40-01-LEXICAL-HELP-024"
+              ],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 24,
+              "local_support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024",
+              "amendment_id": "U17-A02"
+            },
+            {
+              "token_index": 2,
+              "literal": "wīfum",
+              "surface": "wīfum",
+              "lemma_id": "wif",
+              "form_id": "wif-dat-pl",
+              "sense_id": "wif-woman",
+              "analysis": {
+                "case": "dat",
+                "number": "pl",
+                "gender": "n"
+              },
+              "contextual_analysis": {
+                "case": "dat",
+                "number": "pl"
+              },
+              "form_status": "previously_taught",
+              "sense_status": "previously_taught",
+              "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+              "assessment_role": "visible_reference_position",
+              "reference_route_ids": [
+                "EX-XII-XIII-40-01-LEXICAL-HELP-024"
+              ],
+              "independent_recall_assessment": false,
+              "form_assessment_role": "visible_reference_position",
+              "sense_reference_route_ids": [],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 25,
+              "local_support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024",
+              "amendment_id": "U17-A02"
             }
           ],
-          "required_feature_ids": [],
-          "independent_recall_assessment": false
+          "required_feature_ids": [
+            "u17-supplied-betweox-dative"
+          ],
+          "independent_recall_assessment": false,
+          "amendment_id": "U17-A02"
         }
       ],
       "input_sequence_ids": [
@@ -161879,7 +161928,8 @@
         "betweox-u17-invariant",
         "bletsian-u17-hint-reference-ad1e3c9f",
         "giefu-u17-dat-sg-grace",
-        "maria-name-u17-acc-sg"
+        "maria-name-u17-acc-sg",
+        "wif-dat-pl"
       ],
       "tested_form_ids": [
         "afyllan-u17-past-participle",
@@ -161896,8 +161946,7 @@
         "secgan-pret-3-sg",
         "thaet-conjunction-invariant",
         "wesan-pret-3-sg",
-        "wesan-preterite-subj-3-sg",
-        "wif-dat-pl"
+        "wesan-preterite-subj-3-sg"
       ],
       "required_sense_ids": [
         "afyllan-u17-selected",
@@ -161923,7 +161972,8 @@
         "betweox-u17-local-sense",
         "bletsian-u17-bless",
         "giefu-u17-grace",
-        "maria-name-u15-source-sense"
+        "maria-name-u15-source-sense",
+        "wif-woman"
       ],
       "tested_sense_ids": [
         "and-1",
@@ -161936,17 +161986,19 @@
         "se-the",
         "secgan-content",
         "thaet-conjunction-1",
-        "wesan-be",
-        "wif-woman"
+        "wesan-be"
       ],
       "required_feature_ids": [
         "u03-possessive-agreement",
         "u03-possessor-reference",
         "u09-content-that",
         "u12-reported-sequence",
-        "u17-filling-material"
+        "u17-filling-material",
+        "u17-supplied-betweox-dative"
       ],
-      "supplied_feature_ids": [],
+      "supplied_feature_ids": [
+        "u17-supplied-betweox-dative"
+      ],
       "tested_feature_ids": [
         "u03-possessive-agreement",
         "u03-possessor-reference",
@@ -161959,7 +162011,8 @@
         "betweox-u17-invariant",
         "bletsian-u17-hint-reference-ad1e3c9f",
         "giefu-u17-dat-sg-grace",
-        "maria-name-u17-acc-sg"
+        "maria-name-u17-acc-sg",
+        "wif-dat-pl"
       ],
       "required_output_form_ids": [
         "afyllan-u17-past-participle",
@@ -161987,7 +162040,8 @@
         "betweox-u17-local-sense",
         "bletsian-u17-bless",
         "giefu-u17-grace",
-        "maria-name-u15-source-sense"
+        "maria-name-u15-source-sense",
+        "wif-woman"
       ],
       "required_output_sense_ids": [
         "afyllan-u17-selected",
@@ -162063,9 +162117,10 @@
         {
           "support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024",
           "output_token_positions_one_based": [
-            24
+            24,
+            25
           ],
-          "exact_help_text": "betwēox",
+          "exact_help_text": "betwēox wīfum",
           "form_id": "betweox-u17-invariant",
           "sense_id": "betweox-u17-local-sense",
           "meaning": "among; between",
@@ -162076,13 +162131,30 @@
           "evidence_refs": [
             "U17-EX-P25",
             "U17-EX-P40",
-            "U17-FB-P278"
+            "U17-FB-P278",
+            "U17P-FB186"
           ],
           "whole_frame_routes": [
             "EX-XII-XIII-40-01-LEXICAL-HELP-024"
           ],
           "independent_recall_assessment": false,
-          "visible_before_and_during_task": true
+          "visible_before_and_during_task": true,
+          "feature_id": "u17-supplied-betweox-dative",
+          "feature_ids": [
+            "u17-supplied-betweox-dative"
+          ],
+          "meaning_and_analysis": "Among women. Wīfum is dative plural after betwēox in this expression. Keep the whole phrase available; its government is supplied here.",
+          "form_ids": [
+            "betweox-u17-invariant",
+            "wif-dat-pl"
+          ],
+          "sense_ids": [
+            "betweox-u17-local-sense",
+            "wif-woman"
+          ],
+          "amendment_id": "U17-A02",
+          "origin_category": "new teaching material",
+          "evidence_application": "Applies the dative betweox frame attested at186.12 to the already taught dative plural wīfum. Selected betwēox quantity follows glossary278; the whole phrase is new teaching support, not a quotation of186.12."
         }
       ],
       "source_control_records": [
@@ -162250,7 +162322,685 @@
         }
       ],
       "source_instructions": [],
-      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction."
+      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction. U17-A02 supplies the complete evidenced local construction and binds every copied position explicitly; existing productive component milestones are unchanged.",
+      "assessed_output_tokens": [
+        {
+          "token_index": 1,
+          "literal": "Se",
+          "surface": "Se",
+          "lemma_id": "se",
+          "form_id": "se-m-nom-sg",
+          "sense_id": "se-the",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "ęngel",
+          "surface": "ęngel",
+          "lemma_id": "engel",
+          "form_id": "engel-nom-sg",
+          "sense_id": "engel-1",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 3,
+          "literal": "grētte",
+          "surface": "grētte",
+          "lemma_id": "gretan",
+          "form_id": "gretan-pret-3-sg",
+          "sense_id": "gretan-take-leave",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "sg"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular",
+            "tense": "preterite"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 4,
+          "literal": "Marian",
+          "surface": "Marian",
+          "lemma_id": "maria-name",
+          "form_id": "maria-name-u17-acc-sg",
+          "sense_id": "maria-name-u15-source-sense",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "foreign_name": true
+          },
+          "contextual_analysis": {
+            "case": "acc",
+            "number": "sg",
+            "foreign_name": true
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-40-01-LEXICAL-HELP-004"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-40-01-LEXICAL-HELP-004"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 5,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 6,
+          "literal": "sægde",
+          "surface": "sægde",
+          "lemma_id": "secgan",
+          "form_id": "secgan-pret-3-sg",
+          "sense_id": "secgan-content",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular",
+            "tense": "preterite"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 7,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "thaet-conjunction",
+          "form_id": "thaet-conjunction-invariant",
+          "sense_id": "thaet-conjunction-1",
+          "analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "contextual_analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 8,
+          "literal": "hēo",
+          "surface": "hēo",
+          "lemma_id": "he",
+          "form_id": "he-f-nom-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "f",
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "f",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 9,
+          "literal": "mid",
+          "surface": "mid",
+          "lemma_id": "mid",
+          "form_id": "mid-invariant-source",
+          "sense_id": "mid-by-means",
+          "analysis": {
+            "source_analysis": "preposition with dative abstract noun; source manner supplied"
+          },
+          "contextual_analysis": {
+            "invariant": true,
+            "function": "preposition"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 10,
+          "literal": "Godes",
+          "surface": "Godes",
+          "lemma_id": "god",
+          "form_id": "god-gen-sg",
+          "sense_id": "god-1",
+          "analysis": {
+            "case": "genitive",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "contextual_analysis": {
+            "case": "gen",
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 11,
+          "literal": "giefe",
+          "surface": "giefe",
+          "lemma_id": "giefu",
+          "form_id": "giefu-u17-dat-sg-grace",
+          "sense_id": "giefu-u17-grace",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "f"
+          },
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "f"
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-40-01-LEXICAL-HELP-011"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-40-01-LEXICAL-HELP-011"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 12,
+          "literal": "āfylled",
+          "surface": "āfylled",
+          "lemma_id": "afyllan",
+          "form_id": "afyllan-u17-past-participle",
+          "sense_id": "afyllan-u17-selected",
+          "analysis": {
+            "verb_form": "participle",
+            "tense": "past",
+            "agreement": "base"
+          },
+          "contextual_analysis": {
+            "verb_form": "past_participle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-40-01-SOURCE-CONTROL-02"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 13,
+          "literal": "wǣre,",
+          "surface": "wǣre",
+          "lemma_id": "wesan",
+          "form_id": "wesan-preterite-subj-3-sg",
+          "sense_id": "wesan-be",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular",
+            "tense": "preterite"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 14,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 15,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "thaet-conjunction",
+          "form_id": "thaet-conjunction-invariant",
+          "sense_id": "thaet-conjunction-1",
+          "analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "contextual_analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 16,
+          "literal": "God",
+          "surface": "God",
+          "lemma_id": "god",
+          "form_id": "god-nom-sg",
+          "sense_id": "god-1",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 17,
+          "literal": "wǣre",
+          "surface": "wǣre",
+          "lemma_id": "wesan",
+          "form_id": "wesan-preterite-subj-3-sg",
+          "sense_id": "wesan-be",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular",
+            "tense": "preterite"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 18,
+          "literal": "hiere",
+          "surface": "hiere",
+          "lemma_id": "he",
+          "form_id": "he-f-dat-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "f",
+            "case": "dative"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "f",
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 19,
+          "literal": "mid;",
+          "surface": "mid",
+          "lemma_id": "mid",
+          "form_id": "mid-invariant-source",
+          "sense_id": "mid-accompaniment-source",
+          "analysis": {
+            "source_analysis": "preposition with dative abstract noun; source manner supplied"
+          },
+          "contextual_analysis": {
+            "invariant": true,
+            "function": "preposition"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 20,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 21,
+          "literal": "hēo",
+          "surface": "hēo",
+          "lemma_id": "he",
+          "form_id": "he-f-nom-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "f",
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "f",
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 22,
+          "literal": "wæs",
+          "surface": "wæs",
+          "lemma_id": "wesan",
+          "form_id": "wesan-pret-3-sg",
+          "sense_id": "wesan-be",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 3,
+            "number": "singular",
+            "tense": "preterite"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 23,
+          "literal": "blētsod",
+          "surface": "blētsod",
+          "lemma_id": "bletsian",
+          "form_id": "bletsian-u17-past-participle",
+          "sense_id": "bletsian-u17-bless",
+          "analysis": {
+            "verb_form": "participle",
+            "tense": "past",
+            "agreement": "base"
+          },
+          "contextual_analysis": {
+            "verb_form": "past_participle"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-40-01-SOURCE-CONTROL-05"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 24,
+          "literal": "betwēox",
+          "surface": "betwēox",
+          "lemma_id": "betweox",
+          "form_id": "betweox-u17-invariant",
+          "sense_id": "betweox-u17-local-sense",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-40-01-LEXICAL-HELP-024"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-40-01-LEXICAL-HELP-024"
+          ],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024",
+          "amendment_id": "U17-A02"
+        },
+        {
+          "token_index": 25,
+          "literal": "wīfum.",
+          "surface": "wīfum",
+          "lemma_id": "wif",
+          "form_id": "wif-dat-pl",
+          "sense_id": "wif-woman",
+          "analysis": {
+            "case": "dat",
+            "number": "pl",
+            "gender": "n"
+          },
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Angel nominative; Mary accusative local name. Two content clauses have feminine she then masculine God as subjects; God's genitive gift is dative material after mid. Hiere is dative companion with postposed mid, not a genitive possessor. Among women takes dative plural women.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-40-01-LEXICAL-HELP-024"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024",
+          "amendment_id": "U17-A02"
+        }
+      ],
+      "assessment_precedence": "U17-A02 canonical task tokens and output reference positions supersede original proposal assessment roles only; the archived model text and lexical identities are unchanged."
     },
     {
       "source_item_id": "EX-XII-XIII-40-02",
@@ -179607,7 +180357,9 @@
           "output_id": "EX-XII-XIII-42-05-O001",
           "output_sequence_id": "EX-XII-XIII-42-05-MODEL",
           "required_input_form_ids": [
-            "alutan-u17-hint-reference-42540608"
+            "alutan-u17-hint-reference-42540608",
+            "cwethan-present-participle-source",
+            "thus-invariant-source"
           ],
           "required_output_form_ids": [
             "alutan-u17-pret-3-pl",
@@ -179641,7 +180393,6 @@
           "tested_form_ids": [
             "alutan-u17-pret-3-pl",
             "and-invariant",
-            "cwethan-present-participle-source",
             "eall-nom-m-pl-strong",
             "engel-nom-pl",
             "god-dat-sg",
@@ -179649,14 +180400,17 @@
             "on-invariant",
             "standan-pret-3-pl",
             "thrymsetl-gen-sg",
-            "thus-invariant-source",
             "ymbhwyrft-dat-sg"
           ],
           "supplied_form_ids": [
-            "alutan-u17-hint-reference-42540608"
+            "alutan-u17-hint-reference-42540608",
+            "cwethan-present-participle-source",
+            "thus-invariant-source"
           ],
           "required_input_sense_ids": [
-            "alutan-u17-selected"
+            "alutan-u17-selected",
+            "cwethan-1",
+            "thus-thus-source"
           ],
           "required_output_sense_ids": [
             "alutan-u17-selected",
@@ -179688,7 +180442,6 @@
           ],
           "tested_sense_ids": [
             "and-1",
-            "cwethan-1",
             "eall-all",
             "engel-1",
             "god-1",
@@ -179696,17 +180449,19 @@
             "on-1",
             "standan-ordinary",
             "thrymsetl-u17-sense",
-            "thus-thus-source",
             "ymbhwyrft-u13-source"
           ],
           "supplied_sense_ids": [
-            "alutan-u17-selected"
+            "alutan-u17-selected",
+            "cwethan-1",
+            "thus-thus-source"
           ],
           "required_feature_ids": [
             "u02-third-person-possessors",
             "u03-adverb-use",
             "u03-possessive-agreement",
-            "u03-possessor-reference"
+            "u03-possessor-reference",
+            "u17-supplied-accompanying-speech"
           ],
           "tested_feature_ids": [
             "u02-third-person-possessors",
@@ -179714,10 +180469,17 @@
             "u03-possessive-agreement",
             "u03-possessor-reference"
           ],
-          "supplied_feature_ids": [],
-          "reference_output_positions": [],
+          "supplied_feature_ids": [
+            "u17-supplied-accompanying-speech"
+          ],
+          "reference_output_positions": [
+            12,
+            13
+          ],
           "reference_sense_output_positions": [
-            11
+            11,
+            12,
+            13
           ]
         }
       ],
@@ -179749,10 +180511,89 @@
           ],
           "source_control_id": "EX-XII-XIII-42-05-SOURCE-CONTROL-03",
           "independent_recall_assessment": false
+        },
+        {
+          "sequence_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "owner_id": "EX-XII-XIII-42-05",
+          "kind": "visible_local_support",
+          "text": "ðus cweðende",
+          "tokens": [
+            {
+              "token_index": 1,
+              "literal": "ðus",
+              "surface": "ðus",
+              "lemma_id": "thus",
+              "form_id": "thus-invariant-source",
+              "sense_id": "thus-thus-source",
+              "analysis": {
+                "inflection": "invariant"
+              },
+              "contextual_analysis": {
+                "inflection": "invariant"
+              },
+              "form_status": "previously_taught",
+              "sense_status": "previously_taught",
+              "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+              "assessment_role": "visible_reference_position",
+              "reference_route_ids": [
+                "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+              ],
+              "independent_recall_assessment": false,
+              "form_assessment_role": "visible_reference_position",
+              "sense_reference_route_ids": [],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 12,
+              "local_support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+              "amendment_id": "U17-A02"
+            },
+            {
+              "token_index": 2,
+              "literal": "cweðende",
+              "surface": "cweðende",
+              "lemma_id": "cwethan",
+              "form_id": "cwethan-present-participle-source",
+              "sense_id": "cwethan-1",
+              "analysis": {
+                "nonfinite": "present_participle",
+                "case": "nominative",
+                "gender": "masculine",
+                "number": "singular",
+                "declension": "strong"
+              },
+              "contextual_analysis": {
+                "verb_form": "present_participle",
+                "case": "nom",
+                "number": "pl",
+                "gender": "m",
+                "function": "accompanying speech by the plural angels or soldiers"
+              },
+              "form_status": "previously_taught",
+              "sense_status": "previously_taught",
+              "context_review_basis": "Explicit grammar occurrence audit",
+              "assessment_role": "visible_reference_position",
+              "reference_route_ids": [
+                "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+              ],
+              "independent_recall_assessment": false,
+              "form_assessment_role": "visible_reference_position",
+              "sense_reference_route_ids": [],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 13,
+              "local_support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+              "amendment_id": "U17-A02",
+              "analysis_scope_note": "The inherited form-register analysis is retained as historical representation of this surface/base. This supplied occurrence has the plural subject agreement specified in contextual_analysis; it does not establish a new general production milestone."
+            }
+          ],
+          "required_feature_ids": [
+            "u17-supplied-accompanying-speech"
+          ],
+          "independent_recall_assessment": false,
+          "amendment_id": "U17-A02"
         }
       ],
       "input_sequence_ids": [
-        "EX-XII-XIII-42-05-SOURCE-CONTROL-03-INPUT"
+        "EX-XII-XIII-42-05-SOURCE-CONTROL-03-INPUT",
+        "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
       ],
       "required_form_ids": [
         "alutan-u17-hint-reference-42540608",
@@ -179770,12 +180611,13 @@
         "ymbhwyrft-dat-sg"
       ],
       "supplied_form_ids": [
-        "alutan-u17-hint-reference-42540608"
+        "alutan-u17-hint-reference-42540608",
+        "cwethan-present-participle-source",
+        "thus-invariant-source"
       ],
       "tested_form_ids": [
         "alutan-u17-pret-3-pl",
         "and-invariant",
-        "cwethan-present-participle-source",
         "eall-nom-m-pl-strong",
         "engel-nom-pl",
         "god-dat-sg",
@@ -179783,7 +180625,6 @@
         "on-invariant",
         "standan-pret-3-pl",
         "thrymsetl-gen-sg",
-        "thus-invariant-source",
         "ymbhwyrft-dat-sg"
       ],
       "required_sense_ids": [
@@ -179801,11 +180642,12 @@
         "ymbhwyrft-u13-source"
       ],
       "supplied_sense_ids": [
-        "alutan-u17-selected"
+        "alutan-u17-selected",
+        "cwethan-1",
+        "thus-thus-source"
       ],
       "tested_sense_ids": [
         "and-1",
-        "cwethan-1",
         "eall-all",
         "engel-1",
         "god-1",
@@ -179813,16 +180655,18 @@
         "on-1",
         "standan-ordinary",
         "thrymsetl-u17-sense",
-        "thus-thus-source",
         "ymbhwyrft-u13-source"
       ],
       "required_feature_ids": [
         "u02-third-person-possessors",
         "u03-adverb-use",
         "u03-possessive-agreement",
-        "u03-possessor-reference"
+        "u03-possessor-reference",
+        "u17-supplied-accompanying-speech"
       ],
-      "supplied_feature_ids": [],
+      "supplied_feature_ids": [
+        "u17-supplied-accompanying-speech"
+      ],
       "tested_feature_ids": [
         "u02-third-person-possessors",
         "u03-adverb-use",
@@ -179830,7 +180674,9 @@
         "u03-possessor-reference"
       ],
       "required_input_form_ids": [
-        "alutan-u17-hint-reference-42540608"
+        "alutan-u17-hint-reference-42540608",
+        "cwethan-present-participle-source",
+        "thus-invariant-source"
       ],
       "required_output_form_ids": [
         "alutan-u17-pret-3-pl",
@@ -179847,7 +180693,9 @@
         "ymbhwyrft-dat-sg"
       ],
       "required_input_sense_ids": [
-        "alutan-u17-selected"
+        "alutan-u17-selected",
+        "cwethan-1",
+        "thus-thus-source"
       ],
       "required_output_sense_ids": [
         "alutan-u17-selected",
@@ -179863,7 +180711,44 @@
         "thus-thus-source",
         "ymbhwyrft-u13-source"
       ],
-      "local_support": [],
+      "local_support": [
+        {
+          "support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "feature_id": "u17-supplied-accompanying-speech",
+          "feature_ids": [
+            "u17-supplied-accompanying-speech"
+          ],
+          "exact_help_text": "ðus cweðende",
+          "meaning_and_analysis": "Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available.",
+          "output_token_positions_one_based": [
+            12,
+            13
+          ],
+          "form_ids": [
+            "cwethan-present-participle-source",
+            "thus-invariant-source"
+          ],
+          "sense_ids": [
+            "cwethan-1",
+            "thus-thus-source"
+          ],
+          "evidence_refs": [
+            "U17P-FB195",
+            "U07-C-READ126",
+            "U17G-FB100",
+            "U17-EX-P27",
+            "U17-EX-P28"
+          ],
+          "independent_recall_assessment": false,
+          "visible_before_and_during_task": true,
+          "amendment_id": "U17-A02",
+          "origin_category": "new teaching material",
+          "evidence_application": "The expression and accompanying-speech use are directly attested at195.3–4 and126.11. Applying cweðende to the exercise plural subjects uses the already evidenced participial morphology/agreement; no general productive accompanying-participle construction is added.",
+          "whole_frame_routes": [
+            "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+          ]
+        }
+      ],
       "source_control_records": [
         {
           "reference_id": "EX-XII-XIII-42-05-SOURCE-CONTROL-01",
@@ -179966,7 +180851,364 @@
         }
       ],
       "source_instructions": [],
-      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction."
+      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction. U17-A02 supplies the complete evidenced local construction and binds every copied position explicitly; existing productive component milestones are unchanged.",
+      "assessed_output_tokens": [
+        {
+          "token_index": 1,
+          "literal": "And",
+          "surface": "And",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "ealle",
+          "surface": "ealle",
+          "lemma_id": "eall",
+          "form_id": "eall-nom-m-pl-strong",
+          "sense_id": "eall-all",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "plural",
+            "declension": "strong"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "pl",
+            "gender": "m",
+            "declension": "strong"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 3,
+          "literal": "ęnglas",
+          "surface": "ęnglas",
+          "lemma_id": "engel",
+          "form_id": "engel-nom-pl",
+          "sense_id": "engel-1",
+          "analysis": {
+            "case": "nom",
+            "number": "pl",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 4,
+          "literal": "stōdon",
+          "surface": "stōdon",
+          "lemma_id": "standan",
+          "form_id": "standan-pret-3-pl",
+          "sense_id": "standan-ordinary",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural",
+            "tense": "preterite"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 5,
+          "literal": "on",
+          "surface": "on",
+          "lemma_id": "on",
+          "form_id": "on-invariant",
+          "sense_id": "on-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 6,
+          "literal": "ymbhwyrfte",
+          "surface": "ymbhwyrfte",
+          "lemma_id": "ymbhwyrft",
+          "form_id": "ymbhwyrft-dat-sg",
+          "sense_id": "ymbhwyrft-u13-source",
+          "analysis": {
+            "case": "dat",
+            "number": "sg",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "sg"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 7,
+          "literal": "his",
+          "surface": "his",
+          "lemma_id": "he",
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 8,
+          "literal": "ðrymsetles",
+          "surface": "ðrymsetles",
+          "lemma_id": "thrymsetl",
+          "form_id": "thrymsetl-gen-sg",
+          "sense_id": "thrymsetl-u17-sense",
+          "analysis": {
+            "case": "gen",
+            "number": "sg",
+            "gender": "n"
+          },
+          "contextual_analysis": {
+            "case": "gen",
+            "number": "sg"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 9,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 10,
+          "literal": "Gode",
+          "surface": "Gode",
+          "lemma_id": "god",
+          "form_id": "god-dat-sg",
+          "sense_id": "god-1",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 11,
+          "literal": "āluton,",
+          "surface": "āluton",
+          "lemma_id": "alutan",
+          "form_id": "alutan-u17-pret-3-pl",
+          "sense_id": "alutan-u17-selected",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural",
+            "tense": "preterite"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-42-05-SOURCE-CONTROL-03"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 12,
+          "literal": "ðus",
+          "surface": "ðus",
+          "lemma_id": "thus",
+          "form_id": "thus-invariant-source",
+          "sense_id": "thus-thus-source",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "All angels is masculine nominative plural without an article. In circuit is dative masculine singular with genitive throne and genitive masculine his. God is dative object of bow; saying refers to the plural angels.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "amendment_id": "U17-A02"
+        },
+        {
+          "token_index": 13,
+          "literal": "cweðende:",
+          "surface": "cweðende",
+          "lemma_id": "cwethan",
+          "form_id": "cwethan-present-participle-source",
+          "sense_id": "cwethan-1",
+          "analysis": {
+            "nonfinite": "present_participle",
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "contextual_analysis": {
+            "verb_form": "present_participle",
+            "case": "nom",
+            "number": "pl",
+            "gender": "m",
+            "function": "accompanying speech by the plural angels or soldiers"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "amendment_id": "U17-A02",
+          "analysis_scope_note": "The inherited form-register analysis is retained as historical representation of this surface/base. This supplied occurrence has the plural subject agreement specified in contextual_analysis; it does not establish a new general production milestone."
+        }
+      ],
+      "assessment_precedence": "U17-A02 canonical task tokens and output reference positions supersede original proposal assessment roles only; the archived model text and lexical identities are unchanged."
     },
     {
       "source_item_id": "EX-XII-XIII-42-06",
@@ -181997,11 +183239,13 @@
           "output_id": "EX-XII-XIII-42-08-O001",
           "output_sequence_id": "EX-XII-XIII-42-08-MODEL",
           "required_input_form_ids": [
+            "cwethan-present-participle-source",
             "hal-u17-nom-m-sg",
             "hreod-acc-sg",
             "jews-name-u17-gen-pl",
             "of-invariant-dat-source",
             "thorn-nom-sg",
+            "thus-invariant-source",
             "windan-u17-hint-reference-9e284d15"
           ],
           "required_output_form_ids": [
@@ -182066,7 +183310,6 @@
             "biegan-u17-pret-3-pl",
             "cempa-nom-pl",
             "cneo-acc-sg",
-            "cwethan-present-participle-source",
             "cynehelm-acc-sg",
             "cyning-nom-sg",
             "he-gen-pl",
@@ -182079,24 +183322,27 @@
             "swithra-acc-f-sg-weak",
             "thorn-dat-pl",
             "thu-nom-sg",
-            "thus-invariant-source",
             "wesan-present-subj-2-sg-beo",
             "windan-u17-pret-3-pl"
           ],
           "supplied_form_ids": [
+            "cwethan-present-participle-source",
             "hal-u17-nom-m-sg",
             "hreod-acc-sg",
             "jews-name-u17-gen-pl",
             "of-invariant-dat-source",
             "thorn-nom-sg",
+            "thus-invariant-source",
             "windan-u17-hint-reference-9e284d15"
           ],
           "required_input_sense_ids": [
+            "cwethan-1",
             "hal-u17-local-sense",
             "hreod-u17-sense",
             "jews-name-u17-local-sense",
             "of-u11-source",
             "thorn-u17-sense",
+            "thus-thus-source",
             "windan-u17-selected"
           ],
           "required_output_sense_ids": [
@@ -182159,7 +183405,6 @@
             "biegan-u17-selected",
             "cempa-1",
             "cneo-u17-knee",
-            "cwethan-1",
             "cynehelm-u17-sense",
             "cyning-source",
             "he-1",
@@ -182171,29 +183416,35 @@
             "settan-1",
             "swithra-1",
             "thu-personal",
-            "thus-thus-source",
             "wesan-be"
           ],
           "supplied_sense_ids": [
+            "cwethan-1",
             "hal-u17-local-sense",
             "hreod-u17-sense",
             "jews-name-u17-local-sense",
             "of-u11-source",
             "thorn-u17-sense",
+            "thus-thus-source",
             "windan-u17-selected"
           ],
           "required_feature_ids": [
             "u02-clause-coordination",
-            "u02-third-person-possessors"
+            "u02-third-person-possessors",
+            "u17-supplied-accompanying-speech"
           ],
           "tested_feature_ids": [
             "u02-clause-coordination",
             "u02-third-person-possessors"
           ],
-          "supplied_feature_ids": [],
+          "supplied_feature_ids": [
+            "u17-supplied-accompanying-speech"
+          ],
           "reference_output_positions": [
             5,
             13,
+            23,
+            24,
             25,
             28
           ],
@@ -182202,6 +183453,8 @@
             5,
             6,
             13,
+            23,
+            24,
             25,
             28
           ]
@@ -182437,6 +183690,84 @@
           ],
           "required_feature_ids": [],
           "independent_recall_assessment": false
+        },
+        {
+          "sequence_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "owner_id": "EX-XII-XIII-42-08",
+          "kind": "visible_local_support",
+          "text": "ðus cweðende",
+          "tokens": [
+            {
+              "token_index": 1,
+              "literal": "ðus",
+              "surface": "ðus",
+              "lemma_id": "thus",
+              "form_id": "thus-invariant-source",
+              "sense_id": "thus-thus-source",
+              "analysis": {
+                "inflection": "invariant"
+              },
+              "contextual_analysis": {
+                "inflection": "invariant"
+              },
+              "form_status": "previously_taught",
+              "sense_status": "previously_taught",
+              "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+              "assessment_role": "visible_reference_position",
+              "reference_route_ids": [
+                "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+              ],
+              "independent_recall_assessment": false,
+              "form_assessment_role": "visible_reference_position",
+              "sense_reference_route_ids": [],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 23,
+              "local_support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+              "amendment_id": "U17-A02"
+            },
+            {
+              "token_index": 2,
+              "literal": "cweðende",
+              "surface": "cweðende",
+              "lemma_id": "cwethan",
+              "form_id": "cwethan-present-participle-source",
+              "sense_id": "cwethan-1",
+              "analysis": {
+                "nonfinite": "present_participle",
+                "case": "nominative",
+                "gender": "masculine",
+                "number": "singular",
+                "declension": "strong"
+              },
+              "contextual_analysis": {
+                "verb_form": "present_participle",
+                "case": "nom",
+                "number": "pl",
+                "gender": "m",
+                "function": "accompanying speech by the plural angels or soldiers"
+              },
+              "form_status": "previously_taught",
+              "sense_status": "previously_taught",
+              "context_review_basis": "Explicit grammar occurrence audit",
+              "assessment_role": "visible_reference_position",
+              "reference_route_ids": [
+                "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+              ],
+              "independent_recall_assessment": false,
+              "form_assessment_role": "visible_reference_position",
+              "sense_reference_route_ids": [],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 24,
+              "local_support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+              "amendment_id": "U17-A02",
+              "analysis_scope_note": "The inherited form-register analysis is retained as historical representation of this surface/base. This supplied occurrence has the plural subject agreement specified in contextual_analysis; it does not establish a new general production milestone."
+            }
+          ],
+          "required_feature_ids": [
+            "u17-supplied-accompanying-speech"
+          ],
+          "independent_recall_assessment": false,
+          "amendment_id": "U17-A02"
         }
       ],
       "input_sequence_ids": [
@@ -182446,7 +183777,8 @@
         "EX-XII-XIII-42-08-SOURCE-CONTROL-06-INPUT",
         "EX-XII-XIII-42-08-SOURCE-CONTROL-08-INPUT",
         "EX-XII-XIII-42-08-LEXICAL-HELP-025",
-        "EX-XII-XIII-42-08-LEXICAL-HELP-028"
+        "EX-XII-XIII-42-08-LEXICAL-HELP-028",
+        "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
       ],
       "required_form_ids": [
         "and-invariant",
@@ -182478,11 +183810,13 @@
         "windan-u17-pret-3-pl"
       ],
       "supplied_form_ids": [
+        "cwethan-present-participle-source",
         "hal-u17-nom-m-sg",
         "hreod-acc-sg",
         "jews-name-u17-gen-pl",
         "of-invariant-dat-source",
         "thorn-nom-sg",
+        "thus-invariant-source",
         "windan-u17-hint-reference-9e284d15"
       ],
       "tested_form_ids": [
@@ -182491,7 +183825,6 @@
         "biegan-u17-pret-3-pl",
         "cempa-nom-pl",
         "cneo-acc-sg",
-        "cwethan-present-participle-source",
         "cynehelm-acc-sg",
         "cyning-nom-sg",
         "he-gen-pl",
@@ -182504,7 +183837,6 @@
         "swithra-acc-f-sg-weak",
         "thorn-dat-pl",
         "thu-nom-sg",
-        "thus-invariant-source",
         "wesan-present-subj-2-sg-beo",
         "windan-u17-pret-3-pl"
       ],
@@ -182536,11 +183868,13 @@
         "windan-u17-selected"
       ],
       "supplied_sense_ids": [
+        "cwethan-1",
         "hal-u17-local-sense",
         "hreod-u17-sense",
         "jews-name-u17-local-sense",
         "of-u11-source",
         "thorn-u17-sense",
+        "thus-thus-source",
         "windan-u17-selected"
       ],
       "tested_sense_ids": [
@@ -182549,7 +183883,6 @@
         "biegan-u17-selected",
         "cempa-1",
         "cneo-u17-knee",
-        "cwethan-1",
         "cynehelm-u17-sense",
         "cyning-source",
         "he-1",
@@ -182561,24 +183894,28 @@
         "settan-1",
         "swithra-1",
         "thu-personal",
-        "thus-thus-source",
         "wesan-be"
       ],
       "required_feature_ids": [
         "u02-clause-coordination",
-        "u02-third-person-possessors"
+        "u02-third-person-possessors",
+        "u17-supplied-accompanying-speech"
       ],
-      "supplied_feature_ids": [],
+      "supplied_feature_ids": [
+        "u17-supplied-accompanying-speech"
+      ],
       "tested_feature_ids": [
         "u02-clause-coordination",
         "u02-third-person-possessors"
       ],
       "required_input_form_ids": [
+        "cwethan-present-participle-source",
         "hal-u17-nom-m-sg",
         "hreod-acc-sg",
         "jews-name-u17-gen-pl",
         "of-invariant-dat-source",
         "thorn-nom-sg",
+        "thus-invariant-source",
         "windan-u17-hint-reference-9e284d15"
       ],
       "required_output_form_ids": [
@@ -182609,11 +183946,13 @@
         "windan-u17-pret-3-pl"
       ],
       "required_input_sense_ids": [
+        "cwethan-1",
         "hal-u17-local-sense",
         "hreod-u17-sense",
         "jews-name-u17-local-sense",
         "of-u11-source",
         "thorn-u17-sense",
+        "thus-thus-source",
         "windan-u17-selected"
       ],
       "required_output_sense_ids": [
@@ -182696,6 +184035,42 @@
           ],
           "independent_recall_assessment": false,
           "visible_before_and_during_task": true
+        },
+        {
+          "support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "feature_id": "u17-supplied-accompanying-speech",
+          "feature_ids": [
+            "u17-supplied-accompanying-speech"
+          ],
+          "exact_help_text": "ðus cweðende",
+          "meaning_and_analysis": "Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available.",
+          "output_token_positions_one_based": [
+            23,
+            24
+          ],
+          "form_ids": [
+            "cwethan-present-participle-source",
+            "thus-invariant-source"
+          ],
+          "sense_ids": [
+            "cwethan-1",
+            "thus-thus-source"
+          ],
+          "evidence_refs": [
+            "U17P-FB195",
+            "U07-C-READ126",
+            "U17G-FB100",
+            "U17-EX-P27",
+            "U17-EX-P28"
+          ],
+          "independent_recall_assessment": false,
+          "visible_before_and_during_task": true,
+          "amendment_id": "U17-A02",
+          "origin_category": "new teaching material",
+          "evidence_application": "The expression and accompanying-speech use are directly attested at195.3–4 and126.11. Applying cweðende to the exercise plural subjects uses the already evidenced participial morphology/agreement; no general productive accompanying-participle construction is added.",
+          "whole_frame_routes": [
+            "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+          ]
         }
       ],
       "source_control_records": [
@@ -182985,7 +184360,815 @@
         }
       ],
       "source_instructions": [],
-      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction."
+      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction. U17-A02 supplies the complete evidenced local construction and binds every copied position explicitly; existing productive component milestones are unchanged.",
+      "assessed_output_tokens": [
+        {
+          "token_index": 1,
+          "literal": "Ðā",
+          "surface": "Ðā",
+          "lemma_id": "se",
+          "form_id": "se-all-nom-pl",
+          "sense_id": "se-the",
+          "analysis": {
+            "case": "nominative",
+            "number": "plural",
+            "gender": "all"
+          },
+          "contextual_analysis": {
+            "case": "nominative",
+            "number": "plural",
+            "gender": "all"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "cęmpan",
+          "surface": "cęmpan",
+          "lemma_id": "cempa",
+          "form_id": "cempa-nom-pl",
+          "sense_id": "cempa-1",
+          "analysis": {
+            "case": "nom",
+            "number": "pl",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 3,
+          "literal": "wundon",
+          "surface": "wundon",
+          "lemma_id": "windan",
+          "form_id": "windan-u17-pret-3-pl",
+          "sense_id": "windan-u17-selected",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural",
+            "tense": "preterite"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-42-08-SOURCE-CONTROL-01"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 4,
+          "literal": "cynehelm",
+          "surface": "cynehelm",
+          "lemma_id": "cynehelm",
+          "form_id": "cynehelm-acc-sg",
+          "sense_id": "cynehelm-u17-sense",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "acc",
+            "number": "sg"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 5,
+          "literal": "of",
+          "surface": "of",
+          "lemma_id": "of",
+          "form_id": "of-invariant-dat-source",
+          "sense_id": "of-u11-source",
+          "analysis": {
+            "contextual_parse": "invariant-dat"
+          },
+          "contextual_analysis": {
+            "invariant": true,
+            "function": "preposition"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-42-08-SOURCE-CONTROL-03"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-42-08-SOURCE-CONTROL-03"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 6,
+          "literal": "ðornum",
+          "surface": "ðornum",
+          "lemma_id": "thorn",
+          "form_id": "thorn-dat-pl",
+          "sense_id": "thorn-u17-sense",
+          "analysis": {
+            "case": "dat",
+            "number": "pl",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "pl"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-42-08-SOURCE-CONTROL-04"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 7,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 8,
+          "literal": "sętton",
+          "surface": "sętton",
+          "lemma_id": "settan",
+          "form_id": "settan-pret-3-pl",
+          "sense_id": "settan-1",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural",
+            "tense": "preterite"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 9,
+          "literal": "on",
+          "surface": "on",
+          "lemma_id": "on",
+          "form_id": "on-invariant",
+          "sense_id": "on-into-goal",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 10,
+          "literal": "his",
+          "surface": "his",
+          "lemma_id": "he",
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 11,
+          "literal": "hēafod",
+          "surface": "hēafod",
+          "lemma_id": "heafod",
+          "form_id": "heafod-acc-sg",
+          "sense_id": "heafod-1",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "n"
+          },
+          "contextual_analysis": {
+            "case": "acc",
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 12,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 13,
+          "literal": "hrēod",
+          "surface": "hrēod",
+          "lemma_id": "hreod",
+          "form_id": "hreod-acc-sg",
+          "sense_id": "hreod-u17-sense",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "n"
+          },
+          "contextual_analysis": {
+            "case": "acc",
+            "number": "sg"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-42-08-SOURCE-CONTROL-06"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-42-08-SOURCE-CONTROL-06"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 14,
+          "literal": "on",
+          "surface": "on",
+          "lemma_id": "on",
+          "form_id": "on-invariant",
+          "sense_id": "on-side-idiom",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 15,
+          "literal": "his",
+          "surface": "his",
+          "lemma_id": "he",
+          "form_id": "he-m-gen-sg",
+          "sense_id": "he-possessor",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 16,
+          "literal": "swīðran,",
+          "surface": "swīðran",
+          "lemma_id": "swithra",
+          "form_id": "swithra-acc-f-sg-weak",
+          "sense_id": "swithra-1",
+          "analysis": {
+            "case": "acc",
+            "gender": "f",
+            "number": "sg",
+            "declension": "weak",
+            "degree": "comparative"
+          },
+          "contextual_analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "f",
+            "declension": "weak"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 17,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 18,
+          "literal": "bīegdon",
+          "surface": "bīegdon",
+          "lemma_id": "biegan",
+          "form_id": "biegan-u17-pret-3-pl",
+          "sense_id": "biegan-u17-selected",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural",
+            "tense": "preterite"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 19,
+          "literal": "hiera",
+          "surface": "hiera",
+          "lemma_id": "he",
+          "form_id": "he-gen-pl",
+          "sense_id": "he-possessor",
+          "analysis": {
+            "person": 3,
+            "number": "plural",
+            "gender": null,
+            "case": "genitive"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "plural",
+            "gender": null,
+            "case": "genitive"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 20,
+          "literal": "cnēo",
+          "surface": "cnēo",
+          "lemma_id": "cneo",
+          "form_id": "cneo-acc-sg",
+          "sense_id": "cneo-u17-knee",
+          "analysis": {
+            "case": "acc",
+            "number": "sg",
+            "gender": "n"
+          },
+          "contextual_analysis": {
+            "case": "acc",
+            "number": "sg"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 21,
+          "literal": "beforan",
+          "surface": "beforan",
+          "lemma_id": "beforan",
+          "form_id": "beforan-invariant-source",
+          "sense_id": "beforan-before-source",
+          "analysis": {
+            "source_analysis": "source position phrase him beforan with dative pronoun"
+          },
+          "contextual_analysis": {
+            "source_analysis": "source position phrase him beforan with dative pronoun"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 22,
+          "literal": "him,",
+          "surface": "him",
+          "lemma_id": "he",
+          "form_id": "he-m-dat-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "dative"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 23,
+          "literal": "ðus",
+          "surface": "ðus",
+          "lemma_id": "thus",
+          "form_id": "thus-invariant-source",
+          "sense_id": "thus-thus-source",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "amendment_id": "U17-A02"
+        },
+        {
+          "token_index": 24,
+          "literal": "cweðende:",
+          "surface": "cweðende",
+          "lemma_id": "cwethan",
+          "form_id": "cwethan-present-participle-source",
+          "sense_id": "cwethan-1",
+          "analysis": {
+            "nonfinite": "present_participle",
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "singular",
+            "declension": "strong"
+          },
+          "contextual_analysis": {
+            "verb_form": "present_participle",
+            "case": "nom",
+            "number": "pl",
+            "gender": "m",
+            "function": "accompanying speech by the plural angels or soldiers"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "amendment_id": "U17-A02",
+          "analysis_scope_note": "The inherited form-register analysis is retained as historical representation of this surface/base. This supplied occurrence has the plural subject agreement specified in contextual_analysis; it does not establish a new general production milestone."
+        },
+        {
+          "token_index": 25,
+          "literal": "Hāl",
+          "surface": "Hāl",
+          "lemma_id": "hal",
+          "form_id": "hal-u17-nom-m-sg",
+          "sense_id": "hal-u17-local-sense",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m",
+            "strength": "strong",
+            "degree": "positive"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m",
+            "strength": "strong",
+            "degree": "positive"
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-42-08-LEXICAL-HELP-025"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-42-08-LEXICAL-HELP-025"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 26,
+          "literal": "bēo",
+          "surface": "bēo",
+          "lemma_id": "wesan",
+          "form_id": "wesan-present-subj-2-sg-beo",
+          "sense_id": "wesan-be",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 2,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "mood": "subjunctive",
+            "person": 2,
+            "number": "singular",
+            "tense": "present"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 27,
+          "literal": "ðū,",
+          "surface": "ðū",
+          "lemma_id": "thu",
+          "form_id": "thu-nom-sg",
+          "sense_id": "thu-personal",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 28,
+          "literal": "Iudea",
+          "surface": "Iudea",
+          "lemma_id": "jews-name",
+          "form_id": "jews-name-u17-gen-pl",
+          "sense_id": "jews-name-u17-local-sense",
+          "analysis": {
+            "case": "gen",
+            "number": "pl",
+            "foreign_name": true
+          },
+          "contextual_analysis": {
+            "case": "gen",
+            "number": "pl",
+            "foreign_name": true
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-42-08-SOURCE-CONTROL-08",
+            "EX-XII-XIII-42-08-LEXICAL-HELP-028"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-42-08-LEXICAL-HELP-028",
+            "EX-XII-XIII-42-08-SOURCE-CONTROL-08"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 29,
+          "literal": "cyning!",
+          "surface": "cyning",
+          "lemma_id": "cyning",
+          "form_id": "cyning-nom-sg",
+          "sense_id": "cyning-source",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Soldiers nominative plural; crown accusative singular and thorns dative plural material. Both placement destinations use accusative: his neuter head and the supplied right-hand substantive feminine phrase. Reed accusative neuter singular. Their knee is singular accusative collective, their genitive plural. Before him dative. Hale is masculine nominative predicate; King nominative address and Jews supplied genitive plural.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        }
+      ],
+      "assessment_precedence": "U17-A02 canonical task tokens and output reference positions supersede original proposal assessment roles only; the archived model text and lexical identities are unchanged."
     },
     {
       "source_item_id": "EX-XII-XIII-42-09",
@@ -188098,6 +190281,7 @@
           "required_input_form_ids": [
             "binnan-u17-invariant",
             "feawe-u17-dat-f-pl",
+            "he-m-dat-sg",
             "tid-dat-pl",
             "togeanes-u17-invariant"
           ],
@@ -188132,19 +190316,20 @@
             "and-invariant",
             "cuman-pret-3-pl-source",
             "gelared-nom-pl-m-strong",
-            "he-m-dat-sg",
             "mann-nom-pl",
             "twegen-nom-m-pl"
           ],
           "supplied_form_ids": [
             "binnan-u17-invariant",
             "feawe-u17-dat-f-pl",
+            "he-m-dat-sg",
             "tid-dat-pl",
             "togeanes-u17-invariant"
           ],
           "required_input_sense_ids": [
             "binnan-u17-local-sense",
             "feawe-u17-few-amount",
+            "he-1",
             "tid-hour-u13-source",
             "togeanes-u17-local-sense"
           ],
@@ -188179,13 +190364,13 @@
             "and-1",
             "cuman-come",
             "gelared-u16-sense",
-            "he-1",
             "mann-1",
             "twegen-1"
           ],
           "supplied_sense_ids": [
             "binnan-u17-local-sense",
             "feawe-u17-few-amount",
+            "he-1",
             "tid-hour-u13-source",
             "togeanes-u17-local-sense"
           ],
@@ -188194,7 +190379,8 @@
             "u03-adverb-use",
             "u03-agreement",
             "u03-determiner-conditions",
-            "u17-supplied-within-time"
+            "u17-supplied-within-time",
+            "u17-supplied-togeanes-dative"
           ],
           "tested_feature_ids": [
             "u02-clause-coordination",
@@ -188203,18 +190389,21 @@
             "u03-determiner-conditions"
           ],
           "supplied_feature_ids": [
-            "u17-supplied-within-time"
+            "u17-supplied-within-time",
+            "u17-supplied-togeanes-dative"
           ],
           "reference_output_positions": [
             1,
             2,
             3,
+            10,
             11
           ],
           "reference_sense_output_positions": [
             1,
             2,
             3,
+            10,
             11
           ]
         }
@@ -188388,11 +190577,45 @@
           "sequence_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011",
           "owner_id": "EX-XII-XIII-43-13",
           "kind": "visible_local_support",
-          "text": "tōgēanes",
+          "text": "him tōgēanes",
           "tokens": [
             {
               "token_index": 1,
-              "literal": "tōgēanes.",
+              "literal": "him",
+              "surface": "him",
+              "lemma_id": "he",
+              "form_id": "he-m-dat-sg",
+              "sense_id": "he-1",
+              "analysis": {
+                "person": 3,
+                "number": "singular",
+                "gender": "m",
+                "case": "dative"
+              },
+              "contextual_analysis": {
+                "person": 3,
+                "number": "singular",
+                "gender": "m",
+                "case": "dative"
+              },
+              "form_status": "previously_taught",
+              "sense_status": "previously_taught",
+              "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+              "assessment_role": "visible_reference_position",
+              "reference_route_ids": [
+                "EX-XII-XIII-43-13-LEXICAL-HELP-011"
+              ],
+              "independent_recall_assessment": false,
+              "form_assessment_role": "visible_reference_position",
+              "sense_reference_route_ids": [],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 10,
+              "local_support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011",
+              "amendment_id": "U17-A02"
+            },
+            {
+              "token_index": 2,
+              "literal": "tōgēanes",
               "surface": "tōgēanes",
               "lemma_id": "togeanes",
               "form_id": "togeanes-u17-invariant",
@@ -188407,14 +190630,25 @@
               "sense_status": "supplied",
               "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
               "assessment_role": "visible_reference_position",
-              "source_output_position_one_based": 11,
+              "reference_route_ids": [
+                "EX-XII-XIII-43-13-LEXICAL-HELP-011"
+              ],
               "independent_recall_assessment": false,
               "form_assessment_role": "visible_reference_position",
-              "sense_assessment_role": "visible_reference_position"
+              "sense_reference_route_ids": [
+                "EX-XII-XIII-43-13-LEXICAL-HELP-011"
+              ],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 11,
+              "local_support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011",
+              "amendment_id": "U17-A02"
             }
           ],
-          "required_feature_ids": [],
-          "independent_recall_assessment": false
+          "required_feature_ids": [
+            "u17-supplied-togeanes-dative"
+          ],
+          "independent_recall_assessment": false,
+          "amendment_id": "U17-A02"
         }
       ],
       "input_sequence_ids": [
@@ -188439,6 +190673,7 @@
       "supplied_form_ids": [
         "binnan-u17-invariant",
         "feawe-u17-dat-f-pl",
+        "he-m-dat-sg",
         "tid-dat-pl",
         "togeanes-u17-invariant"
       ],
@@ -188447,7 +190682,6 @@
         "and-invariant",
         "cuman-pret-3-pl-source",
         "gelared-nom-pl-m-strong",
-        "he-m-dat-sg",
         "mann-nom-pl",
         "twegen-nom-m-pl"
       ],
@@ -188467,6 +190701,7 @@
       "supplied_sense_ids": [
         "binnan-u17-local-sense",
         "feawe-u17-few-amount",
+        "he-1",
         "tid-hour-u13-source",
         "togeanes-u17-local-sense"
       ],
@@ -188475,7 +190710,6 @@
         "and-1",
         "cuman-come",
         "gelared-u16-sense",
-        "he-1",
         "mann-1",
         "twegen-1"
       ],
@@ -188484,10 +190718,12 @@
         "u03-adverb-use",
         "u03-agreement",
         "u03-determiner-conditions",
-        "u17-supplied-within-time"
+        "u17-supplied-within-time",
+        "u17-supplied-togeanes-dative"
       ],
       "supplied_feature_ids": [
-        "u17-supplied-within-time"
+        "u17-supplied-within-time",
+        "u17-supplied-togeanes-dative"
       ],
       "tested_feature_ids": [
         "u02-clause-coordination",
@@ -188498,6 +190734,7 @@
       "required_input_form_ids": [
         "binnan-u17-invariant",
         "feawe-u17-dat-f-pl",
+        "he-m-dat-sg",
         "tid-dat-pl",
         "togeanes-u17-invariant"
       ],
@@ -188517,6 +190754,7 @@
       "required_input_sense_ids": [
         "binnan-u17-local-sense",
         "feawe-u17-few-amount",
+        "he-1",
         "tid-hour-u13-source",
         "togeanes-u17-local-sense"
       ],
@@ -188609,9 +190847,10 @@
         {
           "support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011",
           "output_token_positions_one_based": [
+            10,
             11
           ],
-          "exact_help_text": "tōgēanes",
+          "exact_help_text": "him tōgēanes",
           "form_id": "togeanes-u17-invariant",
           "sense_id": "togeanes-u17-local-sense",
           "meaning": "towards; to meet",
@@ -188621,18 +190860,361 @@
           "scope": "Use this exact visible form and local meaning in this task. It is not an independent recall target or a grant of the remaining lexical system.",
           "evidence_refs": [
             "U17-EX-P28",
-            "U17-FB-P316"
+            "U17-FB-P316",
+            "U17P-FB184",
+            "U17G-FB106"
           ],
           "whole_frame_routes": [
             "EX-XII-XIII-43-13-LEXICAL-HELP-011"
           ],
           "independent_recall_assessment": false,
-          "visible_before_and_during_task": true
+          "visible_before_and_during_task": true,
+          "feature_id": "u17-supplied-togeanes-dative",
+          "feature_ids": [
+            "u17-supplied-togeanes-dative"
+          ],
+          "meaning_and_analysis": "Toward him; to meet him. Him is the dative complement, with tōgēanes placed after it. Keep the whole expression available.",
+          "form_ids": [
+            "he-m-dat-sg",
+            "togeanes-u17-invariant"
+          ],
+          "sense_ids": [
+            "he-1",
+            "togeanes-u17-local-sense"
+          ],
+          "amendment_id": "U17-A02",
+          "origin_category": "new teaching material",
+          "evidence_application": "Uses the same-lexeme dative frame tōgēanes ðǣm cyninge at184.7 with taught dative him; postposition follows Cook§201 on106. This exercise phrase is a declared application, not a verbatim184.7 quotation."
         }
       ],
       "source_control_records": [],
       "source_instructions": [],
-      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction."
+      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction. U17-A02 supplies the complete evidenced local construction and binds every copied position explicitly; existing productive component milestones are unchanged.",
+      "assessed_output_tokens": [
+        {
+          "token_index": 1,
+          "literal": "Binnan",
+          "surface": "Binnan",
+          "lemma_id": "binnan",
+          "form_id": "binnan-u17-invariant",
+          "sense_id": "binnan-u17-local-sense",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-43-13-HELP-u17-supplied-within-time",
+            "EX-XII-XIII-43-13-LEXICAL-HELP-001"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-43-13-HELP-u17-supplied-within-time",
+            "EX-XII-XIII-43-13-LEXICAL-HELP-001"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 2,
+          "literal": "fēawum",
+          "surface": "fēawum",
+          "lemma_id": "feawe",
+          "form_id": "feawe-u17-dat-f-pl",
+          "sense_id": "feawe-u17-few-amount",
+          "analysis": {
+            "case": "dat",
+            "number": "pl",
+            "gender": "f",
+            "strength": "strong",
+            "degree": "positive"
+          },
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "pl",
+            "gender": "f",
+            "strength": "strong",
+            "degree": "positive"
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-43-13-HELP-u17-supplied-within-time",
+            "EX-XII-XIII-43-13-LEXICAL-HELP-002"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-43-13-HELP-u17-supplied-within-time",
+            "EX-XII-XIII-43-13-LEXICAL-HELP-002"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 3,
+          "literal": "tīdum",
+          "surface": "tīdum",
+          "lemma_id": "tid",
+          "form_id": "tid-dat-pl",
+          "sense_id": "tid-hour-u13-source",
+          "analysis": {
+            "case": "dative",
+            "number": "plural",
+            "gender": "feminine"
+          },
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-43-13-HELP-u17-supplied-within-time"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-43-13-HELP-u17-supplied-within-time"
+          ],
+          "sense_assessment_role": "visible_reference_position"
+        },
+        {
+          "token_index": 4,
+          "literal": "cōmon",
+          "surface": "cōmon",
+          "lemma_id": "cuman",
+          "form_id": "cuman-pret-3-pl-source",
+          "sense_id": "cuman-come",
+          "analysis": {
+            "tense": "preterite",
+            "mood": "indicative",
+            "person": 3,
+            "number": "pl"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 3,
+            "number": "plural",
+            "tense": "preterite"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 5,
+          "literal": "twēgen",
+          "surface": "twēgen",
+          "lemma_id": "twegen",
+          "form_id": "twegen-nom-m-pl",
+          "sense_id": "twegen-1",
+          "analysis": {
+            "case": "nom",
+            "gender": "m",
+            "number": "pl"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "pl",
+            "gender": "m"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 6,
+          "literal": "gelǣrede",
+          "surface": "gelǣrede",
+          "lemma_id": "gelared",
+          "form_id": "gelared-nom-pl-m-strong",
+          "sense_id": "gelared-u16-sense",
+          "analysis": {
+            "case": "nom",
+            "number": "pl",
+            "gender": "m",
+            "strength": "strong"
+          },
+          "contextual_analysis": {
+            "case": "nominative",
+            "number": "plural",
+            "gender": "masculine",
+            "declension": "strong",
+            "morphology_type": "lexical_adjective"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 7,
+          "literal": "and",
+          "surface": "and",
+          "lemma_id": "and",
+          "form_id": "and-invariant",
+          "sense_id": "and-1",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 8,
+          "literal": "æðelborene",
+          "surface": "æðelborene",
+          "lemma_id": "aethelboren",
+          "form_id": "aethelboren-nom-pl-m-strong",
+          "sense_id": "aethelboren-u17-sense",
+          "analysis": {
+            "case": "nom",
+            "number": "pl",
+            "gender": "m",
+            "strength": "strong"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "pl",
+            "gender": "m",
+            "declension": "strong"
+          },
+          "form_status": "new_production",
+          "sense_status": "new_production",
+          "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 9,
+          "literal": "męnn",
+          "surface": "męnn",
+          "lemma_id": "mann",
+          "form_id": "mann-nom-pl",
+          "sense_id": "mann-1",
+          "analysis": {
+            "case": "nominative",
+            "number": "plural",
+            "gender": "masculine"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "pl"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 10,
+          "literal": "him",
+          "surface": "him",
+          "lemma_id": "he",
+          "form_id": "he-m-dat-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "dative"
+          },
+          "contextual_analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "dative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-43-13-LEXICAL-HELP-011"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011",
+          "amendment_id": "U17-A02"
+        },
+        {
+          "token_index": 11,
+          "literal": "tōgēanes.",
+          "surface": "tōgēanes",
+          "lemma_id": "togeanes",
+          "form_id": "togeanes-u17-invariant",
+          "sense_id": "togeanes-u17-local-sense",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "context_review_basis": "Within few hours is dative feminine plural; hours explicitly uses the prior time-measure sense. Two educated and high-born men is masculine nominative plural. Him is dative with postposed toward, not an accusative object of came.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-43-13-LEXICAL-HELP-011"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-43-13-LEXICAL-HELP-011"
+          ],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011",
+          "amendment_id": "U17-A02"
+        }
+      ],
+      "assessment_precedence": "U17-A02 canonical task tokens and output reference positions supersede original proposal assessment roles only; the archived model text and lexical identities are unchanged."
     },
     {
       "source_item_id": "EX-XII-XIII-43-14",
@@ -188893,7 +191475,9 @@
           "output_id": "EX-XII-XIII-43-15-O001",
           "output_sequence_id": "EX-XII-XIII-43-15-MODEL",
           "required_input_form_ids": [
-            "gecweme-u17-nom-m-sg"
+            "gecweme-u17-nom-m-sg",
+            "god-dat-sg",
+            "swa-invariant"
           ],
           "required_output_form_ids": [
             "eall-nom-m-pl-strong",
@@ -188925,7 +191509,6 @@
           ],
           "tested_form_ids": [
             "eall-nom-m-pl-strong",
-            "god-dat-sg",
             "he-m-nom-sg",
             "her-invariant",
             "ic-nom-pl",
@@ -188937,10 +191520,14 @@
             "wesan-present-subj-3-sg"
           ],
           "supplied_form_ids": [
-            "gecweme-u17-nom-m-sg"
+            "gecweme-u17-nom-m-sg",
+            "god-dat-sg",
+            "swa-invariant"
           ],
           "required_input_sense_ids": [
-            "gecweme-u17-local-sense"
+            "gecweme-u17-local-sense",
+            "god-1",
+            "swa-equative-degree"
           ],
           "required_output_sense_ids": [
             "eall-all",
@@ -188974,36 +191561,43 @@
           ],
           "tested_sense_ids": [
             "eall-all",
-            "god-1",
             "he-1",
             "her-1",
             "ic-personal",
             "mann-1",
             "nan-u14-source",
             "secgan-content",
-            "swa-equative-degree",
             "swa-equative-standard",
             "thaet-conjunction-1",
             "wesan-be"
           ],
           "supplied_sense_ids": [
-            "gecweme-u17-local-sense"
+            "gecweme-u17-local-sense",
+            "god-1",
+            "swa-equative-degree"
           ],
           "required_feature_ids": [
             "u03-agreement",
             "u09-content-that",
-            "u12-reported-sequence"
+            "u12-reported-sequence",
+            "u17-supplied-gecweme-dative"
           ],
           "tested_feature_ids": [
             "u03-agreement",
             "u09-content-that",
             "u12-reported-sequence"
           ],
-          "supplied_feature_ids": [],
+          "supplied_feature_ids": [
+            "u17-supplied-gecweme-dative"
+          ],
           "reference_output_positions": [
+            8,
+            9,
             10
           ],
           "reference_sense_output_positions": [
+            8,
+            9,
             10
           ]
         }
@@ -189016,10 +191610,69 @@
           "sequence_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
           "owner_id": "EX-XII-XIII-43-15",
           "kind": "visible_local_support",
-          "text": "gecwēme",
+          "text": "Gode swā gecwēme",
           "tokens": [
             {
               "token_index": 1,
+              "literal": "Gode",
+              "surface": "Gode",
+              "lemma_id": "god",
+              "form_id": "god-dat-sg",
+              "sense_id": "god-1",
+              "analysis": {
+                "case": "dative",
+                "number": "singular",
+                "gender": "masculine"
+              },
+              "contextual_analysis": {
+                "case": "dat",
+                "number": "sg"
+              },
+              "form_status": "previously_taught",
+              "sense_status": "previously_taught",
+              "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+              "assessment_role": "visible_reference_position",
+              "reference_route_ids": [
+                "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+              ],
+              "independent_recall_assessment": false,
+              "form_assessment_role": "visible_reference_position",
+              "sense_reference_route_ids": [],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 8,
+              "local_support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
+              "amendment_id": "U17-A02"
+            },
+            {
+              "token_index": 2,
+              "literal": "swā",
+              "surface": "swā",
+              "lemma_id": "swa",
+              "form_id": "swa-invariant",
+              "sense_id": "swa-equative-degree",
+              "analysis": {
+                "inflection": "invariant"
+              },
+              "contextual_analysis": {
+                "inflection": "invariant"
+              },
+              "form_status": "previously_taught",
+              "sense_status": "previously_taught",
+              "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+              "assessment_role": "visible_reference_position",
+              "reference_route_ids": [
+                "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+              ],
+              "independent_recall_assessment": false,
+              "form_assessment_role": "visible_reference_position",
+              "sense_reference_route_ids": [],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 9,
+              "local_support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
+              "amendment_id": "U17-A02"
+            },
+            {
+              "token_index": 3,
               "literal": "gecwēme",
               "surface": "gecwēme",
               "lemma_id": "gecweme",
@@ -189043,14 +191696,25 @@
               "sense_status": "supplied",
               "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
               "assessment_role": "visible_reference_position",
-              "source_output_position_one_based": 10,
+              "reference_route_ids": [
+                "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+              ],
               "independent_recall_assessment": false,
               "form_assessment_role": "visible_reference_position",
-              "sense_assessment_role": "visible_reference_position"
+              "sense_reference_route_ids": [
+                "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+              ],
+              "sense_assessment_role": "visible_reference_position",
+              "source_output_position_one_based": 10,
+              "local_support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
+              "amendment_id": "U17-A02"
             }
           ],
-          "required_feature_ids": [],
-          "independent_recall_assessment": false
+          "required_feature_ids": [
+            "u17-supplied-gecweme-dative"
+          ],
+          "independent_recall_assessment": false,
+          "amendment_id": "U17-A02"
         }
       ],
       "input_sequence_ids": [
@@ -189071,11 +191735,12 @@
         "wesan-present-subj-3-sg"
       ],
       "supplied_form_ids": [
-        "gecweme-u17-nom-m-sg"
+        "gecweme-u17-nom-m-sg",
+        "god-dat-sg",
+        "swa-invariant"
       ],
       "tested_form_ids": [
         "eall-nom-m-pl-strong",
-        "god-dat-sg",
         "he-m-nom-sg",
         "her-invariant",
         "ic-nom-pl",
@@ -189102,18 +191767,18 @@
         "wesan-be"
       ],
       "supplied_sense_ids": [
-        "gecweme-u17-local-sense"
+        "gecweme-u17-local-sense",
+        "god-1",
+        "swa-equative-degree"
       ],
       "tested_sense_ids": [
         "eall-all",
-        "god-1",
         "he-1",
         "her-1",
         "ic-personal",
         "mann-1",
         "nan-u14-source",
         "secgan-content",
-        "swa-equative-degree",
         "swa-equative-standard",
         "thaet-conjunction-1",
         "wesan-be"
@@ -189121,16 +191786,21 @@
       "required_feature_ids": [
         "u03-agreement",
         "u09-content-that",
-        "u12-reported-sequence"
+        "u12-reported-sequence",
+        "u17-supplied-gecweme-dative"
       ],
-      "supplied_feature_ids": [],
+      "supplied_feature_ids": [
+        "u17-supplied-gecweme-dative"
+      ],
       "tested_feature_ids": [
         "u03-agreement",
         "u09-content-that",
         "u12-reported-sequence"
       ],
       "required_input_form_ids": [
-        "gecweme-u17-nom-m-sg"
+        "gecweme-u17-nom-m-sg",
+        "god-dat-sg",
+        "swa-invariant"
       ],
       "required_output_form_ids": [
         "eall-nom-m-pl-strong",
@@ -189147,7 +191817,9 @@
         "wesan-present-subj-3-sg"
       ],
       "required_input_sense_ids": [
-        "gecweme-u17-local-sense"
+        "gecweme-u17-local-sense",
+        "god-1",
+        "swa-equative-degree"
       ],
       "required_output_sense_ids": [
         "eall-all",
@@ -189168,9 +191840,11 @@
         {
           "support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
           "output_token_positions_one_based": [
+            8,
+            9,
             10
           ],
-          "exact_help_text": "gecwēme",
+          "exact_help_text": "Gode swā gecwēme",
           "form_id": "gecweme-u17-nom-m-sg",
           "sense_id": "gecweme-u17-local-sense",
           "meaning": "pleasing; acceptable",
@@ -189186,13 +191860,33 @@
             "U17-EX-P28",
             "U17-EX-P37",
             "U17-FB-P291",
-            "U17-FB-P40"
+            "U17-FB-P40",
+            "U17P-FB184",
+            "U17G-FB95"
           ],
           "whole_frame_routes": [
             "EX-XII-XIII-43-15-LEXICAL-HELP-010"
           ],
           "independent_recall_assessment": false,
-          "visible_before_and_during_task": true
+          "visible_before_and_during_task": true,
+          "feature_id": "u17-supplied-gecweme-dative",
+          "feature_ids": [
+            "u17-supplied-gecweme-dative"
+          ],
+          "meaning_and_analysis": "So acceptable to God. Gode is dative, naming the person to whom acceptable; gecwēme is the strong masculine nominative singular predicate adjective. The degree word swā stands between them. Keep the whole expression available.",
+          "form_ids": [
+            "gecweme-u17-nom-m-sg",
+            "god-dat-sg",
+            "swa-invariant"
+          ],
+          "sense_ids": [
+            "gecweme-u17-local-sense",
+            "god-1",
+            "swa-equative-degree"
+          ],
+          "amendment_id": "U17-A02",
+          "origin_category": "new teaching material",
+          "evidence_application": "Applies the attested Dianan swā gecwēme frame at184.9–10, whose note5 explicitly cites dative-adjective§165, to taught Gode. The form and masculine predicate follow the selected model; this is declared teaching support, not a quotation of184."
         }
       ],
       "source_control_records": [
@@ -189227,7 +191921,373 @@
         }
       ],
       "source_instructions": [],
-      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction."
+      "dependency_closure_basis": "Exact ordered selected model identities, every original control, complete current teaching, and explicit visible support for every supplied form, sense and whole construction. U17-A02 supplies the complete evidenced local construction and binds every copied position explicitly; existing productive component milestones are unchanged.",
+      "assessed_output_tokens": [
+        {
+          "token_index": 1,
+          "literal": "Wē",
+          "surface": "Wē",
+          "lemma_id": "ic",
+          "form_id": "ic-nom-pl",
+          "sense_id": "ic-personal",
+          "analysis": {
+            "person": 1,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "person": 1,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 2,
+          "literal": "ealle",
+          "surface": "ealle",
+          "lemma_id": "eall",
+          "form_id": "eall-nom-m-pl-strong",
+          "sense_id": "eall-all",
+          "analysis": {
+            "case": "nominative",
+            "gender": "masculine",
+            "number": "plural",
+            "declension": "strong"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "pl",
+            "gender": "m",
+            "declension": "strong"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 3,
+          "literal": "sęcgað",
+          "surface": "sęcgað",
+          "lemma_id": "secgan",
+          "form_id": "secgan-pres-1-pl",
+          "sense_id": "secgan-content",
+          "analysis": {
+            "tense": "present",
+            "mood": "indicative",
+            "person": 1,
+            "number": "plural"
+          },
+          "contextual_analysis": {
+            "mood": "indicative",
+            "person": 1,
+            "number": "plural",
+            "tense": "present"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 4,
+          "literal": "ðæt",
+          "surface": "ðæt",
+          "lemma_id": "thaet-conjunction",
+          "form_id": "thaet-conjunction-invariant",
+          "sense_id": "thaet-conjunction-1",
+          "analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "contextual_analysis": {
+            "source_analysis": "introduces a supplied finite content clause"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 5,
+          "literal": "nān",
+          "surface": "nān",
+          "lemma_id": "nan",
+          "form_id": "nan-u14-nom-m-sg-source",
+          "sense_id": "nan-u14-source",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine",
+            "declension": "strong",
+            "function": "negative adjective used alone or with mann"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m",
+            "declension": "strong"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 6,
+          "literal": "mann",
+          "surface": "mann",
+          "lemma_id": "mann",
+          "form_id": "mann-nom-sg",
+          "sense_id": "mann-1",
+          "analysis": {
+            "case": "nominative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 7,
+          "literal": "hēr",
+          "surface": "hēr",
+          "lemma_id": "her",
+          "form_id": "her-invariant",
+          "sense_id": "her-1",
+          "analysis": {
+            "invariant": true,
+            "part_of_speech": "adverb"
+          },
+          "contextual_analysis": {
+            "invariant": true,
+            "part_of_speech": "adverb"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 8,
+          "literal": "Gode",
+          "surface": "Gode",
+          "lemma_id": "god",
+          "form_id": "god-dat-sg",
+          "sense_id": "god-1",
+          "analysis": {
+            "case": "dative",
+            "number": "singular",
+            "gender": "masculine"
+          },
+          "contextual_analysis": {
+            "case": "dat",
+            "number": "sg"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
+          "amendment_id": "U17-A02"
+        },
+        {
+          "token_index": 9,
+          "literal": "swā",
+          "surface": "swā",
+          "lemma_id": "swa",
+          "form_id": "swa-invariant",
+          "sense_id": "swa-equative-degree",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
+          "amendment_id": "U17-A02"
+        },
+        {
+          "token_index": 10,
+          "literal": "gecwēme",
+          "surface": "gecwēme",
+          "lemma_id": "gecweme",
+          "form_id": "gecweme-u17-nom-m-sg",
+          "sense_id": "gecweme-u17-local-sense",
+          "analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m",
+            "strength": "strong",
+            "degree": "positive"
+          },
+          "contextual_analysis": {
+            "case": "nom",
+            "number": "sg",
+            "gender": "m",
+            "strength": "strong",
+            "degree": "positive"
+          },
+          "form_status": "supplied",
+          "sense_status": "supplied",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "visible_reference_position",
+          "reference_route_ids": [
+            "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+          ],
+          "independent_recall_assessment": false,
+          "form_assessment_role": "visible_reference_position",
+          "sense_reference_route_ids": [
+            "EX-XII-XIII-43-15-LEXICAL-HELP-010"
+          ],
+          "sense_assessment_role": "visible_reference_position",
+          "local_support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
+          "amendment_id": "U17-A02"
+        },
+        {
+          "token_index": 11,
+          "literal": "sīe",
+          "surface": "sīe",
+          "lemma_id": "wesan",
+          "form_id": "wesan-present-subj-3-sg",
+          "sense_id": "wesan-be",
+          "analysis": {
+            "tense": "present",
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular"
+          },
+          "contextual_analysis": {
+            "mood": "subjunctive",
+            "person": 3,
+            "number": "singular",
+            "tense": "present"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "Explicit grammar occurrence audit",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 12,
+          "literal": "swā",
+          "surface": "swā",
+          "lemma_id": "swa",
+          "form_id": "swa-invariant",
+          "sense_id": "swa-equative-standard",
+          "analysis": {
+            "inflection": "invariant"
+          },
+          "contextual_analysis": {
+            "inflection": "invariant"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        },
+        {
+          "token_index": 13,
+          "literal": "hē.",
+          "surface": "hē",
+          "lemma_id": "he",
+          "form_id": "he-m-nom-sg",
+          "sense_id": "he-1",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "m",
+            "case": "nominative"
+          },
+          "contextual_analysis": {
+            "source_analysis": "nominative masculine singular subject"
+          },
+          "form_status": "previously_taught",
+          "sense_status": "previously_taught",
+          "context_review_basis": "We all nominative plural say a content clause. No man is masculine nominative singular; God dative with acceptable. So/as mark equal degree and standard, and he nominative supplies the standard subject.",
+          "assessment_role": "independent_production",
+          "reference_route_ids": [],
+          "independent_recall_assessment": true,
+          "form_assessment_role": "independent_production",
+          "sense_reference_route_ids": [],
+          "sense_assessment_role": "independent_production"
+        }
+      ],
+      "assessment_precedence": "U17-A02 canonical task tokens and output reference positions supersede original proposal assessment roles only; the archived model text and lexical identities are unchanged."
     },
     {
       "source_item_id": "EX-XII-XIII-43-16",
@@ -257382,10 +260442,12 @@
       "teaching_id": "U17-SUP-BETWEOX-INVARIANT",
       "kind": "visible_local_lexical_help",
       "form_ids": [
-        "betweox-u17-invariant"
+        "betweox-u17-invariant",
+        "wif-dat-pl"
       ],
       "sense_ids": [
-        "betweox-u17-local-sense"
+        "betweox-u17-local-sense",
+        "wif-woman"
       ],
       "source_items": [
         "40.1"
@@ -257393,12 +260455,18 @@
       "evidence_refs": [
         "U17-EX-P40",
         "U17-FB-P278",
-        "U17-EX-P25"
+        "U17-EX-P25",
+        "U17P-FB186"
       ],
       "knowledge_status": "supplied",
-      "description": "betwēox wīfum: among women; supplied preposition with dative plural.",
-      "scope_note": "Supply this exact form and meaning visibly with the task. No complete new nominal/adjectival system or independent recall is claimed.",
-      "lesson_placement": "Print immediately with each named task or reading occurrence; no independent recall."
+      "description": "Among women. Wīfum is dative plural after betwēox in this expression. Keep the whole phrase available; its government is supplied here.",
+      "scope_note": "Use only this visibly supplied expression in the named tasks; no independent recall or general constructional production is assigned.",
+      "lesson_placement": "Print immediately with each named task or reading occurrence; no independent recall.",
+      "support_span": "betwēox wīfum",
+      "amendment_id": "U17-A02",
+      "feature_ids": [
+        "u17-supplied-betweox-dative"
+      ]
     },
     {
       "teaching_id": "U17-SUP-HEONAN-FORTH-INVARIANT",
@@ -257760,31 +260828,44 @@
       "teaching_id": "U17-SUP-TOGEANES-INVARIANT",
       "kind": "visible_local_lexical_help",
       "form_ids": [
-        "togeanes-u17-invariant"
+        "togeanes-u17-invariant",
+        "he-m-dat-sg"
       ],
       "sense_ids": [
-        "togeanes-u17-local-sense"
+        "togeanes-u17-local-sense",
+        "he-1"
       ],
       "source_items": [
         "43.13"
       ],
       "evidence_refs": [
         "U17-FB-P316",
-        "U17-EX-P28"
+        "U17-EX-P28",
+        "U17P-FB184",
+        "U17G-FB106"
       ],
       "knowledge_status": "supplied",
-      "description": "him tōgēanes: towards him, to meet him. The personal complement is dative; supply this whole expression.",
-      "scope_note": "Supply this exact form and meaning visibly with the task. No complete new nominal/adjectival system or independent recall is claimed.",
-      "lesson_placement": "Print immediately with each named task or reading occurrence; no independent recall."
+      "description": "Toward him; to meet him. Him is the dative complement, with tōgēanes placed after it. Keep the whole expression available.",
+      "scope_note": "Use only this visibly supplied expression in the named tasks; no independent recall or general constructional production is assigned.",
+      "lesson_placement": "Print immediately with each named task or reading occurrence; no independent recall.",
+      "support_span": "him tōgēanes",
+      "amendment_id": "U17-A02",
+      "feature_ids": [
+        "u17-supplied-togeanes-dative"
+      ]
     },
     {
       "teaching_id": "U17-SUP-GECWEME-NOM-M-SG",
       "kind": "visible_local_lexical_help",
       "form_ids": [
-        "gecweme-u17-nom-m-sg"
+        "gecweme-u17-nom-m-sg",
+        "god-dat-sg",
+        "swa-invariant"
       ],
       "sense_ids": [
-        "gecweme-u17-local-sense"
+        "gecweme-u17-local-sense",
+        "god-1",
+        "swa-equative-degree"
       ],
       "source_items": [
         "43.15"
@@ -257793,12 +260874,19 @@
         "U17-EX-P37",
         "U17-FB-P291",
         "U17-FB-P40",
-        "U17-EX-P28"
+        "U17-EX-P28",
+        "U17P-FB184",
+        "U17G-FB95"
       ],
       "knowledge_status": "supplied",
-      "description": "Gode swā gecwēme: so acceptable to God. Gecwēme is a strong nominative masculine singular predicate; Gode supplies the person to whom acceptable.",
-      "scope_note": "Supply this exact form and meaning visibly with the task. No complete new nominal/adjectival system or independent recall is claimed.",
-      "lesson_placement": "Print immediately with each named task or reading occurrence; no independent recall."
+      "description": "So acceptable to God. Gode is dative, naming the person to whom acceptable; gecwēme is the strong masculine nominative singular predicate adjective. The degree word swā stands between them. Keep the whole expression available.",
+      "scope_note": "Use only this visibly supplied expression in the named tasks; no independent recall or general constructional production is assigned.",
+      "lesson_placement": "Print immediately with each named task or reading occurrence; no independent recall.",
+      "support_span": "Gode swā gecwēme",
+      "amendment_id": "U17-A02",
+      "feature_ids": [
+        "u17-supplied-gecweme-dative"
+      ]
     },
     {
       "teaching_id": "U17-SUP-ENDLEOFAN-INVARIANT",
@@ -259814,6 +262902,38 @@
       "origin_category": "new teaching material",
       "knowledge_status": "previously_taught",
       "lesson_placement": "Stage 1, before the corresponding analysis/production task."
+    },
+    {
+      "teaching_id": "NEW-U17-GRAM-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+      "kind": "supplied_whole_frame",
+      "form_ids": [
+        "cwethan-present-participle-source",
+        "thus-invariant-source"
+      ],
+      "sense_ids": [
+        "cwethan-1",
+        "thus-thus-source"
+      ],
+      "feature_ids": [
+        "u17-supplied-accompanying-speech"
+      ],
+      "knowledge_status": "supplied",
+      "source_items": [
+        "42.5",
+        "42.8"
+      ],
+      "lesson_placement": "Beside each named Cook item, before its requested response; help stays visible.",
+      "description": "Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available.",
+      "support_span": "ðus cweðende",
+      "scope_note": "Use only this visibly supplied expression in the named tasks; no independent recall or general constructional production is assigned.",
+      "amendment_id": "U17-A02",
+      "evidence_refs": [
+        "U17P-FB195",
+        "U07-C-READ126",
+        "U17G-FB100",
+        "U17-EX-P27",
+        "U17-EX-P28"
+      ]
     }
   ],
   "new_material_examples": [
@@ -323117,6 +326237,116 @@
       "token_end_one_based": 83,
       "exact_span": "gefēoll on swēgcræft",
       "scope_note": "This complete visible reading expression only; no independent recall."
+    },
+    {
+      "feature_id": "u17-supplied-betweox-dative",
+      "label": "Among women: supplied betwēox phrase",
+      "description": "Among women. Wīfum is dative plural after betwēox in this expression. Keep the whole phrase available; its government is supplied here.",
+      "scope_note": "Use only this visibly supplied expression in the named tasks; no independent recall or general constructional production is assigned.",
+      "knowledge_status": "supplied",
+      "teaching_ids": [
+        "U17-SUP-BETWEOX-INVARIANT"
+      ],
+      "evidence_refs": [
+        "U17P-FB186",
+        "U17-FB-P278",
+        "U17-EX-P25"
+      ],
+      "source_items": [
+        "40.1"
+      ],
+      "used_in_tasks": [
+        "EX-XII-XIII-40-01"
+      ],
+      "assessed_in": [],
+      "exact_span": "betwēox wīfum",
+      "amendment_id": "U17-A02",
+      "origin_category": "new teaching material",
+      "evidence_application": "Applies the dative betweox frame attested at186.12 to the already taught dative plural wīfum. Selected betwēox quantity follows glossary278; the whole phrase is new teaching support, not a quotation of186.12."
+    },
+    {
+      "feature_id": "u17-supplied-accompanying-speech",
+      "label": "Thus saying: supplied accompanying participle",
+      "description": "Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available.",
+      "scope_note": "Use only this visibly supplied expression in the named tasks; no independent recall or general constructional production is assigned.",
+      "knowledge_status": "supplied",
+      "teaching_ids": [
+        "NEW-U17-GRAM-U17-SUPPLIED-ACCOMPANYING-SPEECH"
+      ],
+      "evidence_refs": [
+        "U17P-FB195",
+        "U07-C-READ126",
+        "U17G-FB100",
+        "U17-EX-P27",
+        "U17-EX-P28"
+      ],
+      "source_items": [
+        "42.5",
+        "42.8"
+      ],
+      "used_in_tasks": [
+        "EX-XII-XIII-42-05",
+        "EX-XII-XIII-42-08"
+      ],
+      "assessed_in": [],
+      "exact_span": "ðus cweðende",
+      "amendment_id": "U17-A02",
+      "origin_category": "new teaching material",
+      "evidence_application": "The expression and accompanying-speech use are directly attested at195.3–4 and126.11. Applying cweðende to the exercise plural subjects uses the already evidenced participial morphology/agreement; no general productive accompanying-participle construction is added."
+    },
+    {
+      "feature_id": "u17-supplied-togeanes-dative",
+      "label": "Toward him: supplied postposed tōgēanes",
+      "description": "Toward him; to meet him. Him is the dative complement, with tōgēanes placed after it. Keep the whole expression available.",
+      "scope_note": "Use only this visibly supplied expression in the named tasks; no independent recall or general constructional production is assigned.",
+      "knowledge_status": "supplied",
+      "teaching_ids": [
+        "U17-SUP-TOGEANES-INVARIANT"
+      ],
+      "evidence_refs": [
+        "U17P-FB184",
+        "U17G-FB106",
+        "U17-FB-P316",
+        "U17-EX-P28"
+      ],
+      "source_items": [
+        "43.13"
+      ],
+      "used_in_tasks": [
+        "EX-XII-XIII-43-13"
+      ],
+      "assessed_in": [],
+      "exact_span": "him tōgēanes",
+      "amendment_id": "U17-A02",
+      "origin_category": "new teaching material",
+      "evidence_application": "Uses the same-lexeme dative frame tōgēanes ðǣm cyninge at184.7 with taught dative him; postposition follows Cook§201 on106. This exercise phrase is a declared application, not a verbatim184.7 quotation."
+    },
+    {
+      "feature_id": "u17-supplied-gecweme-dative",
+      "label": "So acceptable to God: supplied dative adjective frame",
+      "description": "So acceptable to God. Gode is dative, naming the person to whom acceptable; gecwēme is the strong masculine nominative singular predicate adjective. The degree word swā stands between them. Keep the whole expression available.",
+      "scope_note": "Use only this visibly supplied expression in the named tasks; no independent recall or general constructional production is assigned.",
+      "knowledge_status": "supplied",
+      "teaching_ids": [
+        "U17-SUP-GECWEME-NOM-M-SG"
+      ],
+      "evidence_refs": [
+        "U17P-FB184",
+        "U17G-FB95",
+        "U17-FB-P291",
+        "U17-EX-P28"
+      ],
+      "source_items": [
+        "43.15"
+      ],
+      "used_in_tasks": [
+        "EX-XII-XIII-43-15"
+      ],
+      "assessed_in": [],
+      "exact_span": "Gode swā gecwēme",
+      "amendment_id": "U17-A02",
+      "origin_category": "new teaching material",
+      "evidence_application": "Applies the attested Dianan swā gecwēme frame at184.9–10, whose note5 explicitly cites dative-adjective§165, to taught Gode. The form and masculine predicate follow the selected model; this is declared teaching support, not a quotation of184."
     }
   ],
   "prior_requirements": {
@@ -360021,6 +363251,66 @@
       "checked_by": "coordinator",
       "method": "Actual original-detail view_image inspection",
       "claim": "The list of adjectives declined like wilde explicitly includes nīewe, nīwe (§90), new."
+    },
+    "U17P-FB184": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 184,
+      "pdf_page_one_based": 200,
+      "page_convention": "One-based PDF page = printed page +16",
+      "original_identifier": "184.7, 184.9–10 and original note 5",
+      "line_convention": "Editorial physical-line counting anchored by printed marginal multiples of five.",
+      "image_path": "build/u17-paradigms-fb-p184.png",
+      "image_sha256": "cd60487f2d92437b3a42cd9cfbfdb422bbca2ed3f9682c5dd5bac3e313f752bf",
+      "origin_category": "exact source image",
+      "actually_inspected": true,
+      "inspected_by": [
+        "unit17_paradigms",
+        "root"
+      ],
+      "inspection_date": "2026-10-28",
+      "inspection_method": "Actual view_image inspection; original page text and note inspected.",
+      "verification_observations": "Line7 cōm tōgēanes ðǣm cyninge has an unequivocal dative complement. Lines9–10 Dianan swā gecwēme has original note5 See165, identifying adjective+dative government.",
+      "scope_limit": "Evidence for the named construction. The exercise support remains declared teaching material using its independently checked model; it is not a verbatim quotation of this different passage."
+    },
+    "U17P-FB186": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 186,
+      "pdf_page_one_based": 202,
+      "page_convention": "One-based PDF page = printed page +16",
+      "original_identifier": "186.12",
+      "line_convention": "Editorial physical-line counting anchored by printed marginal multiples of five.",
+      "image_path": "build/u17-paradigms-fb-p186.png",
+      "image_sha256": "98b63ab8de9e8f2ec3b1c6015c437bcacf3705c0195ad07f9d401c0d726f132c",
+      "origin_category": "exact source image",
+      "actually_inspected": true,
+      "inspected_by": [
+        "unit17_paradigms",
+        "root"
+      ],
+      "inspection_date": "2026-10-28",
+      "inspection_method": "Actual view_image inspection; original page text and note inspected.",
+      "verification_observations": "Betweox ðǣm cyning and ðǣm folce occurs in the account of the feast; the demonstratives and folce establish dative complements. This source writes unmarked betweox; the selected betwēox length is separately evidenced in Cook glossary278.",
+      "scope_limit": "Evidence for the named construction. The exercise support remains declared teaching material using its independently checked model; it is not a verbatim quotation of this different passage."
+    },
+    "U17P-FB195": {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 195,
+      "pdf_page_one_based": 211,
+      "page_convention": "One-based PDF page = printed page +16",
+      "original_identifier": "195.3–4",
+      "line_convention": "Editorial physical-line counting anchored by printed marginal multiples of five.",
+      "image_path": "build/u17-paradigms-fb-p195.png",
+      "image_sha256": "d843f3185700ab938f59e941527ee21c1640f168c29d819219a7c1186bb5996b",
+      "origin_category": "exact source image",
+      "actually_inspected": true,
+      "inspected_by": [
+        "unit17_paradigms",
+        "root"
+      ],
+      "inspection_date": "2026-10-28",
+      "inspection_method": "Actual view_image inspection; original page text and note inspected.",
+      "verification_observations": "God hīe geblētsode ðā, ðus cweðende tō ðǣm fiscum accompanies blessing and introduces speech. The source subject is singular; application to the plural exercise subjects is declared grammatical adaptation, not a claim of verbatim plural attestation.",
+      "scope_limit": "Evidence for the named construction. The exercise support remains declared teaching material using its independently checked model; it is not a verbatim quotation of this different passage."
     }
   },
   "analysis_inputs": [
@@ -360677,7 +363967,7 @@
     "typeset": "oec-u17-typeset",
     "finish": "oec-u17-finish"
   },
-  "review_status": "not_yet_drafted",
+  "review_status": "accepted_pre_export",
   "amendments": [
     {
       "amendment_id": "U17-A01",
@@ -360702,7 +363992,103 @@
         "Sealed audit/proposal packets and original witnesses"
       ],
       "contract_raw_sha256_before": "c5936ec572048ccf2fbd75dc84fdca0ea85e389a411d4cb3b64e5083f6aef224",
-      "review_status": "requires_independent_verification"
+      "review_status": "verified_by_independent_review",
+      "review_record": "chapters/ch17/review.md"
+    },
+    {
+      "amendment_id": "U17-A02",
+      "date": "2026-10-28",
+      "stage": "independent_review",
+      "original_contract_checkpoint": "6fc6fc1",
+      "complete_drafts_checkpoint": "259b14f",
+      "independent_solutions_checkpoint": "ed28a8e",
+      "coordinator": "root",
+      "reported_by": "unit17_blind",
+      "findings": [
+        "B17-01",
+        "B17-02",
+        "B17-03",
+        "B17-04"
+      ],
+      "reason": "Four unfamiliar constructions were not fully supplied in learner help and task bindings. Supply complete phrases with their case/role, retaining all source prompts and model text.",
+      "specification": "chapters/ch17/support-amendment-spec.json",
+      "history": "chapters/ch17/support-amendment-history.json",
+      "changes": [
+        {
+          "task_id": "EX-XII-XIII-40-01",
+          "feature_id": "u17-supplied-betweox-dative",
+          "support_id": "EX-XII-XIII-40-01-LEXICAL-HELP-024",
+          "exact_help_text": "betwēox wīfum",
+          "reference_positions": [
+            24,
+            25
+          ],
+          "meaning_and_analysis": "Among women. Wīfum is dative plural after betwēox in this expression. Keep the whole phrase available; its government is supplied here."
+        },
+        {
+          "task_id": "EX-XII-XIII-42-05",
+          "feature_id": "u17-supplied-accompanying-speech",
+          "support_id": "EX-XII-XIII-42-05-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "exact_help_text": "ðus cweðende",
+          "reference_positions": [
+            12,
+            13
+          ],
+          "meaning_and_analysis": "Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available."
+        },
+        {
+          "task_id": "EX-XII-XIII-42-08",
+          "feature_id": "u17-supplied-accompanying-speech",
+          "support_id": "EX-XII-XIII-42-08-HELP-U17-SUPPLIED-ACCOMPANYING-SPEECH",
+          "exact_help_text": "ðus cweðende",
+          "reference_positions": [
+            23,
+            24
+          ],
+          "meaning_and_analysis": "Thus saying. The present participle accompanies the angels in 42.5 or the soldiers in 42.8 and introduces their words; it is not another finite verb. Keep this whole accompanying-speech expression available."
+        },
+        {
+          "task_id": "EX-XII-XIII-43-13",
+          "feature_id": "u17-supplied-togeanes-dative",
+          "support_id": "EX-XII-XIII-43-13-LEXICAL-HELP-011",
+          "exact_help_text": "him tōgēanes",
+          "reference_positions": [
+            10,
+            11
+          ],
+          "meaning_and_analysis": "Toward him; to meet him. Him is the dative complement, with tōgēanes placed after it. Keep the whole expression available."
+        },
+        {
+          "task_id": "EX-XII-XIII-43-15",
+          "feature_id": "u17-supplied-gecweme-dative",
+          "support_id": "EX-XII-XIII-43-15-LEXICAL-HELP-010",
+          "exact_help_text": "Gode swā gecwēme",
+          "reference_positions": [
+            8,
+            9,
+            10
+          ],
+          "meaning_and_analysis": "So acceptable to God. Gode is dative, naming the person to whom acceptable; gecwēme is the strong masculine nominative singular predicate adjective. The degree word swā stands between them. Keep the whole expression available."
+        }
+      ],
+      "contract_raw_sha256_before": "cd41872f59da02d616db32b5371e034e5334adb067f997e69b9554060be6adbc",
+      "unchanged": [
+        "All source prompts and models",
+        "All 110 systems / 1234 cells",
+        "Reading and original notes",
+        "Frozen blind witness",
+        "Sealed source/proposal packets",
+        "Earlier chapters and all prior register milestones"
+      ],
+      "review_status": "verified_by_independent_review",
+      "verification_refinements": [
+        {
+          "record": "chapters/ch17/support-amendment-history.json#verification_refinements",
+          "reason": "Explicit plural occurrence analysis for accompanying cweðende and direct support-route links for each newly supplied token. Preserve original form analysis and all surfaces.",
+          "reported_by": "unit17_paradigms"
+        }
+      ],
+      "review_record": "chapters/ch17/review.md"
     }
   ],
   "validation_at_contract": {
@@ -371566,7 +374952,7 @@
     "feature": {
       "new_production": 15,
       "previously_taught": 1,
-      "supplied": 43,
+      "supplied": 47,
       "new_recognition": 1
     }
   },
@@ -371581,7 +374967,7 @@
     },
     "feature": {
       "reused_prior_IDs": 1,
-      "new_IDs": 59
+      "new_IDs": 63
     }
   },
   "review_independence": {
@@ -371610,5 +374996,114 @@
     "requested_output_positions": 146,
     "morphology_output_positions": 21,
     "single_cell_form_output_positions": 3
+  },
+  "contract_checkpoint": "6fc6fc1",
+  "complete_drafts_checkpoint": "259b14f",
+  "independent_solutions_checkpoint": "ed28a8e",
+  "textual_review": {
+    "status": "accepted",
+    "reviewer": "unit17_blind",
+    "record": "chapters/ch17/review.md",
+    "ledger": "chapters/ch17/review-ledger.json",
+    "review_record_sha256": "5630e378b22847f60bd1294b26807341b6714fa7717db7beb2cf1a2ab56cc8fc",
+    "review_ledger_sha256": "f8c70a5dec0530ab1f6dcb6879277472e5508e6a73e003e5236a0826ba1a7cf5",
+    "accepted_artifacts": {
+      "student.md": {
+        "sha256": "f387f880e0423dd8c6adddf9765cba7b05d10bbe3850fc8593045fcfeec9d05a",
+        "sha256_normalized_lf": "f387f880e0423dd8c6adddf9765cba7b05d10bbe3850fc8593045fcfeec9d05a"
+      },
+      "answer-key.md": {
+        "sha256": "c6710364dde62f50c01f7bfeab57fd6ed813dddaa13d6860cfd55e75b5b2a81d",
+        "sha256_normalized_lf": "c6710364dde62f50c01f7bfeab57fd6ed813dddaa13d6860cfd55e75b5b2a81d"
+      },
+      "independent-solutions.md": {
+        "sha256": "32d031c180ea67429cf2772ffc1e009596f82eb8c1851c8c8a93375d88985a36",
+        "sha256_normalized_lf": "32d031c180ea67429cf2772ffc1e009596f82eb8c1851c8c8a93375d88985a36"
+      }
+    },
+    "counts": {
+      "tasks": 103,
+      "requested_output_positions": 146,
+      "attempted_before_key": 146,
+      "cook_items_and_models": 82,
+      "complete_reading_divisions": 3,
+      "original_reading_notes": 19,
+      "original_reading_note_anchors": 20,
+      "material_open_findings": 0,
+      "primary_images_personally_viewed": 28,
+      "assessed_record_routes_checked": 2069,
+      "cook_model_tokens_checked": 1095
+    },
+    "accepted_contract_semantic_identity": {
+      "keys": [
+        "analysis_inputs",
+        "archive_tree_sha256",
+        "assigned_items",
+        "audit_recommendation_precedence",
+        "audited_inflection_rules",
+        "authoring_rules",
+        "bounded_scope",
+        "brief",
+        "chapter_id",
+        "contract_date",
+        "contract_metrics",
+        "contract_prepared_before_prose",
+        "contract_reconciliation_notes",
+        "deferred_source_items",
+        "display_plan",
+        "evidence_catalog",
+        "excluded_source_items",
+        "explicit_scope_metrics",
+        "form_identity_reconciliation",
+        "grammar_inventory",
+        "issues",
+        "key_item_ids",
+        "lexical_frames",
+        "lexical_inventory",
+        "new_compositions",
+        "new_material_examples",
+        "paradigms",
+        "pre_key_review_exclusions",
+        "prerequisite_chapters",
+        "principal_parts",
+        "prior_checkpoint",
+        "prior_files",
+        "prior_files_lf_sha256",
+        "prior_requirements",
+        "prior_state_record",
+        "prior_teaching_boundary",
+        "productive_outcomes",
+        "recognition_outcomes",
+        "record_counts_by_scope",
+        "record_identity_counts",
+        "review_independence",
+        "review_independence_protocol",
+        "schema_version",
+        "source_alias_assignments",
+        "source_assignment_policy",
+        "source_proposal_identity_reconciliation",
+        "source_spans",
+        "source_task_crosswalk",
+        "study_sequence",
+        "teaching_order_rule",
+        "teaching_records",
+        "title",
+        "validation_at_contract"
+      ],
+      "sha256": "402ff55c715545d88c23663d77ccb1963d24d0dc072acf566c1b31b25d39fc28"
+    },
+    "accepted_contract_artifact_at_review": {
+      "sha256": "c950af9623d38584c23730bc6c7ae1d4fc685fcc22015bf6ae0e47e0fb405056",
+      "sha256_normalized_lf": "c950af9623d38584c23730bc6c7ae1d4fc685fcc22015bf6ae0e47e0fb405056"
+    },
+    "identity_scope_note": "Both masters, frozen blind solutions, and substantive contract content are identified. Subsequent completion metadata does not alter accepted teaching.",
+    "independent_solutions_checkpoint": "ed28a8e",
+    "independence": "Fresh non-author solved all contracted actual learner tasks before key/private-audit access; coordinator froze the witness in Git before unlocking comparison. A separate fresh non-author checked every paradigm and display route against primary evidence.",
+    "fresh_review": {
+      "record": "chapters/ch17/reviews/paradigms.json",
+      "sha256": "1f8809a7a681958c53adf05e6710846bc4bb2937394e6df43b7b99d5e0ea7f1f"
+    },
+    "material_open_findings": 0,
+    "scope_limit": "Complete exports, every-page visual inspection and register integration remain separate gates."
   }
 }
