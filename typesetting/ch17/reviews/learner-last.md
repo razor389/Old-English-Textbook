@@ -1,0 +1,9 @@
+Final v2 learner pages **49–94 pass** independent visual presentation review. I freshly inspected all 46 complete 150 dpi images in `learner-v2` using `view_image` with original detail. No material layout defect was found.
+
+The current PDF is [chapter-17.pdf](../build/chapter-17.pdf), SHA-256 `3e3d7adf2aefdf6044b67c04cc5ed0603069e1e1101507b98c7fa34b6d25cbe2`. Its actual hash and every assigned image hash match [the final render manifest](../build/render-manifest-final.json). [The page ledger](learner-last.json) records a fresh, concrete observation and verified identity for each page 49–94 exactly once.
+
+Tables and their headers align; Old English letters and length marks remain readable; page edges, running headers and folios are clear. Exercise labels stay with their prompts, and longer help blocks continue intelligibly. Reading pages 84–85 retain all 20 visibly attached note anchors, including P174N12a and both P174N17 anchors. All 19 distinct original notes on pages 93–94 have readable labels and text, including the longer Latin passages.
+
+Two earlier page-break repairs reduced the learner PDF from 96 to 94 pages. All 46 same-number images in this range differ from v1, and no prior image inspection was reused. The ledger's `prior_versions` preserves the complete accepted v1 ledger and original review note. The retained [v1 PDF](../build/chapter-17-v1.pdf) has its original SHA-256 `5c49844bbb2f6cb3cce0fbb7db0e0e73e6ff88481ff321a5f286156c7b0c5cbe`; every previously inspected v1 image also retains its recorded hash.
+
+This final review covers **46 learner pages only**, within the 94-page learner PDF. It does not claim inspection of current learner pages 1–48 or the 45-page answer key, nor acceptance of the complete 139-page project. Accepted text, contracts and registers were not edited.

@@ -285,13 +285,13 @@ def assemble(master, stem, title):
                 audit['paragraphs'].append({'id':pid,'kind':'list_item','text':item})
             out += [r'\end{itemize}', '']
         elif kind in ('paragraph', 'quote'):
-            if stem=='chapter-17' and re.match(r'^\*\*[^*]+\*\* — ',body):
+            if stem=='chapter-17' and not intro_open and re.match(r'^\*\*[^*]+\*\* — ',body):
                 following = [b for b in bs[idx+1:] if b[0] != 'comment'][:3]
                 table_at = next((j for j,b in enumerate(following) if b[0]=='table'),None)
                 if table_at is not None and all(b[0]=='paragraph' for b in following[:table_at]) and len(following[table_at][1])<=10:
                     # The descriptor and stem rule travel with the first complete
                     # small matrix. Adjectival plural panels may follow naturally.
-                    assert not intro_open and not task_open
+                    assert not intro_open and not task_open, (idx, body, intro_open, task_open)
                     out.append(r'\par\begin{minipage}{\linewidth}\raggedright')
                     intro_open = True
             if not task_open and not intro_open and idx != heading_kept_paragraph:

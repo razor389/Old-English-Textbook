@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch17",
   "title": "Connected exposition, praise and figurative language",
-  "status": "text_accepted_exports_pending",
+  "status": "reviewed_complete",
   "contract_date": "2026-10-28",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -363967,7 +363967,7 @@
     "typeset": "oec-u17-typeset",
     "finish": "oec-u17-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_text_and_exports",
   "amendments": [
     {
       "amendment_id": "U17-A01",
@@ -364176,9 +364176,18 @@
     }
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "date": "2026-10-28",
+    "register_integration": "chapters/ch17/register-integration.json",
+    "presentation_review": "typesetting/ch17/page-review.json",
+    "learner_pdf": "typesetting/ch17/chapter-17.pdf",
+    "key_pdf": "typesetting/ch17/answer-key.pdf",
+    "all_assigned_tasks_reviewed": 103,
+    "all_cook_items_retained": 82,
+    "next_unit_policy": "Unit18 remains undrafted; begin only when requested.",
+    "checkpoint_note": "Completion files and Beads export are saved locally; final handoff records the resulting revision."
   },
   "review_independence_protocol": {
     "schema_version": 1,
@@ -375105,5 +375114,33 @@
     },
     "material_open_findings": 0,
     "scope_limit": "Complete exports, every-page visual inspection and register integration remain separate gates."
+  },
+  "accepted_text_checkpoint": "a137171",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch17/page-review.json",
+    "record_sha256": "fbff0ad7776deb090da150798a2f4429caf4a86f46b4ee9982d8f227e27c9698",
+    "page_totals": {
+      "learner": 94,
+      "key": 45,
+      "total": 139
+    },
+    "complete_content_parity": "typesetting/ch17/content-parity.json",
+    "every_page_inspected_by_non_author": true,
+    "unresolved_findings": [],
+    "documents": [
+      {
+        "kind": "learner",
+        "path": "typesetting/ch17/chapter-17.pdf",
+        "sha256": "3e3d7adf2aefdf6044b67c04cc5ed0603069e1e1101507b98c7fa34b6d25cbe2",
+        "pages": 94
+      },
+      {
+        "kind": "key",
+        "path": "typesetting/ch17/answer-key.pdf",
+        "sha256": "a16eec4e7eafd929c427507e3b430986256a0d126d1b6c497fcb2cd25daeae42",
+        "pages": 45
+      }
+    ]
   }
 }

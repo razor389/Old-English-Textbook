@@ -1,0 +1,128 @@
+{
+  "unit": "17",
+  "status": "accepted_after_non_author_reinspection",
+  "accepted_text_checkpoint": "a137171",
+  "linguistic_masters_changed": false,
+  "initial_compile": {
+    "chapter-17": {
+      "pages": 96,
+      "overfull_hbox": 0,
+      "overfull_vbox": 0,
+      "log_sha256": "6ae7ba184107fbd1bd560f459da765abbadc8dd07778fee10d236db6b23d0c61"
+    },
+    "answer-key": {
+      "pages": 45,
+      "overfull_hbox": 0,
+      "overfull_vbox": 0,
+      "log_sha256": "efe0e9d1b9fef92dbbfc5cf8185226cbde9a2e3b8c66e462fea3d3bb211bab88"
+    }
+  },
+  "adjustments": [
+    {
+      "area": "learner descriptors sharing a table",
+      "change": "Keep an existing descriptor/table group open across the second description instead of attempting a nested group.",
+      "reason": "The assembly assertion exposed two height descriptions sharing one matrix. Content and table cells remain exact."
+    },
+    {
+      "finding": "U17LF01",
+      "original_pages": [
+        35,
+        36
+      ],
+      "change": "Keep P299–P301 and T81 in one short block; remove its competing internal reservation.",
+      "reason": "Attach the participle heading and rules to the two-form display."
+    },
+    {
+      "finding": "U17LF02",
+      "original_pages": [
+        47,
+        48
+      ],
+      "change": "Keep P388–P390 with the first complete singular panel of T111; later panels remain breakable.",
+      "reason": "Attach participial agreement explanation to the actual forms."
+    },
+    {
+      "finding": "K17-P01",
+      "original_pages": [
+        6,
+        7
+      ],
+      "change": "Keep P094–P096 together and remove the independent model reservation.",
+      "reason": "Prevent the imperative prompt from separating from its answer."
+    },
+    {
+      "finding": "K17-P02",
+      "original_pages": [
+        44,
+        45
+      ],
+      "change": "Keep P543–P544 together.",
+      "reason": "Optional readability improvement for one short prompt and answer."
+    },
+    {
+      "finding": "K17-P03",
+      "version": "key-v2",
+      "original_pages": [
+        8,
+        9
+      ],
+      "change": "Keep P125–P129, the complete short C03 task, in one block and remove competing internal reservations.",
+      "reason": "A reflow had stranded the C03 heading and task before its model."
+    }
+  ],
+  "preserved": "All accepted prose, prompts, models, cells and source notes; 10.5pt table type retained.",
+  "coordinator_direct_spot_checks": [
+    {
+      "path": "typesetting/ch17/build/learner-v1/page-001.png",
+      "sha256": "234f16a5b781cacd2d33eb8119f88dbb3c46b222372de21060fc3661cb304588",
+      "actually_viewed": true,
+      "observations": "Title, opening guidance and first section are readable and attached; text and page furniture are within margins."
+    },
+    {
+      "path": "typesetting/ch17/build/learner-v1/page-096.png",
+      "sha256": "cf04b62ff10a79c381cd3aea6a57d683e5d90033bd1ee6f005e02fe782fe99ad",
+      "actually_viewed": true,
+      "observations": "Remaining original-note labels and Latin parallels are readable; English explanation closes the apparatus with no clipped line or footer collision."
+    }
+  ],
+  "final_compile_diagnostics_before_page_review": {
+    "learner": [],
+    "key": []
+  },
+  "v1_page_repairs_applied": true,
+  "retained_v1_pdfs": {
+    "chapter-17": {
+      "path": "typesetting/ch17/build/chapter-17-v1.pdf",
+      "sha256": "5c49844bbb2f6cb3cce0fbb7db0e0e73e6ff88481ff321a5f286156c7b0c5cbe"
+    },
+    "answer-key": {
+      "path": "typesetting/ch17/build/answer-key-v1.pdf",
+      "sha256": "88d305e08f8699f147023461964b45467497155df08eda137a98bdf2f17037da"
+    }
+  },
+  "v2_key_pdf_retained": "typesetting/ch17/build/answer-key-v2.pdf",
+  "final_page_totals": {
+    "learner": 94,
+    "key": 45,
+    "total": 139
+  },
+  "final_documents": [
+    {
+      "kind": "learner",
+      "path": "typesetting/ch17/chapter-17.pdf",
+      "sha256": "3e3d7adf2aefdf6044b67c04cc5ed0603069e1e1101507b98c7fa34b6d25cbe2",
+      "pages": 94
+    },
+    {
+      "kind": "key",
+      "path": "typesetting/ch17/answer-key.pdf",
+      "sha256": "a16eec4e7eafd929c427507e3b430986256a0d126d1b6c497fcb2cd25daeae42",
+      "pages": 45
+    }
+  ],
+  "final_review_record": "typesetting/ch17/page-review.json",
+  "final_review_record_sha256": "fbff0ad7776deb090da150798a2f4429caf4a86f46b4ee9982d8f227e27c9698",
+  "final_content_parity": "typesetting/ch17/content-parity.json",
+  "all_reported_findings_resolved_or_withdrawn": true,
+  "acceptance_limit": "The identified final exports passed full parity, clean logs and non-author inspection of every page. Individual ledgers preserve the actual inspections, repairs and verified byte-identical reuse."
+}
