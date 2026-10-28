@@ -270,19 +270,21 @@ Iacob cwæð tō his sunum: Gāð and bycgað ūs sumne dǣl mętes.
 
 **Cook’s prompt:** Jacob (Iacob) said to his sons, Go and buy us a certain amount of food (męte).
 
-**Target and explanation:** **Gāð** and **bycgað** are plural commands to the sons. **Ūs** is dative beneficiary, “for us”; **sumne dǣl mętes** is the accusative amount bought, with genitive mętes specifying the food. The amount phrase, not a bare nominative food noun, preserves “a certain amount.” The king’s quoted commands must not become a narrative that the sons already went and bought.
+**Target and explanation:** **Gāð** and **bycgað** are plural commands to the sons. **Ūs** is dative beneficiary, “for us”; **sumne dǣl mętes** is the accusative amount bought, with genitive mętes specifying the food. The amount phrase, not a bare nominative food noun, preserves “a certain amount.” Jacob’s quoted commands must not become a narrative that the sons already went and bought.
 
 ### Cook 44.2
 
 <!-- key: KEY-EX-XII-XIII-44-02 -->
 
-Ðā cwæð Iudas: Ðæs landes ealdor swōr āðas ætforan ūs ðæt wē ne mōsten cuman ætforan hine, būtan wē ūrne gingstan brōðor mid ūs bringen.
+Ðā cwæð Iudas: Ðæs landes ealdor swōr āðas ætforan ūs ðæt wē ne mōsten cuman ætforan him, būtan wē ūrne gingstan brōðor mid ūs bringen.
 
 <!-- output: EX-XII-XIII-44-02-O001 -->
 
 **Cook’s prompt:** Then said Judah (Iudas), The chief of the land swore oaths before us that we should not (mōtan) come before him, except we bring our youngest brother with us.
 
-**Target and explanation:** Judah reports the chief’s oath. **Swōr** is past indicative; **mōsten** is first-plural past subjunctive in the reported prohibition, with plain **cuman**. It concerns permission to appear before the chief, not inability to travel. Supplied conditional **būtan** introduces the exception, and **bringen** keeps the brothers as first-plural subject. **Ūrne gingstan brōðor** is the accusative companion brought; the chief remains singular **hine**.
+**Target and explanation:** Judah reports the chief’s oath. **Swōr** is past indicative; **mōsten** is first-plural past subjunctive in the reported prohibition, with plain **cuman**. It concerns permission to appear before the chief, not inability to travel. Supplied conditional **būtan** introduces the exception, and **bringen** keeps the brothers as first-plural subject. **Ūrne gingstan brōðor** is the accusative companion brought; the chief remains singular **him**, dative after **ætforan** even with **cuman**.
+
+**Supplied construction:** The learner is given **ætforan ūs** and **cuman ætforan him**, both with dative complements. The preposition determines the case; movement alone does not license **hine** here.
 
 ### Cook 44.3
 
@@ -442,6 +444,8 @@ And hē dyde swā him boden wæs.
 
 **Target and explanation:** **Lēof** addresses the steward. **Biddað** is an assertion with wē, “we beseech,” although the spelling can also occur in a command. **Ðē** is the person beseeched; **ðū** is subject of subjunctive **hlyste**, which governs genitive **ūrre sprǣce**. **Bohton ūs hwǣte** means “we bought wheat for ourselves”: ūs is benefactive/reflexive dative, wheat the accusative object. The source gives no instruction to omit “for ourselves.” Confusing the two pronouns’ roles or making the speech accusative misses the assigned government.
 
+**Supplied construction:** **Lēof** means “sir” in this supplied respectful address, and **hwīlum ǣr** means “a while ago.” These bounded uses are given beside the task; they are not tests of the earlier senses “dear” and “sometimes.” A grammatical alternative preserving respectful address and earlier time may also satisfy Cook’s prompt.
+
 ### Cook 45.8
 
 <!-- key: KEY-EX-XII-XIII-45-08 -->
@@ -552,6 +556,8 @@ Hīe lęgdon hiera lāc forð, ongēan ðætte Iosep inēode.
 
 **Target and explanation:** Commanding **bēad** takes dative **his gerēfan**. Singular **gefyl** and **sęte** address that steward. **Mid hwǣte** supplies the sacks’ contents, while **ǣlces hiera feoh** means each one’s money: the money belongs to each brother. **On his āgenne sacc** is the accusative destination, each owner’s own sack. Making all the money belong to the steward or using a static dative for the placement changes the instructions.
 
+**Supplied construction:** The visible frame **Gefyl hiera saccas mid hwǣte** supplies the material construction: **saccas** is accusative plural and **hwǣte** dative singular after **mid**. Do not grade recall of this previously untaught lexical frame.
+
 ### Cook 46.8
 
 <!-- key: KEY-EX-XII-XIII-46-08 -->
@@ -575,6 +581,8 @@ On morgen, ðā hīe fōron, and hīe būtan byrig wǣron, and fōron sumne dǣl
 **Cook’s prompt:** In (om. the) morning, as (ðā) they journeyed, and they were without (om. the) city, and had gone (faran) some part of the way, then said Joseph to (tō) his steward, Arise and go after these men, and when you have (196. b) overtaken [caught] them, then ask them why they would (willan) requite good with (mid) evil.
 
 **Target and explanation:** Retain all three circumstances: they travelled, were outside the city, and had gone part of the way. **Būtan byrig** is the supplied spatial outside phrase; **sumne dǣl ðæs weges** expresses distance travelled, and the simple preterite fōron can convey “had gone.” **Ārīs, gā, āsca** address one steward. Future temporal **ðonne ðū hīe fō** has second-singular present subjunctive, “when you have caught them.” In the indirect why-question, **wolden** is plural past subjunctive and **gōd mid yfele forgieldan** means repay good with evil. The evil is what is given in return.
+
+**Supplied construction:** The fixed phrase **On morgen** is supplied with accusative singular **morgen**. Its temporal case is part of the visible help, not an inference from the earlier numbered-day construction.
 
 ## Cook 47
 
@@ -612,7 +620,7 @@ Sēc hit; and sīe hē ofslægen mid ðǣm ðe ðū hit finde.
 
 **Cook’s prompt:** Look for [seek out] it; and let him be slain (ofslēan) with whom thou findest (195) it.
 
-**Target and explanation:** **Sēc** is a singular command. **Sīe hē ofslægen** is a third-singular wish, “let him be slain”; it is not an instruction that the addressee kill himself. In **mid ðǣm ðe ðū hit finde**, mid governs the dative associate and invariant ðe resumes that person. **Finde** is second-singular present subjunctive in the optative/hypothetical relative under Cook 195. The cup remains accusative hit.
+**Target and explanation:** **Sēc** is a singular command. **Sīe hē ofslægen** is a third-singular wish, “let him be slain”; it is not an instruction that the addressee kill himself. In **mid ðǣm ðe ðū hit finde**, mid governs the dative associate and invariant ðe resumes that person. **Finde** is second-singular present subjunctive in the optative/hypothetical relative under Cook 195. **Hit** is neuter accusative singular here, resuming the alleged stolen gold or silver in 47.2 (both neuter). A version directly resuming masculine **læfel** instead uses **hine**; preserve its reference consistently.
 
 ### Cook 47.4
 
@@ -624,7 +632,7 @@ Sēc hit; and sīe hē ofslægen mid ðǣm ðe ðū hit finde.
 
 **Cook’s prompt:** Then said he, With whomsoever I find it, let him be my servant, and let the others be blameless (clǣne).
 
-**Target and explanation:** The free-choice phrase **mid swā hwǣm swā** identifies whichever person has the cup. **Hē** resumes that person as subject of singular **sīe**. The remaining brothers are plural **ðā ōðre** with **sīen**, and **clǣne** means clear of blame here. “Whoever I find it with” is an equivalent English rendering; making all the brothers guilty or making the indefinite person plural reverses the contrast.
+**Target and explanation:** The free-choice phrase **mid swā hwǣm swā** identifies whichever person has the alleged stolen property; neuter **hit** continues 47.2’s gold/silver reference, while direct reference to **læfel** would use **hine**. **Hē** resumes that person as subject of singular **sīe**. The remaining brothers are plural **ðā ōðre** with **sīen**, and **clǣne** means clear of blame here. “Whoever I find it with” is an equivalent English rendering; making all the brothers guilty or making the indefinite person plural reverses the contrast.
 
 ### Cook 47.5
 
@@ -818,7 +826,7 @@ Dōð swā, ðæt gē ne forweorðen.
 
 **Cook’s prompt:** Do thus, that ye perish not.
 
-**Target and explanation:** **Dōð swā** is a plural command, “do thus.” The following **ðæt gē ne forweorðen** gives its negative purpose, so that they may not perish, with second-plural present subjunctive. The target is manner **swā**, not the object pronoun ðis “this.” An indicative statement that they are already perishing reverses the purpose.
+**Target and explanation:** **Dōð swā** is a plural command, “do thus.” The following **ðæt gē ne forweorðen** gives its negative purpose, so that they may not perish, with second-plural present subjunctive. The target is an adverb of manner: **swā** or **ðus**, not the object pronoun **ðis** “this.” An indicative statement that they are already perishing reverses the purpose.
 
 ### Cook 48.10
 

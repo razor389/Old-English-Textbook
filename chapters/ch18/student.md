@@ -1601,6 +1601,12 @@ Then said Judah (Iudas), The chief of the land swore oaths before us that we sho
 
 **Supplied:** gingstan — youngest; accusative, masculine, singular.
 
+<!-- teaching: NEW-U18-SUP-AETFORAN-DATIVE -->
+
+**Supplied construction:** **ætforan ūs** — Before us. Ūs is dative plural after ætforan.
+
+**Supplied construction:** **cuman ætforan him** — Come before him. Him is dative singular, referring to the chief. Ætforan retains dative government here even with cuman; copy the whole supplied phrase.
+
 <!-- output: EX-XII-XIII-44-02-O001 -->
 
 ### Cook 44.3
@@ -1907,7 +1913,7 @@ When they were there (ðǣr), then they became greatly frightened, and said to o
 
 **(62)** A past participle used predicatively may be uninflected. Thus plural wē can have base lǣded in wē sindon hider in lǣded. No new plural participial ending is required by the prompt.
 
-**(our)** Retain the explicitly requested first-person plural possessor of the stated things; inflect the possessive with the possessed genitive plural nouns.
+**(our)** The parenthesis (our) belongs to the English expression (our)selves, reinforcing the preceding us. In the supplied clause, ūs selfe means ourselves: selfe agrees with accusative plural ūs. This parenthesis does not introduce a possessive modifying the things.
 
 <!-- output: EX-XII-XIII-45-06-O001 -->
 
@@ -1930,6 +1936,14 @@ Then said they to (tō) the steward, O sir, we pray (biddan) thee that thou hear
 **(hwǣte, 44)** The number refers to the noun’s declension. Use the complete hwǣte table in section 2 and its stated stem rule.
 
 **(161; 184. a)** Ūs is the benefactive/reflexive dative: we bought wheat for ourselves. It refers to the buying subject, while wheat is the accusative thing purchased. Retain the phrase; the prompt gives no omission instruction.
+
+<!-- teaching: NEW-U18-SUP-LEOF-ADDRESS -->
+
+**Supplied construction:** **Lēof** — Sir. Lēof is a substantival use of the strong masculine nominative singular adjective in direct address. This respectful address sense is supplied here; the previously taught meaning dear alone does not establish it.
+
+<!-- teaching: NEW-U18-SUP-HWILUM-AER -->
+
+**Supplied construction:** **hwīlum ǣr** — A while ago; formerly. Use hwīlum ǣr as a complete earlier-time expression. Hwīlum here is part of this supplied expression, rather than the frequency meaning sometimes previously learned.
 
 <!-- output: EX-XII-XIII-45-07-O001 -->
 
@@ -2105,6 +2119,10 @@ Then Joseph commanded (bēodan, 164) his steward, and said, Fill their sacks wit
 
 **(on, 172)** On plus accusative gives the destination into his own sack: on his āgenne sacc. The adjective and noun agree as accusative masculine singular.
 
+<!-- teaching: NEW-U18-SUP-GEFYLLAN-MATERIAL -->
+
+**Supplied construction:** **Gefyl hiera saccas mid hwǣte** — Fill their sacks with wheat. Gefyl is a singular command; hiera saccas is the accusative plural container, and mid hwǣte names the material with dative singular hwǣte. This full material-complement frame is supplied here.
+
 <!-- output: EX-XII-XIII-46-07-O001 -->
 
 ### Cook 46.8
@@ -2186,6 +2204,10 @@ In (om. the) morning, as (ðā) they journeyed, and they were without (om. the) 
 **(196. b)** The catching is prospective from the command: when you have caught them, then ask. Cook 196 b permits present subjunctive fō in that future temporal condition; the source’s you is singular here because Joseph addresses one steward. An English perfect does not force an OE perfect auxiliary.
 
 **[caught]** Use the bracketed English as the explicit target wording, preserving the complete sentence and every participant: caught.
+
+<!-- teaching: NEW-U18-SUP-ON-MORGEN -->
+
+**Supplied construction:** **On morgen** — In the morning. Morgen is accusative singular in this fixed temporal expression. Keep the whole phrase available; it does not introduce a general rule for every time expression with on.
 
 <!-- output: EX-XII-XIII-46-09-O001 -->
 

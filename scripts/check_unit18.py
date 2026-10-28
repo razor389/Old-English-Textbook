@@ -153,12 +153,14 @@ def main():
     models={s['owner_id']:s for s in read(modelpath.relative_to(ROOT).as_posix())['sequences']} if modelpath.is_file() else {}
     audited_models={r['item_id']:r['model'] for r in read('sources/audits/unit18-grammar/candidate-models.json')['items']}
     require({tid:s['text'] for tid,s in models.items()}==audited_models,'Ordered Cook model join differs from the reconciled linguistic audit')
+    corrected_model_ids=set()
     if c.get('selected_model_corrections'):
         correction_ref=c['selected_model_corrections']
         require(identity(correction_ref['path'],correction_ref),'Selected model correction record changed')
         correction=read(correction_ref['path'])
         require(identity(correction['source'],{'sha256':correction['source_sha256'],'sha256_normalized_lf':correction['source_sha256_normalized_lf']}),'Original model packet changed')
         original_changes={x['task_id']:x for x in correction['corrections']}
+        corrected_model_ids=set(original_changes)
         require(len(original_changes)==len(correction['corrected_sequences']),'Correction inventory mismatch')
         for seq in correction['corrected_sequences']:
             tid=seq['owner_id'];change=original_changes[tid]
@@ -178,6 +180,9 @@ def main():
             for original,token in zip(s['tokens'],current):
                 for field in ['token_index','literal','surface','lemma_id','form_id','sense_id','analysis']:
                     require(token.get(field)==original.get(field),tid+': amended output changed original '+field)
+                if tid in corrected_model_ids:
+                    for field in ['assessment_role','form_assessment_role','sense_assessment_role','independent_recall_assessment','reference_route_ids','sense_reference_route_ids','local_support_id']:
+                        require(token.get(field)==original.get(field),tid+': operative corrected sequence assessment differs '+field)
                 for kind,field in [('form','reference_output_positions'),('sense','reference_sense_output_positions')]:
                     require((token[kind+'_assessment_role']=='visible_reference_position')==(token['token_index'] in position[field]),tid+': output reference role differs')
     dispositions={}

@@ -1,7 +1,7 @@
 {
   "chapter_id": "ch18",
   "reviewer": "root",
-  "status": "complete_drafts_checked_independent_review_pending",
+  "status": "accepted_independent_text_review",
   "contract_checkpoint": "6874c20e7127fa33c41406d1aa6c0b087e59c824",
   "precontract_review": "sources/audits/unit18-coordinator/reconciliation.json",
   "authoring_amendments": "chapters/ch18/authoring-amendments.json",
@@ -33,18 +33,39 @@
   ],
   "automated_checks": {
     "contract": "pass after U18-A01",
-    "teaching_locations": 253,
+    "teaching_locations": 258,
     "register_dry_run": "pass; active registers unchanged",
     "earlier_active_artifacts_preserved": 3288,
     "archived_files_preserved": 134,
     "complete_drafts": "pass"
   },
-  "independence_limit": "Root and the source, grammar and curriculum authors are author-preparation participants. Their readbacks do not replace the fresh blind solver and separate paradigm reviewer.",
+  "independence_limit": "Root and the source, grammar and design authors do not claim fresh blind independence. A fresh non-author froze every solution at 7846befc2c484e8d3e4ff43346da12bf275f5b08 before explicit comparison access; a separate fresh non-author verified the paradigms.",
   "remaining_gates": [
-    "Complete learner and separate key; coordinator actual readback and draft check",
-    "Fresh solutions frozen unchanged before key access; complete independent paradigm review",
-    "Resolve material findings and accept text",
-    "Complete LuaLaTeX exports, full parity and actual non-author inspection of every page",
-    "Integrate preserved registers, update all indexes, export Beads and commit locally"
-  ]
+    "Produce complete LuaLaTeX exports, full parity and every-page non-author inspection.",
+    "Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally."
+  ],
+  "independent_acceptance": {
+    "record": "chapters/ch18/review.md",
+    "ledger": "chapters/ch18/review-ledger.json",
+    "paradigms": "chapters/ch18/reviews/paradigms.json",
+    "material_open_findings": 0
+  },
+  "accepted_artifact_identities": [
+    {
+      "path": "chapters/ch18/student.md",
+      "raw_sha256": "82b55d7ac1b91b5284e41ba599032959377fa31d7258cfd5b281bccf5118c3d5",
+      "normalized_lf_sha256": "82b55d7ac1b91b5284e41ba599032959377fa31d7258cfd5b281bccf5118c3d5"
+    },
+    {
+      "path": "chapters/ch18/answer-key.md",
+      "raw_sha256": "6370dfd1a9d91d2bf0539d469d710976a88125fa5716d716e552bd4e93aeb033",
+      "normalized_lf_sha256": "6370dfd1a9d91d2bf0539d469d710976a88125fa5716d716e552bd4e93aeb033"
+    },
+    {
+      "path": "chapters/ch18/independent-solutions.md",
+      "raw_sha256": "98608a04e7992a54b13e67e38c4ebfdc490aff520779ba09efc7767288e8cc6a",
+      "normalized_lf_sha256": "98608a04e7992a54b13e67e38c4ebfdc490aff520779ba09efc7767288e8cc6a"
+    }
+  ],
+  "scope_limit": "Independent text and paradigm review accepted. Export inspection and register integration remain separate gates. Earlier draft observations and identities are retained as historical records."
 }
