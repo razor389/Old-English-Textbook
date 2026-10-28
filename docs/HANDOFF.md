@@ -1,6 +1,6 @@
 # Handoff to the next session
 
-The requested Unit 16 is complete. **Units 1–16** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 16 exports and registers are saved at **`edb1bbb`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 16. Unit 17 remains undrafted; begin it only when requested.
+The requested Unit 16 is complete. **Units 1–16** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 16 exports and registers are saved at **`edb1bbb`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 16. Unit 17 is now requested and in source/curriculum audit under its [brief](../curriculum/UNIT_17_BRIEF.md). Root coordinates Beads; three agents own exclusive source, grammar and design packets. The contract must precede prose. The immutable baseline is defa8008f6887a1f5f6afe9db27431d500a03f67; no Unit 17 learner or key prose exists yet.
 
 ## Unit 16 evidence and review
 

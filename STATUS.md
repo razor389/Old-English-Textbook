@@ -1,6 +1,6 @@
 # Status
 
-Updated 27 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–16 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 16 exports and registers are saved at **`edb1bbb`**. Unit 17 remains undrafted.
+Updated 27 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–16 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 16 exports and registers are saved at **`edb1bbb`**. Unit 17 is requested and in source/curriculum audit; its [brief](curriculum/UNIT_17_BRIEF.md) fixes all 82 Cook XII, XIII.37–43 items and the exact 252-word music-performance episode. No Unit 17 learner or key prose exists yet.
 
 ## Completed Unit 16
 
