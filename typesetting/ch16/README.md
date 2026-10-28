@@ -6,7 +6,7 @@ The exports include all 76 tasks / 179 requested outputs, every one of the 59 as
 
 [Full content parity](content-parity.json) verifies 1,146 prose/heading/list blocks, 90 tables and 1,747 table cells including headers. It checks complete Markdown/TeX content and PDF characters; it does not substitute for visual inspection. The final logs have no missing-character, font-substitution, box or rerun warnings. [Layout adjustments](layout-adjustments.json) retain the review and repair history. Cambria and the inherited 165 × 241 mm layout remain in use.
 
-The [contract](../../chapters/ch16/coverage.json) preceded prose at `543e214`. Drafts are saved at `9b75319`, frozen independent solutions at `1bf0e8e`, and accepted text at `bbf014e`. The [independent text review](../../chapters/ch16/review.md) and [separate paradigm review](../../chapters/ch16/reviews/paradigms.json) resolve material findings. Complete exports/registers are saved at `this export checkpoint`.
+The [contract](../../chapters/ch16/coverage.json) preceded prose at `543e214`. Drafts are saved at `9b75319`, frozen independent solutions at `1bf0e8e`, and accepted text at `bbf014e`. The [independent text review](../../chapters/ch16/review.md) and [separate paradigm review](../../chapters/ch16/reviews/paradigms.json) resolve material findings. Complete exports/registers are saved at `edb1bbb`.
 
 [A08](../../chapters/ch16/presentation-proofreading-amendment.json) and its [non-author confirmation](../../chapters/ch16/reviews/presentation-proofreading.json) document eight reference-spacing corrections after the initial accepted text at `effe431`. The accepted export text includes those corrections; no linguistic content changed.
 

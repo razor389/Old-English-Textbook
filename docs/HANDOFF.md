@@ -1,6 +1,6 @@
 # Handoff to the next session
 
-The requested Unit 16 is complete. **Units 1–16** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 16 exports and registers are saved at **`this export checkpoint`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 16. Unit 17 remains undrafted; begin it only when requested.
+The requested Unit 16 is complete. **Units 1–16** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 16 exports and registers are saved at **`edb1bbb`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 16. Unit 17 remains undrafted; begin it only when requested.
 
 ## Unit 16 evidence and review
 
@@ -43,7 +43,7 @@ The canonical crosswalk is **515 assigned / 129 deferred / none excluded**, tota
 | 13 | 40bb0ba | aec6c7f | 85b6911 | c2cb7d6 | 52 / 30 |
 | 14 | 18cfa3a | 5721c5f | a56c403 | 9129cda | 35 / 21 |
 | 15 | ff7f7c8 | 0ec6ae3 | a80bf34 | e1d94be | 64 / 30 |
-| 16 | 543e214 | bbf014e | this export checkpoint | This handoff checkpoint | 67 / 32 |
+| 16 | 543e214 | bbf014e | edb1bbb | This handoff checkpoint | 67 / 32 |
 
 ## Resuming and reproducing
 
