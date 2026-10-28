@@ -235,7 +235,7 @@ def assemble(master, stem, title):
             close_task()
             level, heading = body
             source_notes = heading in ('10. Original source apparatus', 'Sources', 'Source notes', 'Sources and original reading notes', 'Source and editorial notes', 'Sources and editorial notes', 'Source and form notes', 'Cook’s original notes and source information', '13. Cook’s original notes','13. Cook’s original notes and attachments') or heading.endswith('Sources and selected forms')
-            task_heading=bool(re.fullmatch(r'(?:[FACDPRS]\d{2}|Cook (?:XII, XIII|XII,XIII)\.\d+\.\d+)',heading))
+            task_heading=bool(re.fullmatch(r'(?:[FACDPRS]\d{2}|Cook (?:(?:XII, XIII|XII,XIII)\.)?\d+\.\d+)',heading))
             if task_heading:
                 if re.fullmatch(r'[FACR]\d{2}', heading):
                     # Multi-output original tasks may span a page. Keep their
@@ -249,7 +249,7 @@ def assemble(master, stem, title):
                 # Endnotes can follow the final short reading task; do not strand
                 # that task alone on a page merely to force a fresh notes page.
                 out.append(r'\reserve{8\baselineskip}' if stem == 'chapter-17' else r'\clearpage')
-            elif stem == 'answer-key' and (heading in ('Cumulative review','F. Complete forms','F. Complete forms and constructions','R. The bishop and the monk','R. The gymnasium scene','S. The Dangers of Greatness') or re.fullmatch(r'Cook XII, XIII\.\d+',heading)):
+            elif stem == 'answer-key' and (heading in ('Cumulative review','F. Complete forms','F. Complete forms and constructions','R. The bishop and the monk','R. The gymnasium scene','R. The music performance','S. The Dangers of Greatness') or re.fullmatch(r'Cook (?:(?:XII, XIII|XII,XIII)\.)?\d+',heading)):
                 out.append(r'\clearpage')
             else:
                 following = [(j,b) for j,b in enumerate(bs[idx+1:],idx+1) if b[0] != 'comment'][:2]

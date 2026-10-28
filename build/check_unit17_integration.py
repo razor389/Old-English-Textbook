@@ -109,7 +109,8 @@ report = {
     'new_record_status_counts': {k: dict(Counter(r['knowledge_status'] for r in records.values()))
                                  for k, records in proposed.items()},
     'reused_supplied_exposures': reused,
-    'limits': c['bounded_scope'] + ['Earlier source forms supplied again receive exposure history without recognition or production milestones.', 'No Unit 18 work or archived teaching milestone is included.']
+    'bounded_scope': c['bounded_scope'],
+    'limits': ['Earlier source forms supplied again receive exposure history without recognition or production milestones.', 'No Unit 18 work or archived teaching milestone is included.']
 }
 if args.final:
     assert c['textual_review']['status'] == c['presentation_review']['status'] == 'accepted'

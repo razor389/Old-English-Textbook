@@ -1,6 +1,6 @@
 # Status
 
-Updated 28 October 2026. The eighteen-unit outline and complete Cook mapping are settled. **Units 1–16 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 16 exports and registers are saved at **`edb1bbb`**. Unit 17's reconciled [contract](chapters/ch17/coverage.json) is ready for its pre-prose checkpoint: all 82 Cook XII, XIII.37–43 items, 21 original tasks, 146 answer positions, 110 bounded systems with 1,234 literal cells, and the exact 252-word music-performance episode. Source, grammar and design audits are accepted; structural and dependency checks pass. No Unit 17 learner or key prose exists yet. Earlier teaching still comes only from the sixteen complete units and actual registers.
+Updated 28 October 2026. **Units 1–16 remain complete.** Unit 17 has complete learner and separate-key drafts under the contract saved before prose at **6fc6fc1**. All 103 tasks / 146 outputs, 82 Cook prompts, 124 tables / 1,234 literal cells and the exact 252-word reading with19 notes /20 anchors pass structural and dependency checks. Coordinator readback repairs are resolved. Fresh blind solving and final independent display review are next; exports and register integration remain pending. Unit18 remains undrafted.
 
 ## Completed Unit 16
 

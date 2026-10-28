@@ -1,0 +1,56 @@
+{
+  "status": "pass",
+  "role": "key author; not independent reviewer",
+  "contract_checkpoint_authorizing_draft": "6fc6fc1",
+  "contract_amendments_at_check": [
+    {
+      "amendment_id": "U17-A01",
+      "date": "2026-10-28",
+      "stage": "authoring",
+      "original_contract_checkpoint": "6fc6fc1",
+      "coordinator": "root",
+      "reported_by": "unit17_design",
+      "reason": "Separate the cited Old English expression from its modern page/line reference with an ordinary space.",
+      "changes": [
+        {
+          "output_position_id": "NEW-U17-R03-O001",
+          "field": "label",
+          "before": "Classify sōna swā174.8 and explain its time relation.",
+          "after": "Classify sōna swā 174.8 and explain its time relation."
+        }
+      ],
+      "unchanged": [
+        "All Old English source and models",
+        "All English Cook prompts",
+        "Tasks, answer targets, scope, record identities and paradigm cells",
+        "Sealed audit/proposal packets and original witnesses"
+      ],
+      "contract_raw_sha256_before": "c5936ec572048ccf2fbd75dc84fdca0ea85e389a411d4cb3b64e5083f6aef224",
+      "review_status": "requires_independent_verification"
+    }
+  ],
+  "counts": {
+    "tasks": 103,
+    "outputs": 146,
+    "exact_cook_models": 82,
+    "exact_cook_prompts": 82,
+    "original_tasks": 21,
+    "bound_original_oe_outputs": 23,
+    "reading_translation_divisions": 3,
+    "key_whitespace_words": 13253
+  },
+  "checks": [
+    "One distinct key marker per task and output marker per requested response.",
+    "Every exact Cook prompt and its frozen first-paragraph model retained.",
+    "Every original output label and bound OE model retained.",
+    "All six independent witness translation paragraphs present under the three requested divisions.",
+    "Whole Exercise37 instruction and corrected R03 label present.",
+    "NFC and endnote reference checked."
+  ],
+  "hashes": {
+    "chapters/ch17/coverage.json": "cd41872f59da02d616db32b5371e034e5334adb067f997e69b9554060be6adbc",
+    "chapters/ch17/answer-key.md": "337bc8aaf7967d02ad395818827d370943ebf0938a3dbfeca90cee058f0c6f96",
+    "chapters/ch17/key-author-reading-translation-witness.md": "5f1b3c82ede9fdf13df839f9d529a18d83c587e76f117e705519a70a1772e549"
+  },
+  "scope_limit": "This validates author coverage/identity, not linguistic correctness or the unfinished learner draft. Root runs the full check_unit17.py --draft once both manuscripts are ready; final PDF inspection remains required."
+}

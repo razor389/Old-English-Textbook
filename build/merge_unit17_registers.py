@@ -19,7 +19,7 @@ def integrate(old,new):
     old=copy.deepcopy(old or {})
     out=copy.deepcopy(old)
     out.update(copy.deepcopy(new))
-    for name in ['teaching_ids','evidence_refs','used_in_tasks','assessed_in','prerequisite_feature_ids']:
+    for name in ['teaching_ids','evidence_refs','used_in_tasks','assessed_in','prerequisite_feature_ids','support_route_ids','source_reference_ids']:
         if name in old or name in new: out[name]=union(old.get(name,[]),new.get(name,[]))
     out['recognition_taught_in']=old.get('recognition_taught_in') or ('ch17' if new['knowledge_status'] in ['new_recognition','new_production'] else None)
     out['production_taught_in']=old.get('production_taught_in') or ('ch17' if new['knowledge_status']=='new_production' else None)
@@ -93,15 +93,24 @@ for kind,records in reused_supplied.items():
             container=next(l[field] for l in lex['lemmas'] if any(r[key]==rid for r in l[field]))
         old=next(r for r in container if r[key]==rid)
         assert not old.get('production_taught_in') and not old.get('recognition_taught_in'),rid
-        # Find actual contracted teaching/support records for this reused identity.
+        # Repeated supplied exposure can be an exact original prompt hint or
+        # explicit local help, without creating a new teaching milestone.
         teaching=[r for r in c['teaching_records'] if rid in r.get(kind+'_ids',[])]
-        assert teaching,(rid,'reused supplied identity has no contracted support location')
-        ev=list(dict.fromkeys(e for r in teaching for e in r.get('evidence_refs',[])))
+        support=[dict(owner_id=t['task_id'],**h) for t in c['assigned_items'] for h in t.get('local_support',[])
+                 if h.get(kind+'_id')==rid or rid in h.get(kind+'_ids',[])]
+        support += [dict(owner_id=s['source_span_id'],**h) for s in c['source_spans'] for h in s.get('local_support',[])
+                    if h.get(kind+'_id')==rid or rid in h.get(kind+'_ids',[])]
+        references=[r for t in c['assigned_items'] for r in t.get('source_control_records',[])
+                    if rid in r.get('required_'+kind+'_ids',[])]
+        assert teaching or support or references,(rid,'reused supplied identity has no contracted support location')
+        ev=list(dict.fromkeys(e for r in teaching+support+references for e in r.get('evidence_refs',[])))
         assert ev,(rid,'reused supplied support has no evidence')
         rec={key:rid,'knowledge_status':'supplied','evidence_refs':ev,
              'teaching_ids':[r['teaching_id'] for r in teaching],
+             'support_route_ids':list(dict.fromkeys(r['support_id'] for r in support)),
+             'source_reference_ids':list(dict.fromkeys(r['reference_id'] for r in references)),
              'used_in_tasks':tasks,'assessed_in':[],
-             'reuse_note':'The canonical Unit17 contract supplies this earlier record again; no recognition or production milestone is added.'}
+             'reuse_note':'The canonical Unit17 contract supplies this earlier record again through the identified teaching, local-help or exact original-hint routes; no recognition or production milestone is added.'}
         for preserved in ['form','analysis','gloss','description','scope_note']:
             if preserved in old:rec[preserved]=copy.deepcopy(old[preserved])
         container[container.index(old)]=integrate(old,rec)
