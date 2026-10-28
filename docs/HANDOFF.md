@@ -1,6 +1,8 @@
 # Handoff to the next session
 
-The requested **Unit 17 is complete**. Units 1–17 have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 17 exports/registers are saved at **`99fcc3a`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md), [registry](../sources/registry.json) and [typesetting index](../typesetting/README.md) include Unit 17. **Unit 18 remains undrafted; begin only when requested.**
+The requested Unit 18 is in independent source, grammar and curriculum analysis under `oec-u18`. Its [brief](../curriculum/UNIT_18_BRIEF.md) fixes all 47 remaining Cook items and the exact 226-word gifts-and-farewell reading. The learning contract and learner/key drafts are pending. The immutable seventeen-unit baseline is `0eda27783a3830fbd10bebef3702e27c15ff837c`; do not recapture it or modify earlier units.
+
+The requested **Unit 17 is complete**. Units 1–17 have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 17 exports/registers are saved at **`99fcc3a`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md), [registry](../sources/registry.json) and [typesetting index](../typesetting/README.md) include Unit 17. **Unit 18 is requested and under analysis; drafting awaits its committed contract.**
 
 ## Unit 17 evidence and review
 

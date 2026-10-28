@@ -1,6 +1,8 @@
 # Status
 
-Updated 28 October 2026. **Units 1–17 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 17 exports and registers are saved at **`99fcc3a`**. The eighteen-unit outline and all 644 Cook item mappings remain settled. Unit 18 remains undrafted; begin only when requested.
+The requested Unit 18 is in independent source, grammar and curriculum analysis under `oec-u18`. Its [brief](curriculum/UNIT_18_BRIEF.md) fixes all 47 remaining Cook items and the exact 226-word gifts-and-farewell reading. The learning contract and learner/key drafts are pending. The immutable seventeen-unit baseline is `0eda27783a3830fbd10bebef3702e27c15ff837c`; do not recapture it or modify earlier units.
+
+Updated 28 October 2026. **Units 1–17 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 17 exports and registers are saved at **`99fcc3a`**. The eighteen-unit outline and all 644 Cook item mappings remain settled. Unit 18 is requested and under analysis; drafting awaits its committed contract.
 
 ## Completed Unit 17
 

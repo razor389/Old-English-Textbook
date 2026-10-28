@@ -1,0 +1,75 @@
+{
+  "schema_version": 1,
+  "chapter_id": "ch18",
+  "status": "independent source/grammar/design audits in progress; contract and prose not authorized yet",
+  "baseline": "sources/audits/unit18-coordinator/prior-state.json",
+  "prior_contracts_read": [
+    "chapters/ch01/coverage.json",
+    "chapters/ch02/coverage.json",
+    "chapters/ch03/coverage.json",
+    "chapters/ch04/coverage.json",
+    "chapters/ch05/coverage.json",
+    "chapters/ch06/coverage.json",
+    "chapters/ch07/coverage.json",
+    "chapters/ch08/coverage.json",
+    "chapters/ch09/coverage.json",
+    "chapters/ch10/coverage.json",
+    "chapters/ch11/coverage.json",
+    "chapters/ch12/coverage.json",
+    "chapters/ch13/coverage.json",
+    "chapters/ch14/coverage.json",
+    "chapters/ch15/coverage.json",
+    "chapters/ch16/coverage.json",
+    "chapters/ch17/coverage.json"
+  ],
+  "actual_registers_read": [
+    "lexicon/entries.json",
+    "curriculum/grammar.json"
+  ],
+  "settled_brief": "curriculum/UNIT_18_BRIEF.md",
+  "independent_workers": {
+    "source": "unit18_source: exact prompts, reading/apparatus and complete new nominal/adjectival systems",
+    "grammar": "unit18_grammar: all47 candidate models, complete verbal systems/moods and sentence/construction evidence",
+    "design": "unit18_design: task, token, inventory, support and display joins"
+  },
+  "source_scope": {
+    "cook_items": 47,
+    "exercise_counts": {
+      "44": 8,
+      "45": 9,
+      "46": 9,
+      "47": 11,
+      "48": 10
+    },
+    "reading": "FB175.18–177.2 / PDF191–193",
+    "reading_words": 226,
+    "physical_lines": 26,
+    "original_notes": 22,
+    "original_anchors": 29,
+    "unassigned_continuation": "Apollonius as Teacher"
+  },
+  "coordinator_inspection": "sources/audits/unit18-coordinator/primary-inspections.json",
+  "initial_translation_witness": "sources/audits/unit18-coordinator/initial-reading-translation.md",
+  "open_source_queries": [
+    {
+      "location": "FB176.8–9",
+      "query": "Establish the exact ðēowa manna / ðēowum mannum analysis from evidence; do not assume earlier weak-noun or adjective identity. Keep whole local help until reconciled.",
+      "owner": "unit18_source"
+    }
+  ],
+  "next_gate": "Reconcile complete independent evidence and every actual dependency before writing chapters/ch18/coverage.json; commit contract before prose.",
+  "resolved_transcription_queries": [
+    {
+      "location": "FB176.10",
+      "initial_audit": "lęcgað",
+      "source_correct": "lęcgeað",
+      "method": "Independent source and coordinator personal inspection of 600 dpi detail."
+    },
+    {
+      "location": "FB176.8",
+      "initial_audit": "ðēowra manna",
+      "source_correct": "ðēowa manna",
+      "method": "Independent source and coordinator personal inspection of the same detail; no printed r."
+    }
+  ]
+}
