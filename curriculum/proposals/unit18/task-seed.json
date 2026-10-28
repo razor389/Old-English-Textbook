@@ -1,0 +1,502 @@
+{
+  "schema_version": 1,
+  "chapter": "ch18",
+  "status": "prior-dependent tasks closed; reading and new form joins pending",
+  "tasks": [
+    {
+      "task_id": "NEW-U18-A01",
+      "key_id": "KEY-NEW-U18-A01",
+      "kind": "reference_analysis",
+      "origin_category": "new teaching material",
+      "prompt": "Analyse the two sentences. No further context identifies the reader.",
+      "input_sequence_ids": [
+        "NEW-U18-A01-INPUT"
+      ],
+      "input_texts": [
+        "Se cyning sealde ðǣm męnn ðā bōc. Hē hīe rǣdde."
+      ],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-A01-O001",
+          "label": "Identify the giver, recipient and thing given.",
+          "response_language": "English",
+          "target": "Keep agent, recipient and object distinct.",
+          "essential_meaning": "Keep agent, recipient and object distinct.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not interpret męnn as plural merely because the spelling is also a plural form.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-A01-O002",
+          "label": "Give the referent and case of hīe.",
+          "response_language": "English",
+          "target": "Resolve the inanimate feminine pronoun from agreement and syntax.",
+          "essential_meaning": "Resolve the inanimate feminine pronoun from agreement and syntax.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not force hīe to mean they or a female person.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-A01-O003",
+          "label": "Which named people can hē refer to? Explain what the forms establish.",
+          "response_language": "English",
+          "target": "Recognize genuine ambiguity rather than applying a nearest-noun rule.",
+          "essential_meaning": "Recognize genuine ambiguity rather than applying a nearest-noun rule.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not treat the nearest preceding person as a grammatical requirement.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-A01-O004",
+          "label": "Rewrite only the second sentence so that the recipient is explicitly the reader.",
+          "response_language": "Old English",
+          "target": "Identify the man explicitly as reader while keeping the book pronominal.",
+          "essential_meaning": "Identify the man explicitly as reader while keeping the book pronominal.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not make the king the explicitly stated reader.",
+          "output_sequence_id": "NEW-U18-A01-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "article-agreement",
+        "u02-active-agreement",
+        "u02-giving-recipient",
+        "u02-pronoun-reference",
+        "u13-reference-resolution-ambiguity"
+      ],
+      "stage": 1,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed."
+    },
+    {
+      "task_id": "NEW-U18-A02",
+      "key_id": "KEY-NEW-U18-A02",
+      "kind": "reported_speech",
+      "origin_category": "new teaching material",
+      "prompt": "Convert this direct statement into a report. Retain the king as the person who saw the man; use sęcgan with a ðæt clause and a preterite subjunctive in that clause.",
+      "input_sequence_ids": [
+        "NEW-U18-A02-INPUT",
+        "NEW-U18-A02-LEXICAL-REFERENCE-1",
+        "NEW-U18-A02-LEXICAL-REFERENCE-2"
+      ],
+      "input_texts": [
+        "Se cyning cwæð: “Ic geseah ðone mann.”"
+      ],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-A02-O001",
+          "label": "Identify the referent of ic and the time of the seeing relative to the quoted statement.",
+          "response_language": "English",
+          "target": "Recover the quoted speaker and relative temporal viewpoint.",
+          "essential_meaning": "Recover the quoted speaker and relative temporal viewpoint.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not assign ic to the current narrator.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-A02-O002",
+          "label": "Write the complete reported statement.",
+          "response_language": "Old English",
+          "target": "Use third-person reference to the king, reported content and the requested preterite subjunctive.",
+          "essential_meaning": "Use third-person reference to the king, reported content and the requested preterite subjunctive.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "An indicative may be valid reporting but does not meet the explicit subjunctive target.",
+          "output_sequence_id": "NEW-U18-A02-OUTPUT"
+        },
+        {
+          "output_position_id": "NEW-U18-A02-O003",
+          "label": "Explain whether the chosen subjunctive proves that the king’s statement is false.",
+          "response_language": "English",
+          "target": "Distinguish reporting mood from truth value.",
+          "essential_meaning": "Distinguish reporting mood from truth value.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not translate a report as contrary to fact solely because its verb is subjunctive.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [
+        "u05-direct-quotation",
+        "u13-quoted-reference",
+        "u09-content-that",
+        "u09-reported-statement",
+        "u09-report-reference",
+        "u12-reported-sequence"
+      ],
+      "stage": 1,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed.",
+      "visible_lexical_reference_ids": [
+        "NEW-U18-A02-LEXICAL-REFERENCE-1",
+        "NEW-U18-A02-LEXICAL-REFERENCE-2"
+      ]
+    },
+    {
+      "task_id": "NEW-U18-A03",
+      "key_id": "KEY-NEW-U18-A03",
+      "kind": "relative_number",
+      "origin_category": "new teaching material",
+      "prompt": "Analyse the sentence, then replace the men by the man and keep the king singular.",
+      "input_sequence_ids": [
+        "NEW-U18-A03-INPUT"
+      ],
+      "input_texts": [
+        "Ðā męnn ðe ðone cyning gesāwon, sungon."
+      ],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-A03-O001",
+          "label": "Translate the complete sentence.",
+          "response_language": "English",
+          "target": "Preserve the men as both seers and singers and the king as object.",
+          "essential_meaning": "Preserve the men as both seers and singers and the king as object.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not make the king the subject of gesāwon.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-A03-O002",
+          "label": "Identify the role represented by ðe and explain the agreement of both finite verbs.",
+          "response_language": "English",
+          "target": "Keep the relative clause and main clause agreement relations explicit.",
+          "essential_meaning": "Keep the relative clause and main clause agreement relations explicit.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not determine agreement from the nearer singular cyning.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-A03-O003",
+          "label": "Write the complete singular version.",
+          "response_language": "Old English",
+          "target": "Change the article, noun and both finite verbs; preserve the king as singular object.",
+          "essential_meaning": "Change the article, noun and both finite verbs; preserve the king as singular object.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not leave either finite verb plural.",
+          "output_sequence_id": "NEW-U18-A03-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "article-agreement",
+        "u02-active-agreement",
+        "u08-relative-the",
+        "u08-relative-internal-case",
+        "u05-see-object",
+        "u04-intransitive-actions"
+      ],
+      "stage": 1,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed."
+    },
+    {
+      "task_id": "NEW-U18-C01",
+      "key_id": "KEY-NEW-U18-C01",
+      "kind": "controlled_composition",
+      "origin_category": "new teaching material",
+      "prompt": "Translate: The man whom the king saw gave the servant the book. Use ðe and sęllan.",
+      "input_sequence_ids": [
+        "NEW-U18-C01-LEXICAL-REFERENCE-3",
+        "NEW-U18-C01-LEXICAL-REFERENCE-4"
+      ],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-C01-O001",
+          "label": "Write one complete Old English sentence.",
+          "response_language": "Old English",
+          "target": "The man gives; the king sees that man; the servant receives the book.",
+          "essential_meaning": "The man gives; the king sees that man; the servant receives the book.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not confuse the relative object with the main subject or the recipient with the object.",
+          "output_sequence_id": "NEW-U18-C01-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "article-agreement",
+        "u02-active-agreement",
+        "u08-relative-the",
+        "u08-relative-internal-case",
+        "u05-see-object",
+        "u02-giving-recipient"
+      ],
+      "stage": 2,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed.",
+      "visible_lexical_reference_ids": [
+        "NEW-U18-C01-LEXICAL-REFERENCE-3",
+        "NEW-U18-C01-LEXICAL-REFERENCE-4"
+      ]
+    },
+    {
+      "task_id": "NEW-U18-C02",
+      "key_id": "KEY-NEW-U18-C02",
+      "kind": "controlled_composition",
+      "origin_category": "new teaching material",
+      "prompt": "Translate: The king ordered the men to give the servant the books. Use hātan and a plain infinitive of sęllan.",
+      "input_sequence_ids": [
+        "NEW-U18-C02-LEXICAL-REFERENCE-5",
+        "NEW-U18-C02-LEXICAL-REFERENCE-6"
+      ],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-C02-O001",
+          "label": "Write one complete Old English sentence.",
+          "response_language": "Old English",
+          "target": "Keep the king as commander, the men as instructed actors, the servant as recipient and books as objects.",
+          "essential_meaning": "Keep the king as commander, the men as instructed actors, the servant as recipient and books as objects.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not use nominative męnn as a finite-clause subject or give the infinitive a plural ending.",
+          "output_sequence_id": "NEW-U18-C02-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "article-agreement",
+        "u02-active-agreement",
+        "u09-command-infinitive",
+        "u02-giving-recipient",
+        "u06-infinitive-government"
+      ],
+      "stage": 2,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed.",
+      "visible_lexical_reference_ids": [
+        "NEW-U18-C02-LEXICAL-REFERENCE-5",
+        "NEW-U18-C02-LEXICAL-REFERENCE-6"
+      ]
+    },
+    {
+      "task_id": "NEW-U18-R01",
+      "key_id": "KEY-NEW-U18-R01",
+      "kind": "supported_reading",
+      "origin_category": "new teaching material",
+      "prompt": "Translate the complete assigned passage in the following three consecutive divisions. All local help and original notes remain available.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-R01-O001",
+          "label": "Translate 175.18–176.2, through goldhorde.",
+          "response_language": "English",
+          "target": "Preserve seeing and education, her reaction, the time phrase, permission, donor, recipient, free choice and the source of the gift.",
+          "essential_meaning": "Preserve seeing and education, her reaction, the time phrase, permission, donor, recipient, free choice and the source of the gift.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not make Apollonius love the daughter or turn the earlier permission into a new command.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R01-O002",
+          "label": "Translate 176.3–176.13, through gesāwon.",
+          "response_language": "English",
+          "target": "Preserve every gift, quantity, material, permission, instruction, promise and narrated result, including the relative clause’s actual antecedent.",
+          "essential_meaning": "Preserve every gift, quantity, material, permission, instruction, promise and narrated result, including the relative clause’s actual antecedent.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not omit the servants, merge the two weight phrases, or make the gifts the subject of gesāwon.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R01-O003",
+          "label": "Translate from Ðā sōðlice geęndode in 176.13 through 177.2 geręstan.",
+          "response_language": "English",
+          "target": "Preserve the two departures or intended movements, the addressees of each speech, the prior gift and the final purpose.",
+          "essential_meaning": "Preserve the two departures or intended movements, the addressees of each speech, the prior gift and the final purpose.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not replace the proposed journey by a narrated arrival or make the servant-directed commands address the king.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_exact_reading_join",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed.",
+      "source_span_id": "FB-XII-APOLLONIUS-LOVE-GIFTS-DEPARTURE",
+      "assessment_scope": "Supported translation and analysis; no source-only form, sense or frame is tested for unaided recall."
+    },
+    {
+      "task_id": "NEW-U18-R02",
+      "key_id": "KEY-NEW-U18-R02",
+      "kind": "supported_reading",
+      "origin_category": "new teaching material",
+      "prompt": "For each cited form, name the referent and explain its grammatical role. Keep the whole passage available.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-R02-O001",
+          "label": "Explain hiere and his in 175.20.",
+          "response_language": "English",
+          "target": "Keep the two possessors and the direction of affection distinct, applying the supplied expression.",
+          "essential_meaning": "Keep the two possessors and the direction of affection distinct, applying the supplied expression.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not interpret his as the daughter’s own love or infer an unexpressed change of subject.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R02-O002",
+          "label": "Identify the speaker and addressee of ic and ðē in 176.5.",
+          "response_language": "English",
+          "target": "Recover person and dative recipient within direct speech.",
+          "essential_meaning": "Recover person and dative recipient within direct speech.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not preserve the earlier king as the speaker of this new quotation.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R02-O003",
+          "label": "Distinguish him in 176.19 from him in 176.20.",
+          "response_language": "English",
+          "target": "Resolve two syncretic pronouns by clause roles and discourse.",
+          "essential_meaning": "Resolve two syncretic pronouns by clause roles and discourse.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not assign both forms the same referent solely because they have the same spelling.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_exact_reading_join",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed.",
+      "source_span_id": "FB-XII-APOLLONIUS-LOVE-GIFTS-DEPARTURE",
+      "assessment_scope": "Supported translation and analysis; no source-only form, sense or frame is tested for unaided recall."
+    },
+    {
+      "task_id": "NEW-U18-R03",
+      "key_id": "KEY-NEW-U18-R03",
+      "kind": "supported_reading",
+      "origin_category": "new teaching material",
+      "prompt": "Parse the following selected source expressions and explain their functions. Supplied lexical and quantity explanations remain visible.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-R03-O001",
+          "label": "Compare the grammatical subjects of geseah 175.18 and gefēoll 175.20.",
+          "response_language": "English",
+          "target": "Separate literal grammatical subject from an idiomatic English rendering.",
+          "essential_meaning": "Separate literal grammatical subject from an idiomatic English rendering.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not make hiere alone the nominative subject of gefēoll.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R03-O002",
+          "label": "Explain the relationships expressed by punda and goldes in 176.6.",
+          "response_language": "English",
+          "target": "Apply the visible quantity analysis and distinguish counted units from material.",
+          "essential_meaning": "Apply the visible quantity analysis and distinguish counted units from material.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not infer that both genitives have the same semantic dependency or introduce an independent high-numeral recall test.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R03-O003",
+          "label": "Use original note 13 to explain ðe hīe gesāwon in 176.13 and the role of giefa.",
+          "response_language": "English",
+          "target": "Explain separation of antecedent and relative and distinguish subject from object with the source note visible.",
+          "essential_meaning": "Explain separation of antecedent and relative and distinguish subject from object with the source note visible.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "The note already supplies the antecedent; the task asks how the complete structure works.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R03-O004",
+          "label": "Compare the case, number and agreement of gesunde in 176.16 and 176.18.",
+          "response_language": "English",
+          "target": "Apply the supplied farewell expressions and distinguish accusative plural from nominative plural predicate agreement.",
+          "essential_meaning": "Apply the supplied farewell expressions and distinguish accusative plural from nominative plural predicate agreement.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not make gesunde an adverb merely because idiomatic English uses well.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_exact_reading_join",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed.",
+      "source_span_id": "FB-XII-APOLLONIUS-LOVE-GIFTS-DEPARTURE",
+      "assessment_scope": "Supported translation and analysis; no source-only form, sense or frame is tested for unaided recall."
+    },
+    {
+      "task_id": "NEW-U18-R04",
+      "key_id": "KEY-NEW-U18-R04",
+      "kind": "supported_reading",
+      "origin_category": "new teaching material",
+      "prompt": "Describe the clause relations in the following spans using the complete source and its local support.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-R04-O001",
+          "label": "Analyse the opening sentence 175.18–20: identify the temporal frame, the seeing-content clause and the main event.",
+          "response_language": "English",
+          "target": "Distinguish temporal subordination, embedded content and the main event.",
+          "essential_meaning": "Distinguish temporal subordination, embedded content and the main event.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not label every subordinate clause a relative or flatten the three relations into coordination.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R04-O002",
+          "label": "Compare ðæt ic mōste 176.1 with swā-hwæt-swā176.2 and 176.3–4.",
+          "response_language": "English",
+          "target": "Apply the visibly supplied permission frame and prior free-choice analysis without treating their introductory forms as interchangeable.",
+          "essential_meaning": "Apply the visibly supplied permission frame and prior free-choice analysis without treating their introductory forms as interchangeable.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not interpret swā-hwæt-swā as a direct question.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R04-O003",
+          "label": "Analyse the final ðæt clause 177.2 and explain how it relates to gān wē sēcean.",
+          "response_language": "English",
+          "target": "Distinguish a proposal, its infinitival action and its purpose.",
+          "essential_meaning": "Distinguish a proposal, its infinitival action and its purpose.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not treat the purpose as an accomplished event or infer a general future-tense auxiliary.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_exact_reading_join",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed.",
+      "source_span_id": "FB-XII-APOLLONIUS-LOVE-GIFTS-DEPARTURE",
+      "assessment_scope": "Supported translation and analysis; no source-only form, sense or frame is tested for unaided recall."
+    },
+    {
+      "task_id": "NEW-U18-R05",
+      "key_id": "KEY-NEW-U18-R05",
+      "kind": "supported_reading",
+      "origin_category": "new teaching material",
+      "prompt": "Explain the passage’s sequence from the actual statements, distinguishing completed actions from proposals.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-R05-O001",
+          "label": "What authority does the princess give for her gifts, and who selects them?",
+          "response_language": "English",
+          "target": "Distinguish authorization from the selection and announcement of gifts.",
+          "essential_meaning": "Distinguish authorization from the selection and announcement of gifts.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not attribute each specified gift directly to a royal command.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U18-R05-O002",
+          "label": "What does the final speech establish about Apollonius’s next action, and what remains unnarrated at this boundary?",
+          "response_language": "English",
+          "target": "Separate intended action from completed narrative and respect the selected boundary.",
+          "essential_meaning": "Separate intended action from completed narrative and respect the selected boundary.",
+          "alternatives_policy": "Accept equivalent grammatical wording preserving the proposition and explicit target. An English analysis may use equivalent precise terminology.",
+          "error_diagnosis": "Do not import the following Apollonius as Teacher episode into the answer.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_exact_reading_join",
+      "supplied_help_rule": "All source-specific supplied words and whole constructions remain visible; no supplied recall is assessed.",
+      "source_span_id": "FB-XII-APOLLONIUS-LOVE-GIFTS-DEPARTURE",
+      "assessment_scope": "Supported translation and analysis; no source-only form, sense or frame is tested for unaided recall."
+    }
+  ]
+}

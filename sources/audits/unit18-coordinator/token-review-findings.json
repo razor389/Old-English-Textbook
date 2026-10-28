@@ -1,0 +1,80 @@
+{
+  "chapter_id": "ch18",
+  "reviewer": "coordinator",
+  "stage": "precontract author-preparation review",
+  "scope": "Personally read all226 candidate reading-token roles and sense assignments against the complete Old English and its apparatus. This is not the later fresh blind review.",
+  "status": "resolved_and_verified_in_final_candidate",
+  "findings": [
+    {
+      "finding_id": "U18-READING-225-ACCUSATIVE",
+      "source_span_id": "FB-XII-APOLLONIUS-LOVE-GIFTS-DEPARTURE",
+      "token_position": 225,
+      "surface": "ūs",
+      "observed_candidate_record": {
+        "form_id": "ic-dat-pl",
+        "contextual_role_and_meaning": "ourselves; dative plural in supplied reflexive rest frame",
+        "case": "dative"
+      },
+      "finding": "The nonverbal token route conflicted with the correctly supplied verbal frame and Cook’s original note177.2, which points to184b. The syncretic surface alone cannot determine case.",
+      "primary_evidence": {
+        "image_path": "sources/audits/unit14-grammar/fb-p101.png",
+        "image_sha256": "729b947f2659724016f114cba304583780c89b87af2d64cf9ad3ad9be664d784",
+        "printed_page": 101,
+        "pdf_page_one_based": 117,
+        "original_identifier": "184b",
+        "actually_viewed_by_coordinator": true,
+        "observation": "The page explicitly labels accusative and gives hē geręste hine."
+      },
+      "required_resolution": {
+        "form_id": "ic-acc-pl",
+        "case": "accusative",
+        "role": "first-person plural accusative reflexive with geręstan",
+        "prior_milestone": "ch02",
+        "preservation": "Use the existing accusative record; preserve the old dative record and all earlier artifacts unchanged. Update current reading/task dependencies and visible analysis together."
+      },
+      "source_pre_correction_witness": "sources/audits/unit18-source/pre-us-correction-reading-token-audit.json",
+      "status": "resolved",
+      "verified_final_route": {
+        "token_index": 225,
+        "reading_token_id": "U18-RWORD-225",
+        "literal": "ūs",
+        "surface": "ūs",
+        "lemma_id": "ic",
+        "form_id": "ic-acc-pl",
+        "sense_id": "ic-personal",
+        "analysis": {
+          "person": 1,
+          "number": "plural",
+          "gender": null,
+          "case": "accusative"
+        },
+        "contextual_analysis": {
+          "case": "acc",
+          "number": "pl",
+          "person": 1,
+          "function": "reflexive object with geręstan"
+        },
+        "contextual_role_and_meaning": "ourselves; accusative plural reflexive object with geręstan, as Cook177 note2 directs to184b",
+        "form_status": "previously_taught",
+        "sense_status": "previously_taught",
+        "assessment_role": "visible_source_reading_position",
+        "independent_recall_assessment": false,
+        "support_route_ids": [
+          "U18-HELP-FINAL-PLAN",
+          "U18-RSUP-12"
+        ],
+        "source_analysis_record": "sources/audits/unit18-source/reading-token-audit.json#U18-RWORD-225",
+        "verbal_analysis_record": null
+      },
+      "resolution_check": "Final candidate contains the actual prior accusative identity, accusative contextual role and both visible whole-frame routes; strict dependency checker passes. No earlier artifact or register was changed."
+    }
+  ],
+  "other_checked_relations": [
+    "Hiere mōd is the subject of gefēoll; his lufe is the supplied affection idiom.",
+    "Latin-style names retain separate nominative, dative and address forms without an invented complete name declension.",
+    "The quantity frames distinguish hundreds, pounds, material genitives and weight; original ðēowa lacks r and its historical category is not tested.",
+    "The delayed relative refers to męnn, with hīe referring to gifts; the original note already supplies its antecedent.",
+    "The two gesunde expressions have accusative and nominative predicate roles respectively.",
+    "The final him references distinguish Apollonius as gift recipient from the servants as the speech addressees."
+  ]
+}

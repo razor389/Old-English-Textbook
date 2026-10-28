@@ -1,0 +1,202 @@
+{
+  "schema_version": 1,
+  "chapter": "ch18",
+  "tasks": [
+    {
+      "task_id": "NEW-U18-F01",
+      "key_id": "KEY-NEW-U18-F01",
+      "kind": "morphology_in_context",
+      "origin_category": "new teaching material",
+      "prompt": "Translate each sentence, then explain the selected ending contrast. Use the newly taught words for ass, sack and wheat.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-F01-O001",
+          "label": "The ass has the sack.",
+          "response_language": "Old English",
+          "target": "Singular ass is subject; sack is accusative possession.",
+          "essential_meaning": "Singular ass is subject; sack is accusative possession.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not use oblique assan as the nominative singular.",
+          "output_sequence_id": "NEW-U18-F01-OUTPUT-001"
+        },
+        {
+          "output_position_id": "NEW-U18-F01-O002",
+          "label": "The asses have the sacks.",
+          "response_language": "Old English",
+          "target": "Plural subjects and objects with plural finite agreement.",
+          "essential_meaning": "Plural subjects and objects with plural finite agreement.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not apply strong masculine -as to the weak ass noun.",
+          "output_sequence_id": "NEW-U18-F01-OUTPUT-002"
+        },
+        {
+          "output_position_id": "NEW-U18-F01-O003",
+          "label": "The men give wheat to the asses.",
+          "response_language": "Old English",
+          "target": "Men give; asses are dative recipients; wheat is a mass singular object.",
+          "essential_meaning": "Men give; asses are dative recipients; wheat is a mass singular object.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not make the recipients accusative or invent a count plural for the selected wheat sense.",
+          "output_sequence_id": "NEW-U18-F01-OUTPUT-003"
+        },
+        {
+          "output_position_id": "NEW-U18-F01-O004",
+          "label": "The wheat is in the sacks.",
+          "response_language": "Old English",
+          "target": "Mass singular wheat controls singular is; static location takes dative plural sacks.",
+          "essential_meaning": "Mass singular wheat controls singular is; static location takes dative plural sacks.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not let plural sacks govern the copula.",
+          "output_sequence_id": "NEW-U18-F01-OUTPUT-004"
+        },
+        {
+          "output_position_id": "NEW-U18-F01-O005",
+          "label": "Compare the plural noun endings in the first three translations and the location phrase.",
+          "response_language": "English",
+          "target": "Distinguish the two noun patterns while applying ordinary number, recipient and location functions.",
+          "essential_meaning": "Distinguish the two noun patterns while applying ordinary number, recipient and location functions.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "A common dative plural ending does not make the entire declensions identical.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [
+        "article-agreement",
+        "u02-active-agreement",
+        "u02-giving-recipient",
+        "on-dative-location"
+      ],
+      "stage": 3,
+      "mode": "analysis_and_production",
+      "dependency_status": "forms_and_senses_closed; construction_join_pending",
+      "assessment_scope": "Use the systems taught immediately beforehand. No model or inflected target form is printed in the prompt; complete sentences test agreement and government, and the final explanation tests the contrast."
+    },
+    {
+      "task_id": "NEW-U18-F02",
+      "key_id": "KEY-NEW-U18-F02",
+      "kind": "morphology_in_context",
+      "origin_category": "new teaching material",
+      "prompt": "Translate the two sentences using the newly taught verb meaning need. Then explain the governed noun.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-F02-O001",
+          "label": "The man needs wheat.",
+          "response_language": "Old English",
+          "target": "Present singular need with a genitive thing needed.",
+          "essential_meaning": "Present singular need with a genitive thing needed.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not substitute an accusative object merely because English has no preposition.",
+          "output_sequence_id": "NEW-U18-F02-OUTPUT-001"
+        },
+        {
+          "output_position_id": "NEW-U18-F02-O002",
+          "label": "The men needed wheat.",
+          "response_language": "Old English",
+          "target": "Preterite plural need with the same genitive mass noun.",
+          "essential_meaning": "Preterite plural need with the same genitive mass noun.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not use the present plural beðurfon to express this completed past need.",
+          "output_sequence_id": "NEW-U18-F02-OUTPUT-002"
+        },
+        {
+          "output_position_id": "NEW-U18-F02-O003",
+          "label": "Identify the tense and number of each finite verb, and explain the case of wheat in both sentences.",
+          "response_language": "English",
+          "target": "Separate finite agreement/tense from lexical genitive government.",
+          "essential_meaning": "Separate finite agreement/tense from lexical genitive government.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "The genitive complement does not agree in number with the subject.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [
+        "article-agreement",
+        "u02-active-agreement",
+        "u18-bethurfan-genitive-relative"
+      ],
+      "stage": 3,
+      "mode": "analysis_and_production",
+      "dependency_status": "forms_and_senses_closed; construction_join_pending",
+      "assessment_scope": "Use the systems taught immediately beforehand. No model or inflected target form is printed in the prompt; complete sentences test agreement and government, and the final explanation tests the contrast."
+    },
+    {
+      "task_id": "NEW-U18-F03",
+      "key_id": "KEY-NEW-U18-F03",
+      "kind": "morphology_in_context",
+      "origin_category": "new teaching material",
+      "prompt": "Translate the four sentences using the newly taught verbs meaning recognize and undo/open. Then explain the roles and number changes.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U18-F03-O001",
+          "label": "I recognize the king.",
+          "response_language": "Old English",
+          "target": "First singular present recognition and accusative person.",
+          "essential_meaning": "First singular present recognition and accusative person.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not substitute a past form for the present.",
+          "output_sequence_id": "NEW-U18-F03-OUTPUT-001"
+        },
+        {
+          "output_position_id": "NEW-U18-F03-O002",
+          "label": "We recognized the king.",
+          "response_language": "Old English",
+          "target": "First plural preterite recognition and unchanged singular object.",
+          "essential_meaning": "First plural preterite recognition and unchanged singular object.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not pluralize the king when the recognizing subject changes number.",
+          "output_sequence_id": "NEW-U18-F03-OUTPUT-002"
+        },
+        {
+          "output_position_id": "NEW-U18-F03-O003",
+          "label": "The man opens the sack.",
+          "response_language": "Old English",
+          "target": "Third singular present undo/open and accusative sack.",
+          "essential_meaning": "Third singular present undo/open and accusative sack.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not use the infinitive where the sentence requires a finite verb.",
+          "output_sequence_id": "NEW-U18-F03-OUTPUT-003"
+        },
+        {
+          "output_position_id": "NEW-U18-F03-O004",
+          "label": "The men opened the sacks.",
+          "response_language": "Old English",
+          "target": "Third plural preterite open with plural accusative sacks.",
+          "essential_meaning": "Third plural preterite open with plural accusative sacks.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not retain singular article/object or present tense.",
+          "output_sequence_id": "NEW-U18-F03-OUTPUT-004"
+        },
+        {
+          "output_position_id": "NEW-U18-F03-O005",
+          "label": "Identify the direct objects and explain which words change when the subject, object or tense changes.",
+          "response_language": "English",
+          "target": "Track independent agreement domains and accusative objects across finite stem changes.",
+          "essential_meaning": "Track independent agreement domains and accusative objects across finite stem changes.",
+          "alternatives_policy": "Accept grammatical variants preserving all stated roles, time, number and the explicitly selected lexical systems.",
+          "error_diagnosis": "Do not derive finite agreement from a nearer object.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [
+        "article-agreement",
+        "u02-active-agreement",
+        "u18-oncnawan-object",
+        "u18-undon-object"
+      ],
+      "stage": 3,
+      "mode": "analysis_and_production",
+      "dependency_status": "forms_and_senses_closed; construction_join_pending",
+      "assessment_scope": "Use the systems taught immediately beforehand. No model or inflected target form is printed in the prompt; complete sentences test agreement and government, and the final explanation tests the contrast."
+    }
+  ],
+  "counts": {
+    "tasks": 3,
+    "outputs": 13
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "schema_version": 1,
+  "status": "Precontract high-resolution transcription corrections; these repair the audit, not Cook’s text",
+  "observer": "unit18_source",
+  "checks": [
+    {
+      "locator": "Cook First Book176.10 / PDF192",
+      "initial_audit": "lęcgað",
+      "correct_source": "lęcgeað",
+      "reason": "600dpi lossless detail clearly includes e before að; root comparison prompted reinspection.",
+      "image_path": "sources/audits/unit18-source/fb-p176-command-detail-600dpi.png",
+      "actual_image_inspection": true
+    },
+    {
+      "locator": "Cook First Book176.8 / PDF192",
+      "initial_audit": "ðēowra manna",
+      "correct_source": "ðēowa manna",
+      "reason": "600dpi lossless detail clearly lacks r. Earlier claimed r reading is withdrawn. Strong-noun and adjective identities must be resolved from the actual text.",
+      "image_path": "sources/audits/unit18-source/fb-p176-command-detail-600dpi.png",
+      "actual_image_inspection": true
+    },
+    {
+      "locator": "Cook First Book176.5,10 / PDF192",
+      "correct_source": "Lārēow; lārēowe",
+      "reason": "Both ā and ē length marks are visible; neither is inferred.",
+      "image_path": "sources/audits/unit18-source/fb-p176-command-detail-600dpi.png",
+      "actual_image_inspection": true
+    }
+  ],
+  "preservation": {
+    "method": "Reconstructed pre-correction reading-source.json verified for exact semantic JSON equality against the coordinator’s genuinely captured earlier tool output; not an untouched raw-file witness. Apparatus inverse reconstruction is deterministic from source lines, with both 176.N10 offsets restored.",
+    "witnesses": [
+      "pre-correction-reading-source.json",
+      "pre-correction-reading-apparatus.json"
+    ],
+    "replay": "Replace lęcgað with lęcgeað and ðēowra with ðēowa, and decrement both 176.N10 anchor offsets by one. These changes exactly recover the corrected reading-source and reading-apparatus JSON.",
+    "coordinator_capture": "sources/audits/unit18-coordinator/captured-precorrection-reading-data.json",
+    "semantic_equality_to_captured_data": true,
+    "reversible_semantic_check_passed": true
+  },
+  "verified_detail_sha256": "711e493455f24155b0ca50995f390d0a8633263703a080107ace1643868fb6d7"
+}

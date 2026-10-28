@@ -1,0 +1,350 @@
+{
+  "chapter_id": "ch18",
+  "reviewer": "coordinator",
+  "stage": "precontract author preparation",
+  "method": "The coordinator read all47 exact prompts and proposed models, compared clause participants, temporal and modal relations, and original controls, then re-read the changed v6 items. Observations record actual readback; token or marker checks alone did not establish semantic coverage.",
+  "input_identities": [
+    {
+      "path": "sources/audits/unit18-source/exercises-prompts.json",
+      "sha256": "67a2ec27c958928340b2f5af7b7ba788485ca17abdbaba939913b4065fa5e1c1",
+      "sha256_normalized_lf": "8cf48ba873c988d21037f70da2d6bb2f316e01b10c4123b154b63825c4549112"
+    },
+    {
+      "path": "sources/audits/unit18-grammar/candidate-models.json",
+      "sha256": "230e32676c2634ea495bd092ffd3ec164d0127693513a67e8f048eaa3e0ed2c9",
+      "sha256_normalized_lf": "ac7bce31983e59b30cb7c88a7a9b383cd0eac78e57a73c7be3c0bb2487e85843"
+    }
+  ],
+  "items": [
+    {
+      "source_item_id": "EX-XII-XIII-44-01",
+      "exact_prompt": "Jacob (Iacob) said to his sons, Go and buy us a certain amount of food (męte).",
+      "candidate_model_at_readback": "Iacob cwæð tō his sunum: Gāð and bycgað ūs sumne dǣl mętes.",
+      "coordinator_observation": "Jacob addresses his sons: both commands plural; us is the beneficiary and food depends on a quantity expression.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-44-02",
+      "exact_prompt": "Then said Judah (Iudas), The chief of the land swore oaths before us that we should not (mōtan) come before him, except we bring our youngest brother with us.",
+      "candidate_model_at_readback": "Ðā cwæð Iudas: Ðæs landes ealdor swōr āðas ætforan ūs ðæt wē ne mōsten cuman ætforan hine, būton wē ūrne gingstan brōðor mid ūs bringen.",
+      "coordinator_observation": "Judah reports the chief’s oath, prohibition and exception; youngest brother remains the object brought with us. Modal permission differs from a prediction.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-44-03",
+      "exact_prompt": "If thou wilt send him with us (verb last), we (om. will) go together and buy the things that (87. d) we need (beðurfan, 131).",
+      "candidate_model_at_readback": "Gif ðū hine mid ūs sęndan wilt, wē gāð ætgædere and bycgað ðā ðing ðe wē beðurfon.",
+      "coordinator_observation": "Keep wilt last in the condition and omit a future auxiliary in the main clause. The bought things have an outer accusative role and a separately governed role in the need-relative.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-44-04",
+      "exact_prompt": "Ye dealt ill (earmlice) with (wið) me, when ye said to him that ye had more (77) brethren (154).",
+      "candidate_model_at_readback": "Gē earmlice wið mē dydon, ðā gē him sægdon ðæt gē mā brōðra hæfden.",
+      "coordinator_observation": "Keep the plural addressees, ill treatment with wið, the report recipient, and the partitive genitive after more.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-44-05",
+      "exact_prompt": "The man asked (āscian) us all whether our father was living [lived] and whether we had brethren, and we answered him; we knew not that he would (willan) desire (giernan) that (156. a), that we should bring (lǣdan, 194. b) our brother thither.",
+      "candidate_model_at_readback": "Se mann āscode ūs ealle hwæðer ūre fæder lifde and hwæðer wē brōðor hæfden, and wē him andswarodon; wē ne wiston ðæt hē wolde giernan ðæs ðæt wē ūrne brōðor ðider lǣdden.",
+      "coordinator_observation": "Retain both whether clauses, all of us, the answer, the negative knowing clause, willan, the desire’s genitive demonstrative and its expanded content clause.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-44-06",
+      "exact_prompt": "Judah said, Send the boy with me, that we may (mugan) buy the things that we need, that we perish (forweorðan) not; except I bring him back home, may I be (193. a) guilty (scyldig).",
+      "candidate_model_at_readback": "Iudas cwæð: Sęnd ðone cnapan mid mē, ðæt wē mægen bycgan ðā ðing ðe wē beðurfon, ðæt wē ne forweorðen; būton ic hine ęft hām bringe, sīe ic scyldig.",
+      "coordinator_observation": "Retain the boy, both purpose relations, the relative need-frame, return home and the conditional wish of guilt. The two negative constructions have different scopes.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-44-07",
+      "exact_prompt": "Were it not for this delay [if this delay were not], we had [were, 188] come (om. a) second time (sīð, 176).",
+      "candidate_model_at_readback": "Gif ðēos ęlcung nǣre, wē wǣren ōðre sīðe cumen.",
+      "coordinator_observation": "The complete contrary-past arrival clause is supplied. Cook§176 requires the supported adverbial instrumental ōðre sīðe; the earlier ōðre sīð and ordinary-accusative proposals are superseded. Do not imply unrestricted anterior-result syntax.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-44-08",
+      "exact_prompt": "Then said Jacob, If ye needs (nīede, 176) must do so, do as ye will; take of (of) your best fruits in vessels, and carry (bringan) presents (om. to) the man, honey (hunig, 47) and acorns (æcern, 47).",
+      "candidate_model_at_readback": "Ðā cwæð Iacob: Gif gē nīede swā dōn sculon, dōð swā gē willað; nimað of ēowrum bętstum wæstmum on fatum, and bringað ðǣm męnn lāc, hunig and æcernu.",
+      "coordinator_observation": "Keep plural must/do/take/bring, best fruits, vessels, dative recipient, honey and plural acorns. The selected æcernu agrees with the explicitly selected nominal system.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-45-01",
+      "exact_prompt": "Take your (plur.) brother and go to the man.",
+      "candidate_model_at_readback": "Nimað ēowerne brōðor and gāð tō ðǣm męnn.",
+      "coordinator_observation": "Both commands and the possessive addressees are plural; brother remains singular.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-45-02",
+      "exact_prompt": "And my Lord make (gedōn) him gracious (glæd) toward (wið) you, that he may give (āgiefan, 196. f) you your brother, whom he hath with him; I am now bereft [despoiled] of my children (156).",
+      "candidate_model_at_readback": "And mīn Dryhten gedō hine glædne wið ēow, ðæt hē ēow ēowerne brōðor āgiefe, ðe hē mid him hæfð; ic eom nū mīnra bearna berēafod.",
+      "coordinator_observation": "The Lord is subject of a wish; make takes an object and agreeing adjective. Preserve gracious toward, return of the brother, the relative possession and present bereavement with genitive children.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-45-03",
+      "exact_prompt": "Then they took the presents and double (twīfeald) money (feoh, 47), and went to the land of the Egyptians to Joseph (Iosep).",
+      "candidate_model_at_readback": "Ðā nōmon hīe ðā lāc and twīfeald fēoh, and fōron tō Egypta lande tō Iosepe.",
+      "coordinator_observation": "Retain presents, double money, Egyptian land and Joseph as destination. Names and ethnonym routes need explicit support; no invented general foreign-name declension.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-45-04",
+      "exact_prompt": "When he saw them, then said he to (tō) his steward (gerēfa, 53), Lead in these men, and prepare our feast, that they may (mugan) eat with me at noon (tō middes dæges, 158; 166. 1).",
+      "candidate_model_at_readback": "Ðā hē hīe geseah, ðā cwæð hē tō his gerēfan: Lǣd ðās męnn in, and gearca ūrne gebēorscipe, ðæt hīe mægen mid mē etan tō middes dæges.",
+      "coordinator_observation": "The steward is singular addressee; lead and prepare are singular commands. Retain our feast, plural eaters, with me and the complete noon expression.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-45-05",
+      "exact_prompt": "And he did as he was commanded [was commanded him; cf. p. 177, l. 10].",
+      "candidate_model_at_readback": "And hē dyde swā him boden wæs.",
+      "coordinator_observation": "Follow Cook’s explicit impersonal command-passive target: dative recipient and unexpressed commanded content. Supply the complete frame.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-45-06",
+      "exact_prompt": "When they were there (ðǣr), then they became greatly frightened, and said to one another (betwēonan him), Because of (for) the money that we found in our sacks (sacc, 43), we (om. have) been led (62) in hither, that he may despoil us of our asses, and of our things, and enslave us (our)selves.",
+      "candidate_model_at_readback": "Ðā hīe ðǣr wǣron, ðā wurdon hīe swīðe āfǣred, and sægdon betwēonan him: For ðǣm fēo ðe wē on ūrum saccum fundon, wē sindon hider in lǣded, ðæt hē ūs ūrra assena and ūrra ðinga berēafie, and ūs selfe ðēowie.",
+      "coordinator_observation": "Retain arrival, fear, reciprocal speech, the reason involving money in sacks, passive leading hither, and both intended deprivation and enslavement. No object or possession may disappear.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-45-07",
+      "exact_prompt": "Then said they to (tō) the steward, O sir, we pray (biddan) thee that thou hear (hlystan, 156) our speech; we were here a while ago and bought wheat (hwǣte, 44) for ourselves (161; 184. a).",
+      "candidate_model_at_readback": "Ðā cwǣdon hīe tō ðǣm gerēfan: Lēof, wē biddað ðē ðæt ðū ūrre sprǣce hlyste; wē wǣron hēr hwīlum ǣr and bohton ūs hwǣte.",
+      "coordinator_observation": "The request’s addressee is singular; hlystan takes the selected genitive speech complement. Retain earlier presence and the dative beneficiary of buying wheat.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-45-08",
+      "exact_prompt": "When we had trafficked (cēapian) and were on the way home (hāmweard wǣron), then we undid (undōn) our sacks; then we found the money therein which we had given (see ǣr, adv.).",
+      "candidate_model_at_readback": "Ðā wē cēapodon and hāmweard wǣron, ðā undydon wē ūre saccas; ðā fundon wē ðæt fēoh ðǣron ðe wē ǣr sealdon.",
+      "coordinator_observation": "Retain trading, homeward state, opening sacks, finding money therein, and prior giving. English anteriority does not require an invented Old English perfect.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-45-09",
+      "exact_prompt": "Now we have brought it back, and also other silver to traffic with [with to traffic]; and we know not who put (dōn) it into (on, 172) our sacks.",
+      "candidate_model_at_readback": "Nū wē hit ęft brōhton, and ēac ōðer seolfor mid tō cēapianne; and wē ne witon hwā hit on ūre saccas dyde.",
+      "coordinator_observation": "Retain return of money, additional silver, the locally supported stranded instrumental mid with purpose infinitive, and ignorance of the person who put it into the sacks.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-46-01",
+      "exact_prompt": "Then said the steward, Peace be with you, fear (ondrǣdan, 184) ye not; your God and your father’s God (om. hath) given you treasure in your sacks.",
+      "candidate_model_at_readback": "Ðā cwæð se gerēfa: Sibb sīe mid ēow; ne ondrǣdað ēow; ēower God and ēowres fæder God sealde ēow goldhord on ēowrum saccum.",
+      "coordinator_observation": "Retain the peace wish and plural negative command. The father’s possessive is ēowres with genitive fæder; the first ēower modifies God directly. Preserve treasure in the sacks.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-46-02",
+      "exact_prompt": "And they washed (101) their feet, and he gave their asses provender [fodder].",
+      "candidate_model_at_readback": "And hīe ðwōgon hiera fēt, and hē sealde hiera assum fōdor.",
+      "coordinator_observation": "Wash has plural subject; giving has singular subject. Preserve their feet, their donkeys as dative recipients, and fodder as object.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-46-03",
+      "exact_prompt": "They set (lęcgean) forth their presents, against that (ongēan ðætte) Joseph (om. should) enter.",
+      "candidate_model_at_readback": "Hīe lęgdon hiera lāc forð, ongēan ðætte Iosep inēode.",
+      "coordinator_observation": "Retain setting forth presents and prospective Joseph-entry under the supplied ongēan ðætte frame; do not insert an English should auxiliary mechanically.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-46-04",
+      "exact_prompt": "Then Joseph recognized them, and asked them whether their father was hale, or whether he was living [lived].",
+      "candidate_model_at_readback": "Ðā oncnēow Iosep hīe, and āscode hīe hwæðer hiera fæder hāl wǣre, oððe hwæðer hē lifde.",
+      "coordinator_observation": "Keep Joseph as recognizer/questioner and both alternative whether clauses: father’s health and continued life.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-46-05",
+      "exact_prompt": "Then said they, Thy servant (ðēow) our father is well (gesund); he is yet alive [liveth yet].",
+      "candidate_model_at_readback": "Ðā cwǣdon hīe: Ðīn ðēow, ūre fæder, is gesund; hē leofað gīet.",
+      "coordinator_observation": "The singular servant noun and our father are appositional; predicate healthy and still living remain distinct statements.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-46-06",
+      "exact_prompt": "When Joseph saw his brother Benjamin, then said he, Is this (neut.) the lad, (om. of) whom (87. d) ye told me before (foresęcgean)? And he said, God have compassion on thee, my son.",
+      "candidate_model_at_readback": "Ðā Iosep geseah his brōðor Beniamin, ðā cwæð hē: Is ðis se cnapa ðe gē mē foresægdon? And hē cwæð: God gemiltsie ðē, mīn sunu.",
+      "coordinator_observation": "Retain neuter this as requested, Benjamin, prior mention rather than prediction, dative hearer, and the wish of mercy with dative beneficiary.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-46-07",
+      "exact_prompt": "Then Joseph commanded (bēodan, 164) his steward, and said, Fill their sacks with wheat, and put the money of each of them into (on, 172) his own sack.",
+      "candidate_model_at_readback": "Ðā bēad Iosep his gerēfan, and cwæð: Gefyl hiera saccas mid hwǣte, and sęte ǣlces hiera fēoh on his āgenne sacc.",
+      "coordinator_observation": "Retain Joseph’s command to the steward, plural sacks, wheat filling, each person’s money, and movement into that person’s own sack.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-46-08",
+      "exact_prompt": "And take my silver cup (læfel, 43), and the price (weorð, 47) of the wheat, which he gave thee, and put into the sack of the youngest; and he did so.",
+      "candidate_model_at_readback": "And nim mīnne læfel seolfres, and ðæs hwǣtes weorð ðe hē ðē sealde, and dō on ðæs gingstan sacc; and hē dyde swā.",
+      "coordinator_observation": "Retain silver as cup material, wheat’s price, the relative giving with two participants, destination in the youngest person’s sack, and the steward’s compliance.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-46-09",
+      "exact_prompt": "In (om. the) morning, as (ðā) they journeyed, and they were without (om. the) city, and had gone (faran) some part of the way, then said Joseph to (tō) his steward, Arise and go after these men, and when you have (196. b) overtaken [caught] them, then ask them why they would (willan) requite good with (mid) evil.",
+      "candidate_model_at_readback": "On morgen, ðā hīe fōron, and hīe būton byrig wǣron, and fōron sumne dǣl ðæs weges, ðā cwæð Iosep tō his gerēfan: Ārīs, and gā æfter ðissum mannum; and ðonne ðū hīe fō, ðonne āsca hīe hwȳ hīe wolden gōd mid yfele forgieldan.",
+      "coordinator_observation": "Keep all three journey clauses and the subsequent instructions. Arise/go/catch/ask address the one steward; future catching uses the supplied target mood. Retain the question about requiting good with evil.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-01",
+      "exact_prompt": "The cup, which ye stole (forstelan, 105), was very precious to my lord (hlāford).",
+      "candidate_model_at_readback": "Se læfel ðe gē forstǣlon wæs mīnum hlāforde swīðe dēorwierðe.",
+      "coordinator_observation": "The stolen cup is subject of being precious; theft has plural addressees and the lord is dative. Preserve the forstelan hint.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-02",
+      "exact_prompt": "He did as was commanded him, and when they were overtaken [caught], they said, The money that we found in our sacks we brought to thee from our country; thinkest (wēnan) thou that we (om. have) stolen (stelan) thy lord’s gold or his silver?",
+      "candidate_model_at_readback": "Hē dyde swā him boden wæs, and ðā hīe fangen wǣron, ðā cwǣdon hīe: Ðæt fēoh ðe wē on ūrum saccum fundon, wē brōhton ðē of ūrum lande; wēnst ðū ðæt wē ðīnes hlāfordes gold oððe his seolfor stǣlen?",
+      "coordinator_observation": "Retain compliance, passive capture, the full money statement and the theft question with both gold and silver. Questioned earlier theft uses the supported past subjunctive.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-03",
+      "exact_prompt": "Look for [seek out] it; and let him be slain (ofslēan) with whom thou findest (195) it.",
+      "candidate_model_at_readback": "Sēc hit; and sīe hē ofslægen mid ðǣm ðe ðū hit finde.",
+      "coordinator_observation": "Retain singular search command, passive wish of killing and the relative possessor located by with. The indefinite relative’s subjunctive is separately supported.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-04",
+      "exact_prompt": "Then said he, With whomsoever I find it, let him be my servant, and let the others be blameless (clǣne).",
+      "candidate_model_at_readback": "Ðā cwæð hē: Mid swā hwǣm swā ic hit finde, sīe hē mīn ðēow, and sīen ðā ōðre clǣne.",
+      "coordinator_observation": "Retain the free-choice with-whomever relation, singular servitude and plural blamelessness; the others are not part of the singular predicate.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-05",
+      "exact_prompt": "And he sought from (fram) the eldest unto [until] the youngest; and he found the cup in Benjamin’s sack; and they turned back to the city.",
+      "candidate_model_at_readback": "And hē sōhte fram ðǣm ieldestan oð ðone gingstan; and hē funde ðone læfel on Beniamines sacce; and hīe ęft gewęndon tō ðǣre byrig.",
+      "coordinator_observation": "Retain search bounds from eldest to youngest, discovery in Benjamin’s sack and return to the city. Prior third-singular funde is valid and explicitly taught in Unit4; the earlier proposed correction was withdrawn.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-06",
+      "exact_prompt": "And Judah went in first (fyrmest) with his brethren to Joseph, and they fell all together before Joseph.",
+      "candidate_model_at_readback": "And Iudas inēode fyrmest mid his brōðrum tō Iosepe, and hīe ealle ætgædere beforan Iosepe fēollon.",
+      "coordinator_observation": "Retain Judah’s first entry with brothers, destination Joseph and all of them falling together before Joseph.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-07",
+      "exact_prompt": "And he said to (tō) them, Why would ye do so (verb last)?",
+      "candidate_model_at_readback": "And hē cwæð tō him: Hwȳ gē swā dōn woldon?",
+      "coordinator_observation": "Preserve Cook’s verb-last control within the question and plural addressees.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-08",
+      "exact_prompt": "Let him be my servant who stole the cup, and go ye free to your father.",
+      "candidate_model_at_readback": "Sīe hē mīn ðēow ðe ðone læfel forstæl, and gāð gē frige tō ēowrum fæder.",
+      "coordinator_observation": "The thief is singular and the released addressees plural. Preserve the relative theft and free state while going to the father.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-09",
+      "exact_prompt": "Then said Judah, Thou askedst us before whether we had father or brother.",
+      "candidate_model_at_readback": "Ðā cwæð Iudas: Ðū āscodest ūs ǣr hwæðer wē fæder oððe brōðor hæfden.",
+      "coordinator_observation": "Keep singular past asker, plural asked group, earlier time and the two alternatives father or brother.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-10",
+      "exact_prompt": "And we said, We have (om. an) old father, and he hath with him our youngest brother, and he loveth him alone (ænne) above (ofer) us all.",
+      "candidate_model_at_readback": "And wē cwǣdon: Wē habbað ealdne fæder, and hē hæfð mid him ūrne gingstan brōðor; and hē lufað hine ænne ofer ūs ealle.",
+      "coordinator_observation": "Preserve old father, youngest brother with him, and him alone above all of us. Do not add a vowel-length mark to original ænne.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-47-11",
+      "exact_prompt": "And thou commandest us that we (om. should) bring him to thee, that thou (om. mightest) see him, and know by (be) that that we were not spies (scēawere, 44).",
+      "candidate_model_at_readback": "And ðū bīetst ūs ðæt wē hine ðē bringen, ðæt ðū hine gesēo, and wite be ðǣm ðæt wē ne wǣren scēaweras.",
+      "coordinator_observation": "Preserve present commandest; do not backshift its main verb. Keep bringing, seeing and knowing, the be-that phrase and the final report of not being spies.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-01",
+      "exact_prompt": "And I swore oaths (om. to) my father that I (om. would) bring him home again to (tō) him, and said, Except I bring him again back to thee, let me be ever guilty (scyldig) toward (wið) thee.",
+      "candidate_model_at_readback": "And ic swōr āðas mīnum fæder ðæt ic hine ęft hām tō him brōhte, and cwæð: Būton ic hine ęft tō ðē bringe, sīe ic ā scyldig wið ðē.",
+      "coordinator_observation": "Retain the oath’s dative father, report of return home, direct quotation with changed pronouns, exception condition and perpetual guilt toward the addressee.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-02",
+      "exact_prompt": "My lord, let (lǣtan) the lad go home with his brethren, and (om. let) me be thy servant instead of (for, 172) him.",
+      "candidate_model_at_readback": "Mīn hlāford, lǣt ðone cnapan mid his brōðrum hām gān, and sīe ic ðīn ðēow for hine.",
+      "coordinator_observation": "Keep permissive lǣtan with the lad as infinitive subject, going home with brothers, and the speaker’s offered servitude in his place.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-03",
+      "exact_prompt": "I dare not go home without the lad, lest I see my father’s grief.",
+      "candidate_model_at_readback": "Ic ne dearr hām gān būton ðǣm cnapan, ðȳlǣs ic mīnes fæder sārnesse gesēo.",
+      "coordinator_observation": "Retain negative daring, homeward infinitive, without the lad and preventive lest-clause about the father’s grief.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-04",
+      "exact_prompt": "Then could (mugan) not Joseph conceal (diernan, 113) himself longer, but he drove all the others out, that no foreign man (om. should) be among them.",
+      "candidate_model_at_readback": "Ðā ne meahte Iosep hine lęng diernan, ac hē ādrāf ealle ðā ōðre ūt, ðæt nān ęlðēodig mann betweox him ne wǣre.",
+      "coordinator_observation": "Retain inability to conceal himself longer, expulsion of all others and the negative purpose excluding a foreign person.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-05",
+      "exact_prompt": "And he wept and cried (clēopian) with a loud (hlūd) voice (160. 1); and he said to (tō) his brethren, I am Joseph; (om. doth) our father live yet (nū gīet)?",
+      "candidate_model_at_readback": "And hē wēop and clēopode hlūdre stefne; and hē cwæð tō his brōðrum: Ic eom Iosep; leofað ūre fæder nū gīet?",
+      "coordinator_observation": "Retain weeping and crying, the instrumental loud voice, the address to brothers, Joseph’s identity and the question of continued life. Source clēopian quantity is preserved and separately supported.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-06",
+      "exact_prompt": "Fear ye (184) nothing, nor (om. let) it grieve (190) you that ye sold (sęllan) me into this kingdom; indeed (om. it was) for your benefit God sent me into the land of the Egyptians.",
+      "candidate_model_at_readback": "Ne ondrǣdað ēow nānes ðinges, ne ofðynce ēow ðæt gē mē on ðis rīce sealdon; sōðlice God sęnde mē for ēowre ðearfe tō Egypta lande.",
+      "coordinator_observation": "Retain plural fear prohibition with nothing, the impersonal grief wish and sale-content clause; God’s sending for their benefit is explicit, without importing an it-was cleft.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-07",
+      "exact_prompt": "Now two years has been [was] famine over (172) all (om. the) earth, and (om. there) yet shall (om. be) five, in which one can (mugan) neither (89. a) plow (ęrian, 116) nor reap (rīpan, 102).",
+      "candidate_model_at_readback": "Nū twā gēar hunger wæs ofer ealle eorðan, and gīet sculon fīf, on ðǣm mann nāhwæðer ne ęrian ne rīpan mæg.",
+      "coordinator_observation": "Retain two-year duration, famine over all earth, five further years with source-requested ellipsis and neither plowing nor reaping. Support the whole numeral/ellipsis frame visibly.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-08",
+      "exact_prompt": "Go quickly to my father and tell him that God has set me as a (tō) lord (om. to) all (om. the) Egyptians; bid (bēodan) him (164) that he come to me and dwell in this land.",
+      "candidate_model_at_readback": "Gāð hrædlīce tō mīnum fæder and sęcgað him ðæt God mē tō hlāforde eallum Egyptum gesętte; bēodað him ðæt hē tō mē cume and on ðissum lande wunie.",
+      "coordinator_observation": "Retain quick plural going/telling/bidding, God’s appointment as lord over all Egyptians, and the two requested actions come/dwell in this land.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-09",
+      "exact_prompt": "Do thus, that ye perish not.",
+      "candidate_model_at_readback": "Dōð swā, ðæt gē ne forweorðen.",
+      "coordinator_observation": "Dōð swā preserves thus as manner; ðis was superseded. The plural negative-purpose clause remains intact.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-10",
+      "exact_prompt": "Now ye see how it is with me, and ye hear what I say (sprecan) to (tō) you.",
+      "candidate_model_at_readback": "Nū gē gesēoð hū hit mid mē is, and gē hīerað hwæt ic tō ēow sprece.",
+      "coordinator_observation": "Retain both now-see/how and hear/what complements, plural addressees, and the speaker’s speech to them.",
+      "status": "clause meaning and explicit controls compared; dependency join and independent review still required"
+    }
+  ],
+  "independence_limit": "The coordinator has read private models and author evidence and is ineligible as the fresh blind reviewer. These comparisons do not certify teaching sufficiency or replace source and independent review."
+}

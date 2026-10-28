@@ -1,0 +1,35 @@
+{
+  "chapter_id": "ch18",
+  "reviewer": "coordinator",
+  "stage": "precontract author readback",
+  "earlier_comparisons_preserved": [
+    {
+      "path": "sources/audits/unit18-coordinator/prompt-model-comparison.json",
+      "sha256": "33543da915cc43dd9e6115e715447d3a175677313d8456e7c00070b383cb4b06"
+    },
+    {
+      "path": "sources/audits/unit18-coordinator/prompt-model-v7-addendum.json",
+      "sha256": "449c8cc30c54c8633000fe541240cfaa0986feee4f5078122a07970f14a4ae42"
+    }
+  ],
+  "current_models": {
+    "path": "sources/audits/unit18-grammar/candidate-models.json",
+    "sha256": "3b8d1d611b59f12f70a1ef785b55c1c89c1ccc8d18e05bff5e7257d2005c94c0"
+  },
+  "amendments": [
+    {
+      "source_item_id": "EX-XII-XIII-46-09",
+      "before": "On morgen, ðā hīe fōron, and hīe būton byrig wǣron, and fōron sumne dǣl ðæs weges, ðā cwæð Iosep tō his gerēfan: Ārīs, and gā æfter ðissum mannum; and ðonne ðū hīe fō, ðonne āsca hīe hwȳ hīe wolden gōd mid yfele forgieldan.",
+      "after": "On morgen, ðā hīe fōron, and hīe būtan byrig wǣron, and fōron sumne dǣl ðæs weges, ðā cwæð Iosep tō his gerēfan: Ārīs, and gā æfter ðissum mannum; and ðonne ðū hīe fō, ðonne āsca hīe hwȳ hīe wolden gōd mid yfele forgieldan.",
+      "reason": "Use the actually taught preposition spelling būtan for outside/without, with the new spatial sense separately supplied. Preserve conjunction būton elsewhere. No word position changes."
+    },
+    {
+      "source_item_id": "EX-XII-XIII-48-03",
+      "before": "Ic ne dearr hām gān būton ðǣm cnapan, ðȳ-lǣs-ðe ic mīnes fæder sārnesse gesēo.",
+      "after": "Ic ne dearr hām gān būtan ðǣm cnapan, ðȳ-lǣs-ðe ic mīnes fæder sārnesse gesēo.",
+      "reason": "Use the actually taught preposition spelling būtan for outside/without, with the new spatial sense separately supplied. Preserve conjunction būton elsewhere. No word position changes."
+    }
+  ],
+  "observations": "Personally read both complete changed sentences against the exact prompts. Būtan byrig expresses outside the city in46.9; būtan ðǣm cnapan expresses absence of the boy in48.3. The selected preposition spelling is distinguished from unchanged conjunction būton in the unless clauses. The two contextual senses retain their independently checked teaching or local-support status.",
+  "scope_limit": "Author-preparation comparison only; full dependency validation and independent review remain required."
+}
