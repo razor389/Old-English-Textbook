@@ -1,0 +1,337 @@
+{
+  "chapter_id": "ch16",
+  "amendment_id": "U16-A08",
+  "reviewer": "unit16_pages_last",
+  "independence": "Reviewer identified the four missing-space findings through direct v1 page inspection and did not author or apply the master/contract amendments.",
+  "status": "pass",
+  "scope": "Typography-only confirmation of eight ASCII word-space insertions in the learner master and the corresponding eight modern contract fields; supplements the preserved linguistic reviews and does not certify new teaching.",
+  "method": [
+    "Read the amendment and actual current student.md and coverage.json bytes.",
+    "Reverse the seven specified substitutions, eight occurrences, within the four exact modern paragraphs in memory; recover the prior accepted student SHA-256.",
+    "Apply the same seven substitutions forward to the recovered student text and require byte-identical equality with the current learner master.",
+    "Check every one of eight actual contract fields against the recorded after value, reverse each field in memory, and hash the specified 51-key semantic projection using UTF-8 JSON with ensure_ascii=False, sort_keys=True, separators=(comma,colon).",
+    "Require identical non-whitespace content in each changed paragraph/field, ASCII-space-only replacement definitions, and exact recovered accepted identities.",
+    "Recompute all six listed unchanged artifact SHA-256 hashes; map the change set to exactly the four original visual findings."
+  ],
+  "amendment_sha256_at_review": "c8f8cacd17f51bbf730973a03e8d4403af7e308c84310d736516087f70029ef0",
+  "student": {
+    "actual_after_sha256": "b6914279bce69c87545d1437c6c49605f26b68e1522de9a5f7221fa08ed09b9d",
+    "expected_after_sha256": "b6914279bce69c87545d1437c6c49605f26b68e1522de9a5f7221fa08ed09b9d",
+    "actual_recovered_before_sha256": "04f539bcefe0ebb231e537d4495d1bd459dbee62dda3f0514f087a9a7eeea49d",
+    "expected_before_sha256": "04f539bcefe0ebb231e537d4495d1bd459dbee62dda3f0514f087a9a7eeea49d",
+    "distinct_substitutions": 7,
+    "replacement_occurrences": 8,
+    "ascii_spaces_added": 8,
+    "byte_delta": 8,
+    "non_whitespace_changes": 0,
+    "forward_round_trip_byte_identity": true,
+    "substitutions": [
+      {
+        "before": "on169.1",
+        "after": "on 169.1",
+        "occurrences": 1,
+        "status": "pass"
+      },
+      {
+        "before": "composition35.3",
+        "after": "composition 35.3",
+        "occurrences": 1,
+        "status": "pass"
+      },
+      {
+        "before": "at170.14–16",
+        "after": "at 170.14–16",
+        "occurrences": 1,
+        "status": "pass"
+      },
+      {
+        "before": "page169",
+        "after": "page 169",
+        "occurrences": 1,
+        "status": "pass"
+      },
+      {
+        "before": "notes6",
+        "after": "notes 6",
+        "occurrences": 1,
+        "status": "pass"
+      },
+      {
+        "before": "and10",
+        "after": "and 10",
+        "occurrences": 2,
+        "status": "pass"
+      },
+      {
+        "before": "lines6",
+        "after": "lines 6",
+        "occurrences": 1,
+        "status": "pass"
+      }
+    ],
+    "modern_paragraph_checks": [
+      {
+        "line": 3313,
+        "before": "Analyse the final invitation at170.14–16. Identify the outer speaker, his immediate addressee, the person denoted by him, the person denoted by se cyning, and the person denoted by ðē and ðū. Then explain why the original note describes a mixture of direct and indirect construction. Preserve the actual wording while explaining it.",
+        "after": "Analyse the final invitation at 170.14–16. Identify the outer speaker, his immediate addressee, the person denoted by him, the person denoted by se cyning, and the person denoted by ðē and ðū. Then explain why the original note describes a mixture of direct and indirect construction. Preserve the actual wording while explaining it.",
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      },
+      {
+        "line": 3353,
+        "before": "Consult printed page169, original notes6 and10 (not text lines6 and10), together with the modern help explaining their Latin parallels in English. For each location, give a defensible translation of the actual Old English and explain the limit the note places on a confident interpretation. No knowledge or translation of Latin is required; do not replace the Old English with the Latin account.",
+        "after": "Consult printed page 169, original notes 6 and 10 (not text lines 6 and 10), together with the modern help explaining their Latin parallels in English. For each location, give a defensible translation of the actual Old English and explain the limit the note places on a confident interpretation. No knowledge or translation of Latin is required; do not replace the Old English with the Latin account.",
+        "inserted_ascii_spaces": 5,
+        "status": "pass"
+      },
+      {
+        "line": 2939,
+        "before": "Reflexive hine; on ðæs cyninges plegan continues on169.1. Plegan is an oblique noun governed by on; ðæs cyninges is its genitive possessor. It is not a finite verb.",
+        "after": "Reflexive hine; on ðæs cyninges plegan continues on 169.1. Plegan is an oblique noun governed by on; ðæs cyninges is its genitive possessor. It is not a finite verb.",
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      },
+      {
+        "line": 2971,
+        "before": "Reflexive dative him; ðæs weges is the route genitive, matched by the composition35.3. Pronoun references need discourse reasoning.",
+        "after": "Reflexive dative him; ðæs weges is the route genitive, matched by the composition 35.3. Pronoun references need discourse reasoning.",
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      }
+    ]
+  },
+  "contract": {
+    "raw_sha256_at_review": "f0669577e2cc05644fffd903f9ef5bb450eadc15b4ab4833dcc12b73bdbea4c0",
+    "semantic_key_count": 51,
+    "semantic_keys": [
+      "analysis_inputs",
+      "archive_tree_sha256",
+      "assigned_items",
+      "audit_recommendation_precedence",
+      "audited_inflection_rules",
+      "authoring_rules",
+      "bounded_scope",
+      "brief",
+      "chapter_id",
+      "contract_date",
+      "contract_metrics",
+      "contract_prepared_before_prose",
+      "contract_reconciliation_notes",
+      "deferred_source_items",
+      "display_plan",
+      "evidence_catalog",
+      "excluded_source_items",
+      "explicit_scope_metrics",
+      "form_identity_reconciliation",
+      "grammar_inventory",
+      "issues",
+      "key_item_ids",
+      "lexical_frames",
+      "lexical_inventory",
+      "new_compositions",
+      "new_material_examples",
+      "paradigms",
+      "pre_key_review_exclusions",
+      "prerequisite_chapters",
+      "principal_parts",
+      "prior_checkpoint",
+      "prior_files",
+      "prior_files_lf_sha256",
+      "prior_requirements",
+      "prior_state_record",
+      "prior_teaching_boundary",
+      "productive_outcomes",
+      "promotions",
+      "recognition_outcomes",
+      "review_independence_protocol",
+      "schema_version",
+      "selected_model_corrections",
+      "source_alias_assignments",
+      "source_assignment_policy",
+      "source_spans",
+      "source_task_crosswalk",
+      "study_sequence",
+      "teaching_order_rule",
+      "teaching_records",
+      "title",
+      "validation_at_contract"
+    ],
+    "actual_after_semantic_sha256": "26c13a7981b7092cd6ae375033c0472930e62715f59ecf77c1340d630ee5b76b",
+    "expected_after_semantic_sha256": "26c13a7981b7092cd6ae375033c0472930e62715f59ecf77c1340d630ee5b76b",
+    "actual_recovered_before_semantic_sha256": "13b5049da3144ad2a1f3b218a1831852cc1230465a4deb08a2129067edef83ac",
+    "expected_before_semantic_sha256": "13b5049da3144ad2a1f3b218a1831852cc1230465a4deb08a2129067edef83ac",
+    "field_change_count": 8,
+    "ascii_spaces_added_across_repeated_modern_fields": 12,
+    "non_whitespace_changes": 0,
+    "field_checks": [
+      {
+        "path": [
+          "assigned_items",
+          15,
+          "prompt"
+        ],
+        "actual_after_matches": true,
+        "only_ascii_spaces_inserted": true,
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      },
+      {
+        "path": [
+          "assigned_items",
+          16,
+          "prompt"
+        ],
+        "actual_after_matches": true,
+        "only_ascii_spaces_inserted": true,
+        "inserted_ascii_spaces": 5,
+        "status": "pass"
+      },
+      {
+        "path": [
+          "source_spans",
+          0,
+          "tokens",
+          157,
+          "scope_rationale"
+        ],
+        "actual_after_matches": true,
+        "only_ascii_spaces_inserted": true,
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      },
+      {
+        "path": [
+          "source_spans",
+          0,
+          "tokens",
+          299,
+          "scope_rationale"
+        ],
+        "actual_after_matches": true,
+        "only_ascii_spaces_inserted": true,
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      },
+      {
+        "path": [
+          "source_spans",
+          0,
+          "verbal_glossary",
+          13,
+          "explanation"
+        ],
+        "actual_after_matches": true,
+        "only_ascii_spaces_inserted": true,
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      },
+      {
+        "path": [
+          "source_spans",
+          0,
+          "verbal_glossary",
+          29,
+          "explanation"
+        ],
+        "actual_after_matches": true,
+        "only_ascii_spaces_inserted": true,
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      },
+      {
+        "path": [
+          "teaching_records",
+          218,
+          "support_cards",
+          13,
+          "explanation"
+        ],
+        "actual_after_matches": true,
+        "only_ascii_spaces_inserted": true,
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      },
+      {
+        "path": [
+          "teaching_records",
+          218,
+          "support_cards",
+          29,
+          "explanation"
+        ],
+        "actual_after_matches": true,
+        "only_ascii_spaces_inserted": true,
+        "inserted_ascii_spaces": 1,
+        "status": "pass"
+      }
+    ],
+    "completion_metadata_note": "The 51-key substantive projection deliberately excludes textual-review/completion metadata; the raw contract hash identifies the observed pending-review artifact only."
+  },
+  "original_findings_addressed": [
+    {
+      "id": "U16-L-LAST-01",
+      "v1_page": 56,
+      "status": "resolved_in_master_pending_v2_visual_confirmation"
+    },
+    {
+      "id": "U16-L-LAST-02",
+      "v1_page": 57,
+      "status": "resolved_in_master_pending_v2_visual_confirmation"
+    },
+    {
+      "id": "U16-L-LAST-03",
+      "v1_page": 66,
+      "status": "resolved_in_master_pending_v2_visual_confirmation"
+    },
+    {
+      "id": "U16-L-LAST-04",
+      "v1_page": 67,
+      "status": "resolved_in_master_pending_v2_visual_confirmation"
+    }
+  ],
+  "unchanged_artifact_count": 6,
+  "unchanged_artifacts": [
+    {
+      "path": "chapters/ch16/answer-key.md",
+      "expected_sha256": "083eea687565ad2f7d6323b6ee5d86ee7d58bc722284ce995bff11c8a3169eb4",
+      "actual_sha256": "083eea687565ad2f7d6323b6ee5d86ee7d58bc722284ce995bff11c8a3169eb4",
+      "status": "pass"
+    },
+    {
+      "path": "chapters/ch16/independent-solutions.md",
+      "expected_sha256": "1e58c84ea387a3e4b3e1a4a4620866ffe735067d97aa80b57480d43f0335e7a6",
+      "actual_sha256": "1e58c84ea387a3e4b3e1a4a4620866ffe735067d97aa80b57480d43f0335e7a6",
+      "status": "pass"
+    },
+    {
+      "path": "chapters/ch16/author-translation-witness.md",
+      "expected_sha256": "63269a300875c01128a5ca6eac3db8086e14195d4c6c7c46f602ee146bfe5dc6",
+      "actual_sha256": "63269a300875c01128a5ca6eac3db8086e14195d4c6c7c46f602ee146bfe5dc6",
+      "status": "pass"
+    },
+    {
+      "path": "chapters/ch16/review.md",
+      "expected_sha256": "c8fe2c1ba5afd4252f85f0571e728e7a4e28d7229cef370a42b7723a117dd5e4",
+      "actual_sha256": "c8fe2c1ba5afd4252f85f0571e728e7a4e28d7229cef370a42b7723a117dd5e4",
+      "status": "pass"
+    },
+    {
+      "path": "chapters/ch16/review-ledger.json",
+      "expected_sha256": "2b72ff8c2ff26a8a89d32193b2ec0db0131379197f82db2589ceec17ac98d727",
+      "actual_sha256": "2b72ff8c2ff26a8a89d32193b2ec0db0131379197f82db2589ceec17ac98d727",
+      "status": "pass"
+    },
+    {
+      "path": "chapters/ch16/reviews/paradigms.json",
+      "expected_sha256": "3e38bb60db6d9a50c31f12e31b6f11966e0d3c0f25463a2843131e06089edbf6",
+      "actual_sha256": "3e38bb60db6d9a50c31f12e31b6f11966e0d3c0f25463a2843131e06089edbf6",
+      "status": "pass"
+    }
+  ],
+  "unchanged_scope": [
+    "Old English and original-source wording, original notes, source-note anchors, and exact Cook prompts are unchanged.",
+    "Tables, model answers, exercise targets, dependency dispositions, teaching scope, and the other substantive content in the 51-key contract projection are unchanged.",
+    "The answer key, frozen independent solutions, author translation witness, review prose, review ledger, and paradigm review retain their recorded accepted artifact hashes."
+  ],
+  "visual_review_boundary": "This record confirms the textual proofreading amendment. Final v2 PDF pages still require direct visual inspection."
+}

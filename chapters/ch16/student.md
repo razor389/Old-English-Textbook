@@ -2936,7 +2936,7 @@ The following help is local to this reading. Retain the learned productive syste
 
 **168.17. plegian — play.** Infinitive after began; wið + dative companions and mid + dative ball are supported locally.
 
-**168.18. gemęngde — joined; mingled.** Reflexive hine; on ðæs cyninges plegan continues on169.1. Plegan is an oblique noun governed by on; ðæs cyninges is its genitive possessor. It is not a finite verb.
+**168.18. gemęngde — joined; mingled.** Reflexive hine; on ðæs cyninges plegan continues on 169.1. Plegan is an oblique noun governed by on; ðæs cyninges is its genitive possessor. It is not a finite verb.
 
 **169.01. iernende — running.** The supplied present participle accompanies Apollonius. The printed division iern-/ende is joined in the reading.
 
@@ -2968,7 +2968,7 @@ The following help is local to this reading. Retain the learned productive syste
 
 **169.15. ūtēode — went out.** Prefixed motion verb with of + dative place left.
 
-**169.16. gewęnde — turned; went away.** Reflexive dative him; ðæs weges is the route genitive, matched by the composition35.3. Pronoun references need discourse reasoning.
+**169.16. gewęnde — turned; went away.** Reflexive dative him; ðæs weges is the route genitive, matched by the composition 35.3. Pronoun references need discourse reasoning.
 
 **170.02. āgān — gone away.** Past participle in āgān wæs, “had gone away”. Its second vowel is long; the second vowel of āgan “began” at 168.17 is short.
 
@@ -3310,7 +3310,7 @@ Selected passages: 168.1–2 ðe him getǣht wæs; 168.2 ōð-ðæt hē becōm; 
 
 <!-- item: NEW-U16-R05 -->
 
-Analyse the final invitation at170.14–16. Identify the outer speaker, his immediate addressee, the person denoted by him, the person denoted by se cyning, and the person denoted by ðē and ðū. Then explain why the original note describes a mixture of direct and indirect construction. Preserve the actual wording while explaining it.
+Analyse the final invitation at 170.14–16. Identify the outer speaker, his immediate addressee, the person denoted by him, the person denoted by se cyning, and the person denoted by ðē and ðū. Then explain why the original note describes a mixture of direct and indirect construction. Preserve the actual wording while explaining it.
 
 Selected passages: 170.14–16.
 
@@ -3350,7 +3350,7 @@ Source wording for the cited locations:
 
 <!-- item: NEW-U16-R06 -->
 
-Consult printed page169, original notes6 and10 (not text lines6 and10), together with the modern help explaining their Latin parallels in English. For each location, give a defensible translation of the actual Old English and explain the limit the note places on a confident interpretation. No knowledge or translation of Latin is required; do not replace the Old English with the Latin account.
+Consult printed page 169, original notes 6 and 10 (not text lines 6 and 10), together with the modern help explaining their Latin parallels in English. For each location, give a defensible translation of the actual Old English and explain the limit the note places on a confident interpretation. No knowledge or translation of Latin is required; do not replace the Old English with the Latin account.
 
 Selected passages: 169.5–7; 169.11–13.
 
