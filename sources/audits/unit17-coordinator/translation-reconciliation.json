@@ -1,0 +1,44 @@
+{
+  "schema_version": 1,
+  "chapter": "ch17",
+  "status": "authorial translations reconciled; later fresh learner review still required",
+  "root_witness_freeze_checkpoint": "d7b42d7",
+  "witnesses": [
+    {
+      "path": "sources/audits/unit17-coordinator/author-only-root-reading-translation-witness.md",
+      "sha256": "b080b50ddbd575dff006e9e97633e170841cc6b23594801492a0778af7d07ccb"
+    },
+    {
+      "path": "sources/audits/unit17-source/author-only-reading-translation-witness.json",
+      "sha256": "131ba6cc242eb6bde71ad2347f893fda0a47fb5c09a6c22ff8ba944d6cffc118"
+    },
+    {
+      "path": "curriculum/proposals/unit17/author-only-reading-translation-witness.json",
+      "sha256": "581d73092a8b231d41e6c1d69aba8750f3604aff032e00ceed684d1e43ecb004"
+    }
+  ],
+  "independence": "Root prepared its complete translation before opening either other private witness. Source and design prepared their translations from actual Old English before the final key; design explicitly had not read the source editor witness. None claims a fresh blind learner solve.",
+  "agreement": [
+    "Princess has the harp fetched, performs and sings; Apollonius alone is silent; king interprets silence as censure.",
+    "Apollonius requests permission, distinguishes chancing upon music from learning it well, and asks the king to have the harp given to him.",
+    "Hine refers to the masculine musical art; the positive and negative knowing forms must both survive translation.",
+    "King and seated audience think the performer is Apollo; the narrator does not assert a transformation.",
+    "Skillful harp playing/singing is followed by further performance; the Latin comic/tragic expansion remains separate.",
+    "Source singular wæs remains unchanged; English plural or explanatory singular restructuring can convey the meaning.",
+    "Finalǣlc is subject and him eallum dative experiencers."
+  ],
+  "acceptable_rendering_differences": [
+    "Had fetched/ordered to be fetched; good/noble king; praise for/in respect of musical skill.",
+    "I say/I will say in the permission context; chanced upon/came upon music with the bounded source note.",
+    "Plectrum/harp-pick; moved/plucked the strings; presented/performed/displayed the beautiful things.",
+    "Stillness and silence came about/fell in the hall; no passive reading of intransitive geworden is required."
+  ],
+  "reconciliation_amendment": {
+    "source": "curriculum/proposals/unit17/author-only-reading-translation-witness.json",
+    "affected": "NEW-U17-R01-O001 essential_meaning first bullet",
+    "original": "The daughter fetches the harp and combines playing with singing.",
+    "final_requirement": "The daughter has the harp fetched and combines playing with singing.",
+    "reason": "The private witness model and diagnosis already correctly interpret hēt fęccean. The essential-meaning shorthand must not reverse the causative arrangement.",
+    "preservation": "Do not edit the initial witness; apply this refinement in the reconciled answer requirements and final key."
+  }
+}

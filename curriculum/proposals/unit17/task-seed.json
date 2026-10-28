@@ -1,0 +1,748 @@
+{
+  "schema_version": 1,
+  "chapter": "ch17",
+  "status": "proposal_before_contract; new morphology tasks follow audited complete systems",
+  "tasks": [
+    {
+      "task_id": "NEW-U17-A01",
+      "key_id": "KEY-NEW-U17-A01",
+      "origin_category": "new teaching material",
+      "kind": "clause_analysis",
+      "prompt": "Analyse the report. The man’s goodness is presented as simultaneous with the king’s past statement.",
+      "input_sequence_ids": [
+        "NEW-U17-A01-INPUT"
+      ],
+      "input_texts": [
+        "Se cyning sægde ðæt se mann wǣre gōd."
+      ],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-A01-O001",
+          "label": "Identify the two subjects and their finite verbs.",
+          "response_language": "English",
+          "target": "Separate matrix and content-clause subjects.",
+          "essential_meaning": "Separate matrix and content-clause subjects.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not make king the subject of both verbs.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A01-O002",
+          "label": "Classify ðæt and explain the reported time relation.",
+          "response_language": "English",
+          "target": "Content clause and relative temporal interpretation.",
+          "essential_meaning": "Content clause and relative temporal interpretation.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Ðæt here is not a relative pronoun, and past morphology alone does not mean anteriority.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A01-O003",
+          "label": "Does wǣre require the conclusion that the man was not good? Explain.",
+          "response_language": "English",
+          "target": "Separate reporting mood from truth value.",
+          "essential_meaning": "Separate reporting mood from truth value.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not equate subjunctive mechanically with false or unreal.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [
+        "u09-content-that",
+        "u12-reported-sequence",
+        "u03-predicate-adjective"
+      ],
+      "stage": 1,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall."
+    },
+    {
+      "task_id": "NEW-U17-A02",
+      "key_id": "KEY-NEW-U17-A02",
+      "origin_category": "new teaching material",
+      "kind": "comparison_and_number",
+      "prompt": "Analyse the comparison; then replace the first subject by the men while keeping the king singular.",
+      "input_sequence_ids": [
+        "NEW-U17-A02-INPUT"
+      ],
+      "input_texts": [
+        "Se mann sang bęt ðonne se cyning dyde."
+      ],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-A02-O001",
+          "label": "Translate the sentence.",
+          "response_language": "English",
+          "target": "Preserve the direction of comparison and both singers.",
+          "essential_meaning": "Preserve the direction of comparison and both singers.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not reverse who sang better.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A02-O002",
+          "label": "State the action repeated by dyde and explain why it is singular.",
+          "response_language": "English",
+          "target": "The comparison clause has independent agreement.",
+          "essential_meaning": "The comparison clause has independent agreement.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not let the first subject govern the second clause.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A02-O003",
+          "label": "Write the complete revised Old English sentence.",
+          "response_language": "Old English",
+          "target": "Change the first subject/article and sang to plural, preserving the second clause.",
+          "essential_meaning": "Change the first subject/article and sang to plural, preserving the second clause.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not pluralize dyde or leave singular sang.",
+          "output_sequence_id": "NEW-U17-A02-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "u04-intransitive-actions",
+        "u16-don-substitute",
+        "u16-adverbial-action-comparison"
+      ],
+      "stage": 1,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall."
+    },
+    {
+      "task_id": "NEW-U17-A03",
+      "key_id": "KEY-NEW-U17-A03",
+      "origin_category": "new teaching material",
+      "kind": "relative_case_and_number",
+      "prompt": "Analyse the relative clause; then replace the man by the men.",
+      "input_sequence_ids": [
+        "NEW-U17-A03-INPUT"
+      ],
+      "input_texts": [
+        "Ic geseah ðone mann ðe sang."
+      ],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-A03-O001",
+          "label": "Give the outer case and role of ðone mann.",
+          "response_language": "English",
+          "target": "Identify outer direct-object government.",
+          "essential_meaning": "Identify outer direct-object government.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not assign nominative merely because the man sings.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A03-O002",
+          "label": "Give the role represented by ðe inside the relative clause.",
+          "response_language": "English",
+          "target": "Distinguish internal relative subject from antecedent accusative.",
+          "essential_meaning": "Distinguish internal relative subject from antecedent accusative.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "The unchanged particle does not inherit an accusative function from the antecedent.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A03-O003",
+          "label": "Write the complete revised Old English sentence.",
+          "response_language": "Old English",
+          "target": "Plural antecedent and plural relative verb; first-person seeing remains singular.",
+          "essential_meaning": "Plural antecedent and plural relative verb; first-person seeing remains singular.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not change geseah to a plural verb.",
+          "output_sequence_id": "NEW-U17-A03-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "u08-relative-the",
+        "u08-relative-internal-case",
+        "u04-intransitive-actions"
+      ],
+      "stage": 1,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall."
+    },
+    {
+      "task_id": "NEW-U17-A04",
+      "key_id": "KEY-NEW-U17-A04",
+      "origin_category": "new teaching material",
+      "kind": "conditional_interpretation",
+      "prompt": "A concerns a possible visit tomorrow. In B the speaker treats his coming now as contrary to fact. Analyse both clauses in each sentence.",
+      "input_sequence_ids": [
+        "NEW-U17-A04-INPUT-A",
+        "NEW-U17-A04-INPUT-B"
+      ],
+      "input_texts": [
+        "Gif hē cymð, ic fare.",
+        "Gif hē cōme, ic fōre."
+      ],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-A04-O001",
+          "label": "Translate A and name the mood of each verb.",
+          "response_language": "English",
+          "target": "Open future condition with contextually future present indicatives.",
+          "essential_meaning": "Open future condition with contextually future present indicatives.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not require subjunctive merely after gif.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A04-O002",
+          "label": "Translate B and name the tense and mood of each verb.",
+          "response_language": "English",
+          "target": "Morphological preterite subjunctive with a specified contrary-present use.",
+          "essential_meaning": "Morphological preterite subjunctive with a specified contrary-present use.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not translate this as a completed past visit.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A04-O003",
+          "label": "Explain which evidence supplies the time and factual status.",
+          "response_language": "English",
+          "target": "Context controls interpretation beyond a conjunction label.",
+          "essential_meaning": "Context controls interpretation beyond a conjunction label.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not make a universal gif mood rule.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [
+        "u07-basic-conditionals",
+        "u11-contrary-present-condition",
+        "u06-cuman-intransitive",
+        "u06-faran-intransitive"
+      ],
+      "stage": 1,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall."
+    },
+    {
+      "task_id": "NEW-U17-C01",
+      "key_id": "KEY-NEW-U17-C01",
+      "origin_category": "new teaching material",
+      "kind": "controlled_composition",
+      "prompt": "Translate: The king saw the men who sang. Use an invariant relative particle.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-C01-O001",
+          "label": "Write one complete Old English sentence.",
+          "response_language": "Old English",
+          "target": "The king saw the men; the men sang.",
+          "essential_meaning": "The king saw the men; the men sang.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not make the king sing or leave singular relative agreement.",
+          "output_sequence_id": "NEW-U17-C01-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "u08-relative-the",
+        "u08-relative-internal-case",
+        "u04-intransitive-actions"
+      ],
+      "stage": 2,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall."
+    },
+    {
+      "task_id": "NEW-U17-C02",
+      "key_id": "KEY-NEW-U17-C02",
+      "origin_category": "new teaching material",
+      "kind": "controlled_composition",
+      "prompt": "Translate: The king is as good as the men are. Express equal degree with swā … swā.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-C02-O001",
+          "label": "Write one complete Old English sentence.",
+          "response_language": "Old English",
+          "target": "Equal goodness of the king and the men.",
+          "essential_meaning": "Equal goodness of the king and the men.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not use a comparative adjective or omit the second clause’s plural agreement.",
+          "output_sequence_id": "NEW-U17-C02-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "u12-equative-swa-swa",
+        "u03-predicate-adjective"
+      ],
+      "stage": 2,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall."
+    },
+    {
+      "task_id": "NEW-U17-C03",
+      "key_id": "KEY-NEW-U17-C03",
+      "origin_category": "new teaching material",
+      "kind": "controlled_composition",
+      "prompt": "A visit is possible tomorrow. Translate: If he comes, give (plural) him the book.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-C03-O001",
+          "label": "Write one complete Old English sentence.",
+          "response_language": "Old English",
+          "target": "Open visit condition; listeners give a book to that man.",
+          "essential_meaning": "Open visit condition; listeners give a book to that man.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not confuse dative recipient with accusative book or use singular command.",
+          "output_sequence_id": "NEW-U17-C03-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "u07-basic-conditionals",
+        "u06-cuman-intransitive",
+        "u05-giving-recipient",
+        "u06-imperative-use"
+      ],
+      "stage": 2,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall."
+    },
+    {
+      "task_id": "NEW-U17-C04",
+      "key_id": "KEY-NEW-U17-C04",
+      "origin_category": "new teaching material",
+      "kind": "controlled_composition",
+      "prompt": "Translate: The man says that the king is good. Present the content as a report, using the present subjunctive.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-C04-O001",
+          "label": "Write one complete Old English sentence.",
+          "response_language": "Old English",
+          "target": "Simultaneous reported goodness; explicit subjunctive target.",
+          "essential_meaning": "Simultaneous reported goodness; explicit subjunctive target.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "An indicative can be valid language, but differs from this stated mood target.",
+          "output_sequence_id": "NEW-U17-C04-OUTPUT"
+        }
+      ],
+      "feature_ids": [
+        "u09-content-that",
+        "u03-predicate-adjective"
+      ],
+      "stage": 2,
+      "dependency_status": "closed_against_actual_prior_register",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall."
+    },
+    {
+      "task_id": "NEW-U17-A05",
+      "key_id": "KEY-NEW-U17-A05",
+      "origin_category": "new teaching material",
+      "kind": "figurative_interpretation",
+      "prompt": "After translating Cook 43.1, analyse both images. Keep your complete translation beside the English prompt and the supplied vocabulary.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-A05-O001",
+          "label": "Identify the two things joined by the first copular image and explain its contextual force.",
+          "response_language": "English",
+          "target": "Distinguish literal copular structure from the contextual comparison.",
+          "essential_meaning": "Distinguish literal copular structure from the contextual comparison.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not turn the copula into an unexpressed lexical verb die.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A05-O002",
+          "label": "Identify the second comparison and distinguish its structure from the first.",
+          "response_language": "English",
+          "target": "Preserve both the flesh/grass image and the glory/blossom comparison.",
+          "essential_meaning": "Preserve both the flesh/grass image and the glory/blossom comparison.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not merge the two images or substitute generic beauty for the actual blossom.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A05-O003",
+          "label": "Explain why Human life is brief alone is not a complete translation of 43.1.",
+          "response_language": "English",
+          "target": "Separate translation from interpretive paraphrase.",
+          "essential_meaning": "Separate translation from interpretive paraphrase.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not reject an idiomatic translation merely for differing in English word order.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [
+        "u12-swa-predicative-comparison"
+      ],
+      "stage": 6,
+      "dependency_status": "inherits_reconciled_source_task_dependencies; figurative senses require explicit current teaching/support",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall.",
+      "source_task_refs": [
+        "EX-XII-XIII-43-01"
+      ]
+    },
+    {
+      "task_id": "NEW-U17-A06",
+      "key_id": "KEY-NEW-U17-A06",
+      "origin_category": "new teaching material",
+      "kind": "literal_and_contextual_senses",
+      "prompt": "Using Cook 37.14 and 40.9 and the printed lexical help, explain how context narrows the meanings of horn and seed. Retain the actual images in translation.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-A06-O001",
+          "label": "For 37.14, distinguish the horn image from a report about a literal animal.",
+          "response_language": "English",
+          "target": "Contextual horn sense without loss of literal image.",
+          "essential_meaning": "Contextual horn sense without loss of literal image.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not discard the image entirely or infer a new animal narrative.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A06-O002",
+          "label": "For 40.9, explain what seed denotes and identify whose seed it is.",
+          "response_language": "English",
+          "target": "Explicit new collective descendants sense and correct possessor.",
+          "essential_meaning": "Explicit new collective descendants sense and correct possessor.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not mistake his for God’s seed or claim productive plural-descendants morphology from singular sǣde.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-A06-O003",
+          "label": "State what the familiar inflection alone cannot establish in these two examples.",
+          "response_language": "English",
+          "target": "Form knowledge and sense knowledge are separate.",
+          "essential_meaning": "Form knowledge and sense knowledge are separate.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Do not treat a correct ending as proof of the correct lexical meaning.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "inherits_reconciled_source_task_dependencies; local figurative sense help visible",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall.",
+      "source_task_refs": [
+        "EX-XII-XIII-37-14",
+        "EX-XII-XIII-40-09"
+      ]
+    },
+    {
+      "task_id": "NEW-U17-R01",
+      "key_id": "KEY-NEW-U17-R01",
+      "origin_category": "new teaching material",
+      "kind": "supported_reading",
+      "prompt": "Translate the complete assigned reading in the three stated divisions, keeping all local help available.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-R01-O001",
+          "label": "Translate 174.7–174.13, through tǣlst.",
+          "response_language": "English",
+          "target": "She has her harp fetched, sings and plays; everyone praises her except silent Apollonius; the king treats his silence as censure.",
+          "essential_meaning": "She has her harp fetched, sings and plays; everyone praises her except silent Apollonius; the king treats his silence as censure.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R01-O002",
+          "label": "Translate 174.14–175.2, through wel gelǣred.",
+          "response_language": "English",
+          "target": "Apollonius asks permission, says the daughter has chanced upon music but not learned it well, requests the harp and promises a demonstration; the king acknowledges his learning.",
+          "essential_meaning": "Apollonius asks permission, says the daughter has chanced upon music but not learned it well, requests the harp and promises a demonstration; the king acknowledges his learning.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R01-O003",
+          "label": "Translate 175.3–175.17, through the final forðtēah.",
+          "response_language": "English",
+          "target": "The king orders the harp given; Apollonius changes dress and performs; listeners mistake his appearance for Apollo, then praise his music and unfamiliar performances.",
+          "essential_meaning": "The king orders the harp given; Apollonius changes dress and performs; listeners mistake his appearance for Apollo, then praise his music and unfamiliar performances.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_complete_source_token_and_support_binding",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall.",
+      "source_span_id": "FB-XII-APOLLONIUS-MUSIC-PERFORMANCE",
+      "assessment_scope": "Supported translation/analysis only; no source-only form, sense or frame is tested for independent recall."
+    },
+    {
+      "task_id": "NEW-U17-R02",
+      "key_id": "KEY-NEW-U17-R02",
+      "origin_category": "new teaching material",
+      "kind": "supported_reading",
+      "prompt": "Identify each referent and the grammatical evidence. Use the supplied source notes; say when context is needed.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-R02-O001",
+          "label": "Give the referent of hēo in 174.7.",
+          "response_language": "English",
+          "target": "The king’s daughter, supplied by preceding English context.",
+          "essential_meaning": "The king’s daughter, supplied by preceding English context.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R02-O002",
+          "label": "Give the referent of hine in 174.16 and its role.",
+          "response_language": "English",
+          "target": "The musical art, masculine swēgcræft; accusative object of learned, not the king or Apollonius.",
+          "essential_meaning": "The musical art, masculine swēgcræft; accusative object of learned, not the king or Apollonius.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R02-O003",
+          "label": "Give the referent of hē in the reported clauses 175.7–8.",
+          "response_language": "English",
+          "target": "Apollonius as perceived by the audience; their identification is embedded in thought.",
+          "essential_meaning": "Apollonius as perceived by the audience; their identification is embedded in thought.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R02-O004",
+          "label": "Give the referent and case of him eallum in 175.16–17.",
+          "response_language": "English",
+          "target": "All the listeners; dative experiencers with līcode, not the grammatical subject.",
+          "essential_meaning": "All the listeners; dative experiencers with līcode, not the grammatical subject.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_complete_source_token_and_support_binding",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall.",
+      "source_span_id": "FB-XII-APOLLONIUS-MUSIC-PERFORMANCE",
+      "assessment_scope": "Supported translation/analysis only; no source-only form, sense or frame is tested for independent recall."
+    },
+    {
+      "task_id": "NEW-U17-R03",
+      "key_id": "KEY-NEW-U17-R03",
+      "origin_category": "new teaching material",
+      "kind": "supported_reading",
+      "prompt": "Identify the clause relationship in each cited expression and distinguish it from a similar construction elsewhere.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-R03-O001",
+          "label": "Classify sōna swā174.8 and explain its time relation.",
+          "response_language": "English",
+          "target": "As soon as: the beginning of playing is followed immediately by the accompanying song.",
+          "essential_meaning": "As soon as: the beginning of playing is followed immediately by the accompanying song.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R03-O002",
+          "label": "Classify gif 174.14–15 in its context.",
+          "response_language": "English",
+          "target": "A permission condition introducing a courteous request to speak; no contrary-to-fact meaning is required.",
+          "essential_meaning": "A permission condition introducing a courteous request to speak; no contrary-to-fact meaning is required.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R03-O003",
+          "label": "Classify swā … ðæt 175.6–7.",
+          "response_language": "English",
+          "target": "Manner/degree followed by result: his appearance makes the audience take him for Apollo.",
+          "essential_meaning": "Manner/degree followed by result: his appearance makes the audience take him for Apollo.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R03-O004",
+          "label": "Explain why the two ðæt clauses 175.7–8 do not assert that Apollonius actually is Apollo.",
+          "response_language": "English",
+          "target": "They are the contents of what the king and bystanders thought; the two clauses contrast their identifications.",
+          "essential_meaning": "They are the contents of what the king and bystanders thought; the two clauses contrast their identifications.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_complete_source_token_and_support_binding",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall.",
+      "source_span_id": "FB-XII-APOLLONIUS-MUSIC-PERFORMANCE",
+      "assessment_scope": "Supported translation/analysis only; no source-only form, sense or frame is tested for independent recall."
+    },
+    {
+      "task_id": "NEW-U17-R04",
+      "key_id": "KEY-NEW-U17-R04",
+      "origin_category": "new teaching material",
+      "kind": "supported_reading",
+      "prompt": "Analyse the supplied participial and predicate expressions without changing the source spelling.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-R04-O001",
+          "label": "Explain swīgende 174.13 using original note 12a.",
+          "response_language": "English",
+          "target": "The edition’s form stands for swīgiende, a present participle accompanying the addressee’s silence/censure; preserve the actual printed spelling.",
+          "essential_meaning": "The edition’s form stands for swīgiende, a present participle accompanying the addressee’s silence/censure; preserve the actual printed spelling.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R04-O002",
+          "label": "Explain the referent of ðā ymbsittendan 175.7.",
+          "response_language": "English",
+          "target": "The people sitting around: a substantival participial expression for the bystanders.",
+          "essential_meaning": "The people sitting around: a substantival participial expression for the bystanders.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R04-O003",
+          "label": "Account for singular ungecnāwen wæs and ungewunelic 175.16.",
+          "response_language": "English",
+          "target": "Preserve the source’s collective/singular construal of the presented performances after fela…ðinga; do not silently regularize the text to plural.",
+          "essential_meaning": "Preserve the source’s collective/singular construal of the presented performances after fela…ðinga; do not silently regularize the text to plural.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R04-O004",
+          "label": "Identify the subject of līcode 175.17 and distinguish it from him eallum.",
+          "response_language": "English",
+          "target": "Ǣlc of the performances is the singular subject; him eallum is the dative experiencer.",
+          "essential_meaning": "Ǣlc of the performances is the singular subject; him eallum is the dative experiencer.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_complete_source_token_and_support_binding",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall.",
+      "source_span_id": "FB-XII-APOLLONIUS-MUSIC-PERFORMANCE",
+      "assessment_scope": "Supported translation/analysis only; no source-only form, sense or frame is tested for independent recall."
+    },
+    {
+      "task_id": "NEW-U17-R05",
+      "key_id": "KEY-NEW-U17-R05",
+      "origin_category": "new teaching material",
+      "kind": "supported_reading",
+      "prompt": "Separate literal wording from the contextual performance sense in each expression, using the local help and original notes.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-R05-O001",
+          "label": "Explain gefēoll on swēgcræft 174.16.",
+          "response_language": "English",
+          "target": "Literally fell upon musical art; in context chanced upon/took up music, contrasted with not having learned it well.",
+          "essential_meaning": "Literally fell upon musical art; in context chanced upon/took up music, contrasted with not having learned it well.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R05-O002",
+          "label": "Explain plegode and forðtēah 175.15.",
+          "response_language": "English",
+          "target": "Performed/acted and presented performances; the note’s Latin explains comic/tragic acting, while the Old English wording remains broader.",
+          "essential_meaning": "Performed/acted and presented performances; the note’s Latin explains comic/tragic acting, while the Old English wording remains broader.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R05-O003",
+          "label": "Explain the function of Apollines 175.8.",
+          "response_language": "English",
+          "target": "The name identifies Apollo in the listeners’ mistaken comparison; preserve the narrator’s report rather than translating an actual transformation.",
+          "essential_meaning": "The name identifies Apollo in the listeners’ mistaken comparison; preserve the narrator’s report rather than translating an actual transformation.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_complete_source_token_and_support_binding",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall.",
+      "source_span_id": "FB-XII-APOLLONIUS-MUSIC-PERFORMANCE",
+      "assessment_scope": "Supported translation/analysis only; no source-only form, sense or frame is tested for independent recall."
+    },
+    {
+      "task_id": "NEW-U17-R06",
+      "key_id": "KEY-NEW-U17-R06",
+      "origin_category": "new teaching material",
+      "kind": "supported_reading",
+      "prompt": "Explain the argument of the episode from the actual Old English.",
+      "input_sequence_ids": [],
+      "input_texts": [],
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-R06-O001",
+          "label": "State the difference between the king’s reading of silence and Apollonius’s explanation.",
+          "response_language": "English",
+          "target": "The king treats silence as blame; Apollonius explains that the daughter has not mastered her musical art.",
+          "essential_meaning": "The king treats silence as blame; Apollonius explains that the daughter has not mastered her musical art.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R06-O002",
+          "label": "Identify two kinds of evidence by which Apollonius answers the criticism of his conduct.",
+          "response_language": "English",
+          "target": "He demonstrates skilled music, then further striking performances; the audience’s praise and pleasure validate his demonstrated ability.",
+          "essential_meaning": "He demonstrates skilled music, then further striking performances; the audience’s praise and pleasure validate his demonstrated ability.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        },
+        {
+          "output_position_id": "NEW-U17-R06-O003",
+          "label": "Explain how the final sentence combines novelty with approval.",
+          "response_language": "English",
+          "target": "The performances were unfamiliar and unusual to the audience, yet each pleased all the listeners; unfamiliarity does not express disapproval here.",
+          "essential_meaning": "The performances were unfamiliar and unusual to the audience, yet each pleased all the listeners; unfamiliarity does not express disapproval here.",
+          "alternatives_policy": "Accept equivalent grammatical wording that preserves the stated target and participant relations. For an English analysis, accept precise equivalent terminology.",
+          "error_diagnosis": "Preserve the actual source wording and use the supplied interpretation without claiming an unsupported grammatical generalization.",
+          "output_sequence_id": null
+        }
+      ],
+      "feature_ids": [],
+      "stage": 6,
+      "dependency_status": "awaits_complete_source_token_and_support_binding",
+      "supplied_help_rule": "Any later source-specific supplied frames remain visible and are excluded from independent recall.",
+      "source_span_id": "FB-XII-APOLLONIUS-MUSIC-PERFORMANCE",
+      "assessment_scope": "Supported translation/analysis only; no source-only form, sense or frame is tested for independent recall."
+    }
+  ]
+}

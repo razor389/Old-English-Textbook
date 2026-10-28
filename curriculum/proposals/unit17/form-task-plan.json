@@ -1,0 +1,844 @@
+{
+  "schema_version": 1,
+  "chapter": "ch17",
+  "status": "all21_output_positions_bound",
+  "tasks": [
+    {
+      "task_id": "NEW-U17-F01",
+      "kind": "case_and_number_in_context",
+      "prompt": "Use cniht in its explicitly taught servant sense and bōc book. Translate the four expressions. In each, choose the noun's case from its role rather than from an English word ending.",
+      "headword_references": [
+        "cniht",
+        "bōc"
+      ],
+      "new_dependencies": [
+        "cniht full8cell count-noun system",
+        "cniht-u17-servant"
+      ],
+      "prior_feature_ids": [
+        "u05-giving-recipient",
+        "noun-coordination"
+      ],
+      "key_id": "KEY-NEW-U17-F01",
+      "origin_category": "new teaching material",
+      "stage": 2,
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-F01-O001",
+          "label": "the servant's book",
+          "response_language": "Old English",
+          "target": "singular dependent genitive, singular head",
+          "essential_meaning": "One servant possesses one book.",
+          "error_diagnosis": "Do not put the head book in genitive merely because its possessor is genitive.",
+          "output_id": "NEW-U17-F01-O001",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F01-O001-MODEL",
+          "required_form_ids": [
+            "boc-nom-sg",
+            "cniht-gen-sg",
+            "se-m-gen-sg"
+          ],
+          "required_sense_ids": [
+            "boc-1",
+            "cniht-u17-servant",
+            "se-the"
+          ],
+          "tested_form_ids": [
+            "cniht-gen-sg",
+            "se-m-gen-sg"
+          ],
+          "tested_sense_ids": [
+            "cniht-u17-servant",
+            "se-the"
+          ],
+          "reference_output_positions": [
+            3
+          ],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F01-O002",
+          "label": "the servants' books",
+          "response_language": "Old English",
+          "target": "plural dependent genitive and plural head",
+          "essential_meaning": "Several servants possess several books.",
+          "error_diagnosis": "Distinguish cnihta from cnihtes and the root-noun book plural from an invented regular plural.",
+          "output_id": "NEW-U17-F01-O002",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F01-O002-MODEL",
+          "required_form_ids": [
+            "boc-nom-pl",
+            "cniht-gen-pl",
+            "se-all-gen-pl"
+          ],
+          "required_sense_ids": [
+            "boc-1",
+            "cniht-u17-servant",
+            "se-the"
+          ],
+          "tested_form_ids": [
+            "boc-nom-pl",
+            "cniht-gen-pl",
+            "se-all-gen-pl"
+          ],
+          "tested_sense_ids": [
+            "boc-1",
+            "cniht-u17-servant",
+            "se-the"
+          ],
+          "reference_output_positions": [],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F01-O003",
+          "label": "I give the servant the book.",
+          "response_language": "Old English",
+          "target": "singular recipient dative, accusative thing, first-singular giving",
+          "essential_meaning": "The speaker gives one book to one servant.",
+          "error_diagnosis": "Do not confuse the servant recipient with the thing given.",
+          "output_id": "NEW-U17-F01-O003",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F01-O003-MODEL",
+          "required_form_ids": [
+            "boc-acc-sg",
+            "cniht-dat-sg",
+            "giefan-pres-1-sg",
+            "ic-nom-sg",
+            "se-f-acc-sg",
+            "se-m-dat-sg"
+          ],
+          "required_sense_ids": [
+            "boc-1",
+            "cniht-u17-servant",
+            "giefan-1",
+            "ic-personal",
+            "se-the"
+          ],
+          "tested_form_ids": [
+            "cniht-dat-sg",
+            "giefan-pres-1-sg",
+            "ic-nom-sg",
+            "se-f-acc-sg",
+            "se-m-dat-sg"
+          ],
+          "tested_sense_ids": [
+            "cniht-u17-servant",
+            "giefan-1",
+            "ic-personal",
+            "se-the"
+          ],
+          "reference_output_positions": [
+            6
+          ],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F01-O004",
+          "label": "We give the servants the books.",
+          "response_language": "Old English",
+          "target": "plural recipient dative and accusative things, first-plural giving",
+          "essential_meaning": "The speakers give several books to several servants.",
+          "error_diagnosis": "Change subject agreement, recipient number and book number together.",
+          "output_id": "NEW-U17-F01-O004",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F01-O004-MODEL",
+          "required_form_ids": [
+            "boc-acc-pl",
+            "cniht-dat-pl",
+            "giefan-pres-1-pl",
+            "ic-nom-pl",
+            "se-all-acc-pl",
+            "se-all-dat-pl"
+          ],
+          "required_sense_ids": [
+            "boc-1",
+            "cniht-u17-servant",
+            "giefan-1",
+            "ic-personal",
+            "se-the"
+          ],
+          "tested_form_ids": [
+            "boc-acc-pl",
+            "cniht-dat-pl",
+            "giefan-pres-1-pl",
+            "ic-nom-pl",
+            "se-all-acc-pl",
+            "se-all-dat-pl"
+          ],
+          "tested_sense_ids": [
+            "boc-1",
+            "cniht-u17-servant",
+            "giefan-1",
+            "ic-personal",
+            "se-the"
+          ],
+          "reference_output_positions": [],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        }
+      ],
+      "required_feature_ids": [
+        "genitive-relationship",
+        "article-agreement",
+        "u05-giving-recipient",
+        "u02-active-agreement"
+      ],
+      "input_sequence_ids": [
+        "NEW-U17-F01-HEADWORD-01",
+        "NEW-U17-F01-HEADWORD-02"
+      ],
+      "dependency_status": "closed_proposed_inventory"
+    },
+    {
+      "task_id": "NEW-U17-F02",
+      "kind": "exception_and_government",
+      "prompt": "Use the selected endingless accusative of cwēn queen, while retaining its genitive/dative ending. Translate the three expressions, then explain the contrast.",
+      "headword_references": [
+        "cwēn",
+        "bōc"
+      ],
+      "new_dependencies": [
+        "cwēn complete8cell system with selected accusative and documented variant"
+      ],
+      "prior_feature_ids": [
+        "u05-giving-recipient"
+      ],
+      "key_id": "KEY-NEW-U17-F02",
+      "origin_category": "new teaching material",
+      "stage": 2,
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-F02-O001",
+          "label": "I saw the queen.",
+          "response_language": "Old English",
+          "target": "endingless accusative singular cwēn",
+          "essential_meaning": "The queen is the person seen.",
+          "error_diagnosis": "The selected endingless accusative is still accusative; a documented cwēne alternative can be valid but differs from this explicit target.",
+          "output_id": "NEW-U17-F02-O001",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F02-O001-MODEL",
+          "required_form_ids": [
+            "cwen-acc-sg",
+            "geseon-pret-1-sg",
+            "ic-nom-sg",
+            "se-f-acc-sg"
+          ],
+          "required_sense_ids": [
+            "cwen-u17-queen",
+            "geseon-1",
+            "ic-personal",
+            "se-the"
+          ],
+          "tested_form_ids": [
+            "geseon-pret-1-sg",
+            "ic-nom-sg",
+            "se-f-acc-sg"
+          ],
+          "tested_sense_ids": [
+            "geseon-1",
+            "ic-personal",
+            "se-the"
+          ],
+          "reference_output_positions": [
+            4
+          ],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F02-O002",
+          "label": "I gave the queen the book.",
+          "response_language": "Old English",
+          "target": "dative singular queen as recipient",
+          "essential_meaning": "The queen receives the book.",
+          "error_diagnosis": "Do not extend the endingless accusative choice to the dative.",
+          "output_id": "NEW-U17-F02-O002",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F02-O002-MODEL",
+          "required_form_ids": [
+            "boc-acc-sg",
+            "cwen-dat-sg",
+            "giefan-pret-1-sg",
+            "ic-nom-sg",
+            "se-f-acc-sg",
+            "se-f-dat-sg"
+          ],
+          "required_sense_ids": [
+            "boc-1",
+            "cwen-u17-queen",
+            "giefan-1",
+            "ic-personal",
+            "se-the"
+          ],
+          "tested_form_ids": [
+            "cwen-dat-sg",
+            "giefan-pret-1-sg",
+            "ic-nom-sg",
+            "se-f-acc-sg",
+            "se-f-dat-sg"
+          ],
+          "tested_sense_ids": [
+            "cwen-u17-queen",
+            "giefan-1",
+            "ic-personal",
+            "se-the"
+          ],
+          "reference_output_positions": [
+            6
+          ],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F02-O003",
+          "label": "the queen's book",
+          "response_language": "Old English",
+          "target": "genitive singular dependent plus nominative head",
+          "essential_meaning": "A book belonging to the queen.",
+          "error_diagnosis": "The same surface as the dative does not establish the same syntactic role.",
+          "output_id": "NEW-U17-F02-O003",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F02-O003-MODEL",
+          "required_form_ids": [
+            "boc-nom-sg",
+            "cwen-gen-sg",
+            "se-f-gen-sg"
+          ],
+          "required_sense_ids": [
+            "boc-1",
+            "cwen-u17-queen",
+            "se-the"
+          ],
+          "tested_form_ids": [
+            "cwen-gen-sg",
+            "se-f-gen-sg"
+          ],
+          "tested_sense_ids": [
+            "cwen-u17-queen",
+            "se-the"
+          ],
+          "reference_output_positions": [
+            3
+          ],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F02-O004",
+          "label": "Explain what the three queen forms show about identifying case from an ending alone.",
+          "response_language": "English",
+          "target": "endingless accusative and genitive/dative syncretism interpreted by construction",
+          "essential_meaning": "Case is governed by the whole construction; the selected accusative is endingless, and genitive/dative share an ending.",
+          "error_diagnosis": "Do not infer that an unmarked form must be nominative.",
+          "output_id": "NEW-U17-F02-O004",
+          "kind": "explanation",
+          "dependency_status": "English explanation; inherits actual cited input/output requirements",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        }
+      ],
+      "required_feature_ids": [
+        "genitive-relationship",
+        "article-agreement",
+        "u05-see-object",
+        "u05-giving-recipient",
+        "u02-active-agreement",
+        "paradigm-fem-acc-zero"
+      ],
+      "input_sequence_ids": [
+        "NEW-U17-F02-HEADWORD-01",
+        "NEW-U17-F02-HEADWORD-02"
+      ],
+      "dependency_status": "closed_proposed_inventory"
+    },
+    {
+      "task_id": "NEW-U17-F03",
+      "kind": "number_and_neuter_contrast",
+      "prompt": "Use fox fox, hol hole and nest nest. Translate each sentence. Keep ordinary locative on with the dative and distinguish the two neuter plural patterns.",
+      "headword_references": [
+        "fox",
+        "hol",
+        "nest"
+      ],
+      "new_dependencies": [
+        "fox full8cell productive system",
+        "hol full8cell productive system",
+        "nest full8cell productive system"
+      ],
+      "prior_feature_ids": [
+        "u03-predicate-adjective"
+      ],
+      "key_id": "KEY-NEW-U17-F03",
+      "origin_category": "new teaching material",
+      "stage": 2,
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-F03-O001",
+          "label": "The fox is in the hole.",
+          "response_language": "Old English",
+          "target": "masculine singular subject and neuter singular locative",
+          "essential_meaning": "One fox is located in one hole.",
+          "error_diagnosis": "Do not use an accusative destination phrase for the stated location.",
+          "output_id": "NEW-U17-F03-O001",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F03-O001-MODEL",
+          "required_form_ids": [
+            "fox-nom-sg",
+            "hol-dat-sg",
+            "on-invariant",
+            "se-m-nom-sg",
+            "se-n-dat-sg",
+            "wesan-pres-3-sg"
+          ],
+          "required_sense_ids": [
+            "fox-u17-sense",
+            "hol-u17-sense",
+            "on-1",
+            "se-the",
+            "wesan-be"
+          ],
+          "tested_form_ids": [
+            "hol-dat-sg",
+            "on-invariant",
+            "se-m-nom-sg",
+            "se-n-dat-sg",
+            "wesan-pres-3-sg"
+          ],
+          "tested_sense_ids": [
+            "hol-u17-sense",
+            "on-1",
+            "se-the",
+            "wesan-be"
+          ],
+          "reference_output_positions": [
+            2
+          ],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F03-O002",
+          "label": "The foxes are in the holes.",
+          "response_language": "Old English",
+          "target": "plural subject agreement and dative plural location",
+          "essential_meaning": "Several foxes are located in several holes.",
+          "error_diagnosis": "Change both the subject/verb and the locative phrase to plural.",
+          "output_id": "NEW-U17-F03-O002",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F03-O002-MODEL",
+          "required_form_ids": [
+            "fox-nom-pl",
+            "hol-dat-pl",
+            "on-invariant",
+            "se-all-dat-pl",
+            "se-all-nom-pl",
+            "wesan-pres-3-pl"
+          ],
+          "required_sense_ids": [
+            "fox-u17-sense",
+            "hol-u17-sense",
+            "on-1",
+            "se-the",
+            "wesan-be"
+          ],
+          "tested_form_ids": [
+            "fox-nom-pl",
+            "hol-dat-pl",
+            "on-invariant",
+            "se-all-dat-pl",
+            "se-all-nom-pl",
+            "wesan-pres-3-pl"
+          ],
+          "tested_sense_ids": [
+            "fox-u17-sense",
+            "hol-u17-sense",
+            "on-1",
+            "se-the",
+            "wesan-be"
+          ],
+          "reference_output_positions": [],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F03-O003",
+          "label": "The nest is in the tree.",
+          "response_language": "Old English",
+          "target": "neuter singular subject, prior trēo dative singular",
+          "essential_meaning": "One nest is located in one tree.",
+          "error_diagnosis": "Keep the tree's documented w stem before the ending.",
+          "output_id": "NEW-U17-F03-O003",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F03-O003-MODEL",
+          "required_form_ids": [
+            "nest-nom-sg",
+            "on-invariant",
+            "se-n-dat-sg",
+            "se-n-nom-sg",
+            "treo-dat-sg",
+            "wesan-pres-3-sg"
+          ],
+          "required_sense_ids": [
+            "nest-u17-sense",
+            "on-1",
+            "se-the",
+            "treo-1",
+            "wesan-be"
+          ],
+          "tested_form_ids": [
+            "on-invariant",
+            "se-n-dat-sg",
+            "se-n-nom-sg",
+            "treo-dat-sg",
+            "wesan-pres-3-sg"
+          ],
+          "tested_sense_ids": [
+            "on-1",
+            "se-the",
+            "treo-1",
+            "wesan-be"
+          ],
+          "reference_output_positions": [
+            2
+          ],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F03-O004",
+          "label": "The nests are in the trees.",
+          "response_language": "Old English",
+          "target": "endingless neuter nominative plural nest and plural copula",
+          "essential_meaning": "Several nests are located in several trees.",
+          "error_diagnosis": "Do not infer singular number solely from the unchanged nest surface.",
+          "output_id": "NEW-U17-F03-O004",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F03-O004-MODEL",
+          "required_form_ids": [
+            "nest-nom-pl",
+            "on-invariant",
+            "se-all-dat-pl",
+            "se-all-nom-pl",
+            "treo-dat-pl",
+            "wesan-pres-3-pl"
+          ],
+          "required_sense_ids": [
+            "nest-u17-sense",
+            "on-1",
+            "se-the",
+            "treo-1",
+            "wesan-be"
+          ],
+          "tested_form_ids": [
+            "on-invariant",
+            "se-all-dat-pl",
+            "se-all-nom-pl",
+            "treo-dat-pl",
+            "wesan-pres-3-pl"
+          ],
+          "tested_sense_ids": [
+            "on-1",
+            "se-the",
+            "treo-1",
+            "wesan-be"
+          ],
+          "reference_output_positions": [
+            2
+          ],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F03-O005",
+          "label": "The holes are large.",
+          "response_language": "Old English",
+          "target": "short-neuter plural holu and plural predicate agreement",
+          "essential_meaning": "Several holes are large.",
+          "error_diagnosis": "Do not extend nest's zero plural to short-stem hol or use weak adjective agreement merely because the subject has an article.",
+          "output_id": "NEW-U17-F03-O005",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F03-O005-MODEL",
+          "required_form_ids": [
+            "hol-nom-pl",
+            "micel-nom-n-pl-strong",
+            "se-all-nom-pl",
+            "wesan-pres-3-pl"
+          ],
+          "required_sense_ids": [
+            "hol-u17-sense",
+            "micel-1",
+            "se-the",
+            "wesan-be"
+          ],
+          "tested_form_ids": [
+            "hol-nom-pl",
+            "micel-nom-n-pl-strong",
+            "se-all-nom-pl",
+            "wesan-pres-3-pl"
+          ],
+          "tested_sense_ids": [
+            "hol-u17-sense",
+            "micel-1",
+            "se-the",
+            "wesan-be"
+          ],
+          "reference_output_positions": [],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        }
+      ],
+      "required_feature_ids": [
+        "article-agreement",
+        "on-dative-location",
+        "subject-agreement",
+        "u03-predicate-adjective",
+        "paradigm-neut-weight",
+        "paradigm-neut-treo"
+      ],
+      "input_sequence_ids": [
+        "NEW-U17-F03-HEADWORD-01",
+        "NEW-U17-F03-HEADWORD-02",
+        "NEW-U17-F03-HEADWORD-03"
+      ],
+      "dependency_status": "closed_proposed_inventory"
+    },
+    {
+      "task_id": "NEW-U17-F04",
+      "kind": "mood_person_and_syncretism",
+      "prompt": "Use hęrian praise. Supply only the finite form required in each stated setting, then explain the contrast. The dictionary form is visible reference help.",
+      "headword_references": [
+        "hęrian"
+      ],
+      "new_dependencies": [
+        "hęrian complete12cell indicative",
+        "hęrian complete2cell command pair",
+        "hęrian complete6cell present subjunctive"
+      ],
+      "prior_feature_ids": [
+        "u06-imperative-use",
+        "u07-wish-exhortation"
+      ],
+      "key_id": "KEY-NEW-U17-F04",
+      "origin_category": "new teaching material",
+      "stage": 2,
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-F04-O001",
+          "label": "A narrator states: they praise. Give present indicative third plural.",
+          "response_language": "Old English",
+          "target": "hęrian present indicative third plural",
+          "essential_meaning": "An assertion of several people's praising.",
+          "error_diagnosis": "Do not choose the subjunctive wish ending merely because praise is a religious act.",
+          "output_id": "NEW-U17-F04-O001",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F04-O001-MODEL",
+          "required_form_ids": [
+            "herian-u17-pres-3-pl"
+          ],
+          "required_sense_ids": [
+            "herian-u17-selected"
+          ],
+          "tested_form_ids": [
+            "herian-u17-pres-3-pl"
+          ],
+          "tested_sense_ids": [
+            "herian-u17-selected"
+          ],
+          "reference_output_positions": [],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F04-O002",
+          "label": "A speaker commands several listeners: praise! Give second-plural imperative.",
+          "response_language": "Old English",
+          "target": "hęrian second-plural imperative",
+          "essential_meaning": "A direct command to several addressees.",
+          "error_diagnosis": "Its spelling can match the indicative; identify it by the task's communicative setting.",
+          "output_id": "NEW-U17-F04-O002",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F04-O002-MODEL",
+          "required_form_ids": [
+            "herian-u17-imp-2-pl"
+          ],
+          "required_sense_ids": [
+            "herian-u17-selected"
+          ],
+          "tested_form_ids": [
+            "herian-u17-imp-2-pl"
+          ],
+          "tested_sense_ids": [
+            "herian-u17-selected"
+          ],
+          "reference_output_positions": [],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F04-O003",
+          "label": "A speaker wishes: may they praise. Give present subjunctive third plural.",
+          "response_language": "Old English",
+          "target": "hęrian present subjunctive third plural",
+          "essential_meaning": "A third-person wish.",
+          "error_diagnosis": "Do not translate may by a separate permission verb.",
+          "output_id": "NEW-U17-F04-O003",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F04-O003-MODEL",
+          "required_form_ids": [
+            "herian-u17-present-subj-3-pl"
+          ],
+          "required_sense_ids": [
+            "herian-u17-selected"
+          ],
+          "tested_form_ids": [
+            "herian-u17-present-subj-3-pl"
+          ],
+          "tested_sense_ids": [
+            "herian-u17-selected"
+          ],
+          "reference_output_positions": [],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F04-O004",
+          "label": "Which answers are spelled alike, and what distinguishes their functions?",
+          "response_language": "English",
+          "target": "indicative/imperative syncretism contrasted with subjunctive",
+          "essential_meaning": "The present indicative plural and plural imperative share a surface; asserted subject versus commanded addressee and context distinguish them.",
+          "error_diagnosis": "A shared spelling does not prove one grammatical analysis.",
+          "output_id": "NEW-U17-F04-O004",
+          "kind": "explanation",
+          "dependency_status": "English explanation; inherits actual cited input/output requirements",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        }
+      ],
+      "required_feature_ids": [
+        "u06-imperative-use",
+        "u07-wish-exhortation",
+        "u17-herian-object"
+      ],
+      "input_sequence_ids": [
+        "NEW-U17-F04-HEADWORD-01"
+      ],
+      "dependency_status": "closed_proposed_inventory"
+    },
+    {
+      "task_id": "NEW-U17-F05",
+      "kind": "nominalized_participles_and_internal_government",
+      "prompt": "Use the explicitly taught present participles of ondrǣdan fear and hyngran be hungry. Translate the two nominal phrases, then distinguish each phrase's outer case from any object governed inside it.",
+      "headword_references": [
+        "ondrǣdan",
+        "hyngran"
+      ],
+      "new_dependencies": [
+        "explicit ondrǣdan accusative-person frame",
+        "explicit nominalized participle syntax",
+        "complete assigned ondrǣdan/hyngran participial display routes"
+      ],
+      "prior_feature_ids": [
+        "u07-participle-agreement"
+      ],
+      "key_id": "KEY-NEW-U17-F05",
+      "origin_category": "new teaching material",
+      "stage": 2,
+      "requested_outputs": [
+        {
+          "output_position_id": "NEW-U17-F05-O001",
+          "label": "to those fearing him: use a dative plural participle without an expressed people noun; him is the one feared",
+          "response_language": "Old English",
+          "target": "outer dative plural nominalized participle with inner accusative person feared",
+          "essential_meaning": "The beneficiaries are the people who fear him.",
+          "error_diagnosis": "Do not make the person feared dative simply because the whole participial phrase is dative.",
+          "output_id": "NEW-U17-F05-O001",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F05-O001-MODEL",
+          "required_form_ids": [
+            "he-m-acc-sg",
+            "ondraedan-u17-present-part-dat-m-pl-strong"
+          ],
+          "required_sense_ids": [
+            "he-1",
+            "ondraedan-u13"
+          ],
+          "tested_form_ids": [
+            "he-m-acc-sg",
+            "ondraedan-u17-present-part-dat-m-pl-strong"
+          ],
+          "tested_sense_ids": [
+            "he-1",
+            "ondraedan-u13"
+          ],
+          "reference_output_positions": [],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F05-O002",
+          "label": "the hungry: give the weak accusative plural phrase used as a direct object",
+          "response_language": "Old English",
+          "target": "article plus weak accusative plural present participle",
+          "essential_meaning": "The hungry people are the direct object.",
+          "error_diagnosis": "Do not restore an unrequested people noun or mistake the phrase for an impersonal finite clause.",
+          "output_id": "NEW-U17-F05-O002",
+          "kind": "translation_or_form",
+          "output_sequence_id": "NEW-U17-F05-O002-MODEL",
+          "required_form_ids": [
+            "hyngran-u17-present-part-acc-m-pl-weak",
+            "se-all-acc-pl"
+          ],
+          "required_sense_ids": [
+            "hyngran-u17-hungry-participle",
+            "se-the"
+          ],
+          "tested_form_ids": [
+            "hyngran-u17-present-part-acc-m-pl-weak",
+            "se-all-acc-pl"
+          ],
+          "tested_sense_ids": [
+            "hyngran-u17-hungry-participle",
+            "se-the"
+          ],
+          "reference_output_positions": [],
+          "dependency_status": "closed_proposed_prior_and_current_nominal_inventory",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F05-O003",
+          "label": "State the two grammatical relations in the fear phrase.",
+          "response_language": "English",
+          "target": "dative outer function versus accusative inner government",
+          "essential_meaning": "The participle phrase is dative as beneficiary, while ondrǣdan governs the accusative object within it.",
+          "error_diagnosis": "Internal dependents do not automatically copy their phrase's outer case.",
+          "output_id": "NEW-U17-F05-O003",
+          "kind": "explanation",
+          "dependency_status": "English explanation; inherits actual cited input/output requirements",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        },
+        {
+          "output_position_id": "NEW-U17-F05-O004",
+          "label": "Explain why a present participle can name people here without being a finite verb.",
+          "response_language": "English",
+          "target": "explicitly taught substantival participle use and inflection",
+          "essential_meaning": "The participial form is used nominally for people characterized by the activity or condition; its case follows the noun phrase's role, and no independent finite verb is present.",
+          "error_diagnosis": "Do not infer tense/person agreement from the label present participle.",
+          "output_id": "NEW-U17-F05-O004",
+          "kind": "explanation",
+          "dependency_status": "English explanation; inherits actual cited input/output requirements",
+          "alternatives_policy": "Accept evidenced grammatical alternatives; separately record failure of an explicit selected form, number or construction target."
+        }
+      ],
+      "required_feature_ids": [
+        "u07-participle-agreement",
+        "u17-participle-human-nominalization"
+      ],
+      "input_sequence_ids": [
+        "NEW-U17-F05-HEADWORD-01",
+        "NEW-U17-F05-HEADWORD-02"
+      ],
+      "dependency_status": "closed_proposed_inventory"
+    }
+  ]
+}

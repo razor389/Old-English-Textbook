@@ -1,6 +1,8 @@
 # Handoff to the next session
 
-The requested Unit 16 is complete. **Units 1–16** have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 16 exports and registers are saved at **`edb1bbb`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md) and [typesetting index](../typesetting/README.md) include Unit 16. Unit 17 is now requested and in source/curriculum audit under its [brief](../curriculum/UNIT_17_BRIEF.md). Root coordinates Beads; three agents own exclusive source, grammar and design packets. The contract must precede prose. The immutable baseline is defa8008f6887a1f5f6afe9db27431d500a03f67; no Unit 17 learner or key prose exists yet.
+The requested Unit 17 has an accepted [pre-prose contract](../chapters/ch17/coverage.json): 82 Cook items, 21 original tasks, 146 answer positions, 110 bounded systems / 1,234 literal cells and the 252-word music-performance episode with all 19 original notes / 20 anchors. Source, grammar and design packets are sealed; the canonical checker passes. Root coordinates Beads. Save this contract checkpoint before beginning learner and separate key prose; then require fresh blind solutions frozen before key access, a separate full paradigm review, complete exports, every-page inspection and preserved-register integration. No Unit 17 learner or key prose exists at this checkpoint. The immutable sixteen-unit baseline is defa8008f6887a1f5f6afe9db27431d500a03f67. Do not recapture it or draft Unit 18.
+
+**Units 1–16** remain complete with independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Unit 16 exports/registers are saved at **`edb1bbb`**; its main indexes remain intact while Unit 17 proceeds.
 
 ## Unit 16 evidence and review
 
