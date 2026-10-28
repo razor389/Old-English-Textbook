@@ -1,18 +1,16 @@
 # Status
 
-Updated 28 October 2026. **Units 1–16 remain complete.** Unit 17 has complete learner and separate-key drafts under the contract saved before prose at **6fc6fc1**. All 103 tasks / 146 outputs, 82 Cook prompts, 124 tables / 1,234 literal cells and the exact 252-word reading with19 notes /20 anchors pass structural and dependency checks. Coordinator readback repairs are resolved. Fresh blind solving and final independent display review are next; exports and register integration remain pending. Unit18 remains undrafted.
+Updated 28 October 2026. **Units 1–17 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 17 exports and registers are saved at **`99fcc3a`**. The eighteen-unit outline and all 644 Cook item mappings remain settled. Unit 18 remains undrafted; begin only when requested.
 
-## Completed Unit 16
+## Completed Unit 17
 
-The [brief](curriculum/UNIT_16_BRIEF.md) and [contract](chapters/ch16/coverage.json) cover extended narrative and speech: participant reference, perception and finite content clauses, relative time, knowing and repeated actions, and bounded lexical government. All **59 Cook joint XII, XIII.32–36 prompts** remain, with 17 original tasks and four translated examples. **56 complete bounded systems / 564 literal cells** retain their selected senses, syntax and recognition or supplied limits.
+The [brief](curriculum/UNIT_17_BRIEF.md) and [contract](chapters/ch17/coverage.json) cover connected exposition, praise and figurative language. All **82 Cook joint XII, XIII.37–43 prompts** remain in complete sets, with the global Exercise 37 instruction, 21 original tasks and four translated examples. There are **103 tasks / 146 answer positions** and **110 complete bounded systems / 1,234 literal cells**. Form knowledge, lexical meaning and syntactic scope remain distinct.
 
-The exact **444-word gymnasium episode** is Cook 168.1–170.16 / one-based PDF 184–186. Its 51 individual line numbers are editorial counts anchored by printed marginal numbers. All **54 original notes / 59 anchors** remain, separately from modern help. Earlier Apollonius extracts and the following feast are outside this assignment. No additional narrative is newly composed.
+The exact **252-word music-performance episode** is Cook 174.7–175.17 / one-based PDF 190–191. Individual line numbers are editorial counts anchored by printed marginal numbers. All **19 original notes / 20 anchors** remain, including the swīgende note 12a and both note-17 attachments. English context supplies the preceding banquet; subsequent love and gifts remain unassigned. No additional narrative was composed.
 
-A fresh non-author froze [all solutions](chapters/ch16/independent-solutions.md) at **`1bf0e8e`** before key/current-contract/audit access. The [review](chapters/ch16/review.md) and [ledger](chapters/ch16/review-ledger.json) reconcile all **76 tasks / 179 requested outputs**. The morphology group has 45 single-form positions, three phrases and eight explanations; given dictionary forms are explicit reference positions. A separate [fresh paradigm review](chapters/ch16/reviews/paradigms.json) verifies every display and primary evidence. No material finding remains open. Sealed packets and initial witnesses remain unchanged; canonical amendments record corrections separately.
+A fresh non-author froze [all independent solutions](chapters/ch17/independent-solutions.md) at **`ed28a8e`** before current key/contract/audit access. The [review](chapters/ch17/review.md), [output ledger](chapters/ch17/review-ledger.json) and separate [paradigm review](chapters/ch17/reviews/paradigms.json) resolve all material findings. Original witnesses and sealed packets remain unchanged; [amendments](chapters/ch17/authoring-amendments.json) record later repairs. Checkpoints: contract **`6fc6fc1`**, drafts **`259b14f`**, accepted text **`a137171`**.
 
-The [learner PDF](typesetting/ch16/chapter-16.pdf) has **67 pages**; the [key](typesetting/ch16/answer-key.pdf) **32**. All **99 final pages** passed non-author visual inspection. [Full parity](typesetting/ch16/content-parity.json) covers 1,146 prose/heading/list blocks, 90 tables and 1,747 table cells including headers. [Presentation acceptance](typesetting/ch16/page-review.json) binds final PDF/image identities and clean logs. Checkpoints: contract **`543e214`**, drafts **`9b75319`**, accepted text **`bbf014e`**.
-
-[A08](chapters/ch16/presentation-proofreading-amendment.json) records eight spaces inserted before modern page, exercise and note references during page review. Its [independent confirmation](chapters/ch16/reviews/presentation-proofreading.json) reverses the edit to the initial accepted master and contract identities at `effe431`. The linguistic reviews and frozen witnesses remain unchanged.
+The [learner PDF](typesetting/ch17/chapter-17.pdf) has **94 pages** and the [key](typesetting/ch17/answer-key.pdf) **45**. All **139 final pages** passed non-author visual inspection. [Full parity](typesetting/ch17/content-parity.json) and [presentation acceptance](typesetting/ch17/page-review.json) bind complete content, final PDF/image identities and clean logs.
 
 ## Completed course artifacts
 
@@ -34,17 +32,14 @@ The [learner PDF](typesetting/ch16/chapter-16.pdf) has **67 pages**; the [key](t
 | [14](typesetting/ch14/README.md) | Word formation and lexical families | 35 / 21 | a56c403 |
 | [15](typesetting/ch15/README.md) | Negation, quantity and comparison in discourse | 64 / 30 | a80bf34 |
 | [16](typesetting/ch16/README.md) | Extended narrative and speech | 67 / 32 | edb1bbb |
+| [17](typesetting/ch17/README.md) | Connected exposition, praise and figurative language | 94 / 45 | 99fcc3a |
 
-Each unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent review, complete TeX/PDFs and page ledgers.
+Each unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent reviews, complete TeX/PDFs and page ledgers.
 
-## Cumulative records and boundaries
+## Registers and boundaries
 
-The [lexicon](lexicon/entries.json) contains **1,067 lemmas, 11,188 forms and 1,376 senses**; [grammar](curriculum/grammar.json) contains **1,080 constructions**. Unit 16 establishes 572 productive form milestones, 8 recognition-only forms, 68 productive senses and 76 productive constructions. Supplied exposure remains separate from independent recall.
+The [lexicon](lexicon/entries.json) contains **1,197 lemmas, 12,557 forms and 1,573 senses**; [grammar](curriculum/grammar.json) contains **1,143 constructions**. Unit 17 establishes 1,212 productive form milestones, 16 recognition-only forms, 109 productive senses and 15 productive constructions. Supplied exposure remains separate from independent recall.
 
-The [integration audit](chapters/ch16/register-integration.json) preserves earlier milestones, per-chapter records, evidence, supplied histories, surfaces, analyses and metadata against **`e1d94be`**. All **2,635 fixed prior active artifacts** and **134 archived files** remain unchanged; the immutable baseline also includes both actual registers. Contextual refinements do not replace earlier analyses.
+The [integration audit](chapters/ch17/register-integration.json) preserves earlier records, analyses, surfaces, metadata, evidence, supplied histories and earliest milestones against **`defa800`**. All **2,933 fixed earlier active artifacts** and **134 archived files** remain unchanged. Do not recapture the immutable sixteen-unit baseline or rerun older integration helpers.
 
-[C06](sources/audits/unit16-coordinator/reward-correction.json) preserves Cook’s erroneous reward hint and supplies strong āgyldan with contracted āgylt. The reward clause and impending tō cumanne remain locally supplied. The exact reading retains negative næfde, unclear reference, uncertain top and mixed speech; English help explains the separate Latin ointment account. Familiar forms do not grant unassigned senses or constructions.
-
-The canonical crosswalk is **515 assigned / 129 deferred / none excluded**, totaling all 644 numbered items. Exercises **1–36** have full item-level audits; **37–48** still require them. Active contracts govern assignments without rewriting earlier dispositions.
-
-Continue only a requested unit. Read all sixteen active contracts and actual registers first; use the sole-coordinator Beads workflow and checkpoint the contract before prose. No remote or publication is configured.
+The canonical crosswalk is **597 assigned / 47 deferred / none excluded**, totaling 644 numbered items. Exercises **1–43** have full item-level audits; **44–48** still require them. Active contracts govern assignments. Before another requested unit, read all seventeen active contracts and actual registers, and use the sole-coordinator Beads workflow. No remote or publication is configured.
