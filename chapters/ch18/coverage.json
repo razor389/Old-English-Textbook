@@ -2,7 +2,7 @@
   "schema_version": 2,
   "chapter_id": "ch18",
   "title": "Independent prose consolidation",
-  "status": "text_accepted_exports_pending",
+  "status": "reviewed_complete",
   "contract_date": "2026-10-28",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [
@@ -241204,7 +241204,7 @@
     "typeset": "oec-u18-typeset",
     "finish": "oec-u18-finish"
   },
-  "review_status": "accepted_pre_export",
+  "review_status": "accepted_text_and_exports",
   "amendments": [
     {
       "amendment_id": "U18-A01",
@@ -241607,9 +241607,19 @@
     }
   },
   "completion": {
-    "complete": false,
-    "registers_integrated": false,
-    "pdfs_inspected": false
+    "complete": true,
+    "registers_integrated": true,
+    "pdfs_inspected": true,
+    "date": "2026-10-28",
+    "register_integration": "chapters/ch18/register-integration.json",
+    "presentation_review": "typesetting/ch18/page-review.json",
+    "learner_pdf": "typesetting/ch18/chapter-18.pdf",
+    "key_pdf": "typesetting/ch18/answer-key.pdf",
+    "all_assigned_tasks_reviewed": 60,
+    "all_cook_items_retained": 47,
+    "course_cook_items_assigned": 644,
+    "next_unit_policy": "The planned eighteen-unit course is complete; further work requires a new request.",
+    "checkpoint_note": "Completion files and Beads export are saved locally; final handoff records the resulting revision."
   },
   "review_independence_protocol": {
     "schema_version": 1,
@@ -250895,9 +250905,40 @@
     "independence": "Fresh non-author solved all contracted actual learner tasks before key/private-audit access; coordinator froze the witness in Git before unlocking comparison. A separate fresh non-author checked every paradigm and display route against primary evidence.",
     "fresh_review": {
       "record": "chapters/ch18/reviews/paradigms.json",
-      "sha256": "747719158ee8097554d7d589746a85b56f2c146124d7354120922718e88bde31"
+      "sha256": "747719158ee8097554d7d589746a85b56f2c146124d7354120922718e88bde31",
+      "sha256_normalized_lf": "c5b31464b2e6a13a5870d5e3cbda8c88552d92aa7b29c8f3e96737d9aade7263"
     },
     "material_open_findings": 0,
-    "scope_limit": "Complete exports, every-page visual inspection and register integration remain separate gates."
+    "scope_limit": "Complete exports, every-page visual inspection and register integration remain separate gates.",
+    "review_record_sha256_normalized_lf": "a44f15fc493a7b885dd9eaf5710f8c49b8b7d07d24166bf31d72adb4fa34f3f4",
+    "review_ledger_sha256_normalized_lf": "aa3a045aaba48149b8fc98b6bc080b15c2d3df62600fd04b8047ea295bfa3184"
+  },
+  "accepted_text_checkpoint": "029177713dffa6ff81b81d9a96b41b36e006963f",
+  "presentation_review": {
+    "status": "accepted",
+    "record": "typesetting/ch18/page-review.json",
+    "record_sha256": "49997665b44342cce4418fdba6ad935c3d096841632e75812dfb14f4b2eb8d97",
+    "page_totals": {
+      "learner": 66,
+      "key": 32,
+      "total": 98
+    },
+    "complete_content_parity": "typesetting/ch18/content-parity.json",
+    "every_page_inspected_by_non_author": true,
+    "unresolved_findings": [],
+    "documents": [
+      {
+        "kind": "learner",
+        "path": "typesetting/ch18/chapter-18.pdf",
+        "sha256": "b2f6cfcc918ec95f26bd722c7cbf1cbd623b1fb907bf567dfadb7072a44222d8",
+        "pages": 66
+      },
+      {
+        "kind": "key",
+        "path": "typesetting/ch18/answer-key.pdf",
+        "sha256": "10bacc982e9457e1659c981d147194bf017cae4ddc2cdd13da0df5136802bb2d",
+        "pages": 32
+      }
+    ]
   }
 }

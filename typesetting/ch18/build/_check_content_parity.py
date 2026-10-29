@@ -130,7 +130,7 @@ def main():
         'formatting_changes': [
             'Both documents use Ligatures=TeXOff to preserve the masters\' literal punctuation in extracted PDF text.',
             'Every paradigm cell is printed in a complete small matrix at readable 10.5pt type. Any layout changes preserve every original coordinate, header and cell.',
-            'The complete source scene uses the reading style with natural paragraph/page breaks; two short examples stay with their translations.',
+            'The complete source scene is retained as continuous text with natural paragraph/page breaks; two short examples stay with their translations.',
             'Cook labels remain with their prompts; final page-specific repairs are recorded in the page review.',
             'Line wrapping, emphasis commands and page furniture differ from Markdown; linguistic text and punctuation are preserved.'
             ,'Original source-note references and definitions retain their page-specific original note labels; general source notes use a separate numerical sequence. All definition text remains.'

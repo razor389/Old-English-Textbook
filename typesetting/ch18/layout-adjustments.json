@@ -1,0 +1,143 @@
+{
+  "chapter_id": "ch18",
+  "status": "accepted_after_non_author_reinspection",
+  "linguistic_masters_changed": false,
+  "versions": [
+    {
+      "version": "v1",
+      "render_manifest": "typesetting/ch18/build/render-manifest-v1.json",
+      "page_totals": {
+        "learner": 66,
+        "key": 32
+      },
+      "review_witness": "typesetting/ch18/build/u18-pages-key-v1-review.json"
+    },
+    {
+      "version": "v2",
+      "render_manifest": "typesetting/ch18/build/render-manifest-v2.json",
+      "retained_key_pdf": "typesetting/ch18/build/answer-key-v2.pdf",
+      "retained_key_pdf_sha256": "42c5f919ec98287d60869512be82b99cf58ee97a8756147b9ea365d965f264b6",
+      "retained_key_tex": "typesetting/ch18/build/answer-key-v2.tex",
+      "retained_key_tex_sha256": "c18e0fe9009564bfd8da00441ab7f9bf25de073a3776b8f07ef11acb689038f4"
+    }
+  ],
+  "repairs": [
+    {
+      "repair_id": "U18-LAYOUT-01",
+      "reported_by": "u18_pages_key",
+      "finding_id": "K01",
+      "observed_v1_page": 4,
+      "change": "Start the F section on a new page so its heading remains with the first task.",
+      "tex_paragraph": "P054"
+    },
+    {
+      "repair_id": "U18-LAYOUT-02",
+      "reported_by": "u18_pages_key",
+      "finding_id": "K02",
+      "observed_v1_pages": [
+        2,
+        6
+      ],
+      "change": "Keep each adjacent short bold prompt/model pair in a single small minipage; allow its explanation to continue naturally.",
+      "paragraph_pairs": [
+        [
+          "P014",
+          "P015"
+        ],
+        [
+          "P024",
+          "P025"
+        ],
+        [
+          "P036",
+          "P037"
+        ],
+        [
+          "P044",
+          "P045"
+        ],
+        [
+          "P051",
+          "P052"
+        ],
+        [
+          "P057",
+          "P058"
+        ],
+        [
+          "P060",
+          "P061"
+        ],
+        [
+          "P063",
+          "P064"
+        ],
+        [
+          "P066",
+          "P067"
+        ],
+        [
+          "P073",
+          "P074"
+        ],
+        [
+          "P076",
+          "P077"
+        ],
+        [
+          "P083",
+          "P084"
+        ],
+        [
+          "P086",
+          "P087"
+        ],
+        [
+          "P089",
+          "P090"
+        ],
+        [
+          "P092",
+          "P093"
+        ]
+      ]
+    },
+    {
+      "repair_id": "U18-LAYOUT-03",
+      "reported_by": "u18_pages_key",
+      "finding_id": "K03",
+      "observed_v2_page": 3,
+      "change": "Start C. Composition on the page with C01 after reflow exposed a new heading orphan. F retains its existing explicit boundary.",
+      "tex_paragraph": "P039",
+      "tex_sha256_before": "c18e0fe9009564bfd8da00441ab7f9bf25de073a3776b8f07ef11acb689038f4",
+      "tex_sha256_after": "2a56c58af2c63c0ba905c758b218388972ee57e7d54895dbd17453799f08c4ce"
+    }
+  ],
+  "tex_identity_before": "9a380c88e3b01e24975d25a103b30700b4682745781c597b221d82f6425415cd",
+  "tex_identity_after": "c18e0fe9009564bfd8da00441ab7f9bf25de073a3776b8f07ef11acb689038f4",
+  "scope": "Presentation only. All accepted paragraphs, cells, comments and characters require renewed full parity; every changed final page requires actual non-author inspection.",
+  "final_page_totals": {
+    "learner": 66,
+    "key": 32,
+    "total": 98
+  },
+  "final_documents": [
+    {
+      "kind": "learner",
+      "path": "typesetting/ch18/chapter-18.pdf",
+      "sha256": "b2f6cfcc918ec95f26bd722c7cbf1cbd623b1fb907bf567dfadb7072a44222d8",
+      "pages": 66
+    },
+    {
+      "kind": "key",
+      "path": "typesetting/ch18/answer-key.pdf",
+      "sha256": "10bacc982e9457e1659c981d147194bf017cae4ddc2cdd13da0df5136802bb2d",
+      "pages": 32
+    }
+  ],
+  "final_review_record": "typesetting/ch18/page-review.json",
+  "final_review_record_sha256": "49997665b44342cce4418fdba6ad935c3d096841632e75812dfb14f4b2eb8d97",
+  "final_content_parity": "typesetting/ch18/content-parity.json",
+  "all_reported_findings_resolved_or_withdrawn": true,
+  "acceptance_limit": "The identified final exports passed full parity, clean logs and non-author inspection of every page. Individual ledgers preserve the actual inspections, repairs and verified byte-identical reuse."
+}

@@ -1,0 +1,2437 @@
+{
+  "chapter_id": "ch18",
+  "status": "dry_run_pass",
+  "baseline_checkpoint": "0eda27783a3830fbd10bebef3702e27c15ff837c",
+  "method": "Deep comparison against the immutable seventeen-unit baseline: every unassigned record unchanged, every old per-chapter record and earliest milestone preserved, evidence and source contracts preserved, existing surfaces identical, metadata history retained, new records equal accepted coverage.",
+  "metrics": {
+    "before": {
+      "lemmas": 1197,
+      "forms": 12557,
+      "senses": 1573,
+      "features": 1143
+    },
+    "after": {
+      "lemmas": 1265,
+      "forms": 13295,
+      "senses": 1687,
+      "features": 1214
+    },
+    "unit18_status_counts": {
+      "forms": {
+        "new_production": 638,
+        "new_recognition_only": 14,
+        "supplied_here": 115
+      },
+      "senses": {
+        "new_production": 47,
+        "new_recognition_only": 0,
+        "supplied_here": 86
+      },
+      "features": {
+        "new_production": 20,
+        "new_recognition_only": 0,
+        "supplied_here": 51
+      }
+    },
+    "reused_supplied_records": {
+      "form": {
+        "aefter-initial-u13-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "hund-invariant-u09-supplied": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "innan-u17-preposition": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "mid-thy-u16-reading-surface": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "swa-hwaet-swa-u15-source-acc-n-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "the-relative-subject-invariant": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "twentig-cardinal-u12-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "aetforan-invariant-source": [
+          "EX-XII-XIII-44-02"
+        ],
+        "aetgaedere-invariant-source": [
+          "EX-XII-XIII-44-03",
+          "EX-XII-XIII-47-06"
+        ],
+        "forweorthan-infinitive-citation": [
+          "EX-XII-XIII-44-06"
+        ],
+        "bringan-inf-citation": [
+          "EX-XII-XIII-44-08"
+        ],
+        "in-adverb-u13-source": [
+          "EX-XII-XIII-45-04",
+          "EX-XII-XIII-45-06"
+        ],
+        "ondraedan-u17-inf-reference": [
+          "EX-XII-XIII-46-01"
+        ],
+        "thaet-conjunction-invariant-source-source": [
+          "EX-XII-XIII-46-03"
+        ],
+        "yfel-u15-substantive-dat-source": [
+          "EX-XII-XIII-46-09"
+        ],
+        "wenan-u15-principal-part-1-reference": [
+          "EX-XII-XIII-47-02"
+        ],
+        "a-ever-u15-source-invariant": [
+          "EX-XII-XIII-48-01"
+        ],
+        "betweox-invariant-source": [
+          "EX-XII-XIII-48-04"
+        ],
+        "hraedlice-u16-reading-surface": [
+          "EX-XII-XIII-48-08"
+        ]
+      },
+      "sense": {
+        "geseon-u16-content": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "hund-hundred-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "innan-u17-preposition": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "swa-hwaet-swa-u15-source-sense": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "twentig-u12-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "aetforan-source": [
+          "EX-XII-XIII-44-02"
+        ],
+        "aetgaedere-u11-source": [
+          "EX-XII-XIII-44-03",
+          "EX-XII-XIII-47-06"
+        ],
+        "in-u13-inward-source": [
+          "EX-XII-XIII-45-04",
+          "EX-XII-XIII-45-06"
+        ],
+        "yfel-u15-noun-evil-source": [
+          "EX-XII-XIII-46-09"
+        ],
+        "a-ever-u15-source-sense": [
+          "EX-XII-XIII-48-01"
+        ],
+        "betweox-u17-local-sense": [
+          "EX-XII-XIII-48-04"
+        ],
+        "hraedlice-u16-sense": [
+          "EX-XII-XIII-48-08"
+        ]
+      },
+      "feature": {}
+    },
+    "reused_taught_in_visible_help": {
+      "form": {
+        "he-f-acc-sg": [
+          "NEW-U18-A01"
+        ],
+        "raedan-pret-3-sg": [
+          "NEW-U18-A01"
+        ],
+        "se-m-nom-sg": [
+          "NEW-U18-A01",
+          "NEW-U18-A02",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "cyning-nom-sg": [
+          "NEW-U18-A02",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "mann-acc-sg": [
+          "NEW-U18-A02"
+        ],
+        "se-m-acc-sg": [
+          "NEW-U18-A02",
+          "NEW-U18-A03",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-05",
+          "EX-XII-XIII-48-02"
+        ],
+        "thaet-conjunction-invariant": [
+          "NEW-U18-A02",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-11"
+        ],
+        "cyning-acc-sg": [
+          "NEW-U18-A03",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "the-relative-invariant": [
+          "NEW-U18-A03",
+          "NEW-U18-C01",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-08"
+        ],
+        "sellan-infinitive-citation": [
+          "NEW-U18-C02",
+          "EX-XII-XIII-48-06"
+        ],
+        "aefter-invariant-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "aer-adverb-invariant": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-07",
+          "EX-XII-XIII-45-08"
+        ],
+        "and-invariant": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-09",
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-07",
+          "EX-XII-XIII-48-10"
+        ],
+        "arisan-pret-3-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "beforan-invariant-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "beran-imp-2-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "biddan-pret-3-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "cwen-gen-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "cwen-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "cwethan-pret-3-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "cyning-dat-sg-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "cyning-gen-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "dael-acc-sg-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "dohtor-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "eac-invariant": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-09"
+        ],
+        "eall-dat-m-pl-strong": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-08"
+        ],
+        "eall-nom-m-pl-strong": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "faeder-gen-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-48-03"
+        ],
+        "faeder-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "feower-invariant-count": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "forgiefan-pp-bare-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "forgiefan-pret-3-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "freond-dat-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "gan-present-subj-1-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "geseon-pret-3-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "geseon-pret-3-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "gewendan-pret-3-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "giefan-imp-2-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "giefan-infinitive-citation": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "giefan-pres-1-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "giesthus-acc-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "god-adjective-dat-m-pl-strong": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "god-adjective-nom-m-sg-weak": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "gold-gen-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "goldhord-dat-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "gretan-pret-3-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "habban-pret-3-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "ham-invariant": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-02",
+          "EX-XII-XIII-48-03"
+        ],
+        "he-acc-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "he-dat-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-06"
+        ],
+        "he-f-dat-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "he-f-gen-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "he-f-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "he-m-dat-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-02",
+          "EX-XII-XIII-45-05",
+          "EX-XII-XIII-47-02"
+        ],
+        "he-m-gen-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-02"
+        ],
+        "he-m-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-05",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-47-02",
+          "EX-XII-XIII-47-04"
+        ],
+        "herian-u17-pret-3-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "ic-acc-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-10"
+        ],
+        "ic-dat-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-10"
+        ],
+        "ic-nom-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-07",
+          "EX-XII-XIII-45-06",
+          "EX-XII-XIII-47-11"
+        ],
+        "ic-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-48-03",
+          "EX-XII-XIII-48-10"
+        ],
+        "lareow-dat-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "lareow-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "leof-nom-m-sg-weak": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "lytel-ins-n-sg-strong": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "maeden-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "magan-present-subj-1-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "mann-dat-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "mann-gen-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "mann-nom-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "micel-superl-acc-m-sg-weak": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "mid-invariant-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-07",
+          "EX-XII-XIII-46-09",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-48-02",
+          "EX-XII-XIII-48-10"
+        ],
+        "min-poss-dat-m-pl-strong": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "min-poss-dat-m-sg-strong": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "min-poss-gen-m-sg-strong": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-03"
+        ],
+        "motan-preterite-subj-1-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "niman-imp-2-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "of-invariant-dat-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-08"
+        ],
+        "on-invariant": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-09",
+          "EX-XII-XIII-46-07",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-48-07"
+        ],
+        "pund-gen-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "se-all-dat-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-07"
+        ],
+        "se-all-nom-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-04"
+        ],
+        "se-f-acc-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "se-f-gen-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "se-f-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "se-m-dat-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-05",
+          "EX-XII-XIII-48-03"
+        ],
+        "se-m-gen-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-08"
+        ],
+        "se-n-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "seolfor-gen-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "swa-invariant": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-05",
+          "EX-XII-XIII-47-02",
+          "EX-XII-XIII-47-04"
+        ],
+        "swilce-adverb-invariant": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "swithe-positive": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "tha-adverb-invariant": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "thes-acc-all-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "thes-nom-n-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "thin-poss-dat-n-sg-strong": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "thing-acc-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "thu-dat-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-48-10"
+        ],
+        "thu-dat-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-47-11"
+        ],
+        "thu-nom-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-04",
+          "EX-XII-XIII-48-10"
+        ],
+        "thu-nom-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-11"
+        ],
+        "thus-invariant-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "twegen-acc-n-pl": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-07"
+        ],
+        "ure-poss-acc-n-sg-strong": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "wel-positive": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "weorthan-pret-3-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "wesan-beon-infinitive": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "wesan-present-subj-2-pl-beo": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "wesan-pret-3-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-05",
+          "EX-XII-XIII-47-02",
+          "EX-XII-XIII-48-07"
+        ],
+        "willan-present-subj-2-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "willan-preterite-subj-1-sg": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "mete-nom-sg": [
+          "EX-XII-XIII-44-01"
+        ],
+        "cuman-infinitive-citation": [
+          "EX-XII-XIII-44-02"
+        ],
+        "ic-dat-pl": [
+          "EX-XII-XIII-44-02",
+          "EX-XII-XIII-47-11"
+        ],
+        "don-pret-2-pl": [
+          "EX-XII-XIII-44-04"
+        ],
+        "ic-acc-sg": [
+          "EX-XII-XIII-44-04",
+          "EX-XII-XIII-48-08"
+        ],
+        "ascian-infinitive": [
+          "EX-XII-XIII-44-05"
+        ],
+        "laedan-infinitive-citation": [
+          "EX-XII-XIII-44-05"
+        ],
+        "gif-invariant": [
+          "EX-XII-XIII-44-07"
+        ],
+        "other-ins-m-sg-strong": [
+          "EX-XII-XIII-44-07"
+        ],
+        "thes-nom-f-sg": [
+          "EX-XII-XIII-44-07"
+        ],
+        "wesan-preterite-subj-1-pl": [
+          "EX-XII-XIII-44-07",
+          "EX-XII-XIII-47-11"
+        ],
+        "glaed-nom-m-sg-strong": [
+          "EX-XII-XIII-45-02"
+        ],
+        "daeg-gen-sg": [
+          "EX-XII-XIII-45-04"
+        ],
+        "gerefa-nom-sg": [
+          "EX-XII-XIII-45-04"
+        ],
+        "to-preposition-dative-invariant": [
+          "EX-XII-XIII-45-04",
+          "EX-XII-XIII-45-07",
+          "EX-XII-XIII-46-09",
+          "EX-XII-XIII-47-07",
+          "EX-XII-XIII-48-01",
+          "EX-XII-XIII-48-05",
+          "EX-XII-XIII-48-08",
+          "EX-XII-XIII-48-10"
+        ],
+        "don-pret-3-sg": [
+          "EX-XII-XIII-45-05",
+          "EX-XII-XIII-47-02"
+        ],
+        "hider-invariant-source": [
+          "EX-XII-XIII-45-06"
+        ],
+        "laedan-past-participle-base": [
+          "EX-XII-XIII-45-06"
+        ],
+        "se-n-dat-sg": [
+          "EX-XII-XIII-45-06",
+          "EX-XII-XIII-47-11"
+        ],
+        "thaer-invariant-source": [
+          "EX-XII-XIII-45-06"
+        ],
+        "wesan-pres-1-pl": [
+          "EX-XII-XIII-45-06"
+        ],
+        "biddan-infinitive-citation": [
+          "EX-XII-XIII-45-07"
+        ],
+        "leof-nom-m-sg-strong": [
+          "EX-XII-XIII-45-07"
+        ],
+        "wesan-pret-1-pl": [
+          "EX-XII-XIII-45-08"
+        ],
+        "don-infinitive": [
+          "EX-XII-XIII-45-09"
+        ],
+        "other-acc-n-sg-strong": [
+          "EX-XII-XIII-45-09"
+        ],
+        "seolfor-acc-sg": [
+          "EX-XII-XIII-45-09"
+        ],
+        "to-before-inflected-infinitive": [
+          "EX-XII-XIII-45-09"
+        ],
+        "eower-poss-gen-m-sg-strong": [
+          "EX-XII-XIII-46-01"
+        ],
+        "eower-poss-nom-m-sg-strong": [
+          "EX-XII-XIII-46-01"
+        ],
+        "god-nom-sg": [
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-48-08"
+        ],
+        "goldhord-acc-sg": [
+          "EX-XII-XIII-46-01"
+        ],
+        "sellan-pret-3-sg": [
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-46-08"
+        ],
+        "ingan-pret-subj-3-sg": [
+          "EX-XII-XIII-46-03"
+        ],
+        "beodan-infinitive-citation": [
+          "EX-XII-XIII-46-07",
+          "EX-XII-XIII-48-08"
+        ],
+        "gefyllan-imp-2-sg": [
+          "EX-XII-XIII-46-07"
+        ],
+        "he-gen-pl": [
+          "EX-XII-XIII-46-07"
+        ],
+        "don-imp-2-sg": [
+          "EX-XII-XIII-46-08"
+        ],
+        "min-poss-acc-m-sg-strong": [
+          "EX-XII-XIII-46-08"
+        ],
+        "niman-imp-2-sg": [
+          "EX-XII-XIII-46-08"
+        ],
+        "burg-dat-sg": [
+          "EX-XII-XIII-46-09"
+        ],
+        "faran-infinitive-citation": [
+          "EX-XII-XIII-46-09"
+        ],
+        "morgen-acc-sg": [
+          "EX-XII-XIII-46-09"
+        ],
+        "tha-conjunction-invariant": [
+          "EX-XII-XIII-46-09"
+        ],
+        "hlaford-nom-sg": [
+          "EX-XII-XIII-47-01"
+        ],
+        "findan-pres-subj-1-sg": [
+          "EX-XII-XIII-47-04"
+        ],
+        "he-n-acc-sg": [
+          "EX-XII-XIII-47-04"
+        ],
+        "hwa-dat-mf-sg": [
+          "EX-XII-XIII-47-04"
+        ],
+        "min-poss-nom-m-sg-strong": [
+          "EX-XII-XIII-47-04"
+        ],
+        "other-nom-m-pl-strong": [
+          "EX-XII-XIII-47-04"
+        ],
+        "wesan-present-subj-3-pl": [
+          "EX-XII-XIII-47-04"
+        ],
+        "wesan-present-subj-3-sg": [
+          "EX-XII-XIII-47-04"
+        ],
+        "fram-invariant": [
+          "EX-XII-XIII-47-05"
+        ],
+        "eall-acc-m-pl-strong": [
+          "EX-XII-XIII-47-10"
+        ],
+        "beodan-pres-2-sg": [
+          "EX-XII-XIII-47-11"
+        ],
+        "he-m-acc-sg": [
+          "EX-XII-XIII-47-11"
+        ],
+        "ne-invariant": [
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-03",
+          "EX-XII-XIII-48-07"
+        ],
+        "witan-present-subj-2-sg": [
+          "EX-XII-XIII-47-11"
+        ],
+        "brothor-dat-pl": [
+          "EX-XII-XIII-48-02"
+        ],
+        "cnapa-acc-sg": [
+          "EX-XII-XIII-48-02"
+        ],
+        "gan-infinitive": [
+          "EX-XII-XIII-48-02",
+          "EX-XII-XIII-48-03"
+        ],
+        "laetan-imp-2-sg": [
+          "EX-XII-XIII-48-02"
+        ],
+        "laetan-infinitive-citation": [
+          "EX-XII-XIII-48-02"
+        ],
+        "butan-invariant": [
+          "EX-XII-XIII-48-03"
+        ],
+        "cnapa-dat-sg": [
+          "EX-XII-XIII-48-03"
+        ],
+        "durran-pres-1-sg": [
+          "EX-XII-XIII-48-03"
+        ],
+        "thy-laes-the-invariant": [
+          "EX-XII-XIII-48-03"
+        ],
+        "giet-invariant-source": [
+          "EX-XII-XIII-48-05",
+          "EX-XII-XIII-48-07"
+        ],
+        "hlud-dat-sg-f-strong": [
+          "EX-XII-XIII-48-05"
+        ],
+        "hlud-nom-sg-m-strong": [
+          "EX-XII-XIII-48-05"
+        ],
+        "nu-invariant": [
+          "EX-XII-XIII-48-05",
+          "EX-XII-XIII-48-07",
+          "EX-XII-XIII-48-10"
+        ],
+        "stefn-dat-sg": [
+          "EX-XII-XIII-48-05"
+        ],
+        "eower-poss-dat-f-sg-strong": [
+          "EX-XII-XIII-48-06"
+        ],
+        "eall-acc-f-sg-strong": [
+          "EX-XII-XIII-48-07"
+        ],
+        "eorthe-acc-sg": [
+          "EX-XII-XIII-48-07"
+        ],
+        "fif-invariant-count": [
+          "EX-XII-XIII-48-07"
+        ],
+        "gear-acc-pl": [
+          "EX-XII-XIII-48-07"
+        ],
+        "magan-pres-3-sg": [
+          "EX-XII-XIII-48-07"
+        ],
+        "mann-nom-sg": [
+          "EX-XII-XIII-48-07"
+        ],
+        "ofer-invariant": [
+          "EX-XII-XIII-48-07"
+        ],
+        "sculan-pres-3-pl": [
+          "EX-XII-XIII-48-07"
+        ],
+        "gesettan-u17-pret-3-sg": [
+          "EX-XII-XIII-48-08"
+        ],
+        "hlaford-dat-sg": [
+          "EX-XII-XIII-48-08"
+        ],
+        "geseon-pres-2-pl": [
+          "EX-XII-XIII-48-10"
+        ],
+        "he-n-nom-sg": [
+          "EX-XII-XIII-48-10"
+        ],
+        "hieran-pres-2-pl": [
+          "EX-XII-XIII-48-10"
+        ],
+        "hu-invariant": [
+          "EX-XII-XIII-48-10"
+        ],
+        "hwa-acc-n-sg": [
+          "EX-XII-XIII-48-10"
+        ],
+        "sprecan-infinitive-citation": [
+          "EX-XII-XIII-48-10"
+        ],
+        "sprecan-pres-1-sg": [
+          "EX-XII-XIII-48-10"
+        ],
+        "wesan-pres-3-sg": [
+          "EX-XII-XIII-48-10"
+        ]
+      },
+      "sense": {
+        "he-1": [
+          "NEW-U18-A01",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-02",
+          "EX-XII-XIII-45-05",
+          "EX-XII-XIII-45-06",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-47-02",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-10"
+        ],
+        "mann-1": [
+          "NEW-U18-A01",
+          "NEW-U18-A02",
+          "NEW-U18-A03",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-07"
+        ],
+        "raedan-1": [
+          "NEW-U18-A01"
+        ],
+        "se-the": [
+          "NEW-U18-A01",
+          "NEW-U18-A02",
+          "NEW-U18-A03",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-06",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-47-05",
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-02",
+          "EX-XII-XIII-48-03"
+        ],
+        "cyning-source": [
+          "NEW-U18-A02",
+          "NEW-U18-A03",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "geseon-1": [
+          "NEW-U18-A02",
+          "NEW-U18-A03",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-03"
+        ],
+        "secgan-content": [
+          "NEW-U18-A02"
+        ],
+        "thaet-conjunction-1": [
+          "NEW-U18-A02",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-03",
+          "EX-XII-XIII-47-11"
+        ],
+        "singan-1": [
+          "NEW-U18-A03"
+        ],
+        "the-relative-which": [
+          "NEW-U18-A03",
+          "NEW-U18-C01",
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-08"
+        ],
+        "sellan-give": [
+          "NEW-U18-C01",
+          "NEW-U18-C02",
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-46-08"
+        ],
+        "hatan-command": [
+          "NEW-U18-C02"
+        ],
+        "aefter-according-to-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "aefter-after-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "aer-u13-before": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-07",
+          "EX-XII-XIII-45-08"
+        ],
+        "and-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-09",
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-07",
+          "EX-XII-XIII-48-10"
+        ],
+        "arisan-u14-arise": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "beforan-before-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "beran-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "cwen-u17-princess": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "cwethan-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "dael-part-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "dohtor-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "eac-also": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-09"
+        ],
+        "eall-all": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-10",
+          "EX-XII-XIII-48-07",
+          "EX-XII-XIII-48-08"
+        ],
+        "faeder-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-48-03"
+        ],
+        "feower-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "forgiefan-u14-give": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "freond-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "gan-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-02",
+          "EX-XII-XIII-48-03"
+        ],
+        "gerestan-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "gewendan-u14-return": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "giefan-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "giesthus-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "god-adjective-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "god-u15-kind": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "gold-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "goldhord-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-01"
+        ],
+        "gretan-take-leave": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "habban-perfect": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "ham-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-02",
+          "EX-XII-XIII-48-03"
+        ],
+        "he-possessor": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-07",
+          "EX-XII-XIII-48-02"
+        ],
+        "herian-u17-selected": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "ic-personal": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-02",
+          "EX-XII-XIII-44-04",
+          "EX-XII-XIII-44-07",
+          "EX-XII-XIII-45-06",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-47-10",
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-03",
+          "EX-XII-XIII-48-08",
+          "EX-XII-XIII-48-10"
+        ],
+        "lareow-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "leof-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "lytel-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "maeden-u16-sense": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "magan-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-06",
+          "EX-XII-XIII-45-04",
+          "EX-XII-XIII-48-04",
+          "EX-XII-XIII-48-07"
+        ],
+        "micel-superl-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "mid-accompaniment-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-48-02",
+          "EX-XII-XIII-48-10"
+        ],
+        "mid-thy-when": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "min-poss-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-48-03"
+        ],
+        "motan-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-02"
+        ],
+        "niman-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-46-08"
+        ],
+        "of-u11-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-08"
+        ],
+        "on-respect": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "pund-u17-sense": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "secan-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "seolfor-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-09"
+        ],
+        "swa-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "swilce-likewise": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "swithe-positive": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "tha-adverb-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "thaet-purpose": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "thes-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-07"
+        ],
+        "thin-poss-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "thing-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "thu-personal": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-04",
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-10"
+        ],
+        "thus-thus-source": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "twegen-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-48-07"
+        ],
+        "ure-poss-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "wel-positive": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "weorthan-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05"
+        ],
+        "wesan-be": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-07",
+          "EX-XII-XIII-45-08",
+          "EX-XII-XIII-47-04",
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-07",
+          "EX-XII-XIII-48-10"
+        ],
+        "wesan-passive": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-45-05",
+          "EX-XII-XIII-45-06",
+          "EX-XII-XIII-47-02"
+        ],
+        "willan-1": [
+          "NEW-U18-R01",
+          "NEW-U18-R02",
+          "NEW-U18-R03",
+          "NEW-U18-R04",
+          "NEW-U18-R05",
+          "EX-XII-XIII-44-05",
+          "EX-XII-XIII-46-09"
+        ],
+        "mete-1": [
+          "EX-XII-XIII-44-01"
+        ],
+        "cuman-come": [
+          "EX-XII-XIII-44-02",
+          "EX-XII-XIII-44-07"
+        ],
+        "ascian-u13": [
+          "EX-XII-XIII-44-05"
+        ],
+        "giernan-u17-selected": [
+          "EX-XII-XIII-44-05"
+        ],
+        "laedan-u13-bring": [
+          "EX-XII-XIII-44-05",
+          "EX-XII-XIII-45-06"
+        ],
+        "forweorthan-1": [
+          "EX-XII-XIII-44-06"
+        ],
+        "gif-if": [
+          "EX-XII-XIII-44-07"
+        ],
+        "other-1": [
+          "EX-XII-XIII-44-07"
+        ],
+        "bringan-1": [
+          "EX-XII-XIII-44-08",
+          "EX-XII-XIII-47-11"
+        ],
+        "daeg-1": [
+          "EX-XII-XIII-45-04"
+        ],
+        "gerefa-1": [
+          "EX-XII-XIII-45-04"
+        ],
+        "to-destination": [
+          "EX-XII-XIII-45-04",
+          "EX-XII-XIII-45-07",
+          "EX-XII-XIII-45-09",
+          "EX-XII-XIII-46-09",
+          "EX-XII-XIII-47-07",
+          "EX-XII-XIII-48-01",
+          "EX-XII-XIII-48-05",
+          "EX-XII-XIII-48-08",
+          "EX-XII-XIII-48-10"
+        ],
+        "don-u17-fulfil": [
+          "EX-XII-XIII-45-05",
+          "EX-XII-XIII-47-02"
+        ],
+        "swa-comparative-as": [
+          "EX-XII-XIII-45-05",
+          "EX-XII-XIII-47-02"
+        ],
+        "hider-source": [
+          "EX-XII-XIII-45-06"
+        ],
+        "thaer-there": [
+          "EX-XII-XIII-45-06"
+        ],
+        "biddan-beseech-person": [
+          "EX-XII-XIII-45-07"
+        ],
+        "don-put": [
+          "EX-XII-XIII-45-09",
+          "EX-XII-XIII-46-08"
+        ],
+        "on-1": [
+          "EX-XII-XIII-45-09",
+          "EX-XII-XIII-46-07",
+          "EX-XII-XIII-46-08",
+          "EX-XII-XIII-48-07"
+        ],
+        "other-other": [
+          "EX-XII-XIII-45-09",
+          "EX-XII-XIII-47-04"
+        ],
+        "eower-poss-1": [
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-48-06"
+        ],
+        "god-1": [
+          "EX-XII-XIII-46-01",
+          "EX-XII-XIII-48-08"
+        ],
+        "ondraedan-u13": [
+          "EX-XII-XIII-46-01"
+        ],
+        "ingan-u13": [
+          "EX-XII-XIII-46-03"
+        ],
+        "gefyllan-fill-source": [
+          "EX-XII-XIII-46-07"
+        ],
+        "mid-by-means": [
+          "EX-XII-XIII-46-07",
+          "EX-XII-XIII-46-09"
+        ],
+        "burg-1": [
+          "EX-XII-XIII-46-09"
+        ],
+        "faran-1": [
+          "EX-XII-XIII-46-09"
+        ],
+        "morgen-1": [
+          "EX-XII-XIII-46-09"
+        ],
+        "tha-when": [
+          "EX-XII-XIII-46-09"
+        ],
+        "hlaford-1": [
+          "EX-XII-XIII-47-01",
+          "EX-XII-XIII-48-08"
+        ],
+        "wenan-u15-suppose": [
+          "EX-XII-XIII-47-02"
+        ],
+        "findan-1": [
+          "EX-XII-XIII-47-04"
+        ],
+        "hwa-u14-indefinite-source": [
+          "EX-XII-XIII-47-04"
+        ],
+        "swa-u15-free-choice": [
+          "EX-XII-XIII-47-04"
+        ],
+        "fram-1": [
+          "EX-XII-XIII-47-05"
+        ],
+        "ne-1": [
+          "EX-XII-XIII-47-11",
+          "EX-XII-XIII-48-03",
+          "EX-XII-XIII-48-07"
+        ],
+        "witan-content": [
+          "EX-XII-XIII-47-11"
+        ],
+        "brothor-1": [
+          "EX-XII-XIII-48-02"
+        ],
+        "cnapa-u16-sense": [
+          "EX-XII-XIII-48-02",
+          "EX-XII-XIII-48-03"
+        ],
+        "laetan-1": [
+          "EX-XII-XIII-48-02"
+        ],
+        "butan-u13-without": [
+          "EX-XII-XIII-48-03"
+        ],
+        "durran-1": [
+          "EX-XII-XIII-48-03"
+        ],
+        "thy-laes-the-lest": [
+          "EX-XII-XIII-48-03"
+        ],
+        "cleopian-u16-cry": [
+          "EX-XII-XIII-48-05"
+        ],
+        "giet-still-source": [
+          "EX-XII-XIII-48-05",
+          "EX-XII-XIII-48-07"
+        ],
+        "hlud-u17-sense": [
+          "EX-XII-XIII-48-05"
+        ],
+        "nu-1": [
+          "EX-XII-XIII-48-05",
+          "EX-XII-XIII-48-07",
+          "EX-XII-XIII-48-10"
+        ],
+        "stefn-u13-source": [
+          "EX-XII-XIII-48-05"
+        ],
+        "sellan-u13-sell": [
+          "EX-XII-XIII-48-06"
+        ],
+        "eorthe-1": [
+          "EX-XII-XIII-48-07"
+        ],
+        "fif-1": [
+          "EX-XII-XIII-48-07"
+        ],
+        "gear-1": [
+          "EX-XII-XIII-48-07"
+        ],
+        "ofer-1": [
+          "EX-XII-XIII-48-07"
+        ],
+        "se-relative": [
+          "EX-XII-XIII-48-07"
+        ],
+        "hieran-1": [
+          "EX-XII-XIII-48-10"
+        ],
+        "hu-how": [
+          "EX-XII-XIII-48-10"
+        ],
+        "hwa-interrogative": [
+          "EX-XII-XIII-48-10"
+        ],
+        "sprecan-1": [
+          "EX-XII-XIII-48-10"
+        ]
+      },
+      "feature": {}
+    }
+  },
+  "earlier_records_preserved": {
+    "forms": 12557,
+    "senses": 1573,
+    "features": 1143
+  },
+  "explicit_prior_promotions": {
+    "forms": [
+      "oncnawan-u16-source-1",
+      "oncnawan-u17-context-fb-xii-apollonius-music-performance-112",
+      "claene-u15-source-dat-n-sg-strong",
+      "claene-u15-source-dat-m-sg-strong",
+      "agen-u16-dat-n-sg",
+      "hal-u17-nom-m-sg"
+    ],
+    "senses": [
+      "ealdor-chief-u14-component-source",
+      "thearf-u15-source-sense",
+      "agen-u16-sense"
+    ],
+    "features": []
+  },
+  "prior_metadata_retained_for_changed_lemmas": [
+    "wesan",
+    "on",
+    "sothlice",
+    "ofer",
+    "geseon",
+    "an",
+    "laedan",
+    "gerestan",
+    "to",
+    "glaed",
+    "leof",
+    "eald-superl",
+    "gesettan",
+    "beodan",
+    "cuman",
+    "ongean",
+    "apollonius",
+    "mid",
+    "biddan",
+    "gedon",
+    "sculan",
+    "don",
+    "geong",
+    "lecgean",
+    "be",
+    "hwilum",
+    "craeft",
+    "secan",
+    "fyrmest",
+    "reaf",
+    "for",
+    "bringan",
+    "with",
+    "butan",
+    "mod",
+    "ascian",
+    "wunian",
+    "god-goods",
+    "ealdor-chief",
+    "gemiltsian",
+    "oncnawan",
+    "giefu",
+    "thearf",
+    "claene",
+    "cleopian",
+    "freo",
+    "agen",
+    "eltheodig",
+    "arcestrates",
+    "utgan",
+    "beseon",
+    "cwen",
+    "giernan",
+    "gearcian",
+    "gefeallan",
+    "lufu",
+    "hal"
+  ],
+  "prior_active_files_preserved": 3288,
+  "archived_files_preserved": 134,
+  "all_earlier_records_by_chapter_preserved": true,
+  "all_unassigned_records_unchanged": true,
+  "all_earliest_milestones_preserved": true,
+  "all_prior_evidence_and_supplied_histories_preserved": true,
+  "earlier_source_surfaces_unchanged": true,
+  "earlier_form_analyses_unchanged": true,
+  "contextual_analysis_reconciliations": 12,
+  "contextual_analysis_register_location": "lexicon/entries.json:form_analysis_reconciliations_by_chapter.ch18",
+  "new_record_status_counts": {
+    "forms": {
+      "new_production": 638,
+      "supplied": 96,
+      "new_recognition": 14
+    },
+    "senses": {
+      "new_production": 47,
+      "supplied": 74
+    },
+    "features": {
+      "new_production": 20,
+      "supplied": 51
+    }
+  },
+  "reused_supplied_exposures": {
+    "form": {
+      "aefter-initial-u13-source": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "hund-invariant-u09-supplied": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "innan-u17-preposition": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "mid-thy-u16-reading-surface": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "swa-hwaet-swa-u15-source-acc-n-sg": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "the-relative-subject-invariant": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "twentig-cardinal-u12-source": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "aetforan-invariant-source": [
+        "EX-XII-XIII-44-02"
+      ],
+      "aetgaedere-invariant-source": [
+        "EX-XII-XIII-44-03",
+        "EX-XII-XIII-47-06"
+      ],
+      "forweorthan-infinitive-citation": [
+        "EX-XII-XIII-44-06"
+      ],
+      "bringan-inf-citation": [
+        "EX-XII-XIII-44-08"
+      ],
+      "in-adverb-u13-source": [
+        "EX-XII-XIII-45-04",
+        "EX-XII-XIII-45-06"
+      ],
+      "ondraedan-u17-inf-reference": [
+        "EX-XII-XIII-46-01"
+      ],
+      "thaet-conjunction-invariant-source-source": [
+        "EX-XII-XIII-46-03"
+      ],
+      "yfel-u15-substantive-dat-source": [
+        "EX-XII-XIII-46-09"
+      ],
+      "wenan-u15-principal-part-1-reference": [
+        "EX-XII-XIII-47-02"
+      ],
+      "a-ever-u15-source-invariant": [
+        "EX-XII-XIII-48-01"
+      ],
+      "betweox-invariant-source": [
+        "EX-XII-XIII-48-04"
+      ],
+      "hraedlice-u16-reading-surface": [
+        "EX-XII-XIII-48-08"
+      ]
+    },
+    "sense": {
+      "geseon-u16-content": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "hund-hundred-source": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "innan-u17-preposition": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "swa-hwaet-swa-u15-source-sense": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "twentig-u12-source": [
+        "NEW-U18-R01",
+        "NEW-U18-R02",
+        "NEW-U18-R03",
+        "NEW-U18-R04",
+        "NEW-U18-R05"
+      ],
+      "aetforan-source": [
+        "EX-XII-XIII-44-02"
+      ],
+      "aetgaedere-u11-source": [
+        "EX-XII-XIII-44-03",
+        "EX-XII-XIII-47-06"
+      ],
+      "in-u13-inward-source": [
+        "EX-XII-XIII-45-04",
+        "EX-XII-XIII-45-06"
+      ],
+      "yfel-u15-noun-evil-source": [
+        "EX-XII-XIII-46-09"
+      ],
+      "a-ever-u15-source-sense": [
+        "EX-XII-XIII-48-01"
+      ],
+      "betweox-u17-local-sense": [
+        "EX-XII-XIII-48-04"
+      ],
+      "hraedlice-u16-sense": [
+        "EX-XII-XIII-48-08"
+      ]
+    },
+    "feature": {}
+  },
+  "bounded_scope": {
+    "explicit_limits": [
+      "Only the 17 active contracts and actual registers establish prior teaching: 1197 lemmas, 12557 forms, 1573 senses and 1143 features. No archived milestone is imported.",
+      "Retain complete Exercises 44–48: 8/9/9/11/10 items, 47 in all. Their Joseph English composition sequence is not an attested Old English Joseph reading in the selected reader.",
+      "The separately assigned prose is exact Cook 175.18–177.2, PDF 191–193, 26 physical lines, ending before Apollonius as Teacher. The coordinator settled this boundary after independent image inspections.",
+      "New source-only forms, senses and whole constructions remain locally supplied with no independent recall claim.",
+      "Every response needs exact input and output dependencies and a response contract. Public task labels contain no answers.",
+      "Original note questions remain apparatus unless explicitly assigned. Note 176.13 supplies the relative antecedent; any corresponding task asks for explanation with that note visible.",
+      "No new narrative is required. Completing the final planned unit does not establish mastery of all prose, the reader, poetry or the language.",
+      "No learner or key prose precedes the coordinator’s reconciled contract checkpoint."
+    ],
+    "assessment_boundary": "All exact source hints and supplied forms, senses and whole constructions remain visible. Their independent recall is never assessed. A table cell establishes only its explicit morphology and stated lexical frame.",
+    "source_reading": "One complete226-word episode at175.18–177.2 with22 original notes and29 anchors. The subsequent Apollonius as Teacher is unassigned.",
+    "new_practice": {
+      "task_groups": 13,
+      "requested_outputs": 40,
+      "morphology_outputs": 13,
+      "morphology_Old_English_sentences": 10,
+      "translated_examples": 2,
+      "new_connected_narrative": false
+    },
+    "completion_claim": "The47 final numbered Cook items complete the canonical numbered exercise assignment crosswalk, not mastery of the entire reader, all prose, poetry or Old English."
+  },
+  "limits": [
+    "Earlier source forms supplied again receive exposure history without recognition or production milestones.",
+    "No unrequested sequel or archived teaching milestone is included."
+  ]
+}

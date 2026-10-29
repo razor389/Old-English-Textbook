@@ -48,20 +48,20 @@ out['sources/README.md']=s
 
 r=read('sources/registry.json')
 uses={
- 'cook_ex_1895':{'source_record':'sources/audits/unit18-source/exercises-prompts.json','scope':'All47 joint XII,XIII Exercises44–48 prompts, printed29–33 / PDF37–41; all154 hints and controls retained.'},
- 'cook_fb_1895_2':{'source_record':'sources/audits/unit18-source/reading-source.json','scope':'Exact226-word Apollonius175.18–177.2 / PDF191–193,26physical lines,22notes29anchors; selected grammar/glossary pages support explicit systems and local help.'},
- 'wright_oe_1914':{'scope':'Selected primary-image rules corroborate explicitly bounded morphology and exceptions; reused archived images supply evidence, never inherited teaching milestones.'},
- 'bosworth_toller_1898_1921':{'scope':'Personally inspected dictionary facsimiles support selected senses, government, quantity and source phrases. Attested quotation, normalized transcription and rule-derived forms remain distinct.'},
- 'crawford_heptateuch_1922':{'scope':'Corroboration only: printed190/191/194/195 correspond to PDF214/215/218/219; title PDF9. Exact instrumental phrase, æcernu variant, names and substitution parallel. No assigned Joseph reading and no claim that this was Cook’s edition.'}}
+ 'cook_ex_1895':{'source_record':'sources/audits/unit18-source/exercises-prompts.json','scope':'All 47 joint XII, XIII Exercises 44–48 prompts, printed 29–33 / PDF 37–41; all 154 hints and controls retained.'},
+ 'cook_fb_1895_2':{'source_record':'sources/audits/unit18-source/reading-source.json','scope':'Exact 226-word Apollonius 175.18–177.2 / PDF 191–193, 26 physical lines, 22 notes and 29 anchors; selected grammar/glossary pages support explicit systems and local help.'},
+ 'wright_oe_1914':{'scope':'Selected primary-image rules corroborate explicitly bounded morphology and exceptions; §559(3), printed 295 / PDF 315, supports dative ætforan in the reviewed correction. Reused archived images supply evidence, never inherited teaching milestones.'},
+ 'bosworth_toller_1898_1921':{'scope':'Personally inspected dictionary facsimiles support selected senses, government, quantity and source phrases. Review additions include main pages 21, 576 and 697 and Supplement 330 for the bounded A05 support. Attested quotation, normalized transcription and rule-derived forms remain distinct.'},
+ 'crawford_heptateuch_1922':{'scope':'Corroboration only: printed 190–195 correspond to PDF 214–219; title PDF 9. Exact instrumental phrase, æcernu variant, names and substitution parallel; review also checks respectful leof, Hwilum ær, the material frame with unprefixed Fille, and On mergen with morgen in the apparatus. No assigned Joseph reading and no claim that this was Cook’s edition.'}}
 seen=set()
 for group in ['selected_sources','supporting_sources']:
     for entry in r[group]:
         sid=entry['source_id']
         if sid in uses:
             assert 'unit18_use' not in entry,sid
-            entry['unit18_use']={**uses[sid],'source_evidence':'sources/audits/unit18-source/evidence-catalog.json','grammar_evidence':'sources/audits/unit18-grammar/evidence-catalog.json','independent_review':'chapters/ch18/reviews/paradigms.json'};seen.add(sid)
+            entry['unit18_use']={**uses[sid],'source_evidence':'sources/audits/unit18-source/evidence-catalog.json','grammar_evidence':'sources/audits/unit18-grammar/evidence-catalog.json','review_support':'chapters/ch18/support-amendment-spec.json','author_support_report':'chapters/ch18/review-evidence/grammar-support.json','independent_review':'chapters/ch18/reviews/paradigms.json'};seen.add(sid)
         if sid=='cook_ex_1895':
-            entry['verification']='All48 exercise boundaries and terminal counts structurally checked; all Exercises1–48 now have full item-level linguistic audits. Completed active contracts assign all644 numbered items with zero remaining deferrals/exclusions. Historical audit records retain their original scope.'
+            entry['verification']='All 48 exercise boundaries and terminal counts structurally checked; all Exercises 1–48 now have full item-level linguistic audits. Completed active contracts assign all 644 numbered items with zero remaining deferrals/exclusions. Historical audit records retain their original scope.'
 assert seen==set(uses)
 out['sources/registry.json']=json.dumps(r,ensure_ascii=False,indent=2)+'\n'
 s=once(txt('typesetting/README.md'),'Use `chapter-template.tex` as a minimal document shell',f'The reviewed [Unit 18 exports](ch18/README.md) have **{lp} learner and {kp} key pages**. Every final page has a non-author visual record, complete text/table parity and final identities. All eighteen planned units now have complete exports.\n\nUse `chapter-template.tex` as a minimal document shell')
