@@ -2,7 +2,7 @@
   "schema_version": 1,
   "guide_id": "pronunciation",
   "title": "A guide to Old English pronunciation",
-  "status": "contracted_before_prose",
+  "status": "under_independent_review",
   "date": "2026-10-29",
   "issue_id": "oec-pron",
   "authorization": "User requested a practical Cook/Fulk pronunciation guide with American English cue words, minimal IPA, and help for sounds absent from American English.",
@@ -59,7 +59,7 @@
   "source_authorities": [
     {
       "source_id": "cook_fb_1895_2",
-      "scope": "Spelling, quantity, sounded clusters, front/back h articulation, doubled consonants, stress and exact one-sentence reading",
+      "scope": "Spelling, quantity, sounded clusters, front/back h articulation, doubled consonants, stress and the specific source sentence adapted for reading",
       "sections": [
         "2–11",
         "23"
@@ -216,7 +216,7 @@
     {
       "id": "PRON-C09",
       "topic": "Duration, syllables and stress",
-      "decision": "Keep vowel duration distinct from doubled-consonant duration and syllable weight. Retain audible, differentiated unstressed endings. Give ordinary first/root stress with ge-/be-/for- and verb-prefix limits; supply anginne as stress on ginn and gescēop on scēop. Use printed length for careful exercises, explaining briefly that unstressed function words/prefixes could shorten in connected speech.",
+      "decision": "Keep vowel duration distinct from medial doubled-consonant duration and syllable weight. Final double spellings normally have single-consonant duration; full/fūl tests vowel length and quality. Retain audible, differentiated unstressed endings. Give ordinary first/root stress with ge-/be-/for- and verb-prefix limits; supply gescēop with root stress and heofonan with three syllables and initial stress. Use printed length for careful exercises, explaining briefly that unstressed function words/prefixes could shorten in connected speech.",
       "evidence": [
         "PC03",
         "PC04",
@@ -224,8 +224,7 @@
         "PC13",
         "FULK-P05",
         "FULK-P08",
-        "FULK-P15",
-        "curriculum/proposals/pronunciation/analysis.json#course_alignment_findings"
+        "FULK-P15"
       ]
     }
   ],
@@ -292,25 +291,25 @@
   },
   "selected_reading": {
     "id": "PRON-READ-01",
-    "origin_category": "exact source excerpt",
+    "origin_category": "adaptation of a specific source passage",
     "source_id": "cook_fb_1895_2",
     "original_identifier": "Reader I, opening sentence",
     "printed_page": 123,
     "pdf_page_one_based": 139,
     "line_convention": "First prose line; no invented printed line number",
     "source_record": "sources/audits/unit01-source/creation-first-day.md",
-    "contained_in_existing_assignment": "FB-I-CREATION-FIRST-DAY-01",
-    "text": "On anginne gescēop God heofonan and eorðan.",
-    "supplied_translation": "In the beginning God created heaven and earth.",
+    "source_contained_in_existing_assignment": "FB-I-CREATION-FIRST-DAY-01",
+    "text": "God gescēop heofonan and eorðan.",
+    "supplied_translation": "God created heaven and earth.",
     "purpose": "Supported oral reading and sound observations only",
     "local_support": [
       "Every word's meaning",
-      "anginne stress and nn",
       "gescēop g/sc, root stress and long ēo",
       "heofonan three syllables, eo and voiced f",
       "eorðan two syllables, eo and voiced ð"
     ],
-    "normalization": "Source note cues 1–3 omitted from the learner excerpt; words and punctuation retained. The original notes remain in the cited source transcription; this guide supplies all meaning and pronunciation support without assigning those grammar questions."
+    "normalization": "The original Cook sentence and notes remain in the cited source transcription. The teaching adaptation removes the initial phrase On anginne, moves God before gescēop to give an ordinary subject–verb declarative, and omits apparatus cues 1–3. No retained word is respelled. The learner explicitly labels the adaptation.",
+    "original_text": "On anginne gescēop God heofonan and eorðan."
   },
   "practice": [
     {
@@ -459,7 +458,7 @@
         },
         {
           "id": "PRON-P04c",
-          "form": "anginne"
+          "form": "heofonan"
         },
         {
           "id": "PRON-P04d",
@@ -474,7 +473,7 @@
     {
       "id": "PRON-P05",
       "origin_category": "new teaching material",
-      "prompt_type": "Read the fully supported Cook sentence and answer three sound questions",
+      "prompt_type": "Read the fully supported adaptation of Cook and answer three sound questions",
       "items": [
         {
           "id": "PRON-P05a",
@@ -539,6 +538,19 @@
       "stage": "drafting",
       "scope": "Use the already contracted giefan for the short-ie illustration instead of hliehhan. This avoids an unnecessary combined ie/hh articulation question without adding vocabulary or changing any assessed task.",
       "evidence": "fulk_2020 §135a, printed103/PDF115, giefan with overpoint explicitly normalized in examples.json; rounded ie convention in §20."
+    },
+    {
+      "id": "PRON-A03",
+      "stage": "independent review",
+      "scope": "Remove mandatory final-ll prolongation from full/fūl and its key. Limit extra consonant duration to medial doubling, with habban as the clear model. Correct bridge cue to its final sound.",
+      "evidence": "Cook §11 printed9–10/PDF25–26; Fulk §16 ful(l); independent review of the exact draft and source images."
+    },
+    {
+      "id": "PRON-A04",
+      "stage": "independent review, before revised prose",
+      "scope": "Use a declared five-word adaptation of the Cook opening, God gescēop heofonan and eorðan. Replace D3 anginne with the already supplied heofonan. All 25 response IDs and E1–E3 remain; all meanings and sentence grammar remain supplied. Remove anginn/anginne from teaching targets. No Cook exercise assignment changes.",
+      "reason": "Avoid an unresolved noun-specific g cue and variant-dependent stress in an introductory sound guide. The investigation is retained as evidence for an unselected example, not a pronunciation claim. Wright onginn/anginn stress evidence must not be collapsed into one rule.",
+      "evidence": "Cook Reader I printed123/PDF139; exact source transcription retained. Independent reviewer re-solves changed D3 and checks the adapted declarative before the revised key."
     }
   ],
   "completion": {
