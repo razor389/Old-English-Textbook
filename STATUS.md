@@ -2,6 +2,8 @@
 
 The beginner pronunciation guide is complete: [learner PDF](typesetting/pronunciation/pronunciation.pdf), **9 pages**, and [separate key](typesetting/pronunciation/answer-key.pdf), **3 pages**. It uses American English sound cues, plain mouth instructions, three once-only phonetic symbols, and 25 supported practice questions. The [separate contract](guides/pronunciation/coverage.json) was saved before prose; independent solutions preceded key comparison, all material findings are resolved, and every exported page was inspected. See the [export record](typesetting/pronunciation/export-review.json) and [reproduction notes](typesetting/pronunciation/README.md). All 129 protected earlier course files and the eighteen-unit/register milestones are unchanged. Beads work is recorded under `oec-pron` and its seven named stage tasks.
 
+Accepted pronunciation artifacts are saved at local checkpoint **33c8a5e**. All eight pronunciation issues are closed; the final Beads export contains 188 closed issues, with no open work at this handoff.
+
 Updated 29 October 2026. **All 18 units and the course-wide table revision are complete.** The 36 accepted learner/key PDFs total **1,223 pages**, nine fewer than the initial complete course. Shared verbal plurals use **1–3 pl.**; conjugation and declension tables follow the later-unit style. All forms, tasks, original Cook prompts and teaching milestones are preserved. All **644 numbered Cook items** are assigned; none remain deferred or excluded. The [current export manifest](docs/revisions/table-layout/exports.json) binds every retained PDF.
 
 The complete presentation artifacts and accepted PDFs are saved at local Git checkpoint **20748ce**. Final tracker closure is recorded in the following handoff commit.
