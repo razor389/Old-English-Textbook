@@ -1,26 +1,26 @@
-# Handoff to the next session
+# Handoff
 
-The requested Unit 18 is in independent source, grammar and curriculum analysis under `oec-u18`. Its [brief](../curriculum/UNIT_18_BRIEF.md) fixes all 47 remaining Cook items and the exact 226-word gifts-and-farewell reading. The learning contract and learner/key drafts are pending. The immutable seventeen-unit baseline is `0eda27783a3830fbd10bebef3702e27c15ff837c`; do not recapture it or modify earlier units.
+The requested **Unit 18 and the planned eighteen-unit course are complete**. All units have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Unit 18 exports/registers are saved at **`52ff433bb80c6cf3bf245c5533cdd396362b443f`**. The [main README](../README.md), plan/map, source registry and typesetting index include the final unit. No further unit or supplement is authorized by this completion.
 
-The requested **Unit 17 is complete**. Units 1–17 have independently reviewed learner/key masters, complete LuaLaTeX exports, every-page inspection and integrated registers. Complete Unit 17 exports/registers are saved at **`99fcc3a`**. The main [README](../README.md), [course/source map](../curriculum/COOK_MAP.md), [registry](../sources/registry.json) and [typesetting index](../typesetting/README.md) include Unit 17. **Unit 18 is requested and under analysis; drafting awaits its committed contract.**
+## Final unit and evidence
 
-## Unit 17 evidence and review
+The [contract](../chapters/ch18/coverage.json) preceded prose at `6874c20e7127fa33c41406d1aa6c0b087e59c824`. Complete drafts are `970fcc1f431f6ce2ccdd1f1c85b2b5e63ae0c16a`; the fresh non-author’s unchanged [solutions](../chapters/ch18/independent-solutions.md) were frozen at `7846befc2c484e8d3e4ff43346da12bf275f5b08` before key/current-contract/audit access. [Review](../chapters/ch18/review.md), [output ledger](../chapters/ch18/review-ledger.json) and [separate paradigm review](../chapters/ch18/reviews/paradigms.json) accept all 60 tasks / 87 answers and 55 systems / 652 cells. Accepted text is `029177713dffa6ff81b81d9a96b41b36e006963f`. No material finding remains open.
 
-The [contract](../chapters/ch17/coverage.json) preceded prose at **`6fc6fc1`**. Complete drafts were saved at **`259b14f`**. A fresh non-author froze all [pre-key solutions](../chapters/ch17/independent-solutions.md) at **`ed28a8e`** under the [strict protocol](../sources/audits/unit17-coordinator/review-independence.json) before current key/contract/audit access. The [freeze record](../chapters/ch17/blind-freeze.json) verifies every actual requested output was attempted. The [review](../chapters/ch17/review.md), [ledger](../chapters/ch17/review-ledger.json) and separate [paradigm review](../chapters/ch17/reviews/paradigms.json) accept all **103 tasks / 146 outputs** and **110 systems / 1,234 cells**. Accepted text is saved at **`a137171`**. No material finding remains open.
+All 47 joint XII, XIII.44–48 items retain complete 8/9/9/11/10 sets and 154 controls. Joseph is English composition. The separately assigned 226-word Apollonius continuation is 175.18–177.2 / PDF 191–193, ending with the proposal to go and rest; it does not report completed arrival. All 26 physical lines, 22 original notes and 29 anchors remain. Apollonius as Teacher is unassigned.
 
-All 82 Cook joint XII, XIII.37–43 items remain, with counts 14/10/7/10/12/9/20 and original EX-XII-XIII-NN-NN IDs. Exercise 37’s article/second-person-pronoun omission remains a local instruction. The reading is the exact 252-word performance episode, **174.7–175.17 / PDF 190–191**, from Ðā ēode hēo ūt through ðe hē forðtēah. All 19 original notes / 20 anchors remain; individual line counts are editorial. The following love and gifts are unassigned.
+Consult final [amendments](../chapters/ch18/authoring-amendments.json) and review alongside sealed audits. Initial audit lęcgað/ðēowra readings were corrected to actual lęcgeað/ðēowa; these were transcription errors, not Cook errors. Servant-phrase historical classification stays bounded and supplied. Earlier findan third-singular funde is valid under Unit 4; the contrary provisional finding was withdrawn. Reading token 225 ūs uses the actual prior accusative record; selected ēowerre has dative feminine agreement. Crawford 1922 is corroboration only. Earlier witnesses remain intact.
 
-Use the final [amendments](../chapters/ch17/authoring-amendments.json) and independent review alongside the frozen audit packets. The selected mægen obliques retain the full stem; andgiet has four assigned abstract singular cases without a defectiveness claim. Gelīefst in the reading means permit, with a separate supplied homonym identity. The whole 144,000 expression retains collective ðæt and final-o ðūsendo; it does not establish a general numeral-case rule. Supplied nīwne sang is rule-derived from inspected Wright pages. Hālga, masculine horn, endingless accusative cwēn, descendants sǣd and husband wer retain their explicit senses and evidence. Original translation witnesses remain unchanged.
+The final review also corrects 44.2 to dative **ætforan him**, clarifies the reflexive hint and neuter **hit** reference, and accepts **ðus** in 48.9. [A05 support](../chapters/ch18/support-amendment-spec.json) supplies five bounded constructions without creating independent-recall milestones. The [model correction record](../chapters/ch18/selected-model-corrections.json) preserves the original sequences; the blind solutions remain unchanged.
 
-The [learner PDF](../typesetting/ch17/chapter-17.pdf) has **94 pages** and the [key](../typesetting/ch17/answer-key.pdf) **45**. All **139 final pages** have non-author visual records bound to final file identities. [Presentation acceptance](../typesetting/ch17/page-review.json) reconciles complete parity and clean logs. The [export README](../typesetting/ch17/README.md) provides reproduction and layout records.
+The [learner PDF](../typesetting/ch18/chapter-18.pdf) has 66 pages and the [key](../typesetting/ch18/answer-key.pdf) 32. All 98 final pages have actual non-author visual records bound to final identities, complete parity and clean logs. [Reproduction instructions](../typesetting/ch18/README.md) preserve the final layout workflow.
 
-## Registers and preservation
+## Registers and boundaries
 
-The [integration record](../chapters/ch17/register-integration.json) preserves every prior record, earliest milestone, supplied history, source surface, analysis and metadata history. Totals are **1,197 lemmas, 12,557 forms, 1,573 senses and 1,143 features**. Current unit milestones remain distinct from supplied exposure.
+Totals: **1,265 lemmas, 13,295 forms, 1,687 senses and 1,214 features**. [Integration](../chapters/ch18/register-integration.json) preserves every earlier per-chapter record, earliest milestone, supplied history, source surface, analysis and metadata history.
 
-The immutable ignored `build/unit17-prior-baseline.json` captures the actual sixteen-unit state at **`defa8008f6887a1f5f6afe9db27431d500a03f67`**: 1,067 lemmas, 11,188 forms, 1,376 senses and 1,080 features. The retained [prior-state record](../sources/audits/unit17-coordinator/prior-state.json) identifies 2,935 earlier files including both registers, plus 134 archive files. All 2,933 fixed nonregister artifacts and all 134 archived files remain unchanged. Do not recapture the baseline or rerun older mergers against integrated registers. Reused supplied words have explicit local-help or original-hint routes without new production milestones.
+The retained immutable `build/unit18-prior-baseline.json` captures seventeen-unit state at `0eda27783a3830fbd10bebef3702e27c15ff837c`: 1,197 lemmas, 12,557 forms, 1,573 senses and 1,143 features. The [prior-state record](../sources/audits/unit18-coordinator/prior-state.json) identifies 3,290 files including registers; all 3,288 fixed nonregister artifacts and 134 archive files remain unchanged. Do not recapture the baseline or rerun earlier integration helpers.
 
-The canonical crosswalk is **597 assigned / 47 deferred / none excluded**, totaling 644. Exercises **1–43** have full item-level audits; **44–48** still require them. Active chapter contracts govern assignments.
+The final canonical crosswalk is **644 assigned / 0 deferred / none excluded**. All 48 exercises have full item-level audits. Source completeness is not a claim that every reader passage or all Old English grammar has been taught.
 
 ## Recoverable checkpoints
 
@@ -42,12 +42,11 @@ The canonical crosswalk is **597 assigned / 47 deferred / none excluded**, total
 | 14 | 18cfa3a | 5721c5f | a56c403 | 9129cda | 35 / 21 |
 | 15 | ff7f7c8 | 0ec6ae3 | a80bf34 | e1d94be | 64 / 30 |
 | 16 | 543e214 | bbf014e | edb1bbb | defa800 | 67 / 32 |
-| 17 | 6fc6fc1 | a137171 | 99fcc3a | This handoff checkpoint | 94 / 45 |
+| 17 | 6fc6fc1 | a137171 | 99fcc3a | 0eda277 | 94 / 45 |
+| 18 | 6874c20 | 0291777 | 52ff433 | This handoff checkpoint | 66 / 32 |
 
-## Resuming and reproducing
+## Resuming
 
-Read AGENTS.md, STATUS.md, EDITORIAL_POLICY.md, docs/WORKFLOW.md, the plan/map, source registry, all seventeen active contracts and actual registers. Run `bd prime`, then `bd ready`, serially. Root remains the sole embedded-Dolt writer. Begin another unit only when requested.
+Read AGENTS.md, STATUS.md, EDITORIAL_POLICY.md, docs/WORKFLOW.md, the plan/map, source registry, all 18 active contracts and actual registers. Run `bd prime`, then `bd ready`, serially. Root remains the sole embedded-Dolt writer. Await a new request before additional course content.
 
-Use parallel agents with exclusive files for independent source/curriculum analysis; reconcile and checkpoint the contract before prose. A fresh blind solver may read the actual learner master, earlier accepted teaching/registers and original primary images, but current contracts/audits/token maps can expose answers. Freeze every actual response in Git before explicit comparison access. Resolve independent review, inspect every exported page, integrate preserved registers, update indexes, export Beads and save local checkpoints. No remote push is configured.
-
-Run `python -X utf8 scripts/check_unit17.py --draft --tex` after rebuilding ignored PDF text/log products as described in the export README. Retained TeX preserves final layout; rerunning assembly can discard repairs. Raw and normalized-LF identities distinguish checkout conversion from textual changes. Completion metadata does not alter the substantive accepted contract. Do not rerun pre-prose assembly or old merge helpers against completed state.
+For requested revisions, preserve originals and scope, make bounded amendments, repeat affected independent checks and actually inspect changed export pages. Use `python -X utf8 scripts/check_unit18.py --draft --tex`; final log/text products are retained, with reproduction documented. Retained TeX includes final layout repairs; assembly may discard them. Compiler logs retain their original generated whitespace. Raw and normalized-LF identities distinguish checkout conversion from content changes. Export Beads and commit locally; no remote push is configured.

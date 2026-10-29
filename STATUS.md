@@ -1,18 +1,14 @@
 # Status
 
-The requested Unit 18 is in independent source, grammar and curriculum analysis under `oec-u18`. Its [brief](curriculum/UNIT_18_BRIEF.md) fixes all 47 remaining Cook items and the exact 226-word gifts-and-farewell reading. The learning contract and learner/key drafts are pending. The immutable seventeen-unit baseline is `0eda27783a3830fbd10bebef3702e27c15ff837c`; do not recapture it or modify earlier units.
+Updated 28 October 2026. **All 18 planned units are complete**, independently reviewed, exported in full and integrated into the teaching registers. Unit 18 complete exports/registers are saved at **`52ff433bb80c6cf3bf245c5533cdd396362b443f`**. All 644 numbered Cook items are assigned; zero remain deferred or excluded. No sequel or supplementary poetry is drafted.
 
-Updated 28 October 2026. **Units 1–17 are complete and independently reviewed**, with complete learner/key PDFs, every-page inspection and integrated teaching registers. Complete Unit 17 exports and registers are saved at **`99fcc3a`**. The eighteen-unit outline and all 644 Cook item mappings remain settled. Unit 18 is requested and under analysis; drafting awaits its committed contract.
+## Completed Unit 18
 
-## Completed Unit 17
+The [contract](chapters/ch18/coverage.json) covers all 47 joint XII, XIII Exercises 44–48 prompts, 13 original practice groups, two translated examples and the exact 226-word love, gifts and farewell passage at Cook 175.18–177.2 / PDF 191–193. All 154 original controls and 22 reading notes / 29 anchors remain. There are **60 tasks / 87 answers** and **55 defined systems / 652 literal cells**, with explicit production, recognition and supplied boundaries.
 
-The [brief](curriculum/UNIT_17_BRIEF.md) and [contract](chapters/ch17/coverage.json) cover connected exposition, praise and figurative language. All **82 Cook joint XII, XIII.37–43 prompts** remain in complete sets, with the global Exercise 37 instruction, 21 original tasks and four translated examples. There are **103 tasks / 146 answer positions** and **110 complete bounded systems / 1,234 literal cells**. Form knowledge, lexical meaning and syntactic scope remain distinct.
+Contract `6874c20e7127fa33c41406d1aa6c0b087e59c824` preceded prose; complete drafts are `970fcc1f431f6ce2ccdd1f1c85b2b5e63ae0c16a`. A fresh non-author froze every [solution](chapters/ch18/independent-solutions.md) at `7846befc2c484e8d3e4ff43346da12bf275f5b08` before key/current-contract/audit access. [Fresh review](chapters/ch18/review.md) and [separate paradigm review](chapters/ch18/reviews/paradigms.json) resolve material findings; accepted text is `029177713dffa6ff81b81d9a96b41b36e006963f`. [Amendments](chapters/ch18/authoring-amendments.json) retain changes without rewriting earlier witnesses.
 
-The exact **252-word music-performance episode** is Cook 174.7–175.17 / one-based PDF 190–191. Individual line numbers are editorial counts anchored by printed marginal numbers. All **19 original notes / 20 anchors** remain, including the swīgende note 12a and both note-17 attachments. English context supplies the preceding banquet; subsequent love and gifts remain unassigned. No additional narrative was composed.
-
-A fresh non-author froze [all independent solutions](chapters/ch17/independent-solutions.md) at **`ed28a8e`** before current key/contract/audit access. The [review](chapters/ch17/review.md), [output ledger](chapters/ch17/review-ledger.json) and separate [paradigm review](chapters/ch17/reviews/paradigms.json) resolve all material findings. Original witnesses and sealed packets remain unchanged; [amendments](chapters/ch17/authoring-amendments.json) record later repairs. Checkpoints: contract **`6fc6fc1`**, drafts **`259b14f`**, accepted text **`a137171`**.
-
-The [learner PDF](typesetting/ch17/chapter-17.pdf) has **94 pages** and the [key](typesetting/ch17/answer-key.pdf) **45**. All **139 final pages** passed non-author visual inspection. [Full parity](typesetting/ch17/content-parity.json) and [presentation acceptance](typesetting/ch17/page-review.json) bind complete content, final PDF/image identities and clean logs.
+The [learner PDF](typesetting/ch18/chapter-18.pdf) has **66 pages**, the [key](typesetting/ch18/answer-key.pdf) **32**. All **98 final pages** passed non-author inspection, [full parity](typesetting/ch18/content-parity.json) and [presentation acceptance](typesetting/ch18/page-review.json).
 
 ## Completed course artifacts
 
@@ -35,13 +31,12 @@ The [learner PDF](typesetting/ch17/chapter-17.pdf) has **94 pages** and the [key
 | [15](typesetting/ch15/README.md) | Negation, quantity and comparison in discourse | 64 / 30 | a80bf34 |
 | [16](typesetting/ch16/README.md) | Extended narrative and speech | 67 / 32 | edb1bbb |
 | [17](typesetting/ch17/README.md) | Connected exposition, praise and figurative language | 94 / 45 | 99fcc3a |
+| [18](typesetting/ch18/README.md) | Independent prose consolidation | 66 / 32 | 52ff433 |
 
-Each unit retains its contract, evidence, editable learner and separate key, frozen solutions, independent reviews, complete TeX/PDFs and page ledgers.
+Each unit retains its contract, evidence, learner/key masters, frozen solutions, reviews, full TeX/PDFs and page ledgers.
 
-## Registers and boundaries
+## Registers and preservation
 
-The [lexicon](lexicon/entries.json) contains **1,197 lemmas, 12,557 forms and 1,573 senses**; [grammar](curriculum/grammar.json) contains **1,143 constructions**. Unit 17 establishes 1,212 productive form milestones, 16 recognition-only forms, 109 productive senses and 15 productive constructions. Supplied exposure remains separate from independent recall.
+The lexicon contains **1,265 lemmas, 13,295 forms and 1,687 senses**; grammar contains **1,214 features**. Supplied exposure remains distinct from independent recall. The [integration audit](chapters/ch18/register-integration.json) preserves all earlier records, analyses, surfaces, metadata, supplied histories and earliest milestones against `0eda277`. All **3,288 fixed earlier artifacts** and **134 archived files** remain unchanged. Do not recapture the seventeen-unit baseline or rerun older mergers.
 
-The [integration audit](chapters/ch17/register-integration.json) preserves earlier records, analyses, surfaces, metadata, evidence, supplied histories and earliest milestones against **`defa800`**. All **2,933 fixed earlier active artifacts** and **134 archived files** remain unchanged. Do not recapture the immutable sixteen-unit baseline or rerun older integration helpers.
-
-The canonical crosswalk is **597 assigned / 47 deferred / none excluded**, totaling 644 numbered items. Exercises **1–43** have full item-level audits; **44–48** still require them. Active contracts govern assignments. Before another requested unit, read all seventeen active contracts and actual registers, and use the sole-coordinator Beads workflow. No remote or publication is configured.
+All Exercises 1–48 have full item-level audits. Active contracts govern assignment; completion does not imply mastery of every reader selection. Further work requires a new request. Beads uses one coordinator writer; no remote or publication is configured.

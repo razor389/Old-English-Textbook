@@ -1,6 +1,6 @@
 # Old English: Cook / Lambdin-style course
 
-A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **Units 1–17 are complete** with separate learner and answer-key PDFs.
+A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **All 18 planned units are complete** with separate learner and answer-key PDFs.
 
 Start with [STATUS.md](STATUS.md), [AGENTS.md](AGENTS.md), and the [course plan](curriculum/COURSE_PLAN.md). The [handoff](docs/HANDOFF.md) gives the next session's starting task; [prompts/START_HERE.txt](prompts/START_HERE.txt) can be pasted directly into it.
 
@@ -39,6 +39,10 @@ The editable [learner text](chapters/ch01/student.md) and [key](chapters/ch01/an
 **Unit 16 is complete:** [learner PDF](typesetting/ch16/chapter-16.pdf), 67 pages, and [separate key PDF](typesetting/ch16/answer-key.pdf), 32 pages. Extended narrative and speech are taught through 56 complete bounded systems / 564 cells and 76 tasks, including all 59 Cook XII, XIII.32–36 prompts. The complete 444-word gymnasium episode from *Apollonius* has local help and all 54 original notes. Fresh independent reviews and non-author inspection of all 99 pages are complete. See the [review and export record](typesetting/ch16/README.md).
 
 **Unit 17 is complete:** [learner PDF](typesetting/ch17/chapter-17.pdf), 94 pages, and [separate key PDF](typesetting/ch17/answer-key.pdf), 45 pages. Connected exposition, praise and figurative language are taught through 110 complete bounded systems / 1,234 cells and 103 tasks, including all 82 Cook XII, XIII.37–43 prompts. The complete 252-word music-performance episode from *Apollonius* has local help and all 19 original notes / 20 anchors. Fresh independent reviews and non-author inspection of all 139 pages are complete. See the [review and export record](typesetting/ch17/README.md).
+
+**Unit 18 is complete:** [learner PDF](typesetting/ch18/chapter-18.pdf), 66 pages, and [separate key PDF](typesetting/ch18/answer-key.pdf), 32 pages. Independent prose consolidation brings together 55 defined systems / 652 literal cells and 60 tasks / 87 answers. All 47 Cook XII, XIII.44–48 compositions remain, with 13 original practice groups and the exact 226-word love, gifts and farewell episode from *Apollonius*, including all 22 original notes / 29 anchors. Fresh independent reviews and non-author inspection of all 98 pages are complete. See the [review and export record](typesetting/ch18/README.md).
+
+All **644 numbered Cook items** are assigned across the completed course; none remain deferred or excluded. The course does not claim coverage of every reader selection or of supplementary poetry.
 
 The earlier two-chapter experiment is preserved under [reference/previous-course](reference/previous-course/README.md), with its source evidence, corrections, and complete PDFs. Its learning milestones do not apply to this course.
 
