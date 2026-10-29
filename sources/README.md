@@ -2,6 +2,8 @@
 
 `registry.json` identifies the selected Cook editions and scans, supporting scholarship, and the limited structural inspection of Lambdin. Active chapter contracts establish assignments and teaching scope.
 
+The separate pronunciation guide uses independent image-based audits of [Cook](audits/pronunciation/cook/report.md) and [Fulk](audits/pronunciation/fulk/report.md). Its [contract](../guides/pronunciation/coverage.json) declares the selected practical sound convention and its departures from Cook's older recommendations. The source records preserve exact locators and original spellings; American English cues are new teaching aids.
+
 Opening source transcriptions are [Exercise 1](transcriptions/cook-ex-01.md) and [Exercise 2](transcriptions/cook-ex-02.md). Correction C01 has a [current source-evidence record](corrections/c01/README.md).
 
 The [course inventory](audits/course-map/report.md) verifies every exercise boundary and terminal item count: 48 exercises, 644 numbered items, printed pp.1–33. Its grammar descriptions are structural observations. Exercises 1–48 now have separate item-level audits. The [Exercise 3 transcript](audits/unit01-source/exercise-3.md), [first-day Creation transcript](audits/unit01-source/creation-first-day.md), and [expanded paradigm evidence](audits/unit01-source/expanded-grammar.md) supply the opening unit's new source work. The [supplementary sea note](audits/supplementary/sea-genitive.md) preserves Wright's explicitly reconstructed genitive plural; it must not gain an attestation claim or teaching milestone.

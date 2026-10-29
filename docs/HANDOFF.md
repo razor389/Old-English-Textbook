@@ -1,5 +1,7 @@
 # Handoff
 
+Current authorized work: the user requested an accessible Cook/Fulk pronunciation guide with American English cues, plain instructions for absent sounds and minimal IPA. Independent source/curriculum audits are complete. The [guide contract](../guides/pronunciation/coverage.json) and [supplied examples](../guides/pronunciation/examples.json) govern drafting, independent review and complete guide/key exports. Root coordinates `oec-pron` and its stage tasks; existing unit files and registers are protected by the guide's compact identity inventory.
+
 The eighteen-unit course and requested table revision are complete. The [main README](../README.md) links all **36 retained PDFs / 1,223 pages**. Shared plural forms use **1–3 pl.**, with consistent conjugation and declension tables. The [export manifest](revisions/table-layout/exports.json), [full text check](revisions/table-layout/export-text-review.json), [table review](revisions/table-layout/table-review.json) and [page acceptance](revisions/table-layout/page-review.json) describe the current artifacts. The initial complete-course checkpoint was `1c9e53a`; the presentation contract preceded implementation at `5f8a4e9`. No further unit or supplement is authorized by this revision.
 
 The complete presentation/source revision is saved at **20748ce**. All acceptance checks passed before that checkpoint. The following handoff commit records closure of oec-style and its five child tasks.

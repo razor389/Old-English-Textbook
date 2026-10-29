@@ -1,5 +1,7 @@
 # Status
 
+The requested beginner pronunciation guide is in development under its [separate contract](guides/pronunciation/coverage.json). Independent Cook/Fulk source inspection and curriculum analysis are complete; the contract and supplied example inventory precede prose. The guide assumes no prior Old English and preserves all eighteen unit/register milestones. Current Beads work is `oec-pron` and its explicitly named stage tasks.
+
 Updated 29 October 2026. **All 18 units and the course-wide table revision are complete.** The 36 accepted learner/key PDFs total **1,223 pages**, nine fewer than the initial complete course. Shared verbal plurals use **1–3 pl.**; conjugation and declension tables follow the later-unit style. All forms, tasks, original Cook prompts and teaching milestones are preserved. All **644 numbered Cook items** are assigned; none remain deferred or excluded. The [current export manifest](docs/revisions/table-layout/exports.json) binds every retained PDF.
 
 The complete presentation artifacts and accepted PDFs are saved at local Git checkpoint **20748ce**. Final tracker closure is recorded in the following handoff commit.

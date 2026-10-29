@@ -1,0 +1,534 @@
+{
+  "schema_version": 1,
+  "guide_id": "pronunciation",
+  "title": "A guide to Old English pronunciation",
+  "status": "contracted_before_prose",
+  "date": "2026-10-29",
+  "issue_id": "oec-pron",
+  "authorization": "User requested a practical Cook/Fulk pronunciation guide with American English cue words, minimal IPA, and help for sounds absent from American English.",
+  "placement": {
+    "directory": "guides/pronunciation",
+    "position": "Standalone guide linked before Unit 1",
+    "prerequisite_chapters": [],
+    "audience": "Adult beginner; ordinary grammar terminology familiar; no prior Old English assumed",
+    "unit_number": null
+  },
+  "boundaries": {
+    "existing_course": "All eighteen unit contracts, learner/key masters, retained TeX/PDFs, cumulative registers and shared layout remain unchanged.",
+    "identity_manifest": "guides/pronunciation/course-boundary.json",
+    "prior_git_checkpoint": "24ca390",
+    "cook_assignments": {
+      "assigned": 644,
+      "deferred": 0,
+      "excluded": 0
+    },
+    "register_counts": {
+      "lemmas": 1265,
+      "forms": 13295,
+      "senses": 1687,
+      "grammar_features": 1214
+    },
+    "new_numbered_cook_items": [],
+    "independent_lexical_recall": false,
+    "independent_grammar_production": false,
+    "unresolved_dependencies": []
+  },
+  "independent_inputs": [
+    {
+      "role": "Cook source editor",
+      "agent": "pronunciation_cook",
+      "issue": "oec-pron-cook",
+      "record": "sources/audits/pronunciation/cook/evidence.json",
+      "report": "sources/audits/pronunciation/cook/report.md"
+    },
+    {
+      "role": "Fulk source editor",
+      "agent": "pronunciation_fulk",
+      "issue": "oec-pron-fulk",
+      "record": "sources/audits/pronunciation/fulk/evidence.json",
+      "report": "sources/audits/pronunciation/fulk/report.md"
+    },
+    {
+      "role": "Curriculum analyst",
+      "agent": "pronunciation_scope",
+      "issue": "oec-pron-scope",
+      "record": "curriculum/proposals/pronunciation/analysis.json",
+      "report": "curriculum/proposals/pronunciation/report.md"
+    }
+  ],
+  "source_authorities": [
+    {
+      "source_id": "cook_fb_1895_2",
+      "scope": "Spelling, quantity, sounded clusters, front/back h articulation, doubled consonants, stress and exact one-sentence reading",
+      "sections": [
+        "2–11",
+        "23"
+      ],
+      "printed_pages": [
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        18,
+        19,
+        123
+      ],
+      "pdf_pages_one_based": [
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        34,
+        35,
+        139
+      ],
+      "origin": "source evidence; original learner exposition"
+    },
+    {
+      "source_id": "fulk_2020",
+      "scope": "Selected sound convention and its limits; vowel/diphthong values, contextual consonants and stress",
+      "sections": [
+        "9–23",
+        "135a–d"
+      ],
+      "printed_pages": [
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        103,
+        104
+      ],
+      "pdf_pages_one_based": [
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        115,
+        116
+      ],
+      "origin": "source evidence; original learner exposition"
+    }
+  ],
+  "resolved_convention": [
+    {
+      "id": "PRON-C01",
+      "topic": "Spelling",
+      "decision": "Retain course spelling and quantity. Thorn/eth spellings do not encode voicing; hooked e/o retain the ordinary e/o sounds. Fulk example overpoints/underpoints may be removed only with the original and exact change recorded. Use eth for any normalized Fulk thorn example and record that change.",
+      "evidence": [
+        "PC01",
+        "PC02",
+        "PC04",
+        "FULK-P06",
+        "FULK-P09"
+      ]
+    },
+    {
+      "id": "PRON-C02",
+      "topic": "Simple vowels",
+      "decision": "Use Fulk's long vowels, including held cat for long ash. Use traditional lax short e/i/o/u/y permitted in Fulk19 and compatible with Cook's practical table. Short/long pairs must have separate cues where their selected qualities differ; never claim duration is their only difference under these approximations.",
+      "evidence": [
+        "PC05",
+        "PC06",
+        "FULK-P01",
+        "FULK-P02",
+        "FULK-P03"
+      ]
+    },
+    {
+      "id": "PRON-C03",
+      "topic": "American cues",
+      "decision": "Use father for a/ā, cat for æ/ǣ, bet for short e, bit for short i, foot for short u; use steady initial vowel of day/go for ē/ō and see/food for ī/ū. For short rounded o, qualify caught by whether the reader distinguishes cot/caught, and give an alternative mouth instruction. No r-coloured care, unqualified last/man, or whole day/go glide as an exact target.",
+      "evidence": [
+        "PC05",
+        "FULK-P01",
+        "FULK-P02",
+        "FULK-P16",
+        "curriculum/proposals/pronunciation/analysis.json#american_cue_pitfalls"
+      ]
+    },
+    {
+      "id": "PRON-C04",
+      "topic": "Nasal a",
+      "decision": "Teach Fulk's more rounded short a in stressed syllables before m/n, using mann as the supplied example. Do not extend this stressed-vowel rule mechanically to every unstressed -an ending.",
+      "evidence": [
+        "FULK-P16",
+        "fulk_2020 §16 stressed-vowel table; §19"
+      ]
+    },
+    {
+      "id": "PRON-C05",
+      "topic": "Diphthongs",
+      "decision": "Choose Fulk20's rounded single-syllable ea/eo/ie convention, starting respectively as cat, the steady first vowel of day, and see, with one glide toward oo. Long spellings hold the first element longer. Distinguish this from Cook's actual table in a source endnote. Supply geong as an explicit non-diphthong exception.",
+      "evidence": [
+        "PC05",
+        "FULK-P04",
+        "FULK-P06"
+      ]
+    },
+    {
+      "id": "PRON-C06",
+      "topic": "Consonants",
+      "decision": "Teach ordinary letters, c as k/ch, g as hard g/y/continuous voiced velar, usual sc as sh and cg as bridge, ordinary ng as finger with a supplied singe-type exception. State lexical and inflectional limits. cēlan, frosc and docga are supplied counterexamples, not a historical rule-generation test.",
+      "evidence": [
+        "PC07",
+        "PC08",
+        "FULK-P09",
+        "FULK-P10",
+        "FULK-P11",
+        "FULK-P12"
+      ]
+    },
+    {
+      "id": "PRON-C07",
+      "topic": "Absent sounds and clusters",
+      "decision": "Give tongue/lip/airflow instructions for rounded y/ȳ, the back/front h sounds and continuous g. Use Cook's sounded h/w/c clusters without inventing a required voiceless-sonorant analysis, trill or aspiration rule. American r is a declared practical approximation. x/hs use the k+s classroom value supported by Cook; acknowledge Fulk's earlier x+s value only in the source note.",
+      "evidence": [
+        "PC06",
+        "PC07",
+        "PC09",
+        "FULK-P12",
+        "FULK-P13",
+        "FULK-P14"
+      ]
+    },
+    {
+      "id": "PRON-C08",
+      "topic": "Voicing",
+      "decision": "Adopt Fulk17: f/s/þ/ð ordinarily voiced between voiced sounds, voiceless word-initially/finally or beside a voiceless consonant. Teach voice with fan/van, sip/zip, thin/this. Supply hǣlðu and forðām as exceptions; qualify stress and word-part boundaries. Do not copy Cook's broader final-voicing rule or infer all sounds from modern cognates.",
+      "evidence": [
+        "PC10",
+        "FULK-P07"
+      ]
+    },
+    {
+      "id": "PRON-C09",
+      "topic": "Duration, syllables and stress",
+      "decision": "Keep vowel duration distinct from doubled-consonant duration and syllable weight. Retain audible, differentiated unstressed endings. Give ordinary first/root stress with ge-/be-/for- and verb-prefix limits; supply anginne as stress on ginn and gescēop on scēop. Use printed length for careful exercises, explaining briefly that unstressed function words/prefixes could shorten in connected speech.",
+      "evidence": [
+        "PC03",
+        "PC04",
+        "PC12",
+        "PC13",
+        "FULK-P05",
+        "FULK-P08",
+        "FULK-P15",
+        "curriculum/proposals/pronunciation/analysis.json#course_alignment_findings"
+      ]
+    }
+  ],
+  "learning_outcomes": [
+    {
+      "id": "PRON-O01",
+      "knowledge_status": "new_recognition",
+      "scope": "Letters, interchangeable thorn/eth, hooks, macrons and declared teaching aids"
+    },
+    {
+      "id": "PRON-O02",
+      "knowledge_status": "new_production",
+      "scope": "Selected simple vowel qualities and length in supplied words"
+    },
+    {
+      "id": "PRON-O03",
+      "knowledge_status": "new_production",
+      "scope": "Selected one-syllable diphthongs and the supplied geong exception"
+    },
+    {
+      "id": "PRON-O04",
+      "knowledge_status": "new_production",
+      "scope": "Consonant values in taught examples with stated lexical limits"
+    },
+    {
+      "id": "PRON-O05",
+      "knowledge_status": "new_production",
+      "scope": "Rounded front vowels and unfamiliar h/g sounds using mouth instructions"
+    },
+    {
+      "id": "PRON-O06",
+      "knowledge_status": "new_production",
+      "scope": "Bounded f/s/th voicing and supplied exceptions"
+    },
+    {
+      "id": "PRON-O07",
+      "knowledge_status": "new_production",
+      "scope": "Vowel/consonant duration, audible written syllables and clusters"
+    },
+    {
+      "id": "PRON-O08",
+      "knowledge_status": "new_production",
+      "scope": "Word stress and fully supported reading"
+    },
+    {
+      "id": "PRON-O09",
+      "knowledge_status": "new_recognition",
+      "scope": "Approximation and source-convention limits"
+    },
+    {
+      "id": "PRON-O10",
+      "knowledge_status": "supplied",
+      "scope": "All vocabulary senses, inflected meanings and sentence translation; no grammar or vocabulary recall"
+    }
+  ],
+  "example_policy": {
+    "status": "supplied",
+    "record": "guides/pronunciation/examples.json",
+    "word_meanings": "Visible wherever needed for a task; no memorization required",
+    "forms": "Use selected source examples or existing image-audited course forms; exact source and pronunciation application recorded separately",
+    "normalization": "Removing Fulk teaching dots or changing þ to ð is declared per form. No inferred macrons, silent dialect conversion or general respelling.",
+    "stress_aids": "Bold and optional dividing hyphens are visibly declared reading aids, not source spelling",
+    "additional_examples": "Require a bounded evidence-backed contract amendment before they enter assessed tasks"
+  },
+  "selected_reading": {
+    "id": "PRON-READ-01",
+    "origin_category": "exact source excerpt",
+    "source_id": "cook_fb_1895_2",
+    "original_identifier": "Reader I, opening sentence",
+    "printed_page": 123,
+    "pdf_page_one_based": 139,
+    "line_convention": "First prose line; no invented printed line number",
+    "source_record": "sources/audits/unit01-source/creation-first-day.md",
+    "contained_in_existing_assignment": "FB-I-CREATION-FIRST-DAY-01",
+    "text": "On anginne gescēop God heofonan and eorðan.",
+    "supplied_translation": "In the beginning God created heaven and earth.",
+    "purpose": "Supported oral reading and sound observations only",
+    "local_support": [
+      "Every word's meaning",
+      "anginne stress and nn",
+      "gescēop g/sc, root stress and long ēo",
+      "heofonan three syllables, eo and voiced f",
+      "eorðan two syllables, eo and voiced ð"
+    ],
+    "normalization": "Source note cue omitted from the excerpt; words and punctuation retained"
+  },
+  "practice": [
+    {
+      "id": "PRON-P01",
+      "origin_category": "new teaching material",
+      "prompt_type": "Read four pairs and identify the long vowel in each",
+      "items": [
+        {
+          "id": "PRON-P01a",
+          "forms": [
+            "ac",
+            "āc"
+          ]
+        },
+        {
+          "id": "PRON-P01b",
+          "forms": [
+            "is",
+            "īs"
+          ]
+        },
+        {
+          "id": "PRON-P01c",
+          "forms": [
+            "god",
+            "gōd"
+          ]
+        },
+        {
+          "id": "PRON-P01d",
+          "forms": [
+            "full",
+            "fūl"
+          ]
+        }
+      ],
+      "outcomes": [
+        "PRON-O01",
+        "PRON-O02",
+        "PRON-O07"
+      ]
+    },
+    {
+      "id": "PRON-P02",
+      "origin_category": "new teaching material",
+      "prompt_type": "Give the taught sound or mouth instruction for the indicated letters, then read the supplied word",
+      "items": [
+        {
+          "id": "PRON-P02a",
+          "form": "cuman",
+          "target": "c"
+        },
+        {
+          "id": "PRON-P02b",
+          "form": "cyrice",
+          "target": "both c letters"
+        },
+        {
+          "id": "PRON-P02c",
+          "form": "cēlan",
+          "target": "c"
+        },
+        {
+          "id": "PRON-P02d",
+          "form": "giefan",
+          "target": "g"
+        },
+        {
+          "id": "PRON-P02e",
+          "form": "fugol",
+          "target": "g"
+        },
+        {
+          "id": "PRON-P02f",
+          "form": "scip",
+          "target": "sc"
+        },
+        {
+          "id": "PRON-P02g",
+          "form": "niht",
+          "target": "h"
+        },
+        {
+          "id": "PRON-P02h",
+          "form": "wyrt",
+          "target": "y"
+        }
+      ],
+      "outcomes": [
+        "PRON-O04",
+        "PRON-O05"
+      ]
+    },
+    {
+      "id": "PRON-P03",
+      "origin_category": "new teaching material",
+      "prompt_type": "Identify voicing of the indicated letter and explain the context or supplied exception",
+      "items": [
+        {
+          "id": "PRON-P03a",
+          "form": "cnīf",
+          "target": "f"
+        },
+        {
+          "id": "PRON-P03b",
+          "form": "cnīfas",
+          "target": "f"
+        },
+        {
+          "id": "PRON-P03c",
+          "form": "rīsan",
+          "target": "s"
+        },
+        {
+          "id": "PRON-P03d",
+          "form": "hūs",
+          "target": "s"
+        },
+        {
+          "id": "PRON-P03e",
+          "form": "ōðer",
+          "target": "ð"
+        },
+        {
+          "id": "PRON-P03f",
+          "form": "hǣlðu",
+          "target": "ð"
+        }
+      ],
+      "outcomes": [
+        "PRON-O06"
+      ]
+    },
+    {
+      "id": "PRON-P04",
+      "origin_category": "new teaching material",
+      "prompt_type": "Give syllable count and stressed syllable; identify a doubled consonant where present",
+      "items": [
+        {
+          "id": "PRON-P04a",
+          "form": "habban"
+        },
+        {
+          "id": "PRON-P04b",
+          "form": "fugol"
+        },
+        {
+          "id": "PRON-P04c",
+          "form": "anginne"
+        },
+        {
+          "id": "PRON-P04d",
+          "form": "gescēop"
+        }
+      ],
+      "outcomes": [
+        "PRON-O07",
+        "PRON-O08"
+      ]
+    },
+    {
+      "id": "PRON-P05",
+      "origin_category": "new teaching material",
+      "prompt_type": "Read the fully supported Cook sentence and answer three sound questions",
+      "items": [
+        {
+          "id": "PRON-P05a",
+          "target": "g and sc in gescēop"
+        },
+        {
+          "id": "PRON-P05b",
+          "target": "f in heofonan"
+        },
+        {
+          "id": "PRON-P05c",
+          "target": "ð in eorðan"
+        }
+      ],
+      "outcomes": [
+        "PRON-O03",
+        "PRON-O04",
+        "PRON-O06",
+        "PRON-O08"
+      ]
+    }
+  ],
+  "expected_numbered_responses": 25,
+  "learner_design": {
+    "target_pages": "Approximately 6–8; allow readable complete coverage",
+    "language": "Terse original exposition; no prior OE assumed",
+    "ipa": "At most one first-introduction occurrence for each unfamiliar sound where useful; no full-word IPA and no transcription tasks. Prefer ordinary words and mouth instructions.",
+    "american_cues": "Specify only the relevant part of the English word; distinguish an approximation from an exact equivalence.",
+    "notes": "Source disagreements, section locators and normalization details belong in endnotes/editorial evidence.",
+    "tables": "Shared Cambria 10.5-point booktabs style with compact readable panels"
+  },
+  "deliverables": {
+    "learner": "guides/pronunciation/student.md",
+    "key": "guides/pronunciation/answer-key.md",
+    "learner_tex": "typesetting/pronunciation/pronunciation.tex",
+    "learner_pdf": "typesetting/pronunciation/pronunciation.pdf",
+    "key_tex": "typesetting/pronunciation/answer-key.tex",
+    "key_pdf": "typesetting/pronunciation/answer-key.pdf",
+    "review_directory": "guides/pronunciation/review",
+    "export_ledger": "typesetting/pronunciation/export-review.json"
+  },
+  "acceptance": [
+    "Contract and exact example evidence saved in Git before learner prose",
+    "All 25 response IDs reconciled with a separate key",
+    "Independent reviewer solves before viewing key and checks linguistic/source accuracy",
+    "No unresolved material findings",
+    "Full Markdown/TeX/PDF text and table parity",
+    "Clean LuaLaTeX compilation and actual inspection of every new page and special character",
+    "Protected 129 files unchanged; all previous assignments and milestones retained",
+    "Source registry and main README/course plan/status/handoff/typesetting indexes updated",
+    "Beads export and recoverable local Git checkpoints; no push"
+  ],
+  "amendments": [],
+  "completion": {
+    "complete": false
+  }
+}
