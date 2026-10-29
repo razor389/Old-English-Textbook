@@ -28,14 +28,12 @@ N = nominative, G = genitive, D = dative, A = accusative. Complete tables below 
 
 **wesan**
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ne eom | næs |
-| 2 singular | ne eart | nǣre |
-| 3 singular | nis | næs |
-| 1 plural | ne sindon | nǣron |
-| 2 plural | ne sindon | nǣron |
-| 3 plural | ne sindon | nǣron |
+| 1 sg. | ne eom | næs |
+| 2 sg. | ne eart | nǣre |
+| 3 sg. | nis | næs |
+| 1–3 pl. | ne sindon | nǣron |
 
 There are six person/number positions in each of two tenses. Identical plural forms do not erase those distinctions. Present **ne eom**, **ne eart** and **ne sindon** contain two words; **nis** and the displayed negative preterites are contractions. The table covers the eom/wæs series.
 
@@ -64,14 +62,12 @@ Uncontracted ne with the corresponding positive verb can express valid negation,
 
 **nabban**
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | næbbe | næfde |
-| 2 singular | næfst | næfdest |
-| 3 singular | næfð | næfde |
-| 1 plural | nabbað | næfdon |
-| 2 plural | nabbað | næfdon |
-| 3 plural | nabbað | næfdon |
+| 1 sg. | næbbe | næfde |
+| 2 sg. | næfst | næfdest |
+| 3 sg. | næfð | næfde |
+| 1–3 pl. | nabbað | næfdon |
 
 Present: **næbbe**, “I do not have (it)”; **nabbað**, “they do not have (it)”. Preterite: **næfde**, “I did not have (it)”; **næfdon**, “they did not have (it)”. The understood object depends on the context; these forms deny possession.
 
@@ -100,14 +96,12 @@ Keep present **næfst/næfð** distinct from past **næfdest/næfde**. A separat
 
 **willan**
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | nelle | nolde |
-| 2 singular | nelt | noldest |
-| 3 singular | nele | nolde |
-| 1 plural | nellað | noldon |
-| 2 plural | nellað | noldon |
-| 3 plural | nellað | noldon |
+| 1 sg. | nelle | nolde |
+| 2 sg. | nelt | noldest |
+| 3 sg. | nele | nolde |
+| 1–3 pl. | nellað | noldon |
 
 With going as the complement: **nelle**, “I am unwilling/refuse to go”; **nelt**, “you singular are unwilling/refuse to go”; **nolde**, “I was unwilling/refused to go”; **noldest**, “you singular were unwilling/refused to go”. The forms express unwillingness here, rather than merely predicting that no going will occur.
 
@@ -145,12 +139,19 @@ Cook also records the y-series and variation in single/double l. Those are genui
 
 **nān**
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | nān | nān | nān | nāne | nāna | nān |
-| Genitive | nānes | nānre | nānes | nānra | nānra | nānra |
-| Dative | nānum | nānre | nānum | nānum | nānum | nānum |
-| Accusative | nānne | nāne | nān | nāne | nāna | nān |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | nān | nān | nān |
+| Genitive | nānes | nānes | nānre |
+| Dative | nānum | nānum | nānre |
+| Accusative | nānne | nān | nāne |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | nāne | nān | nāna |
+| Genitive | nānra | nānra | nānra |
+| Dative | nānum | nānum | nānum |
+| Accusative | nāne | nān | nāna |
 
 **Nānum** is D singular masculine or neuter, or D plural of any gender. The noun and clause determine which position is intended. A repeated ending is not a unique gender/number label.
 
@@ -172,7 +173,7 @@ The target is the complete strong N/G/D/A system. In clauses, the negative noun 
 
 **gehwā / gehwæt**
 
-| Case | neuter singular | common singular |
+| Case | Neuter singular | Common singular |
 | --- | --- | --- |
 | Nominative | gehwæt | gehwā |
 | Genitive | gehwæs | gehwæs |

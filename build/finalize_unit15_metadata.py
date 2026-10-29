@@ -32,7 +32,7 @@ if a.stage == 'presentation':
     layout = read('typesetting/ch15/layout-adjustments.json')
     layout['status'] = 'accepted_after_non_author_reinspection'
     layout['final_page_totals'] = pages['page_totals']
-    layout['final_documents'] = [{k:d[k] for k in ['kind','path','sha256','pages']} for d in pages['documents']]
+    layout['final_documents'] = [{k: d[k] for k in ['kind', 'path', 'sha256', 'pages']} for d in pages['documents']]
     layout['final_review_record'] = 'typesetting/ch15/page-review.json'
     layout['final_review_record_sha256'] = sha('typesetting/ch15/page-review.json')
     layout['final_content_parity'] = 'typesetting/ch15/content-parity.json'
@@ -49,23 +49,15 @@ else:
         assert sha(record['path']) == record['sha256']
     c['status'] = 'reviewed_complete'
     c['review_status'] = 'accepted_text_and_exports'
-    c['completion'] = {
-        'complete':True,'registers_integrated':True,'pdfs_inspected':True,'date':'2026-10-27',
-        'register_integration':'chapters/ch15/register-integration.json',
-        'presentation_review':'typesetting/ch15/page-review.json',
-        'learner_pdf':'typesetting/ch15/chapter-15.pdf','key_pdf':'typesetting/ch15/answer-key.pdf',
-        'all_assigned_tasks_reviewed':105,'all_cook_items_retained':50,
-        'next_unit_policy':'Unit16 remains undrafted; begin only when requested.',
-        'checkpoint_note':'Completion files and Beads export are saved locally; final handoff records the resulting revision.'
-    }
+    c['completion'] = {'complete': True, 'registers_integrated': True, 'pdfs_inspected': True, 'date': '2026-10-27', 'register_integration': 'chapters/ch15/register-integration.json', 'presentation_review': 'typesetting/ch15/page-review.json', 'learner_pdf': 'typesetting/ch15/chapter-15.pdf', 'key_pdf': 'typesetting/ch15/answer-key.pdf', 'all_assigned_tasks_reviewed': 105, 'all_cook_items_retained': 50, 'next_unit_policy': 'Unit16 remains undrafted; begin only when requested.', 'checkpoint_note': 'Completion files and Beads export are saved locally; final handoff records the resulting revision.'}
     if a.exports_checkpoint:
         c['completion']['complete_exports_registers_checkpoint'] = a.exports_checkpoint
     co = read('chapters/ch15/coordinator-review.json')
     co['status'] = 'accepted_complete'
-    co['presentation_acceptance'] = {'record':'typesetting/ch15/page-review.json','sha256':sha('typesetting/ch15/page-review.json'),'page_totals':pages['page_totals']}
-    co['register_integration'] = {'record':'chapters/ch15/register-integration.json','sha256':sha('chapters/ch15/register-integration.json'),'metrics':reg['metrics'],'earlier_active_artifacts_preserved':reg['prior_active_files_preserved'],'archive_files_preserved':reg['archived_files_preserved']}
+    co['presentation_acceptance'] = {'record': 'typesetting/ch15/page-review.json', 'sha256': sha('typesetting/ch15/page-review.json'), 'page_totals': pages['page_totals']}
+    co['register_integration'] = {'record': 'chapters/ch15/register-integration.json', 'sha256': sha('chapters/ch15/register-integration.json'), 'metrics': reg['metrics'], 'earlier_active_artifacts_preserved': reg['prior_active_files_preserved']}
     co['remaining_gates'] = []
-    co['scope_limit'] = 'Unit15 complete; no Unit16 drafting. Authors do not claim fresh blind independence. Original witnesses, sealed audits, earlier chapters and archive are preserved.'
-    write('chapters/ch15/coordinator-review.json',co)
+    co['scope_limit'] = 'Unit15 complete; no Unit16 drafting. Authors do not claim fresh blind independence. Original witnesses, sealed audits and earlier chapters are preserved.'
+    write('chapters/ch15/coordinator-review.json', co)
 write('chapters/ch15/coverage.json',c)
 print('Recorded actual Unit15 '+a.stage+' acceptance without changing substantive teaching.')

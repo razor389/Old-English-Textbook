@@ -2,7 +2,7 @@
 
 The proposed contract has **56 named subjunctive systems**, each with all twelve present/preterite person-number cells. Four printed cells per lemma suffice only because each singular/plural heading explicitly includes all three persons. **Wesan** adds a second complete present series, **bēo/bēon**, beside **sīe/sīen**; both share **wǣre/wǣren**. There are also five new complete indicative systems, five complete strong/weak participial agreement models, and complete nominal systems for **eall, ǣlc, geweald**. These are proposals for the coordinator's contract, not new milestones by themselves.
 
-The audit uses the actual six earlier active contracts and cumulative registers at `47b92a4`, with root's immutable baseline and compact reading views. Earlier indicative teaching does not establish subjunctive or participial teaching. Earlier supplied and recognition-only limits remain in force, including **nabban, bregdan, fēolan**, rare citation infinitives, reference-only variants, and supplied source constructions. No archive, prior contract or shared register was changed. No Beads command was run by this worker.
+The audit uses the actual six earlier active contracts and cumulative registers at `47b92a4`, with root's immutable baseline and compact reading views. Earlier indicative teaching does not establish subjunctive or participial teaching. Earlier supplied and recognition-only limits remain in force, including **nabban, bregdan, fēolan**, rare citation infinitives, reference-only variants, and supplied source constructions. No prior contract or shared register was changed. No Beads command was run by this worker.
 
 ## Deliverables
 

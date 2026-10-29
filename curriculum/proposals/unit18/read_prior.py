@@ -24,6 +24,6 @@ receipt.append(ident)
 grammar, ident = load('curriculum/grammar.json')
 receipt.append(ident)
 summaries = [{k: c[k] for k in ('chapter_id', 'productive_outcomes', 'recognition_outcomes', 'bounded_scope') if k in c} for c in contracts]
-record = {'purpose': 'All seventeen active contracts and both actual cumulative registers loaded in full before curriculum analysis. No archived learning milestone imported.', 'files': receipt, 'counts': {'lemmas': len(lexicon['lemmas']), 'forms': sum(len(x.get('forms', [])) for x in lexicon['lemmas']), 'senses': sum(len(x.get('senses', [])) for x in lexicon['lemmas']), 'features': len(grammar['features'])}, 'contract_scope': summaries}
+record = {'purpose': 'All seventeen active contracts and both actual cumulative registers loaded in full before curriculum analysis.', 'files': receipt, 'counts': {'lemmas': len(lexicon['lemmas']), 'forms': sum(len(x.get('forms', [])) for x in lexicon['lemmas']), 'senses': sum(len(x.get('senses', [])) for x in lexicon['lemmas']), 'features': len(grammar['features'])}, 'contract_scope': summaries}
 (OUT / 'prior-audit.json').write_text(json.dumps(record, ensure_ascii=False, indent=2)+'\n', encoding='utf-8')
 print(json.dumps({'loaded': len(receipt), 'counts': record['counts'], 'scope': summaries}, ensure_ascii=False, indent=2))

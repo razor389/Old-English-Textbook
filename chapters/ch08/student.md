@@ -2,7 +2,7 @@
 
 This unit gives direct questions, the remaining selected pronoun and pronominal-adjective paradigms, and ordinary relative clauses. The additional verb systems and lexical constructions prepare the complete Cook I.8 exercise and two connected readings.
 
-Tables distinguish singular and plural, masculine, neuter and feminine, and nominative, genitive, dative and accusative. In verb tables, **1**, **2** and **3** mean first, second and third person. A row labelled “persons 1, 2, 3” includes every person in that number. Dual subjects take plural finite forms. Forms labelled **reference** are for recognition; their display does not require independent use of a new construction. Preserve vowel length and the distinction between e and ę.
+Tables distinguish singular and plural, masculine, neuter and feminine, and nominative, genitive, dative and accusative. In verb tables, **1**, **2** and **3** mean first, second and third person. A row labelled **1–3 sg.** or **1–3 pl.** includes every person in that number. Dual subjects take plural finite forms. Forms labelled **reference** are for recognition; their display does not require independent use of a new construction. Preserve vowel length and the distinction between e and ę.
 
 The examples and “The ship and the fish” are new teaching material. The merchant dialogue is an exact source excerpt with separate local help and original notes.
 
@@ -674,21 +674,19 @@ Keep the lexical stem ætēow-. The present indicative has first-singular -ie, s
 
 | Person and number | Present indicative | Preterite indicative |
 | --- | --- | --- |
-| 1 singular | ætēowie | ætēowode |
-| 2 singular | ætēowast | ætēowodest |
-| 3 singular | ætēowað | ætēowode |
-| 1 plural | ætēowiað | ætēowodon |
-| 2 plural | ætēowiað | ætēowodon |
-| 3 plural | ætēowiað | ætēowodon |
+| 1 sg. | ætēowie | ætēowode |
+| 2 sg. | ætēowast | ætēowodest |
+| 3 sg. | ætēowað | ætēowode |
+| 1–3 pl. | ætēowiað | ætēowodon |
 
 #### ætēowian: complete subjunctive
 
 <!-- table: NEW-U08-PAR-AETEOWIAN-FINITE-SUBJUNCTIVE -->
 
-| Number (all three persons) | Present subjunctive | Preterite subjunctive |
+| Person and number | Present subjunctive | Preterite subjunctive |
 | --- | --- | --- |
-| Singular: persons 1, 2, 3 | ætēowie | ætēowode |
-| Plural: persons 1, 2, 3 | ætēowien | ætēowoden |
+| 1–3 sg. | ætēowie | ætēowode |
+| 1–3 pl. | ætēowien | ætēowoden |
 
 The present subjunctive can express “let … appear” in the wish or direction already learned. No separate lǣtan is needed for that meaning. Cook’s actual form in the Creation text is **ætēowie**, without g. The documented weak-II i/ig(e)/g variation does not replace the selected i spellings in these tables.
 
@@ -717,10 +715,10 @@ The indicative of strong-I **scīnan “shine”** is familiar. Its complete sub
 
 <!-- table: NEW-U08-PAR-SCINAN-SUBJ -->
 
-| Number (all three persons) | Present subjunctive | Preterite subjunctive |
+| Person and number | Present subjunctive | Preterite subjunctive |
 | --- | --- | --- |
-| Singular: persons 1, 2, 3 | scīne | scine |
-| Plural: persons 1, 2, 3 | scīnen | scinen |
+| 1–3 sg. | scīne | scine |
+| 1–3 pl. | scīnen | scinen |
 
 Each singular or plural row covers all three persons, in both tenses. The subject and the clause determine the person; the subjunctive ending itself distinguishes the two numbers.
 
@@ -738,10 +736,10 @@ Weak-II **geblētsian “bless”** has singular imperative -a and plural -iað.
 
 <!-- table: NEW-U08-PAR-GEBLETSIAN-IMP -->
 
-| Second-person addressee | Imperative |
+| Person and number | Imperative |
 | --- | --- |
-| One person | geblētsa |
-| Two or more people | geblētsiað |
+| 2 sg. | geblētsa |
+| 2 pl. | geblētsiað |
 
 ### Līf and the cognate accusative
 

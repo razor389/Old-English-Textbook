@@ -136,6 +136,5 @@ rules=[{'rule_id':i,'title':title,'rule':rule,'evidence_refs':ev,'origin_categor
 rules += [{'rule_id':'U12-R-'+x['feature_id'][4:].upper(),'feature_id':x['feature_id'],'rule':x['description'],
            'scope_and_limits':x.get('scope_note',''),'knowledge_status':x['knowledge_status'],
            'evidence_refs':x['evidence_refs'],'origin_category':'new_teaching_material'} for x in records['features']]
-write('rules.json',{'schema_version':1,'chapter':'ch12','status':'audited_scope_proposal_pending_contract','rules':rules,
-      'principle':'Complete morphology and productive syntax are distinct assignments. Prior learning is established by the actual baseline records, not by headword familiarity or archived course milestones.'})
+write('rules.json', {'schema_version': 1, 'chapter': 'ch12', 'status': 'audited_scope_proposal_pending_contract', 'rules': rules, 'principle': 'Complete morphology and productive syntax are distinct assignments. Prior learning is established by the actual baseline records, not by headword familiarity.'})
 print({'evidence_records':len(E),'rules':len(rules),'missing_refs':missing})

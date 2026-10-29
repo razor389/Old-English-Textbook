@@ -18,7 +18,7 @@ for n in range(1,17):
     scopes.append({k:v for k,v in c.items() if k in ['chapter_id','title','productive_outcomes','recognition_outcomes','bounded_scope','grammar_audit_boundaries','audited_inflection_rules']})
 receipt={'baseline':'defa800','complete_contracts_parsed':contracts,'registers':[lr,gr],
  'counts':{'lemmas':len(lex['lemmas']),'forms':sum(len(x['forms']) for x in lex['lemmas']),'senses':sum(len(x['senses']) for x in lex['lemmas']),'features':len(gram['features'])},
- 'boundary':'Only actual production/recognition milestones confer teaching. Supplied history and archived evidence do not.',
+ 'boundary':'Only actual production/recognition milestones confer teaching. Supplied history do not.',
  'reader':'unit17_grammar'}
 (OUT/'baseline-receipt.json').write_text(json.dumps(receipt,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')
 (ROOT/'build/u17-grammar-prior-scopes.json').write_text(json.dumps(scopes,ensure_ascii=False,indent=2)+'\n',encoding='utf-8')

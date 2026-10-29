@@ -1,10 +1,38 @@
 # Unit 2 complete exports
 
-The [learner chapter](chapter-02.pdf) has 19 pages; the separate [answer key](answer-key.pdf) has 14. Their complete, hand-reviewed TeX sources are [chapter-02.tex](chapter-02.tex) and [answer-key.tex](answer-key.tex). The editorial masters are [student.md](../../chapters/ch02/student.md) and [answer-key.md](../../chapters/ch02/answer-key.md). The accepted text was not changed during typesetting.
+The accepted table-layout revision has a complete [learner PDF](chapter-02.pdf) of **20 pages** and a separate [answer-key PDF](answer-key.pdf) of **14 pages**. The changed pages and heading repairs passed independent visual review.
+
+Current [export identities and page counts](../../docs/revisions/table-layout/exports.json), [page acceptance](../../docs/revisions/table-layout/page-review.json), and the [validated build report](../../docs/revisions/table-layout/build-report.json) document this presentation revision. The [complete-content checks](../../docs/revisions/table-layout/export-text-review.json) and [logical-table review](../../docs/revisions/table-layout/table-review.json) preserve the teaching and source scope.
+
+Editable masters are [student.md](../../chapters/ch02/student.md) and [answer-key.md](../../chapters/ch02/answer-key.md); complete TeX sources are [chapter-02.tex](chapter-02.tex) and [answer-key.tex](answer-key.tex). The [course presentation revision](../../docs/revisions/table-layout/) records the mapping and checks separately from the original unit review.
+
+Tables follow the shared [layout](../book-layout.tex): 10.5-point type with 13.2-point leading, bold headings, horizontal rules and consistent case/person labels. Identical verbal plural cells share `1–3 pl.`; distinct forms remain separate. Counts of grammatical forms and cells describe the complete logical paradigm, which is unchanged by fewer printed rows. Nominal cases, variants, supported uses and teaching milestones retain their stated scope.
+
+## Reproduction
+
+Run from the repository root with the configured TeX Live, Cambria, Xpdf and Ghostscript installation:
+
+```powershell
+python -X utf8 scripts/check_course_layout.py --report build/course-layout-check.json
+python -X utf8 scripts/build_course_exports.py --stage all --select ch02/learner,ch02/key --include-unchanged --jobs 2 --render-suffix reproduction-01
+python -X utf8 scripts/check_course_exports.py --chapter 2 --report build/course-export-ch02-check.json
+```
+
+The shared build command compiles each complete document twice, checks table parity and build diagnostics, extracts its text and renders all pages. Choose a fresh `--render-suffix` for a later changed build. Use `--stage inspect` to inspect existing build products without compiling, or `--stage render` to regenerate page images from them. `--select` accepts comma-separated document IDs such as `ch01/learner,ch03/key`.
+
+The layout check compares expanded logical cells, actual Markdown/TeX tables, protected distinctions and frozen teaching content. The export check independently compares complete master prose, actual TeX cells and captions, and the built PDF text. The `--chapter` restriction above is a unit diagnostic; complete-course acceptance uses the unrestricted command in the [shared reproduction instructions](../README.md#reproduction). A later changed build needs fresh visual review bound to its PDF and page-image identities before it replaces an accepted PDF. Do not rerun historical assemblers, register mergers or baseline captures to rebuild exports.
+
+Reproduction outputs and reports remain under `build/`; the build helper does not replace retained PDFs or rewrite the durable acceptance records linked above.
+
+## Original unit acceptance and content scope
+
+The following records the unit's original linguistic acceptance and export evidence. Its page counts, physical table counts, PDF hashes and inspection claims describe that earlier checkpoint, not acceptance of the current presentation revision. The substantive teaching, task and logical-cell counts remain applicable.
+
+At the original export checkpoint: the learner chapter has 19 pages; the separate answer key has 14. Their complete, hand-reviewed TeX sources are [chapter-02.tex](chapter-02.tex) and [answer-key.tex](answer-key.tex). The editorial masters are [student.md](../../chapters/ch02/student.md) and [answer-key.md](../../chapters/ch02/answer-key.md). The accepted text was not changed during typesetting.
 
 The inherited [Cambria layout](../book-layout.tex) is unchanged: 165 × 241 mm trim, 11-point body text, 14.3-point leading. The seven wide finite-verb tables are displayed as paired present and preterite panels at 10.5 points with 13.2-point leading. Each pair retains the original complete row, with the verb label repeated. All exercise prompts and each key answer with its table and explanations are kept together. Vocabulary and principal-part tables repeat their headers when continued. The connected narrative and complete source reading retain the larger reading style. All 17 learner source notes and the key’s source note and concluding bibliography paragraph are present.
 
-## Verified identities
+### Original verified identities
 
 | File | SHA-256 |
 | --- | --- |
@@ -17,7 +45,7 @@ The tracked PDFs are byte-identical copies of the inspected files in `build/`. C
 
 In `content-parity.json`, `tex_sha256` identifies the compiled working-file bytes, which have CRLF line endings. `.gitattributes` normalizes TeX to LF in Git; the companion `tex_sha256_normalized_lf` identifies the same content with CRLF converted to LF, as found in an LF checkout. Both identities are retained. Adding this metadata did not change the TeX or PDF bytes or require recompilation.
 
-## Content and page checks
+### Original content and page checks
 
 [content-parity.json](content-parity.json) records the full comparison with the accepted Markdown. An independent inventory of the masters was compared with decoded bodies of the actual TeX, without using the assembly helper’s generated content maps:
 
@@ -30,27 +58,3 @@ All 33 pages were freshly rendered at 150 dpi as `build/initial-chapter-02-p01.p
 Final LuaLaTeX logs contain no missing-character, font-substitution, overfull, underfull or rerun warnings. The repository’s concrete export check, `python -X utf8 scripts/check_unit02.py --draft --tex`, passes on these final files. The full content audit additionally covers all prose, vocabulary fields and key explanations, beyond that checker’s required IDs and exact task/reading strings.
 
 Xpdf 4.00 introduces artificial spaces around some macron letters and represents printed literal hyphens as U+00AD in UTF-8 extraction. The checks ignore extraction whitespace and map U+00AD back to `-`; they do not remove hyphens or normalize Old English spelling. Every source-reading and composed-reading word boundary was also checked visually. Ghostscript reports missing optional `FAPIfontmap` and `FAPIcidfmap` files; the embedded Cambria fonts rendered correctly on every page. The installed `rungs` wrapper is broken, so the direct Ghostscript executable is used below.
-
-## Reproduction
-
-Run the following PowerShell commands from `typesetting/ch02/`. The chosen fonts and TeX Live installation must be available; do not silently substitute fonts or spelling. `build/` is ignored. The one-use assembly and parity helpers in that directory are development artifacts, not a publishing pipeline; the complete tracked TeX is the reproducible source.
-
-```powershell
-New-Item -ItemType Directory -Force -Path build
-& 'C:/Users/Ross/AppData/Local/texlive/2026/bin/windows/lualatex.exe' '-interaction=nonstopmode' '-halt-on-error' '-output-directory=build' 'chapter-02.tex'
-& 'C:/Users/Ross/AppData/Local/texlive/2026/bin/windows/lualatex.exe' '-interaction=nonstopmode' '-halt-on-error' '-output-directory=build' 'chapter-02.tex'
-& 'C:/Users/Ross/AppData/Local/texlive/2026/bin/windows/lualatex.exe' '-interaction=nonstopmode' '-halt-on-error' '-output-directory=build' 'answer-key.tex'
-& 'C:/Users/Ross/AppData/Local/texlive/2026/bin/windows/lualatex.exe' '-interaction=nonstopmode' '-halt-on-error' '-output-directory=build' 'answer-key.tex'
-& 'C:/Program Files/Git/mingw64/bin/pdftotext.exe' '-enc' 'UTF-8' '-layout' 'build/chapter-02.pdf' 'build/chapter-02.txt'
-& 'C:/Program Files/Git/mingw64/bin/pdftotext.exe' '-enc' 'UTF-8' '-layout' 'build/answer-key.pdf' 'build/answer-key.txt'
-& 'C:/Users/Ross/AppData/Local/texlive/2026/tlpkg/tlgs/bin/gswin64c.exe' '-IC:/Users/Ross/AppData/Local/texlive/2026/tlpkg/tlgs/Resource/Init' '-IC:/Users/Ross/AppData/Local/texlive/2026/tlpkg/tlgs/lib' '-IC:/Users/Ross/AppData/Local/texlive/2026/tlpkg/tlgs/kanji' '-sDEVICE=png16m' '-r150' '-dTextAlphaBits=4' '-dGraphicsAlphaBits=4' '-dBATCH' '-dNOPAUSE' '-sOutputFile=build/rebuilt-chapter-02-p%02d.png' 'build/chapter-02.pdf'
-& 'C:/Users/Ross/AppData/Local/texlive/2026/tlpkg/tlgs/bin/gswin64c.exe' '-IC:/Users/Ross/AppData/Local/texlive/2026/tlpkg/tlgs/Resource/Init' '-IC:/Users/Ross/AppData/Local/texlive/2026/tlpkg/tlgs/lib' '-IC:/Users/Ross/AppData/Local/texlive/2026/tlpkg/tlgs/kanji' '-sDEVICE=png16m' '-r150' '-dTextAlphaBits=4' '-dGraphicsAlphaBits=4' '-dBATCH' '-dNOPAUSE' '-sOutputFile=build/rebuilt-answer-key-p%02d.png' 'build/answer-key.pdf'
-```
-
-Review every newly rendered page and the complete logs before replacing the tracked PDFs. From the repository root, copy the approved products and run the export check:
-
-```powershell
-Copy-Item -LiteralPath 'typesetting/ch02/build/chapter-02.pdf' -Destination 'typesetting/ch02/chapter-02.pdf'
-Copy-Item -LiteralPath 'typesetting/ch02/build/answer-key.pdf' -Destination 'typesetting/ch02/answer-key.pdf'
-python -X utf8 scripts/check_unit02.py --draft --tex
-```

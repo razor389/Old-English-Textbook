@@ -53,6 +53,6 @@ Cook p. 165 n. 7 quotes a Latin verse about opposing winds; it does not resolve 
 
 ## Assignment and reconciliation
 
-No numbered Cook exercise is assigned to Unit 4. Exercise I.4.18 and the birds passage (`ch02-text-01`, editorial alias `ch02-reader-birds`) remain deferred to Unit 7. The fourth-day lights passage is already assigned in Unit 3; it is not reassigned here.
+No numbered Cook exercise is assigned to Unit 4. Exercise I.4.18 and the birds passage (`FB-I-CREATION-BIRDS-CLAUSE`, editorial alias `FB-I-CREATION-BIRDS-EXCERPT`) remain deferred to Unit 7. The fourth-day lights passage is already assigned in Unit 3; it is not reassigned here.
 
-The audit read all three actual earlier contracts and the cumulative lexical and grammar registers. Earlier supplied forms were not counted as learned. The final contract must adopt the four noun systems, reconcile the full prefixed verb paradigms with the grammar audit, and include the exact local supports. These are integration conditions, not unresolved source readings. No shared file, register, tracker or archive was modified.
+The audit read all three actual earlier contracts and the cumulative lexical and grammar registers. Earlier supplied forms were not counted as learned. The final contract must adopt the four noun systems, reconcile the full prefixed verb paradigms with the grammar audit, and include the exact local supports. These are integration conditions, not unresolved source readings. No shared file, register or tracker was modified.

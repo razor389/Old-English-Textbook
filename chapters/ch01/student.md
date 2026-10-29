@@ -24,11 +24,11 @@ Singular and plural forms may coincide, and one spelling may serve several cases
 The definite article means **the**. It agrees with its own noun in gender, number, and case. The plural forms are common to all three genders.[3]
 
 | Case | Masculine singular | Neuter singular | Feminine singular | All genders plural |
-|---|---|---|---|---|
-| N | se | ðæt | sēo | ðā |
-| G | ðæs | ðæs | ðǣre | ðāra |
-| D | ðǣm | ðǣm | ðǣre | ðǣm |
-| A | ðone | ðæt | ðā | ðā |
+| --- | --- | --- | --- | --- |
+| Nominative | se | ðæt | sēo | ðā |
+| Genitive | ðæs | ðæs | ðǣre | ðāra |
+| Dative | ðǣm | ðǣm | ðǣre | ðǣm |
+| Accusative | ðone | ðæt | ðā | ðā |
 | Instrumental: reference | ðȳ, ðon | ðȳ, ðon | as dative | as dative |
 
 Recognize **ðȳ** and **ðon** as instrumental singular forms; their uses are not required in composition here. Nouns have no separate instrumental forms in these paradigms. The source also permits **ðām** for **ðǣm** and **ðǣra** for **ðāra**; the tables and exercises select **ðǣm** and **ðāra**.
@@ -39,16 +39,12 @@ Recognize **ðȳ** and **ðon** as instrumental singular forms; their uses are n
 
 **Fisc** illustrates the common consonant pattern. In **męte**, the nominative **-e** is replaced by **-es, -as, -a, -um** where those endings occur; it is not part of a stem to which another full ending is added.[4]
 
-| Case and number | fisc | męte |
-|---|---|---|
-| N singular | fisc | męte |
-| G singular | fisces | mętes |
-| D singular | fisce | męte |
-| A singular | fisc | męte |
-| N plural | fiscas | mętas |
-| G plural | fisca | męta |
-| D plural | fiscum | mętum |
-| A plural | fiscas | mętas |
+| Case | fisc singular | fisc plural | męte singular | męte plural |
+| --- | --- | --- | --- | --- |
+| Nominative | fisc | fiscas | męte | mętas |
+| Genitive | fisces | fisca | mętes | męta |
+| Dative | fisce | fiscum | męte | mętum |
+| Accusative | fisc | fiscas | męte | mętas |
 
 The plural of **męte** is displayed for recognition of the pattern; this unit uses its singular “food.” **Heofon, gāst, wæstm** follow **fisc**. Keep both syllables of **heofon** before endings. The divine name **God** has the singular **God, Godes, Gode, God**; no plural of this proper-name sense is required.
 
@@ -56,31 +52,23 @@ The plural of **męte** is displayed for recognition of the pattern; this unit u
 
 In **dæg** and **hwæl**, singular **æ** alternates with plural **a**. The change does not apply to **wæstm**, whose **æ** stands before a consonant group.
 
-| Case and number | dæg | hwæl |
-|---|---|---|
-| N singular | dæg | hwæl |
-| G singular | dæges | hwæles |
-| D singular | dæge | hwæle |
-| A singular | dæg | hwæl |
-| N plural | dagas | hwalas |
-| G plural | daga | hwala |
-| D plural | dagum | hwalum |
-| A plural | dagas | hwalas |
+| Case | dæg singular | dæg plural | hwæl singular | hwæl plural |
+| --- | --- | --- | --- | --- |
+| Nominative | dæg | dagas | hwæl | hwalas |
+| Genitive | dæges | daga | hwæles | hwala |
+| Dative | dæge | dagum | hwæle | hwalum |
+| Accusative | dæg | dagas | hwæl | hwalas |
 
 <!-- teaching: CH01-PAR-MASC-SYNCOPE -->
 
 **Fugol** and **morgen** lose their unstressed middle vowel before endings in the selected forms. This loss, called *syncope*, is lexical: use the diagnostic forms given for each noun rather than deleting vowels from every word of two syllables. Forms retaining the vowel also occur.[4]
 
-| Case and number | fugol | morgen |
-|---|---|---|
-| N singular | fugol | morgen |
-| G singular | fugles | morgnes |
-| D singular | fugle | morgne |
-| A singular | fugol | morgen |
-| N plural | fuglas | morgnas |
-| G plural | fugla | morgna |
-| D plural | fuglum | morgnum |
-| A plural | fuglas | morgnas |
+| Case | fugol singular | fugol plural | morgen singular | morgen plural |
+| --- | --- | --- | --- | --- |
+| Nominative | fugol | fuglas | morgen | morgnas |
+| Genitive | fugles | fugla | morgnes | morgna |
+| Dative | fugle | fuglum | morgne | morgnum |
+| Accusative | fugol | fuglas | morgen | morgnas |
 
 ## 4. Strong neuter nouns
 
@@ -88,16 +76,12 @@ In **dæg** and **hwæl**, singular **æ** alternates with plural **a**. The cha
 
 Neuter nominative and accusative are identical in each number. The genitive and dative endings match those of **fisc**. In the ordinary monosyllabic pattern, the nominative/accusative plural has **-u** after a short stem, but no ending after a heavy stem. A short vowel followed by one consonant gives the short pattern here; a long vowel or long diphthong, or a short vowel followed by two consonants, gives the heavy pattern. A doubled consonant counts as two. Thus **hof** has **hofu**, whereas **sǣd, gærs, cynn** have no added N/A plural ending. Vowel length and syllable weight are not the same thing.[5]
 
-| Case and number | hof | sǣd |
-|---|---|---|
-| N singular | hof | sǣd |
-| G singular | hofes | sǣdes |
-| D singular | hofe | sǣde |
-| A singular | hof | sǣd |
-| N plural | hofu | sǣd |
-| G plural | hofa | sǣda |
-| D plural | hofum | sǣdum |
-| A plural | hofu | sǣd |
+| Case | hof singular | hof plural | sǣd singular | sǣd plural |
+| --- | --- | --- | --- | --- |
+| Nominative | hof | hofu | sǣd | sǣd |
+| Genitive | hofes | hofa | sǣdes | sǣda |
+| Dative | hofe | hofum | sǣde | sǣdum |
+| Accusative | hof | hofu | sǣd | sǣd |
 
 The heavy pattern also covers **lēoht, līf, gēar, dēor, anginn, lyft, weorc**. In **anginn**, apply the rule to the stressed stem **-ginn**, with **nn**. Plural forms of mass or abstract nouns do not automatically have the same sense as the singular; the vocabulary below marks those whose plurals are only for recognizing the morphology.
 
@@ -105,31 +89,32 @@ The heavy pattern also covers **lēoht, līf, gēar, dēor, anginn, lyft, weorc*
 
 **Trēo** has **w** before every ending and the exceptional N/A plural **trēowu**, despite its long vowel. Bare singular **trēow** also occurs.
 
-| Case and number | trēo |
-|---|---|
-| N singular | trēo |
-| G singular | trēowes |
-| D singular | trēowe |
-| A singular | trēo |
-| N plural | trēowu |
-| G plural | trēowa |
-| D plural | trēowum |
-| A plural | trēowu |
+**trēo**
+
+| Case | Singular | Plural |
+| --- | --- | --- |
+| Nominative | trēo | trēowu |
+| Genitive | trēowes | trēowa |
+| Dative | trēowe | trēowum |
+| Accusative | trēo | trēowu |
 
 <!-- teaching: CH01-PAR-NEUT-DISYLLABLE -->
 
 Do not apply the monosyllabic **-u/zero** rule mechanically to nouns of two syllables. Learn the following complete patterns. **Tācen** loses **e** before endings; **ǣfen, wæter, nīeten** retain it in the selected forms. The shorter **wætru** and related forms also occur.[5]
 
-| Case and number | ǣfen | tācen | wæter | nīeten |
-|---|---|---|---|---|
-| N singular | ǣfen | tācen | wæter | nīeten |
-| G singular | ǣfenes | tācnes | wæteres | nīetenes |
-| D singular | ǣfene | tācne | wætere | nīetene |
-| A singular | ǣfen | tācen | wæter | nīeten |
-| N plural | ǣfenu | tācnu | wæteru | nīetenu |
-| G plural | ǣfena | tācna | wætera | nīetena |
-| D plural | ǣfenum | tācnum | wæterum | nīetenum |
-| A plural | ǣfenu | tācnu | wæteru | nīetenu |
+| Case | ǣfen singular | ǣfen plural | tācen singular | tācen plural |
+| --- | --- | --- | --- | --- |
+| Nominative | ǣfen | ǣfenu | tācen | tācnu |
+| Genitive | ǣfenes | ǣfena | tācnes | tācna |
+| Dative | ǣfene | ǣfenum | tācne | tācnum |
+| Accusative | ǣfen | ǣfenu | tācen | tācnu |
+
+| Case | wæter singular | wæter plural | nīeten singular | nīeten plural |
+| --- | --- | --- | --- | --- |
+| Nominative | wæter | wæteru | nīeten | nīetenu |
+| Genitive | wæteres | wætera | nīetenes | nīetena |
+| Dative | wætere | wæterum | nīetene | nīetenum |
+| Accusative | wæter | wæteru | nīeten | nīetenu |
 
 ## 5. Strong feminine nouns
 
@@ -137,31 +122,32 @@ Do not apply the monosyllabic **-u/zero** rule mechanically to nouns of two syll
 
 The strong feminines required here have no nominative singular ending. The ordinary genitive, dative, and accusative singular end in **-e**. **Wyrt** and **tīd**, however, have an endingless accusative singular in the selected pattern. The selected N/A plural is **-a**; **-e** is also found.[6]
 
-| Case and number | gesceaft | wyrt | tīd |
-|---|---|---|---|
-| N singular | gesceaft | wyrt | tīd |
-| G singular | gesceafte | wyrte | tīde |
-| D singular | gesceafte | wyrte | tīde |
-| A singular | gesceafte | wyrt | tīd |
-| N plural | gesceafta | wyrta | tīda |
-| G plural | gesceafta | wyrta | tīda |
-| D plural | gesceaftum | wyrtum | tīdum |
-| A plural | gesceafta | wyrta | tīda |
+| Case | gesceaft singular | gesceaft plural | wyrt singular | wyrt plural |
+| --- | --- | --- | --- | --- |
+| Nominative | gesceaft | gesceafta | wyrt | wyrta |
+| Genitive | gesceafte | gesceafta | wyrte | wyrta |
+| Dative | gesceafte | gesceaftum | wyrte | wyrtum |
+| Accusative | gesceafte | gesceafta | wyrt | wyrta |
+
+**tīd**
+
+| Case | Singular | Plural |
+| --- | --- | --- |
+| Nominative | tīd | tīda |
+| Genitive | tīde | tīda |
+| Dative | tīde | tīdum |
+| Accusative | tīd | tīda |
 
 <!-- teaching: CH01-PAR-FEM-NES CH01-PAR-FEM-UNG -->
 
 Nouns ending in **-nes** have **-ness-** before endings: retain the **e** and double the **s**. The same pattern governs **drȳgnes, gelīcnes, fæstnes, nēowolnes, brādnes**. Nouns in **-ung**, and the assigned **līehting**, take the endings shown for **gegaderung**; **frætwung** follows it. Cook also records singular oblique **-a** in this group, especially in the dative. The present tables select **-e**.[6]
 
-| Case and number | andlīcnes | gegaderung |
-|---|---|---|
-| N singular | andlīcnes | gegaderung |
-| G singular | andlīcnesse | gegaderunge |
-| D singular | andlīcnesse | gegaderunge |
-| A singular | andlīcnesse | gegaderunge |
-| N plural | andlīcnessa | gegaderunga |
-| G plural | andlīcnessa | gegaderunga |
-| D plural | andlīcnessum | gegaderungum |
-| A plural | andlīcnessa | gegaderunga |
+| Case | andlīcnes singular | andlīcnes plural | gegaderung singular | gegaderung plural |
+| --- | --- | --- | --- | --- |
+| Nominative | andlīcnes | andlīcnessa | gegaderung | gegaderunga |
+| Genitive | andlīcnesse | andlīcnessa | gegaderunge | gegaderunga |
+| Dative | andlīcnesse | andlīcnessum | gegaderunge | gegaderungum |
+| Accusative | andlīcnesse | andlīcnessa | gegaderunge | gegaderunga |
 
 ## 6. Weak nouns
 
@@ -169,16 +155,12 @@ Nouns ending in **-nes** have **-ness-** before endings: retain the **e** and do
 
 Weak masculine **steorra** and weak feminine **eorðe** differ in the nominative singular. Both have **-an** in the other singular cases and the N/A plural, **-ena** in the genitive plural, and **-um** in the dative plural. Replace nominative **-a/-e** with these endings.[7]
 
-| Case and number | steorra | eorðe |
-|---|---|---|
-| N singular | steorra | eorðe |
-| G singular | steorran | eorðan |
-| D singular | steorran | eorðan |
-| A singular | steorran | eorðan |
-| N plural | steorran | eorðan |
-| G plural | steorrena | eorðena |
-| D plural | steorrum | eorðum |
-| A plural | steorran | eorðan |
+| Case | steorra singular | steorra plural | eorðe singular | eorðe plural |
+| --- | --- | --- | --- | --- |
+| Nominative | steorra | steorran | eorðe | eorðan |
+| Genitive | steorran | steorrena | eorðan | eorðena |
+| Dative | steorran | steorrum | eorðan | eorðum |
+| Accusative | steorran | steorran | eorðan | eorðan |
 
 The plural of **eorðe** is displayed for recognizing its pattern; the exercises use singular “earth.” An **-an** form alone cannot identify either case or number.
 
@@ -188,42 +170,36 @@ The plural of **eorðe** is displayed for recognizing its pattern; the exercises
 
 **Mann** has **męnn** in the dative singular and N/A plural. In the selected **niht** paradigm, every singular case and the N/A plural are **niht**; the genitive and dative plurals are **nihta, nihtum**. Genitive/dative singular **nihte** is a valid alternative, but is not the form selected for recall here.[8]
 
-| Case and number | mann | niht |
-|---|---|---|
-| N singular | mann | niht |
-| G singular | mannes | niht |
-| D singular | męnn | niht |
-| A singular | mann | niht |
-| N plural | męnn | niht |
-| G plural | manna | nihta |
-| D plural | mannum | nihtum |
-| A plural | męnn | niht |
+| Case | mann singular | mann plural | niht singular | niht plural |
+| --- | --- | --- | --- | --- |
+| Nominative | mann | męnn | niht | niht |
+| Genitive | mannes | manna | niht | nihta |
+| Dative | męnn | mannum | niht | nihtum |
+| Accusative | mann | męnn | niht | niht |
 
 <!-- teaching: CH01-PAR-EXCEPTION-SAE CH01-REF-SAE -->
 
 **Sǣ** is masculine in the selected vocabulary. Its nominative plural is **sǣs**, not a form in **-as**. The starred genitive plural below is a reconstruction: consult it only as a reference, and do not use it in these exercises.[8]
 
-| Case and number | sǣ |
-|---|---|
-| N singular | sǣ |
-| G singular | sǣs |
-| D singular | sǣ |
-| A singular | sǣ |
-| N plural | sǣs |
-| G plural | \*sǣwa — reconstructed; not tested |
-| D plural | sǣum |
-| A plural | sǣs |
+**sǣ**
+
+| Case | Singular | Plural |
+| --- | --- | --- |
+| Nominative | sǣ | sǣs |
+| Genitive | sǣs | \*sǣwa — reconstructed; not tested |
+| Dative | sǣ | sǣum |
+| Accusative | sǣ | sǣs |
 
 <!-- teaching: CH01-PAR-EXCEPTION-THIESTRU -->
 
 **Ðīestru**, “darkness,” is plural in Old English. Its complete assigned paradigm is plural only.
 
 | Case | Plural |
-|---|---|
-| N | ðīestru |
-| G | ðīestra |
-| D | ðīestrum |
-| A | ðīestru |
+| --- | --- |
+| Nominative | ðīestru |
+| Genitive | ðīestra |
+| Dative | ðīestrum |
+| Accusative | ðīestru |
 
 ## 8. The indicative copula
 
@@ -232,15 +208,13 @@ The plural of **eorðe** is displayed for recognizing its pattern; the exercises
 These are the complete present **eom** and preterite **wæs** series of the indicative “be.” The preterite expresses a past state. Other present forms, negative forms, moods, and nonfinite constructions will be treated separately.[9]
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| 1 singular: I | eom | wæs |
-| 2 singular: you | eart | wǣre |
-| 3 singular: he, she, it | is | wæs |
-| 1 plural: we | sindon | wǣron |
-| 2 plural: you | sindon | wǣron |
-| 3 plural: they | sindon | wǣron |
+| --- | --- | --- |
+| 1 sg.: I | eom | wæs |
+| 2 sg.: you | eart | wǣre |
+| 3 sg.: he, she, it | is | wæs |
+| 1–3 pl.: we, you, they | sindon | wǣron |
 
-English pronouns label the persons; no Old English pronoun forms are required for this table. Cook also gives **sind, sint** beside **sindon**.
+English pronouns label the persons. **1–3 pl.** gives the shared form for “we,” plural “you,” and “they.” No Old English pronoun forms are required for this table. Cook also gives **sind, sint** beside **sindon**.
 
 ## 9. Basic constructions
 

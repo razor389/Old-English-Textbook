@@ -717,104 +717,171 @@ Swēte forms comparative swētra and superlative swētest. In the comparative G 
 
 <!-- table: NEW-U13-ADJ-HALIG-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hālig | hālig | hālig | hālge | hālga | hālig |
-| Genitive | hālges | hāligre | hālges | hāligra | hāligra | hāligra |
-| Dative | hālgum | hāligre | hālgum | hālgum | hālgum | hālgum |
-| Accusative | hāligne | hālge | hālig | hālge | hālga | hālig |
-| Instrumental | hālge | as dative | hālge | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hālig | hālig | hālig |
+| Genitive | hālges | hālges | hāligre |
+| Dative | hālgum | hālgum | hāligre |
+| Accusative | hāligne | hālig | hālge |
+| Instrumental | hālge | hālge | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hālge | hālig | hālga |
+| Genitive | hāligra | hāligra | hāligra |
+| Dative | hālgum | hālgum | hālgum |
+| Accusative | hālge | hālig | hālga |
+| Instrumental | as dative | as dative | as dative |
 
 #### Table 17. hālig: weak adjective
 
 <!-- table: NEW-U13-ADJ-HALIG-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hālga | hālge | hālge | hālgan | hālgan | hālgan |
-| Genitive | hālgan | hālgan | hālgan | hāligra | hāligra | hāligra |
-| Dative | hālgan | hālgan | hālgan | hālgum | hālgum | hālgum |
-| Accusative | hālgan | hālgan | hālge | hālgan | hālgan | hālgan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hālga | hālge | hālge |
+| Genitive | hālgan | hālgan | hālgan |
+| Dative | hālgan | hālgan | hālgan |
+| Accusative | hālgan | hālge | hālgan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hālgan | hālgan | hālgan |
+| Genitive | hāligra | hāligra | hāligra |
+| Dative | hālgum | hālgum | hālgum |
+| Accusative | hālgan | hālgan | hālgan |
 
 #### Table 18. swēte: strong adjective
 
 <!-- table: NEW-U13-ADJ-SWETE-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | swēte | swētu | swēte | swēte | swēta | swētu |
-| Genitive | swētes | swētre | swētes | swētra | swētra | swētra |
-| Dative | swētum | swētre | swētum | swētum | swētum | swētum |
-| Accusative | swētne | swēte | swēte | swēte | swēta | swētu |
-| Instrumental | swēte | as dative | swēte | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | swēte | swēte | swētu |
+| Genitive | swētes | swētes | swētre |
+| Dative | swētum | swētum | swētre |
+| Accusative | swētne | swēte | swēte |
+| Instrumental | swēte | swēte | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | swēte | swētu | swēta |
+| Genitive | swētra | swētra | swētra |
+| Dative | swētum | swētum | swētum |
+| Accusative | swēte | swētu | swēta |
+| Instrumental | as dative | as dative | as dative |
 
 #### Table 19. swēte: weak adjective
 
 <!-- table: NEW-U13-ADJ-SWETE-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | swēta | swēte | swēte | swētan | swētan | swētan |
-| Genitive | swētan | swētan | swētan | swētra | swētra | swētra |
-| Dative | swētan | swētan | swētan | swētum | swētum | swētum |
-| Accusative | swētan | swētan | swēte | swētan | swētan | swētan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | swēta | swēte | swēte |
+| Genitive | swētan | swētan | swētan |
+| Dative | swētan | swētan | swētan |
+| Accusative | swētan | swēte | swētan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | swētan | swētan | swētan |
+| Genitive | swētra | swētra | swētra |
+| Dative | swētum | swētum | swētum |
+| Accusative | swētan | swētan | swētan |
 
 #### Table 20. līchamlic: strong adjective
 
 <!-- table: NEW-U13-ADJ-LICHAMLIC-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | līchamlic | līchamlicu | līchamlic | līchamlice | līchamlica | līchamlicu |
-| Genitive | līchamlices | līchamlicre | līchamlices | līchamlicra | līchamlicra | līchamlicra |
-| Dative | līchamlicum | līchamlicre | līchamlicum | līchamlicum | līchamlicum | līchamlicum |
-| Accusative | līchamlicne | līchamlice | līchamlic | līchamlice | līchamlica | līchamlicu |
-| Instrumental | līchamlice | as dative | līchamlice | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | līchamlic | līchamlic | līchamlicu |
+| Genitive | līchamlices | līchamlices | līchamlicre |
+| Dative | līchamlicum | līchamlicum | līchamlicre |
+| Accusative | līchamlicne | līchamlic | līchamlice |
+| Instrumental | līchamlice | līchamlice | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | līchamlice | līchamlicu | līchamlica |
+| Genitive | līchamlicra | līchamlicra | līchamlicra |
+| Dative | līchamlicum | līchamlicum | līchamlicum |
+| Accusative | līchamlice | līchamlicu | līchamlica |
+| Instrumental | as dative | as dative | as dative |
 
 #### Table 21. līchamlic: weak adjective
 
 <!-- table: NEW-U13-ADJ-LICHAMLIC-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | līchamlica | līchamlice | līchamlice | līchamlican | līchamlican | līchamlican |
-| Genitive | līchamlican | līchamlican | līchamlican | līchamlicra | līchamlicra | līchamlicra |
-| Dative | līchamlican | līchamlican | līchamlican | līchamlicum | līchamlicum | līchamlicum |
-| Accusative | līchamlican | līchamlican | līchamlice | līchamlican | līchamlican | līchamlican |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | līchamlica | līchamlice | līchamlice |
+| Genitive | līchamlican | līchamlican | līchamlican |
+| Dative | līchamlican | līchamlican | līchamlican |
+| Accusative | līchamlican | līchamlice | līchamlican |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | līchamlican | līchamlican | līchamlican |
+| Genitive | līchamlicra | līchamlicra | līchamlicra |
+| Dative | līchamlicum | līchamlicum | līchamlicum |
+| Accusative | līchamlican | līchamlican | līchamlican |
 
 #### Table 22. swētra: weak adjective
 
 <!-- table: NEW-U13-ADJ-SWETE-COMP-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | swētra | swētre | swētre | swētran | swētran | swētran |
-| Genitive | swētran | swētran | swētran | swētra | swētra | swētra |
-| Dative | swētran | swētran | swētran | swētrum | swētrum | swētrum |
-| Accusative | swētran | swētran | swētre | swētran | swētran | swētran |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | swētra | swētre | swētre |
+| Genitive | swētran | swētran | swētran |
+| Dative | swētran | swētran | swētran |
+| Accusative | swētran | swētre | swētran |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | swētran | swētran | swētran |
+| Genitive | swētra | swētra | swētra |
+| Dative | swētrum | swētrum | swētrum |
+| Accusative | swētran | swētran | swētran |
 
 #### Table 23. swētest: strong adjective
 
 <!-- table: NEW-U13-ADJ-SWETE-SUPERL-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | swētest | swētest | swētest | swēteste | swētesta | swētest |
-| Genitive | swētestes | swētestre | swētestes | swētestra | swētestra | swētestra |
-| Dative | swētestum | swētestre | swētestum | swētestum | swētestum | swētestum |
-| Accusative | swētestne | swēteste | swētest | swēteste | swētesta | swētest |
-| Instrumental | swēteste | as dative | swēteste | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | swētest | swētest | swētest |
+| Genitive | swētestes | swētestes | swētestre |
+| Dative | swētestum | swētestum | swētestre |
+| Accusative | swētestne | swētest | swēteste |
+| Instrumental | swēteste | swēteste | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | swēteste | swētest | swētesta |
+| Genitive | swētestra | swētestra | swētestra |
+| Dative | swētestum | swētestum | swētestum |
+| Accusative | swēteste | swētest | swētesta |
+| Instrumental | as dative | as dative | as dative |
 
 #### Table 24. swētest: weak adjective
 
 <!-- table: NEW-U13-ADJ-SWETE-SUPERL-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | swētesta | swēteste | swēteste | swētestan | swētestan | swētestan |
-| Genitive | swētestan | swētestan | swētestan | swētestra | swētestra | swētestra |
-| Dative | swētestan | swētestan | swētestan | swētestum | swētestum | swētestum |
-| Accusative | swētestan | swētestan | swēteste | swētestan | swētestan | swētestan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | swētesta | swēteste | swēteste |
+| Genitive | swētestan | swētestan | swētestan |
+| Dative | swētestan | swētestan | swētestan |
+| Accusative | swētestan | swēteste | swētestan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | swētestan | swētestan | swētestan |
+| Genitive | swētestra | swētestra | swētestra |
+| Dative | swētestum | swētestum | swētestum |
+| Accusative | swētestan | swētestan | swētestan |
 
 | Adjective | Stem | Strong feminine N singular | Weak masculine N singular | Complete model(s) |
 | --- | --- | --- | --- | --- |
@@ -978,14 +1045,12 @@ The selected weak II pattern has present -ie, -ast, -að, plural -iað; preterit
 
 <!-- table: NEW-U13-PAR-FORDILGIAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | fordilgie | fordilgode |
-| 2 singular | fordilgast | fordilgodest |
-| 3 singular | fordilgað | fordilgode |
-| 1 plural | fordilgiað | fordilgodon |
-| 2 plural | fordilgiað | fordilgodon |
-| 3 plural | fordilgiað | fordilgodon |
+| 1 sg. | fordilgie | fordilgode |
+| 2 sg. | fordilgast | fordilgodest |
+| 3 sg. | fordilgað | fordilgode |
+| 1–3 pl. | fordilgiað | fordilgodon |
 
 <!-- teaching: NEW-U13-PAR-GEWUNIAN-IND -->
 
@@ -1028,14 +1093,12 @@ Weak I verbs add a dental preterite, but their present stems and consonant outco
 
 <!-- table: NEW-U13-PAR-ASTRECCEAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āstręcce | āstreahte |
-| 2 singular | āstręcst | āstreahtest |
-| 3 singular | āstręcð | āstreahte |
-| 1 plural | āstręcceað | āstreahton |
-| 2 plural | āstręcceað | āstreahton |
-| 3 plural | āstręcceað | āstreahton |
+| 1 sg. | āstręcce | āstreahte |
+| 2 sg. | āstręcst | āstreahtest |
+| 3 sg. | āstręcð | āstreahte |
+| 1–3 pl. | āstręcceað | āstreahton |
 
 <!-- teaching: NEW-U13-PAR-ONLIESAN-IND -->
 
@@ -1045,14 +1108,12 @@ Weak I verbs add a dental preterite, but their present stems and consonant outco
 
 <!-- table: NEW-U13-PAR-ONLIESAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | onlīese | onlīesde |
-| 2 singular | onlīest | onlīesdest |
-| 3 singular | onlīest | onlīesde |
-| 1 plural | onlīesað | onlīesdon |
-| 2 plural | onlīesað | onlīesdon |
-| 3 plural | onlīesað | onlīesdon |
+| 1 sg. | onlīese | onlīesde |
+| 2 sg. | onlīest | onlīesdest |
+| 3 sg. | onlīest | onlīesde |
+| 1–3 pl. | onlīesað | onlīesdon |
 
 <!-- teaching: NEW-U13-PAR-NEALAECAN-IND -->
 
@@ -1062,14 +1123,12 @@ Weak I verbs add a dental preterite, but their present stems and consonant outco
 
 <!-- table: NEW-U13-PAR-NEALAECAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | nēalǣce | nēalǣcte |
-| 2 singular | nēalǣcst | nēalǣctest |
-| 3 singular | nēalǣcð | nēalǣcte |
-| 1 plural | nēalǣcað | nēalǣcton |
-| 2 plural | nēalǣcað | nēalǣcton |
-| 3 plural | nēalǣcað | nēalǣcton |
+| 1 sg. | nēalǣce | nēalǣcte |
+| 2 sg. | nēalǣcst | nēalǣctest |
+| 3 sg. | nēalǣcð | nēalǣcte |
+| 1–3 pl. | nēalǣcað | nēalǣcton |
 
 <!-- teaching: NEW-U13-PAR-ASETTAN-IND -->
 
@@ -1079,14 +1138,12 @@ Weak I verbs add a dental preterite, but their present stems and consonant outco
 
 <!-- table: NEW-U13-PAR-ASETTAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āsętte | āsętte |
-| 2 singular | āsętst | āsęttest |
-| 3 singular | āsętt | āsętte |
-| 1 plural | āsęttað | āsętton |
-| 2 plural | āsęttað | āsętton |
-| 3 plural | āsęttað | āsętton |
+| 1 sg. | āsętte | āsętte |
+| 2 sg. | āsętst | āsęttest |
+| 3 sg. | āsętt | āsętte |
+| 1–3 pl. | āsęttað | āsętton |
 
 <!-- teaching: NEW-U13-PAR-GESCRYDAN-IND -->
 
@@ -1096,14 +1153,12 @@ Weak I verbs add a dental preterite, but their present stems and consonant outco
 
 <!-- table: NEW-U13-PAR-GESCRYDAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gescrȳde | gescrȳdde |
-| 2 singular | gescrȳtst | gescrȳddest |
-| 3 singular | gescrȳt | gescrȳdde |
-| 1 plural | gescrȳdað | gescrȳddon |
-| 2 plural | gescrȳdað | gescrȳddon |
-| 3 plural | gescrȳdað | gescrȳddon |
+| 1 sg. | gescrȳde | gescrȳdde |
+| 2 sg. | gescrȳtst | gescrȳddest |
+| 3 sg. | gescrȳt | gescrȳdde |
+| 1–3 pl. | gescrȳdað | gescrȳddon |
 
 <!-- teaching: NEW-U13-PAR-ASENDAN-IND -->
 
@@ -1113,14 +1168,12 @@ Weak I verbs add a dental preterite, but their present stems and consonant outco
 
 <!-- table: NEW-U13-PAR-ASENDAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āsęnde | āsęnde |
-| 2 singular | āsęntst | āsęndest |
-| 3 singular | āsęnt | āsęnde |
-| 1 plural | āsęndað | āsęndon |
-| 2 plural | āsęndað | āsęndon |
-| 3 plural | āsęndað | āsęndon |
+| 1 sg. | āsęnde | āsęnde |
+| 2 sg. | āsęntst | āsęndest |
+| 3 sg. | āsęnt | āsęnde |
+| 1–3 pl. | āsęndað | āsęndon |
 
 ### 7.2. Strong and irregular finite verbs
 
@@ -1134,14 +1187,12 @@ Strong verbs distinguish present, preterite singular, preterite plural and past-
 
 <!-- table: NEW-U13-PAR-FORCEORFAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | forceorfe | forcearf |
-| 2 singular | forcierfst | forcurfe |
-| 3 singular | forcierfð | forcearf |
-| 1 plural | forceorfað | forcurfon |
-| 2 plural | forceorfað | forcurfon |
-| 3 plural | forceorfað | forcurfon |
+| 1 sg. | forceorfe | forcearf |
+| 2 sg. | forcierfst | forcurfe |
+| 3 sg. | forcierfð | forcearf |
+| 1–3 pl. | forceorfað | forcurfon |
 
 <!-- teaching: NEW-U13-PAR-OFERWINNAN-IND -->
 
@@ -1151,14 +1202,12 @@ Strong verbs distinguish present, preterite singular, preterite plural and past-
 
 <!-- table: NEW-U13-PAR-OFERWINNAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | oferwinne | oferwann |
-| 2 singular | oferwinst | oferwunne |
-| 3 singular | oferwinð | oferwann |
-| 1 plural | oferwinnað | oferwunnon |
-| 2 plural | oferwinnað | oferwunnon |
-| 3 plural | oferwinnað | oferwunnon |
+| 1 sg. | oferwinne | oferwann |
+| 2 sg. | oferwinst | oferwunne |
+| 3 sg. | oferwinð | oferwann |
+| 1–3 pl. | oferwinnað | oferwunnon |
 
 <!-- teaching: NEW-U13-PAR-EFTHWEORFAN-IND -->
 
@@ -1168,14 +1217,12 @@ Strong verbs distinguish present, preterite singular, preterite plural and past-
 
 <!-- table: NEW-U13-PAR-EFTHWEORFAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ęfthweorfe | ęfthwearf |
-| 2 singular | ęfthwierfst | ęfthwurfe |
-| 3 singular | ęfthwierfð | ęfthwearf |
-| 1 plural | ęfthweorfað | ęfthwurfon |
-| 2 plural | ęfthweorfað | ęfthwurfon |
-| 3 plural | ęfthweorfað | ęfthwurfon |
+| 1 sg. | ęfthweorfe | ęfthwearf |
+| 2 sg. | ęfthwierfst | ęfthwurfe |
+| 3 sg. | ęfthwierfð | ęfthwearf |
+| 1–3 pl. | ęfthweorfað | ęfthwurfon |
 
 <!-- teaching: NEW-U13-PRINCIPAL-PARTS-FORCEORFAN -->
 
@@ -1193,14 +1240,12 @@ Behealdan and ondrǣdan have the strong VII past stems behēold- and ondrēd-. B
 
 <!-- table: NEW-U13-PAR-BEHEALDAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | behealde | behēold |
-| 2 singular | behieltst | behēolde |
-| 3 singular | behielt | behēold |
-| 1 plural | behealdað | behēoldon |
-| 2 plural | behealdað | behēoldon |
-| 3 plural | behealdað | behēoldon |
+| 1 sg. | behealde | behēold |
+| 2 sg. | behieltst | behēolde |
+| 3 sg. | behielt | behēold |
+| 1–3 pl. | behealdað | behēoldon |
 
 <!-- teaching: NEW-U13-PAR-ONDRAEDAN-IND -->
 
@@ -1210,14 +1255,12 @@ Behealdan and ondrǣdan have the strong VII past stems behēold- and ondrēd-. B
 
 <!-- table: NEW-U13-PAR-ONDRAEDAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ondrǣde | ondrēd |
-| 2 singular | ondrǣtst | ondrēde |
-| 3 singular | ondrǣt | ondrēd |
-| 1 plural | ondrǣdað | ondrēdon |
-| 2 plural | ondrǣdað | ondrēdon |
-| 3 plural | ondrǣdað | ondrēdon |
+| 1 sg. | ondrǣde | ondrēd |
+| 2 sg. | ondrǣtst | ondrēde |
+| 3 sg. | ondrǣt | ondrēd |
+| 1–3 pl. | ondrǣdað | ondrēdon |
 
 <!-- teaching: NEW-U13-PAR-BEBEODAN-IND -->
 
@@ -1227,14 +1270,12 @@ Behealdan and ondrǣdan have the strong VII past stems behēold- and ondrēd-. B
 
 <!-- table: NEW-U13-PAR-BEBEODAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | bebēode | bebēad |
-| 2 singular | bebīetst | bebude |
-| 3 singular | bebīett | bebēad |
-| 1 plural | bebēodað | bebudon |
-| 2 plural | bebēodað | bebudon |
-| 3 plural | bebēodað | bebudon |
+| 1 sg. | bebēode | bebēad |
+| 2 sg. | bebīetst | bebude |
+| 3 sg. | bebīett | bebēad |
+| 1–3 pl. | bebēodað | bebudon |
 
 Fordōn and ingān use the corresponding finite patterns of dōn and gān with their attested prefixes. The complete ingān subjunctive follows its indicative table. The new productive use is the present subjunctive in the worthy-content construction below; the other subjunctive cells complete the morphological system without adding new clause uses. The reading’s ingangende is separately supplied and is not generated as a regular participle from ingān.
 
@@ -1246,14 +1287,12 @@ Fordōn and ingān use the corresponding finite patterns of dōn and gān with t
 
 <!-- table: NEW-U13-PAR-FORDON-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | fordō | fordyde |
-| 2 singular | fordēst | fordydest |
-| 3 singular | fordēð | fordyde |
-| 1 plural | fordōð | fordydon |
-| 2 plural | fordōð | fordydon |
-| 3 plural | fordōð | fordydon |
+| 1 sg. | fordō | fordyde |
+| 2 sg. | fordēst | fordydest |
+| 3 sg. | fordēð | fordyde |
+| 1–3 pl. | fordōð | fordydon |
 
 <!-- teaching: NEW-U13-PAR-INGAN-IND -->
 
@@ -1263,14 +1302,12 @@ Fordōn and ingān use the corresponding finite patterns of dōn and gān with t
 
 <!-- table: NEW-U13-PAR-INGAN-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ingā | inēode |
-| 2 singular | ingǣst | inēodest |
-| 3 singular | ingǣð | inēode |
-| 1 plural | ingāð | inēodon |
-| 2 plural | ingāð | inēodon |
-| 3 plural | ingāð | inēodon |
+| 1 sg. | ingā | inēode |
+| 2 sg. | ingǣst | inēodest |
+| 3 sg. | ingǣð | inēode |
+| 1–3 pl. | ingāð | inēodon |
 
 <!-- teaching: NEW-U13-PAR-INGAN-SUBJ -->
 
@@ -1280,14 +1317,12 @@ Fordōn and ingān use the corresponding finite patterns of dōn and gān with t
 
 <!-- table: NEW-U13-PAR-INGAN-SUBJ -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ingā | inēode |
-| 2 singular | ingā | inēode |
-| 3 singular | ingā | inēode |
-| 1 plural | ingān | inēoden |
-| 2 plural | ingān | inēoden |
-| 3 plural | ingān | inēoden |
+| 1 sg. | ingā | inēode |
+| 2 sg. | ingā | inēode |
+| 3 sg. | ingā | inēode |
+| 1–3 pl. | ingān | inēoden |
 
 ### 7.3. Commands, infinitives and participle bases
 
@@ -1313,12 +1348,10 @@ The imperative table gives singular and plural commands for all four verbs. Winn
 
 <!-- table: NEW-U13-DISPLAY-IMP -->
 
-| Verb | Singular | Plural |
-| --- | --- | --- |
-| winnan | win | winnað |
-| behealdan | beheald | behealdað |
-| ondrǣdan | ondrǣd | ondrǣdað |
-| lǣdan | lǣd | lǣdað |
+| Person and number | winnan | behealdan | ondrǣdan | lǣdan |
+| --- | --- | --- | --- | --- |
+| 2 sg. | win | beheald | ondrǣd | lǣd |
+| 2 pl. | winnað | behealdað | ondrǣdað | lǣdað |
 
 The plain infinitive follows taught modal and willan constructions. The inflected infinitive adds -ne after the plain infinitive’s final n, producing endings including -anne, -enne, -ianne and, in fordōnne, -ōnne. Use tō with the inflected form in previously taught functions and in the explicitly supported adjective expression below. The table does not introduce every possible infinitive construction.
 

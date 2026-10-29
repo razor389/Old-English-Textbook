@@ -114,13 +114,15 @@ for kind,records in reused_supplied.items():
         for preserved in ['form','analysis','gloss','description','scope_note']:
             if preserved in old:rec[preserved]=copy.deepcopy(old[preserved])
         container[container.index(old)]=integrate(old,rec)
-for register in [lex,gram]:
-    register['reviewed_chapters']=union(register['reviewed_chapters'],['ch17'])
-    register['source_contracts']['ch17']='chapters/ch17/coverage.json'
-    register['status']='Units 1–17 reviewed; earliest teaching and supplied-exposure history preserved; no milestones inherited from the archived experiment.'
-    for eid,ev in c['evidence_catalog'].items():
-        if eid in register['evidence_catalog']: assert register['evidence_catalog'][eid]==ev, ('evidence collision',eid)
-        else: register['evidence_catalog'][eid]=copy.deepcopy(ev)
+for register in [lex, gram]:
+    register['reviewed_chapters'] = union(register['reviewed_chapters'], ['ch17'])
+    register['source_contracts']['ch17'] = 'chapters/ch17/coverage.json'
+    register['status'] = 'Units 1–17 reviewed; earliest teaching and supplied-exposure history preserved.'
+    for eid, ev in c['evidence_catalog'].items():
+        if eid in register['evidence_catalog']:
+            assert register['evidence_catalog'][eid] == ev, ('evidence collision', eid)
+        else:
+            register['evidence_catalog'][eid] = copy.deepcopy(ev)
 lex.setdefault('form_analysis_reconciliations_by_chapter',{})['ch17']=copy.deepcopy(c['form_identity_reconciliation'])
 def flat(register,kind):
     return {r[kind[:-1]+'_id']:r for l in register['lemmas'] for r in l[kind]}

@@ -359,7 +359,7 @@ The weak masculine citation ends in -a; its other singular cases and its nominat
 
 ## 3. Indicative systems
 
-The nine systems below give all present and preterite indicative persons. A plural form is repeated for each person to make the complete system explicit. The ordinary meanings and government follow in §5. The four principal parts identify the stems; their first and fourth columns here are diagnostic citations. They do not add productive infinitive or participial uses to these nine systems.[^verbs]
+The nine systems below give all present and preterite indicative persons. A shared **1–3 pl.** row gives the common form for all three plural persons. The ordinary meanings and government follow in §5. The four principal parts identify the stems; their first and fourth columns here are diagnostic citations. They do not add productive infinitive or participial uses to these nine systems.[^verbs]
 
 The regular selected present endings are singular -e, -st, -ð and plural -að, with the stem changes and contractions stated beside each table. Weak II has its separate present pattern below. Strong preterites have no ending in first/third singular, -e with the plural stem in second singular, and -on in the plural. Weak preterites use the dental stem with singular -e, -est, -e and plural -on.
 
@@ -389,14 +389,12 @@ Weak I. Use present stem gewęnd-, with d devoiced before the second/third singu
 
 <!-- table: NEW-U14-PAR-GEWENDAN-IND -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gewęnde | gewęnde |
-| 2 singular | gewęntst | gewęndest |
-| 3 singular | gewęnt | gewęnde |
-| 1 plural | gewęndað | gewęndon |
-| 2 plural | gewęndað | gewęndon |
-| 3 plural | gewęndað | gewęndon |
+| 1 sg. | gewęnde | gewęnde |
+| 2 sg. | gewęntst | gewęndest |
+| 3 sg. | gewęnt | gewęnde |
+| 1–3 pl. | gewęndað | gewęndon |
 
 <!-- teaching: NEW-U14-VOC-GELIEFAN -->
 
@@ -412,14 +410,12 @@ Weak I. Retain long īe throughout. Present endings are -e, -st, -ð and plural 
 
 <!-- table: NEW-U14-PAR-GELIEFAN-IND -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gelīefe | gelīefde |
-| 2 singular | gelīefst | gelīefdest |
-| 3 singular | gelīefð | gelīefde |
-| 1 plural | gelīefað | gelīefdon |
-| 2 plural | gelīefað | gelīefdon |
-| 3 plural | gelīefað | gelīefdon |
+| 1 sg. | gelīefe | gelīefde |
+| 2 sg. | gelīefst | gelīefdest |
+| 3 sg. | gelīefð | gelīefde |
+| 1–3 pl. | gelīefað | gelīefdon |
 
 <!-- teaching: NEW-U14-VOC-FORGIEFAN -->
 
@@ -435,14 +431,12 @@ Strong V. Principal stems are forgief-, forgeaf-, forgēaf-, forgief-. The selec
 
 <!-- table: NEW-U14-PAR-FORGIEFAN-IND -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | forgiefe | forgeaf |
-| 2 singular | forgiefst | forgēafe |
-| 3 singular | forgiefð | forgeaf |
-| 1 plural | forgiefað | forgēafon |
-| 2 plural | forgiefað | forgēafon |
-| 3 plural | forgiefað | forgēafon |
+| 1 sg. | forgiefe | forgeaf |
+| 2 sg. | forgiefst | forgēafe |
+| 3 sg. | forgiefð | forgeaf |
+| 1–3 pl. | forgiefað | forgēafon |
 
 <!-- teaching: NEW-U14-VOC-AHREOSAN -->
 
@@ -458,14 +452,12 @@ Strong II. The principal stems are āhrēos-, āhrēas-, āhrur-, āhror-. Prese
 
 <!-- table: NEW-U14-PAR-AHREOSAN-IND -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āhrēose | āhrēas |
-| 2 singular | āhrīest | āhrure |
-| 3 singular | āhrīest | āhrēas |
-| 1 plural | āhrēosað | āhruron |
-| 2 plural | āhrēosað | āhruron |
-| 3 plural | āhrēosað | āhruron |
+| 1 sg. | āhrēose | āhrēas |
+| 2 sg. | āhrīest | āhrure |
+| 3 sg. | āhrīest | āhrēas |
+| 1–3 pl. | āhrēosað | āhruron |
 
 <!-- teaching: NEW-U14-VOC-GEBIDDAN -->
 
@@ -481,14 +473,12 @@ Strong V. Principal stems are gebidd-, gebæd-, gebǣd-, gebed-. The present sec
 
 <!-- table: NEW-U14-PAR-GEBIDDAN-IND -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gebidde | gebæd |
-| 2 singular | gebitst | gebǣde |
-| 3 singular | gebitt | gebæd |
-| 1 plural | gebiddað | gebǣdon |
-| 2 plural | gebiddað | gebǣdon |
-| 3 plural | gebiddað | gebǣdon |
+| 1 sg. | gebidde | gebæd |
+| 2 sg. | gebitst | gebǣde |
+| 3 sg. | gebitt | gebæd |
+| 1–3 pl. | gebiddað | gebǣdon |
 
 <!-- teaching: NEW-U14-VOC-AETIEWAN -->
 
@@ -504,14 +494,12 @@ Weak I. Retain w: present ætīew-, dental past ætīewd-. This transitive verb 
 
 <!-- table: NEW-U14-PAR-AETIEWAN-IND -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ætīewe | ætīewde |
-| 2 singular | ætīewst | ætīewdest |
-| 3 singular | ætīewð | ætīewde |
-| 1 plural | ætīewað | ætīewdon |
-| 2 plural | ætīewað | ætīewdon |
-| 3 plural | ætīewað | ætīewdon |
+| 1 sg. | ætīewe | ætīewde |
+| 2 sg. | ætīewst | ætīewdest |
+| 3 sg. | ætīewð | ætīewde |
+| 1–3 pl. | ætīewað | ætīewdon |
 
 <!-- teaching: NEW-U14-VOC-LICCIAN -->
 
@@ -527,14 +515,12 @@ Weak II. Present first singular has -ie, second -ast, third -að and plural -ia�
 
 <!-- table: NEW-U14-PAR-LICCIAN-IND -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | liccie | liccode |
-| 2 singular | liccast | liccodest |
-| 3 singular | liccað | liccode |
-| 1 plural | licciað | liccodon |
-| 2 plural | licciað | liccodon |
-| 3 plural | licciað | liccodon |
+| 1 sg. | liccie | liccode |
+| 2 sg. | liccast | liccodest |
+| 3 sg. | liccað | liccode |
+| 1–3 pl. | licciað | liccodon |
 
 <!-- teaching: NEW-U14-VOC-AHEBBAN -->
 
@@ -550,14 +536,12 @@ Strong VI. Present āhębb- appears with bb in first singular and plural, but wi
 
 <!-- table: NEW-U14-PAR-AHEBBAN-IND -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āhębbe | āhōf |
-| 2 singular | āhęfst | āhōfe |
-| 3 singular | āhęfð | āhōf |
-| 1 plural | āhębbað | āhōfon |
-| 2 plural | āhębbað | āhōfon |
-| 3 plural | āhębbað | āhōfon |
+| 1 sg. | āhębbe | āhōf |
+| 2 sg. | āhęfst | āhōfe |
+| 3 sg. | āhęfð | āhōf |
+| 1–3 pl. | āhębbað | āhōfon |
 
 <!-- teaching: NEW-U14-VOC-ONFON -->
 
@@ -573,14 +557,12 @@ Contracted strong VII. Compare present onfō, onfēhst, onfēhð and plural onf�
 
 <!-- table: NEW-U14-PAR-ONFON-IND -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | onfō | onfēng |
-| 2 singular | onfēhst | onfēnge |
-| 3 singular | onfēhð | onfēng |
-| 1 plural | onfōð | onfēngon |
-| 2 plural | onfōð | onfēngon |
-| 3 plural | onfōð | onfēngon |
+| 1 sg. | onfō | onfēng |
+| 2 sg. | onfēhst | onfēnge |
+| 3 sg. | onfēhð | onfēng |
+| 1–3 pl. | onfōð | onfēngon |
 
 ## 4. Subjunctives, participles and commands
 
@@ -600,14 +582,12 @@ In each tense the subjunctive has one singular form for all three persons, endin
 
 <!-- table: NEW-U14-PAR-FORWEORTHAN-SUBJ -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | forweorðe | forwurde |
-| 2 singular | forweorðe | forwurde |
-| 3 singular | forweorðe | forwurde |
-| 1 plural | forweorðen | forwurden |
-| 2 plural | forweorðen | forwurden |
-| 3 plural | forweorðen | forwurden |
+| 1 sg. | forweorðe | forwurde |
+| 2 sg. | forweorðe | forwurde |
+| 3 sg. | forweorðe | forwurde |
+| 1–3 pl. | forweorðen | forwurden |
 
 <!-- teaching: NEW-U14-PAR-GEBIDDAN-SUBJ -->
 
@@ -617,14 +597,12 @@ In each tense the subjunctive has one singular form for all three persons, endin
 
 <!-- table: NEW-U14-PAR-GEBIDDAN-SUBJ -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gebidde | gebǣde |
-| 2 singular | gebidde | gebǣde |
-| 3 singular | gebidde | gebǣde |
-| 1 plural | gebidden | gebǣden |
-| 2 plural | gebidden | gebǣden |
-| 3 plural | gebidden | gebǣden |
+| 1 sg. | gebidde | gebǣde |
+| 2 sg. | gebidde | gebǣde |
+| 3 sg. | gebidde | gebǣde |
+| 1–3 pl. | gebidden | gebǣden |
 
 <!-- teaching: NEW-U14-VOC-SENDAN -->
 
@@ -638,14 +616,12 @@ In each tense the subjunctive has one singular form for all three persons, endin
 
 <!-- table: NEW-U14-PAR-SENDAN-SUBJ -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | sęnde | sęnde |
-| 2 singular | sęnde | sęnde |
-| 3 singular | sęnde | sęnde |
-| 1 plural | sęnden | sęnden |
-| 2 plural | sęnden | sęnden |
-| 3 plural | sęnden | sęnden |
+| 1 sg. | sęnde | sęnde |
+| 2 sg. | sęnde | sęnde |
+| 3 sg. | sęnde | sęnde |
+| 1–3 pl. | sęnden | sęnden |
 
 <!-- teaching: NEW-U14-PAR-GELIEFAN-SUBJ -->
 
@@ -655,14 +631,12 @@ In each tense the subjunctive has one singular form for all three persons, endin
 
 <!-- table: NEW-U14-PAR-GELIEFAN-SUBJ -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gelīefe | gelīefde |
-| 2 singular | gelīefe | gelīefde |
-| 3 singular | gelīefe | gelīefde |
-| 1 plural | gelīefen | gelīefden |
-| 2 plural | gelīefen | gelīefden |
-| 3 plural | gelīefen | gelīefden |
+| 1 sg. | gelīefe | gelīefde |
+| 2 sg. | gelīefe | gelīefde |
+| 3 sg. | gelīefe | gelīefde |
+| 1–3 pl. | gelīefen | gelīefden |
 
 <!-- teaching: NEW-U14-VOC-ARISAN -->
 
@@ -676,14 +650,12 @@ In each tense the subjunctive has one singular form for all three persons, endin
 
 <!-- table: NEW-U14-PAR-ARISAN-SUBJ -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ārīse | ārise |
-| 2 singular | ārīse | ārise |
-| 3 singular | ārīse | ārise |
-| 1 plural | ārīsen | ārisen |
-| 2 plural | ārīsen | ārisen |
-| 3 plural | ārīsen | ārisen |
+| 1 sg. | ārīse | ārise |
+| 2 sg. | ārīse | ārise |
+| 3 sg. | ārīse | ārise |
+| 1–3 pl. | ārīsen | ārisen |
 
 ### Four participle-base pairs
 
@@ -775,10 +747,10 @@ These weak-II commands have singular -a and plural -iað. The noun or pronoun af
 
 <!-- table: NEW-U14-PAR-GEMILTSIAN-IMP -->
 
-| Cell | Form |
+| Person and number | Command |
 | --- | --- |
-| Singular command | gemiltsa |
-| Plural command | gemiltsiað |
+| 2 sg. | gemiltsa |
+| 2 pl. | gemiltsiað |
 
 <!-- teaching: NEW-U14-VOC-TILIAN -->
 
@@ -792,10 +764,10 @@ These weak-II commands have singular -a and plural -iað. The noun or pronoun af
 
 <!-- table: NEW-U14-PAR-TILIAN-IMP -->
 
-| Cell | Form |
+| Person and number | Command |
 | --- | --- |
-| Singular command | tila |
-| Plural command | tiliað |
+| 2 sg. | tila |
+| 2 pl. | tiliað |
 
 ## 5. Meanings and ordinary uses
 

@@ -4,7 +4,7 @@ Unit 9 follows the eight reviewed units. Teach finite content clauses, dependent
 
 ## Evidence and assignment
 
-Use the registered Cook editions and inspected corroborating evidence. Preserve letters, quantities, English prompts and original identifiers. Printed page and one-based PDF page are separate locators. OCR is a finding aid; page images govern readings. The archived course supplies evidence, not teaching milestones.
+Use the registered Cook editions and inspected corroborating evidence. Preserve letters, quantities, English prompts and original identifiers. Printed page and one-based PDF page are separate locators. OCR is a finding aid; page images govern readings.
 
 Assign all **64 Cook II.9–12 items**: 16, 15, 17 and 16 items respectively, printed pp4–6 / PDF12–14. Preserve parentheses, brackets, section references, the terminal comma in II.9.11 and the absence of “that” in II.11.9. These assignments resolve earlier deferrals without rewriting earlier contracts. The numbered crosswalk becomes **194 assigned, 450 deferred, no exclusions**, totaling 644.
 
@@ -48,4 +48,4 @@ Keep the source judgment, passives, unfamiliar comparative, elliptical prepositi
 
 The coordinator owns the contract, shared registers, source indexes and Beads. Reconcile evidence and dependencies before authorship, export Beads and save the contract locally. Learner and key authors own separate files. The key supplies models, targets, essential meaning, explanations, defensible alternatives and useful diagnoses; distinguish valid language from compliance with a stated target.
 
-The independent reviewer solves all actual tasks before opening the key or private answer-bearing witnesses, freezes those solutions, discloses earlier roles and edits only review files. Resolve material findings before typesetting. Export the entire learner and separate key through LuaLaTeX, verify full content parity and inspect every final page and special character. Preserve baseline cb687a9, all earlier active artifacts, earlier register histories and the archived snapshot. Update README, status, handoff, source indexes and cumulative registers; export Beads and save recoverable local Git revisions. No remote or push is required. Do not draft Unit 10.
+The independent reviewer solves all actual tasks before opening the key or private answer-bearing witnesses, freezes those solutions, discloses earlier roles and edits only review files. Resolve material findings before typesetting. Export the entire learner and separate key through LuaLaTeX, verify full content parity and inspect every final page and special character. Preserve baseline cb687a9, all earlier active artifacts, earlier register histories. Update README, status, handoff, source indexes and cumulative registers; export Beads and save recoverable local Git revisions. No remote or push is required. Do not draft Unit 10.

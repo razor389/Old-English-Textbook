@@ -38,7 +38,6 @@
     "chapters/ch02/independent-solutions.md": "b223dda5e9197d3b6981cc3543472bfb8c444d5acd822467a91d4ed366efa870",
     "chapters/ch02/review.md": "03f926ceac48ebd795cce1ca340a7c356b5ee62b6f3f87ccaf84467d79c44f3f"
   },
-  "archive_tree_sha256": "0f268d880862962c696701e92a31a2f48a7d96950fa699c1cab322ffced1e727",
   "brief": "curriculum/UNIT_03_BRIEF.md",
   "productive_outcomes": [
     "Use the complete strong/weak adjective NGDA systems and selected stem changes in ordinary attributive and predicate agreement.",
@@ -191,7 +190,7 @@
     }
   ],
   "source_assignment_policy": {
-    "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts, not planning maps or archived course statuses.",
+    "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts, not planning maps.",
     "carry_forward_contracts": [
       {
         "path": "chapters/ch01/coverage.json",
@@ -246,10 +245,10 @@
       "EX-I-04-15",
       "EX-I-04-16",
       "EX-I-04-17",
-      "ch02-reader-lights"
+      "FB-I-CREATION-LUMINARIES-CLAUSE"
     ],
     "new_exact_source_assignment": "FB-I-CREATION-FOURTH-DAY-01",
-    "note": "The seventeen Cook items supersede their explicit Unit1 deferrals. The complete fourth-day span subsumes the old lights candidate without a duplicate assignment. No earlier contract or archive file is rewritten; all other Cook deferrals and the birds candidate remain."
+    "note": "The seventeen Cook items supersede their explicit Unit1 deferrals. The complete fourth-day span subsumes the old lights candidate without a duplicate assignment. No earlier contract is rewritten; all other Cook deferrals and the birds candidate remain."
   },
   "assigned_items": [
     {
@@ -25004,8 +25003,8 @@
       "audit_record": "sources/audits/unit03-source/exercise-4.json"
     },
     {
-      "audit_record_id": "ch02-text-01",
-      "editorial_audit_id": "ch02-reader-birds",
+      "audit_record_id": "FB-I-CREATION-BIRDS-CLAUSE",
+      "editorial_audit_id": "FB-I-CREATION-BIRDS-EXCERPT",
       "proposed_chapter": "ch07",
       "reason": "Continued prior deferral; fifth-day birds clause lies outside the new fourth-day span and requires passive/optative teaching.",
       "source_locator": {
@@ -25023,11 +25022,10 @@
   "excluded_source_items": [],
   "source_alias_assignments": [
     {
-      "audit_record_id": "ch02-reader-lights",
+      "audit_record_id": "FB-I-CREATION-LUMINARIES-CLAUSE",
       "resolved_by_subsumption": "FB-I-CREATION-FOURTH-DAY-01",
-      "inherited_snippet": "And God geworhte twā²⁴ miclu²⁵ lēoht;",
       "verified_source_excerpt": "And God geworhte twā miclu lēoht:",
-      "discrepancy": "Inherited semicolon differs from printed colon. Snapshot preserved; new image-verified full span controls.",
+      "discrepancy": "The image-verified full span has a colon after lēoht.",
       "source_audit": "sources/audits/unit03-source/fourth-day.json"
     }
   ],
@@ -25152,21 +25150,21 @@
       ],
       "prior_deferral_proposal": {
         "resolve_by_subsumption": {
-          "audit_record_id": "ch02-reader-lights",
+          "audit_record_id": "FB-I-CREATION-LUMINARIES-CLAUSE",
           "prior_locator": "FB125 lines12–13",
           "inside_this_span": true,
           "prior_snippet": "And God geworhte twā²⁴ miclu²⁵ lēoht;",
           "verified_complete_span_punctuation": "And God geworhte twā miclu lēoht:",
-          "change_note": "The inherited snippet has a semicolon after lēoht. The image has a colon. Preserve the old evidence snapshot; use the image-verified complete new span as authoritative."
+          "change_note": "The image-verified complete span has a colon after lēoht."
         },
         "preserve_deferral": {
-          "audit_record_id": "ch02-text-01",
-          "editorial_audit_id": "ch02-reader-birds",
+          "audit_record_id": "FB-I-CREATION-BIRDS-CLAUSE",
+          "editorial_audit_id": "FB-I-CREATION-BIRDS-EXCERPT",
           "locator": "FB126 lines12–13",
           "planned_chapter": "ch07",
           "inside_this_span": false
         },
-        "note": "This proposal creates no second assignment of the old lights snippet and changes no archived or prior active contract."
+        "note": "This excerpt belongs to the single complete fourth-day assignment; prior active contracts are unchanged."
       },
       "baseline_actual_active_records": [
         {
@@ -98628,8 +98626,8 @@
         22
       ],
       "image": [
-        "reference/previous-course/sources/analysis/ch01/fb-grammar-pdf21.png",
-        "reference/previous-course/sources/analysis/ch01/fb-grammar-pdf22.png"
+        "sources/evidence/cook-fb-pdf021.png",
+        "sources/evidence/cook-fb-pdf022.png"
       ],
       "scan_checked": true,
       "notes": "Letters, Cook's hooked e, quantity marks, and distinction between vowel length and syllable weight; no complete reconstructed pronunciation system assigned."
@@ -99128,5 +99126,54 @@
         "sha256": "9ef35625e6918eeef6ab0e22ea7408f593711e13f0bd4871e4514e99ce82d5f1"
       }
     }
+  },
+  "presentation_revision": {
+    "id": "course-table-layout-2026-10",
+    "status": "accepted",
+    "date": "2026-10-29",
+    "contract": "docs/revisions/table-layout/contract.json",
+    "mapping": "docs/revisions/table-layout/tables.json",
+    "exports": [
+      {
+        "document": "ch03/learner",
+        "chapter": 3,
+        "kind": "learner",
+        "pdf": "typesetting/ch03/chapter-03.pdf",
+        "pdf_sha256": "bdd95bb5443071dd021750d0219e5c759c4e783bf0a7c5c5d736824c2184dd28",
+        "pages": 31,
+        "master": "chapters/ch03/student.md",
+        "master_sha256": "0c00a1f1d96fe7a4cbc11b9b633021a9c0cb7a73c1296e44a0d74a7d3da28b49",
+        "tex": "typesetting/ch03/chapter-03.tex",
+        "tex_sha256": "2f956a0b777c2eecf48ea49e482230478df98f4c4e7f3791baa04c418f7d3337",
+        "initial_pages": 30,
+        "initial_pdf_sha256": "f6f7a35fe1a51adb62aba56823051a6ca1a6484aaa552aefd6423da73d96733e",
+        "page_review": "docs/revisions/table-layout/page-review.json",
+        "content_review": "docs/revisions/table-layout/export-text-review.json",
+        "master_sha256_normalized_lf": "0c00a1f1d96fe7a4cbc11b9b633021a9c0cb7a73c1296e44a0d74a7d3da28b49",
+        "tex_sha256_normalized_lf": "8e7a6a22a60e31262157943e6e5fe22c775a8741ef032512d063f0dec488cb97"
+      },
+      {
+        "document": "ch03/key",
+        "chapter": 3,
+        "kind": "key",
+        "pdf": "typesetting/ch03/answer-key.pdf",
+        "pdf_sha256": "eb40fc270f1b460acbd21c624ef9e3402f3951637ec97aebdaeea49fcb7cad0c",
+        "pages": 21,
+        "master": "chapters/ch03/answer-key.md",
+        "master_sha256": "94c8b7ac365046bcf304f966d166673189ef8a88ebde024c8d8dbaae46aa0ee9",
+        "tex": "typesetting/ch03/answer-key.tex",
+        "tex_sha256": "29a49aa657326e7fdf85750675564552a89275058106b83d2272a665f5f45136",
+        "initial_pages": 19,
+        "initial_pdf_sha256": "9ef35625e6918eeef6ab0e22ea7408f593711e13f0bd4871e4514e99ce82d5f1",
+        "page_review": "docs/revisions/table-layout/page-review.json",
+        "content_review": "docs/revisions/table-layout/export-text-review.json",
+        "master_sha256_normalized_lf": "94c8b7ac365046bcf304f966d166673189ef8a88ebde024c8d8dbaae46aa0ee9",
+        "tex_sha256_normalized_lf": "29a49aa657326e7fdf85750675564552a89275058106b83d2272a665f5f45136"
+      }
+    ],
+    "page_review": "docs/revisions/table-layout/page-review.json",
+    "content_review": "docs/revisions/table-layout/export-text-review.json",
+    "logical_scope": "Canonical paradigm arrays retain complete logical cells; shared physical rows and panel orientation are governed by the presentation mapping.",
+    "earlier_review_scope": "Existing textual_review, presentation_review and completion identities document original authoring checkpoints; this object identifies the current accepted exports."
   }
 }

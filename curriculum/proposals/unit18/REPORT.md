@@ -2,7 +2,7 @@
 
 The proposal is ready for coordinator reconciliation. Its dependency audit passes with zero unresolved records. This is an author-preparation packet; it does not authorize lesson or key prose before the canonical coverage contract is committed.
 
-The baseline is `0eda27783a3830fbd10bebef3702e27c15ff837c`. All seventeen active contracts and the actual cumulative registers were loaded before design: 1,197 lemmas, 12,557 forms, 1,573 senses and 1,143 features. The historical archive supplies checked evidence only, never a teaching milestone. See [the prior audit](prior-audit.json).
+The baseline is `0eda27783a3830fbd10bebef3702e27c15ff837c`. All seventeen active contracts and the actual cumulative registers were loaded before design: 1,197 lemmas, 12,557 forms, 1,573 senses and 1,143 features. See [the prior audit](prior-audit.json).
 
 ## Assigned source and purpose
 

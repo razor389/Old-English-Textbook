@@ -8,18 +8,32 @@ The first person identifies the speaker; the second identifies the addressee; th
 
 <!-- teaching: NEW-U02-PAR-ic NEW-U02-PAR-thu NEW-U02-PAR-he NEW-U02-VOC-ic NEW-U02-VOC-thu NEW-U02-VOC-he NEW-U02-GRAM-personal-pronouns NEW-U02-GRAM-personal-genitive-citation NEW-U02-GRAM-dual-agreement -->
 
-| Person and number | Nominative | Genitive | Dative | Accusative |
-|---|---|---|---|---|
-| 1 singular: I | ic | mīn | mē | mē |
-| 1 dual: we two | wit | uncer | unc | unc |
-| 1 plural: we | wē | ūre | ūs | ūs |
-| 2 singular: you | ðū | ðīn | ðē | ðē |
-| 2 dual: you two | git | incer | inc | inc |
-| 2 plural: you | gē | ēower | ēow | ēow |
-| 3 masculine singular | hē | his | him | hine |
-| 3 neuter singular | hit | his | him | hit |
-| 3 feminine singular | hēo | hiere | hiere | hīe |
-| 3 plural: all genders | hīe | hiera | him | hīe |
+**First person**
+
+| Case | Singular: I | Dual: we two | Plural: we |
+| --- | --- | --- | --- |
+| Nominative | ic | wit | wē |
+| Genitive | mīn | uncer | ūre |
+| Dative | mē | unc | ūs |
+| Accusative | mē | unc | ūs |
+
+**Second person**
+
+| Case | Singular: you | Dual: you two | Plural: you |
+| --- | --- | --- | --- |
+| Nominative | ðū | git | gē |
+| Genitive | ðīn | incer | ēower |
+| Dative | ðē | inc | ēow |
+| Accusative | ðē | inc | ēow |
+
+**Third person**
+
+| Case | Masculine singular | Neuter singular | Feminine singular | Plural: all genders |
+| --- | --- | --- | --- | --- |
+| Nominative | hē | hit | hēo | hīe |
+| Genitive | his | his | hiere | hiera |
+| Dative | him | him | hiere | him |
+| Accusative | hine | hit | hīe | hīe |
 
 Recognize **mīn, uncer, ūre, ðīn, incer, ēower** as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Learn the remaining cells for use in the constructions below.
 
@@ -41,7 +55,7 @@ Third-person genitives can be used as invariant possessors: **his**, “his/its�
 
 Weak verbs form their preterite with a dental element, **d** or **t**, sometimes accompanied by a stem change. The **indicative** states an action or state; the **preterite** is the past tense. The three classes below must be learned with the verb: the infinitive ending alone does not identify the class.
 
-Every table gives the complete singular and plural present and preterite indicative. **1/3 sg.** means both first and third singular; **all pl.** means first, second and third plural. The plural column also supplies the form for dual subjects. Thus seven displayed forms account for all twelve person–number–tense cells.
+Every paradigm gives the complete singular and plural present and preterite indicative. **1–3 pl.** includes first, second and third plural; the shared plural row also supplies the form for dual subjects. In principal-part citations, **1/3 sg.** means both first and third singular. All twelve person–number–tense combinations remain explicit.
 
 In the selected preterite, the first and third singular coincide. Add **-st** to that form for the second singular; replace its final **-e** with **-on** for all three plural persons. The present singular distinguishes three persons, while all three plural persons coincide. Observe the actual stems and contractions; do not simply attach endings to an infinitive. [3]
 
@@ -53,25 +67,55 @@ The basic present endings are **-e, -(e)st, -(e)ð, -að**. In the longer stems,
 
 <!-- teaching: NEW-U02-PAR-hieran NEW-U02-PAR-gefyllan NEW-U02-PAR-cyssan NEW-U02-PAR-settan NEW-U02-PAR-sendan -->
 
-| Verb | Present 1 sg. | 2 sg. | 3 sg. | All pl. | Preterite 1/3 sg. | 2 sg. | All pl. |
-|---|---|---|---|---|---|---|---|
-| hīeran | hīere | hīerst | hīerð | hīerað | hīerde | hīerdest | hīerdon |
-| gefyllan | gefylle | gefylst | gefylð | gefyllað | gefylde | gefyldest | gefyldon |
-| cyssan | cysse | cyst | cyst | cyssað | cyste | cystest | cyston |
-| sęttan | sętte | sętst | sętt | sęttað | sętte | sęttest | sętton |
-| sęndan | sęnde | sęntst | sęnt | sęndað | sęnde | sęndest | sęndon |
+| Person and number | hīeran · Present | hīeran · Preterite | gefyllan · Present | gefyllan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1 sg. | hīere | hīerde | gefylle | gefylde |
+| 2 sg. | hīerst | hīerdest | gefylst | gefyldest |
+| 3 sg. | hīerð | hīerde | gefylð | gefylde |
+| 1–3 pl. | hīerað | hīerdon | gefyllað | gefyldon |
+
+| Person and number | cyssan · Present | cyssan · Preterite | sęttan · Present | sęttan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1 sg. | cysse | cyste | sętte | sętte |
+| 2 sg. | cyst | cystest | sętst | sęttest |
+| 3 sg. | cyst | cyste | sętt | sętte |
+| 1–3 pl. | cyssað | cyston | sęttað | sętton |
+
+**sęndan**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | sęnde | sęnde |
+| 2 sg. | sęntst | sęndest |
+| 3 sg. | sęnt | sęnde |
+| 1–3 pl. | sęndað | sęndon |
 
 **Hīeran** has ordinary **-de**. In **gefyllan**, doubled **ll** becomes single before another consonant: **gefylst, gefylð, gefylde**. The **ss/ff/pp** family has **-te** with simplification, here **cyssan → cyste**. Its contracted present second and third singular are both **cyst**. **Sęttan** retains **tt** in **sętte**; **sęndan** has **sęnde**, without an added written dental. First singular present and first/third singular preterite can consequently look alike.
 
 <!-- teaching: NEW-U02-PAR-laedan NEW-U02-PAR-iecan NEW-U02-PAR-gerestan NEW-U02-PAR-metan NEW-U02-PAR-gierwan -->
 
-| Verb | Present 1 sg. | 2 sg. | 3 sg. | All pl. | Preterite 1/3 sg. | 2 sg. | All pl. |
-|---|---|---|---|---|---|---|---|
-| lǣdan | lǣde | lǣtst | lǣtt | lǣdað | lǣdde | lǣddest | lǣddon |
-| īecan | īece | īecst | īecð | īecað | īecte | īectest | īecton |
-| geręstan | geręste | geręstest | geręst | geręstað | geręste | geręstest | geręston |
-| mētan | mēte | mētst | mētt | mētað | mētte | mēttest | mētton |
-| gierwan | gierwe | gierest | giereð | gierwað | gierede | gieredest | gieredon |
+| Person and number | lǣdan · Present | lǣdan · Preterite | īecan · Present | īecan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1 sg. | lǣde | lǣdde | īece | īecte |
+| 2 sg. | lǣtst | lǣddest | īecst | īectest |
+| 3 sg. | lǣtt | lǣdde | īecð | īecte |
+| 1–3 pl. | lǣdað | lǣddon | īecað | īecton |
+
+| Person and number | geręstan · Present | geręstan · Preterite | mētan · Present | mētan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1 sg. | geręste | geręste | mēte | mētte |
+| 2 sg. | geręstest | geręstest | mētst | mēttest |
+| 3 sg. | geręst | geręste | mētt | mētte |
+| 1–3 pl. | geręstað | geręston | mētað | mētton |
+
+**gierwan**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | gierwe | gierede |
+| 2 sg. | gierest | gieredest |
+| 3 sg. | giereð | gierede |
+| 1–3 pl. | gierwað | gieredon |
 
 Keep these contrasts together:
 
@@ -80,7 +124,7 @@ Keep these contrasts together:
 - The **c/p/x** family has **t** in the preterite, here **īecan → īecte**. The exceptional **gewyrcean → geworhte** below must be learned separately.
 - Before the present second/third singular endings, dental combinations give **sęntst/sęnt**, **lǣtst/lǣtt**, and **mētst/mētt**. Final **tt** can also be written **t**: **sęt, lǣt, mēt** are valid third-singular alternatives.
 - **Geręstest** is our selected second singular present; contracted **geręst** is also valid. The selected third singular is **geręst**. Do not add another **t** to the preterite **geręste**.
-- In the **rw/lw** family, **gierwan → gierede**. Our present row retains **w** in the first singular and plural, but uses **gierest, giereð** in the other singular persons. The sources also allow present forms with **w** retained or omitted; the selected row is not a rule deleting every present **w**.
+- In the **rw/lw** family, **gierwan → gierede**. The selected present paradigm retains **w** in the first singular and plural, but uses **gierest, giereð** in the other singular persons. The sources also allow present forms with **w** retained or omitted; the selected paradigm is not a rule deleting every present **w**.
 
 ## 4. Class I: irregular and short stems
 
@@ -90,10 +134,12 @@ Learn the past stems of **sęllan** and **gewyrcean** with their meanings. Neith
 
 <!-- teaching: NEW-U02-PAR-sellan NEW-U02-PAR-gewyrcean -->
 
-| Verb | Present 1 sg. | 2 sg. | 3 sg. | All pl. | Preterite 1/3 sg. | 2 sg. | All pl. |
-|---|---|---|---|---|---|---|---|
-| sęllan | sęlle | sęlst | sęlð | sęllað | sealde | sealdest | sealdon |
-| gewyrcean | gewyrce | gewyrcst | gewyrcð | gewyrceað | geworhte | geworhtest | geworhton |
+| Person and number | sęllan · Present | sęllan · Preterite | gewyrcean · Present | gewyrcean · Preterite |
+| --- | --- | --- | --- | --- |
+| 1 sg. | sęlle | sealde | gewyrce | geworhte |
+| 2 sg. | sęlst | sealdest | gewyrcst | geworhtest |
+| 3 sg. | sęlð | sealde | gewyrcð | geworhte |
+| 1–3 pl. | sęllað | sealdon | gewyrceað | geworhton |
 
 Cook also prints **sęlest, sęleð** beside **sęlst, sęlð**, and **gewyrcan/gewyrcað** beside the infinitive **gewyrcean** and plural **gewyrceað**. These alternatives do not change the past **geworhte**.
 
@@ -103,11 +149,21 @@ The short-stem families have a linking **e** in the preterite. **Gefręmman** re
 
 <!-- teaching: NEW-U02-PAR-gefremman NEW-U02-PAR-efnan NEW-U02-PAR-nerian -->
 
-| Verb | Present 1 sg. | 2 sg. | 3 sg. | All pl. | Preterite 1/3 sg. | 2 sg. | All pl. |
-|---|---|---|---|---|---|---|---|
-| gefręmman | gefręmme | gefręmest | gefręmeð | gefręmmað | gefręmede | gefręmedest | gefręmedon |
-| ęfnan | ęfne | ęfnest | ęfneð | ęfnað | ęfnede | ęfnedest | ęfnedon |
-| nęrian | nęrie | nęrest | nęreð | nęriað | nęrede | nęredest | nęredon |
+| Person and number | gefręmman · Present | gefręmman · Preterite | ęfnan · Present | ęfnan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1 sg. | gefręmme | gefręmede | ęfne | ęfnede |
+| 2 sg. | gefręmest | gefręmedest | ęfnest | ęfnedest |
+| 3 sg. | gefręmeð | gefręmede | ęfneð | ęfnede |
+| 1–3 pl. | gefręmmað | gefręmedon | ęfnað | ęfnedon |
+
+**nęrian**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | nęrie | nęrede |
+| 2 sg. | nęrest | nęredest |
+| 3 sg. | nęreð | nęrede |
+| 1–3 pl. | nęriað | nęredon |
 
 For **ęfnan**, the contracted past **ęfnde, ęfndest, ęfndon** is also valid. A source exception for later reference is **lęcgan**, with past **lęgde/lēde**; it is not a recall item here. Cook’s related example **hyngran** is impersonal: it must not be substituted into an ordinary personal sentence merely because its endings look familiar.
 
@@ -119,11 +175,21 @@ Class II has present **-ie, -ast, -að, -iað** and the selected past **-ode, -o
 
 <!-- teaching: NEW-U02-PAR-lufian NEW-U02-PAR-gebletsian NEW-U02-PAR-gehalgian -->
 
-| Verb | Present 1 sg. | 2 sg. | 3 sg. | All pl. | Preterite 1/3 sg. | 2 sg. | All pl. |
-|---|---|---|---|---|---|---|---|
-| lufian | lufie | lufast | lufað | lufiað | lufode | lufodest | lufodon |
-| geblētsian | geblētsie | geblētsast | geblētsað | geblētsiað | geblētsode | geblētsodest | geblētsodon |
-| gehālgian | gehālgie | gehālgast | gehālgað | gehālgiað | gehālgode | gehālgodest | gehālgodon |
+| Person and number | lufian · Present | lufian · Preterite | geblētsian · Present | geblētsian · Preterite |
+| --- | --- | --- | --- | --- |
+| 1 sg. | lufie | lufode | geblētsie | geblētsode |
+| 2 sg. | lufast | lufodest | geblētsast | geblētsodest |
+| 3 sg. | lufað | lufode | geblētsað | geblētsode |
+| 1–3 pl. | lufiað | lufodon | geblētsiað | geblētsodon |
+
+**gehālgian**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | gehālgie | gehālgode |
+| 2 sg. | gehālgast | gehālgodest |
+| 3 sg. | gehālgað | gehālgode |
+| 1–3 pl. | gehālgiað | gehālgodon |
 
 Cook also prints **lufedon**. His class-wide alternatives include past **-ade, -ude, -ede** and infinitive **-ig(e)an**; these are reference information, not instructions to generate every spelling for every verb. The dictionary has **geblēdsian** beside **geblētsian**. Learn the selected forms above.
 
@@ -133,18 +199,25 @@ Cook also prints **lufedon**. His class-wide alternatives include past **-ade, -
 
 ## 6. Class III and the negative companion
 
-All four surviving Class III verbs are included. Their present stem changes and past stems form separate systems; learn each complete row. **Habban** means possession here, **libban** living, **sęcgan** saying, and **hycgan** thinking. [7]
+All four surviving Class III verbs are included. Their present stem changes and past stems form separate systems; learn each complete paradigm. **Habban** means possession here, **libban** living, **sęcgan** saying, and **hycgan** thinking. [7]
 
 <!-- teaching: NEW-U02-GRAM-weak-III-habban NEW-U02-GRAM-weak-III-libban NEW-U02-GRAM-weak-III-secgan NEW-U02-GRAM-weak-III-hycgan -->
 
 <!-- teaching: NEW-U02-PAR-habban NEW-U02-PAR-libban NEW-U02-PAR-secgan NEW-U02-PAR-hycgan -->
 
-| Verb | Present 1 sg. | 2 sg. | 3 sg. | All pl. | Preterite 1/3 sg. | 2 sg. | All pl. |
-|---|---|---|---|---|---|---|---|
-| habban | hæbbe | hæfst | hæfð | habbað | hæfde | hæfdest | hæfdon |
-| libban | libbe | leofast | leofað | libbað | lifde | lifdest | lifdon |
-| sęcgan | sęcge | sægst | sægð | sęcgað | sægde | sægdest | sægdon |
-| hycgan | hycge | hygst | hygð | hycgað | hogode | hogodest | hogodon |
+| Person and number | habban · Present | habban · Preterite | libban · Present | libban · Preterite |
+| --- | --- | --- | --- | --- |
+| 1 sg. | hæbbe | hæfde | libbe | lifde |
+| 2 sg. | hæfst | hæfdest | leofast | lifdest |
+| 3 sg. | hæfð | hæfde | leofað | lifde |
+| 1–3 pl. | habbað | hæfdon | libbað | lifdon |
+
+| Person and number | sęcgan · Present | sęcgan · Preterite | hycgan · Present | hycgan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1 sg. | sęcge | sægde | hycge | hogode |
+| 2 sg. | sægst | sægdest | hygst | hogodest |
+| 3 sg. | sægð | sægde | hygð | hogode |
+| 1–3 pl. | sęcgað | sægdon | hycgað | hogodon |
 
 Reference alternatives include **hafast, hafað, hæbbað** for **habban**; **lifian/lifiað** beside **libban/libbað**; **sęcgean/sęcgeað**, **sęgst/sagast**, **sęgð/sagað**, and past **sǣde, sǣdest, sǣdon** beside the selected **sęcgan** forms. For **hycgan**, alternatives include **hycgean/hycgeað**, **hogast/hogað**, and past **hogde, hogdest, hogdon**. They are valid forms, not extra required paradigms.
 
@@ -154,9 +227,14 @@ Reference alternatives include **hafast, hafað, hæbbað** for **habban**; **li
 
 <!-- teaching: NEW-U02-PAR-nabban -->
 
-| Verb | Present 1 sg. | 2 sg. | 3 sg. | All pl. | Preterite 1/3 sg. | 2 sg. | All pl. |
-|---|---|---|---|---|---|---|---|
-| nabban | næbbe | næfst | næfð | nabbað | næfde | næfdest | næfdon |
+**nabban**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | næbbe | næfde |
+| 2 sg. | næfst | næfdest |
+| 3 sg. | næfð | næfde |
+| 1–3 pl. | nabbað | næfdon |
 
 **Nafast, nafað** are further source alternatives. The contraction after **ne** is frequent, not compulsory: uncontracted **ne hæbbe** is also valid. Recognition of this series does not teach negative forms of the copula.
 
@@ -626,7 +704,7 @@ In each clause, **ðe** represents the direct object. The preceding noun has its
 
 [2] Cook §83, p.50 / PDF66: invariant third-person genitives and the separate inflecting possessive adjectives.
 
-[3] Cook §96, p.56 / PDF72, and the complete weak paradigms, §§117–124, pp.72–76 / PDF88–92. Some complete rows here combine a checked lexical stem with an explicit source pattern; they do not claim that every displayed cell occurs in the reading.
+[3] Cook §96, p.56 / PDF72, and the complete weak paradigms, §§117–124, pp.72–76 / PDF88–92. Some complete paradigms here combine a checked lexical stem with an explicit source pattern; they do not claim that every displayed cell occurs in the reading.
 
 [4] Cook §113, pp.67–69 / PDF83–85, with §§23,33–36, pp.18–19,24–25 / PDF34–35,40–41. Independent checks: Wright and Wright, *Old English Grammar*, second edition (1914), §§305,476,524,528–529,533, pp.151,248,267,269–270,273 / PDF171,268,287,289–290,293. These corroborate the contractions, inherited consonants and selected **gierwan** forms; no alternative dialectal spelling is silently imported.
 

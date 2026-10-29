@@ -100,16 +100,19 @@ A following ordinary adjective may be strong or weak after a possessive: Cook de
 
 <!-- teaching: NEW-U03-PAR-god-adjective-strong -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | gōd | gōd | gōd |
-| Singular | Gen. | gōdes | gōdes | gōdre |
-| Singular | Dat. | gōdum | gōdum | gōdre |
-| Singular | Acc. | gōdne | gōd | gōde |
-| Plural | Nom. | gōde | gōd | gōda |
-| Plural | Gen. | gōdra | gōdra | gōdra |
-| Plural | Dat. | gōdum | gōdum | gōdum |
-| Plural | Acc. | gōde | gōd | gōda |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | gōd | gōd | gōd |
+| Genitive | gōdes | gōdes | gōdre |
+| Dative | gōdum | gōdum | gōdre |
+| Accusative | gōdne | gōd | gōde |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | gōde | gōd | gōda |
+| Genitive | gōdra | gōdra | gōdra |
+| Dative | gōdum | gōdum | gōdum |
+| Accusative | gōde | gōd | gōda |
 
 Instrumental singular, recognition only: masculine gōde; neuter gōde.
 
@@ -121,16 +124,19 @@ The endingless feminine nominative singular and neuter nominative/accusative plu
 
 <!-- teaching: NEW-U03-PAR-god-adjective-weak -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | gōda | gōde | gōde |
-| Singular | Gen. | gōdan | gōdan | gōdan |
-| Singular | Dat. | gōdan | gōdan | gōdan |
-| Singular | Acc. | gōdan | gōde | gōdan |
-| Plural | Nom. | gōdan | gōdan | gōdan |
-| Plural | Gen. | gōdra | gōdra | gōdra |
-| Plural | Dat. | gōdum | gōdum | gōdum |
-| Plural | Acc. | gōdan | gōdan | gōdan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | gōda | gōde | gōde |
+| Genitive | gōdan | gōdan | gōdan |
+| Dative | gōdan | gōdan | gōdan |
+| Accusative | gōdan | gōde | gōdan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | gōdan | gōdan | gōdan |
+| Genitive | gōdra | gōdra | gōdra |
+| Dative | gōdum | gōdum | gōdum |
+| Accusative | gōdan | gōdan | gōdan |
 
 The weak adjective has -a in masculine nominative singular, -e in feminine nominative singular and neuter nominative/accusative singular, and -an in the other singular cells. All genders share the plural forms. Its selected genitive plural is -ra; do not replace it mechanically with a weak noun’s -ena. Cook also admits weak-adjective genitive plurals in -a and -ena. The comparative exceptions below are learned explicitly.
 
@@ -148,16 +154,19 @@ The distinct strong instrumental singular is recorded for recognition. It has th
 
 <!-- teaching: NEW-U03-PAR-glaed-strong -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | glæd | glæd | gladu |
-| Singular | Gen. | glades | glades | glædre |
-| Singular | Dat. | gladum | gladum | glædre |
-| Singular | Acc. | glædne | glæd | glade |
-| Plural | Nom. | glade | gladu | glada |
-| Plural | Gen. | glædra | glædra | glædra |
-| Plural | Dat. | gladum | gladum | gladum |
-| Plural | Acc. | glade | gladu | glada |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | glæd | glæd | gladu |
+| Genitive | glades | glades | glædre |
+| Dative | gladum | gladum | glædre |
+| Accusative | glædne | glæd | glade |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | glade | gladu | glada |
+| Genitive | glædra | glædra | glædra |
+| Dative | gladum | gladum | gladum |
+| Accusative | glade | gladu | glada |
 
 Instrumental singular, recognition only: masculine glade; neuter glade.
 
@@ -173,7 +182,7 @@ The selected short-stem feminine nominative singular and neuter nominative/accus
 
 ### A complete application map
 
-Use the two gōd tables with this map. **V-stem** is used before endings beginning with a vowel: -es, -um, -e, -a and -an. **C-stem** is used before -ne, -re and -ra. The strong masculine nominative singular and neuter nominative/accusative singular are the listed headword. The last two columns replace the corresponding endingless gōd cells. The strong instrumental singular is V-stem + -e. Thus every strong and weak N/G/D/A cell is determined; do not add an ending twice to a form already listed in the last columns.
+Use the strong and weak gōd panels with this map. **V-stem** is used before endings beginning with a vowel: -es, -um, -e, -a and -an. **C-stem** is used before -ne, -re and -ra. The strong masculine nominative singular and neuter nominative/accusative singular are the listed headword. The last two columns replace the corresponding endingless gōd cells. The strong instrumental singular is V-stem + -e. Thus every strong and weak N/G/D/A cell is determined; do not add an ending twice to a form already listed in the last columns.
 
 <!-- teaching: NEW-U03-PAR-micel-strong -->
 
@@ -246,16 +255,19 @@ Hēah loses h and contracts in much of its inflection. Use this complete selecte
 
 **Strong hēah.**
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | hēah | hēah | hēa |
-| Singular | Gen. | hēas | hēas | hēarre |
-| Singular | Dat. | hēaum | hēaum | hēarre |
-| Singular | Acc. | hēanne | hēah | hēa |
-| Plural | Nom. | hēa | hēa | hēa |
-| Plural | Gen. | hēarra | hēarra | hēarra |
-| Plural | Dat. | hēaum | hēaum | hēaum |
-| Plural | Acc. | hēa | hēa | hēa |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hēah | hēah | hēa |
+| Genitive | hēas | hēas | hēarre |
+| Dative | hēaum | hēaum | hēarre |
+| Accusative | hēanne | hēah | hēa |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hēa | hēa | hēa |
+| Genitive | hēarra | hēarra | hēarra |
+| Dative | hēaum | hēaum | hēaum |
+| Accusative | hēa | hēa | hēa |
 
 Instrumental singular, recognition only: masculine hēa; neuter hēa.
 
@@ -263,16 +275,19 @@ Instrumental singular, recognition only: masculine hēa; neuter hēa.
 
 **Weak hēah.**
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | hēa | hēa | hēa |
-| Singular | Gen. | hēan | hēan | hēan |
-| Singular | Dat. | hēan | hēan | hēan |
-| Singular | Acc. | hēan | hēa | hēan |
-| Plural | Nom. | hēan | hēan | hēan |
-| Plural | Gen. | hēarra | hēarra | hēarra |
-| Plural | Dat. | hēaum | hēaum | hēaum |
-| Plural | Acc. | hēan | hēan | hēan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hēa | hēa | hēa |
+| Genitive | hēan | hēan | hēan |
+| Dative | hēan | hēan | hēan |
+| Accusative | hēan | hēa | hēan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hēan | hēan | hēan |
+| Genitive | hēarra | hēarra | hēarra |
+| Dative | hēaum | hēaum | hēaum |
+| Accusative | hēan | hēan | hēan |
 
 The selected hēaum has the supported alternative hēam. Hēanne may appear as hēane; hēarre/hēarra as hēare/hēara. The tables retain their selected doubling and vowel sequence. These forms show why consonant loss, doubling and contraction must be learned with the paradigm.
 
@@ -300,12 +315,12 @@ Eall means “all”. Its strong morphology is for recognition here; no independ
 
 Ðing, neuter, means “thing”. Lēoht, neuter, can now also name an individual light or luminary. This counted sense differs from the mass sense “light” already learned. Both follow the complete heavy-neuter pattern:
 
-| Case | ðing sg. | ðing pl. | lēoht sg. | lēoht pl. |
+| Case | ðing singular | ðing plural | lēoht singular | lēoht plural |
 | --- | --- | --- | --- | --- |
-| Nom. | ðing | ðing | lēoht | lēoht |
-| Gen. | ðinges | ðinga | lēohtes | lēohta |
-| Dat. | ðinge | ðingum | lēohte | lēohtum |
-| Acc. | ðing | ðing | lēoht | lēoht |
+| Nominative | ðing | ðing | lēoht | lēoht |
+| Genitive | ðinges | ðinga | lēohtes | lēohta |
+| Dative | ðinge | ðingum | lēohte | lēohtum |
+| Accusative | ðing | ðing | lēoht | lēoht |
 
 Use all four plural cases of counted lēoht productively. The unchanged spelling lēoht in nominative/accusative plural does not make it singular. Number is also shown by its determiner, numeral, adjective and clause context.
 
@@ -420,16 +435,19 @@ The possessors are the speaker and others; the birds are masculine accusative pl
 
 <!-- teaching: NEW-U03-PAR-min-poss-strong -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | mīn | mīn | mīn |
-| Singular | Gen. | mīnes | mīnes | mīnre |
-| Singular | Dat. | mīnum | mīnum | mīnre |
-| Singular | Acc. | mīnne | mīn | mīne |
-| Plural | Nom. | mīne | mīn | mīna |
-| Plural | Gen. | mīnra | mīnra | mīnra |
-| Plural | Dat. | mīnum | mīnum | mīnum |
-| Plural | Acc. | mīne | mīn | mīna |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | mīn | mīn | mīn |
+| Genitive | mīnes | mīnes | mīnre |
+| Dative | mīnum | mīnum | mīnre |
+| Accusative | mīnne | mīn | mīne |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | mīne | mīn | mīna |
+| Genitive | mīnra | mīnra | mīnra |
+| Dative | mīnum | mīnum | mīnum |
+| Accusative | mīne | mīn | mīna |
 
 Instrumental singular, recognition only: masculine mīne; neuter mīne.
 
@@ -441,16 +459,19 @@ The complete ðīn paradigm is obtained by replacing mīn- with ðīn- in every 
 
 <!-- teaching: NEW-U03-PAR-uncer-poss-strong -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | uncer | uncer | uncru |
-| Singular | Gen. | uncres | uncres | uncerre |
-| Singular | Dat. | uncrum | uncrum | uncerre |
-| Singular | Acc. | uncerne | uncer | uncre |
-| Plural | Nom. | uncre | uncru | uncra |
-| Plural | Gen. | uncerra | uncerra | uncerra |
-| Plural | Dat. | uncrum | uncrum | uncrum |
-| Plural | Acc. | uncre | uncru | uncra |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | uncer | uncer | uncru |
+| Genitive | uncres | uncres | uncerre |
+| Dative | uncrum | uncrum | uncerre |
+| Accusative | uncerne | uncer | uncre |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | uncre | uncru | uncra |
+| Genitive | uncerra | uncerra | uncerra |
+| Dative | uncrum | uncrum | uncrum |
+| Accusative | uncre | uncru | uncra |
 
 Instrumental singular, recognition only: masculine uncre; neuter uncre.
 
@@ -462,31 +483,37 @@ The complete incer paradigm replaces uncer-/uncr- with incer-/incr- in the corre
 
 <!-- teaching: NEW-U03-PAR-ure-poss-strong -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | ūre | ūre | ūre |
-| Singular | Gen. | ūres | ūres | ūrre |
-| Singular | Dat. | ūrum | ūrum | ūrre |
-| Singular | Acc. | ūrne | ūre | ūre |
-| Plural | Nom. | ūre | ūru | ūra |
-| Plural | Gen. | ūrra | ūrra | ūrra |
-| Plural | Dat. | ūrum | ūrum | ūrum |
-| Plural | Acc. | ūre | ūru | ūra |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ūre | ūre | ūre |
+| Genitive | ūres | ūres | ūrre |
+| Dative | ūrum | ūrum | ūrre |
+| Accusative | ūrne | ūre | ūre |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ūre | ūru | ūra |
+| Genitive | ūrra | ūrra | ūrra |
+| Dative | ūrum | ūrum | ūrum |
+| Accusative | ūre | ūru | ūra |
 
 Instrumental singular, recognition only: masculine ūre; neuter ūre.
 
 <!-- teaching: NEW-U03-PAR-eower-poss-strong -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | ēower | ēower | ēowru |
-| Singular | Gen. | ēowres | ēowres | ēowerre |
-| Singular | Dat. | ēowrum | ēowrum | ēowerre |
-| Singular | Acc. | ēowerne | ēower | ēowre |
-| Plural | Nom. | ēowre | ēowru | ēowra |
-| Plural | Gen. | ēowerra | ēowerra | ēowerra |
-| Plural | Dat. | ēowrum | ēowrum | ēowrum |
-| Plural | Acc. | ēowre | ēowru | ēowra |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ēower | ēower | ēowru |
+| Genitive | ēowres | ēowres | ēowerre |
+| Dative | ēowrum | ēowrum | ēowerre |
+| Accusative | ēowerne | ēower | ēowre |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ēowre | ēowru | ēowra |
+| Genitive | ēowerra | ēowerra | ēowerra |
+| Dative | ēowrum | ēowrum | ēowrum |
+| Accusative | ēowre | ēowru | ēowra |
 
 Instrumental singular, recognition only: masculine ēowre; neuter ēowre.
 
@@ -615,16 +642,19 @@ The positive names a quality; the comparative expresses a greater or lesser degr
 
 A comparative is weak, including when it is a predicate with no preceding article. Māra supplies a complete model:
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | māra | māre | māre |
-| Singular | Gen. | māran | māran | māran |
-| Singular | Dat. | māran | māran | māran |
-| Singular | Acc. | māran | māre | māran |
-| Plural | Nom. | māran | māran | māran |
-| Plural | Gen. | mārra | mārra | mārra |
-| Plural | Dat. | mārum | mārum | mārum |
-| Plural | Acc. | māran | māran | māran |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | māra | māre | māre |
+| Genitive | māran | māran | māran |
+| Dative | māran | māran | māran |
+| Accusative | māran | māre | māran |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | māran | māran | māran |
+| Genitive | mārra | mārra | mārra |
+| Dative | mārum | mārum | mārum |
+| Accusative | māran | māran | māran |
 
 For each other comparative, replace its final masculine nominative -a with -e for neuter/feminine nominative singular and neuter accusative singular; with -an for the other singular cases and all nominative/accusative plurals; and with -um for all dative plurals. Use the following genitive plurals, which are the same in all genders. These explicit forms complete each comparative paradigm.
 
@@ -833,16 +863,19 @@ Translate Sōðlice, ðæt weorc is swīðe gōd. Compare it with Ðæt weorc is
 
 <!-- teaching: NEW-U03-PAR-an-strong -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | ān | ān | ān |
-| Singular | Gen. | ānes | ānes | ānre |
-| Singular | Dat. | ānum | ānum | ānre |
-| Singular | Acc. | ānne | ān | āne |
-| Plural: reference only | Nom. | āne | ān | āna |
-| Plural: reference only | Gen. | ānra | ānra | ānra |
-| Plural: reference only | Dat. | ānum | ānum | ānum |
-| Plural: reference only | Acc. | āne | ān | āna |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ān | ān | ān |
+| Genitive | ānes | ānes | ānre |
+| Dative | ānum | ānum | ānre |
+| Accusative | ānne | ān | āne |
+
+| Case | Masculine plural: reference only | Neuter plural: reference only | Feminine plural: reference only |
+| --- | --- | --- | --- |
+| Nominative | āne | ān | āna |
+| Genitive | ānra | ānra | ānra |
+| Dative | ānum | ānum | ānum |
+| Accusative | āne | ān | āna |
 
 Instrumental singular, recognition only: masculine āne; neuter āne.
 
@@ -856,10 +889,10 @@ Only the singular is used productively for cardinal “one”. The plural table 
 
 | Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| Nom. | twēgen | twā | twā |
-| Gen. | twēgra | twēgra | twēgra |
-| Dat. | twǣm | twǣm | twǣm |
-| Acc. | twēgen | twā | twā |
+| Nominative | twēgen | twā | twā |
+| Genitive | twēgra | twēgra | twēgra |
+| Dative | twǣm | twǣm | twǣm |
+| Accusative | twēgen | twā | twā |
 
 <!-- teaching: NEW-U03-PAR-thrie -->
 
@@ -867,10 +900,10 @@ Only the singular is used productively for cardinal “one”. The plural table 
 
 | Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| Nom. | ðrīe | ðrēo | ðrēo |
-| Gen. | ðrēora | ðrēora | ðrēora |
-| Dat. | ðrīm | ðrīm | ðrīm |
-| Acc. | ðrīe | ðrēo | ðrēo |
+| Nominative | ðrīe | ðrēo | ðrēo |
+| Genitive | ðrēora | ðrēora | ðrēora |
+| Dative | ðrīm | ðrīm | ðrīm |
+| Accusative | ðrīe | ðrēo | ðrēo |
 
 All three genders share each numeral’s genitive and dative. Nominative and accusative plural distinguish the selected gender forms. A recipient still takes the dative numeral and dative noun.
 
@@ -982,16 +1015,19 @@ Ordinals express position in an order. First and third through seventh are weak.
 
 <!-- teaching: NEW-U03-PAR-thridda-weak -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | ðridda | ðridde | ðridde |
-| Singular | Gen. | ðriddan | ðriddan | ðriddan |
-| Singular | Dat. | ðriddan | ðriddan | ðriddan |
-| Singular | Acc. | ðriddan | ðridde | ðriddan |
-| Plural | Nom. | ðriddan | ðriddan | ðriddan |
-| Plural | Gen. | ðridra | ðridra | ðridra |
-| Plural | Dat. | ðriddum | ðriddum | ðriddum |
-| Plural | Acc. | ðriddan | ðriddan | ðriddan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ðridda | ðridde | ðridde |
+| Genitive | ðriddan | ðriddan | ðriddan |
+| Dative | ðriddan | ðriddan | ðriddan |
+| Accusative | ðriddan | ðridde | ðriddan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ðriddan | ðriddan | ðriddan |
+| Genitive | ðridra | ðridra | ðridra |
+| Dative | ðriddum | ðriddum | ðriddum |
+| Accusative | ðriddan | ðriddan | ðriddan |
 
 <!-- teaching: NEW-U03-PAR-aeresta-weak -->
 
@@ -1009,16 +1045,19 @@ For first and fourth through seventh, remove masculine nominative -a to obtain t
 
 <!-- teaching: NEW-U03-PAR-other-strong -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | ōðer | ōðer | ōðru |
-| Singular | Gen. | ōðres | ōðres | ōðerre |
-| Singular | Dat. | ōðrum | ōðrum | ōðerre |
-| Singular | Acc. | ōðerne | ōðer | ōðre |
-| Plural | Nom. | ōðre | ōðru | ōðra |
-| Plural | Gen. | ōðerra | ōðerra | ōðerra |
-| Plural | Dat. | ōðrum | ōðrum | ōðrum |
-| Plural | Acc. | ōðre | ōðru | ōðra |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ōðer | ōðer | ōðru |
+| Genitive | ōðres | ōðres | ōðerre |
+| Dative | ōðrum | ōðrum | ōðerre |
+| Accusative | ōðerne | ōðer | ōðre |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ōðre | ōðru | ōðra |
+| Genitive | ōðerra | ōðerra | ōðerra |
+| Dative | ōðrum | ōðrum | ōðrum |
+| Accusative | ōðre | ōðru | ōðra |
 
 Instrumental singular, recognition only: masculine ōðre; neuter ōðre.
 
@@ -1068,16 +1107,19 @@ The article forms se, sēo, ðæt can also point to “that” or “those”. T
 
 <!-- teaching: NEW-U03-PAR-se-demonstrative -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | se | ðæt | sēo |
-| Singular | Gen. | ðæs | ðæs | ðǣre |
-| Singular | Dat. | ðǣm | ðǣm | ðǣre |
-| Singular | Acc. | ðone | ðæt | ðā |
-| Plural | Nom. | ðā | ðā | ðā |
-| Plural | Gen. | ðāra | ðāra | ðāra |
-| Plural | Dat. | ðǣm | ðǣm | ðǣm |
-| Plural | Acc. | ðā | ðā | ðā |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | se | ðæt | sēo |
+| Genitive | ðæs | ðæs | ðǣre |
+| Dative | ðǣm | ðǣm | ðǣre |
+| Accusative | ðone | ðæt | ðā |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ðā | ðā | ðā |
+| Genitive | ðāra | ðāra | ðāra |
+| Dative | ðǣm | ðǣm | ðǣm |
+| Accusative | ðā | ðā | ðā |
 
 Instrumental singular, recognition only: masculine ðȳ; neuter ðȳ.
 
@@ -1087,16 +1129,19 @@ The table repeats the existing article morphology. The instrumental alternatives
 
 <!-- teaching: NEW-U03-PAR-thes-demonstrative -->
 
-| Number | Case | Masculine | Neuter | Feminine |
-| --- | --- | --- | --- | --- |
-| Singular | Nom. | ðes | ðis | ðēos |
-| Singular | Gen. | ðisses | ðisses | ðisse |
-| Singular | Dat. | ðissum | ðissum | ðisse |
-| Singular | Acc. | ðisne | ðis | ðās |
-| Plural | Nom. | ðās | ðās | ðās |
-| Plural | Gen. | ðissa | ðissa | ðissa |
-| Plural | Dat. | ðissum | ðissum | ðissum |
-| Plural | Acc. | ðās | ðās | ðās |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ðes | ðis | ðēos |
+| Genitive | ðisses | ðisses | ðisse |
+| Dative | ðissum | ðissum | ðisse |
+| Accusative | ðisne | ðis | ðās |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ðās | ðās | ðās |
+| Genitive | ðissa | ðissa | ðissa |
+| Dative | ðissum | ðissum | ðissum |
+| Accusative | ðās | ðās | ðās |
 
 Instrumental singular, recognition only: masculine ðȳs; neuter ðȳs.
 

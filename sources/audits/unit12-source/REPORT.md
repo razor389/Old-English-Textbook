@@ -2,7 +2,7 @@
 
 The source package is ready for the coordinator’s learning contract. It assigns all 38 Cook Group VI items: Exercise 19 (17), Exercise 20 (9), and Exercise 21 (12), printed pp. 9–11 / registered PDF pp. 17–19. No item is redistributed, omitted, or deferred. This report concerns source preparation; it does not certify a lesson, key, review, or export.
 
-The audit starts from the eleven actual active contracts and cumulative lexical/grammar registers at `74da7bb`. Archived evidence may explain a fact, but no archived learning milestone has been imported. The source editor owns only this directory and its named scratch helpers; the coordinator owns Beads and integration.
+The audit starts from the eleven actual active contracts and cumulative lexical/grammar registers at `74da7bb`. The source editor owns only this directory and its named scratch helpers; the coordinator owns Beads and integration.
 
 ## Reading and source fidelity
 

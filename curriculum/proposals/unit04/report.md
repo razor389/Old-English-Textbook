@@ -6,7 +6,7 @@ Frozen audit identities: grammar `97018d2843a502809ef246f5f20db280ebe392d639ad9c
 
 ## Actual prior boundary
 
-The reviewed contracts of Units 1–3 and the actual cumulative registers were read. The starting registers contain 163 lemmas, 2,319 forms, 178 senses and 127 constructions. Their file identities and actual production, recognition and supplied histories are preserved in `prior-audit.json` and the proposal's `prior_requirements`. Archived material contributes evidence only.
+The reviewed contracts of Units 1–3 and the actual cumulative registers were read. The starting registers contain 163 lemmas, 2,319 forms, 178 senses and 127 constructions. Their file identities and actual production, recognition and supplied histories are preserved in `prior-audit.json` and the proposal's `prior_requirements`.
 
 The earlier supplied **wearð** is explicitly promoted as a finite form; its supplied history is retained. The new ordinary sense `weorthan-become` remains separate from supplied passive `weorthan-1`. Earlier **geswāc**, subjunctive **scīnen/scinen**, other-class strong forms, temporal **ðā**, instrumentals and advanced source constructions acquire no inferred productive milestone. **Eall** retains prior recognition, and **āna** “alone” has a separate supplied sense and weak masculine singular form. Reference-only **\*sǣwa** is untouched.
 
@@ -37,7 +37,7 @@ The exact 44-word Apollonius storm-to-shore span is a separate supported origina
 - `inventory.json`: 53 lemma records, 420 forms, 54 senses, 38 features, 30 paradigms and 182 teaching/support records, plus the full source reading, evidence and actual prior requirements. The form counts are 320 new production, 24 new recognition, 74 supplied and two prior recognition records.
 - `task-plan.json`: all 52 exact prompts, stable task/key counterparts, separate required/tested form/sense/feature links, explicit support and analysis target witnesses.
 - `compositions.json`: the exact 51-word account and eight exact ungraded examples, each with exhaustive productive token and construction dependencies.
-- `prior-audit.json`: actual prior file identities, milestones and scope limits; no archived-course teaching is imported.
+- `prior-audit.json`: actual prior file identities, milestones and scope limits.
 - `validation.json`: passing uniqueness, complete-system, source fidelity, token, scope-gate, prior-preservation, evidence-image/hash and NFC checks.
 
 `task-seed.json`, `composition-seed.json` and `design-outline.md` are earlier planning records; the reconciled machine files above control the proposal. The bounded assembly and validation helpers under `build/` are editorial scratch, not a general course conversion pipeline.

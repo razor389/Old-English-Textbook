@@ -1,10 +1,38 @@
 # Unit 12 exports
 
-The complete [learner PDF](chapter-12.pdf) has **47 pages**; the [separate key](answer-key.pdf) has **30**. Editable masters: [student.md](../../chapters/ch12/student.md) and [answer-key.md](../../chapters/ch12/answer-key.md). All 76 tasks, vocabulary, complete defined systems, readings, support and source notes are included.
+The accepted table-layout revision has a complete [learner PDF](chapter-12.pdf) of **46 pages** and a separate [answer-key PDF](answer-key.pdf) of **30 pages**. The changed pages and heading repairs passed independent visual review.
+
+Current [export identities and page counts](../../docs/revisions/table-layout/exports.json), [page acceptance](../../docs/revisions/table-layout/page-review.json), and the [validated build report](../../docs/revisions/table-layout/build-report.json) document this presentation revision. The [complete-content checks](../../docs/revisions/table-layout/export-text-review.json) and [logical-table review](../../docs/revisions/table-layout/table-review.json) preserve the teaching and source scope.
+
+Editable masters are [student.md](../../chapters/ch12/student.md) and [answer-key.md](../../chapters/ch12/answer-key.md); complete TeX sources are [chapter-12.tex](chapter-12.tex) and [answer-key.tex](answer-key.tex). The [course presentation revision](../../docs/revisions/table-layout/) records the mapping and checks separately from the original unit review.
+
+Tables follow the shared [layout](../book-layout.tex): 10.5-point type with 13.2-point leading, bold headings, horizontal rules and consistent case/person labels. Identical verbal plural cells share `1–3 pl.`; distinct forms remain separate. Counts of grammatical forms and cells describe the complete logical paradigm, which is unchanged by fewer printed rows. Nominal cases, variants, supported uses and teaching milestones retain their stated scope.
+
+## Reproduction
+
+Run from the repository root with the configured TeX Live, Cambria, Xpdf and Ghostscript installation:
+
+```powershell
+python -X utf8 scripts/check_course_layout.py --report build/course-layout-check.json
+python -X utf8 scripts/build_course_exports.py --stage all --select ch12/learner,ch12/key --include-unchanged --jobs 2 --render-suffix reproduction-01
+python -X utf8 scripts/check_course_exports.py --chapter 12 --report build/course-export-ch12-check.json
+```
+
+The shared build command compiles each complete document twice, checks table parity and build diagnostics, extracts its text and renders all pages. Choose a fresh `--render-suffix` for a later changed build. Use `--stage inspect` to inspect existing build products without compiling, or `--stage render` to regenerate page images from them. `--select` accepts comma-separated document IDs such as `ch01/learner,ch03/key`.
+
+The layout check compares expanded logical cells, actual Markdown/TeX tables, protected distinctions and frozen teaching content. The export check independently compares complete master prose, actual TeX cells and captions, and the built PDF text. The `--chapter` restriction above is a unit diagnostic; complete-course acceptance uses the unrestricted command in the [shared reproduction instructions](../README.md#reproduction). A later changed build needs fresh visual review bound to its PDF and page-image identities before it replaces an accepted PDF. Do not rerun historical assemblers, register mergers or baseline captures to rebuild exports.
+
+Reproduction outputs and reports remain under `build/`; the build helper does not replace retained PDFs or rewrite the durable acceptance records linked above.
+
+## Original unit acceptance and content scope
+
+The following records the unit's original linguistic acceptance and export evidence. Its page counts, physical table counts, PDF hashes and inspection claims describe that earlier checkpoint, not acceptance of the current presentation revision. The substantive teaching, task and logical-cell counts remain applicable.
+
+At the original export checkpoint: the complete learner PDF has **47 pages**; the separate key has **30**. Editable masters: [student.md](../../chapters/ch12/student.md) and [answer-key.md](../../chapters/ch12/answer-key.md). All 76 tasks, vocabulary, complete defined systems, readings, support and source notes are included.
 
 All **77 final pages** passed non-author visual inspection. [Individual ledgers](reviews/) retain page-specific observations and exact PDF/image identities. Wide adjective tables use stacked singular/plural panels at unchanged 10.5pt type, with visible captions. The parity check reconstructs the original seven-column coordinates. Lexical definitions stay with their first display or derivation; each Cook prompt stays with its answer. The key's diagnostic table has enough width for geopenian. [Final acceptance](page-review.json) reconciles every final page, complete parity, unchanged accepted masters and clean build logs. The ledgers record repairs and reinspections.
 
-## Content and review
+### Original content and review
 
 [Complete parity](content-parity.json) covers **796 prose/heading/list blocks, 82 tables, 1,124 cells including headers, and 572 editorial comments**. An independent Markdown inventory matches decoded TeX; full prose matches extracted PDF text after whitespace and soft-hyphen normalization. Visual review includes tables, endings and special characters.
 
@@ -14,26 +42,6 @@ All **38 Cook VI.19–21 prompts** preserve their wording and identifiers, along
 
 The main [reviewer](../../chapters/ch12/review.md) froze [solutions](../../chapters/ch12/independent-solutions.md) before opening key/private answer files. The record distinguishes 75 unexposed tasks from an exposed check of Cook 21.4, whose proposed clause had accidentally appeared in a source discussion. A fresh reviewer froze an [unexposed 21.4 solution](../../chapters/ch12/reviews/fresh-21-04-solutions.md) before key access and completed a separate [primary-source paradigm review](../../chapters/ch12/reviews/paradigms.json). The [main ledger](../../chapters/ch12/review-ledger.json) records every actual task, all 692 cell routes, source checks, alternatives and adjudications. No material finding remains open. Neither reviewer authored a master or graded task. Original audit records and frozen witnesses remain unchanged; the two canonical amendments are recorded in coverage and review.
 
-## Rebuilding
-
-Markdown remains the editable master. Retained TeX preserves the reviewed layout. Use LuaLaTeX with Cambria and [book-layout.tex](../book-layout.tex): 165 × 241 mm trim, body 11/14.3 pt, tables 10.5/13.2 pt and source endnotes 10/12.8 pt. Both documents use `Ligatures=TeXOff`; earlier exports and the shared layout remain unchanged.
-
-From this directory:
-
-```powershell
-New-Item -ItemType Directory -Force build
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build chapter-12.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build chapter-12.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build answer-key.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build answer-key.tex
-pdftotext -enc UTF-8 -layout build/chapter-12.pdf build/chapter-12.txt
-pdftotext -enc UTF-8 -layout build/answer-key.pdf build/answer-key.txt
-```
-
-The checked toolchain is TeX Live 2026 LuaHBTeX, Xpdf pdftotext and Ghostscript. This Windows installation needs access to the owner's font caches. Final logs contain no overfull/underfull boxes, missing characters, font substitutions or unresolved rerun warnings.
-
-From the repository root, `python -X utf8 scripts/check_unit12.py --draft --tex` checks task/key references, exact prompts/passages, literal and derived paradigms, evidence identities and logs. It supplements linguistic and visual review. Render all pages with Ghostscript `png16m`, `-r150 -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -dBATCH -dNOPAUSE`, supplying TeX Live's `Resource/Init`, `lib` and `kanji` through `-I`.
-
-Build products and export-page images are ignored; inspected identities remain in the ledgers. Source evidence images remain tracked. One-use helpers in ignored build directories are not required generators; rerunning assembly can discard reviewed repairs. Rebuilt PDF metadata can differ, so replace retained PDFs only after full parity and page review.
+### Original checkpoints
 
 Checkpoints: contract **`3ec8787`**, complete drafts **`4c9bcd8`**, main pre-key solutions **`a48c232`**, fresh pre-key solution **`b52a9d3`**, accepted text **`61f4ea4`**. The [handoff](../../docs/HANDOFF.md) records complete exports, register integration and final closure.

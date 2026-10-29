@@ -22,7 +22,7 @@ The eight planned teaching examples and controlled narrative were source-checked
 
 ## Actual prior teaching
 
-I read all three active coverage contracts and the actual cumulative `lexicon/entries.json` and `curriculum/grammar.json`. Their hashes are in `prior_teaching_inputs`. The completed Unit 3 baseline contains 163 lemmas, 2,319 forms, 178 senses, and 127 grammatical features. Earlier contracts and the historical archive remain unchanged.
+I read all three active coverage contracts and the actual cumulative `lexicon/entries.json` and `curriculum/grammar.json`. Their hashes are in `prior_teaching_inputs`. The completed Unit 3 baseline contains 163 lemmas, 2,319 forms, 178 senses, and 127 grammatical features. Earlier contracts remain unchanged.
 
 No complete strong I–III conjugation was previously productive. In particular, supplied **wearð**, **geswāc**, **scīnen**, **scinen**, and **geweorðan** material establish no strong indicative paradigm. Retain the existing `weorthan-pret-3-sg` ID and its exposure history when promoting morphology. The new `weorthan-become` sense is distinct from prior supplied `weorthan-1`, whose local use was passive auxiliary. Introducing ordinary **become** does not teach that passive construction.
 
@@ -36,7 +36,7 @@ Wright and Wright, *Old English Grammar*, second edition (1914), PDF SHA256 `04e
 
 The Bosworth–Toller main dictionary and Toller Supplement are separately identified facsimile pages served by the dictionary site, not pages of a local PDF. Their exact URLs, columns, retained image paths and SHA256s are in the evidence catalog. The coordinator owns the supplementary registry record. Cook remains the ordinary spelling baseline; the dictionary supplies lexical government and the explicitly declared rare-form crosscheck.
 
-All images used as authority were visually inspected. OCR and the online dictionary transcription were finding aids. Each cell says whether it is directly printed, a declared normalization, or transparently generated from a printed stem, endings and rules. A generated cell is not called an individual attestation. Full original images are retained; none of the archived evidence was edited.
+All images used as authority were visually inspected. OCR and the online dictionary transcription were finding aids. Each cell says whether it is directly printed, a declared normalization, or transparently generated from a printed stem, endings and rules. A generated cell is not called an individual attestation. Full original images are retained.
 
 ## Morphological decisions
 
@@ -65,7 +65,7 @@ All images used as authority were visually inspected. OCR and the online diction
 | helpan + dative being helped | [BT main527b, helpan](https://bosworthtoller.com/18680), expressly genitive or dative | Selected dative; human source example and new birds application distinguished; genitive valid but unassigned |
 | ordinary weorðan + agreeing nominative predicate | Cook §150 p.88/PDF104 plus dictionary p.321/PDF337 | New indicative **wearð glæd** applies ordinary ‘become’ and predicate agreement; passive remains supplied |
 
-The exact eight proposed examples use those frames and the audited forms. The controlled travel/find/drink/rest story uses ordinary intransitive **rīdan**, accusative **findan/cēosan/drincan**, and intransitive **singan**. Its **ridon, fundon, curon, druncon** and **singe** agree with the selected tables. The rest/location, quotation and dual constructions rely on actual prior teaching, not the old archive. Changing the opening noun from **męnn** to **gefēran** is a separately audited source-editor noun choice; it does not change the verb frame.
+The exact eight proposed examples use those frames and the audited forms. The controlled travel/find/drink/rest story uses ordinary intransitive **rīdan**, accusative **findan/cēosan/drincan**, and intransitive **singan**. Its **ridon, fundon, curon, druncon** and **singe** agree with the selected tables. The rest/location, quotation and dual constructions rely on actual prior teaching. Changing the opening noun from **męnn** to **gefēran** is a separately audited source-editor noun choice; it does not change the verb frame.
 
 Other representative verbs have fully taught morphology and a bounded gloss, but no invented complement: **bēodan** ‘offer’ does not teach ‘command + clause’; **gieldan** does not automatically teach payment/recipient syntax; **weorpan** does not introduce a new goal preposition; the rare references carry no production of their objects. Isolated morphology tasks can cover their useful stem patterns without unsupported sentence composition.
 

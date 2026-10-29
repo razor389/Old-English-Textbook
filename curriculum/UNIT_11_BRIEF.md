@@ -4,7 +4,7 @@ Unit 11 follows the ten reviewed units. Teach temporal, causal, purpose, result,
 
 ## Evidence and assignments
 
-Use the registered editions and inspected page images. Preserve source spelling, quantities, identifiers and English prompts. Keep printed pages, one-based PDF pages and editorial prose-line counting distinct. OCR is a finding aid. The archived course supplies checked evidence, not new-course teaching milestones.
+Use the registered editions and inspected page images. Preserve source spelling, quantities, identifiers and English prompts. Keep printed pages, one-based PDF pages and editorial prose-line counting distinct. OCR is a finding aid.
 
 Assign all **46 Cook IV.16–17 and V.18 items**: 16, 17 and 13 respectively, printed pp8–9 / PDF16–17. Keep the three complete sets together. Preserve parenthetical Old English hints, grammatical references and distinctions such as *rose up*, *life* and the plain-e **ācenned** hint. Editorial controls and help must remain separate from the original prompts. These assignments resolve earlier deferrals without rewriting earlier contracts. The numbered crosswalk becomes **295 assigned, 349 deferred, no exclusions**, totaling 644.
 
@@ -48,4 +48,4 @@ Bind actual public inputs and private required outputs to the precise records, p
 
 The coordinator owns the contract, cumulative registers, source indexes and Beads. The reserved reviewer solves all actual learner tasks before opening the key or private answer-bearing files, freezes that witness in Git, then compares it with the key. Disclose prior grammar-audit work and preserve any errors in the independent witness. Resolve material findings before exports.
 
-Produce complete learner and separate-key LuaLaTeX exports. Verify Markdown/TeX/PDF parity and inspect every final page, table and special character with a non-author. Preserve baseline **fdddbe6**, every earlier active artifact, all earlier register histories and the archived snapshot. Update README, status, handoff, source indexes and the actual cumulative registers, export Beads and save recoverable local revisions. No remote or push is required. Do not draft Unit 12.
+Produce complete learner and separate-key LuaLaTeX exports. Verify Markdown/TeX/PDF parity and inspect every final page, table and special character with a non-author. Preserve baseline **fdddbe6**, every earlier active artifact, all earlier register histories. Update README, status, handoff, source indexes and the actual cumulative registers, export Beads and save recoverable local revisions. No remote or push is required. Do not draft Unit 12.

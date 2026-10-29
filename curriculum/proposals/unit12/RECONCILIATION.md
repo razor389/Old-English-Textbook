@@ -1,6 +1,6 @@
 # Unit 12 design reconciliation
 
-The designer read all eleven active contracts and the actual cumulative registers at `74da7bb`. The archived course was used only as evidence. The complete Cook assignment remains VI.19.1–17, VI.20.1–9 and VI.21.1–12, with exact English prompts and separate editorial targets.
+The designer read all eleven active contracts and the actual cumulative registers at `74da7bb`. The complete Cook assignment remains VI.19.1–17, VI.20.1–9 and VI.21.1–12, with exact English prompts and separate editorial targets.
 
 The exact connected source assignment is the 155-word, two-paragraph passage beginning **Ðā ongunnon twā ðēoda** on Cook p145 and ending **and hīe mid ealle foriermdon.** on p146. All 21 attached original notes accompany it. The earlier historical background is supplied in English. The later appeal is outside this assignment. The ending supplies a coherent return to the raiding threat after the Roman withdrawal and an attested intransitive **wæs onweg gewiten**.
 

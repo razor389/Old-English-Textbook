@@ -1,0 +1,61 @@
+{
+  "reviewer": "/root/layout_pages_08_14",
+  "status": "accepted",
+  "date": "2026-10-29",
+  "scope": "Fresh direct visual inspection of the three changed Unit 12 answer-key pages after the bounded F06 heading reserve-space repair.",
+  "method": "Each full 150 dpi PNG was directly viewed at original resolution with view_image. Acceptance is based on those views; SHA-256 values only bind the inspected artifacts.",
+  "comparison_record": "docs/revisions/table-layout/heading-fix-comparison.json",
+  "document": "ch12/key",
+  "pdf": "typesetting/ch12/build/answer-key.pdf",
+  "pdf_sha256": "7e156152d884bd6c5a6b2cb1fe219db183031fd6ac5c9b6d1046af9fb6ee18db",
+  "initial_pdf_sha256": "97204ac13fcf1f4b20c82521cbb12f79af78cec1b8c2f4d03d2cca860a86dccb",
+  "pdf_pages": 30,
+  "inspected_page_count": 3,
+  "pages": [
+    {
+      "document": "ch12/key",
+      "page": 4,
+      "pdf": "typesetting/ch12/build/answer-key.pdf",
+      "pdf_sha256": "7e156152d884bd6c5a6b2cb1fe219db183031fd6ac5c9b6d1046af9fb6ee18db",
+      "image": "build/table-layout-pages/ch12/key-heading-fixes/page-004.png",
+      "image_sha256": "22f9884afea41236e3cb1d7195db6551b733ce2942025b2137ef75148623c3a6",
+      "inspection": "direct_full_page_view",
+      "status": "accepted",
+      "observations": "The page now closes after the complete F05 command-pair explanation. The F06 title is no longer stranded at the foot. F04 diagnostics, F05 command rows, special characters and margins remain clear."
+    },
+    {
+      "document": "ch12/key",
+      "page": 5,
+      "pdf": "typesetting/ch12/build/answer-key.pdf",
+      "pdf_sha256": "7e156152d884bd6c5a6b2cb1fe219db183031fd6ac5c9b6d1046af9fb6ee18db",
+      "image": "build/table-layout-pages/ch12/key-heading-fixes/page-005.png",
+      "image_sha256": "faf6dce7e03705a80b920ae6e095d5c10caafb1603f74c0adeb26d0aed6b1951",
+      "inspection": "direct_full_page_view",
+      "status": "accepted",
+      "observations": "F06. Habban with object and past participle. starts the page and stays with the full present and preterite construction tables. Person/number, Old English and English headers remain legible; all six distinct subject sentences fit in each table. The explanation begins below the tables and continues naturally onto page 6; no collision or clipping."
+    },
+    {
+      "document": "ch12/key",
+      "page": 6,
+      "pdf": "typesetting/ch12/build/answer-key.pdf",
+      "pdf_sha256": "7e156152d884bd6c5a6b2cb1fe219db183031fd6ac5c9b6d1046af9fb6ee18db",
+      "image": "build/table-layout-pages/ch12/key-heading-fixes/page-006.png",
+      "image_sha256": "5d82ae20539a3f1e692022b716d564a15467e46af4fd56a3537c2823fd901603",
+      "inspection": "direct_full_page_view",
+      "status": "accepted",
+      "observations": "The remaining two lines complete the F06 explanation cleanly before F07. The participle-base table, its explanation, and A01-A02 are intact, legible and separated. No new orphan title, broken table or margin collision is visible."
+    }
+  ],
+  "findings": [],
+  "resolved_observations": [
+    {
+      "id": "visual-08-14-01",
+      "original_review": "docs/revisions/table-layout/pages-08-14.json",
+      "disposition": "resolved",
+      "resolution": "The F06 heading appears at the top of page 5 with its first and second construction tables. Page 4 closes after F05. The short explanation continuation on page 6 is clean."
+    }
+  ],
+  "integrity_check": "The current final PDF and all three inspected PNGs independently match the SHA-256 values in the comparison record.",
+  "other_pages": "Not re-viewed in this bounded follow-up. The coordinator separately verified exact SHA-256 and byte identity with initially reviewed renders for all other pages.",
+  "original_review": "Preserved unchanged as the record of the initially inspected render."
+}

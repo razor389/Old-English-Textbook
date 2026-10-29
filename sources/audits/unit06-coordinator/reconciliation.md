@@ -4,7 +4,7 @@ Reconciled coordinator record, before the learning contract and learner/key pros
 
 ## Actual prior teaching
 
-The baseline is the final Unit 5 handoff at `45fa02e`, not the historical course. The five active contracts and actual cumulative registers contain 242 lemmas, 3,198 forms, 265 senses and 205 constructions. The immutable working snapshot also preserves 485 earlier active files and 134 archived files. Source/citation exposure does not establish new grammar or productive morphology.
+The baseline is the final Unit 5 handoff at `45fa02e`. The five active contracts and actual cumulative registers contain 242 lemmas, 3,198 forms, 265 senses and 205 constructions. The immutable working snapshot also preserves 485 earlier active files. Source/citation exposure does not establish new grammar or productive morphology.
 
 Earlier infinitive principal parts remain supplied until an exact form is explicitly promoted here. Preserve its stable form ID, earlier analysis, evidence, supplied history and original per-chapter record. An audit's new infinitive ID can map to that existing ID only after surface and morphological identity are checked. The supplied **Bēon** optative of the fourth-day reading must never be aliased to a new infinitive or indicative cell.
 
@@ -26,7 +26,7 @@ Choose the fisherman's kindness, gift and first direction, Cook's selected *Firs
 
 Root independently inspected the retained p167 detail image and Cook pp105–106 / PDF121–122. Cook §200 itself quotes the passage's **ðā ēstas him beforan lęgde ðe hē him tō bēodanne hæfde**. The local “had available to offer” meaning is supported explicitly and is not modern English obligation “had to”. The source's exact **læg**, **gīet**, **geseah**, **ūpāhōf** and **tō sęllanne** remain unchanged. Source and design audits must close all lexical, morphological and syntactic dependencies before the contract.
 
-There is no new numbered Cook set. Carry forward all 644 item dispositions: 79 assigned and 565 deferred, none excluded or omitted. I.4.18 and the birds candidate remain deferred to Unit 7. No prior contract or archived evidence file is rewritten.
+There is no new numbered Cook set. Carry forward all 644 item dispositions: 79 assigned and 565 deferred, none excluded or omitted. I.4.18 and the birds candidate remain deferred to Unit 7. No prior contract is rewritten.
 
 ## Closed evidence and contract gate
 
@@ -38,4 +38,4 @@ Two recommendations require explicit coordination. The grammar audit calls the s
 
 The coordinator additionally inspected Cook pp77–80,105–106, the p167 excerpt image and Fulk p90. The retained BT p1204 image independently corroborates preverbal ne in commands; the source editor's Cook example remains the active construction evidence. This corroboration assigns no additional lexical form.
 
-Save the exact `chapters/ch06/coverage.json` and `curriculum/UNIT_06_BRIEF.md`, pass the concrete reference/cell/source checks, export Beads and make the local pre-prose checkpoint. Only then authorize separate learner/key authorship. The later independent reviewer must solve every actual task before opening either the key or private translation/answer witnesses. Earlier contracts, records and archive stay unchanged.
+Save the exact `chapters/ch06/coverage.json` and `curriculum/UNIT_06_BRIEF.md`, pass the concrete reference/cell/source checks, export Beads and make the local pre-prose checkpoint. Only then authorize separate learner/key authorship. The later independent reviewer must solve every actual task before opening either the key or private translation/answer witnesses. Earlier contracts and records stay unchanged.

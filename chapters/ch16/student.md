@@ -385,17 +385,29 @@ The heavy stem takes no -u in the strong feminine nominative singular or neuter 
 
 <!-- table: NEW-U16-ADJ-HEALT-DISPLAY -->
 
-| Series / case | M sg | F sg | N sg | M pl | F pl | N pl |
-| --- | --- | --- | --- | --- | --- | --- |
-| Strong nominative | healt | healt | healt | healte | healta | healt |
-| Strong genitive | healtes | healtre | healtes | healtra | healtra | healtra |
-| Strong dative | healtum | healtre | healtum | healtum | healtum | healtum |
-| Strong accusative | healtne | healte | healt | healte | healta | healt |
-| Strong instrumental | healte | — | healte | — | — | — |
-| Weak nominative | healta | healte | healte | healtan | healtan | healtan |
-| Weak genitive | healtan | healtan | healtan | healtra | healtra | healtra |
-| Weak dative | healtan | healtan | healtan | healtum | healtum | healtum |
-| Weak accusative | healtan | healtan | healte | healtan | healtan | healtan |
+| Series / case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Strong nominative | healt | healt | healt |
+| Strong genitive | healtes | healtes | healtre |
+| Strong dative | healtum | healtum | healtre |
+| Strong accusative | healtne | healt | healte |
+| Strong instrumental | healte | healte | — |
+| Weak nominative | healta | healte | healte |
+| Weak genitive | healtan | healtan | healtan |
+| Weak dative | healtan | healtan | healtan |
+| Weak accusative | healtan | healte | healtan |
+
+| Series / case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Strong nominative | healte | healt | healta |
+| Strong genitive | healtra | healtra | healtra |
+| Strong dative | healtum | healtum | healtum |
+| Strong accusative | healte | healt | healta |
+| Strong instrumental | — | — | — |
+| Weak nominative | healtan | healtan | healtan |
+| Weak genitive | healtra | healtra | healtra |
+| Weak dative | healtum | healtum | healtum |
+| Weak accusative | healtan | healtan | healtan |
 
 <!-- teaching: NEW-U16-VOC-GELARED -->
 
@@ -407,17 +419,29 @@ The selected forms keep the full gelǣred- stem before endings. Shorter contract
 
 <!-- table: NEW-U16-ADJ-GELARED-DISPLAY -->
 
-| Series / case | M sg | F sg | N sg | M pl | F pl | N pl |
-| --- | --- | --- | --- | --- | --- | --- |
-| Strong nominative | gelǣred | gelǣredu | gelǣred | gelǣrede | gelǣreda | gelǣredu |
-| Strong genitive | gelǣredes | gelǣredre | gelǣredes | gelǣredra | gelǣredra | gelǣredra |
-| Strong dative | gelǣredum | gelǣredre | gelǣredum | gelǣredum | gelǣredum | gelǣredum |
-| Strong accusative | gelǣredne | gelǣrede | gelǣred | gelǣrede | gelǣreda | gelǣredu |
-| Strong instrumental | gelǣrede | — | gelǣrede | — | — | — |
-| Weak nominative | gelǣreda | gelǣrede | gelǣrede | gelǣredan | gelǣredan | gelǣredan |
-| Weak genitive | gelǣredan | gelǣredan | gelǣredan | gelǣredra | gelǣredra | gelǣredra |
-| Weak dative | gelǣredan | gelǣredan | gelǣredan | gelǣredum | gelǣredum | gelǣredum |
-| Weak accusative | gelǣredan | gelǣredan | gelǣrede | gelǣredan | gelǣredan | gelǣredan |
+| Series / case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Strong nominative | gelǣred | gelǣred | gelǣredu |
+| Strong genitive | gelǣredes | gelǣredes | gelǣredre |
+| Strong dative | gelǣredum | gelǣredum | gelǣredre |
+| Strong accusative | gelǣredne | gelǣred | gelǣrede |
+| Strong instrumental | gelǣrede | gelǣrede | — |
+| Weak nominative | gelǣreda | gelǣrede | gelǣrede |
+| Weak genitive | gelǣredan | gelǣredan | gelǣredan |
+| Weak dative | gelǣredan | gelǣredan | gelǣredan |
+| Weak accusative | gelǣredan | gelǣrede | gelǣredan |
+
+| Series / case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Strong nominative | gelǣrede | gelǣredu | gelǣreda |
+| Strong genitive | gelǣredra | gelǣredra | gelǣredra |
+| Strong dative | gelǣredum | gelǣredum | gelǣredum |
+| Strong accusative | gelǣrede | gelǣredu | gelǣreda |
+| Strong instrumental | — | — | — |
+| Weak nominative | gelǣredan | gelǣredan | gelǣredan |
+| Weak genitive | gelǣredra | gelǣredra | gelǣredra |
+| Weak dative | gelǣredum | gelǣredum | gelǣredum |
+| Weak accusative | gelǣredan | gelǣredan | gelǣredan |
 
 <!-- teaching: NEW-U16-VOC-EORTHLIC -->
 
@@ -429,17 +453,29 @@ The selected forms keep the full eorðlic- stem before endings.
 
 <!-- table: NEW-U16-ADJ-EORTHLIC-DISPLAY -->
 
-| Series / case | M sg | F sg | N sg | M pl | F pl | N pl |
-| --- | --- | --- | --- | --- | --- | --- |
-| Strong nominative | eorðlic | eorðlicu | eorðlic | eorðlice | eorðlica | eorðlicu |
-| Strong genitive | eorðlices | eorðlicre | eorðlices | eorðlicra | eorðlicra | eorðlicra |
-| Strong dative | eorðlicum | eorðlicre | eorðlicum | eorðlicum | eorðlicum | eorðlicum |
-| Strong accusative | eorðlicne | eorðlice | eorðlic | eorðlice | eorðlica | eorðlicu |
-| Strong instrumental | eorðlice | — | eorðlice | — | — | — |
-| Weak nominative | eorðlica | eorðlice | eorðlice | eorðlican | eorðlican | eorðlican |
-| Weak genitive | eorðlican | eorðlican | eorðlican | eorðlicra | eorðlicra | eorðlicra |
-| Weak dative | eorðlican | eorðlican | eorðlican | eorðlicum | eorðlicum | eorðlicum |
-| Weak accusative | eorðlican | eorðlican | eorðlice | eorðlican | eorðlican | eorðlican |
+| Series / case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Strong nominative | eorðlic | eorðlic | eorðlicu |
+| Strong genitive | eorðlices | eorðlices | eorðlicre |
+| Strong dative | eorðlicum | eorðlicum | eorðlicre |
+| Strong accusative | eorðlicne | eorðlic | eorðlice |
+| Strong instrumental | eorðlice | eorðlice | — |
+| Weak nominative | eorðlica | eorðlice | eorðlice |
+| Weak genitive | eorðlican | eorðlican | eorðlican |
+| Weak dative | eorðlican | eorðlican | eorðlican |
+| Weak accusative | eorðlican | eorðlice | eorðlican |
+
+| Series / case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Strong nominative | eorðlice | eorðlicu | eorðlica |
+| Strong genitive | eorðlicra | eorðlicra | eorðlicra |
+| Strong dative | eorðlicum | eorðlicum | eorðlicum |
+| Strong accusative | eorðlice | eorðlicu | eorðlica |
+| Strong instrumental | — | — | — |
+| Weak nominative | eorðlican | eorðlican | eorðlican |
+| Weak genitive | eorðlicra | eorðlicra | eorðlicra |
+| Weak dative | eorðlicum | eorðlicum | eorðlicum |
+| Weak accusative | eorðlican | eorðlican | eorðlican |
 
 <!-- teaching: NEW-U16-VOC-NEARU -->
 
@@ -451,17 +487,29 @@ Learn the alternating stems together: nearu in the strong nominative singular, n
 
 <!-- table: NEW-U16-ADJ-NEARU-DISPLAY -->
 
-| Series / case | M sg | F sg | N sg | M pl | F pl | N pl |
-| --- | --- | --- | --- | --- | --- | --- |
-| Strong nominative | nearu | nearu | nearu | nearwe | nearwa | nearu |
-| Strong genitive | nearwes | nearore | nearwes | nearora | nearora | nearora |
-| Strong dative | nearwum | nearore | nearwum | nearwum | nearwum | nearwum |
-| Strong accusative | nearone | nearwe | nearu | nearwe | nearwa | nearu |
-| Strong instrumental | nearwe | — | nearwe | — | — | — |
-| Weak nominative | nearwa | nearwe | nearwe | nearwan | nearwan | nearwan |
-| Weak genitive | nearwan | nearwan | nearwan | nearora | nearora | nearora |
-| Weak dative | nearwan | nearwan | nearwan | nearwum | nearwum | nearwum |
-| Weak accusative | nearwan | nearwan | nearwe | nearwan | nearwan | nearwan |
+| Series / case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Strong nominative | nearu | nearu | nearu |
+| Strong genitive | nearwes | nearwes | nearore |
+| Strong dative | nearwum | nearwum | nearore |
+| Strong accusative | nearone | nearu | nearwe |
+| Strong instrumental | nearwe | nearwe | — |
+| Weak nominative | nearwa | nearwe | nearwe |
+| Weak genitive | nearwan | nearwan | nearwan |
+| Weak dative | nearwan | nearwan | nearwan |
+| Weak accusative | nearwan | nearwe | nearwan |
+
+| Series / case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Strong nominative | nearwe | nearu | nearwa |
+| Strong genitive | nearora | nearora | nearora |
+| Strong dative | nearwum | nearwum | nearwum |
+| Strong accusative | nearwe | nearu | nearwa |
+| Strong instrumental | — | — | — |
+| Weak nominative | nearwan | nearwan | nearwan |
+| Weak genitive | nearora | nearora | nearora |
+| Weak dative | nearwum | nearwum | nearwum |
+| Weak accusative | nearwan | nearwan | nearwan |
 
 ### Both
 
@@ -473,7 +521,7 @@ Learn the alternating stems together: nearu in the strong nominative singular, n
 
 <!-- table: NEW-U16-NOM-BEGEN-DISPLAY -->
 
-| Case | M plural | F plural | N plural |
+| Case | Masculine plural | Neuter plural | Feminine plural |
 | --- | --- | --- | --- |
 | Nominative | bēgen | bā | bā |
 | Genitive | bēgra | bēgra | bēgra |
@@ -525,14 +573,12 @@ Weak II. The selected present endings are -ie, -ast, -að, -iað; the preterite 
 
 <!-- table: NEW-U16-PAR-AESWICIAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | ǣswicie | ǣswicode |
-| 2 sg | ǣswicast | ǣswicodest |
-| 3 sg | ǣswicað | ǣswicode |
-| 1 pl | ǣswiciað | ǣswicodon |
-| 2 pl | ǣswiciað | ǣswicodon |
-| 3 pl | ǣswiciað | ǣswicodon |
+| 1 sg. | ǣswicie | ǣswicode |
+| 2 sg. | ǣswicast | ǣswicodest |
+| 3 sg. | ǣswicað | ǣswicode |
+| 1–3 pl. | ǣswiciað | ǣswicodon |
 
 <!-- teaching: u16-blissian-frame -->
 
@@ -544,14 +590,12 @@ Weak II. Add the same selected endings to bliss-.
 
 <!-- table: NEW-U16-PAR-BLISSIAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | blissie | blissode |
-| 2 sg | blissast | blissodest |
-| 3 sg | blissað | blissode |
-| 1 pl | blissiað | blissodon |
-| 2 pl | blissiað | blissodon |
-| 3 pl | blissiað | blissodon |
+| 1 sg. | blissie | blissode |
+| 2 sg. | blissast | blissodest |
+| 3 sg. | blissað | blissode |
+| 1–3 pl. | blissiað | blissodon |
 
 <!-- teaching: u16-wuldrian-frame -->
 
@@ -563,14 +607,12 @@ Weak II. Add the selected endings to wuldr-.
 
 <!-- table: NEW-U16-PAR-WULDRIAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | wuldrie | wuldrode |
-| 2 sg | wuldrast | wuldrodest |
-| 3 sg | wuldrað | wuldrode |
-| 1 pl | wuldriað | wuldrodon |
-| 2 pl | wuldriað | wuldrodon |
-| 3 pl | wuldriað | wuldrodon |
+| 1 sg. | wuldrie | wuldrode |
+| 2 sg. | wuldrast | wuldrodest |
+| 3 sg. | wuldrað | wuldrode |
+| 1–3 pl. | wuldriað | wuldrodon |
 
 <!-- teaching: u16-plegian-play -->
 
@@ -582,14 +624,12 @@ Weak II. The selected stems are plegi- in the plural present and pleg- before -o
 
 <!-- table: NEW-U16-PAR-PLEGIAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | plegie | plegode |
-| 2 sg | plegast | plegodest |
-| 3 sg | plegað | plegode |
-| 1 pl | plegiað | plegodon |
-| 2 pl | plegiað | plegodon |
-| 3 pl | plegiað | plegodon |
+| 1 sg. | plegie | plegode |
+| 2 sg. | plegast | plegodest |
+| 3 sg. | plegað | plegode |
+| 1–3 pl. | plegiað | plegodon |
 
 <!-- teaching: u16-beheafdian-frame -->
 
@@ -601,14 +641,12 @@ Weak II. Retain the prefix and behēafd- stem in the selected forms.
 
 <!-- table: NEW-U16-PAR-BEHEAFDIAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | behēafdie | behēafdode |
-| 2 sg | behēafdast | behēafdodest |
-| 3 sg | behēafdað | behēafdode |
-| 1 pl | behēafdiað | behēafdodon |
-| 2 pl | behēafdiað | behēafdodon |
-| 3 pl | behēafdiað | behēafdodon |
+| 1 sg. | behēafdie | behēafdode |
+| 2 sg. | behēafdast | behēafdodest |
+| 3 sg. | behēafdað | behēafdode |
+| 1–3 pl. | behēafdiað | behēafdodon |
 
 <!-- teaching: u16-cleopian-cry -->
 
@@ -620,14 +658,12 @@ Weak II, with the same selected present and preterite endings as the preceding v
 
 <!-- table: NEW-U16-PAR-CLEOPIAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | cleopie | cleopode |
-| 2 sg | cleopast | cleopodest |
-| 3 sg | cleopað | cleopode |
-| 1 pl | cleopiað | cleopodon |
-| 2 pl | cleopiað | cleopodon |
-| 3 pl | cleopiað | cleopodon |
+| 1 sg. | cleopie | cleopode |
+| 2 sg. | cleopast | cleopodest |
+| 3 sg. | cleopað | cleopode |
+| 1–3 pl. | cleopiað | cleopodon |
 
 ### Strong and contracted verbs
 
@@ -641,14 +677,12 @@ Strong I: ī / ā / i / i. Present -s plus -st or -ð gives the selected -st in 
 
 <!-- table: NEW-U16-PAR-ARISAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | ārīse | ārās |
-| 2 sg | ārīst | ārise |
-| 3 sg | ārīst | ārās |
-| 1 pl | ārīsað | ārison |
-| 2 pl | ārīsað | ārison |
-| 3 pl | ārīsað | ārison |
+| 1 sg. | ārīse | ārās |
+| 2 sg. | ārīst | ārise |
+| 3 sg. | ārīst | ārās |
+| 1–3 pl. | ārīsað | ārison |
 
 <!-- teaching: u16-aceorfan-frame -->
 
@@ -660,14 +694,12 @@ Strong III: eo / ea / u / o. The second and third singular present have ie. The 
 
 <!-- table: NEW-U16-PAR-ACEORFAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | āceorfe | ācearf |
-| 2 sg | ācierfst | ācurfe |
-| 3 sg | ācierfð | ācearf |
-| 1 pl | āceorfað | ācurfon |
-| 2 pl | āceorfað | ācurfon |
-| 3 pl | āceorfað | ācurfon |
+| 1 sg. | āceorfe | ācearf |
+| 2 sg. | ācierfst | ācurfe |
+| 3 sg. | ācierfð | ācearf |
+| 1–3 pl. | āceorfað | ācurfon |
 
 <!-- teaching: u16-forleosan-frame -->
 
@@ -679,14 +711,12 @@ Strong II: ēo / ēa / u / o. The preterite plural and past participle also chan
 
 <!-- table: NEW-U16-PAR-FORLEOSAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | forlēose | forlēas |
-| 2 sg | forlīest | forlure |
-| 3 sg | forlīest | forlēas |
-| 1 pl | forlēosað | forluron |
-| 2 pl | forlēosað | forluron |
-| 3 pl | forlēosað | forluron |
+| 1 sg. | forlēose | forlēas |
+| 2 sg. | forlīest | forlure |
+| 3 sg. | forlīest | forlēas |
+| 1–3 pl. | forlēosað | forluron |
 
 <!-- teaching: u16-iernan-frame -->
 
@@ -698,14 +728,12 @@ Strong III. The selected stems are iern-, arn, urn- and urnen. Retain the positi
 
 <!-- table: NEW-U16-PAR-IERNAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | ierne | arn |
-| 2 sg | iernst | urne |
-| 3 sg | iernð | arn |
-| 1 pl | iernað | urnon |
-| 2 pl | iernað | urnon |
-| 3 pl | iernað | urnon |
+| 1 sg. | ierne | arn |
+| 2 sg. | iernst | urne |
+| 3 sg. | iernð | arn |
+| 1–3 pl. | iernað | urnon |
 
 <!-- teaching: u16-thwean-frame -->
 
@@ -717,14 +745,12 @@ Contracted strong VI, like slēan. The contracted present alternates ēa and ie.
 
 <!-- table: NEW-U16-PAR-THWEAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | ðwēa | ðwōh |
-| 2 sg | ðwiehst | ðwōge |
-| 3 sg | ðwiehð | ðwōh |
-| 1 pl | ðwēað | ðwōgon |
-| 2 pl | ðwēað | ðwōgon |
-| 3 pl | ðwēað | ðwōgon |
+| 1 sg. | ðwēa | ðwōh |
+| 2 sg. | ðwiehst | ðwōge |
+| 3 sg. | ðwiehð | ðwōh |
+| 1–3 pl. | ðwēað | ðwōgon |
 
 ### Further weak verbs
 
@@ -740,14 +766,12 @@ Weak I with a d-stem, like sęndan. The present contracts to -ntst and -nt. The 
 
 <!-- table: NEW-U16-PAR-BEWENDAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | bewęnde | bewęnde |
-| 2 sg | bewęntst | bewęndest |
-| 3 sg | bewęnt | bewęnde |
-| 1 pl | bewęndað | bewęndon |
-| 2 pl | bewęndað | bewęndon |
-| 3 pl | bewęndað | bewęndon |
+| 1 sg. | bewęnde | bewęnde |
+| 2 sg. | bewęntst | bewęndest |
+| 3 sg. | bewęnt | bewęnde |
+| 1–3 pl. | bewęndað | bewęndon |
 
 <!-- teaching: u16-smierwan-frame -->
 
@@ -759,14 +783,12 @@ Weak I, like gierwan. Retain w in present first singular and plural; omit it in 
 
 <!-- table: NEW-U16-PAR-SMIERWAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | smierwe | smierede |
-| 2 sg | smierest | smieredest |
-| 3 sg | smiereð | smierede |
-| 1 pl | smierwað | smieredon |
-| 2 pl | smierwað | smieredon |
-| 3 pl | smierwað | smieredon |
+| 1 sg. | smierwe | smierede |
+| 2 sg. | smierest | smieredest |
+| 3 sg. | smiereð | smierede |
+| 1–3 pl. | smierwað | smieredon |
 
 **ālīesan** — release; deliver, with an accusative person or thing. The meaning and commands continue the preceding unit; the indicative is now complete.
 
@@ -776,14 +798,12 @@ Weak I. Continue the selected ālīesan, ālīesde, ālīesed system. In the sec
 
 <!-- table: NEW-U16-PAR-ALIESAN-IND-DISPLAY -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 sg | ālīese | ālīesde |
-| 2 sg | ālīest | ālīesdest |
-| 3 sg | ālīest | ālīesde |
-| 1 pl | ālīesað | ālīesdon |
-| 2 pl | ālīesað | ālīesdon |
-| 3 pl | ālīesað | ālīesdon |
+| 1 sg. | ālīese | ālīesde |
+| 2 sg. | ālīest | ālīesdest |
+| 3 sg. | ālīest | ālīesde |
+| 1–3 pl. | ālīesað | ālīesdon |
 
 ### Commands
 
@@ -793,37 +813,37 @@ The first form addresses one person; the second addresses more than one. Use ne 
 
 <!-- table: NEW-U16-PAR-ACEORFAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| imperative, 2, sg | āceorf |
-| imperative, 2, pl | āceorfað |
+| 2 sg. | āceorf |
+| 2 pl. | āceorfað |
 
 <!-- teaching: NEW-U16-PAR-BLISSIAN-IMP -->
 
 <!-- table: NEW-U16-PAR-BLISSIAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| imperative, 2, sg | blissa |
-| imperative, 2, pl | blissiað |
+| 2 sg. | blissa |
+| 2 pl. | blissiað |
 
 <!-- teaching: NEW-U16-PAR-SMIERWAN-IMP -->
 
 <!-- table: NEW-U16-PAR-SMIERWAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| imperative, 2, sg | smiere |
-| imperative, 2, pl | smierwað |
+| 2 sg. | smiere |
+| 2 pl. | smierwað |
 
 <!-- teaching: NEW-U16-PAR-ARISAN-IMP -->
 
 <!-- table: NEW-U16-PAR-ARISAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| imperative, 2, sg | ārīs |
-| imperative, 2, pl | ārīsað |
+| 2 sg. | ārīs |
+| 2 pl. | ārīsað |
 
 **forlǣtan** — leave; let go, with the previously learned objects and sense.
 
@@ -831,10 +851,10 @@ The first form addresses one person; the second addresses more than one. Use ne 
 
 <!-- table: NEW-U16-PAR-FORLAETAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| imperative, 2, sg | forlǣt |
-| imperative, 2, pl | forlǣtað |
+| 2 sg. | forlǣt |
+| 2 pl. | forlǣtað |
 
 **geswīcan** — cease. It may be used without an expressed complement, including with a wind as subject or in an addressed command. Its genitive complement remains a separate use.
 
@@ -842,10 +862,10 @@ The first form addresses one person; the second addresses more than one. Use ne 
 
 <!-- table: NEW-U16-PAR-GESWICAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| imperative, 2, sg | geswīc |
-| imperative, 2, pl | geswīcað |
+| 2 sg. | geswīc |
+| 2 pl. | geswīcað |
 
 **ęfthweorfan** — return; turn back. Retain the prefix in both commands.
 
@@ -853,10 +873,10 @@ The first form addresses one person; the second addresses more than one. Use ne 
 
 <!-- table: NEW-U16-PAR-EFTHWEORFAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| imperative, 2, sg | ęfthweorf |
-| imperative, 2, pl | ęfthweorfað |
+| 2 sg. | ęfthweorf |
+| 2 pl. | ęfthweorfað |
 
 **dēman** — judge. A judgment itself may be expressed as an accusative object, as in the instruction to judge a right judgment.
 
@@ -864,10 +884,10 @@ The first form addresses one person; the second addresses more than one. Use ne 
 
 <!-- table: NEW-U16-PAR-DEMAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| imperative, 2, sg | dēm |
-| imperative, 2, pl | dēmað |
+| 2 sg. | dēm |
+| 2 pl. | dēmað |
 
 **Immediately before gē**, use the shortened plural command **dēme gē**. Without that following pronoun the ordinary plural remains **dēmað**. This positional exception is required in the first clause of Cook 36.1; it does not replace the ordinary pair or introduce a new general command table.[^commands]
 
@@ -879,27 +899,23 @@ Findan “find” and fēdan “feed” retain their previously learned indicati
 
 <!-- table: NEW-U16-PAR-FINDAN-PRES-SUBJ-DISPLAY -->
 
-| Person / number | Present |
+| Person and number | Present |
 | --- | --- |
-| 1 sg | finde |
-| 2 sg | finde |
-| 3 sg | finde |
-| 1 pl | finden |
-| 2 pl | finden |
-| 3 pl | finden |
+| 1 sg. | finde |
+| 2 sg. | finde |
+| 3 sg. | finde |
+| 1–3 pl. | finden |
 
 <!-- teaching: NEW-U16-PAR-FEDAN-PRES-SUBJ -->
 
 <!-- table: NEW-U16-PAR-FEDAN-PRES-SUBJ-DISPLAY -->
 
-| Person / number | Present |
+| Person and number | Present |
 | --- | --- |
-| 1 sg | fēde |
-| 2 sg | fēde |
-| 3 sg | fēde |
-| 1 pl | fēden |
-| 2 pl | fēden |
-| 3 pl | fēden |
+| 1 sg. | fēde |
+| 2 sg. | fēde |
+| 3 sg. | fēde |
+| 1–3 pl. | fēden |
 
 **Wēn is ðæt** with a present subjunctive expresses the bounded expectation “perhaps; there is a prospect that …”. In the hypothetical conditional “if you find no one”, use **finde**; a relative clause identifying a possible, as-yet-unfound provider uses **fēde**. These choices concern the status of the situation, not a mechanical conversion of an English future.
 

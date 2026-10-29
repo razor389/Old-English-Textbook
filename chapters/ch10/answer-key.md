@@ -44,13 +44,11 @@ The give-to-drink and **swā lange swā** expressions, and the Judgment reading'
 <!-- key: KEY-NEW-U10-F03 -->
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | forwierne | forwiernde |
-| Second singular | forwiernst | forwierndest |
-| Third singular | forwiernð | forwiernde |
-| First plural | forwiernað | forwierndon |
-| Second plural | forwiernað | forwierndon |
-| Third plural | forwiernað | forwierndon |
+| --- | --- | --- |
+| 1 sg. | forwierne | forwiernde |
+| 2 sg. | forwiernst | forwierndest |
+| 3 sg. | forwiernð | forwiernde |
+| 1–3 pl. | forwiernað | forwierndon |
 
 **Target and interpretation:** Give all twelve labeled cells, including the three identical forms in each plural. The present uses **forwiern-**; the preterite uses dental **forwiernd-**, with second-singular **-est** and plural **-on**. For example, **forwiernst** means you deny, whereas **forwierndest** means you denied. Do not remove the past dental from a preterite or replace it with a strong-verb vowel change. Other evidenced spellings may be grammatical, but the requested table is this selected **forwiernan** system.
 
@@ -62,24 +60,20 @@ The give-to-drink and **swā lange swā** expressions, and the Judgment reading'
 **Indicative**
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | ann | ūðe |
-| Second singular | — | ūðest |
-| Third singular | ann | ūðe |
-| First plural | unnon | ūðon |
-| Second plural | unnon | ūðon |
-| Third plural | unnon | ūðon |
+| --- | --- | --- |
+| 1 sg. | ann | ūðe |
+| 2 sg. | — | ūðest |
+| 3 sg. | ann | ūðe |
+| 1–3 pl. | unnon | ūðon |
 
 **Subjunctive**
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | unne | ūðe |
-| Second singular | unne | ūðe |
-| Third singular | unne | ūðe |
-| First plural | unnen | ūðen |
-| Second plural | unnen | ūðen |
-| Third plural | unnen | ūðen |
+| --- | --- | --- |
+| 1 sg. | unne | ūðe |
+| 2 sg. | unne | ūðe |
+| 3 sg. | unne | ūðe |
+| 1–3 pl. | unnen | ūðen |
 
 **Target and interpretation:** Present **ann/unnon** has present granting meaning; past indicative **ūðe/ūðest/ūðon** keeps its distinct endings. In the subjunctive all singular persons share **unne** or **ūðe**, and all plural persons **unnen** or **ūðen**. Present **unne** and **unnen** serve grants, wishes or addressed commands; an instruction to one addressee selects second-singular **unne**.
 

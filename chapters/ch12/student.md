@@ -72,25 +72,25 @@ Present hæbbe presents the completed work from the present viewpoint. Past hæf
 
 <!-- construction: NEW-U12-HABBAN-PERFECT-IND -->
 
-| Person / number | Present indicative | Preterite indicative |
+| Person and number | Present indicative | Preterite indicative |
 | --- | --- | --- |
-| 1 singular | Ic hæbbe ðæt hūs geworht. | Ic hæfde ðæt hūs geworht. |
-| 2 singular | Ðū hæfst ðæt hūs geworht. | Ðū hæfdest ðæt hūs geworht. |
-| 3 singular | Hē hæfð ðæt hūs geworht. | Hē hæfde ðæt hūs geworht. |
-| 1 plural | Wē habbað ðæt hūs geworht. | Wē hæfdon ðæt hūs geworht. |
-| 2 plural | Gē habbað ðæt hūs geworht. | Gē hæfdon ðæt hūs geworht. |
-| 3 plural | Hīe habbað ðæt hūs geworht. | Hīe hæfdon ðæt hūs geworht. |
+| 1 sg. | Ic hæbbe ðæt hūs geworht. | Ic hæfde ðæt hūs geworht. |
+| 2 sg. | Ðū hæfst ðæt hūs geworht. | Ðū hæfdest ðæt hūs geworht. |
+| 3 sg. | Hē hæfð ðæt hūs geworht. | Hē hæfde ðæt hūs geworht. |
+| 1 pl. | Wē habbað ðæt hūs geworht. | Wē hæfdon ðæt hūs geworht. |
+| 2 pl. | Gē habbað ðæt hūs geworht. | Gē hæfdon ðæt hūs geworht. |
+| 3 pl. | Hīe habbað ðæt hūs geworht. | Hīe hæfdon ðæt hūs geworht. |
 
 **Translations of the twelve positions**
 
-| Person / number | Present viewpoint | Past viewpoint |
+| Person and number | Present viewpoint | Past viewpoint |
 | --- | --- | --- |
-| 1 singular | I have built the house. | I had built the house. |
-| 2 singular | You have built the house. | You had built the house. |
-| 3 singular | He has built the house. | He had built the house. |
-| 1 plural | We have built the house. | We had built the house. |
-| 2 plural | You have built the house. | You had built the house. |
-| 3 plural | They have built the house. | They had built the house. |
+| 1 sg. | I have built the house. | I had built the house. |
+| 2 sg. | You have built the house. | You had built the house. |
+| 3 sg. | He has built the house. | He had built the house. |
+| 1 pl. | We have built the house. | We had built the house. |
+| 2 pl. | You have built the house. | You had built the house. |
+| 3 pl. | They have built the house. | They had built the house. |
 
 This is a table of a construction in the indicative, not a new tense ending. The object ðæt hūs stays accusative even when the subject changes. The six auxiliary forms in each tense were learned earlier.
 
@@ -202,14 +202,12 @@ In the ordinary strong pattern, present singular endings are -e, -st, -ð and th
 
 <!-- table: NEW-U12-PAR-adrifan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ādrīfe | ādrāf |
-| 2 singular | ādrīfst | ādrife |
-| 3 singular | ādrīfð | ādrāf |
-| 1 plural | ādrīfað | ādrifon |
-| 2 plural | ādrīfað | ādrifon |
-| 3 plural | ādrīfað | ādrifon |
+| 1 sg. | ādrīfe | ādrāf |
+| 2 sg. | ādrīfst | ādrife |
+| 3 sg. | ādrīfð | ādrāf |
+| 1–3 pl. | ādrīfað | ādrifon |
 
 <!-- teaching: NEW-U12-GRAM-u12-gehatan-indicative -->
 
@@ -223,14 +221,12 @@ In the ordinary strong pattern, present singular endings are -e, -st, -ð and th
 
 <!-- table: NEW-U12-PAR-gehatan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gehāte | gehēt |
-| 2 singular | gehǣtst | gehēte |
-| 3 singular | gehǣtt | gehēt |
-| 1 plural | gehātað | gehēton |
-| 2 plural | gehātað | gehēton |
-| 3 plural | gehātað | gehēton |
+| 1 sg. | gehāte | gehēt |
+| 2 sg. | gehǣtst | gehēte |
+| 3 sg. | gehǣtt | gehēt |
+| 1–3 pl. | gehātað | gehēton |
 
 <!-- teaching: NEW-U12-GRAM-u12-fleon-indicative -->
 
@@ -244,14 +240,12 @@ In the ordinary strong pattern, present singular endings are -e, -st, -ð and th
 
 <!-- table: NEW-U12-PAR-fleon-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | flēo | flēah |
-| 2 singular | flīehst | fluge |
-| 3 singular | flīehð | flēah |
-| 1 plural | flēoð | flugon |
-| 2 plural | flēoð | flugon |
-| 3 plural | flēoð | flugon |
+| 1 sg. | flēo | flēah |
+| 2 sg. | flīehst | fluge |
+| 3 sg. | flīehð | flēah |
+| 1–3 pl. | flēoð | flugon |
 
 <!-- teaching: NEW-U12-GRAM-u12-gemetan-indicative -->
 
@@ -267,14 +261,12 @@ Weak I gemētan and grētan retain ē. Their t meets the third-singular dental i
 
 <!-- table: NEW-U12-PAR-gemetan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gemēte | gemētte |
-| 2 singular | gemētst | gemēttest |
-| 3 singular | gemētt | gemētte |
-| 1 plural | gemētað | gemētton |
-| 2 plural | gemētað | gemētton |
-| 3 plural | gemētað | gemētton |
+| 1 sg. | gemēte | gemētte |
+| 2 sg. | gemētst | gemēttest |
+| 3 sg. | gemētt | gemētte |
+| 1–3 pl. | gemētað | gemētton |
 
 <!-- teaching: NEW-U12-GRAM-u12-geopenian-indicative -->
 
@@ -290,14 +282,12 @@ Weak II geopenian and leornian have present -ie, -ast, -að, -iað and preterite
 
 <!-- table: NEW-U12-PAR-geopenian-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | geopenie | geopenode |
-| 2 singular | geopenast | geopenodest |
-| 3 singular | geopenað | geopenode |
-| 1 plural | geopeniað | geopenodon |
-| 2 plural | geopeniað | geopenodon |
-| 3 plural | geopeniað | geopenodon |
+| 1 sg. | geopenie | geopenode |
+| 2 sg. | geopenast | geopenodest |
+| 3 sg. | geopenað | geopenode |
+| 1–3 pl. | geopeniað | geopenodon |
 
 <!-- teaching: NEW-U12-GRAM-u12-gretan-indicative -->
 
@@ -311,14 +301,12 @@ Weak II geopenian and leornian have present -ie, -ast, -að, -iað and preterite
 
 <!-- table: NEW-U12-PAR-gretan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | grēte | grētte |
-| 2 singular | grētst | grēttest |
-| 3 singular | grētt | grētte |
-| 1 plural | grētað | grētton |
-| 2 plural | grētað | grētton |
-| 3 plural | grētað | grētton |
+| 1 sg. | grēte | grētte |
+| 2 sg. | grētst | grēttest |
+| 3 sg. | grētt | grētte |
+| 1–3 pl. | grētað | grētton |
 
 <!-- teaching: NEW-U12-GRAM-u12-cythan-indicative -->
 
@@ -332,14 +320,12 @@ Weak II geopenian and leornian have present -ie, -ast, -að, -iað and preterite
 
 <!-- table: NEW-U12-PAR-cythan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | cȳðe | cȳðde |
-| 2 singular | cȳst | cȳðdest |
-| 3 singular | cȳð | cȳðde |
-| 1 plural | cȳðað | cȳðdon |
-| 2 plural | cȳðað | cȳðdon |
-| 3 plural | cȳðað | cȳðdon |
+| 1 sg. | cȳðe | cȳðde |
+| 2 sg. | cȳst | cȳðdest |
+| 3 sg. | cȳð | cȳðde |
+| 1–3 pl. | cȳðað | cȳðdon |
 
 <!-- teaching: NEW-U12-GRAM-u12-ehtan-indicative -->
 
@@ -353,14 +339,12 @@ Weak II geopenian and leornian have present -ie, -ast, -að, -iað and preterite
 
 <!-- table: NEW-U12-PAR-ehtan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ēhte | ēhte |
-| 2 singular | ēhtst | ēhtest |
-| 3 singular | ēht | ēhte |
-| 1 plural | ēhtað | ēhton |
-| 2 plural | ēhtað | ēhton |
-| 3 plural | ēhtað | ēhton |
+| 1 sg. | ēhte | ēhte |
+| 2 sg. | ēhtst | ēhtest |
+| 3 sg. | ēht | ēhte |
+| 1–3 pl. | ēhtað | ēhton |
 
 <!-- teaching: NEW-U12-GRAM-u12-agan-indicative -->
 
@@ -374,14 +358,12 @@ Weak II geopenian and leornian have present -ie, -ast, -að, -iað and preterite
 
 <!-- table: NEW-U12-PAR-agan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āh | āhte |
-| 2 singular | āhst | āhtest |
-| 3 singular | āh | āhte |
-| 1 plural | āgon | āhton |
-| 2 plural | āgon | āhton |
-| 3 plural | āgon | āhton |
+| 1 sg. | āh | āhte |
+| 2 sg. | āhst | āhtest |
+| 3 sg. | āh | āhte |
+| 1–3 pl. | āgon | āhton |
 
 <!-- teaching: NEW-U12-GRAM-u12-leornian-indicative -->
 
@@ -395,14 +377,12 @@ Weak II geopenian and leornian have present -ie, -ast, -að, -iað and preterite
 
 <!-- table: NEW-U12-PAR-leornian-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | leornie | leornode |
-| 2 singular | leornast | leornodest |
-| 3 singular | leornað | leornode |
-| 1 plural | leorniað | leornodon |
-| 2 plural | leorniað | leornodon |
-| 3 plural | leorniað | leornodon |
+| 1 sg. | leornie | leornode |
+| 2 sg. | leornast | leornodest |
+| 3 sg. | leornað | leornode |
+| 1–3 pl. | leorniað | leornodon |
 
 ### Commands
 
@@ -416,10 +396,10 @@ A singular command addresses one person; a plural command addresses two or more.
 
 <!-- table: NEW-U12-PAR-sendan-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | sęnd |
-| Plural | sęndað |
+| 2 sg. | sęnd |
+| 2 pl. | sęndað |
 
 <!-- teaching: NEW-U12-GRAM-u12-bringan-imperative -->
 
@@ -429,10 +409,10 @@ A singular command addresses one person; a plural command addresses two or more.
 
 <!-- table: NEW-U12-PAR-bringan-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | bring |
-| Plural | bringað |
+| 2 sg. | bring |
+| 2 pl. | bringað |
 
 <!-- teaching: NEW-U12-GRAM-u12-adrifan-imperative -->
 
@@ -442,10 +422,10 @@ A singular command addresses one person; a plural command addresses two or more.
 
 <!-- table: NEW-U12-PAR-adrifan-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | ādrīf |
-| Plural | ādrīfað |
+| 2 sg. | ādrīf |
+| 2 pl. | ādrīfað |
 
 <!-- teaching: NEW-U12-GRAM-u12-fleon-imperative -->
 
@@ -455,10 +435,10 @@ A singular command addresses one person; a plural command addresses two or more.
 
 <!-- table: NEW-U12-PAR-fleon-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | flēoh |
-| Plural | flēoð |
+| 2 sg. | flēoh |
+| 2 pl. | flēoð |
 
 <!-- teaching: NEW-U12-GRAM-u12-gemetan-imperative -->
 
@@ -468,10 +448,10 @@ A singular command addresses one person; a plural command addresses two or more.
 
 <!-- table: NEW-U12-PAR-gemetan-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | gemēt |
-| Plural | gemētað |
+| 2 sg. | gemēt |
+| 2 pl. | gemētað |
 
 <!-- teaching: NEW-U12-GRAM-u12-geopenian-imperative -->
 
@@ -481,10 +461,10 @@ A singular command addresses one person; a plural command addresses two or more.
 
 <!-- table: NEW-U12-PAR-geopenian-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | geopena |
-| Plural | geopeniað |
+| 2 sg. | geopena |
+| 2 pl. | geopeniað |
 
 <!-- teaching: NEW-U12-GRAM-u12-weorpan-imperative -->
 
@@ -494,10 +474,10 @@ A singular command addresses one person; a plural command addresses two or more.
 
 <!-- table: NEW-U12-PAR-weorpan-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | weorp |
-| Plural | weorpað |
+| 2 sg. | weorp |
+| 2 pl. | weorpað |
 
 <!-- teaching: NEW-U12-GRAM-u12-leornian-imperative -->
 
@@ -507,10 +487,10 @@ A singular command addresses one person; a plural command addresses two or more.
 
 <!-- table: NEW-U12-PAR-leornian-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | leorna |
-| Plural | leorniað |
+| 2 sg. | leorna |
+| 2 pl. | leorniað |
 
 <!-- teaching: NEW-U12-GRAM-u12-risan-imperative -->
 
@@ -520,10 +500,10 @@ A singular command addresses one person; a plural command addresses two or more.
 
 <!-- table: NEW-U12-PAR-risan-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | rīs |
-| Plural | rīsað |
+| 2 sg. | rīs |
+| 2 pl. | rīsað |
 
 The already learned **sleah** is the singular command of slēan. For rise use the newly displayed **rīs**; do not add a new prefix to the selected verb. Earlier **cum**, **gā**, **nim** and **sęle** remain available in their taught uses.
 
@@ -1118,25 +1098,41 @@ Brād, beald, earg, ēaðmōd and mildheort use the complete long strong model a
 
 <!-- table: NEW-U12-ADJ-BRAD-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | brād | brād | brād | brāde | brāda | brād |
-| Genitive | brādes | brādre | brādes | brādra | brādra | brādra |
-| Dative | brādum | brādre | brādum | brādum | brādum | brādum |
-| Accusative | brādne | brāde | brād | brāde | brāda | brād |
-| Instrumental | brāde | as dative | brāde | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | brād | brād | brād |
+| Genitive | brādes | brādes | brādre |
+| Dative | brādum | brādum | brādre |
+| Accusative | brādne | brād | brāde |
+| Instrumental | brāde | brāde | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | brāde | brād | brāda |
+| Genitive | brādra | brādra | brādra |
+| Dative | brādum | brādum | brādum |
+| Accusative | brāde | brād | brāda |
+| Instrumental | as dative | as dative | as dative |
 
 **brād; weak adjective**
 
 <!-- table: NEW-U12-ADJ-BRAD-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | brāda | brāde | brāde | brādan | brādan | brādan |
-| Genitive | brādan | brādan | brādan | brādra | brādra | brādra |
-| Dative | brādan | brādan | brādan | brādum | brādum | brādum |
-| Accusative | brādan | brādan | brāde | brādan | brādan | brādan |
-| Instrumental | brādan | as dative | brādan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | brāda | brāde | brāde |
+| Genitive | brādan | brādan | brādan |
+| Dative | brādan | brādan | brādan |
+| Accusative | brādan | brāde | brādan |
+| Instrumental | brādan | brādan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | brādan | brādan | brādan |
+| Genitive | brādra | brādra | brādra |
+| Dative | brādum | brādum | brādum |
+| Accusative | brādan | brādan | brādan |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U12-VOC-BEALD -->
 
@@ -1194,25 +1190,41 @@ Use the complete **brād; weak adjective** table. In every corresponding cell re
 
 <!-- table: NEW-U12-ADJ-EADIG-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | ēadig | ēadigu | ēadig | ēadige | ēadiga | ēadigu |
-| Genitive | ēadiges | ēadigre | ēadiges | ēadigra | ēadigra | ēadigra |
-| Dative | ēadigum | ēadigre | ēadigum | ēadigum | ēadigum | ēadigum |
-| Accusative | ēadigne | ēadige | ēadig | ēadige | ēadiga | ēadigu |
-| Instrumental | ēadige | as dative | ēadige | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ēadig | ēadig | ēadigu |
+| Genitive | ēadiges | ēadiges | ēadigre |
+| Dative | ēadigum | ēadigum | ēadigre |
+| Accusative | ēadigne | ēadig | ēadige |
+| Instrumental | ēadige | ēadige | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ēadige | ēadigu | ēadiga |
+| Genitive | ēadigra | ēadigra | ēadigra |
+| Dative | ēadigum | ēadigum | ēadigum |
+| Accusative | ēadige | ēadigu | ēadiga |
+| Instrumental | as dative | as dative | as dative |
 
 **ēadig; weak adjective**
 
 <!-- table: NEW-U12-ADJ-EADIG-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | ēadiga | ēadige | ēadige | ēadigan | ēadigan | ēadigan |
-| Genitive | ēadigan | ēadigan | ēadigan | ēadigra | ēadigra | ēadigra |
-| Dative | ēadigan | ēadigan | ēadigan | ēadigum | ēadigum | ēadigum |
-| Accusative | ēadigan | ēadigan | ēadige | ēadigan | ēadigan | ēadigan |
-| Instrumental | ēadigan | as dative | ēadigan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ēadiga | ēadige | ēadige |
+| Genitive | ēadigan | ēadigan | ēadigan |
+| Dative | ēadigan | ēadigan | ēadigan |
+| Accusative | ēadigan | ēadige | ēadigan |
+| Instrumental | ēadigan | ēadigan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ēadigan | ēadigan | ēadigan |
+| Genitive | ēadigra | ēadigra | ēadigra |
+| Dative | ēadigum | ēadigum | ēadigum |
+| Accusative | ēadigan | ēadigan | ēadigan |
+| Instrumental | as dative | as dative | as dative |
 
 The selected table retains i throughout. Cook also permits syncope before vowel endings, as in **ēadges**, and endingless feminine nominative singular and neuter nominative/accusative plural alternatives. These evidenced alternatives are accepted; they are not additional required tables.
 

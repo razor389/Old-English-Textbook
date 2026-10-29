@@ -4,7 +4,7 @@ Status: ready for coordinator contract. The final grammar audit and complete sou
 
 ## Prior boundary
 
-The actual reviewed contracts of Units 1 and 2 and the current cumulative registers have been read. They contain 102 lemmas, 770 form records, 108 senses and 81 constructions. Only those recorded recognition/production milestones count. The archive supplies evidence, never prior teaching.
+The actual reviewed contracts of Units 1 and 2 and the current cumulative registers have been read. They contain 102 lemmas, 770 form records, 108 senses and 81 constructions. Only those recorded recognition/production milestones count.
 
 Adjectives, ordinals and several source constructions encountered in earlier readings remain supplied. In particular, gōd, īdel, ǣmtig, ān, eall and seofoðan are not prior productive vocabulary. The first/second-person personal genitives are recognition-only citations; their agreeing possessive adjectives require new lexical/form/construction records. The ordinary invariant possessors his/hiere/hiera, personal object cases, dual agreement, complete eom/wæs indicative and 22 affirmative weak indicative systems are prior productive knowledge. Negative nabban remains recognition-only.
 
@@ -32,7 +32,7 @@ The final proposal uses the Unit 2 integration structure:
 - `inventory.json`: 80 lemma records, 1,567 explicit form records, 84 senses, 46 features, 78 paradigm records, 205 teaching/support IDs, all 109 source tokens, evidence and actual prior requirements.
 - `task-plan.json`: 70 exact tasks (53 new plus 17 Cook), each with separate required/tested form, sense and feature IDs and a key counterpart. Its target sequences witness closed solutions; they are analysis specifications, not a substitute for an independently prepared key.
 - `compositions.json`: the exact connected account (61 words) and ten ungraded teaching examples (53 words), exhaustively linked to productive form/sense records. Neither controlled material nor its examples require supplied lexical forms or senses.
-- `prior-audit.json`: the actual reviewed Unit 1–2 boundary and file identities; no archive milestones.
+- `prior-audit.json`: the actual reviewed Unit 1–2 boundary and file identities.
 - `validation.json`: passing reference, exact-source, token, status, evidence-image, uniqueness, paradigm and NFC checks.
 
 The `display_plan` makes the full morphology teachable without requiring 78 repeated tables. Full representative declensions, explicit stem/ending mappings and diagnostic cells must uniquely recover every selected form. Six comparative series include their exceptional genitive plurals; all six possessives need complete recoverable patterns. Eall is strong-only recognition/reference, without independent production. Instrumental forms and plural ān remain nonproductive. The four lēoht plural cells are promoted through the complete checked heavy-neuter pattern for the new counted-luminary sense; N/A plural are directly assessed.

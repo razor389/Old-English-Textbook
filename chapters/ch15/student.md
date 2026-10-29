@@ -567,14 +567,12 @@ Place ne before the finite verb to deny a proposition. Some common verbs have co
 
 <!-- table: NEW-U15-PAR-WESAN-NEG-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ne eom | næs |
-| 2 singular | ne eart | nǣre |
-| 3 singular | nis | næs |
-| 1 plural | ne sindon | nǣron |
-| 2 plural | ne sindon | nǣron |
-| 3 plural | ne sindon | nǣron |
+| 1 sg. | ne eom | næs |
+| 2 sg. | ne eart | nǣre |
+| 3 sg. | nis | næs |
+| 1–3 pl. | ne sindon | nǣron |
 
 <!-- teaching: NEW-U15-VOC-NABBAN -->
 
@@ -592,14 +590,12 @@ The complete negative possession series is now available for use. Distinguish fi
 
 <!-- table: NEW-U15-PAR-NABBAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | næbbe | næfde |
-| 2 singular | næfst | næfdest |
-| 3 singular | næfð | næfde |
-| 1 plural | nabbað | næfdon |
-| 2 plural | nabbað | næfdon |
-| 3 plural | nabbað | næfdon |
+| 1 sg. | næbbe | næfde |
+| 2 sg. | næfst | næfdest |
+| 3 sg. | næfð | næfde |
+| 1–3 pl. | nabbað | næfdon |
 
 <!-- teaching: NEW-U15-VOC-WILLAN -->
 
@@ -617,14 +613,12 @@ Negative willan expresses refusal or unwillingness and governs a plain infinitiv
 
 <!-- table: NEW-U15-PAR-WILLAN-NEG-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | nelle | nolde |
-| 2 singular | nelt | noldest |
-| 3 singular | nele | nolde |
-| 1 plural | nellað | noldon |
-| 2 plural | nellað | noldon |
-| 3 plural | nellað | noldon |
+| 1 sg. | nelle | nolde |
+| 2 sg. | nelt | noldest |
+| 3 sg. | nele | nolde |
+| 1–3 pl. | nellað | noldon |
 
 ### Nān and negative concord
 
@@ -640,12 +634,19 @@ Nān agrees with its noun or stands alone for “no one”. It has the strong lo
 
 <!-- table: NEW-U15-PAR-NAN-STRONG-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | nān | nān | nān | nāne | nāna | nān |
-| Genitive | nānes | nānre | nānes | nānra | nānra | nānra |
-| Dative | nānum | nānre | nānum | nānum | nānum | nānum |
-| Accusative | nānne | nāne | nān | nāne | nāna | nān |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | nān | nān | nān |
+| Genitive | nānes | nānes | nānre |
+| Dative | nānum | nānum | nānre |
+| Accusative | nānne | nān | nāne |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | nāne | nān | nāna |
+| Genitive | nānra | nānra | nānra |
+| Dative | nānum | nānum | nānum |
+| Accusative | nāne | nān | nāna |
 
 <!-- teaching: NEW-U15-GRAM-U15-NEGATIVE-CONCORD -->
 
@@ -697,7 +698,7 @@ Gehwā refers to each person; gehwæt to everything. Both are singular, even whe
 
 <!-- table: NEW-U15-PAR-GEHWA-SINGULAR-NGDA-DISPLAY -->
 
-| Case | neuter singular | common singular |
+| Case | Neuter singular | Common singular |
 | --- | --- | --- |
 | Nominative | gehwæt | gehwā |
 | Genitive | gehwæs | gehwæs |
@@ -808,14 +809,12 @@ The second- and third-singular present forms forgieltst and forgielt use the sel
 
 <!-- table: NEW-U15-PAR-FORGIELDAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | forgielde | forgeald |
-| 2 singular | forgieltst | forgulde |
-| 3 singular | forgielt | forgeald |
-| 1 plural | forgieldað | forguldon |
-| 2 plural | forgieldað | forguldon |
-| 3 plural | forgieldað | forguldon |
+| 1 sg. | forgielde | forgeald |
+| 2 sg. | forgieltst | forgulde |
+| 3 sg. | forgielt | forgeald |
+| 1–3 pl. | forgieldað | forguldon |
 
 <!-- teaching: NEW-U15-VOC-TOWEORPAN -->
 
@@ -829,14 +828,12 @@ The second- and third-singular present stem is tōwierp-. The preterite follows 
 
 <!-- table: NEW-U15-PAR-TOWEORPAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | tōweorpe | tōwearp |
-| 2 singular | tōwierpst | tōwurpe |
-| 3 singular | tōwierpð | tōwearp |
-| 1 plural | tōweorpað | tōwurpon |
-| 2 plural | tōweorpað | tōwurpon |
-| 3 plural | tōweorpað | tōwurpon |
+| 1 sg. | tōweorpe | tōwearp |
+| 2 sg. | tōwierpst | tōwurpe |
+| 3 sg. | tōwierpð | tōwearp |
+| 1–3 pl. | tōweorpað | tōwurpon |
 
 <!-- teaching: NEW-U15-VOC-ONGIETAN -->
 
@@ -850,14 +847,12 @@ Second singular ongietst and third singular ongiett retain the selected t-cluste
 
 <!-- table: NEW-U15-PAR-ONGIETAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ongiete | ongeat |
-| 2 singular | ongietst | ongēate |
-| 3 singular | ongiett | ongeat |
-| 1 plural | ongietað | ongēaton |
-| 2 plural | ongietað | ongēaton |
-| 3 plural | ongietað | ongēaton |
+| 1 sg. | ongiete | ongeat |
+| 2 sg. | ongietst | ongēate |
+| 3 sg. | ongiett | ongeat |
+| 1–3 pl. | ongietað | ongēaton |
 
 <!-- teaching: NEW-U15-VOC-GEHATAN -->
 
@@ -871,14 +866,12 @@ Gehātan keeps its prefix and the familiar hātan stem changes: ā becomes ǣ in
 
 <!-- table: NEW-U15-PAR-GEHATAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gehāte | gehēt |
-| 2 singular | gehǣtst | gehēte |
-| 3 singular | gehǣtt | gehēt |
-| 1 plural | gehātað | gehēton |
-| 2 plural | gehātað | gehēton |
-| 3 plural | gehātað | gehēton |
+| 1 sg. | gehāte | gehēt |
+| 2 sg. | gehǣtst | gehēte |
+| 3 sg. | gehǣtt | gehēt |
+| 1–3 pl. | gehātað | gehēton |
 
 ### Weak indicative systems
 
@@ -894,14 +887,12 @@ The long-stem weak I verbs below use present -e, -st, -ð, -að and preterite -d
 
 <!-- table: NEW-U15-PAR-WENAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | wēne | wēnde |
-| 2 singular | wēnst | wēndest |
-| 3 singular | wēnð | wēnde |
-| 1 plural | wēnað | wēndon |
-| 2 plural | wēnað | wēndon |
-| 3 plural | wēnað | wēndon |
+| 1 sg. | wēne | wēnde |
+| 2 sg. | wēnst | wēndest |
+| 3 sg. | wēnð | wēnde |
+| 1–3 pl. | wēnað | wēndon |
 
 <!-- teaching: NEW-U15-VOC-FORBAERNAN -->
 
@@ -913,14 +904,12 @@ The long-stem weak I verbs below use present -e, -st, -ð, -að and preterite -d
 
 <!-- table: NEW-U15-PAR-FORBAERNAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | forbærne | forbærnde |
-| 2 singular | forbærnst | forbærndest |
-| 3 singular | forbærnð | forbærnde |
-| 1 plural | forbærnað | forbærndon |
-| 2 plural | forbærnað | forbærndon |
-| 3 plural | forbærnað | forbærndon |
+| 1 sg. | forbærne | forbærnde |
+| 2 sg. | forbærnst | forbærndest |
+| 3 sg. | forbærnð | forbærnde |
+| 1–3 pl. | forbærnað | forbærndon |
 
 <!-- teaching: NEW-U15-VOC-LAERAN -->
 
@@ -932,14 +921,12 @@ The long-stem weak I verbs below use present -e, -st, -ð, -að and preterite -d
 
 <!-- table: NEW-U15-PAR-LAERAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | lǣre | lǣrde |
-| 2 singular | lǣrst | lǣrdest |
-| 3 singular | lǣrð | lǣrde |
-| 1 plural | lǣrað | lǣrdon |
-| 2 plural | lǣrað | lǣrdon |
-| 3 plural | lǣrað | lǣrdon |
+| 1 sg. | lǣre | lǣrde |
+| 2 sg. | lǣrst | lǣrdest |
+| 3 sg. | lǣrð | lǣrde |
+| 1–3 pl. | lǣrað | lǣrdon |
 
 <!-- teaching: NEW-U15-VOC-DEMAN -->
 
@@ -951,14 +938,12 @@ The long-stem weak I verbs below use present -e, -st, -ð, -að and preterite -d
 
 <!-- table: NEW-U15-PAR-DEMAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | dēme | dēmde |
-| 2 singular | dēmst | dēmdest |
-| 3 singular | dēmð | dēmde |
-| 1 plural | dēmað | dēmdon |
-| 2 plural | dēmað | dēmdon |
-| 3 plural | dēmað | dēmdon |
+| 1 sg. | dēme | dēmde |
+| 2 sg. | dēmst | dēmdest |
+| 3 sg. | dēmð | dēmde |
+| 1–3 pl. | dēmað | dēmdon |
 
 The subjunctive singular has one form for all three persons; the plural has -n. Dēme can therefore be indicative first singular or present subjunctive singular; the clause and its function decide. Use the earlier distinctions among assertion, purpose and wish.
 
@@ -968,14 +953,12 @@ The subjunctive singular has one form for all three persons; the plural has -n. 
 
 <!-- table: NEW-U15-PAR-DEMAN-SUBJ-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | dēme | dēmde |
-| 2 singular | dēme | dēmde |
-| 3 singular | dēme | dēmde |
-| 1 plural | dēmen | dēmden |
-| 2 plural | dēmen | dēmden |
-| 3 plural | dēmen | dēmden |
+| 1 sg. | dēme | dēmde |
+| 2 sg. | dēme | dēmde |
+| 3 sg. | dēme | dēmde |
+| 1–3 pl. | dēmen | dēmden |
 
 <!-- teaching: NEW-U15-VOC-HYRIAN -->
 
@@ -989,14 +972,12 @@ Hȳrian follows lufian: present singular hȳrie, hȳrast, hȳrað, plural hȳria
 
 <!-- table: NEW-U15-PAR-HYRIAN-IND-DISPLAY -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | hȳrie | hȳrode |
-| 2 singular | hȳrast | hȳrodest |
-| 3 singular | hȳrað | hȳrode |
-| 1 plural | hȳriað | hȳrodon |
-| 2 plural | hȳriað | hȳrodon |
-| 3 plural | hȳriað | hȳrodon |
+| 1 sg. | hȳrie | hȳrode |
+| 2 sg. | hȳrast | hȳrodest |
+| 3 sg. | hȳrað | hȳrode |
+| 1–3 pl. | hȳriað | hȳrodon |
 
 ### Commands
 
@@ -1008,10 +989,10 @@ Each table gives the complete second-person singular/plural command pair. Forgie
 
 <!-- table: NEW-U15-PAR-FORGIELDAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| Imperative, 2nd singular | forgield |
-| Imperative, 2nd plural | forgieldað |
+| 2 sg. | forgield |
+| 2 pl. | forgieldað |
 
 <!-- teaching: NEW-U15-VOC-CLEOPIAN -->
 
@@ -1023,10 +1004,10 @@ Each table gives the complete second-person singular/plural command pair. Forgie
 
 <!-- table: NEW-U15-PAR-CLEOPIAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| Imperative, 2nd singular | cleopa |
-| Imperative, 2nd plural | cleopiað |
+| 2 sg. | cleopa |
+| 2 pl. | cleopiað |
 
 <!-- teaching: NEW-U15-VOC-ALIESAN -->
 
@@ -1038,10 +1019,10 @@ Each table gives the complete second-person singular/plural command pair. Forgie
 
 <!-- table: NEW-U15-PAR-ALIESAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| Imperative, 2nd singular | ālīes |
-| Imperative, 2nd plural | ālīesað |
+| 2 sg. | ālīes |
+| 2 pl. | ālīesað |
 
 **ætīewan** — show; the earlier verb, now with its complete command pair. Retain short initial æ in ætīew.
 
@@ -1051,10 +1032,10 @@ Each table gives the complete second-person singular/plural command pair. Forgie
 
 <!-- table: NEW-U15-PAR-AETIEWAN-IMP-DISPLAY -->
 
-| Position | Form |
+| Person and number | Imperative |
 | --- | --- |
-| Imperative, 2nd singular | ætīew |
-| Imperative, 2nd plural | ætīewað |
+| 2 sg. | ætīew |
+| 2 pl. | ætīewað |
 
 ### Infinitives
 
@@ -1274,12 +1255,19 @@ Riht and gelīc follow the ordinary long-stem pattern: strong feminine nominativ
 
 <!-- table: NEW-U15-PAR-RIHT-STRONG-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | riht | riht | riht | rihte | rihta | riht |
-| Genitive | rihtes | rihtre | rihtes | rihtra | rihtra | rihtra |
-| Dative | rihtum | rihtre | rihtum | rihtum | rihtum | rihtum |
-| Accusative | rihtne | rihte | riht | rihte | rihta | riht |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | riht | riht | riht |
+| Genitive | rihtes | rihtes | rihtre |
+| Dative | rihtum | rihtum | rihtre |
+| Accusative | rihtne | riht | rihte |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | rihte | riht | rihta |
+| Genitive | rihtra | rihtra | rihtra |
+| Dative | rihtum | rihtum | rihtum |
+| Accusative | rihte | riht | rihta |
 
 <!-- teaching: NEW-U15-PAR-RIHT-WEAK-NGDA -->
 
@@ -1287,12 +1275,19 @@ Riht and gelīc follow the ordinary long-stem pattern: strong feminine nominativ
 
 <!-- table: NEW-U15-PAR-RIHT-WEAK-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | rihta | rihte | rihte | rihtan | rihtan | rihtan |
-| Genitive | rihtan | rihtan | rihtan | rihtra | rihtra | rihtra |
-| Dative | rihtan | rihtan | rihtan | rihtum | rihtum | rihtum |
-| Accusative | rihtan | rihtan | rihte | rihtan | rihtan | rihtan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | rihta | rihte | rihte |
+| Genitive | rihtan | rihtan | rihtan |
+| Dative | rihtan | rihtan | rihtan |
+| Accusative | rihtan | rihte | rihtan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | rihtan | rihtan | rihtan |
+| Genitive | rihtra | rihtra | rihtra |
+| Dative | rihtum | rihtum | rihtum |
+| Accusative | rihtan | rihtan | rihtan |
 
 <!-- teaching: NEW-U15-VOC-GELIC -->
 
@@ -1304,12 +1299,19 @@ Riht and gelīc follow the ordinary long-stem pattern: strong feminine nominativ
 
 <!-- table: NEW-U15-PAR-GELIC-STRONG-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | gelīc | gelīc | gelīc | gelīce | gelīca | gelīc |
-| Genitive | gelīces | gelīcre | gelīces | gelīcra | gelīcra | gelīcra |
-| Dative | gelīcum | gelīcre | gelīcum | gelīcum | gelīcum | gelīcum |
-| Accusative | gelīcne | gelīce | gelīc | gelīce | gelīca | gelīc |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | gelīc | gelīc | gelīc |
+| Genitive | gelīces | gelīces | gelīcre |
+| Dative | gelīcum | gelīcum | gelīcre |
+| Accusative | gelīcne | gelīc | gelīce |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | gelīce | gelīc | gelīca |
+| Genitive | gelīcra | gelīcra | gelīcra |
+| Dative | gelīcum | gelīcum | gelīcum |
+| Accusative | gelīce | gelīc | gelīca |
 
 <!-- teaching: NEW-U15-PAR-GELIC-WEAK-NGDA -->
 
@@ -1317,12 +1319,19 @@ Riht and gelīc follow the ordinary long-stem pattern: strong feminine nominativ
 
 <!-- table: NEW-U15-PAR-GELIC-WEAK-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | gelīca | gelīce | gelīce | gelīcan | gelīcan | gelīcan |
-| Genitive | gelīcan | gelīcan | gelīcan | gelīcra | gelīcra | gelīcra |
-| Dative | gelīcan | gelīcan | gelīcan | gelīcum | gelīcum | gelīcum |
-| Accusative | gelīcan | gelīcan | gelīce | gelīcan | gelīcan | gelīcan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | gelīca | gelīce | gelīce |
+| Genitive | gelīcan | gelīcan | gelīcan |
+| Dative | gelīcan | gelīcan | gelīcan |
+| Accusative | gelīcan | gelīce | gelīcan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | gelīcan | gelīcan | gelīcan |
+| Genitive | gelīcra | gelīcra | gelīcra |
+| Dative | gelīcum | gelīcum | gelīcum |
+| Accusative | gelīcan | gelīcan | gelīcan |
 
 <!-- teaching: NEW-U15-VOC-MIHTIG -->
 
@@ -1336,12 +1345,19 @@ The selected forms lose i before a vowel-initial ending: mihtges, mihtgum, mihtg
 
 <!-- table: NEW-U15-PAR-MIHTIG-STRONG-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | mihtig | mihtig | mihtig | mihtge | mihtga | mihtig |
-| Genitive | mihtges | mihtigre | mihtges | mihtigra | mihtigra | mihtigra |
-| Dative | mihtgum | mihtigre | mihtgum | mihtgum | mihtgum | mihtgum |
-| Accusative | mihtigne | mihtge | mihtig | mihtge | mihtga | mihtig |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | mihtig | mihtig | mihtig |
+| Genitive | mihtges | mihtges | mihtigre |
+| Dative | mihtgum | mihtgum | mihtigre |
+| Accusative | mihtigne | mihtig | mihtge |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | mihtge | mihtig | mihtga |
+| Genitive | mihtigra | mihtigra | mihtigra |
+| Dative | mihtgum | mihtgum | mihtgum |
+| Accusative | mihtge | mihtig | mihtga |
 
 <!-- teaching: NEW-U15-PAR-MIHTIG-WEAK-NGDA -->
 
@@ -1349,12 +1365,19 @@ The selected forms lose i before a vowel-initial ending: mihtges, mihtgum, mihtg
 
 <!-- table: NEW-U15-PAR-MIHTIG-WEAK-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | mihtga | mihtge | mihtge | mihtgan | mihtgan | mihtgan |
-| Genitive | mihtgan | mihtgan | mihtgan | mihtigra | mihtigra | mihtigra |
-| Dative | mihtgan | mihtgan | mihtgan | mihtgum | mihtgum | mihtgum |
-| Accusative | mihtgan | mihtgan | mihtge | mihtgan | mihtgan | mihtgan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | mihtga | mihtge | mihtge |
+| Genitive | mihtgan | mihtgan | mihtgan |
+| Dative | mihtgan | mihtgan | mihtgan |
+| Accusative | mihtgan | mihtge | mihtgan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | mihtgan | mihtgan | mihtgan |
+| Genitive | mihtigra | mihtigra | mihtigra |
+| Dative | mihtgum | mihtgum | mihtgum |
+| Accusative | mihtgan | mihtgan | mihtgan |
 
 <!-- teaching: NEW-U15-VOC-MAERE -->
 
@@ -1368,12 +1391,19 @@ Mǣre keeps its final e where there is no added ending and drops it before anoth
 
 <!-- table: NEW-U15-PAR-MAERE-STRONG-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | mǣre | mǣru | mǣre | mǣre | mǣra | mǣru |
-| Genitive | mǣres | mǣrre | mǣres | mǣrra | mǣrra | mǣrra |
-| Dative | mǣrum | mǣrre | mǣrum | mǣrum | mǣrum | mǣrum |
-| Accusative | mǣrne | mǣre | mǣre | mǣre | mǣra | mǣru |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | mǣre | mǣre | mǣru |
+| Genitive | mǣres | mǣres | mǣrre |
+| Dative | mǣrum | mǣrum | mǣrre |
+| Accusative | mǣrne | mǣre | mǣre |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | mǣre | mǣru | mǣra |
+| Genitive | mǣrra | mǣrra | mǣrra |
+| Dative | mǣrum | mǣrum | mǣrum |
+| Accusative | mǣre | mǣru | mǣra |
 
 <!-- teaching: NEW-U15-PAR-MAERE-WEAK-NGDA -->
 
@@ -1381,12 +1411,19 @@ Mǣre keeps its final e where there is no added ending and drops it before anoth
 
 <!-- table: NEW-U15-PAR-MAERE-WEAK-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | mǣra | mǣre | mǣre | mǣran | mǣran | mǣran |
-| Genitive | mǣran | mǣran | mǣran | mǣrra | mǣrra | mǣrra |
-| Dative | mǣran | mǣran | mǣran | mǣrum | mǣrum | mǣrum |
-| Accusative | mǣran | mǣran | mǣre | mǣran | mǣran | mǣran |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | mǣra | mǣre | mǣre |
+| Genitive | mǣran | mǣran | mǣran |
+| Dative | mǣran | mǣran | mǣran |
+| Accusative | mǣran | mǣre | mǣran |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | mǣran | mǣran | mǣran |
+| Genitive | mǣrra | mǣrra | mǣrra |
+| Dative | mǣrum | mǣrum | mǣrum |
+| Accusative | mǣran | mǣran | mǣran |
 
 <!-- teaching: NEW-U15-VOC-UNGETHANCFULL -->
 
@@ -1400,12 +1437,19 @@ Ungeðancfull retains ll in the bare form and before vowel-initial endings, as i
 
 <!-- table: NEW-U15-PAR-UNGETHANCFULL-STRONG-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | ungeðancfull | ungeðancfull | ungeðancfull | ungeðancfulle | ungeðancfulla | ungeðancfull |
-| Genitive | ungeðancfulles | ungeðancfulre | ungeðancfulles | ungeðancfulra | ungeðancfulra | ungeðancfulra |
-| Dative | ungeðancfullum | ungeðancfulre | ungeðancfullum | ungeðancfullum | ungeðancfullum | ungeðancfullum |
-| Accusative | ungeðancfulne | ungeðancfulle | ungeðancfull | ungeðancfulle | ungeðancfulla | ungeðancfull |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ungeðancfull | ungeðancfull | ungeðancfull |
+| Genitive | ungeðancfulles | ungeðancfulles | ungeðancfulre |
+| Dative | ungeðancfullum | ungeðancfullum | ungeðancfulre |
+| Accusative | ungeðancfulne | ungeðancfull | ungeðancfulle |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ungeðancfulle | ungeðancfull | ungeðancfulla |
+| Genitive | ungeðancfulra | ungeðancfulra | ungeðancfulra |
+| Dative | ungeðancfullum | ungeðancfullum | ungeðancfullum |
+| Accusative | ungeðancfulle | ungeðancfull | ungeðancfulla |
 
 <!-- teaching: NEW-U15-PAR-UNGETHANCFULL-WEAK-NGDA -->
 
@@ -1413,12 +1457,19 @@ Ungeðancfull retains ll in the bare form and before vowel-initial endings, as i
 
 <!-- table: NEW-U15-PAR-UNGETHANCFULL-WEAK-NGDA-DISPLAY -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | ungeðancfulla | ungeðancfulle | ungeðancfulle | ungeðancfullan | ungeðancfullan | ungeðancfullan |
-| Genitive | ungeðancfullan | ungeðancfullan | ungeðancfullan | ungeðancfulra | ungeðancfulra | ungeðancfulra |
-| Dative | ungeðancfullan | ungeðancfullan | ungeðancfullan | ungeðancfullum | ungeðancfullum | ungeðancfullum |
-| Accusative | ungeðancfullan | ungeðancfullan | ungeðancfulle | ungeðancfullan | ungeðancfullan | ungeðancfullan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ungeðancfulla | ungeðancfulle | ungeðancfulle |
+| Genitive | ungeðancfullan | ungeðancfullan | ungeðancfullan |
+| Dative | ungeðancfullan | ungeðancfullan | ungeðancfullan |
+| Accusative | ungeðancfullan | ungeðancfulle | ungeðancfullan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ungeðancfullan | ungeðancfullan | ungeðancfullan |
+| Genitive | ungeðancfulra | ungeðancfulra | ungeðancfulra |
+| Dative | ungeðancfullum | ungeðancfullum | ungeðancfullum |
+| Accusative | ungeðancfullan | ungeðancfullan | ungeðancfullan |
 
 ### Additional vocabulary
 
@@ -1653,14 +1704,14 @@ Give the complete present and preterite indicative negative be-series for I, you
 <!-- output: NEW-U15-F01-O011 -->
 <!-- output: NEW-U15-F01-O012 -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | (1) ____ | (7) ____ |
-| 2 singular | (2) ____ | (8) ____ |
-| 3 singular | (3) ____ | (9) ____ |
-| 1 plural | (4) ____ | (10) ____ |
-| 2 plural | (5) ____ | (11) ____ |
-| 3 plural | (6) ____ | (12) ____ |
+| 1 sg. | (1) ____ | (7) ____ |
+| 2 sg. | (2) ____ | (8) ____ |
+| 3 sg. | (3) ____ | (9) ____ |
+| 1 pl. | (4) ____ | (10) ____ |
+| 2 pl. | (5) ____ | (11) ____ |
+| 3 pl. | (6) ____ | (12) ____ |
 
 <!-- output: NEW-U15-F01-O013 -->
 
@@ -1687,14 +1738,14 @@ Give the complete present and preterite indicative of nabban for the six person/
 <!-- output: NEW-U15-F02-O011 -->
 <!-- output: NEW-U15-F02-O012 -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | (1) ____ | (7) ____ |
-| 2 singular | (2) ____ | (8) ____ |
-| 3 singular | (3) ____ | (9) ____ |
-| 1 plural | (4) ____ | (10) ____ |
-| 2 plural | (5) ____ | (11) ____ |
-| 3 plural | (6) ____ | (12) ____ |
+| 1 sg. | (1) ____ | (7) ____ |
+| 2 sg. | (2) ____ | (8) ____ |
+| 3 sg. | (3) ____ | (9) ____ |
+| 1 pl. | (4) ____ | (10) ____ |
+| 2 pl. | (5) ____ | (11) ____ |
+| 3 pl. | (6) ____ | (12) ____ |
 
 <!-- output: NEW-U15-F02-O013 -->
 <!-- output: NEW-U15-F02-O014 -->
@@ -1724,14 +1775,14 @@ Give the complete present and preterite indicative of the selected negative will
 <!-- output: NEW-U15-F03-O011 -->
 <!-- output: NEW-U15-F03-O012 -->
 
-| Person/number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | (1) ____ | (7) ____ |
-| 2 singular | (2) ____ | (8) ____ |
-| 3 singular | (3) ____ | (9) ____ |
-| 1 plural | (4) ____ | (10) ____ |
-| 2 plural | (5) ____ | (11) ____ |
-| 3 plural | (6) ____ | (12) ____ |
+| 1 sg. | (1) ____ | (7) ____ |
+| 2 sg. | (2) ____ | (8) ____ |
+| 3 sg. | (3) ____ | (9) ____ |
+| 1 pl. | (4) ____ | (10) ____ |
+| 2 pl. | (5) ____ | (11) ____ |
+| 3 pl. | (6) ____ | (12) ____ |
 
 <!-- output: NEW-U15-F03-O013 -->
 <!-- output: NEW-U15-F03-O014 -->
@@ -1828,12 +1879,19 @@ Give all nominative, genitive, dative and accusative forms of nān, singular and
 <!-- output: NEW-U15-F04-O023 -->
 <!-- output: NEW-U15-F04-O024 -->
 
-| Case | masculine singular | feminine singular | neuter singular | masculine plural | feminine plural | neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | (1) ____ | (9) ____ | (17) ____ | (5) ____ | (13) ____ | (21) ____ |
-| Genitive | (2) ____ | (10) ____ | (18) ____ | (6) ____ | (14) ____ | (22) ____ |
-| Dative | (3) ____ | (11) ____ | (19) ____ | (7) ____ | (15) ____ | (23) ____ |
-| Accusative | (4) ____ | (12) ____ | (20) ____ | (8) ____ | (16) ____ | (24) ____ |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | (1) ____ | (17) ____ | (9) ____ |
+| Genitive | (2) ____ | (18) ____ | (10) ____ |
+| Dative | (3) ____ | (19) ____ | (11) ____ |
+| Accusative | (4) ____ | (20) ____ | (12) ____ |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | (5) ____ | (21) ____ | (13) ____ |
+| Genitive | (6) ____ | (22) ____ | (14) ____ |
+| Dative | (7) ____ | (23) ____ | (15) ____ |
+| Accusative | (8) ____ | (24) ____ | (16) ____ |
 
 <!-- output: NEW-U15-F04-O025 -->
 
@@ -1856,7 +1914,7 @@ Give all nominative, genitive, dative and accusative singular forms of gehwā/ge
 <!-- output: NEW-U15-F05-O007 -->
 <!-- output: NEW-U15-F05-O008 -->
 
-| Case | neuter singular | common singular |
+| Case | Neuter singular | Common singular |
 | --- | --- | --- |
 | Nominative | (5) ____ | (1) ____ |
 | Genitive | (6) ____ | (2) ____ |

@@ -41,7 +41,7 @@ All entries below were checked against the named images from the selected *Exerc
 | God | God (43) | 49 / 57 | [ex-pdf57.png](ex-pdf57.png), God | Strong masculine; the proper divine name is singular in these tasks and takes no article. |
 | beasts | dēor (47) | 40 / 48 | [ex-pdf48.png](ex-pdf48.png), beast | New English gloss for the already evidenced animal sense; nīeten is also printed. |
 | face | brādnes (51.5) | 47 / 55 | [ex-pdf55.png](ex-pdf55.png), face | “Surface” here, not a human face. It is the noun in the exact Creation phrase. Alternative andwlita is weak masculine. |
-| deep | nēowolnes (51.5) | 44 / 52 | Inherited lexical report and Ex source image; also exact Reader p.123 | Same abyss/deep sense as Exercise 1.16, newly required genitive. |
+| deep | nēowolnes (51.5) | 44 / 52 | Cook vocabulary entry and exact Reader p.123 | Same abyss/deep sense as Exercise 1.16, newly required genitive. |
 | congregation | gegaderung (51.3) | 43 / 51 | [ex-pdf51.png](ex-pdf51.png), congregation | A gathering/collection, here of waters; not exclusively a religious congregation. |
 | air | lyft (47; 51.b) | 38 / 46 | [ex-pdf46.png](ex-pdf46.png), air | Source allows neuter and feminine. Neuter fits the existing strong-neuter paradigm; feminine is valid. Alternative loft is neuter. |
 | array | frætwung (51.3) | 39 / 47 | [ex-pdf47.png](ex-pdf47.png), array, subst. | Strong feminine in -ung. Do not substitute the different noun frætew. |
@@ -54,10 +54,10 @@ The new lexemes are **anginn, God, brādnes, gegaderung, lyft, frætwung, weorc,
 
 ## Reused source records
 
-Retain the exact archived transcripts rather than retyping them without reason:
+Use the exact source transcripts:
 
-- [Exercise 1](../../../reference/previous-course/sources/transcriptions/ch01/exercise-1.md): all 16 prompts, Ex p.1/PDF9, image and verified parenthetical “(plur.)” in item9.
-- [Exercise 2](../../../reference/previous-course/sources/transcriptions/ch02/exercise-2.md): all 12 prompts, Ex p.1/PDF9, complete ending at “cattle.”
-- [Exercise 1 lexical audit](../../../reference/previous-course/sources/analysis/ch01-lexical/report.md) and [Exercise 2 form audit](../../../reference/previous-course/sources/analysis/ch02/dependency-report.md): evidence only. Their earlier course milestones and pedagogical limits are superseded here.
+- [Exercise 1](../../../sources/transcriptions/cook-ex-01.md): all 16 prompts, Ex p.1/PDF9, image and verified parenthetical “(plur.)” in item9.
+- [Exercise 2](../../../sources/transcriptions/cook-ex-02.md): all 12 prompts, Ex p.1/PDF9, complete ending at “cattle.”
+- The exact [Exercise 1](../../transcriptions/cook-ex-01.md) and [Exercise 2](../../transcriptions/cook-ex-02.md) transcriptions preserve their source prompts. [C01](../../corrections/c01/README.md) records the checked vowel-quantity correction.
 
 No source-prompt ambiguity remains. The exact forms for new models still require the coordinator's learning contract and independent review; this audit does not supply those models.

@@ -4,7 +4,7 @@ Settled scope, 22 October 2026, after independent source mapping and curriculum 
 
 ## Assigned source scope
 
-Retain **Group I, Exercises 1–3 in full: 16 + 12 + 18 = 46 prompts**, with unchanged English wording and original item IDs. Reuse the verified archived transcriptions of 1–2 as evidence, and the fresh [Exercise 3 audit](../sources/audits/unit01-source/exercise-3.md). No prior Old English or teaching milestone is assumed.
+Retain **Group I, Exercises 1–3 in full: 16 + 12 + 18 = 46 prompts**, with unchanged English wording and original item IDs. Use the verified source transcriptions of 1–2, and the fresh [Exercise 3 audit](../sources/audits/unit01-source/exercise-3.md). No prior Old English or teaching milestone is assumed.
 
 Read the entire first-day Creation narrative: FB pp.123–124 / PDF139–140, through **ān dæg**, 69 whitespace-delimited words. Use the [faithful transcription](../sources/audits/unit01-source/creation-first-day.md); remove apparatus cues and line/page breaks only. Preserve **heofonan**, **gefęred**, **Geweorðe**, and unlengthened **geseah**. The earlier isolated opening, earth, and darkness spans are subsumed in this reading. Record explicit new deferrals for the audited lights and birds candidates; do not inherit old chapter assignments.
 

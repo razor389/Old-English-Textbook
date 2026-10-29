@@ -2,7 +2,7 @@
   "schema_version": 1,
   "chapter": "ch09",
   "status": "actual_eight_unit_records_inspected",
-  "authority": "All eight active contracts and actual cumulative registers. No archived teaching imported.",
+  "authority": "All eight active contracts and actual cumulative registers.",
   "baseline": {
     "path": "build/unit09-prior-baseline.json",
     "checkpoint": "cb687a94422d6b822315b22e3edb3b0e5987e04e"
@@ -140164,12 +140164,12 @@
           ],
           "subsumed_evidence_ids": [
             "FB-I-123-OPENING-SENTENCE",
-            "ch01-text-01",
-            "ch02-reader-darkness"
+            "FB-I-CREATION-LIGHT-CLAUSE",
+            "FB-I-CREATION-DARKNESS-CLAUSE"
           ],
           "explicit_deferred_source_records": [
             {
-              "source_record_id": "ch02-reader-lights",
+              "source_record_id": "FB-I-CREATION-LUMINARIES-CLAUSE",
               "planned_unit": 3,
               "reason": "The two-lights passage requires numeral and adjective instruction; its exact later contract may follow Unit 5 for independent verb production.",
               "source_locator": {
@@ -140182,8 +140182,8 @@
               }
             },
             {
-              "source_record_id": "ch02-text-01",
-              "source_alias": "ch02-reader-birds",
+              "source_record_id": "FB-I-CREATION-BIRDS-CLAUSE",
+              "source_alias": "FB-I-CREATION-BIRDS-EXCERPT",
               "planned_unit": 7,
               "reason": "The blessing clause requires passive and optative/command work; the old assignment does not establish teaching here.",
               "source_locator": {
@@ -140416,7 +140416,7 @@
         }
       ],
       "source_assignment_policy": {
-        "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts, not planning maps or archived course statuses.",
+        "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts, not planning maps.",
         "carry_forward_contract": "chapters/ch01/coverage.json",
         "carry_forward_sha256": "d829e1e239a8e8452ca99bf8354db29d02f1e640941bfec5fbed647dd6577b27",
         "unchanged_cook_items": 644,
@@ -143191,7 +143191,7 @@
         }
       ],
       "source_assignment_policy": {
-        "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts, not planning maps or archived course statuses.",
+        "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts, not planning maps.",
         "carry_forward_contracts": [
           {
             "path": "chapters/ch01/coverage.json",
@@ -143246,10 +143246,10 @@
           "EX-I-04-15",
           "EX-I-04-16",
           "EX-I-04-17",
-          "ch02-reader-lights"
+          "FB-I-CREATION-LUMINARIES-CLAUSE"
         ],
         "new_exact_source_assignment": "FB-I-CREATION-FOURTH-DAY-01",
-        "note": "The seventeen Cook items supersede their explicit Unit1 deferrals. The complete fourth-day span subsumes the old lights candidate without a duplicate assignment. No earlier contract or archive file is rewritten; all other Cook deferrals and the birds candidate remain."
+        "note": "The seventeen Cook items supersede their explicit Unit1 deferrals. The complete fourth-day span subsumes the old lights candidate without a duplicate assignment. No earlier contract is rewritten; all other Cook deferrals and the birds candidate remain."
       },
       "task_ids": [
         "NEW-U03-A01",
@@ -143444,21 +143444,21 @@
           ],
           "prior_deferral_proposal": {
             "resolve_by_subsumption": {
-              "audit_record_id": "ch02-reader-lights",
+              "audit_record_id": "FB-I-CREATION-LUMINARIES-CLAUSE",
               "prior_locator": "FB125 lines12–13",
               "inside_this_span": true,
               "prior_snippet": "And God geworhte twā²⁴ miclu²⁵ lēoht;",
               "verified_complete_span_punctuation": "And God geworhte twā miclu lēoht:",
-              "change_note": "The inherited snippet has a semicolon after lēoht. The image has a colon. Preserve the old evidence snapshot; use the image-verified complete new span as authoritative."
+              "change_note": "The image-verified complete span has a colon after lēoht."
             },
             "preserve_deferral": {
-              "audit_record_id": "ch02-text-01",
-              "editorial_audit_id": "ch02-reader-birds",
+              "audit_record_id": "FB-I-CREATION-BIRDS-CLAUSE",
+              "editorial_audit_id": "FB-I-CREATION-BIRDS-EXCERPT",
               "locator": "FB126 lines12–13",
               "planned_chapter": "ch07",
               "inside_this_span": false
             },
-            "note": "This proposal creates no second assignment of the old lights snippet and changes no archived or prior active contract."
+            "note": "This excerpt belongs to the single complete fourth-day assignment; prior active contracts are unchanged."
           },
           "baseline_actual_active_records": [
             {
@@ -150586,7 +150586,7 @@
         }
       ],
       "source_assignment_policy": {
-        "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts, not planning maps or archived statuses.",
+        "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts establish the canonical crosswalk.",
         "carry_forward_contracts": [
           {
             "path": "chapters/ch01/coverage.json",
@@ -150753,9 +150753,9 @@
             "earlier_assigned_sources_reused": [],
             "continued_deferrals": [
               "EX-I-04-18",
-              "ch02-text-01 (editorial alias ch02-reader-birds)"
+              "FB-I-CREATION-BIRDS-CLAUSE (editorial alias FB-I-CREATION-BIRDS-EXCERPT)"
             ],
-            "prior_lights_alias": "Already subsumed in Unit3; no reassignment or archive edit.",
+            "prior_lights_alias": "Already included in Unit3; no reassignment.",
             "scope_limit": "Only Unit4. The surrounding Apollonius speeches and later chapters are not drafted or assigned."
           },
           "support_counts": {
@@ -153250,7 +153250,7 @@
         "No productive quantifier eall, reference instrumental, plural-cardinal-one or *sǣwa promotion.",
         "Keep first-day source identity and original contract unchanged; the new encounter is an explicit revisit.",
         "No new productive naming, relative/content/purpose clause or source-only preposition construction.",
-        "Prior actual milestones and supplied histories remain recoverable; no archived teaching milestone is imported."
+        "Prior actual milestones and supplied histories remain recoverable."
       ],
       "audited_inflection_rules": [
         {
@@ -153353,7 +153353,7 @@
         }
       ],
       "source_assignment_policy": {
-        "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts, not planning maps or archived statuses.",
+        "canonical_crosswalk": "Assignments/deferments/exclusions across active coverage contracts establish the canonical crosswalk.",
         "carry_forward_contracts": [
           {
             "path": "chapters/ch01/coverage.json",
@@ -166726,7 +166726,7 @@
         "Simple ne negation extends only to newly audited systems; no negative copula, negative concord or every contracted negative form follows.",
         "Participles, passive, subjunctive/optative wishes and unsupported subordinate moods remain supplied/deferred. Creation wishes must not be labelled imperative morphology.",
         "No ge- or other prefix generalization; new prefixed lexemes need their own evidence.",
-        "I.4.18 and the birds candidate remain Unit7 deferrals; no earlier active or archived artifact is rewritten.",
+        "I.4.18 and the birds candidate remain Unit7 deferrals; no earlier active artifact is rewritten.",
         "Only43 imperative-model lemma systems (44 rows with alternate bēon) and two additional infinitive-only skill verbs receive these new nonfinite/imperative milestones.",
         "Finite indicative roster is ten complete12-cell systems plus alternate bēon6; no new modal imperative or defective modal infinitive is fabricated.",
         "Existing plain-infinitive citation IDs are promoted only after same-lemma/same-surface/morphology identity checks; their old analysis and supplied/per-chapter histories remain explicit.",
@@ -166994,7 +166994,7 @@
         }
       ],
       "source_assignment_policy": {
-        "canonical_crosswalk": "Assignments/deferments/exclusions across active contracts, not maps, audit recommendations or archived milestones.",
+        "canonical_crosswalk": "Assignments/deferments/exclusions across active contracts, not maps, audit recommendations.",
         "carry_forward_contracts": [
           {
             "path": "chapters/ch01/coverage.json",
@@ -177746,7 +177746,7 @@
         "First/second personal genitives, instrumental syntax, plural cardinal an and reconstructed *saewa retain their recorded limits.",
         "Source-only relative/content/purpose/temporal clauses, reflexive self, and prefixed lexical senses receive no automatic milestones.",
         "The new source styriendlicu is not the earlier selected styriendlic neuter plural form.",
-        "The new full fifth-day reading contains and resolves the earlier ch02-text-01 / ch02-reader-birds deferred alias; it is not a second independent assignment of the same source clause."
+        "The full fifth-day reading contains FB-I-CREATION-BIRDS-CLAUSE / FB-I-CREATION-BIRDS-EXCERPT; these excerpt identifiers refer to the single assigned source span."
       ],
       "audited_inflection_rules": [
         {
@@ -177771,7 +177771,7 @@
         }
       ],
       "source_assignment_policy": {
-        "canonical_crosswalk": "Assigned/deferred/excluded records across actual active contracts; planning maps and archived milestones do not assign items.",
+        "canonical_crosswalk": "Assigned/deferred/excluded records across actual active contracts; planning maps do not assign items.",
         "carry_forward_contracts": [
           {
             "path": "chapters/ch01/coverage.json",
@@ -177880,8 +177880,8 @@
           "EX-I-07-15",
           "EX-I-07-16",
           "EX-I-07-17",
-          "ch02-text-01",
-          "ch02-reader-birds"
+          "FB-I-CREATION-BIRDS-CLAUSE",
+          "FB-I-CREATION-BIRDS-EXCERPT"
         ],
         "note": "All I.4.18/I.6/I.7 prompts are assigned without alteration. The new whole fifth day contains the previously deferred birds clause. Earlier contracts and original dispositions remain preserved; current remaining numbered deferrals are restated explicitly below. No sixth-day reading or Unit 8 prose is assigned."
       },
@@ -180158,8 +180158,8 @@
             "u07-source-resultative"
           ],
           "deferred_aliases_resolved": [
-            "ch02-text-01",
-            "ch02-reader-birds"
+            "FB-I-CREATION-BIRDS-CLAUSE",
+            "FB-I-CREATION-BIRDS-EXCERPT"
           ],
           "assignment_authority": "chapters/ch07/coverage.json; audits and planning proposals are evidence, not competing assignments."
         }
@@ -180270,7 +180270,7 @@
         "Distinguish supplied source forms and contextual analyses from productive paradigms; ofer sǣ is surface-syncretic and its preferred accusative reading is contextual."
       ],
       "bounded_scope": [
-        "Course Units1–7 are the sole prior-teaching authority. Archived evidence is reused without importing archived milestones.",
+        "Course Units1–7 are the sole prior-teaching authority.",
         "Direct questions and ordinary subject/object/dative relatives are productive. Main-clause and relative-clause cases are independently governed in the assigned model. Case attraction is a limited recognition note; embedded interrogatives and extended content-clause syntax remain later work.",
         "Hwā/hwæt has singular common-personal and neuter columns only. The nominal instrumental reference forms do not establish general instrumental syntax; lexical hwȳ why is separately bounded.",
         "Full hwilc, hwæðer and hūlic morphology supports ordinary direct interrogative uses; hwæðer is practised attributively with a supplied two-person context, without a new partitive construction.",
@@ -180475,7 +180475,7 @@
         }
       ],
       "source_assignment_policy": {
-        "canonical_crosswalk": "Assigned/deferred/excluded records across active contracts; planning maps and archived milestones do not assign items.",
+        "canonical_crosswalk": "Assigned/deferred/excluded records across active contracts; planning maps do not assign items.",
         "carry_forward_contracts": [
           {
             "path": "chapters/ch01/coverage.json",
@@ -180647,7 +180647,7 @@
             "excluded_next_turn": "Teacher. Hwilc ðing gelǣdst ðū ūs?",
             "rationale": "Four complete alternating turns: the merchant identifies his usefulness and explains foreign trade and its danger. The later commodity list and profit discussion are outside this coherent bounded opening."
           },
-          "canonical_assignment_note": "This audit proposes an exact bounded span. Only the new active coverage contract assigns it. The archived course and source map do not confer teaching milestones or assignment.",
+          "canonical_assignment_note": "This audit proposes an exact bounded span. Only the new active coverage contract assigns it. The source map does not confer teaching milestones or assignment.",
           "source_images": [
             {
               "path": "sources/audits/unit08-source/cook_fb_1895_2-p129.png",

@@ -148,97 +148,59 @@ def expected(p,x):
     raise ValueError((p['paradigm_id'],x['logical_cell_id'],a))
 
 def main():
-    c=read('chapters/ch17/coverage.json')
-    notes=read('build/u17-paradigms-view-notes.json')
-    catalog=c['evidence_catalog']; inspections=[]
+    c = read('chapters/ch17/coverage.json')
+    notes = read('build/u17-paradigms-view-notes.json')
+    catalog = c['evidence_catalog']
+    inspections = []
     for n in notes:
-        i=identity(n['path']); i.update(actually_viewed=True,reviewer='unit17_paradigms',
-            inspection_method='Personal view_image inspection; OCR was not evidence.',observation=n['observation'])
-        i['catalog_evidence_ids']=[k for k,e in catalog.items() if isinstance(e,dict) and e.get('image_path')==n['path']]
-        i['source_locators']=[{k:e[k] for k in ('source_id','printed_page','pdf_page_one_based','original_identifier') if k in e}
-            for e in catalog.values() if isinstance(e,dict) and e.get('image_path')==n['path']][:1]
+        i = identity(n['path'])
+        i.update(actually_viewed=True, reviewer='unit17_paradigms', inspection_method='Personal view_image inspection; OCR was not evidence.', observation=n['observation'])
+        i['catalog_evidence_ids'] = [k for k, e in catalog.items() if isinstance(e, dict) and e.get('image_path') == n['path']]
+        i['source_locators'] = [{k: e[k] for k in ('source_id', 'printed_page', 'pdf_page_one_based', 'original_identifier') if k in e} for e in catalog.values() if isinstance(e, dict) and e.get('image_path') == n['path']][:1]
         inspections.append(i)
-    # Retain identities of all active prior contracts and actual cumulative registers.
-    priors=[identity(f'chapters/ch{i:02d}/coverage.json') for i in range(1,17)]
-    priors += [identity('lexicon/entries.json'),identity('curriculum/grammar.json')]
-    lexical=read('lexicon/entries.json'); grammar=read('curriculum/grammar.json')
-    prior_forms={f['form_id']:f for l in lexical['lemmas'] for f in l['forms']}
-    systems=[]; cells=[]; prior_reuse=[]
-    routes={(r['paradigm_id'],r['logical_cell_id']):r for r in c['display_plan']['paradigm_cell_display_routes']}
-    matrices={m['matrix_id']:m for m in c['display_plan']['matrices']}
+    priors = [identity(f'chapters/ch{i:02d}/coverage.json') for i in range(1, 17)]
+    priors += [identity('lexicon/entries.json'), identity('curriculum/grammar.json')]
+    lexical = read('lexicon/entries.json')
+    grammar = read('curriculum/grammar.json')
+    prior_forms = {f['form_id']: f for l in lexical['lemmas'] for f in l['forms']}
+    systems = []
+    cells = []
+    prior_reuse = []
+    routes = {(r['paradigm_id'], r['logical_cell_id']): r for r in c['display_plan']['paradigm_cell_display_routes']}
+    matrices = {m['matrix_id']: m for m in c['display_plan']['matrices']}
     for p in c['paradigms']:
-        mismatches=[]; literal_checks=[]
+        mismatches = []
+        literal_checks = []
         for x in p['cells']:
-            exp=expected(p,x); key=(p['paradigm_id'],x['logical_cell_id']); r=routes[key]
-            m=matrices[r['matrix_id']]; display=m['rows'][r['row_index_zero_based']][r['column_index_zero_based']]
-            issues=[]
-            if x['form']!=exp: issues.append({'type':'source_derived_form','expected':exp,'contract':x['form']})
-            if r['surface']!=x['form'] or display!=x['form']: issues.append({'type':'contract_display_route','route_surface':r['surface'],'matrix_surface':display})
-            if issues: mismatches.append({'logical_cell_id':x['logical_cell_id'],'issues':issues})
-            cells.append({'paradigm_id':p['paradigm_id'],'logical_cell_id':x['logical_cell_id'],
-                'status':'source_checked_pending_master_route','expected_form_from_reviewed_sources':exp,
-                'contract_form':x['form'],'knowledge_status':x['knowledge_status'],
-                'matrix_id':r['matrix_id'],'row_index_zero_based':r['row_index_zero_based'],
-                'column_index_zero_based':r['column_index_zero_based'],'source_mismatches':issues,
-                'learner_master_checked':False})
+            exp = expected(p, x)
+            key = (p['paradigm_id'], x['logical_cell_id'])
+            r = routes[key]
+            m = matrices[r['matrix_id']]
+            display = m['rows'][r['row_index_zero_based']][r['column_index_zero_based']]
+            issues = []
+            if x['form'] != exp:
+                issues.append({'type': 'source_derived_form', 'expected': exp, 'contract': x['form']})
+            if r['surface'] != x['form'] or display != x['form']:
+                issues.append({'type': 'contract_display_route', 'route_surface': r['surface'], 'matrix_surface': display})
+            if issues:
+                mismatches.append({'logical_cell_id': x['logical_cell_id'], 'issues': issues})
+            cells.append({'paradigm_id': p['paradigm_id'], 'logical_cell_id': x['logical_cell_id'], 'status': 'source_checked_pending_master_route', 'expected_form_from_reviewed_sources': exp, 'contract_form': x['form'], 'knowledge_status': x['knowledge_status'], 'matrix_id': r['matrix_id'], 'row_index_zero_based': r['row_index_zero_based'], 'column_index_zero_based': r['column_index_zero_based'], 'source_mismatches': issues, 'learner_master_checked': False})
             if x['form_id'] in prior_forms:
-                old=prior_forms[x['form_id']]
-                prior_reuse.append({'form_id':x['form_id'],'prior_surface':old['form'],'current_surface':x['form'],
-                    'surface_preserved':old['form']==x['form'],
-                    'production_taught_in':old.get('production_taught_in'),
-                    'recognition_taught_in':old.get('recognition_taught_in'),
-                    'supplied_in':old.get('supplied_in',[]),
-                    'new_status':x['knowledge_status']})
-        ids=[x['logical_cell_id'] for x in p['cells']]
-        source_paths=sorted({catalog[e]['image_path'] for e in p['evidence_refs'] if e in catalog and isinstance(catalog[e],dict) and catalog[e].get('image_path')})
-        viewed=[i['path'] for i in inspections if i['path'] in source_paths]
-        family='nominal' if p['lemma_id'] in nominal else 'adjective' if p['lemma_id'] in adjectives else 'verbal'
-        rationale={
-            'nominal':'Every case/number surface compared with independently entered source headword, lexical class and diagnostic stem; class endings from personally inspected Cook28–37. Selected singular scope, exceptional plural and source quantity were checked separately.',
-            'adjective':'Every strong/weak gender, number and case surface compared with source-derived endings from Cook38–41; dictionary-e, heavy-stem and retained-stem choices checked separately. Two instrumental cells retain recognition scope.',
-            'verbal':'Every contracted person/number or nonfinite/agreement surface compared with independently entered class model and exceptional stem. Cook55–78 and lexical pages supply rules; present/past stem, dental changes, umlaut, quantity and bounded mood/use were checked separately.'}[family]
-        systems.append({'paradigm_id':p['paradigm_id'],'status':'source_evidence_checked_pending_final_drafts',
-            'checked_logical_cell_ids':ids,'mismatches':mismatches,'evidence_refs':p['evidence_refs'],
-            'directly_viewed_cited_images':viewed,'rationale':rationale,
-            'diagnostic_rule_checked':p.get('diagnostic_rule',p.get('derivation_rules')),
-            'scope_checked':p.get('scope'),'learner_master_checked':False})
-    failures=[s for s in systems if s['mismatches']]
-    ledger={
-        'schema_version':1,'chapter_id':'ch17','reviewer':'unit17_paradigms',
-        'status':'source_evidence_checked_pending_final_drafts' if not failures else 'source_findings_open',
-        'independence':{'no_current_author_role':True,'blind_solver':False,
-            'reason':'The frozen contract exposes models; this is independent source/paradigm review, not blind learner solving.',
-            'student_master_opened':False,'answer_key_opened':False,
-            'final_review_requires_coordinator_unlock':True},
-        'reviewed_contract_artifact_at_source_stage':identity('chapters/ch17/coverage.json'),
-        'prior_contract_and_register_reads':priors,
-        'register_boundary_checks':{
-            'lemmas':len(lexical['lemmas']),'forms':len(prior_forms),'features':len(grammar['features']),
-            'prior_form_reuses':prior_reuse,
-            'conclusions':[
-              'All sixteen earlier active contracts were read for actual productive and recognition outcomes, bounded scopes and prerequisite teaching. Archived-course milestones are not prerequisites.',
-              'Actual u09-vocative-weak-adjective supports weak direct-address modifiers.',
-              'Actual u10-hyngran-impersonal remains the two-cell third-singular finite frame; new participial agreement does not extend it.',
-              'Actual u11-concession remains normally subjunctive, including admitted facts; current supplied ðēah ðe retains that boundary.',
-              'Actual u14-onfon-dative supplies thing-receiving dative; Unit17 separately teaches personal acceptance/protection.',
-              'Actual u15-negative-concord already licenses reinforced single negation.',
-              'Exact prior biegde is unmarked and supplied; the new bīegde series does not overwrite that source witness.',
-              'Prior gelīefan believe remains distinct from supplied reading permission gelīefst.',
-              'Existing hēanes singular supplied records and ðēnunge source identity remain recoverable; current scope is explicit.'
-            ]},
-        'counts':{'paradigms':len(systems),'logical_cells':len(cells),'display_matrices':len(matrices),
-            'nominal_adjective_paradigms':62,'nominal_adjective_cells':796,'verbal_paradigms':48,'verbal_cells':438,
-            'primary_images_personally_viewed':len(inspections),'source_mismatches':sum(len(s['mismatches']) for s in systems)},
-        'method':'Personal source-image inspection followed by independent literal cell derivation and comparison. Repeated class endings are rule-derived editorial forms, not claims of individual textual attestation. The helper independently enters expected stems/endings; it does not promote draft displays to acceptance.',
-        'primary_evidence_image_inspections':inspections,'paradigm_checks':systems,'cell_route_checks':cells,
-        'material_open_findings':len(failures),'findings':[],
-        'accepted_artifact_identities':[], 'accepted_contract_semantic_identity':None,
-        'remaining_gate':'Root must unlock completed student and answer-key masters. Then personally compare all124 actual matrices and1234 logical routes, explanatory rules, scope labels and key realizations; only then bind artifact and semantic identities and mark accepted.'
-    }
-    write('chapters/ch17/reviews/paradigms.json',ledger)
-    print(json.dumps(ledger['counts'],ensure_ascii=False))
-    for s in failures: print(s['paradigm_id'],json.dumps(s['mismatches'],ensure_ascii=False))
-    bad=[r for r in prior_reuse if not r['surface_preserved']]
-    print('Prior-ID surface changes:',json.dumps(bad,ensure_ascii=False))
+                old = prior_forms[x['form_id']]
+                prior_reuse.append({'form_id': x['form_id'], 'prior_surface': old['form'], 'current_surface': x['form'], 'surface_preserved': old['form'] == x['form'], 'production_taught_in': old.get('production_taught_in'), 'recognition_taught_in': old.get('recognition_taught_in'), 'supplied_in': old.get('supplied_in', []), 'new_status': x['knowledge_status']})
+        ids = [x['logical_cell_id'] for x in p['cells']]
+        source_paths = sorted({catalog[e]['image_path'] for e in p['evidence_refs'] if e in catalog and isinstance(catalog[e], dict) and catalog[e].get('image_path')})
+        viewed = [i['path'] for i in inspections if i['path'] in source_paths]
+        family = 'nominal' if p['lemma_id'] in nominal else 'adjective' if p['lemma_id'] in adjectives else 'verbal'
+        rationale = {'nominal': 'Every case/number surface compared with independently entered source headword, lexical class and diagnostic stem; class endings from personally inspected Cook28–37. Selected singular scope, exceptional plural and source quantity were checked separately.', 'adjective': 'Every strong/weak gender, number and case surface compared with source-derived endings from Cook38–41; dictionary-e, heavy-stem and retained-stem choices checked separately. Two instrumental cells retain recognition scope.', 'verbal': 'Every contracted person/number or nonfinite/agreement surface compared with independently entered class model and exceptional stem. Cook55–78 and lexical pages supply rules; present/past stem, dental changes, umlaut, quantity and bounded mood/use were checked separately.'}[family]
+        systems.append({'paradigm_id': p['paradigm_id'], 'status': 'source_evidence_checked_pending_final_drafts', 'checked_logical_cell_ids': ids, 'mismatches': mismatches, 'evidence_refs': p['evidence_refs'], 'directly_viewed_cited_images': viewed, 'rationale': rationale, 'diagnostic_rule_checked': p.get('diagnostic_rule', p.get('derivation_rules')), 'scope_checked': p.get('scope'), 'learner_master_checked': False})
+    failures = [s for s in systems if s['mismatches']]
+    ledger = {'schema_version': 1, 'chapter_id': 'ch17', 'reviewer': 'unit17_paradigms', 'status': 'source_evidence_checked_pending_final_drafts' if not failures else 'source_findings_open', 'independence': {'no_current_author_role': True, 'blind_solver': False, 'reason': 'The frozen contract exposes models; this is independent source/paradigm review, not blind learner solving.', 'student_master_opened': False, 'answer_key_opened': False, 'final_review_requires_coordinator_unlock': True}, 'reviewed_contract_artifact_at_source_stage': identity('chapters/ch17/coverage.json'), 'prior_contract_and_register_reads': priors, 'register_boundary_checks': {'lemmas': len(lexical['lemmas']), 'forms': len(prior_forms), 'features': len(grammar['features']), 'prior_form_reuses': prior_reuse, 'conclusions': ['All sixteen earlier active contracts were read for actual productive and recognition outcomes, bounded scopes and prerequisite teaching.', 'Actual u09-vocative-weak-adjective supports weak direct-address modifiers.', 'Actual u10-hyngran-impersonal remains the two-cell third-singular finite frame; new participial agreement does not extend it.', 'Actual u11-concession remains normally subjunctive, including admitted facts; current supplied ðēah ðe retains that boundary.', 'Actual u14-onfon-dative supplies thing-receiving dative; Unit17 separately teaches personal acceptance/protection.', 'Actual u15-negative-concord already licenses reinforced single negation.', 'Exact prior biegde is unmarked and supplied; the new bīegde series does not overwrite that source witness.', 'Prior gelīefan believe remains distinct from supplied reading permission gelīefst.', 'Existing hēanes singular supplied records and ðēnunge source identity remain recoverable; current scope is explicit.']}, 'counts': {'paradigms': len(systems), 'logical_cells': len(cells), 'display_matrices': len(matrices), 'nominal_adjective_paradigms': 62, 'nominal_adjective_cells': 796, 'verbal_paradigms': 48, 'verbal_cells': 438, 'primary_images_personally_viewed': len(inspections), 'source_mismatches': sum((len(s['mismatches']) for s in systems))}, 'method': 'Personal source-image inspection followed by independent literal cell derivation and comparison. Repeated class endings are rule-derived editorial forms, not claims of individual textual attestation. The helper independently enters expected stems/endings; it does not promote draft displays to acceptance.', 'primary_evidence_image_inspections': inspections, 'paradigm_checks': systems, 'cell_route_checks': cells, 'material_open_findings': len(failures), 'findings': [], 'accepted_artifact_identities': [], 'accepted_contract_semantic_identity': None, 'remaining_gate': 'Root must unlock completed student and answer-key masters. Then personally compare all124 actual matrices and1234 logical routes, explanatory rules, scope labels and key realizations; only then bind artifact and semantic identities and mark accepted.'}
+    write('chapters/ch17/reviews/paradigms.json', ledger)
+    print(json.dumps(ledger['counts'], ensure_ascii=False))
+    for s in failures:
+        print(s['paradigm_id'], json.dumps(s['mismatches'], ensure_ascii=False))
+    bad = [r for r in prior_reuse if not r['surface_preserved']]
+    print('Prior-ID surface changes:', json.dumps(bad, ensure_ascii=False))
 
 if __name__=='__main__': main()

@@ -8,40 +8,6 @@ def identity(path):
             'normalized_lf_sha256': hashlib.sha256(raw.replace(b'\r\n', b'\n')).hexdigest()}
 
 c = json.loads(Path('chapters/ch15/coverage.json').read_text(encoding='utf-8'))
-report = {
-    'chapter_id': 'ch15', 'status': 'complete_drafts_pending_independent_review',
-    'coordinator': 'root', 'date': '2026-10-27', 'contract_checkpoint': 'ff7f7c8',
-    'author_roles': {'student': 'unit15_design', 'answer_key': 'root'},
-    'independence_limit': 'Authors have not claimed fresh blind independence. Fresh solver and separate paradigm reviewer remain required.',
-    'automated_checks': {
-        'command': 'python -X utf8 scripts/check_unit15.py --draft', 'result': 'PASS',
-        'tasks': 105, 'requested_output_positions': 322, 'exact_cook_prompts': 50,
-        'logical_positions': 691, 'actual_form_or_expression_positions': 675,
-        'explicitly_unassigned_positions': 16, 'matrices': 69,
-        'teaching_locations': len(c['teaching_records']), 'source_words': 415,
-        'original_source_notes': 27, 'note_anchors': 33,
-        'form_output_positions': 116, 'anchored_reading_outputs': 64,
-        'earlier_artifacts': 'All2311 fixed earlier active artifacts and134 archived files remain unchanged; both actual registers remain at the fourteen-unit baseline.'
-    },
-    'draft_artifact_identities': [identity('chapters/ch15/'+n) for n in ['student.md','answer-key.md']],
-    'authoring_observations': [
-        'All50 Cook prompts retain original group/exercise/item identities, lexical hints, omissions and ordering instructions; X, XI remains the joint printed group.',
-        'All55 original tasks and50 Cook keys have separate explanations, target/validity distinctions and concrete error diagnoses. The requested complete form tables and three complete assigned translations are present.',
-        'The initial source-first translation witness predates comparison with other author witnesses and remains unchanged; root is nonetheless an author, not the independent solver.',
-        'The learner prints all69 literal matrices, including16 explicitly unassigned number slots and bounded recognition/reference systems. Five negative-be cells use two lexical components.',
-        'The reading boundaries preserve the unfinished outer Duties speech and complete Preface and Prayer; original notes remain separate from149 grouped modern reading/Cook helps and the additional original-task aid.',
-        'U15-AM01 changes readable English row labels only and corrects Prayer aghwilcum agreement to ende; frozen analysis inputs remain unchanged.',
-        'The primary600dpi image corrected the audit transcription to blostmian with m before contract commitment. This is not a Cook erratum; published teaching follows the corrected source.',
-        'Dry-run register integration preserves prior surfaces, analyses, metadata histories, milestones and source contracts. Actual integration waits for review and presentation acceptance.'
-    ],
-    'remaining_gates': [
-        'Fresh independent solve of every actual learner output, immutable Git freeze before comparison, then full key review.',
-        'Separate fresh paradigm review of691 logical positions against primary evidence and actual displays.',
-        'Resolve material findings and bind textual acceptance to final masters and substantive contract.',
-        'Complete LuaLaTeX exports, full content parity and non-author inspection of every final page.',
-        'Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally.'
-    ],
-    'scope_limit': 'Complete authorship and structural checks do not certify linguistic truth or final completion.'
-}
+report = {'chapter_id': 'ch15', 'status': 'complete_drafts_pending_independent_review', 'coordinator': 'root', 'date': '2026-10-27', 'contract_checkpoint': 'ff7f7c8', 'author_roles': {'student': 'unit15_design', 'answer_key': 'root'}, 'independence_limit': 'Authors have not claimed fresh blind independence. Fresh solver and separate paradigm reviewer remain required.', 'automated_checks': {'command': 'python -X utf8 scripts/check_unit15.py --draft', 'result': 'PASS', 'tasks': 105, 'requested_output_positions': 322, 'exact_cook_prompts': 50, 'logical_positions': 691, 'actual_form_or_expression_positions': 675, 'explicitly_unassigned_positions': 16, 'matrices': 69, 'teaching_locations': len(c['teaching_records']), 'source_words': 415, 'original_source_notes': 27, 'note_anchors': 33, 'form_output_positions': 116, 'anchored_reading_outputs': 64, 'earlier_artifacts': 'All2311 fixed earlier active artifacts remain unchanged; both actual registers remain at the fourteen-unit baseline.'}, 'draft_artifact_identities': [identity('chapters/ch15/' + n) for n in ['student.md', 'answer-key.md']], 'authoring_observations': ['All50 Cook prompts retain original group/exercise/item identities, lexical hints, omissions and ordering instructions; X, XI remains the joint printed group.', 'All55 original tasks and50 Cook keys have separate explanations, target/validity distinctions and concrete error diagnoses. The requested complete form tables and three complete assigned translations are present.', 'The initial source-first translation witness predates comparison with other author witnesses and remains unchanged; root is nonetheless an author, not the independent solver.', 'The learner prints all69 literal matrices, including16 explicitly unassigned number slots and bounded recognition/reference systems. Five negative-be cells use two lexical components.', 'The reading boundaries preserve the unfinished outer Duties speech and complete Preface and Prayer; original notes remain separate from149 grouped modern reading/Cook helps and the additional original-task aid.', 'U15-AM01 changes readable English row labels only and corrects Prayer aghwilcum agreement to ende; frozen analysis inputs remain unchanged.', 'The primary600dpi image corrected the audit transcription to blostmian with m before contract commitment. This is not a Cook erratum; published teaching follows the corrected source.', 'Dry-run register integration preserves prior surfaces, analyses, metadata histories, milestones and source contracts. Actual integration waits for review and presentation acceptance.'], 'remaining_gates': ['Fresh independent solve of every actual learner output, immutable Git freeze before comparison, then full key review.', 'Separate fresh paradigm review of691 logical positions against primary evidence and actual displays.', 'Resolve material findings and bind textual acceptance to final masters and substantive contract.', 'Complete LuaLaTeX exports, full content parity and non-author inspection of every final page.', 'Integrate preserved registers, update README/indexes/status/handoff, export Beads and commit locally.'], 'scope_limit': 'Complete authorship and structural checks do not certify linguistic truth or final completion.'}
 Path('chapters/ch15/coordinator-review.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n',encoding='utf-8',newline='\n')
 print('Recorded complete-draft checks and explicit remaining gates.')

@@ -3154,7 +3154,6 @@
     "typesetting/ch11/reviews/learner-first.json": "6dead61f6914ad42f2be6dd19a9666499e0410b24df8920ce0f5d55c50332d6b",
     "typesetting/ch11/reviews/learner-last.json": "5077e31986b21c401d5db6b8d2c4a58c1855ab22a4f31e339c8a992eb118a7fc"
   },
-  "archive_tree_sha256": "0f268d880862962c696701e92a31a2f48a7d96950fa699c1cab322ffced1e727",
   "brief": "curriculum/UNIT_12_BRIEF.md",
   "productive_outcomes": [
     "Interpret narrative temporal relations from context, lexical meaning and clause connections; use simple preterite for succession or an earlier event without mechanically reproducing English tense labels.",
@@ -49597,7 +49596,7 @@
     }
   },
   "source_assignment_policy": {
-    "canonical_crosswalk": "Assigned/deferred/excluded records across active contracts; plans and archived evidence do not assign items.",
+    "canonical_crosswalk": "Assigned/deferred/excluded records across active contracts; plans do not assign items.",
     "carry_forward_contracts": [
       {
         "path": "chapters/ch01/coverage.json",
@@ -177678,5 +177677,54 @@
         "pages": 30
       }
     ]
+  },
+  "presentation_revision": {
+    "id": "course-table-layout-2026-10",
+    "status": "accepted",
+    "date": "2026-10-29",
+    "contract": "docs/revisions/table-layout/contract.json",
+    "mapping": "docs/revisions/table-layout/tables.json",
+    "exports": [
+      {
+        "document": "ch12/learner",
+        "chapter": 12,
+        "kind": "learner",
+        "pdf": "typesetting/ch12/chapter-12.pdf",
+        "pdf_sha256": "3e51e024af673e92d9271789a2e931be022fdeb8e739466c9323899553851799",
+        "pages": 46,
+        "master": "chapters/ch12/student.md",
+        "master_sha256": "1ac857fe82fb5d50474162487e47a794c0f2afb50230a7f3323e36b55929c54b",
+        "tex": "typesetting/ch12/chapter-12.tex",
+        "tex_sha256": "813254378a99b50253e8de3d95e28f6331860aff53cc6c53210680114f2d7f81",
+        "initial_pages": 47,
+        "initial_pdf_sha256": "15d22f470d1929f22d05e82d65f9dc65b6a890a371d40aca9e060e3918addfc5",
+        "page_review": "docs/revisions/table-layout/page-review.json",
+        "content_review": "docs/revisions/table-layout/export-text-review.json",
+        "master_sha256_normalized_lf": "1ac857fe82fb5d50474162487e47a794c0f2afb50230a7f3323e36b55929c54b",
+        "tex_sha256_normalized_lf": "813254378a99b50253e8de3d95e28f6331860aff53cc6c53210680114f2d7f81"
+      },
+      {
+        "document": "ch12/key",
+        "chapter": 12,
+        "kind": "key",
+        "pdf": "typesetting/ch12/answer-key.pdf",
+        "pdf_sha256": "7e156152d884bd6c5a6b2cb1fe219db183031fd6ac5c9b6d1046af9fb6ee18db",
+        "pages": 30,
+        "master": "chapters/ch12/answer-key.md",
+        "master_sha256": "c72444ddc74b7e7abac4c166b78f4f7164e541d74e0d858efc6cfc3c1e872dbf",
+        "tex": "typesetting/ch12/answer-key.tex",
+        "tex_sha256": "1fdcfaa828a7ee16c0da4b6d7decdf445701c242fbd143468829509b8f072dc5",
+        "initial_pages": 30,
+        "initial_pdf_sha256": "b271213a5f2fe14abe8effbbcd11a37d13f3d11dfd67921a09a85a7ecf1fa6c1",
+        "page_review": "docs/revisions/table-layout/page-review.json",
+        "content_review": "docs/revisions/table-layout/export-text-review.json",
+        "master_sha256_normalized_lf": "c72444ddc74b7e7abac4c166b78f4f7164e541d74e0d858efc6cfc3c1e872dbf",
+        "tex_sha256_normalized_lf": "1fdcfaa828a7ee16c0da4b6d7decdf445701c242fbd143468829509b8f072dc5"
+      }
+    ],
+    "page_review": "docs/revisions/table-layout/page-review.json",
+    "content_review": "docs/revisions/table-layout/export-text-review.json",
+    "logical_scope": "Canonical paradigm arrays retain complete logical cells; shared physical rows and panel orientation are governed by the presentation mapping.",
+    "earlier_review_scope": "Existing textual_review, presentation_review and completion identities document original authoring checkpoints; this object identifies the current accepted exports."
   }
 }

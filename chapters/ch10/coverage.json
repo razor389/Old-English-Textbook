@@ -2298,7 +2298,6 @@
     "typesetting/ch09/reviews/learner-first.json": "bbe6e8ca9e3d3efa12d7dcce5c00d39f712b21c952c11c8fbf1fcadb6a40e2f9",
     "typesetting/ch09/reviews/learner-last.json": "f40ab537aa5e05ee010eb0312fe38c6fba237e899c23ed69c6b27d37a7a7ff04"
   },
-  "archive_tree_sha256": "0f268d880862962c696701e92a31a2f48a7d96950fa699c1cab322ffced1e727",
   "brief": "curriculum/UNIT_10_BRIEF.md",
   "productive_outcomes": [
     "Distinguish a complete noun phrase’s externally governed case from its internal dependent genitive; use selected verbs with genitive objects and dative person/genitive thing.",
@@ -48996,7 +48995,7 @@
     }
   },
   "source_assignment_policy": {
-    "canonical_crosswalk": "Assigned/deferred/excluded records across active contracts; plans and archived evidence do not assign items.",
+    "canonical_crosswalk": "Assigned/deferred/excluded records across active contracts; plans do not assign items.",
     "carry_forward_contracts": [
       {
         "path": "chapters/ch01/coverage.json",
@@ -146009,7 +146008,7 @@
       "origin_category": "new_teaching_material",
       "original_identifier": "Nine active contracts and actual cumulative lexicon/grammar at bb598a1",
       "claim": "Existing morphology IDs and teaching milestones checked against actual registers. Promotion requires fresh source/rule evidence elsewhere in this catalog.",
-      "evidence_limits": "A register proves earlier assignment, not historical linguistic truth. The reference/previous-course archive supplies no active teaching milestones.",
+      "evidence_limits": "A register proves earlier assignment, not historical linguistic truth.",
       "records": [
         "lexicon/entries.json",
         "curriculum/grammar.json",
@@ -147510,7 +147509,6 @@
     "accepted_contract_semantic_identity": {
       "keys": [
         "analysis_inputs",
-        "archive_tree_sha256",
         "assigned_items",
         "audit_recommendation_precedence",
         "audited_inflection_rules",
@@ -147600,5 +147598,54 @@
     "accepted_text_unchanged": true,
     "accepted_text_checkpoint": "08ed659",
     "all_pages_inspected": true
+  },
+  "presentation_revision": {
+    "id": "course-table-layout-2026-10",
+    "status": "accepted",
+    "date": "2026-10-29",
+    "contract": "docs/revisions/table-layout/contract.json",
+    "mapping": "docs/revisions/table-layout/tables.json",
+    "exports": [
+      {
+        "document": "ch10/learner",
+        "chapter": 10,
+        "kind": "learner",
+        "pdf": "typesetting/ch10/chapter-10.pdf",
+        "pdf_sha256": "9aac3feeb2e35e787d6f89ee83ed23625380c403a944cd9697575f934422e132",
+        "pages": 40,
+        "master": "chapters/ch10/student.md",
+        "master_sha256": "ac21ffb18662e7666e79262a8f6d403696b00ba6d377c7a61354d9fc80bd8987",
+        "tex": "typesetting/ch10/chapter-10.tex",
+        "tex_sha256": "97cee02927051002a55a37785e708bd310bf2f2038eea019d4fb8c10f42a5235",
+        "initial_pages": 40,
+        "initial_pdf_sha256": "380b8fbe602414e1c83b225e1f739a7a9b234adab5d3dd8b5c32b744e251e75c",
+        "page_review": "docs/revisions/table-layout/page-review.json",
+        "content_review": "docs/revisions/table-layout/export-text-review.json",
+        "master_sha256_normalized_lf": "ac21ffb18662e7666e79262a8f6d403696b00ba6d377c7a61354d9fc80bd8987",
+        "tex_sha256_normalized_lf": "97cee02927051002a55a37785e708bd310bf2f2038eea019d4fb8c10f42a5235"
+      },
+      {
+        "document": "ch10/key",
+        "chapter": 10,
+        "kind": "key",
+        "pdf": "typesetting/ch10/answer-key.pdf",
+        "pdf_sha256": "cc1d12044ac75fc1143640d02b51810667309990926a818d12640f8de55714e5",
+        "pages": 29,
+        "master": "chapters/ch10/answer-key.md",
+        "master_sha256": "f87e5d18fcabcc4502d7b2b72312c835942362e38bdb41e8a42c05b0acd29c36",
+        "tex": "typesetting/ch10/answer-key.tex",
+        "tex_sha256": "75bcffe9c5eefcdbb8885b535da128d59a469f575d9c7ae26b4376763696ed03",
+        "initial_pages": 29,
+        "initial_pdf_sha256": "21f62e69eea089d1788f4a409cfe6a4d498e3c8989cc6c1bd73381bc1a45776b",
+        "page_review": "docs/revisions/table-layout/page-review.json",
+        "content_review": "docs/revisions/table-layout/export-text-review.json",
+        "master_sha256_normalized_lf": "f87e5d18fcabcc4502d7b2b72312c835942362e38bdb41e8a42c05b0acd29c36",
+        "tex_sha256_normalized_lf": "75bcffe9c5eefcdbb8885b535da128d59a469f575d9c7ae26b4376763696ed03"
+      }
+    ],
+    "page_review": "docs/revisions/table-layout/page-review.json",
+    "content_review": "docs/revisions/table-layout/export-text-review.json",
+    "logical_scope": "Canonical paradigm arrays retain complete logical cells; shared physical rows and panel orientation are governed by the presentation mapping.",
+    "earlier_review_scope": "Existing textual_review, presentation_review and completion identities document original authoring checkpoints; this object identifies the current accepted exports."
   }
 }

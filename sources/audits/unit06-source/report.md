@@ -16,4 +16,4 @@ The merchant’s final exchange on p131/PDF147 was considered as a coherent alte
 
 The composition audit is saved separately in `composition-review.json`, with exact design-input hashes, each checked token sequence, actual prior records, grammatical frames and grading boundaries. It reviews the source and newly composed language before the coordinator’s learning contract. It does not claim to be the later key-blind learner-task review. The source translation witness is deliberately isolated in `audit-translations.md`; later independent reviewers should solve the tasks before opening that file or a draft key.
 
-All source statements rest on retained page images; OCR served only as a finding aid. Evidence locators, claims and SHA256 hashes are in `evidence.json`. No earlier evidence, archive, contract, register or lesson prose was changed by this worker.
+All source statements rest on retained page images; OCR served only as a finding aid. Evidence locators, claims and SHA256 hashes are in `evidence.json`. No earlier evidence, contract, register or lesson prose was changed by this worker.

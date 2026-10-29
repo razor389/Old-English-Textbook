@@ -574,13 +574,21 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 
 <!-- table: NEW-U11-ADJ-HAT-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hāt | hāt | hāt | hāte | hāta | hāt |
-| Genitive | hātes | hātre | hātes | hātra | hātra | hātra |
-| Dative | hātum | hātre | hātum | hātum | hātum | hātum |
-| Accusative | hātne | hāte | hāt | hāte | hāta | hāt |
-| Instrumental | hāte | as dative | hāte | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hāt | hāt | hāt |
+| Genitive | hātes | hātes | hātre |
+| Dative | hātum | hātum | hātre |
+| Accusative | hātne | hāt | hāte |
+| Instrumental | hāte | hāte | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hāte | hāt | hāta |
+| Genitive | hātra | hātra | hātra |
+| Dative | hātum | hātum | hātum |
+| Accusative | hāte | hāt | hāta |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-HAT-WEAK -->
 
@@ -588,13 +596,21 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 
 <!-- table: NEW-U11-ADJ-HAT-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hāta | hāte | hāte | hātan | hātan | hātan |
-| Genitive | hātan | hātan | hātan | hātra | hātra | hātra |
-| Dative | hātan | hātan | hātan | hātum | hātum | hātum |
-| Accusative | hātan | hātan | hāte | hātan | hātan | hātan |
-| Instrumental | hātan | as dative | hātan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hāta | hāte | hāte |
+| Genitive | hātan | hātan | hātan |
+| Dative | hātan | hātan | hātan |
+| Accusative | hātan | hāte | hātan |
+| Instrumental | hātan | hātan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hātan | hātan | hātan |
+| Genitive | hātra | hātra | hātra |
+| Dative | hātum | hātum | hātum |
+| Accusative | hātan | hātan | hātan |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-VOC-RIHTWIS -->
 
@@ -622,13 +638,21 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 
 <!-- table: NEW-U11-ADJ-BLAEC-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | blæc | blacu | blæc | blace | blaca | blacu |
-| Genitive | blaces | blæcre | blaces | blæcra | blæcra | blæcra |
-| Dative | blacum | blæcre | blacum | blacum | blacum | blacum |
-| Accusative | blæcne | blace | blæc | blace | blaca | blacu |
-| Instrumental | blace | as dative | blace | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | blæc | blæc | blacu |
+| Genitive | blaces | blaces | blæcre |
+| Dative | blacum | blacum | blæcre |
+| Accusative | blæcne | blæc | blace |
+| Instrumental | blace | blace | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | blace | blacu | blaca |
+| Genitive | blæcra | blæcra | blæcra |
+| Dative | blacum | blacum | blacum |
+| Accusative | blace | blacu | blaca |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-BLAEC-WEAK -->
 
@@ -636,13 +660,21 @@ The familiar strong endings include singular masculine accusative -ne, feminine 
 
 <!-- table: NEW-U11-ADJ-BLAEC-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | blaca | blace | blace | blacan | blacan | blacan |
-| Genitive | blacan | blacan | blacan | blæcra | blæcra | blæcra |
-| Dative | blacan | blacan | blacan | blacum | blacum | blacum |
-| Accusative | blacan | blacan | blace | blacan | blacan | blacan |
-| Instrumental | blacan | as dative | blacan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | blaca | blace | blace |
+| Genitive | blacan | blacan | blacan |
+| Dative | blacan | blacan | blacan |
+| Accusative | blacan | blace | blacan |
+| Instrumental | blacan | blacan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | blacan | blacan | blacan |
+| Genitive | blæcra | blæcra | blæcra |
+| Dative | blacum | blacum | blacum |
+| Accusative | blacan | blacan | blacan |
+| Instrumental | as dative | as dative | as dative |
 
 Thus strong masculine accusative blæcne retains æ before -ne; weak masculine nominative blaca has a before -a. The weak genitive plural **blæcra** uses **blæc-** before -ra, the ending shared with the strong declension.
 
@@ -656,13 +688,21 @@ Thus strong masculine accusative blæcne retains æ before -ne; weak masculine n
 
 <!-- table: NEW-U11-ADJ-FAEGER-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | fæger | fægeru | fæger | fægere | fægera | fægeru |
-| Genitive | fægeres | fægerre | fægeres | fægerra | fægerra | fægerra |
-| Dative | fægerum | fægerre | fægerum | fægerum | fægerum | fægerum |
-| Accusative | fægerne | fægere | fæger | fægere | fægera | fægeru |
-| Instrumental | fægere | as dative | fægere | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | fæger | fæger | fægeru |
+| Genitive | fægeres | fægeres | fægerre |
+| Dative | fægerum | fægerum | fægerre |
+| Accusative | fægerne | fæger | fægere |
+| Instrumental | fægere | fægere | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | fægere | fægeru | fægera |
+| Genitive | fægerra | fægerra | fægerra |
+| Dative | fægerum | fægerum | fægerum |
+| Accusative | fægere | fægeru | fægera |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-FAEGER-WEAK -->
 
@@ -670,13 +710,21 @@ Thus strong masculine accusative blæcne retains æ before -ne; weak masculine n
 
 <!-- table: NEW-U11-ADJ-FAEGER-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | fægera | fægere | fægere | fægeran | fægeran | fægeran |
-| Genitive | fægeran | fægeran | fægeran | fægerra | fægerra | fægerra |
-| Dative | fægeran | fægeran | fægeran | fægerum | fægerum | fægerum |
-| Accusative | fægeran | fægeran | fægere | fægeran | fægeran | fægeran |
-| Instrumental | fægeran | as dative | fægeran | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | fægera | fægere | fægere |
+| Genitive | fægeran | fægeran | fægeran |
+| Dative | fægeran | fægeran | fægeran |
+| Accusative | fægeran | fægere | fægeran |
+| Instrumental | fægeran | fægeran | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | fægeran | fægeran | fægeran |
+| Genitive | fægerra | fægerra | fægerra |
+| Dative | fægerum | fægerum | fægerum |
+| Accusative | fægeran | fægeran | fægeran |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-VOC-GESYNDIG -->
 
@@ -706,13 +754,21 @@ Cook also allows internal-vowel loss in such disyllabic adjectives, and occasion
 
 <!-- table: NEW-U11-ADJ-SMYLTE-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | smylte | smyltu | smylte | smylte | smylta | smyltu |
-| Genitive | smyltes | smyltre | smyltes | smyltra | smyltra | smyltra |
-| Dative | smyltum | smyltre | smyltum | smyltum | smyltum | smyltum |
-| Accusative | smyltne | smylte | smylte | smylte | smylta | smyltu |
-| Instrumental | smylte | as dative | smylte | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | smylte | smylte | smyltu |
+| Genitive | smyltes | smyltes | smyltre |
+| Dative | smyltum | smyltum | smyltre |
+| Accusative | smyltne | smylte | smylte |
+| Instrumental | smylte | smylte | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | smylte | smyltu | smylta |
+| Genitive | smyltra | smyltra | smyltra |
+| Dative | smyltum | smyltum | smyltum |
+| Accusative | smylte | smyltu | smylta |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-SMYLTE-WEAK -->
 
@@ -720,13 +776,21 @@ Cook also allows internal-vowel loss in such disyllabic adjectives, and occasion
 
 <!-- table: NEW-U11-ADJ-SMYLTE-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | smylta | smylte | smylte | smyltan | smyltan | smyltan |
-| Genitive | smyltan | smyltan | smyltan | smyltra | smyltra | smyltra |
-| Dative | smyltan | smyltan | smyltan | smyltum | smyltum | smyltum |
-| Accusative | smyltan | smyltan | smylte | smyltan | smyltan | smyltan |
-| Instrumental | smyltan | as dative | smyltan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | smylta | smylte | smylte |
+| Genitive | smyltan | smyltan | smyltan |
+| Dative | smyltan | smyltan | smyltan |
+| Accusative | smyltan | smylte | smyltan |
+| Instrumental | smyltan | smyltan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | smyltan | smyltan | smyltan |
+| Genitive | smyltra | smyltra | smyltra |
+| Dative | smyltum | smyltum | smyltum |
+| Accusative | smyltan | smyltan | smyltan |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-VOC-STILLE -->
 
@@ -738,13 +802,21 @@ Cook also allows internal-vowel loss in such disyllabic adjectives, and occasion
 
 <!-- table: NEW-U11-ADJ-STILLE-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | stille | stillu | stille | stille | stilla | stillu |
-| Genitive | stilles | stilre | stilles | stilra | stilra | stilra |
-| Dative | stillum | stilre | stillum | stillum | stillum | stillum |
-| Accusative | stilne | stille | stille | stille | stilla | stillu |
-| Instrumental | stille | as dative | stille | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | stille | stille | stillu |
+| Genitive | stilles | stilles | stilre |
+| Dative | stillum | stillum | stilre |
+| Accusative | stilne | stille | stille |
+| Instrumental | stille | stille | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | stille | stillu | stilla |
+| Genitive | stilra | stilra | stilra |
+| Dative | stillum | stillum | stillum |
+| Accusative | stille | stillu | stilla |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-ADJ-STILLE-WEAK -->
 
@@ -752,13 +824,21 @@ Cook also allows internal-vowel loss in such disyllabic adjectives, and occasion
 
 <!-- table: NEW-U11-ADJ-STILLE-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | stilla | stille | stille | stillan | stillan | stillan |
-| Genitive | stillan | stillan | stillan | stilra | stilra | stilra |
-| Dative | stillan | stillan | stillan | stillum | stillum | stillum |
-| Accusative | stillan | stillan | stille | stillan | stillan | stillan |
-| Instrumental | stillan | as dative | stillan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | stilla | stille | stille |
+| Genitive | stillan | stillan | stillan |
+| Dative | stillan | stillan | stillan |
+| Accusative | stillan | stille | stillan |
+| Instrumental | stillan | stillan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | stillan | stillan | stillan |
+| Genitive | stilra | stilra | stilra |
+| Dative | stillum | stillum | stillum |
+| Accusative | stillan | stillan | stillan |
+| Instrumental | as dative | as dative | as dative |
 
 The literal stille tables show why substituting still- mechanically into smylte without consonant reduction would fail. Quiet or still is an ordinary adjective predicate; it does not call for a passive participle.
 
@@ -776,13 +856,21 @@ Attach the weak endings to the comparative stem. Before genitive plural -ra, the
 
 <!-- table: NEW-U11-ADJ-DEORWIERTH-COMP-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | dēorwierðra | dēorwierðre | dēorwierðre | dēorwierðran | dēorwierðran | dēorwierðran |
-| Genitive | dēorwierðran | dēorwierðran | dēorwierðran | dēorwierðra | dēorwierðra | dēorwierðra |
-| Dative | dēorwierðran | dēorwierðran | dēorwierðran | dēorwierðrum | dēorwierðrum | dēorwierðrum |
-| Accusative | dēorwierðran | dēorwierðran | dēorwierðre | dēorwierðran | dēorwierðran | dēorwierðran |
-| Instrumental | as dative | as dative | as dative | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | dēorwierðra | dēorwierðre | dēorwierðre |
+| Genitive | dēorwierðran | dēorwierðran | dēorwierðran |
+| Dative | dēorwierðran | dēorwierðran | dēorwierðran |
+| Accusative | dēorwierðran | dēorwierðre | dēorwierðran |
+| Instrumental | as dative | as dative | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | dēorwierðran | dēorwierðran | dēorwierðran |
+| Genitive | dēorwierðra | dēorwierðra | dēorwierðra |
+| Dative | dēorwierðrum | dēorwierðrum | dēorwierðrum |
+| Accusative | dēorwierðran | dēorwierðran | dēorwierðran |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U11-VOC-FAEGER-COMP -->
 
@@ -830,14 +918,12 @@ The seven finite tables below give the complete **present and preterite indicati
 
 <!-- table: NEW-U11-PAR-sceththan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | scęððe | scęðede |
-| 2 singular | scęðest | scęðedest |
-| 3 singular | scęðeð | scęðede |
-| 1 plural | scęððað | scęðedon |
-| 2 plural | scęððað | scęðedon |
-| 3 plural | scęððað | scęðedon |
+| 1 sg. | scęððe | scęðede |
+| 2 sg. | scęðest | scęðedest |
+| 3 sg. | scęðeð | scęðede |
+| 1–3 pl. | scęððað | scęðedon |
 
 Learn this consistent weak system. Contracted present variants and the separate strong preterite scōd are outside the required series.
 
@@ -853,14 +939,12 @@ The class II present has -ie, -ast, -að in the singular and -iað in all three 
 
 <!-- table: NEW-U11-PAR-geweorthian-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | geweorðie | geweorðode |
-| 2 singular | geweorðast | geweorðodest |
-| 3 singular | geweorðað | geweorðode |
-| 1 plural | geweorðiað | geweorðodon |
-| 2 plural | geweorðiað | geweorðodon |
-| 3 plural | geweorðiað | geweorðodon |
+| 1 sg. | geweorðie | geweorðode |
+| 2 sg. | geweorðast | geweorðodest |
+| 3 sg. | geweorðað | geweorðode |
+| 1–3 pl. | geweorðiað | geweorðodon |
 
 <!-- teaching: NEW-U11-VOC-SCEAWIAN -->
 
@@ -874,14 +958,12 @@ The class II present has -ie, -ast, -að in the singular and -iað in all three 
 
 <!-- table: NEW-U11-PAR-sceawian-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | scēawie | scēawode |
-| 2 singular | scēawast | scēawodest |
-| 3 singular | scēawað | scēawode |
-| 1 plural | scēawiað | scēawodon |
-| 2 plural | scēawiað | scēawodon |
-| 3 plural | scēawiað | scēawodon |
+| 1 sg. | scēawie | scēawode |
+| 2 sg. | scēawast | scēawodest |
+| 3 sg. | scēawað | scēawode |
+| 1–3 pl. | scēawiað | scēawodon |
 
 <!-- teaching: NEW-U11-PAR-sceawian-INF -->
 
@@ -910,14 +992,12 @@ The plain infinitive is for composition after willan. **Scēawianne** is the inf
 
 <!-- table: NEW-U11-PAR-feohtan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | feohte | feaht |
-| 2 singular | fiehtst | fuhte |
-| 3 singular | fieht | feaht |
-| 1 plural | feohtað | fuhton |
-| 2 plural | feohtað | fuhton |
-| 3 plural | feohtað | fuhton |
+| 1 sg. | feohte | feaht |
+| 2 sg. | fiehtst | fuhte |
+| 3 sg. | fieht | feaht |
+| 1–3 pl. | feohtað | fuhton |
 
 The opponent follows **wið + accusative**, “against; with” in the sense of fighting someone. This is opposition, not accompaniment with mid.
 
@@ -933,14 +1013,12 @@ The opponent follows **wið + accusative**, “against; with” in the sense of 
 
 <!-- table: NEW-U11-PAR-genealaecan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | genēalǣce | genēalǣcte |
-| 2 singular | genēalǣcst | genēalǣctest |
-| 3 singular | genēalǣcð | genēalǣcte |
-| 1 plural | genēalǣcað | genēalǣcton |
-| 2 plural | genēalǣcað | genēalǣcton |
-| 3 plural | genēalǣcað | genēalǣcton |
+| 1 sg. | genēalǣce | genēalǣcte |
+| 2 sg. | genēalǣcst | genēalǣctest |
+| 3 sg. | genēalǣcð | genēalǣcte |
+| 1–3 pl. | genēalǣcað | genēalǣcton |
 
 The second singular preterite has -test and the plural -ton. Attested **genēalǣhte** is an accepted alternative; the complete selected series follows Cook’s -cte formation and is the one to learn here.
 
@@ -954,14 +1032,12 @@ The second singular preterite has -test and the plural -ton. Attested **genēal�
 
 <!-- table: NEW-U11-PAR-hydan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | hȳde | hȳdde |
-| 2 singular | hȳtst | hȳddest |
-| 3 singular | hȳt | hȳdde |
-| 1 plural | hȳdað | hȳddon |
-| 2 plural | hȳdað | hȳddon |
-| 3 plural | hȳdað | hȳddon |
+| 1 sg. | hȳde | hȳdde |
+| 2 sg. | hȳtst | hȳddest |
+| 3 sg. | hȳt | hȳdde |
+| 1–3 pl. | hȳdað | hȳddon |
 
 <!-- teaching: NEW-U11-VOC-BRINGAN -->
 
@@ -975,14 +1051,12 @@ The second singular preterite has -test and the plural -ton. Attested **genēal�
 
 <!-- table: NEW-U11-PAR-bringan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | bringe | brōhte |
-| 2 singular | bringst | brōhtest |
-| 3 singular | bringð | brōhte |
-| 1 plural | bringað | brōhton |
-| 2 plural | bringað | brōhton |
-| 3 plural | bringað | brōhton |
+| 1 sg. | bringe | brōhte |
+| 2 sg. | bringst | brōhtest |
+| 3 sg. | bringð | brōhte |
+| 1–3 pl. | bringað | brōhton |
 
 The second singular preterite adds -st to brōhte; all plural persons have brōhton. A separate strong variant is not required.
 
@@ -1075,10 +1149,10 @@ The earlier **gewītan**, “depart; go away”, now has both direct commands. S
 
 <!-- table: NEW-U11-PAR-gewitan-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | gewīt |
-| Plural | gewītað |
+| 2 sg. | gewīt |
+| 2 pl. | gewītað |
 
 ## 7. Additional meanings and constructions
 

@@ -4,7 +4,7 @@ Pre-contract proposal, 23 October 2026. The coordinator owns the final contract.
 
 ## Prior teaching inspected
 
-All six active contracts and both actual registers were inspected against the immutable `build/unit07-prior-baseline.json` at `47b92a4`: 275 lemmas, 3,487 forms, 305 senses, and 241 grammatical features. Earlier tables and supplied passages are not treated as prior teaching. The archived course contributes evidence only.
+All six active contracts and both actual registers were inspected against the immutable `build/unit07-prior-baseline.json` at `47b92a4`: 275 lemmas, 3,487 forms, 305 senses, and 241 grammatical features. Earlier tables and supplied passages are not treated as prior teaching.
 
 The ordinary finite systems, selected commands and infinitives, adjective inflection, personal pronouns and nominal cases are available. Earlier participles remain citations or supplied source forms. The passive use of *weorðan*, naming with two accusatives, function/purpose *tō*, spatial *ofer/bufan/under/tōmiddes*, and *nū/swā/ðus* require explicit new teaching. *Eall* is recognition-only. *Swīðe* “very” is already productive. Ordinary *beran* “carry” does not itself license bearing seed or fruit.
 

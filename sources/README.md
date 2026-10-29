@@ -1,12 +1,10 @@
-# Sources for the new course
+# Course sources
 
-`registry.json` selects the same Cook editions and scans as the previous course, records supporting scholarship, and identifies the limited structural inspection of Lambdin. Source verification inherited from old ch01/ch02 is historical evidence, not an assignment to these new chapters.
+`registry.json` identifies the selected Cook editions and scans, supporting scholarship, and the limited structural inspection of Lambdin. Active chapter contracts establish assignments and teaching scope.
+
+Opening source transcriptions are [Exercise 1](transcriptions/cook-ex-01.md) and [Exercise 2](transcriptions/cook-ex-02.md). Correction C01 has a [current source-evidence record](corrections/c01/README.md).
 
 The [course inventory](audits/course-map/report.md) verifies every exercise boundary and terminal item count: 48 exercises, 644 numbered items, printed pp.1–33. Its grammar descriptions are structural observations. Exercises 1–48 now have separate item-level audits. The [Exercise 3 transcript](audits/unit01-source/exercise-3.md), [first-day Creation transcript](audits/unit01-source/creation-first-day.md), and [expanded paradigm evidence](audits/unit01-source/expanded-grammar.md) supply the opening unit's new source work. The [supplementary sea note](audits/supplementary/sea-genitive.md) preserves Wright's explicitly reconstructed genitive plural; it must not gain an attestation claim or teaching milestone.
-
-`inherited-audit-index.json` indexes 33 previously audited original records: 28 composition prompts and five reader spans. Their mirrored dispositions point to the active contracts: Unit 1 assigns the prompts and subsumes three reading snippets in its first-day span; Unit 3 subsumes the lights candidate in the complete fourth-day span. The birds candidate was subsequently included in Unit 7’s complete fifth-day assignment; historical index dispositions are not the current assignment authority. The inherited lights snippet's semicolon is preserved as historical transcription, with the verified printed colon recorded separately. The finder omits generated teaching tasks and copies no old learning milestones. Historical reading IDs and dispositions locate evidence only.
-
-The archived source tree is [reference/previous-course/sources](../reference/previous-course/sources/). It preserves verified transcriptions, selected page images, lexical/grammatical analyses, and precise doubts and limitations. Its source-relative paths are interpreted within that snapshot. Active registry image references have been adjusted to the archive location.
 
 Full PDF scans are locally available in `cache/`, ignored by Git. The registry records file hashes, URLs, and one-based PDF-page conventions. A future clone can fetch the same scans from those URLs. OCR remains a finding aid; actual source reuse requires the appropriate image evidence.
 
@@ -24,7 +22,7 @@ Unit 6's [grammar audit](audits/unit06-grammar/report.md), [source audit](audits
 
 The [Unit 6 headword review](../chapters/ch06/reviews/source-headwords.json) checks all 23 new supplied-only lemma displays and word classes against Cook's vocabulary and grammar images. Exact source hyphens and vowel marks are preserved; noun-gender limits remain explicit. This metadata check adds no teaching milestone or full source-word paradigm.
 
-Write new source work under `sources/audits/`, `sources/transcriptions/`, or `sources/analysis/` as assigned. Record newly verified facts separately from inherited facts. Active chapter coverage contracts hold the canonical source assignments; the planning map and audit index do not assign or defer items on their own.
+Write source work under `sources/audits/`, `sources/transcriptions/`, or `sources/analysis/` as assigned. Keep primary evidence, transcription and editorial analysis distinct. Active chapter coverage contracts hold the canonical source assignments; the planning map does not assign or defer items on its own.
 
 Unit 9’s [source audit](audits/unit09-source/REPORT.md), [grammar audit](audits/unit09-grammar/REPORT.md), [design reconciliation](../curriculum/proposals/unit09/report.md) and [coordinator record](audits/unit09-coordinator/reconciliation.json) establish all 64 exact Cook II.9–12 prompts and the complete 62-word Choice of Occupations opening, with thirteen original notes and eleven helps. The [contract](../chapters/ch09/coverage.json) covers 97 tasks, 87 logical paradigms / 876 cells, twelve examples and a 52-word new dialogue. Public dependency records remain separate from private models and independent translation witnesses. Reviewed amendment U09-AMEND-01 corrects source token 21 to nominative; the canonical contract preserves and supersedes the original proposal annotation. Complete new classes and selected verbal systems are explicit; local support does not create unassigned teaching. At the Unit 9 checkpoint the crosswalk was 194 assigned / 450 deferred out of 644, with full item-level audits through Exercise 12.
 

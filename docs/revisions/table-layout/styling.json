@@ -1,0 +1,584 @@
+{
+  "task": "oec-style.1",
+  "reviewer": "style_render",
+  "scope": "Typography and build architecture audit; no course files edited; no linguistic acceptance claimed.",
+  "reference_style": {
+    "font": "Cambria",
+    "table_size_pt": 10.5,
+    "table_leading_pt": 13.2,
+    "body_size_pt": 11,
+    "body_leading_pt": 14.3,
+    "trim_mm": [
+      165,
+      241
+    ],
+    "column_sep_pt": 4,
+    "arraystretch": 1.1,
+    "rules": [
+      "toprule",
+      "midrule",
+      "bottomrule"
+    ],
+    "vertical_rules": false,
+    "alignment": "raggedright p columns",
+    "header_weight": "bold",
+    "form_weight": "regular unless editorial emphasis in master",
+    "long_tables": "repeat full header; continuation foot; bottomrule at final foot",
+    "case_order": [
+      "Nominative",
+      "Genitive",
+      "Dative",
+      "Accusative"
+    ],
+    "gender_order": "Generally Masculine, Neuter, Feminine in late-unit matrices; preserve labelled correspondence where earlier headers differ."
+  },
+  "visual_inspections": [
+    {
+      "image": "typesetting/ch01/build/verified-chapter-01-p02.png",
+      "sha256": "e2dec8f51ac67c572a798cd82e4114421b5ac740fe2821c63c6190bef939a6e9",
+      "actually_viewed": true,
+      "method": "tools.view_image on individual retained 150 dpi image",
+      "observations": "Unit 1 learner page 2: article, all eight fisc/męte forms and following explanation are complete and legible. Case/number labels are in rows. Ordinary tables use body-size type."
+    },
+    {
+      "image": "typesetting/ch02/build/initial-chapter-02-p04.png",
+      "sha256": "3486d15f9f2bd8eadab7cdc5035f1987c909f53e8e0f1d4abeaf0964936da662",
+      "actually_viewed": true,
+      "method": "tools.view_image on individual retained 150 dpi image",
+      "observations": "Unit 2 learner page 4: separate present and preterite panels put verbs in rows and person/number in columns. All pl. and preterite 1/3 sg. are already merged. Wide comparison has five verb rows."
+    },
+    {
+      "image": "typesetting/ch18/build/learner-v1/page-003.png",
+      "sha256": "c5557f981975aa5652977b7fc6ad0d724f441eb9086405820b76db6aa7a4f4cd",
+      "actually_viewed": true,
+      "method": "tools.view_image on individual retained 150 dpi image",
+      "observations": "Unit 18 learner page 3: assa and æcern nouns show full case names in rows and singular/plural columns; mass hunig shows singular only. Plain forms, bold headers, no vertical rules, compact continuous tables."
+    },
+    {
+      "image": "typesetting/ch18/build/learner-v1/page-009.png",
+      "sha256": "52ec6825cc9119562d02518465309a727cd573675ed2c68c175f29e56b5e9c18",
+      "actually_viewed": true,
+      "method": "tools.view_image on individual retained 150 dpi image",
+      "observations": "Unit 18 learner page 9: scyldig strong adjective displayed in two consecutive singular and plural panels, preserving case rows and masculine/neuter/feminine columns. Instrumental scope dashes remain."
+    },
+    {
+      "image": "typesetting/ch18/build/learner-v1/page-018.png",
+      "sha256": "bd86e08b54b743a660075442851f463302f6d7df5023d5f137d22991a357be14",
+      "actually_viewed": true,
+      "method": "tools.view_image on individual retained 150 dpi image",
+      "observations": "Unit 18 learner page 18: undōn and lęcgean have person/number rows and Present/Preterite columns. Three identical plural rows visible in each, suitable for compact display if canonical form scope agrees."
+    }
+  ],
+  "inventory": [
+    {
+      "unit": 1,
+      "documents": [
+        {
+          "stem": "chapter-01",
+          "sha256": "bd76425decbf12d80d1de418cf330a438bb0413d3380b4067b4851f4a510745f",
+          "table_environments": 17,
+          "mdtable_blocks": 0,
+          "mdparagraph_blocks": 0,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "7f60d100fcfe4148774e22ce344588f9725da303f6770a3d3c4dc96e10dc6443",
+          "table_environments": 2,
+          "mdtable_blocks": 0,
+          "mdparagraph_blocks": 0,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch01/build/_assemble_unit01.py"
+      ]
+    },
+    {
+      "unit": 2,
+      "documents": [
+        {
+          "stem": "chapter-02",
+          "sha256": "f11a328bc269b47094eda1f5958d98ac5d7250b05bd5f49a5a2638fe2c82a49a",
+          "table_environments": 17,
+          "mdtable_blocks": 10,
+          "mdparagraph_blocks": 175,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "a2f1dbff5f31da08427d8c8c1b3e19ed9b8810c6b781a7554398fe1dcfb2172c",
+          "table_environments": 14,
+          "mdtable_blocks": 14,
+          "mdparagraph_blocks": 98,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch02/build/_assemble_unit02.py",
+        "typesetting/ch02/build/_check_content_parity.py"
+      ]
+    },
+    {
+      "unit": 3,
+      "documents": [
+        {
+          "stem": "chapter-03",
+          "sha256": "78c9431eaa661c547397943b4cf5ce4d46a21bbe91a460100163b2cdfff137bd",
+          "table_environments": 29,
+          "mdtable_blocks": 29,
+          "mdparagraph_blocks": 282,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "5bfc7e2f402d980005f10bdc5f712b9d0b877a7ffbd741fa133c834f2b8c7fcf",
+          "table_environments": 22,
+          "mdtable_blocks": 22,
+          "mdparagraph_blocks": 128,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch03/build/_assemble_unit03.py",
+        "typesetting/ch03/build/_check_content_parity.py"
+      ]
+    },
+    {
+      "unit": 4,
+      "documents": [
+        {
+          "stem": "chapter-04",
+          "sha256": "adab56bbf505d4fec6117f2109d5ecef13ffd3ec9154d40a703054e7614426c6",
+          "table_environments": 18,
+          "mdtable_blocks": 18,
+          "mdparagraph_blocks": 233,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "b94ec51dade8e29c3d3c8c987d38d73a2b744fefa6de1920cd582f38a8522647",
+          "table_environments": 33,
+          "mdtable_blocks": 33,
+          "mdparagraph_blocks": 161,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch04/build/_assemble_unit04.py",
+        "typesetting/ch04/build/_check_content_parity.py"
+      ]
+    },
+    {
+      "unit": 5,
+      "documents": [
+        {
+          "stem": "chapter-05",
+          "sha256": "086c605df2cc77537fd8acf37c28aee3f444013250b9b1f10fc1a069aa19b12d",
+          "table_environments": 19,
+          "mdtable_blocks": 19,
+          "mdparagraph_blocks": 342,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "a298ac658f98643676e80ef132097d3ac1f5091a4b1d7f69c88227571f011efa",
+          "table_environments": 34,
+          "mdtable_blocks": 34,
+          "mdparagraph_blocks": 212,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch05/build/_accept_pages.py",
+        "typesetting/ch05/build/_assemble_unit05.py",
+        "typesetting/ch05/build/_check_content_parity.py"
+      ]
+    },
+    {
+      "unit": 6,
+      "documents": [
+        {
+          "stem": "chapter-06",
+          "sha256": "4594426d628c970dc0f6dedda834ff11290a300e6c3e529e19a1f8916ccc6a84",
+          "table_environments": 13,
+          "mdtable_blocks": 13,
+          "mdparagraph_blocks": 315,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "791d2dbc2436004c2a9b29cee9ea9b3cd40d2de200941b76282b035b3a716573",
+          "table_environments": 37,
+          "mdtable_blocks": 37,
+          "mdparagraph_blocks": 247,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch06/build/_accept_pages.py",
+        "typesetting/ch06/build/_assemble_unit06.py",
+        "typesetting/ch06/build/_check_content_parity.py"
+      ]
+    },
+    {
+      "unit": 7,
+      "documents": [
+        {
+          "stem": "chapter-07",
+          "sha256": "d7c963cf93b406e10a68187f76e5ef74f7e8c9baf0572fde0ad8e10d97580c29",
+          "table_environments": 46,
+          "mdtable_blocks": 46,
+          "mdparagraph_blocks": 407,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "3fd54b3c18309b39bc9a4c61767097e2ebf3cec35ab2f0d4609e33a068ca133d",
+          "table_environments": 18,
+          "mdtable_blocks": 18,
+          "mdparagraph_blocks": 283,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch07/build/_accept_pages.py",
+        "typesetting/ch07/build/_assemble_unit07.py",
+        "typesetting/ch07/build/_check_content_parity.py",
+        "typesetting/ch07/build/_render_pages.py"
+      ]
+    },
+    {
+      "unit": 8,
+      "documents": [
+        {
+          "stem": "chapter-08",
+          "sha256": "71c9d12fe066a9c6a1fde5bc3abfcc39181b53242c9318c4be63d66e3abb3fd2",
+          "table_environments": 36,
+          "mdtable_blocks": 36,
+          "mdparagraph_blocks": 360,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "b970ae2bfa1f73fbde8db79e92dac65819a53134b387904f13c21608288eee67",
+          "table_environments": 12,
+          "mdtable_blocks": 12,
+          "mdparagraph_blocks": 240,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch08/build/_accept_pages.py",
+        "typesetting/ch08/build/_assemble_unit08.py",
+        "typesetting/ch08/build/_check_content_parity.py",
+        "typesetting/ch08/build/_render_pages.py"
+      ]
+    },
+    {
+      "unit": 9,
+      "documents": [
+        {
+          "stem": "chapter-09",
+          "sha256": "5a3ef6a70f60e8f3b3aacdbb70735582b3e32834fedb3f6b330a4b90495dce68",
+          "table_environments": 73,
+          "mdtable_blocks": 73,
+          "mdparagraph_blocks": 491,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "d5ef884554a82773b1864142281e3a650bbb7b648197f25e2ce3cfb1807a6647",
+          "table_environments": 5,
+          "mdtable_blocks": 5,
+          "mdparagraph_blocks": 334,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch09/build/_accept_pages.py",
+        "typesetting/ch09/build/_assemble_unit09.py",
+        "typesetting/ch09/build/_check_content_parity.py",
+        "typesetting/ch09/build/_render_pages.py",
+        "typesetting/ch09/build/_repair_initial_tables.py"
+      ]
+    },
+    {
+      "unit": 10,
+      "documents": [
+        {
+          "stem": "chapter-10",
+          "sha256": "5c4aed945f6114f1214e0d3cb1623533fdd8e8ac8a60e7c545c8b01fa29addfc",
+          "table_environments": 49,
+          "mdtable_blocks": 40,
+          "mdparagraph_blocks": 407,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "9b9b0f244a9d39695d37c043361cc91ba5af28892bf4bb785152e7ae5863a92b",
+          "table_environments": 9,
+          "mdtable_blocks": 9,
+          "mdparagraph_blocks": 368,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch10/build/_accept_pages.py",
+        "typesetting/ch10/build/_assemble_unit10.py",
+        "typesetting/ch10/build/_check_content_parity.py",
+        "typesetting/ch10/build/_render_pages.py",
+        "typesetting/ch10/build/_repair_initial_widths.py",
+        "typesetting/ch10/build/_repair_key_headings.py"
+      ]
+    },
+    {
+      "unit": 11,
+      "documents": [
+        {
+          "stem": "chapter-11",
+          "sha256": "f168006798300100f9869cbdffef013b1ec9bc0fbe4e06e9a809052b74d8bbef",
+          "table_environments": 50,
+          "mdtable_blocks": 39,
+          "mdparagraph_blocks": 490,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "2b4d83cb15c3eed03f4153e6c498d99fc66530b640ae57203ca94752a98a1612",
+          "table_environments": 13,
+          "mdtable_blocks": 13,
+          "mdparagraph_blocks": 370,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch11/build/_accept_pages.py",
+        "typesetting/ch11/build/_assemble_unit11.py",
+        "typesetting/ch11/build/_check_content_parity.py",
+        "typesetting/ch11/build/_render_pages.py"
+      ]
+    },
+    {
+      "unit": 12,
+      "documents": [
+        {
+          "stem": "chapter-12",
+          "sha256": "84caa40a93729e1738ab8df157ba9c7563128dab88bd1267069762f5f9b67c64",
+          "table_environments": 75,
+          "mdtable_blocks": 71,
+          "mdparagraph_blocks": 516,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "6e4f8edce454dac312b877887bddb503858dc2ce08c2dc15fd8782de740326ef",
+          "table_environments": 11,
+          "mdtable_blocks": 11,
+          "mdparagraph_blocks": 280,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch12/build/_accept_pages.py",
+        "typesetting/ch12/build/_assemble_unit12.py",
+        "typesetting/ch12/build/_check_content_parity.py",
+        "typesetting/ch12/build/_render_pages.py"
+      ]
+    },
+    {
+      "unit": 13,
+      "documents": [
+        {
+          "stem": "chapter-13",
+          "sha256": "6c697af6db0900bc72c01246ed5878e0768d4224a1651a933d0b4419814f1e13",
+          "table_environments": 66,
+          "mdtable_blocks": 56,
+          "mdparagraph_blocks": 479,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "6421558555277d8773085680f31f45c89f424e0364d240f61aed06fbe4d0c5e2",
+          "table_environments": 12,
+          "mdtable_blocks": 11,
+          "mdparagraph_blocks": 326,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch13/build/_accept_pages.py",
+        "typesetting/ch13/build/_assemble_unit13.py",
+        "typesetting/ch13/build/_check_content_parity.py",
+        "typesetting/ch13/build/_render_pages.py"
+      ]
+    },
+    {
+      "unit": 14,
+      "documents": [
+        {
+          "stem": "chapter-14",
+          "sha256": "ff78d454d9dc63ca2869de930e221f9574ca00e4c92e92d4376392b9c2e5a3e6",
+          "table_environments": 43,
+          "mdtable_blocks": 43,
+          "mdparagraph_blocks": 365,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "6cbb0987093bef1d2967588cc70f02bf48ecf2afbe3150fcf51a91fdbc951ce9",
+          "table_environments": 12,
+          "mdtable_blocks": 12,
+          "mdparagraph_blocks": 156,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch14/build/_accept_pages.py",
+        "typesetting/ch14/build/_assemble_unit14.py",
+        "typesetting/ch14/build/_check_content_parity.py",
+        "typesetting/ch14/build/_render_pages.py"
+      ]
+    },
+    {
+      "unit": 15,
+      "documents": [
+        {
+          "stem": "chapter-15",
+          "sha256": "cdaf8d1bd3e697b6c9016990064a5a8ccc0d8aa4276967f430c4fc63461fd6d2",
+          "table_environments": 95,
+          "mdtable_blocks": 83,
+          "mdparagraph_blocks": 801,
+          "table_blocks_closing_outer_minipage": []
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "ea2e08d2b14cbe2ab5c2cbb6e5771e1fd1f58efd423958bcdb63ff0765473163",
+          "table_environments": 14,
+          "mdtable_blocks": 13,
+          "mdparagraph_blocks": 353,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch15/build/_accept_pages.py",
+        "typesetting/ch15/build/_assemble_unit15.py",
+        "typesetting/ch15/build/_check_content_parity.py",
+        "typesetting/ch15/build/_render_pages.py",
+        "typesetting/ch15/build/_repair_layout_v2.py",
+        "typesetting/ch15/build/_repair_layout_v3.py"
+      ]
+    },
+    {
+      "unit": 16,
+      "documents": [
+        {
+          "stem": "chapter-16",
+          "sha256": "010ec168f577a5b89ed157f782ef7fbea82f19ddaf942177c1e1a65e16a9fd37",
+          "table_environments": 94,
+          "mdtable_blocks": 90,
+          "mdparagraph_blocks": 745,
+          "table_blocks_closing_outer_minipage": [
+            "T22",
+            "T23",
+            "T24",
+            "T25"
+          ]
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "928dd92cca610711c496da06f0f613b2730b613c50ed34dfceb533a74ab7ccd0",
+          "table_environments": 0,
+          "mdtable_blocks": 0,
+          "mdparagraph_blocks": 401,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch16/build/_accept_pages.py",
+        "typesetting/ch16/build/_assemble_unit16.py",
+        "typesetting/ch16/build/_check_content_parity.py",
+        "typesetting/ch16/build/_render_pages.py"
+      ]
+    },
+    {
+      "unit": 17,
+      "documents": [
+        {
+          "stem": "chapter-17",
+          "sha256": "def4e5fbbabc3c0cec521eb610f8696ca2877e8e83c03b0fa416c78361515399",
+          "table_environments": 144,
+          "mdtable_blocks": 124,
+          "mdparagraph_blocks": 1171,
+          "table_blocks_closing_outer_minipage": [
+            "T55",
+            "T57",
+            "T59",
+            "T61",
+            "T63",
+            "T65",
+            "T67",
+            "T69",
+            "T111",
+            "T113"
+          ]
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "9495b3ab33874bb7ee1a6e6e9ba8e71c83d0cf19ec274f092bd89568b365cb77",
+          "table_environments": 0,
+          "mdtable_blocks": 0,
+          "mdparagraph_blocks": 553,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch17/build/_accept_pages.py",
+        "typesetting/ch17/build/_assemble_unit17.py",
+        "typesetting/ch17/build/_check_content_parity.py",
+        "typesetting/ch17/build/_render_pages.py",
+        "typesetting/ch17/build/_repair_v1_layout.py",
+        "typesetting/ch17/build/_repair_v2_key.py"
+      ]
+    },
+    {
+      "unit": 18,
+      "documents": [
+        {
+          "stem": "chapter-18",
+          "sha256": "0fde90a490c3bb4e3df008bcfd1c117bdc0bb7da9b29305128dc4a3f214243db",
+          "table_environments": 79,
+          "mdtable_blocks": 65,
+          "mdparagraph_blocks": 855,
+          "table_blocks_closing_outer_minipage": [
+            "T20",
+            "T22",
+            "T24",
+            "T26",
+            "T28",
+            "T30",
+            "T32"
+          ]
+        },
+        {
+          "stem": "answer-key",
+          "sha256": "2a56c58af2c63c0ba905c758b218388972ee57e7d54895dbd17453799f08c4ce",
+          "table_environments": 0,
+          "mdtable_blocks": 0,
+          "mdparagraph_blocks": 366,
+          "table_blocks_closing_outer_minipage": []
+        }
+      ],
+      "helpers": [
+        "typesetting/ch18/build/_accept_pages.py",
+        "typesetting/ch18/build/_assemble_unit18.py",
+        "typesetting/ch18/build/_check_content_parity.py",
+        "typesetting/ch18/build/_render_pages.py",
+        "typesetting/ch18/build/_repair_key_layout_v2.py",
+        "typesetting/ch18/build/_repair_key_layout_v3.py"
+      ]
+    }
+  ],
+  "recommendation": "Replace verified table blocks in retained TeX while preserving all non-table bytes and manual layout repairs. Add a common renderer with explicit row/column maps; do not rerun the one-use assemblers. Preserve unmatched intro-minipage closing commands. Use independent full semantic-table expansion and actual Markdown-to-TeX cell parity; supersede layout-era hash checks explicitly rather than recapturing historical baselines.",
+  "material_corruption_found": false
+}

@@ -15,14 +15,19 @@ Instrumental forms, **eall**, and plural **ān** have recognition/reference limi
 
 **A1.** Complete strong **gōd**, “good”:
 
-| Gender and number | Nominative | Genitive | Dative | Accusative |
-|---|---|---|---|---|
-| Masculine singular | gōd | gōdes | gōdum | gōdne |
-| Neuter singular | gōd | gōdes | gōdum | gōd |
-| Feminine singular | gōd | gōdre | gōdre | gōde |
-| Masculine plural | gōde | gōdra | gōdum | gōde |
-| Neuter plural | gōd | gōdra | gōdum | gōd |
-| Feminine plural | gōda | gōdra | gōdum | gōda |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | gōd | gōd | gōd |
+| Genitive | gōdes | gōdes | gōdre |
+| Dative | gōdum | gōdum | gōdre |
+| Accusative | gōdne | gōd | gōde |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | gōde | gōd | gōda |
+| Genitive | gōdra | gōdra | gōdra |
+| Dative | gōdum | gōdum | gōdum |
+| Accusative | gōde | gōd | gōda |
 
 The feminine nominative singular and neuter nominative/accusative plural have no **-u** after this long stem. Masculine plural **gōde** and feminine plural **gōda** remain distinct selected forms.
 
@@ -31,14 +36,19 @@ The feminine nominative singular and neuter nominative/accusative plural have no
 
 **A2.** Complete strong **glæd**, “glad”. Bold forms have stem **a** instead of **æ**:
 
-| Gender and number | Nominative | Genitive | Dative | Accusative |
-|---|---|---|---|---|
-| Masculine singular | glæd | **glades** | **gladum** | glædne |
-| Neuter singular | glæd | **glades** | **gladum** | glæd |
-| Feminine singular | **gladu** | glædre | glædre | **glade** |
-| Masculine plural | **glade** | glædra | **gladum** | **glade** |
-| Neuter plural | **gladu** | glædra | **gladum** | **gladu** |
-| Feminine plural | **glada** | glædra | **gladum** | **glada** |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | glæd | glæd | **gladu** |
+| Genitive | **glades** | **glades** | glædre |
+| Dative | **gladum** | **gladum** | glædre |
+| Accusative | glædne | glæd | **glade** |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | **glade** | **gladu** | **glada** |
+| Genitive | glædra | glædra | glædra |
+| Dative | **gladum** | **gladum** | **gladum** |
+| Accusative | **glade** | **gladu** | **glada** |
 
 The selected vowel changes before the vowel endings shown here, including **glades** and **glade**. It remains **æ** before consonantal endings in **glædne, glædre, glædra**. Do not replace every **æ** mechanically.
 
@@ -47,14 +57,19 @@ The selected vowel changes before the vowel endings shown here, including **glad
 
 **A3.** Complete weak **gōd**:
 
-| Gender and number | Nominative | Genitive | Dative | Accusative |
-|---|---|---|---|---|
-| Masculine singular | gōda | gōdan | gōdan | gōdan |
-| Neuter singular | gōde | gōdan | gōdan | gōde |
-| Feminine singular | gōde | gōdan | gōdan | gōdan |
-| Masculine plural | gōdan | gōdra | gōdum | gōdan |
-| Neuter plural | gōdan | gōdra | gōdum | gōdan |
-| Feminine plural | gōdan | gōdra | gōdum | gōdan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | gōda | gōde | gōde |
+| Genitive | gōdan | gōdan | gōdan |
+| Dative | gōdan | gōdan | gōdan |
+| Accusative | gōdan | gōde | gōdan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | gōdan | gōdan | gōdan |
+| Genitive | gōdra | gōdra | gōdra |
+| Dative | gōdum | gōdum | gōdum |
+| Accusative | gōdan | gōdan | gōdan |
 
 Selected adjective genitive plural **gōdra** contrasts with the ordinary weak-noun **-ena**, as in **steorrena**, “of stars”. Cook also allows weak-adjective **gōdena** and **gōda**: these are valid alternatives, not proof that the ordinary selected adjective ending must be **-ena**. [1]
 
@@ -135,14 +150,19 @@ The headword belongs to the **-e** pattern. Its **-e** is present where no other
 
 **P1.** Complete agreeing **mīn**, “my”:
 
-| Gender and number | Nominative | Genitive | Dative | Accusative |
-|---|---|---|---|---|
-| Masculine singular | mīn | mīnes | mīnum | mīnne |
-| Neuter singular | mīn | mīnes | mīnum | mīn |
-| Feminine singular | mīn | mīnre | mīnre | mīne |
-| Masculine plural | mīne | mīnra | mīnum | mīne |
-| Neuter plural | mīn | mīnra | mīnum | mīn |
-| Feminine plural | mīna | mīnra | mīnum | mīna |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | mīn | mīn | mīn |
+| Genitive | mīnes | mīnes | mīnre |
+| Dative | mīnum | mīnum | mīnre |
+| Accusative | mīnne | mīn | mīne |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | mīne | mīn | mīna |
+| Genitive | mīnra | mīnra | mīnra |
+| Dative | mīnum | mīnum | mīnum |
+| Accusative | mīne | mīn | mīna |
 
 The owner is first-person singular throughout. The **possessed noun’s gender, number and case** determine the ending. Thus a single owner can possess a plural noun; the possessive ending does not count the owners.
 
@@ -202,14 +222,19 @@ The stem identifies the owner’s person and number. The inflected form agrees w
 
 **C2.** Complete weak comparative **māra**, “greater/larger”:
 
-| Gender and number | Nominative | Genitive | Dative | Accusative |
-|---|---|---|---|---|
-| Masculine singular | māra | māran | māran | māran |
-| Neuter singular | māre | māran | māran | māre |
-| Feminine singular | māre | māran | māran | māran |
-| Masculine plural | māran | mārra | mārum | māran |
-| Neuter plural | māran | mārra | mārum | māran |
-| Feminine plural | māran | mārra | mārum | māran |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | māra | māre | māre |
+| Genitive | māran | māran | māran |
+| Dative | māran | māran | māran |
+| Accusative | māran | māre | māran |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | māran | māran | māran |
+| Genitive | mārra | mārra | mārra |
+| Dative | mārum | mārum | mārum |
+| Accusative | māran | māran | māran |
 
 The neuter nominative/accusative singular is **māre**, and the selected genitive plural is **mārra**, with **rr**. In the six comparison series the selected genitive plurals are **lēofra, ieldra, bęterra, mārra, lǣssena, wiersena**. The first two simplify the repeated consonant after another consonant; the latter two use the licensed **-ena** alternative. Do not form every comparative genitive plural by mechanically attaching written **-ra**. The selected completions apply checked rules; a defensible source variant remains valid language. [1]
 
@@ -357,14 +382,19 @@ The nouns are plural count nouns; the cardinals four through twelve are uninflec
 
 **O2.** Complete weak **ðridda**, “third”:
 
-| Gender and number | Nominative | Genitive | Dative | Accusative |
-|---|---|---|---|---|
-| Masculine singular | ðridda | ðriddan | ðriddan | ðriddan |
-| Neuter singular | ðridde | ðriddan | ðriddan | ðridde |
-| Feminine singular | ðridde | ðriddan | ðriddan | ðriddan |
-| Masculine plural | ðriddan | ðridra | ðriddum | ðriddan |
-| Neuter plural | ðriddan | ðridra | ðriddum | ðriddan |
-| Feminine plural | ðriddan | ðridra | ðriddum | ðriddan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ðridda | ðridde | ðridde |
+| Genitive | ðriddan | ðriddan | ðriddan |
+| Dative | ðriddan | ðriddan | ðriddan |
+| Accusative | ðriddan | ðridde | ðriddan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ðriddan | ðriddan | ðriddan |
+| Genitive | ðridra | ðridra | ðridra |
+| Dative | ðriddum | ðriddum | ðriddum |
+| Accusative | ðriddan | ðriddan | ðriddan |
 
 This ordinal is weak with or without a preceding article. Selected genitive plural **ðridra** simplifies **dd** before another consonant; dative plural **ðriddum** retains it. Do not copy the strong exception **ōðer** into the other ordinal paradigms.
 

@@ -16,13 +16,11 @@ For translations, judge the relations and meaning, not a unique English wording.
 **Target: the complete indicative system of witan.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | wāt | wiste |
-| 2 singular | wāst | wistest |
-| 3 singular | wāt | wiste |
-| 1 plural | witon | wiston |
-| 2 plural | witon | wiston |
-| 3 plural | witon | wiston |
+| --- | --- | --- |
+| 1 sg. | wāt | wiste |
+| 2 sg. | wāst | wistest |
+| 3 sg. | wāt | wiste |
+| 1–3 pl. | witon | wiston |
 
 Present knowledge, “know”; past knowledge, “knew.” **Wāt** serves both first and third singular, but **wāst** is second singular. The present plural is **witon**; the dental past is **wiste**, with **wistest** in the second singular and **wiston** in every plural person. A strong-looking present stem does not give the word past meaning. [1]
 
@@ -34,13 +32,11 @@ Present knowledge, “know”; past knowledge, “knew.” **Wāt** serves both 
 **Target: the complete indicative system of cunnan.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | cann | cūðe |
-| 2 singular | canst | cūðest |
-| 3 singular | cann | cūðe |
-| 1 plural | cunnon | cūðon |
-| 2 plural | cunnon | cūðon |
-| 3 plural | cunnon | cūðon |
+| --- | --- | --- |
+| 1 sg. | cann | cūðe |
+| 2 sg. | canst | cūðest |
+| 3 sg. | cann | cūðe |
+| 1–3 pl. | cunnon | cūðon |
 
 In the taught skill construction, the present means “know how to,” the past “knew how to.” Distinguish singular **cann/canst** from plural **cunnon**. The past has long **ū** and a dental consonant: **cūðe**, **cūðest**, **cūðon**. Do not use the present singular as a past simply because it resembles a strong preterite. [1]
 
@@ -52,13 +48,11 @@ In the taught skill construction, the present means “know how to,” the past 
 **Target: the complete indicative system of ðurfan.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | ðearf | ðorfte |
-| 2 singular | ðearft | ðorftest |
-| 3 singular | ðearf | ðorfte |
-| 1 plural | ðurfon | ðorfton |
-| 2 plural | ðurfon | ðorfton |
-| 3 plural | ðurfon | ðorfton |
+| --- | --- | --- |
+| 1 sg. | ðearf | ðorfte |
+| 2 sg. | ðearft | ðorftest |
+| 3 sg. | ðearf | ðorfte |
+| 1–3 pl. | ðurfon | ðorfton |
 
 The selected sense is “need to,” with “needed to” in the past. The singular present has **ðearf-**, the plural **ðurf-**, and the past **ðorft-**. Preserve the final **-t** of second-singular **ðearft** and the full past ending in **ðorftest**; the present and past plural stems are different. [1]
 
@@ -70,13 +64,11 @@ The selected sense is “need to,” with “needed to” in the past. The singu
 **Target: the complete indicative system of durran.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | dearr | dorste |
-| 2 singular | dearst | dorstest |
-| 3 singular | dearr | dorste |
-| 1 plural | durron | dorston |
-| 2 plural | durron | dorston |
-| 3 plural | durron | dorston |
+| --- | --- | --- |
+| 1 sg. | dearr | dorste |
+| 2 sg. | dearst | dorstest |
+| 3 sg. | dearr | dorste |
+| 1–3 pl. | durron | dorston |
 
 The selected meanings are “dare to” and “dared to.” The first and third singular use **dearr**, the second **dearst**, and the plural **durron**. The past changes to **dorst-**. A plural subject requires the plural form even when English “dare” does not visibly distinguish the persons. [1]
 
@@ -88,13 +80,11 @@ The selected meanings are “dare to” and “dared to.” The first and third 
 **Target: the complete indicative system of sculan.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | sceal | sceolde |
-| 2 singular | scealt | sceoldest |
-| 3 singular | sceal | sceolde |
-| 1 plural | sculon | sceoldon |
-| 2 plural | sculon | sceoldon |
-| 3 plural | sculon | sceoldon |
+| --- | --- | --- |
+| 1 sg. | sceal | sceolde |
+| 2 sg. | scealt | sceoldest |
+| 3 sg. | sceal | sceolde |
+| 1–3 pl. | sculon | sceoldon |
 
 In the assigned obligation sense, the present means “must,” the preterite “had to.” Contrast **sceal/scealt**, **sculon**, and past **sceold-**. The table retains **eo** in the past. Cook also records the shorter spelling represented by **scoldon**: it is a valid variant, but it differs from the selected table. The past need not mean hypothetical English “should.” [1]
 
@@ -106,13 +96,11 @@ In the assigned obligation sense, the present means “must,” the preterite �
 **Target: the complete indicative system of mugan.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | mæg | meahte |
-| 2 singular | meaht | meahtest |
-| 3 singular | mæg | meahte |
-| 1 plural | magon | meahton |
-| 2 plural | magon | meahton |
-| 3 plural | magon | meahton |
+| --- | --- | --- |
+| 1 sg. | mæg | meahte |
+| 2 sg. | meaht | meahtest |
+| 3 sg. | mæg | meahte |
+| 1–3 pl. | magon | meahton |
 
 The selected present expresses ability; the preterite expresses past ability. The second-singular present **meaht** differs from first/third **mæg** and plural **magon**. The chosen past has **meaht-** throughout. **Mugan** and **magan** are citation labels for this system; the label is not an assigned usable infinitive. [1]
 
@@ -124,13 +112,11 @@ The selected present expresses ability; the preterite expresses past ability. Th
 **Target: the complete indicative system of mōtan.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | mōt | mōste |
-| 2 singular | mōst | mōstest |
-| 3 singular | mōt | mōste |
-| 1 plural | mōton | mōston |
-| 2 plural | mōton | mōston |
-| 3 plural | mōton | mōston |
+| --- | --- | --- |
+| 1 sg. | mōt | mōste |
+| 2 sg. | mōst | mōstest |
+| 3 sg. | mōt | mōste |
+| 1–3 pl. | mōton | mōston |
 
 Here the present expresses permission, “may/is allowed to,” and the past “was allowed to.” Keep long **ō** throughout. The second-singular present is **mōst**, but its past counterpart is **mōstest**. The dictionary also records other senses; substituting obligation would miss the permission target used in this unit. [1]
 
@@ -142,13 +128,11 @@ Here the present expresses permission, “may/is allowed to,” and the past “
 **Target: the complete indicative system of dōn.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | dō | dyde |
-| 2 singular | dēst | dydest |
-| 3 singular | dēð | dyde |
-| 1 plural | dōð | dydon |
-| 2 plural | dōð | dydon |
-| 3 plural | dōð | dydon |
+| --- | --- | --- |
+| 1 sg. | dō | dyde |
+| 2 sg. | dēst | dydest |
+| 3 sg. | dēð | dyde |
+| 1–3 pl. | dōð | dydon |
 
 The ordinary meanings are “do” and “did.” Present **dō** and **dōð** have **ō**, but second/third singular have **ē**. The past is **dyde**, not a past made by adding an ending to the present stem. Its **y** is short. **Dōð** is the present form for all three plural persons, not an infinitive. [1]
 
@@ -160,13 +144,11 @@ The ordinary meanings are “do” and “did.” Present **dō** and **dōð** 
 **Target: the complete indicative system of gān.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | gā | ēode |
-| 2 singular | gǣst | ēodest |
-| 3 singular | gǣð | ēode |
-| 1 plural | gāð | ēodon |
-| 2 plural | gāð | ēodon |
-| 3 plural | gāð | ēodon |
+| --- | --- | --- |
+| 1 sg. | gā | ēode |
+| 2 sg. | gǣst | ēodest |
+| 3 sg. | gǣð | ēode |
+| 1–3 pl. | gāð | ēodon |
 
 The ordinary meanings are “go” and “went.” Distinguish present **gā/gāð** from second/third singular **gǣst/gǣð**. The past uses the separate **ēod-** stem: **ēode**, **ēodest**, **ēodon**. Do not derive its past mechanically from **gān** or replace long **ǣ** in the selected present singulars with **ā**. [1]
 
@@ -178,13 +160,11 @@ The ordinary meanings are “go” and “went.” Distinguish present **gā/gā
 **Target: the complete indicative system of willan.**
 
 | Person and number | Present indicative | Preterite indicative |
-|---|---|---|
-| 1 singular | wille | wolde |
-| 2 singular | wilt | woldest |
-| 3 singular | wille | wolde |
-| 1 plural | willað | woldon |
-| 2 plural | willað | woldon |
-| 3 plural | willað | woldon |
+| --- | --- | --- |
+| 1 sg. | wille | wolde |
+| 2 sg. | wilt | woldest |
+| 3 sg. | wille | wolde |
+| 1–3 pl. | willað | woldon |
 
 The selected meanings are “want/intend to” and “wanted/intended to.” Both first- and third-singular present are **wille**; second singular is **wilt**. The plural uses **willað**, while the past uses **wold-**. Do not add an ordinary third-singular dental ending to **wille**, or assume that **wolde** necessarily expresses a hypothetical “would.” [1]
 
@@ -196,13 +176,11 @@ The selected meanings are “want/intend to” and “wanted/intended to.” Bot
 **Target: both complete present indicative series.**
 
 | Person and number | bēo series | Earlier eom series |
-|---|---|---|
-| 1 singular | bēo | eom |
-| 2 singular | bist | eart |
-| 3 singular | bið | is |
-| 1 plural | bēoð | sindon |
-| 2 plural | bēoð | sindon |
-| 3 plural | bēoð | sindon |
+| --- | --- | --- |
+| 1 sg. | bēo | eom |
+| 2 sg. | bist | eart |
+| 3 sg. | bið | is |
+| 1–3 pl. | bēoð | sindon |
 
 There is no separate invented past paradigm for the bēo series: the earlier **wæs/wǣre/wǣron** system supplies the past. In the explicitly later situation of M12, **bið** means “will be”; the series can also express habitual or general truths. Its form alone does not require future meaning. These indicative cells are distinct from the earlier supplied wish forms in the creation reading. [1–2]
 
@@ -367,11 +345,10 @@ This construction names what is known. **Cunnan** with a plain infinitive, as in
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| hīeran | hīer | hīerað |
-| nęrian | nęre | nęriað |
-| gefręmman | gefręme | gefręmmað |
+| Person and number | hīeran | nęrian | gefręmman |
+| --- | --- | --- | --- |
+| 2 sg. | hīer | nęre | gefręme |
+| 2 pl. | hīerað | nęriað | gefręmmað |
 
 **Hīer** has no final **-e**; **nęre** and **gefręme** retain it. The plural restores the selected **-iað** or geminated stem. Merely removing the final **-n** of each infinitive will not give these singulars. [3]
 
@@ -382,13 +359,15 @@ This construction names what is known. **Cunnan** with a plain infinitive, as in
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| cyssan | cys | cyssað |
-| gefyllan | gefyl | gefyllað |
-| sęttan | sęte | sęttað |
-| gierwan | giere | gierwað |
-| sęllan | sęle | sęllað |
+| Person and number | cyssan | gefyllan | sęttan | gierwan |
+| --- | --- | --- | --- | --- |
+| 2 sg. | cys | gefyl | sęte | giere |
+| 2 pl. | cyssað | gefyllað | sęttað | gierwað |
+
+| Person and number | sęllan |
+| --- | --- |
+| 2 sg. | sęle |
+| 2 pl. | sęllað |
 
 The selected heavy-stem singulars **cys** and **gefyl** simplify final geminates. The short-stem forms **sęte** and **sęle** retain **-e** while losing gemination; their plurals retain **tt/ll**. **Giere** lacks the **w** retained in **gierwað**. The singular pattern is not the same for every doubled consonant. Documented unsimplified spellings need not be impossible Old English, but these are the requested selections. [3]
 
@@ -399,11 +378,10 @@ The selected heavy-stem singulars **cys** and **gefyl** simplify final geminates
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| lufian | lufa | lufiað |
-| habban | hafa | habbað |
-| libban | leofa | libbað |
+| Person and number | lufian | habban | libban |
+| --- | --- | --- | --- |
+| 2 sg. | lufa | hafa | leofa |
+| 2 pl. | lufiað | habbað | libbað |
 
 Weak II has **lufa/lufiað**. The weak III survivors require their own pairs: **hafa/habbað** and **leofa/libbað**. Do not impose the weak-II singular ending on an unchanged weak-III infinitive stem. Cook also gives the documented **lifiað** plural alternative; the selected plural here is **libbað**. [3]
 
@@ -414,10 +392,10 @@ Weak II has **lufa/lufiað**. The weak III survivors require their own pairs: **
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| sęcgan | saga | sęcgað |
-| hycgan | hoga | hycgað |
+| Person and number | sęcgan | hycgan |
+| --- | --- | --- |
+| 2 sg. | saga | hoga |
+| 2 pl. | sęcgað | hycgað |
 
 The singulars **saga** and **hoga** differ sharply from the selected plural stems. Cook also records **sęge** beside **saga**, and optional **e** in the plural spellings. These are documented alternatives; the table supplies the requested course forms. Knowing a command form does not by itself establish a new object or complement construction. [3]
 
@@ -428,13 +406,15 @@ The singulars **saga** and **hoga** differ sharply from the selected plural stem
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| drīfan | drīf | drīfað |
-| bēodan | bēod | bēodað |
-| bindan | bind | bindað |
-| helpan | help | helpað |
-| drincan | drinc | drincað |
+| Person and number | drīfan | bēodan | bindan | helpan |
+| --- | --- | --- | --- | --- |
+| 2 sg. | drīf | bēod | bind | help |
+| 2 pl. | drīfað | bēodað | bindað | helpað |
+
+| Person and number | drincan |
+| --- | --- |
+| 2 sg. | drinc |
+| 2 pl. | drincað |
 
 Use the present stems shown here. Keep long **ī** in **drīf** and long **ēo** in **bēod**; **bind, help** and **drinc** have their selected short vowels. A changed strong-past stem is not a command stem. The plural **-að** addresses more than one person. [3]
 
@@ -445,10 +425,10 @@ Use the present stems shown here. Keep long **ī** in **drīf** and long **ēo**
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| wrēon | wrīh | wrēoð |
-| tēon | tēoh | tēoð |
+| Person and number | wrēon | tēon |
+| --- | --- | --- |
+| 2 sg. | wrīh | tēoh |
+| 2 pl. | wrēoð | tēoð |
 
 The singular commands restore **h**, but their vowels differ: **wrīh** has long **ī**, **tēoh** long **ēo**. The plurals remain contracted. Do not transfer either singular vowel to the other verb or append the singular **h** to the selected plural. [3]
 
@@ -459,11 +439,10 @@ The singular commands restore **h**, but their vowels differ: **wrīh** has long
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| beran | ber | berað |
-| niman | nim | nimað |
-| cuman | cum | cumað |
+| Person and number | beran | niman | cuman |
+| --- | --- | --- | --- |
+| 2 sg. | ber | nim | cum |
+| 2 pl. | berað | nimað | cumað |
 
 Use **ber, nim, cum**, without importing the vowel changes of present indicative second/third singular. All three plural commands use **-að** on the selected present stem. Replacing a command by a personal indicative form changes the requested mood. [3]
 
@@ -474,13 +453,15 @@ Use **ber, nim, cum**, without importing the vowel changes of present indicative
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| giefan | gief | giefað |
-| biddan | bide | biddað |
-| sittan | site | sittað |
-| licgan | lige | licgað |
-| etan | et | etað |
+| Person and number | giefan | biddan | sittan | licgan |
+| --- | --- | --- | --- | --- |
+| 2 sg. | gief | bide | site | lige |
+| 2 pl. | giefað | biddað | sittað | licgað |
+
+| Person and number | etan |
+| --- | --- |
+| 2 sg. | et |
+| 2 pl. | etað |
 
 The j-presents have **bide, site, lige** in the singular, with single consonants and final **-e**; their plurals retain the selected stems. **Gief** is the ordinary stem command. **Et** has neither the changed dental present-singular stem nor the long vowel of the past. [3]
 
@@ -491,11 +472,10 @@ The j-presents have **bide, site, lige** in the singular, with single consonants
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| sēon | seoh | sēoð |
-| slēan | sleah | slēað |
-| fōn | fōh | fōð |
+| Person and number | sēon | slēan | fōn |
+| --- | --- | --- | --- |
+| 2 sg. | seoh | sleah | fōh |
+| 2 pl. | sēoð | slēað | fōð |
 
 Singular **seoh** and **sleah** have short diphthongs; **fōh** has long **ō**. The restored **h** belongs to the singular command. The plurals are **sēoð, slēað, fōð**, preserving their own quantities and contractions. [3]
 
@@ -506,11 +486,10 @@ Singular **seoh** and **sleah** have short diphthongs; **fōh** has long **ō**.
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| hębban | hęfe | hębbað |
-| scieppan | sciepe | scieppað |
-| swęrian | swęre | swęriað |
+| Person and number | hębban | scieppan | swęrian |
+| --- | --- | --- | --- |
+| 2 sg. | hęfe | sciepe | swęre |
+| 2 pl. | hębbað | scieppað | swęriað |
 
 These singular commands use **-e**. Note **f/bb** in **hęfe/hębbað**, single **p/pp** in **sciepe/scieppað**, and **swęre/swęriað**. A single rule of cutting off an infinitive ending misses these stem alternations. [3]
 
@@ -521,11 +500,10 @@ These singular commands use **-e**. Note **f/bb** in **hęfe/hębbað**, single 
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| faran | far | farað |
-| standan | stand | standað |
-| healdan | heald | healdað |
+| Person and number | faran | standan | healdan |
+| --- | --- | --- | --- |
+| 2 sg. | far | stand | heald |
+| 2 pl. | farað | standað | healdað |
 
 The command stems are **far, stand, heald**. Do not substitute a past stem or the altered stem of an indicative singular. The paired plural changes the number of addressees, not the tense. [3]
 
@@ -536,11 +514,10 @@ The command stems are **far, stand, heald**. Do not substitute a past stem or th
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| weaxan | weax | weaxað |
-| hātan | hāt | hātað |
-| lǣtan | lǣt | lǣtað |
+| Person and number | weaxan | hātan | lǣtan |
+| --- | --- | --- | --- |
+| 2 sg. | weax | hāt | lǣt |
+| 2 pl. | weaxað | hātað | lǣtað |
 
 Preserve **ea** in **weax**, long **ā** in **hāt**, and long **ǣ** in **lǣt**. The commands use these selected present stems rather than the changed or contracted forms of indicative second/third singular. [3]
 
@@ -551,12 +528,10 @@ Preserve **ea** in **weax**, long **ā** in **hāt**, and long **ǣ** in **lǣt*
 
 **Target: the complete second-person command pairs.**
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| dōn | dō | dōð |
-| gān | gā | gāð |
-| wesan | wes | wesað |
-| bēon | bēo | bēoð |
+| Person and number | dōn | gān | wesan | bēon |
+| --- | --- | --- | --- | --- |
+| 2 sg. | dō | gā | wes | bēo |
+| 2 pl. | dōð | gāð | wesað | bēoð |
 
 Both be-command series are available. **Dō, gā, wes, bēo** address one person; their paired plurals address two or more. **Bēo** here is a command, not the first-singular indicative merely because the two cells share a spelling. No positive imperative of **willan** or regular modal command pair is required. [1,3]
 

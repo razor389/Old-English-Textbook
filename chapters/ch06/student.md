@@ -77,31 +77,39 @@ The first and third singular present coincide. The second singular has its own f
 
 <!-- table: NEW-U06-DISPLAY-PRETERITE-PRESENTS-PRES -->
 
-| Verb label | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | witan | cunnan | ðurfan | durran |
 | --- | --- | --- | --- | --- |
-| witan | wāt | wāst | wāt | witon |
-| cunnan | cann | canst | cann | cunnon |
-| ðurfan | ðearf | ðearft | ðearf | ðurfon |
-| durran | dearr | dearst | dearr | durron |
-| sculan | sceal | scealt | sceal | sculon |
-| mugan | mæg | meaht | mæg | magon |
-| mōtan | mōt | mōst | mōt | mōton |
+| 1 sg. | wāt | cann | ðearf | dearr |
+| 2 sg. | wāst | canst | ðearft | dearst |
+| 3 sg. | wāt | cann | ðearf | dearr |
+| 1–3 pl. | witon | cunnon | ðurfon | durron |
+
+| Person and number | sculan | mugan | mōtan |
+| --- | --- | --- | --- |
+| 1 sg. | sceal | mæg | mōt |
+| 2 sg. | scealt | meaht | mōst |
+| 3 sg. | sceal | mæg | mōt |
+| 1–3 pl. | sculon | magon | mōton |
 
 **Preterite indicative.**
 
 <!-- table: NEW-U06-DISPLAY-PRETERITE-PRESENTS-PRET -->
 
-| Verb label | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | witan | cunnan | ðurfan | durran |
 | --- | --- | --- | --- | --- |
-| witan | wiste | wistest | wiste | wiston |
-| cunnan | cūðe | cūðest | cūðe | cūðon |
-| ðurfan | ðorfte | ðorftest | ðorfte | ðorfton |
-| durran | dorste | dorstest | dorste | dorston |
-| sculan | sceolde | sceoldest | sceolde | sceoldon |
-| mugan | meahte | meahtest | meahte | meahton |
-| mōtan | mōste | mōstest | mōste | mōston |
+| 1 sg. | wiste | cūðe | ðorfte | dorste |
+| 2 sg. | wistest | cūðest | ðorftest | dorstest |
+| 3 sg. | wiste | cūðe | ðorfte | dorste |
+| 1–3 pl. | wiston | cūðon | ðorfton | dorston |
 
-Each pair of rows supplies all twelve present/preterite cells. In the preterite, the first and third singular end in **-e**; the second singular adds **-st**, and the plural changes **-e** to **-on**. Keep the stem printed in each row. The second singular here does not follow the strong-preterite pattern learned in Units 4–5.
+| Person and number | sculan | mugan | mōtan |
+| --- | --- | --- | --- |
+| 1 sg. | sceolde | meahte | mōste |
+| 2 sg. | sceoldest | meahtest | mōstest |
+| 3 sg. | sceolde | meahte | mōste |
+| 1–3 pl. | sceoldon | meahton | mōston |
+
+For each verb, the present and preterite tables give all twelve person–number–tense cells. In the preterite, the first and third singular end in **-e**; the second singular adds **-st**, and the plural changes **-e** to **-on**. Keep each verb’s printed stem. The second singular here does not follow the strong-preterite pattern learned in Units 4–5.
 
 **Selected forms and alternatives.** This course selects witan, witon, and wiste. Wieton/wioton and the wisse-series are documented alternatives. Cook also gives can beside cann and scolde beside sceolde. For mugan, the tables select meaht and meahte; Wright records miht and mehte/mihte. Use the selected forms when an exercise asks for them; the alternatives are not errors merely because they differ.
 
@@ -135,21 +143,23 @@ Learn each present with its preterite. **Dōn** changes ō to ē in dēst and d�
 
 <!-- table: NEW-U06-DISPLAY-ANOMALOUS-PRES -->
 
-| Verb label | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
-| --- | --- | --- | --- | --- |
-| dōn | dō | dēst | dēð | dōð |
-| gān | gā | gǣst | gǣð | gāð |
-| willan | wille | wilt | wille | willað |
+| Person and number | dōn | gān | willan |
+| --- | --- | --- | --- |
+| 1 sg. | dō | gā | wille |
+| 2 sg. | dēst | gǣst | wilt |
+| 3 sg. | dēð | gǣð | wille |
+| 1–3 pl. | dōð | gāð | willað |
 
 **Preterite indicative.**
 
 <!-- table: NEW-U06-DISPLAY-ANOMALOUS-PRET -->
 
-| Verb label | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
-| --- | --- | --- | --- | --- |
-| dōn | dyde | dydest | dyde | dydon |
-| gān | ēode | ēodest | ēode | ēodon |
-| willan | wolde | woldest | wolde | woldon |
+| Person and number | dōn | gān | willan |
+| --- | --- | --- | --- |
+| 1 sg. | dyde | ēode | wolde |
+| 2 sg. | dydest | ēodest | woldest |
+| 3 sg. | dyde | ēode | wolde |
+| 1–3 pl. | dydon | ēodon | woldon |
 
 Cook also gives **wile** beside wille. The table selects the spelling with double l. The negative contracted companions are not additional paradigms to learn in this unit.
 
@@ -170,9 +180,7 @@ The following alternative present series belongs with the earlier verb “be.”
 | 1 sg. | eom | bēo |
 | 2 sg. | eart | bist |
 | 3 sg. | is | bið |
-| 1 pl. | sindon | bēoð |
-| 2 pl. | sindon | bēoð |
-| 3 pl. | sindon | bēoð |
+| 1–3 pl. | sindon | bēoð |
 
 <!-- teaching: NEW-U06-GRAM-BEON-USE -->
 
@@ -1385,7 +1393,7 @@ Write four connected Old English sentences about a man and two companions: one p
 
 ## 9. Sources and form choices
 
-The core forms follow Albert S. Cook, **A First Book in Old English: Grammar, Reader, Notes, and Vocabulary**, second edition, revised and enlarged (Ginn, 1895). The compact tables expand combined plural rows into their explicitly stated person assignments and apply the given endings to the selected stems. Such paradigm completion is not a claim that each cell is separately quoted in continuous prose.
+The core forms follow Albert S. Cook, **A First Book in Old English: Grammar, Reader, Notes, and Vocabulary**, second edition, revised and enlarged (Ginn, 1895). The compact tables explicitly identify the three persons covered by each shared plural row and apply the given endings to the selected stems. Such paradigm completion is not a claim that each cell is separately quoted in continuous prose.
 
 Joseph Wright and Elizabeth Mary Wright, **Old English Grammar**, second edition (Oxford, 1914), corroborates the forms and variants; the precise witan and magan variant locators follow below. R. D. Fulk, **An Introductory Grammar of Old English with an Anthology of Readings**, author-corrected open-access reprint (2020), supplies the cited distinctions concerning defects, j-presents, the bēon series, and infinitival use. **Bosworth–Toller, An Anglo-Saxon Dictionary**, main dictionary (1898), supplies the individually cited lexical senses and constructions; page letters a and b identify columns.
 

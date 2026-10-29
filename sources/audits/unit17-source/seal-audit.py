@@ -116,10 +116,11 @@ dump('evidence-catalog.json',dict(schema_version=1,records=catalog,actual_images
 paths=[f'chapters/ch{i:02}/coverage.json' for i in range(1,17)]+['lexicon/entries.json','curriculum/grammar.json','STATUS.md','EDITORIAL_POLICY.md','curriculum/COURSE_PLAN.md','curriculum/COOK_MAP.md','sources/registry.json','docs/WORKFLOW.md','docs/HANDOFF.md','AGENTS.md']
 receipt=[]
 for x in paths:
- p=R/x;assert p.exists(),p
- d=read(p) if p.suffix=='.json' else None
- receipt.append(dict(path=x,sha256=sha(p),read_scope='complete active contract parsed and reviewed against actual registers' if 'coverage.json' in x else 'actual file read; no teaching inherited from archive'))
-dump('prior-scope-receipt.json',dict(schema_version=1,baseline_revision='defa800',baseline_counts={'lemmas':1067,'forms':11188,'senses':1376,'features':1080},files=receipt,policy='The prior register is consulted at form and sense level; familiar headword, recognitional table or supplied citation does not establish production. Historical reference/previous-course is evidence only.'))
+    p = R / x
+    assert p.exists(), p
+    d = read(p) if p.suffix == '.json' else None
+    receipt.append(dict(path=x, sha256=sha(p), read_scope='complete active contract parsed and reviewed against actual registers' if 'coverage.json' in x else 'actual file read; teaching established by active contracts and registers'))
+dump('prior-scope-receipt.json', dict(schema_version=1, baseline_revision='defa800', baseline_counts={'lemmas': 1067, 'forms': 11188, 'senses': 1376, 'features': 1080}, files=receipt, policy='The prior register is consulted at form and sense level; familiar headword, recognitional table or supplied citation does not establish production.'))
 E=read(O/'exercises-prompts.json');A=read(O/'reading-apparatus.json');N=read(O/'noun-adjective-paradigms.json');S=read(O/'local-support.json');T=read(O/'reading-token-audit.json')
 assert E['count']==82 and [E['counts_by_exercise'][str(n)] for n in range(37,44)]==[14,10,7,10,12,9,20]
 assert A['count']==19 and A['anchor_count']==20

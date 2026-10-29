@@ -44,7 +44,7 @@ The source worker owns exact prompts, reading, notes, nominal evidence and sourc
 
 The fresh reviewer must solve the actual learner material before seeing the key or any current contract, audit, proposal, annotated source/token map or private model. Filename alone is not an independence boundary: current public-looking design files can reveal answers. Permit accepted earlier units/registers and necessary original primary page images. Freeze all solutions before comparison. A separate reviewer checks every paradigm route against the actual learner display and primary evidence.
 
-No active prior artifact or archived teaching record is changed by this proposal. Complete Unit 14 only.
+No active prior artifact is changed by this proposal. Complete Unit 14 only.
 
 ## Final reconciliation
 

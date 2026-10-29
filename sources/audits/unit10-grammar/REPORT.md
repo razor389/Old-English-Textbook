@@ -6,7 +6,7 @@ The authoritative proposal files are [grammar-records.json](grammar-records.json
 
 ## Baseline and role
 
-The actual nine active contracts and cumulative registers were inspected against baseline `bb598a1`: 400 lemmas, 5,770 forms, 455 senses, and 365 grammar features. Their hashes and relevant actual records are retained in the prior audit. Earlier recognition and supplied exposure are preserved explicitly; the previous-course archive establishes no active teaching.
+The actual nine active contracts and cumulative registers were inspected against baseline `bb598a1`: 400 lemmas, 5,770 forms, 455 senses, and 365 grammar features. Their hashes and relevant actual records are retained in the prior audit. Earlier recognition and supplied exposure are preserved explicitly.
 
 This analyst read the public source prompts, reading and notes, task wording, example translations, and controlled reading. No Unit 10 private models, answer sequences, or key were read or authored. A later independent reviewer must disclose this prior grammar/design-input exposure before solving. Beads and Git remained coordinator-owned.
 

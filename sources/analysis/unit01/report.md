@@ -1,6 +1,6 @@
 # Unit 1 dependency analysis
 
-22 October 2026. Deliverable for `oec-analyze`. No Beads or shared-register writes were made. This analysis assumes no prior Old English teaching; archived records supply evidence only.
+22 October 2026. Deliverable for `oec-analyze`. No Beads or shared-register writes were made. This analysis assumes no prior Old English teaching.
 
 The proposal is ready for the coordinator's coverage contract. [Inventory](inventory.json) contains 43 Cook noun lemmas plus productive **hof**, 401 explicit form records across 69 lemmas, 46 grammatical/construction records, exact evidence links, and the complete 69-token reading analysis. Its proposed milestone fields constitute the register proposal; they are not active milestones. [Task plan](task-plan.json) contains 79 ungraded teaching records and 92 graded tasks: all 46 unchanged Cook prompts, 38 added tasks, and eight guided-reading tasks. [Analytical models](task-models.json) are separate so an independent reviewer can solve before consulting answers.
 

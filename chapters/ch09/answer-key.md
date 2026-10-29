@@ -26,13 +26,11 @@ In paradigm tasks, give every labeled cell, including identical forms. The ivory
 **F02. Bycgan: complete indicative.**
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | bycge | bohte |
-| Second singular | bygest | bohtest |
-| Third singular | bygeð | bohte |
-| First plural | bycgað | bohton |
-| Second plural | bycgað | bohton |
-| Third plural | bycgað | bohton |
+| --- | --- | --- |
+| 1 sg. | bycge | bohte |
+| 2 sg. | bygest | bohtest |
+| 3 sg. | bygeð | bohte |
+| 1–3 pl. | bycgað | bohton |
 
 **Target and interpretation:** Give all twelve cells, with irregular dental preterite **bohte**. Present **bycge/bycgað** contrasts with selected **bygest/bygeð**; do not preserve **cg** mechanically in every present form. Preterite first and third singular coincide, while second singular adds **-st**. Shared plural forms still represent three labeled persons. A regular past invented from **bycgan** misses the lexical stem.
 
@@ -40,10 +38,10 @@ In paradigm tasks, give every labeled cell, including identical forms. The ivory
 <!-- key: KEY-NEW-U09-F03 -->
 **F03. Commands.**
 
-| Verb | Second singular: one addressee | Second plural: two or more |
-|---|---|---|
-| rōwan | rōw | rōwað |
-| bycgan | byge | bycgað |
+| Person and number | rōwan | bycgan |
+| --- | --- | --- |
+| 2 sg.: one addressee | rōw | byge |
+| 2 pl.: two or more | rōwað | bycgað |
 
 **Target and interpretation:** Give both commands of each verb. **Rōw** lacks indicative second-singular **-st**; **byge** is the selected singular command, not first-singular indicative **bycge**. The plural commands use the present plural stems. No separate dual command is required. These models omit the subject; the separately attested postposed-pronoun construction is outside this target.
 

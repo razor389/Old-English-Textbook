@@ -57,7 +57,7 @@ for relative, key in [("lexicon/entries.json", "lemmas"), ("curriculum/grammar.j
         "status": data["status"],
         "reviewed_chapters": data["reviewed_chapters"],
         "record_count": len(data[key]),
-        "method": "Direct queries of actual form, sense, construction and teaching-milestone records; no archived milestone inherited.",
+        "method": 'Direct queries of actual form, sense, construction and teaching-milestone records.',
     })
 
 intake = {

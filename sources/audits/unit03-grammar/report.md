@@ -1,8 +1,8 @@
 # Unit 3 grammar source audit
 
-22 October 2026. Source audit complete for contract reconciliation. This is an evidence report and a proposed form inventory, not a learning contract or answer key. No Beads, shared registers, chapter prose or archived files were modified. The coordinator owns assignment and milestone decisions.
+22 October 2026. Source audit complete for contract reconciliation. This is an evidence report and a proposed form inventory, not a learning contract or answer key. No Beads, shared registers, chapter prose were modified. The coordinator owns assignment and milestone decisions.
 
-The audit read the active instructions, course plan/map, source registry, both earlier active coverage contracts, **lexicon/entries.json**, and **curriculum/grammar.json**. Units 1–2 provide the actual prerequisites. Earlier supplied **īdel, ǣmtig, gōd, ān, seofoðan** do not constitute adjective or numeral teaching. Recognized first/second-person personal genitives do not constitute productive agreeing possessives. The archive supplies reusable evidence only.
+The audit read the active instructions, course plan/map, source registry, both earlier active coverage contracts, **lexicon/entries.json**, and **curriculum/grammar.json**. Units 1–2 provide the actual prerequisites. Earlier supplied **īdel, ǣmtig, gōd, ān, seofoðan** do not constitute adjective or numeral teaching. Recognized first/second-person personal genitives do not constitute productive agreeing possessives.
 
 ## Evidence and inventory
 

@@ -7,8 +7,8 @@ for name in ['check_unit17_integration.py', 'finalize_unit17_metadata.py']:
     assert not target.exists(), target
     text = (Path('build') / name).read_text(encoding='utf-8')
     # Change the previous forward boundary before replacing the current unit.
-    text = text.replace('No Unit 18 work or archived teaching milestone is included.',
-                        'No unrequested sequel or archived teaching milestone is included.')
+    text = text.replace('No Unit 18 work is included.',
+                        'No unrequested sequel is included.')
     text = text.replace('Unit18 remains undrafted; begin only when requested.',
                         'The planned eighteen-unit course is complete; further work requires a new request.')
     text = text.replace('Unit17 complete; no Unit18 drafting.',

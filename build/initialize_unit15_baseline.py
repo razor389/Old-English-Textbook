@@ -22,8 +22,8 @@ mutable = {'.beads/issues.jsonl', 'README.md', 'STATUS.md', 'docs/HANDOFF.md',
            'curriculum/COURSE_PLAN.md', 'curriculum/COOK_MAP.md', 'sources/README.md',
            'sources/registry.json', 'typesetting/README.md'}
 register_paths = ['lexicon/entries.json', 'curriculum/grammar.json']
-archive = [p for p in paths if p.startswith('reference/previous-course/')]
-fixed = [p for p in paths if p not in mutable and p not in archive and not p.startswith('.beads/')]
+
+fixed = [p for p in paths if p not in mutable and (not p.startswith('.beads/'))]
 hashes = {p: identity(p) for p in fixed}
 lex, gram = [read(p) for p in register_paths]
 expected = [f'ch{i:02d}' for i in range(1, 15)]
@@ -49,11 +49,7 @@ for chapter in expected:
 counts = {'lemmas': len(lex['lemmas']), 'forms': sum(len(l['forms']) for l in lex['lemmas']),
           'senses': sum(len(l['senses']) for l in lex['lemmas']), 'features': len(gram['features'])}
 assert counts == {'lemmas':830, 'forms':9710, 'senses':1017, 'features':820}
-baseline = {'chapter_id':'ch15', 'git_checkpoint_full':'9129cdabd21ac9335eca531d42815a5c81ecd8a3',
-            'lexicon':lex, 'grammar':gram, 'counts':counts,
-            'files':{p:v[0] for p,v in hashes.items()}, 'files_lf_sha256':{p:v[1] for p,v in hashes.items()},
-            'archive_files':{p:identity(p)[0] for p in archive},
-            'mutable_shared_indexes':sorted(mutable)}
+baseline = {'chapter_id': 'ch15', 'git_checkpoint_full': '9129cdabd21ac9335eca531d42815a5c81ecd8a3', 'lexicon': lex, 'grammar': gram, 'counts': counts, 'files': {p: v[0] for p, v in hashes.items()}, 'files_lf_sha256': {p: v[1] for p, v in hashes.items()}, 'mutable_shared_indexes': sorted(mutable)}
 write('build/unit15-prior-baseline.json', baseline)
 retained = {k:v for k,v in baseline.items() if k not in ['lexicon','grammar']}
 retained['immutable_local_snapshot'] = 'build/unit15-prior-baseline.json'
@@ -64,7 +60,7 @@ write('build/u15-prior-contract-orientation.json', contracts)
 pattern = re.compile(r'negative|negation|indefinit|distribut|compar|quantit|proportion|concord|except|free.choice|nān|ǣnig|gehwā', re.I)
 features = [f for f in gram['features'] if pattern.search(json.dumps({k:v for k,v in f.items() if k not in ['records_by_chapter','evidence_refs']},ensure_ascii=False))]
 write('build/u15-relevant-prior-features.json', features)
-print('Captured immutable baseline:', counts, len(fixed)-2, 'fixed non-register artifacts;', len(archive), 'archived files.')
+print('Captured immutable baseline:', counts, len(fixed) - 2, 'fixed non-register artifacts;')
 print('Parsed all fourteen contracts; relevant prior construction records:',len(features))
 for c in contracts:
     print(c['chapter_id'], c['title'], c['assigned_items'], 'tasks; boundaries:', c['bounded_scope'])

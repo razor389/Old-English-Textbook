@@ -1,12 +1,12 @@
 # Course records
 
-The new course starts with empty grammar and lexical registers. Archived records preserve evidence and historical milestones only.
+The completed eighteen-unit course records teaching in its active coverage contracts and cumulative grammar and lexical registers.
 
 ## IDs and source assignment
 
 Use active chapter IDs `ch01`, `ch02`, etc. Keep Cook IDs independent of the new chapter: `EX-I-02-07` always means Group I, Exercise 2, item 7. Keep reused source IDs stable. New tasks use IDs such as `ch01-prep-01`; examples and reading segments also have stable IDs. Lemma, sense, form, and grammar-feature IDs should survive changes in display spelling.
 
-`curriculum/COOK_MAP.md` is a provisional allocation plan. `sources/inherited-audit-index.json` finds previously checked source items. Neither establishes teaching or a final new-course assignment. The assigned/deferred/excluded arrays across active `chapters/chNN/coverage.json` files form the canonical assignment crosswalk once contracts exist. A later assignment resolves an earlier active deferral without deleting its history.
+`curriculum/COOK_MAP.md` indexes the course allocation. Source inventories locate checked evidence. The assigned/deferred/excluded arrays across active `chapters/chNN/coverage.json` files form the canonical assignment crosswalk. A later assignment resolves an earlier active deferral without deleting its history.
 
 ## Learning contracts
 
@@ -20,7 +20,7 @@ Each grammar feature needs a stable ID, exact description, prerequisites, nullab
 
 Each lemma needs headword, part of speech, senses, source spellings, aliases, evidence, and relevant gender/declension or verb-class information. Each sense and inflected form needs its own ID, analysis/evidence, and teaching milestones. Register actual paradigmatic forms; the same spelling in different cells may need distinct form records. Unknown values stay null with a tracked issue until resolved.
 
-Only the coordinator merges registers after review. Workers submit proposed changes in their assigned files. Preserve earlier active milestones when adding new forms or uses. Source evidence can be reused from the archive, but old `ch01`/`ch02` teaching fields must never be copied into these active registers.
+Only the coordinator merges registers after review. Workers submit proposed changes in their assigned files. Preserve earlier active milestones when adding new forms or uses. Source evidence supports linguistic claims; only the active contracts and reviewed registers establish teaching milestones.
 
 ## Review and work tracking
 

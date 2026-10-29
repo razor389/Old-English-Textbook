@@ -6,7 +6,7 @@
 
 Adopt eighteen substantial units. Teach usable finite verbs immediately after the opening nominal unit. Keep complete noun systems together, define each verb unit's complete finite scope explicitly, and carry every form into practice before treating it as productive knowledge. A unit may require several study sessions. Units 2, 4, and 6 deliberately provide new composition and analysis practice before the learner has the grammar needed to complete Cook's mixed sentence sets independently.
 
-The active grammar and lexical registers were read and are empty. Every form, sense, and construction begins untaught. Archived work establishes evidence only.
+The active grammar and lexical registers were read and are empty. Every form, sense, and construction begins untaught.
 
 ## Numbered contents and planning allocation
 
@@ -45,7 +45,7 @@ The source-map agent reports that Group II is already syntactically mixed: Exerc
 
 ## Unit 1: bounded teaching scope
 
-Retain all forty-six prompts. The combined vocabulary is larger than the archived thirty-three-noun inventory, but the difficulty can be organized by complete patterns rather than by isolated forms. The opening source audit adds **anginn, God, brādnes, gegaderung, lyft, frætwung, weorc, cynn, steorra, līehting**. These spellings and class choices remain the source editor's responsibility until the checked record is delivered; in particular **frætwung**, not an inferred *frætew*, is the reported Cook entry for “array.”
+Retain all forty-six prompts. Organize the vocabulary by complete patterns rather than by isolated forms. The opening source audit adds **anginn, God, brādnes, gegaderung, lyft, frætwung, weorc, cynn, steorra, līehting**. These spellings and class choices remain the source editor's responsibility until the checked record is delivered; in particular **frætwung**, not an inferred *frætew*, is the reported Cook entry for “array.”
 
 The inherited evidence identifies these necessary systems, to be fully checked in the new analysis:
 
@@ -56,7 +56,7 @@ The inherited evidence identifies these necessary systems, to be fully checked i
 - Individually checked exceptional paradigms for **mann**, **niht**, and **sǣ**. For plural-only **ðīestru**, present its attested/planned plural cases and state that no singular is assigned; do not fabricate singular cells merely to fill a rectangle. The proper-name sense of **God** does not confer a productive plural sense “gods.”
 - All article forms. The distinct instrumental forms may be displayed and assigned recognition while their productive syntax waits; keep that distinction explicit.
 
-Unit 1's verbal claim should be exactly **“the complete present and preterite indicative eom/wæs series.”** It is not the complete conjugation of *wesan/bēon*. The visually checked source is FB §138, printed pp.78–79 / PDF94–95, archived images `fb-grammar-pdf94.png` and `fb-grammar-pdf95.png`. The present selected cells are **eom, eart, is**, and plural **sindon**; the preterite cells are **wæs, wǣre, wæs**, and plural **wǣron**. Repeated plural cells apply to all persons. The alternate **bēo** series, negative forms, imperatives, subjunctives, and nonfinite forms are not silently included in that milestone. Any displayed variant needs a precise recognition/production status. Person/number labels suffice for the paradigm; a table does not require independent use of untaught personal pronouns.
+Unit 1's verbal claim should be exactly **“the complete present and preterite indicative eom/wæs series.”** It is not the complete conjugation of *wesan/bēon*. The visually checked source is FB §138, printed pp.78–79 / PDF94–95. The present selected cells are **eom, eart, is**, and plural **sindon**; the preterite cells are **wæs, wǣre, wæs**, and plural **wǣron**. Repeated plural cells apply to all persons. The alternate **bēo** series, negative forms, imperatives, subjunctives, and nonfinite forms are not silently included in that milestone. Any displayed variant needs a precise recognition/production status. Person/number labels suffice for the paradigm; a table does not require independent use of untaught personal pronouns.
 
 Teach subject agreement and noun predicates, basic possessive/relational genitives, direct-object accusatives, and a small explicit set of prepositional government patterns. A useful production selection is locative **on + dative** and separating **fram + dative**, after direct verification. Do not teach a universal “static means dative; motion means accusative” rule: the original reading itself has **ofer wæteru** beside **ofer ðǣre nēowolnesse brādnesse**. Supply those original phrases with their local analyses rather than converting their spellings or assigning a universal rule.
 
@@ -83,6 +83,6 @@ This reading's purpose is access to a complete narrative while the first unit es
 
 ## Evidence and limits
 
-Read for this analysis: root project instructions; status; editorial policy; workflow and handoff; course plan, map and first-unit brief; active source registry and empty registers; archived Exercise 1/2 faithful transcriptions; archived noun/plural dependency reports and lexical report. Visually inspected in this task: FB §138 pp.78–79/PDF94–95 and Cook Ex pp.2–3/PDF10–11. The full noun paradigms and the exact Creation transcript require the independent opening-source deliverable and a subsequent unit-level linguistic analysis. OCR headings helped locate potential later grammar topics; no new lexical spelling or complete paradigm is certified from OCR.
+Read for this analysis: root project instructions; status; editorial policy; workflow and handoff; course plan, map and first-unit brief; active source registry and empty registers; verified Exercise 1/2 source transcriptions. Visually inspected in this task: FB §138 pp.78–79/PDF94–95 and Cook Ex pp.2–3/PDF10–11. The full noun paradigms and the exact Creation transcript require the independent opening-source deliverable and a subsequent unit-level linguistic analysis. OCR headings helped locate potential later grammar topics; no new lexical spelling or complete paradigm is certified from OCR.
 
 The numbered outline and opening allocation are ready for coordinator reconciliation. Closure of `oec-sequence` can be recommended once the source-map report confirms the complete exercise allocation and the coordinator integrates the accepted sequence. It does not close the Unit 1 analysis, source audit, contract, authorship, or review tasks.

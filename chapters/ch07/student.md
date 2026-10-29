@@ -2,7 +2,7 @@
 
 This unit adds wishes and exhortations, basic conditional clauses, participles, and passive constructions. It gives complete present and preterite subjunctives for the verbs named below, together with the new vocabulary needed for Cook I.6–7.
 
-In verbal tables, **1**, **2**, and **3** mean first, second, and third person; **sg.** and **pl.** mean singular and plural. A column headed **all singular** or **all plural** includes all three persons. Dual subjects take plural finite forms. Noun and adjective tables use nominative, genitive, dative, and accusative; the shorter labels are **nom**, **gen**, **dat**, and **acc**. Preserve vowel length and the distinction between e and ę. Examples and the account “Binding the animals” are new teaching material; the final Creation paragraph is an original source excerpt.
+In verbal tables, **1**, **2**, and **3** mean first, second, and third person; **sg.** and **pl.** mean singular and plural. A row headed **1–3 sg.** or **1–3 pl.** includes all three persons. Dual subjects take plural finite forms. Noun and adjective tables use nominative, genitive, dative, and accusative; the shorter labels are **nom**, **gen**, **dat**, and **acc**. Preserve vowel length and the distinction between e and ę. Examples and the account “Binding the animals” are new teaching material; the final Creation paragraph is an original source excerpt.
 
 ## 1. Assertions, wishes, and commands
 
@@ -46,11 +46,11 @@ Keep the earlier meanings of cunnan “know how”, ðurfan “need”, durran �
 
 <!-- teaching: NEW-U07-GRAM-U07-SUBJUNCTIVE-STEMS -->
 
-The ordinary endings are **-e** throughout the singular and **-en** throughout the plural, in both present and preterite. Thus one four-cell row below gives all twelve person–number–tense combinations. Contracted and irregular forms have their actual spellings in the tables.
+The ordinary endings are **-e** throughout the singular and **-en** throughout the plural, in both present and preterite. Thus four displayed forms for each verb give all twelve person–number–tense combinations. Contracted and irregular forms have their actual spellings in the tables.
 
 For the present, use the selected present stem. Do not carry the indicative second- or third-singular vowel mutation into the whole subjunctive. For a strong preterite, use the **preterite plural stem**, with its vowel and consonant changes, in both numbers. A weak preterite retains its dental stem. The preterite indicative plural -on and subjunctive plural -en remain distinct.
 
-The named rows define this unit’s complete subjunctive assignment. They do not assign a subjunctive system to every verb previously encountered in a reading.
+The named verbs define this unit’s complete subjunctive assignment. They do not assign a subjunctive system to every verb previously encountered in a reading.
 
 ### Weak class I
 
@@ -72,15 +72,27 @@ Keep the irregular past stems with their verbs: sęllan has sealde, and gewyrcea
 
 <!-- table: U07-DISPLAY-SUBJ-1 -->
 
-| Lemma | Present all singular | Present all plural | Preterite all singular | Preterite all plural |
+| Person and number | hīeran · Present | hīeran · Preterite | sęllan · Present | sęllan · Preterite |
 | --- | --- | --- | --- | --- |
-| hīeran | hīere | hīeren | hīerde | hīerden |
-| sęllan | sęlle | sęllen | sealde | sealden |
-| gewyrcean | gewyrce | gewyrcen | geworhte | geworhten |
-| wyrcean | wyrce | wyrcen | worhte | worhten |
-| gefręmman | gefręmme | gefręmmen | gefręmede | gefręmeden |
-| gierwan | gierwe | gierwen | gierede | giereden |
-| nęrian | nęrie | nęrien | nęrede | nęreden |
+| 1–3 sg. | hīere | hīerde | sęlle | sealde |
+| 1–3 pl. | hīeren | hīerden | sęllen | sealden |
+
+| Person and number | gewyrcean · Present | gewyrcean · Preterite | wyrcean · Present | wyrcean · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | gewyrce | geworhte | wyrce | worhte |
+| 1–3 pl. | gewyrcen | geworhten | wyrcen | worhten |
+
+| Person and number | gefręmman · Present | gefręmman · Preterite | gierwan · Present | gierwan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | gefręmme | gefręmede | gierwe | gierede |
+| 1–3 pl. | gefręmmen | gefręmeden | gierwen | giereden |
+
+**nęrian**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1–3 sg. | nęrie | nęrede |
+| 1–3 pl. | nęrien | nęreden |
 
 ### Weak classes II and III
 
@@ -98,19 +110,31 @@ Keep the irregular past stems with their verbs: sęllan has sealde, and gewyrcea
 
 <!-- teaching: NEW-U07-SUBJ-hycgan -->
 
-The first three rows are class II: present -ie/-ien, preterite -ode/-oden. The last four are class III and require their own stems. Habban has hæbb- in the present subjunctive; its indicative plural does not supply that vowel. Libban has lifd- in the past; sęcgan has sægd-; hycgan has hogod-.
+The first three verbs are class II: present -ie/-ien, preterite -ode/-oden. The last four are class III and require their own stems. Habban has hæbb- in the present subjunctive; its indicative plural does not supply that vowel. Libban has lifd- in the past; sęcgan has sægd-; hycgan has hogod-.
 
 <!-- table: U07-DISPLAY-SUBJ-2 -->
 
-| Lemma | Present all singular | Present all plural | Preterite all singular | Preterite all plural |
+| Person and number | lufian · Present | lufian · Preterite | geblētsian · Present | geblētsian · Preterite |
 | --- | --- | --- | --- | --- |
-| lufian | lufie | lufien | lufode | lufoden |
-| geblētsian | geblētsie | geblētsien | geblētsode | geblētsoden |
-| gehālgian | gehālgie | gehālgien | gehālgode | gehālgoden |
-| habban | hæbbe | hæbben | hæfde | hæfden |
-| libban | libbe | libben | lifde | lifden |
-| sęcgan | sęcge | sęcgen | sægde | sægden |
-| hycgan | hycge | hycgen | hogode | hogoden |
+| 1–3 sg. | lufie | lufode | geblētsie | geblētsode |
+| 1–3 pl. | lufien | lufoden | geblētsien | geblētsoden |
+
+| Person and number | gehālgian · Present | gehālgian · Preterite | habban · Present | habban · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | gehālgie | gehālgode | hæbbe | hæfde |
+| 1–3 pl. | gehālgien | gehālgoden | hæbben | hæfden |
+
+| Person and number | libban · Present | libban · Preterite | sęcgan · Present | sęcgan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | libbe | lifde | sęcge | sægde |
+| 1–3 pl. | libben | lifden | sęcgen | sægden |
+
+**hycgan**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1–3 sg. | hycge | hogode |
+| 1–3 pl. | hycgen | hogoden |
 
 **Alternatives.** Libban also has present lifie/lifien; sęcgan has past sāde/sāden. The shorter past of hycgan beside the selected hogode-series is also documented. These alternatives do not replace the selected table forms in a task that expressly asks for them.
 
@@ -138,17 +162,32 @@ Use the familiar plural-preterite stems, not the first-singular past stems. Bind
 
 <!-- table: U07-DISPLAY-SUBJ-3 -->
 
-| Lemma | Present all singular | Present all plural | Preterite all singular | Preterite all plural |
+| Person and number | drīfan · Present | drīfan · Preterite | wrēon · Present | wrēon · Preterite |
 | --- | --- | --- | --- | --- |
-| drīfan | drīfe | drīfen | drife | drifen |
-| wrēon | wrēo | wrēon | wrige | wrigen |
-| bēodan | bēode | bēoden | bude | buden |
-| tēon | tēo | tēon | tuge | tugen |
-| flēogan | flēoge | flēogen | fluge | flugen |
-| bindan | binde | binden | bunde | bunden |
-| helpan | helpe | helpen | hulpe | hulpen |
-| weorðan | weorðe | weorðen | wurde | wurden |
-| swimman | swimme | swimmen | swumme | swummen |
+| 1–3 sg. | drīfe | drife | wrēo | wrige |
+| 1–3 pl. | drīfen | drifen | wrēon | wrigen |
+
+| Person and number | bēodan · Present | bēodan · Preterite | tēon · Present | tēon · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | bēode | bude | tēo | tuge |
+| 1–3 pl. | bēoden | buden | tēon | tugen |
+
+| Person and number | flēogan · Present | flēogan · Preterite | bindan · Present | bindan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | flēoge | fluge | binde | bunde |
+| 1–3 pl. | flēogen | flugen | binden | bunden |
+
+| Person and number | helpan · Present | helpan · Preterite | weorðan · Present | weorðan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | helpe | hulpe | weorðe | wurde |
+| 1–3 pl. | helpen | hulpen | weorðen | wurden |
+
+**swimman**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1–3 sg. | swimme | swumme |
+| 1–3 pl. | swimmen | swummen |
 
 Tēon here is the class II verb “draw, pull”. The same spelling can name another verb; it is the learned lexical system that determines the past stem.
 
@@ -194,28 +233,52 @@ Retain the selected past-plural vowels of niman and cuman. Cweðan has d in cwǣ
 
 <!-- table: U07-DISPLAY-SUBJ-4 -->
 
-| Lemma | Present all singular | Present all plural | Preterite all singular | Preterite all plural |
+| Person and number | beran · Present | beran · Preterite | niman · Present | niman · Preterite |
 | --- | --- | --- | --- | --- |
-| beran | bere | beren | bǣre | bǣren |
-| niman | nime | nimen | nōme | nōmen |
-| cuman | cume | cumen | cōme | cōmen |
-| giefan | giefe | giefen | gēafe | gēafen |
-| cweðan | cweðe | cweðen | cwǣde | cwǣden |
-| biddan | bidde | bidden | bǣde | bǣden |
-| licgan | licge | licgen | lǣge | lǣgen |
-| sittan | sitte | sitten | sǣte | sǣten |
-| sēon | sēo | sēon | sāwe | sāwen |
-| faran | fare | faren | fōre | fōren |
-| standan | stande | standen | stōde | stōden |
-| slēan | slēa | slēan | slōge | slōgen |
-| hębban | hębbe | hębben | hōfe | hōfen |
-| scieppan | scieppe | scieppen | scēope | scēopen |
-| swęrian | swęrie | swęrien | swōre | swōren |
-| weaxan | weaxe | weaxen | wēoxe | wēoxen |
-| hātan | hāte | hāten | hēte | hēten |
-| fōn | fō | fōn | fēnge | fēngen |
+| 1–3 sg. | bere | bǣre | nime | nōme |
+| 1–3 pl. | beren | bǣren | nimen | nōmen |
 
-Cuman also has the documented present cyme/cymen; the selected forms are cume/cumen. Keep scieppan’s selected scēop- past. Slēan retains the ordinary meaning “strike” learned earlier. Hāten is present plural subjunctive in its finite row; the same spelling will occur as a separately identified past participle. Spelling alone cannot establish its function.
+| Person and number | cuman · Present | cuman · Preterite | giefan · Present | giefan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | cume | cōme | giefe | gēafe |
+| 1–3 pl. | cumen | cōmen | giefen | gēafen |
+
+| Person and number | cweðan · Present | cweðan · Preterite | biddan · Present | biddan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | cweðe | cwǣde | bidde | bǣde |
+| 1–3 pl. | cweðen | cwǣden | bidden | bǣden |
+
+| Person and number | licgan · Present | licgan · Preterite | sittan · Present | sittan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | licge | lǣge | sitte | sǣte |
+| 1–3 pl. | licgen | lǣgen | sitten | sǣten |
+
+| Person and number | sēon · Present | sēon · Preterite | faran · Present | faran · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | sēo | sāwe | fare | fōre |
+| 1–3 pl. | sēon | sāwen | faren | fōren |
+
+| Person and number | standan · Present | standan · Preterite | slēan · Present | slēan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | stande | stōde | slēa | slōge |
+| 1–3 pl. | standen | stōden | slēan | slōgen |
+
+| Person and number | hębban · Present | hębban · Preterite | scieppan · Present | scieppan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | hębbe | hōfe | scieppe | scēope |
+| 1–3 pl. | hębben | hōfen | scieppen | scēopen |
+
+| Person and number | swęrian · Present | swęrian · Preterite | weaxan · Present | weaxan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | swęrie | swōre | weaxe | wēoxe |
+| 1–3 pl. | swęrien | swōren | weaxen | wēoxen |
+
+| Person and number | hātan · Present | hātan · Preterite | fōn · Present | fōn · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | hāte | hēte | fō | fēnge |
+| 1–3 pl. | hāten | hēten | fōn | fēngen |
+
+Cuman also has the documented present cyme/cymen; the selected forms are cume/cumen. Keep scieppan’s selected scēop- past. Slēan retains the ordinary meaning “strike” learned earlier. Hāten is present plural subjunctive in its finite paradigm; the same spelling will occur as a separately identified past participle. Spelling alone cannot establish its function.
 
 ### Preterite-presents and anomalous verbs
 
@@ -247,31 +310,50 @@ Dōn and gān retain contracted dō/dōn and gā/gān in the present. Their pret
 
 <!-- table: U07-DISPLAY-SUBJ-5 -->
 
-| Lemma | Present all singular | Present all plural | Preterite all singular | Preterite all plural |
+| Person and number | witan · Present | witan · Preterite | cunnan · Present | cunnan · Preterite |
 | --- | --- | --- | --- | --- |
-| witan | wite | witen | wiste | wisten |
-| cunnan | cunne | cunnen | cūðe | cūðen |
-| ðurfan | ðyrfe | ðyrfen | ðorfte | ðorften |
-| durran | dyrre | dyrren | dorste | dorsten |
-| sculan | scyle | scylen | sceolde | sceolden |
-| mugan | mæge | mægen | meahte | meahten |
-| mōtan | mōte | mōten | mōste | mōsten |
-| willan | wille | willen | wolde | wolden |
-| dōn | dō | dōn | dyde | dyden |
-| gān | gā | gān | ēode | ēoden |
-| wesan | sīe | sīen | wǣre | wǣren |
+| 1–3 sg. | wite | wiste | cunne | cūðe |
+| 1–3 pl. | witen | wisten | cunnen | cūðen |
 
-**Alternative present of “be”.** Each column again covers all three persons. The bēo series shares the same preterite wǣre/wǣren; it has no separate past paradigm.
+| Person and number | ðurfan · Present | ðurfan · Preterite | durran · Present | durran · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | ðyrfe | ðorfte | dyrre | dorste |
+| 1–3 pl. | ðyrfen | ðorften | dyrren | dorsten |
+
+| Person and number | sculan · Present | sculan · Preterite | mugan · Present | mugan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | scyle | sceolde | mæge | meahte |
+| 1–3 pl. | scylen | sceolden | mægen | meahten |
+
+| Person and number | mōtan · Present | mōtan · Preterite | willan · Present | willan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | mōte | mōste | wille | wolde |
+| 1–3 pl. | mōten | mōsten | willen | wolden |
+
+| Person and number | dōn · Present | dōn · Preterite | gān · Present | gān · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | dō | dyde | gā | ēode |
+| 1–3 pl. | dōn | dyden | gān | ēoden |
+
+**wesan**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1–3 sg. | sīe | wǣre |
+| 1–3 pl. | sīen | wǣren |
+
+**Alternative present of “be”.** Each row again covers all three persons. The bēo series shares the same preterite wǣre/wǣren; it has no separate past paradigm.
 
 <!-- table: U07-DISPLAY-BEO-SUBJ -->
 
-| Present all singular | Present all plural |
+| Person and number | Present |
 | --- | --- |
-| bēo | bēon |
+| 1–3 sg. | bēo |
+| 1–3 pl. | bēon |
 
 **Alternatives and limits.** Witan has the alternative wisse/wissen preterite; cunnan has a cȳðe variant. Beside the selected ðyrfe/ðyrfen, dyrre/dyrren, and scyle/scylen, the corresponding forms with u are documented. The tables continue to select meahte/meahten for mugan. Learn the selected series together; a spelling variant is not a new mood.
 
-The labels mugan (also called magan), durran, sculan, and mōtan identify finite systems. Their presence in the first column does not supply a usable infinitive, imperative, or participle. The new subjunctives do not fill every missing nonfinite or command form. Bēo itself can also be first-singular indicative or second-singular imperative; bēon can be an infinitive. A clause’s subject and purpose matter.
+The labels mugan (also called magan), durran, sculan, and mōtan identify finite systems. Their presence in the table headings does not supply a usable infinitive, imperative, or participle. The new subjunctives do not fill every missing nonfinite or command form. Bēo itself can also be first-singular indicative or second-singular imperative; bēon can be an infinitive. A clause’s subject and purpose matter.
 
 ## 3. Five additional verb systems
 
@@ -323,12 +405,10 @@ The present has wyrce-, with wyrcst and wyrcð in the second and third singular.
 
 | Person and number | Present indicative | Preterite indicative |
 | --- | --- | --- |
-| 1 sg | wyrce | worhte |
-| 2 sg | wyrcst | worhtest |
-| 3 sg | wyrcð | worhte |
-| 1 pl | wyrceað | worhton |
-| 2 pl | wyrceað | worhton |
-| 3 pl | wyrceað | worhton |
+| 1 sg. | wyrce | worhte |
+| 2 sg. | wyrcst | worhtest |
+| 3 sg. | wyrcð | worhte |
+| 1–3 pl. | wyrceað | worhton |
 
 **Gīeman.**
 
@@ -340,12 +420,10 @@ The long stem has gīemst, gīemð, and plural gīemað; the preterite retains t
 
 | Person and number | Present indicative | Preterite indicative |
 | --- | --- | --- |
-| 1 sg | gīeme | gīemde |
-| 2 sg | gīemst | gīemdest |
-| 3 sg | gīemð | gīemde |
-| 1 pl | gīemað | gīemdon |
-| 2 pl | gīemað | gīemdon |
-| 3 pl | gīemað | gīemdon |
+| 1 sg. | gīeme | gīemde |
+| 2 sg. | gīemst | gīemdest |
+| 3 sg. | gīemð | gīemde |
+| 1–3 pl. | gīemað | gīemdon |
 
 **Rīcsian.**
 
@@ -357,12 +435,10 @@ Class II contrasts rīcsie and plural rīcsiað with rīcsast/rīcsað. The pret
 
 | Person and number | Present indicative | Preterite indicative |
 | --- | --- | --- |
-| 1 sg | rīcsie | rīcsode |
-| 2 sg | rīcsast | rīcsodest |
-| 3 sg | rīcsað | rīcsode |
-| 1 pl | rīcsiað | rīcsodon |
-| 2 pl | rīcsiað | rīcsodon |
-| 3 pl | rīcsiað | rīcsodon |
+| 1 sg. | rīcsie | rīcsode |
+| 2 sg. | rīcsast | rīcsodest |
+| 3 sg. | rīcsað | rīcsode |
+| 1–3 pl. | rīcsiað | rīcsodon |
 
 **Gemanigfieldan.**
 
@@ -374,12 +450,10 @@ The dental stem has the contracted present gemanigfieltst and gemanigfielt. The 
 
 | Person and number | Present indicative | Preterite indicative |
 | --- | --- | --- |
-| 1 sg | gemanigfielde | gemanigfielde |
-| 2 sg | gemanigfieltst | gemanigfieldest |
-| 3 sg | gemanigfielt | gemanigfielde |
-| 1 pl | gemanigfieldað | gemanigfieldon |
-| 2 pl | gemanigfieldað | gemanigfieldon |
-| 3 pl | gemanigfieldað | gemanigfieldon |
+| 1 sg. | gemanigfielde | gemanigfielde |
+| 2 sg. | gemanigfieltst | gemanigfieldest |
+| 3 sg. | gemanigfielt | gemanigfielde |
+| 1–3 pl. | gemanigfieldað | gemanigfieldon |
 
 **Tōtwǣman.**
 
@@ -391,12 +465,10 @@ The present stem remains tōtwǣm-; the preterite has tōtwǣmd-. The long ǣ re
 
 | Person and number | Present indicative | Preterite indicative |
 | --- | --- | --- |
-| 1 sg | tōtwǣme | tōtwǣmde |
-| 2 sg | tōtwǣmst | tōtwǣmdest |
-| 3 sg | tōtwǣmð | tōtwǣmde |
-| 1 pl | tōtwǣmað | tōtwǣmdon |
-| 2 pl | tōtwǣmað | tōtwǣmdon |
-| 3 pl | tōtwǣmað | tōtwǣmdon |
+| 1 sg. | tōtwǣme | tōtwǣmde |
+| 2 sg. | tōtwǣmst | tōtwǣmdest |
+| 3 sg. | tōtwǣmð | tōtwǣmde |
+| 1–3 pl. | tōtwǣmað | tōtwǣmdon |
 
 ### Their subjunctives
 
@@ -406,15 +478,21 @@ The present stem remains tōtwǣm-; the preterite has tōtwǣmd-. The long ǣ re
 
 <!-- teaching: NEW-U07-SUBJ-totwaeman -->
 
-Wyrcean’s full subjunctive row appears with weak class I in §2. The remaining new verbs follow these rows. As before, every singular and plural column includes all three persons.
+Wyrcean’s full subjunctive paradigm appears with weak class I in §2. The remaining new verbs follow in these tables. As before, each shared singular or plural row includes all three persons.
 
 <!-- table: U07-DISPLAY-SUBJ-6 -->
 
-| Lemma | Present all singular | Present all plural | Preterite all singular | Preterite all plural |
+| Person and number | gīeman · Present | gīeman · Preterite | rīcsian · Present | rīcsian · Preterite |
 | --- | --- | --- | --- | --- |
-| gīeman | gīeme | gīemen | gīemde | gīemden |
-| rīcsian | rīcsie | rīcsien | rīcsode | rīcsoden |
-| tōtwǣman | tōtwǣme | tōtwǣmen | tōtwǣmde | tōtwǣmden |
+| 1–3 sg. | gīeme | gīemde | rīcsie | rīcsode |
+| 1–3 pl. | gīemen | gīemden | rīcsien | rīcsoden |
+
+**tōtwǣman**
+
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1–3 sg. | tōtwǣme | tōtwǣmde |
+| 1–3 pl. | tōtwǣmen | tōtwǣmden |
 
 <!-- teaching: NEW-U07-SUBJ-gemanigfieldan -->
 
@@ -422,10 +500,10 @@ Gemanigfieldan has identical present and preterite subjunctive spellings. The ta
 
 <!-- table: U07-DISPLAY-GEMANIGFIELDAN-SUBJ -->
 
-| Tense | All persons singular | All persons plural |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| present | gemanigfielde | gemanigfielden |
-| preterite | gemanigfielde | gemanigfielden |
+| 1–3 sg. | gemanigfielde | gemanigfielde |
+| 1–3 pl. | gemanigfielden | gemanigfielden |
 
 ### The imperative of tōtwǣman
 
@@ -437,9 +515,10 @@ Use the singular to address one person and the plural to address several, includ
 
 <!-- table: NEW-U07-IMP-totwaeman -->
 
-| Singular | Plural |
+| Person and number | Command |
 | --- | --- |
-| tōtwǣm | tōtwǣmað |
+| 2 sg. | tōtwǣm |
+| 2 pl. | tōtwǣmað |
 
 ### Practice A. Forms in use
 
@@ -664,45 +743,45 @@ Retain the participial stem bindend- before consonantal endings, and observe the
 
 <!-- table: NEW-U07-PART-ENDE-1 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | bindende | bindendu | bindende |
-| genitive | bindendes | bindendre | bindendes |
-| dative | bindendum | bindendre | bindendum |
-| accusative | bindendne | bindende | bindende |
+| Nominative | bindende | bindende | bindendu |
+| Genitive | bindendes | bindendes | bindendre |
+| Dative | bindendum | bindendum | bindendre |
+| Accusative | bindendne | bindende | bindende |
 
 **Strong plural.**
 
 <!-- table: NEW-U07-PART-ENDE-2 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | bindende | bindenda | bindendu |
-| genitive | bindendra | bindendra | bindendra |
-| dative | bindendum | bindendum | bindendum |
-| accusative | bindende | bindenda | bindendu |
+| Nominative | bindende | bindendu | bindenda |
+| Genitive | bindendra | bindendra | bindendra |
+| Dative | bindendum | bindendum | bindendum |
+| Accusative | bindende | bindendu | bindenda |
 
 **Weak singular.**
 
 <!-- table: NEW-U07-PART-ENDE-3 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | bindenda | bindende | bindende |
-| genitive | bindendan | bindendan | bindendan |
-| dative | bindendan | bindendan | bindendan |
-| accusative | bindendan | bindendan | bindende |
+| Nominative | bindenda | bindende | bindende |
+| Genitive | bindendan | bindendan | bindendan |
+| Dative | bindendan | bindendan | bindendan |
+| Accusative | bindendan | bindende | bindendan |
 
 **Weak plural.**
 
 <!-- table: NEW-U07-PART-ENDE-4 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | bindendan | bindendan | bindendan |
-| genitive | bindendra | bindendra | bindendra |
-| dative | bindendum | bindendum | bindendum |
-| accusative | bindendan | bindendan | bindendan |
+| Nominative | bindendan | bindendan | bindendan |
+| Genitive | bindendra | bindendra | bindendra |
+| Dative | bindendum | bindendum | bindendum |
+| Accusative | bindendan | bindendan | bindendan |
 
 **Variants.** In the strong feminine plural nominative/accusative, bindende is also found beside selected bindenda; in the corresponding neuter plural cells, bindende is an alternative to bindendu. Keep the selected forms when a task asks for the model. These variations do not make the participle an uninflected word in every attributive use.
 
@@ -718,45 +797,45 @@ The table keeps the full stem bunden- so that the endings remain visible. Its un
 
 <!-- table: NEW-U07-PART-BUNDEN-1 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | bunden | bundenu | bunden |
-| genitive | bundenes | bundenre | bundenes |
-| dative | bundenum | bundenre | bundenum |
-| accusative | bundenne | bundene | bunden |
+| Nominative | bunden | bunden | bundenu |
+| Genitive | bundenes | bundenes | bundenre |
+| Dative | bundenum | bundenum | bundenre |
+| Accusative | bundenne | bunden | bundene |
 
 **Strong plural.**
 
 <!-- table: NEW-U07-PART-BUNDEN-2 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | bundene | bundena | bundenu |
-| genitive | bundenra | bundenra | bundenra |
-| dative | bundenum | bundenum | bundenum |
-| accusative | bundene | bundena | bundenu |
+| Nominative | bundene | bundenu | bundena |
+| Genitive | bundenra | bundenra | bundenra |
+| Dative | bundenum | bundenum | bundenum |
+| Accusative | bundene | bundenu | bundena |
 
 **Weak singular.**
 
 <!-- table: NEW-U07-PART-BUNDEN-3 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | bundena | bundene | bundene |
-| genitive | bundenan | bundenan | bundenan |
-| dative | bundenan | bundenan | bundenan |
-| accusative | bundenan | bundenan | bundene |
+| Nominative | bundena | bundene | bundene |
+| Genitive | bundenan | bundenan | bundenan |
+| Dative | bundenan | bundenan | bundenan |
+| Accusative | bundenan | bundene | bundenan |
 
 **Weak plural.**
 
 <!-- table: NEW-U07-PART-BUNDEN-4 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | bundenan | bundenan | bundenan |
-| genitive | bundenra | bundenra | bundenra |
-| dative | bundenum | bundenum | bundenum |
-| accusative | bundenan | bundenan | bundenan |
+| Nominative | bundenan | bundenan | bundenan |
+| Genitive | bundenra | bundenra | bundenra |
+| Dative | bundenum | bundenum | bundenum |
+| Accusative | bundenan | bundenan | bundenan |
 
 **Syncope and variants.** Bundenes/bundnes, bundenum/bundnum, bundene/bundne, bundena/bundna, and bundenan/bundnan are the corresponding full and syncopated forms. Apply each pair only to the cells with that full form. Strong feminine plural nominative/accusative also permits bundene beside bundena. Strong feminine nominative singular permits bunden beside bundenu; strong neuter plural nominative/accusative permits bunden or bundene beside bundenu. The selected -u forms complete the model; they are not claims that every such cell is frequent in continuous texts.
 
@@ -770,45 +849,45 @@ The full stem hīered- makes the relation to the dental participle clear. Keep i
 
 <!-- table: NEW-U07-PART-HIERED-1 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | hīered | hīeredu | hīered |
-| genitive | hīeredes | hīeredre | hīeredes |
-| dative | hīeredum | hīeredre | hīeredum |
-| accusative | hīeredne | hīerede | hīered |
+| Nominative | hīered | hīered | hīeredu |
+| Genitive | hīeredes | hīeredes | hīeredre |
+| Dative | hīeredum | hīeredum | hīeredre |
+| Accusative | hīeredne | hīered | hīerede |
 
 **Strong plural.**
 
 <!-- table: NEW-U07-PART-HIERED-2 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | hīerede | hīereda | hīeredu |
-| genitive | hīeredra | hīeredra | hīeredra |
-| dative | hīeredum | hīeredum | hīeredum |
-| accusative | hīerede | hīereda | hīeredu |
+| Nominative | hīerede | hīeredu | hīereda |
+| Genitive | hīeredra | hīeredra | hīeredra |
+| Dative | hīeredum | hīeredum | hīeredum |
+| Accusative | hīerede | hīeredu | hīereda |
 
 **Weak singular.**
 
 <!-- table: NEW-U07-PART-HIERED-3 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | hīereda | hīerede | hīerede |
-| genitive | hīeredan | hīeredan | hīeredan |
-| dative | hīeredan | hīeredan | hīeredan |
-| accusative | hīeredan | hīeredan | hīerede |
+| Nominative | hīereda | hīerede | hīerede |
+| Genitive | hīeredan | hīeredan | hīeredan |
+| Dative | hīeredan | hīeredan | hīeredan |
+| Accusative | hīeredan | hīerede | hīeredan |
 
 **Weak plural.**
 
 <!-- table: NEW-U07-PART-HIERED-4 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | hīeredan | hīeredan | hīeredan |
-| genitive | hīeredra | hīeredra | hīeredra |
-| dative | hīeredum | hīeredum | hīeredum |
-| accusative | hīeredan | hīeredan | hīeredan |
+| Nominative | hīeredan | hīeredan | hīeredan |
+| Genitive | hīeredra | hīeredra | hīeredra |
+| Dative | hīeredum | hīeredum | hīeredum |
+| Accusative | hīeredan | hīeredan | hīeredan |
 
 **Syncope and variants.** Hīeredes/hīerdes, hīeredum/hīerdum, hīerede/hīerde, hīereda/hīerda, and hīeredan/hīerdan give the corresponding alternatives. Strong feminine plural nominative/accusative also permits hīerede beside hīereda. Strong feminine nominative singular permits hīered beside hīeredu; strong neuter plural nominative/accusative permits hīered or hīerede beside hīeredu. As in the preceding model, the -u cells are regular paradigm completions with their alternatives stated explicitly.
 
@@ -822,45 +901,45 @@ Retain o throughout the selected model. Unlike the preceding -u models, selected
 
 <!-- table: NEW-U07-PART-LUFOD-1 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | lufod | lufod | lufod |
-| genitive | lufodes | lufodre | lufodes |
-| dative | lufodum | lufodre | lufodum |
-| accusative | lufodne | lufode | lufod |
+| Nominative | lufod | lufod | lufod |
+| Genitive | lufodes | lufodes | lufodre |
+| Dative | lufodum | lufodum | lufodre |
+| Accusative | lufodne | lufod | lufode |
 
 **Strong plural.**
 
 <!-- table: NEW-U07-PART-LUFOD-2 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | lufode | lufoda | lufod |
-| genitive | lufodra | lufodra | lufodra |
-| dative | lufodum | lufodum | lufodum |
-| accusative | lufode | lufoda | lufod |
+| Nominative | lufode | lufod | lufoda |
+| Genitive | lufodra | lufodra | lufodra |
+| Dative | lufodum | lufodum | lufodum |
+| Accusative | lufode | lufod | lufoda |
 
 **Weak singular.**
 
 <!-- table: NEW-U07-PART-LUFOD-3 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | lufoda | lufode | lufode |
-| genitive | lufodan | lufodan | lufodan |
-| dative | lufodan | lufodan | lufodan |
-| accusative | lufodan | lufodan | lufode |
+| Nominative | lufoda | lufode | lufode |
+| Genitive | lufodan | lufodan | lufodan |
+| Dative | lufodan | lufodan | lufodan |
+| Accusative | lufodan | lufode | lufodan |
 
 **Weak plural.**
 
 <!-- table: NEW-U07-PART-LUFOD-4 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | lufodan | lufodan | lufodan |
-| genitive | lufodra | lufodra | lufodra |
-| dative | lufodum | lufodum | lufodum |
-| accusative | lufodan | lufodan | lufodan |
+| Nominative | lufodan | lufodan | lufodan |
+| Genitive | lufodra | lufodra | lufodra |
+| Dative | lufodum | lufodum | lufodum |
+| Accusative | lufodan | lufodan | lufodan |
 
 **Variants.** Strong feminine plural nominative/accusative lufode is an alternative to lufoda; strong neuter plural nominative/accusative lufode is an alternative to lufod. These are particular agreement variants, not a replacement of every final syllable by -e.
 
@@ -874,45 +953,45 @@ Seald has no unstressed stem vowel to remove. Add the printed endings directly t
 
 <!-- table: NEW-U07-PART-SEALD-1 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | seald | seald | seald |
-| genitive | sealdes | sealdre | sealdes |
-| dative | sealdum | sealdre | sealdum |
-| accusative | sealdne | sealde | seald |
+| Nominative | seald | seald | seald |
+| Genitive | sealdes | sealdes | sealdre |
+| Dative | sealdum | sealdum | sealdre |
+| Accusative | sealdne | seald | sealde |
 
 **Strong plural.**
 
 <!-- table: NEW-U07-PART-SEALD-2 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | sealde | sealda | seald |
-| genitive | sealdra | sealdra | sealdra |
-| dative | sealdum | sealdum | sealdum |
-| accusative | sealde | sealda | seald |
+| Nominative | sealde | seald | sealda |
+| Genitive | sealdra | sealdra | sealdra |
+| Dative | sealdum | sealdum | sealdum |
+| Accusative | sealde | seald | sealda |
 
 **Weak singular.**
 
 <!-- table: NEW-U07-PART-SEALD-3 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | sealda | sealde | sealde |
-| genitive | sealdan | sealdan | sealdan |
-| dative | sealdan | sealdan | sealdan |
-| accusative | sealdan | sealdan | sealde |
+| Nominative | sealda | sealde | sealde |
+| Genitive | sealdan | sealdan | sealdan |
+| Dative | sealdan | sealdan | sealdan |
+| Accusative | sealdan | sealde | sealdan |
 
 **Weak plural.**
 
 <!-- table: NEW-U07-PART-SEALD-4 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nominative | sealdan | sealdan | sealdan |
-| genitive | sealdra | sealdra | sealdra |
-| dative | sealdum | sealdum | sealdum |
-| accusative | sealdan | sealdan | sealdan |
+| Nominative | sealdan | sealdan | sealdan |
+| Genitive | sealdra | sealdra | sealdra |
+| Dative | sealdum | sealdum | sealdum |
+| Accusative | sealdan | sealdan | sealdan |
 
 **Variants.** Strong feminine plural nominative/accusative sealde is an alternative to sealda; strong neuter plural nominative/accusative sealde is an alternative to seald.
 
@@ -1049,23 +1128,23 @@ The first utterance is explicitly a command to one male addressee: Bēo geblēts
 
 <!-- table: NEW-U07-NOM-eall-1 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nom | eall | eall | eall |
-| gen | ealles | ealre | ealles |
-| dat | eallum | ealre | eallum |
-| acc | ealne | ealle | eall |
+| Nominative | eall | eall | eall |
+| Genitive | ealles | ealles | ealre |
+| Dative | eallum | eallum | ealre |
+| Accusative | ealne | eall | ealle |
 
 **Eall: plural.**
 
 <!-- table: NEW-U07-NOM-eall-2 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nom | ealle | ealla | eall |
-| gen | ealra | ealra | ealra |
-| dat | eallum | eallum | eallum |
-| acc | ealle | ealla | eall |
+| Nominative | ealle | eall | ealla |
+| Genitive | ealra | ealra | ealra |
+| Dative | eallum | eallum | eallum |
+| Accusative | ealle | eall | ealla |
 
 Preserve the single l in ealne, ealre, and ealra, beside eall- in the other printed forms. These are agreement forms, not an invariant English “all”.
 
@@ -1075,23 +1154,23 @@ Preserve the single l in ealne, ealre, and ealra, beside eall- in the other prin
 
 <!-- table: NEW-U07-NOM-aelc-1 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nom | ǣlc | ǣlc | ǣlc |
-| gen | ǣlces | ǣlcre | ǣlces |
-| dat | ǣlcum | ǣlcre | ǣlcum |
-| acc | ǣlcne | ǣlce | ǣlc |
+| Nominative | ǣlc | ǣlc | ǣlc |
+| Genitive | ǣlces | ǣlces | ǣlcre |
+| Dative | ǣlcum | ǣlcum | ǣlcre |
+| Accusative | ǣlcne | ǣlc | ǣlce |
 
 **Ǣlc: plural morphology.**
 
 <!-- table: NEW-U07-NOM-aelc-2 -->
 
-| Case | Masculine | Feminine | Neuter |
+| Case | Masculine | Neuter | Feminine |
 | --- | --- | --- | --- |
-| nom | ǣlce | ǣlca | ǣlc |
-| gen | ǣlcra | ǣlcra | ǣlcra |
-| dat | ǣlcum | ǣlcum | ǣlcum |
-| acc | ǣlce | ǣlca | ǣlc |
+| Nominative | ǣlce | ǣlc | ǣlca |
+| Genitive | ǣlcra | ǣlcra | ǣlcra |
+| Dative | ǣlcum | ǣlcum | ǣlcum |
+| Accusative | ǣlce | ǣlc | ǣlca |
 
 The vowel is long ǣ throughout. Use the singular case required by the noun’s role when translating “each day” or “every bird”. Displaying the plural endings does not change that ordinary construction. These are strong paradigms; no new weak quantifier system or instrumental use is introduced.
 
@@ -1107,10 +1186,10 @@ The vowel is long ǣ throughout. Use the singular case required by the noun’s 
 
 | Case | Singular | Plural (morphology reference) |
 | --- | --- | --- |
-| nom | geweald | geweald |
-| gen | gewealdes | gewealda |
-| dat | gewealde | gewealdum |
-| acc | geweald | geweald |
+| Nominative | geweald | geweald |
+| Genitive | gewealdes | gewealda |
+| Dative | gewealde | gewealdum |
+| Accusative | geweald | geweald |
 
 The long neuter stem has the same nominative and accusative spelling in singular and plural. The genitive singular is -es and dative singular -e; genitive plural -a and dative plural -um distinguish the oblique plural forms.
 

@@ -4,7 +4,7 @@ Status: **ready for the coordinator's learning contract**. This is analysis, not
 
 ## Basis and scope
 
-The only prerequisite is completed Unit 1. I read its active coverage contract and the actual lexical and grammatical registers; [prior-audit.json](prior-audit.json) records their identities and relevant scope. In particular, the personal pronouns, **sealde**, temporal **ðā**, and source participles were supplied in Unit 1. None is already taught merely because it appeared there. The earlier archive is evidence only.
+The only prerequisite is completed Unit 1. I read its active coverage contract and the actual lexical and grammatical registers; [prior-audit.json](prior-audit.json) records their identities and relevant scope. In particular, the personal pronouns, **sealde**, temporal **ðā**, and source participles were supplied in Unit 1. None is already taught merely because it appeared there.
 
 Unit 2 should make independent finite clauses possible through complete personal pronouns and complete, explicitly bounded present and preterite indicative systems for weak classes I–III. No Cook exercise is assigned here. All 598 deferred Cook items and both deferred later Creation candidates remain deferred under Unit 1's active disposition records. The source reading is a newly audited exact span, not a silent reassignment.
 

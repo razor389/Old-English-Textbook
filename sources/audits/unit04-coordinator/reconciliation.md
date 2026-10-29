@@ -4,7 +4,7 @@ Reconciled 22 October 2026. This is an editorial audit, not learner prose or a t
 
 ## Actual prior teaching
 
-Read the three active coverage contracts and the actual lexical and grammatical registers, including their precise scope notes and supplied histories. The baseline is the completed Unit 3 revision `176eb8e`: 163 lemmas, 2,319 form records, 178 senses and 127 constructions. The ignored recovery baseline `build/unit04-prior-baseline.json` retains those records, all three contracts, hashes of 44 earlier active/export files and 134 archived files. Earlier contracts and archived evidence will remain unchanged.
+Read the three active coverage contracts and the actual lexical and grammatical registers, including their precise scope notes and supplied histories. The baseline is the completed Unit 3 revision `176eb8e`: 163 lemmas, 2,319 form records, 178 senses and 127 constructions. The ignored recovery baseline `build/unit04-prior-baseline.json` retains those records, all three contracts, hashes of 44 earlier active/export files. Earlier contracts will remain unchanged.
 
 No complete strong I–III paradigm is previously productive. In particular, supplied **wearð**, **geswāc**, **scīnen** and **scinen** do not establish a strong indicative system. Promoting a familiar surface must preserve its supplied history and distinguish its newly taught sense and construction. An ordinary **weorðan** predicate does not teach the passive auxiliary construction in which **wearð** previously occurred.
 

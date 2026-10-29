@@ -1,6 +1,6 @@
 # Unit 2 editorial record
 
-The canonical contract was saved before learner prose at local Git `b35fcdd` on 22 October 2026. This author read that contract, `curriculum/UNIT_02_BRIEF.md`, the completed Unit 1 learner/key and actual cumulative teaching records. The sole prerequisite is the completed new-course Unit 1. Archived milestones and earlier supplied encounters were not treated as teaching.
+The canonical contract was saved before learner prose at local Git `b35fcdd` on 22 October 2026. This author read that contract, `curriculum/UNIT_02_BRIEF.md`, the completed Unit 1 learner/key and actual cumulative teaching records. The sole prerequisite is the completed new-course Unit 1. Earlier supplied encounters were not treated as teaching.
 
 ## Source, composition and scope
 

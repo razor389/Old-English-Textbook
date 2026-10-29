@@ -2,7 +2,7 @@
 
 The source audit is ready for the coordinator’s contract reconciliation. It proposes all **64 Cook Group II items**: II.9.1–16, II.10.1–15, II.11.1–17 and II.12.1–16. No item is silently omitted or deferred. Exact English prompts are retained in [exercises-prompts.json](exercises-prompts.json); public form, sense and construction dependencies are in [exercises-dependencies.json](exercises-dependencies.json). Independent models remain in `private-cook-models.json`, outside the pre-key reviewer’s reading path.
 
-The audit read all eight active coverage contracts and the actual registers at checkpoint `cb687a9`: 328 lemmas, 4,876 forms, 371 senses and 322 constructions. Their identities and hashes are recorded in [prior-source-audit.json](prior-source-audit.json). Earlier supplied forms establish exposure, not productive knowledge. Earlier active course evidence, including Unit 3’s comparative-consonant check, was reused with its provenance intact. The historical previous-course snapshot was not changed.
+The audit read all eight active coverage contracts and the actual registers at checkpoint `cb687a9`: 328 lemmas, 4,876 forms, 371 senses and 322 constructions. Their identities and hashes are recorded in [prior-source-audit.json](prior-source-audit.json). Earlier supplied forms establish exposure, not productive knowledge. Earlier active course evidence, including Unit 3’s comparative-consonant check, was reused with its provenance intact.
 
 ## Source inspection and fidelity
 
@@ -51,4 +51,4 @@ The independent translation in `private-reading-witness.json` was prepared from 
 
 [validation.json](validation.json) records the final counts, checked identities and output hashes. Every public Cook form/sense/construction reference resolves, every source-reading token matches its literal surface, and every retained evidence image hash resolves. There are no outstanding source-audit blockers. These are source proposals, not the canonical assignment contract.
 
-Proposed Beads disposition: complete the bounded source-editor audit after the coordinator accepts this evidence and reconciles it with the grammar and design proposals. The lesson, separate key, pre-key independent review, contract/register integration, LuaLaTeX exports and page inspection remain subsequent gates. No Beads commands, shared-register edits, chapter prose, commits or archive changes were made by this worker.
+Proposed Beads disposition: complete the bounded source-editor audit after the coordinator accepts this evidence and reconciles it with the grammar and design proposals. The lesson, separate key, pre-key independent review, contract/register integration, LuaLaTeX exports and page inspection remain subsequent gates. No Beads commands, shared-register edits, chapter prose or commits were made by this worker.

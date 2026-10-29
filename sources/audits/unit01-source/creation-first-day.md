@@ -2,7 +2,7 @@
 
 Checked 22 October 2026. Source: `cook_fb_1895_2`, Cook's second edition (1895), Reader I, “The Creation of the World,” printed pp.123–124 / selected PDF139–140. Images [reader-1.png](reader-1.png) and [reader-2.png](reader-2.png) are rendering-sequence numbers: **1 = PDF139/p.123; 2 = PDF140/p.124**. Both pages and the relevant notes were visually inspected. This file is source evidence, not a learner reading assignment or key.
 
-The proposed boundary is the beginning through the close of the first day, **ān dæg.** on p.124. It is contiguous and ends before the second day's opening **God cwæð ðā ęft**. It is appreciably longer than the earlier course's extracted clauses and gives a coherent narrative sequence.
+The proposed boundary is the beginning through the close of the first day, **ān dæg.** on p.124. It is contiguous and ends before the second day's opening **God cwæð ðā ęft**. It gives a coherent narrative sequence.
 
 ## Faithful source lines
 

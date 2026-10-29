@@ -6,16 +6,16 @@ In the source reading, the printed help remains available. The three forms **swi
 
 ## A. Subjunctive forms
 
-In A01–A05, every singular entry serves the first, second, and third persons singular; every plural entry serves the first, second, and third persons plural. Subjects identify person. A dual subject likewise takes a plural verb. The four labelled columns therefore give the complete present and preterite subjunctive systems requested. [1]
+In A01–A05, every singular entry serves the first, second, and third persons singular; every plural entry serves the first, second, and third persons plural. Subjects identify person. A dual subject likewise takes a plural verb. The four displayed forms for each verb therefore give the complete present and preterite subjunctive systems requested. [1]
 
 <!-- item: NEW-U07-A01 -->
 <!-- key: KEY-NEW-U07-A01 -->
 **A01. hīeran and sęllan.**
 
-| Verb | Present singular | Present plural | Preterite singular | Preterite plural |
-|---|---|---|---|---|
-| hīeran | hīere | hīeren | hīerde | hīerden |
-| sęllan | sęlle | sęllen | sealde | sealden |
+| Person and number | hīeran · Present | hīeran · Preterite | sęllan · Present | sęllan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | hīere | hīerde | sęlle | sealde |
+| 1–3 pl. | hīeren | hīerden | sęllen | sealden |
 
 **Target:** distinguish the ordinary weak-I dental preterite from the lexical preterite of **sęllan**. Retain **hīer-** in both tenses; use **seald-**, not an invented dental extension of **sęll-**, in the preterite. The plural subjunctive ends in **-en**; **hīerdon, sealdon** would be indicative.
 
@@ -23,10 +23,10 @@ In A01–A05, every singular entry serves the first, second, and third persons s
 <!-- key: KEY-NEW-U07-A02 -->
 **A02. lufian and libban.**
 
-| Verb | Present singular | Present plural | Preterite singular | Preterite plural |
-|---|---|---|---|---|
-| lufian | lufie | lufien | lufode | lufoden |
-| libban | libbe | libben | lifde | lifden |
+| Person and number | lufian · Present | lufian · Preterite | libban · Present | libban · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | lufie | lufode | libbe | lifde |
+| 1–3 pl. | lufien | lufoden | libben | lifden |
 
 **Target:** weak-II **-ie/-ien** and the selected weak-III stems. The **i** of **lufi-** remains before the present subjunctive endings. For **libban**, distinguish **libb-** here from present indicative **leof-** in **leofað**, and from preterite **lifd-**. Do not make the subjunctive by retaining the indicative third-singular ending **-að**.
 
@@ -34,10 +34,10 @@ In A01–A05, every singular entry serves the first, second, and third persons s
 <!-- key: KEY-NEW-U07-A03 -->
 **A03. bindan and weaxan.**
 
-| Verb | Present singular | Present plural | Preterite singular | Preterite plural |
-|---|---|---|---|---|
-| bindan | binde | binden | bunde | bunden |
-| weaxan | weaxe | weaxen | wēoxe | wēoxen |
+| Person and number | bindan · Present | bindan · Preterite | weaxan · Present | weaxan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | binde | bunde | weaxe | wēoxe |
+| 1–3 pl. | binden | bunden | weaxen | wēoxen |
 
 **Target:** use the strong preterite plural stem. Compare indicative **bundon, wēoxon**. **Band** is a singular indicative form and does not supply the stem of **bunde/bunden**. The present subjunctive **weaxe** also keeps the present stem, rather than the altered vowel of indicative **wiext**.
 
@@ -45,10 +45,10 @@ In A01–A05, every singular entry serves the first, second, and third persons s
 <!-- key: KEY-NEW-U07-A04 -->
 **A04. sēon and biddan.**
 
-| Verb | Present singular | Present plural | Preterite singular | Preterite plural |
-|---|---|---|---|---|
-| sēon | sēo | sēon | sāwe | sāwen |
-| biddan | bidde | bidden | bǣde | bǣden |
+| Person and number | sēon · Present | sēon · Preterite | biddan · Present | biddan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | sēo | sāwe | bidde | bǣde |
+| 1–3 pl. | sēon | sāwen | bidden | bǣden |
 
 **Target:** preserve the contracted present of **sēon** and the doubled consonant of present **bidd-**. The preterites use **sāw-** and **bǣd-**, corresponding to the learned plural indicative stems. **Sēon** can also spell the infinitive, but that does not remove its place in the finite subjunctive paradigm; a clause determines which use is present.
 
@@ -56,10 +56,10 @@ In A01–A05, every singular entry serves the first, second, and third persons s
 <!-- key: KEY-NEW-U07-A05 -->
 **A05. witan and willan.**
 
-| Verb | Present singular | Present plural | Preterite singular | Preterite plural |
-|---|---|---|---|---|
-| witan | wite | witen | wiste | wisten |
-| willan | wille | willen | wolde | wolden |
+| Person and number | witan · Present | witan · Preterite | willan · Present | willan · Preterite |
+| --- | --- | --- | --- | --- |
+| 1–3 sg. | wite | wiste | wille | wolde |
+| 1–3 pl. | witen | wisten | willen | wolden |
 
 **Target:** retain each irregular system. The present indicative **wāt** does not supply the subjunctive **wite**. **Wolde** can also be a preterite indicative singular; the spelling alone neither proves subjunctive mood nor requires the English word “would.”
 
@@ -67,11 +67,10 @@ In A01–A05, every singular entry serves the first, second, and third persons s
 <!-- key: KEY-NEW-U07-A06 -->
 **A06. wesan/bēon.**
 
-| Series | Singular: persons 1, 2, 3 | Plural: persons 1, 2, 3 |
-|---|---|---|
-| Present, sīe series | sīe | sīen |
-| Present, bēo series | bēo | bēon |
-| Shared preterite | wǣre | wǣren |
+| Person and number | Present, sīe series | Present, bēo series | Shared preterite |
+| --- | --- | --- | --- |
+| 1–3 sg. | sīe | bēo | wǣre |
+| 1–3 pl. | sīen | bēon | wǣren |
 
 **Target:** both selected present alternatives and the one shared preterite. Number is distinguished; person is not distinguished by the ending. Do not invent a second preterite for the **bēo** series. **Bēo** also occurs as a singular imperative, and **bēon** as an infinitive; analyse their use in a clause, not from the spelling alone.
 
@@ -79,8 +78,8 @@ In A01–A05, every singular entry serves the first, second, and third persons s
 <!-- key: KEY-NEW-U07-A07 -->
 **A07. Five new verbal systems.**
 
-| Verb | Present indicative, 3 sg. | Preterite indicative, 3 pl. | Present subjunctive, all persons pl. |
-|---|---|---|---|
+| Verb | Present indicative, 3 sg. | Preterite indicative, 3 pl. | Present subjunctive, 1–3 pl. |
+| --- | --- | --- | --- |
 | gīeman | gīemð | gīemdon | gīemen |
 | rīcsian | rīcsað | rīcsodon | rīcsien |
 | gemanigfieldan | gemanigfielt | gemanigfieldon | gemanigfielden |

@@ -2,7 +2,7 @@
 
 Strong verbs form their preterite chiefly by changing the stem vowel. This unit gives the complete selected present and preterite indicative of Classes I–III, with the stem changes needed to use them. The noun, pronoun, adjective and weak-verb systems of Units 1–3 remain in use.
 
-In the tables, **1**, **2** and **3** denote first, second and third person; **sg.** and **pl.** denote singular and plural. A column labelled **1–3 pl.** gives the same form for all three plural persons. Dual pronoun subjects also take these plural forms. Use the selected forms when requested; the documented alternatives remain valid Old English. Macrons and the distinction between e and ę are retained.
+In the tables, **1**, **2** and **3** denote first, second and third person; **sg.** and **pl.** denote singular and plural. A row labelled **1–3 pl.** gives the same form for all three plural persons. Dual pronoun subjects also take these plural forms. Use the selected forms when requested; the documented alternatives remain valid Old English. Macrons and the distinction between e and ę are retained.
 
 ## 1. Principal parts and finite stems
 
@@ -37,10 +37,10 @@ Present indicative forms state present actions or conditions; preterite indicati
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | -e | singular preterite stem; no added ending |
-| 2 singular | -st, with the listed stem changes | plural preterite stem + -e |
-| 3 singular | -ð, with the listed stem changes | singular preterite stem; no added ending |
-| 1, 2, 3 plural | -að | plural preterite stem + -on |
+| 1 sg. | -e | singular preterite stem; no added ending |
+| 2 sg. | -st, with the listed stem changes | plural preterite stem + -e |
+| 3 sg. | -ð, with the listed stem changes | singular preterite stem; no added ending |
+| 1–3 pl. | -að | plural preterite stem + -on |
 
 Contracted verbs have the special present forms printed in their tables. The strong **second singular preterite** uses the plural stem, not the ordinary first/third singular stem: drife belongs with drifon, while drāf is the first/third singular. Findan has an additional third-singular exception, given in §4. The indicative tables keep every person explicit.
 
@@ -115,27 +115,37 @@ The ordinary Class I series is **ī : ā : i : i**. The long ī remains in the s
 
 <!-- table: U04-PRESENT-I -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | drīfan | rīdan | wrītan | rīsan |
 | --- | --- | --- | --- | --- |
-| drīfan | drīfe | drīfst | drīfð | drīfað |
-| rīdan | rīde | rītst | rītt | rīdað |
-| wrītan | wrīte | wrītst | wrītt | wrītað |
-| rīsan | rīse | rīst | rīst | rīsað |
-| snīðan | snīðe | snīst | snīð | snīðað |
-| wrēon | wrēo | wrīhst | wrīhð | wrēoð |
+| 1 sg. | drīfe | rīde | wrīte | rīse |
+| 2 sg. | drīfst | rītst | wrītst | rīst |
+| 3 sg. | drīfð | rītt | wrītt | rīst |
+| 1–3 pl. | drīfað | rīdað | wrītað | rīsað |
+
+| Person and number | snīðan | wrēon |
+| --- | --- | --- |
+| 1 sg. | snīðe | wrēo |
+| 2 sg. | snīst | wrīhst |
+| 3 sg. | snīð | wrīhð |
+| 1–3 pl. | snīðað | wrēoð |
 
 **Preterite indicative.**
 
 <!-- table: U04-PRETERITE-I -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | drīfan | rīdan | wrītan | rīsan |
 | --- | --- | --- | --- | --- |
-| drīfan | drāf | drife | drāf | drifon |
-| rīdan | rād | ride | rād | ridon |
-| wrītan | wrāt | write | wrāt | writon |
-| rīsan | rās | rise | rās | rison |
-| snīðan | snāð | snide | snāð | snidon |
-| wrēon | wrāh | wrige | wrāh | wrigon |
+| 1 sg. | drāf | rād | wrāt | rās |
+| 2 sg. | drife | ride | write | rise |
+| 3 sg. | drāf | rād | wrāt | rās |
+| 1–3 pl. | drifon | ridon | writon | rison |
+
+| Person and number | snīðan | wrēon |
+| --- | --- | --- |
+| 1 sg. | snāð | wrāh |
+| 2 sg. | snide | wrige |
+| 3 sg. | snāð | wrāh |
+| 1–3 pl. | snidon | wrigon |
 
 In rīdan and wrītan, the selected present second singular ends in -tst and the third in -tt. Third-singular rīt and wrīt are documented alternatives. Rīsan has rīst in both second and third singular; rīsð is another third-singular spelling. Snīðan has selected snīst and snīð, with snīðð also valid in the third singular. Its preterite switches to d in snide and snidon, while the first/third singular snāð retains ð.
 
@@ -202,27 +212,37 @@ The ordinary Class II series is **ēo or ū : ēa : u : o**. In the selected sec
 
 <!-- table: U04-PRESENT-II -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | bēodan | būgan | cēosan | sēoðan |
 | --- | --- | --- | --- | --- |
-| bēodan | bēode | bīetst | bīett | bēodað |
-| būgan | būge | bȳgst | bȳgð | būgað |
-| cēosan | cēose | cīest | cīest | cēosað |
-| sēoðan | sēoðe | sīest | sīeð | sēoðað |
-| drēogan | drēoge | drīegst | drīegð | drēogað |
-| tēon | tēo | tīehst | tīehð | tēoð |
+| 1 sg. | bēode | būge | cēose | sēoðe |
+| 2 sg. | bīetst | bȳgst | cīest | sīest |
+| 3 sg. | bīett | bȳgð | cīest | sīeð |
+| 1–3 pl. | bēodað | būgað | cēosað | sēoðað |
+
+| Person and number | drēogan | tēon |
+| --- | --- | --- |
+| 1 sg. | drēoge | tēo |
+| 2 sg. | drīegst | tīehst |
+| 3 sg. | drīegð | tīehð |
+| 1–3 pl. | drēogað | tēoð |
 
 **Preterite indicative.**
 
 <!-- table: U04-PRETERITE-II -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | bēodan | būgan | cēosan | sēoðan |
 | --- | --- | --- | --- | --- |
-| bēodan | bēad | bude | bēad | budon |
-| būgan | bēag | buge | bēag | bugon |
-| cēosan | cēas | cure | cēas | curon |
-| sēoðan | sēað | sude | sēað | sudon |
-| drēogan | drēag | druge | drēag | drugon |
-| tēon | tēah | tuge | tēah | tugon |
+| 1 sg. | bēad | bēag | cēas | sēað |
+| 2 sg. | bude | buge | cure | sude |
+| 3 sg. | bēad | bēag | cēas | sēað |
+| 1–3 pl. | budon | bugon | curon | sudon |
+
+| Person and number | drēogan | tēon |
+| --- | --- | --- |
+| 1 sg. | drēag | tēah |
+| 2 sg. | druge | tuge |
+| 3 sg. | drēag | tēah |
+| 1–3 pl. | drugon | tugon |
 
 Bēodan combines the vowel change with dental endings: bīetst and bīett; third-singular bīet is also valid. Būgan has selected bȳgst/bȳgð and the documented alternatives bȳhst/bȳhð. Its singular preterite bēag may also be written bēah.
 
@@ -351,39 +371,51 @@ Metathesis is a change in the order of sounds. In the berstan family, r and the 
 
 <!-- table: U04-PRESENT-III -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | bindan | helpan | gieldan | weorpan |
 | --- | --- | --- | --- | --- |
-| bindan | binde | bintst | bint | bindað |
-| helpan | helpe | hilpst | hilpð | helpað |
-| gieldan | gielde | gieltst | gielt | gieldað |
-| weorpan | weorpe | wierpst | wierpð | weorpað |
-| berstan | berste | bierst | bierst | berstað |
-| weorðan | weorðe | wierst | wierð | weorðað |
-| winnan | winne | winst | winð | winnað |
-| findan | finde | fintst | fint | findað |
-| drincan | drince | drincst | drincð | drincað |
-| singan | singe | singst | singð | singað |
-| tōberstan | tōberste | tōbierst | tōbierst | tōberstað |
-| forweorðan | forweorðe | forwierst | forwierð | forweorðað |
+| 1 sg. | binde | helpe | gielde | weorpe |
+| 2 sg. | bintst | hilpst | gieltst | wierpst |
+| 3 sg. | bint | hilpð | gielt | wierpð |
+| 1–3 pl. | bindað | helpað | gieldað | weorpað |
+
+| Person and number | berstan | weorðan | winnan | findan |
+| --- | --- | --- | --- | --- |
+| 1 sg. | berste | weorðe | winne | finde |
+| 2 sg. | bierst | wierst | winst | fintst |
+| 3 sg. | bierst | wierð | winð | fint |
+| 1–3 pl. | berstað | weorðað | winnað | findað |
+
+| Person and number | drincan | singan | tōberstan | forweorðan |
+| --- | --- | --- | --- | --- |
+| 1 sg. | drince | singe | tōberste | forweorðe |
+| 2 sg. | drincst | singst | tōbierst | forwierst |
+| 3 sg. | drincð | singð | tōbierst | forwierð |
+| 1–3 pl. | drincað | singað | tōberstað | forweorðað |
 
 **Preterite indicative.**
 
 <!-- table: U04-PRETERITE-III -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | bindan | helpan | gieldan | weorpan |
 | --- | --- | --- | --- | --- |
-| bindan | band | bunde | band | bundon |
-| helpan | healp | hulpe | healp | hulpon |
-| gieldan | geald | gulde | geald | guldon |
-| weorpan | wearp | wurpe | wearp | wurpon |
-| berstan | bærst | burste | bærst | burston |
-| weorðan | wearð | wurde | wearð | wurdon |
-| winnan | wann | wunne | wann | wunnon |
-| findan | fand | funde | funde | fundon |
-| drincan | dranc | drunce | dranc | druncon |
-| singan | sang | sunge | sang | sungon |
-| tōberstan | tōbærst | tōburste | tōbærst | tōburston |
-| forweorðan | forwearð | forwurde | forwearð | forwurdon |
+| 1 sg. | band | healp | geald | wearp |
+| 2 sg. | bunde | hulpe | gulde | wurpe |
+| 3 sg. | band | healp | geald | wearp |
+| 1–3 pl. | bundon | hulpon | guldon | wurpon |
+
+| Person and number | berstan | weorðan | winnan | findan |
+| --- | --- | --- | --- | --- |
+| 1 sg. | bærst | wearð | wann | fand |
+| 2 sg. | burste | wurde | wunne | funde |
+| 3 sg. | bærst | wearð | wann | funde |
+| 1–3 pl. | burston | wurdon | wunnon | fundon |
+
+| Person and number | drincan | singan | tōberstan | forweorðan |
+| --- | --- | --- | --- | --- |
+| 1 sg. | dranc | sang | tōbærst | forwearð |
+| 2 sg. | drunce | sunge | tōburste | forwurde |
+| 3 sg. | dranc | sang | tōbærst | forwearð |
+| 1–3 pl. | druncon | sungon | tōburston | forwurdon |
 
 Bindan has bintst/bint in the selected present. Bindest or bindst may occur beside bintst, and bindeð or bindð beside bint. Winnan reduces nn before the singular consonantal endings, giving winst and winð, but retains nn in winne, winnað and the preterite stems. Drincan and singan follow the nasal vowel series without those dental or doubled-n changes.
 
@@ -428,19 +460,23 @@ The following two exceptional systems are supplied as complete **recognition ref
 
 <!-- table: U04-PRESENT-REFERENCE -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
-| --- | --- | --- | --- | --- |
-| bregdan | bregde | brītst | brītt | bregdað |
-| fēolan | fēole | filhst | filhð | fēolað |
+| Person and number | bregdan | fēolan |
+| --- | --- | --- |
+| 1 sg. | bregde | fēole |
+| 2 sg. | brītst | filhst |
+| 3 sg. | brītt | filhð |
+| 1–3 pl. | bregdað | fēolað |
 
 **Preterite indicative.**
 
 <!-- table: U04-PRETERITE-REFERENCE -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
-| --- | --- | --- | --- | --- |
-| bregdan | brægd | brugde | brægd | brugdon |
-| fēolan | fealh | fulge | fealh | fulgon |
+| Person and number | bregdan | fēolan |
+| --- | --- | --- |
+| 1 sg. | brægd | fealh |
+| 2 sg. | brugde | fulge |
+| 3 sg. | brægd | fealh |
+| 1–3 pl. | brugdon | fulgon |
 
 Bregdan loses g and lengthens the vowel in selected brītst/brītt; brīt is also valid in the third singular. In its preterite, brǣd may occur beside brægd, and brūdon beside brugdon. The participle citation brogden also has the variant brōden. These are reference alternatives, not additional recall targets.
 
@@ -473,12 +509,12 @@ Fēolan has the exceptional selected present filhst/filhð beside fēole/fēola�
 
 <!-- table: U04-NOUN-SCIP-WIND -->
 
-| Case | scip sg. | scip pl. | wind sg. | wind pl. |
+| Case | scip singular | scip plural | wind singular | wind plural |
 | --- | --- | --- | --- | --- |
-| Nom. | scip | scipu | wind | windas |
-| Gen. | scipes | scipa | windes | winda |
-| Dat. | scipe | scipum | winde | windum |
-| Acc. | scip | scipu | wind | windas |
+| Nominative | scip | scipu | wind | windas |
+| Genitive | scipes | scipa | windes | winda |
+| Dative | scipe | scipum | winde | windum |
+| Accusative | scip | scipu | wind | windas |
 
 <!-- teaching: NEW-U04-PAR-strand -->
 
@@ -486,12 +522,12 @@ Fēolan has the exceptional selected present filhst/filhð beside fēole/fēola�
 
 <!-- table: U04-NOUN-STRAND-GEFERA -->
 
-| Case | strand sg. | strand pl. | gefēra sg. | gefēra pl. |
+| Case | strand singular | strand plural | gefēra singular | gefēra plural |
 | --- | --- | --- | --- | --- |
-| Nom. | strand | strandas | gefēra | gefēran |
-| Gen. | strandes | stranda | gefēran | gefērena |
-| Dat. | strande | strandum | gefēran | gefērum |
-| Acc. | strand | strandas | gefēran | gefēran |
+| Nominative | strand | strandas | gefēra | gefēran |
+| Genitive | strandes | stranda | gefēran | gefērena |
+| Dative | strande | strandum | gefēran | gefērum |
+| Accusative | strand | strandas | gefēran | gefēran |
 
 Scip has a short stem syllable and therefore nominative/accusative plural scipu. The initial sc does not make the vowel syllable heavy: both consonants precede the vowel. Wind and strand retain their ordinary strong masculine stems. Gefēra has the weak oblique singular and nominative/accusative plural gefēran, but genitive plural gefērena and dative plural gefērum. The same written form gefēran can have several analyses; its clause supplies the choice.
 

@@ -2,7 +2,7 @@
 
 The proposal is ready for the coordinator’s learning-contract reconciliation. It supports all 52 Cook VII.22–25 prompts and the exact continuous Chad selection, printed 152.3–153.9 partial, ending **and ðū ēac swilce mid wes.** No learner lesson or ordered exercise key is included here. No active register, chapter contract, shared index, Beads record or Git state was changed by this worker.
 
-The baseline is the actual twelve-unit course at `e17fc5f`: 647 lemmas, 8,235 forms, 778 senses and 599 grammar features. All twelve active coverage contracts and the actual registers were read and reconciled. Archived teaching supplies no milestone. The proposal preserves matching prior form spellings, analyses and sense glosses; source-specific interpretations sit in separate contextual fields.
+The baseline is the actual twelve-unit course at `e17fc5f`: 647 lemmas, 8,235 forms, 778 senses and 599 grammar features. All twelve active coverage contracts and the actual registers were read and reconciled. The proposal preserves matching prior form spellings, analyses and sense glosses; source-specific interpretations sit in separate contextual fields.
 
 ## Findings that govern the lesson
 

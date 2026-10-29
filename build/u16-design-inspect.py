@@ -61,7 +61,7 @@ if args.mode == "prior":
         "chapter": "ch16",
         "status": "prior_authority_inspection",
         "baseline_revision": "e1d94be",
-        "reading_rule": "All fifteen complete active JSON contracts and both complete actual registers were parsed; teaching boundaries and the relevant actual records were inspected. No archived teaching milestone is imported.",
+        "reading_rule": 'All fifteen complete active JSON contracts and both complete actual registers were parsed; teaching boundaries and the relevant actual records were inspected.',
         "register_counts": {
             "lemmas": len(lexicon["lemmas"]),
             "forms": sum(len(l.get("forms", [])) for l in lexicon["lemmas"]),

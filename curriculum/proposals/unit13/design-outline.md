@@ -1,6 +1,6 @@
 # Unit 13 design proposal
 
-Unit 13 develops **clause order and reference** from the twelve reviewed active units. The actual contracts and cumulative registers at `e17fc5f` establish prior teaching: 647 lemmas, 8,235 forms, 778 senses and 599 construction records. Archived teaching is inactive. This proposal is a contract input; the coordinator must reconcile it with the independent source and grammar audits and save the contract before either learner or key master is written.
+Unit 13 develops **clause order and reference** from the twelve reviewed active units. The actual contracts and cumulative registers at `e17fc5f` establish prior teaching: 647 lemmas, 8,235 forms, 778 senses and 599 construction records. This proposal is a contract input; the coordinator must reconcile it with the independent source and grammar audits and save the contract before either learner or key master is written.
 
 Keep all **52 Cook Group VII prompts**, Exercises 22–25, in their original sets of fifteen, thirteen, twelve and twelve items. Preserve every original ID, English word, bracket, number control and section reference. Editorial directions and local helps are separate. In particular, the explicit **“verb last”** instruction in 25.7 is that task’s target; it does not turn a general ordering tendency into a universal law.
 

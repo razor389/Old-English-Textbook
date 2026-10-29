@@ -2,7 +2,7 @@
 
 The audit is ready for contract reconciliation. It preserves all seventeen Cook I.8 prompts, proposes one exact 72-word connected merchant dialogue, and maps every reading token to its actual prior or newly required form, sense, and construction. No Unit 8 learner chapter or answer key has been drafted by this source editor.
 
-The baseline is `eda6f87`: all seven active contracts and the actual cumulative registers, with 289 lemmas, 4,533 forms, 327 senses and 280 features. Archived teaching milestones confer no active prior knowledge. The selected scans were inspected directly; OCR was used only to locate pages. `rendered-images.json` distinguishes inspected pages from pages merely rendered while finding evidence.
+The baseline is `eda6f87`: all seven active contracts and the actual cumulative registers, with 289 lemmas, 4,533 forms, 327 senses and 280 features. The selected scans were inspected directly; OCR was used only to locate pages. `rendered-images.json` distinguishes inspected pages from pages merely rendered while finding evidence.
 
 ## Exercise fidelity and dependencies
 

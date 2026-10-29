@@ -1353,7 +1353,6 @@
     "typesetting/ch06/reviews/learner-first.json": "1d3e4be1f33e90f2fb04ea296343e950ecd89aae95bf90432d979f5c3df32f2b",
     "typesetting/ch06/reviews/learner-last.json": "768c10e71f57de418e0c790b3f2623536af1574079a84c497a34db9585ab7cdb"
   },
-  "archive_tree_sha256": "0f268d880862962c696701e92a31a2f48a7d96950fa699c1cab322ffced1e727",
   "brief": "curriculum/UNIT_07_BRIEF.md",
   "productive_outcomes": [
     "Use all twelve present/preterite subjunctive person-number cells of each of 56 selected lexical systems, plus the alternative six-cell bēo present series, with their endings, stem changes and exceptions.",
@@ -1380,7 +1379,7 @@
     "First/second personal genitives, instrumental syntax, plural cardinal an and reconstructed *saewa retain their recorded limits.",
     "Source-only relative/content/purpose/temporal clauses, reflexive self, and prefixed lexical senses receive no automatic milestones.",
     "The new source styriendlicu is not the earlier selected styriendlic neuter plural form.",
-    "The new full fifth-day reading contains and resolves the earlier ch02-text-01 / ch02-reader-birds deferred alias; it is not a second independent assignment of the same source clause."
+    "The full fifth-day reading contains FB-I-CREATION-BIRDS-CLAUSE / FB-I-CREATION-BIRDS-EXCERPT; these excerpt identifiers refer to the single assigned source span."
   ],
   "audited_inflection_rules": [
     {
@@ -11922,7 +11921,7 @@
     ]
   },
   "source_assignment_policy": {
-    "canonical_crosswalk": "Assigned/deferred/excluded records across actual active contracts; planning maps and archived milestones do not assign items.",
+    "canonical_crosswalk": "Assigned/deferred/excluded records across actual active contracts; planning maps do not assign items.",
     "carry_forward_contracts": [
       {
         "path": "chapters/ch01/coverage.json",
@@ -12031,8 +12030,8 @@
       "EX-I-07-15",
       "EX-I-07-16",
       "EX-I-07-17",
-      "ch02-text-01",
-      "ch02-reader-birds"
+      "FB-I-CREATION-BIRDS-CLAUSE",
+      "FB-I-CREATION-BIRDS-EXCERPT"
     ],
     "note": "All I.4.18/I.6/I.7 prompts are assigned without alteration. The new whole fifth day contains the previously deferred birds clause. Earlier contracts and original dispositions remain preserved; current remaining numbered deferrals are restated explicitly below. No sixth-day reading or Unit 8 prose is assigned."
   },
@@ -33356,8 +33355,8 @@
   "excluded_source_items": [],
   "source_alias_assignments": [
     {
-      "audit_record_id": "ch02-text-01",
-      "editorial_audit_id": "ch02-reader-birds",
+      "audit_record_id": "FB-I-CREATION-BIRDS-CLAUSE",
+      "editorial_audit_id": "FB-I-CREATION-BIRDS-EXCERPT",
       "assignment_status": "subsumed_by_complete_contiguous_assignment",
       "canonical_source_record_id": "FB-I-CREATION-FIFTH-DAY-01",
       "source_id": "cook_fb_1895_2",
@@ -35565,8 +35564,8 @@
         "u07-source-resultative"
       ],
       "deferred_aliases_resolved": [
-        "ch02-text-01",
-        "ch02-reader-birds"
+        "FB-I-CREATION-BIRDS-CLAUSE",
+        "FB-I-CREATION-BIRDS-EXCERPT"
       ],
       "assignment_authority": "chapters/ch07/coverage.json; audits and planning proposals are evidence, not competing assignments."
     }
@@ -112954,8 +112953,8 @@
         22
       ],
       "image": [
-        "reference/previous-course/sources/analysis/ch01/fb-grammar-pdf21.png",
-        "reference/previous-course/sources/analysis/ch01/fb-grammar-pdf22.png"
+        "sources/evidence/cook-fb-pdf021.png",
+        "sources/evidence/cook-fb-pdf022.png"
       ],
       "scan_checked": true,
       "notes": "Letters, Cook's hooked e, quantity marks, and distinction between vowel length and syllable weight; no complete reconstructed pronunciation system assigned."
@@ -112965,9 +112964,9 @@
       "section": "17",
       "printed_page": "13",
       "pdf_page_1_based": 29,
-      "image": "reference/previous-course/sources/analysis/ch02/fb-pdf29.png",
+      "image": "sources/evidence/cook-fb-pdf029.png",
       "scan_checked": true,
-      "notes": "Archived image evidence for mann/męnn; reused source fact only."
+      "notes": "Page-image evidence for mann/męnn; source fact only."
     },
     "FB38-40": {
       "source_id": "cook_fb_1895_2",
@@ -113230,7 +113229,7 @@
       "pdf_page_1_based": 9,
       "original_identifier": "I.1.1–16",
       "scan_checked": true,
-      "record": "reference/previous-course/sources/transcriptions/ch01/exercise-1.md"
+      "record": "sources/transcriptions/cook-ex-01.md"
     },
     "EX2": {
       "source_id": "cook_ex_1895",
@@ -113238,7 +113237,7 @@
       "pdf_page_1_based": 9,
       "original_identifier": "I.2.1–12",
       "scan_checked": true,
-      "record": "reference/previous-course/sources/transcriptions/ch02/exercise-2.md"
+      "record": "sources/transcriptions/cook-ex-02.md"
     },
     "EX3": {
       "source_id": "cook_ex_1895",
@@ -113306,7 +113305,7 @@
     "C01": {
       "source_id": "editorial_correction_C01",
       "record": "sources/CORRECTIONS.md",
-      "archived_evidence": "reference/previous-course/sources/analysis/ch01-lexical/report.md",
+      "correction_record": "sources/corrections/c01/README.md",
       "notes": "Cook's wǣstm corrected to wæstm throughout learner inflections; original preserved."
     },
     "LEX-aefen": {
@@ -113319,7 +113318,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. evening",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=54",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf54.png"
+          "image": "sources/evidence/cook-ex-pdf054.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113329,8 +113328,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=49"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-morgen": {
       "origin_category": "source lexical evidence",
@@ -113342,7 +113340,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. morning",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=63",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf63.png"
+          "image": "sources/evidence/cook-ex-pdf063.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113352,8 +113350,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=44"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-daeg": {
       "origin_category": "source lexical evidence",
@@ -113365,7 +113362,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. day",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=52",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf52.png"
+          "image": "sources/evidence/cook-ex-pdf052.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113375,8 +113372,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=44"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-niht": {
       "origin_category": "source lexical evidence",
@@ -113388,7 +113384,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. night",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=63",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf63.png"
+          "image": "sources/evidence/cook-ex-pdf063.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113398,8 +113394,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=52"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-eorthe": {
       "origin_category": "source lexical evidence",
@@ -113411,7 +113406,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. earth",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=54",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf54.png"
+          "image": "sources/evidence/cook-ex-pdf054.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113421,8 +113416,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=53"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-heofon": {
       "origin_category": "source lexical evidence",
@@ -113434,7 +113428,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. heaven",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=58",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf58.png"
+          "image": "sources/evidence/cook-ex-pdf058.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113444,8 +113438,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=53"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-fisc": {
       "origin_category": "source lexical evidence",
@@ -113457,7 +113450,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. fish",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=56",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf56.png"
+          "image": "sources/evidence/cook-ex-pdf056.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113467,8 +113460,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=44"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-fugol": {
       "origin_category": "source lexical evidence",
@@ -113480,7 +113472,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. bird",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=49",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf49.png"
+          "image": "sources/evidence/cook-ex-pdf049.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113490,8 +113482,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=44"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-gaers": {
       "origin_category": "source lexical evidence",
@@ -113503,7 +113494,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. grass",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=57",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf57.png"
+          "image": "sources/evidence/cook-ex-pdf057.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113513,8 +113504,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=48"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-saed": {
       "origin_category": "source lexical evidence",
@@ -113526,7 +113516,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. seed",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=69",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf69.png"
+          "image": "sources/evidence/cook-ex-pdf069.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113536,8 +113526,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=48"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-treo": {
       "origin_category": "source lexical evidence",
@@ -113549,7 +113538,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. tree",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=73",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf73.png"
+          "image": "sources/evidence/cook-ex-pdf073.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113559,8 +113548,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=49"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-wyrt": {
       "origin_category": "source lexical evidence",
@@ -113572,7 +113560,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. herb",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=58",
-          "image": "reference/previous-course/sources/analysis/ch01/ex-vocab-pdf58.png"
+          "image": "sources/evidence/cook-ex-pdf058.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -113582,8 +113570,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=51"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-drygnes": {
       "origin_category": "source lexical evidence",
@@ -113610,8 +113597,7 @@
           "section": "51.5",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-waeter": {
       "origin_category": "source lexical evidence",
@@ -113636,8 +113622,7 @@
           "section": "47.1, 6",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-andlicnes": {
       "origin_category": "source lexical evidence",
@@ -113664,8 +113649,7 @@
           "section": "51.5",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-gelicnes": {
       "origin_category": "source lexical evidence",
@@ -113692,8 +113676,7 @@
           "section": "51.5",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-leoht": {
       "origin_category": "source lexical evidence",
@@ -113718,8 +113701,7 @@
           "section": "47",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-thiestru": {
       "origin_category": "source lexical evidence",
@@ -113744,8 +113726,7 @@
           "section": "47",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-tacen": {
       "origin_category": "source lexical evidence",
@@ -113770,8 +113751,7 @@
           "section": "47",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-tid": {
       "origin_category": "source lexical evidence",
@@ -113798,8 +113778,7 @@
           "section": "51.1",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-gast": {
       "origin_category": "source lexical evidence",
@@ -113822,8 +113801,7 @@
           "section": "43",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-lif": {
       "origin_category": "source lexical evidence",
@@ -113848,8 +113826,7 @@
           "section": "47",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-gesceaft": {
       "origin_category": "source lexical evidence",
@@ -113883,8 +113860,7 @@
           "purpose": "Acceptable alternative in key; no separate teaching milestone",
           "accessed": "2026-10-21"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-mete": {
       "origin_category": "source lexical evidence",
@@ -113907,8 +113883,7 @@
           "section": "44",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-gear": {
       "origin_category": "source lexical evidence",
@@ -113933,8 +113908,7 @@
           "section": "47",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-mann": {
       "origin_category": "source lexical evidence",
@@ -113959,8 +113933,7 @@
           "section": "46",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-deor": {
       "origin_category": "source lexical evidence",
@@ -113985,8 +113958,7 @@
           "section": "47",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-waestm": {
       "origin_category": "source lexical evidence",
@@ -114027,12 +113999,11 @@
           "pdf_page_1_based": 10,
           "original_identifier": "Table 1, Old English lexemes with short /æ/",
           "url": "https://reunido.uniovi.es/index.php/SELIM/article/download/21036/17205/77071#page=10",
-          "image": "reference/previous-course/sources/analysis/ch01-lexical/stenroos-2024-p118.png",
+          "image": "sources/corrections/c01/stenroos-2024-p118.png",
           "scan_checked": true,
           "accessed": "2026-10-21"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-faestnes": {
       "origin_category": "source lexical evidence",
@@ -114059,8 +114030,7 @@
           "section": "51.5",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-neowolnes": {
       "origin_category": "source lexical evidence",
@@ -114087,8 +114057,7 @@
           "section": "51.5",
           "scan_checked": true
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-sae": {
       "origin_category": "source lexical evidence",
@@ -114100,7 +114069,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. sea",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=68",
-          "image": "reference/previous-course/sources/analysis/ch02/ex-pdf68.png"
+          "image": "sources/evidence/cook-ex-pdf068.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -114108,7 +114077,7 @@
           "pdf_page_1_based": 140,
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=140",
-          "image": "reference/previous-course/sources/analysis/ch01-lexical/fb-pdf-140.png",
+          "image": "sources/evidence/cook-fb-pdf140.png",
           "original_identifier": "Reader I, Sǣs; note25 explicitly accusative plural"
         },
         {
@@ -114117,8 +114086,7 @@
           "entry_note": "sǽ; masculine/feminine; plural sǽs, with nominative example Sǽs up stigon",
           "accessed": "2026-10-22"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-hwael": {
       "origin_category": "source lexical evidence",
@@ -114130,7 +114098,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. whale",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=75",
-          "image": "reference/previous-course/sources/analysis/ch01-lexical/ex-pdf-75.png"
+          "image": "sources/evidence/cook-ex-pdf075.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -114139,7 +114107,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=44",
           "section": "43; 43.2; 43.4",
-          "image": "reference/previous-course/sources/analysis/ch01/fb-grammar-pdf44.png"
+          "image": "sources/evidence/cook-fb-pdf044.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -114147,11 +114115,10 @@
           "pdf_page_1_based": 142,
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=142",
-          "image": "reference/previous-course/sources/transcriptions/ch02/reader-pdf142-detail.png",
+          "image": "sources/evidence/cook-fb-pdf142-detail.png",
           "original_identifier": "Reader I, miclan hwalas; note10 refers to hwæl"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-nieten": {
       "origin_category": "source lexical evidence",
@@ -114163,7 +114130,7 @@
           "original_identifier": "English–Old English vocabulary, s.v. cattle",
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/3/3f/Exercises_in_old_English_-_based_upon_the_prose_texts_of_the_author%27s_%22First_book_in_old_English%22_%28IA_cu31924031436292%29.pdf#page=50",
-          "image": "reference/previous-course/sources/analysis/ch02/ex-pdf50.png"
+          "image": "sources/evidence/cook-ex-pdf050.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -114172,7 +114139,7 @@
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=49",
           "section": "47.1, 3, 6, 7",
-          "image": "reference/previous-course/sources/analysis/ch02/fb-pdf49.png"
+          "image": "sources/evidence/cook-fb-pdf049.png"
         },
         {
           "source_id": "cook_fb_1895_2",
@@ -114180,7 +114147,7 @@
           "pdf_page_1_based": 142,
           "scan_checked": true,
           "url": "https://upload.wikimedia.org/wikipedia/commons/c/c0/A_first_book_in_Old_English%3B_grammar%2C_reader%2C_notes_and_vocabulary_%28IA_firstbookinolden00cookrich%29.pdf#page=142",
-          "image": "reference/previous-course/sources/transcriptions/ch02/reader-pdf142-detail.png",
+          "image": "sources/evidence/cook-fb-pdf142-detail.png",
           "original_identifier": "Reader I, nīetenu; note24 refers to nīeten"
         },
         {
@@ -114189,12 +114156,11 @@
           "pdf_page_1_based": 323,
           "original_identifier": "Vocabulary, s.v. nīeten",
           "scan_checked": true,
-          "image": "reference/previous-course/sources/analysis/ch02/fb-pdf323.png",
+          "image": "sources/evidence/cook-fb-pdf323.png",
           "checked_by": "coordinator and independent reviewer",
           "checked_fact": "nīeten (47.1), creature, beast, cattle."
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-anginn": {
       "origin_category": "source lexical evidence",
@@ -114207,8 +114173,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf48.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-god": {
       "origin_category": "source lexical evidence",
@@ -114221,8 +114186,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf57.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-bradnes": {
       "origin_category": "source lexical evidence",
@@ -114235,8 +114199,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf55.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-gegaderung": {
       "origin_category": "source lexical evidence",
@@ -114249,8 +114212,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf51.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-lyft": {
       "origin_category": "source lexical evidence",
@@ -114263,8 +114225,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf46.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-fraetwung": {
       "origin_category": "source lexical evidence",
@@ -114277,8 +114238,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf47.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-weorc": {
       "origin_category": "source lexical evidence",
@@ -114291,8 +114251,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf76.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-cynn": {
       "origin_category": "source lexical evidence",
@@ -114305,8 +114264,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf60.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-steorra": {
       "origin_category": "source lexical evidence",
@@ -114319,8 +114277,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf71.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-liehting": {
       "origin_category": "source lexical evidence",
@@ -114333,8 +114290,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/ex-pdf59.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "LEX-hof": {
       "origin_category": "source lexical evidence",
@@ -114347,8 +114303,7 @@
           "scan_checked": true,
           "image": "sources/audits/unit01-source/nominal-7.png"
         }
-      ],
-      "inheritance_note": "Any archived source facts reused without old teaching milestones."
+      ]
     },
     "FB117-GIVE": {
       "source_id": "cook_fb_1895_2",
@@ -125253,7 +125208,55 @@
       }
     },
     "prior_active_files_preserved": 665,
-    "archived_files_preserved": 134,
     "earlier_histories_preserved": true
+  },
+  "presentation_revision": {
+    "id": "course-table-layout-2026-10",
+    "status": "accepted",
+    "date": "2026-10-29",
+    "contract": "docs/revisions/table-layout/contract.json",
+    "mapping": "docs/revisions/table-layout/tables.json",
+    "exports": [
+      {
+        "document": "ch07/learner",
+        "chapter": 7,
+        "kind": "learner",
+        "pdf": "typesetting/ch07/chapter-07.pdf",
+        "pdf_sha256": "6e9e147e321bca50a250e14076006cabb4a865d78356623a9c6f9e33123a4f1b",
+        "pages": 39,
+        "master": "chapters/ch07/student.md",
+        "master_sha256": "ed4887966801964ff9eeab2b90ee7da65ba49edb598a57e125e35089cf4d3046",
+        "tex": "typesetting/ch07/chapter-07.tex",
+        "tex_sha256": "deda328e6a45932ffd894cb63cdc381cd74213c5a66f6bd09cfd6cb4b0dc94f4",
+        "initial_pages": 37,
+        "initial_pdf_sha256": "8d97e81a8f66a9decde38ca4601a9c7ab61bebfe37f8b1eb660bcac464227b7f",
+        "page_review": "docs/revisions/table-layout/page-review.json",
+        "content_review": "docs/revisions/table-layout/export-text-review.json",
+        "master_sha256_normalized_lf": "ed4887966801964ff9eeab2b90ee7da65ba49edb598a57e125e35089cf4d3046",
+        "tex_sha256_normalized_lf": "876107a00a57a027ba615833e08f7013fb01dc4b1deb855cb7e26e97e6a05c60"
+      },
+      {
+        "document": "ch07/key",
+        "chapter": 7,
+        "kind": "key",
+        "pdf": "typesetting/ch07/answer-key.pdf",
+        "pdf_sha256": "343e62f4f6fe3cd98475a04f02b983aef08010745966da74669c2c15a8122940",
+        "pages": 30,
+        "master": "chapters/ch07/answer-key.md",
+        "master_sha256": "2e70c0efc0dc5eb9c83a8a2a4fa56c4ec1ee7778cf1d5bb65cb9bde82448d0b2",
+        "tex": "typesetting/ch07/answer-key.tex",
+        "tex_sha256": "761dfbd636dee2f7cfffbba043fc435fc1d4fa2c1cfbe09e72b2b860fdb0785e",
+        "initial_pages": 30,
+        "initial_pdf_sha256": "4cc515aa512e6d96739870caf38fea5b18a0f9878b8af31834b8a309b1df2e61",
+        "page_review": "docs/revisions/table-layout/page-review.json",
+        "content_review": "docs/revisions/table-layout/export-text-review.json",
+        "master_sha256_normalized_lf": "2e70c0efc0dc5eb9c83a8a2a4fa56c4ec1ee7778cf1d5bb65cb9bde82448d0b2",
+        "tex_sha256_normalized_lf": "4b56adcaa97176c48ec928425d754db8a99e82944e9aaafccc415263c7c9f8ba"
+      }
+    ],
+    "page_review": "docs/revisions/table-layout/page-review.json",
+    "content_review": "docs/revisions/table-layout/export-text-review.json",
+    "logical_scope": "Canonical paradigm arrays retain complete logical cells; shared physical rows and panel orientation are governed by the presentation mapping.",
+    "earlier_review_scope": "Existing textual_review, presentation_review and completion identities document original authoring checkpoints; this object identifies the current accepted exports."
   }
 }

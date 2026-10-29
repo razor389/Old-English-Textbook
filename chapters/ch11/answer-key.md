@@ -85,24 +85,20 @@ Mood must be read with the clause's function and context. A purpose is an intend
 **scęððan**
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | scęððe | scęðede |
-| Second singular | scęðest | scęðedest |
-| Third singular | scęðeð | scęðede |
-| First plural | scęððað | scęðedon |
-| Second plural | scęððað | scęðedon |
-| Third plural | scęððað | scęðedon |
+| --- | --- | --- |
+| 1 sg. | scęððe | scęðede |
+| 2 sg. | scęðest | scęðedest |
+| 3 sg. | scęðeð | scęðede |
+| 1–3 pl. | scęððað | scęðedon |
 
 **genēalǣcan**
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | genēalǣce | genēalǣcte |
-| Second singular | genēalǣcst | genēalǣctest |
-| Third singular | genēalǣcð | genēalǣcte |
-| First plural | genēalǣcað | genēalǣcton |
-| Second plural | genēalǣcað | genēalǣcton |
-| Third plural | genēalǣcað | genēalǣcton |
+| --- | --- | --- |
+| 1 sg. | genēalǣce | genēalǣcte |
+| 2 sg. | genēalǣcst | genēalǣctest |
+| 3 sg. | genēalǣcð | genēalǣcte |
+| 1–3 pl. | genēalǣcað | genēalǣcton |
 
 **Explanation:** Scęððan uses the selected weak system: the present retains ðð in scęððe/scęððað, whereas scęðest/scęðeð and the dental preterite scęðede have single ð. The retained ending vowels distinguish this selected short-stem pattern. Genēalǣcan has present -c- and selected preterite -ct-; its documented -ht- alternative, as in genēalǣhte, is also valid. Both preterites have second-singular -est and plural -on. Do not invent a strong past for the requested scęððan table or let identical plural forms erase their three person labels. [4]
 

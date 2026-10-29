@@ -61,7 +61,7 @@ The comparison checks all task categories: A1–A10, P1–P6, C1–C7, V1–V4, 
 
 ### Source fidelity and image checks
 
-Fresh inspection of the selected **Exercises p.2/PDF10** confirms all **18 original prompts**, the introductory reference **55**, and literal **(80)** in item 12. All 17 assigned prompts match the source audit and learner copy exactly. Item 18 is printed as an explicit deferral to Unit 7, with its complete original command/passive wording. The archived evidence and prior contracts are not rewritten.
+Fresh inspection of the selected **Exercises p.2/PDF10** confirms all **18 original prompts**, the introductory reference **55**, and literal **(80)** in item 12. All 17 assigned prompts match the source audit and learner copy exactly. Item 18 is printed as an explicit deferral to Unit 7, with its complete original command/passive wording. The prior contracts are not rewritten.
 
 Fresh inspection of **First Book pp.125–126/PDF141–142** confirms the complete **109-word fourth-day account** and all **18 apparatus entries**. The learner copy exactly matches the checked text after the declared removal of note cues, joining of line/page breaks, and rejoining of **tāc-num/līeht-inge**. It retains the colon, **miclu**, **scīnen/scinen**, **męrgen**, punctuation, and unnamed lights. Printed marginal numbers and editorially counted lines are distinguished. The former lights snippet is subsumed explicitly; the fifth-day material on the same image is not assigned.
 

@@ -12,10 +12,10 @@ Strong verbs change their stem vowel in the preterite; the weak verbs learned ea
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | -e, with the special contracted and -ie forms below | singular preterite stem; no added ending |
-| 2 singular | -st or -est, with the listed stem changes | plural preterite stem + -e |
-| 3 singular | -ð or -eð, with the listed stem changes | singular preterite stem; no added ending |
-| 1, 2, 3 plural | -að, with the listed contracted and -iað forms | plural preterite stem + -on |
+| 1 sg. | -e, with the special contracted and -ie forms below | singular preterite stem; no added ending |
+| 2 sg. | -st or -est, with the listed stem changes | plural preterite stem + -e |
+| 3 sg. | -ð or -eð, with the listed stem changes | singular preterite stem; no added ending |
+| 1–3 pl. | -að, with the listed contracted and -iað forms | plural preterite stem + -on |
 
 The **second singular preterite uses the plural stem**. Thus beran has bær for the first and third singular, but bǣre beside plural bǣron. In other verbs the singular and plural stem vowels coincide; their different endings still identify the cells.
 
@@ -65,21 +65,23 @@ The ordinary Class IV series is **e : æ : ǣ : o**. Beran shows it directly: th
 
 <!-- table: U05-PRESENT-IV -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
-| --- | --- | --- | --- | --- |
-| beran | bere | birst | birð | berað |
-| niman | nime | nimst | nimð | nimað |
-| cuman | cume | cymst | cymð | cumað |
+| Person and number | beran | niman | cuman |
+| --- | --- | --- | --- |
+| 1 sg. | bere | nime | cume |
+| 2 sg. | birst | nimst | cymst |
+| 3 sg. | birð | nimð | cymð |
+| 1–3 pl. | berað | nimað | cumað |
 
 **Preterite indicative.**
 
 <!-- table: U05-PRETERITE-IV -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
-| --- | --- | --- | --- | --- |
-| beran | bær | bǣre | bær | bǣron |
-| niman | nōm | nōme | nōm | nōmon |
-| cuman | cōm | cōme | cōm | cōmon |
+| Person and number | beran | niman | cuman |
+| --- | --- | --- | --- |
+| 1 sg. | bær | nōm | cōm |
+| 2 sg. | bǣre | nōme | cōme |
+| 3 sg. | bær | nōm | cōm |
+| 1–3 pl. | bǣron | nōmon | cōmon |
 
 <!-- teaching: NEW-U05-GRAM-NASAL-IV -->
 
@@ -167,33 +169,51 @@ The ordinary Class V series is **e : æ : ǣ : e**. It differs from Class IV in 
 
 <!-- table: U05-PRESENT-V -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | sprecan | cweðan | giefan | biddan |
 | --- | --- | --- | --- | --- |
-| sprecan | sprece | spricst | spricð | sprecað |
-| cweðan | cweðe | cwist | cwið | cweðað |
-| giefan | giefe | giefst | giefð | giefað |
-| biddan | bidde | bitst | bitt | biddað |
-| licgan | licge | ligst | ligð | licgað |
-| sittan | sitte | sitst | sitt | sittað |
-| etan | ete | itst | itt | etað |
-| sēon | sēo | siehst | siehð | sēoð |
-| gesēon | gesēo | gesiehst | gesiehð | gesēoð |
+| 1 sg. | sprece | cweðe | giefe | bidde |
+| 2 sg. | spricst | cwist | giefst | bitst |
+| 3 sg. | spricð | cwið | giefð | bitt |
+| 1–3 pl. | sprecað | cweðað | giefað | biddað |
+
+| Person and number | licgan | sittan | etan | sēon |
+| --- | --- | --- | --- | --- |
+| 1 sg. | licge | sitte | ete | sēo |
+| 2 sg. | ligst | sitst | itst | siehst |
+| 3 sg. | ligð | sitt | itt | siehð |
+| 1–3 pl. | licgað | sittað | etað | sēoð |
+
+| Person and number | gesēon |
+| --- | --- |
+| 1 sg. | gesēo |
+| 2 sg. | gesiehst |
+| 3 sg. | gesiehð |
+| 1–3 pl. | gesēoð |
 
 **Preterite indicative.**
 
 <!-- table: U05-PRETERITE-V -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | sprecan | cweðan | giefan | biddan |
 | --- | --- | --- | --- | --- |
-| sprecan | spræc | sprǣce | spræc | sprǣcon |
-| cweðan | cwæð | cwǣde | cwæð | cwǣdon |
-| giefan | geaf | gēafe | geaf | gēafon |
-| biddan | bæd | bǣde | bæd | bǣdon |
-| licgan | læg | lǣge | læg | lǣgon |
-| sittan | sæt | sǣte | sæt | sǣton |
-| etan | ǣt | ǣte | ǣt | ǣton |
-| sēon | seah | sāwe | seah | sāwon |
-| gesēon | geseah | gesāwe | geseah | gesāwon |
+| 1 sg. | spræc | cwæð | geaf | bæd |
+| 2 sg. | sprǣce | cwǣde | gēafe | bǣde |
+| 3 sg. | spræc | cwæð | geaf | bæd |
+| 1–3 pl. | sprǣcon | cwǣdon | gēafon | bǣdon |
+
+| Person and number | licgan | sittan | etan | sēon |
+| --- | --- | --- | --- | --- |
+| 1 sg. | læg | sæt | ǣt | seah |
+| 2 sg. | lǣge | sǣte | ǣte | sāwe |
+| 3 sg. | læg | sæt | ǣt | seah |
+| 1–3 pl. | lǣgon | sǣton | ǣton | sāwon |
+
+| Person and number | gesēon |
+| --- | --- |
+| 1 sg. | geseah |
+| 2 sg. | gesāwe |
+| 3 sg. | geseah |
+| 1–3 pl. | gesāwon |
 
 <!-- teaching: NEW-U05-GRAM-CWETHAN-CONSONANTS -->
 
@@ -283,29 +303,37 @@ The ordinary Class VI series is **a : ō : ō : a**. Faran shows it directly. Th
 
 <!-- table: U05-PRESENT-VI -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | faran | slēan | standan | hębban |
 | --- | --- | --- | --- | --- |
-| faran | fare | færst | færð | farað |
-| slēan | slēa | sliehst | sliehð | slēað |
-| standan | stande | stęntst | stęnt | standað |
-| hębban | hębbe | hęfst | hęfð | hębbað |
-| scieppan | scieppe | sciepst | sciepð | scieppað |
-| gescieppan | gescieppe | gesciepst | gesciepð | gescieppað |
-| swęrian | swęrie | swęrest | swęreð | swęriað |
+| 1 sg. | fare | slēa | stande | hębbe |
+| 2 sg. | færst | sliehst | stęntst | hęfst |
+| 3 sg. | færð | sliehð | stęnt | hęfð |
+| 1–3 pl. | farað | slēað | standað | hębbað |
+
+| Person and number | scieppan | gescieppan | swęrian |
+| --- | --- | --- | --- |
+| 1 sg. | scieppe | gescieppe | swęrie |
+| 2 sg. | sciepst | gesciepst | swęrest |
+| 3 sg. | sciepð | gesciepð | swęreð |
+| 1–3 pl. | scieppað | gescieppað | swęriað |
 
 **Preterite indicative.**
 
 <!-- table: U05-PRETERITE-VI -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | faran | slēan | standan | hębban |
 | --- | --- | --- | --- | --- |
-| faran | fōr | fōre | fōr | fōron |
-| slēan | slōg | slōge | slōg | slōgon |
-| standan | stōd | stōde | stōd | stōdon |
-| hębban | hōf | hōfe | hōf | hōfon |
-| scieppan | scēop | scēope | scēop | scēopon |
-| gescieppan | gescēop | gescēope | gescēop | gescēopon |
-| swęrian | swōr | swōre | swōr | swōron |
+| 1 sg. | fōr | slōg | stōd | hōf |
+| 2 sg. | fōre | slōge | stōde | hōfe |
+| 3 sg. | fōr | slōg | stōd | hōf |
+| 1–3 pl. | fōron | slōgon | stōdon | hōfon |
+
+| Person and number | scieppan | gescieppan | swęrian |
+| --- | --- | --- | --- |
+| 1 sg. | scēop | gescēop | swōr |
+| 2 sg. | scēope | gescēope | swōre |
+| 3 sg. | scēop | gescēop | swōr |
+| 1–3 pl. | scēopon | gescēopon | swōron |
 
 <!-- teaching: NEW-U05-GRAM-CONTRACT-VI -->
 
@@ -391,29 +419,37 @@ Cook groups these verbs as **reduplicating verbs**; they are commonly called Cla
 
 <!-- table: U05-PRESENT-VII-EO -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | feallan | healdan | weaxan | cnāwan |
 | --- | --- | --- | --- | --- |
-| feallan | fealle | fielst | fielð | feallað |
-| healdan | healde | hieltst | hielt | healdað |
-| weaxan | weaxe | wiext | wiext | weaxað |
-| cnāwan | cnāwe | cnǣwst | cnǣwð | cnāwað |
-| hēawan | hēawe | hīewst | hīewð | hēawað |
-| flōwan | flōwe | flēwst | flēwð | flōwað |
-| wēpan | wēpe | wēpst | wēpð | wēpað |
+| 1 sg. | fealle | healde | weaxe | cnāwe |
+| 2 sg. | fielst | hieltst | wiext | cnǣwst |
+| 3 sg. | fielð | hielt | wiext | cnǣwð |
+| 1–3 pl. | feallað | healdað | weaxað | cnāwað |
+
+| Person and number | hēawan | flōwan | wēpan |
+| --- | --- | --- | --- |
+| 1 sg. | hēawe | flōwe | wēpe |
+| 2 sg. | hīewst | flēwst | wēpst |
+| 3 sg. | hīewð | flēwð | wēpð |
+| 1–3 pl. | hēawað | flōwað | wēpað |
 
 **Preterite indicative.**
 
 <!-- table: U05-PRETERITE-VII-EO -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | feallan | healdan | weaxan | cnāwan |
 | --- | --- | --- | --- | --- |
-| feallan | fēoll | fēolle | fēoll | fēollon |
-| healdan | hēold | hēolde | hēold | hēoldon |
-| weaxan | wēox | wēoxe | wēox | wēoxon |
-| cnāwan | cnēow | cnēowe | cnēow | cnēowon |
-| hēawan | hēow | hēowe | hēow | hēowon |
-| flōwan | flēow | flēowe | flēow | flēowon |
-| wēpan | wēop | wēope | wēop | wēopon |
+| 1 sg. | fēoll | hēold | wēox | cnēow |
+| 2 sg. | fēolle | hēolde | wēoxe | cnēowe |
+| 3 sg. | fēoll | hēold | wēox | cnēow |
+| 1–3 pl. | fēollon | hēoldon | wēoxon | cnēowon |
+
+| Person and number | hēawan | flōwan | wēpan |
+| --- | --- | --- | --- |
+| 1 sg. | hēow | flēow | wēop |
+| 2 sg. | hēowe | flēowe | wēope |
+| 3 sg. | hēow | flēow | wēop |
+| 1–3 pl. | hēowon | flēowon | wēopon |
 
 <!-- teaching: NEW-U05-GRAM-VII-PRESENT-CHANGES -->
 
@@ -457,21 +493,23 @@ Cnāwan changes ā to ǣ in cnǣwst/cnǣwð; hēawan changes long ēa to long ī
 
 <!-- table: U05-PRESENT-VII-E -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
-| --- | --- | --- | --- | --- |
-| lǣtan | lǣte | lǣtst | lǣtt | lǣtað |
-| hātan | hāte | hǣtst | hǣtt | hātað |
-| fōn | fō | fēhst | fēhð | fōð |
+| Person and number | lǣtan | hātan | fōn |
+| --- | --- | --- | --- |
+| 1 sg. | lǣte | hāte | fō |
+| 2 sg. | lǣtst | hǣtst | fēhst |
+| 3 sg. | lǣtt | hǣtt | fēhð |
+| 1–3 pl. | lǣtað | hātað | fōð |
 
 **Preterite indicative.**
 
 <!-- table: U05-PRETERITE-VII-E -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
-| --- | --- | --- | --- | --- |
-| lǣtan | lēt | lēte | lēt | lēton |
-| hātan | hēt | hēte | hēt | hēton |
-| fōn | fēng | fēnge | fēng | fēngon |
+| Person and number | lǣtan | hātan | fōn |
+| --- | --- | --- | --- |
+| 1 sg. | lēt | hēt | fēng |
+| 2 sg. | lēte | hēte | fēnge |
+| 3 sg. | lēt | hēt | fēng |
+| 1–3 pl. | lēton | hēton | fēngon |
 
 **Lǣtan** has lǣtst and lǣtt in the present; **hātan** changes ā to ǣ in hǣtst and hǣtt. Their preterites are lēt/lēton and hēt/hēton. Third-singular lǣt and hǣt are documented alternatives. Wright also records the older preterite hēht; it is not an additional recall requirement here.
 
@@ -526,23 +564,23 @@ The following verbs use classes already learned, but their complete lexical syst
 
 <!-- table: U05-PRESENT-I-III -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | geswīcan | scīnan | flēogan | swimman |
 | --- | --- | --- | --- | --- |
-| geswīcan | geswīce | geswīcst | geswīcð | geswīcað |
-| scīnan | scīne | scīnst | scīnð | scīnað |
-| flēogan | flēoge | flīehst | flīehð | flēogað |
-| swimman | swimme | swimst | swimð | swimmað |
+| 1 sg. | geswīce | scīne | flēoge | swimme |
+| 2 sg. | geswīcst | scīnst | flīehst | swimst |
+| 3 sg. | geswīcð | scīnð | flīehð | swimð |
+| 1–3 pl. | geswīcað | scīnað | flēogað | swimmað |
 
 **Preterite indicative.**
 
 <!-- table: U05-PRETERITE-I-III -->
 
-| Verb | 1 sg. | 2 sg. | 3 sg. | 1–3 pl. |
+| Person and number | geswīcan | scīnan | flēogan | swimman |
 | --- | --- | --- | --- | --- |
-| geswīcan | geswāc | geswice | geswāc | geswicon |
-| scīnan | scān | scine | scān | scinon |
-| flēogan | flēag | fluge | flēag | flugon |
-| swimman | swamm | swumme | swamm | swummon |
+| 1 sg. | geswāc | scān | flēag | swamm |
+| 2 sg. | geswice | scine | fluge | swumme |
+| 3 sg. | geswāc | scān | flēag | swamm |
+| 1–3 pl. | geswicon | scinon | flugon | swummon |
 
 Geswīcan and scīnan have long ī in the present, long ā in the first/third singular past, and short i in the plural-based past. Flēogan has ēo in the first singular and plural present, long īe in flīehst/flīehð, and u in fluge/flugon. Swimman has short a in swamm but u in swumme/swummon; mm reduces before its present consonantal endings.
 

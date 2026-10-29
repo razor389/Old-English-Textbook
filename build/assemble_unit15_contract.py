@@ -19,7 +19,7 @@ assert not (ROOT/'chapters/ch15/student.md').exists(), 'Contract must precede pr
 assert not (ROOT/'chapters/ch15/answer-key.md').exists(), 'Contract must precede prose'
 b=read('build/unit15-prior-baseline.json')
 assert b['git_checkpoint_full']=='9129cdabd21ac9335eca531d42815a5c81ecd8a3'
-assert len(b['files'])==2313 and len(b['archive_files'])==134
+assert len(b['files']) == 2313
 inv=read('curriculum/proposals/unit15/inventory.json')
 tasks=read('curriculum/proposals/unit15/task-plan.json')['tasks']
 displays=read('curriculum/proposals/unit15/display-matrices.json')
@@ -54,53 +54,7 @@ for folder in ['sources/audits/unit15-source','sources/audits/unit15-grammar',
     inputs.extend(p.relative_to(ROOT).as_posix() for p in sorted((ROOT/folder).iterdir()) if p.suffix in ['.json','.md','.txt','.py'])
 evidence=inv['evidence_catalog']
 if isinstance(evidence,list):evidence={r['evidence_id']:{k:v for k,v in r.items() if k!='evidence_id'} for r in evidence}
-c={
-    'schema_version':2,'chapter_id':'ch15','title':'Negation, quantity and comparison in discourse',
-    'status':'candidate_not_authorized' if args.candidate else 'contracted_before_prose',
-    'contract_date':'2026-10-26','contract_prepared_before_prose':True,
-    'prerequisite_chapters':[f'ch{n:02d}' for n in range(1,15)],
-    'prior_checkpoint':b['git_checkpoint_full'][:7],
-    'prior_teaching_boundary':'Only the fourteen active contracts and actual registers at 9129cda establish teaching. Recognition and supplied exposure are distinct from production; no archived milestones are inherited.',
-    'prior_files':b['files'],'prior_files_lf_sha256':b['files_lf_sha256'],
-    'prior_state_record':identity('sources/audits/unit15-coordinator/prior-state.json'),
-    'archive_tree_sha256':hashlib.sha256(json.dumps(b['archive_files'],sort_keys=True).encode()).hexdigest(),
-    'brief':'curriculum/UNIT_15_BRIEF.md','productive_outcomes':inv['productive_outcomes'],
-    'recognition_outcomes':inv['recognition_outcomes'],'bounded_scope':inv['bounded_scope'],
-    'explicit_scope_metrics':inv['counts'],'audited_inflection_rules':inv['audited_inflection_rules'],
-    'audit_recommendation_precedence':'The reconciled contract assigns teaching. Audit proposals supply evidence; complete morphology does not establish every sense or construction.',
-    'display_plan':displays,
-    'source_assignment_policy':{
-        'canonical_crosswalk':'Assigned/deferred/excluded records across active contracts; planning and archived evidence are not new assignments.',
-        'carry_forward_contracts':[identity(f'chapters/ch{n:02d}/coverage.json') for n in range(1,15)],
-        'numbered_cook_total':644,'previously_assigned_cook_items':406,
-        'new_cook_assignments':sorted(new_ids),'cumulative_assigned_cook_items':456,
-        'still_deferred_cook_items':188,'new_exclusions':[], 'resolved_prior_deferral_ids':sorted(new_ids),
-        'note':'All 50 exact IX.28–30 and joint X,XI.31 prompts. The 103-word Duties opening argument is not the whole speech; the 152-word preface and 160-word prayer are complete as printed. All original notes remain; Duties160–161 is outside the reading assignment.'},
-    'assigned_items':tasks,'key_item_ids':[t['key_id'] for t in tasks],
-    'deferred_source_items':deferred,'excluded_source_items':[],'source_alias_assignments':[],
-    'source_spans':inv['readings'],'paradigms':inv['paradigms'],'teaching_records':inv['teaching_records'],
-    'new_material_examples':texts['teaching_examples'],'new_compositions':[],
-    'lexical_inventory':inv['lemmas'],'grammar_inventory':inv['features'],
-    'prior_requirements':inv['prior_requirements'],'evidence_catalog':evidence,
-    'analysis_inputs':[identity(p) for p in inputs],
-    'pre_key_review_exclusions':inv['pre_key_review_exclusions'],
-    'authoring_rules':[
-        'Preserve all original Cook words, hints, references, controls, group/exercise/item IDs and complete sets. Modern directions/help are separate.',
-        'Print every complete assigned matrix literally with rules, stems, important alternatives and sense/number limits. Distinguish logical positions, actual forms, multiword construction components and explicitly unassigned slots.',
-        'Teach all required independent forms, senses and uses before their first example/practice. Every supplied expression has visible support throughout its task; exposure is not unaided recall.',
-        'Retain all415 exact reading words,27 original notes and33 anchors. Duties is an opening argument, not a whole speech. Source punctuation and source questions remain identifiable apparatus.',
-        'Eight translated examples and55 original tasks are new teaching material. The three source passages supply the connected graded readings; no separate new narrative is assigned.',
-        'Keep the answer key separate and cover every requested output with meaning, target, explanation, alternatives and useful diagnosis. Distinguish grammatical validity from a stated source target.',
-        'A fresh non-author freezes all actual learner solutions in Git before explicit current-key/contract/audit/model comparison access. A separate fresh reviewer checks all complete paradigms, primary evidence and scope.',
-        'Resolve material findings; export complete learner/key PDFs, check full content parity and have non-authors inspect every final page. Preserve earlier records/artifacts, update indexes, export Beads and commit locally. Do not draft Unit16.'
-    ],
-    'issues':{k:'oec-u15'+('' if k=='epic' else '-'+k) for k in ['epic','source','grammar','design','contract','draft','review','paradigms','typeset','finish']},
-    'review_status':'not_yet_drafted','amendments':[],
-    'validation_at_contract':validation,
-    'completion':{'complete':False,'registers_integrated':False,'pdfs_inspected':False},
-    'review_independence_protocol':read('sources/audits/unit15-coordinator/review-independence.json'),
-    'contract_reconciliation_notes':reconciliation['decisions'],
-}
+c = {'schema_version': 2, 'chapter_id': 'ch15', 'title': 'Negation, quantity and comparison in discourse', 'status': 'candidate_not_authorized' if args.candidate else 'contracted_before_prose', 'contract_date': '2026-10-26', 'contract_prepared_before_prose': True, 'prerequisite_chapters': [f'ch{n:02d}' for n in range(1, 15)], 'prior_checkpoint': b['git_checkpoint_full'][:7], 'prior_teaching_boundary': 'Only the fourteen active contracts and actual registers at 9129cda establish teaching. Recognition and supplied exposure are distinct from production.', 'prior_files': b['files'], 'prior_files_lf_sha256': b['files_lf_sha256'], 'prior_state_record': identity('sources/audits/unit15-coordinator/prior-state.json'), 'brief': 'curriculum/UNIT_15_BRIEF.md', 'productive_outcomes': inv['productive_outcomes'], 'recognition_outcomes': inv['recognition_outcomes'], 'bounded_scope': inv['bounded_scope'], 'explicit_scope_metrics': inv['counts'], 'audited_inflection_rules': inv['audited_inflection_rules'], 'audit_recommendation_precedence': 'The reconciled contract assigns teaching. Audit proposals supply evidence; complete morphology does not establish every sense or construction.', 'display_plan': displays, 'source_assignment_policy': {'canonical_crosswalk': 'Assigned/deferred/excluded records across active contracts; planning does not create new assignments.', 'carry_forward_contracts': [identity(f'chapters/ch{n:02d}/coverage.json') for n in range(1, 15)], 'numbered_cook_total': 644, 'previously_assigned_cook_items': 406, 'new_cook_assignments': sorted(new_ids), 'cumulative_assigned_cook_items': 456, 'still_deferred_cook_items': 188, 'new_exclusions': [], 'resolved_prior_deferral_ids': sorted(new_ids), 'note': 'All 50 exact IX.28–30 and joint X,XI.31 prompts. The 103-word Duties opening argument is not the whole speech; the 152-word preface and 160-word prayer are complete as printed. All original notes remain; Duties160–161 is outside the reading assignment.'}, 'assigned_items': tasks, 'key_item_ids': [t['key_id'] for t in tasks], 'deferred_source_items': deferred, 'excluded_source_items': [], 'source_alias_assignments': [], 'source_spans': inv['readings'], 'paradigms': inv['paradigms'], 'teaching_records': inv['teaching_records'], 'new_material_examples': texts['teaching_examples'], 'new_compositions': [], 'lexical_inventory': inv['lemmas'], 'grammar_inventory': inv['features'], 'prior_requirements': inv['prior_requirements'], 'evidence_catalog': evidence, 'analysis_inputs': [identity(p) for p in inputs], 'pre_key_review_exclusions': inv['pre_key_review_exclusions'], 'authoring_rules': ['Preserve all original Cook words, hints, references, controls, group/exercise/item IDs and complete sets. Modern directions/help are separate.', 'Print every complete assigned matrix literally with rules, stems, important alternatives and sense/number limits. Distinguish logical positions, actual forms, multiword construction components and explicitly unassigned slots.', 'Teach all required independent forms, senses and uses before their first example/practice. Every supplied expression has visible support throughout its task; exposure is not unaided recall.', 'Retain all415 exact reading words,27 original notes and33 anchors. Duties is an opening argument, not a whole speech. Source punctuation and source questions remain identifiable apparatus.', 'Eight translated examples and55 original tasks are new teaching material. The three source passages supply the connected graded readings; no separate new narrative is assigned.', 'Keep the answer key separate and cover every requested output with meaning, target, explanation, alternatives and useful diagnosis. Distinguish grammatical validity from a stated source target.', 'A fresh non-author freezes all actual learner solutions in Git before explicit current-key/contract/audit/model comparison access. A separate fresh reviewer checks all complete paradigms, primary evidence and scope.', 'Resolve material findings; export complete learner/key PDFs, check full content parity and have non-authors inspect every final page. Preserve earlier records/artifacts, update indexes, export Beads and commit locally. Do not draft Unit16.'], 'issues': {k: 'oec-u15' + ('' if k == 'epic' else '-' + k) for k in ['epic', 'source', 'grammar', 'design', 'contract', 'draft', 'review', 'paradigms', 'typeset', 'finish']}, 'review_status': 'not_yet_drafted', 'amendments': [], 'validation_at_contract': validation, 'completion': {'complete': False, 'registers_integrated': False, 'pdfs_inspected': False}, 'review_independence_protocol': read('sources/audits/unit15-coordinator/review-independence.json'), 'contract_reconciliation_notes': reconciliation['decisions']}
 for field in ['form_identity_reconciliation','promotions','lexical_frames','principal_parts',
               'pronoun_family_dispositions','teaching_order_rule','study_sequence','source_task_crosswalk',
               'record_counts_by_scope','record_identity_counts','review_independence']:

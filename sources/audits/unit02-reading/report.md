@@ -57,7 +57,7 @@ All six actual forms are third-person singular preterite indicative. Required di
 
 ## Prior knowledge and required support
 
-The audit checked the **completed active** `chapters/ch01/coverage.json`, `lexicon/entries.json`, and `curriculum/grammar.json`; their raw-file hashes are saved in the JSON. No archived milestone was used.
+The audit checked the **completed active** `chapters/ch01/coverage.json`, `lexicon/entries.json`, and `curriculum/grammar.json`; their raw-file hashes are saved in the JSON.
 
 The familiar nouns are **heofon, eorðe, frætwung, God, dæg, weorc**. Here **heofonas** is masculine nominative plural, unlike the supplied weak feminine **heofonan** in the earlier first-day reading. The article forms, **wǣron**, coordination, and noun cases are prior knowledge. Familiar spelling never implies that the construction containing it has already been taught.
 

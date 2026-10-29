@@ -1,6 +1,6 @@
 # Unit 1 editorial record
 
-Contract approved 22 October 2026 **before learner prose or key existed**. The immediately preceding planning checkpoint is `aab13d9`. The contract checkpoint preserves the original approved inventory; later review repairs must be recorded here. Active grammar and lexical registers were read and were empty. No teaching milestone comes from the archived course.
+Contract approved 22 October 2026 **before learner prose or key existed**. The immediately preceding planning checkpoint is `aab13d9`. The contract checkpoint preserves the original approved inventory; later review repairs must be recorded here. Active grammar and lexical registers were read and were empty.
 
 ## Source allocation and origin
 
@@ -52,7 +52,7 @@ The complete LuaLaTeX exports have 22 learner pages and 12 key pages. All pages 
 
 Separate content reconciliation compared all 183 learner and 107 key paragraphs, 17 learner and two key tables, all 44 vocabulary entries with their 264 original fields, the complete reading help, every source note, and all task/teaching/example/key IDs. The Markdown masters are unchanged from textual acceptance. Xpdf 4.00 inserts some artificial spaces after macrons in extracted text; the reading comparison therefore preserves every non-whitespace Unicode character, while actual word boundaries were checked visually. The 46 source prompts still use exact-string checks.
 
-The selected source-cache files retain their registered hashes. All 132 archived evidence files retain their provenance hashes; the historical snapshot has not been edited.
+The selected source-cache files retain their registered hashes.
 
 ## Register integration
 

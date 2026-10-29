@@ -37,4 +37,4 @@ The closing formulas are supported whole, without a unique subject/predicate ana
 | `audit-translations.md` | Separate independent audit translations, prepared from the Old English |
 | `change-notes.md` | Presentation operations, assignment history and spelling boundaries |
 
-There are no unresolved source readings. The coordinator must reconcile these records with the complete grammar paradigms before drafting or production tasks. The final source crosswalk would add16 Cook assignments, reaching **79 assigned / 565 deferred / 0 excluded**. The first-day revisit adds no new first assignment. This source audit changes no prior contract, cumulative register, tracker or archive file.
+There are no unresolved source readings. The coordinator must reconcile these records with the complete grammar paradigms before drafting or production tasks. The final source crosswalk would add16 Cook assignments, reaching **79 assigned / 565 deferred / 0 excluded**. The first-day revisit adds no new first assignment. This source audit changes no prior contract, cumulative register, tracker.

@@ -22,8 +22,8 @@ mutable = {'.beads/issues.jsonl', 'README.md', 'STATUS.md', 'docs/HANDOFF.md',
            'curriculum/COURSE_PLAN.md', 'curriculum/COOK_MAP.md', 'sources/README.md',
            'sources/registry.json', 'typesetting/README.md'}
 register_paths = ['lexicon/entries.json', 'curriculum/grammar.json']
-archive = [p for p in paths if p.startswith('reference/previous-course/')]
-fixed = [p for p in paths if p not in mutable and p not in archive and not p.startswith('.beads/')]
+
+fixed = [p for p in paths if p not in mutable and (not p.startswith('.beads/'))]
 hashes = {p: identity(p) for p in fixed}
 lex, gram = [read(p) for p in register_paths]
 expected = [f'ch{i:02d}' for i in range(1, 16)]
@@ -47,11 +47,7 @@ for chapter in expected:
 counts = {'lemmas': len(lex['lemmas']), 'forms': sum(len(l['forms']) for l in lex['lemmas']),
           'senses': sum(len(l['senses']) for l in lex['lemmas']), 'features': len(gram['features'])}
 assert counts == {'lemmas':955, 'forms':10470, 'senses':1207, 'features':950}
-baseline = {'chapter_id':'ch16', 'git_checkpoint_full':'e1d94be968e89ecfc4918ed58d850702e5d0e57e',
-            'lexicon':lex, 'grammar':gram, 'counts':counts,
-            'files':{p:v[0] for p,v in hashes.items()}, 'files_lf_sha256':{p:v[1] for p,v in hashes.items()},
-            'archive_files':{p:identity(p)[0] for p in archive},
-            'mutable_shared_indexes':sorted(mutable)}
+baseline = {'chapter_id': 'ch16', 'git_checkpoint_full': 'e1d94be968e89ecfc4918ed58d850702e5d0e57e', 'lexicon': lex, 'grammar': gram, 'counts': counts, 'files': {p: v[0] for p, v in hashes.items()}, 'files_lf_sha256': {p: v[1] for p, v in hashes.items()}, 'mutable_shared_indexes': sorted(mutable)}
 write('build/unit16-prior-baseline.json', baseline)
 retained = {k:v for k,v in baseline.items() if k not in ['lexicon','grammar']}
 retained['immutable_local_snapshot'] = 'build/unit16-prior-baseline.json'
@@ -63,7 +59,7 @@ pattern = re.compile(r'narrat|report|speech|quot|complement|clause|government|se
 features = [f for f in gram['features'] if pattern.search(json.dumps({k:v for k,v in f.items() if k not in ['records_by_chapter','evidence_refs']},ensure_ascii=False))]
 write('build/u16-relevant-prior-features.json', features)
 write('build/u16-prior-lemma-index.json', [{k:l.get(k) for k in ['lemma_id','headword','part_of_speech','gender','class','gloss','notes']} for l in lex['lemmas']])
-print('Captured immutable baseline:', counts, len(fixed)-2, 'fixed non-register artifacts;', len(archive), 'archived files.')
+print('Captured immutable baseline:', counts, len(fixed) - 2, 'fixed non-register artifacts;')
 print('Read all fifteen complete contracts and both registers; relevant prior construction records:',len(features))
 for c in contracts:
     print(c['chapter_id'], c['title'], c['assigned_items'], 'tasks; boundaries:', c['bounded_scope'])

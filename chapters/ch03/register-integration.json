@@ -111,23 +111,20 @@
       "earliest_milestones_and_supplied_history_preserved": true
     }
   },
-  "archived_evidence_files_unchanged": 134,
-  "archive_tree_sha256": "0f268d880862962c696701e92a31a2f48a7d96950fa699c1cab322ffced1e727",
   "register_hashes": {
     "lexicon/entries.json": "b2818639eb7ec947bf342958601c63e9e41b6e36e2b17c821cac899db5879348",
     "curriculum/grammar.json": "ec6ed7c129bfe963d30596bda8b066e48b474612aa011b072fdb1c195dcb7a20"
   },
-  "scope": "Only the reviewed Unit 3 contract is merged. No archived milestone is imported; supplied-only and reference-only records receive no independent-production milestone.",
+  "scope": "Only the reviewed Unit 3 contract is merged. Supplied-only and reference-only records receive no independent-production milestone.",
   "git_preservation_check": {
     "baseline": "227019d",
     "unchanged_tracked_trees": [
       "chapters/ch01",
       "chapters/ch02",
       "typesetting/ch01",
-      "typesetting/ch02",
-      "reference/previous-course"
+      "typesetting/ch02"
     ],
-    "command": "git diff --exit-code 227019d -- chapters/ch01 chapters/ch02 typesetting/ch01 typesetting/ch02 reference/previous-course",
+    "command": "git diff --exit-code 227019d -- chapters/ch01 chapters/ch02 typesetting/ch01 typesetting/ch02",
     "exit_code": 0
   }
 }

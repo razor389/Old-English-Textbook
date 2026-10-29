@@ -1,6 +1,6 @@
 # Unit 12 grammar audit
 
-The proposed tense, sequence and voice scope is reconciled against all eleven actual earlier contracts and the cumulative registers at `74da7bb`. The baseline contains 560 lemmas, 7,481 forms, 663 senses and 507 features. Archived evidence is reused as evidence only; no archived teaching milestone establishes knowledge in this course.
+The proposed tense, sequence and voice scope is reconciled against all eleven actual earlier contracts and the cumulative registers at `74da7bb`. The baseline contains 560 lemmas, 7,481 forms, 663 senses and 507 features.
 
 The proposal contains ten complete present/preterite indicative systems, nine complete singular/plural command pairs, five complete present/past participle-base pairs and two plain/inflected infinitive pairs. These are 26 clearly bounded paradigms and 152 inflectional cells. The separate twelve-position habban construction display reuses actual earlier auxiliary forms; it contributes no invented lexical forms or new inflectional cells. `validation.json` records the coordinate and binding checks.
 

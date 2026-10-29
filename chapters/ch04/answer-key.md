@@ -65,13 +65,11 @@ Quantity matters: preterite **ride** has short **i**, unlike present **rīde**.
 <!-- key: KEY-NEW-U04-A01 -->
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | drīfe | drāf |
-| Second singular | drīfst | drife |
-| Third singular | drīfð | drāf |
-| First plural | drīfað | drifon |
-| Second plural | drīfað | drifon |
-| Third plural | drīfað | drifon |
+| --- | --- | --- |
+| 1 sg. | drīfe | drāf |
+| 2 sg. | drīfst | drife |
+| 3 sg. | drīfð | drāf |
+| 1–3 pl. | drīfað | drifon |
 
 Present **ī** contrasts with preterite singular **ā** and plural-based **i**. The second singular is **drife**, not a form made from **drāf**. [2]
 
@@ -105,13 +103,11 @@ In **snīðan**, **ð** changes to **d** in the plural-preterite stem and theref
 <!-- key: KEY-NEW-U04-A04 -->
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | wrēo | wrāh |
-| Second singular | wrīhst | wrige |
-| Third singular | wrīhð | wrāh |
-| First plural | wrēoð | wrigon |
-| Second plural | wrēoð | wrigon |
-| Third plural | wrēoð | wrigon |
+| --- | --- | --- |
+| 1 sg. | wrēo | wrāh |
+| 2 sg. | wrīhst | wrige |
+| 3 sg. | wrīhð | wrāh |
+| 1–3 pl. | wrēoð | wrigon |
 
 The contracted first singular and plural are **wrēo** and **wrēoð**; do not append the ordinary **-e/-að** to them. Present **wrīhst/wrīhð**, preterite singular **wrāh**, and plural-based **wrige/wrigon** preserve their different vowels and **h/g** stems. [2]
 
@@ -151,13 +147,11 @@ Keep **wē** plural in both tenses. The change to the preterite does not change 
 <!-- key: KEY-NEW-U04-B01 -->
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | bēode | bēad |
-| Second singular | bīetst | bude |
-| Third singular | bīett | bēad |
-| First plural | bēodað | budon |
-| Second plural | bēodað | budon |
-| Third plural | bēodað | budon |
+| --- | --- | --- |
+| 1 sg. | bēode | bēad |
+| 2 sg. | bīetst | bude |
+| 3 sg. | bīett | bēad |
+| 1–3 pl. | bēodað | budon |
 
 The present second and third singular, **bīetst/bīett**, have **īe** where the infinitive citation has **ēo**. The other present persons retain **ēo**. The selected dental combination is **-tt**; **bīet** is a documented valid third-singular alternative. [3]
 
@@ -201,13 +195,11 @@ The present and the first/third singular preterite retain **s**; the plural-pret
 <!-- key: KEY-NEW-U04-B05 -->
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | tēo | tēah |
-| Second singular | tīehst | tuge |
-| Third singular | tīehð | tēah |
-| First plural | tēoð | tugon |
-| Second plural | tēoð | tugon |
-| Third plural | tēoð | tugon |
+| --- | --- | --- |
+| 1 sg. | tēo | tēah |
+| 2 sg. | tīehst | tuge |
+| 3 sg. | tīehð | tēah |
+| 1–3 pl. | tēoð | tugon |
 
 These are the Class II forms of **tēon**, “draw.” Present **tēo/tēoð** are contracted. The preterite contrasts singular **tēah** with plural-based **tuge/tugon**; it does not retain the present vowel throughout. [3]
 
@@ -231,13 +223,11 @@ The shared contracted **-ēon** ending does not identify the strong class. Selec
 <!-- key: KEY-NEW-U04-C01 -->
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | binde | band |
-| Second singular | bintst | bunde |
-| Third singular | bint | band |
-| First plural | bindað | bundon |
-| Second plural | bindað | bundon |
-| Third plural | bindað | bundon |
+| --- | --- | --- |
+| 1 sg. | binde | band |
+| 2 sg. | bintst | bunde |
+| 3 sg. | bint | band |
+| 1–3 pl. | bindað | bundon |
 
 In selected **bintst**, stem-final **d** combines with **-st** as **-tst**. In **bint**, **d + ð** gives the dental outcome written here with one **t**. Cook also records **bindest/bindst** and **bindeð/bindð**; these are valid alternatives, though the task requests the selected row. The past second singular **bunde** uses the **u** stem, not singular **band**. [4]
 
@@ -271,13 +261,11 @@ The first/third preterite of **weorpan** has short **ea**. The metathesized **be
 <!-- key: KEY-NEW-U04-C04 -->
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | weorðe | wearð |
-| Second singular | wierst | wurde |
-| Third singular | wierð | wearð |
-| First plural | weorðað | wurdon |
-| Second plural | weorðað | wurdon |
-| Third plural | weorðað | wurdon |
+| --- | --- | --- |
+| 1 sg. | weorðe | wearð |
+| 2 sg. | wierst | wurde |
+| 3 sg. | wierð | wearð |
+| 1–3 pl. | weorðað | wurdon |
 
 **Ð** appears in present **weorðe, wierð, weorðað** and first/third singular preterite **wearð**. The selected second-singular present **wierst** has no **ð**; retained **wierðst** is also valid. **D** occurs in preterite **wurde** and all three plural persons **wurdon**. The productive sense here is ordinary “become”; these forms do not by themselves teach a passive construction. [4]
 
@@ -287,13 +275,11 @@ The first/third preterite of **weorpan** has short **ea**. The metathesized **be
 <!-- key: KEY-NEW-U04-C05 -->
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | finde | fand |
-| Second singular | fintst | funde |
-| Third singular | fint | funde |
-| First plural | findað | fundon |
-| Second plural | findað | fundon |
-| Third plural | findað | fundon |
+| --- | --- | --- |
+| 1 sg. | finde | fand |
+| 2 sg. | fintst | funde |
+| 3 sg. | fint | funde |
+| 1–3 pl. | findað | fundon |
 
 The selected usual third-singular preterite is **funde**; **fand** is also valid. Selected first singular is **fand**, but Wright also attests first-singular **funde**. A response using either documented alternative can be valid Old English while differing from the requested selected table. The second singular is **funde**, and all plural persons have **fundon**. [4]
 
@@ -325,26 +311,22 @@ Both belong to the nasal Class III family represented by **bindan**: present **i
 **Tōberstan**, “break up; go to pieces”:
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | tōberste | tōbærst |
-| Second singular | tōbierst | tōburste |
-| Third singular | tōbierst | tōbærst |
-| First plural | tōberstað | tōburston |
-| Second plural | tōberstað | tōburston |
-| Third plural | tōberstað | tōburston |
+| --- | --- | --- |
+| 1 sg. | tōberste | tōbærst |
+| 2 sg. | tōbierst | tōburste |
+| 3 sg. | tōbierst | tōbærst |
+| 1–3 pl. | tōberstað | tōburston |
 
 It uses the **berstan** pattern: present **berst-/bierst-**, past singular **bærst-**, and plural-based **burst-**, with its own **tō-** retained.
 
 **Forweorðan**, “perish”:
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | forweorðe | forwearð |
-| Second singular | forwierst | forwurde |
-| Third singular | forwierð | forwearð |
-| First plural | forweorðað | forwurdon |
-| Second plural | forweorðað | forwurdon |
-| Third plural | forweorðað | forwurdon |
+| --- | --- | --- |
+| 1 sg. | forweorðe | forwearð |
+| 2 sg. | forwierst | forwurde |
+| 3 sg. | forwierð | forwearð |
+| 1–3 pl. | forweorðað | forwurdon |
 
 It uses the **weorðan** pattern, including the **ð/d** alternation. **Forwierðst** is a valid alternative to selected **forwierst**. Both whole verbs have separately learned intransitive meanings. Recognizing their base patterns does not authorize attaching prefixes freely or guessing a whole verb's meaning from its parts. [4, 7]
 

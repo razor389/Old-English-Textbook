@@ -9,12 +9,12 @@ Two findings were reported to the coordinator and repaired during this review:
 
 The limited preservation and link checks found the following:
 
-- All current textual replacement anchors occur exactly once. README retains the sixteen earlier unit paragraphs and appends Unit 17 with the correct learner/key PDF paths. The existing archive boundary remains intact.
+- All current textual replacement anchors occur exactly once. README retains the sixteen earlier unit paragraphs and appends Unit 17 with the correct learner/key PDF paths.
 - COURSE_PLAN changes only the Unit 17 table row, appends its current assignment account and makes older crosswalk totals explicitly historical. The Unit 18 row remains untouched. COOK_MAP preserves earlier rows and accounts while recording 597 assigned / 47 deferred / none excluded; 515 + 82 = 597. The 82-item distribution is 14/10/7/10/12/9/20.
 - STATUS reuses all sixteen existing completion-table rows before appending Unit 17. HANDOFF reuses its sixteen checkpoint rows, resolving Unit 16’s former “This handoff checkpoint” to `defa800` and assigning that relative label only to Unit 17. Both new summaries explicitly keep Unit 18 undrafted and require a new user request before it begins.
 - The four registry source IDs exist exactly where the writer expects: Cook Exercises and First Book in `selected_sources`, Wright and Bosworth–Toller in `supporting_sources`. None already has `unit17_use`. The writer adds that field without replacing earlier source values or unit-use histories. JSON reformatting does not change their semantic content.
 - The new links to the source report, grammar report, curriculum report, coordinator reconciliation, primary-inspection ledger, numeral decision, nīwe decision, prior-state record, blind-freeze record and independence protocol all resolve to existing files. The planned learner/key and export-index links use the correct retained Unit 17 destinations. Future export-only records cannot yet be checked for existence.
-- The historical baseline is accurate: `defa8008f6887a1f5f6afe9db27431d500a03f67`, 1,067 lemmas, 11,188 forms, 1,376 senses, 1,080 features; 2,935 earlier active files including the two registers, leaving 2,933 fixed nonregister artifacts; 134 archive files.
+- The historical baseline is accurate: `defa8008f6887a1f5f6afe9db27431d500a03f67`, 1,067 lemmas, 11,188 forms, 1,376 senses, 1,080 features; 2,935 earlier active files including the two registers, leaving 2,933 fixed nonregister artifacts.
 
 Page and integration metrics are correctly deferred to the accepted records. The writer reads learner/key/total pages and parity counts from `page-review.json`, and cumulative register totals and Unit 17 milestones from `register-integration.json`. Their field names agree with the existing page-acceptance and integration-check producers. It does not substitute the still-current sixteen-unit register totals for the future integrated totals.
 

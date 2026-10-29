@@ -50,14 +50,12 @@ The other two dative singulars are **wyrtgemange** and **gōdwębbe**. Attach th
 <!-- item: NEW-U14-F03 -->
 <!-- key: KEY-NEW-U14-F03 -->
 
-| Person / number | Present indicative | Preterite indicative |
+| Person and number | Present indicative | Preterite indicative |
 | --- | --- | --- |
-| 1 singular | liccie | liccode |
-| 2 singular | liccast | liccodest |
-| 3 singular | liccað | liccode |
-| 1 plural | licciað | liccodon |
-| 2 plural | licciað | liccodon |
-| 3 plural | licciað | liccodon |
+| 1 sg. | liccie | liccode |
+| 2 sg. | liccast | liccodest |
+| 3 sg. | liccað | liccode |
+| 1–3 pl. | licciað | liccodon |
 
 The selected weak-II pattern has **licci-** in the first singular and all plural present forms, but **licc-** before second-singular -ast and third-singular -að. The preterite has **liccod-** before -e, -est and -on. Both c letters remain. A plural subject needs licciað or liccodon, even though the three persons within either plural tense coincide. Do not form a strong preterite by changing the root vowel. [3]
 
@@ -86,14 +84,12 @@ Keep the diagnostic changes in the other cells: gewęnd- gives **gewęntst**; ge
 <!-- item: NEW-U14-F05 -->
 <!-- key: KEY-NEW-U14-F05 -->
 
-| Person / number | Present subjunctive | Preterite subjunctive |
+| Person and number | Present subjunctive | Preterite subjunctive |
 | --- | --- | --- |
-| 1 singular | gebidde | gebǣde |
-| 2 singular | gebidde | gebǣde |
-| 3 singular | gebidde | gebǣde |
-| 1 plural | gebidden | gebǣden |
-| 2 plural | gebidden | gebǣden |
-| 3 plural | gebidden | gebǣden |
+| 1 sg. | gebidde | gebǣde |
+| 2 sg. | gebidde | gebǣde |
+| 3 sg. | gebidde | gebǣde |
+| 1–3 pl. | gebidden | gebǣden |
 
 | Additional requested cell | Form |
 | --- | --- |
@@ -116,10 +112,10 @@ All persons share the singular form, and all persons share the plural form. The 
 | gemētan | gemētende | gemētt |
 | geglęngan | geglęngende | geglęnged |
 
-| Verb | Singular command | Plural command |
+| Person and number | gemiltsian | tilian |
 | --- | --- | --- |
-| gemiltsian | gemiltsa | gemiltsiað |
-| tilian | tila | tiliað |
+| 2 sg. | gemiltsa | tila |
+| 2 pl. | gemiltsiað | tiliað |
 
 The present bases use -ende with the present stem; the strong past bases use the fourth stem. Thus forceorf- gives **forcorfen**, and weorp- gives **worpen**. The weak bases retain their own dental formation, including **gemētt**. **Geworpen** is a documented alternative to bare worpen. Do not add another ge- to gemētt or geglęnged merely because a form is a participle. [3]
 

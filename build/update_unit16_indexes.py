@@ -21,7 +21,7 @@ p = 'README.md'; s = Path(p).read_text(encoding='utf-8')
 assert '**Unit 16 is complete:**' not in s
 s = once(s, '**Units 1–15 are complete**', '**Units 1–16 are complete**')
 paragraph = f'**Unit 16 is complete:** [learner PDF](typesetting/ch16/chapter-16.pdf), {lp} pages, and [separate key PDF](typesetting/ch16/answer-key.pdf), {kp} pages. Extended narrative and speech are taught through {m["paradigms"]} complete bounded systems / {m["logical_cells"]} cells and {m["tasks"]} tasks, including all 59 Cook XII, XIII.32–36 prompts. The complete 444-word gymnasium episode from *Apollonius* has local help and all 54 original notes. Fresh independent reviews and non-author inspection of all {lp+kp} pages are complete. See the [review and export record](typesetting/ch16/README.md).\n\n'
-changes[p] = once(s, 'The earlier two-chapter experiment', paragraph + 'The earlier two-chapter experiment')
+changes[p] = once(s, '<!-- course-unit-summaries -->', paragraph + '<!-- course-unit-summaries -->')
 
 p = 'typesetting/README.md'; s = Path(p).read_text(encoding='utf-8')
 assert '[Unit 16 exports]' not in s

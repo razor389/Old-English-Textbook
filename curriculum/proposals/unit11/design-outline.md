@@ -29,7 +29,7 @@ Nominal design prints the complete new *bæð*, *geat*, *seolh*, *sumer* and *wi
 
 ## Actual cumulative boundary
 
-The starting revision is `fdddbe6`. The ten active contracts and full actual registers contain 447 lemmas, 6,564 forms, 519 senses and 428 constructions. Their identities, assignments, outcomes and scope limits are retained in the design's prior-state audit. Archived evidence does not contribute teaching milestones.
+The starting revision is `fdddbe6`. The ten active contracts and full actual registers contain 447 lemmas, 6,564 forms, 519 senses and 428 constructions. Their identities, assignments, outcomes and scope limits are retained in the design's prior-state audit.
 
 Earlier *ðā* then, *ðonne* then, *for-ðon-ðe*, purpose *ðæt*, temporal correlations and many maritime source forms have only supplied histories. Unit 7 taught open/tentative conditions and bounded subjunctive uses; Unit 9 taught factual *for-ðām* and contrary-present wishes, not all counterfactual conditions. Unit 10's *swā lange swā* remains a supplied connection with the *inasmuch as* interpretation; it is not prior temporal-clause production. Explicit new assignments must name these prior identities and preserve their histories.
 

@@ -1202,7 +1202,7 @@ Feminine; stem **hlǣfdig-**. Add the endings of the stated pattern to this stem
 
 An adjective agrees with its noun in gender, number and case. Use the familiar strong and weak choice: an article or comparable definite determiner normally calls for weak inflection, while a predicative adjective is normally strong. Direct address also favours weak forms; the praise catalogue uses this pattern even while its global instruction removes the article. The selected personal uses are explained after the tables.
 
-The columns are masculine, neuter and feminine, first singular and then plural. Strong instrumental singular forms in the masculine and neuter columns are for recognition; their display adds no new instrumental construction. A dash is an inapplicable display position. Weak genitive plural -ra is the selected form. These tables print one consistent set of source-licensed forms; a documented alternative is not automatically ungrammatical.
+Each panel has masculine, neuter and feminine columns; the singular panel precedes the plural panel. Strong instrumental singular forms in the masculine and neuter columns are for recognition; their display adds no new instrumental construction. A dash is an inapplicable display position. Weak genitive plural -ra is the selected form. These tables print one consistent set of source-licensed forms; a documented alternative is not automatically ungrammatical.
 
 ### wæstmbǣre
 
@@ -1218,24 +1218,39 @@ The headword ends in -e; replace that -e with an overt ending on **wæstmbǣr-**
 
 <!-- table: NEW-U17-ADJ-WAESTMBAERE-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | wæstmbǣre | wæstmbǣre | wæstmbǣru | wæstmbǣre | wæstmbǣru | wæstmbǣra |
-| Genitive | wæstmbǣres | wæstmbǣres | wæstmbǣrre | wæstmbǣrra | wæstmbǣrra | wæstmbǣrra |
-| Dative | wæstmbǣrum | wæstmbǣrum | wæstmbǣrre | wæstmbǣrum | wæstmbǣrum | wæstmbǣrum |
-| Accusative | wæstmbǣrne | wæstmbǣre | wæstmbǣre | wæstmbǣre | wæstmbǣru | wæstmbǣra |
-| Instrumental | wæstmbǣre | wæstmbǣre | — | — | — | — |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | wæstmbǣre | wæstmbǣre | wæstmbǣru |
+| Genitive | wæstmbǣres | wæstmbǣres | wæstmbǣrre |
+| Dative | wæstmbǣrum | wæstmbǣrum | wæstmbǣrre |
+| Accusative | wæstmbǣrne | wæstmbǣre | wæstmbǣre |
+| Instrumental | wæstmbǣre | wæstmbǣre | — |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | wæstmbǣre | wæstmbǣru | wæstmbǣra |
+| Genitive | wæstmbǣrra | wæstmbǣrra | wæstmbǣrra |
+| Dative | wæstmbǣrum | wæstmbǣrum | wæstmbǣrum |
+| Accusative | wæstmbǣre | wæstmbǣru | wæstmbǣra |
+| Instrumental | — | — | — |
 
 **Weak.**
 
 <!-- table: NEW-U17-ADJ-WAESTMBAERE-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | wæstmbǣra | wæstmbǣre | wæstmbǣre | wæstmbǣran | wæstmbǣran | wæstmbǣran |
-| Genitive | wæstmbǣran | wæstmbǣran | wæstmbǣran | wæstmbǣrra | wæstmbǣrra | wæstmbǣrra |
-| Dative | wæstmbǣran | wæstmbǣran | wæstmbǣran | wæstmbǣrum | wæstmbǣrum | wæstmbǣrum |
-| Accusative | wæstmbǣran | wæstmbǣre | wæstmbǣran | wæstmbǣran | wæstmbǣran | wæstmbǣran |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | wæstmbǣra | wæstmbǣre | wæstmbǣre |
+| Genitive | wæstmbǣran | wæstmbǣran | wæstmbǣran |
+| Dative | wæstmbǣran | wæstmbǣran | wæstmbǣran |
+| Accusative | wæstmbǣran | wæstmbǣre | wæstmbǣran |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | wæstmbǣran | wæstmbǣran | wæstmbǣran |
+| Genitive | wæstmbǣrra | wæstmbǣrra | wæstmbǣrra |
+| Dative | wæstmbǣrum | wæstmbǣrum | wæstmbǣrum |
+| Accusative | wæstmbǣran | wæstmbǣran | wæstmbǣran |
 
 ### geong
 
@@ -1251,24 +1266,39 @@ The stem **geong-** is heavy. Strong feminine nominative singular and neuter nom
 
 <!-- table: NEW-U17-ADJ-GEONG-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | geong | geong | geong | geonge | geong | geonga |
-| Genitive | geonges | geonges | geongre | geongra | geongra | geongra |
-| Dative | geongum | geongum | geongre | geongum | geongum | geongum |
-| Accusative | geongne | geong | geonge | geonge | geong | geonga |
-| Instrumental | geonge | geonge | — | — | — | — |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | geong | geong | geong |
+| Genitive | geonges | geonges | geongre |
+| Dative | geongum | geongum | geongre |
+| Accusative | geongne | geong | geonge |
+| Instrumental | geonge | geonge | — |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | geonge | geong | geonga |
+| Genitive | geongra | geongra | geongra |
+| Dative | geongum | geongum | geongum |
+| Accusative | geonge | geong | geonga |
+| Instrumental | — | — | — |
 
 **Weak.**
 
 <!-- table: NEW-U17-ADJ-GEONG-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | geonga | geonge | geonge | geongan | geongan | geongan |
-| Genitive | geongan | geongan | geongan | geongra | geongra | geongra |
-| Dative | geongan | geongan | geongan | geongum | geongum | geongum |
-| Accusative | geongan | geonge | geongan | geongan | geongan | geongan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | geonga | geonge | geonge |
+| Genitive | geongan | geongan | geongan |
+| Dative | geongan | geongan | geongan |
+| Accusative | geongan | geonge | geongan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | geongan | geongan | geongan |
+| Genitive | geongra | geongra | geongra |
+| Dative | geongum | geongum | geongum |
+| Accusative | geongan | geongan | geongan |
 
 ### manigfeald
 
@@ -1284,24 +1314,39 @@ The stem **manigfeald-** is heavy. Strong feminine nominative singular and neute
 
 <!-- table: NEW-U17-ADJ-MANIGFEALD-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | manigfeald | manigfeald | manigfeald | manigfealde | manigfeald | manigfealda |
-| Genitive | manigfealdes | manigfealdes | manigfealdre | manigfealdra | manigfealdra | manigfealdra |
-| Dative | manigfealdum | manigfealdum | manigfealdre | manigfealdum | manigfealdum | manigfealdum |
-| Accusative | manigfealdne | manigfeald | manigfealde | manigfealde | manigfeald | manigfealda |
-| Instrumental | manigfealde | manigfealde | — | — | — | — |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | manigfeald | manigfeald | manigfeald |
+| Genitive | manigfealdes | manigfealdes | manigfealdre |
+| Dative | manigfealdum | manigfealdum | manigfealdre |
+| Accusative | manigfealdne | manigfeald | manigfealde |
+| Instrumental | manigfealde | manigfealde | — |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | manigfealde | manigfeald | manigfealda |
+| Genitive | manigfealdra | manigfealdra | manigfealdra |
+| Dative | manigfealdum | manigfealdum | manigfealdum |
+| Accusative | manigfealde | manigfeald | manigfealda |
+| Instrumental | — | — | — |
 
 **Weak.**
 
 <!-- table: NEW-U17-ADJ-MANIGFEALD-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | manigfealda | manigfealde | manigfealde | manigfealdan | manigfealdan | manigfealdan |
-| Genitive | manigfealdan | manigfealdan | manigfealdan | manigfealdra | manigfealdra | manigfealdra |
-| Dative | manigfealdan | manigfealdan | manigfealdan | manigfealdum | manigfealdum | manigfealdum |
-| Accusative | manigfealdan | manigfealde | manigfealdan | manigfealdan | manigfealdan | manigfealdan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | manigfealda | manigfealde | manigfealde |
+| Genitive | manigfealdan | manigfealdan | manigfealdan |
+| Dative | manigfealdan | manigfealdan | manigfealdan |
+| Accusative | manigfealdan | manigfealde | manigfealdan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | manigfealdan | manigfealdan | manigfealdan |
+| Genitive | manigfealdra | manigfealdra | manigfealdra |
+| Dative | manigfealdum | manigfealdum | manigfealdum |
+| Accusative | manigfealdan | manigfealdan | manigfealdan |
 
 ### rīce
 
@@ -1317,24 +1362,39 @@ The headword ends in -e; replace that -e with an overt ending on **rīc-**. The 
 
 <!-- table: NEW-U17-ADJ-RICE-ADJECTIVE-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | rīce | rīce | rīcu | rīce | rīcu | rīca |
-| Genitive | rīces | rīces | rīcre | rīcra | rīcra | rīcra |
-| Dative | rīcum | rīcum | rīcre | rīcum | rīcum | rīcum |
-| Accusative | rīcne | rīce | rīce | rīce | rīcu | rīca |
-| Instrumental | rīce | rīce | — | — | — | — |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | rīce | rīce | rīcu |
+| Genitive | rīces | rīces | rīcre |
+| Dative | rīcum | rīcum | rīcre |
+| Accusative | rīcne | rīce | rīce |
+| Instrumental | rīce | rīce | — |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | rīce | rīcu | rīca |
+| Genitive | rīcra | rīcra | rīcra |
+| Dative | rīcum | rīcum | rīcum |
+| Accusative | rīce | rīcu | rīca |
+| Instrumental | — | — | — |
 
 **Weak.**
 
 <!-- table: NEW-U17-ADJ-RICE-ADJECTIVE-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | rīca | rīce | rīce | rīcan | rīcan | rīcan |
-| Genitive | rīcan | rīcan | rīcan | rīcra | rīcra | rīcra |
-| Dative | rīcan | rīcan | rīcan | rīcum | rīcum | rīcum |
-| Accusative | rīcan | rīce | rīcan | rīcan | rīcan | rīcan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | rīca | rīce | rīce |
+| Genitive | rīcan | rīcan | rīcan |
+| Dative | rīcan | rīcan | rīcan |
+| Accusative | rīcan | rīce | rīcan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | rīcan | rīcan | rīcan |
+| Genitive | rīcra | rīcra | rīcra |
+| Dative | rīcum | rīcum | rīcum |
+| Accusative | rīcan | rīcan | rīcan |
 
 ### dæghwāmlīc
 
@@ -1350,24 +1410,39 @@ The stem **dæghwāmlīc-** is heavy. Strong feminine nominative singular and ne
 
 <!-- table: NEW-U17-ADJ-DAEGHWAMLIC-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | dæghwāmlīc | dæghwāmlīc | dæghwāmlīc | dæghwāmlīce | dæghwāmlīc | dæghwāmlīca |
-| Genitive | dæghwāmlīces | dæghwāmlīces | dæghwāmlīcre | dæghwāmlīcra | dæghwāmlīcra | dæghwāmlīcra |
-| Dative | dæghwāmlīcum | dæghwāmlīcum | dæghwāmlīcre | dæghwāmlīcum | dæghwāmlīcum | dæghwāmlīcum |
-| Accusative | dæghwāmlīcne | dæghwāmlīc | dæghwāmlīce | dæghwāmlīce | dæghwāmlīc | dæghwāmlīca |
-| Instrumental | dæghwāmlīce | dæghwāmlīce | — | — | — | — |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | dæghwāmlīc | dæghwāmlīc | dæghwāmlīc |
+| Genitive | dæghwāmlīces | dæghwāmlīces | dæghwāmlīcre |
+| Dative | dæghwāmlīcum | dæghwāmlīcum | dæghwāmlīcre |
+| Accusative | dæghwāmlīcne | dæghwāmlīc | dæghwāmlīce |
+| Instrumental | dæghwāmlīce | dæghwāmlīce | — |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | dæghwāmlīce | dæghwāmlīc | dæghwāmlīca |
+| Genitive | dæghwāmlīcra | dæghwāmlīcra | dæghwāmlīcra |
+| Dative | dæghwāmlīcum | dæghwāmlīcum | dæghwāmlīcum |
+| Accusative | dæghwāmlīce | dæghwāmlīc | dæghwāmlīca |
+| Instrumental | — | — | — |
 
 **Weak.**
 
 <!-- table: NEW-U17-ADJ-DAEGHWAMLIC-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | dæghwāmlīca | dæghwāmlīce | dæghwāmlīce | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcan |
-| Genitive | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcra | dæghwāmlīcra | dæghwāmlīcra |
-| Dative | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcum | dæghwāmlīcum | dæghwāmlīcum |
-| Accusative | dæghwāmlīcan | dæghwāmlīce | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | dæghwāmlīca | dæghwāmlīce | dæghwāmlīce |
+| Genitive | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcan |
+| Dative | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcan |
+| Accusative | dæghwāmlīcan | dæghwāmlīce | dæghwāmlīcan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcan |
+| Genitive | dæghwāmlīcra | dæghwāmlīcra | dæghwāmlīcra |
+| Dative | dæghwāmlīcum | dæghwāmlīcum | dæghwāmlīcum |
+| Accusative | dæghwāmlīcan | dæghwāmlīcan | dæghwāmlīcan |
 
 ### hlūd
 
@@ -1383,24 +1458,39 @@ The stem **hlūd-** is heavy. Strong feminine nominative singular and neuter nom
 
 <!-- table: NEW-U17-ADJ-HLUD-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hlūd | hlūd | hlūd | hlūde | hlūd | hlūda |
-| Genitive | hlūdes | hlūdes | hlūdre | hlūdra | hlūdra | hlūdra |
-| Dative | hlūdum | hlūdum | hlūdre | hlūdum | hlūdum | hlūdum |
-| Accusative | hlūdne | hlūd | hlūde | hlūde | hlūd | hlūda |
-| Instrumental | hlūde | hlūde | — | — | — | — |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hlūd | hlūd | hlūd |
+| Genitive | hlūdes | hlūdes | hlūdre |
+| Dative | hlūdum | hlūdum | hlūdre |
+| Accusative | hlūdne | hlūd | hlūde |
+| Instrumental | hlūde | hlūde | — |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hlūde | hlūd | hlūda |
+| Genitive | hlūdra | hlūdra | hlūdra |
+| Dative | hlūdum | hlūdum | hlūdum |
+| Accusative | hlūde | hlūd | hlūda |
+| Instrumental | — | — | — |
 
 **Weak.**
 
 <!-- table: NEW-U17-ADJ-HLUD-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hlūda | hlūde | hlūde | hlūdan | hlūdan | hlūdan |
-| Genitive | hlūdan | hlūdan | hlūdan | hlūdra | hlūdra | hlūdra |
-| Dative | hlūdan | hlūdan | hlūdan | hlūdum | hlūdum | hlūdum |
-| Accusative | hlūdan | hlūde | hlūdan | hlūdan | hlūdan | hlūdan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hlūda | hlūde | hlūde |
+| Genitive | hlūdan | hlūdan | hlūdan |
+| Dative | hlūdan | hlūdan | hlūdan |
+| Accusative | hlūdan | hlūde | hlūdan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hlūdan | hlūdan | hlūdan |
+| Genitive | hlūdra | hlūdra | hlūdra |
+| Dative | hlūdum | hlūdum | hlūdum |
+| Accusative | hlūdan | hlūdan | hlūdan |
 
 ### æðele
 
@@ -1416,24 +1506,39 @@ The headword ends in -e; replace that -e with an overt ending on **æðel-**. Th
 
 <!-- table: NEW-U17-ADJ-AETHELE-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | æðele | æðele | æðelu | æðele | æðelu | æðela |
-| Genitive | æðeles | æðeles | æðelre | æðelra | æðelra | æðelra |
-| Dative | æðelum | æðelum | æðelre | æðelum | æðelum | æðelum |
-| Accusative | æðelne | æðele | æðele | æðele | æðelu | æðela |
-| Instrumental | æðele | æðele | — | — | — | — |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | æðele | æðele | æðelu |
+| Genitive | æðeles | æðeles | æðelre |
+| Dative | æðelum | æðelum | æðelre |
+| Accusative | æðelne | æðele | æðele |
+| Instrumental | æðele | æðele | — |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | æðele | æðelu | æðela |
+| Genitive | æðelra | æðelra | æðelra |
+| Dative | æðelum | æðelum | æðelum |
+| Accusative | æðele | æðelu | æðela |
+| Instrumental | — | — | — |
 
 **Weak.**
 
 <!-- table: NEW-U17-ADJ-AETHELE-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | æðela | æðele | æðele | æðelan | æðelan | æðelan |
-| Genitive | æðelan | æðelan | æðelan | æðelra | æðelra | æðelra |
-| Dative | æðelan | æðelan | æðelan | æðelum | æðelum | æðelum |
-| Accusative | æðelan | æðele | æðelan | æðelan | æðelan | æðelan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | æðela | æðele | æðele |
+| Genitive | æðelan | æðelan | æðelan |
+| Dative | æðelan | æðelan | æðelan |
+| Accusative | æðelan | æðele | æðelan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | æðelan | æðelan | æðelan |
+| Genitive | æðelra | æðelra | æðelra |
+| Dative | æðelum | æðelum | æðelum |
+| Accusative | æðelan | æðelan | æðelan |
 
 ### æðelboren
 
@@ -1449,24 +1554,39 @@ Use the retained stem æðelboren- throughout this selected table. Do not remove
 
 <!-- table: NEW-U17-ADJ-AETHELBOREN-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | æðelboren | æðelboren | æðelborenu | æðelborene | æðelborenu | æðelborena |
-| Genitive | æðelborenes | æðelborenes | æðelborenre | æðelborenra | æðelborenra | æðelborenra |
-| Dative | æðelborenum | æðelborenum | æðelborenre | æðelborenum | æðelborenum | æðelborenum |
-| Accusative | æðelborenne | æðelboren | æðelborene | æðelborene | æðelborenu | æðelborena |
-| Instrumental | æðelborene | æðelborene | — | — | — | — |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | æðelboren | æðelboren | æðelborenu |
+| Genitive | æðelborenes | æðelborenes | æðelborenre |
+| Dative | æðelborenum | æðelborenum | æðelborenre |
+| Accusative | æðelborenne | æðelboren | æðelborene |
+| Instrumental | æðelborene | æðelborene | — |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | æðelborene | æðelborenu | æðelborena |
+| Genitive | æðelborenra | æðelborenra | æðelborenra |
+| Dative | æðelborenum | æðelborenum | æðelborenum |
+| Accusative | æðelborene | æðelborenu | æðelborena |
+| Instrumental | — | — | — |
 
 **Weak.**
 
 <!-- table: NEW-U17-ADJ-AETHELBOREN-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | æðelborena | æðelborene | æðelborene | æðelborenan | æðelborenan | æðelborenan |
-| Genitive | æðelborenan | æðelborenan | æðelborenan | æðelborenra | æðelborenra | æðelborenra |
-| Dative | æðelborenan | æðelborenan | æðelborenan | æðelborenum | æðelborenum | æðelborenum |
-| Accusative | æðelborenan | æðelborene | æðelborenan | æðelborenan | æðelborenan | æðelborenan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | æðelborena | æðelborene | æðelborene |
+| Genitive | æðelborenan | æðelborenan | æðelborenan |
+| Dative | æðelborenan | æðelborenan | æðelborenan |
+| Accusative | æðelborenan | æðelborene | æðelborenan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | æðelborenan | æðelborenan | æðelborenan |
+| Genitive | æðelborenra | æðelborenra | æðelborenra |
+| Dative | æðelborenum | æðelborenum | æðelborenum |
+| Accusative | æðelborenan | æðelborenan | æðelborenan |
 
 ### Adjectives naming people
 
@@ -1504,12 +1624,10 @@ This weak verb follows the nęrian type. The present has hęrie, hęrest and hę
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | hęrie | hęrede |
-| 2 singular | hęrest | hęredest |
-| 3 singular | hęreð | hęrede |
-| 1 plural | hęriað | hęredon |
-| 2 plural | hęriað | hęredon |
-| 3 plural | hęriað | hęredon |
+| 1 sg. | hęrie | hęrede |
+| 2 sg. | hęrest | hęredest |
+| 3 sg. | hęreð | hęrede |
+| 1–3 pl. | hęriað | hęredon |
 
 **Imperative.**
 
@@ -1517,8 +1635,8 @@ This weak verb follows the nęrian type. The present has hęrie, hęrest and hę
 
 | Person and number | Command |
 | --- | --- |
-| 2 singular | hęre |
-| 2 plural | hęriað |
+| 2 sg. | hęre |
+| 2 pl. | hęriað |
 
 **Subjunctive.**
 
@@ -1526,12 +1644,10 @@ This weak verb follows the nęrian type. The present has hęrie, hęrest and hę
 
 | Person and number | Present |
 | --- | --- |
-| 1 singular | hęrie |
-| 2 singular | hęrie |
-| 3 singular | hęrie |
-| 1 plural | hęrien |
-| 2 plural | hęrien |
-| 3 plural | hęrien |
+| 1 sg. | hęrie |
+| 2 sg. | hęrie |
+| 3 sg. | hęrie |
+| 1–3 pl. | hęrien |
 
 ### gecweðan: present and preterite indicative
 
@@ -1547,12 +1663,10 @@ The present second and third singular have i. In the preterite, first and third 
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gecweðe | gecwæð |
-| 2 singular | gecwist | gecwǣde |
-| 3 singular | gecwið | gecwæð |
-| 1 plural | gecweðað | gecwǣdon |
-| 2 plural | gecweðað | gecwǣdon |
-| 3 plural | gecweðað | gecwǣdon |
+| 1 sg. | gecweðe | gecwæð |
+| 2 sg. | gecwist | gecwǣde |
+| 3 sg. | gecwið | gecwæð |
+| 1–3 pl. | gecweðað | gecwǣdon |
 
 ### ūpāhębban: indicative and participles
 
@@ -1570,12 +1684,10 @@ The present stem has doubled bb, but the second and third singular are ūpāhęf
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ūpāhębbe | ūpāhōf |
-| 2 singular | ūpāhęfst | ūpāhōfe |
-| 3 singular | ūpāhęfð | ūpāhōf |
-| 1 plural | ūpāhębbað | ūpāhōfon |
-| 2 plural | ūpāhębbað | ūpāhōfon |
-| 3 plural | ūpāhębbað | ūpāhōfon |
+| 1 sg. | ūpāhębbe | ūpāhōf |
+| 2 sg. | ūpāhęfst | ūpāhōfe |
+| 3 sg. | ūpāhęfð | ūpāhōf |
+| 1–3 pl. | ūpāhębbað | ūpāhōfon |
 
 **Participle formation pair.**
 
@@ -1600,12 +1712,10 @@ The selected present uses -ean and plural -eað. The weak preterite has worht-. 
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | oferwyrce | oferworhte |
-| 2 singular | oferwyrcst | oferworhtest |
-| 3 singular | oferwyrcð | oferworhte |
-| 1 plural | oferwyrceað | oferworhton |
-| 2 plural | oferwyrceað | oferworhton |
-| 3 plural | oferwyrceað | oferworhton |
+| 1 sg. | oferwyrce | oferworhte |
+| 2 sg. | oferwyrcst | oferworhtest |
+| 3 sg. | oferwyrcð | oferworhte |
+| 1–3 pl. | oferwyrceað | oferworhton |
 
 ### gesęttan: present and preterite indicative
 
@@ -1621,12 +1731,10 @@ Retain tt before a vowel. The selected present second singular has -tst and thir
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gesętte | gesętte |
-| 2 singular | gesętst | gesęttest |
-| 3 singular | gesętt | gesętte |
-| 1 plural | gesęttað | gesętton |
-| 2 plural | gesęttað | gesętton |
-| 3 plural | gesęttað | gesętton |
+| 1 sg. | gesętte | gesętte |
+| 2 sg. | gesętst | gesęttest |
+| 3 sg. | gesętt | gesętte |
+| 1–3 pl. | gesęttað | gesętton |
 
 ### giernan: present and preterite indicative
 
@@ -1642,12 +1750,10 @@ This long-stem weak verb has present -st and -ð and a preterite in -de. The thi
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gierne | giernde |
-| 2 singular | giernst | gierndest |
-| 3 singular | giernð | giernde |
-| 1 plural | giernað | gierndon |
-| 2 plural | giernað | gierndon |
-| 3 plural | giernað | gierndon |
+| 1 sg. | gierne | giernde |
+| 2 sg. | giernst | gierndest |
+| 3 sg. | giernð | giernde |
+| 1–3 pl. | giernað | gierndon |
 
 ### mǣrsian: present and preterite indicative
 
@@ -1663,12 +1769,10 @@ The weak -ian pattern has present singular -ie, -ast, -að and plural -iað; its
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | mǣrsie | mǣrsode |
-| 2 singular | mǣrsast | mǣrsodest |
-| 3 singular | mǣrsað | mǣrsode |
-| 1 plural | mǣrsiað | mǣrsodon |
-| 2 plural | mǣrsiað | mǣrsodon |
-| 3 plural | mǣrsiað | mǣrsodon |
+| 1 sg. | mǣrsie | mǣrsode |
+| 2 sg. | mǣrsast | mǣrsodest |
+| 3 sg. | mǣrsað | mǣrsode |
+| 1–3 pl. | mǣrsiað | mǣrsodon |
 
 ### mǣrsian: present and past participles
 
@@ -1699,12 +1803,10 @@ Use the weak -ian endings: present -ie, -ast, -að, -iað; preterite -ode, -odes
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gewilnie | gewilnode |
-| 2 singular | gewilnast | gewilnodest |
-| 3 singular | gewilnað | gewilnode |
-| 1 plural | gewilniað | gewilnodon |
-| 2 plural | gewilniað | gewilnodon |
-| 3 plural | gewilniað | gewilnodon |
+| 1 sg. | gewilnie | gewilnode |
+| 2 sg. | gewilnast | gewilnodest |
+| 3 sg. | gewilnað | gewilnode |
+| 1–3 pl. | gewilniað | gewilnodon |
 
 ### ðurhwunian: present and preterite indicative
 
@@ -1720,12 +1822,10 @@ Use the weak -ian endings: present -ie, -ast, -að, -iað; preterite -ode, -odes
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ðurhwunie | ðurhwunode |
-| 2 singular | ðurhwunast | ðurhwunodest |
-| 3 singular | ðurhwunað | ðurhwunode |
-| 1 plural | ðurhwuniað | ðurhwunodon |
-| 2 plural | ðurhwuniað | ðurhwunodon |
-| 3 plural | ðurhwuniað | ðurhwunodon |
+| 1 sg. | ðurhwunie | ðurhwunode |
+| 2 sg. | ðurhwunast | ðurhwunodest |
+| 3 sg. | ðurhwunað | ðurhwunode |
+| 1–3 pl. | ðurhwuniað | ðurhwunodon |
 
 ### wiðstandan: present and preterite indicative
 
@@ -1741,12 +1841,10 @@ The present second and third singular have stęntst and stęnt. The preterite ha
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | wiðstande | wiðstōd |
-| 2 singular | wiðstęntst | wiðstōde |
-| 3 singular | wiðstęnt | wiðstōd |
-| 1 plural | wiðstandað | wiðstōdon |
-| 2 plural | wiðstandað | wiðstōdon |
-| 3 plural | wiðstandað | wiðstōdon |
+| 1 sg. | wiðstande | wiðstōd |
+| 2 sg. | wiðstęntst | wiðstōde |
+| 3 sg. | wiðstęnt | wiðstōd |
+| 1–3 pl. | wiðstandað | wiðstōdon |
 
 ### gearcian: present and preterite indicative
 
@@ -1762,12 +1860,10 @@ The verb is unprefixed gearcian. Use the weak -ian endings: present -ie, -ast, -
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gearcie | gearcode |
-| 2 singular | gearcast | gearcodest |
-| 3 singular | gearcað | gearcode |
-| 1 plural | gearciað | gearcodon |
-| 2 plural | gearciað | gearcodon |
-| 3 plural | gearciað | gearcodon |
+| 1 sg. | gearcie | gearcode |
+| 2 sg. | gearcast | gearcodest |
+| 3 sg. | gearcað | gearcode |
+| 1–3 pl. | gearciað | gearcodon |
 
 ### āfyllan: indicative and participles
 
@@ -1785,12 +1881,10 @@ Double ll before a vowel, but use single l in āfylst, āfylð and āfylde. The 
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āfylle | āfylde |
-| 2 singular | āfylst | āfyldest |
-| 3 singular | āfylð | āfylde |
-| 1 plural | āfyllað | āfyldon |
-| 2 plural | āfyllað | āfyldon |
-| 3 plural | āfyllað | āfyldon |
+| 1 sg. | āfylle | āfylde |
+| 2 sg. | āfylst | āfyldest |
+| 3 sg. | āfylð | āfylde |
+| 1–3 pl. | āfyllað | āfyldon |
 
 **Participle formation pair.**
 
@@ -1815,12 +1909,10 @@ The strong stems alternate eo, ea, u, o. Present second and third singular have 
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āweorpe | āwearp |
-| 2 singular | āwierpst | āwurpe |
-| 3 singular | āwierpð | āwearp |
-| 1 plural | āweorpað | āwurpon |
-| 2 plural | āweorpað | āwurpon |
-| 3 plural | āweorpað | āwurpon |
+| 1 sg. | āweorpe | āwearp |
+| 2 sg. | āwierpst | āwurpe |
+| 3 sg. | āwierpð | āwearp |
+| 1–3 pl. | āweorpað | āwurpon |
 
 ### āwrītan: present and preterite indicative
 
@@ -1836,12 +1928,10 @@ The strong vowel sequence is ī, ā, i, i. Present second singular has -tst and 
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āwrīte | āwrāt |
-| 2 singular | āwrītst | āwrite |
-| 3 singular | āwrītt | āwrāt |
-| 1 plural | āwrītað | āwriton |
-| 2 plural | āwrītað | āwriton |
-| 3 plural | āwrītað | āwriton |
+| 1 sg. | āwrīte | āwrāt |
+| 2 sg. | āwrītst | āwrite |
+| 3 sg. | āwrītt | āwrāt |
+| 1–3 pl. | āwrītað | āwriton |
 
 ### ālūtan: present and preterite indicative
 
@@ -1857,12 +1947,10 @@ The strong stems alternate ū, ēa, u, o. Present second and third singular chan
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ālūte | ālēat |
-| 2 singular | ālȳtst | ālute |
-| 3 singular | ālȳtt | ālēat |
-| 1 plural | ālūtað | āluton |
-| 2 plural | ālūtað | āluton |
-| 3 plural | ālūtað | āluton |
+| 1 sg. | ālūte | ālēat |
+| 2 sg. | ālȳtst | ālute |
+| 3 sg. | ālȳtt | ālēat |
+| 1–3 pl. | ālūtað | āluton |
 
 ### windan: present and preterite indicative
 
@@ -1878,12 +1966,10 @@ The strong stems alternate i, a, u, u. Stem d becomes t before the second- and t
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | winde | wand |
-| 2 singular | wintst | wunde |
-| 3 singular | wint | wand |
-| 1 plural | windað | wundon |
-| 2 plural | windað | wundon |
-| 3 plural | windað | wundon |
+| 1 sg. | winde | wand |
+| 2 sg. | wintst | wunde |
+| 3 sg. | wint | wand |
+| 1–3 pl. | windað | wundon |
 
 ### spǣtan: present and preterite indicative
 
@@ -1899,12 +1985,10 @@ Retain long ǣ. The t-stem has selected present third singular -tt and weak pret
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | spǣte | spǣtte |
-| 2 singular | spǣtst | spǣttest |
-| 3 singular | spǣtt | spǣtte |
-| 1 plural | spǣtað | spǣtton |
-| 2 plural | spǣtað | spǣtton |
-| 3 plural | spǣtað | spǣtton |
+| 1 sg. | spǣte | spǣtte |
+| 2 sg. | spǣtst | spǣttest |
+| 3 sg. | spǣtt | spǣtte |
+| 1–3 pl. | spǣtað | spǣtton |
 
 ### tǣlan: present and preterite indicative
 
@@ -1920,12 +2004,10 @@ This long-stem weak verb has a preterite in -de. The person blamed is accusative
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | tǣle | tǣlde |
-| 2 singular | tǣlst | tǣldest |
-| 3 singular | tǣlð | tǣlde |
-| 1 plural | tǣlað | tǣldon |
-| 2 plural | tǣlað | tǣldon |
-| 3 plural | tǣlað | tǣldon |
+| 1 sg. | tǣle | tǣlde |
+| 2 sg. | tǣlst | tǣldest |
+| 3 sg. | tǣlð | tǣlde |
+| 1–3 pl. | tǣlað | tǣldon |
 
 ### bīegan: present and preterite indicative
 
@@ -1941,12 +2023,10 @@ Use the selected long-diphthong stem bīeg- with weak endings. This transitive v
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | bīege | bīegde |
-| 2 singular | bīegst | bīegdest |
-| 3 singular | bīegð | bīegde |
-| 1 plural | bīegað | bīegdon |
-| 2 plural | bīegað | bīegdon |
-| 3 plural | bīegað | bīegdon |
+| 1 sg. | bīege | bīegde |
+| 2 sg. | bīegst | bīegdest |
+| 3 sg. | bīegð | bīegde |
+| 1–3 pl. | bīegað | bīegdon |
 
 ### gemunan: present and preterite indicative
 
@@ -1962,12 +2042,10 @@ This preterite-present verb has present first/third singular geman, second singu
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | geman | gemunde |
-| 2 singular | gemanst | gemundest |
-| 3 singular | geman | gemunde |
-| 1 plural | gemunon | gemundon |
-| 2 plural | gemunon | gemundon |
-| 3 plural | gemunon | gemundon |
+| 1 sg. | geman | gemunde |
+| 2 sg. | gemanst | gemundest |
+| 3 sg. | geman | gemunde |
+| 1–3 pl. | gemunon | gemundon |
 
 ### ðęncean: present and preterite indicative
 
@@ -1983,12 +2061,10 @@ The selected headword variant is ðęncean. Its weak preterite ðōht- changes t
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ðęnce | ðōhte |
-| 2 singular | ðęncst | ðōhtest |
-| 3 singular | ðęncð | ðōhte |
-| 1 plural | ðęnceað | ðōhton |
-| 2 plural | ðęnceað | ðōhton |
-| 3 plural | ðęnceað | ðōhton |
+| 1 sg. | ðęnce | ðōhte |
+| 2 sg. | ðęncst | ðōhtest |
+| 3 sg. | ðęncð | ðōhte |
+| 1–3 pl. | ðęnceað | ðōhton |
 
 ### blētsian: present and past participles
 
@@ -2110,8 +2186,8 @@ The weak -ian command has singular -a and plural -iað. Only this complete comma
 
 | Person and number | Command |
 | --- | --- |
-| 2 singular | cnuca |
-| 2 plural | cnuciað |
+| 2 sg. | cnuca |
+| 2 pl. | cnuciað |
 
 ### āhębban: singular and plural commands
 
@@ -2123,8 +2199,8 @@ The strong j-present has singular āhęfe and plural āhębbað. Only this compl
 
 | Person and number | Command |
 | --- | --- |
-| 2 singular | āhęfe |
-| 2 plural | āhębbað |
+| 2 sg. | āhęfe |
+| 2 pl. | āhębbað |
 
 ### plegian: singular and plural commands
 
@@ -2136,8 +2212,8 @@ The weak -ian command has singular -a and plural -iað. The assigned ordinary se
 
 | Person and number | Command |
 | --- | --- |
-| 2 singular | plega |
-| 2 plural | plegiað |
+| 2 sg. | plega |
+| 2 pl. | plegiað |
 
 ### cēosan: singular and plural commands
 
@@ -2149,8 +2225,8 @@ Use the unmutated present stem in the singular command and add -að for the plur
 
 | Person and number | Command |
 | --- | --- |
-| 2 singular | cēos |
-| 2 plural | cēosað |
+| 2 sg. | cēos |
+| 2 pl. | cēosað |
 
 ### tōcuman: present subjunctive
 
@@ -2166,12 +2242,10 @@ All three singular persons use -e and all three plural persons -en on the presen
 
 | Person and number | Present |
 | --- | --- |
-| 1 singular | tōcume |
-| 2 singular | tōcume |
-| 3 singular | tōcume |
-| 1 plural | tōcumen |
-| 2 plural | tōcumen |
-| 3 plural | tōcumen |
+| 1 sg. | tōcume |
+| 2 sg. | tōcume |
+| 3 sg. | tōcume |
+| 1–3 pl. | tōcumen |
 
 ### geweorðan: present subjunctive
 
@@ -2187,12 +2261,10 @@ All three singular persons use -e and all three plural persons -en on the presen
 
 | Person and number | Present |
 | --- | --- |
-| 1 singular | geweorðe |
-| 2 singular | geweorðe |
-| 3 singular | geweorðe |
-| 1 plural | geweorðen |
-| 2 plural | geweorðen |
-| 3 plural | geweorðen |
+| 1 sg. | geweorðe |
+| 2 sg. | geweorðe |
+| 3 sg. | geweorðe |
+| 1–3 pl. | geweorðen |
 
 ### leornian: present subjunctive
 
@@ -2204,12 +2276,10 @@ All three singular persons use -e and all three plural persons -en on the presen
 
 | Person and number | Present |
 | --- | --- |
-| 1 singular | leornie |
-| 2 singular | leornie |
-| 3 singular | leornie |
-| 1 plural | leornien |
-| 2 plural | leornien |
-| 3 plural | leornien |
+| 1 sg. | leornie |
+| 2 sg. | leornie |
+| 3 sg. | leornie |
+| 1–3 pl. | leornien |
 
 ### āhyldan: present subjunctive
 
@@ -2225,12 +2295,10 @@ All three singular persons use -e and all three plural persons -en on the presen
 
 | Person and number | Present |
 | --- | --- |
-| 1 singular | āhylde |
-| 2 singular | āhylde |
-| 3 singular | āhylde |
-| 1 plural | āhylden |
-| 2 plural | āhylden |
-| 3 plural | āhylden |
+| 1 sg. | āhylde |
+| 2 sg. | āhylde |
+| 3 sg. | āhylde |
+| 1–3 pl. | āhylden |
 
 ### ondrǣdan: present participle: strong and weak agreement
 
@@ -2242,23 +2310,37 @@ Remove final -e from the participle before adding an overt adjective ending. The
 
 <!-- table: u17-ondraedan-present-participle-agreement48-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | ondrǣdende | ondrǣdende | ondrǣdendu | ondrǣdende | ondrǣdendu | ondrǣdenda |
-| Genitive | ondrǣdendes | ondrǣdendes | ondrǣdendre | ondrǣdendra | ondrǣdendra | ondrǣdendra |
-| Dative | ondrǣdendum | ondrǣdendum | ondrǣdendre | ondrǣdendum | ondrǣdendum | ondrǣdendum |
-| Accusative | ondrǣdendne | ondrǣdende | ondrǣdende | ondrǣdende | ondrǣdendu | ondrǣdenda |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ondrǣdende | ondrǣdende | ondrǣdendu |
+| Genitive | ondrǣdendes | ondrǣdendes | ondrǣdendre |
+| Dative | ondrǣdendum | ondrǣdendum | ondrǣdendre |
+| Accusative | ondrǣdendne | ondrǣdende | ondrǣdende |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ondrǣdende | ondrǣdendu | ondrǣdenda |
+| Genitive | ondrǣdendra | ondrǣdendra | ondrǣdendra |
+| Dative | ondrǣdendum | ondrǣdendum | ondrǣdendum |
+| Accusative | ondrǣdende | ondrǣdendu | ondrǣdenda |
 
 **Weak.**
 
 <!-- table: u17-ondraedan-present-participle-agreement48-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | ondrǣdenda | ondrǣdende | ondrǣdende | ondrǣdendan | ondrǣdendan | ondrǣdendan |
-| Genitive | ondrǣdendan | ondrǣdendan | ondrǣdendan | ondrǣdendra | ondrǣdendra | ondrǣdendra |
-| Dative | ondrǣdendan | ondrǣdendan | ondrǣdendan | ondrǣdendum | ondrǣdendum | ondrǣdendum |
-| Accusative | ondrǣdendan | ondrǣdende | ondrǣdendan | ondrǣdendan | ondrǣdendan | ondrǣdendan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | ondrǣdenda | ondrǣdende | ondrǣdende |
+| Genitive | ondrǣdendan | ondrǣdendan | ondrǣdendan |
+| Dative | ondrǣdendan | ondrǣdendan | ondrǣdendan |
+| Accusative | ondrǣdendan | ondrǣdende | ondrǣdendan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | ondrǣdendan | ondrǣdendan | ondrǣdendan |
+| Genitive | ondrǣdendra | ondrǣdendra | ondrǣdendra |
+| Dative | ondrǣdendum | ondrǣdendum | ondrǣdendum |
+| Accusative | ondrǣdendan | ondrǣdendan | ondrǣdendan |
 
 ### hyngran: present participle: strong and weak agreement
 
@@ -2274,23 +2356,37 @@ Remove final -e from the participle before adding an overt adjective ending. The
 
 <!-- table: u17-hyngran-present-participle-agreement48-STRONG-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hyngrende | hyngrende | hyngrendu | hyngrende | hyngrendu | hyngrenda |
-| Genitive | hyngrendes | hyngrendes | hyngrendre | hyngrendra | hyngrendra | hyngrendra |
-| Dative | hyngrendum | hyngrendum | hyngrendre | hyngrendum | hyngrendum | hyngrendum |
-| Accusative | hyngrendne | hyngrende | hyngrende | hyngrende | hyngrendu | hyngrenda |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hyngrende | hyngrende | hyngrendu |
+| Genitive | hyngrendes | hyngrendes | hyngrendre |
+| Dative | hyngrendum | hyngrendum | hyngrendre |
+| Accusative | hyngrendne | hyngrende | hyngrende |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hyngrende | hyngrendu | hyngrenda |
+| Genitive | hyngrendra | hyngrendra | hyngrendra |
+| Dative | hyngrendum | hyngrendum | hyngrendum |
+| Accusative | hyngrende | hyngrendu | hyngrenda |
 
 **Weak.**
 
 <!-- table: u17-hyngran-present-participle-agreement48-WEAK-DISPLAY -->
 
-| Case | Masculine singular | Neuter singular | Feminine singular | Masculine plural | Neuter plural | Feminine plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hyngrenda | hyngrende | hyngrende | hyngrendan | hyngrendan | hyngrendan |
-| Genitive | hyngrendan | hyngrendan | hyngrendan | hyngrendra | hyngrendra | hyngrendra |
-| Dative | hyngrendan | hyngrendan | hyngrendan | hyngrendum | hyngrendum | hyngrendum |
-| Accusative | hyngrendan | hyngrende | hyngrendan | hyngrendan | hyngrendan | hyngrendan |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hyngrenda | hyngrende | hyngrende |
+| Genitive | hyngrendan | hyngrendan | hyngrendan |
+| Dative | hyngrendan | hyngrendan | hyngrendan |
+| Accusative | hyngrendan | hyngrende | hyngrendan |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hyngrendan | hyngrendan | hyngrendan |
+| Genitive | hyngrendra | hyngrendra | hyngrendra |
+| Dative | hyngrendum | hyngrendum | hyngrendum |
+| Accusative | hyngrendan | hyngrendan | hyngrendan |
 
 ### gesēon: preterite subjunctive
 
@@ -2306,12 +2402,10 @@ Build the past subjunctive on the plural preterite stem gesāw-. All three singu
 
 | Person and number | Preterite |
 | --- | --- |
-| 1 singular | gesāwe |
-| 2 singular | gesāwe |
-| 3 singular | gesāwe |
-| 1 plural | gesāwen |
-| 2 plural | gesāwen |
-| 3 plural | gesāwen |
+| 1 sg. | gesāwe |
+| 2 sg. | gesāwe |
+| 3 sg. | gesāwe |
+| 1–3 pl. | gesāwen |
 
 ### sęttan: present subjunctive
 
@@ -2327,12 +2421,10 @@ All three singular persons use -e and all three plural persons -en on the presen
 
 | Person and number | Present |
 | --- | --- |
-| 1 singular | sętte |
-| 2 singular | sętte |
-| 3 singular | sętte |
-| 1 plural | sętten |
-| 2 plural | sętten |
-| 3 plural | sętten |
+| 1 sg. | sętte |
+| 2 sg. | sętte |
+| 3 sg. | sętte |
+| 1–3 pl. | sętten |
 
 ### etan: present subjunctive
 
@@ -2344,12 +2436,10 @@ All three singular persons use -e and all three plural persons -en on the presen
 
 | Person and number | Present |
 | --- | --- |
-| 1 singular | ete |
-| 2 singular | ete |
-| 3 singular | ete |
-| 1 plural | eten |
-| 2 plural | eten |
-| 3 plural | eten |
+| 1 sg. | ete |
+| 2 sg. | ete |
+| 3 sg. | ete |
+| 1–3 pl. | eten |
 
 ### forgiefan: singular and plural commands
 
@@ -2361,8 +2451,8 @@ Use the unmutated present stem for the singular command and -að for the plural.
 
 | Person and number | Command |
 | --- | --- |
-| 2 singular | forgief |
-| 2 plural | forgiefað |
+| 2 sg. | forgief |
+| 2 pl. | forgiefað |
 
 ### gesēon: plain and inflected infinitives
 

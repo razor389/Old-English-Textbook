@@ -1,6 +1,6 @@
 # Unit 12 design proposal
 
-Unit 12 develops **tense, sequence, and voice** from the eleven reviewed units. The actual contracts and cumulative registers at `74da7bb`, not the archived experiment, establish prior teaching. This is a public design proposal; the coordinator reconciles it with the independent source and grammar audits and checkpoints the learning contract before either master is drafted.
+Unit 12 develops **tense, sequence, and voice** from the eleven reviewed units. The actual contracts and cumulative registers at `74da7bb`, establish prior teaching. This is a public design proposal; the coordinator reconciles it with the independent source and grammar audits and checkpoints the learning contract before either master is drafted.
 
 Retain all **38 original Cook prompts**, Group VI, Exercises 19–21: seventeen, nine and twelve items. Preserve their exact English, parenthetical and bracketed controls, number indications and section references. Keep editorial directions and any local help separate. Exercises 19–21 stay complete; no item is silently omitted or reassigned.
 

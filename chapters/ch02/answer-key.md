@@ -62,12 +62,12 @@ Grammatical gender governs the choice. English “it” alone does not determine
 
 1. **Hīeran**, “hear”:
 
-| Person | Present | Preterite |
-|---|---|---|
-| 1 singular | hīere | hīerde |
-| 2 singular | hīerst | hīerdest |
-| 3 singular | hīerð | hīerde |
-| 1, 2 and 3 plural | hīerað | hīerdon |
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | hīere | hīerde |
+| 2 sg. | hīerst | hīerdest |
+| 3 sg. | hīerð | hīerde |
+| 1–3 pl. | hīerað | hīerdon |
 
 **Git hīerdon**, “you two heard”. The dual subject takes the second-person plural form. Present **hīerst/hīerð** and past **hīerdest/hīerde** must remain distinct.
 
@@ -101,12 +101,12 @@ Grammatical gender governs the choice. English “it” alone does not determine
 
 7. **Geręstan**, “rest”:
 
-| Person | Present | Preterite |
-|---|---|---|
-| 1 singular | geręste | geręste |
-| 2 singular | geręstest | geręstest |
-| 3 singular | geręst | geręste |
-| 1, 2 and 3 plural | geręstað | geręston |
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | geręste | geręste |
+| 2 sg. | geręstest | geręstest |
+| 3 sg. | geręst | geręste |
+| 1–3 pl. | geręstað | geręston |
 
 **Hē geręste hine**, “he rested himself/he rested”. **Hē** is nominative, **hine** accusative and coreferential with it. Contracted present 2 singular **geręst** is also valid; the table selects **geręstest**. Past **geręste** has one **t**, and its spelling alone permits first or third singular.
 
@@ -115,12 +115,12 @@ Grammatical gender governs the choice. English “it” alone does not determine
 
 8. **Sęllan**, “give”:
 
-| Person | Present | Preterite |
-|---|---|---|
-| 1 singular | sęlle | sealde |
-| 2 singular | sęlst | sealdest |
-| 3 singular | sęlð | sealde |
-| 1, 2 and 3 plural | sęllað | sealdon |
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | sęlle | sealde |
+| 2 sg. | sęlst | sealdest |
+| 3 sg. | sęlð | sealde |
+| 1–3 pl. | sęllað | sealdon |
 
 **Ic sęlle**, “I give”; **ic sealde**, “I gave”. The changed past stem is lexical. Present **sęlest/sęleð** are valid alternatives to **sęlst/sęlð**; they do not produce a regular past in **-ede**.
 
@@ -144,12 +144,12 @@ Grammatical gender governs the choice. English “it” alone does not determine
 
 12. **Nęrian**, “save”:
 
-| Person | Present | Preterite |
-|---|---|---|
-| 1 singular | nęrie | nęrede |
-| 2 singular | nęrest | nęredest |
-| 3 singular | nęreð | nęrede |
-| 1, 2 and 3 plural | nęriað | nęredon |
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | nęrie | nęrede |
+| 2 sg. | nęrest | nęredest |
+| 3 sg. | nęreð | nęrede |
+| 1–3 pl. | nęriað | nęredon |
 
 **Wit nęriað**, “we two save”; **ðū nęredest**, “you saved”. Retain present **i** in the first singular and plural, but not in **nęrest/nęreð** or the selected past **nęred-**. Dual **wit** takes the plural verb.
 
@@ -158,12 +158,12 @@ Grammatical gender governs the choice. English “it” alone does not determine
 
 13. **Lufian**, “love”:
 
-| Person | Present | Preterite |
-|---|---|---|
-| 1 singular | lufie | lufode |
-| 2 singular | lufast | lufodest |
-| 3 singular | lufað | lufode |
-| 1, 2 and 3 plural | lufiað | lufodon |
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | lufie | lufode |
+| 2 sg. | lufast | lufodest |
+| 3 sg. | lufað | lufode |
+| 1–3 pl. | lufiað | lufodon |
 
 The present second-singular ending contains **a**, **-ast**; the preterite has **o**, **-od-**. Its infinitive **-ian** does not justify Class I **-est/-ede**. **Lufedon** is a valid source plural alternative; **lufodon** is the selected target.
 
@@ -177,12 +177,12 @@ The present second-singular ending contains **a**, **-ast**; the preterite has *
 
 15. **Habban**, “have, possess”:
 
-| Person | Present | Preterite |
-|---|---|---|
-| ic | hæbbe | hæfde |
-| ðū | hæfst | hæfdest |
-| hē / hēo / hit | hæfð | hæfde |
-| wē / gē / hīe | habbað | hæfdon |
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg.: ic | hæbbe | hæfde |
+| 2 sg.: ðū | hæfst | hæfdest |
+| 3 sg.: hē / hēo / hit | hæfð | hæfde |
+| 1–3 pl.: wē / gē / hīe | habbað | hæfdon |
 
 Each slash-separated pronoun has the verb printed in its row. The third singular may use any appropriate **hē/hēo/hit**; the plural row represents each of first, second and third person. Source variants **hafast, hafað, hæbbað** remain valid. The requested paradigm is affirmative; **næbbe** is a negative form.
 
@@ -191,12 +191,12 @@ Each slash-separated pronoun has the verb printed in its row. The third singular
 
 16. **Libban**, “live”:
 
-| Person | Present | Preterite |
-|---|---|---|
-| 1 singular | libbe | lifde |
-| 2 singular | leofast | lifdest |
-| 3 singular | leofað | lifde |
-| 1, 2 and 3 plural | libbað | lifdon |
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | libbe | lifde |
+| 2 sg. | leofast | lifdest |
+| 3 sg. | leofað | lifde |
+| 1–3 pl. | libbað | lifdon |
 
 Keep **libb-** in the selected first singular/plural present, **leof-** in the other present singular persons, and **lifd-** in the past. **Lifiað** is a valid alternative present plural; the selected table is not a regular **lufian** paradigm.
 
@@ -205,12 +205,12 @@ Keep **libb-** in the selected first singular/plural present, **leof-** in the o
 
 17. **Sęcgan**, “say”:
 
-| Person | Present | Preterite |
-|---|---|---|
-| 1 singular | sęcge | sægde |
-| 2 singular | sægst | sægdest |
-| 3 singular | sægð | sægde |
-| 1, 2 and 3 plural | sęcgað | sægdon |
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | sęcge | sægde |
+| 2 sg. | sægst | sægdest |
+| 3 sg. | sægð | sægde |
+| 1–3 pl. | sęcgað | sægdon |
 
 Documented alternatives include **sęgst/sagast**, **sęgð/sagað**, plural **sęcgeað**, and the past series **sǣde, sǣdest, sǣdon**. Use a source-supported series and preserve its quantities. No indirect-speech construction is being tested.
 
@@ -219,12 +219,12 @@ Documented alternatives include **sęgst/sagast**, **sęgð/sagað**, plural **s
 
 18. **Hycgan**, “think”:
 
-| Person | Present | Preterite |
-|---|---|---|
-| 1 singular | hycge | hogode |
-| 2 singular | hygst | hogodest |
-| 3 singular | hygð | hogode |
-| 1, 2 and 3 plural | hycgað | hogodon |
+| Person and number | Present | Preterite |
+| --- | --- | --- |
+| 1 sg. | hycge | hogode |
+| 2 sg. | hygst | hogodest |
+| 3 sg. | hygð | hogode |
+| 1–3 pl. | hycgað | hogodon |
 
 Documented alternatives include **hogast/hogað**, plural **hycgeað**, and past **hogde, hogdest, hogdon**. The full selected morphology does not itself provide an indirect question or other complement frame.
 

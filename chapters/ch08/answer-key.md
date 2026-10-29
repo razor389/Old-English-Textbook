@@ -49,11 +49,11 @@ In paradigm tasks, give the selected table forms. **Hwām** is a documented dati
 <!-- key: KEY-NEW-U08-A04 -->
 **A04. Ilca: the same.**
 
-| Case | Masculine singular | Neuter plural |
-|---|---|---|
-| Nominative | ilca | ilcan |
-| Genitive | ilcan | ilcra |
-| Dative | ilcan | ilcum |
+| Case | Neuter plural | Masculine singular |
+| --- | --- | --- |
+| Nominative | ilcan | ilca |
+| Genitive | ilcra | ilcan |
+| Dative | ilcum | ilcan |
 | Accusative | ilcan | ilcan |
 
 **Target:** the two complete requested portions of the weak declension. **Ilca** follows the weak system; the unit assigns no strong alternative. Masculine nominative singular **ilca** is not a general invariant form for “same.” The plural genitive and dative are **ilcra/ilcum**, not singular **ilcan** repeated in every row.
@@ -108,19 +108,17 @@ The strong masculine accusative singular is **selfne**. The strong dative plural
 <!-- key: KEY-NEW-U08-A08 -->
 **A08. Ætēowian: appear.**
 
-| Indicative person and number | Present | Preterite |
-|---|---|---|
-| First singular | ætēowie | ætēowode |
-| Second singular | ætēowast | ætēowodest |
-| Third singular | ætēowað | ætēowode |
-| First plural | ætēowiað | ætēowodon |
-| Second plural | ætēowiað | ætēowodon |
-| Third plural | ætēowiað | ætēowodon |
+| Person and number | Present indicative | Preterite indicative |
+| --- | --- | --- |
+| 1 sg. | ætēowie | ætēowode |
+| 2 sg. | ætēowast | ætēowodest |
+| 3 sg. | ætēowað | ætēowode |
+| 1–3 pl. | ætēowiað | ætēowodon |
 
-| Subjunctive number | Present | Preterite |
-|---|---|---|
-| Singular: persons 1, 2, 3 | ætēowie | ætēowode |
-| Plural: persons 1, 2, 3 | ætēowien | ætēowoden |
+| Person and number | Present subjunctive | Preterite subjunctive |
+| --- | --- | --- |
+| 1–3 sg. | ætēowie | ætēowode |
+| 1–3 pl. | ætēowien | ætēowoden |
 
 **Target:** the full assigned weak-II indicative and subjunctive systems. Each subjunctive row includes all three persons of its number; a dual subject also takes a plural finite verb. Present **-ie/-ien** contrasts with the preterite stem **ætēowod-**. Some forms coincide across moods: **ætēowie** is also first-singular present indicative, and **ætēowode** also first- or third-singular preterite indicative. Analyse the clause, not merely the spelling. This intransitive “appear” is distinct from the transitive verb “reveal, display.”
 
@@ -128,15 +126,19 @@ The strong masculine accusative singular is **selfne**. The strong dative plural
 <!-- key: KEY-NEW-U08-A09 -->
 **A09. Shining; commands to bless.**
 
-| Scīnan: subjunctive number | Present | Preterite |
-|---|---|---|
-| Singular: persons 1, 2, 3 | scīne | scine |
-| Plural: persons 1, 2, 3 | scīnen | scinen |
+**Scīnan**
 
-| Geblētsian: second-person command | Form |
-|---|---|
-| One person addressed | geblētsa |
-| Two or more people addressed | geblētsiað |
+| Person and number | Present subjunctive | Preterite subjunctive |
+| --- | --- | --- |
+| 1–3 sg. | scīne | scine |
+| 1–3 pl. | scīnen | scinen |
+
+**Geblētsian**
+
+| Person and number | Command |
+| --- | --- |
+| 2 sg. | geblētsa |
+| 2 pl. | geblētsiað |
 
 **Target:** retain long **ī** in the present subjunctive and short **i** in the preterite subjunctive, which uses the strong preterite plural stem. Do not substitute singular indicative **scān**. Each subjunctive entry covers persons 1, 2 and 3 in its number. The commands are second person; **geblētsiað** also coincides in spelling with a present indicative plural, but command force determines its use here.
 

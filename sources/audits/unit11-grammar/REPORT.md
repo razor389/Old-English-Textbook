@@ -2,7 +2,7 @@
 
 The proposed grammar package is ready for coordinator reconciliation. It contains 14 defined verbal systems with 98 cells: seven complete present/preterite indicative systems, five present/past participle base pairs, both gewītan commands, and both scēawian infinitive shapes. The inflected scēawian infinitive is recognition reference; all other displayed cells have the bounded productive morphology stated in their records.
 
-The audit uses all ten active contracts and the actual registers captured at `fdddbe6`, rather than archived course milestones. The retained baseline has 447 lemmas, 6,564 forms, 519 senses and 428 grammar features. `prior-audit.json` preserves the relevant actual records and limits. No Unit 11 private model, answer key, author-only witness or coordinator translation witness was opened. This analyst did not author learner tasks or answers.
+The audit uses all ten active contracts and the actual registers captured at `fdddbe6`. The retained baseline has 447 lemmas, 6,564 forms, 519 senses and 428 grammar features. `prior-audit.json` preserves the relevant actual records and limits. No Unit 11 private model, answer key, author-only witness or coordinator translation witness was opened. This analyst did not author learner tasks or answers.
 
 ## Package
 

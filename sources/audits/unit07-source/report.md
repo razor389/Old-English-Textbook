@@ -2,7 +2,7 @@
 
 Source-editor handoff, 23 October 2026. This audit covers **all 34 assigned Cook prompts** and the complete fifth-day Creation paragraph. It proposes no Unit 8 work and does not itself assign or certify teaching. The coordinator owns Beads, the coverage contract, canonical source dispositions and registers.
 
-The six actual active contracts and cumulative registers were checked against the immutable `build/unit07-prior-baseline.json`, checkpoint `47b92a4`. Earlier source exposure and bare participial citations were not treated as teaching. No earlier active file, register, registry, brief, or archived file was changed by this source editor.
+The six actual active contracts and cumulative registers were checked against the immutable `build/unit07-prior-baseline.json`, checkpoint `47b92a4`. Earlier source exposure and bare participial citations were not treated as teaching. No earlier active file, register, registry, brief was changed by this source editor.
 
 ## Stable deliverables
 
@@ -22,7 +22,7 @@ The ignored helper `build/unit07-source-audit.py` reconstructs the structured au
 
 The exact reading is Cook's *First Book*, second edition, printed **126 / one-based PDF 142**, editorial prose lines **5–14**, from **God cwæð ēac swilce** through **se fīfta dæg.** It is the complete fifth day. The sixth-day continuation on printed 127 was inspected solely as evidence for authority with **ofer + accusative** and related lexical frames; it is not proposed as another reading assignment.
 
-The fifth-day paragraph subsumes the earlier deferred record **`ch02-text-01`**, alias **`ch02-reader-birds`**, at printed 126 editorial lines 12–13. The coordinator should reconcile that alias into the new whole-paragraph assignment without silently duplicating it or rewriting earlier contracts. Printed marginal anchors 5, 10 and 15 support the editorial prose-line count; not every line bears a printed numeral.
+The fifth-day paragraph subsumes the earlier deferred record **`FB-I-CREATION-BIRDS-CLAUSE`**, alias **`FB-I-CREATION-BIRDS-EXCERPT`**, at printed 126 editorial lines 12–13. The coordinator should reconcile that alias into the new whole-paragraph assignment without silently duplicating it or rewriting earlier contracts. Printed marginal anchors 5, 10 and 15 support the editorial prose-line count; not every line bears a printed numeral.
 
 No Old English word or ending was changed. Line wrapping and the two line-end hyphens in *swimmendu* and *styriendlicu* are removed only in the learner flow. Original superscript cues are represented by a separate complete note inventory. Source **męrgen**, **styriendlicu**, **cucu**, **blētsode**, and all quantities remain visible.
 

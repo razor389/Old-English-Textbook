@@ -107,8 +107,8 @@ check(set(dispositions) == expected, 'Incomplete Cook item crosswalk')
 unique(dispositions, 'Cook dispositions')
 
 source_files = [
-    ROOT / 'reference/previous-course/sources/transcriptions/ch01/exercise-1.md',
-    ROOT / 'reference/previous-course/sources/transcriptions/ch02/exercise-2.md',
+    ROOT / 'sources/transcriptions/cook-ex-01.md',
+    ROOT / 'sources/transcriptions/cook-ex-02.md',
     ROOT / 'sources/audits/unit01-source/exercise-3.md',
 ]
 for exercise, path in enumerate(source_files, 1):

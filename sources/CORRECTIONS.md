@@ -1,12 +1,12 @@
-# Carried-forward correction evidence
+# Correction evidence
 
 ## C01: wǣstm → wæstm
 
-The previous course corrects Cook's long-vowel **wǣstm** to short-vowel **wæstm**, and consequently uses **wæstmas**. Preserve the source spelling in transcriptions. Apply the correction in new learner text where this lemma occurs, citing it in a section note and recording the affected items.
+The course corrects Cook's long-vowel **wǣstm** to short-vowel **wæstm**, and consequently uses **wæstmas**. Preserve the source spelling in transcriptions. Apply the correction in learner text where this lemma occurs, citing it in a section note and recording the affected items.
 
-Evidence: [Baker's glossary, wæstm](https://glossary.oldenglishaerobics.net/oeaginfo.php?objid=xwaestm&objtype=gentry), and [Stenroos (2024), p.118, Table 1](https://doi.org/10.17811/selim.29.2024.109-25), whose [page image](../reference/previous-course/sources/analysis/ch01-lexical/stenroos-2024-p118.png) was checked. See the [lexical report](../reference/previous-course/sources/analysis/ch01-lexical/report.md) and [Chapter 1 editorial record](../reference/previous-course/chapters/ch01/editorial-notes.md).
+Evidence: [Baker's glossary, wæstm](https://glossary.oldenglishaerobics.net/oeaginfo.php?objid=xwaestm&objtype=gentry), and [Stenroos (2024), p.118, Table 1](https://doi.org/10.17811/selim.29.2024.109-25), whose [page image](corrections/c01/stenroos-2024-p118.png) explicitly places **wæstm** among lexemes with Old English short /æ/. The [correction record](corrections/c01/README.md) identifies the retained primary witnesses and the limits of the change.
 
-This is evidence reuse, not a new teaching milestone. Valid gender or inflectional alternatives should not be called corrections merely because another form is selected for the course. New corrections need their own source record and evidence.
+The active contracts establish teaching milestones. Valid gender or inflectional alternatives should not be called corrections merely because another form is selected for the course. New corrections need their own source record and evidence.
 
 ## C02: the objective genitive in Cook §153.d
 
@@ -33,7 +33,3 @@ The source editor and coordinator independently inspected the [exercise page](au
 In the selected *First Book*, printed p. 157 / one-based PDF 173, note 1 is attached to **ōðre** in **ofer ðā ōðre eorðan** and reads **“See p. 156, n. 12.”** The cited note 12 explains **torrum** as probably “crag.” The relevant parallel for **ōðre** is instead note 11 on p. 156 / PDF 172, which explains **se ōðer wudu** as “the rest of the forest.”
 
 Preserve the printed pointer in the original apparatus. Give the reading **“above the rest of the earth”** in separate learner help and identify note 11 as the relevant parallel. Treat the original pointer as an apparent mismatch; the evidence does not establish its cause or the editor's intention. The source editor and coordinator independently inspected both [p. 156](audits/unit14-source/dangers-001.png) and [p. 157](audits/unit14-source/dangers-002.png). No Old English wording changes.
-
-## Evidence limits to retain
-
-The previous Chapter 2 **ǣfenu** is derived from stated paradigms; its audit did not locate an independent textual occurrence. The reading's **eorðan** permits accusative/dative analyses after **ofer** and was supplied without testing a unique case. See [the Chapter 2 editorial record](../reference/previous-course/chapters/ch02/editorial-notes.md). A new paradigm or reading audit may refine these analyses; it must not silently upgrade their evidence status.

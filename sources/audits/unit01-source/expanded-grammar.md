@@ -1,6 +1,6 @@
 # Expanded nominal and copular source evidence
 
-22 October 2026. Source-editor report for Unit 1. This file records inspected evidence and proposed morphological analyses. It does not make assignments, write source-item answers, or confer teaching milestones. All prior archived instruction remains untaught in the new course.
+22 October 2026. Source-editor report for Unit 1. This file records inspected evidence and proposed morphological analyses. It does not make assignments, write source-item answers, or confer teaching milestones.
 
 The nominal grammar was inspected afresh in the selected Cook second edition, printed pp.26–37 / PDF42–53. The local images `nominal-1.png` through `nominal-12.png` are **rendering-sequence names**: image n = PDF(41+n) = printed(25+n). Thus [nominal-3.png](nominal-3.png) is p.28/PDF44, not PDF3. Every table, relevant note, and heading reported below was read from the image. OCR was used only to locate material.
 
@@ -99,7 +99,7 @@ FB §84 p50/PDF66 was freshly inspected. Its unmarked masculine **se** contrasts
 
 The feminine and plural use dative forms where no distinct instrumental form exists; do not claim the blank source cells are missing noun cases. The contract should decide whether instrumental use is taught now or merely displayed as reference. §84.1 explicitly distinguishes conjunction **ðæt** and adverb **ðā** from these pronoun/article forms; the exact first-day reading needs that distinction.
 
-FB §138 pp78–79/PDF94–95 prints the following indicative forms. Two present systems are given side by side. The old course's supplied **wæs** does not count as earlier teaching.
+FB §138 pp78–79/PDF94–95 prints the following indicative forms. Two present systems are given side by side.
 
 | Person and number | Present system1 | Present system2 | Preterite |
 |---|---|---|---|

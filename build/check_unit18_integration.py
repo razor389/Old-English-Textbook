@@ -86,32 +86,8 @@ for name, before, after in [('lexicon', b['lexicon'], lex), ('grammar', b['gramm
 prior_paths = [p for p in b['files'] if p not in ['lexicon/entries.json', 'curriculum/grammar.json']]
 for path in prior_paths:
     assert sha(path) == b['files'][path] or lfsha(path) == b['files_lf_sha256'][path], path
-for path, digest in b['archive_files'].items():
-    assert sha(path) == digest, path
-report = {
-    'chapter_id': 'ch18', 'status': 'accepted' if args.final else 'dry_run_pass',
-    'baseline_checkpoint': b['git_checkpoint_full'],
-    'method': 'Deep comparison against the immutable seventeen-unit baseline: every unassigned record unchanged, every old per-chapter record and earliest milestone preserved, evidence and source contracts preserved, existing surfaces identical, metadata history retained, new records equal accepted coverage.',
-    'metrics': read('build/unit18-register-metrics.json'),
-    'earlier_records_preserved': preserved,
-    'explicit_prior_promotions': promotions,
-    'prior_metadata_retained_for_changed_lemmas': changed_metadata,
-    'prior_active_files_preserved': len(prior_paths),
-    'archived_files_preserved': len(b['archive_files']),
-    'all_earlier_records_by_chapter_preserved': True,
-    'all_unassigned_records_unchanged': True,
-    'all_earliest_milestones_preserved': True,
-    'all_prior_evidence_and_supplied_histories_preserved': True,
-    'earlier_source_surfaces_unchanged': True,
-    'earlier_form_analyses_unchanged': True,
-    'contextual_analysis_reconciliations': len(c['form_identity_reconciliation']),
-    'contextual_analysis_register_location': 'lexicon/entries.json:form_analysis_reconciliations_by_chapter.ch18',
-    'new_record_status_counts': {k: dict(Counter(r['knowledge_status'] for r in records.values()))
-                                 for k, records in proposed.items()},
-    'reused_supplied_exposures': reused,
-    'bounded_scope': c['bounded_scope'],
-    'limits': ['Earlier source forms supplied again receive exposure history without recognition or production milestones.', 'No unrequested sequel or archived teaching milestone is included.']
-}
+
+report = {'chapter_id': 'ch18', 'status': 'accepted' if args.final else 'dry_run_pass', 'baseline_checkpoint': b['git_checkpoint_full'], 'method': 'Deep comparison against the immutable seventeen-unit baseline: every unassigned record unchanged, every old per-chapter record and earliest milestone preserved, evidence and source contracts preserved, existing surfaces identical, metadata history retained, new records equal accepted coverage.', 'metrics': read('build/unit18-register-metrics.json'), 'earlier_records_preserved': preserved, 'explicit_prior_promotions': promotions, 'prior_metadata_retained_for_changed_lemmas': changed_metadata, 'prior_active_files_preserved': len(prior_paths), 'all_earlier_records_by_chapter_preserved': True, 'all_unassigned_records_unchanged': True, 'all_earliest_milestones_preserved': True, 'all_prior_evidence_and_supplied_histories_preserved': True, 'earlier_source_surfaces_unchanged': True, 'earlier_form_analyses_unchanged': True, 'contextual_analysis_reconciliations': len(c['form_identity_reconciliation']), 'contextual_analysis_register_location': 'lexicon/entries.json:form_analysis_reconciliations_by_chapter.ch18', 'new_record_status_counts': {k: dict(Counter((r['knowledge_status'] for r in records.values()))) for k, records in proposed.items()}, 'reused_supplied_exposures': reused, 'bounded_scope': c['bounded_scope'], 'limits': ['Earlier source forms supplied again receive exposure history without recognition or production milestones.', 'No unrequested sequel is included.']}
 if args.final:
     assert c['textual_review']['status'] == c['presentation_review']['status'] == 'accepted'
     report['accepted_text_checkpoint'] = c['accepted_text_checkpoint']
@@ -122,5 +98,4 @@ if args.final:
 else:
     Path('build/unit18-register-preservation.json').write_text(
         json.dumps(report, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
-print(report['status'], preserved, len(prior_paths), 'earlier active files;',
-      len(b['archive_files']), 'archive files;', {k: len(v) for k, v in promotions.items()}, 'promotions')
+print(report['status'], preserved, len(prior_paths), 'earlier active files;', {k: len(v) for k, v in promotions.items()}, 'promotions')

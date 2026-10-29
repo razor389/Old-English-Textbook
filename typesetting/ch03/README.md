@@ -1,10 +1,38 @@
 # Unit 3 exports
 
-The learner PDF has **30 pages**; the separate key has **19**. The editable masters are [student.md](../../chapters/ch03/student.md) and [answer-key.md](../../chapters/ch03/answer-key.md). These are complete exports, including all vocabulary, recoverable full paradigms, 70 tasks, ten examples, both connected readings, local reading help, and source notes. They are not specimen selections.
+The accepted table-layout revision has a complete [learner PDF](chapter-03.pdf) of **31 pages** and a separate [answer-key PDF](answer-key.pdf) of **21 pages**. The changed pages and heading repairs passed independent visual review.
+
+Current [export identities and page counts](../../docs/revisions/table-layout/exports.json), [page acceptance](../../docs/revisions/table-layout/page-review.json), and the [validated build report](../../docs/revisions/table-layout/build-report.json) document this presentation revision. The [complete-content checks](../../docs/revisions/table-layout/export-text-review.json) and [logical-table review](../../docs/revisions/table-layout/table-review.json) preserve the teaching and source scope.
+
+Editable masters are [student.md](../../chapters/ch03/student.md) and [answer-key.md](../../chapters/ch03/answer-key.md); complete TeX sources are [chapter-03.tex](chapter-03.tex) and [answer-key.tex](answer-key.tex). The [course presentation revision](../../docs/revisions/table-layout/) records the mapping and checks separately from the original unit review.
+
+Tables follow the shared [layout](../book-layout.tex): 10.5-point type with 13.2-point leading, bold headings, horizontal rules and consistent case/person labels. Identical verbal plural cells share `1–3 pl.`; distinct forms remain separate. Counts of grammatical forms and cells describe the complete logical paradigm, which is unchanged by fewer printed rows. Nominal cases, variants, supported uses and teaching milestones retain their stated scope.
+
+## Reproduction
+
+Run from the repository root with the configured TeX Live, Cambria, Xpdf and Ghostscript installation:
+
+```powershell
+python -X utf8 scripts/check_course_layout.py --report build/course-layout-check.json
+python -X utf8 scripts/build_course_exports.py --stage all --select ch03/learner,ch03/key --include-unchanged --jobs 2 --render-suffix reproduction-01
+python -X utf8 scripts/check_course_exports.py --chapter 3 --report build/course-export-ch03-check.json
+```
+
+The shared build command compiles each complete document twice, checks table parity and build diagnostics, extracts its text and renders all pages. Choose a fresh `--render-suffix` for a later changed build. Use `--stage inspect` to inspect existing build products without compiling, or `--stage render` to regenerate page images from them. `--select` accepts comma-separated document IDs such as `ch01/learner,ch03/key`.
+
+The layout check compares expanded logical cells, actual Markdown/TeX tables, protected distinctions and frozen teaching content. The export check independently compares complete master prose, actual TeX cells and captions, and the built PDF text. The `--chapter` restriction above is a unit diagnostic; complete-course acceptance uses the unrestricted command in the [shared reproduction instructions](../README.md#reproduction). A later changed build needs fresh visual review bound to its PDF and page-image identities before it replaces an accepted PDF. Do not rerun historical assemblers, register mergers or baseline captures to rebuild exports.
+
+Reproduction outputs and reports remain under `build/`; the build helper does not replace retained PDFs or rewrite the durable acceptance records linked above.
+
+## Original unit acceptance and content scope
+
+The following records the unit's original linguistic acceptance and export evidence. Its page counts, physical table counts, PDF hashes and inspection claims describe that earlier checkpoint, not acceptance of the current presentation revision. The substantive teaching, task and logical-cell counts remain applicable.
+
+At the original export checkpoint: the learner PDF has **30 pages**; the separate key has **19**. The editable masters are [student.md](../../chapters/ch03/student.md) and [answer-key.md](../../chapters/ch03/answer-key.md). These are complete exports, including all vocabulary, recoverable full paradigms, 70 tasks, ten examples, both connected readings, local reading help, and source notes. They are not specimen selections.
 
 Textual and presentation review are accepted. All **49 final pages** were visually inspected by reviewers who did not author the corresponding master, with every finding resolved and the final file identities checked.
 
-## Content and review
+### Original content and review
 
 [content-parity.json](content-parity.json) records independent comparison of the Markdown block inventory with the actual TeX: **282 learner and 128 key paragraph/heading/list blocks**, **29 learner and 22 key tables**, and **1,063 learner and 505 key table cells including headers**. Every editorial comment is preserved. All complete prose blocks also occur in the extracted PDF character stream, with only whitespace and Xpdf soft-hyphen encoding normalized. The four literal error asterisks in X2 remain characters, not Markdown emphasis.
 
@@ -12,28 +40,6 @@ The grammar presents 78 complete recoverable paradigms through full model tables
 
 The [textual review](../../chapters/ch03/review.md) preserves independent solving before key access and the resolution of every finding. The final page ledgers under [reviews](reviews/) identify the actual PDF and rendered-page hashes. The coordinator's consolidated [page-review.json](page-review.json) records final presentation acceptance and file identities. Earlier render findings are retained in the ledgers; they do not certify an uninspected later file.
 
-## Rebuilding
-
-Use LuaLaTeX with Cambria installed and the packages in [book-layout.tex](../book-layout.tex). The inherited trim is 165 × 241 mm; body type is 11/14.3 pt. Tables normally use 10.5/13.2 pt; two wide key tables use 10/12.8 pt. Unit 3 changes no shared layout or earlier export.
-
-From this directory, create `build` if needed, then run:
-
-```powershell
-New-Item -ItemType Directory -Force build
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build chapter-03.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build chapter-03.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build answer-key.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build answer-key.tex
-pdftotext -enc UTF-8 -layout build/chapter-03.pdf build/chapter-03.txt
-pdftotext -enc UTF-8 -layout build/answer-key.pdf build/answer-key.txt
-```
-
-The verified toolchain is LuaHBTeX 1.24.0 / TeX Live 2026, Xpdf `pdftotext`, and Ghostscript 10.08.0 at 150 dpi with text/graphics antialiasing. On this Windows installation LuaLaTeX needs access to the TeX/font directories under the owner's account. The final build logs contain no overfull/underfull boxes, missing characters, or unresolved rerun warnings.
-
-The page-reservation helper flushes the page builder before measuring remaining space. The first complete strong/weak models start together, and each hēah caption stays with its table. All tasks are kept with their labels; long apparatus tables repeat their headings across pages. The final TeX includes the hand-reviewed column widths and pagination adjustments. One-use assembly scratch files are ignored and are not authoritative replacements for this TeX.
-
-From the repository root, run `python -X utf8 scripts/check_unit03.py --draft --tex` after rebuilding the ignored logs and extracted text. This checks concrete contract, ID, source, prompt, character and build requirements; it does not replace linguistic review or visual inspection. PDF metadata may differ on rebuilding. Raw and normalized-LF hashes distinguish original working files from Git line-ending conversion; no spelling normalization is implied.
-
-Only copy rebuilt PDFs over the retained final PDFs after complete parity and page review. The final images can be reproduced with Ghostscript's `png16m` device, `-r150`, `-dTextAlphaBits=4` and `-dGraphicsAlphaBits=4`; the local TeX Live Ghostscript also needs its `Resource/Init`, `lib` and `kanji` directories supplied with `-I`.
+### Original checkpoints
 
 The pre-prose contract was saved at `9626f6f`; independently accepted text at `e528af8`; complete exports and reviewed registers at **`95c68d6`**. Later presentation-only captions and emphasis changes were independently checked and are recorded in the review. This export stage adds no new grammatical or lexical scope.

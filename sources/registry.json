@@ -31,7 +31,11 @@
           "pdf_page": 9,
           "purpose": "Exercises 1–2",
           "visually_checked": true,
-          "audit_scope": "All sixteen items of Group I, Exercise 1, and all twelve items of Exercise 2; faithful item transcriptions in reference/previous-course/sources/transcriptions/ch01 and ch02."
+          "audit_scope": "All sixteen items of Group I, Exercise 1, and all twelve items of Exercise 2; exact source transcripts and primary page image retained.",
+          "transcription_records": [
+            "sources/transcriptions/cook-ex-01.md",
+            "sources/transcriptions/cook-ex-02.md"
+          ]
         },
         {
           "printed": "2",
@@ -221,36 +225,36 @@
         {
           "printed": "125",
           "pdf_page": 141,
-          "purpose": "Reader I two-lights candidate, printed lines 12–13; deferred in archived ch02",
+          "purpose": "Reader I two-lights candidate, printed lines 12–13",
           "visually_checked": true
         },
         {
           "printed": "126",
           "pdf_page": 142,
-          "purpose": "Reader I birds clause, printed lines 12–13; assigned in archived ch02",
+          "purpose": "Reader I birds clause, printed lines 12–13",
           "visually_checked": true
         },
         {
           "printed": "103",
           "pdf_page": 119,
           "section": "193.a",
-          "purpose": "Optative command/wish support for archived ch02",
+          "purpose": "Optative command/wish support",
           "visually_checked": true
         },
         {
           "printed": "293",
           "pdf_page": 309,
-          "purpose": "Vocabulary ge-manig-fieldan; archived ch02 reading support",
+          "purpose": "Vocabulary ge-manig-fieldan; reading support",
           "visually_checked": true
         },
         {
           "printed": "307",
           "pdf_page": 323,
-          "purpose": "Vocabulary nīeten and ofer; archived ch02 sense verification",
+          "purpose": "Vocabulary nīeten and ofer; sense verification",
           "visually_checked": true
         }
       ],
-      "verification": "Inherited evidence retained; fresh expanded nominal/article/copula source audit and complete first-day Creation span checked. Remainder of Reader I and later reading boundaries are not comprehensively audited.",
+      "verification": "Selected grammatical, lexical and reading witnesses have individual image-based audits in the active unit evidence records. Locators and audit scope are recorded per witness; unassigned reader selections are not implied to have full linguistic audits.",
       "active_audits": [
         {
           "record": "sources/audits/unit01-source/expanded-grammar.md",
@@ -476,7 +480,7 @@
         "https://bosworthtoller.com/10158",
         "https://bosworthtoller.com/35339"
       ],
-      "purpose": "Lexical entries and attested examples supporting the archived Chapters 1–2 quantity, gender, plural-form, variant and spatial ofer evidence; reused facts remain distinct from active teaching milestones.",
+      "purpose": "Lexical entries and attested examples supporting quantity, gender, plural-form, variant and spatial ofer evidence; source facts remain distinct from active teaching milestones.",
       "accessed": "2026-10-22",
       "edition_note": "Online edition of historical dictionary and supplement; not described as newly published lexical research.",
       "unit04_coordinator_use": {
@@ -507,7 +511,7 @@
       "unit05_facsimile_record": "supporting_sources:bosworth_toller_1898_1921, entries beginningU05; digital entry text used as finding aid, original images as evidence.",
       "unit06_facsimile_record": "sources/audits/unit06-grammar/evidence.json; sources/audits/unit06-source/evidence.json; sources/audits/unit06-coordinator/evidence.json",
       "unit07_use": {
-        "record": "sources/audits/unit07-source/evidence-catalog.json",
+        "record": "sources/audits/unit07-source/evidence.json",
         "scope": "Inspected lexical/frame evidence; individual entries and source identities retained in catalog."
       },
       "unit08_use": {
@@ -587,7 +591,7 @@
       "original_identifier": "Table 1",
       "url": "https://doi.org/10.17811/selim.29.2024.109-25",
       "pdf_url": "https://reunido.uniovi.es/index.php/SELIM/article/download/21036/17205/77071",
-      "image": "reference/previous-course/sources/analysis/ch01-lexical/stenroos-2024-p118.png",
+      "image": "sources/corrections/c01/stenroos-2024-p118.png",
       "visually_checked": true,
       "purpose": "Explicit classification of wæstm among Old English short-/æ/ lexemes; correction C01",
       "accessed": "2026-10-21"
@@ -925,7 +929,7 @@
         "scope": "Actually inspected printed 49 §90 / PDF69, 213 §433 / PDF233 and 214 §434 / PDF234 establish nīwe quantity, the wilde paradigm and explicit class membership. The supplied nīwne is rule-derived; no separate token-attestation claim."
       },
       "unit18_use": {
-        "scope": "Selected primary-image rules corroborate explicitly bounded morphology and exceptions; §559(3), printed 295 / PDF 315, supports dative ætforan in the reviewed correction. Reused archived images supply evidence, never inherited teaching milestones.",
+        "scope": "Selected primary-image rules corroborate explicitly bounded morphology and exceptions; §559(3), printed 295 / PDF 315, supports dative ætforan in the reviewed correction.",
         "source_evidence": "sources/audits/unit18-source/evidence-catalog.json",
         "grammar_evidence": "sources/audits/unit18-grammar/evidence-catalog.json",
         "review_support": "chapters/ch18/support-amendment-spec.json",
@@ -1474,7 +1478,7 @@
         "accessed": "2026-10-23"
       },
       "unit07_use": {
-        "record": "sources/audits/unit07-source/evidence-catalog.json",
+        "record": "sources/audits/unit07-source/evidence.json",
         "scope": "Inspected lexical/frame evidence; individual entries and source identities retained in catalog."
       },
       "unit08_use": {
@@ -1626,11 +1630,6 @@
       }
     }
   ],
-  "inheritance": {
-    "source_commit": "7dd99f938d4969147fe3d996c42a344d9fc4cb90",
-    "evidence_root": "reference/previous-course",
-    "note": "Earlier verification describes source facts only. Mentions of ch01/ch02 in inherited locators refer to the previous course; no active assignment is implied."
-  },
   "local_cache": [
     {
       "path": "sources/cache/cook_ex_1895.pdf",
@@ -1681,5 +1680,11 @@
       "contents_url": "https://cincinnatistate.ecampus.com/introduction-gothic-language-lambdin/bk/9781597523943",
       "accessed": "2026-10-22"
     }
-  ]
+  ],
+  "source_metadata_maintenance": {
+    "date": "2026-10-29",
+    "evidence_manifest": "docs/revisions/table-layout/source-evidence.json",
+    "review": "docs/revisions/table-layout/cleanup-review.json",
+    "scope": "Primary images and exact exercise transcriptions retained at source-specific paths; source-PDF and crop provenance explicit. Teaching is governed by the active contracts and cumulative registers."
+  }
 }

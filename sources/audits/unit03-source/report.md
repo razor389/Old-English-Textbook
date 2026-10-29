@@ -2,7 +2,7 @@
 
 The complete fourth-day account is a coherent supported reading for the adjective, comparison, and number unit. It introduces the two lights, distinguishes the greater and lesser, states their purposes, and closes with the fourth day. It should follow independent controlled reading: its wishes, purpose clause, and resultative formulas still need explicit local support.
 
-This source audit proposes assignments and teaching requirements. It does not create assignments or teaching milestones. The coordinator must reconcile it with the independent morphology audit and task design in the Unit 3 contract before prose. No prior contract, active register, shared source index, or archived file was edited.
+This source audit proposes assignments and teaching requirements. It does not create assignments or teaching milestones. The coordinator must reconcile it with the independent morphology audit and task design in the Unit 3 contract before prose. No prior contract, active register, shared source index was edited.
 
 ## Files and authority
 
@@ -76,9 +76,9 @@ The source passage is therefore a useful supported reading after the new morphol
 
 ## Earlier deferred records
 
-The complete span subsumes the earlier lights candidate **`ch02-reader-lights`**, p. 125 lines 12–13. Its inherited snippet ends **lēoht;**, whereas the page image has **lēoht:**. The new full transcription records the correct colon. Preserve the snapshot and reconcile this as one source span with an alias, not a duplicate assignment or an unrecorded rewrite of the old contract.
+The complete span contains **`FB-I-CREATION-LUMINARIES-CLAUSE`**, p. 125 lines 12–13. The page image and full transcription have **lēoht:** with a colon. This excerpt is part of the single fourth-day assignment.
 
-The birds passage is **audit_record_id `ch02-text-01`**, with **editorial_audit_id `ch02-reader-birds`**, p. 126 lines 12–13. It is outside the fourth-day span and remains deferred to Unit 7. The p. 126 page image can supply evidence for diagnosing item 18 without assigning those later reader lines in Unit 3.
+The birds passage is **audit_record_id `FB-I-CREATION-BIRDS-CLAUSE`**, with **editorial_audit_id `FB-I-CREATION-BIRDS-EXCERPT`**, p. 126 lines 12–13. It is outside the fourth-day span and remains deferred to Unit 7. The p. 126 page image can supply evidence for diagnosing item 18 without assigning those later reader lines in Unit 3.
 
 ## Checks and remaining coordination
 

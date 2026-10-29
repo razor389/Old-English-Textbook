@@ -1,6 +1,6 @@
 # Unit 7 curriculum analysis: ready for the coordinator's contract
 
-The proposal is complete. It assigns all 34 planned Cook items without deferral, adds 46 purposeful original tasks, and defines every required new form, sense, construction and local support before learner prose. The coordinator alone owns the contract, Beads updates and shared integration. No `bd` command was run by this worker, and no earlier unit or archived file was edited.
+The proposal is complete. It assigns all 34 planned Cook items without deferral, adds 46 purposeful original tasks, and defines every required new form, sense, construction and local support before learner prose. The coordinator alone owns the contract, Beads updates and shared integration. No `bd` command was run by this worker, and no earlier unit was edited.
 
 ## Deliverables
 
@@ -28,7 +28,7 @@ The ignored one-use helpers are `build/unit07-design-seed.py`, `build/unit07-des
 
 The display plan contains ordered headers, rows, surface forms and exact form IDs. The long *gemanigfieldan* subjunctive has its own compact tense-by-number matrix. Every agreement model has four complete Case × Gender matrices, divided by strong/weak and singular/plural; no model is replaced by an unexplained “decline like” instruction. The nominal and new indicative systems likewise have concrete ordered print matrices.
 
-The 46 original tasks comprise eight form/application tasks, eight participle/passive tasks, eight mood/interpretation tasks, six compositions, four controlled-reading tasks, six source-reading tasks and six cumulative tasks. Cook adds I.4.18, I.6.1–16 and I.7.1–17. The canonical numbered total becomes 113 assigned and 531 deferred when the coordinator integrates these 34 assignments. The full fifth-day source span explicitly contains and resolves the earlier `ch02-text-01` / `ch02-reader-birds` alias.
+The 46 original tasks comprise eight form/application tasks, eight participle/passive tasks, eight mood/interpretation tasks, six compositions, four controlled-reading tasks, six source-reading tasks and six cumulative tasks. Cook adds I.4.18, I.6.1–16 and I.7.1–17. The canonical numbered total becomes 113 assigned and 531 deferred when the coordinator integrates these 34 assignments. The full fifth-day source span explicitly contains `FB-I-CREATION-BIRDS-CLAUSE` / `FB-I-CREATION-BIRDS-EXCERPT` alias.
 
 ## Evidence and scope decisions
 

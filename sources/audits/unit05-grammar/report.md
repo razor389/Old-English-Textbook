@@ -6,7 +6,7 @@ The selected inventory is **33 complete present and preterite indicative systems
 
 ## Inputs and evidence convention
 
-All four earlier active coverage contracts and the actual cumulative lexical and grammatical registers were read before the analysis. `prior-inputs.json` records their identities. Supplied reader exposure is not prior mastery of a lexical conjugational system. In particular the existing tokens of gescieppan, cweðan, gesēon, hātan, geswīcan, cuman and standan need explicit finite promotion; supplied scīnan subjunctives remain supplied. The previous-course archive was not edited or treated as an active milestone.
+All four earlier active coverage contracts and the actual cumulative lexical and grammatical registers were read before the analysis. `prior-inputs.json` records their identities. Supplied reader exposure is not prior mastery of a lexical conjugational system. In particular the existing tokens of gescieppan, cweðan, gesēon, hātan, geswīcan, cuman and standan need explicit finite promotion; supplied scīnan subjunctives remain supplied.
 
 The selected Cook second-edition scan uses **printed page +16 = one-based PDF page**. Wright 1914 uses **+20**; Cook Exercises uses **+8**. The grammar section numbers below are original. No invented line numbers are attached to tables. Bosworth–Toller references identify the original 1898 main-dictionary page and printed column; its separate facsimile images have no local PDF-page number. OCR and indexed dictionary text were finding aids; the image claims used in this audit were checked visually. Evidence inherited from the parallel source audit is identified by its external catalogue and verifying agent.
 

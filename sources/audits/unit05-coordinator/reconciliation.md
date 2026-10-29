@@ -4,9 +4,9 @@ Status: source and grammar reconciliation accepted; final curriculum reference v
 
 ## Prior teaching and preservation
 
-Read the required project/editorial/workflow/handoff documents, settled course plan and Cook map, selected source registry, all four earlier active contracts and the actual cumulative registers. The actual records contain 211 lemmas, 2,735 forms, 231 senses and 165 constructions. The coordinator's compact reading views are derived from those records, not an archived syllabus. The curriculum worker independently resolves every earlier contracted form, sense and feature against the same registers.
+Read the required project/editorial/workflow/handoff documents, settled course plan and Cook map, selected source registry, all four earlier active contracts and the actual cumulative registers. The actual records contain 211 lemmas, 2,735 forms, 231 senses and 165 constructions. The coordinator's compact reading views are derived from those records. The curriculum worker independently resolves every earlier contracted form, sense and feature against the same registers.
 
-Baseline `80e0406` is retained in ignored `build/unit05-prior-baseline.json`: full earlier contracts/registers, raw and normalized-LF identities of 382 earlier active files, and exact identities of all 134 archived evidence files. Earlier active content and the historical snapshot remain unchanged. The two active registers are preserved as data baselines for additive reviewed integration.
+Baseline `80e0406` is retained in ignored `build/unit05-prior-baseline.json`: full earlier contracts/registers, raw and normalized-LF identities of 382 earlier active files. Earlier active content remains unchanged. The two active registers are preserved as data baselines for additive reviewed integration.
 
 ## Independent image checks by the coordinator
 

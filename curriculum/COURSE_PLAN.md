@@ -1,6 +1,6 @@
 # Course plan
 
-Outline settled 22 October 2026; all eighteen grammar-led units completed 28 October 2026. This outline records the teaching progression and allocation of every Cook exercise; the active unit contracts establish the detailed assignments and teaching scope. No teaching milestone is inherited from the previous course.
+Outline settled 22 October 2026; all eighteen grammar-led units completed 28 October 2026. This outline records the teaching progression and allocation of every Cook exercise; the active unit contracts establish the detailed assignments and teaching scope.
 
 ## Audience and method
 
@@ -77,4 +77,6 @@ The [Unit 17 source audit](../sources/audits/unit17-source/source-report.md), [g
 
 The completed [Unit 18 contract](../chapters/ch18/coverage.json), [source audit](../sources/audits/unit18-source/source-gate-report.json) and [grammar audit](../sources/audits/unit18-grammar/grammar-report.md) establish all 47 final Cook compositions and the complete gifts-and-farewell passage. There are 55 defined systems / 652 literal cells, two translated examples and 60 tasks / 87 answers. Every supplied dependency remains visible; independent production, recognition and supplied exposure remain separate. The current crosswalk is **644 assigned, zero deferred and none excluded**. All eighteen planned units are complete; additional readings, poetry or a sequel require a separate request and contract.
 
-Active coverage contracts, not this plan or the archive, are the canonical assignment crosswalk. Read all earlier active contracts and actual registers before developing a subsequent unit. Complete each requested unit through independent solving, review, complete learner/key PDFs, visual inspection, register integration, and a local Git checkpoint before drafting the next.
+Active coverage contracts establish the canonical assignment crosswalk. Read all earlier active contracts and actual registers before developing a subsequent unit. Complete each requested unit through independent solving, review, complete learner/key PDFs, visual inspection, register integration, and a local Git checkpoint before drafting the next.
+
+The [current presentation mapping](../docs/revisions/table-layout/tables.json) distinguishes complete logical paradigm cells from shared printed rows. The [accepted export manifest](../docs/revisions/table-layout/exports.json) records current learner/key page counts and identities.

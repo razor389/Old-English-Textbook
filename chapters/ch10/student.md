@@ -329,25 +329,41 @@ The following tables give complete strong and weak systems. Nominative, genitive
 
 <!-- table: NEW-U10-ADJ-HUNGRIG-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hungrig | hungrigu | hungrig | hungrige | hungriga | hungrigu |
-| Genitive | hungriges | hungrigre | hungriges | hungrigra | hungrigra | hungrigra |
-| Dative | hungrigum | hungrigre | hungrigum | hungrigum | hungrigum | hungrigum |
-| Accusative | hungrigne | hungrige | hungrig | hungrige | hungriga | hungrigu |
-| Instrumental | hungrige | as dative | hungrige | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hungrig | hungrig | hungrigu |
+| Genitive | hungriges | hungriges | hungrigre |
+| Dative | hungrigum | hungrigum | hungrigre |
+| Accusative | hungrigne | hungrig | hungrige |
+| Instrumental | hungrige | hungrige | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hungrige | hungrigu | hungriga |
+| Genitive | hungrigra | hungrigra | hungrigra |
+| Dative | hungrigum | hungrigum | hungrigum |
+| Accusative | hungrige | hungrigu | hungriga |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U10-ADJ-HUNGRIG-WEAK -->
 
 <!-- table: NEW-U10-ADJ-HUNGRIG-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | hungriga | hungrige | hungrige | hungrigan | hungrigan | hungrigan |
-| Genitive | hungrigan | hungrigan | hungrigan | hungrigra | hungrigra | hungrigra |
-| Dative | hungrigan | hungrigan | hungrigan | hungrigum | hungrigum | hungrigum |
-| Accusative | hungrigan | hungrigan | hungrige | hungrigan | hungrigan | hungrigan |
-| Instrumental | hungrigan | as dative | hungrigan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | hungriga | hungrige | hungrige |
+| Genitive | hungrigan | hungrigan | hungrigan |
+| Dative | hungrigan | hungrigan | hungrigan |
+| Accusative | hungrigan | hungrige | hungrigan |
+| Instrumental | hungrigan | hungrigan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | hungrigan | hungrigan | hungrigan |
+| Genitive | hungrigra | hungrigra | hungrigra |
+| Dative | hungrigum | hungrigum | hungrigum |
+| Accusative | hungrigan | hungrigan | hungrigan |
+| Instrumental | as dative | as dative | as dative |
 
 ### Adjectives with a lexical -e
 
@@ -357,25 +373,41 @@ The following tables give complete strong and weak systems. Nominative, genitive
 
 <!-- table: NEW-U10-ADJ-DEORWIERTH-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | dēorwierðe | dēorwierðu | dēorwierðe | dēorwierðe | dēorwierða | dēorwierðu |
-| Genitive | dēorwierðes | dēorwierðre | dēorwierðes | dēorwierðra | dēorwierðra | dēorwierðra |
-| Dative | dēorwierðum | dēorwierðre | dēorwierðum | dēorwierðum | dēorwierðum | dēorwierðum |
-| Accusative | dēorwierðne | dēorwierðe | dēorwierðe | dēorwierðe | dēorwierða | dēorwierðu |
-| Instrumental | dēorwierðe | as dative | dēorwierðe | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | dēorwierðe | dēorwierðe | dēorwierðu |
+| Genitive | dēorwierðes | dēorwierðes | dēorwierðre |
+| Dative | dēorwierðum | dēorwierðum | dēorwierðre |
+| Accusative | dēorwierðne | dēorwierðe | dēorwierðe |
+| Instrumental | dēorwierðe | dēorwierðe | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | dēorwierðe | dēorwierðu | dēorwierða |
+| Genitive | dēorwierðra | dēorwierðra | dēorwierðra |
+| Dative | dēorwierðum | dēorwierðum | dēorwierðum |
+| Accusative | dēorwierðe | dēorwierðu | dēorwierða |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U10-ADJ-DEORWIERTH-WEAK -->
 
 <!-- table: NEW-U10-ADJ-DEORWIERTH-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | dēorwierða | dēorwierðe | dēorwierðe | dēorwierðan | dēorwierðan | dēorwierðan |
-| Genitive | dēorwierðan | dēorwierðan | dēorwierðan | dēorwierðra | dēorwierðra | dēorwierðra |
-| Dative | dēorwierðan | dēorwierðan | dēorwierðan | dēorwierðum | dēorwierðum | dēorwierðum |
-| Accusative | dēorwierðan | dēorwierðan | dēorwierðe | dēorwierðan | dēorwierðan | dēorwierðan |
-| Instrumental | dēorwierðan | as dative | dēorwierðan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | dēorwierða | dēorwierðe | dēorwierðe |
+| Genitive | dēorwierðan | dēorwierðan | dēorwierðan |
+| Dative | dēorwierðan | dēorwierðan | dēorwierðan |
+| Accusative | dēorwierðan | dēorwierðe | dēorwierðan |
+| Instrumental | dēorwierðan | dēorwierðan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | dēorwierðan | dēorwierðan | dēorwierðan |
+| Genitive | dēorwierðra | dēorwierðra | dēorwierðra |
+| Dative | dēorwierðum | dēorwierðum | dēorwierðum |
+| Accusative | dēorwierðan | dēorwierðan | dēorwierðan |
+| Instrumental | as dative | as dative | as dative |
 
 ### Long stems and doubled consonants
 
@@ -385,25 +417,41 @@ The following tables give complete strong and weak systems. Nominative, genitive
 
 <!-- table: NEW-U10-ADJ-UNRIHTWIS-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | unrihtwīs | unrihtwīs | unrihtwīs | unrihtwīse | unrihtwīsa | unrihtwīs |
-| Genitive | unrihtwīses | unrihtwīsre | unrihtwīses | unrihtwīsra | unrihtwīsra | unrihtwīsra |
-| Dative | unrihtwīsum | unrihtwīsre | unrihtwīsum | unrihtwīsum | unrihtwīsum | unrihtwīsum |
-| Accusative | unrihtwīsne | unrihtwīse | unrihtwīs | unrihtwīse | unrihtwīsa | unrihtwīs |
-| Instrumental | unrihtwīse | as dative | unrihtwīse | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | unrihtwīs | unrihtwīs | unrihtwīs |
+| Genitive | unrihtwīses | unrihtwīses | unrihtwīsre |
+| Dative | unrihtwīsum | unrihtwīsum | unrihtwīsre |
+| Accusative | unrihtwīsne | unrihtwīs | unrihtwīse |
+| Instrumental | unrihtwīse | unrihtwīse | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | unrihtwīse | unrihtwīs | unrihtwīsa |
+| Genitive | unrihtwīsra | unrihtwīsra | unrihtwīsra |
+| Dative | unrihtwīsum | unrihtwīsum | unrihtwīsum |
+| Accusative | unrihtwīse | unrihtwīs | unrihtwīsa |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U10-ADJ-UNRIHTWIS-WEAK -->
 
 <!-- table: NEW-U10-ADJ-UNRIHTWIS-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | unrihtwīsa | unrihtwīse | unrihtwīse | unrihtwīsan | unrihtwīsan | unrihtwīsan |
-| Genitive | unrihtwīsan | unrihtwīsan | unrihtwīsan | unrihtwīsra | unrihtwīsra | unrihtwīsra |
-| Dative | unrihtwīsan | unrihtwīsan | unrihtwīsan | unrihtwīsum | unrihtwīsum | unrihtwīsum |
-| Accusative | unrihtwīsan | unrihtwīsan | unrihtwīse | unrihtwīsan | unrihtwīsan | unrihtwīsan |
-| Instrumental | unrihtwīsan | as dative | unrihtwīsan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | unrihtwīsa | unrihtwīse | unrihtwīse |
+| Genitive | unrihtwīsan | unrihtwīsan | unrihtwīsan |
+| Dative | unrihtwīsan | unrihtwīsan | unrihtwīsan |
+| Accusative | unrihtwīsan | unrihtwīse | unrihtwīsan |
+| Instrumental | unrihtwīsan | unrihtwīsan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | unrihtwīsan | unrihtwīsan | unrihtwīsan |
+| Genitive | unrihtwīsra | unrihtwīsra | unrihtwīsra |
+| Dative | unrihtwīsum | unrihtwīsum | unrihtwīsum |
+| Accusative | unrihtwīsan | unrihtwīsan | unrihtwīsan |
+| Instrumental | as dative | as dative | as dative |
 
 **Synfull**, “sinful”, likewise has no -u in those strong cells. Preserve the source headword's -ll in bare forms and before vowel endings. Before consonantal -ne, -re and -ra, simplify ll to l: **synfulne, synfulre, synfulra**. This spelling change affects the genitive plural in both declensions.
 
@@ -411,25 +459,41 @@ The following tables give complete strong and weak systems. Nominative, genitive
 
 <!-- table: NEW-U10-ADJ-SYNFULL-STRONG -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | synfull | synfull | synfull | synfulle | synfulla | synfull |
-| Genitive | synfulles | synfulre | synfulles | synfulra | synfulra | synfulra |
-| Dative | synfullum | synfulre | synfullum | synfullum | synfullum | synfullum |
-| Accusative | synfulne | synfulle | synfull | synfulle | synfulla | synfull |
-| Instrumental | synfulle | as dative | synfulle | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | synfull | synfull | synfull |
+| Genitive | synfulles | synfulles | synfulre |
+| Dative | synfullum | synfullum | synfulre |
+| Accusative | synfulne | synfull | synfulle |
+| Instrumental | synfulle | synfulle | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | synfulle | synfull | synfulla |
+| Genitive | synfulra | synfulra | synfulra |
+| Dative | synfullum | synfullum | synfullum |
+| Accusative | synfulle | synfull | synfulla |
+| Instrumental | as dative | as dative | as dative |
 
 <!-- teaching: NEW-U10-ADJ-SYNFULL-WEAK -->
 
 <!-- table: NEW-U10-ADJ-SYNFULL-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | synfulla | synfulle | synfulle | synfullan | synfullan | synfullan |
-| Genitive | synfullan | synfullan | synfullan | synfulra | synfulra | synfulra |
-| Dative | synfullan | synfullan | synfullan | synfullum | synfullum | synfullum |
-| Accusative | synfullan | synfullan | synfulle | synfullan | synfullan | synfullan |
-| Instrumental | synfullan | as dative | synfullan | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | synfulla | synfulle | synfulle |
+| Genitive | synfullan | synfullan | synfullan |
+| Dative | synfullan | synfullan | synfullan |
+| Accusative | synfullan | synfulle | synfullan |
+| Instrumental | synfullan | synfullan | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | synfullan | synfullan | synfullan |
+| Genitive | synfulra | synfulra | synfulra |
+| Dative | synfullum | synfullum | synfullum |
+| Accusative | synfullan | synfullan | synfullan |
+| Instrumental | as dative | as dative | as dative |
 
 ### The right side
 
@@ -439,13 +503,21 @@ The following tables give complete strong and weak systems. Nominative, genitive
 
 <!-- table: NEW-U10-ADJ-SWITHRA-WEAK -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | swīðra | swīðre | swīðre | swīðran | swīðran | swīðran |
-| Genitive | swīðran | swīðran | swīðran | swīðra | swīðra | swīðra |
-| Dative | swīðran | swīðran | swīðran | swīðrum | swīðrum | swīðrum |
-| Accusative | swīðran | swīðran | swīðre | swīðran | swīðran | swīðran |
-| Instrumental | swīðran | as dative | swīðran | as dative | as dative | as dative |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | swīðra | swīðre | swīðre |
+| Genitive | swīðran | swīðran | swīðran |
+| Dative | swīðran | swīðran | swīðran |
+| Accusative | swīðran | swīðre | swīðran |
+| Instrumental | swīðran | swīðran | as dative |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | swīðran | swīðran | swīðran |
+| Genitive | swīðra | swīðra | swīðra |
+| Dative | swīðrum | swīðrum | swīðrum |
+| Accusative | swīðran | swīðran | swīðran |
+| Instrumental | as dative | as dative | as dative |
 
 ### Adjective vocabulary and derivation
 
@@ -609,9 +681,9 @@ In **ðyncan**, “seem”, the selected construction has a dative experiencer, 
 
 <!-- table: NEW-U10-PAR-thyncan-EXPERIENCER-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 3 singular | ðyncð | ðūhte |
+| 3 sg. | ðyncð | ðūhte |
 
 <!-- example: NEW-U10-EXAMPLE07 -->
 
@@ -631,9 +703,9 @@ This seems good to me.
 
 <!-- table: NEW-U10-PAR-hyngran-IMPERSONAL-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 3 singular | hyngreð | hyngrede |
+| 3 sg. | hyngreð | hyngrede |
 
 <!-- example: NEW-U10-EXAMPLE08 -->
 
@@ -739,14 +811,12 @@ The ordinary selected present endings are singular -e, -st, -ð and plural -að,
 
 <!-- table: NEW-U10-PAR-fedan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | fēde | fēdde |
-| 2 singular | fētst | fēddest |
-| 3 singular | fēt | fēdde |
-| 1 plural | fēdað | fēddon |
-| 2 plural | fēdað | fēddon |
-| 3 plural | fēdað | fēddon |
+| 1 sg. | fēde | fēdde |
+| 2 sg. | fētst | fēddest |
+| 3 sg. | fēt | fēdde |
+| 1–3 pl. | fēdað | fēddon |
 
 ### Fēdan: commands
 
@@ -754,10 +824,10 @@ The ordinary selected present endings are singular -e, -st, -ð and plural -að,
 
 <!-- table: NEW-U10-PAR-fedan-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | fēd |
-| Plural | fēdað |
+| 2 sg. | fēd |
+| 2 pl. | fēdað |
 
 <!-- teaching: NEW-U10-VOC-SCRYDAN -->
 
@@ -775,14 +845,12 @@ The ordinary selected present endings are singular -e, -st, -ð and plural -að,
 
 <!-- table: NEW-U10-PAR-scrydan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | scrȳde | scrȳdde |
-| 2 singular | scrȳtst | scrȳddest |
-| 3 singular | scrȳt | scrȳdde |
-| 1 plural | scrȳdað | scrȳddon |
-| 2 plural | scrȳdað | scrȳddon |
-| 3 plural | scrȳdað | scrȳddon |
+| 1 sg. | scrȳde | scrȳdde |
+| 2 sg. | scrȳtst | scrȳddest |
+| 3 sg. | scrȳt | scrȳdde |
+| 1–3 pl. | scrȳdað | scrȳddon |
 
 ### Scrȳdan: commands
 
@@ -790,10 +858,10 @@ The ordinary selected present endings are singular -e, -st, -ð and plural -að,
 
 <!-- table: NEW-U10-PAR-scrydan-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | scrȳd |
-| Plural | scrȳdað |
+| 2 sg. | scrȳd |
+| 2 pl. | scrȳdað |
 
 <!-- teaching: NEW-U10-VOC-TOGELAEDAN -->
 
@@ -809,14 +877,12 @@ The ordinary selected present endings are singular -e, -st, -ð and plural -að,
 
 <!-- table: NEW-U10-PAR-togelaedan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | tōgelǣde | tōgelǣdde |
-| 2 singular | tōgelǣtst | tōgelǣddest |
-| 3 singular | tōgelǣt | tōgelǣdde |
-| 1 plural | tōgelǣdað | tōgelǣddon |
-| 2 plural | tōgelǣdað | tōgelǣddon |
-| 3 plural | tōgelǣdað | tōgelǣddon |
+| 1 sg. | tōgelǣde | tōgelǣdde |
+| 2 sg. | tōgelǣtst | tōgelǣddest |
+| 3 sg. | tōgelǣt | tōgelǣdde |
+| 1–3 pl. | tōgelǣdað | tōgelǣddon |
 
 <!-- teaching: NEW-U10-GRAM-u10-forwiernan-indicative -->
 
@@ -828,14 +894,12 @@ The ordinary selected present endings are singular -e, -st, -ð and plural -að,
 
 <!-- table: NEW-U10-PAR-forwiernan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | forwierne | forwiernde |
-| 2 singular | forwiernst | forwierndest |
-| 3 singular | forwiernð | forwiernde |
-| 1 plural | forwiernað | forwierndon |
-| 2 plural | forwiernað | forwierndon |
-| 3 plural | forwiernað | forwierndon |
+| 1 sg. | forwierne | forwiernde |
+| 2 sg. | forwiernst | forwierndest |
+| 3 sg. | forwiernð | forwiernde |
+| 1–3 pl. | forwiernað | forwierndon |
 
 <!-- teaching: NEW-U10-VOC-SCENCAN -->
 
@@ -851,14 +915,12 @@ The ordinary selected present endings are singular -e, -st, -ð and plural -að,
 
 <!-- table: NEW-U10-PAR-scencan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | scęnce | scęncte |
-| 2 singular | scęncst | scęnctest |
-| 3 singular | scęncð | scęncte |
-| 1 plural | scęncað | scęncton |
-| 2 plural | scęncað | scęncton |
-| 3 plural | scęncað | scęncton |
+| 1 sg. | scęnce | scęncte |
+| 2 sg. | scęncst | scęnctest |
+| 3 sg. | scęncð | scęncte |
+| 1–3 pl. | scęncað | scęncton |
 
 <!-- teaching: NEW-U10-VOC-WYRCEAN -->
 
@@ -874,10 +936,10 @@ The familiar **wyrcean** now also means “work, perform”, with an accusative 
 
 <!-- table: NEW-U10-PAR-wyrcean-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | wyrc |
-| Plural | wyrceað |
+| 2 sg. | wyrc |
+| 2 pl. | wyrceað |
 
 ### Weak class II
 
@@ -897,14 +959,12 @@ The selected class II endings are present -ie, -ast, -að, plural -iað; preteri
 
 <!-- table: NEW-U10-PAR-andswarian-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | andswarie | andswarode |
-| 2 singular | andswarast | andswarodest |
-| 3 singular | andswarað | andswarode |
-| 1 plural | andswariað | andswarodon |
-| 2 plural | andswariað | andswarodon |
-| 3 plural | andswariað | andswarodon |
+| 1 sg. | andswarie | andswarode |
+| 2 sg. | andswarast | andswarodest |
+| 3 sg. | andswarað | andswarode |
+| 1–3 pl. | andswariað | andswarodon |
 
 <!-- teaching: NEW-U10-VOC-GENEOSIAN -->
 
@@ -922,14 +982,12 @@ The selected class II endings are present -ie, -ast, -að, plural -iað; preteri
 
 <!-- table: NEW-U10-PAR-geneosian-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | genēosie | genēosode |
-| 2 singular | genēosast | genēosodest |
-| 3 singular | genēosað | genēosode |
-| 1 plural | genēosiað | genēosodon |
-| 2 plural | genēosiað | genēosodon |
-| 3 plural | genēosiað | genēosodon |
+| 1 sg. | genēosie | genēosode |
+| 2 sg. | genēosast | genēosodest |
+| 3 sg. | genēosað | genēosode |
+| 1–3 pl. | genēosiað | genēosodon |
 
 ### Genēosian: commands
 
@@ -937,10 +995,10 @@ The selected class II endings are present -ie, -ast, -að, plural -iað; preteri
 
 <!-- table: NEW-U10-PAR-geneosian-IMP -->
 
-| Addressee | Command |
+| Person and number | Command |
 | --- | --- |
-| Singular | genēosa |
-| Plural | genēosiað |
+| 2 sg. | genēosa |
+| 2 pl. | genēosiað |
 
 ### Strong class I: gewītan
 
@@ -960,14 +1018,12 @@ Distinguish this departure verb from the different verb meaning “know”. An a
 
 <!-- table: NEW-U10-PAR-gewitan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gewīte | gewāt |
-| 2 singular | gewītst | gewite |
-| 3 singular | gewīt | gewāt |
-| 1 plural | gewītað | gewiton |
-| 2 plural | gewītað | gewiton |
-| 3 plural | gewītað | gewiton |
+| 1 sg. | gewīte | gewāt |
+| 2 sg. | gewītst | gewite |
+| 3 sg. | gewīt | gewāt |
+| 1–3 pl. | gewītað | gewiton |
 
 ### Unnan: supported forms, wishes and commands
 
@@ -983,14 +1039,12 @@ The checked sources do not supply a second-singular present indicative form for 
 
 <!-- table: NEW-U10-PAR-unnan-IND -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ann | ūðe |
-| 2 singular | — | ūðest |
-| 3 singular | ann | ūðe |
-| 1 plural | unnon | ūðon |
-| 2 plural | unnon | ūðon |
-| 3 plural | unnon | ūðon |
+| 1 sg. | ann | ūðe |
+| 2 sg. | — | ūðest |
+| 3 sg. | ann | ūðe |
+| 1–3 pl. | unnon | ūðon |
 
 <!-- teaching: NEW-U10-GRAM-u10-unnan-subjunctive-command -->
 
@@ -1002,14 +1056,12 @@ The present subjunctive is **unne** in every singular person and **unnen** in ev
 
 <!-- table: NEW-U10-PAR-unnan-SUBJ -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | unne | ūðe |
-| 2 singular | unne | ūðe |
-| 3 singular | unne | ūðe |
-| 1 plural | unnen | ūðen |
-| 2 plural | unnen | ūðen |
-| 3 plural | unnen | ūðen |
+| 1 sg. | unne | ūðe |
+| 2 sg. | unne | ūðe |
+| 3 sg. | unne | ūðe |
+| 1–3 pl. | unnen | ūðen |
 
 For a direct addressed command “grant”, use **unne** to one addressee and **unnen** to several. These are the second-person subjunctive forms used as command substitutes. Cook labels unne “Imper.”; Fulk describes the subjunctive substitution. Both accounts support the same singular surface. Do not make a formal plural command in -að, or mistake command unne for the missing indicative cell. The preterite plural indicative ūðon and subjunctive ūðen differ in their final vowel.
 

@@ -1,10 +1,38 @@
 # Unit 14 exports
 
-The complete [learner PDF](chapter-14.pdf) has **35 pages**; the [separate key](answer-key.pdf) has **21**. Editable masters: [student.md](../../chapters/ch14/student.md) and [answer-key.md](../../chapters/ch14/answer-key.md). All 44 tasks, vocabulary, complete defined paradigms, connected reading, support and original notes are included.
+The accepted table-layout revision has a complete [learner PDF](chapter-14.pdf) of **34 pages** and a separate [answer-key PDF](answer-key.pdf) of **21 pages**. The changed pages and heading repairs passed independent visual review.
+
+Current [export identities and page counts](../../docs/revisions/table-layout/exports.json), [page acceptance](../../docs/revisions/table-layout/page-review.json), and the [validated build report](../../docs/revisions/table-layout/build-report.json) document this presentation revision. The [complete-content checks](../../docs/revisions/table-layout/export-text-review.json) and [logical-table review](../../docs/revisions/table-layout/table-review.json) preserve the teaching and source scope.
+
+Editable masters are [student.md](../../chapters/ch14/student.md) and [answer-key.md](../../chapters/ch14/answer-key.md); complete TeX sources are [chapter-14.tex](chapter-14.tex) and [answer-key.tex](answer-key.tex). The [course presentation revision](../../docs/revisions/table-layout/) records the mapping and checks separately from the original unit review.
+
+Tables follow the shared [layout](../book-layout.tex): 10.5-point type with 13.2-point leading, bold headings, horizontal rules and consistent case/person labels. Identical verbal plural cells share `1–3 pl.`; distinct forms remain separate. Counts of grammatical forms and cells describe the complete logical paradigm, which is unchanged by fewer printed rows. Nominal cases, variants, supported uses and teaching milestones retain their stated scope.
+
+## Reproduction
+
+Run from the repository root with the configured TeX Live, Cambria, Xpdf and Ghostscript installation:
+
+```powershell
+python -X utf8 scripts/check_course_layout.py --report build/course-layout-check.json
+python -X utf8 scripts/build_course_exports.py --stage all --select ch14/learner,ch14/key --include-unchanged --jobs 2 --render-suffix reproduction-01
+python -X utf8 scripts/check_course_exports.py --chapter 14 --report build/course-export-ch14-check.json
+```
+
+The shared build command compiles each complete document twice, checks table parity and build diagnostics, extracts its text and renders all pages. Choose a fresh `--render-suffix` for a later changed build. Use `--stage inspect` to inspect existing build products without compiling, or `--stage render` to regenerate page images from them. `--select` accepts comma-separated document IDs such as `ch01/learner,ch03/key`.
+
+The layout check compares expanded logical cells, actual Markdown/TeX tables, protected distinctions and frozen teaching content. The export check independently compares complete master prose, actual TeX cells and captions, and the built PDF text. The `--chapter` restriction above is a unit diagnostic; complete-course acceptance uses the unrestricted command in the [shared reproduction instructions](../README.md#reproduction). A later changed build needs fresh visual review bound to its PDF and page-image identities before it replaces an accepted PDF. Do not rerun historical assemblers, register mergers or baseline captures to rebuild exports.
+
+Reproduction outputs and reports remain under `build/`; the build helper does not replace retained PDFs or rewrite the durable acceptance records linked above.
+
+## Original unit acceptance and content scope
+
+The following records the unit's original linguistic acceptance and export evidence. Its page counts, physical table counts, PDF hashes and inspection claims describe that earlier checkpoint, not acceptance of the current presentation revision. The substantive teaching, task and logical-cell counts remain applicable.
+
+At the original export checkpoint: the complete learner PDF has **35 pages**; the separate key has **21**. Editable masters: [student.md](../../chapters/ch14/student.md) and [answer-key.md](../../chapters/ch14/answer-key.md). All 44 tasks, vocabulary, complete defined paradigms, connected reading, support and original notes are included.
 
 All **56 final pages** passed non-author visual inspection. [Individual ledgers](reviews/) retain page-specific observations and final PDF/image identities. [Final acceptance](page-review.json) reconciles every page, complete parity, unchanged accepted masters and clean logs. [Layout adjustments](layout-adjustments.json) record the key's A01 column-width repair and the heading repairs: each indicative heading stays with its rule and complete table, and the Cook VIII.27 heading stays with its first answer. Changed pages were inspected again; byte-identical pages retain their actual earlier inspection records.
 
-## Content and review
+### Original content and review
 
 [Complete parity](content-parity.json) covers **521 prose/heading/list blocks, 55 tables, 925 cells including headers, and 470 editorial comments**. An independent Markdown inventory matches decoded TeX; full prose matches extracted PDF text after whitespace and soft-hyphen normalization. Markdown note references become matching numbered superscript endnote labels. Every note definition remains. Visual review includes actual tables, endings and special characters.
 
@@ -12,26 +40,6 @@ The learner gives 38 complete systems / 324 cells in 38 literal matrices, with r
 
 The fresh [reviewer](../../chapters/ch14/review.md) froze [all solutions](../../chapters/ch14/independent-solutions.md) before key/current-contract/audit access. A separate [fresh paradigm reviewer](../../chapters/ch14/reviews/paradigms.json) checked every cell and rule against actual primary evidence. Neither authored a master or task. Canonical amendments preserve corrections separately from original audit packets; the blind witness is unchanged. No material finding is open.
 
-## Rebuilding
-
-Retained TeX preserves the reviewed layout. Use LuaLaTeX with Cambria and [book-layout.tex](../book-layout.tex): 165 × 241 mm trim, body 11/14.3 pt, tables 10.5/13.2 pt, source notes 10/12.8 pt. Both documents use `Ligatures=TeXOff`. Earlier exports and the shared layout are unchanged. Specific page repairs remain in the actual TeX and page ledgers.
-
-From this directory:
-
-```powershell
-New-Item -ItemType Directory -Force build
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build chapter-14.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build chapter-14.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build answer-key.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build answer-key.tex
-& 'C:/Program Files/Git/mingw64/bin/pdftotext.exe' -enc UTF-8 -layout build/chapter-14.pdf build/chapter-14.txt
-& 'C:/Program Files/Git/mingw64/bin/pdftotext.exe' -enc UTF-8 -layout build/answer-key.pdf build/answer-key.txt
-```
-
-The checked toolchain is TeX Live 2026 LuaHBTeX 1.24.0, Xpdf pdftotext 4.00 and Ghostscript. The pdftotext path above is the installed Windows location, outside this shell's PATH. This installation needs access to the owner's font caches. Final logs contain no missing characters, overfull/underfull boxes, font substitutions or unresolved rerun warnings.
-
-From the repository root, `python -X utf8 scripts/check_unit14.py --draft --tex` checks actual task/key references, exact prompts and reading, all literal cells, selected Cook model/dependency bindings, evidence identities and logs. It supplements linguistic and visual review. Render every page with Ghostscript `png16m`, `-r150 -dTextAlphaBits=4 -dGraphicsAlphaBits=4 -dBATCH -dNOPAUSE`, supplying TeX Live's `Resource/Init`, `lib` and `kanji` through `-I`.
-
-Build products and rendered page images are ignored; inspected identities remain in the ledgers. Source evidence images remain tracked. Ignored one-use helpers are not required generators; reassembly can discard layout repairs. Rebuilt PDF metadata can differ, so replace retained PDFs only after full parity and page review.
+### Original checkpoints
 
 Checkpoints: contract **`18cfa3a`**, drafts **`e8cf9ce`**, blind solutions **`d78de6f`**, accepted text **`5721c5f`**. Complete exports/registers: **`a56c403`**. The [handoff](../../docs/HANDOFF.md) records final closure.

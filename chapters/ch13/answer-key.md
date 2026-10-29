@@ -85,12 +85,19 @@ The local Cook and reading helps remain available. Their supplied forms and phra
 <!-- item: NEW-U13-F04 -->
 <!-- key: KEY-NEW-U13-F04 -->
 
-| Case | Masculine singular | Feminine singular | Neuter singular | Masculine plural | Feminine plural | Neuter plural |
-| --- | --- | --- | --- | --- | --- | --- |
-| Nominative | swēte | swētu | swēte | swēte | swēta | swētu |
-| Genitive | swētes | swētre | swētes | swētra | swētra | swētra |
-| Dative | swētum | swētre | swētum | swētum | swētum | swētum |
-| Accusative | swētne | swēte | swēte | swēte | swēta | swētu |
+| Case | Masculine singular | Neuter singular | Feminine singular |
+| --- | --- | --- | --- |
+| Nominative | swēte | swēte | swētu |
+| Genitive | swētes | swētes | swētre |
+| Dative | swētum | swētum | swētre |
+| Accusative | swētne | swēte | swēte |
+
+| Case | Masculine plural | Neuter plural | Feminine plural |
+| --- | --- | --- | --- |
+| Nominative | swēte | swētu | swēta |
+| Genitive | swētra | swētra | swētra |
+| Dative | swētum | swētum | swētum |
+| Accusative | swēte | swētu | swēta |
 
 | Requested form | Answer |
 | --- | --- |
@@ -105,14 +112,12 @@ The local Cook and reading helps remain available. Their supplied forms and phra
 <!-- item: NEW-U13-F05 -->
 <!-- key: KEY-NEW-U13-F05 -->
 
-| Person / number | Present | Preterite |
+| Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | forceorfe | forcearf |
-| 2 singular | forcierfst | forcurfe |
-| 3 singular | forcierfð | forcearf |
-| 1 plural | forceorfað | forcurfon |
-| 2 plural | forceorfað | forcurfon |
-| 3 plural | forceorfað | forcurfon |
+| 1 sg. | forceorfe | forcearf |
+| 2 sg. | forcierfst | forcurfe |
+| 3 sg. | forcierfð | forcearf |
+| 1–3 pl. | forceorfað | forcurfon |
 
 **Explanation:** The printed principal parts are **forceorfan — forcearf — forcurfon — forcorfen**. The selected present has **ceorf-** except for the second and third singular **cierf-** forms. The preterite first and third singular use **forcearf**; second singular **forcurfe** and all three plural persons use **curf-**, with **-e** and **-on** respectively. The past participle’s **corf-** is not the finite plural past stem. The selected **cierf** spelling is a declared rule-based normalization; attested **cirf/cyrf** variants do not justify arbitrary vowel substitutions. The principal parts are supplied diagnostics here, not a new test of independent nonfinite syntax. Cook 23.7’s printed reference **134** concerns **munan** in the selected grammar and is inapplicable to this strong III verb; the prompt remains unchanged. [3]
 
@@ -121,11 +126,10 @@ The local Cook and reading helps remain available. Their supplied forms and phra
 <!-- item: NEW-U13-F06 -->
 <!-- key: KEY-NEW-U13-F06 -->
 
-| Verb | Singular command | Plural command |
-| --- | --- | --- |
-| winnan | win | winnað |
-| begān | begā | begāð |
-| behealdan | beheald | behealdað |
+| Person and number | winnan | begān | behealdan |
+| --- | --- | --- | --- |
+| 2 sg. | win | begā | beheald |
+| 2 pl. | winnað | begāð | behealdað |
 
 | Verb | Present participle | Past participle |
 | --- | --- | --- |

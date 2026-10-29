@@ -1102,12 +1102,10 @@ Weak I. The object sold is accusative. The preterite has -pte after p: cīepte.
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | cīepe | cīepte |
-| 2 singular | cīepst | cīeptest |
-| 3 singular | cīepð | cīepte |
-| 1 plural | cīepað | cīepton |
-| 2 plural | cīepað | cīepton |
-| 3 plural | cīepað | cīepton |
+| 1 sg. | cīepe | cīepte |
+| 2 sg. | cīepst | cīeptest |
+| 3 sg. | cīepð | cīepte |
+| 1–3 pl. | cīepað | cīepton |
 
 #### āfēdan — feed; support
 
@@ -1123,12 +1121,10 @@ Weak I. The person supported is accusative. Final d and the third-singular denta
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āfēde | āfēdde |
-| 2 singular | āfētst | āfēddest |
-| 3 singular | āfētt | āfēdde |
-| 1 plural | āfēdað | āfēddon |
-| 2 plural | āfēdað | āfēddon |
-| 3 plural | āfēdað | āfēddon |
+| 1 sg. | āfēde | āfēdde |
+| 2 sg. | āfētst | āfēddest |
+| 3 sg. | āfētt | āfēdde |
+| 1–3 pl. | āfēdað | āfēddon |
 
 #### bycgan — buy
 
@@ -1144,12 +1140,10 @@ Weak I with an exceptional preterite. The goods bought are accusative. Keep bycg
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | bycge | bohte |
-| 2 singular | bygest | bohtest |
-| 3 singular | bygeð | bohte |
-| 1 plural | bycgað | bohton |
-| 2 plural | bycgað | bohton |
-| 3 plural | bycgað | bohton |
+| 1 sg. | bycge | bohte |
+| 2 sg. | bygest | bohtest |
+| 3 sg. | bygeð | bohte |
+| 1–3 pl. | bycgað | bohton |
 
 #### sēcan — seek
 
@@ -1165,12 +1159,10 @@ Weak I with preterite sōhte/sōhton. The thing sought is accusative. The presen
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | sēce | sōhte |
-| 2 singular | sēcst | sōhtest |
-| 3 singular | sēcð | sōhte |
-| 1 plural | sēcað | sōhton |
-| 2 plural | sēcað | sōhton |
-| 3 plural | sēcað | sōhton |
+| 1 sg. | sēce | sōhte |
+| 2 sg. | sēcst | sōhtest |
+| 3 sg. | sēcð | sōhte |
+| 1–3 pl. | sēcað | sōhton |
 
 #### gestillan — settle; quell
 
@@ -1186,12 +1178,10 @@ Weak I. The disturbance or dispute quelled is accusative. The doubled l is reduc
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gestille | gestilde |
-| 2 singular | gestilst | gestildest |
-| 3 singular | gestilð | gestilde |
-| 1 plural | gestillað | gestildon |
-| 2 plural | gestillað | gestildon |
-| 3 plural | gestillað | gestildon |
+| 1 sg. | gestille | gestilde |
+| 2 sg. | gestilst | gestildest |
+| 3 sg. | gestilð | gestilde |
+| 1–3 pl. | gestillað | gestildon |
 
 #### fręmman — benefit
 
@@ -1209,12 +1199,10 @@ Weak I. Keep doubled mm in fręmme/fręmmað; the second and third singular have
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | fręmme | fręmede |
-| 2 singular | fręmest | fręmedest |
-| 3 singular | fręmeð | fręmede |
-| 1 plural | fręmmað | fręmedon |
-| 2 plural | fręmmað | fręmedon |
-| 3 plural | fręmmað | fręmedon |
+| 1 sg. | fręmme | fręmede |
+| 2 sg. | fręmest | fręmedest |
+| 3 sg. | fręmeð | fręmede |
+| 1–3 pl. | fręmmað | fręmedon |
 
 #### ālīehtan — illuminate; give light to
 
@@ -1230,12 +1218,10 @@ Weak I. The thing illuminated is accusative. The selected second and third singu
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ālīehte | ālīehte |
-| 2 singular | ālīehtest | ālīehtest |
-| 3 singular | ālīehteð | ālīehte |
-| 1 plural | ālīehtað | ālīehton |
-| 2 plural | ālīehtað | ālīehton |
-| 3 plural | ālīehtað | ālīehton |
+| 1 sg. | ālīehte | ālīehte |
+| 2 sg. | ālīehtest | ālīehtest |
+| 3 sg. | ālīehteð | ālīehte |
+| 1–3 pl. | ālīehtað | ālīehton |
 
 #### rǣdan — read
 
@@ -1251,12 +1237,10 @@ The selected preterite is weak: rǣdde/rǣddon. Present third singular rǣtt sho
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | rǣde | rǣdde |
-| 2 singular | rǣtst | rǣddest |
-| 3 singular | rǣtt | rǣdde |
-| 1 plural | rǣdað | rǣddon |
-| 2 plural | rǣdað | rǣddon |
-| 3 plural | rǣdað | rǣddon |
+| 1 sg. | rǣde | rǣdde |
+| 2 sg. | rǣtst | rǣddest |
+| 3 sg. | rǣtt | rǣdde |
+| 1–3 pl. | rǣdað | rǣddon |
 
 ### Weak II
 
@@ -1274,12 +1258,10 @@ Weak II. The present has -ie, -ast, -að and plural -iað; the preterite has -od
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | wicie | wicode |
-| 2 singular | wicast | wicodest |
-| 3 singular | wicað | wicode |
-| 1 plural | wiciað | wicodon |
-| 2 plural | wiciað | wicodon |
-| 3 plural | wiciað | wicodon |
+| 1 sg. | wicie | wicode |
+| 2 sg. | wicast | wicodest |
+| 3 sg. | wicað | wicode |
+| 1–3 pl. | wiciað | wicodon |
 
 #### ðolian — suffer
 
@@ -1295,12 +1277,10 @@ Weak II, with the same endings as wician. The hardship or loss suffered is accus
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | ðolie | ðolode |
-| 2 singular | ðolast | ðolodest |
-| 3 singular | ðolað | ðolode |
-| 1 plural | ðoliað | ðolodon |
-| 2 plural | ðoliað | ðolodon |
-| 3 plural | ðoliað | ðolodon |
+| 1 sg. | ðolie | ðolode |
+| 2 sg. | ðolast | ðolodest |
+| 3 sg. | ðolað | ðolode |
+| 1–3 pl. | ðoliað | ðolodon |
 
 #### gegaderian — gather
 
@@ -1316,12 +1296,10 @@ Weak II. The thing or things gathered are accusative. Keep the prefix ge- throug
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | gegaderie | gegaderode |
-| 2 singular | gegaderast | gegaderodest |
-| 3 singular | gegaderað | gegaderode |
-| 1 plural | gegaderiað | gegaderodon |
-| 2 plural | gegaderiað | gegaderodon |
-| 3 plural | gegaderiað | gegaderodon |
+| 1 sg. | gegaderie | gegaderode |
+| 2 sg. | gegaderast | gegaderodest |
+| 3 sg. | gegaderað | gegaderode |
+| 1–3 pl. | gegaderiað | gegaderodon |
 
 ### Strong verbs
 
@@ -1339,12 +1317,10 @@ Strong. The second and third singular present change ō to ē: rēwst/rēwð. Th
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | rōwe | rēow |
-| 2 singular | rēwst | rēowe |
-| 3 singular | rēwð | rēow |
-| 1 plural | rōwað | rēowon |
-| 2 plural | rōwað | rēowon |
-| 3 plural | rōwað | rēowon |
+| 1 sg. | rōwe | rēow |
+| 2 sg. | rēwst | rēowe |
+| 3 sg. | rēwð | rēow |
+| 1–3 pl. | rōwað | rēowon |
 
 #### blāwan — blow
 
@@ -1360,12 +1336,10 @@ Strong. The second and third singular present have ǣ; the preterite has blēow-
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | blāwe | blēow |
-| 2 singular | blǣwst | blēowe |
-| 3 singular | blǣwð | blēow |
-| 1 plural | blāwað | blēowon |
-| 2 plural | blāwað | blēowon |
-| 3 plural | blāwað | blēowon |
+| 1 sg. | blāwe | blēow |
+| 2 sg. | blǣwst | blēowe |
+| 3 sg. | blǣwð | blēow |
+| 1–3 pl. | blāwað | blēowon |
 
 #### forlǣtan — abandon; leave
 
@@ -1381,12 +1355,10 @@ Strong. The person or thing abandoned is accusative. The preterite stem is forl�
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | forlǣte | forlēt |
-| 2 singular | forlǣtst | forlēte |
-| 3 singular | forlǣtt | forlēt |
-| 1 plural | forlǣtað | forlēton |
-| 2 plural | forlǣtað | forlēton |
-| 3 plural | forlǣtað | forlēton |
+| 1 sg. | forlǣte | forlēt |
+| 2 sg. | forlǣtst | forlēte |
+| 3 sg. | forlǣtt | forlēt |
+| 1–3 pl. | forlǣtað | forlēton |
 
 #### āstīgan — go aboard; board
 
@@ -1404,12 +1376,10 @@ Strong I. Present g becomes h before st/ð: āstīhst/āstīhð. The selected pr
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | āstīge | āstāg |
-| 2 singular | āstīhst | āstige |
-| 3 singular | āstīhð | āstāg |
-| 1 plural | āstīgað | āstigon |
-| 2 plural | āstīgað | āstigon |
-| 3 plural | āstīgað | āstigon |
+| 1 sg. | āstīge | āstāg |
+| 2 sg. | āstīhst | āstige |
+| 3 sg. | āstīhð | āstāg |
+| 1–3 pl. | āstīgað | āstigon |
 
 #### bēatan — beat
 
@@ -1425,12 +1395,10 @@ Strong. The person or thing beaten is accusative. Present second and third singu
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | bēate | bēot |
-| 2 singular | bīetst | bēote |
-| 3 singular | bīett | bēot |
-| 1 plural | bēatað | bēoton |
-| 2 plural | bēatað | bēoton |
-| 3 plural | bēatað | bēoton |
+| 1 sg. | bēate | bēot |
+| 2 sg. | bīetst | bēote |
+| 3 sg. | bīett | bēot |
+| 1–3 pl. | bēatað | bēoton |
 
 ### The prefixed gān pattern
 
@@ -1448,12 +1416,10 @@ Begān follows the earlier gān pattern with a prefix. The occupation practised 
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | begā | beēode |
-| 2 singular | begǣst | beēodest |
-| 3 singular | begǣð | beēode |
-| 1 plural | begāð | beēodon |
-| 2 plural | begāð | beēodon |
-| 3 plural | begāð | beēodon |
+| 1 sg. | begā | beēode |
+| 2 sg. | begǣst | beēodest |
+| 3 sg. | begǣð | beēode |
+| 1–3 pl. | begāð | beēodon |
 
 ### Commands
 
@@ -1469,8 +1435,8 @@ The singular command addresses one person; the plural command addresses more tha
 
 | Person and number | Command |
 | --- | --- |
-| Second singular | rōw |
-| Second plural | rōwað |
+| 2 sg. | rōw |
+| 2 pl. | rōwað |
 
 <!-- teaching: NEW-U09-PAR-bycgan-IMP -->
 
@@ -1480,8 +1446,8 @@ The singular command addresses one person; the plural command addresses more tha
 
 | Person and number | Command |
 | --- | --- |
-| Second singular | byge |
-| Second plural | bycgað |
+| 2 sg. | byge |
+| 2 pl. | bycgað |
 
 <!-- teaching: NEW-U09-PAR-secan-IMP -->
 
@@ -1491,8 +1457,8 @@ The singular command addresses one person; the plural command addresses more tha
 
 | Person and number | Command |
 | --- | --- |
-| Second singular | sēc |
-| Second plural | sēcað |
+| 2 sg. | sēc |
+| 2 pl. | sēcað |
 
 <!-- teaching: NEW-U09-PAR-began-IMP -->
 
@@ -1502,8 +1468,8 @@ The singular command addresses one person; the plural command addresses more tha
 
 | Person and number | Command |
 | --- | --- |
-| Second singular | begā |
-| Second plural | begāð |
+| 2 sg. | begā |
+| 2 pl. | begāð |
 
 <!-- teaching: NEW-U09-PAR-gestillan-IMP -->
 
@@ -1513,8 +1479,8 @@ The singular command addresses one person; the plural command addresses more tha
 
 | Person and number | Command |
 | --- | --- |
-| Second singular | gestil |
-| Second plural | gestillað |
+| 2 sg. | gestil |
+| 2 pl. | gestillað |
 
 <!-- teaching: NEW-U09-PAR-raedan-IMP -->
 
@@ -1524,8 +1490,8 @@ The singular command addresses one person; the plural command addresses more tha
 
 | Person and number | Command |
 | --- | --- |
-| Second singular | rǣd |
-| Second plural | rǣdað |
+| 2 sg. | rǣd |
+| 2 pl. | rǣdað |
 
 ### Sēcan: subjunctive
 
@@ -1541,12 +1507,10 @@ The present subjunctive uses sēc-, the preterite sōht-. Each has singular -e a
 
 | Person and number | Present | Preterite |
 | --- | --- | --- |
-| 1 singular | sēce | sōhte |
-| 2 singular | sēce | sōhte |
-| 3 singular | sēce | sōhte |
-| 1 plural | sēcen | sōhten |
-| 2 plural | sēcen | sōhten |
-| 3 plural | sēcen | sōhten |
+| 1 sg. | sēce | sōhte |
+| 2 sg. | sēce | sōhte |
+| 3 sg. | sēce | sōhte |
+| 1–3 pl. | sēcen | sōhten |
 
 ## 8. Further uses and small words
 

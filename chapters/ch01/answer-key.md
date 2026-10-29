@@ -20,11 +20,11 @@ The selected **ǣfen** and **lyft** are neuter, and **sǣ** is masculine. Other 
 1. **Fisc with the article:**
 
 | Case | Singular | Plural |
-|---|---|---|
-| N | se fisc | ðā fiscas |
-| G | ðæs fisces | ðāra fisca |
-| D | ðǣm fisce | ðǣm fiscum |
-| A | ðone fisc | ðā fiscas |
+| --- | --- | --- |
+| Nominative | se fisc | ðā fiscas |
+| Genitive | ðæs fisces | ðāra fisca |
+| Dative | ðǣm fisce | ðǣm fiscum |
+| Accusative | ðone fisc | ðā fiscas |
 
 The target is the complete masculine paradigm with agreement. Singular nominative and accusative **fisc** coincide, but **se/ðone** distinguish them. Plural **-as** belongs to N/A, not to the genitive or dative.
 
@@ -49,11 +49,11 @@ The target is the complete masculine paradigm with agreement. Singular nominativ
 5. **Steorra** and the singular of **eorðe**:
 
 | Case | steorra singular | steorra plural | eorðe singular |
-|---|---|---|---|
-| N | steorra | steorran | eorðe |
-| G | steorran | steorrena | eorðan |
-| D | steorran | steorrum | eorðan |
-| A | steorran | steorran | eorðan |
+| --- | --- | --- | --- |
+| Nominative | steorra | steorran | eorðe |
+| Genitive | steorran | steorrena | eorðan |
+| Dative | steorran | steorrum | eorðan |
+| Accusative | steorran | steorran | eorðan |
 
 The target is weak inflection: do not replace weak genitive singular **-an** with strong masculine **-es**. Plural genitive **-ena** and dative **-um** remain distinct from **-an**.
 
@@ -530,4 +530,4 @@ The selected target is **genitive dependent + nominative head**, with no separat
 
 ## Source notes
 
-These are new models, not a key supplied by Cook. Source prompts are Cook, *Exercises in Old English* (1895), Group I, Exercises 1–3, pp.1–2 / PDF9–10. The complete reading is *A First Book in Old English*, second edition (1895), Reader I, pp.123–124 / PDF139–140. The learner's source notes give the checked grammatical and lexical locators for the models and their alternatives. PDF references are one-based. The reading translation was prepared from the printed Old English; no inherited teaching or previous-course answer serves as a prerequisite.
+These are new models, not a key supplied by Cook. Source prompts are Cook, *Exercises in Old English* (1895), Group I, Exercises 1–3, pp.1–2 / PDF9–10. The complete reading is *A First Book in Old English*, second edition (1895), Reader I, pp.123–124 / PDF139–140. The learner's source notes give the checked grammatical and lexical locators for the models and their alternatives. PDF references are one-based. The reading translation was prepared from the printed Old English.

@@ -17,4 +17,4 @@ This is a seed-time index, not a second live task tracker. Run `bd ready`, `bd s
 | oec-typeset | Typeset complete first-unit learner and key PDFs | typesetter | oec-review |
 | oec-finish | Complete presentation review and merge first-unit records | coordinator | oec-typeset |
 
-The first actionable work is `oec-map`, `oec-sequence`, and `oec-source`. Each has exclusive output paths in its issue. The coordinator serializes Beads mutations and integrates shared files. Drafting is blocked until source/curriculum reconciliation and the first learning contract.
+The initial actionable work was `oec-map`, `oec-sequence`, and `oec-source`, each with exclusive output paths. The coordinator serialized Beads updates and integrated shared files. Source/curriculum reconciliation and the first learning contract preceded drafting. Query Beads for current work.

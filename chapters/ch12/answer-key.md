@@ -46,24 +46,20 @@ The **wesan + gewiten** and **wesan + sittende** tasks require recognition, not 
 **Flēon — strong verb, present and preterite indicative.**
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | flēo | flēah |
-| Second singular | flīehst | fluge |
-| Third singular | flīehð | flēah |
-| First plural | flēoð | flugon |
-| Second plural | flēoð | flugon |
-| Third plural | flēoð | flugon |
+| --- | --- | --- |
+| 1 sg. | flēo | flēah |
+| 2 sg. | flīehst | fluge |
+| 3 sg. | flīehð | flēah |
+| 1–3 pl. | flēoð | flugon |
 
 **Grētan — weak verb, present and preterite indicative.**
 
 | Person and number | Present | Preterite |
-|---|---|---|
-| First singular | grēte | grētte |
-| Second singular | grētst | grēttest |
-| Third singular | grētt | grētte |
-| First plural | grētað | grētton |
-| Second plural | grētað | grētton |
-| Third plural | grētað | grētton |
+| --- | --- | --- |
+| 1 sg. | grēte | grētte |
+| 2 sg. | grētst | grēttest |
+| 3 sg. | grētt | grētte |
+| 1–3 pl. | grētað | grētton |
 
 **Explanation:** Contracted **flēon** has the selected present contrast **flēo-/flīeh-** and strong past **flēah** beside **flug-**. Its second-singular preterite uses the plural stem plus **-e**: **fluge**, with short **u**. Weak **grētan** keeps its long root vowel and forms its past with the dental sequence **-tt-**. Its third-singular present **grētt** and first/third-singular past **grētte** must not be confused. Keep all three plural person labels even when their forms coincide. Documented variants remain valid in their proper cells; a strong past invented for **grētan** does not complete its selected weak system. [5]
 
@@ -86,12 +82,10 @@ The **wesan + gewiten** and **wesan + sittende** tasks require recognition, not 
 <!-- item: NEW-U12-F05 -->
 <!-- key: KEY-NEW-U12-F05 -->
 
-| Verb | Singular command | Plural command |
-|---|---|---|
-| flēon | flēoh | flēoð |
-| ādrīfan | ādrīf | ādrīfað |
-| gemētan | gemēt | gemētað |
-| geopenian | geopena | geopeniað |
+| Person and number | flēon | ādrīfan | gemētan | geopenian |
+| --- | --- | --- | --- | --- |
+| 2 sg. | flēoh | ādrīf | gemēt | geopena |
+| 2 pl. | flēoð | ādrīfað | gemētað | geopeniað |
 
 **Explanation:** Each first form addresses one person, each second form several. Preserve the long vowel in **flēoh**. The weak-II plural **geopeniað** retains **i**; **geopenað** is the selected third-singular indicative, not this plural command. A command may share a spelling with another verbal form, but its function and addressee remain distinct. Substituting indicative **flīehð** for singular **flēoh** misses the command target. [5]
 
@@ -103,24 +97,24 @@ The **wesan + gewiten** and **wesan + sittende** tasks require recognition, not 
 **Present indicative construction.**
 
 | Person and number | Old English | English |
-|---|---|---|
-| First singular | Ic hæbbe ðæt hūs geworht. | I have built the house. |
-| Second singular | Ðū hæfst ðæt hūs geworht. | You have built the house. |
-| Third singular | Hē hæfð ðæt hūs geworht. | He has built the house. |
-| First plural | Wē habbað ðæt hūs geworht. | We have built the house. |
-| Second plural | Gē habbað ðæt hūs geworht. | You have built the house. |
-| Third plural | Hīe habbað ðæt hūs geworht. | They have built the house. |
+| --- | --- | --- |
+| 1 sg. | Ic hæbbe ðæt hūs geworht. | I have built the house. |
+| 2 sg. | Ðū hæfst ðæt hūs geworht. | You have built the house. |
+| 3 sg. | Hē hæfð ðæt hūs geworht. | He has built the house. |
+| 1 pl. | Wē habbað ðæt hūs geworht. | We have built the house. |
+| 2 pl. | Gē habbað ðæt hūs geworht. | You have built the house. |
+| 3 pl. | Hīe habbað ðæt hūs geworht. | They have built the house. |
 
 **Preterite indicative construction.**
 
 | Person and number | Old English | English |
-|---|---|---|
-| First singular | Ic hæfde ðæt hūs geworht. | I had built the house. |
-| Second singular | Ðū hæfdest ðæt hūs geworht. | You had built the house. |
-| Third singular | Hē hæfde ðæt hūs geworht. | He had built the house. |
-| First plural | Wē hæfdon ðæt hūs geworht. | We had built the house. |
-| Second plural | Gē hæfdon ðæt hūs geworht. | You had built the house. |
-| Third plural | Hīe hæfdon ðæt hūs geworht. | They had built the house. |
+| --- | --- | --- |
+| 1 sg. | Ic hæfde ðæt hūs geworht. | I had built the house. |
+| 2 sg. | Ðū hæfdest ðæt hūs geworht. | You had built the house. |
+| 3 sg. | Hē hæfde ðæt hūs geworht. | He had built the house. |
+| 1 pl. | Wē hæfdon ðæt hūs geworht. | We had built the house. |
+| 2 pl. | Gē hæfdon ðæt hūs geworht. | You had built the house. |
+| 3 pl. | Hīe hæfdon ðæt hūs geworht. | They had built the house. |
 
 **Explanation:** The finite auxiliaries are **hæbbe, hæfst, hæfð, habbað** and **hæfde, hæfdest, hæfdon**, assigned to the labeled persons and numbers. **Ðæt hūs** remains the accusative object; **geworht** remains the selected past participle. The present construction presents completed building from a present viewpoint; the past construction places it before a past viewpoint. These are twelve construction positions, not twelve additional synthetic forms. Other grammatical moods or different objects do not supply the requested positions. The unchanged base does not mean that every attested participle must be uninflected: valid object agreement is distinguished from the finite auxiliary's subject agreement. [3]
 
