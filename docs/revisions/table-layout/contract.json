@@ -1,0 +1,37 @@
+{
+  "revision_id": "course-table-layout-2026-10",
+  "status": "reconciled_before_implementation",
+  "baseline_checkpoint": "1c9e53a",
+  "authorization": "User requested compact shared verbal plurals, consistent later-unit paradigm styling, and repository housekeeping.",
+  "scope": "All eighteen learner and answer-key masters and their complete exports; presentation only, with source-link maintenance.",
+  "table_rules": [
+    "Use person and number as the row axis for finite verb paradigms. Combine three plural rows as 1–3 pl. only when every displayed form, alternative and scope agrees.",
+    "Retain separate imperative persons, impersonal bounds, pronouns, complete clauses and numbered response grids.",
+    "When both tenses are already taught together, use Present and Preterite columns. Preserve separate tense sections and their teaching order.",
+    "Use Nominative, Genitive, Dative, Accusative rows and Singular/Plural columns in nominal paradigms. Preserve singular-only, plural-only and reference-only limits.",
+    "Use Masculine, Neuter, Feminine order, moving every form with its label. Wide adjective matrices print in separate singular and plural panels.",
+    "Use the later-unit Cambria 10.5/13.2 point table style, ragged-right cells, bold headers, booktabs horizontal rules and no vertical rules.",
+    "Retain all forms, variants, length marks, reconstruction marks, support and source notes. Update only prose that describes changed table orientation or labels."
+  ],
+  "invariants": [
+    "Canonical logical paradigm coordinates, form IDs, grammatical analyses, senses, milestones, task IDs, original prompts and answer meanings are preserved.",
+    "Record explicit reversible mappings from every original form cell to its displayed counterpart. Printed cell counts and logical paradigm counts are distinct.",
+    "Keep existing non-table TeX and manual page-layout repairs except bounded repairs required by changed pagination.",
+    "Preserve necessary primary evidence at current source paths and verify all updated links.",
+    "Earlier review identities certify their earlier checkpoints. New page inspections must identify the actual revised PDFs."
+  ],
+  "audit_inputs": [
+    "build/style-audit/rows.json",
+    "build/style-audit/rows.md",
+    "build/style-audit/styling.json",
+    "build/style-audit/styling.md"
+  ],
+  "acceptance": [
+    "Independent review of lossless table mappings and all protected exceptions.",
+    "No unapproved lexical, grammatical, task or key change; all 644 Cook items remain assigned.",
+    "Complete Markdown/TeX/PDF content verification and clean build diagnostics.",
+    "Actual inspection of every newly rendered page, with bounded reuse only for verified identical previously inspected page images.",
+    "Current indexes, page counts, reproduction instructions and source links agree with the revised artifacts.",
+    "Beads exported and a recoverable local Git revision saved."
+  ]
+}
