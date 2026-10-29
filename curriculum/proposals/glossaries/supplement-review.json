@@ -1,0 +1,1239 @@
+{
+  "schema_version": 1,
+  "review_type": "bounded independent source reconciliation; not full glossary acceptance",
+  "baseline_commit_supplied_by_coordinator": "0c4d27031697abd8ed74ae70e5e72bdd9573e2b4",
+  "scope": {
+    "noun_questions": 13,
+    "supplemental_proposals": 23,
+    "no_new_production_assignments": true,
+    "no_new_full_paradigms": true,
+    "primary_images_personally_inspected": 39
+  },
+  "input_identities": [
+    {
+      "path": "sources/audits/glossaries/old-english/resolutions.json",
+      "sha256": "9edfeb01a6a84bcede5d49db2b10fdc07c9fe028fa02e6d1353c98a7ff3849f2",
+      "bytes": 295587
+    },
+    {
+      "path": "curriculum/proposals/glossaries/analysis.json",
+      "sha256": "4fae120ed7983da83937b612f7ba0e5322a2e72b58a44df2c18c8392748e9357",
+      "bytes": 1722239
+    },
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7",
+      "bytes": 50148236
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "sha256": "1a90c1e1fb8c55c886f274c923d442b08d54edbbd3d339e96fbc2e511cec5961",
+      "bytes": 4996608
+    },
+    {
+      "path": "sources/registry.json",
+      "sha256": "679a72e71e510844d34fc39eee45703861ea686c51f386f8a59cc15d176e801a",
+      "bytes": 103827
+    },
+    {
+      "path": "chapters/ch10/student.md",
+      "sha256": "ac21ffb18662e7666e79262a8f6d403696b00ba6d377c7a61354d9fc80bd8987",
+      "bytes": 84556
+    },
+    {
+      "path": "chapters/ch15/student.md",
+      "sha256": "73bbaac1b2d7de6c5a1c88fa3b546d226e7b2abb9dd9b0249483133e19882dda",
+      "bytes": 160046
+    },
+    {
+      "path": "chapters/ch16/answer-key.md",
+      "sha256": "9f7c6115c1e6ea300e48116239a640d1ae97f14efd66fc81d281ed7a937d7c7e",
+      "bytes": 71522
+    },
+    {
+      "path": "chapters/ch17/student.md",
+      "sha256": "4e832c39606a72ef832cb726f1c3722bd13ccff0db23c02c007924deb6d3a361",
+      "bytes": 179866
+    }
+  ],
+  "source_page_convention": "All PDF pages are one-based. Cook printed page +16; selected Wright printed page +20. BT image is identified by printed page/column rather than a PDF page.",
+  "evidence": {
+    "C43": {
+      "path": "sources/audits/unit01-source/nominal-3.png",
+      "sha256": "d8c146c5e56f09744b1bb6cd7758623846fd2c7ce2e59f520492438d222ba9d7",
+      "bytes": 187938,
+      "source": "cook_fb_1895_2",
+      "printed_page": 28,
+      "pdf_page_1_based": 44,
+      "locator": "§43",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "The heading explicitly identifies masculines ending in a consonant."
+    },
+    "C47": {
+      "path": "sources/audits/unit01-source/nominal-7.png",
+      "sha256": "c8eb44546d66443d5f2dbbd38fb250bb57e90c2b0dd4bf88f439e3926b52f840",
+      "bytes": 190842,
+      "source": "cook_fb_1895_2",
+      "printed_page": 32,
+      "pdf_page_1_based": 48,
+      "locator": "§47",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "The heading explicitly identifies strong neuters."
+    },
+    "C51": {
+      "path": "sources/audits/unit01-source/nominal-9.png",
+      "sha256": "69c958aaec26da4e90c31e13655d1e99baff4a9c9de0d6a7edfc3192719a979f",
+      "bytes": 190507,
+      "source": "cook_fb_1895_2",
+      "printed_page": 34,
+      "pdf_page_1_based": 50,
+      "locator": "§51",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "The heading explicitly identifies strong feminines."
+    },
+    "C51b": {
+      "path": "sources/audits/unit15-source/cook-fb-p35.png",
+      "sha256": "6664b7e759894a169504dfd2bf1c5e0b50941dcd9597d4b1d1d0035119103c85",
+      "bytes": 264174,
+      "source": "cook_fb_1895_2",
+      "printed_page": 35,
+      "pdf_page_1_based": 51,
+      "locator": "§51.b",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "Long-stem feminine paradigm, continued from §51 on p34."
+    },
+    "C51.5": {
+      "path": "sources/audits/unit15-source/cook-fb-p36.png",
+      "sha256": "90165890279ad44577846f66e8c8bd29138c347f3485587c38384057e906566f",
+      "bytes": 317970,
+      "source": "cook_fb_1895_2",
+      "printed_page": 36,
+      "pdf_page_1_based": 52,
+      "locator": "§51.5 and §52",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "§51.5 describes polysyllables in -nes; §52 is headed Umlaut feminines."
+    },
+    "C53": {
+      "path": "sources/audits/unit15-source/cook-fb-p37.png",
+      "sha256": "337442209b24df4a2772eb2c620d6667edb91e2818b3f9702546bba8ceb61d95",
+      "bytes": 290216,
+      "source": "cook_fb_1895_2",
+      "printed_page": 37,
+      "pdf_page_1_based": 53,
+      "locator": "§53",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "Weak nouns: masculine -a, feminine/neuter -e; masculine and feminine paradigms are printed."
+    },
+    "C129": {
+      "path": "sources/audits/unit08-source/cook_fb_1895_2-p129.png",
+      "sha256": "66625b52c98eae7bf18f9599a0779e7a2f430294302a033b875a3be4a32ac428",
+      "bytes": 349925,
+      "source": "cook_fb_1895_2",
+      "printed_page": 129,
+      "pdf_page_1_based": 145,
+      "locator": "note 2",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "cīepa and cīepmann are explained as merchant; cēap-mann is the collateral form without umlaut, divided at the line ending."
+    },
+    "C139": {
+      "path": "sources/audits/unit11-source/cook_fb_1895_2-p139.png",
+      "sha256": "6bb64ef51c70e7f6441556637014901cfd7b2c31b9ca799d524e57ffee717afe",
+      "bytes": 245955,
+      "source": "cook_fb_1895_2",
+      "printed_page": 139,
+      "pdf_page_1_based": 155,
+      "locator": "reader text and note 4",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "The text has węcga, ōrum and gagates. Note 4 compares O.E. nafogār with modern auger."
+    },
+    "C89": {
+      "path": "sources/audits/unit09-coordinator/cook-fb-p89.png",
+      "sha256": "2d17ed3732915c50f3554a91a6e69f041e1a8a1c94d815daa83e45374caa642b",
+      "bytes": 247586,
+      "source": "cook_fb_1895_2",
+      "printed_page": 89,
+      "pdf_page_1_based": 105,
+      "locator": "§153.d",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "Frēan ęgesan is printed; the chapter C02 correction concerns analysis, not the words."
+    },
+    "C176": {
+      "path": "sources/audits/unit17-source/fb-p176.png",
+      "sha256": "f6efedfd9504c0efcc74acb5d9e4784dd089d8d97e3a6ee888fdcf258cbfb1e3",
+      "bytes": 592314,
+      "source": "cook_fb_1895_2",
+      "printed_page": 176,
+      "pdf_page_1_based": 192,
+      "locator": "note 14, Beowulf 653–655 quotation",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "guma ōðerne and him hǣl ābēad occur in the quoted greeting. The phrase, not a freestanding health noun exercise, is the actual book context."
+    },
+    "C273": {
+      "path": "sources/audits/unit14-source/cook-fb-p273.png",
+      "sha256": "d8f7c5a1c3508b4fa84d5c6cf3a4be926f08343bacddad297cd131742f87f8b3",
+      "bytes": 312180,
+      "source": "cook_fb_1895_2",
+      "printed_page": 273,
+      "pdf_page_1_based": 289,
+      "locator": "s.v. ā-bēodan",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "ā-bēodan (II.103), announce, communicate."
+    },
+    "C274": {
+      "path": "sources/audits/unit14-source/cook-fb-p274.png",
+      "sha256": "751aed51813f841f83ed6a3aeaf7d7e2a348aa14b5a5b42946bf8c013c71a2c7",
+      "bytes": 404404,
+      "source": "cook_fb_1895_2",
+      "printed_page": 274,
+      "pdf_page_1_based": 290,
+      "locator": "s.v. ǣg-hwā",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "ǣg-hwā (88), every one; neuter every thing."
+    },
+    "C281": {
+      "path": "sources/audits/unit14-source/cook-fb-p281.png",
+      "sha256": "7f8adef6e43fafbfd032cbe396c5595231144bea3344443386a63a99b832e0d1",
+      "bytes": 350155,
+      "source": "cook_fb_1895_2",
+      "printed_page": 281,
+      "pdf_page_1_based": 297,
+      "locator": "s.v. clif",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "clif (47,20), cliff."
+    },
+    "C283": {
+      "path": "sources/audits/unit15-source/cook-fb-p283.png",
+      "sha256": "6cee73cced1fa365d9e697cd10d1ef3d59eb4d5178dd41a1f6fc0f6d24e5fced",
+      "bytes": 407990,
+      "source": "cook_fb_1895_2",
+      "printed_page": 283,
+      "pdf_page_1_based": 299,
+      "locator": "s.v. dīegelnes",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "dīegelnes (51.5), retreat."
+    },
+    "C284": {
+      "path": "sources/audits/unit15-source/cook-fb-p284.png",
+      "sha256": "38bc087a42a778dde1979242dd4c6e8c185848743bbe1e453f3d908c131f94ae",
+      "bytes": 457992,
+      "source": "cook_fb_1895_2",
+      "printed_page": 284,
+      "pdf_page_1_based": 300,
+      "locator": "s.v. ęgesa",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "ęgesa (53), dread, fear, terror; peril."
+    },
+    "C285": {
+      "path": "sources/audits/unit15-source/cook-fb-p285.png",
+      "sha256": "e33209393d2e3162eb79d2861cfceec75a3e894d9d470021c7e4013c63b78ace",
+      "bytes": 433077,
+      "source": "cook_fb_1895_2",
+      "printed_page": 285,
+      "pdf_page_1_based": 301,
+      "locator": "s.vv. Englisc, fæc",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "Englisc (57), English; fæc (47), time, period, interval, space. Fæc is on p285, not p286."
+    },
+    "C287": {
+      "path": "sources/audits/unit15-source/cook-fb-p287.png",
+      "sha256": "c72dda94dbbe686d78e4d131de5f93fef91cda65c6cbb55733a5207b37dba2e1",
+      "bytes": 406027,
+      "source": "cook_fb_1895_2",
+      "printed_page": 287,
+      "pdf_page_1_based": 303,
+      "locator": "s.v. fēran",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "fēran (113), go, journey."
+    },
+    "C289": {
+      "path": "sources/audits/unit15-source/cook-fb-p289.png",
+      "sha256": "a9fbf7c2a6a83dfc48189ea9d663c295810ed4a13fcb5633f8f9d5fede149d04",
+      "bytes": 409008,
+      "source": "cook_fb_1895_2",
+      "printed_page": 289,
+      "pdf_page_1_based": 305,
+      "locator": "s.v. frēa",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "frēa (53), lord."
+    },
+    "C290": {
+      "path": "sources/audits/unit15-source/cook-fb-p290.png",
+      "sha256": "03ba37cd5367925200bf9f789d1f14ce25b21880a07e65d03a7891be8d63ad1b",
+      "bytes": 453281,
+      "source": "cook_fb_1895_2",
+      "printed_page": 290,
+      "pdf_page_1_based": 306,
+      "locator": "s.v. gagates",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "gagates (Lat.), jet. No Old English gender or class is stated."
+    },
+    "C291": {
+      "path": "sources/audits/unit15-source/cook-fb-p291.png",
+      "sha256": "e4eaaa6a94a791005630fcd80c274ef4b72060ffd27747bc777784994455ab2a",
+      "bytes": 422603,
+      "source": "cook_fb_1895_2",
+      "printed_page": 291,
+      "pdf_page_1_based": 307,
+      "locator": "s.v. ge-brec",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "ge-brec (47), uproar, din."
+    },
+    "C292": {
+      "path": "sources/audits/unit09-grammar/cook_fb_1895_2-p292.png",
+      "sha256": "ab5b4128e8959e93cba4f1f7e5182ae8c18a0c516fb1361e766d8c313cae6b09",
+      "bytes": 384741,
+      "source": "cook_fb_1895_2",
+      "printed_page": 292,
+      "pdf_page_1_based": 308,
+      "locator": "s.vv. ge-lǣdan, ge-lǣred",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "ge-lǣdan (113), bring, carry; ge-lǣred (62), taught/educated/trained/skilled, explicitly past participle of lǣran. No separate ge-lǣran heading on this page."
+    },
+    "C293": {
+      "path": "sources/audits/unit14-grammar/fb-p293.png",
+      "sha256": "38374662d582e5fd0c8972cb0b5006279766b8b27699dacff84d9d5e55ec796c",
+      "bytes": 223145,
+      "source": "cook_fb_1895_2",
+      "printed_page": 293,
+      "pdf_page_1_based": 309,
+      "locator": "s.vv. ge-munan, ge-nēosian",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "ge-munan (134), remember, be mindful; ge-nēosian (118), visit, with reference to nēosian. Keep the cited prefixed and unprefixed entries distinct."
+    },
+    "C297": {
+      "path": "sources/audits/unit15-source/cook-fb-p297.png",
+      "sha256": "742867969df26cb5ce9832e069f91af5a7624eab73f20ef4413c2ebe23389602",
+      "bytes": 404704,
+      "source": "cook_fb_1895_2",
+      "printed_page": 297,
+      "pdf_page_1_based": 313,
+      "locator": "s.vv. grēne, grōwan, guma, hǣl",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "grēne (59), green; grōwan (R.109), grow; guma (53), man/hero; hǣl (47), salvation/rescue/escape; distinct hǣlu (51.a)."
+    },
+    "C301": {
+      "path": "sources/audits/unit15-source/cook-fb-p301.png",
+      "sha256": "fd88a6b0eb491145bd87124e8dfcfc51323e5367de63287a996e0b69a4a520e3",
+      "bytes": 390451,
+      "source": "cook_fb_1895_2",
+      "printed_page": 301,
+      "pdf_page_1_based": 317,
+      "locator": "s.vv. intinga, lǣran",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "intinga (53), cause/account; lǣran (113), teach/direct."
+    },
+    "C302": {
+      "path": "sources/audits/unit12-source/cook_fb_1895_2-p302.png",
+      "sha256": "022f32558c73d2807d6fcb2972458c8b290ec496b8865ead04b5b75c80abb4b0",
+      "bytes": 466421,
+      "source": "cook_fb_1895_2",
+      "printed_page": 302,
+      "pdf_page_1_based": 318,
+      "locator": "s.v. lēo",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "lēo (Lat.), lion. No Old English gender or class is stated."
+    },
+    "C304": {
+      "path": "sources/audits/unit15-source/cook-fb-p304.png",
+      "sha256": "faafa1086ba205f3f98cdb9cf88bae6ece9739d5ba491f70d82d32f0d624f379",
+      "bytes": 427161,
+      "source": "cook_fb_1895_2",
+      "printed_page": 304,
+      "pdf_page_1_based": 320,
+      "locator": "s.vv. mǣgð, mægð",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "mǣgð (51.b), tribe/nation/province; distinct short mægð (52), maid/maiden."
+    },
+    "C307": {
+      "path": "sources/audits/unit15-grammar/fb-p307.png",
+      "sha256": "c065d7171f774abcf76c97b36947818e9af38269df025146b0a74eeefb1a7e84",
+      "bytes": 292909,
+      "source": "cook_fb_1895_2",
+      "printed_page": 307,
+      "pdf_page_1_based": 323,
+      "locator": "s.v. nēosian",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "nēosian (nēosan) (118;156.m), seek/look for. Related prefixed genēosian has its own visit entry on p293."
+    },
+    "C308": {
+      "path": "sources/audits/unit15-source/cook-fb-p308.png",
+      "sha256": "2d747303ce6541fbb70112de5626a0e5cad533655f9f98ea2953ba53c13d71fc",
+      "bytes": 414393,
+      "source": "cook_fb_1895_2",
+      "printed_page": 308,
+      "pdf_page_1_based": 324,
+      "locator": "s.vv. ōra, ōr-mōdnes",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "ōra (53), vein? ore?; ōr-mōdnes (51.5), despair/desperation. Both question marks belong to the source."
+    },
+    "C321": {
+      "path": "sources/audits/unit15-source/cook-fb-p321.png",
+      "sha256": "98c28cf42dbb8f709ad33207178d0efbdb59e126a275bac50ffc68ec4bbd0901",
+      "bytes": 427537,
+      "source": "cook_fb_1895_2",
+      "printed_page": 321,
+      "pdf_page_1_based": 337,
+      "locator": "s.v. węcg",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "węcg (43), metal."
+    },
+    "C324": {
+      "path": "build/glossary-design/cook-p324.png",
+      "sha256": "706696e992925aa328fa7031afd2c1eba38ccc8adcc79f87796680d48c5b7eca",
+      "bytes": 332806,
+      "source": "cook_fb_1895_2",
+      "printed_page": 324,
+      "pdf_page_1_based": 340,
+      "locator": "s.v. ȳð",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "ȳð (51.b;30), wave, billow, flood. Rendered directly from the registered Cook PDF, one-based PDF340."
+    },
+    "C78": {
+      "path": "sources/audits/unit06-grammar/cook-p78-pdf94.png",
+      "sha256": "4cf27c87f66638de545f0e5428ea63e51b4f451cf77777fec3393807306ea8c8",
+      "bytes": 196702,
+      "source": "cook_fb_1895_2",
+      "printed_page": 78,
+      "pdf_page_1_based": 94,
+      "locator": "§134",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "The heading is Conjugation of munan, intend. The infinitive is explicitly munan. Do not transfer the separate gemunan remember gloss to this cited model."
+    },
+    "C52": {
+      "path": "sources/audits/unit18-source/fb-p52.png",
+      "sha256": "5a27795453d1ee9de8dd6b7cc052d4c31dabde9d241a24110acc84f1d79444d1",
+      "bytes": 481470,
+      "source": "cook_fb_1895_2",
+      "printed_page": 52,
+      "pdf_page_1_based": 68,
+      "locator": "§89.a",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "nǣnig no/none; āhwæðer either; ǣgðer either. The full spelling ǣghwæðer is not printed in this list."
+    },
+    "C49": {
+      "path": "sources/audits/unit02-grammar/cook-fb-p49.png",
+      "sha256": "839ea0f0c3a8e84fdd4a4f82139c5be36c5f507015875ec25c1086b27526c55b",
+      "bytes": 187122,
+      "source": "cook_fb_1895_2",
+      "printed_page": 49,
+      "pdf_page_1_based": 65,
+      "locator": "§83",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "sīn is described as derived from the lost third-person reflexive; continued on p50."
+    },
+    "C50": {
+      "path": "sources/audits/unit02-grammar/cook-fb-p50.png",
+      "sha256": "74ddaf937d360acb905e7a62700771dd41986df623d27d74877901b06c2547fe",
+      "bytes": 252169,
+      "source": "cook_fb_1895_2",
+      "printed_page": 50,
+      "pdf_page_1_based": 66,
+      "locator": "§83 continuation",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "sīn, his; possessives follow the strong adjective declension."
+    },
+    "W234": {
+      "path": "sources/audits/unit03-grammar/wright-p234.png",
+      "sha256": "32d568bbde0df55bbaf69e1e9df590003ed57deefe8418c85edb51c3e6042194",
+      "bytes": 467141,
+      "source": "Wright, Old English Grammar (1914)",
+      "printed_page": 234,
+      "pdf_page_1_based": 254,
+      "locator": "§464",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "sīn (mostly used in poetry), his/her/its. It declines as an adjective; the genitive of the personal pronoun often replaces it."
+    },
+    "W239": {
+      "path": "sources/audits/unit08-grammar/wright_oe_1914-p239.png",
+      "sha256": "9fbf684f9463be1e324f9771f76f1cfd2400d893fd032b8cf7d08ee2701e2ff5",
+      "bytes": 377202,
+      "source": "Wright, Old English Grammar (1914)",
+      "printed_page": 239,
+      "pdf_page_1_based": 259,
+      "locator": "§471",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "ǣghwā each one/every one; ǣghwæþer each of two/both; āhwā any one; āhwæþer one of two. The course writes ð in the two -hwæðer citation forms."
+    },
+    "W213": {
+      "path": "sources/audits/unit17-coordinator/wright-p213.png",
+      "sha256": "97e7bca9af559c931298567ddb2469cf04f68d36f16f4439a14a6a831deda35d",
+      "bytes": 366760,
+      "source": "Wright, Old English Grammar (1914)",
+      "printed_page": 213,
+      "pdf_page_1_based": 233,
+      "locator": "§433",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "The adjective model wilde is explicitly glossed wild."
+    },
+    "W214": {
+      "path": "sources/audits/unit17-coordinator/wright-p214.png",
+      "sha256": "a2bf1416f4acb8ffa12c680fef8ea49c70c056be59880e0cd699a4ff1865d8a3",
+      "bytes": 490965,
+      "source": "Wright, Old English Grammar (1914)",
+      "printed_page": 214,
+      "pdf_page_1_based": 234,
+      "locator": "§434",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "The list of adjectives declined like wilde includes nīwe/nīwē and grēne."
+    },
+    "BT552": {
+      "path": "sources/audits/unit14-source/bt_b0552.jpg",
+      "sha256": "576746ae250fbb8630365908da085c0b026520770887382c071b7ca063a0486d",
+      "bytes": 316049,
+      "source": "Bosworth–Toller, main dictionary",
+      "printed_page": 552,
+      "pdf_page_1_based": null,
+      "locator": "p552 column a, HORD",
+      "inspection": "primary page image personally inspected for this review",
+      "observation": "HORD, es; n. m.; hoard/treasure. Both neuter and masculine are expressly supported; -es is the printed genitive ending."
+    }
+  },
+  "supplied_noun_resolutions": [
+    {
+      "lemma_id": "wecg",
+      "citation_headword": "węcg",
+      "part_of_speech": "noun",
+      "gender": "m",
+      "class_label": "strong",
+      "gloss": "metal; ingot",
+      "display": "węcg — noun m. metal; ingot",
+      "evidence_refs": [
+        "C321",
+        "C43",
+        "C139"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [],
+      "note": "Preserve the hook in węcg and the actual genitive plural węcga; the source dictionary gloss is metal. Ingot is a contextual rendering already in the book.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "ora",
+      "citation_headword": "ōra",
+      "part_of_speech": "noun",
+      "gender": "m",
+      "class_label": "weak",
+      "gloss": "vein of metal; ore (sense uncertain)",
+      "display": "ōra — noun m. vein of metal; ore (sense uncertain)",
+      "evidence_refs": [
+        "C308",
+        "C53",
+        "C139"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [],
+      "note": "Cook literally gives vein? ore? The context is węcga ōrum; retain uncertainty rather than claiming the two are settled interchangeable senses.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "gagates",
+      "citation_headword": "gagates",
+      "part_of_speech": "noun",
+      "gender": null,
+      "class_label": null,
+      "gloss": "jet (Latin loan-name)",
+      "display": "gagates — noun. jet (Latin loan-name)",
+      "evidence_refs": [
+        "C290",
+        "C139"
+      ],
+      "resolution": "source_limited_label",
+      "diagnostics": [],
+      "note": "Use the supplied exact form. Latin identity does not by itself establish an Old English gender or paradigm.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "faec",
+      "citation_headword": "fæc",
+      "part_of_speech": "noun",
+      "gender": "n",
+      "class_label": "strong",
+      "gloss": "interval; period of time; while",
+      "display": "fæc — noun n. interval; period of time; while",
+      "evidence_refs": [
+        "C285",
+        "C47"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [],
+      "note": "Correct the vocabulary locator U13-FB-P286 to Cook printed p285 / PDF301 for the lemma; preserve separate reading locators.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "diegelnes",
+      "citation_headword": "dīegelnes",
+      "part_of_speech": "noun",
+      "gender": "f",
+      "class_label": "strong",
+      "gloss": "retreat; seclusion",
+      "display": "dīegelnes — noun f. retreat; seclusion",
+      "evidence_refs": [
+        "C283",
+        "C51",
+        "C51.5"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [],
+      "note": "Keep actual source quantity and actual dīegelnessum lookup; do not generate a new paradigm from this metadata fix.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "gebrec",
+      "citation_headword": "gebrec",
+      "part_of_speech": "noun",
+      "gender": "n",
+      "class_label": "strong",
+      "gloss": "crash; noise; din",
+      "display": "gebrec — noun n. crash; noise; din",
+      "evidence_refs": [
+        "C291",
+        "C47"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [],
+      "note": "The dictionary displays ge-brec; the course joined prefix is an established presentation normalization.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "ormodnes",
+      "citation_headword": "ōrmōdnes",
+      "part_of_speech": "noun",
+      "gender": "f",
+      "class_label": "strong",
+      "gloss": "despair; hopelessness",
+      "display": "ōrmōdnes — noun f. despair; hopelessness",
+      "evidence_refs": [
+        "C308",
+        "C51",
+        "C51.5"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [],
+      "note": "The dictionary displays ōr-mōdnes; retain the existing joined citation.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "yth",
+      "citation_headword": "ȳð",
+      "part_of_speech": "noun",
+      "gender": "f",
+      "class_label": "strong",
+      "gloss": "wave; billow",
+      "display": "ȳð — noun f. wave; billow",
+      "evidence_refs": [
+        "C324",
+        "C51",
+        "C51b"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [],
+      "note": "Retain actual dative plural ȳðum as the reading form.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "intinga",
+      "citation_headword": "intinga",
+      "part_of_speech": "noun",
+      "gender": "m",
+      "class_label": "weak",
+      "gloss": "cause; sake (in for … intingan)",
+      "display": "intinga — noun m. cause; sake (in for … intingan)",
+      "evidence_refs": [
+        "C301",
+        "C53"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [],
+      "note": "Do not turn the local for-intingan phrase into an unqualified replacement for all English because/for uses.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "leo",
+      "citation_headword": "lēo",
+      "part_of_speech": "noun",
+      "gender": null,
+      "class_label": null,
+      "gloss": "lion (Latin loan-form)",
+      "display": "lēo — noun. lion (Latin loan-form)",
+      "evidence_refs": [
+        "C302"
+      ],
+      "resolution": "source_limited_label",
+      "diagnostics": [],
+      "note": "No independent Old English paradigm or gender established by the inspected source. Exact form remains adequate for the supplied exercise use.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "hord",
+      "citation_headword": "hord",
+      "part_of_speech": "noun",
+      "gender": "n/m",
+      "class_label": null,
+      "gloss": "hoard; treasure",
+      "display": "hord — noun n/m. hoard; treasure",
+      "evidence_refs": [
+        "BT552"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [
+        {
+          "label": "genitive singular ending",
+          "form": "-es",
+          "evidence_refs": [
+            "BT552"
+          ],
+          "type": "printed ending, not a separately attested full form"
+        }
+      ],
+      "note": "Both genders are source-supported; do not choose one silently. A complete paradigm is outside this component-citation scope.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "clif",
+      "citation_headword": "clif",
+      "part_of_speech": "noun",
+      "gender": "n",
+      "class_label": "strong",
+      "gloss": "cliff",
+      "display": "clif — noun n. cliff",
+      "evidence_refs": [
+        "C281",
+        "C47"
+      ],
+      "resolution": "gender_resolved",
+      "diagnostics": [],
+      "note": "A component citation remains a component citation after recovering its gender.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    },
+    {
+      "lemma_id": "englisc-language",
+      "citation_headword": "Englisc",
+      "part_of_speech": "adjective used substantivally",
+      "gender": null,
+      "class_label": null,
+      "gloss": "English, the language",
+      "display": "Englisc — adjective used substantivally. English, the language",
+      "evidence_refs": [
+        "C285"
+      ],
+      "resolution": "source_limited_label",
+      "diagnostics": [],
+      "note": "Cook indexes Englisc as an adjective (§57); the book uses on Englisc as the goal of translation. Do not present an invented independent noun declension.",
+      "scope": "Supplied sense or component citation; no new production or independent paradigm is assigned."
+    }
+  ],
+  "supplemental_lemma_reviews": [
+    {
+      "proposal_id": "GLOSS-OE-01",
+      "citation_headword": "cīepa",
+      "part_of_speech": "noun",
+      "gender": null,
+      "class_label": null,
+      "gloss": "merchant",
+      "display": "cīepa — noun. merchant",
+      "evidence_refs": [
+        "C129"
+      ],
+      "decision": "accept",
+      "note": "The note supplies the exact headword and meaning but no gender/class. Do not infer a full weak paradigm solely from final -a.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-02",
+      "citation_headword": "cīepmann",
+      "part_of_speech": "noun",
+      "gender": null,
+      "class_label": null,
+      "gloss": "merchant",
+      "display": "cīepmann — noun. merchant",
+      "evidence_refs": [
+        "C129"
+      ],
+      "decision": "accept",
+      "note": "Keep the collateral non-umlauted spelling explicit. No separately evidenced gender/paradigm is added in this bounded review.",
+      "forms_to_link": [
+        {
+          "form": "cēapmann",
+          "relationship": "source collateral spelling; source line-end cēap-mann joined"
+        }
+      ],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-03",
+      "citation_headword": "frēa",
+      "part_of_speech": "noun",
+      "gender": "m",
+      "class_label": "weak",
+      "gloss": "lord",
+      "display": "frēa — noun m. lord",
+      "evidence_refs": [
+        "C289",
+        "C53",
+        "C89"
+      ],
+      "decision": "accept",
+      "note": "Retain C02: Frēan is the genitive dependent on dative ęgesan; the correction does not license reversing the case labels.",
+      "forms_to_link": [
+        {
+          "form": "Frēan",
+          "analysis": "genitive singular in Frēan ęgesan"
+        }
+      ],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-04",
+      "citation_headword": "ęgesa",
+      "part_of_speech": "noun",
+      "gender": "m",
+      "class_label": "weak",
+      "gloss": "fear; terror",
+      "display": "ęgesa — noun m. fear; terror",
+      "evidence_refs": [
+        "C284",
+        "C53",
+        "C89"
+      ],
+      "decision": "accept",
+      "note": "",
+      "forms_to_link": [
+        {
+          "form": "ęgesan",
+          "analysis": "dative singular in Frēan ęgesan"
+        }
+      ],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-05",
+      "citation_headword": "fēran",
+      "part_of_speech": "verb",
+      "gender": null,
+      "class_label": "weak I",
+      "gloss": "go; journey",
+      "display": "fēran — verb. go; journey",
+      "evidence_refs": [
+        "C287"
+      ],
+      "decision": "accept_with_locator_correction",
+      "note": "Actual course citation: chapters/ch16/answer-key.md:591, under Cook XII, XIII.33.3 / EX-XII-XIII-33-03. The proposal EX-III-34-03 is wrong. No additional finite travel-verb system is assigned.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-06",
+      "citation_headword": "gelǣdan",
+      "part_of_speech": "verb",
+      "gender": null,
+      "class_label": "weak I",
+      "gloss": "bring; carry",
+      "display": "gelǣdan — verb. bring; carry",
+      "evidence_refs": [
+        "C292"
+      ],
+      "decision": "accept_narrowed",
+      "note": "Cook p292 directly supports this citation and bring/carry. The p130 passage is quoted in the book even though excluded from the assigned reader selection; it still needs glossary lookup. Lead is not needed for that citation.",
+      "forms_to_link": [
+        {
+          "form": "gelǣdst",
+          "analysis": "second singular present indicative; quoted following passage in ch08/student.md:1163"
+        }
+      ],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-07",
+      "citation_headword": "gelǣran",
+      "part_of_speech": "verb",
+      "gender": null,
+      "class_label": null,
+      "gloss": "teach; instruct",
+      "display": "gelǣran — verb. teach; instruct",
+      "evidence_refs": [
+        "C292",
+        "C301"
+      ],
+      "decision": "accept_with_source_scope",
+      "note": "The exact finite citation is named in ch16/answer-key.md:725, only to distinguish it from the lexical adjective gelǣred. Cook p292 describes gelǣred as the past participle of lǣran; p301 explicitly glosses lǣran teach/direct. This supports the pedagogical meaning but is not a separately printed ge-lǣran dictionary heading. Do not add unobserved finite forms or an inferred paradigm.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Verb named in a note explaining gelǣred; see gelǣred for the assigned adjective."
+    },
+    {
+      "proposal_id": "GLOSS-OE-08",
+      "citation_headword": "grēne",
+      "part_of_speech": "adjective",
+      "gender": null,
+      "class_label": "strong adjective model in -e",
+      "gloss": "green",
+      "display": "grēne — adjective. green",
+      "evidence_refs": [
+        "C297"
+      ],
+      "decision": "accept",
+      "note": "Exact Cook citation names a declensional model; full new paradigm not required.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-09",
+      "citation_headword": "grōwan",
+      "part_of_speech": "verb",
+      "gender": null,
+      "class_label": "strong reduplicating (Cook §109)",
+      "gloss": "grow",
+      "display": "grōwan — verb. grow",
+      "evidence_refs": [
+        "C297"
+      ],
+      "decision": "accept",
+      "note": "Keep the by-pattern origin of grēowon distinct from a claim that the glossary page prints that inflection.",
+      "forms_to_link": [
+        {
+          "form": "grēowon",
+          "analysis": "preterite plural; book explicitly documents it by the flōwan pattern",
+          "evidence": "chapters/ch05/answer-key.md"
+        }
+      ],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-10",
+      "citation_headword": "guma",
+      "part_of_speech": "noun",
+      "gender": "m",
+      "class_label": "weak",
+      "gloss": "man",
+      "display": "guma — noun m. man (poetic)",
+      "evidence_refs": [
+        "C297",
+        "C53",
+        "C176"
+      ],
+      "decision": "accept",
+      "note": "The actual quotation uses nominative singular guma. The source vocabulary also glosses hero, but the actual quotation requires only man.",
+      "forms_to_link": [],
+      "usage_qualifiers": [
+        "poetic/source quotation"
+      ],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-11",
+      "citation_headword": "hǣl",
+      "part_of_speech": "noun",
+      "gender": "n",
+      "class_label": "strong",
+      "gloss": "hail; greeting (in hǣl ābēodan, bid someone hail)",
+      "display": "hǣl — noun n. hail; greeting (in hǣl ābēodan, bid someone hail)",
+      "evidence_refs": [
+        "C176",
+        "C297",
+        "C47"
+      ],
+      "decision": "accept_contextual_gloss",
+      "note": "The greeting rendering belongs to the whole quoted formula. Cook vocabulary independently establishes the citation and neuter class but glosses its other uses salvation/rescue/escape. Do not silently import every dictionary sense into this reference-only entry; do not merge with feminine hǣlu or its hǣl- stem.",
+      "forms_to_link": [
+        {
+          "form": "hǣl",
+          "analysis": "accusative singular in him hǣl ābēad"
+        }
+      ],
+      "usage_qualifiers": [
+        "greeting formula; him is the dative recipient"
+      ],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-12",
+      "citation_headword": "ābēodan",
+      "part_of_speech": "verb",
+      "gender": null,
+      "class_label": "strong II",
+      "gloss": "announce; bid a greeting (hǣl ābēodan)",
+      "display": "ābēodan — verb. announce; bid a greeting (hǣl ābēodan)",
+      "evidence_refs": [
+        "C273",
+        "C176"
+      ],
+      "decision": "accept_narrowed",
+      "note": "Cook prints ā-bēodan; joining the prefix matches course convention. The broader offer gloss is not needed for this quoted occurrence.",
+      "forms_to_link": [
+        {
+          "form": "ābēad",
+          "analysis": "third singular preterite indicative in him hǣl ābēad"
+        }
+      ],
+      "usage_qualifiers": [
+        "hǣl ābēodan: bid someone hail / give someone greeting"
+      ],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-13",
+      "citation_headword": "munan",
+      "part_of_speech": "verb",
+      "gender": null,
+      "class_label": "preterite-present",
+      "gloss": "intend",
+      "display": "munan — verb. intend",
+      "evidence_refs": [
+        "C78",
+        "C293"
+      ],
+      "decision": "correct_gloss",
+      "note": "The actually cited Cook §134 is headed munan, intend. The proposed remember/have in mind came from the separate prefixed ge-munan p293. Preserve that source distinction; this does not deny senses of munan outside this bounded reference.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-14",
+      "citation_headword": "mægð",
+      "part_of_speech": "noun",
+      "gender": "f",
+      "class_label": "umlaut feminine (Cook §52)",
+      "gloss": "maiden; girl",
+      "display": "mægð — noun f. maiden; girl",
+      "evidence_refs": [
+        "C304",
+        "C51.5"
+      ],
+      "decision": "accept",
+      "note": "Short æ is essential. Distinguish long mǣgð, tribe/nation. The class reference supports the learner label without manufacturing new inflections.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-15",
+      "citation_headword": "nafogār",
+      "part_of_speech": "noun",
+      "gender": null,
+      "class_label": null,
+      "gloss": "auger",
+      "display": "nafogār — noun. auger",
+      "evidence_refs": [
+        "C139"
+      ],
+      "decision": "accept",
+      "note": "Exact spelling and sense are confirmed in Cook p139/PDF155 note4. The comparative note gives no gender or paradigm; retain a source-citation noun label.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-16",
+      "citation_headword": "nēosian",
+      "part_of_speech": "verb",
+      "gender": null,
+      "class_label": "weak II",
+      "gloss": "seek; look for (+ genitive)",
+      "display": "nēosian — verb. seek; look for (+ genitive)",
+      "evidence_refs": [
+        "C307",
+        "C293"
+      ],
+      "decision": "correct_local_gloss",
+      "note": "Cook p307 expressly glosses the unprefixed verb seek/look for and cites §156.m; ch10/student.md:977 explicitly states its genitive government. Genēosian visit + accusative has a separate citation and assigned frame. Avoid importing visit as an unqualified synonym here.",
+      "forms_to_link": [],
+      "usage_qualifiers": [
+        "genitive object; reference comparison with genēosian"
+      ],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-17",
+      "citation_headword": "nǣnig",
+      "part_of_speech": "indefinite pronoun/adjective",
+      "gender": null,
+      "class_label": null,
+      "gloss": "no; not any; none",
+      "display": "nǣnig — indefinite pronoun/adjective. no; not any; none",
+      "evidence_refs": [
+        "C52"
+      ],
+      "decision": "accept",
+      "note": "",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-18",
+      "citation_headword": "sīn",
+      "part_of_speech": "possessive adjective",
+      "gender": null,
+      "class_label": null,
+      "gloss": "his; her; its (own)",
+      "display": "sīn — possessive adjective. his; her; its (own)",
+      "evidence_refs": [
+        "C49",
+        "C50",
+        "W234"
+      ],
+      "decision": "accept",
+      "note": "Cook supplies the reflexive derivation and his; Wright §464 explicitly supports his/her/its and adjective inflection. Own should mark the reflexive relation, not be required as an extra English word in every translation.",
+      "forms_to_link": [],
+      "usage_qualifiers": [
+        "reflexive possessive; mostly poetic in Wright; reference only"
+      ],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-19",
+      "citation_headword": "āhwæðer",
+      "part_of_speech": "indefinite pronoun/adjective",
+      "gender": null,
+      "class_label": null,
+      "gloss": "either; one of two",
+      "display": "āhwæðer — indefinite pronoun/adjective. either; one of two",
+      "evidence_refs": [
+        "C52",
+        "W239"
+      ],
+      "decision": "accept_narrowed",
+      "note": "Drop unqualified any: both inspected sources specify the two-member choice. Cook has exact eth spelling; Wright uses thorn.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-20",
+      "citation_headword": "ǣghwæðer",
+      "part_of_speech": "indefinite pronoun/adjective",
+      "gender": null,
+      "class_label": null,
+      "gloss": "each of two; both",
+      "display": "ǣghwæðer — indefinite pronoun/adjective. each of two; both",
+      "evidence_refs": [
+        "W239"
+      ],
+      "decision": "accept_with_locator_correction",
+      "note": "Exact full form and meaning are in Wright §471 p239/PDF259, printed ǣghwæþer. The course eth spelling is retained. Cook §89 p52 lists contracted ǣgðer, not this full citation. Drop either unless a separate sense is evidenced.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-21",
+      "citation_headword": "āhwā",
+      "part_of_speech": "indefinite pronoun",
+      "gender": null,
+      "class_label": null,
+      "gloss": "anyone",
+      "display": "āhwā — indefinite pronoun. anyone",
+      "evidence_refs": [
+        "W239"
+      ],
+      "decision": "accept_with_locator_correction",
+      "note": "Use Wright §471 p239/PDF259 as the exact primary locator. Cook general hwā-compound rules are not an exact lexical citation.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-22",
+      "citation_headword": "ǣghwā",
+      "part_of_speech": "indefinite pronoun",
+      "gender": null,
+      "class_label": null,
+      "gloss": "everyone; each one",
+      "display": "ǣghwā — indefinite pronoun. everyone; each one",
+      "evidence_refs": [
+        "C274",
+        "W239"
+      ],
+      "decision": "accept",
+      "note": "Cook p274 gives everyone; neuter everything. The actual cited headword is personal; do not silently imply that every inflected context denotes a person.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    },
+    {
+      "proposal_id": "GLOSS-OE-23",
+      "citation_headword": "wilde",
+      "part_of_speech": "adjective",
+      "gender": null,
+      "class_label": null,
+      "gloss": "wild",
+      "display": "wilde — adjective. wild",
+      "evidence_refs": [
+        "W213",
+        "W214"
+      ],
+      "decision": "accept",
+      "note": "Wright §433 p213/PDF233 directly prints the paradigm model and gloss wild; p214 connects nīwe to it. Wright p49 concerns the historical spelling of nīwe, not the wilde gloss.",
+      "forms_to_link": [],
+      "usage_qualifiers": [],
+      "scope": "Reference/source citation only; no new production assignment."
+    }
+  ],
+  "counts": {
+    "noun_genders_resolved": 10,
+    "noun_source_limited_labels": 3,
+    "supplemental_reviewed": 23,
+    "supplemental_with_explicit_noun_gender": 5
+  },
+  "genuinely_unsettled_source_senses": [
+    {
+      "lemma_id": "ora",
+      "issue": "Cook gives vein? ore?; inspected context węcga ōrum does not settle the distinction beyond the metal/mineral context.",
+      "safe_display": "ōra — noun m. vein of metal; ore (sense uncertain)",
+      "blocking": false,
+      "evidence_refs": [
+        "C308",
+        "C139"
+      ]
+    }
+  ],
+  "remaining_metadata_limits": [
+    {
+      "lemma_ids": [
+        "gagates",
+        "leo"
+      ],
+      "issue": "Inspected sources label these Latin but supply no Old English gender/class; retain exact supplied form and meaning."
+    },
+    {
+      "lemma_ids": [
+        "englisc-language"
+      ],
+      "issue": "Adjectival source citation used substantivally in translation phrase; no independent noun paradigm asserted."
+    },
+    {
+      "proposal_ids": [
+        "GLOSS-OE-01",
+        "GLOSS-OE-02",
+        "GLOSS-OE-15"
+      ],
+      "issue": "Exact noun citation and meaning confirmed; no explicit gender or new paradigm recovered in this bounded check."
+    },
+    {
+      "proposal_ids": [
+        "GLOSS-OE-07"
+      ],
+      "issue": "Exact gelǣran is the book citation; inspected Cook pages give gelǣred and lǣran, not an independent finite ge-lǣran heading. Display the verb meaning with reference scope and no invented finite forms."
+    }
+  ],
+  "integration_checks": [
+    "Apply citation/POS/gender overrides by lemma ID; do not overwrite cumulative sense history or teaching milestones.",
+    "Change GLOSS-OE-13 display and English index to intend; retain gemunan remember separately.",
+    "Keep hǣl/ābēodan greeting meaning qualified by the whole formula and its dative recipient.",
+    "Keep nēosian +gen seek/look for separate from genēosian +acc visit.",
+    "Correct fēran occurrence to EX-XII-XIII-33-03 and fæc dictionary page to 285/PDF301.",
+    "Use Wright p239/PDF259 for full ǣghwæðer and āhwā, and Wright p213/PDF233 for wilde.",
+    "Do not treat normalizing source prefix hyphens or Wright thorn to the existing course eth as new lemma senses.",
+    "Preserve exact actual-book surfaces in lookup data; recovering gender does not authorize a generated full form list."
+  ]
+}

@@ -1,12 +1,13 @@
 {
   "schema_version": 1,
   "project": "Two complete reference glossaries for the eighteen-unit course",
-  "status": "contracted before learner glossary drafting; publication checks pending",
+  "status": "accepted: complete dictionary-style glossaries and full exports",
   "contract_date": "2026-10-29",
   "baseline_revision": "0c4d27031697abd8ed74ae70e5e72bdd9573e2b4",
   "user_requirement": {
     "old_english_to_english": "Complete for all Old English words in the book.",
-    "english_to_old_english": "Complete for the exercises."
+    "english_to_old_english": "Complete for the exercises.",
+    "dictionary_presentation": "Use a conventional dictionary: infinitive with principal parts, and selective cross-references for opaque forms such as vowel-changing third-person singulars. Do not print every separate inflected form. This explicit clarification supersedes the original actual-form-list presentation."
   },
   "boundaries": {
     "corpus_manifest": "glossaries/corpus-manifest.json",
@@ -38,10 +39,10 @@
     "identity": "Stable glossary entry IDs retain every original lemma and sense ID. Headword homographs keep separate meanings and parts of speech; a shared spelling is not permission to merge.",
     "headword": "Use an evidenced citation. Clearly label an inflected source form or fixed expression where a citation is not established. Never infer vowel length or silently regularize spelling.",
     "metadata": "Reconcile cumulative forms, senses and historical metadata. The latest local lemma label cannot erase earlier productive noun/verb uses. Use meaningful POS labels, not source-only as a part of speech.",
-    "diagnostics": "Give evidenced noun gender, genitive singular and nominative plural; verbal preterite and participle diagnostics where available. Do not generate missing cells or infer gender from endings. Supplied-only exact entries may omit unestablished diagnostics.",
+    "diagnostics": "Give evidenced noun gender, genitive singular and nominative plural. Strong verbs take infinitive, preterite singular, preterite plural and uninflected past participle; weak verbs take infinitive, preterite and uninflected past participle. Add useful irregular present diagnostics. Preterite-presents and irregular verbs require their own explicitly labelled forms, including distinct present stems. The dictionary-presentation recipe, frozen before the revised master, individually identifies additional source-backed reference forms; distinguish exact citation, declared normalization and checked rule formation. Never automatically fill unknown cells, infer gender from endings or guess vowel length. Supplied-only exact entries may omit unestablished diagnostics with a clear scope note.",
     "meanings": "Edit short lexical meanings and separate contextual senses. Replace internal teaching instructions with useful definitions and usage notes. Preserve complement, case, number, idiom and uncertainty restrictions.",
-    "forms": "Print compact Forms in this book lists of distinct actual valid surfaces, preserving all letters and marks. Retain ambiguous routes. Do not repeat the 13,295 logical analysis records. Forms do not imply that every listed form serves every sense.",
-    "cross_references": "Add direct pointers for opaque or irregular forms and useful variants. Preserve complete exact surface-to-entry routes in data. Never strip ge- automatically.",
+    "forms": "Keep the complete actual-form inventory and all ambiguous routes in machine-readable coverage data. The learner glossary groups words under dictionary headwords and prints selected principal parts or other diagnostics, not exhaustive Forms in this book lists. Coverage of every book word does not require a separate printed entry for every inflection.",
+    "cross_references": "Print selective, grammatically labelled pointers for opaque forms, especially vowel-changing third-person singulars, suppletion, irregular principal stems and useful variants. Exclude routine ending-only inflections. Preserve complete exact surface-to-entry routes in data. Never strip ge- automatically.",
     "corrections": "Keep rejected examples, source errors, reconstructions, stem/endings and non-OE comparanda explicitly classified. Searchable correction notices may quote wrong spellings but must not present them as valid paradigm forms. Preserve C01 and C06 and all accepted later corrections.",
     "english_access": "Author sense-specific English words/phrases, prompt synonyms and idioms. All 1,681 exercise-linked sense IDs need an intelligible English access route. Curated additions supplement this complete index. Do not reverse raw gloss strings mechanically.",
     "grammar_access": "Explain a/an, do-support, English tense auxiliaries, dummy subjects, questions, reflexives and case equivalents where the exercises require a construction rather than a literal lexical equation.",
@@ -65,5 +66,58 @@
     "Independent reviewers check actual glossaries against corpus and exercises, with special attention to source-only entries, case frames, idioms and corrections. Resolve material findings.",
     "Complete Markdown, TeX and PDF content agrees; every exported page and special character is inspected. Retain page-level acceptance ledgers.",
     "Check protected course identities; update the main and typesetting indexes, status and handoff; export Beads; save recoverable local Git revisions. No remote push is required."
-  ]
+  ],
+  "completion": {
+    "contract_checkpoint": "478b6e5",
+    "reviewed_contract_sha256": "ff981fa6736a4453a5c67ca499752eb21d04cdde80dbabd823ee647f00da793f",
+    "counts": {
+      "oe_entries": 1301,
+      "english_entries": 2049,
+      "surfaces": 5580,
+      "cross_references": 300,
+      "tasks": 1417,
+      "register_senses": 1687,
+      "protected_files": 137
+    },
+    "oe_sense_usage_records": 1723,
+    "english_routes": 3223,
+    "reference_forms": {
+      "total": 81,
+      "exact_source": 13,
+      "declared_normalization": 1,
+      "checked_rule_formation": 67
+    },
+    "reviews": [
+      {
+        "path": "glossaries/review/dictionary-integration.json",
+        "sha256": "28a87458343f439b46a546e34517ec225531830d50408fa3c2b70fc301990b35",
+        "status": "accepted: final dictionary source integration verified"
+      },
+      {
+        "path": "glossaries/review/dictionary-verb-independent.json",
+        "sha256": "48b91b972e21a9a2f60cd9451124113c3a981811d65d656127cbfa89ffb6fa6f",
+        "status": "accepted"
+      },
+      {
+        "path": "glossaries/review/dictionary-nonverbal-integration.json",
+        "sha256": "d77729f68f32cb9a6a02a7a5ee3faac19ffb35f0f14925e85c8bfcd9576639d5",
+        "status": "accepted"
+      },
+      {
+        "path": "glossaries/review/english.json",
+        "sha256": "26328005fbfb5241b7b0c39526d25f1dc2d647b4103abe7cbb9f2edfe1d623ce",
+        "status": "accepted_for_recorded_inputs"
+      },
+      {
+        "path": "glossaries/review/english-integration.json",
+        "sha256": "43ea0cd657c773221f73ead76478fff4f05ceb40242417243b40b0d1b8ac56dc",
+        "status": "accepted: final canonical data and English Markdown integration verified"
+      }
+    ],
+    "exports": "typesetting/glossaries/export-review.json",
+    "all_pages_actually_inspected": 158,
+    "protected_course_files_unchanged": 137,
+    "local_checkpoint_record": "STATUS.md and docs/HANDOFF.md",
+    "post_review_contract_changes": "Status and completion metadata only."
+  }
 }

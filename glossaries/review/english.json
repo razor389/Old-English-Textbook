@@ -1,0 +1,569 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent glossary-design worker; did not author English sense displays or access data",
+  "status": "accepted_for_recorded_inputs",
+  "scope": "All 2,045 initial English headings / 3,215 routes were inspected through 1,914 distinct complete display routes. All 1,417 task bindings were mechanically checked. All 644 actual Cook prompts were scanned for lexical access, and all 451 non-Cook OE-output/mixed task descriptions were read, including 188 translation/composition and 263 remaining morphology/mixed descriptions. High-risk idioms and case frames were checked against actual learner/key evidence. All changed complete display groups in the final coordinator sync were manually read, including the final person-or-thing wording of self. Final Markdown grouping was independently checked for retention and representative dense entries were read.",
+  "initial_snapshot": {
+    "inputs": [
+      {
+        "path": "glossaries/entries.json",
+        "sha256": "8ce81ed9216762fb3df722230167a8d5e15fc2f36fce64fd0c3ffd2524e43a32",
+        "bytes": 2794659
+      },
+      {
+        "path": "glossaries/english.md",
+        "sha256": "24989cd7cecc88fb0bdf0c3227ba745a69076ab8ae1836bed50bcb87f79f93a3",
+        "bytes": 291499
+      },
+      {
+        "path": "glossaries/exercise-lookup.json",
+        "sha256": "3cf1515c2a403596de7dfd3d75023d6347058e5ce9aebda4e5403c68d480094b",
+        "bytes": 2001412
+      },
+      {
+        "path": "sources/audits/glossaries/english/sense-display.json",
+        "sha256": "0538fec190221b0e5b4b82c342566dc038066ded74181444e052a36a7902d90d",
+        "bytes": 1422403
+      },
+      {
+        "path": "sources/audits/glossaries/english/sense-use-crosswalk.json",
+        "sha256": "64d8ecbc1eb8a1fd58a9dd01f9c6f885c3b9e2734c1980381e526a2c478c87f4",
+        "bytes": 1770495
+      },
+      {
+        "path": "sources/audits/glossaries/english/exercise-inventory.json",
+        "sha256": "de569b88cbff2c387e690e4cd9962c67b61063455526a711c5069e392e8b5450",
+        "bytes": 8030882
+      },
+      {
+        "path": "sources/audits/glossaries/english/lookup-additions.json",
+        "sha256": "c5220324398f1d9feb3431cb89fbe9b6f8ac954062fc01610ddcfa725676d257",
+        "bytes": 311375
+      }
+    ],
+    "english_entries": 2045,
+    "english_routes": 3215,
+    "unique_display_routes": 1914,
+    "route_text_chars": 148653,
+    "tasks": 1417,
+    "missing_tasks": [],
+    "missing_required_sense_ids": [],
+    "broken_routes": [],
+    "unknown_english_ids_in_task_lookup": [],
+    "task_missing_senses": [],
+    "duplicate_english_headwords": [
+      "god",
+      "saint"
+    ]
+  },
+  "current_input_identities": [
+    {
+      "path": "glossaries/english.md",
+      "sha256": "041ca271bf3cb750f9afed7d100de3dffb7f7278c59fbea2baabfcb36b145086",
+      "bytes": 319153
+    },
+    {
+      "path": "glossaries/entries.json",
+      "sha256": "47ec84dd46e194b6c32d102a3d9651eb752460b651e2b26235e54d5653089b2a",
+      "bytes": 2805119
+    },
+    {
+      "path": "glossaries/exercise-lookup.json",
+      "sha256": "f06b35a599c8cde9ca57526346738f6dc88d31e7cc62097d0a4318ca32fd2ee8",
+      "bytes": 1960183
+    },
+    {
+      "path": "sources/audits/glossaries/english/exercise-inventory.json",
+      "sha256": "de569b88cbff2c387e690e4cd9962c67b61063455526a711c5069e392e8b5450",
+      "bytes": 8030882
+    },
+    {
+      "path": "sources/audits/glossaries/english/sense-display.json",
+      "sha256": "0538fec190221b0e5b4b82c342566dc038066ded74181444e052a36a7902d90d",
+      "bytes": 1422403
+    },
+    {
+      "path": "sources/audits/glossaries/english/lookup-additions.json",
+      "sha256": "c5220324398f1d9feb3431cb89fbe9b6f8ac954062fc01610ddcfa725676d257",
+      "bytes": 311375
+    }
+  ],
+  "current_structural_checks": {
+    "task_ids": 1417,
+    "task_kinds": {
+      "english_to_old_english_source_translation": 644,
+      "old_english_production_or_morphology": 385,
+      "english_analysis_or_translation_of_old_english": 297,
+      "mixed_or_old_english_output": 66,
+      "pronunciation_only_no_english_to_old_english_requirement": 25
+    },
+    "required_sense_ids": 1681,
+    "missing_required_sense_ids": [],
+    "missing_task_ids": [],
+    "task_missing_senses": [],
+    "english_entries": 2049,
+    "english_routes": 3223,
+    "unknown_english_task_links": []
+  },
+  "findings": [
+    {
+      "finding_id": "ENR-01",
+      "title": "Nonlexical English headings",
+      "severity": "medium",
+      "status": "resolved_in_current_files",
+      "description": "Grammar explanations had been exposed as literal lookup labels.",
+      "recommended_fix": "Keep the explanations under into, when, not, hundred/thousand; remove the five artificial headings.",
+      "headwords": [
+        "destination expressed with dative after intō",
+        "factual past time",
+        "recurring or future time",
+        "simple clause negation",
+        "high numbers"
+      ]
+    },
+    {
+      "finding_id": "ENR-02",
+      "title": "Internal identifiers in learner headwords",
+      "severity": "high",
+      "status": "resolved_in_current_files",
+      "description": "Allow/permit printed geliefan-permit and perform/present printed forthteon.",
+      "recommended_fix": "Use exact gelīefst with its source-form label; use evidenced citation forðtēon (strong II), retaining source forðtēah.",
+      "remaining": [],
+      "primary_evidence": {
+        "path": "sources/audits/unit15-source/cook-fb-p288.png",
+        "printed_page": 288,
+        "pdf_page_1_based": 304,
+        "locator": "s.v. forð-tēon (II.103)",
+        "observation": "perform, represent, exhibit; bring forth; personally inspected image"
+      }
+    },
+    {
+      "finding_id": "ENR-03",
+      "title": "Editorial process prose in learner entries",
+      "severity": "medium",
+      "status": "resolved_in_current_files",
+      "description": "The first snapshot also exposed EN-ACCESS-092 instructions to create separate access entries; that text was already repaired at the first sync.",
+      "recommended_fix": "Replace the four remaining process notes with the short learner wording listed here.",
+      "remaining": []
+    },
+    {
+      "finding_id": "ENR-04",
+      "title": "Mixed lexical groups imply interchangeable translations",
+      "severity": "high",
+      "status": "resolved_and_independently_verified",
+      "description": "The initial a certain group also displayed any/hwā/hwilc; negative, possessive, demonstrative and comparison groups similarly mixed alternatives under individual English aliases.",
+      "recommended_fix": "Keep only the senses appropriate to each alias, or make genuinely compositional/grammatical guidance note-only. Independently reviewed the original groups; coordinator applied the English-source reviewer’s 135 explicit per-alias repairs.",
+      "examples": [
+        "EN-ACCESS-187",
+        "EN-ACCESS-184",
+        "EN-ACCESS-182",
+        "EN-ACCESS-180",
+        "EN-ACCESS-178",
+        "EN-ACCESS-219"
+      ]
+    },
+    {
+      "finding_id": "ENR-05",
+      "title": "Grammar notes masquerading as single-word translations",
+      "severity": "high",
+      "status": "resolved_in_current_files",
+      "description": "Dummy do→ne, possessive of→se/sēo/ðæt, recipient to→ic/ðū, wish let→wesan and presentational there had bold lexical candidate prefixes despite explaining constructions.",
+      "recommended_fix": "Retain sense links in data but render these routes as explanatory notes without candidate prefixes. Root’s repaired Markdown does this."
+    },
+    {
+      "finding_id": "ENR-06",
+      "title": "Whole expressions and degree forms",
+      "severity": "high",
+      "status": "resolved_in_current_files",
+      "description": "Bare components or positive-degree lemmas were presented as English phrase/comparative equivalents: after→ðe, alive→on, completely→mid/eall, better→wel, and similar.",
+      "recommended_fix": "Show the complete expression or explicitly state the attested degree form; preserve the component/citation links in the data.",
+      "remaining": [],
+      "examples": {
+        "alive": "on līfe",
+        "after": "æfter ðǣm ðe",
+        "completely": "mid ealle",
+        "forever": "tō worulde",
+        "better": "Bęt",
+        "best": "Bętst",
+        "most clearly": "sweotolost",
+        "more correctly": "rihtlicor",
+        "most intelligibly": "andgietfullicost",
+        "more widely": "wīdor",
+        "most widely": "wīdost"
+      }
+    },
+    {
+      "finding_id": "ENR-07",
+      "title": "Part-of-speech ambiguity",
+      "severity": "medium",
+      "status": "resolved_in_current_files",
+      "description": "Drink, command, judge, kiss, love, praise, rain and equal mixed nouns/verbs/adjectives without labels.",
+      "recommended_fix": "Add concise lexical part-of-speech labels. Root’s repaired output now distinguishes, for example, dręnc (n.) from drincan (v.)."
+    },
+    {
+      "finding_id": "ENR-08",
+      "title": "Cumulative POS for siððan",
+      "severity": "medium",
+      "status": "resolved_in_current_files",
+      "description": "The new POS labels expose siððan as adv. even where its meaning/usage explicitly says conjunction since/after.",
+      "recommended_fix": "Use adv.; conj. as the cumulative learner POS and retain the contextual distinction from afterwards.",
+      "current_part_of_speech": "adv.; conj."
+    },
+    {
+      "finding_id": "ENR-09",
+      "title": "Actual-prompt English access gaps",
+      "severity": "high",
+      "status": "resolved_in_current_files",
+      "description": "All required sense IDs were indexed, but actual prompt wording still lacked these routes. Much and yet led only to the wrong contextual meaning.",
+      "recommended_fix": "Add the eleven bounded access proposals, attached to the listed actual task evidence; do not widen the taught lexical systems. Broaden general self to the same person or thing.",
+      "aliases": [
+        {
+          "english_labels": [
+            "much",
+            "so much"
+          ],
+          "sense_id": "swithe-positive",
+          "oe": "swīðe",
+          "usage": "Degree adverb, as in love very much; distinct from micel quantity.",
+          "task_ids": [
+            "EX-VIII-26-02",
+            "EX-XII-XIII-36-05"
+          ],
+          "present": {
+            "much": true,
+            "so much": true
+          }
+        },
+        {
+          "english_labels": [
+            "yet"
+          ],
+          "sense_id": "giet-still-source",
+          "oe": "gīet",
+          "usage": "Still; continuing until now, not adversative nevertheless. Preserve exact nū gīet where supplied.",
+          "task_ids": [
+            "EX-XII-XIII-46-05",
+            "EX-XII-XIII-48-05"
+          ],
+          "present": {
+            "yet": true
+          }
+        },
+        {
+          "english_labels": [
+            "by night"
+          ],
+          "sense_id": null,
+          "sense_ids": [
+            "on-u15-source-during",
+            "niht-1"
+          ],
+          "oe": "on niht",
+          "usage": "Whole supplied temporal expression. Do not infer case from the syncretic visible niht alone; the task retains its existing on-u15-source-during binding.",
+          "task_ids": [
+            "EX-XII-XIII-33-03"
+          ],
+          "present": {
+            "by night": true
+          }
+        },
+        {
+          "english_labels": [
+            "as"
+          ],
+          "sense_id": "tha-when",
+          "oe": "ðā",
+          "usage": "When, in the explicitly supplied factual-past time clause; distinct from comparison swā.",
+          "task_ids": [
+            "EX-XII-XIII-46-09"
+          ],
+          "present": {
+            "as": true
+          }
+        },
+        {
+          "english_labels": [
+            "verily"
+          ],
+          "sense_id": "sothlice-truly",
+          "oe": "sōðlice",
+          "usage": "Truly; indeed.",
+          "task_ids": [
+            "EX-XII-XIII-40-03"
+          ],
+          "present": {
+            "verily": true
+          }
+        },
+        {
+          "english_labels": [
+            "itself"
+          ],
+          "sense_id": "self-emphatic-reflexive",
+          "oe": "self",
+          "usage": "Agreeing emphatic self; dēaðes selfes in 33.6 is inanimate, so the general gloss must admit a person or thing.",
+          "task_ids": [
+            "EX-XII-XIII-33-06"
+          ],
+          "present": {
+            "itself": true
+          }
+        },
+        {
+          "english_labels": [
+            "shore"
+          ],
+          "sense_id": "strand-1",
+          "oe": "strand",
+          "usage": "Shore or seashore; masculine noun.",
+          "task_ids": [
+            "NEW-U04-N03",
+            "NEW-U04-X03"
+          ],
+          "key_evidence": [
+            {
+              "path": "chapters/ch04/answer-key.md",
+              "line": 380
+            },
+            {
+              "path": "chapters/ch04/answer-key.md",
+              "line": 643
+            }
+          ],
+          "present": {
+            "shore": true
+          }
+        },
+        {
+          "english_labels": [
+            "put down"
+          ],
+          "sense_id": "settan-1",
+          "oe": "sęttan",
+          "usage": "Place or set down an accusative object, as seed in NEW-U02-T01; distinguish āweorpan cast down/depose.",
+          "task_ids": [
+            "NEW-U02-T01"
+          ],
+          "key_evidence": [
+            {
+              "path": "chapters/ch02/answer-key.md",
+              "line": 323
+            }
+          ],
+          "correction": "Initial provisional lęcgean suggestion withdrawn after checking the contract: the explicit target is sętte.",
+          "present": {
+            "put down": true
+          }
+        },
+        {
+          "english_labels": [
+            "intend",
+            "intend to"
+          ],
+          "sense_id": "willan-1",
+          "oe": "willan",
+          "usage": "Volition/intention with a plain infinitive; reported intention does not assert that the action occurred. This task selects willan, not reference-only munan.",
+          "task_ids": [
+            "NEW-U12-C06"
+          ],
+          "key_evidence": [
+            {
+              "path": "chapters/ch12/answer-key.md",
+              "line": 327
+            }
+          ],
+          "present": {
+            "intend": true,
+            "intend to": true
+          }
+        },
+        {
+          "english_labels": [
+            "what sort of"
+          ],
+          "sense_id": "hulic-what-sort",
+          "oe": "hūlic",
+          "usage": "Interrogative adjective asking kind/character; inflect to agree with the noun.",
+          "task_ids": [
+            "NEW-U08-Q04"
+          ],
+          "key_evidence": [
+            {
+              "path": "chapters/ch08/answer-key.md",
+              "line": 177
+            }
+          ],
+          "present": {
+            "what sort of": true
+          }
+        },
+        {
+          "english_labels": [
+            "would that"
+          ],
+          "sense_id": "habban-1",
+          "oe": "preterite subjunctive",
+          "grammar_only": true,
+          "required_feature_ids": [
+            "u09-unreal-wish"
+          ],
+          "usage": "A present unreal wish uses the preterite subjunctive: Hæfde ic ān scip! Optional Ēalā may introduce it; do not add willan merely for English would.",
+          "task_ids": [
+            "NEW-U09-W01"
+          ],
+          "key_evidence": [
+            {
+              "path": "chapters/ch09/answer-key.md",
+              "line": 223
+            }
+          ],
+          "present": {
+            "would that": true
+          }
+        }
+      ],
+      "proposal_list_frozen": true,
+      "self_general_meaning": "self; the same person or thing",
+      "self_gloss_admits_inanimate": true
+    },
+    {
+      "finding_id": "ENR-10",
+      "title": "Two exercise-specific adjective case frames",
+      "severity": "medium",
+      "status": "resolved_in_current_files",
+      "description": "Useful/equal lacked the dative relation explicitly required by their actual exercise examples.",
+      "recommended_fix": "Add the short case qualifiers; useful to/equal to are helpful additional English access labels.",
+      "case_notes": [
+        {
+          "sense_id": "behefe-source",
+          "headword": "useful",
+          "recommended_usage": "Dative person to whom something is useful.",
+          "recommended_alias": "useful to",
+          "evidence": [
+            {
+              "path": "chapters/ch09/answer-key.md",
+              "line": 375,
+              "task_id": "EX-II-10-01"
+            },
+            {
+              "path": "chapters/ch10/answer-key.md",
+              "line": 613,
+              "task_id": "EX-III-14-08"
+            }
+          ],
+          "present": true
+        },
+        {
+          "sense_id": "gelic-u15-equal",
+          "headword": "equal",
+          "recommended_usage": "Dative standard of comparison.",
+          "recommended_alias": "equal to",
+          "evidence": [
+            {
+              "path": "chapters/ch15/answer-key.md",
+              "line": 842,
+              "task_id": "EX-IX-29-01"
+            }
+          ],
+          "present": true
+        }
+      ]
+    },
+    {
+      "finding_id": "ENR-11",
+      "title": "Exact duplicate renderings",
+      "severity": "informational",
+      "status": "resolved_in_current_files",
+      "description": "The final renderer groups repeated identical candidate lists while preserving all distinct meanings and usage text. An independent retention check found no dropped fragment across all 2,049 headings; representative dense entries were read for attachment of qualifiers. Distinct source identities remain in data.",
+      "recommended_fix": "No further deduplication is required for acceptance. Some overlapping prose remains, without lost sense distinctions."
+    }
+  ],
+  "actual_prompt_scan": {
+    "cook_items": 644,
+    "original_oe_output_or_mixed_task_descriptions": 451,
+    "original_translation_or_composition_descriptions": 188,
+    "remaining_original_morphology_or_mixed_descriptions": 263,
+    "unmatched_cook_surface_types_for_manual_review": 87,
+    "result": "Most unmatched Cook surfaces are ordinary English inflections or transparent compounds with existing citation lookups. Missing lexical aliases verily/itself were escalated; polysemy/phrase checking additionally found much, yet, by night and temporal as. The complete original-task sweep added shore, placement put down, intend to, what sort of and would that. The eleven-proposal list is frozen.",
+    "optional_aliases": [
+      {
+        "english": "unto",
+        "guidance": "See to/as far as; obey the actual prompt’s until or omission control."
+      },
+      {
+        "english": "morn",
+        "guidance": "morning; source prints morn(ing)"
+      }
+    ],
+    "limitations": "Surface matching is only a finding aid. A present sense ID does not prove that every English alias reaches the intended sense; the new semantic alias findings demonstrate the distinction."
+  },
+  "accepted_choices": [
+    "Separate God/god and Saint/saint labels are meaningful case distinctions, not accidental duplicate sense loss.",
+    "Supplied expressions may remain note-only with exact phrase and case information.",
+    "No exhaustive English inflected-form index is required; English citation lookups are conventional for ordinary saw/see, children/child and similar forms."
+  ],
+  "not_certified": [
+    "Final PDF pagination/special-character export; the coordinator owns export review.",
+    "Any later source or canonical data change not included in current_input_identities."
+  ],
+  "final_delta_review": {
+    "status": "manually_read_and_accepted",
+    "comparison": "Final canonical routes compared with the frozen initial draft; every distinct changed complete display read.",
+    "identity": {
+      "path": "glossaries/entries.json",
+      "sha256": "47ec84dd46e194b6c32d102a3d9651eb752460b651e2b26235e54d5653089b2a",
+      "english_entries": 2049,
+      "distinct_changed_displays": 232
+    },
+    "bounded_new_alias_proposals": 11,
+    "government_notes_checked": 12,
+    "final_general_self_meaning": "self; the same person or thing",
+    "representative_grouped_entries_read": [
+      "as",
+      "after",
+      "above",
+      "in",
+      "with",
+      "know",
+      "do",
+      "for",
+      "give",
+      "command",
+      "drink",
+      "equal",
+      "useful",
+      "much",
+      "yet",
+      "would that",
+      "put down",
+      "shore",
+      "intend",
+      "verily",
+      "itself"
+    ],
+    "retention_check": {
+      "entries_sha256": "47ec84dd46e194b6c32d102a3d9651eb752460b651e2b26235e54d5653089b2a",
+      "markdown_sha256": "041ca271bf3cb750f9afed7d100de3dffb7f7278c59fbea2baabfcb36b145086",
+      "english_entries": 2049,
+      "markdown_entries": 2049,
+      "counts": {
+        "checked_usage_fragments": 1850,
+        "grammar_only_routes": 272,
+        "checked_lexical_candidates": 2994,
+        "checked_meaning_fragments": 1696
+      },
+      "headings_with_repeated_identical_candidate_groups": 348,
+      "issues": [],
+      "scope": "Independent retention check: every nonempty route usage, every lexical candidate, and every nonredundant direct-sense meaning is present in the entry paragraph. Grammar-only/access routes intentionally express their meaning through usage prose. This does not certify semantics by substring matching."
+    },
+    "material_unresolved_findings": []
+  },
+  "presentation_rebind": {
+    "old_master_sha256": "f7d1b3d9576ad8f803bf489926ddc27155ab0ac9c73349c1d6ba136a201f602e",
+    "new_master_sha256": "041ca271bf3cb750f9afed7d100de3dffb7f7278c59fbea2baabfcb36b145086",
+    "method": "Independently compared the actual prior accepted master with the current master. All 2,049 entry paragraphs are byte-identical; the sole differences remove two redundant alphabet headings and their following blank lines.",
+    "unchanged_entry_paragraphs": 2049,
+    "old_master_path": "build/glossary-coordinator/english-before-letter-heading-fix.md",
+    "decision": "Semantic acceptance carries forward; final PDF review is separate."
+  }
+}

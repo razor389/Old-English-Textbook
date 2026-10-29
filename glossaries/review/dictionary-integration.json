@@ -1,0 +1,154 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent Old English corpus and dictionary reviewer",
+  "status": "accepted: final dictionary source integration verified",
+  "scope": "All 372 verb recipes; all 1301 lexical entries and 1723 integrated sense/usage records; all 300 selected cross-reference spellings/306 target routes; all six inflected-participle exclusions; unchanged complete surface lookup. No PDF acceptance in this receipt.",
+  "artifacts": {
+    "glossaries/old-english.md": "db8eb1253d5729998e3e115668b663fe0f9b0fe71cfee9ab3e148cd39f1aedee",
+    "glossaries/entries.json": "04b81210ead5d1a96fdfea7e0ed221c57ec9ca20b5437c6ca35732be70511628",
+    "glossaries/form-lookup.json": "1a1f1de42b3b260ee0ab6117f29afb82bc9e6eb12baae8aa1d144d49a0414ab8",
+    "glossaries/dictionary-presentation.json": "7cd7cc9d6ecb4287207f1af0deda79120389389c2d1c5751fff91982cfe6673c",
+    "glossaries/review/old-english-dictionary-policy.json": "dec0cc9c350788b156b7ec461eabab7677638217410b8c092a6cd75f0a898253",
+    "glossaries/review/cross-reference-policy.json": "de0ed323d574d9a9e3b63af38c9f55eab201a946b8cbcaef0577b084f6b097ce",
+    "lexicon/entries.json": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7"
+  },
+  "oe_entry_projection_sha256": "2369268f891996f560f85711848e6d9f3a994fafe3adbacafdc88355069c851c",
+  "semantic_and_full_forms_projection_sha256": "d6681115df78079dea9a0c00e90984ab417debbeb2f8214aa097aeca9e013cea",
+  "checks": {
+    "verb_recipes": 372,
+    "core_diagnostic_records": 646,
+    "core_diagnostic_errors": [],
+    "lexical_entries": 1301,
+    "master_entry_blocks": 1590,
+    "integrated_senses": 1723,
+    "semantic_text_errors": [],
+    "registered_sense_ids": 1687,
+    "missing_registered_sense_ids": [],
+    "selected_crossref_spellings": 300,
+    "selected_crossref_targets": 306,
+    "selected_changed_present_routes": 103,
+    "crossref_data_equals_allowlist": true,
+    "crossref_prose_errors": [],
+    "excluded_inflected_participle_ids": [
+      "bindan-past-participle-predicate-pl",
+      "gemanigfieldan-past-participle-predicate-pl",
+      "gescieppan-u17-past-participle-predicate-plural",
+      "gescrydan-u17-context-ex-xii-xiii-42-03-27",
+      "togeiecan-part-predicate-source",
+      "wyrcean-u17-past-participle-predicate-plural"
+    ],
+    "exclusion_errors": [],
+    "complete_form_lookup_byte_identical": true,
+    "printed_exhaustive_forms_lists": 0,
+    "defective_modal_caveats": [
+      {
+        "entry_id": "OE-durran",
+        "caveat_copies": 1,
+        "participle_source_limit_preserved": true
+      },
+      {
+        "entry_id": "OE-sculan",
+        "caveat_copies": 1,
+        "participle_source_limit_preserved": true
+      },
+      {
+        "entry_id": "OE-magan",
+        "caveat_copies": 1,
+        "participle_source_limit_preserved": true
+      },
+      {
+        "entry_id": "OE-motan",
+        "caveat_copies": 1,
+        "participle_source_limit_preserved": true
+      }
+    ],
+    "crossref_allowlist_qualification": "Frozen cross-reference ledger plus the two reviewed labels, two route locators and their supporting case evidence in dictionary-presentation.json.",
+    "complete_lookup_surfaces": 5580,
+    "reference_forms": 81,
+    "reference_form_origin_counts": {
+      "new teaching material": 67,
+      "exact source": 13,
+      "declared normalization": 1
+    },
+    "oe_only_infinitive_gloss_cleanups": {
+      "OE-gesendan": {
+        "sent back": "send back"
+      },
+      "OE-threan": {
+        "chastised; struck": "chastise; strike"
+      }
+    },
+    "oe_only_degree_sense_display_overrides": 9,
+    "all_lexical_heads_and_notes_retained": true,
+    "all_printed_senses_match_data_or_approved_oe_display_override": true
+  },
+  "manual_focus_checks": [
+    "findan keeps pret.1sg fand, not a blanket 1/3sg label.",
+    "gelīefst remains supplied present second singular; tōdǣlen/tōdǣlden and ūtgangende retain supplied-form scope.",
+    "āgan keeps āgen explicitly adjectival; cunnan uses evidenced (ge)cunnen.",
+    "Positive and negative wesan/willan diagnostics remain separately labelled.",
+    "All 13 correction/reconstruction notices remain, including the āgyltan/āgyldan sense distinction and wǣstm quantity correction.",
+    "Introduction explains limited source citations and that reference forms add no recall targets.",
+    "The OE-only glosses gesęndan send back and ðrēan chastise; strike match the infinitive headwords while retaining canonical evidence senses and the accepted English glossary.",
+    "All nine reviewed degree-sense sentences explicitly connect the comparative or superlative meaning to the cited form.",
+    "The final 81 reference forms have 13 exact-source, one declared-normalization and 67 individually reviewed rule-formation origins; lęgd and ðōht provenance refinements are present."
+  ],
+  "findings": [],
+  "limitations": "This accepts the linguistic and dictionary presentation integration of the exact OE master, not its PDF. Canonical meanings and usage were compared with every printed sense or approved OE-only display override; all core recipes and selected cross-references were checked. The complete form lookup is byte-identical. Added reference fields and approved diagnostic removals change entries.json; no old complete-entry hash is claimed. Prior linguistic acceptance and the independent source-page audit support the underlying language.",
+  "checked_at_utc": "2026-10-29T20:42:42.491130+00:00",
+  "projection_method": {
+    "serialization": "UTF-8 JSON, ensure_ascii false, sorted object keys, compact separators; array order retained",
+    "semantic_projection_fields": [
+      "entry_id",
+      "lemma_id",
+      "headword",
+      "part_of_speech",
+      "gender",
+      "senses",
+      "forms",
+      "notes"
+    ]
+  },
+  "resolved_findings": [
+    {
+      "finding_id": "DUP-OE-durran",
+      "severity": "minor presentation fix",
+      "entry_id": "OE-durran",
+      "finding": "Conventional citation caveat prints twice.",
+      "required_fix": "Render one copy and retain the separate participle source-limit sentence.",
+      "status": "resolved in final source",
+      "resolution": "Exactly one citation caveat remains; the past-participle source-limit sentence remains."
+    },
+    {
+      "finding_id": "DUP-OE-sculan",
+      "severity": "minor presentation fix",
+      "entry_id": "OE-sculan",
+      "finding": "Conventional citation caveat prints twice.",
+      "required_fix": "Render one copy and retain the separate participle source-limit sentence.",
+      "status": "resolved in final source",
+      "resolution": "Exactly one citation caveat remains; the past-participle source-limit sentence remains."
+    },
+    {
+      "finding_id": "DUP-OE-magan",
+      "severity": "minor presentation fix",
+      "entry_id": "OE-magan",
+      "finding": "Conventional citation caveat prints twice.",
+      "required_fix": "Render one copy and retain the separate participle source-limit sentence.",
+      "status": "resolved in final source",
+      "resolution": "Exactly one citation caveat remains; the past-participle source-limit sentence remains."
+    },
+    {
+      "finding_id": "DUP-OE-motan",
+      "severity": "minor presentation fix",
+      "entry_id": "OE-motan",
+      "finding": "Conventional citation caveat prints twice.",
+      "required_fix": "Render one copy and retain the separate participle source-limit sentence.",
+      "status": "resolved in final source",
+      "resolution": "Exactly one citation caveat remains; the past-participle source-limit sentence remains."
+    }
+  ],
+  "superseded_receipt_identity": {
+    "old_english_master": "c5da6f4223daa2cae6af7bd55cdbba58bbd56c44e2afb27effbf39dbefa2c53b",
+    "reason": "Four repeated caveats and final OE-only display/provenance repairs were subsequently integrated and verified."
+  }
+}

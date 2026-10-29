@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "check": "English entry paragraphs unchanged when two redundant alphabet headings were removed",
+  "old_master_sha256": "f7d1b3d9576ad8f803bf489926ddc27155ab0ac9c73349c1d6ba136a201f602e",
+  "new_master_sha256": "041ca271bf3cb750f9afed7d100de3dffb7f7278c59fbea2baabfcb36b145086",
+  "unchanged_entry_paragraphs": 2049,
+  "normalizations_in_pdf_text_check": [
+    "Whitespace and NFC only for letters",
+    "Visible Cambria hyphen extracted as U+00AD is compared as ASCII hyphen; it is never deleted"
+  ],
+  "diagnostic_regression_repair": {
+    "restored_pre_self_master_sha256": "0773924e13ae032f37bccfbe0c51afbbc02978d50b05cf77bc8d4965459cd6d5",
+    "stable_repairs": "glossaries/approved-review-repairs.json",
+    "invariant": "Each diagnostic provenance ID names a displayed form; every approved diagnostic must appear in entry data and master prose."
+  },
+  "final_layout": {
+    "trim_mm": [
+      165,
+      241
+    ],
+    "font": "Cambria",
+    "entry_size_pt": 10.5,
+    "entry_leading_pt": 13.2,
+    "columns": 2,
+    "column_gap_mm": 6,
+    "paragraph_skip_pt": {
+      "old-english": 3.8,
+      "english": 4
+    },
+    "oe_introduction": "10.5/13.2 typography fits the complete unchanged seven-paragraph introduction on page 1; entries start on page 2.",
+    "oe_last_columns": "Sequential multicols* avoids balancing overflow; 3.8pt paragraph spacing keeps the final yð entry with Y on page 57.",
+    "oe_appendix": "Separate full-width correction and reconstruction notes on page 58.",
+    "english_last_columns": "Balanced multicols; 100 complete pages.",
+    "headings": "needspace restores the preceding skip; no extra paragraph reservation immediately after a heading.",
+    "scope": "Presentation only; no entry prose or course milestone changes."
+  },
+  "accepted_pdf_pages": {
+    "old-english": 58,
+    "english": 100
+  },
+  "superseded_proofs": {
+    "old-english": "Initial 82-page proof and intervening 59/60-page trials; page-review-oe-01-41 and page-review-oe-42-82 are historical only.",
+    "english": "Initial 101-page proof is retained as superseded history inside current ledgers."
+  },
+  "publication_whitespace_cleanup": {
+    "receipt": "glossaries/master-whitespace-rebind.json",
+    "rendered_content_changed": false,
+    "tex_bytes_changed": false,
+    "pdf_bytes_changed": false
+  }
+}

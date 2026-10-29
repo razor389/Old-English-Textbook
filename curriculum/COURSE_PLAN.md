@@ -10,6 +10,8 @@ Lambdin supplies the practical organizational model, not Old English linguistic 
 
 The [pronunciation guide](../typesetting/pronunciation/pronunciation.pdf) precedes Unit 1 and remains available for reference. Its [separate contract](../guides/pronunciation/coverage.json) selects a practical Cook/Fulk reading convention with American English cues, plain articulation instructions, and only occasional introductory phonetic symbols. All example meanings and sentence grammar are supplied. Its 25 sound questions and separate key establish no additional vocabulary or grammatical production milestones and assign no new numbered Cook exercise items.
 
+The [two reference glossaries](../glossaries/README.md) accompany the completed course. Old English–English covers all 38 learner/key masters, including paradigms and source notes; English–Old English covers all 1,392 chapter tasks and 25 pronunciation responses. Dictionary headwords, principal parts and selected irregular-form pointers support lookup. Reference inclusion adds no assignment or independent-recall milestone; each unit's contract still defines what is taught or supplied.
+
 ## Contents and Cook allocation
 
 | Unit | Grammatical system and ordinary use | Cook material planned | Reading progression |

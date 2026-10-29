@@ -1,0 +1,29 @@
+{
+  "schema_version": 1,
+  "status": "verified",
+  "operation": "Remove trailing spaces and redundant final blank lines only.",
+  "method": "Compared every parsed Markdown block before and after cleaning, then regenerated both complete TeX files and proved both byte-identical to the visually reviewed TeX. The accepted PDFs are unchanged. Earlier linguistic/page receipts identify the reviewed raw master; these exact projections bind them to the retained master.",
+  "records": [
+    {
+      "path": "glossaries/old-english.md",
+      "reviewed_master_sha256": "db8eb1253d5729998e3e115668b663fe0f9b0fe71cfee9ab3e148cd39f1aedee",
+      "retained_master_sha256": "173e88490ea6c0bd31937dce6216fa6a222f4a5d43bb1569273a9c7b2306a43e",
+      "identical_rendered_blocks": 1637,
+      "rendered_block_sequence_sha256": "0ea4289a0313968309d13c08e3d31fb211dd64dee35668a834e395b0759780be",
+      "changed_lines": 0
+    },
+    {
+      "path": "glossaries/english.md",
+      "reviewed_master_sha256": "041ca271bf3cb750f9afed7d100de3dffb7f7278c59fbea2baabfcb36b145086",
+      "retained_master_sha256": "131ee5871bee4438b668dae304263a1c3fcf0e53ceab1eea103a840ce61802e2",
+      "identical_rendered_blocks": 2080,
+      "rendered_block_sequence_sha256": "4b4b379030224a4769800508b1c0f03a77d59b42c29465a5b8eca07005707f32",
+      "changed_lines": 388
+    }
+  ],
+  "tex_sha256_unchanged": {
+    "old-english": "47a21f2cc719295b3090cc148baa733a436a735c647bbb16b998a54ba5415e6e",
+    "english": "73c5a080c99f3b63c6c82ace49cdf909f527c3cbdcc30133afb1e87444f06bf5"
+  },
+  "pdf_changes": false
+}

@@ -1,0 +1,2790 @@
+{
+  "schema_version": 1,
+  "status": "accepted",
+  "scope": "Independent review of all selected crossrefs (policy not authored by this reviewer) and verification of nonverbal dictionary integration; no PDF acceptance.",
+  "input_identities": [
+    {
+      "path": "glossaries/old-english.md",
+      "sha256": "db8eb1253d5729998e3e115668b663fe0f9b0fe71cfee9ab3e148cd39f1aedee"
+    },
+    {
+      "path": "glossaries/entries.json",
+      "sha256": "04b81210ead5d1a96fdfea7e0ed221c57ec9ca20b5437c6ca35732be70511628"
+    },
+    {
+      "path": "glossaries/form-lookup.json",
+      "sha256": "1a1f1de42b3b260ee0ab6117f29afb82bc9e6eb12baae8aa1d144d49a0414ab8"
+    },
+    {
+      "path": "glossaries/english.md",
+      "sha256": "041ca271bf3cb750f9afed7d100de3dffb7f7278c59fbea2baabfcb36b145086"
+    },
+    {
+      "path": "glossaries/review/cross-reference-policy.json",
+      "sha256": "de0ed323d574d9a9e3b63af38c9f55eab201a946b8cbcaef0577b084f6b097ce"
+    },
+    {
+      "path": "glossaries/review/dictionary-design.json",
+      "sha256": "77e0fbd74351528ef110ae56becceabb53dbf9e1ea971695835116d3e3294baa"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7"
+    }
+  ],
+  "initial_review_identities": {
+    "master_sha256": "a5eb786836df74fc61f6e576df329113c17bccaed45e654a5d988bd4ff500685",
+    "entries_sha256": "18f9b2e01e17a641ea6c8eb8ba7d46b3df960499310073ba8b8fa4b92bef19cf"
+  },
+  "counts": {
+    "lexical_entries": 1301,
+    "noun_recipes_checked": 499,
+    "existing_noun_diagnostic_groups_checked": 663,
+    "comparison_entries_checked": 21,
+    "positive_links_checked": 20,
+    "stem_notes_checked": 5,
+    "selected_noun_variant_notes_checked": 6,
+    "crossref_spellings_read": 300,
+    "target_route_labels_read": 306,
+    "standalone": 289,
+    "append_to_existing_headword": 11,
+    "variant_routes_without_register_form_ids_read": 60,
+    "internal_lookup_surfaces": 5580,
+    "rendered_unique_entry_markers": 1590,
+    "printed_exhaustive_form_lists": 0
+  },
+  "checks": {
+    "all_selected_routes_render": true,
+    "policy_matches_canonical": false,
+    "all_target_heads_exist": true,
+    "all_register_form_ids_match_exact_surface_and_owner": true,
+    "all_selected_internal_lookup_targets_preserved": true,
+    "all_noun_recipes_retained_except_intended_sae_thiestru_repairs": true,
+    "all_21_comparison_arrays_exact": true,
+    "all_20_positive_links_present": true,
+    "all_5_final_stem_notes_present": true,
+    "all_6_selected_noun_variant_notes_present": true,
+    "sae_source_gender_separated": true,
+    "thiestru_neuter_plural_only": true,
+    "internal_form_lookup_byte_identical": true,
+    "english_master_unchanged": true,
+    "policy_matches_canonical_after_explicit_accepted_review_repairs": true
+  },
+  "findings": [
+    {
+      "id": "DNI-01",
+      "status": "resolved",
+      "kind": "stale_nonverbal_snapshot",
+      "entry_ids": [
+        "OE-micel",
+        "OE-lytel",
+        "OE-mihtig"
+      ],
+      "summary": "All three final stem notes are now integrated; exact current master text was checked."
+    },
+    {
+      "id": "DNI-02",
+      "status": "resolved",
+      "kind": "incomplete_selected_case_labels",
+      "summary": "gǣt needs its taught dative and source genitive alternative; ðon needs its distinct supplied dative."
+    },
+    {
+      "id": "DNI-03",
+      "status": "resolved",
+      "kind": "degree_sense_display_clarity",
+      "summary": "Bind nine degree meanings explicitly to the exact forms, especially four entries whose only source sense is comparative/superlative."
+    },
+    {
+      "id": "DNI-04",
+      "status": "resolved",
+      "kind": "route_locator_homograph_collision",
+      "summary": "it and the sęcgan route of sǣde have first-occurrence homograph locators; valid exact variant evidence exists."
+    }
+  ],
+  "proposed_repairs": {
+    "cross_reference_labels": [
+      {
+        "entry_id": "XREF-91bc0825a591",
+        "surface": "gǣt",
+        "target_entry_id": "OE-gat",
+        "old_label": "nom./acc. pl.",
+        "new_label": "dat. sg.; nom./acc. pl.; also gen. sg. variant",
+        "form_ids": [
+          "gat-dat-sg",
+          "gat-nom-pl",
+          "gat-acc-pl"
+        ],
+        "evidence": [
+          {
+            "path": "chapters/ch10/student.md",
+            "line": 181
+          },
+          {
+            "path": "chapters/ch10/student.md",
+            "line": 191
+          }
+        ]
+      },
+      {
+        "entry_id": "XREF-8db0860dec51",
+        "surface": "ðon",
+        "target_entry_id": "OE-se",
+        "old_label": "instr. m sg.; instr. n sg.",
+        "new_label": "instr. m./n. sg.; also supplied dat. n. sg.",
+        "form_ids": [
+          "se-m-ins-sg-variant",
+          "se-n-ins-sg-variant",
+          "se-dat-n-sg-result-source"
+        ],
+        "evidence": [
+          {
+            "path": "chapters/ch11/student.md",
+            "line": 1945
+          },
+          {
+            "path": "chapters/ch13/student.md",
+            "line": 2400
+          }
+        ]
+      }
+    ],
+    "cross_reference_route_locators": [
+      {
+        "entry_id": "XREF-2ad8a7049d7c",
+        "surface": "it",
+        "target_entry_id": "OE-etan",
+        "field": "accepted_surface_evidence",
+        "new_value": {
+          "path": "chapters/ch05/student.md",
+          "line": 238
+        },
+        "reason": "Current locator is ordinary English it; this course line expressly records the OE third-singular variant."
+      },
+      {
+        "entry_id": "XREF-52f2a0b4efdf",
+        "surface": "sǣde",
+        "target_entry_id": "OE-secgan",
+        "field": "accepted_surface_evidence",
+        "new_value": {
+          "path": "chapters/ch02/student.md",
+          "line": 222
+        },
+        "reason": "Current locator proves noun sǣd dative; this line directly proves the sęcgan past variant."
+      }
+    ],
+    "oe_sense_display_overrides": [
+      {
+        "entry_id": "OE-rihtlice",
+        "sense_id": "rihtlice-u15-source-sense",
+        "old_meaning": "more correctly",
+        "old_usage": "Supplied comparative adverb.",
+        "oe_printed_sense": "In comparative rihtlicor: more correctly.",
+        "evidence_refs": [
+          "U15-FB-P162",
+          "U15-FB-P309"
+        ],
+        "constraint": "OE display only; retain canonical sense meaning and the accepted English glossary."
+      },
+      {
+        "entry_id": "OE-sweotole",
+        "sense_id": "sweotole-u15-source-sense",
+        "old_meaning": "most clearly",
+        "old_usage": "Supplied superlative adverb.",
+        "oe_printed_sense": "In superlative sweotolost: most clearly.",
+        "evidence_refs": [
+          "U15-FB-P162",
+          "U15-FB-P315"
+        ],
+        "constraint": "OE display only; retain canonical sense meaning and the accepted English glossary."
+      },
+      {
+        "entry_id": "OE-andgietfullice",
+        "sense_id": "andgietfullice-u15-source-sense",
+        "old_meaning": "most intelligibly",
+        "old_usage": "Supplied superlative adverb.",
+        "oe_printed_sense": "In superlative andgietfullicost: most intelligibly.",
+        "evidence_refs": [
+          "U15-FB-P162",
+          "U15-FB-P276"
+        ],
+        "constraint": "OE display only; retain canonical sense meaning and the accepted English glossary."
+      },
+      {
+        "entry_id": "OE-swithlice",
+        "sense_id": "swithlice-u14-source",
+        "old_meaning": "more violently; more severely",
+        "old_usage": "Supplied comparative adverb.",
+        "oe_printed_sense": "In comparative swīðlicor: more violently; more severely.",
+        "evidence_refs": [
+          "U14-G-FB156"
+        ],
+        "constraint": "OE display only; retain canonical sense meaning and the accepted English glossary."
+      },
+      {
+        "entry_id": "OE-wel",
+        "sense_id": "wel-comparative",
+        "old_meaning": "better",
+        "old_usage": "",
+        "oe_printed_sense": "Comparative bęt: better.",
+        "evidence_refs": [
+          "U03-ADVERB",
+          "U03-WRIGHT-ADVERB",
+          "U03-LEX-ADVERBS",
+          "U03-COMPARE"
+        ],
+        "constraint": "OE display only; retain canonical sense meaning and the accepted English glossary."
+      },
+      {
+        "entry_id": "OE-wel",
+        "sense_id": "wel-superlative",
+        "old_meaning": "best",
+        "old_usage": "",
+        "oe_printed_sense": "Superlative bętst: best.",
+        "evidence_refs": [
+          "U03-ADVERB",
+          "U03-WRIGHT-ADVERB",
+          "U03-LEX-ADVERBS",
+          "U03-COMPARE"
+        ],
+        "constraint": "OE display only; retain canonical sense meaning and the accepted English glossary."
+      },
+      {
+        "entry_id": "OE-wide",
+        "sense_id": "wide-comparative",
+        "old_meaning": "more widely",
+        "old_usage": "",
+        "oe_printed_sense": "Comparative wīdor: more widely.",
+        "evidence_refs": [
+          "U03-ADVERB",
+          "U03-WRIGHT-ADVERB",
+          "U03-LEX-ADVERBS"
+        ],
+        "constraint": "OE display only; retain canonical sense meaning and the accepted English glossary."
+      },
+      {
+        "entry_id": "OE-wide",
+        "sense_id": "wide-superlative",
+        "old_meaning": "most widely",
+        "old_usage": "",
+        "oe_printed_sense": "Superlative wīdost: most widely.",
+        "evidence_refs": [
+          "U03-ADVERB",
+          "U03-WRIGHT-ADVERB",
+          "U03-LEX-ADVERBS"
+        ],
+        "constraint": "OE display only; retain canonical sense meaning and the accepted English glossary."
+      },
+      {
+        "entry_id": "OE-geong",
+        "sense_id": "geong-u18-local-sense",
+        "old_meaning": "youngest",
+        "old_usage": "Supplied superlative use; not a new general gloss of positive geong.",
+        "oe_printed_sense": "In supplied superlative gingstan: youngest.",
+        "evidence_refs": [
+          "U18-CRAWFORD1922-P190",
+          "U18-CRAWFORD1922-P194",
+          "U18-FB-P42",
+          "U18-FB-P43"
+        ],
+        "constraint": "OE display only; retain canonical sense meaning and the accepted English glossary."
+      }
+    ]
+  },
+  "per_cross_reference": [
+    {
+      "entry_id": "XREF-387253d08c5b",
+      "surface": "andgietfullicost",
+      "target_entry_ids": [
+        "OE-andgietfullice"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e415ed37f34f",
+      "surface": "andswerian",
+      "target_entry_ids": [
+        "OE-andswarian"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-49915e0d7d4b",
+      "surface": "ann",
+      "target_entry_ids": [
+        "OE-unnan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-42e7ab5b52be",
+      "surface": "arn",
+      "target_entry_ids": [
+        "OE-iernan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-357cac17033a",
+      "surface": "bebīett",
+      "target_entry_ids": [
+        "OE-bebeodan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-596c09f9c626",
+      "surface": "befielð",
+      "target_entry_ids": [
+        "OE-befeallan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9af7f4ac28c8",
+      "surface": "begǣð",
+      "target_entry_ids": [
+        "OE-began"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-068783809174",
+      "surface": "behielt",
+      "target_entry_ids": [
+        "OE-behealdan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-2ed5f7cab470",
+      "surface": "beðearf",
+      "target_entry_ids": [
+        "OE-bethurfan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-ef3d30054f6b",
+      "surface": "beðorfte",
+      "target_entry_ids": [
+        "OE-bethurfan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-ee873528661f",
+      "surface": "beēode",
+      "target_entry_ids": [
+        "OE-began"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-671316198c92",
+      "surface": "bierst",
+      "target_entry_ids": [
+        "OE-beran",
+        "OE-berstan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d7925c86e322",
+      "surface": "bierð",
+      "target_entry_ids": [
+        "OE-beran"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-556eb9619f03",
+      "surface": "birð",
+      "target_entry_ids": [
+        "OE-beran"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-62a3686ed3a1",
+      "surface": "bist",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-af73b89066eb",
+      "surface": "bið",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f3ad536262e9",
+      "surface": "blǣwð",
+      "target_entry_ids": [
+        "OE-blawan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-124ed1026c17",
+      "surface": "bohte",
+      "target_entry_ids": [
+        "OE-bycgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9279359d3aa0",
+      "surface": "brēðer",
+      "target_entry_ids": [
+        "OE-brothor"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-ec01961ef340",
+      "surface": "brīt",
+      "target_entry_ids": [
+        "OE-bregdan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-db87b8a3d966",
+      "surface": "brītt",
+      "target_entry_ids": [
+        "OE-bregdan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1668a4914fe0",
+      "surface": "brōden",
+      "target_entry_ids": [
+        "OE-bregdan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-7f36c003a39b",
+      "surface": "brōhte",
+      "target_entry_ids": [
+        "OE-bringan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-51b65b917e13",
+      "surface": "brǣd",
+      "target_entry_ids": [
+        "OE-bregdan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-7c5a384bc0bf",
+      "surface": "byrig",
+      "target_entry_ids": [
+        "OE-burg"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d57eae3b7fe8",
+      "surface": "bā",
+      "target_entry_ids": [
+        "OE-begen"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-69b1d661f3c0",
+      "surface": "bām",
+      "target_entry_ids": [
+        "OE-begen"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-c60584fcf92f",
+      "surface": "bēc",
+      "target_entry_ids": [
+        "OE-boc"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f8d225362c1a",
+      "surface": "bēon",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a0b6aed563b0",
+      "surface": "bęt",
+      "target_entry_ids": [
+        "OE-wel"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9d6eb2e0ad0f",
+      "surface": "bętst",
+      "target_entry_ids": [
+        "OE-wel"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a923feff951b",
+      "surface": "bīet",
+      "target_entry_ids": [
+        "OE-beodan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b601a735525d",
+      "surface": "bīett",
+      "target_entry_ids": [
+        "OE-beatan",
+        "OE-beodan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f74ac9c20ddf",
+      "surface": "bū",
+      "target_entry_ids": [
+        "OE-begen"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-cdd3c18ac259",
+      "surface": "bǣm",
+      "target_entry_ids": [
+        "OE-begen"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a18d65f69d5a",
+      "surface": "bȳgð",
+      "target_entry_ids": [
+        "OE-bugan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-aca0f3e4a88b",
+      "surface": "bȳhð",
+      "target_entry_ids": [
+        "OE-bugan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-fddfa026c369",
+      "surface": "cann",
+      "target_entry_ids": [
+        "OE-cunnan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-2a2d96139948",
+      "surface": "cnǣwð",
+      "target_entry_ids": [
+        "OE-cnawan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-247e0e48a261",
+      "surface": "cwið",
+      "target_entry_ids": [
+        "OE-cwethan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-19c0905e93b4",
+      "surface": "cwōm",
+      "target_entry_ids": [
+        "OE-cuman"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-fcd8319ed1be",
+      "surface": "cymð",
+      "target_entry_ids": [
+        "OE-cuman"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d6f49ff5db81",
+      "surface": "cyrice",
+      "target_entry_ids": [
+        "OE-cirice"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-22970e815b28",
+      "surface": "cēapmann",
+      "target_entry_ids": [
+        "OE-GLOSS-OE-02"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d1e3725b36fa",
+      "surface": "cīest",
+      "target_entry_ids": [
+        "OE-ceosan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-dfb48d696202",
+      "surface": "cūðe",
+      "target_entry_ids": [
+        "OE-cunnan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-48d1766c3d72",
+      "surface": "dearr",
+      "target_entry_ids": [
+        "OE-durran"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-16c94d251ddb",
+      "surface": "dehter",
+      "target_entry_ids": [
+        "OE-dohtor"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-29b98568a064",
+      "surface": "dorste",
+      "target_entry_ids": [
+        "OE-durran"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1c80225cd589",
+      "surface": "drīegð",
+      "target_entry_ids": [
+        "OE-dreogan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9e6bf82fdd8c",
+      "surface": "drīehð",
+      "target_entry_ids": [
+        "OE-dreogan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-367509e2be53",
+      "surface": "dyde",
+      "target_entry_ids": [
+        "OE-don"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-c476bc68dfc7",
+      "surface": "dēð",
+      "target_entry_ids": [
+        "OE-don"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-81b0e221eeeb",
+      "surface": "eart",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-52e2e6c73f94",
+      "surface": "eom",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-2d554505a6a6",
+      "surface": "felgan",
+      "target_entry_ids": [
+        "OE-feolan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-0b61bca5f43c",
+      "surface": "fieht",
+      "target_entry_ids": [
+        "OE-feohtan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3e9cae7bb83e",
+      "surface": "fielð",
+      "target_entry_ids": [
+        "OE-feallan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6f3b34505e64",
+      "surface": "fielþ",
+      "target_entry_ids": [
+        "OE-feallan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b37874687d04",
+      "surface": "filhð",
+      "target_entry_ids": [
+        "OE-feolan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-ed5b6c664382",
+      "surface": "filhþ",
+      "target_entry_ids": [
+        "OE-feolan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-eabde0b4b0cb",
+      "surface": "flēwð",
+      "target_entry_ids": [
+        "OE-flowan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-4c6823141a58",
+      "surface": "flīegð",
+      "target_entry_ids": [
+        "OE-fleogan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b6eebd2643ad",
+      "surface": "flīehð",
+      "target_entry_ids": [
+        "OE-fleogan",
+        "OE-fleon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-5f69230e30d3",
+      "surface": "forcierfð",
+      "target_entry_ids": [
+        "OE-forceorfan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-5b0487cd5fae",
+      "surface": "fordyde",
+      "target_entry_ids": [
+        "OE-fordon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d0aee5e77958",
+      "surface": "fordēð",
+      "target_entry_ids": [
+        "OE-fordon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-839a676f5f9a",
+      "surface": "foresægde",
+      "target_entry_ids": [
+        "OE-foresecgean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e223905f1313",
+      "surface": "foresægð",
+      "target_entry_ids": [
+        "OE-foresecgean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-15eba4b76fe8",
+      "surface": "forlīest",
+      "target_entry_ids": [
+        "OE-forleosan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-c13b2e959db7",
+      "surface": "forstilð",
+      "target_entry_ids": [
+        "OE-forstelan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-29346a92a18a",
+      "surface": "forwierð",
+      "target_entry_ids": [
+        "OE-forweorthan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-fa26f80e9fc0",
+      "surface": "frīend",
+      "target_entry_ids": [
+        "OE-freond"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-13dca545ddcc",
+      "surface": "færð",
+      "target_entry_ids": [
+        "OE-faran"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b66fc52131ec",
+      "surface": "fēhð",
+      "target_entry_ids": [
+        "OE-fon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-0eb90dd589a4",
+      "surface": "fēt",
+      "target_entry_ids": [
+        "OE-fedan",
+        "OE-fot"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-59a791747e03",
+      "surface": "fīend",
+      "target_entry_ids": [
+        "OE-feond"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-7ff167499fcd",
+      "surface": "geblēdsian",
+      "target_entry_ids": [
+        "OE-gebletsian"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-401240784f3f",
+      "surface": "gebrōhton",
+      "target_entry_ids": [
+        "OE-gebringan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b6b3f665e2c5",
+      "surface": "gecwið",
+      "target_entry_ids": [
+        "OE-gecwethan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3c1c3a1625f9",
+      "surface": "gedēð",
+      "target_entry_ids": [
+        "OE-gedon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f30740078226",
+      "surface": "gehwone",
+      "target_entry_ids": [
+        "OE-gehwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6d7d176fe710",
+      "surface": "gehwæs",
+      "target_entry_ids": [
+        "OE-gehwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-919bdd7113c0",
+      "surface": "gehwæt",
+      "target_entry_ids": [
+        "OE-gehwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d58bacfa48de",
+      "surface": "gehwǣm",
+      "target_entry_ids": [
+        "OE-gehwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3a3917e39d42",
+      "surface": "gehǣtt",
+      "target_entry_ids": [
+        "OE-gehatan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-44e62d59e1bb",
+      "surface": "gelæhte",
+      "target_entry_ids": [
+        "OE-gelaeccan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9644aa03d265",
+      "surface": "geman",
+      "target_entry_ids": [
+        "OE-gemunan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-627b99cdef17",
+      "surface": "gesiehð",
+      "target_entry_ids": [
+        "OE-geseon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9334cc6f9200",
+      "surface": "gestęnt",
+      "target_entry_ids": [
+        "OE-gestandan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-cce0bd222042",
+      "surface": "gesǣd",
+      "target_entry_ids": [
+        "OE-secgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-027bb3e5a58e",
+      "surface": "getǣht",
+      "target_entry_ids": [
+        "OE-getaecan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1f2f89dd9598",
+      "surface": "geworhte",
+      "target_entry_ids": [
+        "OE-gewyrcean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-07161e27d5d6",
+      "surface": "geðūht",
+      "target_entry_ids": [
+        "OE-thyncan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d0e74b9f7fc8",
+      "surface": "gingstan",
+      "target_entry_ids": [
+        "OE-geong"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9a881b9b9f23",
+      "surface": "git",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e2e79b2b3c28",
+      "surface": "gē",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-91bc0825a591",
+      "surface": "gǣt",
+      "target_entry_ids": [
+        "OE-gat"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-446c8ea1db10",
+      "surface": "gǣð",
+      "target_entry_ids": [
+        "OE-gan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-79b525834f17",
+      "surface": "heora",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d0619396da8d",
+      "surface": "hielt",
+      "target_entry_ids": [
+        "OE-healdan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-62adfed2fac9",
+      "surface": "hiene",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a3e94eb22b36",
+      "surface": "hiera",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-8eb2ce16a4e6",
+      "surface": "hiere",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3a43dde3f68c",
+      "surface": "hilpð",
+      "target_entry_ids": [
+        "OE-helpan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-5a7cf4ac1380",
+      "surface": "him",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-61b9c8d552da",
+      "surface": "hine",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-925dae4ac100",
+      "surface": "hira",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-bf90ace460be",
+      "surface": "hire",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-73c9c98668a3",
+      "surface": "his",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-63d04dee7c50",
+      "surface": "hit",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d58076848b97",
+      "surface": "hogað",
+      "target_entry_ids": [
+        "OE-hycgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b9c6d8342941",
+      "surface": "hogde",
+      "target_entry_ids": [
+        "OE-hycgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9ac437ae3968",
+      "surface": "hogode",
+      "target_entry_ids": [
+        "OE-hycgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a52c7fb089d4",
+      "surface": "hwelc",
+      "target_entry_ids": [
+        "OE-hwilc"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a55b8d7d5b47",
+      "surface": "hwon",
+      "target_entry_ids": [
+        "OE-hwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b7633dddfd98",
+      "surface": "hwone",
+      "target_entry_ids": [
+        "OE-hwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1dfcd96bac79",
+      "surface": "hwylc",
+      "target_entry_ids": [
+        "OE-hwilc"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f2c4bae98fae",
+      "surface": "hwæs",
+      "target_entry_ids": [
+        "OE-hwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-990e69aa072a",
+      "surface": "hwæt",
+      "target_entry_ids": [
+        "OE-hwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1532ec6c8e02",
+      "surface": "hwām",
+      "target_entry_ids": [
+        "OE-hwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-c029f94dc8b6",
+      "surface": "hwǣm",
+      "target_entry_ids": [
+        "OE-hwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-aa96a1f866a3",
+      "surface": "hwȳ",
+      "target_entry_ids": [
+        "OE-hwa"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-57e307561630",
+      "surface": "hygð",
+      "target_entry_ids": [
+        "OE-hycgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-03552014cd36",
+      "surface": "hæfde",
+      "target_entry_ids": [
+        "OE-habban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-5b340f56e324",
+      "surface": "hæfð",
+      "target_entry_ids": [
+        "OE-habban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6308451d3610",
+      "surface": "hēahstan",
+      "target_entry_ids": [
+        "OE-heah"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e0034f12bb74",
+      "surface": "hēht",
+      "target_entry_ids": [
+        "OE-hatan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6b866aed3e44",
+      "surface": "hēo",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-18c2db729d7e",
+      "surface": "hęfð",
+      "target_entry_ids": [
+        "OE-hebban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b67ead220e29",
+      "surface": "hī",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b0303abb9d2b",
+      "surface": "hīe",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9ca87e15f316",
+      "surface": "hīera",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-cd8e7de704d4",
+      "surface": "hīewð",
+      "target_entry_ids": [
+        "OE-heawan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-72e601464437",
+      "surface": "hīo",
+      "target_entry_ids": [
+        "OE-he"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-810f849ae591",
+      "surface": "hǣt",
+      "target_entry_ids": [
+        "OE-hatan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d4c8400c9c8d",
+      "surface": "hǣtt",
+      "target_entry_ids": [
+        "OE-hatan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-cf064a5a4ab0",
+      "surface": "hȳran",
+      "target_entry_ids": [
+        "OE-hieran"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-fa9383a4bc91",
+      "surface": "inc",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-0c994b852aef",
+      "surface": "incer",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-9d8999b9ad7e",
+      "surface": "ingǣð",
+      "target_entry_ids": [
+        "OE-ingan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-216e7f66cdbb",
+      "surface": "inēode",
+      "target_entry_ids": [
+        "OE-ingan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-fa51fd49abf6",
+      "surface": "is",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-2ad8a7049d7c",
+      "surface": "it",
+      "target_entry_ids": [
+        "OE-etan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-183ac24e1928",
+      "surface": "itt",
+      "target_entry_ids": [
+        "OE-etan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3a45bfed8764",
+      "surface": "leofað",
+      "target_entry_ids": [
+        "OE-libban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e7c659bbfcee",
+      "surface": "lifde",
+      "target_entry_ids": [
+        "OE-libban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-927a49236cca",
+      "surface": "lifian",
+      "target_entry_ids": [
+        "OE-libban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-8b1840d13d9f",
+      "surface": "lēde",
+      "target_entry_ids": [
+        "OE-lecgean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-7a915f64005b",
+      "surface": "līð",
+      "target_entry_ids": [
+        "OE-licgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-56d700bfbdcd",
+      "surface": "magan",
+      "target_entry_ids": [
+        "OE-magan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-48b676e2b107",
+      "surface": "man",
+      "target_entry_ids": [
+        "OE-mann"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-8dccd8f56b03",
+      "surface": "meahte",
+      "target_entry_ids": [
+        "OE-magan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-494aad6cd8df",
+      "surface": "mec",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-5db48182401c",
+      "surface": "mehte",
+      "target_entry_ids": [
+        "OE-magan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-dcc1b0cac2cb",
+      "surface": "mæg",
+      "target_entry_ids": [
+        "OE-magan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f7dd4da32264",
+      "surface": "mē",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b35aa85db603",
+      "surface": "mēder",
+      "target_entry_ids": [
+        "OE-modor"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e97cb89f40ae",
+      "surface": "męnn",
+      "target_entry_ids": [
+        "OE-mann"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b77ea3f1e5ba",
+      "surface": "męrgen",
+      "target_entry_ids": [
+        "OE-morgen"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d2c2c9b71f1e",
+      "surface": "mīn",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-24d3517dd510",
+      "surface": "mōste",
+      "target_entry_ids": [
+        "OE-motan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-8682a080b377",
+      "surface": "nele",
+      "target_entry_ids": [
+        "OE-willan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-0fa765ed4031",
+      "surface": "nelle",
+      "target_entry_ids": [
+        "OE-willan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f409af2d8abf",
+      "surface": "nelt",
+      "target_entry_ids": [
+        "OE-willan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-05d96884de18",
+      "surface": "nis",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b4cb911645c2",
+      "surface": "nolde",
+      "target_entry_ids": [
+        "OE-willan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-ec16a08cd1b4",
+      "surface": "næfde",
+      "target_entry_ids": [
+        "OE-nabban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-7bdd89f20724",
+      "surface": "næfð",
+      "target_entry_ids": [
+        "OE-nabban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-145a9b6c39c5",
+      "surface": "næs",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-95ce1a348b3e",
+      "surface": "nāh",
+      "target_entry_ids": [
+        "OE-nagan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-60ae7be54f6f",
+      "surface": "nāst",
+      "target_entry_ids": [
+        "OE-nytan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3556683c987d",
+      "surface": "nāt",
+      "target_entry_ids": [
+        "OE-nytan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-c3b0f5475e8f",
+      "surface": "nōht",
+      "target_entry_ids": [
+        "OE-nawiht"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b0722f507ca8",
+      "surface": "nǣron",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e6fa55d2341f",
+      "surface": "oferworhte",
+      "target_entry_ids": [
+        "OE-oferwyrcean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b477d6b4bce5",
+      "surface": "oncnǣwð",
+      "target_entry_ids": [
+        "OE-oncnawan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-165a6b789def",
+      "surface": "onfēhð",
+      "target_entry_ids": [
+        "OE-onfon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6d67d1ad2d8d",
+      "surface": "rihtlicor",
+      "target_entry_ids": [
+        "OE-rihtlice"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-aac8d36b337a",
+      "surface": "rēwð",
+      "target_entry_ids": [
+        "OE-rowan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-4cf0be8fe405",
+      "surface": "sagað",
+      "target_entry_ids": [
+        "OE-secgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-91d7ba88012e",
+      "surface": "sceal",
+      "target_entry_ids": [
+        "OE-sculan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-cff3ae944347",
+      "surface": "sceolde",
+      "target_entry_ids": [
+        "OE-sculan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-254a65f066c6",
+      "surface": "scolde",
+      "target_entry_ids": [
+        "OE-sculan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-418a9a1d9830",
+      "surface": "sealde",
+      "target_entry_ids": [
+        "OE-sellan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-2c1eae02602b",
+      "surface": "siehð",
+      "target_entry_ids": [
+        "OE-seon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-bf586d886bcf",
+      "surface": "sind",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-4274e87d33b8",
+      "surface": "sindon",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-c6520201ad73",
+      "surface": "sint",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1b5b54a37a86",
+      "surface": "sliehð",
+      "target_entry_ids": [
+        "OE-slean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-ab6120644cdd",
+      "surface": "spricð",
+      "target_entry_ids": [
+        "OE-sprecan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b5019ffdda1f",
+      "surface": "stęnt",
+      "target_entry_ids": [
+        "OE-standan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b29008dadc91",
+      "surface": "sweotolost",
+      "target_entry_ids": [
+        "OE-sweotole"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6b6220232204",
+      "surface": "swīðlicor",
+      "target_entry_ids": [
+        "OE-swithlice"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-03b5e1788569",
+      "surface": "swīðor",
+      "target_entry_ids": [
+        "OE-swithe"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a8216a157b7a",
+      "surface": "swīðost",
+      "target_entry_ids": [
+        "OE-swithe"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d9c6f9b4d0be",
+      "surface": "sægde",
+      "target_entry_ids": [
+        "OE-secgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-7542646ca0a6",
+      "surface": "sægð",
+      "target_entry_ids": [
+        "OE-secgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-ed8a741041d4",
+      "surface": "sāde",
+      "target_entry_ids": [
+        "OE-secgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-338efa4d0c64",
+      "surface": "sē",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-122fc9573bcd",
+      "surface": "sēo",
+      "target_entry_ids": [
+        "OE-se",
+        "OE-seon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1b7f6035950e",
+      "surface": "sęgð",
+      "target_entry_ids": [
+        "OE-secgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3986cc4f5b9b",
+      "surface": "sīe",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-5dbe8181ab03",
+      "surface": "sīeð",
+      "target_entry_ids": [
+        "OE-seothan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b761ac80f854",
+      "surface": "sōhte",
+      "target_entry_ids": [
+        "OE-secan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-52f2a0b4efdf",
+      "surface": "sǣde",
+      "target_entry_ids": [
+        "OE-saed",
+        "OE-secgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e685bf20f6a7",
+      "surface": "twā",
+      "target_entry_ids": [
+        "OE-twegen"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-98ff8d23fd0a",
+      "surface": "twām",
+      "target_entry_ids": [
+        "OE-twegen"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3fc6a6e93dd3",
+      "surface": "twǣm",
+      "target_entry_ids": [
+        "OE-twegen"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d34d6870052b",
+      "surface": "tēð",
+      "target_entry_ids": [
+        "OE-toth"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-018144c113e6",
+      "surface": "tīehð",
+      "target_entry_ids": [
+        "OE-teon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6177d76d2730",
+      "surface": "tōbierst",
+      "target_entry_ids": [
+        "OE-toberstan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-8e68204be286",
+      "surface": "tōscǣt",
+      "target_entry_ids": [
+        "OE-tosceadan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1cfdd76d88fe",
+      "surface": "tōwierpð",
+      "target_entry_ids": [
+        "OE-toweorpan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-55073db846e1",
+      "surface": "tū",
+      "target_entry_ids": [
+        "OE-twegen"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e4225382969d",
+      "surface": "unc",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-df9705e74234",
+      "surface": "uncer",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-97f65acd2a37",
+      "surface": "undyde",
+      "target_entry_ids": [
+        "OE-undon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-843b352398d1",
+      "surface": "undēð",
+      "target_entry_ids": [
+        "OE-undon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-2b496650ca55",
+      "surface": "urnon",
+      "target_entry_ids": [
+        "OE-iernan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3edc2ba8e8b8",
+      "surface": "wierpð",
+      "target_entry_ids": [
+        "OE-weorpan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e49ed5ca7d7d",
+      "surface": "wierð",
+      "target_entry_ids": [
+        "OE-weorthan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-0a0c5f11ca59",
+      "surface": "wiext",
+      "target_entry_ids": [
+        "OE-weaxan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3804efe8aff3",
+      "surface": "wiexð",
+      "target_entry_ids": [
+        "OE-weaxan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-0c7271ba2d46",
+      "surface": "wisse",
+      "target_entry_ids": [
+        "OE-witan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1768779d6ce9",
+      "surface": "wiste",
+      "target_entry_ids": [
+        "OE-witan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-939df4a72606",
+      "surface": "wit",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-12bf5b7b42ec",
+      "surface": "wiðstęnt",
+      "target_entry_ids": [
+        "OE-withstandan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6db0129b7a40",
+      "surface": "wolde",
+      "target_entry_ids": [
+        "OE-willan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-cb16dbf70d0f",
+      "surface": "worhte",
+      "target_entry_ids": [
+        "OE-wyrcean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-726a65033d39",
+      "surface": "wrīhð",
+      "target_entry_ids": [
+        "OE-wreon"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b7697fc2c177",
+      "surface": "wæs",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-40ae905439d5",
+      "surface": "wāt",
+      "target_entry_ids": [
+        "OE-witan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-555e1deb201d",
+      "surface": "wē",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6df1c4414e37",
+      "surface": "wīdor",
+      "target_entry_ids": [
+        "OE-wide"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f4fbfb931814",
+      "surface": "wīdost",
+      "target_entry_ids": [
+        "OE-wide"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-013a82756345",
+      "surface": "wǣron",
+      "target_entry_ids": [
+        "OE-wesan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d24766c04bc3",
+      "surface": "ymbsealde",
+      "target_entry_ids": [
+        "OE-ymbsellan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f138b05b7de0",
+      "surface": "ænne",
+      "target_entry_ids": [
+        "OE-an"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1988a35ed961",
+      "surface": "ðan",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a852551a52ce",
+      "surface": "ðearf",
+      "target_entry_ids": [
+        "OE-thurfan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-c4ceb20e9ae7",
+      "surface": "ðec",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-bab54623230c",
+      "surface": "ðis",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-4c07770ee874",
+      "surface": "ðisne",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-8954b436ce39",
+      "surface": "ðissa",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-82925a4444c8",
+      "surface": "ðisse",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-75a9233a82f5",
+      "surface": "ðisses",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-66d945c19dce",
+      "surface": "ðissum",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-0e32357cc2ab",
+      "surface": "ðisum",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-8db0860dec51",
+      "surface": "ðon",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-aeaf0899db97",
+      "surface": "ðone",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-da3826adadaa",
+      "surface": "ðorfte",
+      "target_entry_ids": [
+        "OE-thurfan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6abd572045ed",
+      "surface": "ðrēo",
+      "target_entry_ids": [
+        "OE-thrie"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-692d559cd300",
+      "surface": "ðwiehð",
+      "target_entry_ids": [
+        "OE-thwean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b7ee257162f3",
+      "surface": "ðæs",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d1c1664d1a56",
+      "surface": "ðæt",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-2c032c456e74",
+      "surface": "ðā",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-5e945fb8719b",
+      "surface": "ðām",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-09d7e8f8f521",
+      "surface": "ðāra",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-8bd14a026473",
+      "surface": "ðās",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6fd4caee0c3a",
+      "surface": "ðē",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-53f80aea68b3",
+      "surface": "ðēos",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d667fb88f7f3",
+      "surface": "ðīn",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-0d23ad9f92d7",
+      "surface": "ðōhte",
+      "target_entry_ids": [
+        "OE-thencan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-dfb641e7c8a7",
+      "surface": "ðūhte",
+      "target_entry_ids": [
+        "OE-thyncan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-1d9497155fc3",
+      "surface": "ðǣm",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-90388ccbd6ae",
+      "surface": "ðǣra",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-c4ac27e9096e",
+      "surface": "ðǣre",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d974df1aba9a",
+      "surface": "ðȳ",
+      "target_entry_ids": [
+        "OE-se"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-beb32f187ba7",
+      "surface": "ðȳs",
+      "target_entry_ids": [
+        "OE-thes"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b66c584417ff",
+      "surface": "þing",
+      "target_entry_ids": [
+        "OE-thing"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-f672648c78b6",
+      "surface": "þonne",
+      "target_entry_ids": [
+        "OE-thonne"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3295684f1f42",
+      "surface": "þrēo",
+      "target_entry_ids": [
+        "OE-thrie"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6b55aee7d9d5",
+      "surface": "þurh",
+      "target_entry_ids": [
+        "OE-thurh"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3c21c7aeabd0",
+      "surface": "þūsend",
+      "target_entry_ids": [
+        "OE-thusend"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-aee77ba46f12",
+      "surface": "ācierfð",
+      "target_entry_ids": [
+        "OE-aceorfan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-be5a79d0af8a",
+      "surface": "āgēan",
+      "target_entry_ids": [
+        "OE-ongean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a9fb9431e2d9",
+      "surface": "āh",
+      "target_entry_ids": [
+        "OE-agan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-75a90e2e4f63",
+      "surface": "āhrīest",
+      "target_entry_ids": [
+        "OE-ahreosan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-d2658b68f19b",
+      "surface": "āhte",
+      "target_entry_ids": [
+        "OE-agan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-153f15610af4",
+      "surface": "āhęfð",
+      "target_entry_ids": [
+        "OE-ahebban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-40436de11073",
+      "surface": "ālȳtt",
+      "target_entry_ids": [
+        "OE-alutan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-003fe79707ce",
+      "surface": "āstreahte",
+      "target_entry_ids": [
+        "OE-astreccean"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-dad06af8ec83",
+      "surface": "āwierpð",
+      "target_entry_ids": [
+        "OE-aweorpan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-aa0f669e482b",
+      "surface": "āwęg",
+      "target_entry_ids": [
+        "OE-onweg"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-28ba8477649a",
+      "surface": "ēode",
+      "target_entry_ids": [
+        "OE-gan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-fd9654bd0e77",
+      "surface": "ēow",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-4ace98f62721",
+      "surface": "ēower",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a83f28710262",
+      "surface": "ēowic",
+      "target_entry_ids": [
+        "OE-thu"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-0c90a520a69b",
+      "surface": "ęfthwierfð",
+      "target_entry_ids": [
+        "OE-efthweorfan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-fae9f77702c0",
+      "surface": "ōht",
+      "target_entry_ids": [
+        "OE-awiht"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-a63a0842cced",
+      "surface": "ūpāhęfð",
+      "target_entry_ids": [
+        "OE-up-ahebban"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-7a21d8a87228",
+      "surface": "ūpēode",
+      "target_entry_ids": [
+        "OE-upgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-be0c4e6168cb",
+      "surface": "ūre",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-e17a4c072b6b",
+      "surface": "ūs",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-6ac2f625e9db",
+      "surface": "ūser",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-b42a33453962",
+      "surface": "ūsic",
+      "target_entry_ids": [
+        "OE-ic"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-95685f2c4ae5",
+      "surface": "ūtēode",
+      "target_entry_ids": [
+        "OE-utgan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-3694c4e62487",
+      "surface": "ūðe",
+      "target_entry_ids": [
+        "OE-unnan"
+      ],
+      "status": "pass"
+    },
+    {
+      "entry_id": "XREF-c8016ba9e5ed",
+      "surface": "ǣnne",
+      "target_entry_ids": [
+        "OE-an"
+      ],
+      "status": "pass"
+    }
+  ],
+  "limitations": [
+    "Read all 300 selected spellings and 306 labels; checked all route/render/provenance data and noun integration.",
+    "Read source-variant course locators and the relevant actual tables/discussions; reused accepted primary evidence without claiming fresh source-image inspection.",
+    "The receipt covers nonverbal integration and crossrefs, not independent acceptance of newly added verb principal parts.",
+    "Revised PDF requires a separate visual review."
+  ],
+  "rebind_history": [
+    {
+      "status": "repairs_requested_pending_rebind",
+      "input_identities": [
+        {
+          "path": "glossaries/old-english.md",
+          "sha256": "c5da6f4223daa2cae6af7bd55cdbba58bbd56c44e2afb27effbf39dbefa2c53b"
+        },
+        {
+          "path": "glossaries/entries.json",
+          "sha256": "8f80509dfa48e03cd5c85324a817b3ed83e3d963d0b447fb37e2df01f9d98363"
+        },
+        {
+          "path": "glossaries/form-lookup.json",
+          "sha256": "1a1f1de42b3b260ee0ab6117f29afb82bc9e6eb12baae8aa1d144d49a0414ab8"
+        },
+        {
+          "path": "glossaries/english.md",
+          "sha256": "041ca271bf3cb750f9afed7d100de3dffb7f7278c59fbea2baabfcb36b145086"
+        },
+        {
+          "path": "glossaries/review/cross-reference-policy.json",
+          "sha256": "de0ed323d574d9a9e3b63af38c9f55eab201a946b8cbcaef0577b084f6b097ce"
+        },
+        {
+          "path": "glossaries/review/dictionary-design.json",
+          "sha256": "77e0fbd74351528ef110ae56becceabb53dbf9e1ea971695835116d3e3294baa"
+        },
+        {
+          "path": "lexicon/entries.json",
+          "sha256": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7"
+        }
+      ],
+      "findings": [
+        {
+          "id": "DNI-01",
+          "status": "resolved_in_current_master",
+          "kind": "stale_nonverbal_snapshot",
+          "entry_ids": [
+            "OE-micel",
+            "OE-lytel",
+            "OE-mihtig"
+          ],
+          "summary": "All three final stem notes are now integrated; exact current master text was checked."
+        },
+        {
+          "id": "DNI-02",
+          "status": "repair_requested",
+          "kind": "incomplete_selected_case_labels",
+          "summary": "gǣt needs its taught dative and source genitive alternative; ðon needs its distinct supplied dative."
+        },
+        {
+          "id": "DNI-03",
+          "status": "repair_requested",
+          "kind": "degree_sense_display_clarity",
+          "summary": "Bind nine degree meanings explicitly to the exact forms, especially four entries whose only source sense is comparative/superlative."
+        },
+        {
+          "id": "DNI-04",
+          "status": "metadata_repair_requested",
+          "kind": "route_locator_homograph_collision",
+          "summary": "it and the sęcgan route of sǣde have first-occurrence homograph locators; valid exact variant evidence exists."
+        }
+      ],
+      "disposition": "Superseded by final verified repair batch; original proposed repair arrays retained unchanged."
+    }
+  ],
+  "open_findings": [],
+  "final_repair_verification": {
+    "status": "pass",
+    "cross_reference_labels": 2,
+    "target_specific_source_locators": 2,
+    "oe_only_sense_display_sentences": 9,
+    "canonical_meaning_and_usage_unchanged_for_all_9": true,
+    "all_final_sentences_read_in_master": true,
+    "additional_metadata_deltas_checked": [
+      "Case-evidence locators attached to gǣt and ðon.",
+      "First location for it corrected to the actual OE variant."
+    ],
+    "otherwise_cross_reference_policy_byte_structure_unchanged": true,
+    "all_21_comparison_arrays_and_20_links_and_5_stem_notes_rechecked": true,
+    "english_master_and_internal_lookup_hashes_unchanged": true
+  }
+}

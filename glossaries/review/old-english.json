@@ -1,0 +1,580 @@
+{
+  "schema_version": 1,
+  "reviewer": "independent Old English corpus/editorial reviewer",
+  "status": "accepted",
+  "remaining_material_findings": [],
+  "scope": "All original 1,298 lexical headwords, parts of speech, genders, and meanings read; all actual pronunciation meanings compared; three new homographs and fixes rechecked. Every grouped form checked mechanically against the complete 38-master corpus route inventory, with independent contextual checks of diagnosed cases.",
+  "limitations": "This review reuses the course source audits and exact lesson evidence. It is not a fresh paleographic collation of every source form. Machine coverage does not alone establish sense correctness.",
+  "reviewed_file_sha256": {
+    "glossaries/entries.json": "47ec84dd46e194b6c32d102a3d9651eb752460b651e2b26235e54d5653089b2a",
+    "glossaries/form-lookup.json": "1a1f1de42b3b260ee0ab6117f29afb82bc9e6eb12baae8aa1d144d49a0414ab8",
+    "glossaries/old-english.md": "42991515dd5e44dab7ecbeaa4e80eae6b1dae4f03d0780a34074e06f9d20acbb"
+  },
+  "accepted_oe_entry_projection": {
+    "sha256": "23e7017df0f274ad34229ca62340cfb2caff90d612cec380fe26377ca2ffd3cd",
+    "entry_count": 1301,
+    "method": "SHA256 of UTF-8 JSON of old_english_entries only, ensure_ascii=False, sort_keys=True, compact separators"
+  },
+  "accepted_hash_rebind": {
+    "previous_master_sha256": "0773924e13ae032f37bccfbe0c51afbbc02978d50b05cf77bc8d4965459cd6d5",
+    "intervening_rejected_master_sha256": "8a99a00be17c3f1e6dbffefb5a1230b615cf5262f88d4f3d32211db445153bf2",
+    "reason": "Visual review caught a rebuild regression dropping 11 reviewed past participles and negative present nis. All 13 reference-ledger records, including already-present forloren, have now been verified in both entry data and master prose; polarity form-ID checks have zero errors. The final self meaning, self; the same person or thing, matches the registered sense and its four U08 evidence routes.",
+    "linguistic_scope": "OE master, complete form lookup, and the OE-entry projection. The full entries.json hash records this snapshot but does not freeze or review later English-only route edits.",
+    "remaining_material_findings": []
+  },
+  "coverage_checks": {
+    "entry_count": 1301,
+    "surface_count": 5580,
+    "inventory_count": 5580,
+    "missing_surfaces": [],
+    "missing_routes": [],
+    "new_routes_beyond_frozen_inventory": [
+      [
+        "earm",
+        "OE-GLOSS-PRON-11"
+      ],
+      [
+        "full",
+        "OE-GLOSS-PRON-12"
+      ],
+      [
+        "weax",
+        "OE-GLOSS-PRON-13"
+      ]
+    ],
+    "missing_surface_from_entry_forms": [],
+    "special_in_ordinary": [],
+    "special_in_display": [],
+    "dangling_routes": [],
+    "dangling_crossrefs": [],
+    "nominal_diagnostics_on_verbs": [],
+    "missing_explicit_base_past_participles": []
+  },
+  "findings": [
+    {
+      "finding_id": "OE-R01",
+      "severity": "material",
+      "status": "verified_fixed",
+      "entry_ids": [
+        "OE-GLOSS-PRON-11",
+        "OE-GLOSS-PRON-12",
+        "OE-GLOSS-PRON-13"
+      ],
+      "finding": "Pronunciation spellings earm, full, and weax matched unrelated existing lexemes; arm, adjective full, and wax needed their own senses and routes.",
+      "evidence": [
+        "guides/pronunciation/examples.json#earm",
+        "guides/pronunciation/examples.json#full",
+        "guides/pronunciation/examples.json#weax"
+      ],
+      "resolution": "Separate noun earm, adjective full, and noun weax entries and exact lookup routes verified; existing adjective/adverb/verb entries preserved."
+    },
+    {
+      "finding_id": "OE-R02",
+      "severity": "material",
+      "status": "verified_fixed",
+      "entry_ids": [
+        "OE-durran",
+        "OE-sculan",
+        "OE-magan",
+        "OE-motan"
+      ],
+      "finding": "Conventional labels for defective modals were printed without the register citation caveat.",
+      "evidence": [
+        "lexicon/entries.json: lemma citation_status and defective_infinitive"
+      ],
+      "resolution": "All four now state conventional citation label and no usable infinitive supplied."
+    },
+    {
+      "finding_id": "OE-R03",
+      "severity": "material",
+      "status": "verified_fixed",
+      "entry_ids": [
+        "OE-wesan",
+        "OE-willan"
+      ],
+      "finding": "Positive and negative principal diagnostics were combined without polarity labels.",
+      "resolution": "Display labels now separated. Any remaining positive/negative form-ID mixing is enumerated in diagnostic_form_id_repairs."
+    },
+    {
+      "finding_id": "OE-R04",
+      "severity": "material",
+      "status": "verified_fixed",
+      "entry_ids": [
+        "OE-aeswician",
+        "OE-blissian",
+        "OE-wuldrian",
+        "OE-plegian",
+        "OE-beheafdian",
+        "OE-arisan",
+        "OE-aceorfan",
+        "OE-forleosan",
+        "OE-iernan",
+        "OE-thwean",
+        "OE-bewendan",
+        "OE-smierwan",
+        "OE-wesan"
+      ],
+      "finding": "Different register analysis schemas hid past participle citations and one explicitly parsed negative present diagnostic.",
+      "resolution": "All unambiguous semantic-schema base participles now present. The reviewed remaining exact records are enumerated in diagnostic_repairs; positional reference rows were checked individually against ch16 table."
+    },
+    {
+      "finding_id": "OE-R05",
+      "severity": "material",
+      "status": "verified_fixed",
+      "entry_ids": [
+        "OE-bindan",
+        "OE-fullfremman",
+        "OE-gangan",
+        "OE-gegaderian",
+        "OE-gemanigfieldan",
+        "OE-geslean",
+        "OE-gethraestan",
+        "OE-hieran",
+        "OE-hyngran",
+        "OE-lufian",
+        "OE-nealaecan",
+        "OE-ondraedan",
+        "OE-sellan",
+        "OE-threan",
+        "OE-ymbsittan"
+      ],
+      "finding": "Generic nominal diagnostics on verbs mixed present/past participles, strong/weak inflections, and genders under bare genitive singular or nominative plural labels.",
+      "resolution": "Suppressed from ordinary verb diagnostics; all actual forms remain in grouped Forms lists. Verified zero such diagnostics."
+    },
+    {
+      "finding_id": "OE-R06",
+      "severity": "material",
+      "status": "verified_fixed",
+      "entry_ids": [
+        "OE-geliefan-permit"
+      ],
+      "finding": "Technical ID geliefan-permit leaked into the learner headword through the inherited register display_headword.",
+      "evidence": [
+        "chapters/ch17/student.md:4361",
+        "chapters/ch17/student.md:4463",
+        "chapters/ch17/student.md:4621",
+        "geliefan-permit-u17-source-pres-2-sg"
+      ],
+      "resolution": "Exact supplied headword gelīefst, pres. ind. 2 sg., with permission/dative usage; no unevidenced citation inferred."
+    },
+    {
+      "finding_id": "OE-R07",
+      "severity": "material",
+      "status": "verified_fixed",
+      "entry_ids": [
+        "OE-ungecnawen"
+      ],
+      "finding": "Inherited unmarked ungecnawen was used as a headword although the exact source predicate is ungecnāwen.",
+      "evidence": [
+        "chapters/ch17/student.md:4361",
+        "chapters/ch17/student.md:4581",
+        "chapters/ch17/student.md:4703",
+        "ungecnawen-u17-context-fb-xii-apollonius-music-performance-238"
+      ],
+      "resolution": "Headword now ungecnāwen, explicitly labelled past participle; supplied predicate."
+    },
+    {
+      "finding_id": "OE-R08",
+      "severity": "clarification",
+      "status": "verified_fixed",
+      "entry_ids": [
+        "OE-egypta",
+        "OE-israelites-name",
+        "OE-jews-name"
+      ],
+      "finding": "Supplied inflected ethnic names benefit from their exact source case labels so no learner infers an unprovided nominal paradigm.",
+      "resolution": "Exact labels and source routes are enumerated in source_name_label_proposals."
+    },
+    {
+      "finding_id": "OE-R09",
+      "severity": "none",
+      "status": "withdrawn_after_source_check",
+      "entry_ids": [
+        "OE-apollines"
+      ],
+      "finding": "An early reviewer suspicion that Apollines was genitive was wrong.",
+      "evidence": [
+        "chapters/ch17/student.md:4361",
+        "chapters/ch17/student.md:4513",
+        "chapters/ch17/student.md:4655",
+        "apollines-u17-reading-nom"
+      ],
+      "resolution": "Apollines is the source nominative name-form for Apollo, distinct from Apollonius. Current headword and sense are valid; do not introduce a genitive label."
+    },
+    {
+      "finding_id": "OE-R10",
+      "severity": "material",
+      "status": "verified_fixed",
+      "surfaces": [
+        "āgyltan"
+      ],
+      "finding": "The correction appendix initially printed audit imperatives and omitted the actual weak-verb meaning, leaving the valid-word/source-error distinction incomplete.",
+      "resolution": "Exact learner wording, reward cross-reference, and personally rechecked Main30b evidence are recorded in appendix_repairs. This stays a correction notice, outside ordinary paradigm forms."
+    }
+  ],
+  "diagnostic_repairs": [
+    {
+      "entry_id": "OE-aeswician",
+      "label": "past ptcp.",
+      "forms": [
+        "ǣswicod"
+      ],
+      "form_ids": [
+        "aeswician-u16-principal-part-3-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB73",
+        "U16-G-FB74",
+        "U16-EX-P18",
+        "U16-G-BT-AESWICIAN"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 549
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-blissian",
+      "label": "past ptcp.",
+      "forms": [
+        "blissod"
+      ],
+      "form_ids": [
+        "blissian-u16-principal-part-3-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB73",
+        "U16-G-FB74",
+        "U16-EX-P18",
+        "U16-EX-P19",
+        "U16-G-FB279"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 550
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-wuldrian",
+      "label": "past ptcp.",
+      "forms": [
+        "wuldrod"
+      ],
+      "form_ids": [
+        "wuldrian-u16-principal-part-3-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB73",
+        "U16-G-FB74",
+        "U16-EX-P20",
+        "U16-G-FB323"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 551
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-plegian",
+      "label": "past ptcp.",
+      "forms": [
+        "plegod"
+      ],
+      "form_ids": [
+        "plegian-u16-principal-part-3-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB73",
+        "U16-G-FB74",
+        "U16-G-FB309",
+        "U16-G-FB168",
+        "U16-G-FB170"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 552
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-beheafdian",
+      "label": "past ptcp.",
+      "forms": [
+        "behēafdod"
+      ],
+      "form_ids": [
+        "beheafdian-u16-principal-part-3-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB73",
+        "U16-G-FB74",
+        "U16-EX-P22"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 553
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-arisan",
+      "label": "past ptcp.",
+      "forms": [
+        "ārisen"
+      ],
+      "form_ids": [
+        "arisan-u16-principal-part-4-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB54",
+        "U16-G-FB55",
+        "U16-G-FB59",
+        "U16-G-FB60"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 555
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-aceorfan",
+      "label": "past ptcp.",
+      "forms": [
+        "ācorfen"
+      ],
+      "form_ids": [
+        "aceorfan-u16-principal-part-4-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB54",
+        "U16-G-FB55",
+        "U16-G-FB61",
+        "U16-G-FB62",
+        "U16-EX-P18"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 556
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-forleosan",
+      "label": "past ptcp.",
+      "forms": [
+        "forloren"
+      ],
+      "form_ids": [
+        "forleosan-u16-principal-part-4-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB54",
+        "U16-G-FB55",
+        "U16-G-FB60",
+        "U16-G-FB61"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 557
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-iernan",
+      "label": "past ptcp.",
+      "forms": [
+        "urnen"
+      ],
+      "form_ids": [
+        "iernan-u16-principal-part-4-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB54",
+        "U16-G-FB55",
+        "U16-G-FB61",
+        "U16-G-FB301",
+        "U16-G-FB168",
+        "U16-G-FB169",
+        "U16-G-WRIGHT258"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 558
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-thwean",
+      "label": "past ptcp.",
+      "forms": [
+        "ðwegen"
+      ],
+      "form_ids": [
+        "thwean-u16-principal-part-4-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB54",
+        "U16-G-FB55",
+        "U16-G-FB58",
+        "U16-G-FB65",
+        "U16-G-WRIGHT262",
+        "U16-G-WRIGHT263"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 559
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-bewendan",
+      "label": "past ptcp.",
+      "forms": [
+        "bewęnd"
+      ],
+      "form_ids": [
+        "bewendan-u16-principal-part-3-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB68",
+        "U16-G-FB69",
+        "U16-G-FB72",
+        "U16-G-FB279"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 560
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-smierwan",
+      "label": "past ptcp.",
+      "forms": [
+        "smiered"
+      ],
+      "form_ids": [
+        "smierwan-u16-principal-part-3-reference"
+      ],
+      "evidence_refs": [
+        "U16-G-FB68",
+        "U16-G-FB69",
+        "U16-G-FB72",
+        "U16-G-WRIGHT270",
+        "U16-G-WRIGHT271",
+        "U16-G-WRIGHT274",
+        "U16-G-BT-SMIRWAN"
+      ],
+      "review_source": {
+        "path": "chapters/ch16/student.md",
+        "line": 561
+      },
+      "basis": "Explicit class-labelled principal-parts reference table; reference citation, not a new productive form.",
+      "status": "already_present"
+    },
+    {
+      "entry_id": "OE-wesan",
+      "label": "negative pres. 3 sg.",
+      "forms": [
+        "nis"
+      ],
+      "form_ids": [
+        "wesan-nis-source"
+      ],
+      "evidence_refs": [
+        "U11-FB-P78",
+        "U12-EX-P10",
+        "U15-G-FB78",
+        "U15-G-FB79",
+        "U15-G-FB100"
+      ],
+      "basis": "Registered contextual_analysis explicitly supplies present indicative third singular negative; primary analysis uses contextual_parse.",
+      "status": "already_present"
+    }
+  ],
+  "diagnostic_form_id_repairs": [],
+  "source_name_label_proposals": [
+    {
+      "entry_id": "OE-egypta",
+      "note": "Supplied name forms: Egypta / Ægypta, genitive plural; Egyptum, dative plural. Egypta land is the land of the Egyptians.",
+      "form_ids": [
+        "egypta-u16-gen-pl",
+        "egypta-u16-dat-pl",
+        "egypta-u17-gen-pl"
+      ],
+      "source_locations": [
+        "chapters/ch16/student.md:1874",
+        "chapters/ch16/student.md:1894",
+        "chapters/ch18/student.md:1897"
+      ],
+      "evidence_refs": [
+        "U16-EX-P19",
+        "U16-EX-P46",
+        "U16-FB-P284",
+        "U16-FB-P38",
+        "U17-EX-P28",
+        "U17-FB-P38"
+      ],
+      "status": "verified_fixed"
+    },
+    {
+      "entry_id": "OE-israelites-name",
+      "note": "Israela is the supplied genitive plural name-form, of the Israelites.",
+      "form_ids": [
+        "israelites-name-u17-gen-pl"
+      ],
+      "source_locations": [
+        "chapters/ch17/student.md:3317"
+      ],
+      "evidence_refs": [
+        "U17-EX-P24",
+        "U17-FB-P38"
+      ],
+      "status": "verified_fixed"
+    },
+    {
+      "entry_id": "OE-jews-name",
+      "note": "Iudea is the supplied genitive plural name-form, of the Jews.",
+      "form_ids": [
+        "jews-name-u17-gen-pl"
+      ],
+      "source_locations": [
+        "chapters/ch17/student.md:4003"
+      ],
+      "evidence_refs": [
+        "U17-EX-P28",
+        "U17-FB-P38"
+      ],
+      "status": "verified_fixed"
+    }
+  ],
+  "appendix_repairs": [
+    {
+      "surface": "āgyltan",
+      "proposed_note": "Weak verb: sin; fail in duty. Cook 34.9 erroneously gives this as a hint for reward; see āgyldan (strong III), whose contracted third singular is āgylt. C06 preserves and corrects the original hint.",
+      "target_entry_id": "OE-agyldan",
+      "evidence": [
+        "sources/audits/unit16-coordinator/reward-correction.json",
+        "sources/audits/unit16-coordinator/bt_b0030.jpg"
+      ],
+      "image_inspection": "Reviewer personally viewed Main30b. Entry a-gyltan, -giltan gives weak gylte/gilte and gylt/gilt, fail in duty / become guilty / offend / sin against; distinct a-gyldan has geald/guldon/golden and repayment senses.",
+      "verified_in": "glossaries/old-english.md, rendered correction notice; the form lookup retains its original audit note as provenance",
+      "status": "verified_fixed"
+    }
+  ]
+}
