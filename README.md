@@ -52,4 +52,4 @@ Use Beads for work tracking: `bd prime`, then `bd ready`. See [the editorial wor
 
 Markdown is the editable master; LuaLaTeX supplies full learner and key PDFs. [Typesetting](typesetting/README.md) documents the shared build commands and accepted presentation evidence.
 
-Seeded 22 October 2026. Local repository; no remote or publication configured.
+Seeded 22 October 2026. Changes are committed locally; remote pushes remain user-controlled.

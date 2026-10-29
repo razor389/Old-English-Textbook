@@ -55,6 +55,34 @@ Stage the intended editorial changes and `.beads/issues.jsonl`, then create a lo
 
 On a future clone lacking the local database, preserve the tracked export and use `bd bootstrap --yes`, then verify `bd list` and `bd ready`. Do not use destructive reinitialization to repair an existing tracker. For full database-history backup use the installed `bd backup` workflow when needed.
 
+## Generated audit snapshots
+
+`build/` is ignored. Do not force-add generated register snapshots to Git: `build/unit18-prior-baseline.json` alone is 55,425,102 bytes (52.86 MiB). It is now kept locally rather than tracked. Its removal from the current tree preserves the existing local file and the committed copy in Git history; it does not remove the historical blob. The active course checks use `docs/revisions/table-layout/baseline.json` and do not require this historical snapshot.
+
+If the Unit 18 snapshot is needed for historical inspection on another checkout, recover the exact copy retained at `884e8706a5dfeda04fab2c90e267059ceef25d7d` from a clone containing that commit. Run from the repository root. This checks its identity and refuses to overwrite an existing file:
+
+```powershell
+@'
+import hashlib
+import subprocess
+from pathlib import Path
+
+path = Path("build/unit18-prior-baseline.json")
+data = subprocess.check_output([
+    "git", "show",
+    "884e8706a5dfeda04fab2c90e267059ceef25d7d:build/unit18-prior-baseline.json",
+])
+assert hashlib.sha256(data).hexdigest() == "c050ff23fd2f259cf64e2a3b566bf3df32415ebf3b64c4c81f48983542bc4019"
+path.parent.mkdir(parents=True, exist_ok=True)
+with path.open("xb") as output:
+    output.write(data)
+'@ | python -
+```
+
+Do not regenerate the seventeen-unit baseline from the completed course or rerun historical integration helpers against current registers. Remote pushes remain user-controlled.
+
+## Installed tracker checks
+
 Installed commands and storage behavior were checked against `bd --help`, `bd init --help`, `bd update --help`, `bd dep add --help`, `bd export --help`, `bd bootstrap --help`, and the release's bundled README/CHANGELOG. [Upstream project](https://github.com/gastownhall/beads). Recheck local help after upgrading; older SQLite-era and newer server instructions may differ.
 
 In this installed release, `bd doctor` reports that embedded mode is unsupported and performs no integrity check. Do not interpret its zero exit code as a pass or follow its destructive reinitialization suggestion. Validate the issue export, dependencies, and `bd ready` output instead; the seed checks are recorded in `SEED_VALIDATION.md`.
