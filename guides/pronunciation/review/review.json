@@ -1,0 +1,575 @@
+{
+  "schema_version": 1,
+  "guide_id": "pronunciation",
+  "issue_id": "oec-pron-review",
+  "reviewer": "pronunciation_fulk",
+  "date": "2026-10-29",
+  "status": "accepted",
+  "review_phase": "Final linguistic, pedagogical, source and key recheck complete; PDF/layout acceptance is a separate coordinator gate",
+  "independence": {
+    "prior_role": "Source inspection only; no learner/key authorship",
+    "learner_sha256_at_solving": "a4095c1abaf1e3d7729db080df11c9f9f0085a60723c382ecf821a3b9dc11c9d",
+    "independent_solutions": "guides/pronunciation/review/independent-solutions.md",
+    "independent_solutions_sha256": "8e6a6934cca4509e79d8081810516cdec0ee6673dca614629f1f16aafe58c9a9",
+    "freeze_commit": "14ae55c",
+    "key_contract_inventory_access": "Only after coordinator confirmed the local freeze",
+    "supplementary_solutions": {
+      "path": "guides/pronunciation/review/additional-solutions.md",
+      "sha256": "67c5a3f689745ed4e231ae9631d356beaecbf7f0b471d5fe3325f4558a90433e",
+      "freeze_commit": "3ef400e",
+      "scope": "Independently solve revised PRON-P04c heofonan and assess the adapted sentence before the changed key is read",
+      "proposed_item_exact": "D3. heofonan, heaven; give syllable count, stressed syllable and any doubled consonant",
+      "key_access": "Revised key first opened after coordinator confirmed freeze 3ef400e and sent the completed key hash"
+    }
+  },
+  "reviewed_files": [
+    {
+      "path": "guides/pronunciation/student.md",
+      "sha256": "a4095c1abaf1e3d7729db080df11c9f9f0085a60723c382ecf821a3b9dc11c9d",
+      "stage": "initial full review before repairs"
+    },
+    {
+      "path": "guides/pronunciation/answer-key.md",
+      "sha256": "630b85345e3637d76e13f32a32e0266a2c056500ed08ee54706ad5e2201f45a1",
+      "stage": "initial full review before repairs"
+    },
+    {
+      "path": "guides/pronunciation/coverage.json",
+      "sha256": "3e4f5358999aadee06a69144991a2d38b3dadbcfaf2a11d59c0bce42de8815c9",
+      "stage": "initial full review before repairs"
+    },
+    {
+      "path": "guides/pronunciation/examples.json",
+      "sha256": "991bb2e64128cdf61e3e54aecb4c23b98d74c6f4ca20e75b9209266d88f3be2b",
+      "stage": "initial full review before repairs"
+    }
+  ],
+  "task_count": 25,
+  "task_ledger": [
+    {
+      "task_id": "PRON-P01a",
+      "independent_solution": "**āc** has the long vowel. Both words use the father-type vowel, held longer in **āc**, and end in **k**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P01b",
+      "independent_solution": "**īs** has the long vowel. **is** has the vowel of **bit**; **īs** has held **see**. Both end with unvoiced **s**, as in **sip**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P01c",
+      "independent_solution": "**gōd** has the long vowel. **god** has the brief rounded short **o**; **gōd** has steady held **go** without its closing glide. Both begin with hard **g** and end in **d**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P01d",
+      "independent_solution": "fūl has long food-type ū, versus short foot-type u in full. Under the corrected Cook-based final-double rule both final l sounds have ordinary single duration; no final-duration contrast is required.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [
+        "PRON-R01"
+      ],
+      "initial_status": "requires_repair",
+      "initial_independent_solution": "**fūl** has the long vowel: held **food**, versus **foot** in **full**. The guide additionally asks for prolonged final **l** in **full** and single **l** in **fūl**. That is the intended answer from its exposition, but the final-consonant requirement needs source verification; see the concern below.",
+      "resolution": "PRON-R01; checked corrected rule, prompt and A4 key together",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P02a",
+      "independent_solution": "**c** in **cuman** is **k**, as in **kit**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P02b",
+      "independent_solution": "Both **c** letters in **cyrice** are **ch**, as in **chin**. Keep three syllables and the audible final **e**; the first **y** is a rounded vowel, not the consonant in **yes**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P02c",
+      "independent_solution": "**c** in **cēlan** is **k**, as in **kit**. This is a supplied exception to the front-vowel tendency.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P02d",
+      "independent_solution": "Initial **g** in **giefan** is consonant **y**, as in **yes**. Its **ie** is one short glide under the guide’s stated convention.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P02e",
+      "independent_solution": "In **fugol**, keep the tongue near the hard-g position but leave a narrow air passage and maintain voice. The result is the continuous voiced sound, not stopped **g**, consonant **y**, or silence.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P02f",
+      "independent_solution": "**sc** in **scip** is one **sh** sound, as in **ship**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P02g",
+      "independent_solution": "For **h** in **niht**, raise the middle of the tongue toward the roof of the mouth and let unvoiced breath pass through the narrowing. This is the supplied front h-like sound; retain the following **t**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P02h",
+      "independent_solution": "For short **y** in **wyrt**, keep the tongue in the **bit** position while rounding the lips for **oo**. Keep it brief; do not replace it with ordinary **oo** or consonant **y**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P03a",
+      "independent_solution": "**f** in **cnīf** is unvoiced, as in **fan**, because it is word-final. The initial **c** and **n** are both heard.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P03b",
+      "independent_solution": "**f** in **cnīfas** is voiced, as in **van**: it is inside the word between the vowels **ī** and **a**. The final **s** remains unvoiced.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P03c",
+      "independent_solution": "**s** in **rīsan** is voiced, as in **zip**, because it is between the voiced vowel sounds **ī** and **a**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P03d",
+      "independent_solution": "**s** in **hūs** is unvoiced, as in **sip**, because it is word-final.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P03e",
+      "independent_solution": "**ð** in **ōðer** is voiced, as in **this**, because it is between **ō** and **e**, both voiced.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P03f",
+      "independent_solution": "**ð** in **hǣlðu** is unvoiced, as in **thin**. This is an explicitly supplied word-specific exception; the surrounding voiced **l** and vowel do not license overriding it.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P04a",
+      "independent_solution": "**habban** has two syllables; stress the first. The doubled **bb** is a longer lip closure, released into the following vowel, without an extra vowel or syllable.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P04b",
+      "independent_solution": "**fugol** has two syllables; stress the first. It has no doubled consonant. Preserve the supplied continuous **g** and the guide’s audible second syllable.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P04c",
+      "independent_solution": "heofonan has three syllables heo-fo-nan, main stress first, and no doubled consonant. The eo is one diphthong; both following vowel syllables remain audible.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [
+        "PRON-R02"
+      ],
+      "initial_status": "requires_repair",
+      "initial_independent_solution": "**anginne** has three syllables; stress the middle syllable, containing **ginn**. The medial **nn** is prolonged, like the continuous **n** across **pen-knife**, with no extra vowel. The guide supplies hard **g**; that separate lexical pronunciation needs primary-source verification and is not inferred from this spelling.",
+      "solution_source": "guides/pronunciation/review/additional-solutions.md frozen at 3ef400e before revised key",
+      "resolution": "PRON-R02; replaced optional noun target under PRON-A04; final key agrees with the independent supplement",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P04d",
+      "independent_solution": "**gescēop** has two syllables: the light **ge-** and stressed **scēop**. **ēo** is one long glide, not two syllables. There is no doubled consonant; **sc** represents one **sh** sound.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P05a",
+      "independent_solution": "In **gescēop**, **g** is consonant **y**, as in **yes**, and **sc** is **sh**, as in **ship**. The word has a light unstressed **ge-** syllable plus stressed **scēop**; **ēo** makes one long glide within that second syllable.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P05b",
+      "independent_solution": "The **f** of **heofonan** is voiced because it is within the word between voiced vowel sounds: the **eo** diphthong and the following **o**. Its cue is **van**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    },
+    {
+      "task_id": "PRON-P05c",
+      "independent_solution": "The **ð** of **eorðan** is voiced because it stands between voiced **r** and the following vowel **a**. The rule concerns voiced sounds, not just vowels. Its cue is **this**.",
+      "key_compared": true,
+      "status": "pass",
+      "findings": [],
+      "initial_status": "pass",
+      "final_key_compared": true
+    }
+  ],
+  "checks": {
+    "ordered_student_key_contract_ids": "pass:25 matching unique IDs in identical order; key uses answer markers and learner uses item markers",
+    "meanings_and_prerequisites": "pass:all task meanings supplied; no grammar or lexical recall",
+    "american_cues": "pass:useful qualified word cues and absent-sound mouth instructions",
+    "ipa_density": {
+      "status": "pass",
+      "learner_symbols": [
+        "ɣ",
+        "x",
+        "ç"
+      ],
+      "occurrences_each": 1,
+      "full_word_transcriptions": 0,
+      "ipa_tasks": 0
+    },
+    "vowels_and_diphthongs": "pass:declared Fulk-compatible practical convention; long/short quality differences acknowledged",
+    "voicing_scope": "pass:single fricatives, voiced-sound environment, positional limits and supplied exceptions",
+    "c_g_sc_ng": "pass for all selected examples; unresolved anginn/anginne candidates are explicitly unselected",
+    "h_clusters_r": "pass:Cook-compatible front/back and sounded-cluster cues, American r declared approximate",
+    "medial_doubling": "pass:habban teaches and tests prolonged medial closure; final duration distinguished",
+    "final_doubling": "pass:PRON-R01 corrected and rechecked; ordinary final duration is the declared Cook practical convention",
+    "stress": "pass:habban/fugol/heofonan first syllable, gescēop root stress; no unsupported anginn/anginne target",
+    "normalization": "pass:source teaching dots and thorn-to-eth differences declared",
+    "pdf_and_visual_layout": "not reviewed in this phase",
+    "adapted_sentence": "pass:grammatical God gescēop heofonan and eorðan; source deletion/reordering explicitly declared and translation accurate",
+    "source_candidate_selection": "pass:On/anginn/anginne explicitly unselected; original sentence preserved in evidence only",
+    "remaining_material_findings": 0,
+    "remaining_required_minor_findings": 0
+  },
+  "findings": [
+    {
+      "id": "PRON-R01",
+      "severity": "material",
+      "status": "resolved_recheck_01",
+      "topic": "Mandatory final consonant duration",
+      "locations": [
+        "student.md section6 first paragraph",
+        "student.md practiceA instruction and A4",
+        "answer-key.md A4"
+      ],
+      "affected_tasks": [
+        "PRON-P01d"
+      ],
+      "evidence": [
+        "Cook1895 section11 printed9–10/PDF25–26",
+        "Fulk2020 section16 printed11/PDF23 ful(l)"
+      ],
+      "required_repair": "Remove mandatory final-ll duration from full/fūl and qualify the general rule; use existing medial bb/nn models. Do not confuse this with changing orthography or syllable-weight facts.",
+      "resolution": "General rule limited to medial doubles; final-double duration and A4 contrast corrected; retained final recheck confirms consistency."
+    },
+    {
+      "id": "PRON-R02",
+      "severity": "material",
+      "status": "resolved_recheck_02_by_bounded_replacement",
+      "topic": "Unsupported anginne hard g and middle primary stress",
+      "locations": [
+        "student.md section6 stress paragraph",
+        "student.md reading support anginne row",
+        "answer-key.md D3",
+        "coverage.json PRON-C09 and reading support",
+        "examples.json anginn/anginne pronunciation evidence"
+      ],
+      "affected_tasks": [
+        "PRON-P04c"
+      ],
+      "additional_scope": "Oral reading of the complete Cook sentence",
+      "evidence": [
+        "Fulk2020 printed19/PDF31 onġinnan",
+        "Fulk2020 printed254/PDF266 ā-ġinnan",
+        "Fulk2020 printed298/PDF310 on-ġinnan with undotted past forms",
+        "Cook1895 section23 printed18–19/PDF34–35 does not name anginn as a root-stressed noun"
+      ],
+      "required_repair": "Inspect noun-specific evidence; settle both g and primary stress, then amend exposition/support/key/contract together. Distinguish secondary root stress from primary stress in prior-course reconciliation.",
+      "pending_primary_lead": {
+        "author": "Melinda Mix",
+        "title": "Verb Contraction in the West Saxon Dialect of Old English: An Optimality Theory Account",
+        "year": 2007,
+        "record_url": "https://scholarworks.umt.edu/etd/1168/",
+        "official_metadata_verified": true,
+        "printed_page": 6,
+        "page_image_verified": false,
+        "indexed_finding_only": "noun /án-jìnn/ with primary initial and secondary root stress; n+y sequence"
+      },
+      "resolution_plan": "Remove optional anginn/anginne examples and oral target; use declared adaptation God gescēop heofonan and eorðan; replace PRON-P04c with heofonan. No noun pronunciation is certified.",
+      "further_primary_evidence": [
+        {
+          "source_id": "wright_oe_1914",
+          "section": "11 continuation",
+          "printed_page": 17,
+          "pdf_page_one_based": 37,
+          "fact": "ongínn is explicitly accented on the root and explained as deverbal."
+        },
+        {
+          "source_id": "wright_oe_1914",
+          "section": "568",
+          "printed_page": 299,
+          "pdf_page_one_based": 319,
+          "fact": "an- is called the stressed form of on and anginn is listed. The an-/on- variants cannot silently be assigned one stress analysis."
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "section": "Vocabulary an-ginn",
+          "printed_page": 276,
+          "pdf_page_one_based": 292,
+          "fact": "an-ginn (ongin) is printed; the entry itself has no explicit sound or stress marking."
+        }
+      ],
+      "resolution": "PRON-A04 selects the declared Cook adaptation and replaces D3 with heofonan. The revised learner/key, contract and inventory agree. No anginn/anginne pronunciation is assigned or certified; occurrence in the source-change note is provenance only."
+    },
+    {
+      "id": "PRON-R03",
+      "severity": "minor_required",
+      "status": "resolved_recheck_02",
+      "topic": "Bridge cue position",
+      "locations": [
+        "student.md section4 cg table row"
+      ],
+      "affected_tasks": [],
+      "required_repair": "Say final sound of bridge, not sound in the middle of bridge.",
+      "resolution": "The cg row now correctly says the final sound of bridge."
+    }
+  ],
+  "additional_primary_images": [
+    {
+      "source_id": "fulk_2020",
+      "printed_page": 19,
+      "pdf_page_one_based": 31,
+      "path": "guides/pronunciation/review/evidence/fulk-p19-pdf31.png",
+      "sha256": "9d7f5c0b97379465d5bbfb6befe13d8b78a0a49a52400be8bfac01c2464e009e",
+      "actually_viewed": true,
+      "finding": "PRON-R02"
+    },
+    {
+      "source_id": "fulk_2020",
+      "printed_page": 254,
+      "pdf_page_one_based": 266,
+      "path": "guides/pronunciation/review/evidence/fulk-p254-pdf266.png",
+      "sha256": "aefb5ca5af7c5332708cad17e581fcc7b4be558a7e8c14a54767c6691424bd71",
+      "actually_viewed": true,
+      "finding": "PRON-R02"
+    },
+    {
+      "source_id": "fulk_2020",
+      "printed_page": 298,
+      "pdf_page_one_based": 310,
+      "path": "guides/pronunciation/review/evidence/fulk-p298-pdf310.png",
+      "sha256": "808e1e03e06d3eeb19f944e3269da0f639bbe55c9afa07a029225454939f0c5a",
+      "actually_viewed": true,
+      "finding": "PRON-R02"
+    },
+    {
+      "source_id": "wright_oe_1914",
+      "printed_page": 17,
+      "pdf_page_one_based": 37,
+      "path": "guides/pronunciation/review/evidence/wright-p17-pdf37.png",
+      "sha256": "b64e68979f6bbd33d2190b0684fd25b6433b010f327d571bf335df9bf9df8c73",
+      "actually_viewed": true,
+      "finding": "PRON-R02",
+      "observed_fact": "ongínn root accent in section11 continuation"
+    },
+    {
+      "source_id": "wright_oe_1914",
+      "printed_page": 299,
+      "pdf_page_one_based": 319,
+      "path": "sources/audits/pronunciation/cook/wright-p299-pdf319.png",
+      "sha256": "e4ba5d7db78dc5fd57c5f1b05010d3e1d622c55399225647137146ae4b538dc9",
+      "actually_viewed": true,
+      "finding": "PRON-R02",
+      "observed_fact": "an- stressed form and anginn example in section568"
+    },
+    {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 276,
+      "pdf_page_one_based": 292,
+      "path": "sources/audits/pronunciation/cook/cook-p276-pdf292.png",
+      "sha256": "0ae6c3f979514d32f63a9630ea2a43b8b6e4c2b1dcb2325565c6e4742b127794",
+      "actually_viewed": true,
+      "finding": "PRON-R02",
+      "observed_fact": "an-ginn (ongin) vocabulary spelling"
+    },
+    {
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 123,
+      "pdf_page_one_based": 139,
+      "path": "sources/audits/pronunciation/cook/cook-p123-pdf139.png",
+      "sha256": "c8ecb456092bb82c7c084006956f2c0a2e3eccf4e8caadda3ea3fab12452db44",
+      "actually_viewed": true,
+      "finding": "PRON-R02",
+      "observed_fact": "Creation sentence and source order note2"
+    }
+  ],
+  "source_audit_reused": "sources/audits/pronunciation/fulk/evidence.json",
+  "limitations": [
+    "No audio performance or speaker-specific accent assessment",
+    "No PDF page/layout acceptance",
+    "No prior-course boundary verification in this linguistic review"
+  ],
+  "rechecks": [
+    {
+      "id": "recheck_01",
+      "scope": "PRON-R01 only, before the adapted reading repair",
+      "status": "pass",
+      "reviewed_files": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "sha256": "677a9d17cc4b92430344a4f5bdf840b14ee31fc2d6fb62d09e5e0377ce7bef8e"
+        },
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "sha256": "3516095146b0caab7e5ba6178229e763dedcd5e92323b7600e1cf29daf78632f"
+        }
+      ],
+      "findings_resolved": [
+        "PRON-R01"
+      ],
+      "observations": [
+        "General duration rule is limited to medial doubling; final doubles receive ordinary single-consonant duration.",
+        "habban supplies the medial long-closure model.",
+        "A4 now tests only vowel quality/length and does not grade prolonged final ll.",
+        "The practice-A instruction and source note7 are consistent with the revised rule."
+      ]
+    },
+    {
+      "id": "recheck_02",
+      "scope": "Full revised learner; all25 final key responses; current contract and example selection",
+      "status": "pass",
+      "reviewed_files": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "sha256": "7c6b8e6907962362381148b077dbbbb23b6fbe4196f98064faef00d2988ec346",
+          "stage": "accepted final review"
+        },
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "sha256": "1f1f1191fb20e0e16b2c6d9f1d6d98311254f071eb86b20bdf6ce53ec3a65616",
+          "stage": "accepted final review"
+        },
+        {
+          "path": "guides/pronunciation/coverage.json",
+          "sha256": "51f7bcd0cc66146a7de11ad200592bf25d3f21cfbff5028198495454dc149af6",
+          "stage": "accepted final review"
+        },
+        {
+          "path": "guides/pronunciation/examples.json",
+          "sha256": "bd36bf3be5d2ac2e95efe5fb149683107951ee36cf271c6db62c64ebe7acadf9",
+          "stage": "accepted final review"
+        }
+      ],
+      "findings_resolved_or_reconfirmed": [
+        "PRON-R01",
+        "PRON-R02",
+        "PRON-R03"
+      ],
+      "independent_supplement_freeze": "3ef400e",
+      "observations": [
+        "Final D3 agrees with the independently frozen replacement solution.",
+        "All other24 key responses reviewed, including corrected A4; all25 IDs reconcile in learner/key/contract.",
+        "Adapted sentence grammar and meaning independently checked against Cook printed123/PDF139; exact-source wording is not claimed.",
+        "No anginn/anginne pronunciation target remains; retained source-change note and unselected candidate records accurately preserve provenance.",
+        "Only three learner IPA signs remain, each once, paired with plain mouth instructions; no IPA task or full-word transcription.",
+        "All material findings and required minor repairs are resolved."
+      ],
+      "does_not_certify": [
+        "PDF rendering or page layout",
+        "Audio performance",
+        "Global unchanged-course-artifact check"
+      ]
+    }
+  ],
+  "current_reviewed_files": [
+    {
+      "path": "guides/pronunciation/student.md",
+      "sha256": "7c6b8e6907962362381148b077dbbbb23b6fbe4196f98064faef00d2988ec346",
+      "stage": "accepted final review"
+    },
+    {
+      "path": "guides/pronunciation/answer-key.md",
+      "sha256": "1f1f1191fb20e0e16b2c6d9f1d6d98311254f071eb86b20bdf6ce53ec3a65616",
+      "stage": "accepted final review"
+    },
+    {
+      "path": "guides/pronunciation/coverage.json",
+      "sha256": "51f7bcd0cc66146a7de11ad200592bf25d3f21cfbff5028198495454dc149af6",
+      "stage": "accepted final review"
+    },
+    {
+      "path": "guides/pronunciation/examples.json",
+      "sha256": "bd36bf3be5d2ac2e95efe5fb149683107951ee36cf271c6db62c64ebe7acadf9",
+      "stage": "accepted final review"
+    }
+  ]
+}

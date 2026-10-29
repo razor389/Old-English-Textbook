@@ -459,7 +459,14 @@
           34,
           35
         ],
-        "scope": "Image-checked spelling, quantity, consonants, stress and historical pronunciation cues; actual differences from Fulk retained. The pronunciation contract selects the learner convention; no new Cook exercise assignment."
+        "scope": "Image-checked spelling, quantity, consonants, stress and historical pronunciation cues; actual differences from Fulk retained. The pronunciation contract selects the learner convention; no new Cook exercise assignment.",
+        "reading": {
+          "source": "Reader I, printed123/PDF139, opening sentence",
+          "origin": "declared adaptation of a specific passage",
+          "contract": "guides/pronunciation/coverage.json#selected_reading",
+          "original_preserved": "sources/audits/unit01-source/creation-first-day.md"
+        },
+        "candidate_followup": "sources/audits/pronunciation/cook/anginn-evidence.json"
       }
     }
   ],
@@ -964,6 +971,24 @@
         "review_support": "chapters/ch18/support-amendment-spec.json",
         "author_support_report": "chapters/ch18/review-evidence/grammar-support.json",
         "independent_review": "chapters/ch18/reviews/paradigms.json"
+      },
+      "pronunciation_candidate_audit": {
+        "record": "sources/audits/pronunciation/cook/anginn-evidence.json",
+        "sections": [
+          "11",
+          "568"
+        ],
+        "printed_pages": [
+          16,
+          17,
+          299
+        ],
+        "pdf_pages_one_based": [
+          36,
+          37,
+          319
+        ],
+        "scope": "Unselected anginn/onginn candidate: variant-dependent stress. No noun-specific g value certified, and no new learner target established."
       }
     },
     {
@@ -1691,6 +1716,23 @@
         "author_support_report": "chapters/ch18/review-evidence/grammar-support.json",
         "independent_review": "chapters/ch18/reviews/paradigms.json"
       }
+    },
+    {
+      "source_id": "sweet_student_dictionary_1897",
+      "author": "Henry Sweet",
+      "title": "The Student’s Dictionary of Anglo-Saxon",
+      "publisher": "Oxford: At the Clarendon Press",
+      "publication_year": 1897,
+      "record_url": "https://archive.org/details/studentsdictiona00sweerich",
+      "pdf_url": "https://upload.wikimedia.org/wikipedia/commons/9/9b/The_student%27s_dictionary_of_Anglo-Saxon_%28IA_studentsdictiona00sweerich%29.pdf",
+      "local_pdf": "sources/cache/sweet-student-dictionary-1897.pdf",
+      "pdf_sha256": "ae4860b64cbcfa1dfcdae9f3600d6140e95403e10a95d3ae3b07348199465ee4",
+      "pdf_size_bytes": 18253187,
+      "accessed": "2026-10-29",
+      "inspection_record": "sources/audits/pronunciation/cook/anginn-evidence.json",
+      "locator_convention": "TitlePDF9; Arrangement opening [xii]PDF18 and printedxiiiPDF19; printed11PDF33. No universal offset asserted for front matter.",
+      "selected_use": "Source-disagreement record only, not a new course pronunciation authority or assigned learner passage.",
+      "assignment_status": "Inspected evidence for an unselected pronunciation candidate only; no learner passage or exercise assigned."
     }
   ],
   "local_cache": [
@@ -1728,6 +1770,11 @@
       "path": "sources/cache/crawford_heptateuch_1922.pdf",
       "bytes": 28967646,
       "sha256": "3235a08e7a1625df8acb1983d9f996d2d60f794e2353ada661d0408ff4334a5f"
+    },
+    {
+      "path": "sources/cache/sweet-student-dictionary-1897.pdf",
+      "bytes": 18253187,
+      "sha256": "ae4860b64cbcfa1dfcdae9f3600d6140e95403e10a95d3ae3b07348199465ee4"
     }
   ],
   "structural_models": [

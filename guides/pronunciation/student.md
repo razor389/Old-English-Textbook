@@ -59,7 +59,7 @@ Read **b, d, l, m, n, p, t, w** as at the beginning of *boy, dog, lip, man, no, 
 | g at the beginning | Hard **g** as in *go*, or consonant **y** as in *yes*. | **god**, “god”, has hard **g**; **giefan**, “give”, begins with **y**. |
 | g elsewhere | Consonant **y**, or the continuous sound described below; some contexts retain hard **g**. | **dæg**, “day”, ends with **y**; **fugol**, “bird”, has continuous **g**. |
 | sc | Usually **sh** as in *ship*. | **scip**, “ship”, has one **sh** sound; **frosc**, “frog”, instead ends with **s** followed by **k**. |
-| cg; usually gg | The sound in the middle of *bridge*. | **ecg**, “edge”. The supplied exception **docga**, “dog”, has a prolonged hard **g**. |
+| cg; usually gg | The final sound of *bridge*. | **ecg**, “edge”. The supplied exception **docga**, “dog”, has a prolonged hard **g**. |
 | ng | Usually as in *finger*, with audible **g**. | **lang**, “long”. In **sengan**, “singe”, **ng** instead has the sound at the end of *singe*. |
 
 The front vowels **e, i, æ, y** help explain many **ch** and **y** pronunciations, but the next written letter is not a complete rule. Words and inflected forms have exceptions. Use the supplied sound for each example; do not turn every **c** before **e** into **ch**. In **cyrice**, keep all three syllables, including the final **e**.
@@ -100,13 +100,15 @@ Stress and the boundaries between word parts can preserve exceptions. In **hǣl�
 
 ## 6. Duration, syllables, and stress
 
-Keep vowel length separate from consonant length. In **full**, “full”, **u** is short and **l** prolonged; **fūl**, “vile”, has long **ū** and a single **l**. A doubled consonant has extra duration, like the **n** across the join in *pen-knife*. Do not insert a vowel between its two letters.[7]
+Keep vowel length separate from consonant length. In **full**, “full”, **u** is short; **fūl**, “vile”, has long **ū**. A doubled consonant at the end of a word normally has ordinary single-consonant duration: the final **ll** of **full** does not require extra holding.
+
+Between vowels, a doubled consonant has extra duration, like the **n** across the join in *pen-knife*. Do not insert a vowel between its two letters.[7]
 
 With a doubled stop, hold the closure longer. In **habban**, “have”, keep the lips closed for **bb**, then release into the following vowel. There are two syllables. Do not add another vowel or another syllable to pronounce the doubling.
 
 Written unstressed vowels remain audible and distinguishable. In **męte**, “food”, there are two syllables, and final **e** is a light *bet* vowel. In **fugol**, “bird”, there are also two syllables; its **o** is heard. Do not reduce every ending to the **uh** at the beginning of modern *about*.
 
-The main stress normally falls on the first syllable. Prefixes complicate this: **ge-** is unstressed, **be-** and **for-** usually are, and a prefixed verb generally stresses its root. The supplied **anginn**, “beginning”, stresses **ginn**; **anginne**, “the beginning”, keeps that stress. In **gescēop**, “created”, stress **scēop**, not **ge-**. A macron indicates duration regardless of which syllable is stressed.
+The main stress normally falls on the first syllable, as in **habban**, “have”, and **heofonan**, “heaven”. Prefixes complicate this: **ge-** is unstressed, **be-** and **for-** usually are, and a prefixed verb generally stresses its root. In **gescēop**, “created”, stress **scēop**, not **ge-**. A macron indicates duration regardless of which syllable is stressed.
 
 For these careful reading exercises, observe printed length. In connected speech, unstressed function words and prefixes could be shorter than their conventional written macrons suggest. This does not authorize adding, removing, or moving marks in the course text.
 
@@ -116,7 +118,7 @@ The following tasks are new teaching material. Meanings are supplied throughout.
 
 ### A. Length contrasts
 
-Read each pair and identify the long vowel. Keep any consonant difference too.
+Read each pair and identify the long vowel.
 
 <!-- item: PRON-P01a -->
 
@@ -212,26 +214,24 @@ Give the number of syllables and identify the stressed one. Identify any doubled
 
 <!-- item: PRON-P04c -->
 
-**D3.** **anginne**, “the beginning”.
+**D3.** **heofonan**, “heaven”.
 
 <!-- item: PRON-P04d -->
 
 **D4.** **gescēop**, “created”.
 
-### E. A sentence from Cook
+### E. A sentence adapted from Cook
 
-This is the opening sentence of Cook's Creation reading.[8]
+This sentence adapts the opening of Cook's Creation reading.[8]
 
-**On anginne gescēop God heofonan and eorðan.**
+**God gescēop heofonan and eorðan.**
 
-“In the beginning God created heaven and earth.”
+“God created heaven and earth.”
 
 | Word | Supplied meaning | Pronunciation help |
 | --- | --- | --- |
-| On | in | One syllable; short rounded **o**. |
-| anginne | the beginning | Three syllables; stress the middle one. The **g** is hard, as in *go*; prolong **nn**. |
-| gescēop | created | Two syllables; stress the second. Initial **g** is **y** as in *yes*; **sc** is **sh**. Keep the first **e** light, and make long **ēo** one glide. |
 | God | God | One syllable; hard **g** and short rounded **o**. |
+| gescēop | created | Two syllables; stress the second. Initial **g** is **y** as in *yes*; **sc** is **sh**. Keep the first **e** light, and make long **ēo** one glide. |
 | heofonan | heaven | Three syllables; stress the first. **eo** is one short glide; **f** is voiced, as in *van*. Keep both following vowel syllables. |
 | and | and | A light connective; keep the final **d** audible. |
 | eorðan | earth | Two syllables; stress the first. **eo** is one short glide; **ð** is voiced, as in *this*. Keep the final **-an** audible. |
@@ -258,5 +258,5 @@ Read the complete sentence, using the supplied help, then answer these sound que
 4. Fulk §§16,18,135a–d, pp.11–13,103–104 / PDF23–25,115–116; Cook §§7,10, pp.8–9 / PDF24–25. The named exceptions bound the general spelling tendencies.
 5. Cook §§7,10, pp.8–9 / PDF24–25; Fulk §§9,16,18, pp.8,11–13 / PDF20,23–25. American **r** is a practical approximation. The **k+s** reading of **x/hs** follows Cook's practical value; Fulk also records an earlier h-like sound before **s**. Neither source requires a trill in these practical descriptions.
 6. Fulk §17, p.12 / PDF24, supplies the voicing rule and exceptions used here. Cook §8, pp.8–9 / PDF24–25, gives a broader syllable-final voicing rule. This guide selects Fulk's account.
-7. Cook §11, pp.9–10 / PDF25–26, and §23, pp.18–19 / PDF34–35; Fulk §§17,19,22–23, pp.12–15 / PDF24–27. Printed length and stress are distinct; connected-speech shortening does not require changing the edited spelling.
-8. Cook, Reader I, p.123 / PDF139, first prose line. The three explanatory note cues are omitted; the words and punctuation are retained. This is one sentence from the longer passage, with its meaning and sound help supplied here.
+7. Cook §11, pp.9–10 / PDF25–26, distinguishes prolonged medial doubling from final double spellings, normally read with single-consonant duration. See also Cook §23, pp.18–19 / PDF34–35, and Fulk §§17,19,22–23, pp.12–15 / PDF24–27. Printed vowel length and stress are distinct; connected-speech shortening does not require changing the edited spelling.
+8. Adapted from Cook, Reader I, p.123 / PDF139, first prose line: remove **On anginne**, move **God** before the verb, and omit the three apparatus cues. The retained words are not respelled. The original sentence and notes remain in the source transcription. The adaptation's full meaning and pronunciation help are supplied here.

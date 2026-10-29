@@ -2,6 +2,8 @@
 
 Issue: `oec-pron-scope`. Independent curriculum inspection, 29 October 2026. The coordinator owns source reconciliation, the guide contract, shared indexes and completion.
 
+Final selection is governed by [contract amendment PRON-A04](../../../guides/pronunciation/coverage.json). The proposal below is preserved as planning evidence. The learner now uses a declared five-word adaptation of Cook and **heofonan** in D3; **anginn/anginne** is unselected. The earlier course's stressed-stem wording does not establish primary stress: see the [bounded variant audit](../../../sources/audits/pronunciation/cook/anginn-note.md).
+
 The guide can stand before Unit 1. No full pronunciation system is already taught. All eighteen active contracts and both actual registers were parsed; relevant learning records and learner-master wording were inspected. The [analysis](analysis.json) retains input identities, exact feature boundaries, 21 supplied lexical candidates with source locators, reading candidates and five proposed practice groups. This analysis reuses checked lexical evidence; it does not claim fresh phonetic source-image inspection.
 
 ## Existing teaching and boundaries

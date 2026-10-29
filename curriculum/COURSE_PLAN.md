@@ -8,6 +8,8 @@ Assume no Old English and familiarity with standard grammar terminology. Use con
 
 Lambdin supplies the practical organizational model, not Old English linguistic authority; only his contents and publisher description have been inspected. Cook's selected 1895 books supply the core source material. Keep original groups, exercise and item IDs, prompts, and reversible editorial changes. Meaningful new tasks fill gaps in Cook's coverage.
 
+The [pronunciation guide](../typesetting/pronunciation/pronunciation.pdf) precedes Unit 1 and remains available for reference. Its [separate contract](../guides/pronunciation/coverage.json) selects a practical Cook/Fulk reading convention with American English cues, plain articulation instructions, and only occasional introductory phonetic symbols. All example meanings and sentence grammar are supplied. Its 25 sound questions and separate key establish no additional vocabulary or grammatical production milestones and assign no new numbered Cook exercise items.
+
 ## Contents and Cook allocation
 
 | Unit | Grammatical system and ordinary use | Cook material planned | Reading progression |

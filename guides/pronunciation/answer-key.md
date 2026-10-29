@@ -18,7 +18,7 @@ These answers follow the guide's chosen reading convention. The English words id
 
 <!-- answer: PRON-P01d -->
 
-**A4. full, “full”; fūl, “vile”.** **Ū** in **fūl** is long, with the *food* quality; **full** has short *foot*-type **u**. There is prolonged **ll** in **full**, whereas **fūl** has single **l**. Lengthening the vowel while ignoring the consonant difference does not give the complete contrast.
+**A4. full, “full”; fūl, “vile”.** **Ū** in **fūl** is long, with the *food* quality; **full** has short *foot*-type **u**. The target is this vowel-length and vowel-quality contrast. Both final **l** sounds have ordinary single-consonant duration; the written **ll** of **full** does not require extra holding.
 
 ## B. Consonants and unfamiliar sounds
 
@@ -92,15 +92,15 @@ These answers follow the guide's chosen reading convention. The English words id
 
 <!-- answer: PRON-P04c -->
 
-**D3. anginne, “the beginning”.** Three syllables; stress the middle one, containing **ginn**. Prolong **nn** without adding a vowel. The **g** is hard. The ordinary first-syllable tendency does not override this explicitly supplied stress pattern.
+**D3. heofonan, “heaven”.** Three syllables; stress the first. There is no doubled consonant. **Eo** forms one glide, followed by syllables containing **o** and **a**. Keep both unstressed vowels audible; copying the two syllables of modern *heaven* would lose a syllable.
 
 <!-- answer: PRON-P04d -->
 
 **D4. gescēop, “created”.** Two syllables; stress the second, **scēop**. There is no doubled consonant. The prefix **ge-** is unstressed; long **ēo** remains one vowel glide within the stressed syllable. Two vowel letters do not create two syllables there.
 
-## E. Cook's opening sentence
+## E. A sentence adapted from Cook
 
-The supplied meaning is “In the beginning God created heaven and earth.” No independent translation is tested.
+The supplied meaning is “God created heaven and earth.” No independent translation is tested.
 
 <!-- answer: PRON-P05a -->
 

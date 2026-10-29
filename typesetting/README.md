@@ -2,7 +2,9 @@
 
 Markdown is the editable master. [book-layout.tex](book-layout.tex) defines the shared LuaLaTeX/Cambria layout: 165 × 241 mm, 11-point body text and 14.3-point leading. Paradigm tables use 10.5-point type with 13.2-point leading, bold headings, horizontal rules and consistent labels. Identical verbal plural forms share `1–3 pl.`; all distinct forms and complete logical paradigms remain.
 
-The accepted [course presentation revision](../docs/revisions/table-layout/) rebuilt 34 complete documents, comprising 1,146 pages, with clean compilation and table-parity checks. Unit 17's 45-page key and Unit 18's 32-page key are byte-unchanged. The complete course totals **1,223 pages**, down from 1,232. Independent reviewers accepted the changed pages and subsequent heading repairs; the links below identify the retained PDFs.
+The separate introductory [pronunciation guide](pronunciation/pronunciation.pdf), 9 pages, and [practice key](pronunciation/answer-key.pdf), 3 pages, use this layout. Their [export notes and reproduction commands](pronunciation/README.md) cover both complete documents. They are additional front matter; the build and page totals for the 36 unit documents below remain unchanged.
+
+The accepted [course presentation revision](../docs/revisions/table-layout/) rebuilt 34 complete documents, comprising 1,146 pages, with clean compilation and table-parity checks. Unit 17's 45-page key and Unit 18's 32-page key are byte-unchanged. The eighteen units total **1,223 pages**, down from 1,232. Independent reviewers accepted the changed pages and subsequent heading repairs; the links below identify the retained PDFs.
 
 The [export manifest](../docs/revisions/table-layout/exports.json) records current page counts and PDF identities. [Page acceptance](../docs/revisions/table-layout/page-review.json) binds the reviewed pages to those exports; the [validated build report](../docs/revisions/table-layout/build-report.json), [complete-content checks](../docs/revisions/table-layout/export-text-review.json), and [logical-table review](../docs/revisions/table-layout/table-review.json) retain the verification evidence.
 

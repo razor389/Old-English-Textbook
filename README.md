@@ -2,6 +2,8 @@
 
 A grammar-led Old English course using Cook's exercises and vocabulary, with complete paradigms and connected graded readings. The practical organization of Lambdin's Gothic course is the structural model. Historical grammar is supplementary. **All 18 planned units are complete** with separate learner and answer-key PDFs.
 
+Begin with the [9-page pronunciation guide](typesetting/pronunciation/pronunciation.pdf): American English sound cues, mouth-position instructions for unfamiliar sounds, and brief supported practice. It assumes no Old English. The [3-page separate practice key](typesetting/pronunciation/answer-key.pdf), [editable guide](guides/pronunciation/student.md), and [source and export notes](typesetting/pronunciation/README.md) accompany it.
+
 The table-layout revision is accepted: **1,223 pages across the 36 learner/key documents**, compared with 1,232 before this revision. Identical verbal plural forms share `1–3 pl.`, and conjugation and declension tables use the same style. All logical forms, tasks and teaching milestones are preserved. The links below identify the accepted PDFs; the Unit 17 and 18 keys retain their original accepted bytes. The [export manifest](docs/revisions/table-layout/exports.json), [independent page acceptance](docs/revisions/table-layout/page-review.json), and [validated build report](docs/revisions/table-layout/build-report.json) record the current revision. Original linguistic acceptance is recorded separately in each unit's export notes.
 
 Start with [STATUS.md](STATUS.md), [AGENTS.md](AGENTS.md), and the [course plan](curriculum/COURSE_PLAN.md). The [handoff](docs/HANDOFF.md) gives the next session's starting task; [prompts/START_HERE.txt](prompts/START_HERE.txt) can be pasted directly into it.
