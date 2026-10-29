@@ -2,6 +2,8 @@
 
 The eighteen-unit course and requested table revision are complete. The [main README](../README.md) links all **36 retained PDFs / 1,223 pages**. Shared plural forms use **1–3 pl.**, with consistent conjugation and declension tables. The [export manifest](revisions/table-layout/exports.json), [full text check](revisions/table-layout/export-text-review.json), [table review](revisions/table-layout/table-review.json) and [page acceptance](revisions/table-layout/page-review.json) describe the current artifacts. The initial complete-course checkpoint was `1c9e53a`; the presentation contract preceded implementation at `5f8a4e9`. No further unit or supplement is authorized by this revision.
 
+The complete presentation/source revision is saved at **20748ce**. All acceptance checks passed before that checkpoint. The following handoff commit records closure of oec-style and its five child tasks.
+
 ## Final unit and evidence
 
 The [contract](../chapters/ch18/coverage.json) preceded prose at `6874c20e7127fa33c41406d1aa6c0b087e59c824`. Complete drafts are `970fcc1f431f6ce2ccdd1f1c85b2b5e63ae0c16a`; the fresh non-author’s unchanged [solutions](../chapters/ch18/independent-solutions.md) were frozen at `7846befc2c484e8d3e4ff43346da12bf275f5b08` before key/current-contract/audit access. [Review](../chapters/ch18/review.md), [output ledger](../chapters/ch18/review-ledger.json) and [separate paradigm review](../chapters/ch18/reviews/paradigms.json) accept all 60 tasks / 87 answers and 55 systems / 652 logical cells. Accepted text is `029177713dffa6ff81b81d9a96b41b36e006963f`. No material finding remains open.

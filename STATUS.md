@@ -2,6 +2,8 @@
 
 Updated 29 October 2026. **All 18 units and the course-wide table revision are complete.** The 36 accepted learner/key PDFs total **1,223 pages**, nine fewer than the initial complete course. Shared verbal plurals use **1–3 pl.**; conjugation and declension tables follow the later-unit style. All forms, tasks, original Cook prompts and teaching milestones are preserved. All **644 numbered Cook items** are assigned; none remain deferred or excluded. The [current export manifest](docs/revisions/table-layout/exports.json) binds every retained PDF.
 
+The complete presentation artifacts and accepted PDFs are saved at local Git checkpoint **20748ce**. Final tracker closure is recorded in the following handoff commit.
+
 ## Unit 18 content and original linguistic acceptance
 
 The [contract](chapters/ch18/coverage.json) covers all 47 joint XII, XIII Exercises 44–48 prompts, 13 original practice groups, two translated examples and the exact 226-word love, gifts and farewell passage at Cook 175.18–177.2 / PDF 191–193. All 154 original controls and 22 reading notes / 29 anchors remain. There are **60 tasks / 87 answers** and **55 defined systems / 652 logical cells**, with explicit production, recognition and supplied boundaries.
