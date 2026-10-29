@@ -1,0 +1,69 @@
+{
+  "schema_version": 1,
+  "project": "Two complete reference glossaries for the eighteen-unit course",
+  "status": "contracted before learner glossary drafting; publication checks pending",
+  "contract_date": "2026-10-29",
+  "baseline_revision": "0c4d27031697abd8ed74ae70e5e72bdd9573e2b4",
+  "user_requirement": {
+    "old_english_to_english": "Complete for all Old English words in the book.",
+    "english_to_old_english": "Complete for the exercises."
+  },
+  "boundaries": {
+    "corpus_manifest": "glossaries/corpus-manifest.json",
+    "protected_course": "glossaries/course-boundary.json",
+    "documents": 38,
+    "included": "All eighteen learner masters and separate keys, plus pronunciation guide and key: lessons, paradigms, examples, readings, tasks, answers, alternatives and source notes.",
+    "excluded_from_book": "Editorial/development files and unassigned portions of source books are evidence, not extra learner corpus.",
+    "chapter_tasks": 1392,
+    "cook_items": 644,
+    "original_chapter_tasks": 748,
+    "pronunciation_responses": 25,
+    "exercise_scope": "English meanings and expressions needed for all assigned exercises, including original practice, reading tasks and supplied support. English instructional terminology is not automatically vocabulary to translate.",
+    "preservation": "Glossary reference inclusion changes no assignment, recall requirement, teaching milestone, source correction or accepted lesson/key. Any necessary course amendment must be separately evidenced."
+  },
+  "evidence_inputs": {
+    "old_english_inventory": "sources/audits/glossaries/old-english/inventory.json",
+    "old_english_resolutions": "sources/audits/glossaries/old-english/resolutions.json",
+    "exercise_inventory": "sources/audits/glossaries/english/exercise-inventory.json",
+    "sense_use_crosswalk": "sources/audits/glossaries/english/sense-use-crosswalk.json",
+    "english_access_additions": "sources/audits/glossaries/english/lookup-additions.json",
+    "display_and_metadata_analysis": "curriculum/proposals/glossaries/analysis.json",
+    "register": "lexicon/entries.json",
+    "grammar": "curriculum/grammar.json",
+    "source_registry": "sources/registry.json",
+    "pronunciation_examples": "guides/pronunciation/examples.json",
+    "source_authority": "Reuse checked evidence in accepted contracts, current keys, source audits and the cumulative evidence catalog. Verify newly needed lexical claims against selected primary sources. OCR is only a finding aid. Exact page/form evidence stays in the audit data."
+  },
+  "entry_rules": {
+    "identity": "Stable glossary entry IDs retain every original lemma and sense ID. Headword homographs keep separate meanings and parts of speech; a shared spelling is not permission to merge.",
+    "headword": "Use an evidenced citation. Clearly label an inflected source form or fixed expression where a citation is not established. Never infer vowel length or silently regularize spelling.",
+    "metadata": "Reconcile cumulative forms, senses and historical metadata. The latest local lemma label cannot erase earlier productive noun/verb uses. Use meaningful POS labels, not source-only as a part of speech.",
+    "diagnostics": "Give evidenced noun gender, genitive singular and nominative plural; verbal preterite and participle diagnostics where available. Do not generate missing cells or infer gender from endings. Supplied-only exact entries may omit unestablished diagnostics.",
+    "meanings": "Edit short lexical meanings and separate contextual senses. Replace internal teaching instructions with useful definitions and usage notes. Preserve complement, case, number, idiom and uncertainty restrictions.",
+    "forms": "Print compact Forms in this book lists of distinct actual valid surfaces, preserving all letters and marks. Retain ambiguous routes. Do not repeat the 13,295 logical analysis records. Forms do not imply that every listed form serves every sense.",
+    "cross_references": "Add direct pointers for opaque or irregular forms and useful variants. Preserve complete exact surface-to-entry routes in data. Never strip ge- automatically.",
+    "corrections": "Keep rejected examples, source errors, reconstructions, stem/endings and non-OE comparanda explicitly classified. Searchable correction notices may quote wrong spellings but must not present them as valid paradigm forms. Preserve C01 and C06 and all accepted later corrections.",
+    "english_access": "Author sense-specific English words/phrases, prompt synonyms and idioms. All 1,681 exercise-linked sense IDs need an intelligible English access route. Curated additions supplement this complete index. Do not reverse raw gloss strings mechanically.",
+    "grammar_access": "Explain a/an, do-support, English tense auxiliaries, dummy subjects, questions, reflexives and case equivalents where the exercises require a construction rather than a literal lexical equation.",
+    "ordering": "Old English a, æ, b ... t, þ/ð, u ... z; ignore marks and word dividers only in primary collation, retain them in display and exact search. Ge- sorts under g. English uses ordinary case-insensitive alphabetical order.",
+    "scope_note": "The introduction distinguishes reference inclusion from independent recall; bounded source-only or idiomatic senses retain local qualifications."
+  },
+  "deliverables": {
+    "old_english_master": "glossaries/old-english.md",
+    "english_master": "glossaries/english.md",
+    "entry_data": "glossaries/entries.json",
+    "form_lookup": "glossaries/form-lookup.json",
+    "exercise_lookup": "glossaries/exercise-lookup.json",
+    "review": "glossaries/review/",
+    "exports": "typesetting/glossaries/",
+    "format": "Editable Markdown masters, compact evidence/coverage data, complete retained LuaLaTeX and two complete PDFs. Trial Cambria 10.5-point entries in two columns within the established course trim; inspect actual pages before acceptance."
+  },
+  "completion_gates": [
+    "Every actual Old English surface has a supported entry route or an explicit nonlexical/error disposition; no unresolved real lexical item is silently omitted.",
+    "Every exercise and required sense resolves to useful English access entries, including source-hint synonyms, idioms and grammar routes.",
+    "Entries preserve exact orthography, distinguish homographs, have non-dangling references, and do not promote supplied-only material to required recall.",
+    "Independent reviewers check actual glossaries against corpus and exercises, with special attention to source-only entries, case frames, idioms and corrections. Resolve material findings.",
+    "Complete Markdown, TeX and PDF content agrees; every exported page and special character is inspected. Retain page-level acceptance ledgers.",
+    "Check protected course identities; update the main and typesetting indexes, status and handoff; export Beads; save recoverable local Git revisions. No remote push is required."
+  ]
+}
