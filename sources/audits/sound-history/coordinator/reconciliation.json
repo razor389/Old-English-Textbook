@@ -1,0 +1,88 @@
+{
+  "schema_version": 1,
+  "status": "source and curriculum evidence reconciled before prose",
+  "decisions": [
+    {
+      "id": "SH-R01",
+      "decision": "Use Fulk’s vowel-specific breaking conditions and æ as the immediate input; Cook’s own qualification is preserved, not labelled an error.",
+      "evidence": [
+        "SH-F02",
+        "SH-CK-21"
+      ]
+    },
+    {
+      "id": "SH-R02",
+      "decision": "Distinguish older e-raising from later i-umlaut, while recognizing the established practical mutation grouping.",
+      "evidence": [
+        "SH-F04",
+        "SH-CK-15-17",
+        "SH-CK-104"
+      ]
+    },
+    {
+      "id": "SH-R03",
+      "decision": "Use actual course spellings as learner examples. Preserve Fulk’s dotted originals in the source audit and record any removal of editorial dots, thorn/eth substitution or hook notation explicitly.",
+      "evidence": [
+        "SH-F01",
+        "SH-F06",
+        "SH-F07"
+      ]
+    },
+    {
+      "id": "SH-R04",
+      "decision": "The local asterisk means reconstruction, unlike the explicitly erroneous examples of Unit3; use escaped literal stars. Arrows mean historical development, never a sequence of principal parts.",
+      "evidence": [
+        "SH-F02",
+        "SH-F03",
+        "SH-F05",
+        "SH-F11"
+      ]
+    },
+    {
+      "id": "SH-R05",
+      "decision": "Existing headwords cover all selected OE examples. Three supplied additional source spellings (hefon, hēafodes, hēh) have explicit appendix routes; original glossary masters, data and acceptance remain unchanged.",
+      "evidence": [
+        "SH-F08",
+        "SH-F10",
+        "SH-F12"
+      ]
+    },
+    {
+      "id": "SH-R06",
+      "decision": "Define vowel length separately from historical syllable/stem weight; qualify high-vowel loss and analogy.",
+      "evidence": [
+        "SH-F10",
+        "SH-CK-04",
+        "SH-CK-46-47"
+      ]
+    },
+    {
+      "id": "SH-R07",
+      "decision": "Omit a full PIE/Proto-Germanic reconstruction course, exhaustive consonant laws, nasal-loss/metathesis catalogues and formal exercises. Core breaking/umlaut explanations take priority.",
+      "evidence": [
+        "SH-F05",
+        "SH-F14",
+        "SH-CK-30-32"
+      ]
+    }
+  ],
+  "unresolved_dependencies": [],
+  "input_identities": [
+    {
+      "path": "sources/audits/sound-history/cook/evidence.json",
+      "sha256": "79e9f79660dffbb00a8557e2334cf51db495ea63e50937fac3e7fb2509d6fd1b"
+    },
+    {
+      "path": "sources/audits/sound-history/fulk/evidence.json",
+      "sha256": "3a0ae4fa643b921133a9d6d5ffe3f33f042a4d3fe0eacba9eed364c2becbfd5e"
+    },
+    {
+      "path": "curriculum/proposals/sound-history/analysis.json",
+      "sha256": "8292eb777730a98ff341ec9a5216f83874ce072e10b5eb969345afdeaac85e46"
+    },
+    {
+      "path": "sources/audits/sound-history/coordinator/source-metadata.json",
+      "sha256": "27cbf62278f2a6938cd2fadfeffae2cd747f75c47360cab0115c6b36adf1e45d"
+    }
+  ]
+}

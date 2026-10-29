@@ -1,0 +1,206 @@
+{
+  "schema_version": 1,
+  "appendix_id": "sound-history",
+  "title": "Why Old English forms vary: a short sound history",
+  "status": "contracted before prose",
+  "date": "2026-10-29",
+  "baseline_revision": "02f7b130fbc33f61bc0eee35723f012aa4e41038",
+  "user_requirement": "Optional appendix on breaking, umlaut and related historical processes for readers with linguistic interests, drawing on early Cook and Fulk throughout.",
+  "audience": "Adult course reader; ordinary grammatical terminology, with historical terms defined locally. No historical-linguistics prerequisite.",
+  "scope": {
+    "optional_reference": true,
+    "new_assessed_tasks": 0,
+    "new_cook_assignments": 0,
+    "new_production_milestones": 0,
+    "new_paradigm_systems": 0,
+    "answer_key": "Not applicable: explanatory prose and worked comparisons, no learner tasks.",
+    "length_target": "Approximately 8–12 pages, subject to clear complete treatment rather than padding or a hard cap.",
+    "notation": "No new IPA required. Define front/back/rounding, length/weight, j, starred reconstruction and arrow notation in plain words."
+  },
+  "sources": {
+    "cook": "cook_fb_1895_2",
+    "fulk": "fulk_2020",
+    "cook_pages_actually_inspected": 28,
+    "fulk_pages_actually_inspected": 34,
+    "reconciliation": "sources/audits/sound-history/coordinator/reconciliation.json",
+    "registry": "sources/registry.json"
+  },
+  "existing_teaching": "curriculum/proposals/sound-history/analysis.json",
+  "outline": [
+    {
+      "section_id": "SH-S01",
+      "title": "Reading a historical explanation",
+      "priority": "core",
+      "purpose": "Set optional scope; distinguish sound history, spelling, a paradigm alternation and reconstruction. Define vowel front/back and rounding in plain words; refer to the pronunciation guide rather than repeat it.",
+      "examples": []
+    },
+    {
+      "section_id": "SH-S02",
+      "title": "Fronting and restoration",
+      "priority": "core",
+      "purpose": "Prepare the changes behind æ/a and why a following syllable can matter; state chronological and West Saxon limits.",
+      "examples": [
+        "SH-E01"
+      ]
+    },
+    {
+      "section_id": "SH-S03",
+      "title": "Breaking",
+      "priority": "core",
+      "purpose": "Explain a front vowel acquiring a second element in the relevant consonant environments; give a compact source-qualified rule and examples. Distinguish the letters ea/eo from a claim of identical origins.",
+      "examples": [
+        "SH-E02"
+      ]
+    },
+    {
+      "section_id": "SH-S04",
+      "title": "i-umlaut",
+      "priority": "core; largest section",
+      "purpose": "Explain anticipation of a following i/j, the later loss/change of that trigger, and surviving results in nouns, derivation, comparison and present singulars. Compare long and short results; avoid an unrestricted conversion table.",
+      "examples": [
+        "SH-E03",
+        "SH-E04",
+        "SH-E05",
+        "SH-E06"
+      ],
+      "optional_examples": [
+        "SH-D04",
+        "SH-D08"
+      ]
+    },
+    {
+      "section_id": "SH-S05",
+      "title": "Other origins of diphthong spellings",
+      "priority": "core with concise qualifications",
+      "purpose": "Separate back mutation from breaking and palatal diphthongization; include a short paragraph on smoothing with an exactly sourced dialectal example if useful.",
+      "examples": [
+        "SH-E07",
+        "SH-E08",
+        "SH-E15"
+      ],
+      "open_source_need": "A verified smoothing example may need an additive form route to an existing headword."
+    },
+    {
+      "section_id": "SH-S06",
+      "title": "Consonants and the order of changes",
+      "priority": "core",
+      "purpose": "Explain palatalization, selected exceptions produced by chronology, and gemination in plain articulatory terms. Distinguish consonant changes from changes in the following vowel.",
+      "examples": [
+        "SH-E09",
+        "SH-E10"
+      ]
+    },
+    {
+      "section_id": "SH-S07",
+      "title": "Vowel loss, syllable weight and contraction",
+      "priority": "core, concise",
+      "purpose": "Connect historical final vowel loss and internal syncope with familiar paradigms; keep long vowel and heavy syllable distinct. Treat contraction as a bounded additional mechanism.",
+      "examples": [
+        "SH-E11",
+        "SH-E12"
+      ],
+      "optional_examples": [
+        "SH-D15"
+      ]
+    },
+    {
+      "section_id": "SH-S08",
+      "title": "Ablaut, inherited alternations and analogy",
+      "priority": "core distinction; short optional consonant note",
+      "purpose": "Separate inherited strong stem alternation from conditioned umlaut; explain why analogy or suppletion can prevent a complete surface derivation. No reconstruction of the entire Indo-European or Germanic system.",
+      "examples": [
+        "SH-E13",
+        "SH-E14"
+      ],
+      "optional_examples": [
+        "SH-D17",
+        "SH-D18"
+      ]
+    },
+    {
+      "section_id": "SH-S09",
+      "title": "Reference summary and source notes",
+      "priority": "core",
+      "purpose": "One compact table: process, historical trigger, familiar result, principal limitation. Source-specific notes give Cook/Fulk sections and actual printed/PDF pages. Provide optional further-reading pointers.",
+      "examples": []
+    }
+  ],
+  "additional_course_evidence": [
+    {
+      "evidence_id": "COURSE-U03-COMPARISON",
+      "path": "chapters/ch03/student.md",
+      "locator": "Comparison of adjectives; eald/ieldra/ieldest table and teaching NEW-U03-GRAM-comparison-umlaut",
+      "contract": "chapters/ch03/coverage.json"
+    },
+    {
+      "evidence_id": "COURSE-U05-HATAN",
+      "path": "chapters/ch05/student.md",
+      "locator": "ClassVII hātan complete indicative; present third singular hǣtt",
+      "contract": "chapters/ch05/coverage.json"
+    },
+    {
+      "evidence_id": "COURSE-U05-GIEFAN",
+      "path": "chapters/ch05/student.md",
+      "locator": "ClassV palatal series; short geaf and long gēafon",
+      "contract": "chapters/ch05/coverage.json"
+    },
+    {
+      "evidence_id": "COURSE-U11-GEAT",
+      "path": "chapters/ch11/student.md",
+      "locator": "Complete geat/gatu noun table",
+      "contract": "chapters/ch11/coverage.json"
+    },
+    {
+      "evidence_id": "COURSE-U06-SEON",
+      "path": "chapters/ch06/student.md",
+      "locator": "Contracted sēon; singular imperative seoh",
+      "contract": "chapters/ch06/coverage.json"
+    },
+    {
+      "evidence_id": "PRONUNCIATION-GUIDE-4",
+      "path": "guides/pronunciation/student.md",
+      "locator": "Section4, hard c in cēlan",
+      "contract": "guides/pronunciation/coverage.json"
+    }
+  ],
+  "examples": "appendices/sound-history/examples.json",
+  "example_group_count": 15,
+  "example_selection": "Contracted pool with core comparisons; label all actual used forms and meanings. Record unused groups/extra examples in a final reconciliation.",
+  "presentation_rules": [
+    "Every OE, reconstructed or comparative example and every cited letter/ending is bold; explanatory English terms are italic. Classify every bold span in the final inventory.",
+    "Literal reconstruction stars are escaped inside bold, e.g. **\\*hælp**. The local star convention differs from Unit3 erroneous-form notation.",
+    "Use historical arrows only for actual source-supported development; use beside or labelled columns for coexisting forms.",
+    "Use clear prose and compact common-style tables. A comparison table does not introduce a new inflectional class.",
+    "Give source citations in endnotes, keeping source apparatus out of the explanation except where the distinction matters.",
+    "Preserve all course quantity marks and Cook notation. Do not silently replace the accepted pronunciation convention."
+  ],
+  "glossary_access": {
+    "ledger": "appendices/sound-history/glossary-access.json",
+    "method": "Additive route ledger for every actually used OE form and separately classified non-OE/stem/letter item. Existing headwords cover the selected words; show headword access beside new source spellings.",
+    "protected_glossary": "Keep the original 38-master audit and every accepted glossary artifact unchanged. No new tasks require English-glossary additions."
+  },
+  "preservation": {
+    "identity_manifest": "appendices/sound-history/course-boundary.json",
+    "protected_files": 191,
+    "register_counts": {
+      "lemmas": 1265,
+      "forms": 13295,
+      "senses": 1687,
+      "grammar_features": 1214
+    }
+  },
+  "deliverables": {
+    "master": "appendices/sound-history/student.md",
+    "review": "appendices/sound-history/review/",
+    "tex": "typesetting/sound-history/sound-history.tex",
+    "pdf": "typesetting/sound-history/sound-history.pdf"
+  },
+  "completion_gates": [
+    "Save this reconciled contract locally before authoring.",
+    "Every actual claim and example has source and glossary/evidential-status support.",
+    "Independent reviewers resolve material historical, spelling, scope and intelligibility findings.",
+    "Complete Markdown/TeX/PDF text and table parity; clean compile diagnostics; actually inspect every PDF page.",
+    "Verify the protected course/glossary boundary; update README, plan, source indexes, status and handoff; export Beads and commit locally. No push."
+  ],
+  "unresolved_dependencies": []
+}
