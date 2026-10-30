@@ -1,0 +1,66 @@
+{
+  "schema_version": 1,
+  "initial_contract_checkpoint": "86ca81ea7ae369add3b1d3f12664fefdc354fc01",
+  "amendments": [
+    {
+      "id": "SH-A01",
+      "type": "English gloss and selected-sense alignment",
+      "reason": "The selected existing glossary senses are dwelling for hof and wife for wīf. Use those supplied labels so the examples introduce no additional lexical sense. Old English forms and historical explanations are unchanged.",
+      "evidence": "glossaries/entries.json",
+      "original_examples_sha256": "72fa05b209b7b369872f9c159801a2d77c386fac9e6c66291c507dcde3876ff7",
+      "changes": [
+        {
+          "example_id": "SH-E11",
+          "surface": "hof",
+          "entry_id": "OE-hof",
+          "sense_id": "hof-1",
+          "old_supplied_meaning": "enclosure",
+          "new_supplied_meaning": "dwelling"
+        },
+        {
+          "example_id": "SH-E11",
+          "surface": "hofu",
+          "entry_id": "OE-hof",
+          "sense_id": "hof-1",
+          "old_supplied_meaning": "enclosures",
+          "new_supplied_meaning": "dwellings"
+        },
+        {
+          "example_id": "SH-E11",
+          "surface": "wīf",
+          "entry_id": "OE-wif",
+          "sense_id": "wif-1",
+          "old_supplied_meaning": "woman; women",
+          "new_supplied_meaning": "wife; wives"
+        }
+      ]
+    },
+    {
+      "id": "SH-A02",
+      "type": "Source-context clarification; selected forms unchanged",
+      "affected_example": "SH-E08",
+      "evidence": "sources/audits/sound-history/fulk/correction-01.json",
+      "evidence_sha256": "6b69f692e472b83276fc2b20879c5a2412171540665caf8dea907a39119bd787",
+      "finding": "Fulk p85/PDF97 prints heofon in its example sentence, then hefon beside hefen in the later parenthesis. The selected heofon/hefon juxtaposition is new teaching material using two printed forms, not a verbatim source pair.",
+      "disposition": "Keep heofon/hefon and its existing-headword route; make the new-comparison status explicit. No Fulk source error is alleged.",
+      "original_record": "Frozen SH-F08 remains at contract checkpoint86ca81e; the clarification qualifies its context claim."
+    },
+    {
+      "id": "SH-A03",
+      "type": "Independent-review scope and clarity refinements",
+      "original_master_sha256": "5fff19e9b533c91070fd58865020bc8cd7021f7c78965082815726b4d38ac53f",
+      "revised_master_sha256": "51042344c2d162c27b23e98dad45641b45299d9a2f4ed0436ec862e81b897f7a",
+      "review_records": [
+        "appendices/sound-history/review/cook.json",
+        "appendices/sound-history/review/fulk.json"
+      ],
+      "changes": [
+        "Explicit stressed-vowel scope in the fronting, breaking, palatal-diphthongization and back-mutation teaching comparisons, with corresponding table/summary labels. Breaking is historically excluded from unstressed syllables; the wording does not claim all fronting/mutation is so restricted.",
+        "Source note2 adds Fulk Appendix A V.45, printed113/PDF125.",
+        "A forward reference connects gemination’s first light-syllable mention with section7.",
+        "The derivational explanation says the conditioning sound disappeared, avoiding a claim that the entire ending was lost."
+      ],
+      "preserved": "All 15 groups, 44 OE forms, 242 bold example/notation occurrences, meanings, glossary routes and task/teaching scope unchanged. Detailed intermediate master identities remain in author-notes.json."
+    }
+  ]
+}

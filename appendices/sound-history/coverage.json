@@ -2,7 +2,7 @@
   "schema_version": 1,
   "appendix_id": "sound-history",
   "title": "Why Old English forms vary: a short sound history",
-  "status": "contracted before prose",
+  "status": "accepted after independent content and complete export review",
   "date": "2026-10-29",
   "baseline_revision": "02f7b130fbc33f61bc0eee35723f012aa4e41038",
   "user_requirement": "Optional appendix on breaking, umlaut and related historical processes for readers with linguistic interests, drawing on early Cook and Fulk throughout.",
@@ -202,5 +202,26 @@
     "Complete Markdown/TeX/PDF text and table parity; clean compile diagnostics; actually inspect every PDF page.",
     "Verify the protected course/glossary boundary; update README, plan, source indexes, status and handoff; export Beads and commit locally. No push."
   ],
-  "unresolved_dependencies": []
+  "unresolved_dependencies": [],
+  "contract_checkpoint": "86ca81ea7ae369add3b1d3f12664fefdc354fc01",
+  "authoring_amendments": "appendices/sound-history/authoring-amendments.json",
+  "acceptance": {
+    "master_sha256": "51042344c2d162c27b23e98dad45641b45299d9a2f4ed0436ec862e81b897f7a",
+    "independent_reviews": [
+      "appendices/sound-history/review/cook.json",
+      "appendices/sound-history/review/fulk.json"
+    ],
+    "amendments": "appendices/sound-history/authoring-amendments.json",
+    "export_review": "typesetting/sound-history/export-review.json",
+    "page_review": "typesetting/sound-history/page-review.json",
+    "complete_content_check": "typesetting/sound-history/content-check.json",
+    "pages": 12,
+    "tables": 8,
+    "table_cells": 100,
+    "new_assessed_tasks": 0,
+    "new_production_milestones": 0,
+    "new_IPA": 0,
+    "earlier_files_preserved": 191,
+    "checkpoint_sequence": "Contract86ca81e preceded prose. Final artifact and tracker-closure checkpoints are recorded in STATUS.md and docs/HANDOFF.md."
+  }
 }

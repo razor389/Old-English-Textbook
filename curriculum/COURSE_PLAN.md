@@ -12,6 +12,8 @@ The [pronunciation guide](../typesetting/pronunciation/pronunciation.pdf) preced
 
 The [two reference glossaries](../glossaries/README.md) accompany the completed course. Old English–English covers all 38 learner/key masters, including paradigms and source notes; English–Old English covers all 1,392 chapter tasks and 25 pronunciation responses. Dictionary headwords, principal parts and selected irregular-form pointers support lookup. Reference inclusion adds no assignment or independent-recall milestone; each unit's contract still defines what is taught or supplied.
 
+The optional [sound-history appendix](../appendices/sound-history/README.md) explains historical patterns behind the forms, including breaking, umlaut and ablaut. Its examples have supplied meanings and existing glossary headwords; source spellings have explicit lookup pointers. It introduces no assessed tasks, complete paradigms or production milestones and assigns no additional Cook material. The separate contract was saved before prose.
+
 ## Contents and Cook allocation
 
 | Unit | Grammatical system and ordinary use | Cook material planned | Reading progression |

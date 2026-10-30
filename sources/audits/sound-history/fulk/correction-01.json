@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "id": "SH-FULK-C01",
+  "status": "resolved by high-resolution source inspection",
+  "date": "2026-10-29",
+  "classification": "Source-context and provenance clarification; correction of an overstrong claim about the exact source pairing. No erroneous isolated Old English spelling is established.",
+  "source": {
+    "source_id": "fulk_2020",
+    "section": "119",
+    "printed_page": 85,
+    "pdf_page_one_based": 97,
+    "pdf": "sources/cache/fulk-2020.pdf",
+    "pdf_sha256": "b014804dba3b3154de19a9062fef6485fd85a9a71c093f743c01b2be515ed0e4"
+  },
+  "inspection": {
+    "image": "build/sound-history/fulk/p085-pdf097-r300.png",
+    "image_sha256": "937a75f9bac155078de4980471d1915337cf0b578ff723d1bc820ce59ddff77f",
+    "dpi": 300,
+    "pixel_dimensions": [
+      1800,
+      2700
+    ],
+    "actually_viewed": true,
+    "view_method": "view_image, detail original; both the example sentence and the subsequent parenthesis read on the image"
+  },
+  "exact_source": {
+    "earlier_example": {
+      "form": "heofon",
+      "gloss": "sky",
+      "location": "Sentence beginning Examples of the change in West Saxon"
+    },
+    "later_parenthesis": "hence hefon beside hefen, etc.",
+    "later_parenthetic_forms": [
+      "hefon",
+      "hefen"
+    ],
+    "all_relevant_forms": [
+      "heofon",
+      "hefon",
+      "hefen"
+    ],
+    "normalization": "None in these three word forms."
+  },
+  "preserved_audit": {
+    "path": "sources/audits/sound-history/fulk/evidence.json",
+    "sha256": "3a0ae4fa643b921133a9d6d5ffe3f33f042a4d3fe0eacba9eed364c2becbfd5e",
+    "record_path": "processes[id=SH-F08].exact_example_records[0]",
+    "original_record": {
+      "source_forms": [
+        "heofon",
+        "hefon"
+      ],
+      "meaning": "sky",
+      "locator": "§119, p.85",
+      "origin": "exact source",
+      "course_headword_relationship": "heofon",
+      "limits_or_normalization": "Both are exact source spellings; Fulk explicitly uses their coexistence to illustrate analogy."
+    },
+    "original_page_inspection": {
+      "printed_page": 85,
+      "pdf_page_one_based": 97,
+      "image": "build/sound-history/fulk/p085-pdf097.png",
+      "image_sha256": "255445861a3ed9625d21d3c86ac83e8de1ca9aa106e65e612da3e60d6bc6c00a",
+      "actually_viewed": true,
+      "inspection": "§119: back mutation, West Saxon consonant restrictions, heofon/hefon and analogical variation."
+    },
+    "report_path": "sources/audits/sound-history/fulk/report.md",
+    "report_sha256": "eaa7393f01d85582a7bfc074acdce3302b58911307346b4cc4fce5280bc37f40",
+    "original_report_sentence": "Fulk’s **heofon/hefon** shows the effect of analogy; do not frame back mutation as a rule that predicts every written form from its surviving ending."
+  },
+  "investigation_history": [
+    "The initial query proposed that the second form in the audit might have been misread as hefon for source hefen.",
+    "Reinspection established that the source contains both hefon and hefen in its parenthesis, while heofon occurs in the preceding example sentence.",
+    "The first follow-up message described this too broadly as a source-transcription/context error. The final disposition is more precise: all selected spellings are present, but the two-form teaching juxtaposition is not the source’s verbatim parenthetic pair."
+  ],
+  "resolved_interpretation": [
+    "The literal parenthesis compares hefon with hefen. Neither parenthetic form contains a diphthong.",
+    "The earlier heofon is Fulk’s example of West Saxon back mutation. The later sentence discusses monophthong restoration through analogy to unmutated forms and gives hefon beside hefen.",
+    "The appendix may retain heofon/hefon as a newly arranged teaching comparison of two forms actually printed in §119. It must not identify that comparison as a quotation of Fulk’s parenthesis.",
+    "If the appendix quotes or explicitly paraphrases the parenthesis itself, it should preserve the pair hefon/hefen and explain its relation to the earlier heofon. The optional third form need not be introduced if the simpler teaching comparison is labelled accurately."
+  ],
+  "proposed_example_record": {
+    "source_forms": [
+      "heofon",
+      "hefon"
+    ],
+    "meaning": "sky",
+    "source_locator": "Fulk §119, printed85 / PDF97: heofon in the example sentence; hefon in the following parenthesis",
+    "source_word_origin": "exact source spellings",
+    "juxtaposition_origin": "new teaching material: comparison assembled from two locations within the same source paragraph",
+    "scope_note": "The source’s literal parenthesis reads hefon beside hefen; this teaching pair is not a verbatim quotation."
+  },
+  "preservation": "Frozen evidence.json and report.md are unchanged. Coordinator may supersede their compressed pairing claim by linking this clarification in the contract/example records; this is not an erratum in Fulk."
+}

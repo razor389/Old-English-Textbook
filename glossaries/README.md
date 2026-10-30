@@ -8,6 +8,8 @@ Verbs normally appear under the infinitive. Strong verbs give preterite first si
 
 English–Old English contains **2,049 English headings** and 3,223 sense-specific routes. Its scope includes all **1,417 tasks and responses**: 644 Cook items, 748 original chapter tasks and 25 pronunciation responses. It includes prompt synonyms, supplied expressions, idioms and construction notes where a literal word-for-word equivalent would mislead. Exercise instructions still determine required vocabulary, target grammar and supplied help.
 
+The later [sound-history appendix](../appendices/sound-history/README.md) uses 44 Old English forms belonging to 23 existing headwords. Its [additive access inventory](../appendices/sound-history/glossary-access.json) supplies routes for every example; the prose directs **hefon**, **hēafodes** and **hēh** to **heofon**, **hēafod** and **hēah**. Reconstructions, Gothic **bidjan**, letters and endings are identified separately. The accepted dictionary files and original 38-master audit remain unchanged, and the appendix adds no exercises requiring English–Old English entries.
+
 ## Coverage and evidence
 
 The [contract](coverage.json), committed before prose at `478b6e5`, fixes the corpus and completion gates. The [38-master manifest](corpus-manifest.json) and [137-file preservation boundary](course-boundary.json) identify the existing course. The user's later dictionary-format clarification is explicit in the amended contract.
