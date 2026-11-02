@@ -1,0 +1,2041 @@
+{
+  "schema_version": 1,
+  "revision_id": "opening-2026-11-02",
+  "date": "2026-11-02",
+  "status": "implementation-ready candidates; shared integration and current complete-corpus acceptance pending",
+  "author": "/root/sound_cook",
+  "key_policy": "No answer-key file opened. Historical manifest/lookup metadata naming keys may be read; no current key text or output inferred.",
+  "input_hashes": [
+    {
+      "path": "docs/revisions/opening/reviews/glossary-scope.json",
+      "sha256": "fac5ab39fecbb82a46261d77c1a72b8b02e85a2bcc1667c1cfedb72adfc0a66c"
+    },
+    {
+      "path": "docs/revisions/opening/contract.json",
+      "sha256": "0ac5c693f1f42c0e3aba0391b8c9eedc6347c69fd544504d051b34a7fd714403"
+    },
+    {
+      "path": "guides/pronunciation/student.md",
+      "sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d"
+    },
+    {
+      "path": "glossaries/entries.json",
+      "sha256": "04b81210ead5d1a96fdfea7e0ed221c57ec9ca20b5437c6ca35732be70511628"
+    },
+    {
+      "path": "glossaries/dictionary-presentation.json",
+      "sha256": "b68f1ad9654ac1aab9c3a578cc2f763134381626eee3fce966b4b61967f2a208"
+    },
+    {
+      "path": "glossaries/form-lookup.json",
+      "sha256": "1a1f1de42b3b260ee0ab6117f29afb82bc9e6eb12baae8aa1d144d49a0414ab8"
+    },
+    {
+      "path": "glossaries/exercise-lookup.json",
+      "sha256": "f06b35a599c8cde9ca57526346738f6dc88d31e7cc62097d0a4318ca32fd2ee8"
+    },
+    {
+      "path": "glossaries/coverage.json",
+      "sha256": "b448a9f0fbb1d28e8fde54fbf9c76078aa6ced420f6a49c48926777bcd9823b4"
+    },
+    {
+      "path": "glossaries/corpus-manifest.json",
+      "sha256": "b70aa9582cd04b5e571cf2725d7e371dd8e6be25b63f7809757bba2831151b9a"
+    },
+    {
+      "path": "glossaries/course-boundary.json",
+      "sha256": "72b9c608e94e1fcc61fa337180d1f55abc2505cee899195e895a07936c6e9cec"
+    },
+    {
+      "path": "scripts/build_glossary_exports.py",
+      "sha256": "34b4a1d978be5a78000ce12b6e1940f7129f08f1774f833ff5efc05e0bd295d4"
+    },
+    {
+      "path": "scripts/check_glossary_exports.py",
+      "sha256": "2fe5782dba6b06f03824d1a61dc1d0cd24a75a7baa285d3d56601dd274a76ca5"
+    },
+    {
+      "path": "sources/audits/glossaries/old-english/audit.py",
+      "sha256": "4ffbc157075d9b5e0af4ac56d39c77c0087bf46c04804b072d4c137a2f9c0e47"
+    },
+    {
+      "path": "sources/audits/glossaries/english/build_inventory.py",
+      "sha256": "ae7ca4693f47a95a09528ffdd2ad82a965bceb2fe2fa97d5c6bc4962de3f9e28"
+    }
+  ],
+  "summary": {
+    "new_oe_heads": 4,
+    "existing_sense_additions": 2,
+    "new_actual_pronunciation_routes": 5,
+    "new_dictionary_reference_routes": 6,
+    "printed_reference_diagnostics": 7,
+    "exact_reference_diagnostics": 1,
+    "checked_rule_formed_diagnostics": 6,
+    "new_printed_inflection_entries": 0,
+    "current_pronunciation_task_records": 25,
+    "unit1_current_coverage": "pending final revised masters; no prior acceptance relabelled"
+  },
+  "source_evidence": [
+    {
+      "evidence_id": "OPEN-GLOSS-C43",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "§43",
+      "printed_page": 28,
+      "pdf_page_one_based": 44,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "Masculines ending in a consonant; fisc, fisces, fiscas.",
+      "image": {
+        "path": "sources/evidence/cook-fb-pdf044.png",
+        "sha256": "d8c146c5e56f09744b1bb6cd7758623846fd2c7ce2e59f520492438d222ba9d7"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Newly viewed for this glossary preparation."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C103",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "§103",
+      "printed_page": 60,
+      "pdf_page_one_based": 76,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "Strong class II: ēo or ū, ēa, u, o; brūcan, brēac, brucon, brocen.",
+      "image": {
+        "path": "sources/audits/unit04-grammar/cook-p60-pdf76.png",
+        "sha256": "69c92d7f3c6375c5e7c8d4f01b81c01927e134f253cf47a5653bad3206f4d72a"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Newly viewed for this glossary preparation."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C311",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "Vocabulary: scield; scūfan; sēcean (sēcan)",
+      "printed_page": 311,
+      "pdf_page_one_based": 327,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "scield (scild) (43,18), shield; scūfan (II.103), thrust; sēcean (sēcan) (114), seek; seek out; visit.",
+      "image": {
+        "path": "build/opening/phonology/cook-p311-pdf327.png",
+        "sha256": "ba96bcfbfa9a15fffa3a9ea5cf29802f8626c1272dd710d06365cb29f2d9d7ab"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening source audit and again for the preceding bounded sēcan correction."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C283",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "Vocabulary: dīc",
+      "printed_page": 283,
+      "pdf_page_one_based": 299,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "dīc (43), dike.",
+      "image": {
+        "path": "sources/audits/unit12-source/cook_fb_1895_2-p283.png",
+        "sha256": "6cee73cced1fa365d9e697cd10d1ef3d59eb4d5178dd41a1f6fc0f6d24e5fced"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening pronunciation source audit; reused here."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-F135B",
+      "source_id": "fulk_2020",
+      "original_identifier": "§135b",
+      "printed_page": 103,
+      "pdf_page_one_based": 115,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "ċealf calf; dīċ ditch, dike; expressly labelled nom. pl. dīcas.",
+      "image": {
+        "path": "sources/audits/pronunciation/fulk/palatalization-01.png",
+        "sha256": "821890c11444e3deee851de67ffe5a4a8579e656061bd9b3b710a8f570cced16"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening audit and again for the preceding bounded sēcan correction."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C6",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "§4",
+      "printed_page": 6,
+      "pdf_page_one_based": 22,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "węnde, went, contrasted with wēnde, weened.",
+      "image": {
+        "path": "sources/audits/pronunciation/cook/cook-p006-pdf022.png",
+        "sha256": "23f6957c9c425a055032ee132413b3256906829a7ca116771c7de0fef3df4d51"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening pronunciation source audit; reused here."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C309",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "Vocabulary: adjective riht (58)",
+      "printed_page": 309,
+      "pdf_page_one_based": 325,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "riht (58), right; direct. The neighbouring noun riht is a separate entry.",
+      "image": {
+        "path": "build/opening/phonology/cook-p309-pdf325.png",
+        "sha256": "236beb929af919be7e521f4d617c1faba6e2ec3b5080c86fdc7ade7e0e16567b"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening pronunciation source audit; reused here."
+    }
+  ],
+  "new_old_english_entries": [
+    {
+      "entry_id": "OE-cealf",
+      "lemma_id": "cealf",
+      "headword": "cealf",
+      "part_of_speech": "n.",
+      "gender": null,
+      "diagnostics": [],
+      "senses": [
+        {
+          "sense_id": "cealf-opening-supplied",
+          "meaning": "calf",
+          "usage": "",
+          "evidence_refs": [
+            "OPEN-GLOSS-F135B"
+          ]
+        }
+      ],
+      "forms": [
+        "cealf"
+      ],
+      "origin": "opening-2026-11-02 supplied vocabulary; source-checked dictionary supplement",
+      "notes": "Only this cited form is supplied.",
+      "printed_diagnostics": [],
+      "dictionary_notes": [],
+      "printed_gloss_overrides": {},
+      "printed_sense_overrides": {}
+    },
+    {
+      "entry_id": "OE-dic",
+      "lemma_id": "dic",
+      "headword": "dīc",
+      "part_of_speech": "n.",
+      "gender": "m",
+      "diagnostics": [],
+      "senses": [
+        {
+          "sense_id": "dic-opening-supplied",
+          "meaning": "ditch; dike",
+          "usage": "",
+          "evidence_refs": [
+            "OPEN-GLOSS-C283",
+            "OPEN-GLOSS-F135B"
+          ]
+        }
+      ],
+      "forms": [
+        "dīc",
+        "dīcas",
+        "dīces"
+      ],
+      "origin": "opening-2026-11-02 supplied vocabulary; source-checked dictionary supplement",
+      "notes": "",
+      "printed_diagnostics": [
+        {
+          "label": "gen. sg.",
+          "forms": [
+            "dīces"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-dic-gen-sg"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C283",
+            "OPEN-GLOSS-C43"
+          ]
+        },
+        {
+          "label": "nom. pl.",
+          "forms": [
+            "dīcas"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-dic-nom-pl"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-F135B",
+            "OPEN-GLOSS-C283",
+            "OPEN-GLOSS-C43"
+          ]
+        }
+      ],
+      "dictionary_notes": [],
+      "printed_gloss_overrides": {},
+      "printed_sense_overrides": {}
+    },
+    {
+      "entry_id": "OE-scield",
+      "lemma_id": "scield",
+      "headword": "scield",
+      "part_of_speech": "n.",
+      "gender": "m",
+      "diagnostics": [],
+      "senses": [
+        {
+          "sense_id": "scield-opening-supplied",
+          "meaning": "shield",
+          "usage": "",
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C43"
+          ]
+        }
+      ],
+      "forms": [
+        "scield",
+        "scieldes",
+        "scieldas"
+      ],
+      "origin": "opening-2026-11-02 supplied vocabulary; source-checked dictionary supplement",
+      "notes": "",
+      "printed_diagnostics": [
+        {
+          "label": "gen. sg.",
+          "forms": [
+            "scieldes"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scield-gen-sg"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C43"
+          ]
+        },
+        {
+          "label": "nom. pl.",
+          "forms": [
+            "scieldas"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scield-nom-pl"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C43"
+          ]
+        }
+      ],
+      "dictionary_notes": [],
+      "printed_gloss_overrides": {},
+      "printed_sense_overrides": {}
+    },
+    {
+      "entry_id": "OE-scufan",
+      "lemma_id": "scufan",
+      "headword": "scūfan",
+      "part_of_speech": "v.",
+      "gender": null,
+      "diagnostics": [],
+      "senses": [
+        {
+          "sense_id": "scufan-opening-supplied",
+          "meaning": "thrust",
+          "usage": "",
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ]
+        }
+      ],
+      "forms": [
+        "scūfan",
+        "scēaf",
+        "scufon",
+        "scofen"
+      ],
+      "origin": "opening-2026-11-02 supplied vocabulary; source-checked dictionary supplement",
+      "notes": "",
+      "printed_diagnostics": [
+        {
+          "label": "pret. 1 sg.",
+          "forms": [
+            "scēaf"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scufan-pret-1-sg"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ]
+        },
+        {
+          "label": "pret. pl.",
+          "forms": [
+            "scufon"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scufan-pret-pl"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ]
+        },
+        {
+          "label": "past ptcp.",
+          "forms": [
+            "scofen"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scufan-past-ptcp"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ]
+        }
+      ],
+      "dictionary_notes": [],
+      "printed_gloss_overrides": {},
+      "printed_sense_overrides": {},
+      "dictionary_verb_type": "strong",
+      "dictionary_class": "strongII",
+      "reference_forms": [
+        {
+          "form_id": "OPEN-GLOSS-scufan-pret-1-sg",
+          "form": "scēaf",
+          "analysis": {
+            "tense": "preterite",
+            "person": 1,
+            "number": "singular",
+            "mood": "indicative",
+            "function": "dictionary_reference_only"
+          },
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ],
+          "origin_category": "new teaching material",
+          "formation_evidence": "Cook scūfan explicitly assigned to class II §103; substitute scūf- into brūcan : brēac, using ēa and no ending. This is not claimed as a printed scēaf citation.",
+          "printed_pages": [
+            311,
+            60
+          ],
+          "is_register_record": false,
+          "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+          "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+        },
+        {
+          "form_id": "OPEN-GLOSS-scufan-pret-pl",
+          "form": "scufon",
+          "analysis": {
+            "tense": "preterite",
+            "number": "plural",
+            "mood": "indicative",
+            "function": "dictionary_reference_only"
+          },
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ],
+          "origin_category": "new teaching material",
+          "formation_evidence": "Cook class-II ū series uses short u in preterite plural, as brucon; retain f and add -on. No macron inferred.",
+          "printed_pages": [
+            311,
+            60
+          ],
+          "is_register_record": false,
+          "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+          "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+        },
+        {
+          "form_id": "OPEN-GLOSS-scufan-past-ptcp",
+          "form": "scofen",
+          "analysis": {
+            "verb_form": "past_participle",
+            "function": "dictionary_reference_only"
+          },
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ],
+          "origin_category": "new teaching material",
+          "formation_evidence": "Cook class-II ū series uses short o and -en in the uninflected participle, as brocen; retain f. No unverified ge- prefix is added.",
+          "printed_pages": [
+            311,
+            60
+          ],
+          "is_register_record": false,
+          "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+          "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+        }
+      ]
+    }
+  ],
+  "existing_entry_sense_patches": [
+    {
+      "entry_id": "OE-wendan",
+      "operation": "append_sense_and_bounded_print_override",
+      "precondition_record_sha256": "ff193908aff1428917fe55fa889e6aaa164b23e3c53fb6061654a5a920bb6c3d",
+      "preserve_all_existing_fields": true,
+      "sense": {
+        "sense_id": "wendan-opening-went",
+        "meaning": "went",
+        "usage": "Supplied preterite węnde.",
+        "evidence_refs": [
+          "OPEN-GLOSS-C6"
+        ]
+      },
+      "printed_sense_override": "Supplied preterite węnde: went.",
+      "append_to_existing_markdown": " Supplied preterite węnde: went.",
+      "limits": "Keep the existing infinitive headword, translate/turn/return senses, bounded-citation status and węnde route. Do not invent a full weak paradigm or a separate węnde headword."
+    },
+    {
+      "entry_id": "OE-riht",
+      "operation": "append_sense",
+      "precondition_record_sha256": "89675859bdddfb65fb15a6862723a3c0b80e03271aa027ca223cb07b030756ec",
+      "preserve_all_existing_fields": true,
+      "sense": {
+        "sense_id": "riht-opening-direct",
+        "meaning": "direct",
+        "usage": "",
+        "evidence_refs": [
+          "OPEN-GLOSS-C309"
+        ]
+      },
+      "append_to_existing_markdown": " direct.",
+      "limits": "Keep the current adjective identity and right; just sense; do not map this to the distinct noun riht or an English verb direct."
+    }
+  ],
+  "new_master_paragraphs": {
+    "OE-cealf": "**cealf** (n.). calf. Only this cited form is supplied.",
+    "OE-dic": "**dīc** (n. m.); gen. sg. dīces; nom. pl. dīcas. ditch; dike.",
+    "OE-scield": "**scield** (n. m.); gen. sg. scieldes; nom. pl. scieldas. shield.",
+    "OE-scufan": "**scūfan** (v. strong); pret. 1 sg. scēaf; pret. pl. scufon; past ptcp. scofen. thrust."
+  },
+  "surface_route_additions": [
+    {
+      "surface": "cealf",
+      "entry_ids": [
+        "OE-cealf"
+      ],
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 72
+      },
+      "route": "opening_revision_supplied_pronunciation"
+    },
+    {
+      "surface": "dīc",
+      "entry_ids": [
+        "OE-dic"
+      ],
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 78
+      },
+      "route": "opening_revision_supplied_pronunciation"
+    },
+    {
+      "surface": "dīcas",
+      "entry_ids": [
+        "OE-dic"
+      ],
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 78
+      },
+      "route": "opening_revision_supplied_pronunciation"
+    },
+    {
+      "surface": "scield",
+      "entry_ids": [
+        "OE-scield"
+      ],
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 170
+      },
+      "route": "opening_revision_supplied_pronunciation"
+    },
+    {
+      "surface": "scūfan",
+      "entry_ids": [
+        "OE-scufan"
+      ],
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 206
+      },
+      "route": "opening_revision_supplied_pronunciation"
+    }
+  ],
+  "reference_route_additions": [
+    {
+      "surface": "dīces",
+      "entry_ids": [
+        "OE-dic"
+      ],
+      "reference_form_id": "OPEN-GLOSS-dic-gen-sg",
+      "occurrence_scope": "dictionary_reference",
+      "first_location_status": "Bind to final glossary Markdown entry after deliberate insertion; no invented current line."
+    },
+    {
+      "surface": "scieldes",
+      "entry_ids": [
+        "OE-scield"
+      ],
+      "reference_form_id": "OPEN-GLOSS-scield-gen-sg",
+      "occurrence_scope": "dictionary_reference",
+      "first_location_status": "Bind to final glossary Markdown entry after deliberate insertion; no invented current line."
+    },
+    {
+      "surface": "scieldas",
+      "entry_ids": [
+        "OE-scield"
+      ],
+      "reference_form_id": "OPEN-GLOSS-scield-nom-pl",
+      "occurrence_scope": "dictionary_reference",
+      "first_location_status": "Bind to final glossary Markdown entry after deliberate insertion; no invented current line."
+    },
+    {
+      "surface": "scēaf",
+      "entry_ids": [
+        "OE-scufan"
+      ],
+      "reference_form_id": "OPEN-GLOSS-scufan-pret-1-sg",
+      "occurrence_scope": "dictionary_reference",
+      "first_location_status": "Bind to final glossary Markdown entry after deliberate insertion; no invented current line."
+    },
+    {
+      "surface": "scufon",
+      "entry_ids": [
+        "OE-scufan"
+      ],
+      "reference_form_id": "OPEN-GLOSS-scufan-pret-pl",
+      "occurrence_scope": "dictionary_reference",
+      "first_location_status": "Bind to final glossary Markdown entry after deliberate insertion; no invented current line."
+    },
+    {
+      "surface": "scofen",
+      "entry_ids": [
+        "OE-scufan"
+      ],
+      "reference_form_id": "OPEN-GLOSS-scufan-past-ptcp",
+      "occurrence_scope": "dictionary_reference",
+      "first_location_status": "Bind to final glossary Markdown entry after deliberate insertion; no invented current line."
+    }
+  ],
+  "dictionary_presentation_addendum": {
+    "base_policy": {
+      "path": "glossaries/dictionary-presentation.json",
+      "sha256": "b68f1ad9654ac1aab9c3a578cc2f763134381626eee3fce966b4b61967f2a208"
+    },
+    "preserve_base_policy_verbatim": true,
+    "verb_entries": [
+      {
+        "entry_id": "OE-scufan",
+        "lemma_id": "scufan",
+        "headword": "scūfan",
+        "verb_type": "strong",
+        "class_metadata": "strong II, Cook §103 ū series",
+        "has_complete_indicative_in_register": false,
+        "printed_diagnostics": [
+          {
+            "label": "pret. 1 sg.",
+            "forms": [
+              "scēaf"
+            ],
+            "form_ids": [
+              "OPEN-GLOSS-scufan-pret-1-sg"
+            ],
+            "evidence_refs": [
+              "OPEN-GLOSS-C311",
+              "OPEN-GLOSS-C103"
+            ]
+          },
+          {
+            "label": "pret. pl.",
+            "forms": [
+              "scufon"
+            ],
+            "form_ids": [
+              "OPEN-GLOSS-scufan-pret-pl"
+            ],
+            "evidence_refs": [
+              "OPEN-GLOSS-C311",
+              "OPEN-GLOSS-C103"
+            ]
+          },
+          {
+            "label": "past ptcp.",
+            "forms": [
+              "scofen"
+            ],
+            "form_ids": [
+              "OPEN-GLOSS-scufan-past-ptcp"
+            ],
+            "evidence_refs": [
+              "OPEN-GLOSS-C311",
+              "OPEN-GLOSS-C103"
+            ]
+          }
+        ],
+        "present_3sg_candidate": null,
+        "citation_scope_note": "",
+        "missing_core_reference_cells": [],
+        "glossary_only_reference_forms": [
+          {
+            "form_id": "OPEN-GLOSS-scufan-pret-1-sg",
+            "form": "scēaf",
+            "analysis": {
+              "tense": "preterite",
+              "person": 1,
+              "number": "singular",
+              "mood": "indicative",
+              "function": "dictionary_reference_only"
+            },
+            "evidence_refs": [
+              "OPEN-GLOSS-C311",
+              "OPEN-GLOSS-C103"
+            ],
+            "origin_category": "new teaching material",
+            "formation_evidence": "Cook scūfan explicitly assigned to class II §103; substitute scūf- into brūcan : brēac, using ēa and no ending. This is not claimed as a printed scēaf citation.",
+            "printed_pages": [
+              311,
+              60
+            ],
+            "is_register_record": false,
+            "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+            "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+          },
+          {
+            "form_id": "OPEN-GLOSS-scufan-pret-pl",
+            "form": "scufon",
+            "analysis": {
+              "tense": "preterite",
+              "number": "plural",
+              "mood": "indicative",
+              "function": "dictionary_reference_only"
+            },
+            "evidence_refs": [
+              "OPEN-GLOSS-C311",
+              "OPEN-GLOSS-C103"
+            ],
+            "origin_category": "new teaching material",
+            "formation_evidence": "Cook class-II ū series uses short u in preterite plural, as brucon; retain f and add -on. No macron inferred.",
+            "printed_pages": [
+              311,
+              60
+            ],
+            "is_register_record": false,
+            "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+            "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+          },
+          {
+            "form_id": "OPEN-GLOSS-scufan-past-ptcp",
+            "form": "scofen",
+            "analysis": {
+              "verb_form": "past_participle",
+              "function": "dictionary_reference_only"
+            },
+            "evidence_refs": [
+              "OPEN-GLOSS-C311",
+              "OPEN-GLOSS-C103"
+            ],
+            "origin_category": "new teaching material",
+            "formation_evidence": "Cook class-II ū series uses short o and -en in the uninflected participle, as brocen; retain f. No unverified ge- prefix is added.",
+            "printed_pages": [
+              311,
+              60
+            ],
+            "is_register_record": false,
+            "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+            "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+          }
+        ],
+        "class_evidence_refs": [
+          "OPEN-GLOSS-C311",
+          "OPEN-GLOSS-C103"
+        ],
+        "review_status": "source-checked proposal; final independent integration acceptance pending",
+        "scope_disposition": "class-appropriate dictionary reference; no productive paradigm added",
+        "render_scope_note_individually": false,
+        "core_complete_or_explicitly_bounded": true,
+        "ordinary_headword_is_infinitive_citation": true
+      }
+    ],
+    "nonverbal_overrides": [
+      {
+        "entry_id": "OE-dic",
+        "printed_diagnostics": [
+          {
+            "label": "gen. sg.",
+            "forms": [
+              "dīces"
+            ],
+            "form_ids": [
+              "OPEN-GLOSS-dic-gen-sg"
+            ],
+            "evidence_refs": [
+              "OPEN-GLOSS-C283",
+              "OPEN-GLOSS-C43"
+            ]
+          },
+          {
+            "label": "nom. pl.",
+            "forms": [
+              "dīcas"
+            ],
+            "form_ids": [
+              "OPEN-GLOSS-dic-nom-pl"
+            ],
+            "evidence_refs": [
+              "OPEN-GLOSS-F135B",
+              "OPEN-GLOSS-C283",
+              "OPEN-GLOSS-C43"
+            ]
+          }
+        ],
+        "dictionary_notes": []
+      },
+      {
+        "entry_id": "OE-scield",
+        "printed_diagnostics": [
+          {
+            "label": "gen. sg.",
+            "forms": [
+              "scieldes"
+            ],
+            "form_ids": [
+              "OPEN-GLOSS-scield-gen-sg"
+            ],
+            "evidence_refs": [
+              "OPEN-GLOSS-C311",
+              "OPEN-GLOSS-C43"
+            ]
+          },
+          {
+            "label": "nom. pl.",
+            "forms": [
+              "scieldas"
+            ],
+            "form_ids": [
+              "OPEN-GLOSS-scield-nom-pl"
+            ],
+            "evidence_refs": [
+              "OPEN-GLOSS-C311",
+              "OPEN-GLOSS-C43"
+            ]
+          }
+        ],
+        "dictionary_notes": []
+      }
+    ],
+    "reference_forms": [
+      {
+        "form_id": "OPEN-GLOSS-dic-gen-sg",
+        "form": "dīces",
+        "analysis": {
+          "case": "genitive",
+          "number": "singular",
+          "gender": "masculine",
+          "function": "dictionary_reference_only"
+        },
+        "evidence_refs": [
+          "OPEN-GLOSS-C283",
+          "OPEN-GLOSS-C43"
+        ],
+        "origin_category": "new teaching material",
+        "formation_evidence": "Cook dīc assigned to §43; apply fisc : fisces, preserving attested ī and adding -es.",
+        "printed_pages": [
+          283,
+          28
+        ],
+        "is_register_record": false,
+        "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+        "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+      },
+      {
+        "form_id": "OPEN-GLOSS-dic-nom-pl",
+        "form": "dīcas",
+        "analysis": {
+          "case": "nominative",
+          "number": "plural",
+          "gender": "masculine",
+          "function": "dictionary_reference_only"
+        },
+        "evidence_refs": [
+          "OPEN-GLOSS-F135B",
+          "OPEN-GLOSS-C283",
+          "OPEN-GLOSS-C43"
+        ],
+        "origin_category": "exact source",
+        "formation_evidence": "EXACT: Fulk §135b explicitly labels dīcas nominative plural. Cook class assignment establishes the selected masculine pattern.",
+        "printed_pages": [
+          103,
+          283,
+          28
+        ],
+        "is_register_record": false,
+        "evidence_relation": "exact source citation",
+        "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+      },
+      {
+        "form_id": "OPEN-GLOSS-scield-gen-sg",
+        "form": "scieldes",
+        "analysis": {
+          "case": "genitive",
+          "number": "singular",
+          "gender": "masculine",
+          "function": "dictionary_reference_only"
+        },
+        "evidence_refs": [
+          "OPEN-GLOSS-C311",
+          "OPEN-GLOSS-C43"
+        ],
+        "origin_category": "new teaching material",
+        "formation_evidence": "Cook scield assigned to §43; apply fisc : fisces. Retain selected short-ie stem scield- and add -es.",
+        "printed_pages": [
+          311,
+          28
+        ],
+        "is_register_record": false,
+        "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+        "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+      },
+      {
+        "form_id": "OPEN-GLOSS-scield-nom-pl",
+        "form": "scieldas",
+        "analysis": {
+          "case": "nominative",
+          "number": "plural",
+          "gender": "masculine",
+          "function": "dictionary_reference_only"
+        },
+        "evidence_refs": [
+          "OPEN-GLOSS-C311",
+          "OPEN-GLOSS-C43"
+        ],
+        "origin_category": "new teaching material",
+        "formation_evidence": "Cook scield assigned to §43; apply fisc : fiscas. Retain selected short-ie stem scield- and add -as.",
+        "printed_pages": [
+          311,
+          28
+        ],
+        "is_register_record": false,
+        "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+        "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+      },
+      {
+        "form_id": "OPEN-GLOSS-scufan-pret-1-sg",
+        "form": "scēaf",
+        "analysis": {
+          "tense": "preterite",
+          "person": 1,
+          "number": "singular",
+          "mood": "indicative",
+          "function": "dictionary_reference_only"
+        },
+        "evidence_refs": [
+          "OPEN-GLOSS-C311",
+          "OPEN-GLOSS-C103"
+        ],
+        "origin_category": "new teaching material",
+        "formation_evidence": "Cook scūfan explicitly assigned to class II §103; substitute scūf- into brūcan : brēac, using ēa and no ending. This is not claimed as a printed scēaf citation.",
+        "printed_pages": [
+          311,
+          60
+        ],
+        "is_register_record": false,
+        "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+        "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+      },
+      {
+        "form_id": "OPEN-GLOSS-scufan-pret-pl",
+        "form": "scufon",
+        "analysis": {
+          "tense": "preterite",
+          "number": "plural",
+          "mood": "indicative",
+          "function": "dictionary_reference_only"
+        },
+        "evidence_refs": [
+          "OPEN-GLOSS-C311",
+          "OPEN-GLOSS-C103"
+        ],
+        "origin_category": "new teaching material",
+        "formation_evidence": "Cook class-II ū series uses short u in preterite plural, as brucon; retain f and add -on. No macron inferred.",
+        "printed_pages": [
+          311,
+          60
+        ],
+        "is_register_record": false,
+        "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+        "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+      },
+      {
+        "form_id": "OPEN-GLOSS-scufan-past-ptcp",
+        "form": "scofen",
+        "analysis": {
+          "verb_form": "past_participle",
+          "function": "dictionary_reference_only"
+        },
+        "evidence_refs": [
+          "OPEN-GLOSS-C311",
+          "OPEN-GLOSS-C103"
+        ],
+        "origin_category": "new teaching material",
+        "formation_evidence": "Cook class-II ū series uses short o and -en in the uninflected participle, as brocen; retain f. No unverified ge- prefix is added.",
+        "printed_pages": [
+          311,
+          60
+        ],
+        "is_register_record": false,
+        "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+        "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+      }
+    ],
+    "cross_references_added": [],
+    "printed_sense_overrides": {
+      "OE-wendan": {
+        "wendan-opening-went": "Supplied preterite węnde: went."
+      }
+    },
+    "scope": "Add these records to the versioned revision supplement, not the frozen original presentation recipe. No automatic present-third-singular or ge- participle formation."
+  },
+  "english_reference_operations": [
+    {
+      "operation": "add_entry",
+      "headword": "calf",
+      "entry_id": "EN-7233abd7ea22",
+      "route": {
+        "kind": "sense",
+        "entry_ids": [
+          "OE-cealf"
+        ],
+        "sense_ids": [
+          "cealf-opening-supplied"
+        ],
+        "headwords": [
+          "cealf"
+        ],
+        "meaning": "calf",
+        "usage": "",
+        "grammar_only": false
+      },
+      "scope": "reference access to supplied pronunciation vocabulary; not an English-to-OE production requirement",
+      "candidate_record": {
+        "entry_id": "EN-7233abd7ea22",
+        "headword": "calf",
+        "routes": [
+          {
+            "kind": "sense",
+            "entry_ids": [
+              "OE-cealf"
+            ],
+            "sense_ids": [
+              "cealf-opening-supplied"
+            ],
+            "headwords": [
+              "cealf"
+            ],
+            "meaning": "calf",
+            "usage": "",
+            "grammar_only": false
+          }
+        ]
+      }
+    },
+    {
+      "operation": "add_entry",
+      "headword": "ditch",
+      "entry_id": "EN-5ac8dad60a3b",
+      "route": {
+        "kind": "sense",
+        "entry_ids": [
+          "OE-dic"
+        ],
+        "sense_ids": [
+          "dic-opening-supplied"
+        ],
+        "headwords": [
+          "dīc"
+        ],
+        "meaning": "ditch; dike",
+        "usage": "",
+        "grammar_only": false
+      },
+      "scope": "reference access to supplied pronunciation vocabulary; not an English-to-OE production requirement",
+      "candidate_record": {
+        "entry_id": "EN-5ac8dad60a3b",
+        "headword": "ditch",
+        "routes": [
+          {
+            "kind": "sense",
+            "entry_ids": [
+              "OE-dic"
+            ],
+            "sense_ids": [
+              "dic-opening-supplied"
+            ],
+            "headwords": [
+              "dīc"
+            ],
+            "meaning": "ditch; dike",
+            "usage": "",
+            "grammar_only": false
+          }
+        ]
+      }
+    },
+    {
+      "operation": "add_entry",
+      "headword": "dike",
+      "entry_id": "EN-f0fec9b2c0b4",
+      "route": {
+        "kind": "sense",
+        "entry_ids": [
+          "OE-dic"
+        ],
+        "sense_ids": [
+          "dic-opening-supplied"
+        ],
+        "headwords": [
+          "dīc"
+        ],
+        "meaning": "ditch; dike",
+        "usage": "",
+        "grammar_only": false
+      },
+      "scope": "reference access to supplied pronunciation vocabulary; not an English-to-OE production requirement",
+      "candidate_record": {
+        "entry_id": "EN-f0fec9b2c0b4",
+        "headword": "dike",
+        "routes": [
+          {
+            "kind": "sense",
+            "entry_ids": [
+              "OE-dic"
+            ],
+            "sense_ids": [
+              "dic-opening-supplied"
+            ],
+            "headwords": [
+              "dīc"
+            ],
+            "meaning": "ditch; dike",
+            "usage": "",
+            "grammar_only": false
+          }
+        ]
+      }
+    },
+    {
+      "operation": "append_route",
+      "headword": "shield",
+      "entry_id": "EN-072a626ed2d6",
+      "route": {
+        "kind": "sense",
+        "entry_ids": [
+          "OE-scield"
+        ],
+        "sense_ids": [
+          "scield-opening-supplied"
+        ],
+        "headwords": [
+          "scield"
+        ],
+        "meaning": "shield",
+        "usage": "Noun; supplied pronunciation word.",
+        "grammar_only": false
+      },
+      "scope": "reference access to supplied pronunciation vocabulary; not an English-to-OE production requirement",
+      "precondition_record_sha256": "3ce65bf13a993c9f6a9bb8dbfb48a838464106ef6917ef47b657f346c78f4901",
+      "preserve_all_existing_routes": true
+    },
+    {
+      "operation": "add_entry",
+      "headword": "thrust",
+      "entry_id": "EN-2081cc0de301",
+      "route": {
+        "kind": "sense",
+        "entry_ids": [
+          "OE-scufan"
+        ],
+        "sense_ids": [
+          "scufan-opening-supplied"
+        ],
+        "headwords": [
+          "scūfan"
+        ],
+        "meaning": "thrust",
+        "usage": "Supplied infinitive.",
+        "grammar_only": false
+      },
+      "scope": "reference access to supplied pronunciation vocabulary; not an English-to-OE production requirement",
+      "candidate_record": {
+        "entry_id": "EN-2081cc0de301",
+        "headword": "thrust",
+        "routes": [
+          {
+            "kind": "sense",
+            "entry_ids": [
+              "OE-scufan"
+            ],
+            "sense_ids": [
+              "scufan-opening-supplied"
+            ],
+            "headwords": [
+              "scūfan"
+            ],
+            "meaning": "thrust",
+            "usage": "Supplied infinitive.",
+            "grammar_only": false
+          }
+        ]
+      }
+    },
+    {
+      "operation": "add_entry",
+      "headword": "went",
+      "entry_id": "EN-bd7e83102fa3",
+      "route": {
+        "kind": "sense",
+        "entry_ids": [
+          "OE-wendan"
+        ],
+        "sense_ids": [
+          "wendan-opening-went"
+        ],
+        "headwords": [
+          "węndan"
+        ],
+        "meaning": "went",
+        "usage": "Supplied preterite węnde in the pronunciation contrast.",
+        "grammar_only": false
+      },
+      "scope": "reference access to supplied pronunciation vocabulary; not an English-to-OE production requirement",
+      "candidate_record": {
+        "entry_id": "EN-bd7e83102fa3",
+        "headword": "went",
+        "routes": [
+          {
+            "kind": "sense",
+            "entry_ids": [
+              "OE-wendan"
+            ],
+            "sense_ids": [
+              "wendan-opening-went"
+            ],
+            "headwords": [
+              "węndan"
+            ],
+            "meaning": "went",
+            "usage": "Supplied preterite węnde in the pronunciation contrast.",
+            "grammar_only": false
+          }
+        ]
+      }
+    },
+    {
+      "operation": "append_route",
+      "headword": "direct",
+      "entry_id": "EN-d15690f08a57",
+      "route": {
+        "kind": "sense",
+        "entry_ids": [
+          "OE-riht"
+        ],
+        "sense_ids": [
+          "riht-opening-direct"
+        ],
+        "headwords": [
+          "riht"
+        ],
+        "meaning": "direct",
+        "usage": "Adjective; supplied pronunciation gloss.",
+        "grammar_only": false
+      },
+      "scope": "reference access to supplied pronunciation vocabulary; not an English-to-OE production requirement",
+      "precondition_record_sha256": "56c0f84d225ed850586d7a16ebd9a68c1dc2a908a97a44d41412afb44e14b61c",
+      "preserve_all_existing_routes": true
+    }
+  ],
+  "english_reference_recommendation": "These seven curated routes preserve sense completeness if the coordinator adds all six new senses to the cumulative register, and distinguish noun shield/adjective direct from existing verbs. They are reference access only; all 25 sound-task required_sense_ids/english_entry_ids stay empty with an explicit current disposition.",
+  "pronunciation_task_replacements": [
+    {
+      "task_id": "PRON-P01a",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 156,
+        "prompt_line": 158,
+        "prompt": "**A1.** **for**, “for”; **fōr**, “went”. What changes in the vowel? Give its sound and duration in each word.",
+        "prompt_sha256": "84f6ad186b64336540c58fa16ed6d85515e08a293aa5c69f54305becd8bff25b"
+      },
+      "group_context": {
+        "heading": "A. Vowels and length",
+        "start_line": 152,
+        "sha256": "0adeec6fab0ce8003f5902cf370a5d137a6f432b7f671dfceb3f0f6d3aed0e2c"
+      },
+      "supplied_forms": [
+        "for",
+        "fōr"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P01b",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 160,
+        "prompt_line": 162,
+        "prompt": "**A2.** **węnde**, “went”; **wēnde**, “thought; supposed”. Explain the vowel contrast. Does the hook under **ę** require a sound different from ordinary short **e**? Keep the final **e** audible in both words.",
+        "prompt_sha256": "65079e2d9fb9c73aedd928088ec859bd13c0ef49e190549496d49c333e83c2b9"
+      },
+      "group_context": {
+        "heading": "A. Vowels and length",
+        "start_line": 152,
+        "sha256": "0adeec6fab0ce8003f5902cf370a5d137a6f432b7f671dfceb3f0f6d3aed0e2c"
+      },
+      "supplied_forms": [
+        "węnde",
+        "wēnde"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P01c",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 164,
+        "prompt_line": 166,
+        "prompt": "**A3.** **dǣd**, “deed”; **wīd**, “wide”; **hȳdan**, “hide; conceal”. Give the sound of each marked vowel. Explain how the lips distinguish **ȳ** from **ī**, then read all three words.",
+        "prompt_sha256": "c8e8a237cb38037e78f3a26575f18850b11862feb0ba86312efc8b845179486f"
+      },
+      "group_context": {
+        "heading": "A. Vowels and length",
+        "start_line": 152,
+        "sha256": "0adeec6fab0ce8003f5902cf370a5d137a6f432b7f671dfceb3f0f6d3aed0e2c"
+      },
+      "supplied_forms": [
+        "dǣd",
+        "wīd",
+        "hȳdan"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P01d",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 168,
+        "prompt_line": 170,
+        "prompt": "**A4.** **eall**, “all”; **scēap**, “sheep”; **heorte**, “heart”; **frēond**, “friend”; **scield**, “shield”; **gīet**, “yet; still”. For each diphthong, give its starting sound and movement, and say whether the first part is short or long. Count the syllables in each word without giving the diphthong two beats.",
+        "prompt_sha256": "2fbcaed439fdbd2f8630c7d24bdec6688136deb27a39b812d0260b301a653d53"
+      },
+      "group_context": {
+        "heading": "A. Vowels and length",
+        "start_line": 152,
+        "sha256": "0adeec6fab0ce8003f5902cf370a5d137a6f432b7f671dfceb3f0f6d3aed0e2c"
+      },
+      "supplied_forms": [
+        "eall",
+        "scēap",
+        "heorte",
+        "frēond",
+        "scield",
+        "gīet"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P02a",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 176,
+        "prompt_line": 178,
+        "prompt": "**B1.** **c** in **cēosað**, “choose” (a plural form). Which initial-**c** pattern applies?",
+        "prompt_sha256": "4fa3c92a97ec537e61cddba9f48ee551093dac63176a94713491bf23fe5d7245"
+      },
+      "group_context": {
+        "heading": "B. Consonants and unfamiliar sounds",
+        "start_line": 172,
+        "sha256": "ac820f2caaee8d2202be4c80676dcf5b356b12c779d7bb160719c4096f6ed952"
+      },
+      "supplied_forms": [
+        "cēosað"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P02b",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 180,
+        "prompt_line": 182,
+        "prompt": "**B2.** **c** in **micel**, “large; great”, and **micles**, “large; great” (a declined form). Do the two forms have the same consonant sound? Explain from the immediate neighbours of **c**.",
+        "prompt_sha256": "bec5d9084f15e14896fd682ae8258e5a2fc1150a28e1e6c7847c9ef20dedda00"
+      },
+      "group_context": {
+        "heading": "B. Consonants and unfamiliar sounds",
+        "start_line": 172,
+        "sha256": "ac820f2caaee8d2202be4c80676dcf5b356b12c779d7bb160719c4096f6ed952"
+      },
+      "supplied_forms": [
+        "micel",
+        "micles"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P02c",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 184,
+        "prompt_line": 186,
+        "prompt": "**B3.** **g** in **gān**, “go; walk”, and **glæd**, “glad”. Does the **æ** of the second word make its initial **g** a **y** sound? Apply both stages of the **g** decision.",
+        "prompt_sha256": "0b27308e87b3d8d0749211c516c034c8ac6db0e87fc8325b4314c72215180f0b"
+      },
+      "group_context": {
+        "heading": "B. Consonants and unfamiliar sounds",
+        "start_line": 172,
+        "sha256": "ac820f2caaee8d2202be4c80676dcf5b356b12c779d7bb160719c4096f6ed952"
+      },
+      "supplied_forms": [
+        "gān",
+        "glæd"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P02d",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 188,
+        "prompt_line": 190,
+        "prompt": "**B4.** **g** in **fæger**, “beautiful; fair”, and **regn**, “rain”. Decide from the sounds before and after **g**. Does the following **n** require stopped **g** in the second word?",
+        "prompt_sha256": "8fd4f108471eb378d58ca4340fd1e64e180e681379c2f2655480556f4536324d"
+      },
+      "group_context": {
+        "heading": "B. Consonants and unfamiliar sounds",
+        "start_line": 172,
+        "sha256": "ac820f2caaee8d2202be4c80676dcf5b356b12c779d7bb160719c4096f6ed952"
+      },
+      "supplied_forms": [
+        "fæger",
+        "regn"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P02e",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 192,
+        "prompt_line": 194,
+        "prompt": "**B5.** **g** in **āgan**, “have; possess”. Choose among **y**, stopped **g**, and continuous **g**, and explain both decisions. Show with the tongue and airflow how to make the selected sound.",
+        "prompt_sha256": "7b2023bc2aef42c69cb765200394e7b1f0c35e4c4d33a8590ef43c69685de694"
+      },
+      "group_context": {
+        "heading": "B. Consonants and unfamiliar sounds",
+        "start_line": 172,
+        "sha256": "ac820f2caaee8d2202be4c80676dcf5b356b12c779d7bb160719c4096f6ed952"
+      },
+      "supplied_forms": [
+        "āgan"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P02f",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 196,
+        "prompt_line": 198,
+        "prompt": "**B6.** **cg** in **brycg**, “bridge”, and **ng** in **singan**, “sing”. Which English cue fits each combination? Keep the short rounded vowel of **brycg** distinct from ordinary English **i**.",
+        "prompt_sha256": "768f71bfff15035f70c81bad1d31ec776f206f6b2e98fb94514410f28353d5b1"
+      },
+      "group_context": {
+        "heading": "B. Consonants and unfamiliar sounds",
+        "start_line": 172,
+        "sha256": "ac820f2caaee8d2202be4c80676dcf5b356b12c779d7bb160719c4096f6ed952"
+      },
+      "supplied_forms": [
+        "brycg",
+        "singan"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P02g",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 200,
+        "prompt_line": 202,
+        "prompt": "**B7.** **h** in **riht**, “right; direct”, and **dohtor**, “daughter”. What changes in the tongue position, and which vowel causes the change? Keep the following **t** audible in both words.",
+        "prompt_sha256": "d028bd32a074f72c81c524f262bacda52065f572565cfeec3641e0680eac271b"
+      },
+      "group_context": {
+        "heading": "B. Consonants and unfamiliar sounds",
+        "start_line": 172,
+        "sha256": "ac820f2caaee8d2202be4c80676dcf5b356b12c779d7bb160719c4096f6ed952"
+      },
+      "supplied_forms": [
+        "riht",
+        "dohtor"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P02h",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 204,
+        "prompt_line": 206,
+        "prompt": "**B8.** **sc** in **scūfan**, “thrust”, and **cw** in **cwæð**, “said”. Decide whether each spelling gives one consonant sound or a sequence. Does the back vowel **ū** require a separate **k** in the first word?",
+        "prompt_sha256": "cbbfa4aa01e9305f981be42758122880084fab4d6f3ee49fb47587813ee7e3d0"
+      },
+      "group_context": {
+        "heading": "B. Consonants and unfamiliar sounds",
+        "start_line": 172,
+        "sha256": "ac820f2caaee8d2202be4c80676dcf5b356b12c779d7bb160719c4096f6ed952"
+      },
+      "supplied_forms": [
+        "scūfan",
+        "cwæð"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P03a",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 212,
+        "prompt_line": 214,
+        "prompt": "**C1.** **f** in **ǣfre**, “ever; always”. Identify the sounds on both sides; they need not both be vowels.",
+        "prompt_sha256": "69b5df52c1c077b9ad9c9bd22f3384ca78181f4f451a6f0b77b798cbb1bfb54c"
+      },
+      "group_context": {
+        "heading": "C. Voice",
+        "start_line": 208,
+        "sha256": "e205ee2b3a77be928f44000549f028d6dee6e47a59bc257116fe6465506095fe"
+      },
+      "supplied_forms": [
+        "ǣfre"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P03b",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 216,
+        "prompt_line": 218,
+        "prompt": "**C2.** Both **f** letters in **fīf**, “five”. Decide each from its position rather than copying the pronunciation of modern English *five*.",
+        "prompt_sha256": "8d2a3340279e6ed8a55c9529c68faad8fab1e977b6b064267f365f88abc14af8"
+      },
+      "group_context": {
+        "heading": "C. Voice",
+        "start_line": 208,
+        "sha256": "e205ee2b3a77be928f44000549f028d6dee6e47a59bc257116fe6465506095fe"
+      },
+      "supplied_forms": [
+        "fīf"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P03c",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 220,
+        "prompt_line": 222,
+        "prompt": "**C3.** **s** and final **ð** in **cēosað**, “choose” (a plural form). Does one voicing decision apply to both letters?",
+        "prompt_sha256": "5a2059adf024f7cbe380ef456626e8a1f37bc7c672b781d0076b443956e7149c"
+      },
+      "group_context": {
+        "heading": "C. Voice",
+        "start_line": 208,
+        "sha256": "e205ee2b3a77be928f44000549f028d6dee6e47a59bc257116fe6465506095fe"
+      },
+      "supplied_forms": [
+        "cēosað"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P03d",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 224,
+        "prompt_line": 226,
+        "prompt": "**C4.** **f** and **ð** in **hæfð**, “has”. Begin with the word-final consonant, then use its voicing to decide the preceding **f**.",
+        "prompt_sha256": "40b84a369d1a62bceffa7e7294b40935d7f48628b993f0bf2c669da5927ac617"
+      },
+      "group_context": {
+        "heading": "C. Voice",
+        "start_line": 208,
+        "sha256": "e205ee2b3a77be928f44000549f028d6dee6e47a59bc257116fe6465506095fe"
+      },
+      "supplied_forms": [
+        "hæfð"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P03e",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 228,
+        "prompt_line": 230,
+        "prompt": "**C5.** **ð** in **cwæð**, “said”. Would replacing its spelling with thorn, **þ**, change the sound? Explain the role of position and the choice of letter.",
+        "prompt_sha256": "72901109eb11b4061d687bb9de7fc4fd5b7b86f805bca27daad3ebd992c16043"
+      },
+      "group_context": {
+        "heading": "C. Voice",
+        "start_line": 208,
+        "sha256": "e205ee2b3a77be928f44000549f028d6dee6e47a59bc257116fe6465506095fe"
+      },
+      "supplied_forms": [
+        "cwæð"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P03f",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 232,
+        "prompt_line": 234,
+        "prompt": "**C6.** Compare **ð** in **hǣlðu**, “health”, with **f** in **ǣfre**, “ever; always”. The unvoiced **th** in **hǣlðu** is supplied lexical information from §5. Explain why that fact takes precedence over the ordinary between-voiced-sounds rule, while the ordinary rule applies to **ǣfre**. This is an exception comparison, not a request to deduce the exception from its spelling.",
+        "prompt_sha256": "f53dbf97d05308b06441b9c0b5c1c2d3dafb63b1a2988a4ca24690866355aeea"
+      },
+      "group_context": {
+        "heading": "C. Voice",
+        "start_line": 208,
+        "sha256": "e205ee2b3a77be928f44000549f028d6dee6e47a59bc257116fe6465506095fe"
+      },
+      "supplied_forms": [
+        "hǣlðu",
+        "ǣfre"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P04a",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 240,
+        "prompt_line": 242,
+        "prompt": "**D1.** **sittan**, “sit”. Does prolonging **tt** lengthen **i**, or add a syllable?",
+        "prompt_sha256": "418dad9a8736f46f2764c4d308daa1e17da14ffc825161d878a3c43ade072c63"
+      },
+      "group_context": {
+        "heading": "D. Syllables and stress",
+        "start_line": 236,
+        "sha256": "ae01c4558427688e4cd66d8c2a546b8a0895c5298edfe6444c80cf33e3879ad7"
+      },
+      "supplied_forms": [
+        "sittan"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P04b",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 244,
+        "prompt_line": 246,
+        "prompt": "**D2.** **sunne**, “sun”. Keep the last vowel distinct. Explain the duration of **nn** and whether it changes the syllable count.",
+        "prompt_sha256": "b6e7fc1aab850ec19ed5661499f8f808af03392f4e3ee4f7ee10ccfd4188c7f6"
+      },
+      "group_context": {
+        "heading": "D. Syllables and stress",
+        "start_line": 236,
+        "sha256": "ae01c4558427688e4cd66d8c2a546b8a0895c5298edfe6444c80cf33e3879ad7"
+      },
+      "supplied_forms": [
+        "sunne"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P04c",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 248,
+        "prompt_line": 250,
+        "prompt": "**D3.** **gewrit**, “letter; written document”; division **ge-writ**. Apply the prefix rule to stress, and pronounce both **w** and **r** without inserting another vowel.",
+        "prompt_sha256": "39854fb4418c4615551ee1a2186ca1bb1838656713022496a8f6298a71fce33b"
+      },
+      "group_context": {
+        "heading": "D. Syllables and stress",
+        "start_line": 236,
+        "sha256": "ae01c4558427688e4cd66d8c2a546b8a0895c5298edfe6444c80cf33e3879ad7"
+      },
+      "supplied_forms": [
+        "gewrit"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P04d",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 252,
+        "prompt_line": 254,
+        "prompt": "**D4.** **forlǣtan**, “abandon; forsake”; division **for-lǣtan**. This is a prefixed verb. Locate its stress from the prefix rule, and explain what the macron tells you separately.",
+        "prompt_sha256": "318133655564ff18adc40d7464b3ccc99b4f0fbb79412d5359a289627576f36d"
+      },
+      "group_context": {
+        "heading": "D. Syllables and stress",
+        "start_line": 236,
+        "sha256": "ae01c4558427688e4cd66d8c2a546b8a0895c5298edfe6444c80cf33e3879ad7"
+      },
+      "supplied_forms": [
+        "forlǣtan"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P05a",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 274,
+        "prompt_line": 276,
+        "prompt": "**E1.** Which sounds do **g** and **sc** have in **gescēop**, “created”? Explain the rules you use. Count its syllables and place the stress, keeping **ēo** one glide.",
+        "prompt_sha256": "0b27669589483b4b0201c90c25e9a0e71fc2d6f93bffd5a461da569b5c0259e8"
+      },
+      "group_context": {
+        "heading": "E. A sentence adapted from Cook",
+        "start_line": 256,
+        "sha256": "80189a82dbae4eee9373ea37f26b8997f351dd58dd2b14220750459244f098d5"
+      },
+      "supplied_forms": [
+        "gescēop"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P05b",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 278,
+        "prompt_line": 280,
+        "prompt": "**E2.** What sound does **f** have in **heofonan**, “heaven”? Identify its neighbours and explain your decision. Count the word's syllables.",
+        "prompt_sha256": "eb5e57da7d91dbc6cf9e57e3b75b1a10be4f228ebe6af4b524d7620415ab76c5"
+      },
+      "group_context": {
+        "heading": "E. A sentence adapted from Cook",
+        "start_line": 256,
+        "sha256": "80189a82dbae4eee9373ea37f26b8997f351dd58dd2b14220750459244f098d5"
+      },
+      "supplied_forms": [
+        "heofonan"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    },
+    {
+      "task_id": "PRON-P05c",
+      "required_sense_ids": [],
+      "recovered_source_sense_ids": [],
+      "english_entry_ids": [],
+      "missing_senses": [],
+      "revision_id": "opening-2026-11-02",
+      "kind": "pronunciation_only_no_english_to_old_english_requirement",
+      "student": {
+        "path": "guides/pronunciation/student.md",
+        "master_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+        "marker_line": 282,
+        "prompt_line": 284,
+        "prompt": "**E3.** What sound does **ð** have in **eorðan**, “earth”? Identify its neighbours and explain why the ordinary rule applies even though one neighbour is a consonant.",
+        "prompt_sha256": "f27d5689bad1e5d48a6b846b2a9d1456597ce4a394b5370728ba7f917b4b9187"
+      },
+      "group_context": {
+        "heading": "E. A sentence adapted from Cook",
+        "start_line": 256,
+        "sha256": "80189a82dbae4eee9373ea37f26b8997f351dd58dd2b14220750459244f098d5"
+      },
+      "supplied_forms": [
+        "eorðan"
+      ],
+      "all_meanings_supplied": true,
+      "exclusion_reason": "The task asks for sound choice, articulation, voicing, syllables or stress, with OE forms and meanings supplied; no English-to-OE lexical or grammatical production is required.",
+      "key_verification": "Not opened in this preparation task; coordinator must bind final key identity and item correspondence after independent solving."
+    }
+  ],
+  "current_source_quote_check": {
+    "be_secan_in_current_learner": false,
+    "resolution": "Coordinator removed the literal prefixed witness from learner source note; its exact source spelling remains in author notes/evidence. No fifth lexical head or automatic prefix stripping is required.",
+    "master": {
+      "path": "guides/pronunciation/student.md",
+      "sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d"
+    }
+  },
+  "refresh_artifacts_proposed": {
+    "supplement": "docs/revisions/opening/glossary-supplement.json",
+    "current_inventory": "docs/revisions/opening/glossary-current-inventory.json",
+    "current_task_inventory": "docs/revisions/opening/glossary-current-exercises.json",
+    "export_report": "typesetting/glossaries/opening-2026-11-02-content-check.json",
+    "principle": "One explicit revision bridge plus compact current inventories; existing schemas, editable masters and renderer remain. Historical files and acceptance hashes are retained."
+  },
+  "supplement_required_fields": {
+    "baseline_identities": "Hashes of old inventory, exercise inventory, 38-master manifest, 137-file boundary and frozen presentation recipe; never replace these files to force a pass.",
+    "authorized_file_deltas": "Explicit path, old SHA from historical boundary, revision-baseline SHA if different, final accepted SHA and reason. Hash-check all other protected paths against the old boundary. A prior LF bridge is used only when the recorded identities prove it.",
+    "current_manifest": "Every current instructional master in the original 38-file corpus, including changed pronunciation/Unit1 keys after independent review and the narrowly changed Unit2 learner; unchanged paths retain verified identities.",
+    "current_inventory": "Same compact surface columns as the old audit, rebuilt from actual current text and exact spelling routes; attach dictionary reference routes separately or classify them explicitly, never call a reference formation an earlier instructional occurrence.",
+    "appendix_bridge": "Verify the unchanged sound-history master identity and its existing glossary-access.json routes; do not rewrite its historical access receipt.",
+    "reference_forms": "Merge the seven new diagnostic provenance records with the frozen old reference-form evidence for validation.",
+    "task_inventory": "Retain actual unchanged tasks, replace all 25 pronunciation records and all affected Unit1 records from current text/contract/key; record supplied-only versus required-output senses, idioms and constructions. Same IDs do not establish unchanged needs.",
+    "key_status": "No complete current-corpus or task acceptance until final key hashes/text correspondences have been independently checked.",
+    "acceptance": "Current complete coverage, source/reference additions, complete export and every-page review bind the revised identities; prior acceptance records retain their original claims."
+  },
+  "checker_revision_plan": {
+    "proposed_cli_option": "--revision docs/revisions/opening/glossary-supplement.json",
+    "current_option_exists": false,
+    "default_behavior": "Keep current historical validation unchanged when the option is absent.",
+    "bounded_changes": [
+      {
+        "location": "check_glossary_exports.py:73–78",
+        "change": "When revision is supplied, read its exact current_inventory instead of the frozen surface count; retain lemma-route checks and exact route-count equality for that explicitly scoped inventory. Validate any separately scoped dictionary-reference route union and appendix bridge."
+      },
+      {
+        "location": "check_glossary_exports.py:90–116",
+        "change": "Combine frozen diagnostic sources/policies with additive supplement reference forms and verb/nonverbal records; reject ID collisions with unequal content. Preserve every old diagnostic and reference limitation."
+      },
+      {
+        "location": "check_glossary_exports.py:134–142",
+        "change": "Use current_task_inventory when revision is supplied. Keep identity equality and per-task required-sense/access coverage, and additionally bind actual prompt/master/key identities and explicit sound-only dispositions."
+      },
+      {
+        "location": "check_glossary_exports.py:143–148",
+        "change": "Validate approved old→new identity rows for the exact authorized paths and continue checking every remaining historical protected path; never skip the entire boundary."
+      },
+      {
+        "location": "check_glossary_exports.py:153 onward",
+        "change": "Retain complete entry identity, meaning/usage/diagnostic, ordered Markdown→TeX→PDF, compiler diagnostic and text-parity checks unchanged. Write a new versioned report."
+      }
+    ]
+  },
+  "non_execution_and_limits": [
+    "The historical corpus/exercise builders were inspected, not executed. They would open keys and overwrite source inventories.",
+    "The candidate records do not claim that revised Unit1 task-to-English access is complete. Final actual text/contract/key audit remains necessary.",
+    "No historical baseline, review, entries, lookup, contract, Markdown glossary, TeX, PDF, Beads or Git state was changed by this worker.",
+    "Current inventory counts must be measured after integration; do not merely add the proposed route counts to the old 5,580.",
+    "sēcan already has its existing dictionary entry and forms. Preserve them; the learner exception introduces no new headword."
+  ]
+}

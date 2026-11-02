@@ -1,0 +1,1278 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "reviewer": "sound_fulk",
+  "status": "bounded recommendations ready for coordinator integration",
+  "scope": "34 reserved pronunciation practice forms plus coordinator-approved worked dīc/dīcas and cealf: 37 exact forms. No keys, glossary/shared files, Beads or Git edited.",
+  "input_hashes": [
+    {
+      "path": "docs/revisions/opening/contract.json",
+      "sha256": "f85dbd967816d23bd3a3cc6f5924a9714892e3cbac6e6971fc2df7b2920ffa77"
+    },
+    {
+      "path": "docs/revisions/opening/proposals/phonology.json",
+      "sha256": "72c2b87dfb0db961e8f0a9b2a3056ccdf7fef8fcb6eb1fe5a4eb683955c53bb7"
+    },
+    {
+      "path": "glossaries/coverage.json",
+      "sha256": "b448a9f0fbb1d28e8fde54fbf9c76078aa6ced420f6a49c48926777bcd9823b4"
+    },
+    {
+      "path": "glossaries/README.md",
+      "sha256": "b0c001a7c6ff0ffae37a990c664607ad39cab91654c0b3daf361eb1f379f21a2"
+    },
+    {
+      "path": "glossaries/entries.json",
+      "sha256": "04b81210ead5d1a96fdfea7e0ed221c57ec9ca20b5437c6ca35732be70511628"
+    },
+    {
+      "path": "glossaries/form-lookup.json",
+      "sha256": "1a1f1de42b3b260ee0ab6117f29afb82bc9e6eb12baae8aa1d144d49a0414ab8"
+    },
+    {
+      "path": "glossaries/exercise-lookup.json",
+      "sha256": "f06b35a599c8cde9ca57526346738f6dc88d31e7cc62097d0a4318ca32fd2ee8"
+    },
+    {
+      "path": "glossaries/corpus-manifest.json",
+      "sha256": "b70aa9582cd04b5e571cf2725d7e371dd8e6be25b63f7809757bba2831151b9a"
+    },
+    {
+      "path": "glossaries/dictionary-presentation.json",
+      "sha256": "b68f1ad9654ac1aab9c3a578cc2f763134381626eee3fce966b4b61967f2a208"
+    },
+    {
+      "path": "glossaries/old-english.md",
+      "sha256": "173e88490ea6c0bd31937dce6216fa6a222f4a5d43bb1569273a9c7b2306a43e"
+    },
+    {
+      "path": "glossaries/english.md",
+      "sha256": "131ee5871bee4438b668dae304263a1c3fcf0e53ceab1eea103a840ce61802e2"
+    },
+    {
+      "path": "scripts/build_glossary_exports.py",
+      "sha256": "34b4a1d978be5a78000ce12b6e1940f7129f08f1774f833ff5efc05e0bd295d4"
+    },
+    {
+      "path": "scripts/check_glossary_exports.py",
+      "sha256": "2fe5782dba6b06f03824d1a61dc1d0cd24a75a7baa285d3d56601dd274a76ca5"
+    }
+  ],
+  "summary": {
+    "forms_checked": 37,
+    "reserved_forms_with_existing_exact_route": 32,
+    "missing_reserved_forms": [
+      "scield",
+      "scūfan"
+    ],
+    "missing_worked_forms": [
+      "dīc",
+      "dīcas",
+      "cealf"
+    ],
+    "new_headwords_needed": 4,
+    "new_pronunciation_surface_routes_needed": 5,
+    "existing_entries_needing_bounded_sense_addition_if_gloss_retained": [
+      "OE-wendan: went",
+      "OE-riht: direct"
+    ],
+    "principal_parts_policy": "Retain infinitive headwords and established principal parts. scūfan receives a transparently rule-derived class-II series grounded in inspected Cook pages. Routine inflections remain grouped under their lemma.",
+    "remaining_source_uncertainty": "cealf gender and inflection not established by the inspected pronunciation citation; omit those diagnostics or source them separately before printing."
+  },
+  "form_records": [
+    {
+      "surface": "brycg",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-brycg"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-brycg"
+      ],
+      "source_pool_meaning": "bridge",
+      "existing_display": [
+        {
+          "entry_id": "OE-brycg",
+          "headword": "brycg",
+          "part_of_speech": "n.",
+          "master_line": 911,
+          "dictionary_text": "**brycg** (n. f.); gen. sg. brycge; nom. pl. brycga. bridge.",
+          "current_sense_ids": [
+            "brycg-1"
+          ],
+          "current_meanings": [
+            "bridge"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "cwæð",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-cwethan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-cwethan"
+      ],
+      "source_pool_meaning": "said",
+      "existing_display": [
+        {
+          "entry_id": "OE-cwethan",
+          "headword": "cweðan",
+          "part_of_speech": "v.",
+          "master_line": 1137,
+          "dictionary_text": "**cweðan** (v. strong); pret. 1 sg. cwæð; pret. pl. cwǣdon; past ptcp. cweden; pres. 3 sg. cwið. say. say. Source genitive plural present participle, of people saying. say. Supplied preterite said.",
+          "current_sense_ids": [
+            "cwethan-1",
+            "cwethan-u13-saying-source",
+            "cwethan-u15-source-sense"
+          ],
+          "current_meanings": [
+            "say",
+            "say",
+            "say"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "cēosað",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-ceosan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-ceosan"
+      ],
+      "source_pool_meaning": "choose",
+      "existing_display": [
+        {
+          "entry_id": "OE-ceosan",
+          "headword": "cēosan",
+          "part_of_speech": "v.",
+          "master_line": 1021,
+          "dictionary_text": "**cēosan** (v. strong); pret. 1 sg. cēas; pret. pl. curon; past ptcp. coren; pres. 3 sg. cīest. choose. Accusative person or thing chosen.",
+          "current_sense_ids": [
+            "ceosan-1"
+          ],
+          "current_meanings": [
+            "choose"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "dohtor",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-dohtor"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-dohtor"
+      ],
+      "source_pool_meaning": "daughter",
+      "existing_display": [
+        {
+          "entry_id": "OE-dohtor",
+          "headword": "dohtor",
+          "part_of_speech": "n.",
+          "master_line": 1275,
+          "dictionary_text": "**dohtor** (n. f.); gen. sg. dohtor; nom. pl. dohtor. daughter. Dative singular dehter, also a late genitive variant.",
+          "current_sense_ids": [
+            "dohtor-1"
+          ],
+          "current_meanings": [
+            "daughter"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "dǣd",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-daed"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-daed"
+      ],
+      "source_pool_meaning": "deed",
+      "existing_display": [
+        {
+          "entry_id": "OE-daed",
+          "headword": "dǣd",
+          "part_of_speech": "n.",
+          "master_line": 1191,
+          "dictionary_text": "**dǣd** (n. f.). deed.",
+          "current_sense_ids": [
+            "daed-u15-source-sense"
+          ],
+          "current_meanings": [
+            "deed"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "eall",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-eall"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-eall"
+      ],
+      "source_pool_meaning": "all",
+      "existing_display": [
+        {
+          "entry_id": "OE-eall",
+          "headword": "eall",
+          "part_of_speech": "adj.; substantive; adv.",
+          "master_line": 1393,
+          "dictionary_text": "**eall** (adj.; substantive; adv.). all; whole. all people; everything. Substantival: plural for people, neuter singular for everything. completely. Only in the fixed phrase mid ealle. just; exactly. Degree emphasis in eall swā.",
+          "current_sense_ids": [
+            "eall-all",
+            "eall-substantive",
+            "eall-completely-u12-source",
+            "eall-u15-just"
+          ],
+          "current_meanings": [
+            "all; whole",
+            "all people; everything",
+            "completely",
+            "just; exactly"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "for",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-for"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-for"
+      ],
+      "source_pool_meaning": "for",
+      "existing_display": [
+        {
+          "entry_id": "OE-for",
+          "headword": "for",
+          "part_of_speech": "prep.",
+          "master_line": 1851,
+          "dictionary_text": "**for** (prep.). for; for the sake of. Case follows each complete supplied accusative/dative expression. for; on behalf of. Dative beneficiary. why; for what reason. In for hwȳ or for hwon. because of. Dative hindering circumstance. by; for the sake of. Grounds of entreaty in the prayer; keep the supplied phrase. in exchange for. With dative. instead of; in place of. Accusative in the supplied substitution frame. because of; on account of. for; to the benefit of.",
+          "current_sense_ids": [
+            "for-u11-source",
+            "for-beneficiary",
+            "for-u15-source-why",
+            "for-u15-source-cause",
+            "for-u15-source-appeal",
+            "for-u15-exchange",
+            "for-u18-local-sense",
+            "for-u18-cause",
+            "for-u18-benefit"
+          ],
+          "current_meanings": [
+            "for; for the sake of",
+            "for; on behalf of",
+            "why; for what reason",
+            "because of",
+            "by; for the sake of",
+            "in exchange for",
+            "instead of; in place of",
+            "because of; on account of",
+            "for; to the benefit of"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "forlǣtan",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-forlaetan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-forlaetan"
+      ],
+      "source_pool_meaning": "abandon; forsake",
+      "existing_display": [
+        {
+          "entry_id": "OE-forlaetan",
+          "headword": "forlǣtan",
+          "part_of_speech": "v.",
+          "master_line": 1907,
+          "dictionary_text": "**forlǣtan** (v. strong); pret. 1 sg. forlēt; pret. pl. forlēton; past ptcp. forlǣten. abandon; forsake. Accusative person or thing left. leave to. Thing left and recipient retain their taught roles. let go; dismiss. set aside. Supplied source sense.",
+          "current_sense_ids": [
+            "forlaetan-1",
+            "forlaetan-u14-leave-to",
+            "forlaetan-u17-let-go",
+            "forlaetan-u17-reading"
+          ],
+          "current_meanings": [
+            "abandon; forsake",
+            "leave to",
+            "let go; dismiss",
+            "set aside"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "frēond",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-freond"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-freond"
+      ],
+      "source_pool_meaning": "friend",
+      "existing_display": [
+        {
+          "entry_id": "OE-freond",
+          "headword": "frēond",
+          "part_of_speech": "n.",
+          "master_line": 2023,
+          "dictionary_text": "**frēond** (n. m.); gen. sg. frēondes; nom. pl. frīend. friend.",
+          "current_sense_ids": [
+            "freond-1"
+          ],
+          "current_meanings": [
+            "friend"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "fæger",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-faeger"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-faeger"
+      ],
+      "source_pool_meaning": "beautiful; fair",
+      "existing_display": [
+        {
+          "entry_id": "OE-faeger",
+          "headword": "fæger",
+          "part_of_speech": "adj.",
+          "master_line": 1627,
+          "dictionary_text": "**fæger** (adj.); comp. fægerra; supplied superl. acc. f. sg. fægerestan. beautiful; fair.",
+          "current_sense_ids": [
+            "faeger-1"
+          ],
+          "current_meanings": [
+            "beautiful; fair"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "fīf",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-fif"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-fif"
+      ],
+      "source_pool_meaning": "five",
+      "existing_display": [
+        {
+          "entry_id": "OE-fif",
+          "headword": "fīf",
+          "part_of_speech": "cardinal numeral",
+          "master_line": 1759,
+          "dictionary_text": "**fīf** (cardinal numeral). five. Cardinal 5.",
+          "current_sense_ids": [
+            "fif-1"
+          ],
+          "current_meanings": [
+            "five"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "fōr",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-faran"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-faran"
+      ],
+      "source_pool_meaning": "went",
+      "existing_display": [
+        {
+          "entry_id": "OE-faran",
+          "headword": "faran",
+          "part_of_speech": "v.",
+          "master_line": 1611,
+          "dictionary_text": "**faran** (v. strong); pret. 1 sg. fōr; pret. pl. fōron; past ptcp. faren; pres. 3 sg. færð. go; travel.",
+          "current_sense_ids": [
+            "faran-1"
+          ],
+          "current_meanings": [
+            "go; travel"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "gewrit",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-gewrit"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-gewrit"
+      ],
+      "source_pool_meaning": "letter; written document",
+      "existing_display": [
+        {
+          "entry_id": "OE-gewrit",
+          "headword": "gewrit",
+          "part_of_speech": "n.",
+          "master_line": 2705,
+          "dictionary_text": "**gewrit** (n. n.); gen. sg. gewrites; nom. pl. gewritu. letter; written document.",
+          "current_sense_ids": [
+            "gewrit-1"
+          ],
+          "current_meanings": [
+            "letter; written document"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "glæd",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-glaed"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-glaed"
+      ],
+      "source_pool_meaning": "glad",
+      "existing_display": [
+        {
+          "entry_id": "OE-glaed",
+          "headword": "glæd",
+          "part_of_speech": "adj.",
+          "master_line": 2769,
+          "dictionary_text": "**glæd** (adj.). glad. gracious; favourably disposed. With wið + person in the supplied gracious-toward frame.",
+          "current_sense_ids": [
+            "glaed-1",
+            "glaed-u18-gracious"
+          ],
+          "current_meanings": [
+            "glad",
+            "gracious; favourably disposed"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "gān",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-gan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-gan"
+      ],
+      "source_pool_meaning": "go; walk",
+      "existing_display": [
+        {
+          "entry_id": "OE-gan",
+          "headword": "gān",
+          "part_of_speech": "v.",
+          "master_line": 2101,
+          "dictionary_text": "**gān** (v. irregular); pres. 1 sg. gā; pres. 3 sg. gǣð; pres. pl. gāð; pret. 1 sg. ēode; pret. pl. ēodon; past ptcp. (ge)gān. go; walk. go. Supplied imperative gang.",
+          "current_sense_ids": [
+            "gan-1",
+            "gan-u13-gang-source"
+          ],
+          "current_meanings": [
+            "go; walk",
+            "go"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "gīet",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-giet"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-giet"
+      ],
+      "source_pool_meaning": "yet; still",
+      "existing_display": [
+        {
+          "entry_id": "OE-giet",
+          "headword": "gīet",
+          "part_of_speech": "adv.",
+          "master_line": 2749,
+          "dictionary_text": "**gīet** (adv.). still; further.",
+          "current_sense_ids": [
+            "giet-still-source"
+          ],
+          "current_meanings": [
+            "still; further"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "heorte",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-heorte"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-heorte"
+      ],
+      "source_pool_meaning": "heart",
+      "existing_display": [
+        {
+          "entry_id": "OE-heorte",
+          "headword": "heorte",
+          "part_of_speech": "n.",
+          "master_line": 3071,
+          "dictionary_text": "**heorte** (n. f.); gen. sg. heortan; nom. pl. heortan. heart.",
+          "current_sense_ids": [
+            "heorte-1"
+          ],
+          "current_meanings": [
+            "heart"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "hæfð",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-habban"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-habban"
+      ],
+      "source_pool_meaning": "has",
+      "existing_display": [
+        {
+          "entry_id": "OE-habban",
+          "headword": "habban",
+          "part_of_speech": "v.",
+          "master_line": 2831,
+          "dictionary_text": "**habban** (v. weak); pret. 1 sg. hæfde; past ptcp. (ge)hæfd; pres. 3 sg. hæfð. have; possess. Accusative possession; distinguish the perfect auxiliary. have. Auxiliary with transitive past participle for the taught completed-action/result construction.",
+          "current_sense_ids": [
+            "habban-1",
+            "habban-perfect"
+          ],
+          "current_meanings": [
+            "have; possess",
+            "have"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "hȳdan",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-hydan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-hydan"
+      ],
+      "source_pool_meaning": "hide; conceal",
+      "existing_display": [
+        {
+          "entry_id": "OE-hydan",
+          "headword": "hȳdan",
+          "part_of_speech": "v.",
+          "master_line": 3419,
+          "dictionary_text": "**hȳdan** (v. weak); pret. 1 sg. hȳdde; past ptcp. hȳded. hide; conceal. Accusative thing hidden; wesan forms the assigned passive.",
+          "current_sense_ids": [
+            "hydan-1"
+          ],
+          "current_meanings": [
+            "hide; conceal"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "micel",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-micel"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-micel"
+      ],
+      "source_pool_meaning": "large; great",
+      "existing_display": [
+        {
+          "entry_id": "OE-micel",
+          "headword": "micel",
+          "part_of_speech": "adj.",
+          "master_line": 3963,
+          "dictionary_text": "**micel** (adj.); comp. māra; superl. mǣst. great; large. much; an amount. Quantity sense. great; loud. Loud is the contextual force with a voice. Stem micl- before vowel endings; micel- before -ne, -re and -ra.",
+          "current_sense_ids": [
+            "micel-1",
+            "micel-u15-amount",
+            "micel-u17-loud"
+          ],
+          "current_meanings": [
+            "great; large",
+            "much; an amount",
+            "great; loud"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "micles",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-micel"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-micel"
+      ],
+      "source_pool_meaning": "large; great (a declined form)",
+      "existing_display": [
+        {
+          "entry_id": "OE-micel",
+          "headword": "micel",
+          "part_of_speech": "adj.",
+          "master_line": 3963,
+          "dictionary_text": "**micel** (adj.); comp. māra; superl. mǣst. great; large. much; an amount. Quantity sense. great; loud. Loud is the contextual force with a voice. Stem micl- before vowel endings; micel- before -ne, -re and -ra.",
+          "current_sense_ids": [
+            "micel-1",
+            "micel-u15-amount",
+            "micel-u17-loud"
+          ],
+          "current_meanings": [
+            "great; large",
+            "much; an amount",
+            "great; loud"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "regn",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-regn"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-regn"
+      ],
+      "source_pool_meaning": "rain",
+      "existing_display": [
+        {
+          "entry_id": "OE-regn",
+          "headword": "regn",
+          "part_of_speech": "n.",
+          "master_line": 4471,
+          "dictionary_text": "**regn** (n. m.); gen. sg. regnes; nom. pl. regnas. rain.",
+          "current_sense_ids": [
+            "regn-1"
+          ],
+          "current_meanings": [
+            "rain"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "riht",
+      "scope": "reserved practice",
+      "status": "existing_route_missing_reserved_direct_sense",
+      "current_entry_ids": [
+        "OE-riht"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-riht"
+      ],
+      "source_pool_meaning": "right; direct",
+      "existing_display": [
+        {
+          "entry_id": "OE-riht",
+          "headword": "riht",
+          "part_of_speech": "adj.",
+          "master_line": 4503,
+          "dictionary_text": "**riht** (adj.). right; just.",
+          "current_sense_ids": [
+            "riht-u15-right"
+          ],
+          "current_meanings": [
+            "right; just"
+          ]
+        }
+      ],
+      "action": "If the final supplied gloss retains direct, add that bounded adjective sense under OE-riht, with Cook Vocabulary p309/PDF325, riht (58), right; direct. Preserve the existing right; just sense and do not route to the separate noun riht."
+    },
+    {
+      "surface": "scield",
+      "scope": "reserved practice",
+      "status": "missing_headword_and_exact_surface_route",
+      "current_entry_ids": [],
+      "intended_pronunciation_entry_ids": [],
+      "source_pool_meaning": "shield",
+      "existing_display": [],
+      "action": "Add the sourced headword/form route specified in additions; do not replace it with a similarly spelled existing verb or generate one entry per inflection."
+    },
+    {
+      "surface": "scēap",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-sceap"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-sceap"
+      ],
+      "source_pool_meaning": "sheep",
+      "existing_display": [
+        {
+          "entry_id": "OE-sceap",
+          "headword": "scēap",
+          "part_of_speech": "n.",
+          "master_line": 4633,
+          "dictionary_text": "**scēap** (n. n.); gen. sg. scēapes; nom. pl. scēap. sheep.",
+          "current_sense_ids": [
+            "sceap-1"
+          ],
+          "current_meanings": [
+            "sheep"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "scūfan",
+      "scope": "reserved practice",
+      "status": "missing_headword_and_exact_surface_route",
+      "current_entry_ids": [],
+      "intended_pronunciation_entry_ids": [],
+      "source_pool_meaning": "thrust",
+      "existing_display": [],
+      "action": "Add the sourced headword/form route specified in additions; do not replace it with a similarly spelled existing verb or generate one entry per inflection."
+    },
+    {
+      "surface": "singan",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-singan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-singan"
+      ],
+      "source_pool_meaning": "sing",
+      "existing_display": [
+        {
+          "entry_id": "OE-singan",
+          "headword": "singan",
+          "part_of_speech": "v.",
+          "master_line": 4873,
+          "dictionary_text": "**singan** (v. strong); pret. 1 sg. sang; pret. pl. sungon; past ptcp. sungen. sing. Intransitive in the introduced frame. sing. Source genitive plural present participle, of people singing.",
+          "current_sense_ids": [
+            "singan-1",
+            "singan-u13-singing-source"
+          ],
+          "current_meanings": [
+            "sing",
+            "sing"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "sittan",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-sittan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-sittan"
+      ],
+      "source_pool_meaning": "sit",
+      "existing_display": [
+        {
+          "entry_id": "OE-sittan",
+          "headword": "sittan",
+          "part_of_speech": "v.",
+          "master_line": 4881,
+          "dictionary_text": "**sittan** (v. strong); pret. 1 sg. sæt; pret. pl. sǣton; past ptcp. seten. sit.",
+          "current_sense_ids": [
+            "sittan-1"
+          ],
+          "current_meanings": [
+            "sit"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "sunne",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-sunne"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-sunne"
+      ],
+      "source_pool_meaning": "sun",
+      "existing_display": [
+        {
+          "entry_id": "OE-sunne",
+          "headword": "sunne",
+          "part_of_speech": "n.",
+          "master_line": 5085,
+          "dictionary_text": "**sunne** (n. f.); gen. sg. sunnan; nom. pl. sunnan. sun.",
+          "current_sense_ids": [
+            "sunne-1"
+          ],
+          "current_meanings": [
+            "sun"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "wēnde",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-wenan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-wenan"
+      ],
+      "source_pool_meaning": "thought; supposed",
+      "existing_display": [
+        {
+          "entry_id": "OE-wenan",
+          "headword": "wēnan",
+          "part_of_speech": "v.",
+          "master_line": 6069,
+          "dictionary_text": "**wēnan** (v. weak); pret. 1 sg. wēnde; past ptcp. wēned. suppose; expect; think. Genitive thing expected in the selected nominal frame; content-clause uses are separately taught.",
+          "current_sense_ids": [
+            "wenan-u15-suppose"
+          ],
+          "current_meanings": [
+            "suppose; expect; think"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "węnde",
+      "scope": "reserved practice",
+      "status": "existing_route_missing_reserved_contextual_sense",
+      "current_entry_ids": [
+        "OE-wendan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-wendan"
+      ],
+      "source_pool_meaning": "went",
+      "existing_display": [
+        {
+          "entry_id": "OE-wendan",
+          "headword": "węndan",
+          "part_of_speech": "v.",
+          "master_line": 6073,
+          "dictionary_text": "**węndan** (v.). translate. turn; return. Supplied source form.",
+          "current_sense_ids": [
+            "wendan-u15-source-sense",
+            "wendan-u16-source"
+          ],
+          "current_meanings": [
+            "translate",
+            "turn; return"
+          ]
+        }
+      ],
+      "action": "Add the supplied pronunciation sense went under existing węndan, preserving translate and turn/return. Cite Cook §4 p6/PDF22 as audited in PH-P03; do not create a separate węnde lexical headword."
+    },
+    {
+      "surface": "wīd",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-wid-citation"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-wid-citation"
+      ],
+      "source_pool_meaning": "wide",
+      "existing_display": [
+        {
+          "entry_id": "OE-wid-citation",
+          "headword": "wīd",
+          "part_of_speech": "adjective citation",
+          "master_line": 6125,
+          "dictionary_text": "**wīd** (adjective citation). wide.",
+          "current_sense_ids": [
+            "wid-citation-1"
+          ],
+          "current_meanings": [
+            "wide"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "āgan",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-agan",
+        "OE-aginnan"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-agan"
+      ],
+      "source_pool_meaning": "have; possess",
+      "existing_display": [
+        {
+          "entry_id": "OE-agan",
+          "headword": "āgan",
+          "part_of_speech": "v.",
+          "master_line": 91,
+          "dictionary_text": "**āgan** (v. preterite-present); pres. 1/3 sg. āh; pres. pl. āgon; pret. 1 sg. āhte; adjectival ptcp. āgen. have; possess. Accusative possession; positive present and preterite indicative in the taught scope. Āgen is adjectival: “own”.",
+          "current_sense_ids": [
+            "agan-possess"
+          ],
+          "current_meanings": [
+            "have; possess"
+          ]
+        },
+        {
+          "entry_id": "OE-aginnan",
+          "headword": "āginnan",
+          "part_of_speech": "v.",
+          "master_line": 111,
+          "dictionary_text": "**āginnan** (v.). begin. Supplied source form began.",
+          "current_sense_ids": [
+            "aginnan-u16-source"
+          ],
+          "current_meanings": [
+            "begin"
+          ]
+        }
+      ],
+      "action": "The supplied have/possess meaning selects OE-agan. Preserve the additional legitimate āgan → āginnan homograph route globally; it is not the pronunciation item’s intended meaning."
+    },
+    {
+      "surface": "ǣfre",
+      "scope": "reserved practice",
+      "status": "existing_exact_form_route",
+      "current_entry_ids": [
+        "OE-aefre"
+      ],
+      "intended_pronunciation_entry_ids": [
+        "OE-aefre"
+      ],
+      "source_pool_meaning": "ever; always",
+      "existing_display": [
+        {
+          "entry_id": "OE-aefre",
+          "headword": "ǣfre",
+          "part_of_speech": "adv.",
+          "master_line": 373,
+          "dictionary_text": "**ǣfre** (adv.). ever; always.",
+          "current_sense_ids": [
+            "aefre-u17-local-sense"
+          ],
+          "current_meanings": [
+            "ever; always"
+          ]
+        }
+      ],
+      "action": "Retain the existing lemma route and dictionary treatment; refresh actual current occurrence locations only."
+    },
+    {
+      "surface": "dīc",
+      "scope": "coordinator-approved worked example",
+      "status": "missing_headword_and_exact_surface_route",
+      "current_entry_ids": [],
+      "intended_pronunciation_entry_ids": [],
+      "source_pool_meaning": null,
+      "existing_display": [],
+      "action": "Add the sourced headword/form route specified in additions; do not replace it with a similarly spelled existing verb or generate one entry per inflection."
+    },
+    {
+      "surface": "dīcas",
+      "scope": "coordinator-approved worked example",
+      "status": "missing_headword_and_exact_surface_route",
+      "current_entry_ids": [],
+      "intended_pronunciation_entry_ids": [],
+      "source_pool_meaning": null,
+      "existing_display": [],
+      "action": "Add the sourced headword/form route specified in additions; do not replace it with a similarly spelled existing verb or generate one entry per inflection."
+    },
+    {
+      "surface": "cealf",
+      "scope": "coordinator-approved worked example",
+      "status": "missing_headword_and_exact_surface_route",
+      "current_entry_ids": [],
+      "intended_pronunciation_entry_ids": [],
+      "source_pool_meaning": null,
+      "existing_display": [],
+      "action": "Add the sourced headword/form route specified in additions; do not replace it with a similarly spelled existing verb or generate one entry per inflection."
+    }
+  ],
+  "additions": [
+    {
+      "proposed_entry_id": "OE-scield",
+      "headword": "scield",
+      "part_of_speech": "n.",
+      "gender": "m",
+      "meaning": "shield",
+      "actual_new_pronunciation_forms": [
+        "scield"
+      ],
+      "evidence": "Cook Vocabulary p311/PDF327 s.v. scield explicitly refers to §43; that section p28/PDF44 is headed Masculines ending in a consonant.",
+      "optional_dictionary_diagnostics": [
+        {
+          "label": "G sg",
+          "form": "scieldes",
+          "origin": "checked rule formation",
+          "basis": "Cook scield (43) + §43 fisc/fisces; retain selected scield spelling."
+        },
+        {
+          "label": "N pl",
+          "form": "scieldas",
+          "origin": "checked rule formation",
+          "basis": "Cook scield (43) + §43 fisc/fiscas; retain selected scield spelling."
+        }
+      ],
+      "limits": "Noun shield is not the existing verb gescieldan. These diagnostic forms are reference additions only if printed; no new teaching milestones. Record their provenance individually."
+    },
+    {
+      "proposed_entry_id": "OE-scufan",
+      "headword": "scūfan",
+      "part_of_speech": "v. strong II",
+      "meaning": "thrust",
+      "actual_new_pronunciation_forms": [
+        "scūfan"
+      ],
+      "evidence": "Cook Vocabulary p311/PDF327 explicitly gives scūfan (II.103), thrust; §103 p60/PDF76 explicitly gives the ū–ēa–u–o pattern and brūcan/brēac/brucon/brocen.",
+      "principal_parts": [
+        {
+          "label": "infinitive",
+          "form": "scūfan",
+          "origin": "exact source",
+          "locator": "Cook Vocabulary p311/PDF327"
+        },
+        {
+          "label": "pret. 1 sg.",
+          "form": "scēaf",
+          "origin": "checked rule formation",
+          "basis": "Substitute the attested scūf- lexeme into the explicitly assigned class-II ū/ēa pattern; no ending, as brūcan/brēac."
+        },
+        {
+          "label": "pret. pl.",
+          "form": "scufon",
+          "origin": "checked rule formation",
+          "basis": "Class-II short-u preterite plural, as brucon. Preserve f and -on."
+        },
+        {
+          "label": "past ptcp.",
+          "form": "scofen",
+          "origin": "checked rule formation",
+          "basis": "Class-II short-o uninflected participle, as brocen. No unverified ge- prefix is added."
+        }
+      ],
+      "limits": "Only scūfan is an exact lexical citation here. The three principal parts are individually checked applications of Cook’s explicit class assignment and pattern, not claimed as separately printed scūfan forms. No full conjugation, new production requirement or separate headwords for these forms. Add their evidence IDs to the new reference-form provenance rather than rewriting the frozen old recipe."
+    },
+    {
+      "proposed_entry_id": "OE-dic",
+      "headword": "dīc",
+      "part_of_speech": "n.",
+      "gender": "m",
+      "meaning": "ditch; dike",
+      "actual_new_pronunciation_forms": [
+        "dīc",
+        "dīcas"
+      ],
+      "evidence": "Cook Vocabulary p283/PDF299 dīc (43), dike; §43 p28/PDF44 gives the masculine pattern. Fulk §135b p103/PDF115 prints dīċ ditch/dike and nominative plural dīcas.",
+      "dictionary_diagnostics": [
+        {
+          "label": "G sg",
+          "form": "dīces",
+          "origin": "checked rule formation",
+          "basis": "Cook dīc (43) + §43 fisc/fisces; preserve attested ī."
+        },
+        {
+          "label": "N pl",
+          "form": "dīcas",
+          "origin": "exact source",
+          "basis": "Fulk §135b expressly labels nom. pl. dīcas."
+        }
+      ],
+      "normalization": "Retain Cook dīc or remove Fulk’s pronunciation overpoint from dīċ; never remove the macron.",
+      "limits": "One dictionary headword with both exact surface routes. No separate routine plural entry or productive noun-class milestone. A pronunciation note may explain the c alternation if useful, but the glossary must not duplicate the exercise solution."
+    },
+    {
+      "proposed_entry_id": "OE-cealf",
+      "headword": "cealf",
+      "part_of_speech": "n.",
+      "gender": null,
+      "meaning": "calf",
+      "actual_new_pronunciation_forms": [
+        "cealf"
+      ],
+      "evidence": "Fulk §135b p103/PDF115 prints ċealf calf; the page was independently viewed here.",
+      "normalization": "Remove Fulk’s c overpoint, retaining short ea exactly.",
+      "dictionary_diagnostics": [],
+      "limits": "Bounded supplied pronunciation example. This inspected passage establishes neither gender nor inflection: omit unverified gender/G sg/N pl with an explicit scope note, as permitted by glossaries/coverage.json entry_rules.diagnostics. Do not infer a neuter paradigm from the English noun or the ending."
+    }
+  ],
+  "source_images_actually_viewed": [
+    {
+      "path": "build/opening/phonology/cook-p311-pdf327.png",
+      "sha256": "ba96bcfbfa9a15fffa3a9ea5cf29802f8626c1272dd710d06365cb29f2d9d7ab",
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 311,
+      "pdf_page_one_based": 327,
+      "scope": "Vocabulary scield (43,18), shield; scūfan (II.103), thrust."
+    },
+    {
+      "path": "sources/audits/unit04-grammar/cook-p60-pdf76.png",
+      "sha256": "69c92d7f3c6375c5e7c8d4f01b81c01927e134f253cf47a5653bad3206f4d72a",
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 60,
+      "pdf_page_one_based": 76,
+      "scope": "§103 class II: ēo or ū, ēa, u, o; brūcan/brēac/brucon/brocen; explicit rule covering strong verbs with present ū."
+    },
+    {
+      "path": "sources/evidence/cook-fb-pdf044.png",
+      "sha256": "d8c146c5e56f09744b1bb6cd7758623846fd2c7ce2e59f520492438d222ba9d7",
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 28,
+      "pdf_page_one_based": 44,
+      "scope": "§43 Masculines ending in a consonant; complete fisc model establishes -es G sg and -as N pl."
+    },
+    {
+      "path": "sources/audits/unit12-source/cook_fb_1895_2-p283.png",
+      "sha256": "6cee73cced1fa365d9e697cd10d1ef3d59eb4d5178dd41a1f6fc0f6d24e5fced",
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 283,
+      "pdf_page_one_based": 299,
+      "scope": "Vocabulary dīc (43), dike."
+    },
+    {
+      "path": "sources/audits/pronunciation/fulk/palatalization-01.png",
+      "sha256": "821890c11444e3deee851de67ffe5a4a8579e656061bd9b3b710a8f570cced16",
+      "source_id": "fulk_2020",
+      "printed_page": 103,
+      "pdf_page_one_based": 115,
+      "scope": "§135b ċealf calf, dīċ ditch/dike, and explicitly labelled nominative plural dīcas."
+    },
+    {
+      "path": "build/opening/phonology/cook-p309-pdf325.png",
+      "sha256": "236beb929af919be7e521f4d617c1faba6e2ec3b5080c86fdc7ade7e0e16567b",
+      "source_id": "cook_fb_1895_2",
+      "printed_page": 309,
+      "pdf_page_one_based": 325,
+      "scope": "Separate noun riht (47), right, and adjective riht (58), right; direct."
+    }
+  ],
+  "other_images_viewed_during_bounded_class_lookup": [
+    "sources/audits/unit04-grammar/cook-p61-pdf77.png",
+    "sources/audits/unit04-grammar/cook-p62-pdf78.png",
+    "sources/audits/unit04-grammar/cook-p63-pdf79.png"
+  ],
+  "source_inspection_limits": "No exact printed scēaf/scufon/scofen citation was found or claimed; Cook’s actual class assignment and full ū pattern were viewed. A pdftotext attempt was unavailable locally; no OCR output was used as evidence. No extended search or memory-based quantities were substituted.",
+  "english_to_old_english": {
+    "current_pronunciation_task_records": 25,
+    "current_state": "All 25 existing PRON task records have empty required_sense_ids and english_entry_ids. Stable IDs and empty arrays alone do not certify the revised prompts.",
+    "required_refresh": "Bind each actual revised PRON task to current learner hash, exact prompt/line, supplied meanings, and an explicit sound-only disposition: no English-to-OE lexical or grammatical production required. Recheck this after the actual revised key exists, without treating the old task snapshot as current.",
+    "grammar_production_scope": "Every English lexical sense or construction needed by actual revised Unit 1 production tasks still needs an English access route. This narrow pronunciation audit does not certify the revised Unit 1 task mapping.",
+    "optional_reference_access": "If the coordinator elects to add English reference routes for shield, thrust, ditch/dike or calf, mark them as pronunciation reference, not new grammar-production requirements. Existing shield currently routes to the verb gescieldan; a noun route must be separate. Do not mechanically reverse all supplied gloss strings.",
+    "sense_limits": "The new went/direct senses require OE-side contextual coverage even when their meanings are supplied; production milestones remain unchanged."
+  },
+  "current_coverage_refresh": [
+    "Preserve the historical source audits, accepted review receipts, old 38-master manifest/boundary and their hashes as history. Add a current opening-revision coverage receipt binding actual revised masters, including keys only after independent solving, and recording each authorized old→new identity.",
+    "Edit accepted dictionary masters and entries deliberately. Add only the four new heads, exact routes and bounded senses needed here; retain every existing principal part, opaque-present pointer and legitimate homograph route.",
+    "Reconcile current actual occurrence types and locations for revised pronunciation and Unit 1 with the retained unchanged corpus. Do not call a former occurrence current if it was removed; distinguish reference-only dictionary forms from current instructional occurrences. Any new printed principal part or noun diagnostic itself enters the book corpus and needs a route/provenance record.",
+    "Refresh actual task-to-English-access mappings from current task text and contract. Same task IDs do not prove unchanged requirements. Explicitly record sound-only supplied pronunciation tasks rather than silently claiming their empty old mappings establish completeness.",
+    "The existing checker compares form count/route completeness against frozen sources/audits/glossaries/old-english/inventory.json (lines73–78), task identity/senses against the old exercise inventory (lines134–142), and every old protected hash (lines143–148). Authorized changed masters will fail those historical checks. Add an explicit current-revision validation path/receipt with an approved delta; do not rewrite historical hashes to manufacture a pass or simply skip all preservation checks.",
+    "Preserve old dictionary-presentation.json acceptance/frozen inputs. Record new scūfan rule-formed principal parts and any noun diagnostics in an additive reviewed reference-form record; extend current provenance validation to include it.",
+    "scripts/build_glossary_exports.py is the permanent Markdown→TeX renderer and does not invent entries. It can render deliberately updated masters; ignored assemble/reconcile/final_dictionary_batch helpers document historical integration and must not be replayed as current prose regeneration.",
+    "After actual integration, run current coverage/provenance and complete export checks, independently review additions, inspect changed exported pages and update full-book assembly as required. Frozen old receipts remain truthful historical acceptances, not acceptances of the revision."
+  ],
+  "key_blind": true,
+  "no_current_pronunciation_key_opened": true,
+  "next_stage": "Independently solve the actual revised pronunciation learner tasks before any key access; this lexical-route report is not that solution review."
+}

@@ -1,6 +1,6 @@
 # Editorial policy
 
-Version 1.1, 28 October 2026. This policy governs the grammar-led course and its presentation revisions.
+Version 1.2, 2 November 2026. This policy governs the grammar-led course and its revisions, including the current chapter-by-chapter review of transfer practice.
 
 ## Audience and presentation
 

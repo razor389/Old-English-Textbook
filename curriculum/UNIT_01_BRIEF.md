@@ -2,6 +2,8 @@
 
 Settled scope, 22 October 2026, after independent source mapping and curriculum design. This brief governs the dependency analysis; the canonical learning contract must be recorded before learner prose.
 
+Opening revision, 2 November 2026: the [reconciled revision contract](../docs/revisions/opening/contract.json) adds the complete nominative subject inventory beside the copula, consistent section-and-model vocabulary references, and fresh applications of taught rules. It preserves all Cook prompts, the exact source reading and every complete existing paradigm. Earlier acceptance remains a historical witness; revised teaching milestones require fresh review.
+
 ## Assigned source scope
 
 Retain **Group I, Exercises 1–3 in full: 16 + 12 + 18 = 46 prompts**, with unchanged English wording and original item IDs. Use the verified source transcriptions of 1–2, and the fresh [Exercise 3 audit](../sources/audits/unit01-source/exercise-3.md). No prior Old English or teaching milestone is assumed.
@@ -18,11 +20,13 @@ Give the full article paradigm. Teach its nominative, accusative, genitive and d
 
 Teach subjects, noun predicates, number agreement, dependent genitives (including Cook's ordering and article instruction), direct-object accusatives in supplied verb frames, and verified **on + dative** location and **fram + dative** separation. A supplied verb frame must print its exact form and meaning. Avoid a universal spatial case rule; the reading uses **ofer** with different cases. In **ofer ðǣre nēowolnesse brādnesse**, the article belongs to the genitive dependent; **brādnesse** is the dative head.
 
+Teach all ten subject forms **ic, ðū, hē, hit, hēo, wit, git, wē, gē, hīe**, with person, number and grammatical-gender reference. Dual **wit/git** take the corresponding plural copula; ordinary plurals do not exclude two. This is the complete nominative inventory, not the full personal declension: other cases and their uses remain in Unit 2. Give each vocabulary noun a reference such as **§4: hof** or **§4: sǣd**, naming the particular printed model and preserving every scope limit.
+
 ## Practice and reading support
 
 Use meaningful case/number contrasts, short independent copular passages, supplied transitive frames requiring productive noun/article choices, all 46 Cook prompts, and cumulative composition/review. Exercise the full systems beyond Cook's nominative/genitive emphasis. Keep ordinary task numbering in learner text and stable IDs in comments and the contract.
 
-The connected reading is guided. Supply actual finite forms, pronouns, adjective forms, adverbs, and complete passive/wish/naming/complement frames. Test supported comprehension, taught nominal/copular analysis and translation; do not require independent recall of supplied forms. The independent mini-passages establish what learners can do with the productive inventory alone.
+The connected source reading is guided. Supply unfamiliar finite forms, adjective forms, adverbs, and complete passive/wish/naming/complement frames. Its subject pronouns are now taught, but the surrounding untaught constructions still need support. Test supported comprehension and applications of taught nominal/copular analysis; do not require independent recall of supplied forms. Two fresh connected mini-passages establish what learners can do with the productive inventory alone. Worked examples and other learner passages must not print complete target answers or requested analyses. Explicit reference checks do not count as transfer practice.
 
 Vocabulary size follows these demands. Separate productive vocabulary from supplied reading help. Carry correction C01 **wǣstm → wæstm**, preserving Cook's original and affected item records. Paradigm-based composition must not be described as independently attested quotation.
 

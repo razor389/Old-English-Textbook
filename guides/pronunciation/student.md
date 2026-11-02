@@ -52,19 +52,52 @@ Read **b, d, l, m, n, p, t, w** as at the beginning of *boy, dog, lip, man, no, 
 
 ### c, g, and combinations
 
-| Spelling | Sound | Supplied examples and limits |
+Work in the following order. A supplied pronunciation for a particular word or form takes precedence over a general pattern.
+
+**1. Read a combination first.** Do not apply a rule for single **c** or **g** to one letter of these combinations.
+
+| Spelling | Ordinary sound | Model and supplied exception |
 | --- | --- | --- |
-| c | **k** as in *kit*, or **ch** as in *chin*. | **cuman**, “come”, begins with **k**. Both **c** letters in **cyrice**, “church”, are **ch**. |
-| c before a front vowel | Often **ch**, but not invariably. | **cēlan**, “cool”, begins with **k**, despite **ē**. |
-| g at the beginning | Hard **g** as in *go*, or consonant **y** as in *yes*. | **god**, “god”, has hard **g**; **giefan**, “give”, begins with **y**. |
-| g elsewhere | Consonant **y**, or the continuous sound described below; some contexts retain hard **g**. | **dæg**, “day”, ends with **y**; **fugol**, “bird”, has continuous **g**. |
-| sc | Usually **sh** as in *ship*. | **scip**, “ship”, has one **sh** sound; **frosc**, “frog”, instead ends with **s** followed by **k**. |
-| cg; usually gg | The final sound of *bridge*. | **ecg**, “edge”. The supplied exception **docga**, “dog”, has a prolonged hard **g**. |
-| ng | Usually as in *finger*, with audible **g**. | **lang**, “long”. In **sengan**, “singe”, **ng** instead has the sound at the end of *singe*. |
+| sc | **sh** as in *ship*, including before a back vowel. | **scip**, “ship”, has one **sh** sound. The exception **frosc**, “frog”, ends with **s** followed by **k**. |
+| cg; usually gg | The final sound of *bridge*. | **ecg**, “edge”. The exception **docga**, “dog”, has a prolonged hard **g**. |
+| ng | As in *finger*, with audible **g**. | **lang**, “long”. In the supplied exception **sengan**, “singe”, **ng** has the sound at the end of *singe*. |
 
-The front vowels **e, i, æ, y** help explain many **ch** and **y** pronunciations, but the next written letter is not a complete rule. Words and inflected forms have exceptions. Use the supplied sound for each example; do not turn every **c** before **e** into **ch**. In **cyrice**, keep all three syllables, including the final **e**.
+For the rules below, the **back-vowel spellings** are **a/ā, o/ō, u/ū**. The relevant **front-vowel spellings** are **e/ē, i/ī, æ/ǣ**; the diphthongs **ea/ēa, eo/ēo, ie/īe** also begin at the front of the mouth. Although **y/ȳ** are front vowels in articulation, their spelling is not a reliable instruction to give **c** or **g** a front sound. Use the supplied pronunciation in such words.
 
-The continuous **g** in **fugol** is unfamiliar in ordinary American English. Put the back of the tongue near the position for hard **g**, but leave a narrow gap. Let air pass continuously while the throat vibrates: the sound can be held, unlike the stopped **g** of *go*. Its phonetic sign is **[ɣ]**. Do not omit it or substitute **y**.
+**2. At the beginning of a word, decide c from what immediately follows.**
+
+| Following sound or spelling | Ordinary c sound | Model |
+| --- | --- | --- |
+| A consonant, or a/ā, o/ō, u/ū | **k** as in *kit* | **cnīf**, “knife”; **cuman**, “come”. |
+| e/ē, i/ī, æ/ǣ, or a front diphthong | **ch** as in *chin* | **cealf**, “calf”, begins with **ch**. |
+
+These are useful defaults, with lexical exceptions. **Cēlan**, “cool”, begins with **k** despite **ē**. Both **c** letters in **cyrice**, “church”, are **ch**: learn its initial sound with the word, rather than deducing it from **y**. Keep all three syllables, including the final **e**.
+
+**3. Inside or at the end of a word, use the neighbours of c.** Before another consonant, the ordinary sound is **k**. Immediately after **i/ī**, use **ch** when **c** ends the word or is followed by a vowel other than **a/ā, o/ō, u/ū**. The second **c** of **cyrice** follows this pattern. A following back vowel instead gives the ordinary **k** pattern.
+
+Compare **dīc**, “ditch; dike”, with **dīcas**, “ditches; dikes”. Final **c** after **ī** has **ch**; before the **a** of the longer form it has **k**. An ending can therefore change the consonant sound. In other positions **k** is the ordinary starting point, but some words need a supplied pronunciation. Do not extend the after-**i/ī** rule to every front vowel.
+
+Learn **sēcan**, “seek”, as a supplied exception: its **c** is **ch** as in *chin*, despite the following **a**. The back-vowel pattern does not override a word's stated pronunciation.
+
+**4. For single g, first decide whether it has the consonant sound y in *yes*.**
+
+| Position | Ordinary g sound | Model |
+| --- | --- | --- |
+| At the beginning, immediately before a front vowel or front diphthong | **y** as in *yes* | **giefan**, “give”. The prefix **ge-** also begins with this sound. |
+| After a front vowel, at the end or when no back vowel immediately follows | **y** as in *yes* | **dæg**, “day”, ends with **y**. A following consonant does not by itself require hard **g**. |
+
+Otherwise use the non-**y** branch below, unless a word has a supplied exceptional pronunciation. At the beginning, a consonant between **g** and a later front vowel prevents the first row from applying: look at the immediate neighbour. The **g** rule after a front vowel is broader than the **c** rule after **i/ī**; keep them distinct. The earlier caution about **y/ȳ** still applies.
+
+**5. For non-y g, decide between stopped and continuous g.**
+
+| Position | Sound | Model |
+| --- | --- | --- |
+| At the beginning; after n; in a supplied hard doubled consonant | Stopped **g**, as in *go* | **god**, “god”; **lang**, “long”; **docga**, “dog”. |
+| Elsewhere | The continuous voiced back sound described below | **fugol**, “bird”: single **g** between back vowels. |
+
+For the continuous **g**, put the back of the tongue near the position for hard **g**, but leave a narrow gap. Let air pass continuously while the throat vibrates: the sound can be held, unlike the stopped **g** of *go*. Its phonetic sign is **[ɣ]**. Do not omit it or substitute **y**. First selecting the **y** or non-**y** branch prevents this rule from changing the final sound of **dæg** into continuous **g**.
+
+These patterns let you decide regular new examples. Where a word or form has an exceptional pronunciation, use its stated sound; spelling alone does not settle every case. The practice below supplies any required exception. No historical derivation is required.
 
 ### h and sounded clusters
 
@@ -108,69 +141,69 @@ With a doubled stop, hold the closure longer. In **habban**, “have”, keep th
 
 Written unstressed vowels remain audible and distinguishable. In **męte**, “food”, there are two syllables, and final **e** is a light *bet* vowel. In **fugol**, “bird”, there are also two syllables; its **o** is heard. Do not reduce every ending to the **uh** at the beginning of modern *about*.
 
-The main stress normally falls on the first syllable, as in **habban**, “have”, and **heofonan**, “heaven”. Prefixes complicate this: **ge-** is unstressed, **be-** and **for-** usually are, and a prefixed verb generally stresses its root. In **gescēop**, “created”, stress **scēop**, not **ge-**. A macron indicates duration regardless of which syllable is stressed.
+The main stress normally falls on the first syllable, as in **habban**, “have”. Prefixes complicate this: **ge-** is unstressed, **be-** and **for-** usually are, and a prefixed verb generally stresses its root. When **ge-** precedes a one-syllable root, the word has two syllables and the root receives the stress. A supplied division identifies the prefix where needed. A macron indicates duration regardless of which syllable is stressed.
 
 For these careful reading exercises, observe printed length. In connected speech, unstressed function words and prefixes could be shorter than their conventional written macrons suggest. This does not authorize adding, removing, or moving marks in the course text.
 
 ## 7. Practice
 
-The following tasks are new teaching material. Meanings are supplied throughout. Use the guide's sound convention; no translation or grammatical analysis is required.
+The following tasks are new teaching material. Meanings are supplied throughout. Apply the guide's sound patterns to the new words; no translation or grammatical analysis is required. Give an English sound cue or the taught mouth instruction, not a phonetic transcription.[9]
 
-### A. Length contrasts
+### A. Vowels and length
 
-Read each pair and identify the long vowel.
+Read each word aloud. Keep duration separate from stress, and give each diphthong one syllable.
 
 <!-- item: PRON-P01a -->
 
-**A1.** **ac**, “but”; **āc**, “oak”.
+**A1.** **for**, “for”; **fōr**, “went”. What changes in the vowel? Give its sound and duration in each word.
 
 <!-- item: PRON-P01b -->
 
-**A2.** **is**, “is”; **īs**, “ice”.
+**A2.** **węnde**, “went”; **wēnde**, “thought; supposed”. Explain the vowel contrast. Does the hook under **ę** require a sound different from ordinary short **e**? Keep the final **e** audible in both words.
 
 <!-- item: PRON-P01c -->
 
-**A3.** **god**, “god”; **gōd**, “good”.
+**A3.** **dǣd**, “deed”; **wīd**, “wide”; **hȳdan**, “hide; conceal”. Give the sound of each marked vowel. Explain how the lips distinguish **ȳ** from **ī**, then read all three words.
 
 <!-- item: PRON-P01d -->
 
-**A4.** **full**, “full”; **fūl**, “vile”.
+**A4.** **eall**, “all”; **scēap**, “sheep”; **heorte**, “heart”; **frēond**, “friend”; **scield**, “shield”; **gīet**, “yet; still”. For each diphthong, give its starting sound and movement, and say whether the first part is short or long. Count the syllables in each word without giving the diphthong two beats.
 
 ### B. Consonants and unfamiliar sounds
 
-Give the taught sound or mouth instruction for the indicated letters, then read the word.
+Choose the sound of the indicated letters and explain which position or neighbouring sound selects it. Then read the whole word. Check combinations before single letters.
 
 <!-- item: PRON-P02a -->
 
-**B1.** **c** in **cuman**, “come”.
+**B1.** **c** in **cēosað**, “choose” (a plural form). Which initial-**c** pattern applies?
 
 <!-- item: PRON-P02b -->
 
-**B2.** Both **c** letters in **cyrice**, “church”.
+**B2.** **c** in **micel**, “large; great”, and **micles**, “large; great” (a declined form). Do the two forms have the same consonant sound? Explain from the immediate neighbours of **c**.
 
 <!-- item: PRON-P02c -->
 
-**B3.** **c** in **cēlan**, “cool”.
+**B3.** **g** in **gān**, “go; walk”, and **glæd**, “glad”. Does the **æ** of the second word make its initial **g** a **y** sound? Apply both stages of the **g** decision.
 
 <!-- item: PRON-P02d -->
 
-**B4.** **g** in **giefan**, “give”.
+**B4.** **g** in **fæger**, “beautiful; fair”, and **regn**, “rain”. Decide from the sounds before and after **g**. Does the following **n** require stopped **g** in the second word?
 
 <!-- item: PRON-P02e -->
 
-**B5.** **g** in **fugol**, “bird”.
+**B5.** **g** in **āgan**, “have; possess”. Choose among **y**, stopped **g**, and continuous **g**, and explain both decisions. Show with the tongue and airflow how to make the selected sound.
 
 <!-- item: PRON-P02f -->
 
-**B6.** **sc** in **scip**, “ship”.
+**B6.** **cg** in **brycg**, “bridge”, and **ng** in **singan**, “sing”. Which English cue fits each combination? Keep the short rounded vowel of **brycg** distinct from ordinary English **i**.
 
 <!-- item: PRON-P02g -->
 
-**B7.** **h** in **niht**, “night”.
+**B7.** **h** in **riht**, “right; direct”, and **dohtor**, “daughter”. What changes in the tongue position, and which vowel causes the change? Keep the following **t** audible in both words.
 
 <!-- item: PRON-P02h -->
 
-**B8.** **y** in **wyrt**, “herb; plant”.
+**B8.** **sc** in **scūfan**, “thrust”, and **cw** in **cwæð**, “said”. Decide whether each spelling gives one consonant sound or a sequence. Does the back vowel **ū** require a separate **k** in the first word?
 
 ### C. Voice
 
@@ -178,27 +211,27 @@ State whether the indicated sound is voiced or unvoiced. Give its English sound 
 
 <!-- item: PRON-P03a -->
 
-**C1.** **f** in **cnīf**, “knife”.
+**C1.** **f** in **ǣfre**, “ever; always”. Identify the sounds on both sides; they need not both be vowels.
 
 <!-- item: PRON-P03b -->
 
-**C2.** **f** in **cnīfas**, “knives”.
+**C2.** Both **f** letters in **fīf**, “five”. Decide each from its position rather than copying the pronunciation of modern English *five*.
 
 <!-- item: PRON-P03c -->
 
-**C3.** **s** in **rīsan**, “rise”.
+**C3.** **s** and final **ð** in **cēosað**, “choose” (a plural form). Does one voicing decision apply to both letters?
 
 <!-- item: PRON-P03d -->
 
-**C4.** **s** in **hūs**, “house”.
+**C4.** **f** and **ð** in **hæfð**, “has”. Begin with the word-final consonant, then use its voicing to decide the preceding **f**.
 
 <!-- item: PRON-P03e -->
 
-**C5.** **ð** in **ōðer**, “other”.
+**C5.** **ð** in **cwæð**, “said”. Would replacing its spelling with thorn, **þ**, change the sound? Explain the role of position and the choice of letter.
 
 <!-- item: PRON-P03f -->
 
-**C6.** **ð** in **hǣlðu**, “health”.
+**C6.** Compare **ð** in **hǣlðu**, “health”, with **f** in **ǣfre**, “ever; always”. The unvoiced **th** in **hǣlðu** is supplied lexical information from §5. Explain why that fact takes precedence over the ordinary between-voiced-sounds rule, while the ordinary rule applies to **ǣfre**. This is an exception comparison, not a request to deduce the exception from its spelling.
 
 ### D. Syllables and stress
 
@@ -206,19 +239,19 @@ Give the number of syllables and identify the stressed one. Identify any doubled
 
 <!-- item: PRON-P04a -->
 
-**D1.** **habban**, “have”.
+**D1.** **sittan**, “sit”. Does prolonging **tt** lengthen **i**, or add a syllable?
 
 <!-- item: PRON-P04b -->
 
-**D2.** **fugol**, “bird”.
+**D2.** **sunne**, “sun”. Keep the last vowel distinct. Explain the duration of **nn** and whether it changes the syllable count.
 
 <!-- item: PRON-P04c -->
 
-**D3.** **heofonan**, “heaven”.
+**D3.** **gewrit**, “letter; written document”; division **ge-writ**. Apply the prefix rule to stress, and pronounce both **w** and **r** without inserting another vowel.
 
 <!-- item: PRON-P04d -->
 
-**D4.** **gescēop**, “created”.
+**D4.** **forlǣtan**, “abandon; forsake”; division **for-lǣtan**. This is a prefixed verb. Locate its stress from the prefix rule, and explain what the macron tells you separately.
 
 ### E. A sentence adapted from Cook
 
@@ -228,35 +261,36 @@ This sentence adapts the opening of Cook's Creation reading.[8]
 
 “God created heaven and earth.”
 
-| Word | Supplied meaning | Pronunciation help |
-| --- | --- | --- |
-| God | God | One syllable; hard **g** and short rounded **o**. |
-| gescēop | created | Two syllables; stress the second. Initial **g** is **y** as in *yes*; **sc** is **sh**. Keep the first **e** light, and make long **ēo** one glide. |
-| heofonan | heaven | Three syllables; stress the first. **eo** is one short glide; **f** is voiced, as in *van*. Keep both following vowel syllables. |
-| and | and | A light connective; keep the final **d** audible. |
-| eorðan | earth | Two syllables; stress the first. **eo** is one short glide; **ð** is voiced, as in *this*. Keep the final **-an** audible. |
+| Word | Supplied meaning |
+| --- | --- |
+| God | God |
+| gescēop | created |
+| heofonan | heaven |
+| and | and |
+| eorðan | earth |
 
-Read the complete sentence, using the supplied help, then answer these sound questions.
+The verb has the division **ge-scēop**, with prefix **ge-**. The sentence's meaning and grammatical forms are supplied; apply the pronunciation rules to read it aloud, then answer these sound questions.
 
 <!-- item: PRON-P05a -->
 
-**E1.** Which sounds do **g** and **sc** have in **gescēop**, “created”? Explain its two syllables.
+**E1.** Which sounds do **g** and **sc** have in **gescēop**, “created”? Explain the rules you use. Count its syllables and place the stress, keeping **ēo** one glide.
 
 <!-- item: PRON-P05b -->
 
-**E2.** Why is **f** voiced in **heofonan**, “heaven”?
+**E2.** What sound does **f** have in **heofonan**, “heaven”? Identify its neighbours and explain your decision. Count the word's syllables.
 
 <!-- item: PRON-P05c -->
 
-**E3.** Why is **ð** voiced in **eorðan**, “earth”, even though the preceding letter is not a vowel?
+**E3.** What sound does **ð** have in **eorðan**, “earth”? Identify its neighbours and explain why the ordinary rule applies even though one neighbour is a consonant.
 
 ## Source notes
 
 1. Cook, *A First Book in Old English*, second edition (1895), §§2–4, pp.5–6 / PDF21–22; Fulk, *An Introductory Grammar of Old English*, corrected open-access reprint (2020), §§15–16, pp.10–12 / PDF22–24. Fulk's teaching dots are omitted in the selected examples; **hǣlðu, forðām** replace his thorn with the course's eth. These declared spelling changes do not change their selected sounds.
 2. Fulk §§12,16,19, pp.10–11,13–14 / PDF22–23,25–26, permits the traditional short-vowel approximations used here. Held *cat* for **ǣ** follows Fulk. Cook §5, pp.6–7 / PDF22–23, also offers practical approximations, but some of his English cues suit other accents. American cue adjustments are teaching aids.
 3. Fulk §§20–21, p.14 / PDF26; **giefan**, §135a, p.103 / PDF115. The rounded diphthongs follow Fulk's declared convention. Cook's §5 table, p.7 / PDF23, gives different component vowels; the two descriptions are not interchangeable.
-4. Fulk §§16,18,135a–d, pp.11–13,103–104 / PDF23–25,115–116; Cook §§7,10, pp.8–9 / PDF24–25. The named exceptions bound the general spelling tendencies.
+4. Fulk §§16,18,135a–d, pp.11–13,103–104 / PDF23–25,115–116; Cook §§7,10, pp.8–9 / PDF24–25. **Cealf, dīc, dīcas** follow Fulk §135b, with his pronunciation overpoints omitted; Cook's vocabulary, p.283 / PDF299, also gives **dīc**. For **sēcan**, Cook's vocabulary, p.311 / PDF327, supplies the form and meaning as a headword variant; Fulk §135b supports the **ch** value with its explicitly prefixed infinitive example. The conditions for noninitial **c** are narrower than those for **g**. Earlier vowel changes, later endings and analogy explain some exceptions to the practical spelling patterns; the sound-history appendix treats these matters separately.
 5. Cook §§7,10, pp.8–9 / PDF24–25; Fulk §§9,16,18, pp.8,11–13 / PDF20,23–25. American **r** is a practical approximation. The **k+s** reading of **x/hs** follows Cook's practical value; Fulk also records an earlier h-like sound before **s**. Neither source requires a trill in these practical descriptions.
 6. Fulk §17, p.12 / PDF24, supplies the voicing rule and exceptions used here. Cook §8, pp.8–9 / PDF24–25, gives a broader syllable-final voicing rule. This guide selects Fulk's account.
 7. Cook §11, pp.9–10 / PDF25–26, distinguishes prolonged medial doubling from final double spellings, normally read with single-consonant duration. See also Cook §23, pp.18–19 / PDF34–35, and Fulk §§17,19,22–23, pp.12–15 / PDF24–27. Printed vowel length and stress are distinct; connected-speech shortening does not require changing the edited spelling.
-8. Adapted from Cook, Reader I, p.123 / PDF139, first prose line: remove **On anginne**, move **God** before the verb, and omit the three apparatus cues. The retained words are not respelled. The original sentence and notes remain in the source transcription. The adaptation's full meaning and pronunciation help are supplied here.
+8. Adapted from Cook, Reader I, p.123 / PDF139, first prose line: remove **On anginne**, move **God** before the verb, and omit the three apparatus cues. The retained words are not respelled. The original sentence and notes remain in the source transcription. The full meaning and grammatical forms are supplied here; the sound questions apply the guide's rules. The separate **ge-scēop** division identifies a prefix and does not respell the reading.
+9. The new practice forms are checked against Fulk §§16–24,135, pp.11–15,103–104 / PDF23–27,115–116; Cook §§4–5,53,121, pp.6–7,37,74 / PDF22–23,53,90, Reader I p.123 / PDF139, and vocabulary pp.283,288–289,296,309–312 / PDF299,304–305,312,325–328. **Hȳdan** is printed in Cook, *Exercises in Old English*, V.18.9, p.9 / PDF17; the original exercise is unchanged. “Thought; supposed” modernizes Cook's gloss “weened” for **wēnde**. Dictionary division hyphens in **gewrit** and **forlǣtan** are omitted, as elsewhere in the course; their separate practice divisions identify the prefixes.

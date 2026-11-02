@@ -60,6 +60,7 @@ def main():
     parser.add_argument("--build", action="store_true")
     parser.add_argument("--document", choices=["old-english", "english"])
     parser.add_argument("--report", default="build/glossary-export-check.json")
+    parser.add_argument("--revision", help="Versioned current-inventory bridge; historical checks remain the default")
     args = parser.parse_args()
     errors = []
     def check(condition, message):
@@ -70,12 +71,28 @@ def main():
     en = {e["entry_id"]: e for e in data["english_entries"]}
     forms = read("glossaries/form-lookup.json")
     routes = {r["surface"]: r for r in forms["forms"]}
-    inventory = read("sources/audits/glossaries/old-english/inventory.json")
+    bridge = current_tasks = revision_tools = None
+    if args.revision:
+        import refresh_opening_glossary_inventory as revision_tools
+        try:
+            bridge = revision_tools.load_revision(ROOT, args.revision)
+            inventory, current_tasks, revision_errors = revision_tools.validate_retained(ROOT, bridge)
+            errors.extend(revision_errors)
+        except (OSError, ValueError, KeyError, TypeError) as exc:
+            parser.error("Invalid revision bridge/inventory: " + str(exc))
+    else:
+        inventory = read("sources/audits/glossaries/old-english/inventory.json")
     for surface, lemmas, *_ in inventory["surfaces"]:
         check(surface in routes, "Missing corpus surface: " + surface)
         if surface in routes:
             check(set("OE-" + lid for lid in lemmas) <= set(routes[surface]["entry_ids"]), "Lost lemma route: " + surface)
     check(len(routes) == len(inventory["surfaces"]), "Unexpected surface inventory change")
+    if bridge:
+        check(len(routes) == len(forms["forms"]), "Duplicate current surface route")
+        for surface, _, _, first_path, first_line, *_ in inventory["surfaces"]:
+            if surface in routes:
+                check(routes[surface].get("first_location") == {"path": first_path, "line": first_line},
+                      "Stale current surface location: " + surface)
     for row in forms["forms"]:
         for eid in row["entry_ids"]:
             check(eid in oe, "Dangling form route: " + eid)
@@ -89,7 +106,15 @@ def main():
     excluded_pp = {r["excluded_form_id"] for r in approved["old_english"]["base_participle_exclusions"]}
     dictionary = read("glossaries/dictionary-presentation.json")
     reference_forms = {f["form_id"]: f for e in dictionary["verb_entries"] for f in e["glossary_only_reference_forms"]}
+    display_aliases = {}
+    if bridge:
+        reference_forms = revision_tools.merge_reference_forms(dictionary, bridge, errors)
+        display_aliases = revision_tools.validate_aliases(bridge, oe, en, register, errors)
     diagnostic_sources = {**all_register_forms, **reference_forms}
+    if bridge:
+        for fid in set(all_register_forms) & set(reference_forms):
+            check(all_register_forms[fid]["form"] == reference_forms[fid]["form"],
+                  "Reference form conflicts with registered spelling: " + fid)
     for e in oe.values():
         if e["lemma_id"] not in register_lemmas:
             continue
@@ -109,7 +134,27 @@ def main():
             check(all(fid in diagnostic_sources for fid in d["form_ids"]), "Unknown printed diagnostic source: " + e["entry_id"])
             if d["label"] == "past ptcp.":
                 check(not excluded_pp.intersection(d["form_ids"]), "Inflected principal part in print: " + e["entry_id"])
-    for policy in dictionary["verb_entries"]:
+                if bridge:
+                    for fid in d["form_ids"]:
+                        analysis = diagnostic_sources.get(fid, {}).get("analysis", {})
+                        check(not isinstance(analysis, dict) or not any(analysis.get(k) for k in ["case", "gender", "number", "declension"]),
+                              "Inflected reference form used as base participle: " + e["entry_id"] + " / " + fid)
+    policies = dictionary["verb_entries"] + (bridge.get("verb_entries", []) if bridge else [])
+    if bridge:
+        policy_ids = [p["entry_id"] for p in policies]
+        check(len(policy_ids) == len(set(policy_ids)), "Additive verb policy duplicates an existing entry")
+        for policy in bridge.get("nonverbal_overrides", []):
+            eid = policy["entry_id"]
+            check(eid in oe, "Dangling additive nonverbal policy: " + eid)
+            if eid in oe:
+                for d in policy.get("printed_diagnostics", []):
+                    check(d in oe[eid]["printed_diagnostics"], "Additive nonverbal diagnostic missing: " + eid)
+                for note in policy.get("dictionary_notes", []):
+                    check(note in oe[eid].get("dictionary_notes", []), "Additive dictionary note missing: " + eid)
+    for policy in policies:
+        if bridge and policy["entry_id"] not in oe:
+            check(False, "Dangling additive verb policy: " + policy["entry_id"])
+            continue
         actual = oe[policy["entry_id"]]["printed_diagnostics"]
         for d in policy["printed_diagnostics"]:
             check(d in actual, "Reviewed principal part lost: " + policy["entry_id"] + " / " + d["label"])
@@ -133,16 +178,29 @@ def main():
     check(data["cross_references"] == dictionary["cross_references"], "Selective cross-reference policy differs")
     tasks = read("glossaries/exercise-lookup.json")["tasks"]
     task_map = {t["task_id"]: t for t in tasks}
-    originals = read("sources/audits/glossaries/english/exercise-inventory.json")["items"]
+    originals = current_tasks["items"] if bridge else read("sources/audits/glossaries/english/exercise-inventory.json")["items"]
     check(set(task_map) == {t["task_id"] for t in originals}, "Exercise identity mismatch")
+    if bridge:
+        check(len(task_map) == len(tasks), "Duplicate current exercise lookup")
     for t in originals:
+        if bridge and t["task_id"] not in task_map:
+            continue
         actual = task_map[t["task_id"]]
         check(set(t.get("required_sense_ids", [])) <= set(actual["required_sense_ids"]), "Lost exercise sense: " + t["task_id"])
-        covered = {s for eid in actual["english_entry_ids"] for r in en[eid]["routes"] for s in r["sense_ids"]}
+        if bridge:
+            check(set(actual["english_entry_ids"]) <= set(en), "Dangling task English entry: " + t["task_id"])
+            check(not actual.get("missing_senses"), "Unresolved current exercise lookup: " + t["task_id"])
+            check(set(actual["required_sense_ids"]) == set(t["required_sense_ids"]), "Stale current exercise sense set: " + t["task_id"])
+            if t["chapter_id"] == "pronunciation":
+                check(not actual["required_sense_ids"] and not actual["english_entry_ids"],
+                      "Sound-only task gained translation requirements: " + t["task_id"])
+        covered = {s for eid in actual["english_entry_ids"] if eid in en for r in en[eid]["routes"] for s in r["sense_ids"]}
         check(set(actual["required_sense_ids"]) <= covered, "Uncovered exercise: " + t["task_id"])
     boundary = read("glossaries/course-boundary.json")
     preserved = boundary.get("files", [])
-    for row in preserved:
+    # Revision validation above already checks every protected file against
+    # either its frozen hash or its exact explicitly authorized replacement.
+    for row in ([] if bridge else preserved):
         raw = (ROOT / row["path"]).read_bytes()
         expected = row.get("sha256", row.get("raw_sha256"))
         check(hashlib.sha256(raw).hexdigest() == expected, "Protected course changed: " + row["path"])
@@ -163,6 +221,11 @@ def main():
             for eid, e in oe.items():
                 paragraph = normalized(md_plain(paragraphs.get(eid, "")))
                 for sense in e["senses"]:
+                    if bridge and display_aliases.get(sense["sense_id"], {}).get("entry_id") == eid:
+                        # The same entry's existing target definition is still
+                        # checked below. The alias itself was verified against
+                        # both actual register/OE senses and explicit EN routes.
+                        continue
                     if sense["sense_id"] in e.get("printed_sense_overrides", {}):
                         text = e["printed_sense_overrides"][sense["sense_id"]]
                         check(normalized(text.rstrip(" .")) in paragraph, "Reviewed sense display missing: " + eid + " / " + sense["sense_id"])
@@ -211,6 +274,11 @@ def main():
                          "cross_references": len(data["cross_references"]), "tasks": len(tasks), "register_senses": len(expected_senses),
                          "protected_files": len(preserved)}, "errors": errors,
               "limits": "Structural/text checks only; independent linguistic and every-page visual review are required."}
+    if bridge:
+        result["revision"] = {"id": bridge["revision_id"], "bridge": args.revision,
+                              "bridge_sha256": hashlib.sha256((ROOT / args.revision).read_bytes()).hexdigest(),
+                              "inventories": bridge["current"], "sense_display_aliases": display_aliases,
+                              "protected_files_checked": len(preserved)}
     target = ROOT / args.report
     target.parent.mkdir(parents=True, exist_ok=True)
     target.write_text(json.dumps(result, ensure_ascii=False, indent=2) + "\n", encoding="utf-8", newline="\n")

@@ -1,0 +1,610 @@
+{
+  "schema_version": 1,
+  "review_id": "opening-unit1-prerequisites",
+  "date": "2026-11-02",
+  "reviewer": "/root/sound_fulk",
+  "status": "bounded_preflight_complete",
+  "scope": "Check the ten-form subject-pronoun contract against existing Unit 2 evidence and resolve supplied lexical pronunciation information for cynn and gærs. This is not acceptance of the revised Unit 1 prose, exercises, key, register integration or exports.",
+  "independence": {
+    "unit1_key_accessed": false,
+    "unit1_author_models_accessed": false,
+    "shared_files_modified": false,
+    "beads_or_git_commands_run": false,
+    "learner_prose_authored": false
+  },
+  "inputs": [
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "1042877c0cfd750f24300c0555004c476c4ee3ec231d9cf5b40dd57d557f0669"
+    },
+    {
+      "path": "sources/audits/unit02-grammar/paradigms.json",
+      "sha256": "b15464c9adde174d0f4e90857c8be021a9c9bd1647bb45ffb6634633df72b694"
+    },
+    {
+      "path": "sources/audits/unit02-grammar/report.md",
+      "sha256": "3e58d05493b365686ebdbe71cd5975f161d9dde6f97d9386378e8b06301d2704"
+    },
+    {
+      "path": "chapters/ch02/coverage.json",
+      "sha256": "a2dae3afade830d28da5bb2ec52bc0234fee89be58a26f6feb49c22d27518926"
+    },
+    {
+      "path": "sources/audits/unit02-supplementary/dual-agreement.md",
+      "sha256": "6aba11c36ca5a911c36570e12e6ad531dc99a0c765e0cdd47ef9843333174a37"
+    },
+    {
+      "path": "guides/pronunciation/student.md",
+      "sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d"
+    },
+    {
+      "path": "sources/registry.json",
+      "sha256": "536e716d97d97e9e25a0c24709dd30bc0725b1d940ed09a158cc5ee649ae244e"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "70cf8a133fef85d7b6c8324f3205c6d124bf82fcdebeb2e2a497aaf9b476593d"
+    },
+    {
+      "path": "EDITORIAL_POLICY.md",
+      "sha256": "21522b502527ecc0a3dd3cb8cd69be314c11ad07633b8cda10befed51dc2d3e8"
+    }
+  ],
+  "primary_pdfs": [
+    {
+      "path": "sources/cache/cook_fb_1895_2.pdf",
+      "sha256": "693537064f0dc335b6dd9e57079e07e2e5311383c9b102406019bbf4fb70d0f3"
+    },
+    {
+      "path": "sources/cache/fulk-2020.pdf",
+      "sha256": "b014804dba3b3154de19a9062fef6485fd85a9a71c093f743c01b2be515ed0e4"
+    },
+    {
+      "path": "sources/cache/wright_oe_1914.pdf",
+      "sha256": "04e1fed8e1fa1c54d9f9b1a1754598232946f44d411541a7248905a9ccdbce9c"
+    },
+    {
+      "path": "sources/cache/ringe-taylor-2014-preview.pdf",
+      "sha256": "48972628b9f7d2ba2a92e07d99b53358247ab7705926862893ec2e88814f0f59"
+    }
+  ],
+  "subject_inventory": [
+    {
+      "form_id": "ic-nom-sg",
+      "form": "ic",
+      "analysis": {
+        "person": 1,
+        "number": "singular",
+        "gender": null,
+        "case": "nominative"
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    },
+    {
+      "form_id": "thu-nom-sg",
+      "form": "ðū",
+      "analysis": {
+        "person": 2,
+        "number": "singular",
+        "gender": null,
+        "case": "nominative"
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    },
+    {
+      "form_id": "he-m-nom-sg",
+      "form": "hē",
+      "analysis": {
+        "case": "nominative",
+        "number": "singular",
+        "gender": "masculine",
+        "person": 3
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    },
+    {
+      "form_id": "he-n-nom-sg",
+      "form": "hit",
+      "analysis": {
+        "case": "nominative",
+        "number": "singular",
+        "gender": "neuter",
+        "person": 3
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    },
+    {
+      "form_id": "he-f-nom-sg",
+      "form": "hēo",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "f",
+        "case": "nominative"
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    },
+    {
+      "form_id": "ic-nom-dual",
+      "form": "wit",
+      "analysis": {
+        "person": 1,
+        "number": "dual",
+        "gender": null,
+        "case": "nominative"
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    },
+    {
+      "form_id": "thu-nom-dual",
+      "form": "git",
+      "analysis": {
+        "person": 2,
+        "number": "dual",
+        "gender": null,
+        "case": "nominative"
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    },
+    {
+      "form_id": "ic-nom-pl",
+      "form": "wē",
+      "analysis": {
+        "person": 1,
+        "number": "plural",
+        "gender": null,
+        "case": "nominative"
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    },
+    {
+      "form_id": "thu-nom-pl",
+      "form": "gē",
+      "analysis": {
+        "person": 2,
+        "number": "plural",
+        "gender": null,
+        "case": "nominative"
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    },
+    {
+      "form_id": "he-nom-pl",
+      "form": "hīe",
+      "analysis": {
+        "person": 3,
+        "number": "plural",
+        "gender": null,
+        "case": "nominative"
+      },
+      "matches_prior_unit2_selected_spelling": true,
+      "source_evidence": "U01PRE-COOK81",
+      "status": "source_supported_for_nominative_subject_only",
+      "bounded_scope": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted."
+    }
+  ],
+  "subject_scope_findings": [
+    {
+      "id": "U01PRE-S01",
+      "severity": "passed",
+      "finding": "All ten contracted forms match the existing image-verified Unit 2 selection. Together they exhaust the selected nominative subject inventory; the source has no third-person dual form. The target is complete for this explicit nominative scope, not a claim to teach the full forty-cell personal declension."
+    },
+    {
+      "id": "U01PRE-S02",
+      "severity": "passed",
+      "finding": "The contract creates bounded ic-subject, thu-subject and he-subject senses rather than promoting the broad Unit 2 sense records. Its actual personal-pronoun form inventory contains only the ten nominative records. Neuter hit and plural hīe do not thereby acquire accusative production; feminine accusative hīe, his/hiere/hiera, dative forms, reflexive uses and possessive constructions remain outside this promotion."
+    },
+    {
+      "id": "U01PRE-S03",
+      "severity": "passed",
+      "finding": "u01-subject-pronouns, u01-dual-subject-agreement and u01-subject-pronoun-reference are bounded features with defined teaching records. Dual subjects take ordinary plural copula forms, directly supported by the prior supplementary evidence. The separate grammatical-gender/number subject-reference feature avoids importing Unit 2's object, recipient or reflexive reference constructions."
+    },
+    {
+      "id": "U01PRE-S04",
+      "severity": "integration_requirement_already_declared",
+      "finding": "The subject senses currently have empty used_in_tasks and assessed_in arrays, while feature bindings remain provisional broad COP01–COP06 lists. The contract explicitly requires final task/example dependencies before acceptance. Reconcile these against the actual revised prompts and reading uses; this preflight does not treat provisional arrays as completed assessment evidence."
+    },
+    {
+      "id": "U01PRE-S05",
+      "severity": "scope_boundary",
+      "finding": "Ordinary plural subjects must not be described as excluding groups of exactly two. A task that demands a dual form should explicitly select the two-person expression. Displayed source variants such as hī, hīo or feminine hīe are not added recall targets by this review."
+    }
+  ],
+  "pronunciation_findings": [
+    {
+      "id": "U01PRE-P01",
+      "word": "cynn",
+      "severity": "required_supplied_word_information",
+      "finding": "The revised guide deliberately makes initial c/g before y/ȳ depend on word information. Unit 1 therefore needs a concise supplied indication that cynn begins with k. This is directly supported by Fulk's headword plus his explicit plain-c key; no new phonological rule or historical explanation is required.",
+      "evidence_refs": [
+        "U01PRE-FULK18",
+        "U01PRE-FULK-CYNN"
+      ],
+      "accepted_sound_fact": "initial c has the k sound",
+      "origin_category": "source_supported_supplied_lexical_fact",
+      "quantity_boundary": "Retain short y and the source/course double n; no new length or spelling is inferred."
+    },
+    {
+      "id": "U01PRE-P02",
+      "word": "gærs",
+      "severity": "required_supplied_exception",
+      "finding": "The guide's front-vowel default would encourage a y reading unless the vocabulary supplies the exception. The registered Wright source explicitly connects gærs to græs and classifies græs under guttural g; with §314 this supports the guide's ordinary stopped initial g. This is a declared synthesis of the inspected source statements, not a verbatim phonetic transcription of gærs and not a claim that Fulk prints this word.",
+      "evidence_refs": [
+        "U01PRE-WRIGHT315",
+        "U01PRE-WRIGHT345",
+        "U01PRE-WRIGHT280"
+      ],
+      "accepted_sound_fact": "initial g is the voiced stop, as the g of English go",
+      "origin_category": "declared_editorial_synthesis_from_explicit_source_lexical_connection_and_sound_classification",
+      "quantity_boundary": "Retain short æ and the course spelling gærs. The note adds neither a different dialect nor a reconstructed spelling to learner vocabulary."
+    }
+  ],
+  "evidence": [
+    {
+      "id": "U01PRE-COOK81",
+      "source_id": "cook_fb_1895_2",
+      "printed_pages": [
+        48,
+        49
+      ],
+      "pdf_pages_one_based": [
+        64,
+        65
+      ],
+      "original_identifier": "§81",
+      "finding": "The nominatives are ic, ðū; wit, git; wē, gē; hē, hit, hēo; and plural hī(e). The selected hīe resolves Cook's optional e without changing the printed quantity. The source table explicitly distinguishes first/second dual from plural and third-singular masculine/neuter/feminine.",
+      "origin_category": "exact_source_forms; declared optional-e selection for hīe",
+      "image_evidence": [
+        {
+          "path": "sources/audits/unit02-grammar/cook-fb-p48.png",
+          "sha256": "d6bf1341dc7d9d58044d1a25866fce51662a04a9d348c8812ed2881a8c0c78ea",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        },
+        {
+          "path": "sources/audits/unit02-grammar/cook-fb-p49.png",
+          "sha256": "839ea0f0c3a8e84fdd4a4f82139c5be36c5f507015875ec25c1086b27526c55b",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        }
+      ]
+    },
+    {
+      "id": "U01PRE-DUAL",
+      "source_id": "ringe_taylor_2014",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages_one_based": [
+        21
+      ],
+      "original_identifier": "§1.1.2, 63-page publisher preview",
+      "finding": "The first paragraph explicitly states that plural verb forms are used with dual pronoun subjects. Only that agreement fact is imported; no alternative Old English spelling or new verbal paradigm is imported.",
+      "origin_category": "exact_source_statement_paraphrased",
+      "image_evidence": [
+        {
+          "path": "build/unit02-dual-ringe-p6.png",
+          "sha256": "a8c21ab08d1ee7268fde45a13c217e301ebf59fa789ccfd72a0562b7649eebc4",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        }
+      ]
+    },
+    {
+      "id": "U01PRE-FULK18",
+      "source_id": "fulk_2020",
+      "printed_pages": [
+        12
+      ],
+      "pdf_pages_one_based": [
+        24
+      ],
+      "original_identifier": "§18",
+      "finding": "Fulk explicitly defines plain c as k and dotted ċ as the affricate. The overpointing is an editorial aid, so the glossary's plain/dotted distinction carries pronunciation information.",
+      "origin_category": "exact_source_statement_paraphrased",
+      "image_evidence": [
+        {
+          "path": "sources/audits/pronunciation/fulk/phonology-05.png",
+          "sha256": "1bde703ca36ac01ffeb7f3877bd25c16974067dada7cc16d603f822ce50033b3",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        }
+      ]
+    },
+    {
+      "id": "U01PRE-FULK-CYNN",
+      "source_id": "fulk_2020",
+      "printed_pages": [
+        265
+      ],
+      "pdf_pages_one_based": [
+        277
+      ],
+      "original_identifier": "Glossary, left column, cyn(n)",
+      "exact_form": "cyn(n)",
+      "finding": "The headword cyn(n), glossed with kind/family/kin and related senses, has plain initial c. The immediately following ċyr(i)ċ-, ċyrran row visibly uses dotted c. Together with §18, this directly supports initial k in course cynn. The source notation covers the double-n spelling; no quantity or dialect change is required.",
+      "origin_category": "exact_source_headword_and_explicit_editorial_pronunciation_key",
+      "image_evidence": [
+        {
+          "path": "build/opening/unit1-review/fulk-p265-pdf277.png",
+          "sha256": "228c9849341e1f5b5ac55ce65acaa324c4f805e46e6a508da7a67ccb802ad0e4",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        }
+      ]
+    },
+    {
+      "id": "U01PRE-FULK135",
+      "source_id": "fulk_2020",
+      "printed_pages": [
+        103
+      ],
+      "pdf_pages_one_based": [
+        115
+      ],
+      "original_identifier": "§135(a–b)",
+      "finding": "The section states the historical conditioning and explicitly warns that the relevant earlier vowel may differ from the written vowel. This supports the guide's lexical-information approach but does not itself print gærs or cynn; it is not a direct lexical citation for either word.",
+      "origin_category": "source_limit_and_rule_context",
+      "image_evidence": [
+        {
+          "path": "sources/audits/pronunciation/fulk/palatalization-01.png",
+          "sha256": "821890c11444e3deee851de67ffe5a4a8579e656061bd9b3b710a8f570cced16",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        }
+      ]
+    },
+    {
+      "id": "U01PRE-COOK10",
+      "source_id": "cook_fb_1895_2",
+      "printed_pages": [
+        9
+      ],
+      "pdf_pages_one_based": [
+        25
+      ],
+      "original_identifier": "§10",
+      "finding": "Cook's compressed rule groups y/ȳ with guttural environments and æ with palatal ones. It supplies neither an explicit gærs exception nor enough lexical information to override the newer guide's bounded y/ȳ caution. Do not cite this general statement as proof of a palatal gærs.",
+      "origin_category": "source_limit",
+      "image_evidence": [
+        {
+          "path": "sources/audits/pronunciation/cook/cook-p009-pdf025.png",
+          "sha256": "a2f70e2487e450954c34fe18814e5cdd46cc302c9b8c0cfe1af03a3e8c7b26f6",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        }
+      ]
+    },
+    {
+      "id": "U01PRE-WRIGHT315",
+      "source_id": "wright_oe_1914",
+      "printed_pages": [
+        156
+      ],
+      "pdf_pages_one_based": [
+        176
+      ],
+      "original_identifier": "§§314–315.1",
+      "exact_form": "græs",
+      "finding": "§315.1 prints græs, grass, in its guttural-ʒ group. §314 says initial guttural ʒ became the voiced stop g before the end of the Old English period, while the palatal variety remained the y sound. This is an explicit back-g classification of græs, not a bare undotted orthographic inference.",
+      "origin_category": "exact_source_form_and_classification",
+      "image_evidence": [
+        {
+          "path": "build/opening/unit1-review/wright-p156-pdf176.png",
+          "sha256": "11352ee293535b709b3473c427f63c75681d72b07bfecab5afc6fa6021f3fece",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        }
+      ]
+    },
+    {
+      "id": "U01PRE-WRIGHT345",
+      "source_id": "wright_oe_1914",
+      "printed_pages": [
+        171
+      ],
+      "pdf_pages_one_based": [
+        191
+      ],
+      "original_identifier": "§345",
+      "exact_excerpt": "gærs from older græs (§ 280), grass",
+      "finding": "The noun list explicitly connects course gærs with the græs classified under guttural g at §315. This is the lexical bridge; it was verified on the image, not supplied from historical memory.",
+      "origin_category": "exact_source_lexical_connection",
+      "image_evidence": [
+        {
+          "path": "build/opening/unit1-review/wright-p171-pdf191.png",
+          "sha256": "46e15a4b167ef2a91eb76df5702726a6ecbb3368dd6431ef6be8aee7533de923",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        }
+      ]
+    },
+    {
+      "id": "U01PRE-WRIGHT280",
+      "source_id": "wright_oe_1914",
+      "printed_pages": [
+        140
+      ],
+      "pdf_pages_one_based": [
+        160
+      ],
+      "original_identifier": "§280",
+      "exact_form": "gærs",
+      "finding": "The section explicitly lists gærs, grass, among examples in which antevocalic r becomes postvocalic by metathesis. It corroborates §345's connection. The Unit 1 learner does not need this historical explanation in order to receive the lexical sound fact.",
+      "origin_category": "exact_source_form_and_process_classification",
+      "image_evidence": [
+        {
+          "path": "build/opening/unit1-review/wright-p140-pdf160.png",
+          "sha256": "c283a204d0a26ac5da53d991240c4c4da85ca2596f5ecd36f5caa92ae3d58105",
+          "actually_viewed": true,
+          "inspection_mode": "full page image at readable resolution; letters, marks, section and printed page checked"
+        }
+      ]
+    }
+  ],
+  "search_limits": [
+    "Existing Cook/Fulk text extractions were used only to locate evidence; all decisive printed forms and statements were read in images.",
+    "No occurrence of gærs/græs or the English gloss grass was located in the cached Fulk text. This is a bounded unsuccessful search, not proof that no such form occurs anywhere in Fulk.",
+    "Cook §31 supplies general r-metathesis examples but not the needed direct lexical sound fact for gærs. His general §10 front-vowel rule does not settle this exception.",
+    "Wright was already registered and cached. Its narrowly inspected corroboration is openly identified; no web source, unregistered edition, or guessed historical ordering was substituted.",
+    "The cynn/gærs notes are supplied sound information for reading existing Unit 1 vocabulary, not new grammar-production targets or independent historical-phonology assessments."
+  ],
+  "coordinator_actions": [
+    "Retain the ten nominative forms and bounded subject senses/features; preserve all later oblique milestones and the historical supplied exposure of hē/hit.",
+    "Provide the two concise lexical sound facts at first-unit vocabulary access and add the precise evidence pointers. The source history belongs in editorial notes, not an expanded introductory rule.",
+    "Bind final subject senses/features/forms to actual revised exercises before acceptance. Then request blind solving of the revised Unit 1 tasks before any key comparison."
+  ],
+  "material_unresolved_source_questions": [],
+  "gaers_chronology_followup": {
+    "date": "2026-11-02",
+    "reason": "Coordinator correctly requested that the earlier guttural-græs/metathesized-gærs connection not be treated as sufficient chronology by itself. Wright §280 names the process but does not date it relative to palatalization.",
+    "original_receipt_sha256": "0328c6d981e67032c735e85944b5a116b75297d9c1720f4d71bb4cb6955793f3",
+    "preservation": "All original input hashes, evidence records, findings and inference labels above are retained. This additive follow-up supplies the missing explicit relative-chronology chain; it does not relabel the result as a verbatim pronunciation witness.",
+    "additional_evidence": [
+      {
+        "id": "U01PRE-WRIGHT66",
+        "source_id": "wright_oe_1914",
+        "original_identifier": "§66 and note 4",
+        "printed_pages": [
+          42,
+          43
+        ],
+        "pdf_pages_one_based": [
+          62,
+          63
+        ],
+        "image_evidence": [
+          {
+            "path": "build/opening/unit1-review/wright-p42-pdf62.png",
+            "sha256": "a59d69bb5298b8af29b69a2403b232f77425d0ee46a676c97e4d6fba3e5a5fe3",
+            "actually_viewed": true,
+            "inspection_mode": "full page image at readable resolution; source statements, examples, section and printed page checked"
+          },
+          {
+            "path": "build/opening/unit1-review/wright-p43-pdf63.png",
+            "sha256": "2b9053070d7dac306e08276f4a034fc54572cc2377d199cea34ee8c27e5ab710",
+            "actually_viewed": true,
+            "inspection_mode": "full page image at readable resolution; source statements, examples, section and printed page checked"
+          }
+        ],
+        "exact_form": "gærs",
+        "exact_bounded_excerpt": "are due to a late metathesis of the r",
+        "finding": "In the discussion of breaking before r plus consonant, note 4 specifically names gærs among the unbroken forms explained by late r-metathesis. The surrounding §66 context supplies the relative reference point for late: the new vowel-plus-r-plus-consonant arrangement was not yet present when breaking applied. This last sentence is an explicit contextual interpretation, not a longer verbatim source statement."
+      },
+      {
+        "id": "U01PRE-WRIGHT85",
+        "source_id": "wright_oe_1914",
+        "original_identifier": "§85 note 1",
+        "printed_pages": [
+          47
+        ],
+        "pdf_pages_one_based": [
+          67
+        ],
+        "image_evidence": [
+          {
+            "path": "build/opening/unit1-review/wright-p47-pdf67.png",
+            "sha256": "1a3cf7cd9842ebabb595dfa91c15958f8ec0e45fdb3b8c538142ec408d157aa1",
+            "actually_viewed": true,
+            "inspection_mode": "full page image at readable resolution; source statements, examples, section and printed page checked"
+          }
+        ],
+        "exact_bounded_excerpt": "Breaking is older than the metathesis of r",
+        "finding": "The source explicitly states the relative chronology, with berstan, fersc and þerscan as its printed examples. It does not print gærs in this note; the specific gærs connection remains §66 note 4 and §345. Do not generalize this statement to every r-metathesis in every word."
+      },
+      {
+        "id": "U01PRE-FULK72",
+        "source_id": "fulk_2020",
+        "original_identifier": "§72, exercise direction",
+        "printed_pages": [
+          46
+        ],
+        "pdf_pages_one_based": [
+          58
+        ],
+        "image_evidence": [
+          {
+            "path": "build/opening/unit1-review/fulk-p46-pdf58.png",
+            "sha256": "b5919c0b6440470de55f408353c8e2a3a1f3fa79cb59a263824671a585c04fe0",
+            "actually_viewed": true,
+            "inspection_mode": "full page image at readable resolution; source statements, examples, section and printed page checked"
+          }
+        ],
+        "finding": "Fulk explicitly directs application of fronting, palatalization, breaking and diphthongization by initial palatals in that order. This supplies palatalization before breaking; no exercise answer or key is needed, read or inferred for this chronological statement."
+      }
+    ],
+    "reasoning_chain": [
+      {
+        "step": 1,
+        "statement": "Wright §315.1 explicitly classifies græs under guttural g; §345 explicitly connects gærs with older græs.",
+        "evidence_refs": [
+          "U01PRE-WRIGHT315",
+          "U01PRE-WRIGHT345"
+        ],
+        "status": "direct_source_statements"
+      },
+      {
+        "step": 2,
+        "statement": "Fulk places the relevant palatalization before breaking. Wright's breaking discussion specifically explains gærs by late r-metathesis, and his §85 note explicitly puts this kind of metathesis after breaking.",
+        "evidence_refs": [
+          "U01PRE-FULK72",
+          "U01PRE-WRIGHT66",
+          "U01PRE-WRIGHT85"
+        ],
+        "status": "source_statements_with_explicit_contextual_connection_for_gaers"
+      },
+      {
+        "step": 3,
+        "statement": "Therefore the vowel did not immediately follow g at the relevant palatalization stage: r still intervened. Fulk §135(a) requires immediate adjacency to the front vowel at that stage. The later written g+æ adjacency cannot retroactively license that change.",
+        "evidence_refs": [
+          "U01PRE-FULK135",
+          "U01PRE-FULK72",
+          "U01PRE-WRIGHT66",
+          "U01PRE-WRIGHT345"
+        ],
+        "status": "declared_editorial_inference"
+      },
+      {
+        "step": 4,
+        "statement": "With the guttural classification retained, Wright §314's later stopped initial outcome supports the guide's ordinary g sound for gærs. This selects the same conventional reading pronunciation used elsewhere in the guide, without claiming that the earliest Old English back g was already a stop.",
+        "evidence_refs": [
+          "U01PRE-WRIGHT315"
+        ],
+        "status": "declared_editorial_application_of_explicit_source_rule"
+      }
+    ],
+    "conclusion": "The initial stopped-g note for gærs is secure as a transparently reasoned synthesis of inspected primary evidence. It is not a direct phonetic transcription of gærs, not a claim that Fulk prints the lexeme, and not an inference merely from present spelling or remembered history.",
+    "direct_phonetic_gaers_witness_claimed": false,
+    "absolute_date_claimed": false,
+    "new_learner_historical_scope": false,
+    "unit1_key_accessed": false,
+    "next_step": "Await the revised Unit 1 learner text for independent solving before key access."
+  }
+}

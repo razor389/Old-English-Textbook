@@ -2,6 +2,8 @@
 
 Settled scope, 22 October 2026. Unit 1 is the sole prerequisite. Its actual coverage contract and cumulative form, sense and construction milestones govern prior knowledge; supplied encounters do not count as teaching. This brief and the reconciled `chapters/ch02/coverage.json` precede learner prose.
 
+The [opening revision of 2 November 2026](../docs/revisions/opening/contract.json) moves only the ten nominative subject forms, bounded subject reference and dual-subject agreement into Unit 1. Here those forms are reviewed in complete four-case tables. The other thirty cells and the broader oblique constructions retain their Unit 2 limits; no exercise or source assignment changes.
+
 ## Source and assignment scope
 
 Teach the personal pronouns and weak present/preterite indicative systems from Cook, *A First Book in Old English*, second edition (1895), §§81–83, 96, 113–124, with the checked sound rules and bounded syntax identified in the [grammar audit](../sources/audits/unit02-grammar/report.md). Its [independent crosscheck](../sources/audits/unit02-reading/grammar-crosscheck.md) distinguishes selected forms from optional variants and rule-based compositions from printed paradigms. Wright corroborates specific morphological points; Ringe and Taylor explicitly establish plural verb forms with dual pronoun subjects. Neither imports a new spelling baseline.
@@ -10,7 +12,7 @@ Assign **no numbered Cook exercise** here. All 644 Cook items retain their canon
 
 ## Complete forms and bounded uses
 
-Present all forty nominative, genitive, dative and accusative personal-pronoun cells, including first- and second-person duals. Thirty-four cells are productive. The six first-/second-person genitives are recognition only; their related agreeing possessive adjectives belong to Unit 3. Teach invariant **his, hiere, hiera**, selected by the possessor, and ordinary personal pronouns used reflexively, including the verified **geręste hine** frame. Do not imply that a pronoun's spelling determines its antecedent or that English “it” always requires neuter **hit**.
+Present all forty nominative, genitive, dative and accusative personal-pronoun cells, including first- and second-person duals. Ten nominatives are previously productive; twenty-four oblique cells become productive here. The six first-/second-person genitives are recognition only; their related agreeing possessive adjectives belong to Unit 3. Teach invariant **his, hiere, hiera**, selected by the possessor, and ordinary personal pronouns used reflexively, including the verified **geręste hine** frame. Do not imply that a pronoun's spelling determines its antecedent or that English “it” always requires neuter **hit**.
 
 Present complete present and preterite indicative paradigms for **22 affirmative weak verbs** and the complete recognition-only negative companion **nabban**: 23 × 12 finite cells. Seven distinct surface columns may represent each paradigm if the mapping to every person/number cell is explicit. Dual subjects take the appropriate plural verb form. All four Class III verbs must appear in full. Principal-part infinitives and participles are supplied citations, with no independent nonfinite recall or syntactic milestone.
 

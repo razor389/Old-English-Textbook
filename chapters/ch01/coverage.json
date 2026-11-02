@@ -44567,6 +44567,113 @@
       "feature_ids": [
         "dative-recipient"
       ]
+    },
+    {
+      "teaching_id": "CH01-VOC-SUBJECT-ic",
+      "kind": "ungraded_teaching_record",
+      "assessed": false,
+      "form_ids": [
+        "ic-nom-sg",
+        "ic-nom-dual",
+        "ic-nom-pl"
+      ],
+      "sense_ids": [
+        "ic-subject"
+      ],
+      "feature_ids": [
+        "u01-subject-pronouns"
+      ]
+    },
+    {
+      "teaching_id": "CH01-VOC-SUBJECT-thu",
+      "kind": "ungraded_teaching_record",
+      "assessed": false,
+      "form_ids": [
+        "thu-nom-sg",
+        "thu-nom-dual",
+        "thu-nom-pl"
+      ],
+      "sense_ids": [
+        "thu-subject"
+      ],
+      "feature_ids": [
+        "u01-subject-pronouns"
+      ]
+    },
+    {
+      "teaching_id": "CH01-VOC-SUBJECT-he",
+      "kind": "ungraded_teaching_record",
+      "assessed": false,
+      "form_ids": [
+        "he-m-nom-sg",
+        "he-n-nom-sg",
+        "he-f-nom-sg",
+        "he-nom-pl"
+      ],
+      "sense_ids": [
+        "he-subject"
+      ],
+      "feature_ids": [
+        "u01-subject-pronouns"
+      ]
+    },
+    {
+      "teaching_id": "CH01-PAR-SUBJECTS",
+      "kind": "complete_bounded_subject_inventory",
+      "assessed": false,
+      "form_ids": [
+        "ic-nom-sg",
+        "thu-nom-sg",
+        "he-m-nom-sg",
+        "he-n-nom-sg",
+        "he-f-nom-sg",
+        "ic-nom-dual",
+        "thu-nom-dual",
+        "ic-nom-pl",
+        "thu-nom-pl",
+        "he-nom-pl"
+      ],
+      "sense_ids": [
+        "ic-subject",
+        "thu-subject",
+        "he-subject"
+      ],
+      "feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement",
+        "u01-subject-pronoun-reference"
+      ],
+      "scope_note": "All ten nominatives; not a truncated claim to teach the full personal declension. Unit2 retains all forty case cells."
+    },
+    {
+      "teaching_id": "CH01-GRAM-SUBJECT-PRONOUNS",
+      "kind": "ungraded_teaching_record",
+      "assessed": false,
+      "form_ids": [],
+      "sense_ids": [],
+      "feature_ids": [
+        "u01-subject-pronouns"
+      ]
+    },
+    {
+      "teaching_id": "CH01-GRAM-DUAL-SUBJECTS",
+      "kind": "ungraded_teaching_record",
+      "assessed": false,
+      "form_ids": [],
+      "sense_ids": [],
+      "feature_ids": [
+        "u01-dual-subject-agreement"
+      ]
+    },
+    {
+      "teaching_id": "CH01-GRAM-SUBJECT-REFERENCE",
+      "kind": "ungraded_teaching_record",
+      "assessed": false,
+      "form_ids": [],
+      "sense_ids": [],
+      "feature_ids": [
+        "u01-subject-pronoun-reference"
+      ]
     }
   ],
   "new_material_examples": [
@@ -46269,6 +46376,60 @@
       ],
       "scan_checked": true,
       "notes": "Indirect-object recipient; giving/imparting with dative."
+    },
+    "U02-PRON": {
+      "source_id": "cook_fb_1895_2",
+      "edition": "second, 1895",
+      "printed_pages": [
+        48,
+        49
+      ],
+      "pdf_pages_one_based": [
+        64,
+        65
+      ],
+      "original_identifier": "§81",
+      "claim": "Complete personal pronouns, including dual; quantities and optional e spellings.",
+      "images": [
+        "sources/audits/unit02-grammar/cook-fb-p48.png",
+        "sources/audits/unit02-grammar/cook-fb-p49.png"
+      ],
+      "verification": "page images visually inspected; OCR used only to locate"
+    },
+    "U02-DUAL": {
+      "source_id": "ringe_taylor_2014",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages_one_based": [
+        21
+      ],
+      "original_identifier": "§1.1.2; 63-page publisher preview",
+      "claim": "Plural verb forms are used with dual pronoun subjects.",
+      "images": [
+        "build/unit02-dual-ringe-p6.png"
+      ],
+      "record": "sources/audits/unit02-supplementary/dual-agreement.md",
+      "verification": "Coordinator acquired/checked publisher preview; grammar auditor independently inspected the same page image. Only dual agreement used; no alternative spelling imported."
+    },
+    "U02-POSS": {
+      "source_id": "cook_fb_1895_2",
+      "edition": "second, 1895",
+      "printed_pages": [
+        49,
+        50
+      ],
+      "pdf_pages_one_based": [
+        65,
+        66
+      ],
+      "original_identifier": "§§82–83",
+      "claim": "Personal forms serve reflexively; third-person genitives indeclinable, other possessives decline as strong adjectives.",
+      "images": [
+        "sources/audits/unit02-grammar/cook-fb-p49.png",
+        "sources/audits/unit02-grammar/cook-fb-p50.png"
+      ],
+      "verification": "page images visually inspected; OCR used only to locate"
     }
   },
   "lexical_inventory": [
@@ -60759,6 +60920,23 @@
           "assessed_in": [],
           "proposed_recognition_taught_in": null,
           "proposed_production_taught_in": null
+        },
+        {
+          "sense_id": "he-subject",
+          "gloss": "he; it; she; they, as subjects with grammatical-gender/number reference",
+          "knowledge_status": "new_production",
+          "prior_knowledge": "untaught",
+          "teaching_ids": [
+            "CH01-VOC-SUBJECT-he"
+          ],
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "used_in_tasks": [],
+          "assessed_in": [],
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "scope_note": "Bounded teaching-scope refinement under the existing dictionary headword; no oblique-case milestone is imported."
         }
       ],
       "forms": [
@@ -60771,23 +60949,66 @@
             "gender": "masculine",
             "person": 3
           },
-          "knowledge_status": "supplied",
+          "knowledge_status": "new_production",
           "prior_knowledge": "untaught",
           "teaching_ids": [
-            "CH01-READ-SUPPORT"
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-he"
           ],
-          "assessed_in": [],
+          "assessed_in": [
+            "CH01-COP03"
+          ],
           "evidence_refs": [
-            "READING"
+            "U02-PRON"
           ],
           "evidence_basis": "exact_source_form_or_paradigm",
-          "scope_note": "Supplied actual form; no recognition or production milestone.",
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
           "used_in_tasks": [
+            "CH01-COP03",
             "CH01-READ06",
             "CH01-READ08"
           ],
-          "proposed_recognition_taught_in": null,
-          "proposed_production_taught_in": null
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": {
+                "form_id": "he-m-nom-sg",
+                "form": "hē",
+                "analysis": {
+                  "case": "nominative",
+                  "number": "singular",
+                  "gender": "masculine",
+                  "person": 3
+                },
+                "knowledge_status": "supplied",
+                "prior_knowledge": "untaught",
+                "teaching_ids": [
+                  "CH01-READ-SUPPORT"
+                ],
+                "assessed_in": [],
+                "evidence_refs": [
+                  "READING"
+                ],
+                "evidence_basis": "exact_source_form_or_paradigm",
+                "scope_note": "Supplied actual form; no recognition or production milestone.",
+                "used_in_tasks": [
+                  "CH01-READ06",
+                  "CH01-READ08"
+                ],
+                "proposed_recognition_taught_in": null,
+                "proposed_production_taught_in": null
+              },
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": [
+                "ch01"
+              ]
+            }
+          ]
         },
         {
           "form_id": "he-n-nom-sg",
@@ -60798,25 +61019,157 @@
             "gender": "neuter",
             "person": 3
           },
-          "knowledge_status": "supplied",
+          "knowledge_status": "new_production",
           "prior_knowledge": "untaught",
           "teaching_ids": [
-            "CH01-READ-SUPPORT"
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-he"
           ],
-          "assessed_in": [],
+          "assessed_in": [
+            "CH01-COP03"
+          ],
           "evidence_refs": [
-            "READING"
+            "U02-PRON"
           ],
           "evidence_basis": "exact_source_form_or_paradigm",
-          "scope_note": "Supplied actual form; no recognition or production milestone.",
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
           "used_in_tasks": [
+            "CH01-COP03",
             "CH01-READ05",
             "CH01-READ08"
           ],
-          "proposed_recognition_taught_in": null,
-          "proposed_production_taught_in": null
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": {
+                "form_id": "he-n-nom-sg",
+                "form": "hit",
+                "analysis": {
+                  "case": "nominative",
+                  "number": "singular",
+                  "gender": "neuter",
+                  "person": 3
+                },
+                "knowledge_status": "supplied",
+                "prior_knowledge": "untaught",
+                "teaching_ids": [
+                  "CH01-READ-SUPPORT"
+                ],
+                "assessed_in": [],
+                "evidence_refs": [
+                  "READING"
+                ],
+                "evidence_basis": "exact_source_form_or_paradigm",
+                "scope_note": "Supplied actual form; no recognition or production milestone.",
+                "used_in_tasks": [
+                  "CH01-READ05",
+                  "CH01-READ08"
+                ],
+                "proposed_recognition_taught_in": null,
+                "proposed_production_taught_in": null
+              },
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": [
+                "ch01"
+              ]
+            }
+          ]
+        },
+        {
+          "form_id": "he-f-nom-sg",
+          "form": "hēo",
+          "analysis": {
+            "person": 3,
+            "number": "singular",
+            "gender": "f",
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-he"
+          ],
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
+          "variants": [
+            "hīo",
+            "hī",
+            "hīe"
+          ],
+          "used_in_tasks": [
+            "CH01-COP03"
+          ],
+          "assessed_in": [
+            "CH01-COP03"
+          ],
+          "prior_knowledge": "untaught",
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": null,
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": []
+            }
+          ]
+        },
+        {
+          "form_id": "he-nom-pl",
+          "form": "hīe",
+          "analysis": {
+            "person": 3,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-he"
+          ],
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
+          "variants": [
+            "hī"
+          ],
+          "used_in_tasks": [
+            "CH01-COP06"
+          ],
+          "assessed_in": [
+            "CH01-COP06"
+          ],
+          "prior_knowledge": "untaught",
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": null,
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": []
+            }
+          ]
         }
-      ]
+      ],
+      "scope_note": "Opening revision: complete nominative subject inventory only. Other personal cases and broader senses retain their later teaching milestones."
     },
     {
       "lemma_id": "god-adjective",
@@ -61097,6 +61450,306 @@
           ],
           "proposed_recognition_taught_in": null,
           "proposed_production_taught_in": null
+        }
+      ]
+    },
+    {
+      "lemma_id": "ic",
+      "display_headword": "ic",
+      "part_of_speech": "personal pronoun",
+      "scope_note": "Opening revision: complete nominative subject inventory only. Other personal cases and broader senses retain their later teaching milestones.",
+      "senses": [
+        {
+          "sense_id": "ic-subject",
+          "gloss": "I; we two; we, as subjects",
+          "knowledge_status": "new_production",
+          "prior_knowledge": "untaught",
+          "teaching_ids": [
+            "CH01-VOC-SUBJECT-ic"
+          ],
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "used_in_tasks": [],
+          "assessed_in": [],
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "scope_note": "Bounded teaching-scope refinement under the existing dictionary headword; no oblique-case milestone is imported."
+        }
+      ],
+      "forms": [
+        {
+          "form_id": "ic-nom-sg",
+          "form": "ic",
+          "analysis": {
+            "person": 1,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-ic"
+          ],
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
+          "variants": [],
+          "used_in_tasks": [
+            "CH01-COP01"
+          ],
+          "assessed_in": [
+            "CH01-COP01"
+          ],
+          "prior_knowledge": "untaught",
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": null,
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": []
+            }
+          ]
+        },
+        {
+          "form_id": "ic-nom-dual",
+          "form": "wit",
+          "analysis": {
+            "person": 1,
+            "number": "dual",
+            "gender": null,
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-ic"
+          ],
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
+          "variants": [],
+          "used_in_tasks": [
+            "CH01-COP04"
+          ],
+          "assessed_in": [
+            "CH01-COP04"
+          ],
+          "prior_knowledge": "untaught",
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": null,
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": []
+            }
+          ]
+        },
+        {
+          "form_id": "ic-nom-pl",
+          "form": "wē",
+          "analysis": {
+            "person": 1,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-ic"
+          ],
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
+          "variants": [],
+          "used_in_tasks": [
+            "CH01-COP04"
+          ],
+          "assessed_in": [
+            "CH01-COP04"
+          ],
+          "prior_knowledge": "untaught",
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": null,
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "lemma_id": "thu",
+      "display_headword": "ðū",
+      "part_of_speech": "personal pronoun",
+      "scope_note": "Opening revision: complete nominative subject inventory only. Other personal cases and broader senses retain their later teaching milestones.",
+      "senses": [
+        {
+          "sense_id": "thu-subject",
+          "gloss": "you (singular); you two; you (plural), as subjects",
+          "knowledge_status": "new_production",
+          "prior_knowledge": "untaught",
+          "teaching_ids": [
+            "CH01-VOC-SUBJECT-thu"
+          ],
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "used_in_tasks": [],
+          "assessed_in": [],
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "scope_note": "Bounded teaching-scope refinement under the existing dictionary headword; no oblique-case milestone is imported."
+        }
+      ],
+      "forms": [
+        {
+          "form_id": "thu-nom-sg",
+          "form": "ðū",
+          "analysis": {
+            "person": 2,
+            "number": "singular",
+            "gender": null,
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-thu"
+          ],
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
+          "variants": [],
+          "used_in_tasks": [
+            "CH01-COP02"
+          ],
+          "assessed_in": [
+            "CH01-COP02"
+          ],
+          "prior_knowledge": "untaught",
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": null,
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": []
+            }
+          ]
+        },
+        {
+          "form_id": "thu-nom-dual",
+          "form": "git",
+          "analysis": {
+            "person": 2,
+            "number": "dual",
+            "gender": null,
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-thu"
+          ],
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
+          "variants": [],
+          "used_in_tasks": [
+            "CH01-COP05"
+          ],
+          "assessed_in": [
+            "CH01-COP05"
+          ],
+          "prior_knowledge": "untaught",
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": null,
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": []
+            }
+          ]
+        },
+        {
+          "form_id": "thu-nom-pl",
+          "form": "gē",
+          "analysis": {
+            "person": 2,
+            "number": "plural",
+            "gender": null,
+            "case": "nominative"
+          },
+          "knowledge_status": "new_production",
+          "evidence_refs": [
+            "U02-PRON"
+          ],
+          "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+          "teaching_ids": [
+            "CH01-PAR-SUBJECTS",
+            "CH01-VOC-SUBJECT-thu"
+          ],
+          "scope_note": "Nominative subject form in taught copular clauses or explicitly supplied finite frames; no homographic oblique form is promoted.",
+          "variants": [],
+          "used_in_tasks": [
+            "CH01-COP05"
+          ],
+          "assessed_in": [
+            "CH01-COP05"
+          ],
+          "prior_knowledge": "untaught",
+          "proposed_recognition_taught_in": "ch01",
+          "proposed_production_taught_in": "ch01",
+          "revision_history": [
+            {
+              "revision": "opening-2026-11-02",
+              "prior_local_record": null,
+              "previous_earliest_milestones": {
+                "recognition": "ch02",
+                "production": "ch02"
+              },
+              "supplied_exposure_preserved": []
+            }
+          ]
         }
       ]
     }
@@ -62543,6 +63196,112 @@
       ],
       "proposed_recognition_taught_in": "ch01",
       "proposed_production_taught_in": "ch01"
+    },
+    {
+      "feature_id": "u01-subject-pronouns",
+      "description": "All ten nominatives, person/number and third-singular gender.",
+      "knowledge_status": "new_production",
+      "prior_knowledge": "untaught",
+      "teaching_ids": [
+        "CH01-GRAM-SUBJECT-PRONOUNS"
+      ],
+      "evidence_refs": [
+        "U02-PRON"
+      ],
+      "prerequisite_feature_ids": [
+        "copula-indicative",
+        "subject-agreement"
+      ],
+      "used_in_tasks": [
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06"
+      ],
+      "assessed_in": [
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01",
+      "revision": "opening-2026-11-02"
+    },
+    {
+      "feature_id": "u01-dual-subject-agreement",
+      "description": "wit/git with ordinary plural copula, without excluding two from ordinary plurals.",
+      "knowledge_status": "new_production",
+      "prior_knowledge": "untaught",
+      "teaching_ids": [
+        "CH01-GRAM-DUAL-SUBJECTS"
+      ],
+      "evidence_refs": [
+        "U02-PRON",
+        "U02-DUAL"
+      ],
+      "prerequisite_feature_ids": [
+        "copula-indicative",
+        "subject-agreement"
+      ],
+      "used_in_tasks": [
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06"
+      ],
+      "assessed_in": [
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01",
+      "revision": "opening-2026-11-02"
+    },
+    {
+      "feature_id": "u01-subject-pronoun-reference",
+      "description": "Clear nominative reference by grammatical gender/number in ordinary copular clauses, including inanimates.",
+      "knowledge_status": "new_production",
+      "prior_knowledge": "untaught",
+      "teaching_ids": [
+        "CH01-GRAM-SUBJECT-REFERENCE"
+      ],
+      "evidence_refs": [
+        "U02-PRON"
+      ],
+      "prerequisite_feature_ids": [
+        "copula-indicative",
+        "subject-agreement"
+      ],
+      "used_in_tasks": [
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06"
+      ],
+      "assessed_in": [
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01",
+      "revision": "opening-2026-11-02"
     }
   ],
   "source_assignment_policy": "This contract is the canonical active crosswalk. All 644 numbered Cook items have an explicit assigned/deferred record. Future assignments must resolve these deferrals. Joint group headings remain verbatim in locators. The three earlier first-day snippets are subsumed source aliases, not extra graded tasks.",
@@ -62755,5 +63514,56 @@
       "scope": "Pronunciation and Unit 1 with a minimal Unit 2 prerequisite bridge; see contract for exact limits."
     }
   ],
-  "active_revision_contract": "docs/revisions/opening/contract.json"
+  "active_revision_contract": "docs/revisions/opening/contract.json",
+  "opening_revision_subject_contract": {
+    "forms": [
+      "ic-nom-sg",
+      "thu-nom-sg",
+      "he-m-nom-sg",
+      "he-n-nom-sg",
+      "he-f-nom-sg",
+      "ic-nom-dual",
+      "thu-nom-dual",
+      "ic-nom-pl",
+      "thu-nom-pl",
+      "he-nom-pl"
+    ],
+    "provisional_primary_assessment_bindings": {
+      "ic-nom-sg": [
+        "CH01-COP01"
+      ],
+      "thu-nom-sg": [
+        "CH01-COP02"
+      ],
+      "he-m-nom-sg": [
+        "CH01-COP03",
+        "CH01-READ06",
+        "CH01-READ08"
+      ],
+      "he-n-nom-sg": [
+        "CH01-COP03",
+        "CH01-READ05",
+        "CH01-READ08"
+      ],
+      "he-f-nom-sg": [
+        "CH01-COP03"
+      ],
+      "ic-nom-dual": [
+        "CH01-COP04"
+      ],
+      "ic-nom-pl": [
+        "CH01-COP04"
+      ],
+      "thu-nom-dual": [
+        "CH01-COP05"
+      ],
+      "thu-nom-pl": [
+        "CH01-COP05"
+      ],
+      "he-nom-pl": [
+        "CH01-COP06"
+      ]
+    },
+    "scope": "Tasks and examples receive exact final dependencies before acceptance; current registers remain unchanged until independent review."
+  }
 }

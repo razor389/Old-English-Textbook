@@ -2,7 +2,7 @@
   "schema_version": 1,
   "guide_id": "pronunciation",
   "title": "A guide to Old English pronunciation",
-  "status": "revision_in_progress",
+  "status": "complete",
   "date": "2026-10-29",
   "issue_id": "oec-pron",
   "authorization": "User requested a practical Cook/Fulk pronunciation guide with American English cue words, minimal IPA, and help for sounds absent from American English.",
@@ -14,8 +14,8 @@
     "unit_number": null
   },
   "boundaries": {
-    "existing_course": "All eighteen unit contracts, learner/key masters, retained TeX/PDFs, cumulative registers and shared layout remain unchanged.",
-    "identity_manifest": "guides/pronunciation/course-boundary.json",
+    "existing_course": "The opening revision explicitly authorizes Unit 1 and its minimal Unit 2 prerequisite bridge. All other unit learner/key content remains unchanged; see opening contract and preservation inventory.",
+    "identity_manifest": "docs/revisions/opening/preservation.json",
     "prior_git_checkpoint": "24ca390",
     "cook_assignments": {
       "assigned": 644,
@@ -31,7 +31,8 @@
     "new_numbered_cook_items": [],
     "independent_lexical_recall": false,
     "independent_grammar_production": false,
-    "unresolved_dependencies": []
+    "unresolved_dependencies": [],
+    "revision_contract": "docs/revisions/opening/contract.json"
   },
   "independent_inputs": [
     {
@@ -54,6 +55,12 @@
       "issue": "oec-pron-scope",
       "record": "curriculum/proposals/pronunciation/analysis.json",
       "report": "curriculum/proposals/pronunciation/report.md"
+    },
+    {
+      "role": "Revised source inspection",
+      "agent": "sound_cook",
+      "issue": "oec-opening-phon",
+      "record": "docs/revisions/opening/proposals/phonology.json"
     }
   ],
   "source_authorities": [
@@ -181,7 +188,7 @@
     {
       "id": "PRON-C06",
       "topic": "Consonants",
-      "decision": "Teach ordinary letters, c as k/ch, g as hard g/y/continuous voiced velar, usual sc as sh and cg as bridge, ordinary ng as finger with a supplied singe-type exception. State lexical and inflectional limits. cēlan, frosc and docga are supplied counterexamples, not a historical rule-generation test.",
+      "decision": "Adopt PH-F01–PH-F08 and six ordered decisions from the source audit; distinguish initial and noninitial c, and palatal choice from stopped/continuous nonpalatal g. No inference from y/ȳ alone; visible-spelling defaults have stated lexical limits. American cues and at most one introductory IPA per absent sound.",
       "evidence": [
         "PC07",
         "PC08",
@@ -189,7 +196,8 @@
         "FULK-P10",
         "FULK-P11",
         "FULK-P12"
-      ]
+      ],
+      "revision_evidence": "docs/revisions/opening/proposals/phonology.json#source_facts"
     },
     {
       "id": "PRON-C07",
@@ -216,7 +224,7 @@
     {
       "id": "PRON-C09",
       "topic": "Duration, syllables and stress",
-      "decision": "Keep vowel duration distinct from medial doubled-consonant duration and syllable weight. Final double spellings normally have single-consonant duration; full/fūl tests vowel length and quality. Retain audible, differentiated unstressed endings. Give ordinary first/root stress with ge-/be-/for- and verb-prefix limits; supply gescēop with root stress and heofonan with three syllables and initial stress. Use printed length for careful exercises, explaining briefly that unstressed function words/prefixes could shorten in connected speech.",
+      "decision": "Keep vowel duration distinct from doubled-consonant duration and syllable count. Final doubles normally have single duration. Keep written unstressed vowels audible. Teach ordinary root stress with prefix limits; reserve gescēop/heofonan for fresh rule application in the meaning-supplied reading. Printed length controls careful reading; connected speech may shorten unstressed function words.",
       "evidence": [
         "PC03",
         "PC04",
@@ -247,7 +255,7 @@
     {
       "id": "PRON-O04",
       "knowledge_status": "new_production",
-      "scope": "Consonant values in taught examples with stated lexical limits"
+      "scope": "Apply ordered c/g and combination decisions to fresh supplied words, with explicit lexical exceptions and limits; no historical reconstruction required."
     },
     {
       "id": "PRON-O05",
@@ -303,10 +311,9 @@
     "supplied_translation": "God created heaven and earth.",
     "purpose": "Supported oral reading and sound observations only",
     "local_support": [
-      "Every word's meaning",
-      "gescēop g/sc, root stress and long ēo",
-      "heofonan three syllables, eo and voiced f",
-      "eorðan two syllables, eo and voiced ð"
+      "Every word meaning and the complete sentence translation",
+      "Grammatical forms supplied; no grammar or translation recall",
+      "ge-scēop division identifies the unstressed prefix; sound/stress answers must be derived"
     ],
     "normalization": "The original Cook sentence and notes remain in the cited source transcription. The teaching adaptation removes the initial phrase On anginne, moves God before gescēop to give an ordinary subject–verb declarative, and omits apparatus cues 1–3. No retained word is respelled. The learner explicitly labels the adaptation.",
     "original_text": "On anginne gescēop God heofonan and eorðan."
@@ -322,14 +329,44 @@
           "forms": [
             "for",
             "fōr"
-          ]
+          ],
+          "prompt": "**A1.** **for**, “for”; **fōr**, “went”. What changes in the vowel? Give its sound and duration in each word.",
+          "transfer": {
+            "id": "PRON-P01a",
+            "forms": [
+              "for",
+              "fōr"
+            ],
+            "target_feature": "Short/long o",
+            "prior_model_or_reference": "§§1–2; ac/āc and the vowel table",
+            "new_decision": "Apply vowel quality and duration to a new matched pair.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Both meanings supplied; isolated careful reading.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Short/long o"
         },
         {
           "id": "PRON-P01b",
           "forms": [
             "węnde",
             "wēnde"
-          ]
+          ],
+          "prompt": "**A2.** **węnde**, “went”; **wēnde**, “thought; supposed”. Explain the vowel contrast. Does the hook under **ę** require a sound different from ordinary short **e**? Keep the final **e** audible in both words.",
+          "transfer": {
+            "id": "PRON-P01b",
+            "forms": [
+              "węnde",
+              "wēnde"
+            ],
+            "target_feature": "Short hooked e versus long ē",
+            "prior_model_or_reference": "§§1–2; hooks and e/ē table",
+            "new_decision": "Distinguish duration and the chosen vowel qualities without treating the hook as a new sound.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Both meanings and the requirement to preserve the final vowel supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Short hooked e versus long ē"
         },
         {
           "id": "PRON-P01c",
@@ -337,7 +374,23 @@
             "dǣd",
             "wīd",
             "hȳdan"
-          ]
+          ],
+          "prompt": "**A3.** **dǣd**, “deed”; **wīd**, “wide”; **hȳdan**, “hide; conceal”. Give the sound of each marked vowel. Explain how the lips distinguish **ȳ** from **ī**, then read all three words.",
+          "transfer": {
+            "id": "PRON-P01c",
+            "forms": [
+              "dǣd",
+              "wīd",
+              "hȳdan"
+            ],
+            "target_feature": "Long ǣ, ī and rounded ȳ",
+            "prior_model_or_reference": "§2; sǣd, īs and fȳr",
+            "new_decision": "Transfer three articulations and contrast lip rounding without modern English letter-name readings.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "All meanings supplied; hȳdan is a supplied infinitive, not a grammar target.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Long ǣ, ī and rounded ȳ"
         },
         {
           "id": "PRON-P01d",
@@ -348,12 +401,33 @@
             "frēond",
             "scield",
             "gīet"
-          ]
+          ],
+          "prompt": "**A4.** **eall**, “all”; **scēap**, “sheep”; **heorte**, “heart”; **frēond**, “friend”; **scield**, “shield”; **gīet**, “yet; still”. For each diphthong, give its starting sound and movement, and say whether the first part is short or long. Count the syllables in each word without giving the diphthong two beats.",
+          "transfer": {
+            "id": "PRON-P01d",
+            "forms": [
+              "eall",
+              "scēap",
+              "heorte",
+              "frēond",
+              "scield",
+              "gīet"
+            ],
+            "target_feature": "All six diphthong spellings and syllable counts",
+            "prior_model_or_reference": "§3; earm/ēare, eorl/fēoll, giefan/hīeran",
+            "new_decision": "Select onset, movement and duration in six new words; separate one vowel glide from additional syllables.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "All meanings supplied; no declension or vocabulary recall.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "All six diphthong spellings and syllable counts"
         }
       ],
       "outcomes": [
         "PRON-O01",
         "PRON-O02",
+        "PRON-O03",
+        "PRON-O05",
         "PRON-O07"
       ]
     },
@@ -364,73 +438,175 @@
       "items": [
         {
           "id": "PRON-P02a",
-          "form": "cuman",
-          "target": "c",
           "forms": [
             "cēosað"
-          ]
+          ],
+          "prompt": "**B1.** **c** in **cēosað**, “choose” (a plural form). Which initial-**c** pattern applies?",
+          "transfer": {
+            "id": "PRON-P02a",
+            "forms": [
+              "cēosað"
+            ],
+            "target_feature": "Initial c before a front diphthong",
+            "prior_model_or_reference": "§4 step2; cealf",
+            "new_decision": "Choose the initial-c branch in a fresh word rather than repeat the model.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning and plural-form status supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Initial c before a front diphthong"
         },
         {
           "id": "PRON-P02b",
-          "form": "cyrice",
-          "target": "both c letters",
           "forms": [
             "micel",
             "micles"
-          ]
+          ],
+          "prompt": "**B2.** **c** in **micel**, “large; great”, and **micles**, “large; great” (a declined form). Do the two forms have the same consonant sound? Explain from the immediate neighbours of **c**.",
+          "transfer": {
+            "id": "PRON-P02b",
+            "forms": [
+              "micel",
+              "micles"
+            ],
+            "target_feature": "Noninitial c with changed neighbours",
+            "prior_model_or_reference": "§4 step3; cyrice and dīc/dīcas",
+            "new_decision": "Contrast c before a vowel with c before a consonant; do not assume one lemma keeps one sound in all forms.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Both meanings and declined-form status supplied; syncope or case analysis not required.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Noninitial c with changed neighbours"
         },
         {
           "id": "PRON-P02c",
-          "form": "cēlan",
-          "target": "c",
           "forms": [
             "gān",
             "glæd"
-          ]
+          ],
+          "prompt": "**B3.** **g** in **gān**, “go; walk”, and **glæd**, “glad”. Does the **æ** of the second word make its initial **g** a **y** sound? Apply both stages of the **g** decision.",
+          "transfer": {
+            "id": "PRON-P02c",
+            "forms": [
+              "gān",
+              "glæd"
+            ],
+            "target_feature": "Initial nonpalatal g and immediate adjacency",
+            "prior_model_or_reference": "§4 steps4–5; giefan and god",
+            "new_decision": "Use the immediately following sound, not merely a later front vowel, then choose stopped or continuous g.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meanings supplied; no inflectional analysis.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Initial nonpalatal g and immediate adjacency"
         },
         {
           "id": "PRON-P02d",
-          "form": "giefan",
-          "target": "g",
           "forms": [
             "fæger",
             "regn"
-          ]
+          ],
+          "prompt": "**B4.** **g** in **fæger**, “beautiful; fair”, and **regn**, “rain”. Decide from the sounds before and after **g**. Does the following **n** require stopped **g** in the second word?",
+          "transfer": {
+            "id": "PRON-P02d",
+            "forms": [
+              "fæger",
+              "regn"
+            ],
+            "target_feature": "Medial g after front vowels",
+            "prior_model_or_reference": "§4 step4; dæg",
+            "new_decision": "Apply the broader g condition with a following vowel and with a following consonant; do not copy the c-before-consonant rule.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meanings supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Medial g after front vowels"
         },
         {
           "id": "PRON-P02e",
-          "form": "fugol",
-          "target": "g",
           "forms": [
             "āgan"
-          ]
+          ],
+          "prompt": "**B5.** **g** in **āgan**, “have; possess”. Choose among **y**, stopped **g**, and continuous **g**, and explain both decisions. Show with the tongue and airflow how to make the selected sound.",
+          "transfer": {
+            "id": "PRON-P02e",
+            "forms": [
+              "āgan"
+            ],
+            "target_feature": "Continuous nonpalatal g",
+            "prior_model_or_reference": "§4 steps4–5; fugol",
+            "new_decision": "Make both the palatal/nonpalatal and stopped/continuous decisions, then articulate the selected sound.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Continuous nonpalatal g"
         },
         {
           "id": "PRON-P02f",
-          "form": "scip",
-          "target": "sc",
           "forms": [
             "brycg",
             "singan"
-          ]
+          ],
+          "prompt": "**B6.** **cg** in **brycg**, “bridge”, and **ng** in **singan**, “sing”. Which English cue fits each combination? Keep the short rounded vowel of **brycg** distinct from ordinary English **i**.",
+          "transfer": {
+            "id": "PRON-P02f",
+            "forms": [
+              "brycg",
+              "singan"
+            ],
+            "target_feature": "cg versus ng combinations",
+            "prior_model_or_reference": "§4 step1; ecg and lang",
+            "new_decision": "Read two fresh combinations as units and keep the rounded vowel distinct.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meanings supplied; ordinary combination rules apply to these verified forms.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "cg versus ng combinations"
         },
         {
           "id": "PRON-P02g",
-          "form": "niht",
-          "target": "h",
           "forms": [
             "riht",
             "dohtor"
-          ]
+          ],
+          "prompt": "**B7.** **h** in **riht**, “right; direct”, and **dohtor**, “daughter”. What changes in the tongue position, and which vowel causes the change? Keep the following **t** audible in both words.",
+          "transfer": {
+            "id": "PRON-P02g",
+            "forms": [
+              "riht",
+              "dohtor"
+            ],
+            "target_feature": "Front and back h",
+            "prior_model_or_reference": "§4 h; niht and brōhte",
+            "new_decision": "Choose the tongue position from different preceding vowels, retaining following t.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meanings supplied; dohtor retains source short o.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Front and back h"
         },
         {
           "id": "PRON-P02h",
-          "form": "wyrt",
-          "target": "y",
           "forms": [
             "scūfan",
             "cwæð"
-          ]
+          ],
+          "prompt": "**B8.** **sc** in **scūfan**, “thrust”, and **cw** in **cwæð**, “said”. Decide whether each spelling gives one consonant sound or a sequence. Does the back vowel **ū** require a separate **k** in the first word?",
+          "transfer": {
+            "id": "PRON-P02h",
+            "forms": [
+              "scūfan",
+              "cwæð"
+            ],
+            "target_feature": "sc versus cw",
+            "prior_model_or_reference": "§4 step1 and sounded-cluster paragraph; scip and cw rule",
+            "new_decision": "Keep sc as a combination even before a back vowel; distinguish it from a sequence of consonants.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meanings supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "sc versus cw"
         }
       ],
       "outcomes": [
@@ -445,52 +621,125 @@
       "items": [
         {
           "id": "PRON-P03a",
-          "form": "cnīf",
-          "target": "f",
           "forms": [
             "ǣfre"
-          ]
+          ],
+          "prompt": "**C1.** **f** in **ǣfre**, “ever; always”. Identify the sounds on both sides; they need not both be vowels.",
+          "transfer": {
+            "id": "PRON-P03a",
+            "forms": [
+              "ǣfre"
+            ],
+            "target_feature": "Voiced fricative beside a voiced consonant",
+            "prior_model_or_reference": "§5; between-voiced-sounds rule and voiced r",
+            "new_decision": "Apply the rule when the neighbours are not both vowels.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Voiced fricative beside a voiced consonant"
         },
         {
           "id": "PRON-P03b",
-          "form": "cnīfas",
-          "target": "f",
           "forms": [
             "fīf"
-          ]
+          ],
+          "prompt": "**C2.** Both **f** letters in **fīf**, “five”. Decide each from its position rather than copying the pronunciation of modern English *five*.",
+          "transfer": {
+            "id": "PRON-P03b",
+            "forms": [
+              "fīf"
+            ],
+            "target_feature": "Initial and final f",
+            "prior_model_or_reference": "§5; word-edge rule and cnīf",
+            "new_decision": "Decide both word edges independently of the modern English descendant.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Initial and final f"
         },
         {
           "id": "PRON-P03c",
-          "form": "rīsan",
-          "target": "s",
           "forms": [
             "cēosað"
-          ]
+          ],
+          "prompt": "**C3.** **s** and final **ð** in **cēosað**, “choose” (a plural form). Does one voicing decision apply to both letters?",
+          "transfer": {
+            "id": "PRON-P03c",
+            "forms": [
+              "cēosað"
+            ],
+            "target_feature": "Medial s versus final ð",
+            "prior_model_or_reference": "§5; rīsan and word-edge rule",
+            "new_decision": "Make two different positional voicing decisions in a word previously used for c only.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning and plural-form status supplied; B1 supplies no written s/ð answer.",
+            "exposure_check": "The word recurs from B, but the earlier task asks for different letters and prints no voicing answer."
+          },
+          "target": "Medial s versus final ð"
         },
         {
           "id": "PRON-P03d",
-          "form": "hūs",
-          "target": "s",
           "forms": [
             "hæfð"
-          ]
+          ],
+          "prompt": "**C4.** **f** and **ð** in **hæfð**, “has”. Begin with the word-final consonant, then use its voicing to decide the preceding **f**.",
+          "transfer": {
+            "id": "PRON-P03d",
+            "forms": [
+              "hæfð"
+            ],
+            "target_feature": "Adjacent fricatives at the word edge",
+            "prior_model_or_reference": "§5; word-edge and voiceless-neighbour rules",
+            "new_decision": "Use the final consonant position, then propagate that voiceless context to the preceding fricative.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning supplied; no need to derive this habban form.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Adjacent fricatives at the word edge"
         },
         {
           "id": "PRON-P03e",
-          "form": "ōðer",
-          "target": "ð",
           "forms": [
             "cwæð"
-          ]
+          ],
+          "prompt": "**C5.** **ð** in **cwæð**, “said”. Would replacing its spelling with thorn, **þ**, change the sound? Explain the role of position and the choice of letter.",
+          "transfer": {
+            "id": "PRON-P03e",
+            "forms": [
+              "cwæð"
+            ],
+            "target_feature": "Position versus thorn/eth spelling",
+            "prior_model_or_reference": "§§1,5; interchangeable letters and positional voicing",
+            "new_decision": "Separate a word-final sound decision from the choice of th letter.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning supplied; B8 previously asks only for cw.",
+            "exposure_check": "The word recurs from B, but the earlier task asks for different letters and prints no voicing answer."
+          },
+          "target": "Position versus thorn/eth spelling"
         },
         {
           "id": "PRON-P03f",
-          "form": "hǣlðu",
-          "target": "ð",
           "forms": [
             "hǣlðu",
             "ǣfre"
-          ]
+          ],
+          "prompt": "**C6.** Compare **ð** in **hǣlðu**, “health”, with **f** in **ǣfre**, “ever; always”. The unvoiced **th** in **hǣlðu** is supplied lexical information from §5. Explain why that fact takes precedence over the ordinary between-voiced-sounds rule, while the ordinary rule applies to **ǣfre**. This is an exception comparison, not a request to deduce the exception from its spelling.",
+          "transfer": {
+            "id": "PRON-P03f",
+            "forms": [
+              "hǣlðu",
+              "ǣfre"
+            ],
+            "target_feature": "Ordinary rule versus supplied exception",
+            "prior_model_or_reference": "§5; hǣlðu lexical note and C1 application",
+            "new_decision": "Explain the limit of the rule by comparing a known exception with a regular new context.",
+            "production_or_recognition_scope": "Explain supplied lexical information and compare it with a regular application; not independent exception deduction.",
+            "supplied_dependencies": "Exception is explicitly supplied; this does not certify independent deduction of hǣlðu or a second independent solution of C1.",
+            "exposure_check": "Deliberate supplied-exception comparison. hǣlðu was taught with its sound in §5; ǣfre was already queried in C1, but no C1 answer is printed."
+          },
+          "target": "Ordinary rule versus supplied exception"
         }
       ],
       "outcomes": [
@@ -504,31 +753,83 @@
       "items": [
         {
           "id": "PRON-P04a",
-          "form": "habban",
           "forms": [
             "sittan"
-          ]
+          ],
+          "prompt": "**D1.** **sittan**, “sit”. Does prolonging **tt** lengthen **i**, or add a syllable?",
+          "transfer": {
+            "id": "PRON-P04a",
+            "forms": [
+              "sittan"
+            ],
+            "target_feature": "Medial stop duration, vowel length, syllables and stress",
+            "prior_model_or_reference": "§6; habban and full/fūl",
+            "new_decision": "Keep extra consonant closure separate from vowel quantity and syllable count in a new word.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Medial stop duration, vowel length, syllables and stress"
         },
         {
           "id": "PRON-P04b",
-          "form": "fugol",
           "forms": [
             "sunne"
-          ]
+          ],
+          "prompt": "**D2.** **sunne**, “sun”. Keep the last vowel distinct. Explain the duration of **nn** and whether it changes the syllable count.",
+          "transfer": {
+            "id": "PRON-P04b",
+            "forms": [
+              "sunne"
+            ],
+            "target_feature": "Medial nasal duration, final vowel and stress",
+            "prior_model_or_reference": "§6; pen-knife analogy and audible endings",
+            "new_decision": "Apply medial doubling to a nasal, retain the written final vowel, and count syllables.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Medial nasal duration, final vowel and stress"
         },
         {
           "id": "PRON-P04c",
-          "form": "heofonan",
           "forms": [
             "gewrit"
-          ]
+          ],
+          "prompt": "**D3.** **gewrit**, “letter; written document”; division **ge-writ**. Apply the prefix rule to stress, and pronounce both **w** and **r** without inserting another vowel.",
+          "transfer": {
+            "id": "PRON-P04c",
+            "forms": [
+              "gewrit"
+            ],
+            "target_feature": "Prefix stress and wr cluster",
+            "prior_model_or_reference": "§§4,6; wrītan, unstressed ge-",
+            "new_decision": "Use the supplied morphological boundary to determine stress without inserting a vowel in the cluster.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning and division ge-writ supplied; no derivation of the noun required.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Prefix stress and wr cluster"
         },
         {
           "id": "PRON-P04d",
-          "form": "gescēop",
           "forms": [
             "forlǣtan"
-          ]
+          ],
+          "prompt": "**D4.** **forlǣtan**, “abandon; forsake”; division **for-lǣtan**. This is a prefixed verb. Locate its stress from the prefix rule, and explain what the macron tells you separately.",
+          "transfer": {
+            "id": "PRON-P04d",
+            "forms": [
+              "forlǣtan"
+            ],
+            "target_feature": "Prefixed-verb stress versus macron",
+            "prior_model_or_reference": "§6; unstressed prefixes, root stress, duration distinct from stress",
+            "new_decision": "Locate root stress from a supplied prefix division, separately interpreting vowel length.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Meaning, verb status and for-lǣtan division supplied.",
+            "exposure_check": "Reserved forms absent from worked exposition; the written practice supplies no target sound answer."
+          },
+          "target": "Prefixed-verb stress versus macron"
         }
       ],
       "outcomes": [
@@ -539,28 +840,67 @@
     {
       "id": "PRON-P05",
       "origin_category": "new teaching material",
-      "prompt_type": "Read the fully supported adaptation of Cook and answer three sound questions",
+      "prompt_type": "Apply sound rules to the adapted Cook sentence; meaning, grammatical forms and prefix division are supplied, not its target sounds",
       "items": [
         {
           "id": "PRON-P05a",
-          "target": "g and sc in gescēop",
           "forms": [
             "gescēop"
-          ]
+          ],
+          "prompt": "**E1.** Which sounds do **g** and **sc** have in **gescēop**, “created”? Explain the rules you use. Count its syllables and place the stress, keeping **ēo** one glide.",
+          "transfer": {
+            "id": "PRON-P05a",
+            "forms": [
+              "gescēop"
+            ],
+            "target_feature": "Combined g, sc, diphthong, syllables and prefix stress",
+            "prior_model_or_reference": "§§3–4,6; giefan, scip, ge- rule",
+            "new_decision": "Combine known sound rules in the unchanged fresh sentence without an adjacent solved sound table.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Complete sentence translation, word meanings and ge-scēop division supplied; no grammar recall.",
+            "exposure_check": "Retained five-word adaptation; all adjacent sound answers removed. gescēop/heofonan no longer occur in preceding worked stress prose."
+          },
+          "target": "Combined g, sc, diphthong, syllables and prefix stress"
         },
         {
           "id": "PRON-P05b",
-          "target": "f in heofonan",
           "forms": [
             "heofonan"
-          ]
+          ],
+          "prompt": "**E2.** What sound does **f** have in **heofonan**, “heaven”? Identify its neighbours and explain your decision. Count the word's syllables.",
+          "transfer": {
+            "id": "PRON-P05b",
+            "forms": [
+              "heofonan"
+            ],
+            "target_feature": "Medial f and syllable counting in connected reading",
+            "prior_model_or_reference": "§§3,5–6; diphthong and voicing rules",
+            "new_decision": "Select the fricative value and distinguish the initial glide from later vowel syllables.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Complete meaning and form supplied; heofonan removed from prior stress exposition.",
+            "exposure_check": "Retained five-word adaptation; all adjacent sound answers removed. gescēop/heofonan no longer occur in preceding worked stress prose."
+          },
+          "target": "Medial f and syllable counting in connected reading"
         },
         {
           "id": "PRON-P05c",
-          "target": "ð in eorðan",
           "forms": [
             "eorðan"
-          ]
+          ],
+          "prompt": "**E3.** What sound does **ð** have in **eorðan**, “earth”? Identify its neighbours and explain why the ordinary rule applies even though one neighbour is a consonant.",
+          "transfer": {
+            "id": "PRON-P05c",
+            "forms": [
+              "eorðan"
+            ],
+            "target_feature": "Medial ð after a voiced consonant",
+            "prior_model_or_reference": "§5; voiced r and the between-voiced-sounds rule",
+            "new_decision": "Identify both neighbours and apply voicing without requiring two adjacent vowels.",
+            "production_or_recognition_scope": "Independent sound application and oral reading; vocabulary and grammar remain supplied.",
+            "supplied_dependencies": "Complete meaning and form supplied; no case recognition.",
+            "exposure_check": "Retained five-word adaptation; all adjacent sound answers removed. gescēop/heofonan no longer occur in preceding worked stress prose."
+          },
+          "target": "Medial ð after a voiced consonant"
         }
       ],
       "outcomes": [
@@ -573,7 +913,7 @@
   ],
   "expected_numbered_responses": 25,
   "learner_design": {
-    "target_pages": "Approximately 6–8; allow readable complete coverage",
+    "target_pages": "Complete readable coverage of the revised practical guide; actual page count recorded in the current export receipt.",
     "language": "Terse original exposition; no prior OE assumed",
     "ipa": "At most one first-introduction occurrence for each unfamiliar sound where useful; no full-word IPA and no transcription tasks. Prefer ordinary words and mouth instructions.",
     "american_cues": "Specify only the relevant part of the English word; distinguish an approximation from an exact equivalence.",
@@ -849,5 +1189,40 @@
         "PRON-O08"
       ]
     }
-  ]
+  ],
+  "boundaries_before_opening_revision": {
+    "existing_course": "All eighteen unit contracts, learner/key masters, retained TeX/PDFs, cumulative registers and shared layout remain unchanged.",
+    "identity_manifest": "guides/pronunciation/course-boundary.json",
+    "prior_git_checkpoint": "24ca390",
+    "cook_assignments": {
+      "assigned": 644,
+      "deferred": 0,
+      "excluded": 0
+    },
+    "register_counts": {
+      "lemmas": 1265,
+      "forms": 13295,
+      "senses": 1687,
+      "grammar_features": 1214
+    },
+    "new_numbered_cook_items": [],
+    "independent_lexical_recall": false,
+    "independent_grammar_production": false,
+    "unresolved_dependencies": []
+  },
+  "completion": {
+    "complete": true,
+    "date": "2026-11-02",
+    "revision": "opening-2026-11-02",
+    "learner_pages": 12,
+    "key_pages": 4,
+    "numbered_responses": 25,
+    "contract_checkpoint": "2540765",
+    "independent_review": "docs/revisions/opening/reviews/pronunciation-independent.json",
+    "key_newline_bridge": "docs/revisions/opening/reviews/pronunciation-key-newlines.json",
+    "every_page_review": "docs/revisions/opening/reviews/pronunciation-pages.json",
+    "export_receipts": "docs/revisions/opening/exports",
+    "original_acceptance": "revision_history[0].prior_acceptance",
+    "completion_metadata_note": "Only completion/status metadata added after accepted learner/key and complete export review; current coverage is part of the opening revision."
+  }
 }

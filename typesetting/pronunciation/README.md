@@ -1,30 +1,22 @@
 # Pronunciation guide and practice key
 
-The complete [learner PDF](pronunciation.pdf) has **9 pages**, including one page of source notes. The [separate key](answer-key.pdf) has **3 pages** and answers all **25** practice questions. Read the guide before Unit 1; every word meaning and the short reading's grammar are supplied.
+The complete [learner PDF](pronunciation.pdf) has **12 pages**. The [separate key](answer-key.pdf) has **4 pages** and answers all **25** practice questions. Read the guide before Unit 1; word meanings and the short reading's grammar are supplied.
 
-American English examples identify individual sounds. Plain instructions explain tongue position, lip rounding, airflow and voice where an ordinary American equivalent is unavailable. Three optional phonetic symbols appear once each; there are no transcription exercises. The guide selects explicit Cook/Fulk conventions, with differences explained in the source notes. Its short sentence is a declared adaptation of Cook's Creation opening.
+The guide gives an ordered procedure for **c** and **g**: check letter combinations, distinguish initial from noninitial positions, select palatal **g**, then distinguish stopped from continuous nonpalatal **g**. It states the limits of spelling rules and supplies lexical exceptions. American English cues and mouth instructions explain the sounds; three optional phonetic symbols appear once each. Practice applies the rules to words reserved from the worked examples. The closing sentence adapts Cook's Creation opening.
 
-The editable [learner master](../../guides/pronunciation/student.md), [key](../../guides/pronunciation/answer-key.md), [contract](../../guides/pronunciation/coverage.json), and [example inventory](../../guides/pronunciation/examples.json) retain teaching scope and provenance. The contract was saved before prose at `b97019e`. Independent solutions were frozen before key comparison at `14ae55c`; the amended D3 solution and adaptation assessment were frozen at `3ef400e`. The [independent review](../../guides/pronunciation/review/review.md) resolves all material findings. The [source audit](../../sources/audits/pronunciation/cook/anginn-note.md) preserves the investigation of an unselected example.
+The editable [learner master](../../guides/pronunciation/student.md), [key](../../guides/pronunciation/answer-key.md), [coverage contract](../../guides/pronunciation/coverage.json), and [example inventory](../../guides/pronunciation/examples.json) record scope and provenance. The current [revision contract](../../docs/revisions/opening/contract.json) was saved before prose at `2540765`. The [independent review](../../docs/revisions/opening/reviews/pronunciation-review.md) records solutions frozen before key access and the resolution of the supplied **sēcan** exception. Its key identity is connected to the final LF-only master by the [newline receipt](../../docs/revisions/opening/reviews/pronunciation-key-newlines.json).
 
-The [export ledger](export-review.json), [complete-content check](content-check.json), [learner page review](page-review-learner.json), and [key page review](page-review-key.json) bind acceptance to the retained files. All twelve pages were actually inspected. All 129 protected earlier course files retain their recorded identities; the eighteen-unit assignments and cumulative registers are unchanged.
+Current acceptance uses the opening revision's [export receipts](../../docs/revisions/opening/exports/) and [every-page review](../../docs/revisions/opening/reviews/pronunciation-pages.json). Earlier `export-review.json`, `content-check.json`, and `page-review-*.json` files retain the original 9-page/3-page acceptance; they do not certify the revised text.
 
-The shared Cambria layout uses 11-point body text and 10.5-point tables; the final source-note page uses 9.5-point type. The full simple-vowel table stays together, and the C6 key explanation is kept on one page. Retained TeX includes these pagination decisions. Do not rerun the one-use initial assembler to reproduce the accepted layout.
-
-## Reproduction
-
-From the repository root, with the configured TeX Live, Cambria and Xpdf installation:
+The shared Cambria layout uses 11-point body text and 10.5-point tables. Headings reserve enough following space without creating premature page breaks. Assemble and compile from the repository root:
 
 ```powershell
-New-Item -ItemType Directory -Force typesetting/pronunciation/build | Out-Null
-Push-Location typesetting/pronunciation
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build pronunciation.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build pronunciation.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build answer-key.tex
-lualatex -interaction=nonstopmode -halt-on-error -output-directory=build answer-key.tex
-Pop-Location
-python -X utf8 scripts/check_pronunciation_exports.py --build --report build/pronunciation-export-check.json
+python -B -X utf8 scripts/build_opening_exports.py --stage assemble --select pronunciation/learner,pronunciation/key --output-root typesetting --report build/opening/pronunciation-assemble.json
+python -B -X utf8 scripts/build_opening_exports.py --stage compile --select pronunciation/learner,pronunciation/key --output-root typesetting --report build/opening/pronunciation-compile.json
+python -B -X utf8 scripts/check_opening_exports.py --select pronunciation/learner,pronunciation/key --output-root typesetting --report build/opening/pronunciation-check.json
+python -B -X utf8 scripts/check_opening_revision.py --scope pronunciation --report build/opening/pronunciation-domain-check.json
 ```
 
-The check independently compares the Markdown prose and table inventory with the retained TeX and complete PDF text. It also checks ordered task/key IDs, special characters, compiler diagnostics and protected course identities. Omit `--build` after compilation to check the retained PDFs. A changed export needs fresh rendering and inspection of every page before it replaces an accepted PDF; the text check alone does not certify page appearance or pronunciation accuracy. Build logs and page images remain ignored under `build/`.
+The export check compares all Markdown prose, table cells, ordered task IDs, and complete PDF text, and checks compiler diagnostics and special characters. Add `--pdf-location retained` to check the retained PDFs. The domain check protects the source controls and files outside the authorized revision. Neither check replaces independent linguistic review or inspection of every changed page. Only accepted build PDFs replace the retained files; logs and page images remain ignored under `build/`.
 
-These two front-matter documents have their own check and reproduction commands. The existing course build command continues to cover the 36 unit documents. Local commits preserve the work; remote pushes remain user-controlled.
+The earlier `check_pronunciation_exports.py` command belongs to the historical initial acceptance. Use the opening revision checks above for these revised masters. Local commits preserve the work; remote pushes remain user-controlled.
