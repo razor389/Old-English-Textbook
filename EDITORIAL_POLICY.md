@@ -18,6 +18,14 @@ Complete paradigms must remain graded: distinguish the forms and ordinary uses t
 
 Use the grammar to plan the exercise sequence, retaining original source IDs and prompts. Group complete sets where feasible; redistribute mixed material only with an explicit crosswalk and rationale. Account for every audited item through assignment, deferral, or exclusion with reasons. No numerical vocabulary ceiling governs the new course.
 
+### Practice and transfer
+
+Exercises must apply a learned rule in a fresh context. Preserve Cook's prompts, complete paradigms and necessary lexical diagnostics; revise worked examples or add original practice when a source item alone provides only controlled assembly or recall. A transfer task requires a grammatical choice from meaning or context, such as case, number, person, tense, agreement, stem pattern or head–dependent relation. Merely requesting a named table cell does not establish transfer.
+
+For each major newly productive construction or inflectional contrast, provide at least two applications, including a contrast, error diagnosis or context change requiring the learner to choose the rule. Integrated tasks may cover several targets. Keep complete target answers and requested analyses out of the exposition and other learner passages. Reference checks and guided comprehension may remain, but label their limits and do not count supplied answers as independent application. Each unit also needs a fresh connected reading and cumulative practice using taught material. Never manufacture novelty by withholding prerequisites or testing recognition-only forms for production.
+
+During chapter review, record the target, prior model or reference, new decision, necessary support and any earlier answer exposure. Apply this policy in the current chapter-by-chapter revision sequence; it does not certify unrevised chapters retroactively.
+
 ## Sources, spelling, and corrections
 
 Use Cook's 1895 *Exercises in Old English* and the 1895 second edition of *A First Book in Old English*, with the registry's selected scans. Cook's edited prose spelling is the starting baseline; his preface describes Early West Saxon normalization and excepts poetry. Do not silently convert the text to another dialect or spelling convention.

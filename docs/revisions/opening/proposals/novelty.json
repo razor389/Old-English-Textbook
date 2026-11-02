@@ -1,0 +1,3486 @@
+{
+  "schema_version": 1,
+  "task_id": "oec-opening-novelty",
+  "author_agent": "sound_fulk",
+  "date": "2026-11-02",
+  "status": "proposal_ready_for_coordinator_contract",
+  "scope": "Actual Unit 1 learner master, all 46 Cook prompts, all 46 original tasks, all 13 supplied-help rows; no answer key consulted.",
+  "input_files": [
+    {
+      "path": "chapters/ch01/student.md",
+      "sha256": "10a5ce07db62799a8f37d51401f733fb1b6c4be028559e0e47694bfc9992fc1f"
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "b113e09c377723ae9fa5500a78942b1f95cf2bdf26fc85fee18e0cef192694ce"
+    },
+    {
+      "path": "AGENTS.md",
+      "sha256": "70cf8a133fef85d7b6c8324f3205c6d124bf82fcdebeb2e2a497aaf9b476593d"
+    },
+    {
+      "path": "EDITORIAL_POLICY.md",
+      "sha256": "e15a1bc55181664fd3dc2b6040b9c20ffecfa54d2f4e950d99ea9e4a50cd485f"
+    },
+    {
+      "path": "sources/transcriptions/cook-ex-01.md",
+      "sha256": "b332ba482ccf1205e9540ea2564d6398a942390d1ddc552bfb876ad2003881d5"
+    },
+    {
+      "path": "sources/transcriptions/cook-ex-02.md",
+      "sha256": "25d6554096ab017585e0712f459624c3597ecb643c265885a3f4ccba42331486"
+    },
+    {
+      "path": "sources/audits/unit01-source/exercise-3.md",
+      "sha256": "ea31e6f6204d092b6394eb9fb6f0cf3edf5b318f7254ef3270714ffef3a6be61"
+    },
+    {
+      "path": "sources/audits/unit01-source/creation-first-day.md",
+      "sha256": "e3bcbaa0e0d3de030f0c4945fe2bb8de02726a31898eb1198261b8fb6737a96c"
+    }
+  ],
+  "reading_method": {
+    "learner_master": "Read all 840 lines, including exposition, vocabulary, all 92 tasks, readings/help and source notes.",
+    "contract": "Read productive/recognition/bounded scope, all 8 example records, authoring rules, assigned item targets/types, source-span/support records and requirement status mapping. Did not treat the contract as linguistic proof or read any answer-key file.",
+    "source_prompts": "Read all three exact transcripts and actually inspected Cook exercise page images p1/PDF9 and p2/PDF10.",
+    "reading_source": "Read the faithful Creation transcription and source audit; protected text compared exactly with the existing contract. Its images were not newly re-inspected for this novelty-only task.",
+    "answer_key_opened": false,
+    "images_viewed": [
+      {
+        "path": "sources/evidence/cook-ex-pdf009.png",
+        "sha256": "11dd36ccc402bf53ea75ed2502d3da92e81e88606bd72913990b803efff93d91",
+        "printed_page": 1,
+        "pdf_page_1_based": 9
+      },
+      {
+        "path": "sources/audits/unit01-source/ex-p002.png",
+        "sha256": "8a516759cf5f452db0c6e5d94a2b5c76d07b1034b92ff157d3d5bfcc31534ed1",
+        "printed_page": 2,
+        "pdf_page_1_based": 10
+      }
+    ],
+    "no_shared_files_edited": true,
+    "beads_and_git": "Coordinator only; no worker Beads/Git calls."
+  },
+  "summary": {
+    "cook_items": 46,
+    "original_items": 46,
+    "supplied_help_rows": 13,
+    "cook_whole_answer_leaks_in_preceding_exposition": 0,
+    "explicit_whole_original_answer_or_analysis_leaks": [
+      "CH01-CASE06",
+      "CH01-REVIEW02"
+    ],
+    "later_original_readings_printing_composition_answers": [
+      "CH01-COMP01",
+      "CH01-COMP02",
+      "CH01-COMP03"
+    ],
+    "missing_prerequisites_found_with_existing_support": 0,
+    "important_limit": "No claim that every item is equally novel: I.2 is largely reference-form assembly; the supplied reading is not independent mastery of its untaught constructions."
+  },
+  "source_preservation_checks": [
+    {
+      "path": "sources/transcriptions/cook-ex-01.md",
+      "sha256": "b332ba482ccf1205e9540ea2564d6398a942390d1ddc552bfb876ad2003881d5",
+      "items_compared": 16,
+      "exact_prompt_match": true
+    },
+    {
+      "path": "sources/transcriptions/cook-ex-02.md",
+      "sha256": "25d6554096ab017585e0712f459624c3597ecb643c265885a3f4ccba42331486",
+      "items_compared": 12,
+      "exact_prompt_match": true
+    },
+    {
+      "path": "sources/audits/unit01-source/exercise-3.md",
+      "sha256": "ea31e6f6204d092b6394eb9fb6f0cf3edf5b318f7254ef3270714ffef3a6be61",
+      "items_compared": 18,
+      "exact_prompt_match": true
+    }
+  ],
+  "protected_reading": {
+    "id": "FB-I-CREATION-FIRST-DAY-01",
+    "master_line": 748,
+    "text_sha256_utf8": "92fd63ba24ef375608036c66f688f7e42e39b476a66120bb7756b968f4fc1f31",
+    "unchanged_required": true,
+    "contract_text_matches_master": true
+  },
+  "findings": [
+    {
+      "id": "NOV-01",
+      "priority": "material_for_requested_revision",
+      "finding": "Whole worked-answer exposure in CASE06 and whole worked-analysis exposure in REVIEW02.",
+      "affected_ids": [
+        "CH01-EXAMPLE06",
+        "CH01-CASE06",
+        "CH01-EXAMPLE08",
+        "CH01-REVIEW02"
+      ],
+      "resolution": "Change the two exposition examples and refresh the review context; preserve the source reading and Cook prompts."
+    },
+    {
+      "id": "NOV-02",
+      "priority": "material_for_requested_revision",
+      "finding": "The main forms/copula block mostly names cells already printed; it cannot be the principal evidence for transfer.",
+      "affected_ids": [
+        "CH01-F01",
+        "CH01-F02",
+        "CH01-F03",
+        "CH01-F04",
+        "CH01-F05",
+        "CH01-F06",
+        "CH01-F07",
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06"
+      ],
+      "resolution": "Retain full reference paradigms; redesign original prompts around meaning, role, number/person/tense change and error contrasts. Keep F08 as explicit reference."
+    },
+    {
+      "id": "NOV-03",
+      "priority": "material_for_requested_revision",
+      "finding": "The original short readings print complete answers to three earlier composition tasks and reuse an already solved analysis.",
+      "affected_ids": [
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-COMP01",
+        "CH01-COMP02",
+        "CH01-COMP03"
+      ],
+      "resolution": "Rewrite the two original passages as fresh connected scenes under the same teaching scope; preserve the exact Cook reading separately."
+    },
+    {
+      "id": "NOV-04",
+      "priority": "material_for_requested_revision",
+      "finding": "Several reading questions simply repeat supplied analyses or translations. Essential support must not be withheld to create artificial difficulty.",
+      "affected_ids": [
+        "CH01-READ01",
+        "CH01-READ02",
+        "CH01-READ04",
+        "CH01-READ05",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "resolution": "Separate guided support checks from applications of already taught nominal/copular grammar; trim only redundant full solutions where actual prerequisites remain supplied."
+    },
+    {
+      "id": "NOV-05",
+      "priority": "important_qualification",
+      "finding": "All 46 Cook prompts are intact and no complete Cook answer is a preceding worked example. I.1 offers basic gender/article selection, I.2 mostly combines printed N pl diagnostics, and I.3 offers richer new dependencies.",
+      "affected_ids": [
+        "EX-I-01-01",
+        "EX-I-01-02",
+        "EX-I-01-03",
+        "EX-I-01-04",
+        "EX-I-01-05",
+        "EX-I-01-06",
+        "EX-I-01-07",
+        "EX-I-01-08",
+        "EX-I-01-09",
+        "EX-I-01-10",
+        "EX-I-01-11",
+        "EX-I-01-12",
+        "EX-I-01-13",
+        "EX-I-01-14",
+        "EX-I-01-15",
+        "EX-I-01-16",
+        "EX-I-02-01",
+        "EX-I-02-02",
+        "EX-I-02-03",
+        "EX-I-02-04",
+        "EX-I-02-05",
+        "EX-I-02-06",
+        "EX-I-02-07",
+        "EX-I-02-08",
+        "EX-I-02-09",
+        "EX-I-02-10",
+        "EX-I-02-11",
+        "EX-I-02-12",
+        "EX-I-03-01",
+        "EX-I-03-02",
+        "EX-I-03-03",
+        "EX-I-03-04",
+        "EX-I-03-05",
+        "EX-I-03-06",
+        "EX-I-03-07",
+        "EX-I-03-08",
+        "EX-I-03-09",
+        "EX-I-03-10",
+        "EX-I-03-11",
+        "EX-I-03-12",
+        "EX-I-03-13",
+        "EX-I-03-14",
+        "EX-I-03-15",
+        "EX-I-03-16",
+        "EX-I-03-17",
+        "EX-I-03-18"
+      ],
+      "resolution": "Preserve all prompts. Keep replacement examples distinct from them, and use original practice for stronger rule-application evidence."
+    },
+    {
+      "id": "NOV-06",
+      "priority": "recommended_strengthening",
+      "finding": "COMP04 is only a same-pattern lexical substitution; CASE10 and REVIEW04 can demand a new number/role decision.",
+      "affected_ids": [
+        "CH01-EXAMPLE07",
+        "CH01-COMP04",
+        "CH01-CASE10",
+        "CH01-REVIEW04"
+      ],
+      "resolution": "Use the finite task/example changes specified in the item records, without new vocabulary systems."
+    }
+  ],
+  "cook_items": [
+    {
+      "item_id": "EX-I-01-01",
+      "original_source_id": "I.1.1",
+      "prompt": "The evening and the morning.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 504,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish neuter evening from masculine morning; the pair itself has not been translated in the exposition.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-02",
+      "original_source_id": "I.1.2",
+      "prompt": "The day and the night.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 508,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish masculine day from feminine night; nominative singular stems are given, but the two article choices must be associated with their own nouns.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-03",
+      "original_source_id": "I.1.3",
+      "prompt": "The earth and the heaven.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 512,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish feminine earth from the assigned masculine heaven. The later source reading uses a different supplied heaven lemma and must not determine this exercise.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-04",
+      "original_source_id": "I.1.4",
+      "prompt": "The fish and the bird.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 516,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine two masculine nominative noun phrases; little discrimination remains once their genders are known. Neither complete pair is a worked example.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-05",
+      "original_source_id": "I.1.5",
+      "prompt": "The grass and the seed.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 520,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine two neuter singular phrases. This is headword/article assembly, not a test of the neuter plural rule.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-06",
+      "original_source_id": "I.1.6",
+      "prompt": "The tree and the herb.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 524,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish neuter tree from feminine herb. The exceptional tree plural and endingless herb accusative are not required here.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-07",
+      "original_source_id": "I.1.7",
+      "prompt": "The dry land and the water.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 528,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish feminine dry-land noun from neuter water; do not silently turn either mass sense into a plural.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-08",
+      "original_source_id": "I.1.8",
+      "prompt": "The image and the likeness.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 532,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine two feminine headwords. The -ness- stem rule is not exercised by their nominatives.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-09",
+      "original_source_id": "I.1.9",
+      "prompt": "The light and the darkness (plur.).",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 536,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Use singular neuter light but plural-only darkness; the English parenthesis is an important number cue, not an answer leak.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-10",
+      "original_source_id": "I.1.10",
+      "prompt": "The sign and the season.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 540,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish neuter sign from feminine season; no syncope is required by the bare singular nominative.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-11",
+      "original_source_id": "I.1.11",
+      "prompt": "The spirit and the life.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 544,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish masculine spirit from neuter life.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-12",
+      "original_source_id": "I.1.12",
+      "prompt": "The creature and the food.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 548,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish feminine creature from masculine food. Food remains singular in the assigned sense.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-13",
+      "original_source_id": "I.1.13",
+      "prompt": "The year and the day.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 552,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish neuter year from masculine day; do not change the singular day vowel.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-14",
+      "original_source_id": "I.1.14",
+      "prompt": "The man and the animal.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 556,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish masculine man from neuter animal, using the direction-selected animal lemma.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-15",
+      "original_source_id": "I.1.15",
+      "prompt": "The tree and the fruit.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 560,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish neuter tree from masculine fruit; the short quantity of fruit remains a lexical fact.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-01-16",
+      "original_source_id": "I.1.16",
+      "prompt": "The firmament and the abyss.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 564,
+      "current_task_type": "source_production",
+      "classification": "new_controlled_gender_article_combination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine two feminine -nes headwords; this is not yet evidence for producing their -ness- obliques.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-01",
+      "original_source_id": "I.2.1",
+      "prompt": "The days and the nights.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 570,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select the changed day stem and invariant night plural. Both complete noun forms are printed in the paradigms and vocabulary.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-02",
+      "original_source_id": "I.2.2",
+      "prompt": "The fishes and the birds.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 574,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select ordinary fish plural and syncopated bird plural. Both are printed; useful controlled contrast but not independent derivation from a rule.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-03",
+      "original_source_id": "I.2.3",
+      "prompt": "The trees and the herbs.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 578,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select exceptional tree plural and feminine herb plural. Both are printed; preserve the exceptional tree pattern.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-04",
+      "original_source_id": "I.2.4",
+      "prompt": "The images and the likenesses.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 582,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select -ness- plurals for image and likeness. Both N pl diagnostics are printed in the vocabulary.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-05",
+      "original_source_id": "I.2.5",
+      "prompt": "The signs and the seasons.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 586,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select syncopated sign plural and feminine season plural; both appear verbatim in the reference data.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-06",
+      "original_source_id": "I.2.6",
+      "prompt": "The years and the days.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 590,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select zero-ended year plural and changed day stem; both N pl diagnostics are printed.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-07",
+      "original_source_id": "I.2.7",
+      "prompt": "The men and the animals.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 594,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select irregular man plural and zero-ended animal plural; both are printed.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-08",
+      "original_source_id": "I.2.8",
+      "prompt": "The seas and the heavens.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 598,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select the sea plural in -s and regular masculine heaven plural. The reconstructed sea genitive is irrelevant and must stay unassessed.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-09",
+      "original_source_id": "I.2.9",
+      "prompt": "The seeds and the fruits.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 602,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select zero-ended seed plural and regular fruit plural, retaining the corrected short vowel. Both are printed.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-10",
+      "original_source_id": "I.2.10",
+      "prompt": "The evenings and the mornings.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 606,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Contrast retained vowel in evening with syncopated morning. Both N pl forms are printed, so ask for rule application elsewhere.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-11",
+      "original_source_id": "I.2.11",
+      "prompt": "The spirits and the men.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 610,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select regular spirit plural and irregular man plural. This is a new pairing but uses two listed diagnostic forms.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-02-12",
+      "original_source_id": "I.2.12",
+      "prompt": "The whales and the cattle.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 614,
+      "current_task_type": "source_production",
+      "classification": "new_phrase_reference_form_assembly",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data. Every required noun N pl and the common plural article are printed: this cannot by itself certify unseen plural formation.",
+      "decisions_remaining": "Select whale plural with vowel alternation and the assigned cattle sense of the animal plural; both forms and the special sense are printed.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "§§3–7 complete noun paradigms"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-01",
+      "original_source_id": "I.3.1",
+      "prompt": "The beginning of the day.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 620,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Make day the singular dependent and beginning the nominative head; apply dependent-first order and the head-article rule.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-02",
+      "original_source_id": "I.3.2",
+      "prompt": "The spirit of God.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 624,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Use the proper-name dependent without an article. The exact resulting noun phrase occurs later in the protected Creation extract; it is not a preceding worked example.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair",
+        "§16 protected source reading, line748: Godes gāst"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 7
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-03",
+      "original_source_id": "I.3.3",
+      "prompt": "The light of the life.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 628,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish genitive singular life from the nominative head light and apply the head-article rule.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-04",
+      "original_source_id": "I.3.4",
+      "prompt": "The life of the bird.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 632,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Use a syncopated singular bird dependent with nominative life. The earlier example has man as dependent and bird as head, so the roles genuinely differ.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-05",
+      "original_source_id": "I.3.5",
+      "prompt": "The food of the fish.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 636,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Put fish in the genitive while food remains nominative; preserve the masculine -e headword rather than adding a new head article.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-06",
+      "original_source_id": "I.3.6",
+      "prompt": "The firmament of the heaven.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 640,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Form the retained-vowel heaven genitive and choose the nominative feminine firmament head.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-07",
+      "original_source_id": "I.3.7",
+      "prompt": "The beasts of the earth.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 644,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Choose a singular weak earth dependent and plural zero-ended animal head. Singular dependent and plural head need separate analysis.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-08",
+      "original_source_id": "I.3.8",
+      "prompt": "The face of the deep.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 648,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Choose deep as genitive dependent and surface as nominative head. The later protected source has the same relation inside an ofer phrase, with a dative head; it is not the identical nominative answer.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair",
+        "§16 protected source and help, lines748/762: related phrase with dative head"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-09",
+      "original_source_id": "I.3.9",
+      "prompt": "The congregations of the waters.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 652,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine a plural water dependent with a plural gathering head; each has its own number/form decision and only the dependent receives an article.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-10",
+      "original_source_id": "I.3.10",
+      "prompt": "The waters of the sea.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 656,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Distinguish singular sea genitive from plural water head. The sea genitive singular happens to equal its nominative plural; syntax selects the analysis.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-11",
+      "original_source_id": "I.3.11",
+      "prompt": "The fishes of the sea.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 660,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Use that singular sea genitive with a different plural masculine head; the preceding item permits useful transfer rather than whole-answer copying.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-12",
+      "original_source_id": "I.3.12",
+      "prompt": "The birds of the air.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 664,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine neuter singular air dependent with syncopated plural bird head.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-13",
+      "original_source_id": "I.3.13",
+      "prompt": "The array of the heavens and of the earth.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 668,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Coordinate two differently numbered/gendered dependents (plural heavens and singular earth) under one singular array head; keep each dependent article attached to its own noun.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 15
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-14",
+      "original_source_id": "I.3.14",
+      "prompt": "The works of God.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 672,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine proper-name dependent with plural zero-ended work head. The article omission cannot be obtained by blindly applying the common-noun genitive template.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 7
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-15",
+      "original_source_id": "I.3.15",
+      "prompt": "The kinds of the animals.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 676,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine plural animal dependent with plural zero-ended kind head; the printed nominative animal form does not itself give its genitive plural.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-16",
+      "original_source_id": "I.3.16",
+      "prompt": "The stars of the heaven.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 680,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine singular heaven genitive with weak masculine star plural; preserve the distinct head/dependent cases.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-17",
+      "original_source_id": "I.3.17",
+      "prompt": "The seeds of the grass.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 684,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine singular grass genitive with plural seed head; identical-looking singular/plural seed requires the English number cue.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "EX-I-03-18",
+      "original_source_id": "I.3.18",
+      "prompt": "The illumination of the nights.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 688,
+      "current_task_type": "source_production",
+      "classification": "new_genitive_recombination",
+      "exposure_assessment": "No complete requested answer or worked analysis is given in preceding exposition. Complete paradigms and lexical diagnostics provide legitimate reference data.",
+      "decisions_remaining": "Combine exceptional night genitive plural with singular feminine illumination head, retaining its assigned -ing spelling.",
+      "proposed_action": "Retain the exact Cook prompt, number, ID and assigned lexical target. Do not put this complete answer into a replacement worked example. Strengthen original practice separately.",
+      "exposition_or_other_task_refs": [
+        "§2 article table, lines26–34",
+        "§10 vocabulary, lines299–346",
+        "§13 editorial directions, line498",
+        "CH01-EXAMPLE03, lines249–253: different genitive pair"
+      ],
+      "required_feature_ids": [
+        "noun-gender",
+        "article-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": true,
+      "preserve_id_if_target_survives": true
+    }
+  ],
+  "original_items": [
+    {
+      "item_id": "CH01-F01",
+      "original_source_id": null,
+      "prompt": "Decline fisc with its definite article in all four cases, singular and plural. Label every case and number.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 354,
+      "current_task_type": "form_production",
+      "classification": "reference_assembly",
+      "exposure_assessment": "The noun paradigm is wholly printed at44–47; the article must be combined from28–31. This is not a leaked complete table with articles, but it offers little contextual choice.",
+      "decisions_remaining": "Case/number labels and agreement require assembly, not choosing a case from meaning.",
+      "proposed_action": "Retain the full reference paradigm. Replace the copying task with a regular masculine noun not fully tabulated (heofon is already assigned), or a sequence of subject/object/possessor/recipient/location contexts with noun and article changes. Keep coverage of all eight case/number cells.",
+      "exposition_or_other_task_refs": [
+        "§3 lines40–49",
+        "§2 lines26–31"
+      ],
+      "required_feature_ids": [
+        "paradigm-masc",
+        "article-agreement"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 20
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-F02",
+      "original_source_id": null,
+      "prompt": "Give nominative and accusative plurals of hof and sǣd. Explain the different endings.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 358,
+      "current_task_type": "form_production",
+      "classification": "table_cells_plus_repeated_rule",
+      "exposure_assessment": "All four requested forms and the short/heavy explanation occur at77–84.",
+      "decisions_remaining": "The explanation can be repeated verbatim; no new stem or role must be judged.",
+      "proposed_action": "Use fresh singular/plural subject or object contexts that contrast hof with a listed heavy noun other than the displayed partner, and require a weight-based explanation. Keep the short/heavy distinction; do not introduce an unattested new noun merely for novelty.",
+      "exposition_or_other_task_refs": [
+        "§4 lines77–86"
+      ],
+      "required_feature_ids": [
+        "paradigm-neut-weight",
+        "syllable-weight"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 7,
+          "new_recognition": 1
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-F03",
+      "original_source_id": null,
+      "prompt": "Give genitive plural dæg and hwæl, dative singular mann, and genitive plural niht.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 362,
+      "current_task_type": "form_production",
+      "classification": "pure_table_cell_retrieval",
+      "exposure_assessment": "Every requested cell is printed at58 and176–177.",
+      "decisions_remaining": "Selecting named cells adds no syntactic decision.",
+      "proposed_action": "Place the same four target forms in new genitive-dependent and supplied giving contexts, with the learner selecting the case from meaning. Preserve dæg/hwæl G pl, mann D sg and niht G pl coverage.",
+      "exposition_or_other_task_refs": [
+        "§3 lines55–60",
+        "§7 lines173–178"
+      ],
+      "required_feature_ids": [
+        "paradigm-masc-ae-a",
+        "paradigm-exception-mann",
+        "paradigm-exception-niht"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-F04",
+      "original_source_id": null,
+      "prompt": "Give trēo genitive singular, dative singular and nominative plural; tācen genitive singular and nominative plural; wæter genitive singular and nominative plural; ǣfen and nīeten nominative plural.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 366,
+      "current_task_type": "form_production",
+      "classification": "pure_table_cell_retrieval",
+      "exposure_assessment": "Every requested exceptional or disyllabic form is displayed at94–117.",
+      "decisions_remaining": "No fresh choice beyond following the case/number labels.",
+      "proposed_action": "Redistribute the same target cells into short meaning-led phrase/frame completions or a compact change-of-number set. Require w insertion, retained/syncopated vowel choices and agreement rather than copying a labelled cell. Keep all listed target forms accounted for in the revised contract.",
+      "exposition_or_other_task_refs": [
+        "§4 lines90–117"
+      ],
+      "required_feature_ids": [
+        "paradigm-neut-treo",
+        "paradigm-neut-disyllable"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 16
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-F05",
+      "original_source_id": null,
+      "prompt": "Decline steorra in all four cases, singular and plural, then eorðe in all four singular cases.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 370,
+      "current_task_type": "form_production",
+      "classification": "pure_table_copying",
+      "exposure_assessment": "The task reproduces the steorra table and eorðe singular column at158–163.",
+      "decisions_remaining": "No new context or article decision is requested.",
+      "proposed_action": "Replace with weak-noun role contrasts and singular/plural transformations using steorra/eorðe; retain coverage of all steorra cases/numbers and the eorðe singular cases. Do not manufacture a productive plural earth sense.",
+      "exposition_or_other_task_refs": [
+        "§6 lines156–165"
+      ],
+      "required_feature_ids": [
+        "paradigm-weak"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 15
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-F06",
+      "original_source_id": null,
+      "prompt": "Give accusative and genitive singular wyrt; accusative and genitive singular tīd; accusative singular gesceaft.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 374,
+      "current_task_type": "form_production",
+      "classification": "pure_table_cell_retrieval",
+      "exposure_assessment": "Every requested feminine cell is printed at125–139.",
+      "decisions_remaining": "The endingless-accusative exception is recalled, but not selected in context.",
+      "proposed_action": "Use fresh supplied seeing/creating frames and genitive phrases so learners choose between G sg and A sg for wyrt/tīd and the ordinary A sg of gesceaft. Keep finite verbs supplied.",
+      "exposition_or_other_task_refs": [
+        "§5 lines123–139"
+      ],
+      "required_feature_ids": [
+        "paradigm-fem-acc-zero",
+        "paradigm-fem-long"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 10
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-F07",
+      "original_source_id": null,
+      "prompt": "Give dative singular fæstnes, genitive plural andlīcnes, nominative plural gelīcnes, and dative plural gegaderung.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 378,
+      "current_task_type": "form_production",
+      "classification": "mostly_reference_cell_retrieval",
+      "exposure_assessment": "Andlīcnes G pl and gegaderung D pl are tabulated; gelīcnes N pl and fæstnes G sg (same shape as D sg) are lexical diagnostics.",
+      "decisions_remaining": "Fæstnes requires pattern transfer to D sg, but the request already names that case and its spelling is available.",
+      "proposed_action": "Use new location/dependent/plural-subject contexts for the same nouns, with at least one choice distinguishing -nes stem formation from -ung endings. Keep singular-only sense restrictions on fæstnes.",
+      "exposition_or_other_task_refs": [
+        "§5 lines143–150",
+        "§10 lines315–316/329/337"
+      ],
+      "required_feature_ids": [
+        "paradigm-fem-nes",
+        "paradigm-fem-ung"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 10
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-F08",
+      "original_source_id": null,
+      "prompt": "Locate ðȳ and ðon in the article table. Identify their case and singular genders; this is a reference-form identification.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 382,
+      "current_task_type": "recognition_analysis",
+      "classification": "explicit_reference_orientation",
+      "exposure_assessment": "The instruction deliberately directs the learner to the instrumental reference row.",
+      "decisions_remaining": "Recognize the row and its bounded genders; no syntax is tested.",
+      "proposed_action": "Retain as an explicitly unassessed/reference check, or clearly separate it from transfer practice. Do not remove the row or introduce instrumental production to make it harder.",
+      "exposition_or_other_task_refs": [
+        "§2 lines32–34"
+      ],
+      "required_feature_ids": [
+        "article-instrumental-reference"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_recognition": 5,
+          "new_production": 1
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COP01",
+      "original_source_id": null,
+      "prompt": "First person singular.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 390,
+      "current_task_type": "form_production",
+      "classification": "pure_table_cell_retrieval",
+      "exposure_assessment": "The requested present/preterite pair is printed in the copula table at212–215; plural persons share a form.",
+      "decisions_remaining": "The English grammatical label simply identifies a displayed row.",
+      "proposed_action": "Replace with English speaker/addressee or number/tense changes in a short scenario, asking for the OE verb only. Across COP01–06 still cover all six person/number cells in both tenses. Include changed person with unchanged plural form and changed singular/plural agreement. Do not require untaught OE personal pronouns.",
+      "exposition_or_other_task_refs": [
+        "§8 lines208–217"
+      ],
+      "required_feature_ids": [
+        "copula-indicative"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 4
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COP02",
+      "original_source_id": null,
+      "prompt": "Second person singular.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 394,
+      "current_task_type": "form_production",
+      "classification": "pure_table_cell_retrieval",
+      "exposure_assessment": "The requested present/preterite pair is printed in the copula table at212–215; plural persons share a form.",
+      "decisions_remaining": "The English grammatical label simply identifies a displayed row.",
+      "proposed_action": "Replace with English speaker/addressee or number/tense changes in a short scenario, asking for the OE verb only. Across COP01–06 still cover all six person/number cells in both tenses. Include changed person with unchanged plural form and changed singular/plural agreement. Do not require untaught OE personal pronouns.",
+      "exposition_or_other_task_refs": [
+        "§8 lines208–217"
+      ],
+      "required_feature_ids": [
+        "copula-indicative"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 4
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COP03",
+      "original_source_id": null,
+      "prompt": "Third person singular.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 398,
+      "current_task_type": "form_production",
+      "classification": "pure_table_cell_retrieval",
+      "exposure_assessment": "The requested present/preterite pair is printed in the copula table at212–215; plural persons share a form.",
+      "decisions_remaining": "The English grammatical label simply identifies a displayed row.",
+      "proposed_action": "Replace with English speaker/addressee or number/tense changes in a short scenario, asking for the OE verb only. Across COP01–06 still cover all six person/number cells in both tenses. Include changed person with unchanged plural form and changed singular/plural agreement. Do not require untaught OE personal pronouns.",
+      "exposition_or_other_task_refs": [
+        "§8 lines208–217"
+      ],
+      "required_feature_ids": [
+        "copula-indicative"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 4
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COP04",
+      "original_source_id": null,
+      "prompt": "First person plural.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 402,
+      "current_task_type": "form_production",
+      "classification": "pure_table_cell_retrieval",
+      "exposure_assessment": "The requested present/preterite pair is printed in the copula table at212–215; plural persons share a form.",
+      "decisions_remaining": "The English grammatical label simply identifies a displayed row.",
+      "proposed_action": "Replace with English speaker/addressee or number/tense changes in a short scenario, asking for the OE verb only. Across COP01–06 still cover all six person/number cells in both tenses. Include changed person with unchanged plural form and changed singular/plural agreement. Do not require untaught OE personal pronouns.",
+      "exposition_or_other_task_refs": [
+        "§8 lines208–217"
+      ],
+      "required_feature_ids": [
+        "copula-indicative"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 4
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COP05",
+      "original_source_id": null,
+      "prompt": "Second person plural.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 406,
+      "current_task_type": "form_production",
+      "classification": "pure_table_cell_retrieval",
+      "exposure_assessment": "The requested present/preterite pair is printed in the copula table at212–215; plural persons share a form.",
+      "decisions_remaining": "The English grammatical label simply identifies a displayed row.",
+      "proposed_action": "Replace with English speaker/addressee or number/tense changes in a short scenario, asking for the OE verb only. Across COP01–06 still cover all six person/number cells in both tenses. Include changed person with unchanged plural form and changed singular/plural agreement. Do not require untaught OE personal pronouns.",
+      "exposition_or_other_task_refs": [
+        "§8 lines208–217"
+      ],
+      "required_feature_ids": [
+        "copula-indicative"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 4
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COP06",
+      "original_source_id": null,
+      "prompt": "Third person plural.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 410,
+      "current_task_type": "form_production",
+      "classification": "pure_table_cell_retrieval",
+      "exposure_assessment": "The requested present/preterite pair is printed in the copula table at212–215; plural persons share a form.",
+      "decisions_remaining": "The English grammatical label simply identifies a displayed row.",
+      "proposed_action": "Replace with English speaker/addressee or number/tense changes in a short scenario, asking for the OE verb only. Across COP01–06 still cover all six person/number cells in both tenses. Include changed person with unchanged plural form and changed singular/plural agreement. Do not require untaught OE personal pronouns.",
+      "exposition_or_other_task_refs": [
+        "§8 lines208–217"
+      ],
+      "required_feature_ids": [
+        "copula-indicative"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 4
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE01",
+      "original_source_id": null,
+      "prompt": "The man saw the bird.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 418,
+      "current_task_type": "scaffolded_production",
+      "classification": "near_transfer",
+      "exposure_assessment": "The worked seeing sentence has man seeing fish (line271), not bird.",
+      "decisions_remaining": "Choose subject/object article roles and substitute the assigned bird noun; limited but legitimate first application.",
+      "proposed_action": "Keep as the easy first role-selection item, paired with CASE02. Do not count the same-case lexical substitution as the only object-case transfer evidence.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE04"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "accusative-object"
+      ],
+      "current_supplied_form_ids": [
+        "geseon-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE02",
+      "original_source_id": null,
+      "prompt": "The bird saw the man.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 426,
+      "current_task_type": "scaffolded_production",
+      "classification": "role_reversal_transfer",
+      "exposure_assessment": "The full answer is not printed. CASE01 is an unanswered task, not an exposition model.",
+      "decisions_remaining": "Reverse agent and object while preserving the verb; use articles to mark the new roles.",
+      "proposed_action": "Retain the role reversal; a short explanation of what changes can strengthen it without new grammar.",
+      "exposition_or_other_task_refs": [
+        "CH01-CASE01",
+        "CH01-EXAMPLE04"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "accusative-object"
+      ],
+      "current_supplied_form_ids": [
+        "geseon-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE03",
+      "original_source_id": null,
+      "prompt": "God created the heavens and the earth. Use masculine heofon for 'heavens'.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 434,
+      "current_task_type": "scaffolded_production",
+      "classification": "new_number_and_class_recombination",
+      "exposure_assessment": "No earlier complete example gives this sentence; the later source uses supplied weak singular heofonan instead of the required masculine plural.",
+      "decisions_remaining": "Select two accusative objects, masculine plural heaven and weak feminine singular earth, and coordinate them.",
+      "proposed_action": "Retain the distinction between productive masculine plural and supplied source variant; do not replace it with the later reading verbatim.",
+      "exposition_or_other_task_refs": [
+        "§9 object and coordination rules",
+        "§16 lines748/760"
+      ],
+      "required_feature_ids": [
+        "accusative-object",
+        "noun-coordination"
+      ],
+      "current_supplied_form_ids": [
+        "gescieppan-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 13,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE04",
+      "original_source_id": null,
+      "prompt": "The man saw the stars.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 442,
+      "current_task_type": "scaffolded_production",
+      "classification": "new_inflection_choice",
+      "exposure_assessment": "Seeing frame is familiar, but the weak star plural is not in a worked sentence.",
+      "decisions_remaining": "Select accusative plural weak noun and plural article.",
+      "proposed_action": "Retain; it supplies a useful contrast with singular objects.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE04",
+        "§6 steorra table"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "accusative-object"
+      ],
+      "current_supplied_form_ids": [
+        "geseon-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 9,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE05",
+      "original_source_id": null,
+      "prompt": "The man saw the fish in the sea.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 450,
+      "current_task_type": "scaffolded_production",
+      "classification": "partly_exposed_clause_with_new_location",
+      "exposure_assessment": "The entire subject–verb–object string is EXAMPLE04, but the sea location must be added.",
+      "decisions_remaining": "Choose sea dative rather than copying water dative from EXAMPLE01; preserve direct-object case.",
+      "proposed_action": "Keep as a combined object/location task, or change its subject/object if stronger novelty is wanted. It already has a genuine new location decision and is not whole-answer leakage.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE04",
+        "CH01-EXAMPLE01"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "accusative-object",
+        "on-dative-location"
+      ],
+      "current_supplied_form_ids": [
+        "geseon-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 15,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE06",
+      "original_source_id": null,
+      "prompt": "God separated the light from the darkness.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 458,
+      "current_task_type": "scaffolded_production",
+      "classification": "whole_worked_answer_leakage",
+      "exposure_assessment": "EXAMPLE06 at291 gives the full requested OE sentence and English meaning; line293 states both requested case analyses.",
+      "decisions_remaining": "Only copying the existing sentence into blanks remains.",
+      "proposed_action": "Replace EXAMPLE06 with another separation event using assigned nouns, e.g. man separating seed from grass, while leaving this task and the protected source passage intact. Record the new example as composition with supplied gedǣlde.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE06, lines291–293"
+      ],
+      "required_feature_ids": [
+        "accusative-object",
+        "fram-dative-separation"
+      ],
+      "current_supplied_form_ids": [
+        "gedaelan-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 13,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE07",
+      "original_source_id": null,
+      "prompt": "The bird saw the seed in the man's dwelling.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 466,
+      "current_task_type": "scaffolded_production",
+      "classification": "new_clause_with_exposed_nested_phrase",
+      "exposure_assessment": "The nested phrase in the man’s dwelling and its exact analysis are already printed at261–263.",
+      "decisions_remaining": "Subject, object and full sentence assembly remain new, but the hardest nested segment can be copied.",
+      "proposed_action": "Replace EXAMPLE08 with a different possessor/head combination (bird/tree is within current vocabulary), preserving this original task’s target.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE08"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "accusative-object",
+        "on-dative-location",
+        "nested-genitive-phrase"
+      ],
+      "current_supplied_form_ids": [
+        "geseon-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 18,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE08",
+      "original_source_id": null,
+      "prompt": "The bird saw the man in the dwelling.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 474,
+      "current_task_type": "scaffolded_production",
+      "classification": "new_combined_roles",
+      "exposure_assessment": "The seeing roles resemble CASE02, an earlier unanswered task; the location adds a separate noun phrase.",
+      "decisions_remaining": "Keep accusative man separate from dative dwelling, using the explicit attachment cue.",
+      "proposed_action": "Retain as contrast with CASE07; together they distinguish a genitive inside the location from a main-clause object.",
+      "exposition_or_other_task_refs": [
+        "CH01-CASE02",
+        "CH01-CASE07"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "accusative-object",
+        "on-dative-location"
+      ],
+      "current_supplied_form_ids": [
+        "geseon-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 15,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE09",
+      "original_source_id": null,
+      "prompt": "Complete the printed sealde frame to express: God gave food to the man. Identify the recipient and the thing given.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 482,
+      "current_task_type": "scaffolded_production",
+      "classification": "near_transfer_with_irregular_recipient",
+      "exposure_assessment": "EXAMPLE05 gives God giving food to a bird, not to a man.",
+      "decisions_remaining": "A changed recipient requires the irregular dative man form; identify recipient versus thing.",
+      "proposed_action": "Retain this meaningful irregular-form transfer. The exact supplied verb remains visible.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE05",
+        "§7 mann table"
+      ],
+      "required_feature_ids": [
+        "dative-recipient",
+        "accusative-object",
+        "article-agreement"
+      ],
+      "current_supplied_form_ids": [
+        "sellan-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-CASE10",
+      "original_source_id": null,
+      "prompt": "Complete the printed sealde frame to express: The man gave seed to the bird. Identify the recipient and the thing given.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 490,
+      "current_task_type": "scaffolded_production",
+      "classification": "low_transfer_recombination",
+      "exposure_assessment": "The recipient bird phrase is already supplied in EXAMPLE05; sender and thing given change.",
+      "decisions_remaining": "Distinguish giver, recipient and gift; most inflection choices reproduce the model.",
+      "proposed_action": "Strengthen by making the recipient plural while keeping the same giving construction and assigned senses. The new number forces a fresh article/noun decision. Keep sealde supplied and preserve the task ID.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE05"
+      ],
+      "required_feature_ids": [
+        "dative-recipient",
+        "accusative-object",
+        "article-agreement"
+      ],
+      "current_supplied_form_ids": [
+        "sellan-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 12,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COMP01",
+      "original_source_id": null,
+      "prompt": "The bird is in the tree.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 696,
+      "current_task_type": "independent_production",
+      "classification": "new_stem_application_with_later_answer_exposure",
+      "exposure_assessment": "EXAMPLE01 has a different animal/location. MINI01 sentence3 later prints this complete answer.",
+      "decisions_remaining": "Apply locative dative to exceptional tree and choose the copula independently.",
+      "proposed_action": "Retain the composition; rewrite MINI01 so it does not print this task’s complete answer.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE01",
+        "CH01-MINI01, line734"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "on-dative-location"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 13
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COMP02",
+      "original_source_id": null,
+      "prompt": "The birds were in the trees.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 700,
+      "current_task_type": "independent_production",
+      "classification": "number_tense_transfer_with_later_answer_exposure",
+      "exposure_assessment": "EXAMPLE02 has different nouns; MINI02 sentence2 later prints this complete answer.",
+      "decisions_remaining": "Apply plural noun stems, dative plural and past plural copula.",
+      "proposed_action": "Retain the composition; rewrite MINI02 to avoid the exact answer while retaining its tense-transformation target.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE02",
+        "CH01-MINI02, line740"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "on-dative-location"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 13
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COMP03",
+      "original_source_id": null,
+      "prompt": "The seed is the bird's food.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 704,
+      "current_task_type": "independent_production",
+      "classification": "new_genitive_predicate_with_later_answer_exposure",
+      "exposure_assessment": "The combination is not a worked example, but MINI01 sentence4 later prints its complete answer.",
+      "decisions_remaining": "Combine subject, copula and a predicate noun with genitive dependent; keep the head nominative.",
+      "proposed_action": "Retain; remove the literal answer from the new MINI01.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE03",
+        "CH01-MINI01, line734"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "subject-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 14
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COMP04",
+      "original_source_id": null,
+      "prompt": "The fish is an animal.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 708,
+      "current_task_type": "independent_production",
+      "classification": "shallow_lexical_substitution",
+      "exposure_assessment": "EXAMPLE07 is the whale is an animal; fish replaces whale without changing case, number, gender pattern or copula.",
+      "decisions_remaining": "Minimal new choice beyond recalling the fish headword.",
+      "proposed_action": "Prefer revising EXAMPLE07 to a different predicate-noun relationship, e.g. seed/food, so the composition tests a new pair. Alternatively change this original item to a plural predicate relation; do not alter a Cook prompt.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE07"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "subject-agreement"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 10
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COMP05",
+      "original_source_id": null,
+      "prompt": "The signs were in the sky.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 712,
+      "current_task_type": "independent_production",
+      "classification": "new_number_stem_and_agreement_choices",
+      "exposure_assessment": "No complete answer is given.",
+      "decisions_remaining": "Combine syncopated sign plural, preterite plural copula and singular masculine sky location.",
+      "proposed_action": "Retain.",
+      "exposition_or_other_task_refs": [
+        "§4 tācen",
+        "§8 copula",
+        "§9 location"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "on-dative-location"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 13
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COMP06",
+      "original_source_id": null,
+      "prompt": "The herbs are in the man's dwelling.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 716,
+      "current_task_type": "independent_production",
+      "classification": "new_agreement_with_exposed_nested_phrase",
+      "exposure_assessment": "The man’s dwelling phrase is EXAMPLE08; the plural herb subject and copula are new.",
+      "decisions_remaining": "Select feminine plural subject and plural agreement while the nested phrase can be copied.",
+      "proposed_action": "Keep this task; replacing EXAMPLE08 with another dependent/head pair restores the central nested decision.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE08"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "on-dative-location",
+        "nested-genitive-phrase"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 16
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COMP07",
+      "original_source_id": null,
+      "prompt": "The light of the night was in the sky.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 720,
+      "current_task_type": "independent_production",
+      "classification": "new_nested_subject_and_location",
+      "exposure_assessment": "No full answer is printed; sky location was used in an earlier unanswered composition.",
+      "decisions_remaining": "Combine exceptional night genitive with singular subject agreement and a separate locative phrase.",
+      "proposed_action": "Retain.",
+      "exposition_or_other_task_refs": [
+        "§7 niht",
+        "§9 genitive/location",
+        "CH01-COMP05"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "genitive-relationship",
+        "on-dative-location"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 16
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-COMP08",
+      "original_source_id": null,
+      "prompt": "The animals' food is the fruit of the trees.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 724,
+      "current_task_type": "independent_production",
+      "classification": "substantial_new_recombination",
+      "exposure_assessment": "No full answer is printed.",
+      "decisions_remaining": "Keep singular food head as agreement controller while two separate plural dependents modify food and fruit.",
+      "proposed_action": "Retain as a useful culminating independent task; do not simplify away either dependency.",
+      "exposition_or_other_task_refs": [
+        "§9 genitive and predicate rules"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "subject-agreement",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 15
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-MINI01",
+      "original_source_id": null,
+      "prompt": "Read the complete passage without extra glosses. Translate it; identify whose dwelling is mentioned and explain the cases of mannes and hofe in its second sentence.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 732,
+      "current_task_type": "recognition_analysis",
+      "classification": "connected_recycling_with_printed_composition_answers",
+      "exposure_assessment": "Sentences3–4 print COMP01/COMP03 answers. Sentence2 and the requested case analysis duplicate EXAMPLE08.",
+      "decisions_remaining": "Whole-passage integration is possible, but the queried structure has already been fully analyzed.",
+      "proposed_action": "Compose a different coherent scene using only assigned noun senses, copula and taught constructions. Avoid every complete composition answer; retain a fresh nested genitive and a content question requiring the learner to connect two statements. No added pronouns or lexical verbs without contract support.",
+      "exposition_or_other_task_refs": [
+        "CH01-COMP01",
+        "CH01-COMP03",
+        "CH01-EXAMPLE08"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "subject-agreement",
+        "on-dative-location",
+        "nested-genitive-phrase"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 27
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-MINI02",
+      "original_source_id": null,
+      "prompt": "Translate the passage. Rewrite it in the present. Explain the number of trēowu and the case of eorðan.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 738,
+      "current_task_type": "mixed_recognition_production",
+      "classification": "recycled_clause_with_useful_tense_operation",
+      "exposure_assessment": "Sentence2 prints COMP02’s answer. The other clauses reuse locations but are not complete worked examples.",
+      "decisions_remaining": "Present-tense rewriting genuinely requires agreement; tree number and earth case are contextual analyses.",
+      "proposed_action": "Rewrite the small scene to avoid complete answers elsewhere. Keep the coherent scene, past-to-present change, plural exceptional noun and weak locative analysis.",
+      "exposition_or_other_task_refs": [
+        "CH01-COMP02",
+        "§8 copula"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "on-dative-location",
+        "paradigm-neut-treo",
+        "paradigm-weak"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 25
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-REVIEW01",
+      "original_source_id": null,
+      "prompt": "A learner writes *dægas and *hwælas for the plurals of dæg and hwæl, then changes wæstm to *wastmas. Correct the intended plurals and explain which vowel alternation applies.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 810,
+      "current_task_type": "error_diagnosis",
+      "classification": "contrastive_error_diagnosis",
+      "exposure_assessment": "The correct forms and exact alternation limit are in§3, but the three proposed errors are new.",
+      "decisions_remaining": "Accept the alternation for two nouns and reject its overextension across a consonant group.",
+      "proposed_action": "Retain as a diagnostic contrast. If refreshed, use oblique/plural cells rather than merely renaming the nouns, and preserve the lexical exception limit.",
+      "exposition_or_other_task_refs": [
+        "§3 lines53–60"
+      ],
+      "required_feature_ids": [
+        "paradigm-masc-ae-a",
+        "orthography"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 7,
+          "new_recognition": 1
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-REVIEW02",
+      "original_source_id": null,
+      "prompt": "In on ðæs mannes hofe, a learner takes ðæs to agree with hofe. Identify the head and the dependent, and give each case.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 814,
+      "current_task_type": "recognition_analysis",
+      "classification": "whole_worked_analysis_leakage",
+      "exposure_assessment": "The same phrase and the same incorrect attachment are explicitly resolved at261–263. MINI01 also asks for the same analysis.",
+      "decisions_remaining": "The requested explanation can be copied verbatim.",
+      "proposed_action": "Use a fresh nested phrase with plural possessor and plural location, based on assigned bird/tree vocabulary, or another verified combination. Preserve the head-versus-dependent case target.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE08",
+        "CH01-MINI01"
+      ],
+      "required_feature_ids": [
+        "nested-genitive-phrase",
+        "genitive-relationship",
+        "on-dative-location"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-REVIEW03",
+      "original_source_id": null,
+      "prompt": "List the possible case/number values of eorðan in the selected paradigm. Which applies in on ðǣre eorðan, and which in God gescēop ðā eorðan (\"God created the earth\")? The supplied gescēop means 'created'.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 818,
+      "current_task_type": "recognition_analysis",
+      "classification": "reference_plus_recycled_contextual_analysis",
+      "exposure_assessment": "The possible cells are in the weak table; both locative earth and created-earth contexts have already appeared.",
+      "decisions_remaining": "Syncretism still requires context; the explicit English singular cue correctly prevents false uniqueness.",
+      "proposed_action": "Retain the principle but present fresh contexts or use steorran for a new weak-form ambiguity. Keep an explicit number cue where forms/articles are syncretic, and do not introduce a productive plural earth sense.",
+      "exposition_or_other_task_refs": [
+        "§6 weak table",
+        "CH01-CASE03",
+        "CH01-MINI02",
+        "§16 source reading"
+      ],
+      "required_feature_ids": [
+        "case-syncretism",
+        "paradigm-weak",
+        "article-agreement",
+        "on-dative-location",
+        "accusative-object"
+      ],
+      "current_supplied_form_ids": [
+        "gescieppan-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 15,
+          "new_recognition": 3,
+          "supplied": 2
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-REVIEW04",
+      "original_source_id": null,
+      "prompt": "Explain why the guided reading has ðīestru wǣron although ordinary English uses 'darkness was'. Then identify the cases in ðæt lēoht fram ðǣm ðīestrum.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 822,
+      "current_task_type": "recognition_analysis",
+      "classification": "repeated_reading_question_and_worked_cases",
+      "exposure_assessment": "The agreement question repeats READ02; the separation analysis repeats EXAMPLE06 and READ06.",
+      "decisions_remaining": "Little new reasoning beyond retrieval of the earlier analyses.",
+      "proposed_action": "Require a present/past or singular/plural contrast with plural-only darkness, plus a different separation phrase using taught nouns and an explicitly supplied verb if needed. Keep mass-sense and plural-only restrictions.",
+      "exposition_or_other_task_refs": [
+        "CH01-READ02",
+        "CH01-READ06",
+        "CH01-EXAMPLE06"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "accusative-object",
+        "fram-dative-separation"
+      ],
+      "current_supplied_form_ids": [],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 15
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-READ01",
+      "original_source_id": null,
+      "prompt": "Using the local support, identify the subject and two objects of the first sentence. Is heofonan plural? Translate the sentence.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 776,
+      "current_task_type": "supported_reading",
+      "classification": "supported_analysis_mixed_with_given_answers",
+      "exposure_assessment": "Help says God is subject and heofonan is accusative singular. It does not by itself parse every printed word.",
+      "decisions_remaining": "Earth’s object role and integration of the whole first sentence use taught grammar; the heaven answer is supplied.",
+      "proposed_action": "Keep the weak-feminine form and unusual order help. Label supplied identification as a check, or ask learners to distinguish the productive masculine noun from the supplied variant and analyze the remaining known object. Do not score heofonan as independent recall.",
+      "exposition_or_other_task_refs": [
+        "§16 help lines758–760"
+      ],
+      "required_feature_ids": [
+        "accusative-object",
+        "source-word-order",
+        "reading-heofone",
+        "reading-on-anginne"
+      ],
+      "current_supplied_form_ids": [
+        "gescieppan-pret-3-sg",
+        "heofone-acc-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 10,
+          "supplied": 7,
+          "new_recognition": 1
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-READ02",
+      "original_source_id": null,
+      "prompt": "Describe the earth and the darkness. Explain wǣron, then identify the head and genitive dependent in the phrase after ofer.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 780,
+      "current_task_type": "supported_reading",
+      "classification": "supported_analysis_with_avoidable_explicit_solution",
+      "exposure_assessment": "Adjectives are rightly supplied, but line762 explicitly labels the head, dependent and article attachment that the question asks for.",
+      "decisions_remaining": "Plural copula with darkness uses known grammar; the nested phrase is currently pre-solved.",
+      "proposed_action": "Keep local ofer+dative information and adjective meanings. If the contract permits, omit the explicit head/dependent identification and full nominal-phrase translation; let learners apply the taught dependent-first/head-case rule. Otherwise label that part a supported check, not transfer.",
+      "exposition_or_other_task_refs": [
+        "§16 help lines761–762",
+        "§9 nested genitive"
+      ],
+      "required_feature_ids": [
+        "reading-adjective-predicates",
+        "subject-agreement",
+        "reading-ofer-dative",
+        "nested-genitive-phrase"
+      ],
+      "current_supplied_form_ids": [
+        "sothlice-invariant",
+        "idel-nom-f-sg",
+        "aemtig-nom-f-sg",
+        "ofer-invariant"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 18,
+          "supplied": 10
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-READ03",
+      "original_source_id": null,
+      "prompt": "With the supplied passive phrase, state what God's spirit was doing and over what. Explain why wæteru cannot be the selected dative plural form.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 784,
+      "current_task_type": "supported_reading",
+      "classification": "supported_verbal_meaning_plus_known_form_contrast",
+      "exposure_assessment": "The passive meaning and accusative label are supplied at763; these verb and ofer uses are not taught for recall.",
+      "decisions_remaining": "The reason wæteru cannot be the selected D pl can be demonstrated from the learned -um pattern.",
+      "proposed_action": "Retain the complete passive support and actual ofer government. Ask for the taught morphological evidence separately; do not call the passive translation independent reading.",
+      "exposition_or_other_task_refs": [
+        "§16 help line763",
+        "§4 wæter table"
+      ],
+      "required_feature_ids": [
+        "reading-passive-gefered",
+        "reading-ofer-accusative",
+        "genitive-relationship"
+      ],
+      "current_supplied_form_ids": [
+        "geferian-past-participle",
+        "ofer-invariant"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 11,
+          "supplied": 6
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-READ04",
+      "original_source_id": null,
+      "prompt": "Does God's quoted speech report an existing fact or command/wish for something to come about? State what follows.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 788,
+      "current_task_type": "supported_reading",
+      "classification": "guided_support_check",
+      "exposure_assessment": "Help at765 states both the command/wish value and its translation;766 gives what follows.",
+      "decisions_remaining": "Sequence and relation between speech and result can be integrated, but mood identification is supplied.",
+      "proposed_action": "Retain as explicitly guided comprehension or revise to sequencing supported events. Do not remove subjunctive/passive help or count this as independent mood knowledge.",
+      "exposition_or_other_task_refs": [
+        "§16 help lines764–766"
+      ],
+      "required_feature_ids": [
+        "reading-temporal-tha",
+        "reading-optative-command",
+        "reading-passive-geworht"
+      ],
+      "current_supplied_form_ids": [
+        "cwethan-pret-3-sg",
+        "tha-adverb-invariant",
+        "geweorthan-pres-subj-3-sg",
+        "weorthan-pret-3-sg",
+        "gewyrcean-past-participle"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 6,
+          "supplied": 13
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-READ05",
+      "original_source_id": null,
+      "prompt": "In God geseah ðā ðæt hit gōd wæs, identify the references/functions of ðā, ðæt and hit using the support. Translate the clause.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 792,
+      "current_task_type": "supported_reading",
+      "classification": "guided_support_check",
+      "exposure_assessment": "Line767 supplies the whole clause translation and every requested function/reference.",
+      "decisions_remaining": "There is no unsupplied pronoun/conjunction analysis left to infer; the copula is known.",
+      "proposed_action": "Keep local definitions and clause structure; present this as a supported contrast with article uses elsewhere, not an independent pronoun/subordination test. Avoid printing a full clause translation if exact word/construction help can support the integration without new prerequisites.",
+      "exposition_or_other_task_refs": [
+        "§16 help line767"
+      ],
+      "required_feature_ids": [
+        "reading-temporal-tha",
+        "reading-content-clause",
+        "reading-personal-pronouns",
+        "reading-adjective-predicates"
+      ],
+      "current_supplied_form_ids": [
+        "geseon-pret-3-sg",
+        "tha-adverb-invariant",
+        "thaet-conjunction-invariant",
+        "he-n-nom-sg",
+        "god-adjective-nom-n-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 4,
+          "supplied": 14
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-READ06",
+      "original_source_id": null,
+      "prompt": "What did God separate, and from what? Identify the direct-object and separation phrases and their cases.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 796,
+      "current_task_type": "supported_reading",
+      "classification": "known_grammar_pre_solved_in_exposition",
+      "exposure_assessment": "The source has supplied he where EXAMPLE06 has God, but its object, separation phrase and their analyses are identical.",
+      "decisions_remaining": "After EXAMPLE06 is replaced, known object and fram case rules can be applied to the source with hē/gedǣlde supplied.",
+      "proposed_action": "Replace EXAMPLE06; preserve the exact source and supplied hē/gedǣlde. Do not pre-label the two nominal roles in local help.",
+      "exposition_or_other_task_refs": [
+        "CH01-EXAMPLE06",
+        "§16 help line768"
+      ],
+      "required_feature_ids": [
+        "accusative-object",
+        "fram-dative-separation",
+        "reading-personal-pronouns"
+      ],
+      "current_supplied_form_ids": [
+        "he-m-nom-sg",
+        "gedaelan-pret-3-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 13,
+          "supplied": 5
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-READ07",
+      "original_source_id": null,
+      "prompt": "Using the naming and closing-formula support, state the names given, the understood subject of hēt, and the number of days in the close.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 800,
+      "current_task_type": "supported_reading",
+      "classification": "guided_support_check",
+      "exposure_assessment": "Lines769–770 provide the names, understood subject, and one-day interpretation explicitly.",
+      "decisions_remaining": "This confirms understanding of supplied naming and closing idioms, not independent command of those constructions.",
+      "proposed_action": "Keep naming/resultative/formula support intact. Label the task as guided comprehension, perhaps linking the named objects back to the preceding event; do not test those constructions as new production.",
+      "exposition_or_other_task_refs": [
+        "§16 help lines769–770"
+      ],
+      "required_feature_ids": [
+        "reading-naming",
+        "reading-resultative-ending",
+        "reading-temporal-tha"
+      ],
+      "current_supplied_form_ids": [
+        "hatan-pret-3-sg",
+        "tha-adverb-invariant",
+        "geweorthan-past-participle",
+        "an-nom-m-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 20,
+          "supplied": 11
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    },
+    {
+      "item_id": "CH01-READ08",
+      "original_source_id": null,
+      "prompt": "Translate the entire first-day passage from the printed Old English, using the supplied help. Preserve the sequence, command, naming and one-day close.",
+      "master_path": "chapters/ch01/student.md",
+      "master_line": 804,
+      "current_task_type": "supported_reading",
+      "classification": "supported_synthesis",
+      "exposure_assessment": "Nearly every difficult clause has a local translation or full construction gloss; this is deliberately a supported source reading.",
+      "decisions_remaining": "Integrate known nouns/cases/copula with supplied structures and preserve discourse sequence and reference.",
+      "proposed_action": "Retain the complete exact passage and translation task with a clear supported status. Count the refreshed MINI readings, not this heavily glossed extract alone, as evidence of independent reading with Unit 1 grammar.",
+      "exposition_or_other_task_refs": [
+        "§16 source/help lines748–770"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "genitive-relationship",
+        "accusative-object",
+        "fram-dative-separation",
+        "reading-on-anginne",
+        "reading-heofone",
+        "reading-adjective-predicates",
+        "reading-ofer-dative",
+        "reading-ofer-accusative",
+        "reading-passive-gefered",
+        "reading-optative-command",
+        "reading-passive-geworht",
+        "reading-content-clause",
+        "reading-personal-pronouns",
+        "reading-temporal-tha",
+        "reading-naming",
+        "reading-resultative-ending"
+      ],
+      "current_supplied_form_ids": [
+        "gescieppan-pret-3-sg",
+        "heofone-acc-sg",
+        "sothlice-invariant",
+        "idel-nom-f-sg",
+        "aemtig-nom-f-sg",
+        "ofer-invariant",
+        "geferian-past-participle",
+        "cwethan-pret-3-sg",
+        "tha-adverb-invariant",
+        "geweorthan-pres-subj-3-sg",
+        "weorthan-pret-3-sg",
+        "gewyrcean-past-participle",
+        "geseon-pret-3-sg",
+        "thaet-conjunction-invariant",
+        "he-n-nom-sg",
+        "god-adjective-nom-n-sg",
+        "he-m-nom-sg",
+        "gedaelan-pret-3-sg",
+        "hatan-pret-3-sg",
+        "geweorthan-past-participle",
+        "an-nom-m-sg"
+      ],
+      "prerequisites": {
+        "finding": "No missing prerequisite found within the stated current production/recognition/supplied limits.",
+        "requirement_status_counts": {
+          "new_production": 50,
+          "supplied": 54
+        },
+        "unresolved_requirement_ids": [],
+        "qualification": "This is a novelty audit of the actual learner text and contract, not a fresh linguistic source certification of every paradigm. Supplied verbs and reading constructions remain supplied."
+      },
+      "preserve_prompt_exactly": false,
+      "preserve_id_if_target_survives": true
+    }
+  ],
+  "reading_support": [
+    {
+      "master_line": 758,
+      "expression": "On anginne",
+      "classification": "Essential local construction",
+      "recommendation": "Keep the temporal sense of on distinct from the productive locative use. The full two-word gloss is acceptable supplied support."
+    },
+    {
+      "master_line": 759,
+      "expression": "gescēop",
+      "classification": "Essential verb and order support",
+      "recommendation": "Keep the exact finite meaning/person and the non-English word-order warning. Any direct subject identification is then a guided check, not an independent discovery."
+    },
+    {
+      "master_line": 760,
+      "expression": "heofonan",
+      "classification": "Essential variant support",
+      "recommendation": "Keep exact weak-feminine lemma, case and number. Do not create novelty by withholding this unassigned lexical variant."
+    },
+    {
+      "master_line": 761,
+      "expression": "sōðlice; īdel and ǣmtig",
+      "classification": "Essential connective/adjective support",
+      "recommendation": "Keep their actual meanings and bounded predicate uses; full adjective production is not established."
+    },
+    {
+      "master_line": 762,
+      "expression": "ofer ðǣre nēowolnesse brādnesse",
+      "classification": "Essential government; avoidable nominal solution",
+      "recommendation": "Keep ofer’s local dative government. Known -nes forms, dependent-first order and head case permit learner analysis if the explicit answer labels/full phrase translation are removed by contract amendment."
+    },
+    {
+      "master_line": 763,
+      "expression": "wæs gefęred ofer wæteru",
+      "classification": "Essential passive and government support",
+      "recommendation": "Keep the passive verbal unit and local accusative use. Known wæter morphology can support a separate contrast against dative plural."
+    },
+    {
+      "master_line": 764,
+      "expression": "cwæð ðā",
+      "classification": "Essential supplied verb/adverb",
+      "recommendation": "Keep the meanings and adverb/article distinction; do not imply the cweðan paradigm has been taught."
+    },
+    {
+      "master_line": 765,
+      "expression": "Geweorðe lēoht",
+      "classification": "Essential supplied command",
+      "recommendation": "Keep exact finite command/wish meaning. A question repeating that meaning is a guided support check."
+    },
+    {
+      "master_line": 766,
+      "expression": "lēoht wearð geworht",
+      "classification": "Essential supplied passive",
+      "recommendation": "Keep the verbal phrase, or its full clause gloss if needed; it is not independently producible from the copula table."
+    },
+    {
+      "master_line": 767,
+      "expression": "geseah ðā ðæt hit gōd wæs",
+      "classification": "Essential structure; excessive full-solution overlap with READ05",
+      "recommendation": "Retain every untaught sense/form and clause-order cue. A whole-clause English model is more than necessary if the author can give exact component/construction help without new prerequisites. Function labels remain supplied even after trimming."
+    },
+    {
+      "master_line": 768,
+      "expression": "hē gedǣlde",
+      "classification": "Essential supplied forms; known nominal roles",
+      "recommendation": "Keep pronoun reference and finite verb meaning. Leave object/fram phrase analysis to the learner after changing EXAMPLE06."
+    },
+    {
+      "master_line": 769,
+      "expression": "hēt … Dæg … Niht",
+      "classification": "Essential supplied naming frame",
+      "recommendation": "Keep understood subject and naming construction. Use its support to ask a connection/sequence question, not a nominally independent identification of already labelled names."
+    },
+    {
+      "master_line": 770,
+      "expression": "Ðā wæs geworden … ān dæg",
+      "classification": "Essential supplied whole formula",
+      "recommendation": "Retain whole closing-formula help, especially one rather than first. Do not force a unique independently derived parse or general compound-subject rule."
+    }
+  ],
+  "example_replacement_plan": [
+    {
+      "example_id": "CH01-EXAMPLE06",
+      "priority": "required",
+      "old_locator": "student.md:291–293",
+      "proposal": "Different separation event using man, seed and grass; keep exact supplied gedǣlde. Do not reproduce any Cook answer or CASE06.",
+      "reason": "Removes an entire worked answer and preserves a fresh source-analysis opportunity.",
+      "origin_after_change": "new_teaching_material, requiring contract and linguistic review"
+    },
+    {
+      "example_id": "CH01-EXAMPLE08",
+      "priority": "required",
+      "old_locator": "student.md:261–263",
+      "proposal": "Different possessor/head in the locative nested phrase, such as bird/tree, with singular case contrast.",
+      "reason": "Stops pre-solving CASE07/COMP06/MINI01/REVIEW02’s exact nested phrase.",
+      "origin_after_change": "new_teaching_material, requiring contract and linguistic review"
+    },
+    {
+      "example_id": "CH01-EXAMPLE07",
+      "priority": "recommended",
+      "old_locator": "student.md:227",
+      "proposal": "Different noun-predicate relation, such as seed/food, under existing senses; avoid giving COMP04 by merely changing whale to fish.",
+      "reason": "Strengthens independent predicate-noun application without teaching a new construction.",
+      "origin_after_change": "new_teaching_material, requiring contract and linguistic review"
+    },
+    {
+      "example_id": "CH01-EXAMPLE01/02/03/04/05",
+      "priority": "retain_unless_contract_rebalances",
+      "proposal": "Retain: these demonstrate rules without giving complete Cook answers. Partial reused phrases are not automatically leakage; original tasks must still require a meaningful new decision.",
+      "reason": "Avoids needless wholesale replacement or hiding essential models."
+    }
+  ],
+  "finite_revision_plan": [
+    "Preserve all 46 Cook prompts, all original source identifiers and the exact first-day extract.",
+    "Retain complete noun/article/copula paradigms and vocabulary diagnostics; retain F08 as explicitly reference-only.",
+    "Replace EXAMPLE06 and EXAMPLE08; preferably replace EXAMPLE07 too. Revalidate all new examples against the preserved Cook prompts and original tasks.",
+    "Redesign F01–F07 and COP01–COP06 into meaning-led choices/transformations while mapping every surviving target to the same stable task ID and all originally required cells.",
+    "Refresh CASE10, REVIEW02–04 and the two MINI passages; keep the meaningful contrasts and strong compositions already present.",
+    "Trim only avoidable answers from the reading help; preserve all actual untaught forms/constructions. Label guided checks and supported translation honestly, with known-grammar analysis identified separately.",
+    "Coordinator records exact changed prompts/examples/reading help and dependency deltas in the learning contract before authoring; independent solving precedes key consultation."
+  ],
+  "course_wide_transfer_criterion": {
+    "name": "Meaning-led transfer with bounded support",
+    "required_item_record": [
+      "target_feature",
+      "prior_model_or_reference",
+      "new_decision",
+      "production_or_recognition_scope",
+      "supplied_dependencies",
+      "exposure_check"
+    ],
+    "rules": [
+      "Preserve every source prompt, source ID, complete paradigm and necessary lexical diagnostic. Novelty is not created by hiding reference information.",
+      "A transfer item must require at least one grammatical decision from the intended meaning or a changed context: case/role, number, person, tense, agreement controller, head–dependent relation, applicable stem pattern, or an exception. Merely naming a table cell is retrieval, not transfer.",
+      "A lexical substitution counts as useful transfer when it changes a relevant grammatical choice or tests a different applicable pattern; swapping same-gender/same-pattern/same-number nouns in an unchanged answer is weak evidence.",
+      "For each newly productive construction or major inflectional contrast, provide at least two independent applications, including one contrast/error or context change that requires choosing the rule. A larger task may cover several features; do not multiply drills mechanically.",
+      "Do not print a complete target answer or its requested analysis in exposition, worked models, or another new reading. Compare whole responses and semantic role structures, not merely repeated words or unavoidable reference forms.",
+      "Reference checks and retrieval can remain explicitly labelled, but do not count them toward the two-application threshold. Preserved Cook items may likewise be controlled practice rather than the only transfer evidence.",
+      "For every task, distinguish what the learner must derive from what the help already states. Guided comprehension of supplied material is legitimate, but cannot certify its independent recall or a new productive milestone.",
+      "Do not create difficulty by removing prerequisites, inventing unattested forms/senses, multiplying ambiguities without meaning cues, requiring untaught pronouns, or silently expanding reference-only cells into production.",
+      "Require at least one fresh connected reading and one cumulative task per unit that combine taught decisions, with explicit support for every remaining dependency. The full key stays separate."
+    ],
+    "scope": "Proposed course-wide review criterion only. This revision edits pronunciation and Unit 1; later units require separately scoped reviews and contracts."
+  },
+  "limits": [
+    "No final learner prose or answer key is supplied here.",
+    "Candidate example/task contexts are editorial proposals, not newly source-certified OE sentences.",
+    "No inspection or revision of Units 2–18 is claimed.",
+    "Pronunciation has a separate bounded agent review; this audit does not claim to have audited its current learner tasks."
+  ]
+}

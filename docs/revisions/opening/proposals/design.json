@@ -1,0 +1,3432 @@
+{
+  "schema_version": 1,
+  "proposal_id": "oec-opening-design",
+  "status": "ready_for_contract_reconciliation",
+  "author": "/root/sound_design",
+  "created_utc": "2026-11-02T20:28:15.306131+00:00",
+  "read_discipline": {
+    "key_files_opened_for_this_proposal": false,
+    "independent_solutions_opened_for_this_proposal": false,
+    "beads_or_git_calls": false,
+    "final_learner_prose_or_prompts_written": false,
+    "note": "Actual learner text, contracts and cumulative form/sense/feature records inspected. Older accepted history remains authoritative at its original checkpoint."
+  },
+  "input_identities": [
+    {
+      "path": "AGENTS.md",
+      "sha256": "70cf8a133fef85d7b6c8324f3205c6d124bf82fcdebeb2e2a497aaf9b476593d"
+    },
+    {
+      "path": "EDITORIAL_POLICY.md",
+      "sha256": "e15a1bc55181664fd3dc2b6040b9c20ffecfa54d2f4e950d99ea9e4a50cd485f"
+    },
+    {
+      "path": "STATUS.md",
+      "sha256": "c6a1964f5d61033d954987ea9eea34dddad2db8b0d1d02d1368c6dd4d4fd0acb"
+    },
+    {
+      "path": "docs/WORKFLOW.md",
+      "sha256": "dcf511c258144685ece93af0353f1cac5be87f2777511dcdd9ef459ef01fd7af"
+    },
+    {
+      "path": "docs/HANDOFF.md",
+      "sha256": "fe089ce734940f016c750bd35a9b2cc5fd5de41f89ed3edaae87de7405547a0d"
+    },
+    {
+      "path": "curriculum/COURSE_PLAN.md",
+      "sha256": "2ba0dcfcc7473e318d439b4bbdc98e605a4a07be618e4324ade0ff5f14900a10"
+    },
+    {
+      "path": "curriculum/COOK_MAP.md",
+      "sha256": "336e4cc36849169bf6575c61c4bbbfd632bb22acea6d9ac66f9c88c217c756f1"
+    },
+    {
+      "path": "sources/registry.json",
+      "sha256": "536e716d97d97e9e25a0c24709dd30bc0725b1d940ed09a158cc5ee649ae244e"
+    },
+    {
+      "path": "curriculum/UNIT_01_BRIEF.md",
+      "sha256": "28161b0cf9e88dd4a3a7848a3591e7a1efa80c98b5222da57eac27a923d8797d"
+    },
+    {
+      "path": "curriculum/UNIT_02_BRIEF.md",
+      "sha256": "52d3148748d0897f6e98601975e45cda532300d4fa17a6cf9c8c2eb50f672098"
+    },
+    {
+      "path": "chapters/ch01/student.md",
+      "sha256": "10a5ce07db62799a8f37d51401f733fb1b6c4be028559e0e47694bfc9992fc1f"
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "b113e09c377723ae9fa5500a78942b1f95cf2bdf26fc85fee18e0cef192694ce"
+    },
+    {
+      "path": "chapters/ch02/student.md",
+      "sha256": "8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505"
+    },
+    {
+      "path": "chapters/ch02/coverage.json",
+      "sha256": "fb5f367c7b0ac90848081697298422946e64aa8a96becef251bbff7cb9c807bf"
+    },
+    {
+      "path": "chapters/ch03/coverage.json",
+      "sha256": "c00fa61ca73df2b9aa6f456636dacc5400d6494b80723f04a5df80075127df37"
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "sha256": "1a90c1e1fb8c55c886f274c923d442b08d54edbbd3d339e96fbc2e511cec5961"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7"
+    },
+    {
+      "path": "sources/audits/unit01-source/expanded-grammar.md",
+      "sha256": "210c915aa6439b6ce45afc3fd4a69df8c07641617b789e101a679474f320c15c"
+    },
+    {
+      "path": "sources/audits/unit02-grammar/report.md",
+      "sha256": "3e58d05493b365686ebdbe71cd5975f161d9dde6f97d9386378e8b06301d2704"
+    },
+    {
+      "path": "sources/audits/unit02-supplementary/dual-agreement.md",
+      "sha256": "6aba11c36ca5a911c36570e12e6ad531dc99a0c765e0cdd47ef9843333174a37"
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p48.png",
+      "sha256": "d6bf1341dc7d9d58044d1a25866fce51662a04a9d348c8812ed2881a8c0c78ea"
+    },
+    {
+      "path": "sources/audits/unit02-grammar/cook-fb-p49.png",
+      "sha256": "839ea0f0c3a8e84fdd4a4f82139c5be36c5f507015875ec25c1086b27526c55b"
+    },
+    {
+      "path": "typesetting/ch01/chapter-01.tex",
+      "sha256": "813d7078f3a10c16757c941dc6f8eae281bfcdb119574f048f7a41feac5693d8"
+    },
+    {
+      "path": "glossaries/entries.json",
+      "sha256": "04b81210ead5d1a96fdfea7e0ed221c57ec9ca20b5437c6ca35732be70511628"
+    },
+    {
+      "path": "glossaries/form-lookup.json",
+      "sha256": "1a1f1de42b3b260ee0ab6117f29afb82bc9e6eb12baae8aa1d144d49a0414ab8"
+    },
+    {
+      "path": "book/grammar-index.json",
+      "sha256": "1e586faae494115a658098dafa658f30d9a54e61924cf828f7227943d2556062"
+    }
+  ],
+  "current_findings": [
+    {
+      "id": "OD-01",
+      "path": "chapters/ch01/student.md",
+      "lines": [
+        208,
+        217,
+        386
+      ],
+      "quotes": [
+        "These are the complete present **eom** and preterite **wæs** series of the indicative “be.” The preterite expresses a past state. Other present forms, negative forms, moods, and nonfinite constructions will be treated separately.[9]",
+        "English pronouns label the persons. **1–3 pl.** gives the shared form for “we,” plural “you,” and “they.” No Old English pronoun forms are required for this table. Cook also gives **sind, sint** beside **sindon**.",
+        "Give the present and preterite indicative for each person and number. Use the English labels; no Old English personal pronoun is required."
+      ],
+      "finding": "The complete bounded copula is taught while OE subject pronouns are expressly excluded; COP01–06 are English-labelled conjugation prompts."
+    },
+    {
+      "id": "OD-02",
+      "path": "chapters/ch01/student.md",
+      "lines": [
+        696,
+        700,
+        704,
+        708,
+        712,
+        716,
+        720,
+        724,
+        734,
+        740
+      ],
+      "finding": "All eight independent compositions and both mini-passages use third-person noun subjects. Speaker/addressee/dual reference is unavailable for independent clauses."
+    },
+    {
+      "id": "OD-03",
+      "path": "chapters/ch01/student.md",
+      "lines": [
+        301,
+        314,
+        319,
+        333
+      ],
+      "finding": "Four disyllabic neuters point only to §4; ordinary light/heavy entries share hof/sǣd. Retained chapter-01.tex repeats this ambiguity at vocabulary lines 534,560,570,598."
+    },
+    {
+      "id": "OD-04",
+      "path": "chapters/ch02/student.md",
+      "lines": [
+        7,
+        15,
+        24,
+        33,
+        38,
+        42,
+        44,
+        46,
+        50
+      ],
+      "finding": "Ten selected nominative cells sit within forty personal cells. Six first-/second-person genitives are recognition only; productive oblique reference and possession form additional systems."
+    }
+  ],
+  "recommendation": {
+    "selected": "Complete subject-pronoun inventory in Unit 1; retain complete four-case personal declensions and their other uses in Unit 2.",
+    "reason": "The first finite paradigm should let the learner say who is and was where across speaker, addressee and other referents. Unit 2 then contrasts familiar subjects with objects, recipients and possessors alongside independently conjugated actions.",
+    "policy_fit": "No noun declension is shortened. Unit 1 explicitly teaches the complete nominative subject inventory, not the personal declension. Unit 2 still displays every case cell.",
+    "counts": {
+      "subject_cells_earlier": 10,
+      "unit2_full_cells_retained": 40,
+      "unit2_remaining_new_production": 24,
+      "unit2_remaining_new_recognition": 6
+    },
+    "full_declension_option": {
+      "benefit": "Unit 1 already teaches four noun cases, so a complete pronoun-case contrast is possible and would reduce new Unit 2 morphology.",
+      "cost": "Thirty extra cells beyond the subject inventory entail object/recipient ambiguity, six genitives with restricted use, and invariant possessors. Meaningful coverage would add a substantial case/reference syllabus to 44 nouns and many stem alternations, often using supplied action verbs.",
+      "judgment": "Coherent as a larger redesign, but the subject-first progression is better aligned to the available independent clause types, rather than merely being the smaller patch."
+    },
+    "rejected": "Adding isolated supplied subject labels would leave independent use and completeness unresolved."
+  },
+  "source_evidence": {
+    "U02-PRON": {
+      "source_id": "cook_fb_1895_2",
+      "edition": "second, 1895",
+      "printed_pages": [
+        48,
+        49
+      ],
+      "pdf_pages_one_based": [
+        64,
+        65
+      ],
+      "original_identifier": "§81",
+      "claim": "Complete personal pronouns, including dual; quantities and optional e spellings.",
+      "images": [
+        "sources/audits/unit02-grammar/cook-fb-p48.png",
+        "sources/audits/unit02-grammar/cook-fb-p49.png"
+      ],
+      "verification": "page images visually inspected; OCR used only to locate"
+    },
+    "U02-DUAL": {
+      "source_id": "ringe_taylor_2014",
+      "printed_pages": [
+        6
+      ],
+      "pdf_pages_one_based": [
+        21
+      ],
+      "original_identifier": "§1.1.2; 63-page publisher preview",
+      "claim": "Plural verb forms are used with dual pronoun subjects.",
+      "images": [
+        "build/unit02-dual-ringe-p6.png"
+      ],
+      "record": "sources/audits/unit02-supplementary/dual-agreement.md",
+      "verification": "Coordinator acquired/checked publisher preview; grammar auditor independently inspected the same page image. Only dual agreement used; no alternative spelling imported."
+    },
+    "U02-AGREE": {
+      "source_id": "cook_fb_1895_2",
+      "edition": "second, 1895",
+      "printed_pages": [
+        102
+      ],
+      "pdf_pages_one_based": [
+        118
+      ],
+      "original_identifier": "§§189–191",
+      "claim": "Finite subject person/number agreement; impersonal warning; indicative uses.",
+      "images": [
+        "sources/audits/unit02-grammar/cook-fb-p102.png"
+      ],
+      "verification": "page images visually inspected; OCR used only to locate"
+    },
+    "U02-POSS": {
+      "source_id": "cook_fb_1895_2",
+      "edition": "second, 1895",
+      "printed_pages": [
+        49,
+        50
+      ],
+      "pdf_pages_one_based": [
+        65,
+        66
+      ],
+      "original_identifier": "§§82–83",
+      "claim": "Personal forms serve reflexively; third-person genitives indeclinable, other possessives decline as strong adjectives.",
+      "images": [
+        "sources/audits/unit02-grammar/cook-fb-p49.png",
+        "sources/audits/unit02-grammar/cook-fb-p50.png"
+      ],
+      "verification": "page images visually inspected; OCR used only to locate"
+    }
+  },
+  "source_images_personally_checked": [
+    "sources/audits/unit02-grammar/cook-fb-p48.png",
+    "sources/audits/unit02-grammar/cook-fb-p49.png"
+  ],
+  "subject_inventory": [
+    {
+      "lemma_id": "ic",
+      "form_id": "ic-nom-sg",
+      "form": "ic",
+      "analysis": {
+        "person": 1,
+        "number": "singular",
+        "gender": null,
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "teaching_ids": [
+        "NEW-U02-PAR-ic",
+        "NEW-U16-PRIOR-RECALL"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    },
+    {
+      "lemma_id": "thu",
+      "form_id": "thu-nom-sg",
+      "form": "ðū",
+      "analysis": {
+        "person": 2,
+        "number": "singular",
+        "gender": null,
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "teaching_ids": [
+        "NEW-U02-PAR-thu",
+        "NEW-U16-PRIOR-RECALL"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    },
+    {
+      "lemma_id": "he",
+      "form_id": "he-m-nom-sg",
+      "form": "hē",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "m",
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [
+        "ch01"
+      ],
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U02-PAR-he",
+        "NEW-U13-DEPENDENT-ORDER-HELP",
+        "NEW-U13-PAR-HE",
+        "NEW-U16-PRIOR-RECALL"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    },
+    {
+      "lemma_id": "he",
+      "form_id": "he-n-nom-sg",
+      "form": "hit",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "n",
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [
+        "ch01"
+      ],
+      "teaching_ids": [
+        "CH01-READ-SUPPORT",
+        "NEW-U02-PAR-he",
+        "NEW-U16-PRIOR-RECALL"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    },
+    {
+      "lemma_id": "he",
+      "form_id": "he-f-nom-sg",
+      "form": "hēo",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "f",
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "teaching_ids": [
+        "NEW-U02-PAR-he",
+        "NEW-U16-PRIOR-RECALL"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    },
+    {
+      "lemma_id": "ic",
+      "form_id": "ic-nom-dual",
+      "form": "wit",
+      "analysis": {
+        "person": 1,
+        "number": "dual",
+        "gender": null,
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "teaching_ids": [
+        "NEW-U02-PAR-ic"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    },
+    {
+      "lemma_id": "thu",
+      "form_id": "thu-nom-dual",
+      "form": "git",
+      "analysis": {
+        "person": 2,
+        "number": "dual",
+        "gender": null,
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "teaching_ids": [
+        "NEW-U02-PAR-thu",
+        "NEW-U16-PRIOR-RECALL"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    },
+    {
+      "lemma_id": "ic",
+      "form_id": "ic-nom-pl",
+      "form": "wē",
+      "analysis": {
+        "person": 1,
+        "number": "plural",
+        "gender": null,
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "teaching_ids": [
+        "NEW-U02-PAR-ic",
+        "NEW-U16-PRIOR-RECALL"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    },
+    {
+      "lemma_id": "thu",
+      "form_id": "thu-nom-pl",
+      "form": "gē",
+      "analysis": {
+        "person": 2,
+        "number": "plural",
+        "gender": null,
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "teaching_ids": [
+        "NEW-U02-PAR-thu",
+        "NEW-U16-PRIOR-RECALL"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    },
+    {
+      "lemma_id": "he",
+      "form_id": "he-nom-pl",
+      "form": "hīe",
+      "analysis": {
+        "person": 3,
+        "number": "plural",
+        "gender": null,
+        "case": "nominative"
+      },
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [],
+      "teaching_ids": [
+        "NEW-U02-PAR-he",
+        "NEW-U16-PRIOR-RECALL"
+      ],
+      "proposed_recognition_taught_in": "ch01",
+      "proposed_production_taught_in": "ch01"
+    }
+  ],
+  "boundaries": [
+    "Person means speaker/addressee/other. Pair every nominated form with the complete learned present and preterite copula.",
+    "wit/git explicitly refer to two and take ordinary plural finite forms. No dual verb ending or third-person dual is introduced. Ordinary plurals do not categorically exclude two; a requested dual target can require it.",
+    "hē/hit/hēo resume masculine/neuter/feminine singular referents; teach clear grammatical-gender examples including inanimates. English it does not mechanically require hit. hīe is common to all plural genders.",
+    "Gender/number constrain reference but do not guarantee one unique antecedent in every discourse. Keep initial contexts clear; do not turn contextual preference into a form-based certainty.",
+    "Preserve the compact 1–3 pl. verb row and display distinct subject pronouns separately or through an explicit mapped column. Shared finite spelling does not merge the pronouns.",
+    "No oblique pronoun, possessive, reflexive, adjective predicate, question, negative copula or new tense is licensed by the new subject inventory.",
+    "Use Cook-selected ðū and hīe. Valid unselected spellings remain reference alternatives, not added recall requirements."
+  ],
+  "grammar_record_plan": {
+    "proposed_new": [
+      {
+        "feature_id": "u01-subject-pronouns",
+        "teaching_id": "CH01-GRAM-SUBJECT-PRONOUNS",
+        "scope": "All ten nominatives, person/number and third-singular gender."
+      },
+      {
+        "feature_id": "u01-dual-subject-agreement",
+        "teaching_id": "CH01-GRAM-DUAL-SUBJECTS",
+        "scope": "wit/git with ordinary plural copula, without excluding two from ordinary plurals."
+      },
+      {
+        "feature_id": "u01-subject-pronoun-reference",
+        "teaching_id": "CH01-GRAM-SUBJECT-REFERENCE",
+        "scope": "Clear nominative reference by grammatical gender/number in ordinary copular clauses, including inanimates."
+      }
+    ],
+    "keep_broad_milestones_at_unit2": [
+      {
+        "feature_id": "u02-personal-pronouns",
+        "description": "Complete selected personal N/D/A and third-person G forms; singular, dual, plural and third-person singular gender.",
+        "recognition_taught_in": "ch02",
+        "production_taught_in": "ch02",
+        "teaching_ids": [
+          "NEW-U02-GRAM-personal-pronouns"
+        ]
+      },
+      {
+        "feature_id": "u02-pronoun-reference",
+        "description": "Use nominative subjects and governed object/recipient cases; grammatical gender/number tracks referents, including inanimate nouns. Syncretic spelling alone does not settle antecedence.",
+        "recognition_taught_in": "ch02",
+        "production_taught_in": "ch02",
+        "teaching_ids": [
+          "NEW-U02-GRAM-pronoun-reference",
+          "NEW-U16-PRIOR-RECALL"
+        ]
+      },
+      {
+        "feature_id": "u02-dual-agreement",
+        "description": "Dual subjects take ordinary plural verb forms; object pronouns do not control finite agreement.",
+        "recognition_taught_in": "ch02",
+        "production_taught_in": "ch02",
+        "teaching_ids": [
+          "NEW-U02-GRAM-dual-agreement"
+        ]
+      }
+    ],
+    "reason": "Existing broad features include oblique cases or the object-versus-subject agreement distinction. Their whole-system milestones must not be moved to ch01.",
+    "existing_ch01": [
+      "copula-indicative: retain all twelve logical cells; add contextual assessments.",
+      "reading-personal-pronouns: retain original supplied-exposure witness; add revised taught hē/hit form/reference support without promoting the surrounding source construction."
+    ]
+  },
+  "lexical_sense_plan": {
+    "affected": [
+      "ic-personal",
+      "thu-personal",
+      "he-1"
+    ],
+    "risk": "ic-personal explicitly includes me/us; he-1 explicitly includes ordinary object cases. An unqualified aggregate move could overstate ch01 scope.",
+    "recommended": "Use bounded subject-only teaching-scope records (proposed ic-subject, thu-subject, he-subject) if the schema cannot qualify a sense milestone by exact form IDs. Reuse the existing lemma and already covered meanings; these are scope refinements, not new lexical meanings.",
+    "acceptable_alternative": "Reuse current semantic sense IDs only with an explicit form-restricted ch01 record and a checked integrator that will not interpret the broad aggregate gloss as teaching obliques. Root must settle one representation in the contract.",
+    "unchanged": [
+      "ic-genitive-citation",
+      "thu-genitive-citation",
+      "he-possessor",
+      "ic-genitive-attributive-source",
+      "ic-u15-partitive-dual",
+      "u03-possessive-agreement"
+    ],
+    "later_form_scope": {
+      "ic-gen-dual": "recognition ch02; partitive production ch15",
+      "thu-gen-pl": "recognition ch02; partitive production ch09"
+    }
+  },
+  "unit2_thirty_cells_unchanged": [
+    {
+      "form_id": "ic-gen-sg",
+      "form": "mīn",
+      "analysis": {
+        "person": 1,
+        "number": "singular",
+        "gender": null,
+        "case": "genitive"
+      },
+      "knowledge_status": "new_recognition"
+    },
+    {
+      "form_id": "ic-dat-sg",
+      "form": "mē",
+      "analysis": {
+        "person": 1,
+        "number": "singular",
+        "gender": null,
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "ic-acc-sg",
+      "form": "mē",
+      "analysis": {
+        "person": 1,
+        "number": "singular",
+        "gender": null,
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "ic-gen-dual",
+      "form": "uncer",
+      "analysis": {
+        "person": 1,
+        "number": "dual",
+        "gender": null,
+        "case": "genitive"
+      },
+      "knowledge_status": "new_recognition"
+    },
+    {
+      "form_id": "ic-dat-dual",
+      "form": "unc",
+      "analysis": {
+        "person": 1,
+        "number": "dual",
+        "gender": null,
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "ic-acc-dual",
+      "form": "unc",
+      "analysis": {
+        "person": 1,
+        "number": "dual",
+        "gender": null,
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "ic-gen-pl",
+      "form": "ūre",
+      "analysis": {
+        "person": 1,
+        "number": "plural",
+        "gender": null,
+        "case": "genitive"
+      },
+      "knowledge_status": "new_recognition"
+    },
+    {
+      "form_id": "ic-dat-pl",
+      "form": "ūs",
+      "analysis": {
+        "person": 1,
+        "number": "plural",
+        "gender": null,
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "ic-acc-pl",
+      "form": "ūs",
+      "analysis": {
+        "person": 1,
+        "number": "plural",
+        "gender": null,
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "thu-gen-sg",
+      "form": "ðīn",
+      "analysis": {
+        "person": 2,
+        "number": "singular",
+        "gender": null,
+        "case": "genitive"
+      },
+      "knowledge_status": "new_recognition"
+    },
+    {
+      "form_id": "thu-dat-sg",
+      "form": "ðē",
+      "analysis": {
+        "person": 2,
+        "number": "singular",
+        "gender": null,
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "thu-acc-sg",
+      "form": "ðē",
+      "analysis": {
+        "person": 2,
+        "number": "singular",
+        "gender": null,
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "thu-gen-dual",
+      "form": "incer",
+      "analysis": {
+        "person": 2,
+        "number": "dual",
+        "gender": null,
+        "case": "genitive"
+      },
+      "knowledge_status": "new_recognition"
+    },
+    {
+      "form_id": "thu-dat-dual",
+      "form": "inc",
+      "analysis": {
+        "person": 2,
+        "number": "dual",
+        "gender": null,
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "thu-acc-dual",
+      "form": "inc",
+      "analysis": {
+        "person": 2,
+        "number": "dual",
+        "gender": null,
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "thu-gen-pl",
+      "form": "ēower",
+      "analysis": {
+        "person": 2,
+        "number": "plural",
+        "gender": null,
+        "case": "genitive"
+      },
+      "knowledge_status": "new_recognition"
+    },
+    {
+      "form_id": "thu-dat-pl",
+      "form": "ēow",
+      "analysis": {
+        "person": 2,
+        "number": "plural",
+        "gender": null,
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "thu-acc-pl",
+      "form": "ēow",
+      "analysis": {
+        "person": 2,
+        "number": "plural",
+        "gender": null,
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-m-gen-sg",
+      "form": "his",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "m",
+        "case": "genitive"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-m-dat-sg",
+      "form": "him",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "m",
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-m-acc-sg",
+      "form": "hine",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "m",
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-n-gen-sg",
+      "form": "his",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "n",
+        "case": "genitive"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-n-dat-sg",
+      "form": "him",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "n",
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-n-acc-sg",
+      "form": "hit",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "n",
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-f-gen-sg",
+      "form": "hiere",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "f",
+        "case": "genitive"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-f-dat-sg",
+      "form": "hiere",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "f",
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-f-acc-sg",
+      "form": "hīe",
+      "analysis": {
+        "person": 3,
+        "number": "singular",
+        "gender": "f",
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-gen-pl",
+      "form": "hiera",
+      "analysis": {
+        "person": 3,
+        "number": "plural",
+        "gender": null,
+        "case": "genitive"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-dat-pl",
+      "form": "him",
+      "analysis": {
+        "person": 3,
+        "number": "plural",
+        "gender": null,
+        "case": "dative"
+      },
+      "knowledge_status": "new_production"
+    },
+    {
+      "form_id": "he-acc-pl",
+      "form": "hīe",
+      "analysis": {
+        "person": 3,
+        "number": "plural",
+        "gender": null,
+        "case": "accusative"
+      },
+      "knowledge_status": "new_production"
+    }
+  ],
+  "history_requirements": [
+    "All ten current nominatives begin recognition/production at ch02. Preserve their old identities before adding reviewed ch01 teaching; do not rename or duplicate their form IDs.",
+    "he-m-nom-sg and he-n-nom-sg have supplied_in=[ch01]. Keep this original exposure history.",
+    "Do not promote he-n-acc-sg merely because it is hit, or he-f-acc-sg/he-acc-pl merely because they are hīe. Change exact IDs, not surfaces.",
+    "Keep original records_by_chapter, prior_scope snapshots and source provenance; record a bounded revision rather than rerunning old whole-course integrators.",
+    "Unit 2 keeps full tables/tasks. Add the new prior requirements and reclassify only nominatives; all thirty oblique cells retain their prior scope."
+  ],
+  "unit1_changes": [
+    {
+      "path": "chapters/ch01/student.md",
+      "lines": [
+        204,
+        208,
+        217,
+        346,
+        386
+      ],
+      "action": "Add complete subject inventory beside copula; remove no-OE-pronoun restriction; include subject forms in productive nonnoun scope."
+    },
+    {
+      "path": "chapters/ch01/student.md",
+      "lines": [
+        297,
+        299,
+        301,
+        344
+      ],
+      "action": "Explain and apply all section:model links below."
+    },
+    {
+      "path": "chapters/ch01/student.md",
+      "lines": [
+        690,
+        726
+      ],
+      "action": "Contract fresh contextual and connected copular transfer with explicit form/sense/construction dependencies."
+    },
+    {
+      "path": "chapters/ch01/student.md",
+      "lines": [
+        767,
+        768,
+        792,
+        796
+      ],
+      "action": "Update only hē/hit taught provenance; keep exact source and all unfamiliar verb/adjective/embedded-clause support."
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "pointers": [
+        "/productive_outcomes",
+        "/bounded_scope",
+        "/assigned_items",
+        "/requirements",
+        "/key_item_ids",
+        "/paradigms",
+        "/teaching_records",
+        "/new_material_examples",
+        "/lexical_inventory",
+        "/grammar_inventory",
+        "/evidence_catalog",
+        "/amendments"
+      ],
+      "action": "Reconcile before prose. Preserve all 46 Cook prompts/IDs and exact reading/source assignments."
+    }
+  ],
+  "unit2_minimal_orientation_changes": [
+    {
+      "line": 3,
+      "current": "This unit introduces personal pronouns and the present and preterite indicative of weak verbs. Learn the finite forms in the tables, together with their stem changes. The six first- and second-person genitives and the negative verb **nabban** are for recognition. Infinitive and participle citations are available for lookup; their uses in sentences come later.",
+      "change": "First sentence should say the familiar subject pronouns are completed with their other cases and weak indicative verbs are introduced. Preserve remaining recognition/citation limits."
+    },
+    {
+      "line": 7,
+      "current": "The first person identifies the speaker; the second identifies the addressee; the third refers to someone or something else. Besides singular and plural, the first and second persons have a **dual**, explicitly referring to two. A dual subject takes the corresponding **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”. Ordinary plural forms are not restricted by a rule that they must always exclude two. [1]",
+      "change": "Mark the person/dual explanation as a short Unit 1 recap and state that complete tables repeat known nominatives alongside new obliques."
+    },
+    {
+      "line": 38,
+      "current": "Recognize **mīn, uncer, ūre, ðīn, incer, ēower** as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Learn the remaining cells for use in the constructions below.",
+      "change": "Distinguish review of known nominatives from learning the new obliques in the last sentence. Keep the first/second-genitive possessive warning."
+    },
+    {
+      "lines": [
+        42,
+        44,
+        58,
+        303,
+        369,
+        373,
+        377,
+        381,
+        385,
+        389
+      ],
+      "change": "No compulsory removal. These remain useful full-system explanation and cumulative P01–P06 practice; optional review wording only."
+    }
+  ],
+  "unit2_affected_task_dependencies": [
+    {
+      "task_id": "NEW-U02-P01",
+      "contract_pointer": "/assigned_items/0",
+      "prior_nominative_form_ids": [
+        "ic-nom-sg",
+        "thu-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-P02",
+      "contract_pointer": "/assigned_items/1",
+      "prior_nominative_form_ids": [
+        "ic-nom-dual",
+        "thu-nom-dual"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-P03",
+      "contract_pointer": "/assigned_items/2",
+      "prior_nominative_form_ids": [
+        "ic-nom-pl",
+        "thu-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-P04",
+      "contract_pointer": "/assigned_items/3",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg",
+        "he-f-nom-sg",
+        "he-n-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-P05",
+      "contract_pointer": "/assigned_items/4",
+      "prior_nominative_form_ids": [
+        "he-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-F01",
+      "contract_pointer": "/assigned_items/6",
+      "prior_nominative_form_ids": [
+        "thu-nom-dual"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-F07",
+      "contract_pointer": "/assigned_items/12",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-F08",
+      "contract_pointer": "/assigned_items/13",
+      "prior_nominative_form_ids": [
+        "ic-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-F12",
+      "contract_pointer": "/assigned_items/17",
+      "prior_nominative_form_ids": [
+        "ic-nom-dual",
+        "thu-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-F15",
+      "contract_pointer": "/assigned_items/20",
+      "prior_nominative_form_ids": [
+        "ic-nom-sg",
+        "thu-nom-sg",
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C01",
+      "contract_pointer": "/assigned_items/26",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg",
+        "he-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C02",
+      "contract_pointer": "/assigned_items/27",
+      "prior_nominative_form_ids": [
+        "ic-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C03",
+      "contract_pointer": "/assigned_items/28",
+      "prior_nominative_form_ids": [
+        "ic-nom-dual"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C04",
+      "contract_pointer": "/assigned_items/29",
+      "prior_nominative_form_ids": [
+        "thu-nom-dual",
+        "ic-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C05",
+      "contract_pointer": "/assigned_items/30",
+      "prior_nominative_form_ids": [
+        "he-f-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C07",
+      "contract_pointer": "/assigned_items/32",
+      "prior_nominative_form_ids": [
+        "he-f-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C08",
+      "contract_pointer": "/assigned_items/33",
+      "prior_nominative_form_ids": [
+        "he-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C09",
+      "contract_pointer": "/assigned_items/34",
+      "prior_nominative_form_ids": [
+        "ic-nom-sg",
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C10",
+      "contract_pointer": "/assigned_items/35",
+      "prior_nominative_form_ids": [
+        "thu-nom-dual",
+        "he-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C11",
+      "contract_pointer": "/assigned_items/36",
+      "prior_nominative_form_ids": [
+        "ic-nom-sg",
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C12",
+      "contract_pointer": "/assigned_items/37",
+      "prior_nominative_form_ids": [
+        "thu-nom-sg",
+        "ic-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-C13",
+      "contract_pointer": "/assigned_items/38",
+      "prior_nominative_form_ids": [
+        "ic-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-T02",
+      "contract_pointer": "/assigned_items/40",
+      "prior_nominative_form_ids": [
+        "ic-nom-sg",
+        "thu-nom-sg",
+        "ic-nom-dual"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-T03",
+      "contract_pointer": "/assigned_items/41",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-T04",
+      "contract_pointer": "/assigned_items/42",
+      "prior_nominative_form_ids": [
+        "thu-nom-sg",
+        "he-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-T05",
+      "contract_pointer": "/assigned_items/43",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg",
+        "he-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-T06",
+      "contract_pointer": "/assigned_items/44",
+      "prior_nominative_form_ids": [
+        "ic-nom-pl",
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-N01",
+      "contract_pointer": "/assigned_items/45",
+      "prior_nominative_form_ids": [
+        "he-nom-pl",
+        "ic-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-N02",
+      "contract_pointer": "/assigned_items/46",
+      "prior_nominative_form_ids": [
+        "he-nom-pl",
+        "ic-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-N03",
+      "contract_pointer": "/assigned_items/47",
+      "prior_nominative_form_ids": [
+        "ic-nom-sg",
+        "thu-nom-sg",
+        "ic-nom-dual",
+        "he-nom-pl",
+        "thu-nom-dual",
+        "ic-nom-pl",
+        "thu-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-N04",
+      "contract_pointer": "/assigned_items/48",
+      "prior_nominative_form_ids": [
+        "he-nom-pl",
+        "ic-nom-sg",
+        "thu-nom-sg",
+        "ic-nom-dual",
+        "thu-nom-dual",
+        "ic-nom-pl",
+        "thu-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-N06",
+      "contract_pointer": "/assigned_items/50",
+      "prior_nominative_form_ids": [
+        "he-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-R01",
+      "contract_pointer": "/assigned_items/51",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-R02",
+      "contract_pointer": "/assigned_items/52",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-R03",
+      "contract_pointer": "/assigned_items/53",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-R04",
+      "contract_pointer": "/assigned_items/54",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-R05",
+      "contract_pointer": "/assigned_items/55",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-R06",
+      "contract_pointer": "/assigned_items/56",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-R07",
+      "contract_pointer": "/assigned_items/57",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-X01",
+      "contract_pointer": "/assigned_items/58",
+      "prior_nominative_form_ids": [
+        "ic-nom-dual",
+        "ic-nom-pl",
+        "he-nom-pl"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-X02",
+      "contract_pointer": "/assigned_items/59",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg",
+        "ic-nom-dual",
+        "ic-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    },
+    {
+      "task_id": "NEW-U02-X03",
+      "contract_pointer": "/assigned_items/60",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Keep target forms and prompt; change only the nominated forms to prior-teaching provenance."
+    }
+  ],
+  "reference_design": {
+    "format": "§section: one visible named model; existing scope limit",
+    "reason": "Uses existing section numbers, resolves light/heavy and disyllabic ambiguity, and avoids inventing a second numbering scheme.",
+    "logical_effect": "Presentation only: preserve all 18 logical paradigm records, selected complete cells, variants and milestones.",
+    "models": [
+      {
+        "model": "fisc",
+        "section": 3,
+        "label": "§3: fisc",
+        "teaching_id": "CH01-PAR-MASC",
+        "distinction": "ordinary consonant masculine",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 42,
+        "visible_model": "| Case | fisc singular | fisc plural | męte singular | męte plural |"
+      },
+      {
+        "model": "męte",
+        "section": 3,
+        "label": "§3: męte",
+        "teaching_id": "CH01-PAR-MASC-E",
+        "distinction": "replace nominative -e",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 42,
+        "visible_model": "| Case | fisc singular | fisc plural | męte singular | męte plural |"
+      },
+      {
+        "model": "dæg",
+        "section": 3,
+        "label": "§3: dæg",
+        "teaching_id": "CH01-PAR-MASC-AE-A",
+        "distinction": "singular æ / plural a",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 55,
+        "visible_model": "| Case | dæg singular | dæg plural | hwæl singular | hwæl plural |"
+      },
+      {
+        "model": "hwæl",
+        "section": 3,
+        "label": "§3: hwæl",
+        "teaching_id": "CH01-PAR-MASC-AE-A",
+        "distinction": "singular æ / plural a",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 55,
+        "visible_model": "| Case | dæg singular | dæg plural | hwæl singular | hwæl plural |"
+      },
+      {
+        "model": "fugol",
+        "section": 3,
+        "label": "§3: fugol",
+        "teaching_id": "CH01-PAR-MASC-SYNCOPE",
+        "distinction": "selected medial-vowel syncope",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 66,
+        "visible_model": "| Case | fugol singular | fugol plural | morgen singular | morgen plural |"
+      },
+      {
+        "model": "morgen",
+        "section": 3,
+        "label": "§3: morgen",
+        "teaching_id": "CH01-PAR-MASC-SYNCOPE",
+        "distinction": "selected medial-vowel syncope",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 66,
+        "visible_model": "| Case | fugol singular | fugol plural | morgen singular | morgen plural |"
+      },
+      {
+        "model": "hof",
+        "section": 4,
+        "label": "§4: hof",
+        "teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "distinction": "ordinary light monosyllable; N/A plural -u",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 79,
+        "visible_model": "| Case | hof singular | hof plural | sǣd singular | sǣd plural |"
+      },
+      {
+        "model": "sǣd",
+        "section": 4,
+        "label": "§4: sǣd",
+        "teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "distinction": "ordinary heavy stem; N/A plural zero",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 79,
+        "visible_model": "| Case | hof singular | hof plural | sǣd singular | sǣd plural |"
+      },
+      {
+        "model": "trēo",
+        "section": 4,
+        "label": "§4: trēo",
+        "teaching_id": "CH01-PAR-NEUT-TREO",
+        "distinction": "w before endings; exceptional trēowu",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 92,
+        "visible_model": "**trēo**"
+      },
+      {
+        "model": "ǣfen",
+        "section": 4,
+        "label": "§4: ǣfen",
+        "teaching_id": "CH01-PAR-NEUT-DISYLLABLE",
+        "distinction": "selected retained vowel; ǣfenu",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 105,
+        "visible_model": "| Case | ǣfen singular | ǣfen plural | tācen singular | tācen plural |"
+      },
+      {
+        "model": "tācen",
+        "section": 4,
+        "label": "§4: tācen",
+        "teaching_id": "CH01-PAR-NEUT-DISYLLABLE",
+        "distinction": "selected syncope; tācnes/tācnu",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 105,
+        "visible_model": "| Case | ǣfen singular | ǣfen plural | tācen singular | tācen plural |"
+      },
+      {
+        "model": "wæter",
+        "section": 4,
+        "label": "§4: wæter",
+        "teaching_id": "CH01-PAR-NEUT-DISYLLABLE",
+        "distinction": "selected retained vowel; wæteres/wæteru",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 112,
+        "visible_model": "| Case | wæter singular | wæter plural | nīeten singular | nīeten plural |"
+      },
+      {
+        "model": "nīeten",
+        "section": 4,
+        "label": "§4: nīeten",
+        "teaching_id": "CH01-PAR-NEUT-DISYLLABLE",
+        "distinction": "selected retained vowel; nīetenes/nīetenu",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 112,
+        "visible_model": "| Case | wæter singular | wæter plural | nīeten singular | nīeten plural |"
+      },
+      {
+        "model": "gesceaft",
+        "section": 5,
+        "label": "§5: gesceaft",
+        "teaching_id": "CH01-PAR-FEM-LONG",
+        "distinction": "ordinary singular obliques -e",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 125,
+        "visible_model": "| Case | gesceaft singular | gesceaft plural | wyrt singular | wyrt plural |"
+      },
+      {
+        "model": "wyrt",
+        "section": 5,
+        "label": "§5: wyrt",
+        "teaching_id": "CH01-PAR-FEM-ACC-ZERO",
+        "distinction": "selected endingless accusative singular",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 125,
+        "visible_model": "| Case | gesceaft singular | gesceaft plural | wyrt singular | wyrt plural |"
+      },
+      {
+        "model": "tīd",
+        "section": 5,
+        "label": "§5: tīd",
+        "teaching_id": "CH01-PAR-FEM-ACC-ZERO",
+        "distinction": "selected endingless accusative singular",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 132,
+        "visible_model": "**tīd**"
+      },
+      {
+        "model": "andlīcnes",
+        "section": 5,
+        "label": "§5: andlīcnes",
+        "teaching_id": "CH01-PAR-FEM-NES",
+        "distinction": "retain e and double s before endings",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 145,
+        "visible_model": "| Case | andlīcnes singular | andlīcnes plural | gegaderung singular | gegaderung plural |"
+      },
+      {
+        "model": "gegaderung",
+        "section": 5,
+        "label": "§5: gegaderung",
+        "teaching_id": "CH01-PAR-FEM-UNG",
+        "distinction": "selected -e singular obliques; -ung/-ing",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 145,
+        "visible_model": "| Case | andlīcnes singular | andlīcnes plural | gegaderung singular | gegaderung plural |"
+      },
+      {
+        "model": "steorra",
+        "section": 6,
+        "label": "§6: steorra",
+        "teaching_id": "CH01-PAR-WEAK",
+        "distinction": "weak masculine nominative -a",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 158,
+        "visible_model": "| Case | steorra singular | steorra plural | eorðe singular | eorðe plural |"
+      },
+      {
+        "model": "eorðe",
+        "section": 6,
+        "label": "§6: eorðe",
+        "teaching_id": "CH01-PAR-WEAK",
+        "distinction": "weak feminine nominative -e",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 158,
+        "visible_model": "| Case | steorra singular | steorra plural | eorðe singular | eorðe plural |"
+      },
+      {
+        "model": "mann",
+        "section": 7,
+        "label": "§7: mann",
+        "teaching_id": "CH01-PAR-EXCEPTION-MANN",
+        "distinction": "męnn dative singular and N/A plural",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 173,
+        "visible_model": "| Case | mann singular | mann plural | niht singular | niht plural |"
+      },
+      {
+        "model": "niht",
+        "section": 7,
+        "label": "§7: niht",
+        "teaching_id": "CH01-PAR-EXCEPTION-NIHT",
+        "distinction": "selected niht in singular and N/A plural",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 173,
+        "visible_model": "| Case | mann singular | mann plural | niht singular | niht plural |"
+      },
+      {
+        "model": "sǣ",
+        "section": 7,
+        "label": "§7: sǣ",
+        "teaching_id": "CH01-PAR-EXCEPTION-SAE",
+        "distinction": "individual masculine; reconstructed G plural untested",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 184,
+        "visible_model": "**sǣ**"
+      },
+      {
+        "model": "ðīestru",
+        "section": 7,
+        "label": "§7: ðīestru",
+        "teaching_id": "CH01-PAR-EXCEPTION-THIESTRU",
+        "distinction": "complete plural-only system",
+        "master_path": "chapters/ch01/student.md",
+        "master_line": 195,
+        "visible_model": "**Ðīestru**, “darkness,” is plural in Old English. Its complete assigned paradigm is plural only.",
+        "caption_action": "Add an explicit ðīestru caption immediately above the generic Case | Plural table at current line 197; the present named paragraph at line 195 is context, not a table caption."
+      }
+    ],
+    "vocabulary_mapping": [
+      {
+        "lemma_id": "aefen",
+        "teaching_id": "CH01-VOC-aefen",
+        "headword": "ǣfen",
+        "master_line": 301,
+        "current_reference": "§4",
+        "proposed_reference": "§4: ǣfen",
+        "model": "ǣfen",
+        "model_teaching_id": "CH01-PAR-NEUT-DISYLLABLE",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "aefen-nom-sg",
+          "aefen-gen-sg",
+          "aefen-dat-sg",
+          "aefen-acc-sg",
+          "aefen-nom-pl",
+          "aefen-gen-pl",
+          "aefen-dat-pl",
+          "aefen-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "morgen",
+        "teaching_id": "CH01-VOC-morgen",
+        "headword": "morgen",
+        "master_line": 302,
+        "current_reference": "fugol/morgen",
+        "proposed_reference": "§3: morgen",
+        "model": "morgen",
+        "model_teaching_id": "CH01-PAR-MASC-SYNCOPE",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "morgen-nom-sg",
+          "morgen-gen-sg",
+          "morgen-dat-sg",
+          "morgen-acc-sg",
+          "morgen-nom-pl",
+          "morgen-gen-pl",
+          "morgen-dat-pl",
+          "morgen-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "daeg",
+        "teaching_id": "CH01-VOC-daeg",
+        "headword": "dæg",
+        "master_line": 303,
+        "current_reference": "dæg/hwæl",
+        "proposed_reference": "§3: dæg",
+        "model": "dæg",
+        "model_teaching_id": "CH01-PAR-MASC-AE-A",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "daeg-nom-sg",
+          "daeg-gen-sg",
+          "daeg-dat-sg",
+          "daeg-acc-sg",
+          "daeg-nom-pl",
+          "daeg-gen-pl",
+          "daeg-dat-pl",
+          "daeg-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "niht",
+        "teaching_id": "CH01-VOC-niht",
+        "headword": "niht",
+        "master_line": 304,
+        "current_reference": "niht",
+        "proposed_reference": "§7: niht",
+        "model": "niht",
+        "model_teaching_id": "CH01-PAR-EXCEPTION-NIHT",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "niht-nom-sg",
+          "niht-gen-sg",
+          "niht-dat-sg",
+          "niht-acc-sg",
+          "niht-nom-pl",
+          "niht-gen-pl",
+          "niht-dat-pl",
+          "niht-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "eorthe",
+        "teaching_id": "CH01-VOC-eorthe",
+        "headword": "eorðe",
+        "master_line": 305,
+        "current_reference": "steorra/eorðe; S",
+        "proposed_reference": "§6: eorðe; S",
+        "model": "eorðe",
+        "model_teaching_id": "CH01-PAR-WEAK",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "eorthe-nom-sg",
+          "eorthe-gen-sg",
+          "eorthe-dat-sg",
+          "eorthe-acc-sg",
+          "eorthe-nom-pl",
+          "eorthe-gen-pl",
+          "eorthe-dat-pl",
+          "eorthe-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "heofon",
+        "teaching_id": "CH01-VOC-heofon",
+        "headword": "heofon",
+        "master_line": 306,
+        "current_reference": "fisc",
+        "proposed_reference": "§3: fisc",
+        "model": "fisc",
+        "model_teaching_id": "CH01-PAR-MASC",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "heofon-nom-sg",
+          "heofon-gen-sg",
+          "heofon-dat-sg",
+          "heofon-acc-sg",
+          "heofon-nom-pl",
+          "heofon-gen-pl",
+          "heofon-dat-pl",
+          "heofon-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "fisc",
+        "teaching_id": "CH01-VOC-fisc",
+        "headword": "fisc",
+        "master_line": 307,
+        "current_reference": "fisc",
+        "proposed_reference": "§3: fisc",
+        "model": "fisc",
+        "model_teaching_id": "CH01-PAR-MASC",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "fisc-nom-sg",
+          "fisc-gen-sg",
+          "fisc-dat-sg",
+          "fisc-acc-sg",
+          "fisc-nom-pl",
+          "fisc-gen-pl",
+          "fisc-dat-pl",
+          "fisc-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "fugol",
+        "teaching_id": "CH01-VOC-fugol",
+        "headword": "fugol",
+        "master_line": 308,
+        "current_reference": "fugol/morgen",
+        "proposed_reference": "§3: fugol",
+        "model": "fugol",
+        "model_teaching_id": "CH01-PAR-MASC-SYNCOPE",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "fugol-nom-sg",
+          "fugol-gen-sg",
+          "fugol-dat-sg",
+          "fugol-acc-sg",
+          "fugol-nom-pl",
+          "fugol-gen-pl",
+          "fugol-dat-pl",
+          "fugol-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "gaers",
+        "teaching_id": "CH01-VOC-gaers",
+        "headword": "gærs",
+        "master_line": 309,
+        "current_reference": "hof/sǣd; S",
+        "proposed_reference": "§4: sǣd; S",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "gaers-nom-sg",
+          "gaers-gen-sg",
+          "gaers-dat-sg",
+          "gaers-acc-sg",
+          "gaers-nom-pl",
+          "gaers-gen-pl",
+          "gaers-dat-pl",
+          "gaers-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "saed",
+        "teaching_id": "CH01-VOC-saed",
+        "headword": "sǣd",
+        "master_line": 310,
+        "current_reference": "hof/sǣd",
+        "proposed_reference": "§4: sǣd",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "saed-nom-sg",
+          "saed-gen-sg",
+          "saed-dat-sg",
+          "saed-acc-sg",
+          "saed-nom-pl",
+          "saed-gen-pl",
+          "saed-dat-pl",
+          "saed-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "treo",
+        "teaching_id": "CH01-VOC-treo",
+        "headword": "trēo",
+        "master_line": 311,
+        "current_reference": "trēo",
+        "proposed_reference": "§4: trēo",
+        "model": "trēo",
+        "model_teaching_id": "CH01-PAR-NEUT-TREO",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "treo-nom-sg",
+          "treo-gen-sg",
+          "treo-dat-sg",
+          "treo-acc-sg",
+          "treo-nom-pl",
+          "treo-gen-pl",
+          "treo-dat-pl",
+          "treo-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "wyrt",
+        "teaching_id": "CH01-VOC-wyrt",
+        "headword": "wyrt",
+        "master_line": 312,
+        "current_reference": "wyrt/tīd",
+        "proposed_reference": "§5: wyrt",
+        "model": "wyrt",
+        "model_teaching_id": "CH01-PAR-FEM-ACC-ZERO",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "wyrt-nom-sg",
+          "wyrt-gen-sg",
+          "wyrt-dat-sg",
+          "wyrt-acc-sg",
+          "wyrt-nom-pl",
+          "wyrt-gen-pl",
+          "wyrt-dat-pl",
+          "wyrt-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "drygnes",
+        "teaching_id": "CH01-VOC-drygnes",
+        "headword": "drȳgnes",
+        "master_line": 313,
+        "current_reference": "andlīcnes; S",
+        "proposed_reference": "§5: andlīcnes; S",
+        "model": "andlīcnes",
+        "model_teaching_id": "CH01-PAR-FEM-NES",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "drygnes-nom-sg",
+          "drygnes-gen-sg",
+          "drygnes-dat-sg",
+          "drygnes-acc-sg",
+          "drygnes-nom-pl",
+          "drygnes-gen-pl",
+          "drygnes-dat-pl",
+          "drygnes-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "waeter",
+        "teaching_id": "CH01-VOC-waeter",
+        "headword": "wæter",
+        "master_line": 314,
+        "current_reference": "§4",
+        "proposed_reference": "§4: wæter",
+        "model": "wæter",
+        "model_teaching_id": "CH01-PAR-NEUT-DISYLLABLE",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "waeter-nom-sg",
+          "waeter-gen-sg",
+          "waeter-dat-sg",
+          "waeter-acc-sg",
+          "waeter-nom-pl",
+          "waeter-gen-pl",
+          "waeter-dat-pl",
+          "waeter-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "andlicnes",
+        "teaching_id": "CH01-VOC-andlicnes",
+        "headword": "andlīcnes",
+        "master_line": 315,
+        "current_reference": "andlīcnes",
+        "proposed_reference": "§5: andlīcnes",
+        "model": "andlīcnes",
+        "model_teaching_id": "CH01-PAR-FEM-NES",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "andlicnes-nom-sg",
+          "andlicnes-gen-sg",
+          "andlicnes-dat-sg",
+          "andlicnes-acc-sg",
+          "andlicnes-nom-pl",
+          "andlicnes-gen-pl",
+          "andlicnes-dat-pl",
+          "andlicnes-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "gelicnes",
+        "teaching_id": "CH01-VOC-gelicnes",
+        "headword": "gelīcnes",
+        "master_line": 316,
+        "current_reference": "andlīcnes",
+        "proposed_reference": "§5: andlīcnes",
+        "model": "andlīcnes",
+        "model_teaching_id": "CH01-PAR-FEM-NES",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "gelicnes-nom-sg",
+          "gelicnes-gen-sg",
+          "gelicnes-dat-sg",
+          "gelicnes-acc-sg",
+          "gelicnes-nom-pl",
+          "gelicnes-gen-pl",
+          "gelicnes-dat-pl",
+          "gelicnes-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "leoht",
+        "teaching_id": "CH01-VOC-leoht",
+        "headword": "lēoht",
+        "master_line": 317,
+        "current_reference": "hof/sǣd; S",
+        "proposed_reference": "§4: sǣd; S",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "leoht-nom-sg",
+          "leoht-gen-sg",
+          "leoht-dat-sg",
+          "leoht-acc-sg",
+          "leoht-nom-pl",
+          "leoht-gen-pl",
+          "leoht-dat-pl",
+          "leoht-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "thiestru",
+        "teaching_id": "CH01-VOC-thiestru",
+        "headword": "ðīestru",
+        "master_line": 318,
+        "current_reference": "ðīestru; P; G pl ðīestra",
+        "proposed_reference": "§7: ðīestru; P; G pl ðīestra",
+        "model": "ðīestru",
+        "model_teaching_id": "CH01-PAR-EXCEPTION-THIESTRU",
+        "preserved_limits": "P; G pl ðīestra",
+        "unchanged_form_ids": [
+          "thiestru-nom-pl",
+          "thiestru-gen-pl",
+          "thiestru-dat-pl",
+          "thiestru-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "tacen",
+        "teaching_id": "CH01-VOC-tacen",
+        "headword": "tācen",
+        "master_line": 319,
+        "current_reference": "§4",
+        "proposed_reference": "§4: tācen",
+        "model": "tācen",
+        "model_teaching_id": "CH01-PAR-NEUT-DISYLLABLE",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "tacen-nom-sg",
+          "tacen-gen-sg",
+          "tacen-dat-sg",
+          "tacen-acc-sg",
+          "tacen-nom-pl",
+          "tacen-gen-pl",
+          "tacen-dat-pl",
+          "tacen-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "tid",
+        "teaching_id": "CH01-VOC-tid",
+        "headword": "tīd",
+        "master_line": 320,
+        "current_reference": "wyrt/tīd",
+        "proposed_reference": "§5: tīd",
+        "model": "tīd",
+        "model_teaching_id": "CH01-PAR-FEM-ACC-ZERO",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "tid-nom-sg",
+          "tid-gen-sg",
+          "tid-dat-sg",
+          "tid-acc-sg",
+          "tid-nom-pl",
+          "tid-gen-pl",
+          "tid-dat-pl",
+          "tid-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "gast",
+        "teaching_id": "CH01-VOC-gast",
+        "headword": "gāst",
+        "master_line": 321,
+        "current_reference": "fisc",
+        "proposed_reference": "§3: fisc",
+        "model": "fisc",
+        "model_teaching_id": "CH01-PAR-MASC",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "gast-nom-sg",
+          "gast-gen-sg",
+          "gast-dat-sg",
+          "gast-acc-sg",
+          "gast-nom-pl",
+          "gast-gen-pl",
+          "gast-dat-pl",
+          "gast-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "lif",
+        "teaching_id": "CH01-VOC-lif",
+        "headword": "līf",
+        "master_line": 322,
+        "current_reference": "hof/sǣd; S",
+        "proposed_reference": "§4: sǣd; S",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "lif-nom-sg",
+          "lif-gen-sg",
+          "lif-dat-sg",
+          "lif-acc-sg",
+          "lif-nom-pl",
+          "lif-gen-pl",
+          "lif-dat-pl",
+          "lif-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "gesceaft",
+        "teaching_id": "CH01-VOC-gesceaft",
+        "headword": "gesceaft",
+        "master_line": 323,
+        "current_reference": "gesceaft",
+        "proposed_reference": "§5: gesceaft",
+        "model": "gesceaft",
+        "model_teaching_id": "CH01-PAR-FEM-LONG",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "gesceaft-nom-sg",
+          "gesceaft-gen-sg",
+          "gesceaft-dat-sg",
+          "gesceaft-acc-sg",
+          "gesceaft-nom-pl",
+          "gesceaft-gen-pl",
+          "gesceaft-dat-pl",
+          "gesceaft-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "mete",
+        "teaching_id": "CH01-VOC-mete",
+        "headword": "męte",
+        "master_line": 324,
+        "current_reference": "męte; S",
+        "proposed_reference": "§3: męte; S",
+        "model": "męte",
+        "model_teaching_id": "CH01-PAR-MASC-E",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "mete-nom-sg",
+          "mete-gen-sg",
+          "mete-dat-sg",
+          "mete-acc-sg",
+          "mete-nom-pl",
+          "mete-gen-pl",
+          "mete-dat-pl",
+          "mete-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "gear",
+        "teaching_id": "CH01-VOC-gear",
+        "headword": "gēar",
+        "master_line": 325,
+        "current_reference": "hof/sǣd",
+        "proposed_reference": "§4: sǣd",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "gear-nom-sg",
+          "gear-gen-sg",
+          "gear-dat-sg",
+          "gear-acc-sg",
+          "gear-nom-pl",
+          "gear-gen-pl",
+          "gear-dat-pl",
+          "gear-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "mann",
+        "teaching_id": "CH01-VOC-mann",
+        "headword": "man",
+        "master_line": 326,
+        "current_reference": "mann",
+        "proposed_reference": "§7: mann",
+        "model": "mann",
+        "model_teaching_id": "CH01-PAR-EXCEPTION-MANN",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "mann-nom-sg",
+          "mann-gen-sg",
+          "mann-dat-sg",
+          "mann-acc-sg",
+          "mann-nom-pl",
+          "mann-gen-pl",
+          "mann-dat-pl",
+          "mann-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "deor",
+        "teaching_id": "CH01-VOC-deor",
+        "headword": "dēor",
+        "master_line": 327,
+        "current_reference": "hof/sǣd",
+        "proposed_reference": "§4: sǣd",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "deor-nom-sg",
+          "deor-gen-sg",
+          "deor-dat-sg",
+          "deor-acc-sg",
+          "deor-nom-pl",
+          "deor-gen-pl",
+          "deor-dat-pl",
+          "deor-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "waestm",
+        "teaching_id": "CH01-VOC-waestm",
+        "headword": "wæstm",
+        "master_line": 328,
+        "current_reference": "fisc",
+        "proposed_reference": "§3: fisc",
+        "model": "fisc",
+        "model_teaching_id": "CH01-PAR-MASC",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "waestm-nom-sg",
+          "waestm-gen-sg",
+          "waestm-dat-sg",
+          "waestm-acc-sg",
+          "waestm-nom-pl",
+          "waestm-gen-pl",
+          "waestm-dat-pl",
+          "waestm-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "faestnes",
+        "teaching_id": "CH01-VOC-faestnes",
+        "headword": "fæstnes",
+        "master_line": 329,
+        "current_reference": "andlīcnes; S",
+        "proposed_reference": "§5: andlīcnes; S",
+        "model": "andlīcnes",
+        "model_teaching_id": "CH01-PAR-FEM-NES",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "faestnes-nom-sg",
+          "faestnes-gen-sg",
+          "faestnes-dat-sg",
+          "faestnes-acc-sg",
+          "faestnes-nom-pl",
+          "faestnes-gen-pl",
+          "faestnes-dat-pl",
+          "faestnes-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "neowolnes",
+        "teaching_id": "CH01-VOC-neowolnes",
+        "headword": "nēowolnes",
+        "master_line": 330,
+        "current_reference": "andlīcnes; S",
+        "proposed_reference": "§5: andlīcnes; S",
+        "model": "andlīcnes",
+        "model_teaching_id": "CH01-PAR-FEM-NES",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "neowolnes-nom-sg",
+          "neowolnes-gen-sg",
+          "neowolnes-dat-sg",
+          "neowolnes-acc-sg",
+          "neowolnes-nom-pl",
+          "neowolnes-gen-pl",
+          "neowolnes-dat-pl",
+          "neowolnes-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "sae",
+        "teaching_id": "CH01-VOC-sae",
+        "headword": "sǣ",
+        "master_line": 331,
+        "current_reference": "sǣ",
+        "proposed_reference": "§7: sǣ",
+        "model": "sǣ",
+        "model_teaching_id": "CH01-PAR-EXCEPTION-SAE",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "sae-nom-sg",
+          "sae-gen-sg",
+          "sae-dat-sg",
+          "sae-acc-sg",
+          "sae-nom-pl",
+          "sae-gen-pl",
+          "sae-dat-pl",
+          "sae-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "hwael",
+        "teaching_id": "CH01-VOC-hwael",
+        "headword": "hwæl",
+        "master_line": 332,
+        "current_reference": "dæg/hwæl",
+        "proposed_reference": "§3: hwæl",
+        "model": "hwæl",
+        "model_teaching_id": "CH01-PAR-MASC-AE-A",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "hwael-nom-sg",
+          "hwael-gen-sg",
+          "hwael-dat-sg",
+          "hwael-acc-sg",
+          "hwael-nom-pl",
+          "hwael-gen-pl",
+          "hwael-dat-pl",
+          "hwael-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "nieten",
+        "teaching_id": "CH01-VOC-nieten",
+        "headword": "nīeten",
+        "master_line": 333,
+        "current_reference": "§4",
+        "proposed_reference": "§4: nīeten",
+        "model": "nīeten",
+        "model_teaching_id": "CH01-PAR-NEUT-DISYLLABLE",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "nieten-nom-sg",
+          "nieten-gen-sg",
+          "nieten-dat-sg",
+          "nieten-acc-sg",
+          "nieten-nom-pl",
+          "nieten-gen-pl",
+          "nieten-dat-pl",
+          "nieten-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "anginn",
+        "teaching_id": "CH01-VOC-anginn",
+        "headword": "anginn",
+        "master_line": 334,
+        "current_reference": "hof/sǣd",
+        "proposed_reference": "§4: sǣd",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "anginn-nom-sg",
+          "anginn-gen-sg",
+          "anginn-dat-sg",
+          "anginn-acc-sg",
+          "anginn-nom-pl",
+          "anginn-gen-pl",
+          "anginn-dat-pl",
+          "anginn-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "god",
+        "teaching_id": "CH01-VOC-god",
+        "headword": "God",
+        "master_line": 335,
+        "current_reference": "fisc; divine name, singular",
+        "proposed_reference": "§3: fisc; divine name, singular",
+        "model": "fisc",
+        "model_teaching_id": "CH01-PAR-MASC",
+        "preserved_limits": "divine name, singular",
+        "unchanged_form_ids": [
+          "god-nom-sg",
+          "god-gen-sg",
+          "god-dat-sg",
+          "god-acc-sg"
+        ]
+      },
+      {
+        "lemma_id": "bradnes",
+        "teaching_id": "CH01-VOC-bradnes",
+        "headword": "brādnes",
+        "master_line": 336,
+        "current_reference": "andlīcnes; S",
+        "proposed_reference": "§5: andlīcnes; S",
+        "model": "andlīcnes",
+        "model_teaching_id": "CH01-PAR-FEM-NES",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "bradnes-nom-sg",
+          "bradnes-gen-sg",
+          "bradnes-dat-sg",
+          "bradnes-acc-sg",
+          "bradnes-nom-pl",
+          "bradnes-gen-pl",
+          "bradnes-dat-pl",
+          "bradnes-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "gegaderung",
+        "teaching_id": "CH01-VOC-gegaderung",
+        "headword": "gegaderung",
+        "master_line": 337,
+        "current_reference": "gegaderung",
+        "proposed_reference": "§5: gegaderung",
+        "model": "gegaderung",
+        "model_teaching_id": "CH01-PAR-FEM-UNG",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "gegaderung-nom-sg",
+          "gegaderung-gen-sg",
+          "gegaderung-dat-sg",
+          "gegaderung-acc-sg",
+          "gegaderung-nom-pl",
+          "gegaderung-gen-pl",
+          "gegaderung-dat-pl",
+          "gegaderung-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "lyft",
+        "teaching_id": "CH01-VOC-lyft",
+        "headword": "lyft",
+        "master_line": 338,
+        "current_reference": "hof/sǣd; S",
+        "proposed_reference": "§4: sǣd; S",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "lyft-nom-sg",
+          "lyft-gen-sg",
+          "lyft-dat-sg",
+          "lyft-acc-sg",
+          "lyft-nom-pl",
+          "lyft-gen-pl",
+          "lyft-dat-pl",
+          "lyft-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "fraetwung",
+        "teaching_id": "CH01-VOC-fraetwung",
+        "headword": "frætwung",
+        "master_line": 339,
+        "current_reference": "gegaderung; S",
+        "proposed_reference": "§5: gegaderung; S",
+        "model": "gegaderung",
+        "model_teaching_id": "CH01-PAR-FEM-UNG",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "fraetwung-nom-sg",
+          "fraetwung-gen-sg",
+          "fraetwung-dat-sg",
+          "fraetwung-acc-sg",
+          "fraetwung-nom-pl",
+          "fraetwung-gen-pl",
+          "fraetwung-dat-pl",
+          "fraetwung-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "weorc",
+        "teaching_id": "CH01-VOC-weorc",
+        "headword": "weorc",
+        "master_line": 340,
+        "current_reference": "hof/sǣd",
+        "proposed_reference": "§4: sǣd",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "weorc-nom-sg",
+          "weorc-gen-sg",
+          "weorc-dat-sg",
+          "weorc-acc-sg",
+          "weorc-nom-pl",
+          "weorc-gen-pl",
+          "weorc-dat-pl",
+          "weorc-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "cynn",
+        "teaching_id": "CH01-VOC-cynn",
+        "headword": "cynn",
+        "master_line": 341,
+        "current_reference": "hof/sǣd",
+        "proposed_reference": "§4: sǣd",
+        "model": "sǣd",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "cynn-nom-sg",
+          "cynn-gen-sg",
+          "cynn-dat-sg",
+          "cynn-acc-sg",
+          "cynn-nom-pl",
+          "cynn-gen-pl",
+          "cynn-dat-pl",
+          "cynn-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "steorra",
+        "teaching_id": "CH01-VOC-steorra",
+        "headword": "steorra",
+        "master_line": 342,
+        "current_reference": "steorra/eorðe",
+        "proposed_reference": "§6: steorra",
+        "model": "steorra",
+        "model_teaching_id": "CH01-PAR-WEAK",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "steorra-nom-sg",
+          "steorra-gen-sg",
+          "steorra-dat-sg",
+          "steorra-acc-sg",
+          "steorra-nom-pl",
+          "steorra-gen-pl",
+          "steorra-dat-pl",
+          "steorra-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "liehting",
+        "teaching_id": "CH01-VOC-liehting",
+        "headword": "līehting",
+        "master_line": 343,
+        "current_reference": "gegaderung; S",
+        "proposed_reference": "§5: gegaderung; S",
+        "model": "gegaderung",
+        "model_teaching_id": "CH01-PAR-FEM-UNG",
+        "preserved_limits": "S",
+        "unchanged_form_ids": [
+          "liehting-nom-sg",
+          "liehting-gen-sg",
+          "liehting-dat-sg",
+          "liehting-acc-sg",
+          "liehting-nom-pl",
+          "liehting-gen-pl",
+          "liehting-dat-pl",
+          "liehting-acc-pl"
+        ]
+      },
+      {
+        "lemma_id": "hof",
+        "teaching_id": "CH01-VOC-hof",
+        "headword": "hof",
+        "master_line": 344,
+        "current_reference": "hof/sǣd",
+        "proposed_reference": "§4: hof",
+        "model": "hof",
+        "model_teaching_id": "CH01-PAR-NEUT-WEIGHT",
+        "preserved_limits": "",
+        "unchanged_form_ids": [
+          "hof-nom-sg",
+          "hof-gen-sg",
+          "hof-dat-sg",
+          "hof-acc-sg",
+          "hof-nom-pl",
+          "hof-gen-pl",
+          "hof-dat-pl",
+          "hof-acc-pl"
+        ]
+      }
+    ],
+    "neuter_rules": [
+      "hof: ordinary light monosyllabic -u.",
+      "sǣd: ordinary heavy zero, including short-vowel clusters/geminates; apply anginn to stressed -ginn.",
+      "trēo: own w-stem model and exceptional trēowu despite long vowel.",
+      "tācen: own selected syncope; ǣfen/wæter/nīeten: each actual retained-vowel model. Do not apply the monosyllabic -u/zero rule to these mechanically."
+    ],
+    "preserved_exceptions": [
+      "God singular proper divine name; fisc does not assign a plural.",
+      "S-marked mass/abstract plural morphology stays recognition only, without a new plural sense.",
+      "ðīestru remains plural-only, G plural ðīestra.",
+      "sǣ G plural *sǣwa stays reconstructed with null learning milestones.",
+      "C01 wæstm keeps short æ and no dæg/hwæl alternation before its cluster.",
+      "Keep valid trēow, wætru, retained-vowel fugol/morgen, feminine plural -e, -ung oblique -a, and nihte variants distinct from selected targets."
+    ],
+    "table_label_check": "Twenty-three models are named in existing table headers or captions. ðīestru is named in its preceding paragraph; add an explicit caption above its plural-only table. This is presentation only."
+  },
+  "fresh_practice": {
+    "status": "Architecture only; exact prompts and models await reconciled contract.",
+    "retain": [
+      "All 46 original Cook prompts.",
+      "Useful existing case-role reversal and giving contrasts.",
+      "Complete noun models and supported exact Creation reading."
+    ],
+    "stages": [
+      {
+        "stage": "Contextual person selection",
+        "target": "All ten nominatives and six person/number values with both copula tenses.",
+        "implementation": "Revise CH01-COP01–06 while retaining their six person targets; include three third-singular genders and add explicit dual tasks under new IDs."
+      },
+      {
+        "stage": "Reference changes meaning",
+        "target": "Clear masculine/neuter/feminine/plural antecedents, including inanimates.",
+        "implementation": "Introduce a noun and require a subject pronoun in a subsequent copular clause; context determines the intended referent."
+      },
+      {
+        "stage": "Noun-model transfer",
+        "target": "hof/sǣd, tācen versus retained-vowel models, trēo, weak and individual models.",
+        "implementation": "Apply the vocabulary link to a fresh supported location or supplied seeing/giving frame; no extra lexical sense or S-plural production."
+      },
+      {
+        "stage": "Information selection/correction",
+        "target": "Person, number, tense, location dative and article agreement.",
+        "implementation": "A small scene or before/after account determines which statement is true and what needs correction. English instructions avoid untaught OE questions/negatives."
+      },
+      {
+        "stage": "Connected transfer",
+        "target": "Speaker/addressee, dual pair, ordinary plural group and clear third-person reference over several sentences.",
+        "implementation": "A short copular exchange/account supports translation, reference tracing and a constrained response. English speaker labels need no sęcgan syntax; avoid untaught subject ellipsis or clause-coordination rules."
+      }
+    ],
+    "acceptance": [
+      "Every independent response has exact assigned form/sense/construction dependencies.",
+      "Every selected subject cell is exercised productively, not just printed/copied.",
+      "At least one context changes the correct answer and one connected task requires tracking reference or tense.",
+      "Model transfer uses a different supported combination from the worked example.",
+      "All new tasks get separate key counterparts and independent solving; valid alternatives are distinguished from the requested target."
+    ]
+  },
+  "downstream": {
+    "unit2": "Keep all forty pronoun cells, 61 tasks and weak systems. Update opening orientation and active prior/new dependency records; no Cook assignment change.",
+    "later_units": "No ch03+ learner prose change forced. Preserve later accepted historical prior-scope witnesses; earlier availability is monotonic. Possessive adjective and later personal-genitive milestones remain distinct.",
+    "plans": [
+      "curriculum/UNIT_01_BRIEF.md",
+      "curriculum/UNIT_02_BRIEF.md",
+      "curriculum/COURSE_PLAN.md",
+      "curriculum/COOK_MAP.md (description check only; assignments unchanged)"
+    ],
+    "glossary": {
+      "headwords": [
+        "OE-ic",
+        "OE-thu",
+        "OE-he"
+      ],
+      "no_new_headwords_needed": true,
+      "surface_routes": [
+        {
+          "surface": "git",
+          "entry_ids": [
+            "OE-thu"
+          ],
+          "first_location": {
+            "path": "chapters/ch02/student.md",
+            "line": 24
+          },
+          "route": "register_or_explicit_resolution"
+        },
+        {
+          "surface": "gē",
+          "entry_ids": [
+            "OE-thu"
+          ],
+          "first_location": {
+            "path": "chapters/ch02/student.md",
+            "line": 24
+          },
+          "route": "register_or_explicit_resolution"
+        },
+        {
+          "surface": "hit",
+          "entry_ids": [
+            "OE-he"
+          ],
+          "first_location": {
+            "path": "chapters/ch01/student.md",
+            "line": 748
+          },
+          "route": "register_or_explicit_resolution"
+        },
+        {
+          "surface": "hē",
+          "entry_ids": [
+            "OE-he"
+          ],
+          "first_location": {
+            "path": "guides/pronunciation/student.md",
+            "line": 21
+          },
+          "route": "register_or_explicit_resolution"
+        },
+        {
+          "surface": "hēo",
+          "entry_ids": [
+            "OE-he"
+          ],
+          "first_location": {
+            "path": "chapters/ch02/student.md",
+            "line": 33
+          },
+          "route": "register_or_explicit_resolution"
+        },
+        {
+          "surface": "hīe",
+          "entry_ids": [
+            "OE-he"
+          ],
+          "first_location": {
+            "path": "chapters/ch02/student.md",
+            "line": 33
+          },
+          "route": "register_or_explicit_resolution"
+        },
+        {
+          "surface": "ic",
+          "entry_ids": [
+            "OE-ic"
+          ],
+          "first_location": {
+            "path": "chapters/ch02/student.md",
+            "line": 15
+          },
+          "route": "register_or_explicit_resolution"
+        },
+        {
+          "surface": "wit",
+          "entry_ids": [
+            "OE-ic"
+          ],
+          "first_location": {
+            "path": "chapters/ch02/student.md",
+            "line": 15
+          },
+          "route": "register_or_explicit_resolution"
+        },
+        {
+          "surface": "wē",
+          "entry_ids": [
+            "OE-ic"
+          ],
+          "first_location": {
+            "path": "chapters/ch02/student.md",
+            "line": 15
+          },
+          "route": "register_or_explicit_resolution"
+        },
+        {
+          "surface": "ðū",
+          "entry_ids": [
+            "OE-thu"
+          ],
+          "first_location": {
+            "path": "chapters/ch02/student.md",
+            "line": 24
+          },
+          "route": "register_or_explicit_resolution"
+        }
+      ],
+      "english_routes": [
+        {
+          "entry_id": "EN-372f7e2fd2d0",
+          "headword": "he",
+          "routes": [
+            {
+              "kind": "sense",
+              "entry_ids": [
+                "OE-he"
+              ],
+              "sense_ids": [
+                "he-1"
+              ],
+              "headwords": [
+                "hē"
+              ],
+              "meaning": "he; she; it; they",
+              "usage": "Hē is masculine singular nominative. Third-person pronouns follow the grammatical gender of their referent.",
+              "grammar_only": true
+            },
+            {
+              "kind": "exercise_access",
+              "access_id": "EN-ACCESS-223",
+              "entry_ids": [
+                "OE-he"
+              ],
+              "sense_ids": [
+                "he-1"
+              ],
+              "headwords": [
+                "hē"
+              ],
+              "meaning": "",
+              "usage": "Grammatical gender and antecedent determine reference; it may be represented by masculine/feminine forms for a gendered inanimate noun.",
+              "task_ids": [
+                "NEW-U02-P04",
+                "NEW-U02-P05",
+                "NEW-U18-A01"
+              ],
+              "grammar_only": true
+            }
+          ]
+        },
+        {
+          "entry_id": "EN-a83dd0ccbffe",
+          "headword": "I",
+          "routes": [
+            {
+              "kind": "sense",
+              "entry_ids": [
+                "OE-ic"
+              ],
+              "sense_ids": [
+                "ic-personal"
+              ],
+              "headwords": [
+                "ic"
+              ],
+              "meaning": "I; me; we; us",
+              "usage": "Ic is the nominative singular subject I. The governed object form me is mē in both dative and accusative.",
+              "grammar_only": true
+            },
+            {
+              "kind": "exercise_access",
+              "access_id": "EN-ACCESS-222",
+              "entry_ids": [
+                "OE-ic"
+              ],
+              "sense_ids": [
+                "ic-personal"
+              ],
+              "headwords": [
+                "ic"
+              ],
+              "meaning": "",
+              "usage": "Select case from the verb/preposition and preserve dual versus plural; dual subjects use plural verb forms.",
+              "task_ids": [
+                "NEW-U02-P01",
+                "NEW-U02-P02",
+                "NEW-U02-P03"
+              ],
+              "grammar_only": true
+            }
+          ]
+        },
+        {
+          "entry_id": "EN-2ad8a7049d7c",
+          "headword": "it",
+          "routes": [
+            {
+              "kind": "sense",
+              "entry_ids": [
+                "OE-he"
+              ],
+              "sense_ids": [
+                "he-1"
+              ],
+              "headwords": [
+                "hē"
+              ],
+              "meaning": "he; she; it; they",
+              "usage": "Hit is neuter singular nominative/accusative; dative is him and genitive his. An inanimate referent of masculine or feminine grammatical gender takes the corresponding gendered pronoun instead.",
+              "grammar_only": true
+            },
+            {
+              "kind": "exercise_access",
+              "access_id": "EN-ACCESS-223",
+              "entry_ids": [
+                "OE-he"
+              ],
+              "sense_ids": [
+                "he-1"
+              ],
+              "headwords": [
+                "hē"
+              ],
+              "meaning": "",
+              "usage": "Grammatical gender and antecedent determine reference; it may be represented by masculine/feminine forms for a gendered inanimate noun.",
+              "task_ids": [
+                "NEW-U02-P04",
+                "NEW-U02-P05",
+                "NEW-U18-A01"
+              ],
+              "grammar_only": true
+            }
+          ]
+        },
+        {
+          "entry_id": "EN-2cda85e504e1",
+          "headword": "she",
+          "routes": [
+            {
+              "kind": "sense",
+              "entry_ids": [
+                "OE-he"
+              ],
+              "sense_ids": [
+                "he-1"
+              ],
+              "headwords": [
+                "hē"
+              ],
+              "meaning": "he; she; it; they",
+              "usage": "Hēo is feminine singular nominative. Third-person pronouns follow the grammatical gender of their referent.",
+              "grammar_only": true
+            },
+            {
+              "kind": "exercise_access",
+              "access_id": "EN-ACCESS-223",
+              "entry_ids": [
+                "OE-he"
+              ],
+              "sense_ids": [
+                "he-1"
+              ],
+              "headwords": [
+                "hē"
+              ],
+              "meaning": "",
+              "usage": "Grammatical gender and antecedent determine reference; it may be represented by masculine/feminine forms for a gendered inanimate noun.",
+              "task_ids": [
+                "NEW-U02-P04",
+                "NEW-U02-P05",
+                "NEW-U18-A01"
+              ],
+              "grammar_only": true
+            }
+          ]
+        },
+        {
+          "entry_id": "EN-151e58a83130",
+          "headword": "they",
+          "routes": [
+            {
+              "kind": "sense",
+              "entry_ids": [
+                "OE-he"
+              ],
+              "sense_ids": [
+                "he-1"
+              ],
+              "headwords": [
+                "hē"
+              ],
+              "meaning": "he; she; it; they",
+              "usage": "Hīe is plural nominative they for all genders. The plural dative is him, accusative hīe, genitive hiera.",
+              "grammar_only": true
+            },
+            {
+              "kind": "exercise_access",
+              "access_id": "EN-ACCESS-223",
+              "entry_ids": [
+                "OE-he"
+              ],
+              "sense_ids": [
+                "he-1"
+              ],
+              "headwords": [
+                "hē"
+              ],
+              "meaning": "",
+              "usage": "Grammatical gender and antecedent determine reference; it may be represented by masculine/feminine forms for a gendered inanimate noun.",
+              "task_ids": [
+                "NEW-U02-P04",
+                "NEW-U02-P05",
+                "NEW-U18-A01"
+              ],
+              "grammar_only": true
+            }
+          ]
+        },
+        {
+          "entry_id": "EN-dc7c811b9561",
+          "headword": "we",
+          "routes": [
+            {
+              "kind": "sense",
+              "entry_ids": [
+                "OE-ic"
+              ],
+              "sense_ids": [
+                "ic-personal"
+              ],
+              "headwords": [
+                "ic"
+              ],
+              "meaning": "I; me; we; us",
+              "usage": "Wē is nominative plural we; wit is the explicitly dual we two. Both take a plural verb form.",
+              "grammar_only": true
+            },
+            {
+              "kind": "exercise_access",
+              "access_id": "EN-ACCESS-222",
+              "entry_ids": [
+                "OE-ic"
+              ],
+              "sense_ids": [
+                "ic-personal"
+              ],
+              "headwords": [
+                "ic"
+              ],
+              "meaning": "",
+              "usage": "Select case from the verb/preposition and preserve dual versus plural; dual subjects use plural verb forms.",
+              "task_ids": [
+                "NEW-U02-P01",
+                "NEW-U02-P02",
+                "NEW-U02-P03"
+              ],
+              "grammar_only": true
+            }
+          ]
+        },
+        {
+          "entry_id": "EN-d72515354241",
+          "headword": "we two",
+          "routes": [
+            {
+              "kind": "sense",
+              "entry_ids": [
+                "OE-ic"
+              ],
+              "sense_ids": [
+                "ic-personal"
+              ],
+              "headwords": [
+                "ic"
+              ],
+              "meaning": "I; me; we; us",
+              "usage": "Wit is nominative dual we two and takes a plural verb form.",
+              "grammar_only": true
+            },
+            {
+              "kind": "exercise_access",
+              "access_id": "EN-ACCESS-222",
+              "entry_ids": [
+                "OE-ic"
+              ],
+              "sense_ids": [
+                "ic-personal"
+              ],
+              "headwords": [
+                "ic"
+              ],
+              "meaning": "",
+              "usage": "Select case from the verb/preposition and preserve dual versus plural; dual subjects use plural verb forms.",
+              "task_ids": [
+                "NEW-U02-P01",
+                "NEW-U02-P02",
+                "NEW-U02-P03"
+              ],
+              "grammar_only": true
+            }
+          ]
+        },
+        {
+          "entry_id": "EN-bb0347a468d9",
+          "headword": "you",
+          "routes": [
+            {
+              "kind": "sense",
+              "entry_ids": [
+                "OE-thu"
+              ],
+              "sense_ids": [
+                "thu-personal"
+              ],
+              "headwords": [
+                "ðū"
+              ],
+              "meaning": "you",
+              "usage": "Singular: nominative ðū, dative/accusative ðē; dual: nominative git, dative/accusative inc; plural: nominative gē, dative/accusative ēow. Dual subjects take plural verb forms.",
+              "grammar_only": true
+            },
+            {
+              "kind": "exercise_access",
+              "access_id": "EN-ACCESS-221",
+              "entry_ids": [
+                "OE-thu"
+              ],
+              "sense_ids": [
+                "thu-personal"
+              ],
+              "headwords": [
+                "ðū"
+              ],
+              "meaning": "",
+              "usage": "Singular ðū, dual git and plural gē systems; thou/thee mark singular, ye plural. Unspecified you allows appropriate choices unless the task specifies number.",
+              "task_ids": [
+                "NEW-U02-P01",
+                "NEW-U02-P02",
+                "NEW-U02-P03",
+                "EX-I-08-03"
+              ],
+              "grammar_only": true
+            }
+          ]
+        },
+        {
+          "entry_id": "EN-c1d599576e70",
+          "headword": "you two",
+          "routes": [
+            {
+              "kind": "sense",
+              "entry_ids": [
+                "OE-thu"
+              ],
+              "sense_ids": [
+                "thu-personal"
+              ],
+              "headwords": [
+                "ðū"
+              ],
+              "meaning": "you",
+              "usage": "Git is nominative dual you two; inc is dative/accusative dual. A dual subject takes a plural verb form.",
+              "grammar_only": true
+            }
+          ]
+        }
+      ],
+      "action": "Audit revised masters and new English prompts against existing routes. If narrow sense IDs are added, map them to already covered meanings. Add bounded current revision coverage; preserve frozen 38-master/exact-5580 acceptance as history."
+    },
+    "index": {
+      "affected_entries": [
+        {
+          "json_pointer": "/entries/38",
+          "heading": "Agreement",
+          "subheading": "dual subjects and plural verbs",
+          "anchors": [
+            "bk-ch02-learner-b542d326d059"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/26"
+          ]
+        },
+        {
+          "json_pointer": "/entries/109",
+          "heading": "Copula",
+          "subheading": "alternative bēo present",
+          "anchors": [
+            "bk-ch06-learner-666a2007807d"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/69"
+          ]
+        },
+        {
+          "json_pointer": "/entries/110",
+          "heading": "Copula",
+          "subheading": "expected, habitual and general states",
+          "anchors": [
+            "bk-ch06-learner-666a2007807d"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/70"
+          ]
+        },
+        {
+          "json_pointer": "/entries/111",
+          "heading": "Copula",
+          "subheading": "present eom and preterite wæs",
+          "anchors": [
+            "bk-ch01-learner-814e0a394df4"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/71"
+          ]
+        },
+        {
+          "json_pointer": "/entries/134",
+          "heading": "Gender",
+          "subheading": "grammatical gender",
+          "anchors": [
+            "bk-ch01-learner-624dd0eb97a3"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/87"
+          ]
+        },
+        {
+          "json_pointer": "/entries/213",
+          "heading": "Nouns",
+          "subheading": "neuter nominative–accusative identity",
+          "anchors": [
+            "bk-ch01-learner-737b70e12605"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/134"
+          ]
+        },
+        {
+          "json_pointer": "/entries/214",
+          "heading": "Nouns",
+          "subheading": "neuter w-stems and exceptional plural",
+          "anchors": [
+            "bk-ch01-learner-737b70e12605"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/135"
+          ]
+        },
+        {
+          "json_pointer": "/entries/215",
+          "heading": "Nouns",
+          "subheading": "neuters in -e",
+          "anchors": [
+            "bk-ch09-learner-47d8491e816c"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/136"
+          ]
+        },
+        {
+          "json_pointer": "/entries/223",
+          "heading": "Nouns",
+          "subheading": "strong neuter declension and plural -u",
+          "anchors": [
+            "bk-ch01-learner-737b70e12605"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/140"
+          ]
+        },
+        {
+          "json_pointer": "/entries/272",
+          "heading": "Personal pronouns",
+          "subheading": "case determined by clause function",
+          "anchors": [
+            "bk-ch02-learner-8f105697c218"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/171"
+          ]
+        },
+        {
+          "json_pointer": "/entries/273",
+          "heading": "Personal pronouns",
+          "subheading": "complete singular, dual and plural forms",
+          "anchors": [
+            "bk-ch02-learner-b542d326d059"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/172"
+          ]
+        },
+        {
+          "json_pointer": "/entries/274",
+          "heading": "Personal pronouns",
+          "subheading": "first- and second-person genitives as reference forms",
+          "anchors": [
+            "bk-ch02-learner-b542d326d059"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/173"
+          ]
+        },
+        {
+          "json_pointer": "/entries/275",
+          "heading": "Personal pronouns",
+          "subheading": "grammatical gender and reference",
+          "anchors": [
+            "bk-ch02-learner-fc8f17ff0711"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/174"
+          ]
+        },
+        {
+          "json_pointer": "/entries/276",
+          "heading": "Personal pronouns",
+          "subheading": "invariant third-person possessors",
+          "anchors": [
+            "bk-ch02-learner-62b2d81d3d34"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/175"
+          ]
+        },
+        {
+          "json_pointer": "/entries/277",
+          "heading": "Personal pronouns",
+          "subheading": "reflexive use",
+          "anchors": [
+            "bk-ch02-learner-8fc55662d2c6"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/176"
+          ]
+        },
+        {
+          "json_pointer": "/entries/387",
+          "heading": "Syllable weight",
+          "subheading": "light and heavy stems",
+          "anchors": [
+            "bk-ch01-learner-737b70e12605",
+            "bk-ch04-learner-c034d18fad71",
+            "bk-sound-history-learner-771e0549912c"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/250",
+            "book/proposals/index-late.json#/entries/138"
+          ]
+        },
+        {
+          "json_pointer": "/entries/391",
+          "heading": "Syncope",
+          "subheading": "noun stems and exceptions",
+          "anchors": [
+            "bk-ch01-learner-246e855423d2",
+            "bk-ch01-learner-737b70e12605"
+          ],
+          "proposal_records": [
+            "book/proposals/index-early.json#/records/253"
+          ]
+        }
+      ],
+      "action": "Add exact Unit 1 subject/dual/reference targets, retaining Unit 2 complete-declension, object, genitive and reflexive targets. Never point a complete-declension entry solely to a nominative inventory. Refresh exact source hashes/lines and actual pages after export.",
+      "new_entry": "Personal pronouns — subject forms with the copula"
+    },
+    "exports": [
+      "Rebuild complete affected Unit 1 learner/key PDFs and Unit 2 learner PDF; inspect actual pages.",
+      "Update current full-book component identities through an explicit revision amendment to the old protected baseline.",
+      "Rebuild both volumes, contents, pagination, bookmarks and grammatical index; resolve actual pages and verify links.",
+      "Repeat text/pixel preservation against newly accepted affected standalone PDFs and unchanged other components. Old acceptance cannot certify new masters.",
+      "Update README/STATUS/HANDOFF after acceptance and coordinator checkpoint."
+    ]
+  },
+  "coordinator_decisions": [
+    "Settle narrow lexical-sense representation or checked form-restricted per-chapter sense records.",
+    "Contract exact revised/new tasks before prose.",
+    "Reconcile independent source editor’s precise gender-reference wording."
+  ],
+  "ready_for_contract": true,
+  "validation": {
+    "input_identities_unchanged": true,
+    "nominative_id_count": 10,
+    "unchanged_obliques": {
+      "new_production": 24,
+      "new_recognition": 6
+    },
+    "all_subject_surfaces_have_existing_glossary_routes": true,
+    "vocabulary_rows_mapped": 44,
+    "named_models": 24,
+    "current_explicit_table_labels": 23,
+    "caption_addition_required": [
+      "ðīestru"
+    ],
+    "all_model_teaching_ids_exist": true,
+    "existing_scope_limits_preserved": true,
+    "unit2_task_provenance_records": 42,
+    "unit2_ungraded_dependency_records": 9
+  },
+  "unit2_ungraded_dependency_records": [
+    {
+      "record_id": "NEW-U02-EXAMPLE-01",
+      "contract_pointer": "/new_material_examples/0",
+      "prior_nominative_form_ids": [
+        "ic-nom-pl"
+      ],
+      "action": "Refresh active token/requirement provenance only; retain actual text, source scope and every other dependency."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-03",
+      "contract_pointer": "/new_material_examples/2",
+      "prior_nominative_form_ids": [
+        "thu-nom-sg"
+      ],
+      "action": "Refresh active token/requirement provenance only; retain actual text, source scope and every other dependency."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-05",
+      "contract_pointer": "/new_material_examples/4",
+      "prior_nominative_form_ids": [
+        "he-f-nom-sg"
+      ],
+      "action": "Refresh active token/requirement provenance only; retain actual text, source scope and every other dependency."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-06",
+      "contract_pointer": "/new_material_examples/5",
+      "prior_nominative_form_ids": [
+        "thu-nom-dual"
+      ],
+      "action": "Refresh active token/requirement provenance only; retain actual text, source scope and every other dependency."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-07",
+      "contract_pointer": "/new_material_examples/6",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg",
+        "ic-nom-pl"
+      ],
+      "action": "Refresh active token/requirement provenance only; retain actual text, source scope and every other dependency."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-08",
+      "contract_pointer": "/new_material_examples/7",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Refresh active token/requirement provenance only; retain actual text, source scope and every other dependency."
+    },
+    {
+      "record_id": "NEW-U02-TEXT-NARRATIVE-01",
+      "contract_pointer": "/new_compositions/0",
+      "prior_nominative_form_ids": [
+        "he-nom-pl",
+        "ic-nom-sg"
+      ],
+      "action": "Refresh active token/requirement provenance only; retain actual text, source scope and every other dependency."
+    },
+    {
+      "record_id": "NEW-U02-TEXT-DIALOGUE-01",
+      "contract_pointer": "/new_compositions/1",
+      "prior_nominative_form_ids": [
+        "he-nom-pl",
+        "ic-nom-dual",
+        "ic-nom-pl",
+        "ic-nom-sg",
+        "thu-nom-dual",
+        "thu-nom-pl",
+        "thu-nom-sg"
+      ],
+      "action": "Refresh active token/requirement provenance only; retain actual text, source scope and every other dependency."
+    },
+    {
+      "record_id": "FB-I-CREATION-SABBATH-01",
+      "contract_pointer": "/source_spans/0",
+      "prior_nominative_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "action": "Refresh active token/requirement provenance only; retain actual text, source scope and every other dependency."
+    }
+  ],
+  "unit2_contract_sections_affected": {
+    "path": "chapters/ch02/coverage.json",
+    "pointers": [
+      "/prior_files",
+      "/prior_files_lf_sha256",
+      "/prior_teaching_boundary",
+      "/productive_outcomes",
+      "/bounded_scope",
+      "/prior_requirements/forms",
+      "/prior_requirements/senses",
+      "/prior_requirements/features",
+      "/lexical_inventory",
+      "/grammar_inventory",
+      "/paradigms",
+      "/teaching_records",
+      "/assigned_items",
+      "/new_material_examples",
+      "/new_compositions",
+      "/source_spans",
+      "/amendments"
+    ],
+    "specific_existing_teaching_ids": [
+      "NEW-U02-PAR-ic",
+      "NEW-U02-PAR-thu",
+      "NEW-U02-PAR-he",
+      "NEW-U02-VOC-ic",
+      "NEW-U02-VOC-thu",
+      "NEW-U02-VOC-he",
+      "NEW-U02-GRAM-personal-pronouns",
+      "NEW-U02-GRAM-dual-agreement",
+      "NEW-U02-GRAM-pronoun-reference"
+    ],
+    "action": "Preserve complete tables and old acceptance/history. Refresh current prerequisite identities and add an explicit opening-revision provenance bridge; distinguish ten prior nominatives from thirty newly taught oblique cells within the same complete paradigm records. Broad features retain ch02 scope and gain bounded subject prerequisites as needed."
+  }
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "chapter_id": "ch01",
-  "status": "reviewed_complete",
+  "status": "revision_in_progress",
   "contract_date": "2026-10-22",
   "contract_prepared_before_prose": true,
   "prerequisite_chapters": [],
@@ -34,7 +34,8 @@
     "Use taught locative on with dative ('in/on'); this is a selected construction, not a universal spatial rule.",
     "Use fram plus dative for the entity from which something is separated, in an explicitly supplied separating frame.",
     "Preserve the head's externally governed case while its own limiting dependent remains genitive; the genitive article belongs to that dependent.",
-    "Use a dative recipient and accusative thing given in the explicitly supplied sealde frame; distinguish to/for-recipient from the direct object."
+    "Use a dative recipient and accusative thing given in the explicitly supplied sealde frame; distinguish to/for-recipient from the direct object.",
+    "Produce all ten nominative personal pronouns with the bounded indicative copula, including explicit dual subjects with plural verbs and grammatical-gender/number reference."
   ],
   "recognition_outcomes": [
     "Recognize æ, interchangeable manuscript þ/ð, Cook's preference for ð, his hooked ę, and quantity marks; preserve exact printed quantities.",
@@ -56,7 +57,8 @@
     "proper_God": "Singular proper-name sense only.",
     "darkness": "Plural only; no singular assigned.",
     "sea_genitive_plural": "Supplied starred reconstruction with null recognition/production milestones.",
-    "variants": "Source/key variants remain nonassigned notes unless a form record explicitly assigns status."
+    "variants": "Source/key variants remain nonassigned notes unless a form record explicitly assigns status.",
+    "personal_pronouns": "Ten nominative forms only; the complete remaining case system stays in Unit 2."
   },
   "assigned_items": [
     {
@@ -62677,20 +62679,6 @@
     "note": "PAGE-R04 was a viewing discrepancy, resolved by fresh direct inspection and identical image hashes; no further TeX defect was substantiated."
   },
   "contract_checkpoint": "09990cf",
-  "completion": {
-    "date": "2026-10-22",
-    "learner_pdf": "typesetting/ch01/chapter-01.pdf",
-    "key_pdf": "typesetting/ch01/answer-key.pdf",
-    "active_registers": [
-      "lexicon/entries.json",
-      "curriculum/grammar.json"
-    ],
-    "register_integration": "Exact canonical proposed milestones applied after textual and presentation review.",
-    "learner_pdf_sha256": "2a59aae475ca3bf98d07d73d7a7af3f9656e5caf2c0c8547e38e9a4f760064d0",
-    "key_pdf_sha256": "3d5a72d2d5f6f78010235e76dceb6eb5268db24328b102745f439845359d693f",
-    "validation_command": "python -X utf8 scripts/check_unit.py --draft --tex",
-    "outstanding_material_findings": []
-  },
   "presentation_revision": {
     "id": "course-table-layout-2026-10",
     "status": "accepted",
@@ -62739,5 +62727,33 @@
     "content_review": "docs/revisions/table-layout/export-text-review.json",
     "logical_scope": "Canonical paradigm arrays retain complete logical cells; shared physical rows and panel orientation are governed by the presentation mapping.",
     "earlier_review_scope": "Existing textual_review, presentation_review and completion identities document original authoring checkpoints; this object identifies the current accepted exports."
-  }
+  },
+  "revision_history": [
+    {
+      "id": "opening-2026-11-02",
+      "prior_acceptance": {
+        "status": "reviewed_complete",
+        "completion": {
+          "date": "2026-10-22",
+          "learner_pdf": "typesetting/ch01/chapter-01.pdf",
+          "key_pdf": "typesetting/ch01/answer-key.pdf",
+          "active_registers": [
+            "lexicon/entries.json",
+            "curriculum/grammar.json"
+          ],
+          "register_integration": "Exact canonical proposed milestones applied after textual and presentation review.",
+          "learner_pdf_sha256": "2a59aae475ca3bf98d07d73d7a7af3f9656e5caf2c0c8547e38e9a4f760064d0",
+          "key_pdf_sha256": "3d5a72d2d5f6f78010235e76dceb6eb5268db24328b102745f439845359d693f",
+          "validation_command": "python -X utf8 scripts/check_unit.py --draft --tex",
+          "outstanding_material_findings": []
+        },
+        "sha256": "b113e09c377723ae9fa5500a78942b1f95cf2bdf26fc85fee18e0cef192694ce",
+        "baseline_revision": "350fd003fb4aa47f141ade405626a549565d5a2d"
+      },
+      "contract": "docs/revisions/opening/contract.json",
+      "status": "contracted_before_prose",
+      "scope": "Pronunciation and Unit 1 with a minimal Unit 2 prerequisite bridge; see contract for exact limits."
+    }
+  ],
+  "active_revision_contract": "docs/revisions/opening/contract.json"
 }
