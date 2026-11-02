@@ -1,0 +1,53 @@
+\newcommand{\runningtitle}{Contents}
+\input{../book-layout.tex}
+\usepackage{multicol}
+\hypersetup{pdftitle={Old English: Answer Key},pdfsubject={A grammar-led course},bookmarksopen=false,bookmarksnumbered=false}
+\hyphenpenalty=10000\exhyphenpenalty=10000\emergencystretch=3em
+\makeatletter
+\renewcommand{\@pnumwidth}{2.3em}\renewcommand{\@tocrmarg}{3em}
+\def\toclevel@section{0}\def\toclevel@subsection{1}\def\toclevel@subsubsection{2}
+\newcommand{\BookHiddenContents}[3]{\addtocontents{toc}{\protect\BookHiddenLine{#1}{#2}{#3}}\Hy@writebookmark{}{#2}{\@currentHref}{#1}{toc}}
+\makeatother
+\newcommand{\BookHiddenLine}[3]{}
+\newcommand{\BookRecto}{\clearpage\ifodd\value{page}\else\thispagestyle{empty}\null\clearpage\fi}
+\newskip\BookSavedSkip
+\newcommand{\BookMeta}[1]{\ifvmode\begingroup\BookSavedSkip=\lastskip\ifdim\BookSavedSkip=0pt #1\else\unskip #1\vskip\BookSavedSkip\fi\endgroup\else #1\fi}
+\newcommand{\BookLabel}[1]{\BookMeta{\label{#1}}}
+\newcommand{\BookPoint}[1]{\phantomsection\label{#1}}
+\newcommand{\BookComponent}[2]{\phantomsection\label{component-#1}\addcontentsline{toc}{section}{#2}}
+\newcommand{\BookHeading}[4]{\BookMeta{\label{#1}\ifnum#4=1\addcontentsline{toc}{#2}{#3}\else\BookHiddenContents{\csname toclevel@#2\endcsname}{#3}{\thepage}\fi}}
+\newcommand{\BookNeedspace}[1]{\par\begingroup\skip0=\lastskip\vskip-\skip0\dimen0=#1\relax\advance\dimen0 by\skip0\vskip0pt plus\dimen0\penalty-100\vskip0pt plus-\dimen0\vskip\dimen0\penalty9999\vskip-\dimen0\vskip\skip0\endgroup}
+\begin{document}\raggedright\pagenumbering{roman}
+\thispagestyle{empty}\vspace*{32mm}
+\booktitle{ANSWER KEY}{Old English}
+{\fontsize{16}{20}\selectfont A grammar-led course\par}
+\vfill Cook / Lambdin-style course\par November 2026\par\clearpage
+\renewcommand{\runningtitle}{About this volume}
+\section*{About this volume}
+This volume contains the complete pronunciation practice key followed by the keys to Units 1–18. Answers follow the same unit order as the Learner’s Book and retain the exercise and item labels used there.\par
+Models, required targets, defensible alternatives and explanations remain separate where the original keys distinguish them. A valid alternative need not match a model word for word; a stated exercise target still governs the task.\par
+The contents gives the starting page of each key. Section numbers remain local to their unit. References to Cook’s printed pages and scans retain their source locators.\par
+\clearpage\renewcommand{\runningtitle}{Contents}
+\setcounter{tocdepth}{2}
+\tableofcontents
+\BookRecto\pagenumbering{arabic}
+\input{fragments/pronunciation-key.tex}
+\input{fragments/ch01-key.tex}
+\input{fragments/ch02-key.tex}
+\input{fragments/ch03-key.tex}
+\input{fragments/ch04-key.tex}
+\input{fragments/ch05-key.tex}
+\input{fragments/ch06-key.tex}
+\input{fragments/ch07-key.tex}
+\input{fragments/ch08-key.tex}
+\input{fragments/ch09-key.tex}
+\input{fragments/ch10-key.tex}
+\input{fragments/ch11-key.tex}
+\input{fragments/ch12-key.tex}
+\input{fragments/ch13-key.tex}
+\input{fragments/ch14-key.tex}
+\input{fragments/ch15-key.tex}
+\input{fragments/ch16-key.tex}
+\input{fragments/ch17-key.tex}
+\input{fragments/ch18-key.tex}
+\end{document}

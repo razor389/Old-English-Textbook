@@ -2,6 +2,8 @@
 
 Outline settled 22 October 2026; all eighteen grammar-led units completed 28 October 2026. This outline records the teaching progression and allocation of every Cook exercise; the active unit contracts establish the detailed assignments and teaching scope.
 
+The complete [Learner’s Book](../typesetting/full-book/book.pdf) assembles the pronunciation guide, eighteen units, sound-history appendix and both glossaries, with contents and a grammatical index. The [complete Answer Key](../typesetting/full-book/answer-key.pdf) is separate. Their [assembly and review notes](../typesetting/full-book/README.md) record continuous pagination without changing the teaching sequence or assignments.
+
 ## Audience and method
 
 Assume no Old English and familiarity with standard grammar terminology. Use concise original exposition, complete relevant declensions, and explicitly bounded complete verbal paradigms with their ordinary uses. Units may span several study sessions. Vocabulary size follows the grammatical and textual demands. Historical explanations remain short notes or later supplements.

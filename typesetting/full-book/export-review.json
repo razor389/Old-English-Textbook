@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "status": "accepted",
+  "baseline_revision": "1f28f36b31a11d8a3547cf015b81323dda8088fa",
+  "contract_checkpoint": "feb01c8",
+  "volumes": {
+    "learner": {
+      "path": "typesetting/full-book/book.pdf",
+      "sha256": "8028d882a233c6f20aeab85324230bb37fcc5e145e86661e334dc692bb132e2c",
+      "physical_pages": 967,
+      "build_source": "typesetting/full-book/build/book.pdf",
+      "bytes": 2597508
+    },
+    "key": {
+      "path": "typesetting/full-book/answer-key.pdf",
+      "sha256": "a8b4c6df5864c51abf51161fd7d6f1a63e13fa88c8bb38d805e52e6c6ebbccd8",
+      "physical_pages": 486,
+      "build_source": "typesetting/full-book/build/answer-key.pdf",
+      "bytes": 1374406
+    }
+  },
+  "scope": {
+    "learner_components": 22,
+    "key_components": 19,
+    "accepted_source_pages": 1405,
+    "new_front_matter_and_index_pages": 33,
+    "inserted_body_blank_pages": 15,
+    "new_teaching_or_tasks": 0,
+    "answer_key_components_in_learner": 0
+  },
+  "inputs": [
+    {
+      "path": "book/contents.json",
+      "sha256": "3c458c27f57cb6e9a20f770640372e5fa5d77f19534cd6ae4d92ece3722aa28f"
+    },
+    {
+      "path": "book/coverage.json",
+      "sha256": "6e51c7c2c47b2c2bbdf77c5b784a89d291e499e9ab45c20c9cc134d9a36f2195"
+    },
+    {
+      "path": "book/preservation.json",
+      "sha256": "aea66f5a0d74c5530f0d7b299d4aeef391777766d5ddc732d32b6d8dca272cfe"
+    },
+    {
+      "path": "book/grammar-index.json",
+      "sha256": "1e586faae494115a658098dafa658f30d9a54e61924cf828f7227943d2556062"
+    },
+    {
+      "path": "book/amendments.json",
+      "sha256": "89c4bb16cd0b483e05b95a1eb02adeb479659f1b12b57330bc75f78ec1abd304"
+    },
+    {
+      "path": "book/front-matter.md",
+      "sha256": "f80a2d67406f6095eb9f72596b5c6ea6dd142b12c7a41a72b42656bad663924e"
+    }
+  ],
+  "scripts": [
+    {
+      "path": "scripts/build_full_book.py",
+      "sha256": "d6f5988ef118b49b9a448ee1c256d77e00e5d674fb9e7d3da186b9d05253dbb8"
+    },
+    {
+      "path": "scripts/check_full_book.py",
+      "sha256": "1f11fd3f2f41bb17ebf8cf547de13ce7443763466cae3fb3f222f0157778334e"
+    },
+    {
+      "path": "scripts/inspect_book_pdf.lua",
+      "sha256": "62ea0a23b330ec9d87afa4090997334055d41e168a72d7c3871fe346b6d44b80"
+    },
+    {
+      "path": "scripts/render_full_book.py",
+      "sha256": "f42b0427a61f8f8559f95b45889dc17885fbb9320e6f23f9deee84ca1f328c06"
+    }
+  ],
+  "compilation": {
+    "learner": {
+      "passes": 3,
+      "diagnostics": [],
+      "log": {
+        "path": "typesetting/full-book/build/book.log",
+        "sha256": "9b2c9010ee3579416920b1d4edf8cb922c24de98a65b9d1cbd727f07b445babe"
+      }
+    },
+    "key": {
+      "passes": 3,
+      "diagnostics": [],
+      "log": {
+        "path": "typesetting/full-book/build/answer-key.log",
+        "sha256": "eed4d7bb1fed9fc1a70235ce997b7b0fb916ee8697a4740eb3d79d686be1fe7f"
+      }
+    }
+  },
+  "checks": {
+    "path": "typesetting/full-book/checks.json",
+    "sha256": "a29b9962a6bc8bba5def52077d3bbba3d7894710190a9ca47798400f10b7424c"
+  },
+  "source_preservation": {
+    "protected_files": 221,
+    "component_master_tex_pdf_identities": 123,
+    "retained_tex_bodies": 41,
+    "all_unchanged": true,
+    "complete_pdf_text_header_folio_pages": 1405,
+    "exact_rgb_header_body_pages": 1405
+  },
+  "index": {
+    "semantic_sha256": "1e586faae494115a658098dafa658f30d9a54e61924cf828f7227943d2556062",
+    "entries": 447,
+    "anchors": 360,
+    "printed_page_references": 493,
+    "substantive_heads": 112,
+    "see_heads": 74,
+    "see_also_heads": 32,
+    "actual_index_links": 776,
+    "first_physical_page": 951,
+    "first_printed_page": 939,
+    "ordered_verification": {
+      "complete_text_exact_order": true,
+      "normalized_character_count": 20292,
+      "numeric_annotations_checked_one_for_one": 493,
+      "ordered_wrapped_route_sequence_matches": true
+    }
+  },
+  "evidence": [
+    {
+      "path": "typesetting/full-book/content-map.json",
+      "sha256": "41805f9db34509d0eb98d2195db308b3f44383343d305f1529dce16cb7bb9266"
+    },
+    {
+      "path": "typesetting/full-book/pagination.json",
+      "sha256": "f9899f54384485dba00dfd147f248510f944493194b99802ceb2c97c0aa8343c"
+    },
+    {
+      "path": "typesetting/full-book/text-parity.json",
+      "sha256": "af4e9a436a727ac3cd3516571170e9cbeca29a455acbac9786bfc72cd7904b70"
+    },
+    {
+      "path": "typesetting/full-book/navigation.json",
+      "sha256": "1c076a618b85754d5dca6708aaa28f82edada81008b4acd910fe1b591119ba4d"
+    },
+    {
+      "path": "typesetting/full-book/index-locations.json",
+      "sha256": "436481b4e4f1515ee511b678ee93488738d9af835e49c734da150acc715554ca"
+    },
+    {
+      "path": "typesetting/full-book/raster-comparison.json",
+      "sha256": "f81718fc48128c912db2bc9d4b7ace360a384bd74fde01c6e6a86a52d59ce95f"
+    },
+    {
+      "path": "typesetting/full-book/page-proofs.json",
+      "sha256": "5e41d4f30b34b5c567e859c00ff7806c5ce0f00ab2d858bec765243d2925e3a3"
+    }
+  ],
+  "independent_reviews": [
+    {
+      "path": "book/reviews/index-early.json",
+      "sha256": "cf7c4f2267c07d5a357d8d7361eb3ebfb50ec87f8784a6494e647c2efeaf6128",
+      "status": "accepted_semantics_and_source_targets",
+      "readable_review": {
+        "path": "book/reviews/index-early.md",
+        "sha256": "5f6578aa7872bec05efc7ad9a6caa6e031c4bceea6babbd13365d77a8e96a20d"
+      }
+    },
+    {
+      "path": "book/reviews/index-late.json",
+      "sha256": "11272c20a2ca7605e6400aae17611ca3278bf21d041b2fc7984105ee67cc2f34",
+      "status": "accepted_after_verified_locator_amendments",
+      "readable_review": {
+        "path": "book/reviews/index-late.md",
+        "sha256": "ffdda50e1f3b2e8e4fdd95b7836ca84b333d7635040805df8beff8425ba94f39"
+      }
+    },
+    {
+      "path": "book/reviews/navigation.json",
+      "sha256": "029c9ea877eb7c3e545f8e69d6bcbe9659b50c62b711dba4411bfa9119703a1d",
+      "status": "accepted",
+      "readable_review": {
+        "path": "book/reviews/navigation.md",
+        "sha256": "032a659fe096c302ecbf9c6f18098984ea90366fa5e0020766992fd89dcffe2f"
+      }
+    },
+    {
+      "path": "book/reviews/learner-pages.json",
+      "sha256": "aeba34cb6f6d55f68fdfc27b253b58b0c7496092e28fdfa0f056852ca0d2f6c9",
+      "status": "accepted_with_nonblocking_optional_note",
+      "readable_review": {
+        "path": "book/reviews/learner-pages.md",
+        "sha256": "11692f5520e7a5e1f6ff85856fa790067919fc31ee1f360056d8e29979422d55"
+      }
+    },
+    {
+      "path": "book/reviews/key-pages.json",
+      "sha256": "2e001b9e9d081d1569286f04bd6994fe5c3dd49610d8e4a529b5c78df14c6d9a",
+      "status": "accepted",
+      "readable_review": {
+        "path": "book/reviews/key-pages.md",
+        "sha256": "9ebe083394109e471ff5350730ed94bb9dd3a4d1e012f7e88a34a7c37aa61c28"
+      }
+    }
+  ],
+  "additional_coordinator_views": {
+    "path": "book/reviews/coordinator-pages.json",
+    "sha256": "6a7146a39db74fa0b71c1e80350b5bc19e981c3cf8102c4cf885f563f5fbe90e"
+  },
+  "inspection_mode": "Every final page viewed in labelled reduced page proofs and native-pixel folio proofs. All 48 new or deliberately blank pages inspected at full size; additional source openings and special-character pages inspected natively. Detailed prior body acceptance inherited only through exact RGB identity on all 1405 retained pages. This is not a claim of fresh full-size linguistic rereading of every retained page.",
+  "resolved_findings": [
+    "Index terminology and precise-target refinements are retained in book/amendments.json.",
+    "Heading metadata initially changed 13 retained page layouts. Preserving heading glue and using existing heading destinations restores exact body/header pixels on all 1405 pages.",
+    "Global index-presence verification replaced by complete ordered text and one-for-one row/click binding; independent glyph/annotation audit also passes all 776 annotations."
+  ],
+  "optional_observations": [
+    "BNAV-O01: the Unit 2 contents entry ends page iii and its section list starts page iv; complete page number/link and unambiguous continuation accepted as rendered."
+  ],
+  "unresolved_material_findings": [],
+  "promotion": "Retained PDFs are byte-identical copies of the reviewed complete builds. Future rebuilds do not overwrite them automatically.",
+  "retained_copy_verification": {
+    "path": "typesetting/full-book/retained-checks.json",
+    "sha256": "43a8965aa7deee3cfe8389b52dae54ef16e16b84a46629f89b136a161e42825b",
+    "status": "passed"
+  }
+}

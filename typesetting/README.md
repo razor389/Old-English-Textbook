@@ -2,6 +2,8 @@
 
 Markdown is the editable master. [book-layout.tex](book-layout.tex) defines the shared LuaLaTeX/Cambria layout: 165 × 241 mm, 11-point body text and 14.3-point leading. Paradigm tables use 10.5-point type with 13.2-point leading, bold headings, horizontal rules and consistent labels. Identical verbal plural forms share `1–3 pl.`; all distinct forms and complete logical paradigms remain.
 
+The complete [Learner’s Book](full-book/book.pdf), **967 pages**, and [Answer Key](full-book/answer-key.pdf), **486 pages**, assemble all accepted components into two volumes. The learner book includes pronunciation, Units 1–18, sound history, both glossaries, linked contents and a grammatical index; the key includes pronunciation answers and all unit keys. [Full-volume reproduction and acceptance notes](full-book/README.md) describe their separate builder and checks. The standalone exports below remain available.
+
 The separate introductory [pronunciation guide](pronunciation/pronunciation.pdf), 9 pages, and [practice key](pronunciation/answer-key.pdf), 3 pages, use this layout. Their [export notes and reproduction commands](pronunciation/README.md) cover both complete documents. They are additional front matter; the build and page totals for the 36 unit documents below remain unchanged.
 
 The complete [Old English–English glossary](glossaries/old-english.pdf), **58 pages**, and [English–Old English glossary](glossaries/english.pdf), **100 pages**, are separate reference volumes. Entries use two columns of 10.5-point Cambria with 13.2-point leading; the Old English introduction uses the same size to fit one page. Their [reproduction and acceptance notes](glossaries/README.md) cover both complete exports and all 158 inspected pages.

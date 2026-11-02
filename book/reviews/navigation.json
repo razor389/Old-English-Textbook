@@ -1,0 +1,772 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "reviewer": "/root/sound_cook",
+  "role": "Independent assembly/navigation and new-page review; not the full-book builder or front-matter author",
+  "status": "accepted",
+  "reviewed_utc": "2026-11-02T16:10:13.020425+00:00",
+  "scope": "Assembly and navigation only; no new linguistic/source re-audit and no claim of fresh full-size viewing of the 1405 retained body pages.",
+  "volumes": {
+    "learner": {
+      "pdf": {
+        "path": "typesetting/full-book/build/book.pdf",
+        "sha256": "8028d882a233c6f20aeab85324230bb37fcc5e145e86661e334dc692bb132e2c"
+      },
+      "physical_pages": 967,
+      "front_matter_pages": 12,
+      "body_start_physical": 13,
+      "source_components": 22,
+      "outline_titles_order_and_depths_checked": 1517,
+      "visible_contents_links_checked": 279,
+      "named_destinations": 2940,
+      "internal_links": 1055,
+      "complete_page_labels": "passed",
+      "unresolved_internal_targets": 0
+    },
+    "key": {
+      "pdf": {
+        "path": "typesetting/full-book/build/answer-key.pdf",
+        "sha256": "a8b4c6df5864c51abf51161fd7d6f1a63e13fa88c8bb38d805e52e6c6ebbccd8"
+      },
+      "physical_pages": 486,
+      "front_matter_pages": 4,
+      "body_start_physical": 5,
+      "source_components": 19,
+      "outline_titles_order_and_depths_checked": 555,
+      "visible_contents_links_checked": 19,
+      "named_destinations": 1045,
+      "internal_links": 19,
+      "complete_page_labels": "passed",
+      "unresolved_internal_targets": 0
+    }
+  },
+  "assembly": {
+    "independent_inventory": "All 41 components, exact volume/order lists and all 123 current master/TeX/PDF hashes match the earlier independent component inventory.",
+    "answer_separation": "22 learner components and 19 key components occur exactly once under positive volume allowlists; no key component occurs in the learner inputs.",
+    "source_integrity": "Reviewed builder/checker: exact source bodies are restored after removal of only permitted invisible navigation commands; local preamble settings remain grouped; source hashes remain unchanged.",
+    "continuous_pagination": "Explicit Roman front matter and Arabic body PageLabels independently matched on all 1453 physical pages; recto component starts and retained page counts are verified by the complete checker.",
+    "retained_acceptance": "The coordinator’s complete text and decoded-pixel comparison cover all 1405 retained pages. This review reuses those records and earlier accepted component reviews rather than claiming to view those pages afresh."
+  },
+  "independent_navigation": {
+    "outlines": "Every outline title/order/depth independently derived from all retained source TeX section/subsection lines and component titles, then compared with the actual PDF trees: 1517 learner and 555 key.",
+    "contents": "Every actual contents annotation was matched to the visible Ghostscript glyphs inside its own rectangle and the corresponding actual outline destination: 279 learner and 19 key.",
+    "index": {
+      "entries": 447,
+      "anchors": 360,
+      "headings": 186,
+      "substantive_heads": 112,
+      "see_heads": 74,
+      "see_also_heads": 32,
+      "complete_ordered_normalized_body_characters": 20245,
+      "numeric_references": 493,
+      "logical_crossreferences": 201,
+      "actual_annotation_rectangles": 776,
+      "heading_coordinate_checks": 186,
+      "result": "passed",
+      "method": "Ghostscript txtwrite TextFormat=0 extracted positioned characters from all 17 index pages. Reconstructed complete semantic head/subentry/crossreference order matches all body characters. Exact character offsets identify each logical reference; each PDF annotation rectangle selects only glyphs within that reference and resolves to its expected named target. Every reference glyph is covered exactly once, including wrapped see/see-also links. All numeric links land on their printed PageLabel. All actual heading destinations match the first heading glyph on the correct page.",
+      "normalization": "NFC, whitespace removal and the same visible smart-quote/soft-hyphen projection used for new navigation. Ghostscript dotless-i plus combining macron is projected to ī. Alphabet dividers, title, headers and folios use other font sizes and are excluded from this body sequence; the coordinator’s 20,292-character check includes dividers and index title. XML integer baseline rounding allows 1 point; adjacent separator punctuation outside any expected reference is excluded from link-padding hits. No accepted teaching text is normalized by this review."
+    },
+    "checker_resolution": "Reviewed ordered_index_check after the fix; the complete ordered text, 493 numeric bindings and wrapped route sequence pass and agree with the independent positioned-glyph check."
+  },
+  "visual_review": {
+    "required_new_pages": 33,
+    "viewed_full_size": 33,
+    "learner_new_pages": 29,
+    "key_new_pages": 4,
+    "render": "Ghostscript png16m 150 dpi; every reviewed image is 974×1423 and matches the final combined render manifest hash.",
+    "checks": [
+      "Complete page inspected at original image resolution",
+      "No clipping, collisions or broken special characters",
+      "Readable contents/index hierarchy and page-number alignment",
+      "Correct running header and visible folio, or intentional blank/title suppression",
+      "Index heads have entries and wrapped references remain intelligible"
+    ],
+    "pages": [
+      {
+        "volume": "learner",
+        "physical_page": 1,
+        "pdf_label": "i",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0001.png",
+          "sha256": "82c948c3d4ec4ffac73df28eba084139c985d1df5487d948cbd4ba58cea70503"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Title, course subtitle and imprint are clean and within the page; title page intentionally has no visible folio or running header.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 2,
+        "pdf_label": "ii",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0002.png",
+          "sha256": "52ff6427ab15193422bf01a6ec12efdff7102226578862a4608c715a8016037e"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Volume contents, separate-key notice, index scope and locator conventions are legible; roman ii and running headers are clear.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 3,
+        "pdf_label": "iii",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0003.png",
+          "sha256": "1047725803a4d34b8453a0a2a9262a6126aabd56d1ebed7317587fdfa70c5d45"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Pronunciation and Unit 1 contents are complete and aligned. Unit 2 heading is the final line, with its sections continuing on iv; optional refinement BNAV-O01 only.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 4,
+        "pdf_label": "iv",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0004.png",
+          "sha256": "604636aee8fb06bc43182124f6f86e463f920773e12a5b9750c736704aebd101"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Unit 2 continuation and Unit 3 entries retain clear indentation, leaders and right-aligned page numbers.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 5,
+        "pdf_label": "v",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0005.png",
+          "sha256": "1406f1fe2a391c4f14fb097b1e71c2880f4f13f247e16561f542fcd9b7831ced"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Unit 3 continuation and Units 4–5 remain legible; long reading titles and three-digit references fit.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 6,
+        "pdf_label": "vi",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0006.png",
+          "sha256": "7383948244700a9d456651919c7341d4c8acc8b2b5885d6893160e1bcc548b37"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Units 6–8 show distinct component headings and consistently indented section entries without clipping.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 7,
+        "pdf_label": "vii",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0007.png",
+          "sha256": "cda2eed43e9e57316bec4a2fbd3d678f1893c6245081457a4aa91a8336b170a7"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Unit 8 continuation and Units 9–10 are clear; long grammar headings fit the page-number column.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 8,
+        "pdf_label": "viii",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0008.png",
+          "sha256": "337180092a78628b5796d88817ae664ae247b8f3b16a43265f6fa72cae54401c"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Unit 10 continuation and Units 11–12 are clear; Æthelwald and punctuation render correctly.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 9,
+        "pdf_label": "ix",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0009.png",
+          "sha256": "e9019367f0834b23e8cca08f86733e651845da02db574c086ea933210cc65fe6"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Unit 12 continuation and Units 13–14 retain sequence, aligned page numbers and readable local section labels.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 10,
+        "pdf_label": "x",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0010.png",
+          "sha256": "56f39eecbf1e3581854328e967b04dbc71e5defa13078f14a2ff912118aa9dd8"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Unit 14 continuation and Units 15–17 are clear, including Cook identifiers and the long Unit 17 title.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 11,
+        "pdf_label": "xi",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0011.png",
+          "sha256": "f86086722cab97107741dac82e751f37d61d0a1aae44a7bfddcae7ddf6093a5d"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Unit 17 continuation, Unit 18, Cook sequence and sound-history opening entries are readable and correctly nested.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 12,
+        "pdf_label": "xii",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0012.png",
+          "sha256": "7cd99e3f52f79a75e7d8a12f78a27655c33bb00ea6111cd2964c27c0881b05c9"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Sound-history continuation, both glossaries and grammatical-index entry are clear; final front-matter folio xii is correct.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 951,
+        "pdf_label": "939",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0951.png",
+          "sha256": "45ba15c518904c0cc8043d5ba8051b2d43513bda691d0f573af42135bf789a29"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Index title and A entries are clear; Adjectives continues into the right column with intact hanging indents and page lists.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 952,
+        "pdf_label": "940",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0952.png",
+          "sha256": "9e846a43a9b1a8d8b5ff3d4e8b42d8d1e84d5f6969a7e50bee70f9aeaf29a3cc"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Adverbs through Breaking/Brightening are readable; swīðe macron and bare Back mutation page reference render clearly.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 953,
+        "pdf_label": "941",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0953.png",
+          "sha256": "ba1c3cbddde6d8e3811abaa03db0a8081e243393259feeba007bb52f9970282a"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "C entries are readable in two columns; comparison examples, macrons and eth are intact; Concession has its first row.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 954,
+        "pdf_label": "942",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0954.png",
+          "sha256": "b1e290dc628085f09ee9767e10525427d500797642d3ae82a3816b74668b3691"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Conditions through Copula have distinct heads and readable references; thorn/eth, ǣ and long wrapped crossreferences are intact.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 955,
+        "pdf_label": "943",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0955.png",
+          "sha256": "dee76c02640dbdd29ddb26b5aa9c20aa41aa57b91c4ac2d47b550bc1f9807f35"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Counterfactual through Exhortations are clear; D and E dividers stay with entries; wrapped see references remain readable.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 956,
+        "pdf_label": "944",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0956.png",
+          "sha256": "38e4ff872f8f33bea314fdaf2a881ccadedc5ce48498b317f3291100001955f9"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "F–H entries are clear; Genitive continues at the top of the right column. Ragged column depth leaves intentional white space.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 957,
+        "pdf_label": "945",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0957.png",
+          "sha256": "8b47cef04013a3e6dd6a27b517ea2908a3edde9a72e45eef46fa44511415d98e"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "I entries remain legible; infinitive references, Instrumental page pairs and macrons are intact.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 958,
+        "pdf_label": "946",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0958.png",
+          "sha256": "c65acadbff0d0195c92bce74978ca66b9bef4bb75d7e3651991adbd4ab600f02"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "J/K/M/N dividers and entries are clear; Nouns begins with its first rows and continues on the following page.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 959,
+        "pdf_label": "947",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0959.png",
+          "sha256": "f05629228cdf14085e1499dbc7e3bad20bdba0dbe88f02dcf21df531ac6f9a3e"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Nouns continuation, Number, Numerals and O entries are readable; æ/a, macrons and kinship forms render intact.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 960,
+        "pdf_label": "948",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0960.png",
+          "sha256": "221048d4fb90e4969cb0a7bf2c7371a2d90012e62ddeb171d1b9a309fdcc8dc2"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "P entries are readable; Participles continues cleanly through recognition-limited references; Palatal diphthongization has its own 774 reference.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 961,
+        "pdf_label": "949",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0961.png",
+          "sha256": "0562355be9077731e90839441b52e1d5179a22cc4c2825eedb8ab799d21db956"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Personal pronouns through Principal parts are clear; lengthy see routes and hyphenated heads remain within columns.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 962,
+        "pdf_label": "950",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0962.png",
+          "sha256": "0ef6800bd3b696362eff129adf149338e8ef75b45c69b64997ccff0b62bd1313"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Pronominal, Quantity, Questions and R entries are readable; the Reconstruction 769 reference is visibly attached to its own head.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 963,
+        "pdf_label": "951",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0963.png",
+          "sha256": "1864717141028c16d5c0f8ffeb6c005f4c4a1982438a8c5adf9fcf16ab858780"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Reflexive, Relative, Reported and S entries are clear; the Sound changes 769 reference is separately visible under its own head.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 964,
+        "pdf_label": "952",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0964.png",
+          "sha256": "53ef76aa0beab091b54c20cee31c0cc338e7a5929e9c36977cead00fc9e146cd"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Strong verbs and Subjunctive are readable; anticipated-before/until row is attached to Subjunctive, and suffix crossreferences fit.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 965,
+        "pdf_label": "953",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0965.png",
+          "sha256": "d3e31827a28314c2fb5441cd799bd50f7a3d5406b64f9ccb5f122cfd8813c07e"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Suppletion, Syllable, Syncope, T and U entries are clear; the second anticipated-before/until row is under Time clauses.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 966,
+        "pdf_label": "954",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0966.png",
+          "sha256": "9cf8eb1084b3c86582901efc9ac7d60192db472c34ee26b9f8793ebf828bc5a3"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "V and W entries retain clear headings and page lists; Verner’s law, thorn/eth and long Weak verbs rows render intact.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "learner",
+        "physical_page": 967,
+        "pdf_label": "955",
+        "image": {
+          "path": "build/full-book/raster/combined/learner/9dcbb97a640c15938954/page-0967.png",
+          "sha256": "c599cb71630d0372422ed745af6acec536abeb20c30d6723046b3a02d66f9f2c"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Final Word formation and Word order entries are complete, balanced and legible; final printed folio 955 is clear.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "key",
+        "physical_page": 1,
+        "pdf_label": "i",
+        "image": {
+          "path": "build/full-book/raster/combined/key/7b0b636f231a2798e319/page-0001.png",
+          "sha256": "b0338b193f7f56544e0d65d7959791998529c356b70cf00bb9a7f513997ba7bd"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Answer Key title, subtitle and imprint are clean; no printed folio or running header on the title page.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "key",
+        "physical_page": 2,
+        "pdf_label": "ii",
+        "image": {
+          "path": "build/full-book/raster/combined/key/7b0b636f231a2798e319/page-0002.png",
+          "sha256": "3d6de281380f069accde3170c1bb82428e449cc8d99db04ce08d63013e4780f1"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Key scope, valid-alternative guidance and locator conventions are legible; roman ii and running headers are clear.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "key",
+        "physical_page": 3,
+        "pdf_label": "iii",
+        "image": {
+          "path": "build/full-book/raster/combined/key/7b0b636f231a2798e319/page-0003.png",
+          "sha256": "67d7927f549d6e600ef4e5a38838db229700efc89674d1fad6272343c0378540"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "All nineteen component entries fit in order with clear page numbers; Unit 18 remains within the text area; roman iii is clear.",
+        "acceptance": "accepted"
+      },
+      {
+        "volume": "key",
+        "physical_page": 4,
+        "pdf_label": "iv",
+        "image": {
+          "path": "build/full-book/raster/combined/key/7b0b636f231a2798e319/page-0004.png",
+          "sha256": "235b3fc70dbfe2a317637e4b60073ddd1c9e1ad698a0e23c61158ad081534a1f"
+        },
+        "dimensions_px": [
+          974,
+          1423
+        ],
+        "actual_view": "view_image detail=original; complete native 150 dpi page viewed individually, not inferred from a contact sheet",
+        "observations": "Deliberately empty verso before Arabic page 1; no unintended marks, header or visible folio.",
+        "acceptance": "accepted"
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "BNAV-01",
+      "severity": "material verification gap",
+      "status": "resolved",
+      "finding": "Original checker searched index row text and links anywhere in the index, allowing duplicate row strings to be satisfied by another heading. No incorrect current index entry was demonstrated.",
+      "examples": [
+        "Back mutation and Palatal diphthongization: bare 774",
+        "Reconstruction and Sound changes: bare 769",
+        "Subjunctive and Time clauses: anticipated before and until, 312"
+      ],
+      "resolution": "Coordinator added complete ordered index comparison and one-for-one numeric annotation binding. Reviewer independently matched actual Ghostscript positioned glyphs to all semantic headings/rows and bound every annotation fragment to exactly its own reference text and target.",
+      "final_checker": "scripts/check_full_book.py:335",
+      "independent_result": "passed"
+    },
+    {
+      "id": "BNAV-02",
+      "severity": "record reconciliation",
+      "status": "resolved",
+      "finding": "Historical prebuild contract records 356 targets; final semantic index records 360.",
+      "resolution": "book/amendments.json explicitly records the reviewed complementary targets and final 447-entry/360-anchor counts while preserving the original contract checkpoint."
+    },
+    {
+      "id": "BNAV-O01",
+      "severity": "optional layout refinement",
+      "status": "nonblocking; accepted as rendered",
+      "finding": "Learner contents page iii ends with the Unit 2 heading and its section list begins on iv.",
+      "rationale": "The heading retains its own page number and working link; continuation is unambiguous. Keeping a component heading with its first section would improve future contents typography but is not required for content/navigation acceptance."
+    }
+  ],
+  "unresolved_material_findings": [],
+  "identities": [
+    {
+      "path": "book/coverage.json",
+      "sha256": "6e51c7c2c47b2c2bbdf77c5b784a89d291e499e9ab45c20c9cc134d9a36f2195"
+    },
+    {
+      "path": "book/amendments.json",
+      "sha256": "89c4bb16cd0b483e05b95a1eb02adeb479659f1b12b57330bc75f78ec1abd304"
+    },
+    {
+      "path": "book/contents.json",
+      "sha256": "3c458c27f57cb6e9a20f770640372e5fa5d77f19534cd6ae4d92ece3722aa28f"
+    },
+    {
+      "path": "book/grammar-index.json",
+      "sha256": "1e586faae494115a658098dafa658f30d9a54e61924cf828f7227943d2556062"
+    },
+    {
+      "path": "book/front-matter.md",
+      "sha256": "f80a2d67406f6095eb9f72596b5c6ea6dd142b12c7a41a72b42656bad663924e"
+    },
+    {
+      "path": "book/preservation.json",
+      "sha256": "aea66f5a0d74c5530f0d7b299d4aeef391777766d5ddc732d32b6d8dca272cfe"
+    },
+    {
+      "path": "book/proposals/components.json",
+      "sha256": "fdcde4e8840f7830a2d21d1163abfb0d155b976c6dfe90a938c674b6c411840d"
+    },
+    {
+      "path": "scripts/build_full_book.py",
+      "sha256": "d6f5988ef118b49b9a448ee1c256d77e00e5d674fb9e7d3da186b9d05253dbb8"
+    },
+    {
+      "path": "scripts/check_full_book.py",
+      "sha256": "1f11fd3f2f41bb17ebf8cf547de13ce7443763466cae3fb3f222f0157778334e"
+    },
+    {
+      "path": "scripts/inspect_book_pdf.lua",
+      "sha256": "62ea0a23b330ec9d87afa4090997334055d41e168a72d7c3871fe346b6d44b80"
+    },
+    {
+      "path": "typesetting/full-book/book.tex",
+      "sha256": "75091088363829092100ce3602afe7e9a4bcd598f00328531c829bf8af29f453"
+    },
+    {
+      "path": "typesetting/full-book/answer-key.tex",
+      "sha256": "83ed87f10c98f1e1018c646b33ffca004b51d7ca746589eb7038f1e09c0c69f9"
+    },
+    {
+      "path": "typesetting/full-book/grammar-index.tex",
+      "sha256": "d5e8fb9f648b6a506e4797d5a4569c01f506b300b979b2942476b4b829ec9097"
+    },
+    {
+      "path": "typesetting/full-book/content-map.json",
+      "sha256": "41805f9db34509d0eb98d2195db308b3f44383343d305f1529dce16cb7bb9266"
+    },
+    {
+      "path": "typesetting/full-book/checks.json",
+      "sha256": "a29b9962a6bc8bba5def52077d3bbba3d7894710190a9ca47798400f10b7424c"
+    },
+    {
+      "path": "typesetting/full-book/navigation.json",
+      "sha256": "1c076a618b85754d5dca6708aaa28f82edada81008b4acd910fe1b591119ba4d"
+    },
+    {
+      "path": "typesetting/full-book/pagination.json",
+      "sha256": "f9899f54384485dba00dfd147f248510f944493194b99802ceb2c97c0aa8343c"
+    },
+    {
+      "path": "typesetting/full-book/index-locations.json",
+      "sha256": "436481b4e4f1515ee511b678ee93488738d9af835e49c734da150acc715554ca"
+    },
+    {
+      "path": "build/full-book/check/book-navigation.json",
+      "sha256": "3ca951745e3738f0514ae594efd0ef02fc0a58205eae8e4efb3649b5531c7d75"
+    },
+    {
+      "path": "build/full-book/check/answer-key-navigation.json",
+      "sha256": "ab0fb5516e280ec1793e84b5870130dde7683855240f219c4ce5734fbef08540"
+    },
+    {
+      "path": "build/full-book/raster/combined.json",
+      "sha256": "8b794bf4c0a07f946043d82891b002f182b674a3830748712b21e2860c8fbea5"
+    },
+    {
+      "path": "build/full-book/raster/comparison.json",
+      "sha256": "f81718fc48128c912db2bc9d4b7ace360a384bd74fde01c6e6a86a52d59ce95f"
+    },
+    {
+      "path": "build/full-book/raster/proofs.json",
+      "sha256": "5e41d4f30b34b5c567e859c00ff7806c5ce0f00ab2d858bec765243d2925e3a3"
+    },
+    {
+      "path": "build/full-book/navigation-review/verify.py",
+      "sha256": "092f9940dfbf21606142d5aa1a5983e72307f987925d18493288ddd7c746f01d"
+    },
+    {
+      "path": "build/full-book/navigation-review/result.json",
+      "sha256": "d06f42f1cf4c40c2930386647526307b096e516cd98954b5200814d8542893eb"
+    },
+    {
+      "path": "build/full-book/navigation-review/index-link-glyphs.json",
+      "sha256": "4634ed1c5c4f90ed5b762f510bfff37aa372e6547f481f01056893531fb782ba"
+    },
+    {
+      "path": "build/full-book/navigation-review/structure.py",
+      "sha256": "a12ca140942acadc75424e3cfed0c790941feb3d976fa1f7a0bf01faa1e347b3"
+    },
+    {
+      "path": "build/full-book/navigation-review/structure-result.json",
+      "sha256": "c2ad9f226af2a7b2527d7610a7c53628c09a0fd1d495f206f15fbff37a6279ad"
+    }
+  ],
+  "acceptance": "Accept the two exact PDF hashes recorded above for assembly, actual navigation and all new-page presentation. Final integration may copy the byte-identical PDFs to the retained deliverable paths.",
+  "revisions": [
+    {
+      "date": "2026-11-02",
+      "scope": "Checker identity only; PDF/content/visual acceptance unchanged",
+      "previous_checker_sha256": "b0bf90fb12bc55917b00e7867da6998ea907504261b9187240b8122b717eddf8",
+      "accepted_checker_sha256": "1f11fd3f2f41bb17ebf8cf547de13ce7443763466cae3fb3f222f0157778334e",
+      "change": "Retained-mode raw PDF inspection now writes under build/full-book/check/retained/ and creates that parent directory. Default build inspection still writes under build/full-book/check/.",
+      "verification": "Reviewed inspect_pdf and main. Replacing only the two new routing/directory lines with the former single output assignment reconstructs the exact previously reviewed checker SHA-256, proving that all other code, including verification logic, is byte-identical.",
+      "result": "accepted; preserves the build inspection records bound by this receipt"
+    }
+  ]
+}
