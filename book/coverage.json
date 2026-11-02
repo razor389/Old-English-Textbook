@@ -1,0 +1,53 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "status": "contracted before build and front-matter prose",
+  "issue_id": "oec-book",
+  "user_requirement": "Full learner book PDF excluding answer keys, plus separate full answer key; learner book must have table of contents and grammatical-topic index.",
+  "baseline_revision": "1f28f36b31a11d8a3547cf015b81323dda8088fa",
+  "contents": "book/contents.json",
+  "grammar_index": "book/grammar-index.json",
+  "preservation": "book/preservation.json",
+  "scope": {
+    "learner_components": 22,
+    "key_components": 19,
+    "existing_learner_pages": 930,
+    "existing_key_pages": 475,
+    "new_teaching": 0,
+    "new_tasks": 0,
+    "new_answers": 0,
+    "new_lexical_entries": 0,
+    "new_text": "Title matter, concise volume/locator notes, contents labels and grammatical-topic index only. All accepted worked examples and supplied support remain in learner components."
+  },
+  "presentation": {
+    "layout": "Unchanged165×241mm shared Cambria layout; component-local macros/font features retained inside groups. Clear before closing each group.",
+    "pagination": "Roman front matter, then continuous Arabic body. Each component begins recto; any empty versos are explicit. Unit section/exercise numbers remain local and unchanged.",
+    "contents": "Learner contents include components and major numbered sections; key contents include every component. PDF outlines include useful nested sections. All locators resolve from final anchors.",
+    "index": "Alphabetical grammatical heads/subentries, selective precise explanation/paradigm references, clickable actual pages, valid see/see-also routes; no index of every word form.",
+    "glossary_bookmarks": "Replace or namespace standalone bookmark metadata under the full-volume hierarchy. No visible glossary text change.",
+    "source_integrity": "Retained TeX bodies and original Markdown remain authoritative; only reversible invisible navigation annotations and standalone document wrappers may change in generated fragments."
+  },
+  "index_counts": {
+    "entries": 447,
+    "substantive_heads": 112,
+    "unique_targets": 356,
+    "see_heads": 74,
+    "see_also_heads": 32
+  },
+  "deliverables": {
+    "learner_pdf": "typesetting/full-book/book.pdf",
+    "key_pdf": "typesetting/full-book/answer-key.pdf",
+    "reproducible_builder": "scripts/build_full_book.py",
+    "independent_checks": "scripts/check_full_book.py",
+    "front_matter_master": "book/front-matter.md"
+  },
+  "completion_gates": [
+    "Contract checkpoint before implementation and new front-matter prose.",
+    "All41 components present exactly once in the correct positive allowlist; no key component in the learner volume.",
+    "Complete retained-body provenance and full PDF text checks; all source artifact/register hashes unchanged.",
+    "Actual final page labels, contents, bookmarks and index links verified against PDF destinations; independent index review.",
+    "Clean compilation and full page accounting; render every page, compare retained body/header pixels where layout is identical, inspect labelled page/folio proofs and every new or changed page at full detail. Record actual inspection mode honestly.",
+    "Reconcile all material findings; retain both accepted PDFs and complete reproduction/review evidence; update README/status/handoff, export Beads and commit locally. No push."
+  ],
+  "unresolved_dependencies": []
+}

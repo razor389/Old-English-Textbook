@@ -1,0 +1,4438 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-01",
+  "components": [
+    {
+      "component_id": "pronunciation/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "A guide to Old English pronunciation",
+      "chapter": null,
+      "artifacts": {
+        "master": {
+          "path": "guides/pronunciation/student.md",
+          "sha256": "7c6b8e6907962362381148b077dbbbb23b6fbe4196f98064faef00d2988ec346",
+          "bytes": 17215,
+          "sha256_lf": "7c6b8e6907962362381148b077dbbbb23b6fbe4196f98064faef00d2988ec346",
+          "accepted_sha256": "7c6b8e6907962362381148b077dbbbb23b6fbe4196f98064faef00d2988ec346",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/pronunciation/pronunciation.tex",
+          "sha256": "3c12c1a7b53365d07504c38627007d2a43829763cd6d59f5a7fed5f08092759c",
+          "bytes": 27358,
+          "sha256_lf": "3c12c1a7b53365d07504c38627007d2a43829763cd6d59f5a7fed5f08092759c",
+          "accepted_sha256": "3c12c1a7b53365d07504c38627007d2a43829763cd6d59f5a7fed5f08092759c",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/pronunciation/pronunciation.pdf",
+          "sha256": "b23f734a56ca7939947cab0603caef6b2016339a5382295a36c607171aa337dd",
+          "bytes": 107937,
+          "sha256_lf": "63541640991533da8b00d2ac1bbcc7d9a2005dff2055bc1d6fe3e88b874b645e",
+          "accepted_sha256": "b23f734a56ca7939947cab0603caef6b2016339a5382295a36c607171aa337dd",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 9,
+      "accepted_pages": 9,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "typesetting/pronunciation/export-review.json",
+          "sha256": "05569f95b44097827d6cefb0ad583e088bab5a71976375a63aad8bce6a74be5a",
+          "selector": "documents[learner]"
+        },
+        "visual": [
+          {
+            "path": "typesetting/pronunciation/page-review-learner.json",
+            "sha256": "2ad6098b38ac79f7ee1695652538e22064a580792dedf30af4dc8979862e4a3b"
+          }
+        ],
+        "content": [
+          {
+            "path": "typesetting/pronunciation/content-check.json",
+            "sha256": "4968ef3e4620a52651ac1b552c7ad6507050d4cb70628bcaa9d53143c7249471"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Pronunciation",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-04",
+        "body_sha256_lf": "0ac08fd2682ef6d16e4cb94583d153bd7348f06f899e0db3c3cc9abd06cc7849",
+        "body_start_source_line": 19,
+        "body_lines": 944,
+        "body_command_counts": {
+          "newpage": 2,
+          "reserve": 15,
+          "fontsize": 6,
+          "addfontfeatures": 1,
+          "setlength": 20
+        },
+        "starred_sections": 8,
+        "starred_subsections": 7,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 72,
+            "text": "\\newpage"
+          },
+          {
+            "line": 885,
+            "text": "\\newpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 21,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Accepted primary export record and its retained visual-receipt hashes agree with the current component."
+    },
+    {
+      "component_id": "ch01/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 1. Nouns, the article, and the copula",
+      "chapter": 1,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch01/student.md",
+          "sha256": "10a5ce07db62799a8f37d51401f733fb1b6c4be028559e0e47694bfc9992fc1f",
+          "bytes": 38742,
+          "sha256_lf": "10a5ce07db62799a8f37d51401f733fb1b6c4be028559e0e47694bfc9992fc1f",
+          "accepted_sha256": "10a5ce07db62799a8f37d51401f733fb1b6c4be028559e0e47694bfc9992fc1f",
+          "accepted_sha256_lf": "10a5ce07db62799a8f37d51401f733fb1b6c4be028559e0e47694bfc9992fc1f",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch01/chapter-01.tex",
+          "sha256": "813d7078f3a10c16757c941dc6f8eae281bfcdb119574f048f7a41feac5693d8",
+          "bytes": 56427,
+          "sha256_lf": "4d1b0b5dd38b0a155ec37d10a5ea92bfc98d947d83e4c20018879afaa9b75bcd",
+          "accepted_sha256": "813d7078f3a10c16757c941dc6f8eae281bfcdb119574f048f7a41feac5693d8",
+          "accepted_sha256_lf": "4d1b0b5dd38b0a155ec37d10a5ea92bfc98d947d83e4c20018879afaa9b75bcd",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch01/chapter-01.pdf",
+          "sha256": "44bc3de1cb75baf49c8f6fe1f86b0118cbc56bd5c8a3647a925feb8f834cbde8",
+          "bytes": 134115,
+          "sha256_lf": "44bc3de1cb75baf49c8f6fe1f86b0118cbc56bd5c8a3647a925feb8f834cbde8",
+          "accepted_sha256": "44bc3de1cb75baf49c8f6fe1f86b0118cbc56bd5c8a3647a925feb8f834cbde8",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 21,
+      "accepted_pages": 21,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch01/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch01/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch01/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 1. Nouns, the article, and the copula",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-01",
+        "body_sha256_lf": "13708cc0d7d4f33cf44c8c836117ed9219a4733295f0ad640c6421608475736a",
+        "body_start_source_line": 11,
+        "body_lines": 1331,
+        "body_command_counts": {
+          "clearpage": 1,
+          "fontsize": 19,
+          "setlength": 38
+        },
+        "starred_sections": 18,
+        "starred_subsections": 6,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 1306,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": []
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch02/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 2. Personal pronouns and weak indicative verbs",
+      "chapter": 2,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch02/student.md",
+          "sha256": "8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505",
+          "bytes": 41898,
+          "sha256_lf": "8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505",
+          "accepted_sha256": "8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505",
+          "accepted_sha256_lf": "8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch02/chapter-02.tex",
+          "sha256": "4e3f8fac7e249f546e6953cadbd2665f39c4d5744c2270cb5636c5722476217f",
+          "bytes": 70436,
+          "sha256_lf": "6b6c51050d964d88911c1a0d4a3b5d72e1d0018ee51f50679b4119e620200075",
+          "accepted_sha256": "4e3f8fac7e249f546e6953cadbd2665f39c4d5744c2270cb5636c5722476217f",
+          "accepted_sha256_lf": "6b6c51050d964d88911c1a0d4a3b5d72e1d0018ee51f50679b4119e620200075",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch02/chapter-02.pdf",
+          "sha256": "3b1e6f541d6bb996c9e60decf85fa8677cacaefcf7bfb9bd21575f17b42212f6",
+          "bytes": 135938,
+          "sha256_lf": "3b1e6f541d6bb996c9e60decf85fa8677cacaefcf7bfb9bd21575f17b42212f6",
+          "accepted_sha256": "3b1e6f541d6bb996c9e60decf85fa8677cacaefcf7bfb9bd21575f17b42212f6",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 20,
+      "accepted_pages": 20,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch02/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch02/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch02/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 2. Pronouns and weak verbs",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-02",
+        "body_sha256_lf": "331a79272cab61661d743752c0841c030ac50b40b929eb96d9a77c2a23214c9f",
+        "body_start_source_line": 11,
+        "body_lines": 1471,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 20,
+          "fontsize": 20,
+          "setlength": 38
+        },
+        "starred_sections": 16,
+        "starred_subsections": 5,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 1407,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": []
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch03/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 3. Adjectives, comparison and number",
+      "chapter": 3,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch03/student.md",
+          "sha256": "0c00a1f1d96fe7a4cbc11b9b633021a9c0cb7a73c1296e44a0d74a7d3da28b49",
+          "bytes": 59882,
+          "sha256_lf": "0c00a1f1d96fe7a4cbc11b9b633021a9c0cb7a73c1296e44a0d74a7d3da28b49",
+          "accepted_sha256": "0c00a1f1d96fe7a4cbc11b9b633021a9c0cb7a73c1296e44a0d74a7d3da28b49",
+          "accepted_sha256_lf": "0c00a1f1d96fe7a4cbc11b9b633021a9c0cb7a73c1296e44a0d74a7d3da28b49",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch03/chapter-03.tex",
+          "sha256": "2f956a0b777c2eecf48ea49e482230478df98f4c4e7f3791baa04c418f7d3337",
+          "bytes": 102960,
+          "sha256_lf": "8e7a6a22a60e31262157943e6e5fe22c775a8741ef032512d063f0dec488cb97",
+          "accepted_sha256": "2f956a0b777c2eecf48ea49e482230478df98f4c4e7f3791baa04c418f7d3337",
+          "accepted_sha256_lf": "8e7a6a22a60e31262157943e6e5fe22c775a8741ef032512d063f0dec488cb97",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch03/chapter-03.pdf",
+          "sha256": "bdd95bb5443071dd021750d0219e5c759c4e783bf0a7c5c5d736824c2184dd28",
+          "bytes": 154159,
+          "sha256_lf": "a611026b9b2abc32ea588c7081e176206014d18783c903243c8324d79dfa279a",
+          "accepted_sha256": "bdd95bb5443071dd021750d0219e5c759c4e783bf0a7c5c5d736824c2184dd28",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 31,
+      "accepted_pages": 31,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch03/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch03/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch03/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 3. Adjectives and number",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "1e80e347f2cf8bc20f540600b33b8b4d22ea9642ea2148a21ebd743a733810d0",
+        "body_start_source_line": 11,
+        "body_lines": 2579,
+        "body_command_counts": {
+          "clearpage": 2,
+          "reserve": 44,
+          "fontsize": 45,
+          "setlength": 88
+        },
+        "starred_sections": 16,
+        "starred_subsections": 30,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 135,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 2527,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": []
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch04/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 4. Strong verbs I–III",
+      "chapter": 4,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch04/student.md",
+          "sha256": "d0e7f4922320ce5105ed2a67f53e0c2ea6774a60082da39f74e762a410596aa5",
+          "bytes": 48446,
+          "sha256_lf": "d0e7f4922320ce5105ed2a67f53e0c2ea6774a60082da39f74e762a410596aa5",
+          "accepted_sha256": "d0e7f4922320ce5105ed2a67f53e0c2ea6774a60082da39f74e762a410596aa5",
+          "accepted_sha256_lf": "d0e7f4922320ce5105ed2a67f53e0c2ea6774a60082da39f74e762a410596aa5",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch04/chapter-04.tex",
+          "sha256": "b942bfbccb0af34b1f49c5f80a5c2082cca2cd84c1279cfedcee0a9e8737734b",
+          "bytes": 78828,
+          "sha256_lf": "b58d5042c77bc2ad94ee3487bbb18da5711274237d7d9143fc6e38b732280151",
+          "accepted_sha256": "b942bfbccb0af34b1f49c5f80a5c2082cca2cd84c1279cfedcee0a9e8737734b",
+          "accepted_sha256_lf": "b58d5042c77bc2ad94ee3487bbb18da5711274237d7d9143fc6e38b732280151",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch04/chapter-04.pdf",
+          "sha256": "5fb8ae56f6faf31e1d1d1fd7079a366affce917294a7f4c91eb0acdd26cd8187",
+          "bytes": 133038,
+          "sha256_lf": "47c86f7ea471fa16f148cd4bb6efefa22c1da71c92baf330cc1dde6cc232ecbb",
+          "accepted_sha256": "5fb8ae56f6faf31e1d1d1fd7079a366affce917294a7f4c91eb0acdd26cd8187",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 21,
+      "accepted_pages": 21,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch04/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch04/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch04/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 4. Strong verbs I–III",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "0f24dc7251ce533ebfa9ee56d08599d7a6380bacc6fd3bf1bd35ba180ff465ea",
+        "body_start_source_line": 11,
+        "body_lines": 1918,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 51,
+          "fontsize": 27,
+          "setlength": 53
+        },
+        "starred_sections": 12,
+        "starred_subsections": 13,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 1868,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": []
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch05/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 5. Strong verbs IV–VII",
+      "chapter": 5,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch05/student.md",
+          "sha256": "d6b0fea4a1444547e3d857f24c2683455b372f9de908164a04125ac7b9416ded",
+          "bytes": 55298,
+          "sha256_lf": "d6b0fea4a1444547e3d857f24c2683455b372f9de908164a04125ac7b9416ded",
+          "accepted_sha256": "d6b0fea4a1444547e3d857f24c2683455b372f9de908164a04125ac7b9416ded",
+          "accepted_sha256_lf": "d6b0fea4a1444547e3d857f24c2683455b372f9de908164a04125ac7b9416ded",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch05/chapter-05.tex",
+          "sha256": "26a1402072b7cdc8f07c1290929d93c79a19b36a8a74dd7dfe809cd3b6263e6f",
+          "bytes": 94058,
+          "sha256_lf": "9c4e607de6b8c50fadeab86cb1ef9ccf68ef96d5ca2438174025670cd3a29e75",
+          "accepted_sha256": "26a1402072b7cdc8f07c1290929d93c79a19b36a8a74dd7dfe809cd3b6263e6f",
+          "accepted_sha256_lf": "9c4e607de6b8c50fadeab86cb1ef9ccf68ef96d5ca2438174025670cd3a29e75",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch05/chapter-05.pdf",
+          "sha256": "6c090fd313d698b31e175124b58674b3ac9d81092c21cc7e8278a46d9e39b725",
+          "bytes": 143832,
+          "sha256_lf": "839f7c5c256d0cad301fc5a05d9d7b809dedeece19999149e8346594b96a8b74",
+          "accepted_sha256": "6c090fd313d698b31e175124b58674b3ac9d81092c21cc7e8278a46d9e39b725",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 26,
+      "accepted_pages": 26,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch05/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch05/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch05/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 5. Strong verbs IV–VII",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "561014ad9e8afd30b680ef6cc9b2eaeb3edfcb17fad7fc3ed7de2cf98d036e15",
+        "body_start_source_line": 11,
+        "body_lines": 2511,
+        "body_command_counts": {
+          "clearpage": 2,
+          "reserve": 65,
+          "fontsize": 28,
+          "addfontfeatures": 1,
+          "setlength": 55
+        },
+        "starred_sections": 14,
+        "starred_subsections": 12,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 2266,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 2318,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch06/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 6. Frequent irregular verbs, infinitives, and commands",
+      "chapter": 6,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch06/student.md",
+          "sha256": "345c6edbcd113e28368865a2f456416bb2964a941ef097fb9bcc2906d037a545",
+          "bytes": 62617,
+          "sha256_lf": "345c6edbcd113e28368865a2f456416bb2964a941ef097fb9bcc2906d037a545",
+          "accepted_sha256": "345c6edbcd113e28368865a2f456416bb2964a941ef097fb9bcc2906d037a545",
+          "accepted_sha256_lf": "345c6edbcd113e28368865a2f456416bb2964a941ef097fb9bcc2906d037a545",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch06/chapter-06.tex",
+          "sha256": "5fdb79e4620559e0561090823b81ffc987888351e10ff9676cdc7d1f5c5229a1",
+          "bytes": 94321,
+          "sha256_lf": "9a7646bc67293dda87b9926160d0bf9266d353517568de67b0110d50f743c2d2",
+          "accepted_sha256": "5fdb79e4620559e0561090823b81ffc987888351e10ff9676cdc7d1f5c5229a1",
+          "accepted_sha256_lf": "9a7646bc67293dda87b9926160d0bf9266d353517568de67b0110d50f743c2d2",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch06/chapter-06.pdf",
+          "sha256": "409c11816dc034cbb0c098a6a819be75c2205819cf7ebda76ece9b72d6f73f60",
+          "bytes": 147871,
+          "sha256_lf": "409c11816dc034cbb0c098a6a819be75c2205819cf7ebda76ece9b72d6f73f60",
+          "accepted_sha256": "409c11816dc034cbb0c098a6a819be75c2205819cf7ebda76ece9b72d6f73f60",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 26,
+      "accepted_pages": 26,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch06/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch06/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch06/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 6. Irregular verbs",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "1678d9aaa0cfa5c0869326119723d1b9ba06887d47f97a8e8196c2b1d97eae13",
+        "body_start_source_line": 11,
+        "body_lines": 2170,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 51,
+          "fontsize": 16,
+          "addfontfeatures": 1,
+          "setlength": 31
+        },
+        "starred_sections": 9,
+        "starred_subsections": 22,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 2141,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch07/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 7. Subjunctive, participles, and passive",
+      "chapter": 7,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch07/student.md",
+          "sha256": "ed4887966801964ff9eeab2b90ee7da65ba49edb598a57e125e35089cf4d3046",
+          "bytes": 80378,
+          "sha256_lf": "ed4887966801964ff9eeab2b90ee7da65ba49edb598a57e125e35089cf4d3046",
+          "accepted_sha256": "ed4887966801964ff9eeab2b90ee7da65ba49edb598a57e125e35089cf4d3046",
+          "accepted_sha256_lf": "ed4887966801964ff9eeab2b90ee7da65ba49edb598a57e125e35089cf4d3046",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch07/chapter-07.tex",
+          "sha256": "deda328e6a45932ffd894cb63cdc381cd74213c5a66f6bd09cfd6cb4b0dc94f4",
+          "bytes": 146165,
+          "sha256_lf": "876107a00a57a027ba615833e08f7013fb01dc4b1deb855cb7e26e97e6a05c60",
+          "accepted_sha256": "deda328e6a45932ffd894cb63cdc381cd74213c5a66f6bd09cfd6cb4b0dc94f4",
+          "accepted_sha256_lf": "876107a00a57a027ba615833e08f7013fb01dc4b1deb855cb7e26e97e6a05c60",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch07/chapter-07.pdf",
+          "sha256": "6e9e147e321bca50a250e14076006cabb4a865d78356623a9c6f9e33123a4f1b",
+          "bytes": 174026,
+          "sha256_lf": "02e2c48543f091c97920dcf675b2def221f12a81fc36e050799be67b5864ffec",
+          "accepted_sha256": "6e9e147e321bca50a250e14076006cabb4a865d78356623a9c6f9e33123a4f1b",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 39,
+      "accepted_pages": 39,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch07/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch07/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch07/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 7. Subjunctive and passive",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "86bc5a2c02c98075b7e731416c75f798885fe99522e7c099177d2616d0674243",
+        "body_start_source_line": 11,
+        "body_lines": 3629,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 96,
+          "fontsize": 71,
+          "addfontfeatures": 1,
+          "setlength": 141
+        },
+        "starred_sections": 12,
+        "starred_subsections": 35,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 3592,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch08/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 8. Questions and relative clauses",
+      "chapter": 8,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch08/student.md",
+          "sha256": "ca944f867019c6a0d497bfb9702e86c6166f86c8306cae845bdc76c6b6d33cae",
+          "bytes": 60746,
+          "sha256_lf": "ca944f867019c6a0d497bfb9702e86c6166f86c8306cae845bdc76c6b6d33cae",
+          "accepted_sha256": "ca944f867019c6a0d497bfb9702e86c6166f86c8306cae845bdc76c6b6d33cae",
+          "accepted_sha256_lf": "ca944f867019c6a0d497bfb9702e86c6166f86c8306cae845bdc76c6b6d33cae",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch08/chapter-08.tex",
+          "sha256": "a56dd4b5f1f538b123b3274825d540160c4f823d313d1444b17da169d0421a6c",
+          "bytes": 104107,
+          "sha256_lf": "77fab82e127294b21f2394106972a69cd2d7bfd0c2261499d70ef71309edf304",
+          "accepted_sha256": "a56dd4b5f1f538b123b3274825d540160c4f823d313d1444b17da169d0421a6c",
+          "accepted_sha256_lf": "77fab82e127294b21f2394106972a69cd2d7bfd0c2261499d70ef71309edf304",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch08/chapter-08.pdf",
+          "sha256": "be3f039a97924b0c993541b2c7d32c88d3b706c4b12760c4b988bde57b9410c0",
+          "bytes": 156403,
+          "sha256_lf": "a33b179363b09d940b34095488194c95292a1805c14cbd4ff6c29acf72919934",
+          "accepted_sha256": "be3f039a97924b0c993541b2c7d32c88d3b706c4b12760c4b988bde57b9410c0",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 29,
+      "accepted_pages": 29,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch08/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch08/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch08/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 8. Questions and relatives",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "09e3d70d3c393c1b7229a0db595a26223760a305cd484ad44d12a8e985d3c9cd",
+        "body_start_source_line": 11,
+        "body_lines": 2697,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 92,
+          "fontsize": 37,
+          "addfontfeatures": 1,
+          "setlength": 73
+        },
+        "starred_sections": 12,
+        "starred_subsections": 54,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 2684,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch09/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 9. Complements and reported content",
+      "chapter": 9,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch09/student.md",
+          "sha256": "900aef45e5ce5de5473217f46c4c11069f124740adf46546284b3bf2bc6fee6a",
+          "bytes": 77923,
+          "sha256_lf": "900aef45e5ce5de5473217f46c4c11069f124740adf46546284b3bf2bc6fee6a",
+          "accepted_sha256": "900aef45e5ce5de5473217f46c4c11069f124740adf46546284b3bf2bc6fee6a",
+          "accepted_sha256_lf": "900aef45e5ce5de5473217f46c4c11069f124740adf46546284b3bf2bc6fee6a",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch09/chapter-09.tex",
+          "sha256": "01d8db87246d8f2c93844f787be347e4455cc7ca25aa14b16987f3389acda762",
+          "bytes": 143399,
+          "sha256_lf": "01d8db87246d8f2c93844f787be347e4455cc7ca25aa14b16987f3389acda762",
+          "accepted_sha256": "01d8db87246d8f2c93844f787be347e4455cc7ca25aa14b16987f3389acda762",
+          "accepted_sha256_lf": "01d8db87246d8f2c93844f787be347e4455cc7ca25aa14b16987f3389acda762",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch09/chapter-09.pdf",
+          "sha256": "8dac8e3a062ab678bfb0385dd1225ef5352fad9500a652f8769b9c45f2b90628",
+          "bytes": 179051,
+          "sha256_lf": "502340fae656ae89d3cc44e06b0750f1fdd70eb20b15da5eeefe453c3ff79874",
+          "accepted_sha256": "8dac8e3a062ab678bfb0385dd1225ef5352fad9500a652f8769b9c45f2b90628",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 42,
+      "accepted_pages": 42,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch09/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch09/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch09/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 9. Complements and reports",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "d39f295c39a347724b9aa99e9aa18527b7b59bd4d59b7d00506789adef63dc06",
+        "body_start_source_line": 11,
+        "body_lines": 4193,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 157,
+          "fontsize": 74,
+          "addfontfeatures": 1,
+          "setlength": 147
+        },
+        "starred_sections": 14,
+        "starred_subsections": 117,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 4172,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch10/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 10. The case system in extended sentences",
+      "chapter": 10,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch10/student.md",
+          "sha256": "ac21ffb18662e7666e79262a8f6d403696b00ba6d377c7a61354d9fc80bd8987",
+          "bytes": 84556,
+          "sha256_lf": "ac21ffb18662e7666e79262a8f6d403696b00ba6d377c7a61354d9fc80bd8987",
+          "accepted_sha256": "ac21ffb18662e7666e79262a8f6d403696b00ba6d377c7a61354d9fc80bd8987",
+          "accepted_sha256_lf": "ac21ffb18662e7666e79262a8f6d403696b00ba6d377c7a61354d9fc80bd8987",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch10/chapter-10.tex",
+          "sha256": "97cee02927051002a55a37785e708bd310bf2f2038eea019d4fb8c10f42a5235",
+          "bytes": 135125,
+          "sha256_lf": "97cee02927051002a55a37785e708bd310bf2f2038eea019d4fb8c10f42a5235",
+          "accepted_sha256": "97cee02927051002a55a37785e708bd310bf2f2038eea019d4fb8c10f42a5235",
+          "accepted_sha256_lf": "97cee02927051002a55a37785e708bd310bf2f2038eea019d4fb8c10f42a5235",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch10/chapter-10.pdf",
+          "sha256": "9aac3feeb2e35e787d6f89ee83ed23625380c403a944cd9697575f934422e132",
+          "bytes": 181691,
+          "sha256_lf": "dde6eb6c404191c030018d2b40d2cef34ac4b99819ec1bc41f3b03472c6ed2b7",
+          "accepted_sha256": "9aac3feeb2e35e787d6f89ee83ed23625380c403a944cd9697575f934422e132",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 40,
+      "accepted_pages": 40,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch10/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch10/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch10/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 10. The case system",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "9d8d69531b49e80c74324de35db3c77c31f14bf26eef12cb9e66069656f91823",
+        "body_start_source_line": 11,
+        "body_lines": 3360,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 72,
+          "fontsize": 50,
+          "addfontfeatures": 1,
+          "setlength": 99
+        },
+        "starred_sections": 13,
+        "starred_subsections": 36,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 3268,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch11/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 11. Adverbial clauses",
+      "chapter": 11,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch11/student.md",
+          "sha256": "b134bcfe29fae274bf244cd22463d1b24bcc428814066dfcac174a2a673ab527",
+          "bytes": 93599,
+          "sha256_lf": "b134bcfe29fae274bf244cd22463d1b24bcc428814066dfcac174a2a673ab527",
+          "accepted_sha256": "b134bcfe29fae274bf244cd22463d1b24bcc428814066dfcac174a2a673ab527",
+          "accepted_sha256_lf": "b134bcfe29fae274bf244cd22463d1b24bcc428814066dfcac174a2a673ab527",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch11/chapter-11.tex",
+          "sha256": "4ea86cc08ee01ebb979b9a1f1feeee47a152bde62dbf0dc4ff902399758bb08c",
+          "bytes": 151372,
+          "sha256_lf": "ec257407821e61327595660a07faf7bb90775ea9034ec947732e4c35fff9ca71",
+          "accepted_sha256": "4ea86cc08ee01ebb979b9a1f1feeee47a152bde62dbf0dc4ff902399758bb08c",
+          "accepted_sha256_lf": "ec257407821e61327595660a07faf7bb90775ea9034ec947732e4c35fff9ca71",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch11/chapter-11.pdf",
+          "sha256": "15b8b8530090c140c949daefb191e88209cc5bedf937b0a2d1dcfbbc2e886632",
+          "bytes": 189055,
+          "sha256_lf": "00dd736dc6907070c631654ea699960815bbe7b301125a65f8b0dafa4771b674",
+          "accepted_sha256": "15b8b8530090c140c949daefb191e88209cc5bedf937b0a2d1dcfbbc2e886632",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 42,
+      "accepted_pages": 42,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch11/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch11/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch11/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 11. Adverbial clauses",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "6f0ea1554719fc3ee0f6c0e2cd1b71cc66076efeb949856be8a632408540ca37",
+        "body_start_source_line": 11,
+        "body_lines": 3706,
+        "body_command_counts": {
+          "reserve": 76,
+          "fontsize": 51,
+          "addfontfeatures": 1,
+          "setlength": 101
+        },
+        "starred_sections": 15,
+        "starred_subsections": 20,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch12/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 12. Tense, sequence, and voice",
+      "chapter": 12,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch12/student.md",
+          "sha256": "1ac857fe82fb5d50474162487e47a794c0f2afb50230a7f3323e36b55929c54b",
+          "bytes": 91436,
+          "sha256_lf": "1ac857fe82fb5d50474162487e47a794c0f2afb50230a7f3323e36b55929c54b",
+          "accepted_sha256": "1ac857fe82fb5d50474162487e47a794c0f2afb50230a7f3323e36b55929c54b",
+          "accepted_sha256_lf": "1ac857fe82fb5d50474162487e47a794c0f2afb50230a7f3323e36b55929c54b",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch12/chapter-12.tex",
+          "sha256": "813254378a99b50253e8de3d95e28f6331860aff53cc6c53210680114f2d7f81",
+          "bytes": 159510,
+          "sha256_lf": "813254378a99b50253e8de3d95e28f6331860aff53cc6c53210680114f2d7f81",
+          "accepted_sha256": "813254378a99b50253e8de3d95e28f6331860aff53cc6c53210680114f2d7f81",
+          "accepted_sha256_lf": "813254378a99b50253e8de3d95e28f6331860aff53cc6c53210680114f2d7f81",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch12/chapter-12.pdf",
+          "sha256": "3e51e024af673e92d9271789a2e931be022fdeb8e739466c9323899553851799",
+          "bytes": 190157,
+          "sha256_lf": "02cba35f7658b6cca8a4739081517bdab303749ca929e1882d51e8b91e90283d",
+          "accepted_sha256": "3e51e024af673e92d9271789a2e931be022fdeb8e739466c9323899553851799",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 46,
+      "accepted_pages": 46,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch12/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch12/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch12/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 12. Tense, sequence, and voice",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "1c9ca70bfeaf1a2c4c8a53fe72ce359f931da9acb494936f90156d931aafcae6",
+        "body_start_source_line": 11,
+        "body_lines": 4321,
+        "body_command_counts": {
+          "reserve": 220,
+          "fontsize": 76,
+          "addfontfeatures": 1,
+          "setlength": 151
+        },
+        "starred_sections": 14,
+        "starred_subsections": 89,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch13/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 13. Clause order and reference",
+      "chapter": 13,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch13/student.md",
+          "sha256": "23b35a247e66b72cf78bfe01c9ce7882c58af054ecffc4c42d5187efa43cb635",
+          "bytes": 107488,
+          "sha256_lf": "23b35a247e66b72cf78bfe01c9ce7882c58af054ecffc4c42d5187efa43cb635",
+          "accepted_sha256": "23b35a247e66b72cf78bfe01c9ce7882c58af054ecffc4c42d5187efa43cb635",
+          "accepted_sha256_lf": "23b35a247e66b72cf78bfe01c9ce7882c58af054ecffc4c42d5187efa43cb635",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch13/chapter-13.tex",
+          "sha256": "884ff7fdc0f0703d48777b0cafffa719600de76a45c6c752c17a7ff30fca090b",
+          "bytes": 168082,
+          "sha256_lf": "884ff7fdc0f0703d48777b0cafffa719600de76a45c6c752c17a7ff30fca090b",
+          "accepted_sha256": "884ff7fdc0f0703d48777b0cafffa719600de76a45c6c752c17a7ff30fca090b",
+          "accepted_sha256_lf": "884ff7fdc0f0703d48777b0cafffa719600de76a45c6c752c17a7ff30fca090b",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch13/chapter-13.pdf",
+          "sha256": "abe3c2e2765b1d48933c3a3e9c051fa65a86bf5fed1bdf8182e0bd5e218bf11c",
+          "bytes": 200531,
+          "sha256_lf": "133ba62305e356e6dc36577e50c087f6b503a1d3842702743932b63d9c5fffa3",
+          "accepted_sha256": "abe3c2e2765b1d48933c3a3e9c051fa65a86bf5fed1bdf8182e0bd5e218bf11c",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 51,
+      "accepted_pages": 51,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch13/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch13/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch13/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 13. Clause order and reference",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "434d259939cee79e58cd23e32b1cb61700f6cd32f9e450ee56ca391b0eb6cb8a",
+        "body_start_source_line": 11,
+        "body_lines": 4496,
+        "body_command_counts": {
+          "reserve": 139,
+          "fontsize": 67,
+          "addfontfeatures": 1,
+          "setlength": 133
+        },
+        "starred_sections": 14,
+        "starred_subsections": 177,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch14/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 14. Word formation and lexical families",
+      "chapter": 14,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch14/student.md",
+          "sha256": "bbede87fb135e09186ce222c455520b913c22c72fa3820c63fd729e30aaa290e",
+          "bytes": 74655,
+          "sha256_lf": "bbede87fb135e09186ce222c455520b913c22c72fa3820c63fd729e30aaa290e",
+          "accepted_sha256": "bbede87fb135e09186ce222c455520b913c22c72fa3820c63fd729e30aaa290e",
+          "accepted_sha256_lf": "bbede87fb135e09186ce222c455520b913c22c72fa3820c63fd729e30aaa290e",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch14/chapter-14.tex",
+          "sha256": "479c8a1f34bdfa17d4daef0671dc9b87349772862d6061e1410f6f7f9737342f",
+          "bytes": 115539,
+          "sha256_lf": "479c8a1f34bdfa17d4daef0671dc9b87349772862d6061e1410f6f7f9737342f",
+          "accepted_sha256": "479c8a1f34bdfa17d4daef0671dc9b87349772862d6061e1410f6f7f9737342f",
+          "accepted_sha256_lf": "479c8a1f34bdfa17d4daef0671dc9b87349772862d6061e1410f6f7f9737342f",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch14/chapter-14.pdf",
+          "sha256": "a88975e0a74cf91207950930fc3d5f6f705da40bd229558d0bc71e743ae2c5f3",
+          "bytes": 172646,
+          "sha256_lf": "a88975e0a74cf91207950930fc3d5f6f705da40bd229558d0bc71e743ae2c5f3",
+          "accepted_sha256": "a88975e0a74cf91207950930fc3d5f6f705da40bd229558d0bc71e743ae2c5f3",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 34,
+      "accepted_pages": 34,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch14/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch14/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch14/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 14. Word formation and lexical families",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "961d1b579d7acfaafd2ba8f0e6faf13185218fb65f65f8c60b49c1bce49eb8dd",
+        "body_start_source_line": 11,
+        "body_lines": 2921,
+        "body_command_counts": {
+          "reserve": 95,
+          "fontsize": 44,
+          "addfontfeatures": 1,
+          "setlength": 87
+        },
+        "starred_sections": 11,
+        "starred_subsections": 92,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch15/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 15. Negation, quantity and comparison in discourse",
+      "chapter": 15,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch15/student.md",
+          "sha256": "73bbaac1b2d7de6c5a1c88fa3b546d226e7b2abb9dd9b0249483133e19882dda",
+          "bytes": 160046,
+          "sha256_lf": "73bbaac1b2d7de6c5a1c88fa3b546d226e7b2abb9dd9b0249483133e19882dda",
+          "accepted_sha256": "73bbaac1b2d7de6c5a1c88fa3b546d226e7b2abb9dd9b0249483133e19882dda",
+          "accepted_sha256_lf": "73bbaac1b2d7de6c5a1c88fa3b546d226e7b2abb9dd9b0249483133e19882dda",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch15/chapter-15.tex",
+          "sha256": "8ae56dd5bf5faf0a4f6e98c676b1bd201e7d06704f38d9d85c68e7e7626929f4",
+          "bytes": 245608,
+          "sha256_lf": "8ae56dd5bf5faf0a4f6e98c676b1bd201e7d06704f38d9d85c68e7e7626929f4",
+          "accepted_sha256": "8ae56dd5bf5faf0a4f6e98c676b1bd201e7d06704f38d9d85c68e7e7626929f4",
+          "accepted_sha256_lf": "8ae56dd5bf5faf0a4f6e98c676b1bd201e7d06704f38d9d85c68e7e7626929f4",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch15/chapter-15.pdf",
+          "sha256": "92f02a8e3fbc31c1d874b6984085ecd6e8cb36b84720776a10438f63317bb19f",
+          "bytes": 225257,
+          "sha256_lf": "2de691ac9f1f1ec7d0269c072cc92f785f031918dfc24c6f748c847077f665ca",
+          "accepted_sha256": "92f02a8e3fbc31c1d874b6984085ecd6e8cb36b84720776a10438f63317bb19f",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 63,
+      "accepted_pages": 63,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch15/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch15/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch15/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 15. Negation and quantity",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "57f6b197daf7d7a2446c55b9b3041e24ce14b8c3423b56e98430320d365b15f6",
+        "body_start_source_line": 13,
+        "body_lines": 6914,
+        "body_command_counts": {
+          "reserve": 195,
+          "fontsize": 96,
+          "addfontfeatures": 1,
+          "setlength": 191
+        },
+        "starred_sections": 9,
+        "starred_subsections": 35,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 14,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch16/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 16. Extended narrative and speech",
+      "chapter": 16,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch16/student.md",
+          "sha256": "89dbd7124d92ad9cc944f06547a6094e08f2dd25060d86806d04ff0da8679c4d",
+          "bytes": 128177,
+          "sha256_lf": "89dbd7124d92ad9cc944f06547a6094e08f2dd25060d86806d04ff0da8679c4d",
+          "accepted_sha256": "89dbd7124d92ad9cc944f06547a6094e08f2dd25060d86806d04ff0da8679c4d",
+          "accepted_sha256_lf": "89dbd7124d92ad9cc944f06547a6094e08f2dd25060d86806d04ff0da8679c4d",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch16/chapter-16.tex",
+          "sha256": "305aefd1f2067ae83a5f9940d3f931b0ae7ce04d271f4349c39e428402efb669",
+          "bytes": 219431,
+          "sha256_lf": "b09c8c4206204992c210b5cd5df7caa5a4a2b8ed86a63b3a80832a3be984af67",
+          "accepted_sha256": "305aefd1f2067ae83a5f9940d3f931b0ae7ce04d271f4349c39e428402efb669",
+          "accepted_sha256_lf": "b09c8c4206204992c210b5cd5df7caa5a4a2b8ed86a63b3a80832a3be984af67",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch16/chapter-16.pdf",
+          "sha256": "64191f6b34a87ddec08b0b70290b97f2410f19c9486bb311ab43fb52f95ed92d",
+          "bytes": 231691,
+          "sha256_lf": "64191f6b34a87ddec08b0b70290b97f2410f19c9486bb311ab43fb52f95ed92d",
+          "accepted_sha256": "64191f6b34a87ddec08b0b70290b97f2410f19c9486bb311ab43fb52f95ed92d",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 64,
+      "accepted_pages": 64,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch16/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch16/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch16/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 16. Narrative and speech",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "3ae3f387f0188f9b12e1477fd3711f465876b9900c80f01971dd00cf4fe0de9a",
+        "body_start_source_line": 11,
+        "body_lines": 5835,
+        "body_command_counts": {
+          "reserve": 85,
+          "fontsize": 95,
+          "addfontfeatures": 1,
+          "setlength": 189
+        },
+        "starred_sections": 8,
+        "starred_subsections": 27,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch17/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 17. Connected exposition, praise and figurative language",
+      "chapter": 17,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch17/student.md",
+          "sha256": "4e832c39606a72ef832cb726f1c3722bd13ccff0db23c02c007924deb6d3a361",
+          "bytes": 179866,
+          "sha256_lf": "4e832c39606a72ef832cb726f1c3722bd13ccff0db23c02c007924deb6d3a361",
+          "accepted_sha256": "4e832c39606a72ef832cb726f1c3722bd13ccff0db23c02c007924deb6d3a361",
+          "accepted_sha256_lf": "4e832c39606a72ef832cb726f1c3722bd13ccff0db23c02c007924deb6d3a361",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch17/chapter-17.tex",
+          "sha256": "b095e4bee46abdda95e52eab385388d26029688cbd094df20495dab8148aa752",
+          "bytes": 312941,
+          "sha256_lf": "b095e4bee46abdda95e52eab385388d26029688cbd094df20495dab8148aa752",
+          "accepted_sha256": "b095e4bee46abdda95e52eab385388d26029688cbd094df20495dab8148aa752",
+          "accepted_sha256_lf": "b095e4bee46abdda95e52eab385388d26029688cbd094df20495dab8148aa752",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch17/chapter-17.pdf",
+          "sha256": "f59d3bec960946ed84695232953d2fda3d2e1655cc906ff92844b31da8e2475d",
+          "bytes": 273927,
+          "sha256_lf": "b8f017bfc0d280a7968c325b91ab14b20ea0b3355be31480b8c21068efdd436c",
+          "accepted_sha256": "f59d3bec960946ed84695232953d2fda3d2e1655cc906ff92844b31da8e2475d",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 92,
+      "accepted_pages": 92,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch17/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch17/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch17/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 17. Exposition and praise",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "454b4e5e7417e092411690a1fda7f0a797170dd75f6b91718b8b22db6d3f4332",
+        "body_start_source_line": 11,
+        "body_lines": 8817,
+        "body_command_counts": {
+          "reserve": 219,
+          "fontsize": 145,
+          "addfontfeatures": 1,
+          "setlength": 289
+        },
+        "starred_sections": 16,
+        "starred_subsections": 250,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch18/learner",
+      "volume": "learner",
+      "kind": "learner",
+      "title": "Unit 18. Independent prose consolidation",
+      "chapter": 18,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch18/student.md",
+          "sha256": "3d54d8343f68988f385cbed184c6ad0b0d16f3672c5f150ef7691dfebd25e637",
+          "bytes": 125482,
+          "sha256_lf": "3d54d8343f68988f385cbed184c6ad0b0d16f3672c5f150ef7691dfebd25e637",
+          "accepted_sha256": "3d54d8343f68988f385cbed184c6ad0b0d16f3672c5f150ef7691dfebd25e637",
+          "accepted_sha256_lf": "3d54d8343f68988f385cbed184c6ad0b0d16f3672c5f150ef7691dfebd25e637",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch18/chapter-18.tex",
+          "sha256": "794ab473f087ba5b177cb07be7c8846fac6f2e4666f8184f986d37b74c54443b",
+          "bytes": 217409,
+          "sha256_lf": "1c213bfe5fbab1384144a31975de343cab77a78ffa9b82a04f5f6b89a5b0e863",
+          "accepted_sha256": "794ab473f087ba5b177cb07be7c8846fac6f2e4666f8184f986d37b74c54443b",
+          "accepted_sha256_lf": "1c213bfe5fbab1384144a31975de343cab77a78ffa9b82a04f5f6b89a5b0e863",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch18/chapter-18.pdf",
+          "sha256": "ed135835ca97fd6fb31594262337b4a6f8fc2e235501ca2b003dcf2c6b196cd6",
+          "bytes": 228512,
+          "sha256_lf": "b334ffa8ea87f48f6c0bb5418bc2e3b341a2fe478e83729be4ca01f21a360d1b",
+          "accepted_sha256": "ed135835ca97fd6fb31594262337b4a6f8fc2e235501ca2b003dcf2c6b196cd6",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 64,
+      "accepted_pages": 64,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch18/learner]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch18/learner"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch18/student.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 18. Prose consolidation",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "446fafa23aaf7fa0b01f94d9cc9d1b0ae446271f122ceaf574e06c425edf7b82",
+        "body_start_source_line": 11,
+        "body_lines": 5801,
+        "body_command_counts": {
+          "reserve": 151,
+          "fontsize": 80,
+          "addfontfeatures": 1,
+          "setlength": 159
+        },
+        "starred_sections": 13,
+        "starred_subsections": 152,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "sound-history/learner",
+      "volume": "learner",
+      "kind": "reference",
+      "title": "Why Old English forms vary: a short sound history",
+      "chapter": null,
+      "artifacts": {
+        "master": {
+          "path": "appendices/sound-history/student.md",
+          "sha256": "51042344c2d162c27b23e98dad45641b45299d9a2f4ed0436ec862e81b897f7a",
+          "bytes": 26550,
+          "sha256_lf": "51042344c2d162c27b23e98dad45641b45299d9a2f4ed0436ec862e81b897f7a",
+          "accepted_sha256": "51042344c2d162c27b23e98dad45641b45299d9a2f4ed0436ec862e81b897f7a",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/sound-history/sound-history.tex",
+          "sha256": "1f53fdda4ffee867bd2e50106c639e7e8333390a2a329204a3ccdc41aebb9a48",
+          "bytes": 40252,
+          "sha256_lf": "1f53fdda4ffee867bd2e50106c639e7e8333390a2a329204a3ccdc41aebb9a48",
+          "accepted_sha256": "1f53fdda4ffee867bd2e50106c639e7e8333390a2a329204a3ccdc41aebb9a48",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/sound-history/sound-history.pdf",
+          "sha256": "2f1096f2402f27a60aaeb2dc53ce1e5c1b985ad76f4753a936c5dd0a40760370",
+          "bytes": 117755,
+          "sha256_lf": "1040217981373faa9205949cddc1460aea3e40779d6280ce3c549e0de826d60f",
+          "accepted_sha256": "2f1096f2402f27a60aaeb2dc53ce1e5c1b985ad76f4753a936c5dd0a40760370",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 12,
+      "accepted_pages": 12,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "typesetting/sound-history/export-review.json",
+          "sha256": "79b63eeafef104ba87852584d397faf6c53c21a529722fd66b1bb5378edd73d2",
+          "selector": "artifacts and counts"
+        },
+        "visual": [
+          {
+            "path": "typesetting/sound-history/page-review.json",
+            "sha256": "6121cd55a7db52bc84c92101f225196ebe41a3203ec9fc3d0e91726b38749a35"
+          }
+        ],
+        "content": [
+          {
+            "path": "typesetting/sound-history/content-check.json",
+            "sha256": "fcd6479a2157c8e6904743fd576270659bfaf37e78e8bf73d51c48a105f9d566"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Sound history",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-06",
+        "body_sha256_lf": "7977cce1e162fae7b2101fe577ad2d82bd1ebec88b819afbb3f9cb10f71f8752",
+        "body_start_source_line": 7,
+        "body_lines": 518,
+        "body_command_counts": {
+          "reserve": 20,
+          "fontsize": 8,
+          "addfontfeatures": 1,
+          "setlength": 16
+        },
+        "starred_sections": 9,
+        "starred_subsections": 11,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 8,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Accepted primary export record and its retained visual-receipt hashes agree with the current component."
+    },
+    {
+      "component_id": "glossary/old-english",
+      "volume": "learner",
+      "kind": "reference",
+      "title": "Old English–English glossary",
+      "chapter": null,
+      "artifacts": {
+        "master": {
+          "path": "glossaries/old-english.md",
+          "sha256": "173e88490ea6c0bd31937dce6216fa6a222f4a5d43bb1569273a9c7b2306a43e",
+          "bytes": 185797,
+          "sha256_lf": "173e88490ea6c0bd31937dce6216fa6a222f4a5d43bb1569273a9c7b2306a43e",
+          "accepted_sha256": "173e88490ea6c0bd31937dce6216fa6a222f4a5d43bb1569273a9c7b2306a43e",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/glossaries/old-english.tex",
+          "sha256": "47a21f2cc719295b3090cc148baa733a436a735c647bbb16b998a54ba5415e6e",
+          "bytes": 293548,
+          "sha256_lf": "47a21f2cc719295b3090cc148baa733a436a735c647bbb16b998a54ba5415e6e",
+          "accepted_sha256": "47a21f2cc719295b3090cc148baa733a436a735c647bbb16b998a54ba5415e6e",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/glossaries/old-english.pdf",
+          "sha256": "76eb1b2eae52d5ec4f0cd136900e8b99257f4eab29cf7cefa17a5197a8b37991",
+          "bytes": 264097,
+          "sha256_lf": "44691a6a73c446c270a8812a33a9640c13200728f73d25976b445967632eb105",
+          "accepted_sha256": "76eb1b2eae52d5ec4f0cd136900e8b99257f4eab29cf7cefa17a5197a8b37991",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 58,
+      "accepted_pages": 58,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "typesetting/glossaries/export-review.json",
+          "sha256": "77a6485b01039cba64fdaa8887a208f0dc83cd349b60a955d8397514e6f9150e",
+          "selector": "documents[old-english]"
+        },
+        "visual": [
+          {
+            "path": "typesetting/glossaries/page-review-oe-final-01-29.json",
+            "sha256": "3ab7f51df08dccb5d2c12fba9a1a7b587d350450b030fa4bd3487307a63a654f"
+          },
+          {
+            "path": "typesetting/glossaries/page-review-oe-final-30-58.json",
+            "sha256": "99c9c5ee952df4e8c0abc1a7c976841758386ee926f2b0d7e6bb20100f46c45c"
+          }
+        ],
+        "content": [
+          {
+            "path": "typesetting/glossaries/content-check.json",
+            "sha256": "49bcda22f5e3b089c4c4d9985e1453d4269f1047da7449d64fd557114224e5aa"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Old English–English",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-05",
+        "body_sha256_lf": "3a6643f23aed28b6821a35b935130315117085f1ac700621c2d5ddfa2b17ce16",
+        "body_start_source_line": 11,
+        "body_lines": 6539,
+        "body_command_counts": {
+          "clearpage": 2,
+          "needspace": 1592,
+          "pdfbookmark": 26,
+          "fontsize": 2,
+          "addfontfeatures": 1,
+          "setlength": 1
+        },
+        "starred_sections": 2,
+        "starred_subsections": 23,
+        "unstarred_sections": 0,
+        "bookmarks": [
+          {
+            "level": 0,
+            "title": "Old English–English glossary",
+            "destination": "outline-B00001"
+          },
+          {
+            "level": 0,
+            "title": "Entries",
+            "destination": "outline-B00009"
+          },
+          {
+            "level": 1,
+            "title": "A",
+            "destination": "outline-B00010"
+          },
+          {
+            "level": 1,
+            "title": "Æ",
+            "destination": "outline-B00094"
+          },
+          {
+            "level": 1,
+            "title": "B",
+            "destination": "outline-B00136"
+          },
+          {
+            "level": 1,
+            "title": "C",
+            "destination": "outline-B00250"
+          },
+          {
+            "level": 1,
+            "title": "D",
+            "destination": "outline-B00304"
+          },
+          {
+            "level": 1,
+            "title": "E",
+            "destination": "outline-B00344"
+          },
+          {
+            "level": 1,
+            "title": "F",
+            "destination": "outline-B00410"
+          },
+          {
+            "level": 1,
+            "title": "G",
+            "destination": "outline-B00531"
+          },
+          {
+            "level": 1,
+            "title": "H",
+            "destination": "outline-B00716"
+          },
+          {
+            "level": 1,
+            "title": "I",
+            "destination": "outline-B00870"
+          },
+          {
+            "level": 1,
+            "title": "J",
+            "destination": "outline-B00907"
+          },
+          {
+            "level": 1,
+            "title": "L",
+            "destination": "outline-B00909"
+          },
+          {
+            "level": 1,
+            "title": "M",
+            "destination": "outline-B00965"
+          },
+          {
+            "level": 1,
+            "title": "N",
+            "destination": "outline-B01028"
+          },
+          {
+            "level": 1,
+            "title": "O",
+            "destination": "outline-B01079"
+          },
+          {
+            "level": 1,
+            "title": "P",
+            "destination": "outline-B01118"
+          },
+          {
+            "level": 1,
+            "title": "R",
+            "destination": "outline-B01127"
+          },
+          {
+            "level": 1,
+            "title": "S",
+            "destination": "outline-B01153"
+          },
+          {
+            "level": 1,
+            "title": "T",
+            "destination": "outline-B01321"
+          },
+          {
+            "level": 1,
+            "title": "Þ / Ð",
+            "destination": "outline-B01370"
+          },
+          {
+            "level": 1,
+            "title": "U",
+            "destination": "outline-B01462"
+          },
+          {
+            "level": 1,
+            "title": "W",
+            "destination": "outline-B01507"
+          },
+          {
+            "level": 1,
+            "title": "Y",
+            "destination": "outline-B01613"
+          },
+          {
+            "level": 0,
+            "title": "Quoted errors and reconstructions",
+            "destination": "outline-B01623"
+          }
+        ],
+        "manual_page_breaks": [
+          {
+            "line": 41,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 6502,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Accepted primary export record and its retained visual-receipt hashes agree with the current component."
+    },
+    {
+      "component_id": "glossary/english",
+      "volume": "learner",
+      "kind": "reference",
+      "title": "English–Old English exercise glossary",
+      "chapter": null,
+      "artifacts": {
+        "master": {
+          "path": "glossaries/english.md",
+          "sha256": "131ee5871bee4438b668dae304263a1c3fcf0e53ceab1eea103a840ce61802e2",
+          "bytes": 318765,
+          "sha256_lf": "131ee5871bee4438b668dae304263a1c3fcf0e53ceab1eea103a840ce61802e2",
+          "accepted_sha256": "131ee5871bee4438b668dae304263a1c3fcf0e53ceab1eea103a840ce61802e2",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/glossaries/english.tex",
+          "sha256": "73c5a080c99f3b63c6c82ace49cdf909f527c3cbdcc30133afb1e87444f06bf5",
+          "bytes": 458154,
+          "sha256_lf": "73c5a080c99f3b63c6c82ace49cdf909f527c3cbdcc30133afb1e87444f06bf5",
+          "accepted_sha256": "73c5a080c99f3b63c6c82ace49cdf909f527c3cbdcc30133afb1e87444f06bf5",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/glossaries/english.pdf",
+          "sha256": "41e5673ba53b07c102725c7bdd43ec4cc1573ba108e3583cfe49edb9ebcbbefb",
+          "bytes": 410236,
+          "sha256_lf": "04e12ac4fd727780a4ad7d70b934b1c21f6f06fcff12030870d46b2b6c6b27bb",
+          "accepted_sha256": "41e5673ba53b07c102725c7bdd43ec4cc1573ba108e3583cfe49edb9ebcbbefb",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 100,
+      "accepted_pages": 100,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "typesetting/glossaries/export-review.json",
+          "sha256": "77a6485b01039cba64fdaa8887a208f0dc83cd349b60a955d8397514e6f9150e",
+          "selector": "documents[english]"
+        },
+        "visual": [
+          {
+            "path": "typesetting/glossaries/page-review-en-01-51.json",
+            "sha256": "28b16e6ce3e2d6be050b50508d693470f636a27bf40cdf7944d24acd8007eae0"
+          },
+          {
+            "path": "typesetting/glossaries/page-review-en-52-76.json",
+            "sha256": "0f46d616bd5b4afec8aa02fc1f9fcd36795bd4647ca2ea2c95ed173c5b9b44a8"
+          },
+          {
+            "path": "typesetting/glossaries/page-review-en-latter.json",
+            "sha256": "a9e09416d5412ed7cd72cda1ef2c0f85bdda9c9bbc7f81ee1d12d85ed363d183"
+          }
+        ],
+        "content": [
+          {
+            "path": "typesetting/glossaries/content-check.json",
+            "sha256": "49bcda22f5e3b089c4c4d9985e1453d4269f1047da7449d64fd557114224e5aa"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "English–Old English",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-05",
+        "body_sha256_lf": "cddb6652e9d8fe620cb3409e2975447a510f491e52f8efcfe3030e49f6a08054",
+        "body_start_source_line": 11,
+        "body_lines": 8325,
+        "body_command_counts": {
+          "clearpage": 1,
+          "needspace": 2050,
+          "pdfbookmark": 27,
+          "fontsize": 1,
+          "addfontfeatures": 1,
+          "setlength": 1
+        },
+        "starred_sections": 1,
+        "starred_subsections": 25,
+        "unstarred_sections": 0,
+        "bookmarks": [
+          {
+            "level": 0,
+            "title": "English–Old English exercise glossary",
+            "destination": "outline-B00001"
+          },
+          {
+            "level": 0,
+            "title": "Entries",
+            "destination": "outline-B00006"
+          },
+          {
+            "level": 1,
+            "title": "A",
+            "destination": "outline-B00007"
+          },
+          {
+            "level": 1,
+            "title": "B",
+            "destination": "outline-B00153"
+          },
+          {
+            "level": 1,
+            "title": "C",
+            "destination": "outline-B00310"
+          },
+          {
+            "level": 1,
+            "title": "D",
+            "destination": "outline-B00440"
+          },
+          {
+            "level": 1,
+            "title": "E",
+            "destination": "outline-B00528"
+          },
+          {
+            "level": 1,
+            "title": "F",
+            "destination": "outline-B00590"
+          },
+          {
+            "level": 1,
+            "title": "G",
+            "destination": "outline-B00723"
+          },
+          {
+            "level": 1,
+            "title": "H",
+            "destination": "outline-B00784"
+          },
+          {
+            "level": 1,
+            "title": "I",
+            "destination": "outline-B00903"
+          },
+          {
+            "level": 1,
+            "title": "J",
+            "destination": "outline-B00988"
+          },
+          {
+            "level": 1,
+            "title": "K",
+            "destination": "outline-B01006"
+          },
+          {
+            "level": 1,
+            "title": "L",
+            "destination": "outline-B01027"
+          },
+          {
+            "level": 1,
+            "title": "M",
+            "destination": "outline-B01100"
+          },
+          {
+            "level": 1,
+            "title": "N",
+            "destination": "outline-B01188"
+          },
+          {
+            "level": 1,
+            "title": "O",
+            "destination": "outline-B01242"
+          },
+          {
+            "level": 1,
+            "title": "P",
+            "destination": "outline-B01321"
+          },
+          {
+            "level": 1,
+            "title": "Q",
+            "destination": "outline-B01438"
+          },
+          {
+            "level": 1,
+            "title": "R",
+            "destination": "outline-B01446"
+          },
+          {
+            "level": 1,
+            "title": "S",
+            "destination": "outline-B01531"
+          },
+          {
+            "level": 1,
+            "title": "T",
+            "destination": "outline-B01745"
+          },
+          {
+            "level": 1,
+            "title": "U",
+            "destination": "outline-B01900"
+          },
+          {
+            "level": 1,
+            "title": "V",
+            "destination": "outline-B01927"
+          },
+          {
+            "level": 1,
+            "title": "W",
+            "destination": "outline-B01947"
+          },
+          {
+            "level": 1,
+            "title": "Y",
+            "destination": "outline-B02060"
+          },
+          {
+            "level": 1,
+            "title": "Æ",
+            "destination": "outline-B02077"
+          }
+        ],
+        "manual_page_breaks": [
+          {
+            "line": 31,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Accepted primary export record and its retained visual-receipt hashes agree with the current component."
+    },
+    {
+      "component_id": "pronunciation/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Pronunciation practice: key",
+      "chapter": null,
+      "artifacts": {
+        "master": {
+          "path": "guides/pronunciation/answer-key.md",
+          "sha256": "1f1f1191fb20e0e16b2c6d9f1d6d98311254f071eb86b20bdf6ce53ec3a65616",
+          "bytes": 7396,
+          "sha256_lf": "1f1f1191fb20e0e16b2c6d9f1d6d98311254f071eb86b20bdf6ce53ec3a65616",
+          "accepted_sha256": "1f1f1191fb20e0e16b2c6d9f1d6d98311254f071eb86b20bdf6ce53ec3a65616",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/pronunciation/answer-key.tex",
+          "sha256": "b3ac762aea39464e0365e98c06f7a27c617db3dde9a5dfd388b6aa0120d50954",
+          "bytes": 10485,
+          "sha256_lf": "b3ac762aea39464e0365e98c06f7a27c617db3dde9a5dfd388b6aa0120d50954",
+          "accepted_sha256": "b3ac762aea39464e0365e98c06f7a27c617db3dde9a5dfd388b6aa0120d50954",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/pronunciation/answer-key.pdf",
+          "sha256": "99d90e4bf6e57d69569ed81cf2b849ace43e899311295baa0284957c773298bb",
+          "bytes": 85139,
+          "sha256_lf": "ecfcf520e3846db99a2181503454c5c7c92f0fc34226dc333bc272ffc5d2a73a",
+          "accepted_sha256": "99d90e4bf6e57d69569ed81cf2b849ace43e899311295baa0284957c773298bb",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 3,
+      "accepted_pages": 3,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "typesetting/pronunciation/export-review.json",
+          "sha256": "05569f95b44097827d6cefb0ad583e088bab5a71976375a63aad8bce6a74be5a",
+          "selector": "documents[key]"
+        },
+        "visual": [
+          {
+            "path": "typesetting/pronunciation/page-review-key.json",
+            "sha256": "22b9d8ef96087897c3c494b1e2ba64b30fa85cc1db6c7e2a5b0697d54dce5b8f"
+          }
+        ],
+        "content": [
+          {
+            "path": "typesetting/pronunciation/content-check.json",
+            "sha256": "4968ef3e4620a52651ac1b552c7ad6507050d4cb70628bcaa9d53143c7249471"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Pronunciation key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-04",
+        "body_sha256_lf": "701082062cfd0a1371d6ec25da65ae9bb877d6a0a5806900fbc075fe3f97e2af",
+        "body_start_source_line": 19,
+        "body_lines": 327,
+        "body_command_counts": {
+          "reserve": 6,
+          "addfontfeatures": 1
+        },
+        "starred_sections": 5,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 21,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Accepted primary export record and its retained visual-receipt hashes agree with the current component."
+    },
+    {
+      "component_id": "ch01/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 1. Answer key",
+      "chapter": 1,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch01/answer-key.md",
+          "sha256": "6a5991a838b6212ad63c4c7c2a12f29733af63eab0488cec0dd65d4ac2004e00",
+          "bytes": 29440,
+          "sha256_lf": "6a5991a838b6212ad63c4c7c2a12f29733af63eab0488cec0dd65d4ac2004e00",
+          "accepted_sha256": "6a5991a838b6212ad63c4c7c2a12f29733af63eab0488cec0dd65d4ac2004e00",
+          "accepted_sha256_lf": "6a5991a838b6212ad63c4c7c2a12f29733af63eab0488cec0dd65d4ac2004e00",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch01/answer-key.tex",
+          "sha256": "1c9cd454401a6d337a06ecf1d1e6e8456eec49a4e6674ae8ecd37284195c07bc",
+          "bytes": 39625,
+          "sha256_lf": "e47b3362feeb3228ca921cfab49731f7932a2cd221d97ace5cb7e018c4ad9cf0",
+          "accepted_sha256": "1c9cd454401a6d337a06ecf1d1e6e8456eec49a4e6674ae8ecd37284195c07bc",
+          "accepted_sha256_lf": "e47b3362feeb3228ca921cfab49731f7932a2cd221d97ace5cb7e018c4ad9cf0",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch01/answer-key.pdf",
+          "sha256": "f9b8161ccb8343f8c4e10396b36f5365607ca0f1305c30b9a75a38965452827f",
+          "bytes": 111938,
+          "sha256_lf": "1a1febe321a80e958abdbc5392d66f783d7295654d06af1a7eca6892a82f737f",
+          "accepted_sha256": "f9b8161ccb8343f8c4e10396b36f5365607ca0f1305c30b9a75a38965452827f",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 12,
+      "accepted_pages": 12,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch01/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch01/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch01/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 1. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-01",
+        "body_sha256_lf": "7370e9cab81c2a5a6e7abf933eec0cd6f0aa16602b70a4054b4de20ac59d947c",
+        "body_start_source_line": 11,
+        "body_lines": 752,
+        "body_command_counts": {
+          "clearpage": 2,
+          "fontsize": 3,
+          "setlength": 4
+        },
+        "starred_sections": 9,
+        "starred_subsections": 4,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 250,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 755,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": []
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch02/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 2. Answer key",
+      "chapter": 2,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch02/answer-key.md",
+          "sha256": "e92678fabfb798725eb0c4d089e6a7e47b20961b402295cc5410ef151033dbab",
+          "bytes": 31237,
+          "sha256_lf": "e92678fabfb798725eb0c4d089e6a7e47b20961b402295cc5410ef151033dbab",
+          "accepted_sha256": "e92678fabfb798725eb0c4d089e6a7e47b20961b402295cc5410ef151033dbab",
+          "accepted_sha256_lf": "e92678fabfb798725eb0c4d089e6a7e47b20961b402295cc5410ef151033dbab",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch02/answer-key.tex",
+          "sha256": "a0eda3c76026cd31fa1a2648ab66e3821c63eea5a6d673e9650a5e5625a779de",
+          "bytes": 51195,
+          "sha256_lf": "167959a814e5c635d6e3d2c581a1242e1d8ed404b117af08f125faf7b1c94447",
+          "accepted_sha256": "a0eda3c76026cd31fa1a2648ab66e3821c63eea5a6d673e9650a5e5625a779de",
+          "accepted_sha256_lf": "167959a814e5c635d6e3d2c581a1242e1d8ed404b117af08f125faf7b1c94447",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch02/answer-key.pdf",
+          "sha256": "03f2211d492bb80655aa5dc4c1863e3a37f6b2f07afe8b07ac52ea89bedd4ab0",
+          "bytes": 119473,
+          "sha256_lf": "03f2211d492bb80655aa5dc4c1863e3a37f6b2f07afe8b07ac52ea89bedd4ab0",
+          "accepted_sha256": "03f2211d492bb80655aa5dc4c1863e3a37f6b2f07afe8b07ac52ea89bedd4ab0",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 14,
+      "accepted_pages": 14,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch02/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch02/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch02/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 2. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-02",
+        "body_sha256_lf": "5951be5eb55f4d7328085809077cdbadb9a0c7c2b127b26b3997240205962446",
+        "body_start_source_line": 11,
+        "body_lines": 989,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 8,
+          "fontsize": 15,
+          "setlength": 28
+        },
+        "starred_sections": 9,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 985,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": []
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch03/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 3. Answer key",
+      "chapter": 3,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch03/answer-key.md",
+          "sha256": "94c8b7ac365046bcf304f966d166673189ef8a88ebde024c8d8dbaae46aa0ee9",
+          "bytes": 43303,
+          "sha256_lf": "94c8b7ac365046bcf304f966d166673189ef8a88ebde024c8d8dbaae46aa0ee9",
+          "accepted_sha256": "94c8b7ac365046bcf304f966d166673189ef8a88ebde024c8d8dbaae46aa0ee9",
+          "accepted_sha256_lf": "94c8b7ac365046bcf304f966d166673189ef8a88ebde024c8d8dbaae46aa0ee9",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch03/answer-key.tex",
+          "sha256": "29a49aa657326e7fdf85750675564552a89275058106b83d2272a665f5f45136",
+          "bytes": 69867,
+          "sha256_lf": "29a49aa657326e7fdf85750675564552a89275058106b83d2272a665f5f45136",
+          "accepted_sha256": "29a49aa657326e7fdf85750675564552a89275058106b83d2272a665f5f45136",
+          "accepted_sha256_lf": "29a49aa657326e7fdf85750675564552a89275058106b83d2272a665f5f45136",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch03/answer-key.pdf",
+          "sha256": "eb40fc270f1b460acbd21c624ef9e3402f3951637ec97aebdaeea49fcb7cad0c",
+          "bytes": 134725,
+          "sha256_lf": "b8cd5c191f3c52d4f862d1ca19fdf8dfdf8498d2add668ae7f93de71fc4ec88a",
+          "accepted_sha256": "eb40fc270f1b460acbd21c624ef9e3402f3951637ec97aebdaeea49fcb7cad0c",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 21,
+      "accepted_pages": 21,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch03/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch03/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch03/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 3. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-02",
+        "body_sha256_lf": "fc24345f8f811062bf8b7c58eb1863b4e5c1a243ad3ac04046516a3a2b26c5a1",
+        "body_start_source_line": 11,
+        "body_lines": 1403,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 12,
+          "fontsize": 29,
+          "setlength": 56
+        },
+        "starred_sections": 13,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 1395,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": []
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch04/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 4. Answer key",
+      "chapter": 4,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch04/answer-key.md",
+          "sha256": "d32b83bfe09437697c011d6f5b29eea95e0e2d11e7ab0cc303d04487390a2da7",
+          "bytes": 35951,
+          "sha256_lf": "d32b83bfe09437697c011d6f5b29eea95e0e2d11e7ab0cc303d04487390a2da7",
+          "accepted_sha256": "d32b83bfe09437697c011d6f5b29eea95e0e2d11e7ab0cc303d04487390a2da7",
+          "accepted_sha256_lf": "d32b83bfe09437697c011d6f5b29eea95e0e2d11e7ab0cc303d04487390a2da7",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch04/answer-key.tex",
+          "sha256": "6e7bd42d7f6151f92d3778ac83dcbb51d5addf61f010466d7ad841dfceff81cf",
+          "bytes": 67192,
+          "sha256_lf": "99164ab758ecddff84418ba7e33c6ab96394ef6193d6aa307ef839dd85be0a33",
+          "accepted_sha256": "6e7bd42d7f6151f92d3778ac83dcbb51d5addf61f010466d7ad841dfceff81cf",
+          "accepted_sha256_lf": "99164ab758ecddff84418ba7e33c6ab96394ef6193d6aa307ef839dd85be0a33",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch04/answer-key.pdf",
+          "sha256": "9cda70af32ebd6e7ad1cbf7e1f916b1e54938a758e5b82ea507a21ac38deded6",
+          "bytes": 127099,
+          "sha256_lf": "7d69bca737636c638a2d2be06967c623bb7ea82e30823c12b4932b462f2278f8",
+          "accepted_sha256": "9cda70af32ebd6e7ad1cbf7e1f916b1e54938a758e5b82ea507a21ac38deded6",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 18,
+      "accepted_pages": 18,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch04/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch04/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch04/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 4. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "32ae63a27ac3b069e5169da9de4a4bc6f5e3dade11f7c9cfde803ccf35c85410",
+        "body_start_source_line": 11,
+        "body_lines": 1515,
+        "body_command_counts": {
+          "clearpage": 2,
+          "reserve": 18,
+          "fontsize": 34,
+          "addfontfeatures": 1,
+          "setlength": 66
+        },
+        "starred_sections": 11,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 1371,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1487,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch05/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 5. Answer key",
+      "chapter": 5,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch05/answer-key.md",
+          "sha256": "16d3c595ef46d19d7f79a32b94063247effa7793f8f42feec4ad5b69ce4a5c70",
+          "bytes": 42931,
+          "sha256_lf": "16d3c595ef46d19d7f79a32b94063247effa7793f8f42feec4ad5b69ce4a5c70",
+          "accepted_sha256": "16d3c595ef46d19d7f79a32b94063247effa7793f8f42feec4ad5b69ce4a5c70",
+          "accepted_sha256_lf": "16d3c595ef46d19d7f79a32b94063247effa7793f8f42feec4ad5b69ce4a5c70",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch05/answer-key.tex",
+          "sha256": "d9be53fc1cde8832e40b0250a8841d847ef33e1319377b71ad3232be4c836d9b",
+          "bytes": 76660,
+          "sha256_lf": "5f3c9f51357e329c34c7be533fee9c04405c95b505f0534be28ffad052d049b6",
+          "accepted_sha256": "d9be53fc1cde8832e40b0250a8841d847ef33e1319377b71ad3232be4c836d9b",
+          "accepted_sha256_lf": "5f3c9f51357e329c34c7be533fee9c04405c95b505f0534be28ffad052d049b6",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch05/answer-key.pdf",
+          "sha256": "d025534ea07655420a6a66c93371f29d8ee093f5cf75b14f34ba5fe7079bab61",
+          "bytes": 134815,
+          "sha256_lf": "544cca4745ad910040a87b42d527623afb270a3572edbd93584619140b26b7a5",
+          "accepted_sha256": "d025534ea07655420a6a66c93371f29d8ee093f5cf75b14f34ba5fe7079bab61",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 21,
+      "accepted_pages": 21,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch05/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch05/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch05/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 5. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "f9e40925a6293d67687d2cbee54ddc95460007271556ccd3d50e2fd6330fb7b4",
+        "body_start_source_line": 11,
+        "body_lines": 1746,
+        "body_command_counts": {
+          "clearpage": 2,
+          "reserve": 16,
+          "fontsize": 35,
+          "addfontfeatures": 1,
+          "setlength": 68
+        },
+        "starred_sections": 10,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 1617,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1710,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch06/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 6. Answer key",
+      "chapter": 6,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch06/answer-key.md",
+          "sha256": "f32c7b7a4f9ca4d83c1694a268141ac4d49b3f5f9df20b98967c6fd1918e16a0",
+          "bytes": 53886,
+          "sha256_lf": "f32c7b7a4f9ca4d83c1694a268141ac4d49b3f5f9df20b98967c6fd1918e16a0",
+          "accepted_sha256": "f32c7b7a4f9ca4d83c1694a268141ac4d49b3f5f9df20b98967c6fd1918e16a0",
+          "accepted_sha256_lf": "f32c7b7a4f9ca4d83c1694a268141ac4d49b3f5f9df20b98967c6fd1918e16a0",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch06/answer-key.tex",
+          "sha256": "902ca82d7ea6740654e964c0673450d0d4f2572a5584d36639740643909a4b1f",
+          "bytes": 93743,
+          "sha256_lf": "2c5f72c8ade6987f917c05bb9a176d7eac588e7930945abbf9d5dd6b8668e736",
+          "accepted_sha256": "902ca82d7ea6740654e964c0673450d0d4f2572a5584d36639740643909a4b1f",
+          "accepted_sha256_lf": "2c5f72c8ade6987f917c05bb9a176d7eac588e7930945abbf9d5dd6b8668e736",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch06/answer-key.pdf",
+          "sha256": "78207bc055f004c5a9b6d51b28996d5346bbe4009335c463e95a34d9efbe99b4",
+          "bytes": 147145,
+          "sha256_lf": "76842d43f6b26083f7c9051f431d2b20b2768c7c7da6a69dd57513053ed6bca3",
+          "accepted_sha256": "78207bc055f004c5a9b6d51b28996d5346bbe4009335c463e95a34d9efbe99b4",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 27,
+      "accepted_pages": 27,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch06/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch06/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch06/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 6. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "a664164cb7dc5df36f1fd95320e0e5c7ed63fc9421260474086258e49ab6586c",
+        "body_start_source_line": 11,
+        "body_lines": 2103,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 8,
+          "fontsize": 41,
+          "addfontfeatures": 1,
+          "setlength": 80
+        },
+        "starred_sections": 8,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 2069,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch07/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 7. Answer key",
+      "chapter": 7,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch07/answer-key.md",
+          "sha256": "2e70c0efc0dc5eb9c83a8a2a4fa56c4ec1ee7778cf1d5bb65cb9bde82448d0b2",
+          "bytes": 65716,
+          "sha256_lf": "2e70c0efc0dc5eb9c83a8a2a4fa56c4ec1ee7778cf1d5bb65cb9bde82448d0b2",
+          "accepted_sha256": "2e70c0efc0dc5eb9c83a8a2a4fa56c4ec1ee7778cf1d5bb65cb9bde82448d0b2",
+          "accepted_sha256_lf": "2e70c0efc0dc5eb9c83a8a2a4fa56c4ec1ee7778cf1d5bb65cb9bde82448d0b2",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch07/answer-key.tex",
+          "sha256": "761dfbd636dee2f7cfffbba043fc435fc1d4fa2c1cfbe09e72b2b860fdb0785e",
+          "bytes": 100378,
+          "sha256_lf": "4b56adcaa97176c48ec928425d754db8a99e82944e9aaafccc415263c7c9f8ba",
+          "accepted_sha256": "761dfbd636dee2f7cfffbba043fc435fc1d4fa2c1cfbe09e72b2b860fdb0785e",
+          "accepted_sha256_lf": "4b56adcaa97176c48ec928425d754db8a99e82944e9aaafccc415263c7c9f8ba",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch07/answer-key.pdf",
+          "sha256": "343e62f4f6fe3cd98475a04f02b983aef08010745966da74669c2c15a8122940",
+          "bytes": 163512,
+          "sha256_lf": "63e46d765781b72f03f6993fa42e29761b259654dfae765ebdcba25260fa9c0a",
+          "accepted_sha256": "343e62f4f6fe3cd98475a04f02b983aef08010745966da74669c2c15a8122940",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 30,
+      "accepted_pages": 30,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch07/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch07/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch07/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 7. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "c0e331ff7806d1c1c410d084f2ef60664e2e8be5b046e2995ee6f8fa2535d5b5",
+        "body_start_source_line": 11,
+        "body_lines": 1903,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 12,
+          "fontsize": 19,
+          "addfontfeatures": 1,
+          "setlength": 36
+        },
+        "starred_sections": 9,
+        "starred_subsections": 4,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 1875,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch08/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 8. Answer key",
+      "chapter": 8,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch08/answer-key.md",
+          "sha256": "1fc7d4f58230ef644b8ccedaafd54c14d27d4937ba64719e798179f5f9ab0100",
+          "bytes": 52134,
+          "sha256_lf": "1fc7d4f58230ef644b8ccedaafd54c14d27d4937ba64719e798179f5f9ab0100",
+          "accepted_sha256": "1fc7d4f58230ef644b8ccedaafd54c14d27d4937ba64719e798179f5f9ab0100",
+          "accepted_sha256_lf": "1fc7d4f58230ef644b8ccedaafd54c14d27d4937ba64719e798179f5f9ab0100",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch08/answer-key.tex",
+          "sha256": "89b0ee3b251b2c1155e58fbdcb580ec38c314aded5ff781106faef6890808499",
+          "bytes": 79508,
+          "sha256_lf": "1b57ee08cd6674aec88a9e3d21b41c0cf7e4d9be82c8896b45d107645a779619",
+          "accepted_sha256": "89b0ee3b251b2c1155e58fbdcb580ec38c314aded5ff781106faef6890808499",
+          "accepted_sha256_lf": "1b57ee08cd6674aec88a9e3d21b41c0cf7e4d9be82c8896b45d107645a779619",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch08/answer-key.pdf",
+          "sha256": "e238ef1bfdee2d9d141d8ca6032f7ada3bbae830e3484d2aaecdcc130ab15b54",
+          "bytes": 145885,
+          "sha256_lf": "e238ef1bfdee2d9d141d8ca6032f7ada3bbae830e3484d2aaecdcc130ab15b54",
+          "accepted_sha256": "e238ef1bfdee2d9d141d8ca6032f7ada3bbae830e3484d2aaecdcc130ab15b54",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 24,
+      "accepted_pages": 24,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch08/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch08/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch08/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 8. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "d99f102eb531629f449708a9fa2cdd018ed0c6841ec180381a03bb5724a92128",
+        "body_start_source_line": 11,
+        "body_lines": 1532,
+        "body_command_counts": {
+          "newpage": 1,
+          "clearpage": 1,
+          "reserve": 9,
+          "fontsize": 13,
+          "addfontfeatures": 1,
+          "setlength": 24
+        },
+        "starred_sections": 10,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 406,
+            "text": "\\newpage"
+          },
+          {
+            "line": 1524,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch09/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 9. Answer key",
+      "chapter": 9,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch09/answer-key.md",
+          "sha256": "9c686ae7ec70b688baf7a861611bec2337407c707ce2bbfac9f2d5b9e37aaf73",
+          "bytes": 58633,
+          "sha256_lf": "9c686ae7ec70b688baf7a861611bec2337407c707ce2bbfac9f2d5b9e37aaf73",
+          "accepted_sha256": "9c686ae7ec70b688baf7a861611bec2337407c707ce2bbfac9f2d5b9e37aaf73",
+          "accepted_sha256_lf": "9c686ae7ec70b688baf7a861611bec2337407c707ce2bbfac9f2d5b9e37aaf73",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch09/answer-key.tex",
+          "sha256": "b5d2a34883d41cca2b7e3e549ee1a386500f18f7dc4886176a631bdb8016bebd",
+          "bytes": 90853,
+          "sha256_lf": "fb92c65db725e915304f7c5705f90b97cd0409d1c68583076b7eb8597da80644",
+          "accepted_sha256": "b5d2a34883d41cca2b7e3e549ee1a386500f18f7dc4886176a631bdb8016bebd",
+          "accepted_sha256_lf": "fb92c65db725e915304f7c5705f90b97cd0409d1c68583076b7eb8597da80644",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch09/answer-key.pdf",
+          "sha256": "998db87667d2e31783096adaf41548de13c9fe799f0f2d745fb7a9ff403a2338",
+          "bytes": 151387,
+          "sha256_lf": "998db87667d2e31783096adaf41548de13c9fe799f0f2d745fb7a9ff403a2338",
+          "accepted_sha256": "998db87667d2e31783096adaf41548de13c9fe799f0f2d745fb7a9ff403a2338",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 26,
+      "accepted_pages": 26,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch09/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch09/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch09/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 9. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "bfe4bcd3b4bec05d7d155e7103d3ab234c81292d597aeead6941134a377e3b4b",
+        "body_start_source_line": 11,
+        "body_lines": 1933,
+        "body_command_counts": {
+          "clearpage": 1,
+          "reserve": 12,
+          "fontsize": 6,
+          "addfontfeatures": 1,
+          "setlength": 10
+        },
+        "starred_sections": 13,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 1921,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch10/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 10. Answer key",
+      "chapter": 10,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch10/answer-key.md",
+          "sha256": "f87e5d18fcabcc4502d7b2b72312c835942362e38bdb41e8a42c05b0acd29c36",
+          "bytes": 61047,
+          "sha256_lf": "f87e5d18fcabcc4502d7b2b72312c835942362e38bdb41e8a42c05b0acd29c36",
+          "accepted_sha256": "f87e5d18fcabcc4502d7b2b72312c835942362e38bdb41e8a42c05b0acd29c36",
+          "accepted_sha256_lf": "f87e5d18fcabcc4502d7b2b72312c835942362e38bdb41e8a42c05b0acd29c36",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch10/answer-key.tex",
+          "sha256": "75bcffe9c5eefcdbb8885b535da128d59a469f575d9c7ae26b4376763696ed03",
+          "bytes": 93566,
+          "sha256_lf": "75bcffe9c5eefcdbb8885b535da128d59a469f575d9c7ae26b4376763696ed03",
+          "accepted_sha256": "75bcffe9c5eefcdbb8885b535da128d59a469f575d9c7ae26b4376763696ed03",
+          "accepted_sha256_lf": "75bcffe9c5eefcdbb8885b535da128d59a469f575d9c7ae26b4376763696ed03",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch10/answer-key.pdf",
+          "sha256": "cc1d12044ac75fc1143640d02b51810667309990926a818d12640f8de55714e5",
+          "bytes": 160998,
+          "sha256_lf": "ac4417eaf09e279f2e4d013f08ff025f66c4d8393ad4e052a06319077a8d3f01",
+          "accepted_sha256": "cc1d12044ac75fc1143640d02b51810667309990926a818d12640f8de55714e5",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 29,
+      "accepted_pages": 29,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch10/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch10/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch10/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 10. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "a469e4e6da3fb2c468c430cf3238602c96969cf80bc391cc5e4e702f619e81f7",
+        "body_start_source_line": 11,
+        "body_lines": 2113,
+        "body_command_counts": {
+          "clearpage": 5,
+          "reserve": 16,
+          "fontsize": 10,
+          "addfontfeatures": 1,
+          "setlength": 18
+        },
+        "starred_sections": 9,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 32,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1072,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1903,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1999,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 2097,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch11/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 11. Answer key",
+      "chapter": 11,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch11/answer-key.md",
+          "sha256": "fc0c8d0667c675f57673606e3d05bc3b7e6a75adc7c9a6d21e40bb747af58d42",
+          "bytes": 61394,
+          "sha256_lf": "fc0c8d0667c675f57673606e3d05bc3b7e6a75adc7c9a6d21e40bb747af58d42",
+          "accepted_sha256": "fc0c8d0667c675f57673606e3d05bc3b7e6a75adc7c9a6d21e40bb747af58d42",
+          "accepted_sha256_lf": "fc0c8d0667c675f57673606e3d05bc3b7e6a75adc7c9a6d21e40bb747af58d42",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch11/answer-key.tex",
+          "sha256": "899454eac097060698b4ecbdc761c6480952957834d4d1638ba4e8766567fb2a",
+          "bytes": 95242,
+          "sha256_lf": "d11cd6718f6c8e4671d74e4a7f183871e97ecf0578350cbd4c40313d7eb7a097",
+          "accepted_sha256": "899454eac097060698b4ecbdc761c6480952957834d4d1638ba4e8766567fb2a",
+          "accepted_sha256_lf": "d11cd6718f6c8e4671d74e4a7f183871e97ecf0578350cbd4c40313d7eb7a097",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch11/answer-key.pdf",
+          "sha256": "7fab86500bfd598067552f3317b1ead82d369249e642ed13025c2ab8390febfd",
+          "bytes": 159581,
+          "sha256_lf": "97cff78fb82c8f679c57ce04ea155b09b7aa2918e759e28c08bf138d4741e1d4",
+          "accepted_sha256": "7fab86500bfd598067552f3317b1ead82d369249e642ed13025c2ab8390febfd",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 30,
+      "accepted_pages": 30,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch11/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch11/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch11/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 11. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "f6ba51d8919d6edec2b3fdc3ea278d4c2508e14039707d0035680268532c0132",
+        "body_start_source_line": 11,
+        "body_lines": 2204,
+        "body_command_counts": {
+          "clearpage": 3,
+          "reserve": 16,
+          "fontsize": 14,
+          "addfontfeatures": 1,
+          "setlength": 26
+        },
+        "starred_sections": 10,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 32,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 2020,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 2188,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch12/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 12. Answer key",
+      "chapter": 12,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch12/answer-key.md",
+          "sha256": "c72444ddc74b7e7abac4c166b78f4f7164e541d74e0d858efc6cfc3c1e872dbf",
+          "bytes": 63951,
+          "sha256_lf": "c72444ddc74b7e7abac4c166b78f4f7164e541d74e0d858efc6cfc3c1e872dbf",
+          "accepted_sha256": "c72444ddc74b7e7abac4c166b78f4f7164e541d74e0d858efc6cfc3c1e872dbf",
+          "accepted_sha256_lf": "c72444ddc74b7e7abac4c166b78f4f7164e541d74e0d858efc6cfc3c1e872dbf",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch12/answer-key.tex",
+          "sha256": "1fdcfaa828a7ee16c0da4b6d7decdf445701c242fbd143468829509b8f072dc5",
+          "bytes": 91955,
+          "sha256_lf": "1fdcfaa828a7ee16c0da4b6d7decdf445701c242fbd143468829509b8f072dc5",
+          "accepted_sha256": "1fdcfaa828a7ee16c0da4b6d7decdf445701c242fbd143468829509b8f072dc5",
+          "accepted_sha256_lf": "1fdcfaa828a7ee16c0da4b6d7decdf445701c242fbd143468829509b8f072dc5",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch12/answer-key.pdf",
+          "sha256": "7e156152d884bd6c5a6b2cb1fe219db183031fd6ac5c9b6d1046af9fb6ee18db",
+          "bytes": 162432,
+          "sha256_lf": "73ad5385e96e67dd924c60753f1d8dc0a21579782f63f83a6f8e8505b2f610d8",
+          "accepted_sha256": "7e156152d884bd6c5a6b2cb1fe219db183031fd6ac5c9b6d1046af9fb6ee18db",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 30,
+      "accepted_pages": 30,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch12/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch12/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch12/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 12. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "c44f0469066c39dd6bc7b77caecfb316de29c3e43b244ab889722898f6451f7b",
+        "body_start_source_line": 11,
+        "body_lines": 1729,
+        "body_command_counts": {
+          "clearpage": 4,
+          "reserve": 16,
+          "fontsize": 12,
+          "addfontfeatures": 1,
+          "setlength": 22
+        },
+        "starred_sections": 9,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 32,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1409,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1507,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1701,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch13/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 13. Answer key",
+      "chapter": 13,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch13/answer-key.md",
+          "sha256": "8f997622ba66ec27326bca1fd9c88174064046eda3b236f5ec10e2e035a19811",
+          "bytes": 69362,
+          "sha256_lf": "8f997622ba66ec27326bca1fd9c88174064046eda3b236f5ec10e2e035a19811",
+          "accepted_sha256": "8f997622ba66ec27326bca1fd9c88174064046eda3b236f5ec10e2e035a19811",
+          "accepted_sha256_lf": "8f997622ba66ec27326bca1fd9c88174064046eda3b236f5ec10e2e035a19811",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch13/answer-key.tex",
+          "sha256": "fd61c130f68c870257df7ef7eec95f8bc527bde4d989b3b4478a0609f2fb54f2",
+          "bytes": 101677,
+          "sha256_lf": "fd61c130f68c870257df7ef7eec95f8bc527bde4d989b3b4478a0609f2fb54f2",
+          "accepted_sha256": "fd61c130f68c870257df7ef7eec95f8bc527bde4d989b3b4478a0609f2fb54f2",
+          "accepted_sha256_lf": "fd61c130f68c870257df7ef7eec95f8bc527bde4d989b3b4478a0609f2fb54f2",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch13/answer-key.pdf",
+          "sha256": "32e2c4702478fda3c6408bf545b8d72aa84c6b5991990b3995772b24b6e40202",
+          "bytes": 172383,
+          "sha256_lf": "256cdc7df04a5f7ee6986854c92e85e01d633cc5ebbd6907baa0ed4faa21c82c",
+          "accepted_sha256": "32e2c4702478fda3c6408bf545b8d72aa84c6b5991990b3995772b24b6e40202",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 30,
+      "accepted_pages": 30,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch13/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch13/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch13/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 13. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "db68902863431b6e03175782f83228c0d9c77bba7feaa9a6bacb1fd30066b735",
+        "body_start_source_line": 11,
+        "body_lines": 1997,
+        "body_command_counts": {
+          "clearpage": 2,
+          "reserve": 26,
+          "fontsize": 13,
+          "addfontfeatures": 1,
+          "setlength": 24
+        },
+        "starred_sections": 10,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 28,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1774,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch14/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 14. Answer key",
+      "chapter": 14,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch14/answer-key.md",
+          "sha256": "e3d1e422aff8b3e9a2ff42a5b70e22ef5c2225d23ba94d359899a5a3b54545d5",
+          "bytes": 42313,
+          "sha256_lf": "e3d1e422aff8b3e9a2ff42a5b70e22ef5c2225d23ba94d359899a5a3b54545d5",
+          "accepted_sha256": "e3d1e422aff8b3e9a2ff42a5b70e22ef5c2225d23ba94d359899a5a3b54545d5",
+          "accepted_sha256_lf": "e3d1e422aff8b3e9a2ff42a5b70e22ef5c2225d23ba94d359899a5a3b54545d5",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch14/answer-key.tex",
+          "sha256": "8a217058c1341854f8c0412defe9cccefe39f1f06ca7b1199ec47bfa10e6f449",
+          "bytes": 59850,
+          "sha256_lf": "8a217058c1341854f8c0412defe9cccefe39f1f06ca7b1199ec47bfa10e6f449",
+          "accepted_sha256": "8a217058c1341854f8c0412defe9cccefe39f1f06ca7b1199ec47bfa10e6f449",
+          "accepted_sha256_lf": "8a217058c1341854f8c0412defe9cccefe39f1f06ca7b1199ec47bfa10e6f449",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch14/answer-key.pdf",
+          "sha256": "1c8f773893b4bc9bfa58c3e76f10990d2cc42fbd339e06a43ffacca83e19cd44",
+          "bytes": 141084,
+          "sha256_lf": "dce10166ddf6e686e7eaa8bf6c8698253e6a55cf1daaf3bc8a289cc085d3a89d",
+          "accepted_sha256": "1c8f773893b4bc9bfa58c3e76f10990d2cc42fbd339e06a43ffacca83e19cd44",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 21,
+      "accepted_pages": 21,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch14/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch14/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch14/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 14. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "b64f268ad8374eaec43d22903e8078d5eecd733a9c2623dc34636769b4ecc390",
+        "body_start_source_line": 11,
+        "body_lines": 1085,
+        "body_command_counts": {
+          "clearpage": 3,
+          "reserve": 19,
+          "fontsize": 13,
+          "addfontfeatures": 1,
+          "setlength": 24
+        },
+        "starred_sections": 7,
+        "starred_subsections": 0,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 24,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 904,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1061,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch15/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 15. Answer key",
+      "chapter": 15,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch15/answer-key.md",
+          "sha256": "b5712e52c7ca2e4649c2e31613a3d264b89b92cb671354136d450a458717531a",
+          "bytes": 68083,
+          "sha256_lf": "b5712e52c7ca2e4649c2e31613a3d264b89b92cb671354136d450a458717531a",
+          "accepted_sha256": "b5712e52c7ca2e4649c2e31613a3d264b89b92cb671354136d450a458717531a",
+          "accepted_sha256_lf": "b5712e52c7ca2e4649c2e31613a3d264b89b92cb671354136d450a458717531a",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch15/answer-key.tex",
+          "sha256": "a0704e67ce8873485f59d85192d591282bc6fc19077c4772265547525d78a304",
+          "bytes": 103265,
+          "sha256_lf": "a0704e67ce8873485f59d85192d591282bc6fc19077c4772265547525d78a304",
+          "accepted_sha256": "a0704e67ce8873485f59d85192d591282bc6fc19077c4772265547525d78a304",
+          "accepted_sha256_lf": "a0704e67ce8873485f59d85192d591282bc6fc19077c4772265547525d78a304",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch15/answer-key.pdf",
+          "sha256": "4cd19273b59bd0ed19cc6c25545888d62d9a1bd75c2f54be6bd59f5f2e89264c",
+          "bytes": 167971,
+          "sha256_lf": "4cd19273b59bd0ed19cc6c25545888d62d9a1bd75c2f54be6bd59f5f2e89264c",
+          "accepted_sha256": "4cd19273b59bd0ed19cc6c25545888d62d9a1bd75c2f54be6bd59f5f2e89264c",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 30,
+      "accepted_pages": 30,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch15/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch15/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch15/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 15. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "15cde2ab8a4c2736db5a499725579dd73352221dbd5368bdb1aa797fe8b5711c",
+        "body_start_source_line": 12,
+        "body_lines": 2540,
+        "body_command_counts": {
+          "reserve": 113,
+          "fontsize": 14,
+          "addfontfeatures": 1,
+          "setlength": 28
+        },
+        "starred_sections": 11,
+        "starred_subsections": 105,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [],
+        "font_feature_lines": [
+          {
+            "line": 13,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch16/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 16. Answer key",
+      "chapter": 16,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch16/answer-key.md",
+          "sha256": "9f7c6115c1e6ea300e48116239a640d1ae97f14efd66fc81d281ed7a937d7c7e",
+          "bytes": 71522,
+          "sha256_lf": "9f7c6115c1e6ea300e48116239a640d1ae97f14efd66fc81d281ed7a937d7c7e",
+          "accepted_sha256": "9f7c6115c1e6ea300e48116239a640d1ae97f14efd66fc81d281ed7a937d7c7e",
+          "accepted_sha256_lf": "9f7c6115c1e6ea300e48116239a640d1ae97f14efd66fc81d281ed7a937d7c7e",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch16/answer-key.tex",
+          "sha256": "9897b761fe243553a330b79eddd2ccf765c652cf3395f298b8da076bf518fa06",
+          "bytes": 101391,
+          "sha256_lf": "d23df49103650e88e05e28106372d204ad8c71f269d6856d097333a6d45e55f9",
+          "accepted_sha256": "9897b761fe243553a330b79eddd2ccf765c652cf3395f298b8da076bf518fa06",
+          "accepted_sha256_lf": "d23df49103650e88e05e28106372d204ad8c71f269d6856d097333a6d45e55f9",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch16/answer-key.pdf",
+          "sha256": "38f0a82d2e7414b03acad7b49c2362dfa51e16e153356b27958999b1fdcfcce2",
+          "bytes": 170216,
+          "sha256_lf": "38f0a82d2e7414b03acad7b49c2362dfa51e16e153356b27958999b1fdcfcce2",
+          "accepted_sha256": "38f0a82d2e7414b03acad7b49c2362dfa51e16e153356b27958999b1fdcfcce2",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 32,
+      "accepted_pages": 32,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch16/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch16/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch16/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 16. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "844b2ee8e5e6c1b436bf43b656373842635a86ae23e891aff4e17e8be8fe0814",
+        "body_start_source_line": 11,
+        "body_lines": 2067,
+        "body_command_counts": {
+          "clearpage": 6,
+          "reserve": 20,
+          "addfontfeatures": 1
+        },
+        "starred_sections": 9,
+        "starred_subsections": 76,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 575,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 811,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1026,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1304,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1603,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1839,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch17/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 17. Answer key",
+      "chapter": 17,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch17/answer-key.md",
+          "sha256": "c6710364dde62f50c01f7bfeab57fd6ed813dddaa13d6860cfd55e75b5b2a81d",
+          "bytes": 91340,
+          "sha256_lf": "c6710364dde62f50c01f7bfeab57fd6ed813dddaa13d6860cfd55e75b5b2a81d",
+          "accepted_sha256": "c6710364dde62f50c01f7bfeab57fd6ed813dddaa13d6860cfd55e75b5b2a81d",
+          "accepted_sha256_lf": "c6710364dde62f50c01f7bfeab57fd6ed813dddaa13d6860cfd55e75b5b2a81d",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch17/answer-key.tex",
+          "sha256": "9495b3ab33874bb7ee1a6e6e9ba8e71c83d0cf19ec274f092bd89568b365cb77",
+          "bytes": 131540,
+          "sha256_lf": "9495b3ab33874bb7ee1a6e6e9ba8e71c83d0cf19ec274f092bd89568b365cb77",
+          "accepted_sha256": "9495b3ab33874bb7ee1a6e6e9ba8e71c83d0cf19ec274f092bd89568b365cb77",
+          "accepted_sha256_lf": "9495b3ab33874bb7ee1a6e6e9ba8e71c83d0cf19ec274f092bd89568b365cb77",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch17/answer-key.pdf",
+          "sha256": "a16eec4e7eafd929c427507e3b430986256a0d126d1b6c497fcb2cd25daeae42",
+          "bytes": 204368,
+          "sha256_lf": "dd6e7db210c48f455e35a452003bfd104ce7cb2829506b6aaf06dc5c01b21c61",
+          "accepted_sha256": "a16eec4e7eafd929c427507e3b430986256a0d126d1b6c497fcb2cd25daeae42",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 45,
+      "accepted_pages": 45,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch17/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch17/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch17/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 17. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "79c44eb235eb212634eb3178cb97275a16a927a4c7f6733c9773ceffa9b6e039",
+        "body_start_source_line": 11,
+        "body_lines": 2841,
+        "body_command_counts": {
+          "clearpage": 8,
+          "reserve": 109,
+          "addfontfeatures": 1
+        },
+        "starred_sections": 12,
+        "starred_subsections": 103,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 683,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 990,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1205,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1361,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1580,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1837,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 2035,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 2545,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    },
+    {
+      "component_id": "ch18/key",
+      "volume": "key",
+      "kind": "key",
+      "title": "Unit 18. Answer key",
+      "chapter": 18,
+      "artifacts": {
+        "master": {
+          "path": "chapters/ch18/answer-key.md",
+          "sha256": "6370dfd1a9d91d2bf0539d469d710976a88125fa5716d716e552bd4e93aeb033",
+          "bytes": 67911,
+          "sha256_lf": "6370dfd1a9d91d2bf0539d469d710976a88125fa5716d716e552bd4e93aeb033",
+          "accepted_sha256": "6370dfd1a9d91d2bf0539d469d710976a88125fa5716d716e552bd4e93aeb033",
+          "accepted_sha256_lf": "6370dfd1a9d91d2bf0539d469d710976a88125fa5716d716e552bd4e93aeb033",
+          "acceptance_match": "exact"
+        },
+        "tex": {
+          "path": "typesetting/ch18/answer-key.tex",
+          "sha256": "2a56c58af2c63c0ba905c758b218388972ee57e7d54895dbd17453799f08c4ce",
+          "bytes": 95015,
+          "sha256_lf": "2a56c58af2c63c0ba905c758b218388972ee57e7d54895dbd17453799f08c4ce",
+          "accepted_sha256": "2a56c58af2c63c0ba905c758b218388972ee57e7d54895dbd17453799f08c4ce",
+          "accepted_sha256_lf": "2a56c58af2c63c0ba905c758b218388972ee57e7d54895dbd17453799f08c4ce",
+          "acceptance_match": "exact"
+        },
+        "pdf": {
+          "path": "typesetting/ch18/answer-key.pdf",
+          "sha256": "10bacc982e9457e1659c981d147194bf017cae4ddc2cdd13da0df5136802bb2d",
+          "bytes": 177009,
+          "sha256_lf": "6cad644ca6722cb51a9dda1f0e54ae7f811fd1bbde7ff60c9509e2d9579d3605",
+          "accepted_sha256": "10bacc982e9457e1659c981d147194bf017cae4ddc2cdd13da0df5136802bb2d",
+          "accepted_sha256_lf": null,
+          "acceptance_match": "exact"
+        }
+      },
+      "standalone_pages": 32,
+      "accepted_pages": 32,
+      "page_count_matches": true,
+      "page_size": "165 × 241 mm, defined by the shared retained layout",
+      "acceptance_records": {
+        "export": {
+          "path": "docs/revisions/table-layout/exports.json",
+          "sha256": "e34ce75ee6ad50a8ec80b7d68d932f99ab438f760fc61e4f73dac446e2935b99",
+          "selector": "documents[document=ch18/key]"
+        },
+        "visual": [
+          {
+            "path": "docs/revisions/table-layout/page-review.json",
+            "sha256": "9280228a7b03575aff09455eca21da95fbd49fc8da2a34982f562033f1449a16",
+            "selector": "ch18/key"
+          }
+        ],
+        "content": [
+          {
+            "path": "docs/revisions/table-layout/export-text-review.json",
+            "sha256": "de57b00cd57765903808f5ae9d5c32d1e2f1d3d6a3871c5d0b6ad9430831dcd8",
+            "selector": "chapters/ch18/answer-key.md"
+          }
+        ]
+      },
+      "tex_assembly": {
+        "running_title": "Unit 18. Answer key",
+        "shared_input": "../book-layout.tex",
+        "local_setup_id": "setup-03",
+        "body_sha256_lf": "0d6f956f196f584db52335b769dbcf21d53c4b24b7cef1f0f951e236788f4698",
+        "body_start_source_line": 11,
+        "body_lines": 1850,
+        "body_command_counts": {
+          "clearpage": 7,
+          "reserve": 56,
+          "addfontfeatures": 1
+        },
+        "starred_sections": 9,
+        "starred_subsections": 61,
+        "unstarred_sections": 0,
+        "bookmarks": [],
+        "manual_page_breaks": [
+          {
+            "line": 201,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 274,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 499,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 676,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 874,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1076,
+            "text": "\\clearpage"
+          },
+          {
+            "line": 1312,
+            "text": "\\clearpage"
+          }
+        ],
+        "font_feature_lines": [
+          {
+            "line": 12,
+            "text": "\\addfontfeatures{Ligatures=TeXOff}"
+          }
+        ]
+      },
+      "acceptance_verified": "Current export identities, all per-page accepted statuses and empty content-review error/missing-event lists agree."
+    }
+  ],
+  "local_setups": [
+    {
+      "setup_id": "setup-01",
+      "sha256_lf": "4aabb1488e00f22fe954cc634a6ac69bb9d5b407742608a9ab8976769c464053",
+      "preamble_after_removing_comments_runningtitle_and_shared_input": "\\hyphenpenalty=10000\n\\exhyphenpenalty=10000\n\\emergencystretch=3em\n\\newcommand{\\itempara}[2]{\\par\\addvspace{3pt}\\begingroup\\raggedright\\noindent\\hangindent=1.8em\\hangafter=1\\makebox[1.8em][l]{#1.}#2\\par\\endgroup}\n\\newcommand{\\continuation}[1]{\\par\\begingroup\\raggedright\\leftskip=1.8em #1\\par\\endgroup}\n",
+      "components": [
+        "ch01/learner",
+        "ch01/key"
+      ]
+    },
+    {
+      "setup_id": "setup-02",
+      "sha256_lf": "a04c2a46975f1f9e0353c47ad7c1bc35352262f205622cad66eab5459e5f7731",
+      "preamble_after_removing_comments_runningtitle_and_shared_input": "\\hyphenpenalty=10000\n\\exhyphenpenalty=10000\n\\emergencystretch=3em\n\\newcommand{\\itempara}[2]{\\par\\addvspace{3pt}\\noindent\\hangindent=1.8em\\hangafter=1\\makebox[1.8em][l]{#1.}#2\\par}\n\\newcommand{\\reserve}[1]{\\par\\begingroup\\dimen0=\\pagegoal\\advance\\dimen0 by-\\pagetotal\\ifdim\\dimen0<#1\\newpage\\fi\\endgroup}\n",
+      "components": [
+        "ch02/learner",
+        "ch02/key",
+        "ch03/key"
+      ]
+    },
+    {
+      "setup_id": "setup-03",
+      "sha256_lf": "24bd2d482e0f091161c9538377d055401f3a15022757bf4886cf5f952b468283",
+      "preamble_after_removing_comments_runningtitle_and_shared_input": "\\hyphenpenalty=10000\n\\exhyphenpenalty=10000\n\\emergencystretch=3em\n\\newcommand{\\itempara}[2]{\\par\\addvspace{3pt}\\noindent\\hangindent=1.8em\\hangafter=1\\makebox[1.8em][l]{#1.}#2\\par}\n\\newcommand{\\reserve}[1]{\\par\\penalty-100\\begingroup\\dimen0=\\pagegoal\\advance\\dimen0 by-\\pagetotal\\ifdim\\dimen0<#1\\newpage\\fi\\endgroup}\n",
+      "components": [
+        "ch03/learner",
+        "ch04/learner",
+        "ch04/key",
+        "ch05/learner",
+        "ch05/key",
+        "ch06/learner",
+        "ch06/key",
+        "ch07/learner",
+        "ch07/key",
+        "ch08/learner",
+        "ch08/key",
+        "ch09/learner",
+        "ch09/key",
+        "ch10/learner",
+        "ch10/key",
+        "ch11/learner",
+        "ch11/key",
+        "ch12/learner",
+        "ch12/key",
+        "ch13/learner",
+        "ch13/key",
+        "ch14/learner",
+        "ch14/key",
+        "ch15/learner",
+        "ch15/key",
+        "ch16/learner",
+        "ch16/key",
+        "ch17/learner",
+        "ch17/key",
+        "ch18/learner",
+        "ch18/key"
+      ]
+    },
+    {
+      "setup_id": "setup-04",
+      "sha256_lf": "512feaeab2784884b7c1896f5e10d2a52b2a345084cdf6260e2b500ad850ca9a",
+      "preamble_after_removing_comments_runningtitle_and_shared_input": "\\hyphenpenalty=10000\n\\exhyphenpenalty=10000\n\\emergencystretch=3em\n\\newcommand{\\reserve}[1]{\\par\\penalty-100\\begingroup\\dimen0=\\pagegoal\\advance\\dimen0 by-\\pagetotal\\ifdim\\dimen0<#1\\newpage\\fi\\endgroup}\n",
+      "components": [
+        "pronunciation/learner",
+        "pronunciation/key"
+      ]
+    },
+    {
+      "setup_id": "setup-05",
+      "sha256_lf": "b6c19e26bd7294b50dbdfc8f134c8726264b382532a73c74d9b1d63f565fe013",
+      "preamble_after_removing_comments_runningtitle_and_shared_input": "\\usepackage{multicol}\n\\raggedcolumns\n\\newcommand{\\needspace}[1]{\\par\\begingroup\\skip0=\\lastskip\\vskip-\\skip0\\dimen0=#1\\relax\\advance\\dimen0 by\\skip0\\vskip0pt plus\\dimen0\\penalty-100\\vskip0pt plus-\\dimen0\\vskip\\dimen0\\penalty9999\\vskip-\\dimen0\\vskip\\skip0\\endgroup}\n\\setlength{\\columnsep}{6mm}\n\\hyphenpenalty=10000\\exhyphenpenalty=10000\n\\emergencystretch=2em\n",
+      "components": [
+        "glossary/old-english",
+        "glossary/english"
+      ]
+    },
+    {
+      "setup_id": "setup-06",
+      "sha256_lf": "a1136ae02e4b01b7c07b88b53f92435929e0c4c31a29aefb1d1466af0081263b",
+      "preamble_after_removing_comments_runningtitle_and_shared_input": "\\hyphenpenalty=10000\\exhyphenpenalty=10000\n\\emergencystretch=3em\n\\newcommand{\\reserve}[1]{\\par\\penalty-100\\begingroup\\dimen0=\\pagegoal\\advance\\dimen0 by-\\pagetotal\\ifdim\\dimen0<#1\\newpage\\fi\\endgroup}\n",
+      "components": [
+        "sound-history/learner"
+      ]
+    }
+  ],
+  "bookmark_collisions": {
+    "outline-B00001": [
+      {
+        "component_id": "glossary/old-english",
+        "title": "Old English–English glossary",
+        "level": "0"
+      },
+      {
+        "component_id": "glossary/english",
+        "title": "English–Old English exercise glossary",
+        "level": "0"
+      }
+    ],
+    "outline-B01321": [
+      {
+        "component_id": "glossary/old-english",
+        "title": "T",
+        "level": "1"
+      },
+      {
+        "component_id": "glossary/english",
+        "title": "P",
+        "level": "1"
+      }
+    ]
+  },
+  "mismatches": [],
+  "aggregate_body_command_counts": {
+    "raggedright": 7219,
+    "booktitle": 41,
+    "section": 439,
+    "textbf": 26286,
+    "emph": 337,
+    "par": 12253,
+    "begingroup": 1326,
+    "setlength": 2615,
+    "LTleft": 1294,
+    "LTright": 1294,
+    "fill": 1286,
+    "noindent": 1365,
+    "begin": 4262,
+    "arraybackslash": 4305,
+    "toprule": 1327,
+    "midrule": 1347,
+    "bottomrule": 1307,
+    "end": 4262,
+    "endgroup": 1326,
+    "fontsize": 1329,
+    "selectfont": 1329,
+    "addvspace": 2713,
+    "nobreak": 18,
+    "endfirsthead": 33,
+    "endhead": 33,
+    "multicolumn": 20,
+    "footnotesize": 20,
+    "endfoot": 33,
+    "endlastfoot": 33,
+    "newline": 44,
+    "itempara": 502,
+    "subsection": 1591,
+    "linewidth": 2898,
+    "continuation": 25,
+    "readingtext": 48,
+    "clearpage": 65,
+    "reserve": 2355,
+    "baselineskip": 5997,
+    "allowbreak": 1687,
+    "item": 66,
+    "parskip": 17,
+    "addfontfeatures": 34,
+    "newpage": 3,
+    "textsuperscript": 311,
+    "LTpre": 5,
+    "LTpost": 5,
+    "pdfbookmark": 53,
+    "needspace": 3642,
+    "dimexpr": 25,
+    "tabcolsep": 25,
+    "relax": 25
+  },
+  "volumes": {
+    "learner": {
+      "component_ids": [
+        "pronunciation/learner",
+        "ch01/learner",
+        "ch02/learner",
+        "ch03/learner",
+        "ch04/learner",
+        "ch05/learner",
+        "ch06/learner",
+        "ch07/learner",
+        "ch08/learner",
+        "ch09/learner",
+        "ch10/learner",
+        "ch11/learner",
+        "ch12/learner",
+        "ch13/learner",
+        "ch14/learner",
+        "ch15/learner",
+        "ch16/learner",
+        "ch17/learner",
+        "ch18/learner",
+        "sound-history/learner",
+        "glossary/old-english",
+        "glossary/english"
+      ],
+      "component_count": 22,
+      "standalone_pages": 930,
+      "between_component_blank_versos_if_recto_preserved": 8,
+      "predicted_body_pages_with_recto_starts": 938,
+      "prediction_scope": "Excludes new front matter and grammatical index; assumes unchanged standalone component pagination and no final blank verso after the last component."
+    },
+    "key": {
+      "component_ids": [
+        "pronunciation/key",
+        "ch01/key",
+        "ch02/key",
+        "ch03/key",
+        "ch04/key",
+        "ch05/key",
+        "ch06/key",
+        "ch07/key",
+        "ch08/key",
+        "ch09/key",
+        "ch10/key",
+        "ch11/key",
+        "ch12/key",
+        "ch13/key",
+        "ch14/key",
+        "ch15/key",
+        "ch16/key",
+        "ch17/key",
+        "ch18/key"
+      ],
+      "component_count": 19,
+      "standalone_pages": 475,
+      "between_component_blank_versos_if_recto_preserved": 7,
+      "predicted_body_pages_with_recto_starts": 482,
+      "prediction_scope": "Excludes new front matter and grammatical index; assumes unchanged standalone component pagination and no final blank verso after the last component."
+    }
+  },
+  "page_count_method": "Counted Xpdf raw-text form-feed page delimiters from every current retained PDF; no -nopgbrk option.",
+  "pdftotext": "C:/Program Files/Git/mingw64/bin/pdftotext.exe",
+  "shared_layout": {
+    "path": "typesetting/book-layout.tex",
+    "sha256": "3b1d181667488c19ea0a1970e68e33aa59bb3f9aeb32092542d8c678bf087b65"
+  },
+  "status": "complete independent component inventory and assembly proposal",
+  "issue_id": "oec-book-components",
+  "reviewer": "/root/sound_cook",
+  "role_limits": "Assembly inventory only. No prior source, master, TeX, PDF, acceptance record, register, Beads or Git state edited. Existing linguistic and visual acceptance is identified, not re-certified by this inventory.",
+  "checks": {
+    "component_count": 41,
+    "current_artifact_hashes_checked": 123,
+    "all_current_hashes_exactly_match_primary_acceptance": true,
+    "actual_pdf_page_counts_checked": 41,
+    "standalone_pages": 1405,
+    "page_count_mismatches": [],
+    "answer_key_components_in_learner_list": [],
+    "learner_reference_components_in_key_list": [],
+    "all_unit_visual_page_statuses_accepted": true,
+    "ancillary_visual_receipt_hashes_match": true,
+    "new_linguistic_claims": 0
+  },
+  "answer_separation": {
+    "learner": "Only pronunciation learner, Units1–18 student bodies, optional sound history and both reference glossaries.",
+    "key": "Only pronunciation practice key and Units1–18 answer-key bodies.",
+    "boundary": "Separate by the positive component allowlists. Do not filter prose by words such as answer: accepted learner worked examples, supplied help and glossary entries remain part of the course. No answer-key.md or answer-key.tex component belongs in the learner assembly."
+  },
+  "constraints": [
+    {
+      "id": "BOOK-C01",
+      "finding": "All41 components use ../book-layout.tex; no body-level external file inputs exist.",
+      "action": "Load the unchanged shared layout once in the full-volume preamble; extract only the retained body between the single document markers."
+    },
+    {
+      "id": "BOOK-C02",
+      "finding": "Six exact local preamble setups exist; itempara and reserve have materially different implementations. Unit1 also defines continuation.",
+      "action": "Retain the component-specific setup inside a local group. Preserve all manual and conditional page-control commands; do not replace custom reserve or needspace implementations with a generic package."
+    },
+    {
+      "id": "BOOK-C03",
+      "finding": "Ligatures=TeXOff is present in34 bodies and absent in learners1–4 and keys1–3. Glossary text uses local10.5/13.2 sizing and two-column settings.",
+      "action": "Keep font features, sizes, ragged settings, column separation and emergency stretch component-local. Do not impose later-unit ligature settings on all components."
+    },
+    {
+      "id": "BOOK-C04",
+      "finding": "The shared article layout is twoside, with unequal inner/outer margins and alternating running headers.",
+      "action": "Start every component recto to preserve original page parity. Use explicit blank versos where required. Flush the final component page before closing its local group so its running title and settings remain active at shipout."
+    },
+    {
+      "id": "BOOK-C05",
+      "finding": "No body page resets, labels, refs, pagerefs, hypertargets, hyperlinks, footnotes, running marks or macro definitions were found. All body begingroup/endgroup counts balance. Existing manual pagination is3 newpage plus65 clearpage; conditional placement includes2355 reserve and3642 needspace calls.",
+      "action": "Use roman front matter then a single Arabic body sequence per volume. Preserve all retained body controls; add uniquely named assembly anchors/counters externally rather than resetting component pages."
+    },
+    {
+      "id": "BOOK-C06",
+      "finding": "All53 explicit pdfbookmark commands are in the two glossaries. outline-B00001 and outline-B01321 collide across them; the latter means OE T versus English P.",
+      "action": "Namespace every explicit bookmark destination by component, not just the two collisions. Use the complete per-component bookmark ledger to retain the first glossary title at component level and nest Entries, letter headings and quoted-errors material appropriately. Avoid a duplicate component/title bookmark."
+    },
+    {
+      "id": "BOOK-C07",
+      "finding": "Shared layout already loads unicode hyperref and Cambria; only the glossary preamble adds multicol.",
+      "action": "Load multicol once in the outer preamble. Move only package loading out of the glossary local setup; retain raggedcolumns and6mm column separation locally. Do not load a second documentclass, font stack, geometry or hyperref."
+    },
+    {
+      "id": "BOOK-C08",
+      "finding": "Numbered section text is chiefly embedded in starred section titles; existing bodies have no course-page cross-reference commands.",
+      "action": "Build the contents and grammar index from external metadata tied to component/section anchors. Preserve visible titles, task IDs and section numbering. Resolve page references after compilation; do not hard-code standalone page numbers into the new index."
+    }
+  ],
+  "recommended_build": [
+    "Verify every ledger hash before extraction; preserve exact normalized body text and stable source-line mapping. The recorded current raw hashes and LF body hashes distinguish content extraction from line-ending differences.",
+    "Create two explicit positive inclusion manifests using volumes.learner.component_ids and volumes.key.component_ids. Build both with LuaLaTeX and the retained shared layout; load only required new navigation/index infrastructure plus multicol once.",
+    "Give each component a local group, its exact setup, a locally renewed runningtitle, and a recto start. Flush pending pages before group end. Isolate glossary custom macro names from any index package that might define needspace.",
+    "Add zero-height component/section anchors and external contents/index entries. Prefix glossary destinations and adjust bookmark hierarchy through a bounded wrapper or recorded metadata-only transform; all retained source text remains unchanged.",
+    "Use roman-numbered front matter and continuously numbered Arabic content per volume. Record inserted blank versos and source-component/local-page to global-page mappings. Run enough LuaLaTeX/index passes for contents, references and outlines to stabilize.",
+    "Compare every assembled component's visible text in order against its accepted standalone text, ignoring only identified running pagination/navigation additions. Prove positive key exclusion from the learner list; avoid word-based removal of accepted examples or reference material.",
+    "Render source and assembled pages with identical settings. For reused-page acceptance, compare decoded image pixels from page top through all body content, excluding only the changed footer. Confirm the crop covers every table/body line; inspect every new footer, all front matter/index, blank-verso behavior and every nonidentical body page.",
+    "Save final source identities, TeX/PDF identities, resolved page map, duplicate-destination/undefined-reference checks, content parity and honestly scoped visual acceptance. Retained standalone PDFs and prior records remain immutable."
+  ],
+  "open_material_findings": [],
+  "remaining_coordinator_work": [
+    "Reconcile the contents/index design with the component ledger",
+    "Write and test the new assembly workflow",
+    "Render, compare and review both complete volumes",
+    "Update shared status/export metadata and checkpoint centrally"
+  ]
+}
