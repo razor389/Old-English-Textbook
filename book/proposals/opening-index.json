@@ -1,0 +1,2158 @@
+{
+  "schema_version": 1,
+  "proposal_id": "opening-index-rebind",
+  "author": "/root/sound_design",
+  "created_utc": "2026-11-02T23:20:21.738944+00:00",
+  "status": "proposal_ready_current_Unit1_and_Unit2_source_identities_confirmed",
+  "scope": "Proposal only: current exact-line semantic rebindings and narrowly scoped new Unit 1 index routes. No shared index, manifest, source TeX, builder/checker, or PDF changes.",
+  "base_index_sha256": "1e586faae494115a658098dafa658f30d9a54e61924cf828f7227943d2556062",
+  "inputs": [
+    {
+      "path": "book/grammar-index.json",
+      "sha256": "1e586faae494115a658098dafa658f30d9a54e61924cf828f7227943d2556062"
+    },
+    {
+      "path": "scripts/build_full_book.py",
+      "sha256": "d6f5988ef118b49b9a448ee1c256d77e00e5d674fb9e7d3da186b9d05253dbb8"
+    },
+    {
+      "path": "scripts/check_full_book.py",
+      "sha256": "1f11fd3f2f41bb17ebf8cf547de13ce7443763466cae3fb3f222f0157778334e"
+    },
+    {
+      "path": "chapters/ch01/student.md",
+      "sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+    },
+    {
+      "path": "typesetting/ch01/chapter-01.tex",
+      "sha256": "7024eaa8163a4db7a81145c046b78468ce4d8917cb8e47fcdff9fd01af713c43"
+    },
+    {
+      "path": "guides/pronunciation/student.md",
+      "sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d"
+    },
+    {
+      "path": "typesetting/pronunciation/pronunciation.tex",
+      "sha256": "17c28c9d09714a7338d5afda2daa36b5eb4104b4bfbd291c60d2d89d63f793e4"
+    },
+    {
+      "path": "chapters/ch02/student.md",
+      "sha256": "c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d"
+    },
+    {
+      "path": "typesetting/ch02/chapter-02.tex",
+      "sha256": "41af34dd890eff19cf86dfad835137376a86391907810e0d899cef7fd91d90f2"
+    },
+    {
+      "path": "glossaries/old-english.md",
+      "sha256": "f3d53aa199142c30090e4614d018206c5ef0252c556de7161bc9df7b85a4f417"
+    },
+    {
+      "path": "typesetting/glossaries/old-english.tex",
+      "sha256": "64400ed42fe4546ccf5c1686e36928da3c714ce829c80c9dacf4acebe37037f7"
+    },
+    {
+      "path": "glossaries/english.md",
+      "sha256": "1f4b5e437accf99a5ceda7e780070240db7e2dcd916b52419328a5683891a90a"
+    },
+    {
+      "path": "typesetting/glossaries/english.tex",
+      "sha256": "af90404cf1be315e10cb536a84c280e2890c7bbfef68c1cba67c08b9616ace29"
+    }
+  ],
+  "anchor_replacements": [
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/4",
+      "old_id": "bk-ch01-learner-422453d6be7d",
+      "new_id": "bk-ch01-learner-422453d6be7d",
+      "old_record": {
+        "id": "bk-ch01-learner-422453d6be7d",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "The direct object is accusative. In the following example, \\textbf{geseah} is supplied: “saw,” third-person singular preterite. Its conjugation is not required here.[12]",
+        "kind": "paragraph",
+        "source_line": 487,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/3/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 267,
+            "supporting_quote": "The direct object is accusative. In the following example, **geseah** is supplied: “saw,” third-person singular preterite. Its conjugation is not required here.[12]"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-422453d6be7d",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "The direct object is accusative. In the following example, \\textbf{geseah} is supplied: “saw,” third-person singular preterite. Its conjugation is not required here.[12]",
+        "kind": "paragraph",
+        "source_line": 643,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/3/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 295,
+            "supporting_quote": "The direct object is accusative. In the following example, **geseah** is supplied: “saw,” third-person singular preterite. Its conjugation is not required here.[12]"
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 643,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/23",
+      "old_id": "bk-ch01-learner-f6bfdc1fc647",
+      "new_id": "bk-ch01-learner-f6bfdc1fc647",
+      "old_record": {
+        "id": "bk-ch01-learner-f6bfdc1fc647",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{2. The article}",
+        "kind": "heading",
+        "source_line": 41,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/25/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 24,
+            "supporting_quote": "The definite article means **the**. It agrees with its own noun in gender, number, and case. The plural forms are common to all three genders.[3]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/35/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 24,
+            "supporting_quote": "The definite article means **the**. It agrees with its own noun in gender, number, and case. The plural forms are common to all three genders.[3]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/37/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 34,
+            "supporting_quote": "Recognize **ðȳ** and **ðon** as instrumental singular forms; their uses are not required in composition here. Nouns have no separate instrumental forms in these paradigms. The source also permits **ðām** for **ðǣm** and **ðǣra** for **ðāra**; the tables…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-f6bfdc1fc647",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{2. The article}",
+        "kind": "heading",
+        "source_line": 57,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/25/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 24,
+            "supporting_quote": "The definite article means **the**. It agrees with its own noun in gender, number, and case. The plural forms are common to all three genders.[3]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/35/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 24,
+            "supporting_quote": "The definite article means **the**. It agrees with its own noun in gender, number, and case. The plural forms are common to all three genders.[3]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/37/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 34,
+            "supporting_quote": "Recognize **ðȳ** and **ðon** as instrumental singular forms; their uses are not required in composition here. Nouns have no separate instrumental forms in these paradigms. The source also permits **ðām** for **ðǣm** and **ðǣra** for **ðāra**; the tables and exercises select **ðǣm** and **ðāra**."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 57,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/29",
+      "old_id": "bk-pronunciation-learner-156b3d5ac4b3",
+      "new_id": "bk-pronunciation-learner-156b3d5ac4b3",
+      "old_record": {
+        "id": "bk-pronunciation-learner-156b3d5ac4b3",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{1. Letters and length}",
+        "kind": "heading",
+        "source_line": 39,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/32/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 7,
+            "supporting_quote": "**Æ æ**, called *ash*, is one vowel letter. **Þ þ**, *thorn*, and **Ð ð**, *eth*, represent the sounds written **th** in English *thin* and *this*. Either letter can represent either sound. This course normally uses **ð**. Cook's hooked **ę** and **ǫ**…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/33/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 7,
+            "supporting_quote": "Cook's hooked **ę** and **ǫ** have the sounds of **e** and **o**; the hooks record their history, not additional sounds.[1]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/259/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 9,
+            "supporting_quote": "A **macron**, the line above a vowel, marks length: **ā, ǣ, ē, ī, ō, ū, ȳ**. Hold a long vowel appreciably longer than a short one. Long does not mean the English letter name, and a macron does not mark stress. Thus **ac**, “but”, has a short vowel;…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/260/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 9,
+            "supporting_quote": "A **macron**, the line above a vowel, marks length: **ā, ǣ, ē, ī, ō, ū, ȳ**. Hold a long vowel appreciably longer than a short one. Long does not mean the English letter name, and a macron does not mark stress. Thus **ac**, “but”, has a short vowel;…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-pronunciation-learner-156b3d5ac4b3",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{1. Letters and length}",
+        "kind": "heading",
+        "source_line": 22,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/32/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 7,
+            "supporting_quote": "**Æ æ**, called *ash*, is one vowel letter. **Þ þ**, *thorn*, and **Ð ð**, *eth*, represent the sounds written **th** in English *thin* and *this*. Either letter can represent either sound. This course normally uses **ð**. Cook's hooked **ę** and **ǫ** have the sounds of **e** and **o**; the hooks record their history, not additional sounds.[1]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/33/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 7,
+            "supporting_quote": "**Æ æ**, called *ash*, is one vowel letter. **Þ þ**, *thorn*, and **Ð ð**, *eth*, represent the sounds written **th** in English *thin* and *this*. Either letter can represent either sound. This course normally uses **ð**. Cook's hooked **ę** and **ǫ** have the sounds of **e** and **o**; the hooks record their history, not additional sounds.[1]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/259/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 9,
+            "supporting_quote": "A **macron**, the line above a vowel, marks length: **ā, ǣ, ē, ī, ō, ū, ȳ**. Hold a long vowel appreciably longer than a short one. Long does not mean the English letter name, and a macron does not mark stress. Thus **ac**, “but”, has a short vowel; **āc**, “oak”, has a long one. Both end with the sound of **k**."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/260/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 9,
+            "supporting_quote": "A **macron**, the line above a vowel, marks length: **ā, ǣ, ē, ī, ō, ū, ȳ**. Hold a long vowel appreciably longer than a short one. Long does not mean the English letter name, and a macron does not mark stress. Thus **ac**, “but”, has a short vowel; **āc**, “oak”, has a long one. Both end with the sound of **k**."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 22,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/32",
+      "old_id": "bk-ch01-learner-086b075156aa",
+      "new_id": "bk-ch01-learner-086b075156aa",
+      "old_record": {
+        "id": "bk-ch01-learner-086b075156aa",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{9. Basic constructions}",
+        "kind": "heading",
+        "source_line": 450,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/38/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 223,
+            "supporting_quote": "The subject is nominative. A noun that identifies it after “be” is also nominative; English **a/an** need not receive a separate word in such a predicate. The copula agrees with the subject in person and number.[10]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/38/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 247,
+            "supporting_quote": "A dependent genitive expresses possession or a relation such as the source, contents, or kind of something. In the phrase pattern used for Cook's Exercise 3, place the genitive first and omit the article of the **head noun**, while retaining the article…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/67/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 231,
+            "supporting_quote": "**And** joins words or phrases. When definite noun phrases are joined, each article agrees with its own noun. Gender belongs to that noun; it is not taken from the other noun in the pair."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/91/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 247,
+            "supporting_quote": "A dependent genitive expresses possession or a relation such as the source, contents, or kind of something. In the phrase pattern used for Cook's Exercise 3, place the genitive first and omit the article of the **head noun**, while retaining the article…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/127/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 223,
+            "supporting_quote": "The subject is nominative. A noun that identifies it after “be” is also nominative; English **a/an** need not receive a separate word in such a predicate. The copula agrees with the subject in person and number.[10]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/187/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 235,
+            "supporting_quote": "For the location of an entity, use **on + dative**, “in/on.”"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-086b075156aa",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{9. Basic constructions}",
+        "kind": "heading",
+        "source_line": 566,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/38/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 241,
+            "supporting_quote": "The subject is nominative. A noun that identifies it after “be” is also nominative; English **a/an** need not receive a separate word in such a predicate. The copula agrees with the subject in person and number.[10]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/38/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 275,
+            "supporting_quote": "A dependent genitive expresses possession or a relation such as the source, contents, or kind of something. In the phrase pattern used for Cook's Exercise 3, place the genitive first and omit the article of the **head noun**, while retaining the article belonging to the dependent. The head remains in the case required by its own role. A proper name such as **God** takes no article here.[11]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/67/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 259,
+            "supporting_quote": "**And** joins words or phrases. When definite noun phrases are joined, each article agrees with its own noun. Gender belongs to that noun; it is not taken from the other noun in the pair."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/91/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 275,
+            "supporting_quote": "A dependent genitive expresses possession or a relation such as the source, contents, or kind of something. In the phrase pattern used for Cook's Exercise 3, place the genitive first and omit the article of the **head noun**, while retaining the article belonging to the dependent. The head remains in the case required by its own role. A proper name such as **God** takes no article here.[11]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/127/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 241,
+            "supporting_quote": "The subject is nominative. A noun that identifies it after “be” is also nominative; English **a/an** need not receive a separate word in such a predicate. The copula agrees with the subject in person and number.[10]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/187/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 263,
+            "supporting_quote": "For the location of an entity, use **on + dative**, “in/on.”"
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 566,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/33",
+      "old_id": "bk-ch01-learner-624dd0eb97a3",
+      "new_id": "bk-ch01-learner-624dd0eb97a3",
+      "old_record": {
+        "id": "bk-ch01-learner-624dd0eb97a3",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{1. Spelling and case}",
+        "kind": "heading",
+        "source_line": 15,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/39/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 13,
+            "supporting_quote": "| Nominative (N) | Subject; a noun identifying the subject after “be.” |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/39/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 14,
+            "supporting_quote": "| Genitive (G) | A dependent expressing possession or another relation, often English “of.” |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/39/targets/2",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 15,
+            "supporting_quote": "| Dative (D) | Recipient; the noun after the selected prepositional constructions below. |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/39/targets/3",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 16,
+            "supporting_quote": "| Accusative (A) | Direct object. |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/40/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 18,
+            "supporting_quote": "Singular and plural forms may coincide, and one spelling may serve several cases. Its construction and the agreement of accompanying words determine the analysis. The tables give all four cases, even when their forms are identical.[2]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/87/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 9,
+            "supporting_quote": "Nouns have masculine, feminine, or neuter gender, independently of the sex or nature of the thing named. Learn the gender with the noun. A noun's declension determines its case endings; its nominative ending alone does not identify either gender or declension."
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-624dd0eb97a3",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{1. Spelling and case}",
+        "kind": "heading",
+        "source_line": 18,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/39/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 13,
+            "supporting_quote": "| Nominative (N) | Subject; a noun identifying the subject after “be.” |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/39/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 14,
+            "supporting_quote": "| Genitive (G) | A dependent expressing possession or another relation, often English “of.” |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/39/targets/2",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 15,
+            "supporting_quote": "| Dative (D) | Recipient; the noun after the selected prepositional constructions below. |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/39/targets/3",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 16,
+            "supporting_quote": "| Accusative (A) | Direct object. |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/40/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 18,
+            "supporting_quote": "Singular and plural forms may coincide, and one spelling may serve several cases. Its construction and the agreement of accompanying words determine the analysis. The tables give all four cases, even when their forms are identical.[2]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/87/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 9,
+            "supporting_quote": "Nouns have masculine, feminine, or neuter gender, independently of the sex or nature of the thing named. Learn the gender with the noun. A noun's declension determines its case endings; its nominative ending alone does not identify either gender or declension."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 18,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/45",
+      "old_id": "bk-pronunciation-learner-a18005f2eb82",
+      "new_id": "bk-pronunciation-learner-a18005f2eb82",
+      "old_record": {
+        "id": "bk-pronunciation-learner-a18005f2eb82",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{6. Duration, syllables, and stress}",
+        "kind": "heading",
+        "source_line": 419,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/54/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 103,
+            "supporting_quote": "Keep vowel length separate from consonant length. In **full**, “full”, **u** is short; **fūl**, “vile”, has long **ū**. A doubled consonant at the end of a word normally has ordinary single-consonant duration: the final **ll** of **full** does not require…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/54/targets/1",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 105,
+            "supporting_quote": "Between vowels, a doubled consonant has extra duration, like the **n** across the join in *pen-knife*. Do not insert a vowel between its two letters.[7]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/224/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 111,
+            "supporting_quote": "The main stress normally falls on the first syllable, as in **habban**, “have”, and **heofonan**, “heaven”. Prefixes complicate this: **ge-** is unstressed, **be-** and **for-** usually are, and a prefixed verb generally stresses its root. In **gescēop**,…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/251/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 107,
+            "supporting_quote": "With a doubled stop, hold the closure longer. In **habban**, “have”, keep the lips closed for **bb**, then release into the following vowel. There are two syllables. Do not add another vowel or another syllable to pronounce the doubling."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/251/targets/1",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 109,
+            "supporting_quote": "Written unstressed vowels remain audible and distinguishable. In **męte**, “food”, there are two syllables, and final **e** is a light *bet* vowel. In **fugol**, “bird”, there are also two syllables; its **o** is heard. Do not reduce every ending to the…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/264/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 109,
+            "supporting_quote": "Written unstressed vowels remain audible and distinguishable. In **męte**, “food”, there are two syllables, and final **e** is a light *bet* vowel. In **fugol**, “bird”, there are also two syllables; its **o** is heard. Do not reduce every ending to the…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-pronunciation-learner-a18005f2eb82",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{6. Duration, syllables, and stress}",
+        "kind": "heading",
+        "source_line": 343,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/54/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 136,
+            "supporting_quote": "Keep vowel length separate from consonant length. In **full**, “full”, **u** is short; **fūl**, “vile”, has long **ū**. A doubled consonant at the end of a word normally has ordinary single-consonant duration: the final **ll** of **full** does not require extra holding."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/54/targets/1",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 138,
+            "supporting_quote": "Between vowels, a doubled consonant has extra duration, like the **n** across the join in *pen-knife*. Do not insert a vowel between its two letters.[7]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/224/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 144,
+            "supporting_quote": "The main stress normally falls on the first syllable, as in **habban**, “have”. Prefixes complicate this: **ge-** is unstressed, **be-** and **for-** usually are, and a prefixed verb generally stresses its root. When **ge-** precedes a one-syllable root, the word has two syllables and the root receives the stress. A supplied division identifies the prefix where needed. A macron indicates duration regardless of which syllable is stressed."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/251/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 140,
+            "supporting_quote": "With a doubled stop, hold the closure longer. In **habban**, “have”, keep the lips closed for **bb**, then release into the following vowel. There are two syllables. Do not add another vowel or another syllable to pronounce the doubling."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/251/targets/1",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 142,
+            "supporting_quote": "Written unstressed vowels remain audible and distinguishable. In **męte**, “food”, there are two syllables, and final **e** is a light *bet* vowel. In **fugol**, “bird”, there are also two syllables; its **o** is heard. Do not reduce every ending to the **uh** at the beginning of modern *about*."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/264/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 142,
+            "supporting_quote": "Written unstressed vowels remain audible and distinguishable. In **męte**, “food”, there are two syllables, and final **e** is a light *bet* vowel. In **fugol**, “bird”, there are also two syllables; its **o** is heard. Do not reduce every ending to the **uh** at the beginning of modern *about*."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 343,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/46",
+      "old_id": "bk-pronunciation-learner-16b43725bb81",
+      "new_id": "bk-pronunciation-learner-16b43725bb81",
+      "old_record": {
+        "id": "bk-pronunciation-learner-16b43725bb81",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\subsection*{c, g, and combinations}",
+        "kind": "heading",
+        "source_line": 232,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/55/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 65,
+            "supporting_quote": "The front vowels **e, i, æ, y** help explain many **ch** and **y** pronunciations, but the next written letter is not a complete rule. Words and inflected forms have exceptions. Use the supplied sound for each example; do not turn every **c** before **e**…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/56/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 67,
+            "supporting_quote": "The continuous **g** in **fugol** is unfamiliar in ordinary American English. Put the back of the tongue near the position for hard **g**, but leave a narrow gap. Let air pass continuously while the throat vibrates: the sound can be held, unlike the…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-pronunciation-learner-16b43725bb81",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\subsection*{c, g, and combinations}",
+        "kind": "heading",
+        "source_line": 134,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/55/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 65,
+            "supporting_quote": "For the rules below, the **back-vowel spellings** are **a/ā, o/ō, u/ū**. The relevant **front-vowel spellings** are **e/ē, i/ī, æ/ǣ**; the diphthongs **ea/ēa, eo/ēo, ie/īe** also begin at the front of the mouth. Although **y/ȳ** are front vowels in articulation, their spelling is not a reliable instruction to give **c** or **g** a front sound. Use the supplied pronunciation in such words."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/55/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 71,
+            "supporting_quote": "| A consonant, or a/ā, o/ō, u/ū | **k** as in *kit* | **cnīf**, “knife”; **cuman**, “come”. |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/55/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 72,
+            "supporting_quote": "| e/ē, i/ī, æ/ǣ, or a front diphthong | **ch** as in *chin* | **cealf**, “calf”, begins with **ch**. |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/55/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 76,
+            "supporting_quote": "**3. Inside or at the end of a word, use the neighbours of c.** Before another consonant, the ordinary sound is **k**. Immediately after **i/ī**, use **ch** when **c** ends the word or is followed by a vowel other than **a/ā, o/ō, u/ū**. The second **c** of **cyrice** follows this pattern. A following back vowel instead gives the ordinary **k** pattern."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/55/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 86,
+            "supporting_quote": "| At the beginning, immediately before a front vowel or front diphthong | **y** as in *yes* | **giefan**, “give”. The prefix **ge-** also begins with this sound. |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/55/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 87,
+            "supporting_quote": "| After a front vowel, at the end or when no back vowel immediately follows | **y** as in *yes* | **dæg**, “day”, ends with **y**. A following consonant does not by itself require hard **g**. |"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/55/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 89,
+            "supporting_quote": "Otherwise use the non-**y** branch below, unless a word has a supplied exceptional pronunciation. At the beginning, a consonant between **g** and a later front vowel prevents the first row from applying: look at the immediate neighbour. The **g** rule after a front vowel is broader than the **c** rule after **i/ī**; keep them distinct. The earlier caution about **y/ȳ** still applies."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 134,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/47",
+      "old_id": "bk-pronunciation-learner-fce112ac8644",
+      "new_id": "bk-pronunciation-learner-fce112ac8644",
+      "old_record": {
+        "id": "bk-pronunciation-learner-fce112ac8644",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\subsection*{h and sounded clusters}",
+        "kind": "heading",
+        "source_line": 287,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/57/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 71,
+            "supporting_quote": "At the beginning of a syllable, **h** is like English **h** in *hat*. Later in a syllable it has a stronger, continuous sound made by narrowing the passage above the tongue.[5]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/57/targets/1",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 73,
+            "supporting_quote": "In **brōhte**, “brought”, raise the back of the tongue toward the position for **k**, leaving a gap for breath. Keep the throat unvoiced. This back sound is **[x]**. Both it and the following **t** are heard."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/57/targets/2",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 75,
+            "supporting_quote": "In **niht**, “night”, the preceding **i** brings the tongue farther forward. Raise the middle of the tongue toward the roof of the mouth and let breath pass without voice. This front sound is **[ç]**. Keep the **t** too: the Old English word does not have…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/58/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 77,
+            "supporting_quote": "Sound the initials in **hl, hn, hr, hw, wr, wl, cn**. In **hlāf**, “loaf”, begin with audible breath before **l**; in **hwæl**, “whale”, keep **h** with **w**. In **wrītan**, “write”, pronounce **w** and **r**; in **cnīf**, “knife”, pronounce **k** and…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-pronunciation-learner-fce112ac8644",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\subsection*{h and sounded clusters}",
+        "kind": "heading",
+        "source_line": 268,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/57/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 104,
+            "supporting_quote": "At the beginning of a syllable, **h** is like English **h** in *hat*. Later in a syllable it has a stronger, continuous sound made by narrowing the passage above the tongue.[5]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/57/targets/1",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 106,
+            "supporting_quote": "In **brōhte**, “brought”, raise the back of the tongue toward the position for **k**, leaving a gap for breath. Keep the throat unvoiced. This back sound is **[x]**. Both it and the following **t** are heard."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/57/targets/2",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 108,
+            "supporting_quote": "In **niht**, “night”, the preceding **i** brings the tongue farther forward. Raise the middle of the tongue toward the roof of the mouth and let breath pass without voice. This front sound is **[ç]**. Keep the **t** too: the Old English word does not have modern English's silent **gh**. Front vowels generally favour this front articulation; back vowels favour the back one."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/58/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 110,
+            "supporting_quote": "Sound the initials in **hl, hn, hr, hw, wr, wl, cn**. In **hlāf**, “loaf”, begin with audible breath before **l**; in **hwæl**, “whale”, keep **h** with **w**. In **wrītan**, “write”, pronounce **w** and **r**; in **cnīf**, “knife”, pronounce **k** and **n**. Join the consonants without putting a vowel between them. The spelling **cw** has **k** followed by **w**. Read **x** and **hs** as **k** followed by **s**; **weax**, “wax”, ends with that pair."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 268,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/48",
+      "old_id": "bk-pronunciation-learner-74b76bb98627",
+      "new_id": "bk-pronunciation-learner-74b76bb98627",
+      "old_record": {
+        "id": "bk-pronunciation-learner-74b76bb98627",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{5. f, s, and th: voice}",
+        "kind": "heading",
+        "source_line": 329,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/59/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 83,
+            "supporting_quote": "The ordinary rule for single **f, s, þ/ð** is:"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/59/targets/1",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 99,
+            "supporting_quote": "Stress and the boundaries between word parts can preserve exceptions. In **hǣlðu**, “health”, and **forðām**, “therefore”, use the unvoiced **th** of *thin*. Learn these as supplied word-specific readings; the surrounding voiced sounds do not override them."
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-pronunciation-learner-74b76bb98627",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{5. f, s, and th: voice}",
+        "kind": "heading",
+        "source_line": 289,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/59/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 116,
+            "supporting_quote": "The ordinary rule for single **f, s, þ/ð** is:"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/59/targets/1",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 132,
+            "supporting_quote": "Stress and the boundaries between word parts can preserve exceptions. In **hǣlðu**, “health”, and **forðām**, “therefore”, use the unvoiced **th** of *thin*. Learn these as supplied word-specific readings; the surrounding voiced sounds do not override them."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 289,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/58",
+      "old_id": "bk-ch01-learner-814e0a394df4",
+      "new_id": "bk-ch01-learner-814e0a394df4",
+      "old_record": {
+        "id": "bk-ch01-learner-814e0a394df4",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{8. The indicative copula}",
+        "kind": "heading",
+        "source_line": 422,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/71/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 208,
+            "supporting_quote": "These are the complete present **eom** and preterite **wæs** series of the indicative “be.” The preterite expresses a past state. Other present forms, negative forms, moods, and nonfinite constructions will be treated separately.[9]"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-814e0a394df4",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "% mdtable:T18:begin",
+        "kind": "marker",
+        "source_line": 538,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/71/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 224,
+            "supporting_quote": "These are the complete present **eom** and preterite **wæs** series of the indicative “be.” The preterite expresses a past state. Other present forms, negative forms, moods, and nonfinite constructions will be treated separately.[9]"
+          }
+        ]
+      },
+      "reason": "The former copula-only heading has been replaced by a larger subject-pronoun section. Retain this opaque target ID but place its label in the current copula table first header cell using the existing marker path; it follows the actual paradigm if the table moves.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 538,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/64",
+      "old_id": "bk-ch01-learner-d64391595e92",
+      "new_id": "bk-ch01-learner-d64391595e92",
+      "old_record": {
+        "id": "bk-ch01-learner-d64391595e92",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "The recipient of a gift is dative; the thing given is accusative. The supplied \\textbf{sealde} means “gave,” third-person singular preterite.[12]",
+        "kind": "paragraph",
+        "source_line": 495,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/76/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 277,
+            "supporting_quote": "The recipient of a gift is dative; the thing given is accusative. The supplied **sealde** means “gave,” third-person singular preterite.[12]"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-d64391595e92",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "The recipient of a gift is dative; the thing given is accusative. The supplied \\textbf{sealde} means “gave,” third-person singular preterite.[12]",
+        "kind": "paragraph",
+        "source_line": 657,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/76/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 305,
+            "supporting_quote": "The recipient of a gift is dative; the thing given is accusative. The supplied **sealde** means “gave,” third-person singular preterite.[12]"
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 657,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/69",
+      "old_id": "bk-pronunciation-learner-1212ca9f676b",
+      "new_id": "bk-pronunciation-learner-1212ca9f676b",
+      "old_record": {
+        "id": "bk-pronunciation-learner-1212ca9f676b",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{3. Diphthongs}",
+        "kind": "heading",
+        "source_line": 155,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/81/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 37,
+            "supporting_quote": "A *diphthong* is a vowel that moves from one position toward another within one syllable. For these spellings, make one smooth movement toward **oo**. Do not give the second letter a separate beat.[3]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/82/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 45,
+            "supporting_quote": "In **ēa, ēo, īe**, hold the first part longer before making the movement. The **eo** of **eorl** is short; the **ēo** of **fēoll** is long. The word **ēare** has two syllables: its long **ēa**, followed by a light final **e**. The opening **g** of…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-pronunciation-learner-1212ca9f676b",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{3. Diphthongs}",
+        "kind": "heading",
+        "source_line": 88,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/81/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 37,
+            "supporting_quote": "A *diphthong* is a vowel that moves from one position toward another within one syllable. For these spellings, make one smooth movement toward **oo**. Do not give the second letter a separate beat.[3]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/82/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 45,
+            "supporting_quote": "In **ēa, ēo, īe**, hold the first part longer before making the movement. The **eo** of **eorl** is short; the **ēo** of **fēoll** is long. The word **ēare** has two syllables: its long **ēa**, followed by a light final **e**. The opening **g** of **giefan** has the consonant sound of **y** in *yes*."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 88,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/74",
+      "old_id": "bk-ch01-learner-0b109d29614d",
+      "new_id": "bk-ch01-learner-0b109d29614d",
+      "old_record": {
+        "id": "bk-ch01-learner-0b109d29614d",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "The same dependent may stand inside a prepositional phrase. Its genitive does not change the case required for the head.",
+        "kind": "paragraph",
+        "source_line": 479,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/88/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 257,
+            "supporting_quote": "The same dependent may stand inside a prepositional phrase. Its genitive does not change the case required for the head."
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-0b109d29614d",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "The same dependent may stand inside a prepositional phrase. Its genitive does not change the case required for the head.",
+        "kind": "paragraph",
+        "source_line": 629,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/88/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 285,
+            "supporting_quote": "The same dependent may stand inside a prepositional phrase. Its genitive does not change the case required for the head."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 629,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/106",
+      "old_id": "bk-ch01-learner-71357d7f7267",
+      "new_id": "bk-ch01-learner-71357d7f7267",
+      "old_record": {
+        "id": "bk-ch01-learner-71357d7f7267",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{5. Strong feminine nouns}",
+        "kind": "heading",
+        "source_line": 244,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/131/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 143,
+            "supporting_quote": "Nouns ending in **-nes** have **-ness-** before endings: retain the **e** and double the **s**. The same pattern governs **drȳgnes, gelīcnes, fæstnes, nēowolnes, brādnes**. Nouns in **-ung**, and the assigned **līehting**, take the endings shown for…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/138/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 123,
+            "supporting_quote": "The strong feminines required here have no nominative singular ending. The ordinary genitive, dative, and accusative singular end in **-e**. **Wyrt** and **tīd**, however, have an endingless accusative singular in the selected pattern. The selected N/A…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-71357d7f7267",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{5. Strong feminine nouns}",
+        "kind": "heading",
+        "source_line": 292,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/131/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 143,
+            "supporting_quote": "Nouns ending in **-nes** have **-ness-** before endings: retain the **e** and double the **s**. The same pattern governs **drȳgnes, gelīcnes, fæstnes, nēowolnes, brādnes**. Nouns in **-ung**, and the assigned **līehting**, take the endings shown for **gegaderung**; **frætwung** follows it. Cook also records singular oblique **-a** in this group, especially in the dative. The present tables select **-e**.[6]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/138/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 123,
+            "supporting_quote": "The strong feminines required here have no nominative singular ending. The ordinary genitive, dative, and accusative singular end in **-e**. **Wyrt** and **tīd**, however, have an endingless accusative singular in the selected pattern. The selected N/A plural is **-a**; **-e** is also found.[6]"
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 292,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/107",
+      "old_id": "bk-ch01-learner-3d6b15e7b6bf",
+      "new_id": "bk-ch01-learner-3d6b15e7b6bf",
+      "old_record": {
+        "id": "bk-ch01-learner-3d6b15e7b6bf",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{7. Individual paradigms}",
+        "kind": "heading",
+        "source_line": 344,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/132/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 171,
+            "supporting_quote": "**Mann** has **męnn** in the dative singular and N/A plural. In the selected **niht** paradigm, every singular case and the N/A plural are **niht**; the genitive and dative plurals are **nihta, nihtum**. Genitive/dative singular **nihte** is a valid…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/132/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 182,
+            "supporting_quote": "**Sǣ** is masculine in the selected vocabulary. Its nominative plural is **sǣs**, not a form in **-as**. The starred genitive plural below is a reconstruction: consult it only as a reference, and do not use it in these exercises.[8]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/137/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 195,
+            "supporting_quote": "**Ðīestru**, “darkness,” is plural in Old English. Its complete assigned paradigm is plural only."
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-3d6b15e7b6bf",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{7. Individual paradigms}",
+        "kind": "heading",
+        "source_line": 409,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/132/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 171,
+            "supporting_quote": "**Mann** has **męnn** in the dative singular and N/A plural. In the selected **niht** paradigm, every singular case and the N/A plural are **niht**; the genitive and dative plurals are **nihta, nihtum**. Genitive/dative singular **nihte** is a valid alternative, but is not the form selected for recall here.[8]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/132/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 182,
+            "supporting_quote": "**Sǣ** is masculine in the selected vocabulary. Its nominative plural is **sǣs**, not a form in **-as**. The starred genitive plural below is a reconstruction: consult it only as a reference, and do not use it in these exercises.[8]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/137/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 195,
+            "supporting_quote": "**Ðīestru**, “darkness,” is plural in Old English. Its complete assigned paradigm is plural only."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 409,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/108",
+      "old_id": "bk-ch01-learner-246e855423d2",
+      "new_id": "bk-ch01-learner-246e855423d2",
+      "old_record": {
+        "id": "bk-ch01-learner-246e855423d2",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{3. Strong masculine nouns}",
+        "kind": "heading",
+        "source_line": 70,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/133/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 40,
+            "supporting_quote": "In **męte**, the nominative **-e** is replaced by **-es, -as, -a, -um** where those endings occur; it is not part of a stem to which another full ending is added.[4]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/139/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 40,
+            "supporting_quote": "**Fisc** illustrates the common consonant pattern. In **męte**, the nominative **-e** is replaced by **-es, -as, -a, -um** where those endings occur; it is not part of a stem to which another full ending is added.[4]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/141/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 64,
+            "supporting_quote": "**Fugol** and **morgen** lose their unstressed middle vowel before endings in the selected forms. This loss, called *syncope*, is lexical: use the diagnostic forms given for each noun rather than deleting vowels from every word of two syllables. Forms…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/144/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 53,
+            "supporting_quote": "In **dæg** and **hwæl**, singular **æ** alternates with plural **a**. The change does not apply to **wæstm**, whose **æ** stands before a consonant group."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/253/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 64,
+            "supporting_quote": "**Fugol** and **morgen** lose their unstressed middle vowel before endings in the selected forms. This loss, called *syncope*, is lexical: use the diagnostic forms given for each noun rather than deleting vowels from every word of two syllables. Forms…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-246e855423d2",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{3. Strong masculine nouns}",
+        "kind": "heading",
+        "source_line": 93,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/133/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 40,
+            "supporting_quote": "**Fisc** illustrates the common consonant pattern. In **męte**, the nominative **-e** is replaced by **-es, -as, -a, -um** where those endings occur; it is not part of a stem to which another full ending is added.[4]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/139/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 40,
+            "supporting_quote": "**Fisc** illustrates the common consonant pattern. In **męte**, the nominative **-e** is replaced by **-es, -as, -a, -um** where those endings occur; it is not part of a stem to which another full ending is added.[4]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/141/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 64,
+            "supporting_quote": "**Fugol** and **morgen** lose their unstressed middle vowel before endings in the selected forms. This loss, called *syncope*, is lexical: use the diagnostic forms given for each noun rather than deleting vowels from every word of two syllables. Forms retaining the vowel also occur.[4]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/144/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 53,
+            "supporting_quote": "In **dæg** and **hwæl**, singular **æ** alternates with plural **a**. The change does not apply to **wæstm**, whose **æ** stands before a consonant group."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/253/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 64,
+            "supporting_quote": "**Fugol** and **morgen** lose their unstressed middle vowel before endings in the selected forms. This loss, called *syncope*, is lexical: use the diagnostic forms given for each noun rather than deleting vowels from every word of two syllables. Forms retaining the vowel also occur.[4]"
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 93,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/109",
+      "old_id": "bk-ch01-learner-737b70e12605",
+      "new_id": "bk-ch01-learner-737b70e12605",
+      "old_record": {
+        "id": "bk-ch01-learner-737b70e12605",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{4. Strong neuter nouns}",
+        "kind": "heading",
+        "source_line": 146,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/134/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 77,
+            "supporting_quote": "Neuter nominative and accusative are identical in each number."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/135/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 90,
+            "supporting_quote": "**Trēo** has **w** before every ending and the exceptional N/A plural **trēowu**, despite its long vowel. Bare singular **trēow** also occurs."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/140/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 77,
+            "supporting_quote": "Neuter nominative and accusative are identical in each number. The genitive and dative endings match those of **fisc**. In the ordinary monosyllabic pattern, the nominative/accusative plural has **-u** after a short stem, but no ending after a heavy stem.…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/141/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 103,
+            "supporting_quote": "Do not apply the monosyllabic **-u/zero** rule mechanically to nouns of two syllables. Learn the following complete patterns. **Tācen** loses **e** before endings; **ǣfen, wæter, nīeten** retain it in the selected forms. The shorter **wætru** and related…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/250/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 77,
+            "supporting_quote": "Neuter nominative and accusative are identical in each number. The genitive and dative endings match those of **fisc**. In the ordinary monosyllabic pattern, the nominative/accusative plural has **-u** after a short stem, but no ending after a heavy stem.…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/253/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 103,
+            "supporting_quote": "Do not apply the monosyllabic **-u/zero** rule mechanically to nouns of two syllables. Learn the following complete patterns. **Tācen** loses **e** before endings; **ǣfen, wæter, nīeten** retain it in the selected forms. The shorter **wætru** and related…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/259/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 77,
+            "supporting_quote": "Neuter nominative and accusative are identical in each number. The genitive and dative endings match those of **fisc**. In the ordinary monosyllabic pattern, the nominative/accusative plural has **-u** after a short stem, but no ending after a heavy stem.…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-737b70e12605",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{4. Strong neuter nouns}",
+        "kind": "heading",
+        "source_line": 180,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/134/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 77,
+            "supporting_quote": "Neuter nominative and accusative are identical in each number. The genitive and dative endings match those of **fisc**. In the ordinary monosyllabic pattern, the nominative/accusative plural has **-u** after a short stem, but no ending after a heavy stem. A short vowel followed by one consonant gives the short pattern here; a long vowel or long diphthong, or a short vowel followed by two consonants, gives the heavy pattern. A doubled consonant counts as two. Thus **hof** has **hofu**, whereas **sǣd, gærs, cynn** have no added N/A plural ending. Vowel length and syllable weight are not the same thing.[5]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/135/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 90,
+            "supporting_quote": "**Trēo** has **w** before every ending and the exceptional N/A plural **trēowu**, despite its long vowel. Bare singular **trēow** also occurs."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/140/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 77,
+            "supporting_quote": "Neuter nominative and accusative are identical in each number. The genitive and dative endings match those of **fisc**. In the ordinary monosyllabic pattern, the nominative/accusative plural has **-u** after a short stem, but no ending after a heavy stem. A short vowel followed by one consonant gives the short pattern here; a long vowel or long diphthong, or a short vowel followed by two consonants, gives the heavy pattern. A doubled consonant counts as two. Thus **hof** has **hofu**, whereas **sǣd, gærs, cynn** have no added N/A plural ending. Vowel length and syllable weight are not the same thing.[5]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/141/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 103,
+            "supporting_quote": "Do not apply the monosyllabic **-u/zero** rule mechanically to nouns of two syllables. Learn the following complete patterns. **Tācen** loses **e** before endings; **ǣfen, wæter, nīeten** retain it in the selected forms. The shorter **wætru** and related forms also occur.[5]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/250/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 77,
+            "supporting_quote": "Neuter nominative and accusative are identical in each number. The genitive and dative endings match those of **fisc**. In the ordinary monosyllabic pattern, the nominative/accusative plural has **-u** after a short stem, but no ending after a heavy stem. A short vowel followed by one consonant gives the short pattern here; a long vowel or long diphthong, or a short vowel followed by two consonants, gives the heavy pattern. A doubled consonant counts as two. Thus **hof** has **hofu**, whereas **sǣd, gærs, cynn** have no added N/A plural ending. Vowel length and syllable weight are not the same thing.[5]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/253/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 103,
+            "supporting_quote": "Do not apply the monosyllabic **-u/zero** rule mechanically to nouns of two syllables. Learn the following complete patterns. **Tācen** loses **e** before endings; **ǣfen, wæter, nīeten** retain it in the selected forms. The shorter **wætru** and related forms also occur.[5]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/259/targets/1",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 77,
+            "supporting_quote": "Neuter nominative and accusative are identical in each number. The genitive and dative endings match those of **fisc**. In the ordinary monosyllabic pattern, the nominative/accusative plural has **-u** after a short stem, but no ending after a heavy stem. A short vowel followed by one consonant gives the short pattern here; a long vowel or long diphthong, or a short vowel followed by two consonants, gives the heavy pattern. A doubled consonant counts as two. Thus **hof** has **hofu**, whereas **sǣd, gærs, cynn** have no added N/A plural ending. Vowel length and syllable weight are not the same thing.[5]"
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 180,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/112",
+      "old_id": "bk-ch01-learner-9c5fd7a11f03",
+      "new_id": "bk-ch01-learner-9c5fd7a11f03",
+      "old_record": {
+        "id": "bk-ch01-learner-9c5fd7a11f03",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{6. Weak nouns}",
+        "kind": "heading",
+        "source_line": 316,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/143/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 156,
+            "supporting_quote": "Weak masculine **steorra** and weak feminine **eorðe** differ in the nominative singular. Both have **-an** in the other singular cases and the N/A plural, **-ena** in the genitive plural, and **-um** in the dative plural. Replace nominative **-a/-e** with…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-9c5fd7a11f03",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\section*{6. Weak nouns}",
+        "kind": "heading",
+        "source_line": 374,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/143/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 156,
+            "supporting_quote": "Weak masculine **steorra** and weak feminine **eorðe** differ in the nominative singular. Both have **-an** in the other singular cases and the N/A plural, **-ena** in the genitive plural, and **-um** in the dative plural. Replace nominative **-a/-e** with these endings.[7]"
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 374,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/139",
+      "old_id": "bk-ch01-learner-2b2114170c4e",
+      "new_id": "bk-ch01-learner-2b2114170c4e",
+      "old_record": {
+        "id": "bk-ch01-learner-2b2114170c4e",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "Use \\textbf{fram + dative} for what something is separated from. The supplied \\textbf{gedǣlde} means “separated/divided,” third-person singular preterite.[12]",
+        "kind": "paragraph",
+        "source_line": 503,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/189/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 287,
+            "supporting_quote": "Use **fram + dative** for what something is separated from. The supplied **gedǣlde** means “separated/divided,” third-person singular preterite.[12]"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch01-learner-2b2114170c4e",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "Use \\textbf{fram + dative} for what something is separated from. The supplied \\textbf{gedǣlde} means “separated/\\allowbreak{}divided,” third-person singular preterite.[12]",
+        "kind": "paragraph",
+        "source_line": 671,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/189/targets/0",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 315,
+            "supporting_quote": "Use **fram + dative** for what something is separated from. The supplied **gedǣlde** means “separated/divided,” third-person singular preterite.[12]"
+          }
+        ]
+      },
+      "reason": "Same separation instruction; current exporter inserts an allowbreak after the slash in separated/divided. Bind its complete actual TeX line.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 671,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/179",
+      "old_id": "bk-pronunciation-learner-c95193d444e8",
+      "new_id": "bk-pronunciation-learner-c95193d444e8",
+      "old_record": {
+        "id": "bk-pronunciation-learner-c95193d444e8",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{2. Simple vowels}",
+        "kind": "heading",
+        "source_line": 76,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/261/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 33,
+            "supporting_quote": "For **y** and **ȳ**, keep the tongue forward while rounding the lips as for **oo** in *food*. For short **y**, begin with the tongue position of *bit*; for long **ȳ**, use *see*. Rounding the lips must not pull the tongue back into an ordinary **oo**…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/262/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 15,
+            "supporting_quote": "Use these short and long values. Some of the practical English approximations differ in quality as well as duration.[2]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/263/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 31,
+            "supporting_quote": "In a **stressed** syllable, short **a** before **m** or **n** takes the more rounded short-**o** quality just described. Use this in **mann**, “man; human being”, and **lang**, “long”. It is not the vowel of ordinary American *man*. This rule does not…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-pronunciation-learner-c95193d444e8",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "\\section*{2. Simple vowels}",
+        "kind": "heading",
+        "source_line": 39,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/261/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 33,
+            "supporting_quote": "For **y** and **ȳ**, keep the tongue forward while rounding the lips as for **oo** in *food*. For short **y**, begin with the tongue position of *bit*; for long **ȳ**, use *see*. Rounding the lips must not pull the tongue back into an ordinary **oo** vowel. These sounds have no usual American English equivalent. Here **y** is a vowel, not the consonant at the beginning of *yes*."
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/262/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 15,
+            "supporting_quote": "Use these short and long values. Some of the practical English approximations differ in quality as well as duration.[2]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/263/targets/0",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 31,
+            "supporting_quote": "In a **stressed** syllable, short **a** before **m** or **n** takes the more rounded short-**o** quality just described. Use this in **mann**, “man; human being”, and **lang**, “long”. It is not the vowel of ordinary American *man*. This rule does not require the same rounding in every unstressed **-an** ending."
+          }
+        ]
+      },
+      "reason": "Same exact unique target text; refresh current line and supporting master evidence.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 39,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/anchors/24",
+      "old_id": "bk-ch02-learner-b542d326d059",
+      "new_id": "bk-ch02-learner-b542d326d059",
+      "old_record": {
+        "id": "bk-ch02-learner-b542d326d059",
+        "component_id": "ch02/learner",
+        "tex_path": "typesetting/ch02/chapter-02.tex",
+        "tex_anchor": "\\section*{1. Personal pronouns}",
+        "kind": "heading",
+        "source_line": 21,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/26/targets/0",
+            "master_path": "chapters/ch02/student.md",
+            "master_line": 7,
+            "supporting_quote": "The first person identifies the speaker; the second identifies the addressee; the third refers to someone or something else. Besides singular and plural, the first and second persons have a **dual**, explicitly referring to two. A dual subject takes the…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/146/targets/0",
+            "master_path": "chapters/ch02/student.md",
+            "master_line": 7,
+            "supporting_quote": "The first person identifies the speaker; the second identifies the addressee; the third refers to someone or something else. Besides singular and plural, the first and second persons have a **dual**, explicitly referring to two. A dual subject takes the…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/172/targets/0",
+            "master_path": "chapters/ch02/student.md",
+            "master_line": 7,
+            "supporting_quote": "The first person identifies the speaker; the second identifies the addressee; the third refers to someone or something else. Besides singular and plural, the first and second persons have a **dual**, explicitly referring to two. A dual subject takes the…"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/173/targets/0",
+            "master_path": "chapters/ch02/student.md",
+            "master_line": 38,
+            "supporting_quote": "Recognize **mīn, uncer, ūre, ðīn, incer, ēower** as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Learn the…"
+          }
+        ]
+      },
+      "new_record": {
+        "id": "bk-ch02-learner-b542d326d059",
+        "component_id": "ch02/learner",
+        "tex_path": "typesetting/ch02/chapter-02.tex",
+        "tex_anchor": "\\section*{1. Personal pronouns}",
+        "kind": "heading",
+        "source_line": 21,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/26/targets/0",
+            "master_path": "chapters/ch02/student.md",
+            "master_line": 7,
+            "supporting_quote": "The tables repeat the subject forms learned in Unit 1 and add the other cases. First person identifies the speaker; second person, the addressee; third person, someone or something else. The first and second persons also have a **dual**, explicitly referring to two. As in Unit 1, a dual subject takes a **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”; ordinary plurals can also include two. [1]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/146/targets/0",
+            "master_path": "chapters/ch02/student.md",
+            "master_line": 7,
+            "supporting_quote": "The tables repeat the subject forms learned in Unit 1 and add the other cases. First person identifies the speaker; second person, the addressee; third person, someone or something else. The first and second persons also have a **dual**, explicitly referring to two. As in Unit 1, a dual subject takes a **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”; ordinary plurals can also include two. [1]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/172/targets/0",
+            "master_path": "chapters/ch02/student.md",
+            "master_line": 7,
+            "supporting_quote": "The tables repeat the subject forms learned in Unit 1 and add the other cases. First person identifies the speaker; second person, the addressee; third person, someone or something else. The first and second persons also have a **dual**, explicitly referring to two. As in Unit 1, a dual subject takes a **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”; ordinary plurals can also include two. [1]"
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/173/targets/0",
+            "master_path": "chapters/ch02/student.md",
+            "master_line": 38,
+            "supporting_quote": "Recognize **mīn, uncer, ūre, ðīn, incer, ēower** as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Review the nominatives; learn the new dative, accusative and third-person genitive cells for the constructions below."
+          }
+        ]
+      },
+      "reason": "The Unit 2 orientation now explicitly resumes the subject forms introduced in Unit 1 and adds the other cases. Refresh all four actual evidence quotes while preserving the personal-pronoun heading target, complete declensions, genitive-recognition limits and every existing entry route.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 21,
+        "evidence_quotes_exact_current_master_lines": true,
+        "target_text_and_id_unchanged": true
+      }
+    }
+  ],
+  "anchor_additions": [
+    {
+      "name": "subjects",
+      "old_id": null,
+      "new_id": "bk-ch01-learner-f4792afbd8d6",
+      "new_record": {
+        "id": "bk-ch01-learner-f4792afbd8d6",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "% mdtable:T17:begin",
+        "kind": "marker",
+        "source_line": 508,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/opening-index.json#/anchor_additions/0/new_record",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 210,
+            "supporting_quote": "The first person is the speaker; the second is the person addressed; the third is the person or thing spoken about. Learn these complete **nominative subject forms** with the verb “be.” The other cases of the personal pronouns follow in Unit 2.[16]",
+            "teaching_ids": [
+              "CH01-GRAM-SUBJECT-PRONOUNS",
+              "CH01-PAR-SUBJECTS"
+            ]
+          },
+          {
+            "proposal_target": "book/proposals/opening-index.json#/anchor_additions/0/new_record",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 214,
+            "supporting_quote": "| First | ic — I | wit — we two | wē — we |",
+            "teaching_ids": [
+              "CH01-GRAM-SUBJECT-PRONOUNS",
+              "CH01-PAR-SUBJECTS"
+            ]
+          },
+          {
+            "proposal_target": "book/proposals/opening-index.json#/anchor_additions/0/new_record",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 215,
+            "supporting_quote": "| Second | ðū — you | git — you two | gē — you |",
+            "teaching_ids": [
+              "CH01-GRAM-SUBJECT-PRONOUNS",
+              "CH01-PAR-SUBJECTS"
+            ]
+          },
+          {
+            "proposal_target": "book/proposals/opening-index.json#/anchor_additions/0/new_record",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 216,
+            "supporting_quote": "| Third | hē — he; hit — it; hēo — she | — | hīe — they, all genders |",
+            "teaching_ids": [
+              "CH01-GRAM-SUBJECT-PRONOUNS",
+              "CH01-PAR-SUBJECTS"
+            ]
+          }
+        ]
+      },
+      "reason": "Complete ten-form nominative subject inventory only; obliques and full declensions remain Unit 2. Target the actual table header because the section heading is on the preceding standalone page.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 508,
+        "evidence_quotes_exact_current_master_lines": true,
+        "marker_followed_by_actual_table_header": "\\textbf{Person} & \\textbf{Singular} & \\textbf{Dual: exactly two} & \\textbf{Plural} \\\\"
+      },
+      "contextual_heading": {
+        "tex_anchor": "\\section*{8. Subject pronouns and the indicative copula}",
+        "source_line": 500,
+        "master_line": 208
+      },
+      "visual_location_basis": {
+        "review": "docs/revisions/opening/reviews/unit1-pages-final.json",
+        "review_sha256": "a688c5abbc621450dd8083b4f72c960b74109363c5c005629871a1aefd853533",
+        "standalone_pdf": "typesetting/ch01/build/chapter-01.pdf",
+        "pdf_sha256": "2eb2b2db26a6c043aba70f4d0efa8a135e445ed58ec9596840b94ea91b1e7287",
+        "heading_physical_page": 6,
+        "table_physical_page": 7,
+        "full_book_page_not_guessed": true
+      }
+    },
+    {
+      "name": "gender_reference",
+      "old_id": null,
+      "new_id": "bk-ch01-learner-8f8ad9d5a04c",
+      "new_record": {
+        "id": "bk-ch01-learner-8f8ad9d5a04c",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "In the third-person singular, \\textbf{hē, hit, hēo} normally refer to masculine, neuter, and feminine nouns respectively. Use grammatical gender when referring to a thing: a feminine noun need not name a female. All plural nouns take \\textbf{hīe}. The context identifies which noun the pronoun refers to; gender and number help to check that reference.",
+        "kind": "paragraph",
+        "source_line": 530,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/opening-index.json#/anchor_additions/1/new_record",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 220,
+            "supporting_quote": "In the third-person singular, **hē, hit, hēo** normally refer to masculine, neuter, and feminine nouns respectively. Use grammatical gender when referring to a thing: a feminine noun need not name a female. All plural nouns take **hīe**. The context identifies which noun the pronoun refers to; gender and number help to check that reference.",
+            "teaching_ids": [
+              "CH01-GRAM-SUBJECT-REFERENCE"
+            ]
+          }
+        ]
+      },
+      "reason": "Bounded subject-pronoun grammatical-gender/number reference, including things; not a new object/possessive-case lesson.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 530,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "name": "dual_agreement",
+      "old_id": null,
+      "new_id": "bk-ch01-learner-f73641fc4bb6",
+      "new_record": {
+        "id": "bk-ch01-learner-f73641fc4bb6",
+        "component_id": "ch01/learner",
+        "tex_path": "typesetting/ch01/chapter-01.tex",
+        "tex_anchor": "\\textbf{1–3 pl.} gives the shared form for \\textbf{wē, gē, hīe}. The dual subjects \\textbf{wit} and \\textbf{git} also take these ordinary plural verb forms: there is no separate dual form of the copula. Use a dual when specifically saying “we two” or “you two”; the ordinary plurals do not exclude a group of two. Cook also gives \\textbf{sind, sint} beside the selected \\textbf{sindon}.[16]",
+        "kind": "paragraph",
+        "source_line": 561,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/opening-index.json#/anchor_additions/2/new_record",
+            "master_path": "chapters/ch01/student.md",
+            "master_line": 235,
+            "supporting_quote": "**1–3 pl.** gives the shared form for **wē, gē, hīe**. The dual subjects **wit** and **git** also take these ordinary plural verb forms: there is no separate dual form of the copula. Use a dual when specifically saying “we two” or “you two”; the ordinary plurals do not exclude a group of two. Cook also gives **sind, sint** beside the selected **sindon**.[16]",
+            "teaching_ids": [
+              "CH01-GRAM-DUAL-SUBJECTS"
+            ]
+          }
+        ]
+      },
+      "reason": "Dual subjects take the ordinary plural copula; explicit dual target versus ordinary plural including two remains qualified.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 561,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    },
+    {
+      "name": "continuous_g",
+      "old_id": null,
+      "new_id": "bk-pronunciation-learner-b426b0db6cb3",
+      "new_record": {
+        "id": "bk-pronunciation-learner-b426b0db6cb3",
+        "component_id": "pronunciation/learner",
+        "tex_path": "typesetting/pronunciation/pronunciation.tex",
+        "tex_anchor": "For the continuous \\textbf{g}, put the back of the tongue near the position for hard \\textbf{g}, but leave a narrow gap. Let air pass continuously while the throat vibrates: the sound can be held, unlike the stopped \\textbf{g} of \\emph{go}. Its phonetic sign is \\textbf{[ɣ]}. Do not omit it or substitute \\textbf{y}. First selecting the \\textbf{y} or non-\\textbf{y} branch prevents this rule from changing the final sound of \\textbf{dæg} into continuous \\textbf{g}.",
+        "kind": "paragraph",
+        "source_line": 259,
+        "evidence": [
+          {
+            "proposal_target": "book/proposals/opening-index.json#/anchor_additions/3/new_record",
+            "master_path": "guides/pronunciation/student.md",
+            "master_line": 98,
+            "supporting_quote": "For the continuous **g**, put the back of the tongue near the position for hard **g**, but leave a narrow gap. Let air pass continuously while the throat vibrates: the sound can be held, unlike the stopped **g** of *go*. Its phonetic sign is **[ɣ]**. Do not omit it or substitute **y**. First selecting the **y** or non-**y** branch prevents this rule from changing the final sound of **dæg** into continuous **g**."
+          }
+        ]
+      },
+      "reason": "Move only the existing continuous-g index subentry to the specific current articulatory explanation; the expanded c/g subsection retains its broader entry.",
+      "validation": {
+        "exact_unique_current_tex_line": true,
+        "current_source_line": 259,
+        "evidence_quotes_exact_current_master_lines": true
+      }
+    }
+  ],
+  "entry_edits": [
+    {
+      "old_pointer": "book/grammar-index.json#/entries/38",
+      "match": {
+        "heading": "Agreement",
+        "subheading": "dual subjects and plural verbs"
+      },
+      "old_record": {
+        "heading": "Agreement",
+        "subheading": "dual subjects and plural verbs",
+        "anchors": [
+          "bk-ch02-learner-b542d326d059"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/26"
+        ]
+      },
+      "new_record": {
+        "heading": "Agreement",
+        "subheading": "dual subjects and plural verbs",
+        "anchors": [
+          "bk-ch01-learner-f73641fc4bb6",
+          "bk-ch02-learner-b542d326d059"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/26",
+          "book/proposals/opening-index.json#/entry_edits/0"
+        ]
+      },
+      "reason": "Add the actual Unit 1 subject-agreement introduction; retain Unit 2 full-system continuation."
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/entries/231",
+      "match": {
+        "heading": "Number",
+        "subheading": "dual pronouns and plural verb agreement"
+      },
+      "old_record": {
+        "heading": "Number",
+        "subheading": "dual pronouns and plural verb agreement",
+        "anchors": [
+          "bk-ch02-learner-b542d326d059"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/146"
+        ]
+      },
+      "new_record": {
+        "heading": "Number",
+        "subheading": "dual pronouns and plural verb agreement",
+        "anchors": [
+          "bk-ch01-learner-f73641fc4bb6",
+          "bk-ch02-learner-b542d326d059"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/146",
+          "book/proposals/opening-index.json#/entry_edits/1"
+        ]
+      },
+      "reason": "Preserve the existing Dual see-route while adding the new first teaching."
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/entries/275",
+      "match": {
+        "heading": "Personal pronouns",
+        "subheading": "grammatical gender and reference"
+      },
+      "old_record": {
+        "heading": "Personal pronouns",
+        "subheading": "grammatical gender and reference",
+        "anchors": [
+          "bk-ch02-learner-fc8f17ff0711"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/174"
+        ]
+      },
+      "new_record": {
+        "heading": "Personal pronouns",
+        "subheading": "grammatical gender and reference",
+        "anchors": [
+          "bk-ch01-learner-8f8ad9d5a04c",
+          "bk-ch02-learner-fc8f17ff0711"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/174",
+          "book/proposals/opening-index.json#/entry_edits/2"
+        ]
+      },
+      "reason": "Add bounded nominative reference in Unit 1; retain Unit 2 clause-role/case explanation."
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/entries/43",
+      "match": {
+        "heading": "Agreement",
+        "subheading": "subject and finite verb"
+      },
+      "old_record": {
+        "heading": "Agreement",
+        "subheading": "subject and finite verb",
+        "anchors": [
+          "bk-ch02-learner-d8738489e241"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/31"
+        ]
+      },
+      "new_record": {
+        "heading": "Agreement",
+        "subheading": "subject and finite verb",
+        "anchors": [
+          "bk-ch01-learner-814e0a394df4",
+          "bk-ch02-learner-d8738489e241"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/31",
+          "book/proposals/opening-index.json#/entry_edits/3"
+        ]
+      },
+      "reason": "Include Unit 1 person/number copula paradigm; retain Unit 2 wider finite-verb use."
+    },
+    {
+      "old_pointer": "book/grammar-index.json#/entries/92",
+      "match": {
+        "heading": "Consonants",
+        "subheading": "continuous g"
+      },
+      "old_record": {
+        "heading": "Consonants",
+        "subheading": "continuous g",
+        "anchors": [
+          "bk-pronunciation-learner-16b43725bb81"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/56"
+        ]
+      },
+      "new_record": {
+        "heading": "Consonants",
+        "subheading": "continuous g",
+        "anchors": [
+          "bk-pronunciation-learner-b426b0db6cb3"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/56",
+          "book/proposals/opening-index.json#/entry_edits/4"
+        ]
+      },
+      "reason": "Current detailed c/g subsection is longer. Target the actual continuous-g explanation without treating all noninitial g as continuous."
+    }
+  ],
+  "entry_additions": [
+    {
+      "new_record": {
+        "heading": "Personal pronouns",
+        "subheading": "nominative subject forms (singular, dual and plural)",
+        "anchors": [
+          "bk-ch01-learner-f4792afbd8d6"
+        ],
+        "proposal_records": [
+          "book/proposals/opening-index.json#/entry_additions/0"
+        ]
+      },
+      "reason": "Explicitly distinguish the Unit 1 nominative inventory from complete Unit 2 declensions."
+    },
+    {
+      "new_record": {
+        "heading": "Nominative",
+        "subheading": "personal-pronoun subjects",
+        "anchors": [
+          "bk-ch01-learner-f4792afbd8d6"
+        ],
+        "proposal_records": [
+          "book/proposals/opening-index.json#/entry_additions/1"
+        ]
+      },
+      "reason": "Provide access through the case term as well as the pronoun system."
+    },
+    {
+      "new_record": {
+        "heading": "Gender",
+        "subheading": "pronoun reference to things",
+        "anchors": [
+          "bk-ch01-learner-8f8ad9d5a04c"
+        ],
+        "proposal_records": [
+          "book/proposals/opening-index.json#/entry_additions/2"
+        ]
+      },
+      "reason": "Make grammatical gender versus sex accessible under Gender without broadening the teaching scope."
+    }
+  ],
+  "see_additions": [
+    {
+      "heading": "Subject pronouns",
+      "references": [
+        {
+          "heading": "Personal pronouns",
+          "subheading": "nominative subject forms (singular, dual and plural)"
+        }
+      ]
+    }
+  ],
+  "see_also_additions": [],
+  "preservation": {
+    "existing_anchor_ids_retained": 360,
+    "unaffected_anchors": {
+      "count": 339,
+      "canonical_sha256": "51493eb731c57d229a2be0c1ae11b8ee2c74ab96c415b817ec370e86720c6659",
+      "identical_records": true
+    },
+    "unaffected_existing_entries": {
+      "count": 442,
+      "canonical_sha256": "94ea93fdd9995c9be6e534222c1ee4291a3bd829d30bb2dd6a0ecdc038f5eb0e",
+      "identical_records": true
+    },
+    "existing_see_routes": {
+      "count": 74,
+      "canonical_sha256": "58b5407b7650dc6bbfc20310dc45d87bb300e653a4cd6306f6b4b377a1160cd4",
+      "unchanged": true
+    },
+    "existing_see_also_routes": {
+      "count": 32,
+      "canonical_sha256": "dfc8afc87e3bf430e4bfd44d375a38104c1f02efc1ba483c041d643ff216084e",
+      "unchanged": true
+    },
+    "full_pronoun_declension_entry": {
+      "pointer": "book/grammar-index.json#/entries/273",
+      "record": {
+        "heading": "Personal pronouns",
+        "subheading": "complete singular, dual and plural forms",
+        "anchors": [
+          "bk-ch02-learner-b542d326d059"
+        ],
+        "proposal_records": [
+          "book/proposals/index-early.json#/records/172"
+        ]
+      },
+      "unchanged": true,
+      "scope": "Complete singular/dual/plural case paradigms remain at Unit 2."
+    },
+    "glossary_targets": {
+      "existing_count": 0,
+      "action": "None to rebind; do not introduce grammatical-topic routes to dictionary headwords."
+    }
+  },
+  "validation": {
+    "old_entries": 447,
+    "projected_entries": 450,
+    "old_anchors": 360,
+    "rebound_existing_anchors": 21,
+    "new_anchors": 4,
+    "projected_anchors": 364,
+    "edited_existing_entries": 5,
+    "new_entries": 3,
+    "projected_see": 75,
+    "projected_see_also": 32,
+    "all_364_current_targets_exact_unique_lines": true,
+    "unique_anchor_ids": true,
+    "unique_component_target_lines": true,
+    "all_anchors_used": true,
+    "new_and_rebound_evidence_quotes_match_current_master_lines": true,
+    "all_cross_references_resolve": true,
+    "unaffected_records_exactly_preserved": true,
+    "proposed_semantic_entries_sha256": "f58ddca16e0cd6b1f7ca9eab265dba24c14693bba5c4ad873bf16c320ee6856f",
+    "proposed_semantic_anchors_sha256": "4757f93f5be9e55879fc589f74910a6867f29d3d14db4a76fa8af6936c2414d4"
+  },
+  "unit2_orientation_followup": {
+    "status": "completed_against_actual_revised_text",
+    "current_existing_anchors": 15,
+    "all_15_exact_target_texts_and_ids_unchanged": true,
+    "edited_master_paragraph_lines": [
+      3,
+      7,
+      38
+    ],
+    "heading_target_preserved": "bk-ch02-learner-b542d326d059",
+    "evidence_refreshed": [
+      {
+        "proposal_target": "book/proposals/index-early.json#/records/26/targets/0",
+        "master_path": "chapters/ch02/student.md",
+        "master_line": 7,
+        "supporting_quote": "The tables repeat the subject forms learned in Unit 1 and add the other cases. First person identifies the speaker; second person, the addressee; third person, someone or something else. The first and second persons also have a **dual**, explicitly referring to two. As in Unit 1, a dual subject takes a **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”; ordinary plurals can also include two. [1]"
+      },
+      {
+        "proposal_target": "book/proposals/index-early.json#/records/146/targets/0",
+        "master_path": "chapters/ch02/student.md",
+        "master_line": 7,
+        "supporting_quote": "The tables repeat the subject forms learned in Unit 1 and add the other cases. First person identifies the speaker; second person, the addressee; third person, someone or something else. The first and second persons also have a **dual**, explicitly referring to two. As in Unit 1, a dual subject takes a **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”; ordinary plurals can also include two. [1]"
+      },
+      {
+        "proposal_target": "book/proposals/index-early.json#/records/172/targets/0",
+        "master_path": "chapters/ch02/student.md",
+        "master_line": 7,
+        "supporting_quote": "The tables repeat the subject forms learned in Unit 1 and add the other cases. First person identifies the speaker; second person, the addressee; third person, someone or something else. The first and second persons also have a **dual**, explicitly referring to two. As in Unit 1, a dual subject takes a **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”; ordinary plurals can also include two. [1]"
+      },
+      {
+        "proposal_target": "book/proposals/index-early.json#/records/173/targets/0",
+        "master_path": "chapters/ch02/student.md",
+        "master_line": 38,
+        "supporting_quote": "Recognize **mīn, uncer, ūre, ðīn, incer, ēower** as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Review the nominatives; learn the new dative, accusative and third-person genitive cells for the constructions below."
+      }
+    ],
+    "source_identities": [
+      {
+        "path": "chapters/ch02/student.md",
+        "sha256": "c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d"
+      },
+      {
+        "path": "typesetting/ch02/chapter-02.tex",
+        "sha256": "41af34dd890eff19cf86dfad835137376a86391907810e0d899cef7fd91d90f2"
+      }
+    ],
+    "scope": "The subject inventory is review; oblique case cells complete the system here. First- and second-person personal genitives remain recognition, and attributive possessive endings remain untaught. No existing route or complete-declension target moved."
+  },
+  "integration_requirements": [
+    "Apply each replacement by old ID and verify its old_record against the bound input index; retain all unaffected records exactly.",
+    "Add four new anchors, three new subentries and one Subject pronouns see-route; apply five explicit existing-entry edits, preserving original proposal_records.",
+    "Add this proposal to source_proposals and record the before/after index identities centrally in book/amendments.json.",
+    "Recheck current Unit 1 TeX hash/source_line after the coordinator’s CASE-item layout reservation repair; target wording is expected to stay unchanged.",
+    "Preserve BookMeta vertical-skip handling. Keep the existing marker insertion into the first table header cell and paragraph insertion after a complete word/group; no builder changes are requested.",
+    "Update component/manifests only after accepted source exports. Resolve index page references from rebuilt actual labels; never reuse or guess the old pages.",
+    "Run full source-body restoration, every-page text parity, explicit PageLabels and ordered index-link verification, then source/combined header-body raster comparison and human navigation/page review."
+  ],
+  "no_pdf_acceptance_claim": "No rebuilt full-volume PDF was produced or accepted by this proposal.",
+  "new_anchor_id_rule": "For additions only: bk- + component_id with slash replaced by hyphen + hyphen + first 12 hex digits of SHA-256(component_id + LF + exact TeX target). Existing IDs are stable opaque labels and are retained across record rebinding.",
+  "updated_utc": "2026-11-03T01:23:08.176945+00:00",
+  "revision_history": [
+    {
+      "previous_proposal_sha256": "2ac89b40d14604d26134dba6be568b3605914269af42764cb6a7603d3cf2c2fe",
+      "reason": "Confirm the final repaired Unit 1 source identities; route subject-form entries to the actual paradigm table after native page inspection.",
+      "unit1_final_tex_sha256": "7024eaa8163a4db7a81145c046b78468ce4d8917cb8e47fcdff9fd01af713c43",
+      "unit1_source_identity_changed_since_initial_proposal": false,
+      "old_subject_addition": {
+        "name": "subjects",
+        "old_id": null,
+        "new_id": "bk-ch01-learner-e65b41de3b02",
+        "new_record": {
+          "id": "bk-ch01-learner-e65b41de3b02",
+          "component_id": "ch01/learner",
+          "tex_path": "typesetting/ch01/chapter-01.tex",
+          "tex_anchor": "\\section*{8. Subject pronouns and the indicative copula}",
+          "kind": "heading",
+          "source_line": 500,
+          "evidence": [
+            {
+              "proposal_target": "book/proposals/opening-index.json#/anchor_additions/0/new_record",
+              "master_path": "chapters/ch01/student.md",
+              "master_line": 210,
+              "supporting_quote": "The first person is the speaker; the second is the person addressed; the third is the person or thing spoken about. Learn these complete **nominative subject forms** with the verb “be.” The other cases of the personal pronouns follow in Unit 2.[16]",
+              "teaching_ids": [
+                "CH01-GRAM-SUBJECT-PRONOUNS",
+                "CH01-PAR-SUBJECTS"
+              ]
+            },
+            {
+              "proposal_target": "book/proposals/opening-index.json#/anchor_additions/0/new_record",
+              "master_path": "chapters/ch01/student.md",
+              "master_line": 214,
+              "supporting_quote": "| First | ic — I | wit — we two | wē — we |",
+              "teaching_ids": [
+                "CH01-GRAM-SUBJECT-PRONOUNS",
+                "CH01-PAR-SUBJECTS"
+              ]
+            },
+            {
+              "proposal_target": "book/proposals/opening-index.json#/anchor_additions/0/new_record",
+              "master_path": "chapters/ch01/student.md",
+              "master_line": 215,
+              "supporting_quote": "| Second | ðū — you | git — you two | gē — you |",
+              "teaching_ids": [
+                "CH01-GRAM-SUBJECT-PRONOUNS",
+                "CH01-PAR-SUBJECTS"
+              ]
+            },
+            {
+              "proposal_target": "book/proposals/opening-index.json#/anchor_additions/0/new_record",
+              "master_path": "chapters/ch01/student.md",
+              "master_line": 216,
+              "supporting_quote": "| Third | hē — he; hit — it; hēo — she | — | hīe — they, all genders |",
+              "teaching_ids": [
+                "CH01-GRAM-SUBJECT-PRONOUNS",
+                "CH01-PAR-SUBJECTS"
+              ]
+            }
+          ]
+        },
+        "reason": "Complete ten-form nominative subject inventory only; obliques and full declensions remain Unit 2.",
+        "validation": {
+          "exact_unique_current_tex_line": true,
+          "current_source_line": 500,
+          "evidence_quotes_exact_current_master_lines": true
+        }
+      },
+      "new_subject_anchor_id": "bk-ch01-learner-f4792afbd8d6",
+      "new_subject_exact_line": "% mdtable:T17:begin",
+      "all_364_target_lines_rechecked_unique": true,
+      "all_new_rebound_support_quotes_rechecked": true,
+      "unaffected_record_digests_unchanged": true
+    },
+    {
+      "previous_proposal_sha256": "adf3e573b75ec53bf428423ba805cb4ed41514c9a2a2fabba83a266b98ad59f5",
+      "reason": "Refresh Unit 2 evidence and source identities after the coordinator actually revised only its three orientation paragraphs.",
+      "previous_unit2_inputs": [
+        {
+          "path": "chapters/ch02/student.md",
+          "sha256": "8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505"
+        },
+        {
+          "path": "typesetting/ch02/chapter-02.tex",
+          "sha256": "4e3f8fac7e249f546e6953cadbd2665f39c4d5744c2270cb5636c5722476217f"
+        }
+      ],
+      "previous_unit2_followup": {
+        "current_existing_anchors": 15,
+        "all_exact_and_unchanged_now": true,
+        "planned_master_paragraph_lines": [
+          3,
+          7,
+          38
+        ],
+        "heading_target_to_preserve": "bk-ch02-learner-b542d326d059",
+        "evidence_needing_refresh_after_actual_edit": [
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/26/targets/0",
+            "old_master_line": 7
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/146/targets/0",
+            "old_master_line": 7
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/172/targets/0",
+            "old_master_line": 7
+          },
+          {
+            "proposal_target": "book/proposals/index-early.json#/records/173/targets/0",
+            "old_master_line": 38
+          }
+        ],
+        "action": "Root will alter three orientation paragraphs only. Keep the full-declension heading/table destinations and governed-case targets. Refresh these historical supporting quotes from the actual revised master when it exists, then recheck exact line positions. This proposal does not invent future wording."
+      },
+      "previous_unaffected_anchor_preservation": {
+        "count": 340,
+        "canonical_sha256": "f28060146481560465d87513624c578f3cc83563086333eabd744e8d5323af7b",
+        "identical_records": true
+      },
+      "rebound_existing_anchor_id": "bk-ch02-learner-b542d326d059",
+      "four_quotes_read_against_actual_master": true,
+      "all_15_unit2_target_lines_unchanged": true,
+      "all_364_projected_targets_unique_current_lines": true,
+      "all_entry_edits_additions_and_alias_routes_unchanged": true
+    },
+    {
+      "previous_proposal_sha256": "581b60689246dc11cd6f4037ef288f1c33a3cbf31c97c6df76374083f6033e6f",
+      "reason": "Coordinator explicitly authorized replacing the stale Unit 2 TeX source-master hash comment before final compile; no text, heading, table, target line or page-layout command changed.",
+      "tex_path": "typesetting/ch02/chapter-02.tex",
+      "old_tex_sha256": "2f7120cb7c7a552421fc05c46366accd437f67558b67e0c3f9d47454a1cd01af",
+      "new_tex_sha256": "41af34dd890eff19cf86dfad835137376a86391907810e0d899cef7fd91d90f2",
+      "master_sha256": "c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d",
+      "changed_tex_line": 2,
+      "old_comment": "% Markdown SHA-256: 8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505",
+      "new_comment": "% Markdown SHA-256: c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d",
+      "all_exact_target_lines_and_positions_unchanged": true
+    }
+  ]
+}

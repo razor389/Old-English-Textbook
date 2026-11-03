@@ -1,10 +1,10 @@
 # Unit 2. Personal pronouns and weak indicative verbs
 
-This unit introduces personal pronouns and the present and preterite indicative of weak verbs. Learn the finite forms in the tables, together with their stem changes. The six first- and second-person genitives and the negative verb **nabban** are for recognition. Infinitive and participle citations are available for lookup; their uses in sentences come later.
+This unit completes the personal-pronoun tables begun in Unit 1 and introduces the present and preterite indicative of weak verbs. Learn the finite forms in the tables, together with their stem changes. The six first- and second-person genitives and the negative verb **nabban** are for recognition. Infinitive and participle citations are available for lookup; their uses in sentences come later.
 
 ## 1. Personal pronouns
 
-The first person identifies the speaker; the second identifies the addressee; the third refers to someone or something else. Besides singular and plural, the first and second persons have a **dual**, explicitly referring to two. A dual subject takes the corresponding **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”. Ordinary plural forms are not restricted by a rule that they must always exclude two. [1]
+The tables repeat the subject forms learned in Unit 1 and add the other cases. First person identifies the speaker; second person, the addressee; third person, someone or something else. The first and second persons also have a **dual**, explicitly referring to two. As in Unit 1, a dual subject takes a **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”; ordinary plurals can also include two. [1]
 
 <!-- teaching: NEW-U02-PAR-ic NEW-U02-PAR-thu NEW-U02-PAR-he NEW-U02-VOC-ic NEW-U02-VOC-thu NEW-U02-VOC-he NEW-U02-GRAM-personal-pronouns NEW-U02-GRAM-personal-genitive-citation NEW-U02-GRAM-dual-agreement -->
 
@@ -35,7 +35,7 @@ The first person identifies the speaker; the second identifies the addressee; th
 | Dative | him | him | hiere | him |
 | Accusative | hine | hit | hīe | hīe |
 
-Recognize **mīn, uncer, ūre, ðīn, incer, ēower** as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Learn the remaining cells for use in the constructions below.
+Recognize **mīn, uncer, ūre, ðīn, incer, ēower** as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Review the nominatives; learn the new dative, accusative and third-person genitive cells for the constructions below.
 
 <!-- teaching: NEW-U02-GRAM-pronoun-reference -->
 

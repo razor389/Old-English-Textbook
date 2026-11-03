@@ -1,22 +1,16 @@
 # Typesetting
 
-Markdown is the editable master. [book-layout.tex](book-layout.tex) defines the shared LuaLaTeX/Cambria layout: 165 × 241 mm, 11-point body text and 14.3-point leading. Paradigm tables use 10.5-point type with 13.2-point leading, bold headings, horizontal rules and consistent labels. Identical verbal plural forms share `1–3 pl.`; all distinct forms and complete logical paradigms remain.
+Markdown is the editable master. [book-layout.tex](book-layout.tex) defines the shared LuaLaTeX/Cambria layout: 165 × 241 mm, 11-point body text and 14.3-point leading. Paradigms use 10.5-point type, horizontal rules and consistent labels; identical verbal plural cells share `1–3 pl.`.
 
-The complete [Learner’s Book](full-book/book.pdf), **967 pages**, and [Answer Key](full-book/answer-key.pdf), **486 pages**, assemble all accepted components into two volumes. The learner book includes pronunciation, Units 1–18, sound history, both glossaries, linked contents and a grammatical index; the key includes pronunciation answers and all unit keys. [Full-volume reproduction and acceptance notes](full-book/README.md) describe their separate builder and checks. The standalone exports below remain available.
+The complete [Learner’s Book](full-book/book.pdf), **971 pages**, and [Answer Key](full-book/answer-key.pdf), **488 pages**, contain all accepted components. [Full-volume notes](full-book/README.md) give the assembly, navigation and every-page review evidence.
 
-The separate introductory [pronunciation guide](pronunciation/pronunciation.pdf), 9 pages, and [practice key](pronunciation/answer-key.pdf), 3 pages, use this layout. Their [export notes and reproduction commands](pronunciation/README.md) cover both complete documents. They are additional front matter; the build and page totals for the 36 unit documents below remain unchanged.
+Separate references are the [12-page pronunciation guide](pronunciation/pronunciation.pdf), [4-page practice key](pronunciation/answer-key.pdf), [12-page sound-history appendix](sound-history/sound-history.pdf), and [Old English–English](glossaries/old-english.pdf) / [English–Old English](glossaries/english.pdf) glossaries of **58 / 100 pages**. Their directory READMEs give complete reproduction and acceptance instructions.
 
-The complete [Old English–English glossary](glossaries/old-english.pdf), **58 pages**, and [English–Old English glossary](glossaries/english.pdf), **100 pages**, are separate reference volumes. Entries use two columns of 10.5-point Cambria with 13.2-point leading; the Old English introduction uses the same size to fit one page. Their [reproduction and acceptance notes](glossaries/README.md) cover both complete exports and all 158 inspected pages.
-
-The optional [sound-history appendix](sound-history/sound-history.pdf), **12 pages**, explains historical changes behind the course forms. Its [export and reproduction notes](sound-history/README.md) cover the complete master, eight tables, source notes and every-page inspection. It uses the shared body/table style and adds no exercise key.
-
-The accepted [course presentation revision](../docs/revisions/table-layout/) rebuilt 34 complete documents, comprising 1,146 pages, with clean compilation and table-parity checks. Unit 17's 45-page key and Unit 18's 32-page key are byte-unchanged. The eighteen units total **1,223 pages**, down from 1,232. Independent reviewers accepted the changed pages and subsequent heading repairs; the links below identify the retained PDFs.
-
-The [export manifest](../docs/revisions/table-layout/exports.json) records current page counts and PDF identities. [Page acceptance](../docs/revisions/table-layout/page-review.json) binds the reviewed pages to those exports; the [validated build report](../docs/revisions/table-layout/build-report.json), [complete-content checks](../docs/revisions/table-layout/export-text-review.json), and [logical-table review](../docs/revisions/table-layout/table-review.json) retain the verification evidence.
+The eighteen units contain **1,227 pages** across 36 learner/key documents. The opening revision changes Unit 1 and three Unit 2 orientation paragraphs; the other unit sources and PDFs retain their accepted identities. Historical table-layout receipts describe their original checkpoint.
 
 | Unit | Learner pages | Key pages | Export notes |
 | --- | ---: | ---: | --- |
-| 1 | [21](ch01/chapter-01.pdf) | [12](ch01/answer-key.pdf) | [Unit 1](ch01/README.md) |
+| 1 | [23](ch01/chapter-01.pdf) | [14](ch01/answer-key.pdf) | [Unit 1](ch01/README.md) |
 | 2 | [20](ch02/chapter-02.pdf) | [14](ch02/answer-key.pdf) | [Unit 2](ch02/README.md) |
 | 3 | [31](ch03/chapter-03.pdf) | [21](ch03/answer-key.pdf) | [Unit 3](ch03/README.md) |
 | 4 | [21](ch04/chapter-04.pdf) | [18](ch04/answer-key.pdf) | [Unit 4](ch04/README.md) |
@@ -35,22 +29,17 @@ The [export manifest](../docs/revisions/table-layout/exports.json) records curre
 | 17 | [92](ch17/chapter-17.pdf) | [45](ch17/answer-key.pdf) | [Unit 17](ch17/README.md) |
 | 18 | [64](ch18/chapter-18.pdf) | [32](ch18/answer-key.pdf) | [Unit 18](ch18/README.md) |
 
-The unit export notes preserve original linguistic acceptance, complete-content evidence and earlier checkpoint identities separately from this presentation revision. Original review ledgers certify their identified files; they do not certify a new render automatically. Logical-cell totals and teaching milestones are unchanged even where a compact row represents three persons.
+## Current reproduction
 
-## Reproduction
+For the pronunciation guide and Unit 1, use [the current opening builder/checker](../scripts/build_opening_exports.py), as documented in their [guide](pronunciation/README.md) and [Unit 1](ch01/README.md) notes. Unit 2 retains its complete existing TeX with three paragraph changes; [its notes](ch02/README.md) give compile/check commands. The [glossary checker](glossaries/README.md) requires the explicit current revision bridge.
 
-Run from the repository root with the configured TeX Live, Cambria, Xpdf and Ghostscript installation:
+Rebuild the complete volumes from the exact accepted component manifest:
 
 ```powershell
-python -X utf8 scripts/check_course_layout.py --report build/course-layout-check.json
-python -X utf8 scripts/build_course_exports.py --stage all --include-unchanged --jobs 2 --render-suffix reproduction-01
-python -X utf8 scripts/check_course_exports.py --report build/course-export-check.json
+python -B -X utf8 scripts/build_full_book.py --stage all
+python -B -X utf8 scripts/check_full_book.py
 ```
 
-The shared build command compiles each complete document twice, checks table parity and build diagnostics, extracts its text and renders all pages. Choose a fresh `--render-suffix` for a later changed build. Use `--stage inspect` to inspect existing build products without compiling, or `--stage render` to regenerate page images from them. `--select` accepts comma-separated document IDs such as `ch01/learner,ch03/key`.
+Full content/navigation checks and fresh raster/page review are required before promotion. Build outputs remain in ignored directories. The source manifest and exact preservation overlay distinguish the current revision from its original accepted components.
 
-The layout check compares expanded logical cells, actual Markdown/TeX tables, protected distinctions and frozen teaching content. The export check independently compares complete master prose, actual TeX cells and captions, and the built PDF text. The unrestricted export command checks all 36 documents; `--chapter N` is available only for a limited unit diagnostic. A later changed build needs fresh visual review bound to its PDF and page-image identities before it replaces an accepted PDF. Do not rerun historical assemblers, register mergers or baseline captures to rebuild exports.
-
-The build helper records compilation, diagnostics, extracted text, PDF identities and raster identities in `build/style-audit/build-report.json`; reproduction reports and page images remain under `build/`. The accepted build report is retained separately at [docs/revisions/table-layout/build-report.json](../docs/revisions/table-layout/build-report.json). Rebuilding does not promote PDFs or rewrite the durable acceptance records. The existing selected fonts and packages must be available; any font substitution requires explicit review. Never alter Old English letters or quantity marks to accommodate a font.
-
-The retained TeX includes complete learner/key content and deliberate pagination adjustments. The common renderer and mapping maintain table presentation; historical one-use authoring helpers are not the current export workflow. Preserve stable task, key and teaching IDs throughout rebuilds.
+The older `check_course_layout.py` and table-layout baseline certify the historical presentation-only revision; they are not a current teaching-scope baseline after the opening revision. Do not recapture that baseline or replay historical assemblers/register mergers. Use current contracts, exact revised source identities and the versioned opening checks. Unchanged chapter TeX remains available for direct LuaLaTeX compilation and chapter-specific content verification.

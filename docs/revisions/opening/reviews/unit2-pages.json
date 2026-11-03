@@ -1,0 +1,460 @@
+{
+  "schema_version": 1,
+  "reviewer": "/root/sound_design",
+  "revision": "opening-2026-11-02",
+  "created_utc": "2026-11-03T01:28:19.344533+00:00",
+  "status": "accepted_visual",
+  "accepted": true,
+  "scope": "Every actual page of the revised standalone Unit 2 learner PDF viewed at native full-page resolution. This is visual acceptance, separate from current content parity and historical linguistic acceptance.",
+  "reviewer_disclosure": "This reviewer proposed index mappings and, under explicit coordinator authorization, corrected only the Unit 2 TeX line-2 master SHA comment before the final compile. The coordinator authored the three orientation edits and produced the final exports. No learner prose or table was authored or changed by this visual review.",
+  "manifest": {
+    "path": "build/full-book/raster/opening/unit2/sources.json",
+    "sha256": "d6405273099a2d45e5a46ddd1ca7efcb5be6d0d9309d1b67816d961d9f848a48",
+    "pages": 20,
+    "complete": true
+  },
+  "source_preview": {
+    "path": "build/opening/unit2-contents.json",
+    "sha256": "408dc250e45d8af15d752bdf6660b458358cd6dd51b1d9b0d7ffc3e08e0df973",
+    "identity_fields_checked": "Current master, TeX and PDF identities in components[].sources; historical source_body_sha256_lf is not used as current body-parity evidence."
+  },
+  "render_settings": {
+    "dpi": 150,
+    "device": "png16m",
+    "channels": "RGB",
+    "bits_per_channel": 8,
+    "flags": [
+      "-sDEVICE=png16m",
+      "-r150",
+      "-dTextAlphaBits=4",
+      "-dGraphicsAlphaBits=4",
+      "-dSAFER",
+      "-dBATCH",
+      "-dNOPAUSE"
+    ]
+  },
+  "historical_reviews_preserved": [
+    {
+      "path": "chapters/ch02/review.md",
+      "sha256": "03f926ceac48ebd795cce1ca340a7c356b5ee62b6f3f87ccaf84467d79c44f3f",
+      "modified": false,
+      "role": "Historical acceptance preserved; not reused as current page review."
+    },
+    {
+      "path": "book/reviews/learner-pages.json",
+      "sha256": "aeba34cb6f6d55f68fdfc27b253b58b0c7496092e28fdfa0f056852ca0d2f6c9",
+      "modified": false,
+      "role": "Historical acceptance preserved; not reused as current page review."
+    }
+  ],
+  "revision_focus": [
+    {
+      "master_path": "chapters/ch02/student.md",
+      "master_line": 3,
+      "actual_page": 1,
+      "result": "Opening now explicitly completes the Unit 1 subject inventory; full paragraph visible."
+    },
+    {
+      "master_path": "chapters/ch02/student.md",
+      "master_line": 7,
+      "actual_page": 1,
+      "result": "Personal-pronoun orientation explicitly reviews Unit 1 and dual/plural agreement; full paragraph visible above first-person table."
+    },
+    {
+      "master_path": "chapters/ch02/student.md",
+      "master_line": 38,
+      "actual_page": 2,
+      "result": "Recognition restriction and new oblique-cell scope are fully visible below third-person table."
+    }
+  ],
+  "documents": [
+    {
+      "id": "ch02/learner",
+      "sources": {
+        "master": {
+          "path": "chapters/ch02/student.md",
+          "sha256": "c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d"
+        },
+        "tex": {
+          "path": "typesetting/ch02/chapter-02.tex",
+          "sha256": "41af34dd890eff19cf86dfad835137376a86391907810e0d899cef7fd91d90f2"
+        },
+        "pdf": {
+          "path": "typesetting/ch02/build/chapter-02.pdf",
+          "sha256": "eff231ced271fc70985b39f23200d85240570d410a712bb14380f24dcda37cab"
+        }
+      },
+      "pdf": "typesetting/ch02/build/chapter-02.pdf",
+      "pdf_sha256": "eff231ced271fc70985b39f23200d85240570d410a712bb14380f24dcda37cab",
+      "pages": 20,
+      "page_views": [
+        {
+          "page": 1,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0001.png",
+          "sha256": "17e9d891aa352dbb26c77a0b2376c8efa38be9a1daf333ca7fc65f31df3ee462",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "e74e5580ab27c4ae249fe9bc7273cef9c7c3748eb807fbd72fd9b5e18c7652d1",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Both revised opening paragraphs are fully visible, including Unit 1 continuity and dual agreement. First- and second-person full tables remain together with captions; title, macrons, header and folio are clear.",
+          "result": "pass"
+        },
+        {
+          "page": 2,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0002.png",
+          "sha256": "c2ce56821acf2f121e6614b7b11c8aedeeae293cbe1b849ddaca17dfaa5709cd",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "5058858f44d0f9023d58f49d0f123bd2c6bf37c5127fadb7979aa132b8b7006e",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Third-person table starts with its caption and complete rows. Revised recognition/learning-scope paragraph is intact; pronoun syntax, variants and invariant genitives remain readable with clear macrons and eth.",
+          "result": "pass"
+        },
+        {
+          "page": 3,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0003.png",
+          "sha256": "e46dade2f91a392b80e5e1e8beb15ad489a9d6c65fe33bdfff896d56ef6eb2fb",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "1e06d17736bc46b25942613abe85d1fd2d27eece6b31015eb150a1b1670a5977",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Verb-table instructions and Class I introduction remain with their tables. Compact shared-plural rows, hooked e, macrons and all column headings fit without clipping or collisions.",
+          "result": "pass"
+        },
+        {
+          "page": 4,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0004.png",
+          "sha256": "246d98f8778d581578b91890ac9f66b632043dcc363771f9f6aaebb66f36e5bd",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "557d4f7dd2e2b472146987401c92fcad47ccd736fc532ce090b9389881d55f48",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Remaining Class I tables and stem-change explanations are legible. Each model caption remains with its table; contrast-list introduction stays with the first bullet; headers and folio are clear.",
+          "result": "pass"
+        },
+        {
+          "page": 5,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0005.png",
+          "sha256": "0d08d9ae14708f6951f83e2ad645867f8c57c1f4bb23ccf528617b116745767d",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "7d040ecd31f68ad25b40b2407df5598d1ec75f7ce56d4287169e80a31a5fa47c",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Class I contrast bullets and irregular/short-stem section are readable; arrows, consonant examples and supplied variants display correctly. Tables and following explanations remain complete.",
+          "result": "pass"
+        },
+        {
+          "page": 6,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0006.png",
+          "sha256": "38158722eeb3a3e52309dc76b78f7208260210de6bf9b8380bb6541d016cfdb4",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "42482219647498c9ade06d417d78130c03ee1fa67c24a4e650f4816288753f2c",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Short-stem tables, reference exceptions and Class II introduction/table are clear. Compact plural labels and long verb headings fit; no table row is clipped or separated from its model label.",
+          "result": "pass"
+        },
+        {
+          "page": 7,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0007.png",
+          "sha256": "b527e5e196c8f415bfe0aaee527b99f6308f33f29d3cae3ecc3946e9867149c8",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "2ddeba0c9786eabf8c301c925c71488cb165042187341fd61d2f5df6f44cbf8c",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Class II final model and Class III paradigms fit in clear compact tables; reference-alternative paragraph continues normally. Hooked e, vowel-length marks and plural forms are unobscured.",
+          "result": "pass"
+        },
+        {
+          "page": 8,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0008.png",
+          "sha256": "e75d9f67067b1d6220af4f92969f8e1288e91266986ac7439932f6c487aee5af",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "ea75e4ede03320ca2689d8a5f7f41eb9c5697923d5532bc7eff92af950a4ad36",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Recognition-only nabban paradigm and usage examples remain readable, with captions and complete rows together. Reflexive introduction begins with several lines before a normal continuation.",
+          "result": "pass"
+        },
+        {
+          "page": 9,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0009.png",
+          "sha256": "b1cd75f9c94ce2322c4c9a59fab9a7938a39cc03181b915fe09b9dbb7a096456",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "9a075f4ba77109a7178980da3698ae383826338d0265d48dfcaaf6e36dcc1aec",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Reflexive continuation, negation, coordination and direct-speech examples are legible. Vocabulary table begins after its instructions and ends on complete rows with an unobscured continuation notice.",
+          "result": "pass"
+        },
+        {
+          "page": 10,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0010.png",
+          "sha256": "6d902017f26372dcdd7fcccdc1a120563e517980aeb4d1764aa331c35b03f6ca",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "318d92bbf65144bbc67698e55dec74074d050c183bc5253a0c91929d6bd2bab8",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Vocabulary table repeats its header and completes clearly. Principal-part instructions remain complete; the following reference table starts with full rows and a clear continuation notice.",
+          "result": "pass"
+        },
+        {
+          "page": 11,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0011.png",
+          "sha256": "bd7eb3d8dedbb04778243e4567b442c4b5d2db149a4825109f40712812f87a9e",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "b05be2ae77e82b7350338f6d7b0eb3aa81e76805620110a5a080778361f98542",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Principal-part continuation table is complete with readable optional-letter parentheses and vowel marks. Pronoun-practice heading, instructions and initial tasks stay together.",
+          "result": "pass"
+        },
+        {
+          "page": 12,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0012.png",
+          "sha256": "3a85671e71650d1c07e3963a3b5dde3d31e56d93ace39d37353248366c96eca4",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "2d72e3664894b495fa85e194473347a9e0173a5a2fb8160d45a583e15b50c977",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Remaining pronoun tasks and verb-form section are consistently numbered and legible; scope directions and long prompts wrap normally without clipping or detached headings.",
+          "result": "pass"
+        },
+        {
+          "page": 13,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0013.png",
+          "sha256": "aaed94b2743b1a9c639f718c0d21f8756d25ee11379e81cbd10af4b715efda96",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "fa04cad51566c5387bb8e706d8673ed07a1610e41dd6678102be873935338f02",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Verb tasks 10–20 and case/reference section opening remain readable with complete item numbering; OE forms, punctuation and long prompts fit within the text margins.",
+          "result": "pass"
+        },
+        {
+          "page": 14,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0014.png",
+          "sha256": "6a4c0c1d12d7d3578891042e2b3d9f95e968bb25d0a8a3ddfd2b8b09de0183a9",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "af233f5ca4f7d494a46191bdcd4effa55ea7fd8041d4ac78a3e36b01162af689",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Case/reference continuation and translation tasks are clear. Connected-readings heading remains with its two-line introduction; normal break before the first named reading.",
+          "result": "pass"
+        },
+        {
+          "page": 15,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0015.png",
+          "sha256": "e48e5cdad4c37219e7576d35997fb9204dbd68cd9039a7c9a6bee36565e72fea",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "4c06d302ad528c6999d5a977f20662f58c13a9f163c259baeb6eb17e88f42bd5",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Both connected readings, speaker labels and all six reading exercises are intact and readable. Macrons and pronoun distinctions remain clear; final lines stay above the folio.",
+          "result": "pass"
+        },
+        {
+          "page": 16,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0016.png",
+          "sha256": "e08c9086b5cfaa3c0b9a497198e6867554d2fd19e339da803790ff2cc92f8800",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "6fbbd823bda9e7ab7f1eb70933df828c6656c3ac0d6273a43b74247f9a813283",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Source-reading title, complete Sabbath passage and local support are legible. Temporal/relative construction examples and source-note markers display correctly; bullet continuation is normal.",
+          "result": "pass"
+        },
+        {
+          "page": 17,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0017.png",
+          "sha256": "2a5a087195f58424a0b04f91e7e20b362d753ff13939a714f4be3c60c65f0add",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "a27d354e7b0af2b3dc098cb8a4fa1fe2cf3fde0676869a164ad3dac83f1a25c9",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Remaining local help and reading exercises 1–4 are legible, including relative pronoun/personal pronoun distinctions, macrons and quoted phrases. No line or note marker is clipped.",
+          "result": "pass"
+        },
+        {
+          "page": 18,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0018.png",
+          "sha256": "5af4c9d538b986d2d93031bd5746c3456de427092499ebf4c3f5f9a01f90930c",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "c6899e8a039cd15271d4bb66beaf023e78b7345806bfdb89deaf4ed0fcd2a5c9",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Reading exercises 5–7 and all review tasks are complete and clear. The page ends with normal whitespace before the source-note section; header and folio are consistent.",
+          "result": "pass"
+        },
+        {
+          "page": 19,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0019.png",
+          "sha256": "ebcab20c8d5289fcff5ba45a06443b2f17a34951405eacfa2d8d7664b9854221",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "28b9ef9a7f5188ab00b3de2ae4e17eaa5d5f1092ab0935f8968b95cdfc778b33",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Source notes 1–13 are legible in their smaller text style, including precise locators, hooked e and bold examples. Note 13 continues normally after two opening lines.",
+          "result": "pass"
+        },
+        {
+          "page": 20,
+          "path": "build/full-book/raster/opening/unit2/sources/ch02--learner/46a00f1cd466ad1dc1f2/page-0020.png",
+          "sha256": "c5f10d4e5dcf98ac495f2c6cf7de0dbfd58320d58d9a48c334bdb45606610535",
+          "width": 974,
+          "height": 1423,
+          "rgb_bit_depth": 8,
+          "compared_rows": 1328,
+          "filtered_scanline_prefix_sha256": "0b0cf2e1c0ca6e212ea67cd1ab7f16840c6bc4b3d928b18281c4839589070c3e",
+          "actually_viewed": true,
+          "view_tool": "view_image",
+          "detail": "original",
+          "whole_page_and_folio_inspected": true,
+          "observation": "Source-note continuation and final notes 14–17 are complete and clear. Final page has normal ending whitespace and intact page furniture; no missing or substituted glyph is visible.",
+          "result": "pass"
+        }
+      ],
+      "compiler_logs": [
+        {
+          "pass": 1,
+          "path": "typesetting/ch02/build/chapter-02-opening-pass1.log",
+          "sha256": "a913f917a43f6edce733c487d4b542b604b4add44af7d8cc0763cd9edf87d011",
+          "material_diagnostics": []
+        },
+        {
+          "pass": 2,
+          "path": "typesetting/ch02/build/chapter-02-opening-pass2.log",
+          "sha256": "a913f917a43f6edce733c487d4b542b604b4add44af7d8cc0763cd9edf87d011",
+          "material_diagnostics": []
+        }
+      ]
+    }
+  ],
+  "crosschecks": {
+    "all_20_actual_image_hashes_verified": true,
+    "all_current_pdf_master_tex_hashes_verified": true,
+    "all_page_sequences_complete": true,
+    "native_dimensions": [
+      974,
+      1423
+    ],
+    "all_20_pages_actually_viewed": true,
+    "both_pass_compiler_diagnostics": [],
+    "central_export_check": {
+      "path": "build/opening/unit2-check.json",
+      "sha256": "93573beb38e8e30a131895b3e0fff05d564b9f3f4bb892b3b520a4002e2013cf",
+      "status": "pass",
+      "scope": "current Markdown→actual TeX→complete ordered PDF text"
+    },
+    "compile_receipt": {
+      "path": "build/opening/unit2-compile.json",
+      "sha256": "73b1a0e89a4b29890483e1f3e454140faef2fc0c0861a00ce868b25a40b7fc3d",
+      "status": "pass_pending_content_and_page_review"
+    }
+  },
+  "findings": [],
+  "material_findings": 0,
+  "optional_findings": 0,
+  "limitations": [
+    "Acceptance applies only to the exact standalone learner PDF identified here.",
+    "Complete ordered text/Unicode/ID parity is separately recorded in the coordinator’s current export check; hashes bind the actual viewing and do not replace it.",
+    "The Unit 2 key is unchanged and was not part of this page inspection.",
+    "No historical review, retained PDF, master, table, shared index or book manifest was edited by this review.",
+    "The rebuilt complete-book pages and navigation still require their own final checks."
+  ]
+}

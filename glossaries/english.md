@@ -1220,6 +1220,10 @@ Old English citation forms retain the book's spelling and length marks. Some sou
 
 ### C
 
+<!-- entry: EN-7233abd7ea22 -->
+
+**calf** — **cealf** (n.).
+
 <!-- entry: EN-7edb360f06ac -->
 
 **call** — **cleopian** (v.). call; summon. Accusative person summoned; distinguish intransitive cry aloud. **hātan** (v.). call; name. **sęcgan** (v.). call; declare to be. Object with the stated agreeing predicate.
@@ -1922,9 +1926,13 @@ Old English citation forms retain the book's spelling and length marks. Some sou
 
 **dignity** — **horn** (n.). horn; strength; dignity. Strength/dignity is the figurative force in 37.14, not a replacement for the literal source horn. **weorðscipe** (n.). honour; dignity.
 
+<!-- entry: EN-f0fec9b2c0b4 -->
+
+**dike** — **dīc** (n.). ditch; dike.
+
 <!-- entry: EN-d15690f08a57 -->
 
-**direct** — **āðęnian** (v.). direct; stretch toward. Directing the mind toward what is heard; supplied figurative phrase. **getǣcan** (v.). show; direct. Supplied source form. **gewissian** (v.). guide; direct.
+**direct** — **āðęnian** (v.). direct; stretch toward. Directing the mind toward what is heard; supplied figurative phrase. **getǣcan** (v.). show; direct. Supplied source form. **gewissian** (v.). guide; direct. **riht** (adj.). Adjective; supplied pronunciation gloss.
 
 <!-- entry: EN-d0c92c764c56 -->
 
@@ -1973,6 +1981,10 @@ Old English citation forms retain the book's spelling and length marks. Some sou
 <!-- entry: EN-16e601ed6c84 -->
 
 **distress** — **gewinn** (n.). distress; struggle. **sorg** (n.). distress; anxiety; trouble; sorrow.
+
+<!-- entry: EN-5ac8dad60a3b -->
+
+**ditch** — **dīc** (n.). ditch; dike.
 
 <!-- entry: EN-895479bfaa22 -->
 
@@ -6346,7 +6358,7 @@ Old English citation forms retain the book's spelling and length marks. Some sou
 
 <!-- entry: EN-072a626ed2d6 -->
 
-**shield** — **gescieldan** (v.). shield; protect.
+**shield** — **gescieldan** (v.). shield; protect. **scield** (n.). Noun; supplied pronunciation word.
 
 <!-- entry: EN-6d7cbfe8a1ce -->
 
@@ -7306,6 +7318,10 @@ Old English citation forms retain the book's spelling and length marks. Some sou
 
 **throw** — **weorpan** (v.). Accusative thing thrown. Accusative thing cast; a following destination has its own government.
 
+<!-- entry: EN-2081cc0de301 -->
+
+**thrust** — **scūfan** (v.). Supplied infinitive.
+
 <!-- entry: EN-c672b342b8ae -->
 
 **thunderbolt** — **līeg** (n.). thunderbolt; lightning. Source levin sense.
@@ -7819,6 +7835,10 @@ Old English citation forms retain the book's spelling and length marks. Some sou
 <!-- entry: EN-a7722b765d15 -->
 
 **well** — **gesund** (adj.). well; in good health. **hāl** (adj.). hale; well. Supplied greeting. **wel** (adv.).
+
+<!-- entry: EN-bd7e83102fa3 -->
+
+**went** — **węndan** (v.). Supplied preterite węnde in the pronunciation contrast.
 
 <!-- entry: EN-910adfb42464 -->
 

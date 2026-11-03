@@ -175184,7 +175184,43 @@
             "CH01-MINI02",
             "CH01-READ05",
             "CH01-READ06",
-            "CH01-READ08"
+            "CH01-READ08",
+            "NEW-U02-P04",
+            "NEW-U02-P05",
+            "NEW-U02-F07",
+            "NEW-U02-F15",
+            "NEW-U02-C01",
+            "NEW-U02-C05",
+            "NEW-U02-C07",
+            "NEW-U02-C08",
+            "NEW-U02-C09",
+            "NEW-U02-C10",
+            "NEW-U02-C11",
+            "NEW-U02-T03",
+            "NEW-U02-T04",
+            "NEW-U02-T05",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-N06",
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-X03",
+            "NEW-U02-EXAMPLE-05",
+            "NEW-U02-EXAMPLE-07",
+            "NEW-U02-EXAMPLE-08",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-TEXT-DIALOGUE-01",
+            "FB-I-CREATION-SABBATH-01"
           ],
           "assessed_in": [
             "CH01-COP03",
@@ -175331,6 +175367,53 @@
                   "review": "docs/revisions/opening/reviews/unit1-integration-review.json"
                 }
               ]
+            },
+            "ch02-prerequisite": {
+              "sense_id": "he-subject",
+              "knowledge_status": "previously_taught",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json",
+              "record_status": "reviewed",
+              "required_by": [
+                "NEW-U02-P04",
+                "NEW-U02-P05",
+                "NEW-U02-F07",
+                "NEW-U02-F15",
+                "NEW-U02-C01",
+                "NEW-U02-C05",
+                "NEW-U02-C07",
+                "NEW-U02-C08",
+                "NEW-U02-C09",
+                "NEW-U02-C10",
+                "NEW-U02-C11",
+                "NEW-U02-T03",
+                "NEW-U02-T04",
+                "NEW-U02-T05",
+                "NEW-U02-T06",
+                "NEW-U02-N01",
+                "NEW-U02-N02",
+                "NEW-U02-N03",
+                "NEW-U02-N04",
+                "NEW-U02-N06",
+                "NEW-U02-R01",
+                "NEW-U02-R02",
+                "NEW-U02-R03",
+                "NEW-U02-R04",
+                "NEW-U02-R05",
+                "NEW-U02-R06",
+                "NEW-U02-R07",
+                "NEW-U02-X01",
+                "NEW-U02-X02",
+                "NEW-U02-X03",
+                "NEW-U02-EXAMPLE-05",
+                "NEW-U02-EXAMPLE-07",
+                "NEW-U02-EXAMPLE-08",
+                "NEW-U02-TEXT-NARRATIVE-01",
+                "NEW-U02-TEXT-DIALOGUE-01",
+                "FB-I-CREATION-SABBATH-01"
+              ],
+              "scope": "Bounded nominative subject prerequisite; no oblique milestone imported."
             }
           },
           "recognition_taught_in": "ch01",
@@ -175679,7 +175762,7 @@
                 "gender": "m",
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -175727,7 +175810,73 @@
                 "NEW-U02-R07",
                 "NEW-U02-X02",
                 "NEW-U02-X03"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "he-m-nom-sg",
+                  "form": "hē",
+                  "analysis": {
+                    "person": 3,
+                    "number": "singular",
+                    "gender": "m",
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-he"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [],
+                  "used_in_tasks": [
+                    "NEW-U02-P04",
+                    "NEW-U02-F07",
+                    "NEW-U02-F15",
+                    "NEW-U02-C01",
+                    "NEW-U02-C09",
+                    "NEW-U02-C11",
+                    "NEW-U02-T03",
+                    "NEW-U02-T05",
+                    "NEW-U02-T06",
+                    "NEW-U02-R01",
+                    "NEW-U02-R02",
+                    "NEW-U02-R03",
+                    "NEW-U02-R04",
+                    "NEW-U02-R05",
+                    "NEW-U02-R06",
+                    "NEW-U02-R07",
+                    "NEW-U02-X02",
+                    "NEW-U02-X03",
+                    "NEW-U02-EXAMPLE-07",
+                    "NEW-U02-EXAMPLE-08"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P04",
+                    "NEW-U02-F07",
+                    "NEW-U02-F15",
+                    "NEW-U02-C01",
+                    "NEW-U02-C09",
+                    "NEW-U02-C11",
+                    "NEW-U02-T03",
+                    "NEW-U02-T05",
+                    "NEW-U02-T06",
+                    "NEW-U02-R01",
+                    "NEW-U02-R03",
+                    "NEW-U02-R07",
+                    "NEW-U02-X02",
+                    "NEW-U02-X03"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch13": {
               "form_id": "he-m-nom-sg",
@@ -176958,7 +177107,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "b2d56455ebaf614c3328e772e9c1b56be3f04eb607244dc486a136a8f6d0b556"
+          }
         },
         {
           "form_id": "he-n-nom-sg",
@@ -177140,7 +177292,7 @@
                 "gender": "n",
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -177156,7 +177308,41 @@
               ],
               "assessed_in": [
                 "NEW-U02-P04"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "he-n-nom-sg",
+                  "form": "hit",
+                  "analysis": {
+                    "person": 3,
+                    "number": "singular",
+                    "gender": "n",
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-he"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [],
+                  "used_in_tasks": [
+                    "NEW-U02-P04"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P04"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch16": {
               "form_id": "he-n-nom-sg",
@@ -177309,7 +177495,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "7095c91bd4eb5b78b486fa65b1a120570ec469d02d24b64216dd822397dab146"
+          }
         },
         {
           "form_id": "he-m-gen-sg",
@@ -178418,7 +178607,7 @@
                 "gender": "f",
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -178443,7 +178632,50 @@
                 "NEW-U02-P04",
                 "NEW-U02-C05",
                 "NEW-U02-C07"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "he-f-nom-sg",
+                  "form": "hēo",
+                  "analysis": {
+                    "person": 3,
+                    "number": "singular",
+                    "gender": "f",
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-he"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [
+                    "hīo",
+                    "hī",
+                    "hīe"
+                  ],
+                  "used_in_tasks": [
+                    "NEW-U02-P04",
+                    "NEW-U02-C05",
+                    "NEW-U02-C07",
+                    "NEW-U02-EXAMPLE-05"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P04",
+                    "NEW-U02-C05",
+                    "NEW-U02-C07"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch16": {
               "form_id": "he-f-nom-sg",
@@ -178645,7 +178877,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "11e122ea6ffc7e8b0e79d596e7c0bc42a79e988e9e64b8ec3357148ff6a1e30e"
+          }
         },
         {
           "form_id": "he-f-gen-sg",
@@ -179228,7 +179463,7 @@
                 "gender": null,
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -179270,7 +179505,67 @@
                 "NEW-U02-N04",
                 "NEW-U02-N06",
                 "NEW-U02-X01"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "he-nom-pl",
+                  "form": "hīe",
+                  "analysis": {
+                    "person": 3,
+                    "number": "plural",
+                    "gender": null,
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-he"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [
+                    "hī"
+                  ],
+                  "used_in_tasks": [
+                    "NEW-U02-P05",
+                    "NEW-U02-C01",
+                    "NEW-U02-C08",
+                    "NEW-U02-C10",
+                    "NEW-U02-T04",
+                    "NEW-U02-T05",
+                    "NEW-U02-N01",
+                    "NEW-U02-N02",
+                    "NEW-U02-N03",
+                    "NEW-U02-N04",
+                    "NEW-U02-N06",
+                    "NEW-U02-X01",
+                    "NEW-U02-TEXT-NARRATIVE-01",
+                    "NEW-U02-TEXT-DIALOGUE-01"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P05",
+                    "NEW-U02-C01",
+                    "NEW-U02-C08",
+                    "NEW-U02-C10",
+                    "NEW-U02-T04",
+                    "NEW-U02-T05",
+                    "NEW-U02-N01",
+                    "NEW-U02-N02",
+                    "NEW-U02-N03",
+                    "NEW-U02-N04",
+                    "NEW-U02-N06",
+                    "NEW-U02-X01"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch16": {
               "form_id": "he-nom-pl",
@@ -179541,7 +179836,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "8e86679b4790d9aa8a593ec7c9fc03a23edd2a9ff50afa6de4c9121550f47474"
+          }
         },
         {
           "form_id": "he-gen-pl",
@@ -252385,7 +252683,7 @@
                 "gender": null,
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -252427,7 +252725,67 @@
                 "NEW-U02-N01",
                 "NEW-U02-N03",
                 "NEW-U02-N04"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "ic-nom-sg",
+                  "form": "ic",
+                  "analysis": {
+                    "person": 1,
+                    "number": "singular",
+                    "gender": null,
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-ic"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [],
+                  "used_in_tasks": [
+                    "NEW-U02-P01",
+                    "NEW-U02-F08",
+                    "NEW-U02-F15",
+                    "NEW-U02-C02",
+                    "NEW-U02-C04",
+                    "NEW-U02-C09",
+                    "NEW-U02-C11",
+                    "NEW-U02-C13",
+                    "NEW-U02-T02",
+                    "NEW-U02-N01",
+                    "NEW-U02-N02",
+                    "NEW-U02-N03",
+                    "NEW-U02-N04",
+                    "NEW-U02-X02",
+                    "NEW-U02-TEXT-NARRATIVE-01",
+                    "NEW-U02-TEXT-DIALOGUE-01"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P01",
+                    "NEW-U02-F08",
+                    "NEW-U02-F15",
+                    "NEW-U02-C02",
+                    "NEW-U02-C04",
+                    "NEW-U02-C09",
+                    "NEW-U02-C11",
+                    "NEW-U02-C13",
+                    "NEW-U02-T02",
+                    "NEW-U02-N01",
+                    "NEW-U02-N03",
+                    "NEW-U02-N04"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch16": {
               "form_id": "ic-nom-sg",
@@ -252730,7 +253088,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "ac2776d191ddb57ac4ddce8144a6f61af8932c94d47301e58a3d52fb3269f193"
+          }
         },
         {
           "form_id": "ic-gen-sg",
@@ -253261,7 +253622,7 @@
                 "gender": null,
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -253291,7 +253652,55 @@
                 "NEW-U02-N03",
                 "NEW-U02-X01",
                 "NEW-U02-X02"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "ic-nom-dual",
+                  "form": "wit",
+                  "analysis": {
+                    "person": 1,
+                    "number": "dual",
+                    "gender": null,
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-ic"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [],
+                  "used_in_tasks": [
+                    "NEW-U02-P02",
+                    "NEW-U02-F12",
+                    "NEW-U02-C03",
+                    "NEW-U02-T02",
+                    "NEW-U02-N03",
+                    "NEW-U02-N04",
+                    "NEW-U02-X01",
+                    "NEW-U02-X02",
+                    "NEW-U02-TEXT-DIALOGUE-01"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P02",
+                    "NEW-U02-F12",
+                    "NEW-U02-C03",
+                    "NEW-U02-T02",
+                    "NEW-U02-N03",
+                    "NEW-U02-X01",
+                    "NEW-U02-X02"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch01": {
               "form_id": "ic-nom-dual",
@@ -253387,7 +253796,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "3a13b7f02611df82b59dcdd973a90d49c0f3e03d7c10b9c15f554a25d5af8c1f"
+          }
         },
         {
           "form_id": "ic-gen-dual",
@@ -253804,7 +254216,7 @@
                 "gender": null,
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -253832,7 +254244,53 @@
                 "NEW-U02-T06",
                 "NEW-U02-N03",
                 "NEW-U02-X01"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "ic-nom-pl",
+                  "form": "wē",
+                  "analysis": {
+                    "person": 1,
+                    "number": "plural",
+                    "gender": null,
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-ic"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [],
+                  "used_in_tasks": [
+                    "NEW-U02-P03",
+                    "NEW-U02-C12",
+                    "NEW-U02-T06",
+                    "NEW-U02-N03",
+                    "NEW-U02-N04",
+                    "NEW-U02-X01",
+                    "NEW-U02-TEXT-DIALOGUE-01",
+                    "NEW-U02-EXAMPLE-01",
+                    "NEW-U02-EXAMPLE-07"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P03",
+                    "NEW-U02-C12",
+                    "NEW-U02-T06",
+                    "NEW-U02-N03",
+                    "NEW-U02-X01"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch16": {
               "form_id": "ic-nom-pl",
@@ -254015,7 +254473,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "21d68bb0239f19b48f8e3f00a6bf7cac291f0133fb228def40174cc6017a35e4"
+          }
         },
         {
           "form_id": "ic-gen-pl",
@@ -254852,7 +255313,32 @@
           ],
           "used_in_tasks": [
             "CH01-COP01",
-            "CH01-COP04"
+            "CH01-COP04",
+            "NEW-U02-P01",
+            "NEW-U02-P02",
+            "NEW-U02-P03",
+            "NEW-U02-F08",
+            "NEW-U02-F12",
+            "NEW-U02-F15",
+            "NEW-U02-C02",
+            "NEW-U02-C03",
+            "NEW-U02-C04",
+            "NEW-U02-C09",
+            "NEW-U02-C11",
+            "NEW-U02-C12",
+            "NEW-U02-C13",
+            "NEW-U02-T02",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-EXAMPLE-01",
+            "NEW-U02-EXAMPLE-07",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-TEXT-DIALOGUE-01"
           ],
           "assessed_in": [
             "CH01-COP01",
@@ -254922,6 +255408,42 @@
                   "review": "docs/revisions/opening/reviews/unit1-integration-review.json"
                 }
               ]
+            },
+            "ch02-prerequisite": {
+              "sense_id": "ic-subject",
+              "knowledge_status": "previously_taught",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json",
+              "record_status": "reviewed",
+              "required_by": [
+                "NEW-U02-P01",
+                "NEW-U02-P02",
+                "NEW-U02-P03",
+                "NEW-U02-F08",
+                "NEW-U02-F12",
+                "NEW-U02-F15",
+                "NEW-U02-C02",
+                "NEW-U02-C03",
+                "NEW-U02-C04",
+                "NEW-U02-C09",
+                "NEW-U02-C11",
+                "NEW-U02-C12",
+                "NEW-U02-C13",
+                "NEW-U02-T02",
+                "NEW-U02-T06",
+                "NEW-U02-N01",
+                "NEW-U02-N02",
+                "NEW-U02-N03",
+                "NEW-U02-N04",
+                "NEW-U02-X01",
+                "NEW-U02-X02",
+                "NEW-U02-EXAMPLE-01",
+                "NEW-U02-EXAMPLE-07",
+                "NEW-U02-TEXT-NARRATIVE-01",
+                "NEW-U02-TEXT-DIALOGUE-01"
+              ],
+              "scope": "Bounded nominative subject prerequisite; no oblique milestone imported."
             }
           },
           "recognition_taught_in": "ch01",
@@ -255129,7 +255651,7 @@
                 "gender": null,
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -255160,7 +255682,56 @@
                 "NEW-U02-T02",
                 "NEW-U02-T04",
                 "NEW-U02-N03"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "thu-nom-sg",
+                  "form": "ðū",
+                  "analysis": {
+                    "person": 2,
+                    "number": "singular",
+                    "gender": null,
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-thu"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [],
+                  "used_in_tasks": [
+                    "NEW-U02-P01",
+                    "NEW-U02-F12",
+                    "NEW-U02-F15",
+                    "NEW-U02-C12",
+                    "NEW-U02-T02",
+                    "NEW-U02-T04",
+                    "NEW-U02-N03",
+                    "NEW-U02-N04",
+                    "NEW-U02-TEXT-DIALOGUE-01",
+                    "NEW-U02-EXAMPLE-03"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P01",
+                    "NEW-U02-F12",
+                    "NEW-U02-F15",
+                    "NEW-U02-C12",
+                    "NEW-U02-T02",
+                    "NEW-U02-T04",
+                    "NEW-U02-N03"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch16": {
               "form_id": "thu-nom-sg",
@@ -255395,7 +255966,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "f1108a611feca1bfb8be9de83cc62fcc20fb84f885f798dce4f0c9c5ae2c7417"
+          }
         },
         {
           "form_id": "thu-gen-sg",
@@ -255873,7 +256447,7 @@
                 "gender": null,
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -255900,7 +256474,52 @@
                 "NEW-U02-C04",
                 "NEW-U02-C10",
                 "NEW-U02-N03"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "thu-nom-dual",
+                  "form": "git",
+                  "analysis": {
+                    "person": 2,
+                    "number": "dual",
+                    "gender": null,
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-thu"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [],
+                  "used_in_tasks": [
+                    "NEW-U02-P02",
+                    "NEW-U02-F01",
+                    "NEW-U02-C04",
+                    "NEW-U02-C10",
+                    "NEW-U02-N03",
+                    "NEW-U02-N04",
+                    "NEW-U02-TEXT-DIALOGUE-01",
+                    "NEW-U02-EXAMPLE-06"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P02",
+                    "NEW-U02-F01",
+                    "NEW-U02-C04",
+                    "NEW-U02-C10",
+                    "NEW-U02-N03"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch16": {
               "form_id": "thu-nom-dual",
@@ -256081,7 +256700,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "aab69a4188cf2a41fac58a93c7182f7cc917baddfc68e09704d1cf4740f02ee4"
+          }
         },
         {
           "form_id": "thu-gen-dual",
@@ -256456,7 +257078,7 @@
                 "gender": null,
                 "case": "nominative"
               },
-              "knowledge_status": "new_production",
+              "knowledge_status": "previously_taught",
               "evidence_refs": [
                 "U02-PRON",
                 "U02-POSS"
@@ -256476,7 +257098,45 @@
               "assessed_in": [
                 "NEW-U02-P03",
                 "NEW-U02-N03"
-              ]
+              ],
+              "opening_revision_history": {
+                "revision": "opening-2026-11-02",
+                "prior_local_record": {
+                  "form_id": "thu-nom-pl",
+                  "form": "gē",
+                  "analysis": {
+                    "person": 2,
+                    "number": "plural",
+                    "gender": null,
+                    "case": "nominative"
+                  },
+                  "knowledge_status": "new_production",
+                  "evidence_refs": [
+                    "U02-PRON",
+                    "U02-POSS"
+                  ],
+                  "evidence_basis": "printed §81 paradigm; optional e resolved as selected spelling",
+                  "teaching_ids": [
+                    "NEW-U02-PAR-thu"
+                  ],
+                  "scope_note": "Form supports only separately taught constructions; grammatical referent gender controls third-person singular.",
+                  "variants": [],
+                  "used_in_tasks": [
+                    "NEW-U02-P03",
+                    "NEW-U02-N03",
+                    "NEW-U02-N04",
+                    "NEW-U02-TEXT-DIALOGUE-01"
+                  ],
+                  "assessed_in": [
+                    "NEW-U02-P03",
+                    "NEW-U02-N03"
+                  ]
+                }
+              },
+              "prior_knowledge": "production",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json"
             },
             "ch16": {
               "form_id": "thu-nom-pl",
@@ -256675,7 +257335,10 @@
               },
               "scope": "Current Unit 1 usage and per-use independent assessment only; later chapter uses and historical snapshots remain intact. Ten nominative milestones move to Unit 1; three bounded subject senses and features are added."
             }
-          ]
+          ],
+          "opening_revision_unit2_bridge": {
+            "prior_ch02_record_sha256": "a6a8a071eab2feb992cc0a5767213689d72d8ad1decbf3e0ac1c435c73bd01e7"
+          }
         },
         {
           "form_id": "thu-gen-pl",
@@ -257512,7 +258175,23 @@
           ],
           "used_in_tasks": [
             "CH01-COP02",
-            "CH01-COP05"
+            "CH01-COP05",
+            "NEW-U02-P01",
+            "NEW-U02-P02",
+            "NEW-U02-P03",
+            "NEW-U02-F01",
+            "NEW-U02-F12",
+            "NEW-U02-F15",
+            "NEW-U02-C04",
+            "NEW-U02-C10",
+            "NEW-U02-C12",
+            "NEW-U02-T02",
+            "NEW-U02-T04",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-EXAMPLE-03",
+            "NEW-U02-EXAMPLE-06",
+            "NEW-U02-TEXT-DIALOGUE-01"
           ],
           "assessed_in": [
             "CH01-COP02",
@@ -257576,6 +258255,33 @@
                   "review": "docs/revisions/opening/reviews/unit1-integration-review.json"
                 }
               ]
+            },
+            "ch02-prerequisite": {
+              "sense_id": "thu-subject",
+              "knowledge_status": "previously_taught",
+              "recognition_taught_in": "ch01",
+              "production_taught_in": "ch01",
+              "source_contract": "chapters/ch01/coverage.json",
+              "record_status": "reviewed",
+              "required_by": [
+                "NEW-U02-P01",
+                "NEW-U02-P02",
+                "NEW-U02-P03",
+                "NEW-U02-F01",
+                "NEW-U02-F12",
+                "NEW-U02-F15",
+                "NEW-U02-C04",
+                "NEW-U02-C10",
+                "NEW-U02-C12",
+                "NEW-U02-T02",
+                "NEW-U02-T04",
+                "NEW-U02-N03",
+                "NEW-U02-N04",
+                "NEW-U02-EXAMPLE-03",
+                "NEW-U02-EXAMPLE-06",
+                "NEW-U02-TEXT-DIALOGUE-01"
+              ],
+              "scope": "Bounded nominative subject prerequisite; no oblique milestone imported."
             }
           },
           "recognition_taught_in": "ch01",
@@ -1362574,6 +1363280,12 @@
       "scope": "Ten nominative milestones only; three bounded subject senses/features; current Unit 1 usage slices. All oblique milestones, other chapters and nested historical snapshots preserved.",
       "input_register_sha256": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7",
       "records": "docs/revisions/opening/register-integration.json"
+    },
+    {
+      "revision": "opening-2026-11-02-unit2-bridge",
+      "input_register_sha256": "a72dfa63e9622199e4bd7dd80b87f569939c6489e0424e49d4dbf182a6ffbbe1",
+      "contract": "chapters/ch02/coverage.json",
+      "scope": "Current Unit 2 provenance for ten prior nominatives and three bounded subject prerequisites; no milestone, prompt, spelling or prior assessment changed."
     }
   ]
 }

@@ -1,0 +1,177 @@
+{
+  "schema_version": 1,
+  "date": "2026-11-02",
+  "revision": "opening-2026-11-02",
+  "status": "accepted",
+  "contract_checkpoint": "2540765",
+  "volumes": {
+    "learner": {
+      "path": "typesetting/full-book/book.pdf",
+      "sha256": "57d3767aceb1d13047f1d5e80fffab3f7564c6e49ff0f7840aa1b87d28204747",
+      "physical_pages": 971,
+      "build_source": "typesetting/full-book/build/book.pdf",
+      "bytes": 2630026
+    },
+    "key": {
+      "path": "typesetting/full-book/answer-key.pdf",
+      "sha256": "d1f9093066ede7107e33ab9cb2725a0372490f65d39803ec217e82f914501bbc",
+      "physical_pages": 488,
+      "build_source": "typesetting/full-book/build/answer-key.pdf",
+      "bytes": 1384406
+    }
+  },
+  "scope": {
+    "components": 41,
+    "component_source_identities": 123,
+    "retained_source_pages": 1413,
+    "final_physical_pages": 1459,
+    "new_navigation_index_or_blank_pages": 46,
+    "learner_answer_key_components": 0,
+    "index_entries": 450,
+    "index_targets": 364,
+    "printed_index_references": 500
+  },
+  "inputs": [
+    {
+      "path": "book/contents.json",
+      "sha256": "42735d10aa74f3c059df099b275ab6278f231ef78e183af75ca8b51b5b518421"
+    },
+    {
+      "path": "book/grammar-index.json",
+      "sha256": "d4b406773fcb0dabf2020dbc2d46b7c9fda811d51f3f28095d3bcb1a5daed7b3"
+    },
+    {
+      "path": "book/preservation.json",
+      "sha256": "f9750177dfe1d3866f3118152503cdc66bbb67f41fb3a1c092a418e5d80495cf"
+    },
+    {
+      "path": "book/proposals/opening-components.json",
+      "sha256": "15ceb77f69b84adac1eb563f58d9530b140bcf0e3f2d60f2a06556446ef4775f"
+    },
+    {
+      "path": "docs/revisions/opening/book-integration.json",
+      "sha256": "3d87e4b719a478ff1c31198f6c4b01521f8228a5b95f0fa32070c9048b76d0d0"
+    }
+  ],
+  "checks": {
+    "path": "typesetting/full-book/checks.json",
+    "sha256": "3c888dc28c8c01950e958049581fad6d2531f9d80b9ed1814b16869e6ecd532b"
+  },
+  "evidence": [
+    {
+      "path": "typesetting/full-book/content-map.json",
+      "sha256": "a9637014104380470ba765f12f57ccc4e6c8bb088dff3622e2b552090c4ed4f1"
+    },
+    {
+      "path": "typesetting/full-book/pagination.json",
+      "sha256": "ac327739cf63b01735c41dfa2c6a5224a818311698b485a32f9fcdf531717d89"
+    },
+    {
+      "path": "typesetting/full-book/text-parity.json",
+      "sha256": "2ba0543efef3bce7102d53bb4772fe18a8dda7e2aa26f5f080c0c76cd511f700"
+    },
+    {
+      "path": "typesetting/full-book/navigation.json",
+      "sha256": "4ae614702626a9fe80574258fe0f6b20b34a6952c0e61a90c3c62e2367488faf"
+    },
+    {
+      "path": "typesetting/full-book/index-locations.json",
+      "sha256": "a0f5acc8f00180ad93de8a59f49f9c76c1f98c0f55fa59b6b604fa26bb6a024b"
+    },
+    {
+      "path": "typesetting/full-book/raster-comparison.json",
+      "sha256": "90e3feec1c4cfbdbaf6f64f03a7309815f08cb81b040463425aef651c6e62b07"
+    },
+    {
+      "path": "typesetting/full-book/opening-2026-11-02-proofs.json",
+      "sha256": "3ff38a85e3c4181746c7862b7f98a0873f0fd89c7160fd108e6f0df19686612b"
+    },
+    {
+      "path": "docs/revisions/opening/exports/book-source-raster.json",
+      "sha256": "a441ceb209be5ff69269c29001f03b824c01aa346637c1221b414dda48640347"
+    },
+    {
+      "path": "docs/revisions/opening/exports/book-combined-raster.json",
+      "sha256": "f79af8bc02589b05b7550486e86ea353a565a30987bb1bf093ab24565f5503dd"
+    }
+  ],
+  "independent_reviews": [
+    {
+      "path": "book/reviews/opening-learner-early-pages.json",
+      "sha256": "5b10b7f5d08da291fc6779da2b3ece26e40875b40a6eb44f705464112d8b1286",
+      "volume": "learner",
+      "physical_range": [
+        1,
+        256
+      ],
+      "accepted_pages": 256
+    },
+    {
+      "path": "book/reviews/opening-learner-middle-pages.json",
+      "sha256": "51db20391a5c36bfacac671e635ac8f6028912f793cac30f9bcc4c543d2b149b",
+      "volume": "learner",
+      "physical_range": [
+        257,
+        512
+      ],
+      "accepted_pages": 256
+    },
+    {
+      "path": "book/reviews/opening-learner-latter-pages.json",
+      "sha256": "d058a6ccfdfe8e89a046db68bbe609e42f8109383749e7ced5e053d8c5d22b5b",
+      "volume": "learner",
+      "physical_range": [
+        513,
+        971
+      ],
+      "accepted_pages": 459
+    },
+    {
+      "path": "book/reviews/opening-key-pages.json",
+      "sha256": "e05dd7efc4b1db8c62c971c504f3e55286943018ea434cbaeb29adf85c87d2fb",
+      "volume": "key",
+      "physical_range": [
+        1,
+        488
+      ],
+      "accepted_pages": 488
+    },
+    {
+      "path": "book/reviews/opening-index-semantic.json",
+      "sha256": "5613269539bf04797617c701c93cab49b5149d299d2d204a258e9603cf9c0e13"
+    }
+  ],
+  "coordinator_native_spots": {
+    "path": "book/reviews/opening-coordinator-spots.json",
+    "sha256": "8cec1737ef5f2d6801c4ca3ecae2cc9211e42b127e06a63e47ec26ca50a9ad8a"
+  },
+  "inspection_mode": "Every page on labelled contacts and native folio strips; all 46 new/blank pages at native full-page resolution. Accepted source detail inherited only through exact decoded RGB header/body identity. Reviewer scopes are disjoint; supplementary outside-range views are disclosed.",
+  "review_coverage": {
+    "page_ids_complete": true,
+    "duplicate_assigned_pages": 0,
+    "missing_assigned_pages": 0,
+    "required_native_full_pages": 46,
+    "required_native_full_pages_reviewed": 46
+  },
+  "optional_observations": [
+    {
+      "id": "OEP-EARLY-O01",
+      "related_prior_finding": "BNAV-O01",
+      "severity": "optional",
+      "physical_page": 3,
+      "folio": "iii",
+      "finding": "The Unit 2 contents heading and its complete page number 37 occupy the foot of page iii; the subsection list begins on page iv.",
+      "disposition": "Accepted as the previously noted nonblocking contents break. The heading and locator are complete, and the continuation is clear; no revision is required for this acceptance."
+    }
+  ],
+  "unresolved_material_findings": [],
+  "promotion": "Copied exact reviewed build PDF bytes; former retained PDF identities remain in the original export-review.json and Git history.",
+  "retained_copy_verification": {
+    "byte_equality": true,
+    "full_checker": "passed",
+    "report": {
+      "path": "docs/revisions/opening/exports/book-retained-check.json",
+      "sha256": "76fdf9f4cf07aab7744a87f81d692c56732575264ac8b0e3b3177476b49c5e18"
+    }
+  }
+}

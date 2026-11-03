@@ -46382,7 +46382,9 @@
       "teaching_ids": [
         "NEW-U02-GRAM-personal-pronouns"
       ],
-      "prerequisite_feature_ids": [],
+      "prerequisite_feature_ids": [
+        "u01-subject-pronouns"
+      ],
       "used_in_tasks": [
         "NEW-U02-P01",
         "NEW-U02-P02",
@@ -46424,7 +46426,9 @@
           "teaching_ids": [
             "NEW-U02-GRAM-personal-pronouns"
           ],
-          "prerequisite_feature_ids": [],
+          "prerequisite_feature_ids": [
+            "u01-subject-pronouns"
+          ],
           "used_in_tasks": [
             "NEW-U02-P01",
             "NEW-U02-P02",
@@ -46444,7 +46448,8 @@
             "NEW-U02-P05",
             "NEW-U02-N01",
             "NEW-U02-N03"
-          ]
+          ],
+          "opening_revision_scope": "Build on the bounded Unit 1 nominative subject scope; full-case reference, active weak-verb agreement and object/recipient contrasts remain Unit 2 teaching."
         }
       }
     },
@@ -46510,7 +46515,8 @@
         "NEW-U02-GRAM-dual-agreement"
       ],
       "prerequisite_feature_ids": [
-        "u02-personal-pronouns"
+        "u02-personal-pronouns",
+        "u01-dual-subject-agreement"
       ],
       "used_in_tasks": [
         "NEW-U02-P02",
@@ -46563,7 +46569,8 @@
             "NEW-U02-GRAM-dual-agreement"
           ],
           "prerequisite_feature_ids": [
-            "u02-personal-pronouns"
+            "u02-personal-pronouns",
+            "u01-dual-subject-agreement"
           ],
           "used_in_tasks": [
             "NEW-U02-P02",
@@ -46592,7 +46599,8 @@
             "NEW-U02-N04",
             "NEW-U02-X01",
             "NEW-U02-X02"
-          ]
+          ],
+          "opening_revision_scope": "Build on the bounded Unit 1 nominative subject scope; full-case reference, active weak-verb agreement and object/recipient contrasts remain Unit 2 teaching."
         }
       }
     },
@@ -46611,7 +46619,8 @@
       ],
       "prerequisite_feature_ids": [
         "case-syncretism",
-        "u02-personal-pronouns"
+        "u02-personal-pronouns",
+        "u01-subject-pronoun-reference"
       ],
       "used_in_tasks": [
         "NEW-U02-P04",
@@ -46689,7 +46698,8 @@
           ],
           "prerequisite_feature_ids": [
             "case-syncretism",
-            "u02-personal-pronouns"
+            "u02-personal-pronouns",
+            "u01-subject-pronoun-reference"
           ],
           "used_in_tasks": [
             "NEW-U02-P04",
@@ -46738,7 +46748,8 @@
             "NEW-U02-R07",
             "NEW-U02-X02",
             "NEW-U02-X03"
-          ]
+          ],
+          "opening_revision_scope": "Build on the bounded Unit 1 nominative subject scope; full-case reference, active weak-verb agreement and object/recipient contrasts remain Unit 2 teaching."
         },
         "ch16": {
           "feature_id": "u02-pronoun-reference",
@@ -130782,7 +130793,58 @@
         "CH01-MINI02",
         "CH01-READ05",
         "CH01-READ06",
-        "CH01-READ08"
+        "CH01-READ08",
+        "NEW-U02-P01",
+        "NEW-U02-P02",
+        "NEW-U02-P03",
+        "NEW-U02-P04",
+        "NEW-U02-P05",
+        "NEW-U02-F01",
+        "NEW-U02-F07",
+        "NEW-U02-F08",
+        "NEW-U02-F12",
+        "NEW-U02-F15",
+        "NEW-U02-C01",
+        "NEW-U02-C02",
+        "NEW-U02-C03",
+        "NEW-U02-C04",
+        "NEW-U02-C05",
+        "NEW-U02-C07",
+        "NEW-U02-C08",
+        "NEW-U02-C09",
+        "NEW-U02-C10",
+        "NEW-U02-C11",
+        "NEW-U02-C12",
+        "NEW-U02-C13",
+        "NEW-U02-T02",
+        "NEW-U02-T03",
+        "NEW-U02-T04",
+        "NEW-U02-T05",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-N06",
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-X03",
+        "NEW-U02-EXAMPLE-01",
+        "NEW-U02-EXAMPLE-03",
+        "NEW-U02-EXAMPLE-05",
+        "NEW-U02-EXAMPLE-06",
+        "NEW-U02-EXAMPLE-07",
+        "NEW-U02-EXAMPLE-08",
+        "NEW-U02-TEXT-NARRATIVE-01",
+        "NEW-U02-TEXT-DIALOGUE-01",
+        "FB-I-CREATION-SABBATH-01"
       ],
       "assessed_in": [
         "CH01-COP01",
@@ -131007,6 +131069,68 @@
               "review": "docs/revisions/opening/reviews/unit1-integration-review.json"
             }
           ]
+        },
+        "ch02-prerequisite": {
+          "feature_id": "u01-subject-pronouns",
+          "knowledge_status": "previously_taught",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "source_contract": "chapters/ch01/coverage.json",
+          "record_status": "reviewed",
+          "required_by": [
+            "NEW-U02-P01",
+            "NEW-U02-P02",
+            "NEW-U02-P03",
+            "NEW-U02-P04",
+            "NEW-U02-P05",
+            "NEW-U02-F01",
+            "NEW-U02-F07",
+            "NEW-U02-F08",
+            "NEW-U02-F12",
+            "NEW-U02-F15",
+            "NEW-U02-C01",
+            "NEW-U02-C02",
+            "NEW-U02-C03",
+            "NEW-U02-C04",
+            "NEW-U02-C05",
+            "NEW-U02-C07",
+            "NEW-U02-C08",
+            "NEW-U02-C09",
+            "NEW-U02-C10",
+            "NEW-U02-C11",
+            "NEW-U02-C12",
+            "NEW-U02-C13",
+            "NEW-U02-T02",
+            "NEW-U02-T03",
+            "NEW-U02-T04",
+            "NEW-U02-T05",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-N06",
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-X03",
+            "NEW-U02-EXAMPLE-01",
+            "NEW-U02-EXAMPLE-03",
+            "NEW-U02-EXAMPLE-05",
+            "NEW-U02-EXAMPLE-06",
+            "NEW-U02-EXAMPLE-07",
+            "NEW-U02-EXAMPLE-08",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-TEXT-DIALOGUE-01",
+            "FB-I-CREATION-SABBATH-01"
+          ],
+          "scope": "Bounded nominative subject prerequisite; no oblique milestone imported."
         }
       },
       "recognition_taught_in": "ch01",
@@ -131084,7 +131208,20 @@
       ],
       "used_in_tasks": [
         "CH01-COP04",
-        "CH01-COP05"
+        "CH01-COP05",
+        "NEW-U02-P02",
+        "NEW-U02-F01",
+        "NEW-U02-F12",
+        "NEW-U02-C03",
+        "NEW-U02-C04",
+        "NEW-U02-C10",
+        "NEW-U02-T02",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-EXAMPLE-06",
+        "NEW-U02-TEXT-DIALOGUE-01"
       ],
       "assessed_in": [
         "CH01-COP04",
@@ -131157,6 +131294,30 @@
               "review": "docs/revisions/opening/reviews/unit1-integration-review.json"
             }
           ]
+        },
+        "ch02-prerequisite": {
+          "feature_id": "u01-dual-subject-agreement",
+          "knowledge_status": "previously_taught",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "source_contract": "chapters/ch01/coverage.json",
+          "record_status": "reviewed",
+          "required_by": [
+            "NEW-U02-P02",
+            "NEW-U02-F01",
+            "NEW-U02-F12",
+            "NEW-U02-C03",
+            "NEW-U02-C04",
+            "NEW-U02-C10",
+            "NEW-U02-T02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-EXAMPLE-06",
+            "NEW-U02-TEXT-DIALOGUE-01"
+          ],
+          "scope": "Bounded nominative subject prerequisite; no oblique milestone imported."
         }
       },
       "recognition_taught_in": "ch01",
@@ -131220,7 +131381,43 @@
         "CH01-MINI02",
         "CH01-READ05",
         "CH01-READ06",
-        "CH01-READ08"
+        "CH01-READ08",
+        "NEW-U02-P04",
+        "NEW-U02-P05",
+        "NEW-U02-F07",
+        "NEW-U02-F15",
+        "NEW-U02-C01",
+        "NEW-U02-C05",
+        "NEW-U02-C07",
+        "NEW-U02-C08",
+        "NEW-U02-C09",
+        "NEW-U02-C10",
+        "NEW-U02-C11",
+        "NEW-U02-T03",
+        "NEW-U02-T04",
+        "NEW-U02-T05",
+        "NEW-U02-T06",
+        "NEW-U02-N01",
+        "NEW-U02-N02",
+        "NEW-U02-N03",
+        "NEW-U02-N04",
+        "NEW-U02-N06",
+        "NEW-U02-R01",
+        "NEW-U02-R02",
+        "NEW-U02-R03",
+        "NEW-U02-R04",
+        "NEW-U02-R05",
+        "NEW-U02-R06",
+        "NEW-U02-R07",
+        "NEW-U02-X01",
+        "NEW-U02-X02",
+        "NEW-U02-X03",
+        "NEW-U02-EXAMPLE-05",
+        "NEW-U02-EXAMPLE-07",
+        "NEW-U02-EXAMPLE-08",
+        "NEW-U02-TEXT-NARRATIVE-01",
+        "NEW-U02-TEXT-DIALOGUE-01",
+        "FB-I-CREATION-SABBATH-01"
       ],
       "assessed_in": [
         "CH01-COP03",
@@ -131371,6 +131568,53 @@
               "review": "docs/revisions/opening/reviews/unit1-integration-review.json"
             }
           ]
+        },
+        "ch02-prerequisite": {
+          "feature_id": "u01-subject-pronoun-reference",
+          "knowledge_status": "previously_taught",
+          "recognition_taught_in": "ch01",
+          "production_taught_in": "ch01",
+          "source_contract": "chapters/ch01/coverage.json",
+          "record_status": "reviewed",
+          "required_by": [
+            "NEW-U02-P04",
+            "NEW-U02-P05",
+            "NEW-U02-F07",
+            "NEW-U02-F15",
+            "NEW-U02-C01",
+            "NEW-U02-C05",
+            "NEW-U02-C07",
+            "NEW-U02-C08",
+            "NEW-U02-C09",
+            "NEW-U02-C10",
+            "NEW-U02-C11",
+            "NEW-U02-T03",
+            "NEW-U02-T04",
+            "NEW-U02-T05",
+            "NEW-U02-T06",
+            "NEW-U02-N01",
+            "NEW-U02-N02",
+            "NEW-U02-N03",
+            "NEW-U02-N04",
+            "NEW-U02-N06",
+            "NEW-U02-R01",
+            "NEW-U02-R02",
+            "NEW-U02-R03",
+            "NEW-U02-R04",
+            "NEW-U02-R05",
+            "NEW-U02-R06",
+            "NEW-U02-R07",
+            "NEW-U02-X01",
+            "NEW-U02-X02",
+            "NEW-U02-X03",
+            "NEW-U02-EXAMPLE-05",
+            "NEW-U02-EXAMPLE-07",
+            "NEW-U02-EXAMPLE-08",
+            "NEW-U02-TEXT-NARRATIVE-01",
+            "NEW-U02-TEXT-DIALOGUE-01",
+            "FB-I-CREATION-SABBATH-01"
+          ],
+          "scope": "Bounded nominative subject prerequisite; no oblique milestone imported."
         }
       },
       "recognition_taught_in": "ch01",
@@ -131430,6 +131674,12 @@
       "scope": "Ten nominative milestones only; three bounded subject senses/features; current Unit 1 usage slices. All oblique milestones, other chapters and nested historical snapshots preserved.",
       "input_register_sha256": "1a90c1e1fb8c55c886f274c923d442b08d54edbbd3d339e96fbc2e511cec5961",
       "records": "docs/revisions/opening/register-integration.json"
+    },
+    {
+      "revision": "opening-2026-11-02-unit2-bridge",
+      "input_register_sha256": "734aafa806000357c681c9ff444bdda52e1e35cb93200cf9087a47c4aa511785",
+      "contract": "chapters/ch02/coverage.json",
+      "scope": "Current Unit 2 provenance for ten prior nominatives and three bounded subject prerequisites; no milestone, prompt, spelling or prior assessment changed."
     }
   ]
 }

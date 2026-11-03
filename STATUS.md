@@ -1,56 +1,40 @@
 # Status
 
-The complete [Learner’s Book](typesetting/full-book/book.pdf), **967 pages**, and [Answer Key](typesetting/full-book/answer-key.pdf), **486 pages**, are accepted (2 November 2026). The learner volume contains pronunciation, all eighteen units, sound history and both glossaries, with linked contents and a seventeen-page grammatical index; the key contains pronunciation answers and all eighteen unit keys, with its own contents. Both have continuous pagination and nested PDF bookmarks. [Build and review notes](typesetting/full-book/README.md) and the [export receipt](typesetting/full-book/export-review.json) bind the exact PDFs.
+The opening revision is complete. The [Learner’s Book](typesetting/full-book/book.pdf) has **971 pages** and the [Answer Key](typesetting/full-book/answer-key.pdf) **488**. Both have linked contents, continuous pagination and bookmarks; the learner book has a seventeen-page grammatical index. The [current export receipt](typesetting/full-book/opening-2026-11-02-export-review.json) and [completion record](docs/revisions/opening/completion.json) bind the accepted artifacts.
 
-All 41 components and 123 source identities are preserved; all 221 protected files remain unchanged. Every one of the 1,405 retained content pages matches its accepted source in complete text and decoded header/body pixels. All 1,453 final pages have labelled page/folio review, with all new or deliberately blank pages inspected at full size. Independent review accepts all 447 index entries, 360 source targets, 493 printed references and their actual clicks. The contract checkpoint is **feb01c8**. Accepted artifacts are saved at local checkpoint **47b1c1f**. All nine book issues are closed; Beads contains **213 closed issues and no ready work**. Further changes await a new request; remote pushes remain user-controlled.
+Pronunciation now gives ordered c/g guidance, exceptions and practical articulation cues in **12 learner / 4 key pages**. Unit 1 teaches all ten nominative subjects with the copula, identifies each of 44 noun patterns by section and model, and uses contextual practice and new miniature readings. Its **23 learner / 14 key pages** are independently accepted. All 92 tasks were independently solved; all 46 Cook prompts and their complete key section remain unchanged. Unit 2’s **20-page learner export** changes only three orientation paragraphs and prerequisite provenance; its key, tasks, full forty-cell tables and readings remain intact.
 
-The optional [sound-history appendix](typesetting/sound-history/sound-history.pdf) is complete: **12 pages**, covering breaking, umlaut, ablaut, palatal changes, vowel loss, contraction and analogy. Independent Cook/Fulk reviews accept all nine sections and fifteen example groups; all twelve pages were inspected. The [editable text and evidence](appendices/sound-history/README.md), [export receipt](typesetting/sound-history/export-review.json) and [reproduction notes](typesetting/sound-history/README.md) retain the work. All 44 OE example forms lead to 23 existing glossary headwords; three source spellings have explicit local lookup pointers. No new exercises, IPA or production milestones were added. All 191 protected earlier files are unchanged. The contract checkpoint is **86ca81e**; **aa5288c** is the accepted artifact checkpoint. All eight appendix issues are closed; that checkpoint contained 204 closed issues and no ready work.
+The revised glossaries retain their **58 / 100 pages**, with 1,305 OE heads, 2,054 English headings, all 5,587 actual surface types and all 1,417 tasks covered. Infinitives, principal parts and the 300 selected cross-references remain the dictionary model. Current coverage uses the [explicit revision bridge](docs/revisions/opening/glossary-supplement.json); original audits and lookup snapshots remain historical.
 
-The two complete reference glossaries are accepted: [Old English–English](typesetting/glossaries/old-english.pdf), **58 pages**, and [English–Old English](typesetting/glossaries/english.pdf), **100 pages**. They cover all Old English in the 38 learner/key masters and the meanings and constructions needed for all 1,417 tasks and responses. Infinitive entries carry principal parts; 300 selected form spellings provide dictionary cross-references, while the full 5,580-surface inventory remains in coverage data. Independent linguistic review, full text checks and all 158 page inspections are complete. The [glossary notes](glossaries/README.md) and [export ledger](typesetting/glossaries/export-review.json) retain the evidence. All 137 protected course files are unchanged. The contract checkpoint is **478b6e5**; accepted artifacts are saved at **a155fd6**. All eight glossary issues are closed; that checkpoint contained 196 closed issues.
+All **1,413 source content pages** match the full volumes in complete text and decoded body/header pixels. All **1,459 final pages** have visual page/folio review. The index has 450 entries, 364 targets and 500 verified printed page links. The 221-file book boundary records 33 exact authorized changes. The separate opening check passes 542 controls: 3,942 protected files remain unchanged, with one exact independently reviewed amendment to the shared typesetting README. No material findings remain.
 
-The beginner pronunciation guide is complete: [learner PDF](typesetting/pronunciation/pronunciation.pdf), **9 pages**, and [separate key](typesetting/pronunciation/answer-key.pdf), **3 pages**. It uses American English sound cues, plain mouth instructions, three once-only phonetic symbols, and 25 supported practice questions. The [separate contract](guides/pronunciation/coverage.json) was saved before prose; independent solutions preceded key comparison, all material findings are resolved, and every exported page was inspected. See the [export record](typesetting/pronunciation/export-review.json) and [reproduction notes](typesetting/pronunciation/README.md). All 129 protected earlier course files and the eighteen-unit/register milestones are unchanged. Beads work is recorded under `oec-pron` and its seven named stage tasks.
+All eighteen units remain complete, with **644 Cook items assigned, none deferred or excluded**. The current registers contain **1,265 lemmas, 13,295 forms, 1,690 senses and 1,217 features**. Only ten nominative milestones moved to Unit 1; three bounded subject senses/features were added. Later oblique milestones, other chapter assessments and historical supplied exposure are preserved. The [Unit 1 review](docs/revisions/opening/reviews/unit1-register-acceptance.json) and [Unit 2 bridge review](docs/revisions/opening/reviews/unit2-bridge-acceptance.json) establish that boundary.
 
-Accepted pronunciation artifacts are saved at local checkpoint **33c8a5e**. All eight pronunciation issues are closed; that handoff contained 188 closed issues. The glossary completion above follows that pronunciation checkpoint.
+The new exercise-transfer criterion is in [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md). It governs subsequent requested chapter reviews; this revision does not claim a new transfer audit of Units 2–18. Continue one requested chapter at a time, keep Cook prompts unchanged, and revise exposition or original practice to create fresh applications.
 
-Updated 29 October 2026. **All 18 units and the course-wide table revision are complete.** The 36 accepted learner/key PDFs total **1,223 pages**, nine fewer than the initial complete course. Shared verbal plurals use **1–3 pl.**; conjugation and declension tables follow the later-unit style. All forms, tasks, original Cook prompts and teaching milestones are preserved. All **644 numbered Cook items** are assigned; none remain deferred or excluded. The [current export manifest](docs/revisions/table-layout/exports.json) binds every retained PDF.
+Artifacts are accepted; final tracker closure and the local handoff checkpoint are being saved. Contract checkpoint: **2540765**; accepted guide: **f19ae62**; accepted Unit 1: **b3c1223**. Later integration and final artifacts are in the newest local checkpoints. Remote pushes remain user-controlled.
 
-The complete presentation artifacts and accepted PDFs are saved at local Git checkpoint **20748ce**. Final tracker closure is recorded in the following handoff commit.
+## Current unit exports
 
-## Unit 18 content and original linguistic acceptance
+| Unit | Learner pages | Key pages | Export notes |
+| --- | ---: | ---: | --- |
+| 1 | [23](typesetting/ch01/chapter-01.pdf) | [14](typesetting/ch01/answer-key.pdf) | [Unit 1](typesetting/ch01/README.md) |
+| 2 | [20](typesetting/ch02/chapter-02.pdf) | [14](typesetting/ch02/answer-key.pdf) | [Unit 2](typesetting/ch02/README.md) |
+| 3 | [31](typesetting/ch03/chapter-03.pdf) | [21](typesetting/ch03/answer-key.pdf) | [Unit 3](typesetting/ch03/README.md) |
+| 4 | [21](typesetting/ch04/chapter-04.pdf) | [18](typesetting/ch04/answer-key.pdf) | [Unit 4](typesetting/ch04/README.md) |
+| 5 | [26](typesetting/ch05/chapter-05.pdf) | [21](typesetting/ch05/answer-key.pdf) | [Unit 5](typesetting/ch05/README.md) |
+| 6 | [26](typesetting/ch06/chapter-06.pdf) | [27](typesetting/ch06/answer-key.pdf) | [Unit 6](typesetting/ch06/README.md) |
+| 7 | [39](typesetting/ch07/chapter-07.pdf) | [30](typesetting/ch07/answer-key.pdf) | [Unit 7](typesetting/ch07/README.md) |
+| 8 | [29](typesetting/ch08/chapter-08.pdf) | [24](typesetting/ch08/answer-key.pdf) | [Unit 8](typesetting/ch08/README.md) |
+| 9 | [42](typesetting/ch09/chapter-09.pdf) | [26](typesetting/ch09/answer-key.pdf) | [Unit 9](typesetting/ch09/README.md) |
+| 10 | [40](typesetting/ch10/chapter-10.pdf) | [29](typesetting/ch10/answer-key.pdf) | [Unit 10](typesetting/ch10/README.md) |
+| 11 | [42](typesetting/ch11/chapter-11.pdf) | [30](typesetting/ch11/answer-key.pdf) | [Unit 11](typesetting/ch11/README.md) |
+| 12 | [46](typesetting/ch12/chapter-12.pdf) | [30](typesetting/ch12/answer-key.pdf) | [Unit 12](typesetting/ch12/README.md) |
+| 13 | [51](typesetting/ch13/chapter-13.pdf) | [30](typesetting/ch13/answer-key.pdf) | [Unit 13](typesetting/ch13/README.md) |
+| 14 | [34](typesetting/ch14/chapter-14.pdf) | [21](typesetting/ch14/answer-key.pdf) | [Unit 14](typesetting/ch14/README.md) |
+| 15 | [63](typesetting/ch15/chapter-15.pdf) | [30](typesetting/ch15/answer-key.pdf) | [Unit 15](typesetting/ch15/README.md) |
+| 16 | [64](typesetting/ch16/chapter-16.pdf) | [32](typesetting/ch16/answer-key.pdf) | [Unit 16](typesetting/ch16/README.md) |
+| 17 | [92](typesetting/ch17/chapter-17.pdf) | [45](typesetting/ch17/answer-key.pdf) | [Unit 17](typesetting/ch17/README.md) |
+| 18 | [64](typesetting/ch18/chapter-18.pdf) | [32](typesetting/ch18/answer-key.pdf) | [Unit 18](typesetting/ch18/README.md) |
 
-The [contract](chapters/ch18/coverage.json) covers all 47 joint XII, XIII Exercises 44–48 prompts, 13 original practice groups, two translated examples and the exact 226-word love, gifts and farewell passage at Cook 175.18–177.2 / PDF 191–193. All 154 original controls and 22 reading notes / 29 anchors remain. There are **60 tasks / 87 answers** and **55 defined systems / 652 logical cells**, with explicit production, recognition and supplied boundaries.
-
-Contract `6874c20e7127fa33c41406d1aa6c0b087e59c824` preceded prose; complete drafts are `970fcc1f431f6ce2ccdd1f1c85b2b5e63ae0c16a`. A fresh non-author froze every [solution](chapters/ch18/independent-solutions.md) at `7846befc2c484e8d3e4ff43346da12bf275f5b08` before key/current-contract/audit access. [Fresh review](chapters/ch18/review.md) and [separate paradigm review](chapters/ch18/reviews/paradigms.json) resolve material findings; accepted text is `029177713dffa6ff81b81d9a96b41b36e006963f`. [Amendments](chapters/ch18/authoring-amendments.json) retain changes without rewriting earlier witnesses.
-
-The current [learner PDF](typesetting/ch18/chapter-18.pdf) has **64 pages** and the [key](typesetting/ch18/answer-key.pdf) **32**. All 96 pages have accepted presentation evidence in the [course page review](docs/revisions/table-layout/page-review.json). Complete [Markdown/TeX/PDF parity](docs/revisions/table-layout/export-text-review.json) covers all 36 documents. Original unit review identities describe their named authoring checkpoints.
-
-## Completed course artifacts
-
-| Unit | Grammar | Learner / key pages | Initial complete exports/registers |
-| --- | --- | --- | --- |
-| [1](typesetting/ch01/README.md) | Nouns, article, eom/wæs | 21 / 12 | fa067f4 |
-| [2](typesetting/ch02/README.md) | Personal pronouns and weak indicatives | 20 / 14 | 74c7802 |
-| [3](typesetting/ch03/README.md) | Adjectives, comparison and number | 31 / 21 | 95c68d6 |
-| [4](typesetting/ch04/README.md) | Strong verbs I–III | 21 / 18 | 12663ff |
-| [5](typesetting/ch05/README.md) | Strong verbs IV–VII | 26 / 21 | 37a52c3 |
-| [6](typesetting/ch06/README.md) | Irregular verbs, infinitives and commands | 26 / 27 | ce4ee34 |
-| [7](typesetting/ch07/README.md) | Subjunctive, participles and passive | 39 / 30 | b186c8b |
-| [8](typesetting/ch08/README.md) | Questions and relative clauses | 29 / 24 | d36f134 |
-| [9](typesetting/ch09/README.md) | Complements and reported content | 42 / 26 | 140e2bd |
-| [10](typesetting/ch10/README.md) | The case system in extended sentences | 40 / 29 | 126e927 |
-| [11](typesetting/ch11/README.md) | Adverbial clauses | 42 / 30 | b096aca |
-| [12](typesetting/ch12/README.md) | Tense, sequence, and voice | 46 / 30 | 6f4f1e2 |
-| [13](typesetting/ch13/README.md) | Clause order and reference | 51 / 30 | 85b6911 |
-| [14](typesetting/ch14/README.md) | Word formation and lexical families | 34 / 21 | a56c403 |
-| [15](typesetting/ch15/README.md) | Negation, quantity and comparison in discourse | 63 / 30 | a80bf34 |
-| [16](typesetting/ch16/README.md) | Extended narrative and speech | 64 / 32 | edb1bbb |
-| [17](typesetting/ch17/README.md) | Connected exposition, praise and figurative language | 92 / 45 | 99fcc3a |
-| [18](typesetting/ch18/README.md) | Independent prose consolidation | 64 / 32 | 52ff433 |
-
-Each unit retains its contract, evidence, learner/key masters, frozen solutions, reviews, full TeX/PDFs and page ledgers.
-
-## Registers and preservation
-
-The lexicon contains **1,265 lemmas, 13,295 forms and 1,687 senses**; grammar contains **1,214 features**. Supplied exposure remains distinct from independent recall. The [integration audit](chapters/ch18/register-integration.json) preserves all earlier records, analyses, surfaces, metadata, supplied histories and earliest milestones against `0eda277`. That original completion audit verified **3,288 fixed earlier artifacts** at its checkpoint. The current revision changes presentation and source-routing metadata while preserving the complete lemma/form/sense and grammar-feature objects, including every teaching history. Do not recapture the seventeen-unit baseline or rerun older mergers.
-
-All Exercises 1–48 have full item-level audits. Active contracts govern assignment; completion does not imply mastery of every reader selection. The [revision records](docs/revisions/table-layout/README.md) retain independent table, export, page and source checks. Further course content requires a new request. Beads uses one coordinator writer; remote pushes remain user-controlled. The generated Unit 18 audit snapshot is kept locally and recoverable from Git history; see the [storage and recovery instructions](docs/WORKFLOW.md#generated-audit-snapshots).
+The optional sound-history appendix remains 12 pages and adds no production requirements. Original authoring, table-layout, glossary, appendix and first full-book receipts remain valid for their own checkpoints. Do not recapture old baselines or replay historical integration helpers. The large Unit 18 baseline stays ignored and is recoverable as described in [WORKFLOW.md](docs/WORKFLOW.md#generated-audit-snapshots).

@@ -1,0 +1,52 @@
+{
+  "schema_version": 1,
+  "status": "accepted",
+  "reviewer": "sound_cook",
+  "revision": "opening-2026-11-02",
+  "scope": "Independent administrative review of the exact shared typesetting README replacement and its narrow preservation-check exception.",
+  "amendment_sha256": "e818d3890b38b74d16629cfe732f6ea93687611b55fb446783ca75f8dbf3d2ff",
+  "identities": {
+    "amendment": "docs/revisions/opening/administrative-amendments.json",
+    "preservation": {
+      "path": "docs/revisions/opening/preservation.json",
+      "sha256": "6a287354d7b013b1f56753096f42d9d628a7eafeda92607eba715bf9b8d9d3fc"
+    },
+    "original_baseline": {
+      "path": "docs/revisions/opening/baseline.json",
+      "sha256": "968f4116da5e35cc5daa36bb6c444c6d9d3c33bd81385a5035fc92b4d9e6ae2f",
+      "revision": "350fd003fb4aa47f141ade405626a549565d5a2d"
+    },
+    "document": {
+      "path": "typesetting/README.md",
+      "old_sha256": "77d77bd1f8ca7854614f8393646f9b9aa337be60487a585010dbfe5568226046",
+      "new_sha256": "a16994b374054a0bbb674974659a4f5a61957ce3dd42259103a412ca986aec15"
+    },
+    "checker": {
+      "path": "scripts/check_opening_revision.py",
+      "sha256": "3da86900a23f140844002e617c3092b3a78d5f6ce7abdd06a9f8893123e3121f"
+    },
+    "current_components": {
+      "path": "book/proposals/opening-components.json",
+      "sha256": "15ceb77f69b84adac1eb563f58d9530b140bcf0e3f2d60f2a06556446ef4775f"
+    },
+    "retained_volume_check": {
+      "path": "build/full-book/check/retained/checks.json",
+      "sha256": "76fdf9f4cf07aab7744a87f81d692c56732575264ac8b0e3b3177476b49c5e18",
+      "status": "passed"
+    }
+  },
+  "evidence": [
+    "Read the original typesetting README directly from Git revision 350fd003fb4aa47f141ade405626a549565d5a2d and compared its scope, counts, unit table and reproduction instructions with the complete current file. The amendment updates current documentation and identifies earlier presentation receipts as historical.",
+    "The frozen preservation file has the exact amendment-bound identity above. All 3,943 original protected path/raw-hash pairs still match baseline.json; no original identity was replaced. Independently hashing every current protected file found only typesetting/README.md changed, allowing the pre-existing exact CRLF-to-LF projection for protected text.",
+    "Verified all 41 retained component PDF hashes against the current accepted component inventory. All 18 README learner/key table rows agree with that inventory; the 36 unit documents total 1,227 pages. The other component counts are pronunciation 12, pronunciation key 4, sound history 12, Old English glossary 58 and English glossary 100.",
+    "Verified retained full-book PDF hashes against the passing retained-mode checker: learner 57d3767aceb1d13047f1d5e80fffab3f7564c6e49ff0f7840aa1b87d28204747 has 971 pages; key d1f9093066ede7107e33ab9cb2725a0372490f65d39803ec217e82f914501bbc has 488. The retained check reports 41 components, 123 component source identities, 1,413 retained body pages and no errors.",
+    "All local links in the shared README resolve. Read the current full-volume builder/checker options and the linked current pronunciation and Unit 2 reproduction directions. The documented build_full_book.py --stage all and check_full_book.py commands are current; build outputs remain separate from retained PDFs and historical assemblers/baseline captures are expressly excluded.",
+    "Inspected the administrative branch and the complete protected-file loop in check_opening_revision.py. Acceptance requires the exact current preservation hash, this receipt's accepted status and exact amendment hash, exactly one amendment row, the literal typesetting/README.md path, its original protected hash, its exact current new hash and a nonempty reason. Only that verified path/hash enters the exception map; every other protected file retains its original raw-or-LF identity check. An invalid amendment records failure and does not populate the exception map. The checker does not rewrite the baseline, preservation boundary or their allowlists."
+  ],
+  "findings": [],
+  "limitations": [
+    "This receipt authorizes only the identified documentation replacement; it does not authorize further content or boundary changes.",
+    "Page counts use the previously accepted component inventory and passing retained-volume report, with all corresponding current PDF byte identities independently checked. No recompilation, fresh linguistic audit or additional page-image inspection was performed for this administrative review.",
+    "The checker exception was reviewed as code; no shared files were altered to exercise negative cases. The coordinator runs the complete domain checker after this required receipt exists."
+  ]
+}

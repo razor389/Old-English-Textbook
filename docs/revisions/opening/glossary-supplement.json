@@ -1,0 +1,1265 @@
+{
+  "schema_version": 1,
+  "revision_id": "opening-2026-11-02",
+  "status": "validated_current_inventory",
+  "baseline": {
+    "surface_inventory": {
+      "path": "sources/audits/glossaries/old-english/inventory.json",
+      "sha256": "e74fbda0c4a1319c7806ccc4be67c14d67ac75dcca215172817b502fa0a3d0ae"
+    },
+    "task_inventory": {
+      "path": "sources/audits/glossaries/english/exercise-inventory.json",
+      "sha256": "d308c5cedca3e79b8f319ef988e16f86cd885e6ba72bb32ab563ee49889fff85"
+    },
+    "corpus_manifest": {
+      "path": "glossaries/corpus-manifest.json",
+      "sha256": "b70aa9582cd04b5e571cf2725d7e371dd8e6be25b63f7809757bba2831151b9a"
+    },
+    "course_boundary": {
+      "path": "glossaries/course-boundary.json",
+      "sha256": "72b9c608e94e1fcc61fa337180d1f55abc2505cee899195e895a07936c6e9cec"
+    },
+    "dictionary_presentation": {
+      "path": "glossaries/dictionary-presentation.json",
+      "sha256": "b68f1ad9654ac1aab9c3a578cc2f763134381626eee3fce966b4b61967f2a208"
+    }
+  },
+  "current": {
+    "surface_inventory": "docs/revisions/opening/glossary-current-inventory.json",
+    "task_inventory": "docs/revisions/opening/glossary-current-exercises.json",
+    "occurrences": "build/opening/glossary/current-occurrences.jsonl"
+  },
+  "authorized_file_deltas": [
+    {
+      "path": "chapters/ch01/answer-key.md",
+      "old_sha256": "6a5991a838b6212ad63c4c7c2a12f29733af63eab0488cec0dd65d4ac2004e00",
+      "new_sha256": "32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "old_sha256": "b113e09c377723ae9fa5500a78942b1f95cf2bdf26fc85fee18e0cef192694ce",
+      "new_sha256": "b08aef15bd3e3400269c68dced7f0329fdfff9e8b6ec794b856365f5617bd89c",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "chapters/ch01/student.md",
+      "old_sha256": "10a5ce07db62799a8f37d51401f733fb1b6c4be028559e0e47694bfc9992fc1f",
+      "new_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "chapters/ch02/coverage.json",
+      "old_sha256": "fb5f367c7b0ac90848081697298422946e64aa8a96becef251bbff7cb9c807bf",
+      "new_sha256": "e405233ca9c9f406504c02e8aa64d0b8be2927980d46d963c959c7aea0551037",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "chapters/ch02/student.md",
+      "old_sha256": "8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505",
+      "new_sha256": "c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "old_sha256": "1a90c1e1fb8c55c886f274c923d442b08d54edbbd3d339e96fbc2e511cec5961",
+      "new_sha256": "aa46f8910d420c63c5a6275c44b9d590c01a196511ac9cd0123cf2c4ed5a4b93",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "guides/pronunciation/answer-key.md",
+      "old_sha256": "1f1f1191fb20e0e16b2c6d9f1d6d98311254f071eb86b20bdf6ce53ec3a65616",
+      "new_sha256": "da65ccf5dfd7c799e6a35a252d006513263f9b950f4c17b47ce3793cd4b60eaa",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "guides/pronunciation/coverage.json",
+      "old_sha256": "e0fd481c200abe8179cbdfcb355bc8b7ad996d237e1a8065991bda86944b863f",
+      "new_sha256": "506ad5dade92f24e0453deee109067a15bfde82a38a1bde91116616fecb0f147",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "guides/pronunciation/examples.json",
+      "old_sha256": "bd36bf3be5d2ac2e95efe5fb149683107951ee36cf271c6db62c64ebe7acadf9",
+      "new_sha256": "2fc956828a2a42f27d5d3528545809170fcafc0b6f28ce2c2c29be32d84bfd40",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "guides/pronunciation/student.md",
+      "old_sha256": "7c6b8e6907962362381148b077dbbbb23b6fbe4196f98064faef00d2988ec346",
+      "new_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "lexicon/entries.json",
+      "old_sha256": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7",
+      "new_sha256": "392f1d566576ba548e12f80c33bca5fb1f2249017c5ca58f6d2fa50342f48b5e",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/ch01/answer-key.pdf",
+      "old_sha256": "f9b8161ccb8343f8c4e10396b36f5365607ca0f1305c30b9a75a38965452827f",
+      "new_sha256": "ebe0bdc941e10ca8a84cd5cde8a21b3215d23b3b2b459da3f9307140aa940646",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/ch01/answer-key.tex",
+      "old_sha256": "1c9cd454401a6d337a06ecf1d1e6e8456eec49a4e6674ae8ecd37284195c07bc",
+      "new_sha256": "8af4a71c38be5caf3aa4852d5424923823db5bd12341084d172111599cdbffc7",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/ch01/chapter-01.pdf",
+      "old_sha256": "44bc3de1cb75baf49c8f6fe1f86b0118cbc56bd5c8a3647a925feb8f834cbde8",
+      "new_sha256": "2eb2b2db26a6c043aba70f4d0efa8a135e445ed58ec9596840b94ea91b1e7287",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/ch01/chapter-01.tex",
+      "old_sha256": "813d7078f3a10c16757c941dc6f8eae281bfcdb119574f048f7a41feac5693d8",
+      "new_sha256": "7024eaa8163a4db7a81145c046b78468ce4d8917cb8e47fcdff9fd01af713c43",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/ch02/chapter-02.pdf",
+      "old_sha256": "3b1e6f541d6bb996c9e60decf85fa8677cacaefcf7bfb9bd21575f17b42212f6",
+      "new_sha256": "eff231ced271fc70985b39f23200d85240570d410a712bb14380f24dcda37cab",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/ch02/chapter-02.tex",
+      "old_sha256": "4e3f8fac7e249f546e6953cadbd2665f39c4d5744c2270cb5636c5722476217f",
+      "new_sha256": "41af34dd890eff19cf86dfad835137376a86391907810e0d899cef7fd91d90f2",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/pronunciation/answer-key.pdf",
+      "old_sha256": "99d90e4bf6e57d69569ed81cf2b849ace43e899311295baa0284957c773298bb",
+      "new_sha256": "4df9dc2c6362ed33ac5bcf0c6517241e4b1e4590349a182c94097274c5bbab42",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/pronunciation/answer-key.tex",
+      "old_sha256": "b3ac762aea39464e0365e98c06f7a27c617db3dde9a5dfd388b6aa0120d50954",
+      "new_sha256": "d52a33e1a0952162afb3a3137f1fae4533962058cfc8f67c0edbc442faf8056f",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/pronunciation/pronunciation.pdf",
+      "old_sha256": "b23f734a56ca7939947cab0603caef6b2016339a5382295a36c607171aa337dd",
+      "new_sha256": "9d7458c317ae720e3c90e9c2e7edc2ee4cfe2b3bac47f8ba4da2f9908022e7f4",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    },
+    {
+      "path": "typesetting/pronunciation/pronunciation.tex",
+      "old_sha256": "3c12c1a7b53365d07504c38627007d2a43829763cd6d59f5a7fed5f08092759c",
+      "new_sha256": "17c28c9d09714a7338d5afda2daa36b5eb4104b4bfbd291c60d2d89d63f793e4",
+      "reason": "Authorized opening revision: source-checked pronunciation; independently reviewed contextual Unit 1; bounded subject-prerequisite bridge; complete accepted exports. See docs/revisions/opening/contract.json and current independent receipts."
+    }
+  ],
+  "surface_dispositions": [
+    {
+      "surface": "andlīcness",
+      "classification": "nonlexical",
+      "reason": "Only the stem andlīcness- occurs here, explicitly before inflectional endings; the tokenizer omits its trailing hyphen. This is not a new nominative or standalone lexical form.",
+      "evidence_refs": [
+        "chapters/ch01/answer-key.md:95"
+      ]
+    },
+    {
+      "surface": "appendix",
+      "classification": "nonlexical",
+      "reason": "English name for the sound-history appendix in a source note.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:291"
+      ]
+    },
+    {
+      "surface": "back-vowel",
+      "classification": "nonlexical",
+      "reason": "English phonetic category in pronunciation exposition, not Old English vocabulary.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:65",
+        "guides/pronunciation/student.md:80"
+      ]
+    },
+    {
+      "surface": "before-consonant",
+      "classification": "nonlexical",
+      "reason": "English rule label attached to the letter c; not an Old English word.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:50"
+      ]
+    },
+    {
+      "surface": "between-voiced-sounds",
+      "classification": "nonlexical",
+      "reason": "English phonetic rule label in a pronunciation question.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:234"
+      ]
+    },
+    {
+      "surface": "breaking",
+      "classification": "nonlexical",
+      "reason": "English name for a historical sound process in a source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ]
+    },
+    {
+      "surface": "calf",
+      "classification": "nonlexical",
+      "reason": "English supplied gloss of cealf.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:72"
+      ]
+    },
+    {
+      "surface": "conjugations",
+      "classification": "nonlexical",
+      "reason": "English grammatical explanation in a source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:871"
+      ]
+    },
+    {
+      "surface": "declined",
+      "classification": "nonlexical",
+      "reason": "English description of an inflected form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:182",
+        "guides/pronunciation/answer-key.md:42"
+      ]
+    },
+    {
+      "surface": "deduce",
+      "classification": "nonlexical",
+      "reason": "English instruction describing what the learner is not asked to infer.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:234"
+      ]
+    },
+    {
+      "surface": "deducing",
+      "classification": "nonlexical",
+      "reason": "English explanatory verb in the treatment of lexical exceptions.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:74"
+      ]
+    },
+    {
+      "surface": "default",
+      "classification": "nonlexical",
+      "reason": "English noun referring to a pronunciation rule.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:92"
+      ]
+    },
+    {
+      "surface": "defaults",
+      "classification": "nonlexical",
+      "reason": "English noun referring to pronunciation patterns.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:74"
+      ]
+    },
+    {
+      "surface": "dike",
+      "classification": "nonlexical",
+      "reason": "English supplied gloss of dīc.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:78"
+      ]
+    },
+    {
+      "surface": "dikes",
+      "classification": "nonlexical",
+      "reason": "English supplied plural gloss of dīcas.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:78"
+      ]
+    },
+    {
+      "surface": "ditch",
+      "classification": "nonlexical",
+      "reason": "English supplied gloss of dīc.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:78"
+      ]
+    },
+    {
+      "surface": "ditches",
+      "classification": "nonlexical",
+      "reason": "English supplied plural gloss of dīcas.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:78"
+      ]
+    },
+    {
+      "surface": "dēore",
+      "classification": "old_english",
+      "reason": "Regular taught dative singular of dēor, now used in the revised Unit 1 key after fram. Its precise register/contract form already exists; add the missing surface to the existing dictionary head, not a new entry.",
+      "evidence_refs": [
+        "LEX-deor",
+        "FB47",
+        "lexicon/entries.json#deor/deor-dat-sg",
+        "chapters/ch01/coverage.json#REQ-deor-dat-sg",
+        "chapters/ch01/answer-key.md:562"
+      ],
+      "entry_ids": [
+        "OE-deor"
+      ]
+    },
+    {
+      "surface": "for-lǣtan",
+      "classification": "nonlexical",
+      "reason": "Explicit editorial prefix division of the already supplied whole word forlǣtan; do not admit the segmentation as a new orthographic verb form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:254"
+      ]
+    },
+    {
+      "surface": "fæstness",
+      "classification": "nonlexical",
+      "reason": "Only the stem fæstness- occurs here, explicitly before inflectional endings; the tokenizer omits its trailing hyphen. This is not a new nominative or standalone lexical form.",
+      "evidence_refs": [
+        "chapters/ch01/answer-key.md:95"
+      ]
+    },
+    {
+      "surface": "ge-scēop",
+      "classification": "nonlexical",
+      "reason": "Explicit editorial prefix division of the supplied form gescēop; the source note says the division does not respell the reading.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:272",
+        "guides/pronunciation/student.md:295"
+      ]
+    },
+    {
+      "surface": "ge-writ",
+      "classification": "nonlexical",
+      "reason": "Explicit editorial prefix division of the supplied whole word gewrit; do not admit the segmentation as a new orthographic noun form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:250"
+      ]
+    },
+    {
+      "surface": "gelīcness",
+      "classification": "nonlexical",
+      "reason": "Only the stem gelīcness- occurs here, explicitly before inflectional endings; the tokenizer omits its trailing hyphen. This is not a new nominative or standalone lexical form.",
+      "evidence_refs": [
+        "chapters/ch01/answer-key.md:95"
+      ]
+    },
+    {
+      "surface": "græs",
+      "classification": "old_english",
+      "reason": "Exact unmarked source spelling quoted in the new Unit 1 source note. Wright §315.1 prints græs, grass; §345 explicitly identifies gærs as the later form of græs. Add an existing-head source-variant route while retaining course gærs.",
+      "evidence_refs": [
+        "OPEN-DISP-WRIGHT315",
+        "OPEN-DISP-WRIGHT345",
+        "chapters/ch01/student.md:878"
+      ],
+      "entry_ids": [
+        "OE-gaers"
+      ]
+    },
+    {
+      "surface": "guttural",
+      "classification": "nonlexical",
+      "reason": "English historical-phonology term in the source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ]
+    },
+    {
+      "surface": "hook",
+      "classification": "nonlexical",
+      "reason": "English description of the mark beneath ę.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:162",
+        "guides/pronunciation/answer-key.md:13"
+      ]
+    },
+    {
+      "surface": "illustrating",
+      "classification": "nonlexical",
+      "reason": "English source commentary about the dual/plural evidence.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:876"
+      ]
+    },
+    {
+      "surface": "inventory",
+      "classification": "nonlexical",
+      "reason": "English grammatical/source commentary about the subject-pronoun inventory.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:876"
+      ]
+    },
+    {
+      "surface": "lengthen",
+      "classification": "nonlexical",
+      "reason": "English instruction about consonant and vowel duration.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:242"
+      ]
+    },
+    {
+      "surface": "lǣ",
+      "classification": "nonlexical",
+      "reason": "A cited stressed syllable within forlǣtan, not an independent lexical item.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:110"
+      ]
+    },
+    {
+      "surface": "modernizes",
+      "classification": "nonlexical",
+      "reason": "English editorial statement about the gloss of wēnde.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:296"
+      ]
+    },
+    {
+      "surface": "nested-genitive",
+      "classification": "nonlexical",
+      "reason": "English grammatical label in the reading support.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:794"
+      ]
+    },
+    {
+      "surface": "non",
+      "classification": "nonlexical",
+      "reason": "English prefix in non-y; Markdown emphasis interrupts the token. It is not an Old English negative particle.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:89",
+        "guides/pronunciation/student.md:98"
+      ]
+    },
+    {
+      "surface": "non-y",
+      "classification": "nonlexical",
+      "reason": "English pronunciation-category label in a heading.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:91"
+      ]
+    },
+    {
+      "surface": "noticing",
+      "classification": "nonlexical",
+      "reason": "English explanation of an insufficient pronunciation inference.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:42"
+      ]
+    },
+    {
+      "surface": "one-syllable",
+      "classification": "nonlexical",
+      "reason": "English prosodic description, not an Old English form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:144",
+        "guides/pronunciation/answer-key.md:102"
+      ]
+    },
+    {
+      "surface": "overpoints",
+      "classification": "nonlexical",
+      "reason": "English description of the editorial marks omitted from Fulk's words.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:291"
+      ]
+    },
+    {
+      "surface": "palatalization",
+      "classification": "nonlexical",
+      "reason": "English historical-phonology term in a source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ]
+    },
+    {
+      "surface": "passed",
+      "classification": "nonlexical",
+      "reason": "English setting for the noun-only exercise about evenings; not an Old English token.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:398"
+      ]
+    },
+    {
+      "surface": "precedence",
+      "classification": "nonlexical",
+      "reason": "English explanation of the priority of supplied lexical information.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:55",
+        "guides/pronunciation/student.md:234"
+      ]
+    },
+    {
+      "surface": "preview",
+      "classification": "nonlexical",
+      "reason": "English bibliographical label for the cited PDF.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:876"
+      ]
+    },
+    {
+      "surface": "priority",
+      "classification": "nonlexical",
+      "reason": "English explanation of pronunciation-rule order.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:58",
+        "guides/pronunciation/answer-key.md:92"
+      ]
+    },
+    {
+      "surface": "prolonging",
+      "classification": "nonlexical",
+      "reason": "English instruction about a doubled consonant.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:242"
+      ]
+    },
+    {
+      "surface": "r-metathesis",
+      "classification": "nonlexical",
+      "reason": "English historical-phonology term in a source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ]
+    },
+    {
+      "surface": "respell",
+      "classification": "nonlexical",
+      "reason": "English editorial explanation of the separate prefix division.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:295"
+      ]
+    },
+    {
+      "surface": "restate",
+      "classification": "nonlexical",
+      "reason": "English instruction to change the number of participants in a sentence.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:434",
+        "chapters/ch01/student.md:438"
+      ]
+    },
+    {
+      "surface": "retention",
+      "classification": "nonlexical",
+      "reason": "English grammatical explanation of stem-vowel behavior.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:398"
+      ]
+    },
+    {
+      "surface": "single-letter",
+      "classification": "nonlexical",
+      "reason": "English pronunciation-rule label.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:58"
+      ]
+    },
+    {
+      "surface": "sound-history",
+      "classification": "nonlexical",
+      "reason": "English appendix label in a source note.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:291"
+      ]
+    },
+    {
+      "surface": "source-based",
+      "classification": "nonlexical",
+      "reason": "English description of an evidential inference.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ]
+    },
+    {
+      "surface": "tan",
+      "classification": "nonlexical",
+      "reason": "The final syllable -tan within forlǣtan; the tokenizer omits the leading hyphen. It is not an independently used word.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:110"
+      ]
+    },
+    {
+      "surface": "thrust",
+      "classification": "nonlexical",
+      "reason": "English supplied gloss of scūfan.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:206",
+        "guides/pronunciation/answer-key.md:66"
+      ]
+    },
+    {
+      "surface": "unpointed",
+      "classification": "nonlexical",
+      "reason": "English description of Fulk's printed letter c.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ]
+    },
+    {
+      "surface": "vetted",
+      "classification": "nonlexical",
+      "reason": "English description of the selected pronunciation example.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:38"
+      ]
+    },
+    {
+      "surface": "weened",
+      "classification": "nonlexical",
+      "reason": "English historical gloss quoted from Cook; not an Old English form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:296"
+      ]
+    },
+    {
+      "surface": "writ",
+      "classification": "nonlexical",
+      "reason": "A cited stressed root within gewrit in this sole occurrence, not a separately used word or new glossary head.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:106"
+      ]
+    },
+    {
+      "surface": "yourself",
+      "classification": "nonlexical",
+      "reason": "English description of the speaker in task instructions.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:422",
+        "chapters/ch01/student.md:434"
+      ]
+    },
+    {
+      "surface": "begun",
+      "classification": "nonlexical",
+      "reason": "English introductory prose, personal-pronoun tables begun in Unit 1; actual sole occurrence inspected at chapters/ch02/student.md line 3. It is not an Old English quotation or requested translation.",
+      "evidence_refs": [
+        "docs/revisions/opening/unit2-bridge.json#/orientation_changes/0",
+        "chapters/ch02/student.md:3"
+      ]
+    }
+  ],
+  "reference_forms": [
+    {
+      "form_id": "OPEN-GLOSS-dic-gen-sg",
+      "form": "dīces",
+      "analysis": {
+        "case": "genitive",
+        "number": "singular",
+        "gender": "masculine",
+        "function": "dictionary_reference_only"
+      },
+      "evidence_refs": [
+        "OPEN-GLOSS-C283",
+        "OPEN-GLOSS-C43"
+      ],
+      "origin_category": "new teaching material",
+      "formation_evidence": "Cook dīc assigned to §43; apply fisc : fisces, preserving attested ī and adding -es.",
+      "printed_pages": [
+        283,
+        28
+      ],
+      "is_register_record": false,
+      "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+      "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+    },
+    {
+      "form_id": "OPEN-GLOSS-dic-nom-pl",
+      "form": "dīcas",
+      "analysis": {
+        "case": "nominative",
+        "number": "plural",
+        "gender": "masculine",
+        "function": "dictionary_reference_only"
+      },
+      "evidence_refs": [
+        "OPEN-GLOSS-F135B",
+        "OPEN-GLOSS-C283",
+        "OPEN-GLOSS-C43"
+      ],
+      "origin_category": "exact source",
+      "formation_evidence": "EXACT: Fulk §135b explicitly labels dīcas nominative plural. Cook class assignment establishes the selected masculine pattern.",
+      "printed_pages": [
+        103,
+        283,
+        28
+      ],
+      "is_register_record": false,
+      "evidence_relation": "exact source citation",
+      "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+    },
+    {
+      "form_id": "OPEN-GLOSS-scield-gen-sg",
+      "form": "scieldes",
+      "analysis": {
+        "case": "genitive",
+        "number": "singular",
+        "gender": "masculine",
+        "function": "dictionary_reference_only"
+      },
+      "evidence_refs": [
+        "OPEN-GLOSS-C311",
+        "OPEN-GLOSS-C43"
+      ],
+      "origin_category": "new teaching material",
+      "formation_evidence": "Cook scield assigned to §43; apply fisc : fisces. Retain selected short-ie stem scield- and add -es.",
+      "printed_pages": [
+        311,
+        28
+      ],
+      "is_register_record": false,
+      "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+      "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+    },
+    {
+      "form_id": "OPEN-GLOSS-scield-nom-pl",
+      "form": "scieldas",
+      "analysis": {
+        "case": "nominative",
+        "number": "plural",
+        "gender": "masculine",
+        "function": "dictionary_reference_only"
+      },
+      "evidence_refs": [
+        "OPEN-GLOSS-C311",
+        "OPEN-GLOSS-C43"
+      ],
+      "origin_category": "new teaching material",
+      "formation_evidence": "Cook scield assigned to §43; apply fisc : fiscas. Retain selected short-ie stem scield- and add -as.",
+      "printed_pages": [
+        311,
+        28
+      ],
+      "is_register_record": false,
+      "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+      "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+    },
+    {
+      "form_id": "OPEN-GLOSS-scufan-pret-1-sg",
+      "form": "scēaf",
+      "analysis": {
+        "tense": "preterite",
+        "person": 1,
+        "number": "singular",
+        "mood": "indicative",
+        "function": "dictionary_reference_only"
+      },
+      "evidence_refs": [
+        "OPEN-GLOSS-C311",
+        "OPEN-GLOSS-C103"
+      ],
+      "origin_category": "new teaching material",
+      "formation_evidence": "Cook scūfan explicitly assigned to class II §103; substitute scūf- into brūcan : brēac, using ēa and no ending. This is not claimed as a printed scēaf citation.",
+      "printed_pages": [
+        311,
+        60
+      ],
+      "is_register_record": false,
+      "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+      "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+    },
+    {
+      "form_id": "OPEN-GLOSS-scufan-pret-pl",
+      "form": "scufon",
+      "analysis": {
+        "tense": "preterite",
+        "number": "plural",
+        "mood": "indicative",
+        "function": "dictionary_reference_only"
+      },
+      "evidence_refs": [
+        "OPEN-GLOSS-C311",
+        "OPEN-GLOSS-C103"
+      ],
+      "origin_category": "new teaching material",
+      "formation_evidence": "Cook class-II ū series uses short u in preterite plural, as brucon; retain f and add -on. No macron inferred.",
+      "printed_pages": [
+        311,
+        60
+      ],
+      "is_register_record": false,
+      "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+      "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+    },
+    {
+      "form_id": "OPEN-GLOSS-scufan-past-ptcp",
+      "form": "scofen",
+      "analysis": {
+        "verb_form": "past_participle",
+        "function": "dictionary_reference_only"
+      },
+      "evidence_refs": [
+        "OPEN-GLOSS-C311",
+        "OPEN-GLOSS-C103"
+      ],
+      "origin_category": "new teaching material",
+      "formation_evidence": "Cook class-II ū series uses short o and -en in the uninflected participle, as brocen; retain f. No unverified ge- prefix is added.",
+      "printed_pages": [
+        311,
+        60
+      ],
+      "is_register_record": false,
+      "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+      "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+    }
+  ],
+  "verb_entries": [
+    {
+      "entry_id": "OE-scufan",
+      "lemma_id": "scufan",
+      "headword": "scūfan",
+      "verb_type": "strong",
+      "class_metadata": "strong II, Cook §103 ū series",
+      "has_complete_indicative_in_register": false,
+      "printed_diagnostics": [
+        {
+          "label": "pret. 1 sg.",
+          "forms": [
+            "scēaf"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scufan-pret-1-sg"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ]
+        },
+        {
+          "label": "pret. pl.",
+          "forms": [
+            "scufon"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scufan-pret-pl"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ]
+        },
+        {
+          "label": "past ptcp.",
+          "forms": [
+            "scofen"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scufan-past-ptcp"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ]
+        }
+      ],
+      "present_3sg_candidate": null,
+      "citation_scope_note": "",
+      "missing_core_reference_cells": [],
+      "glossary_only_reference_forms": [
+        {
+          "form_id": "OPEN-GLOSS-scufan-pret-1-sg",
+          "form": "scēaf",
+          "analysis": {
+            "tense": "preterite",
+            "person": 1,
+            "number": "singular",
+            "mood": "indicative",
+            "function": "dictionary_reference_only"
+          },
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ],
+          "origin_category": "new teaching material",
+          "formation_evidence": "Cook scūfan explicitly assigned to class II §103; substitute scūf- into brūcan : brēac, using ēa and no ending. This is not claimed as a printed scēaf citation.",
+          "printed_pages": [
+            311,
+            60
+          ],
+          "is_register_record": false,
+          "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+          "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+        },
+        {
+          "form_id": "OPEN-GLOSS-scufan-pret-pl",
+          "form": "scufon",
+          "analysis": {
+            "tense": "preterite",
+            "number": "plural",
+            "mood": "indicative",
+            "function": "dictionary_reference_only"
+          },
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ],
+          "origin_category": "new teaching material",
+          "formation_evidence": "Cook class-II ū series uses short u in preterite plural, as brucon; retain f and add -on. No macron inferred.",
+          "printed_pages": [
+            311,
+            60
+          ],
+          "is_register_record": false,
+          "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+          "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+        },
+        {
+          "form_id": "OPEN-GLOSS-scufan-past-ptcp",
+          "form": "scofen",
+          "analysis": {
+            "verb_form": "past_participle",
+            "function": "dictionary_reference_only"
+          },
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C103"
+          ],
+          "origin_category": "new teaching material",
+          "formation_evidence": "Cook class-II ū series uses short o and -en in the uninflected participle, as brocen; retain f. No unverified ge- prefix is added.",
+          "printed_pages": [
+            311,
+            60
+          ],
+          "is_register_record": false,
+          "evidence_relation": "individually checked reference formation from specified source rule and source-checked lexical class",
+          "teaching_scope": "Dictionary reference only; adds no exercise recall, construction or teaching milestone."
+        }
+      ],
+      "class_evidence_refs": [
+        "OPEN-GLOSS-C311",
+        "OPEN-GLOSS-C103"
+      ],
+      "review_status": "source-checked proposal; final independent integration acceptance pending",
+      "scope_disposition": "class-appropriate dictionary reference; no productive paradigm added",
+      "render_scope_note_individually": false,
+      "core_complete_or_explicitly_bounded": true,
+      "ordinary_headword_is_infinitive_citation": true
+    }
+  ],
+  "nonverbal_overrides": [
+    {
+      "entry_id": "OE-dic",
+      "printed_diagnostics": [
+        {
+          "label": "gen. sg.",
+          "forms": [
+            "dīces"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-dic-gen-sg"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C283",
+            "OPEN-GLOSS-C43"
+          ]
+        },
+        {
+          "label": "nom. pl.",
+          "forms": [
+            "dīcas"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-dic-nom-pl"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-F135B",
+            "OPEN-GLOSS-C283",
+            "OPEN-GLOSS-C43"
+          ]
+        }
+      ],
+      "dictionary_notes": []
+    },
+    {
+      "entry_id": "OE-scield",
+      "printed_diagnostics": [
+        {
+          "label": "gen. sg.",
+          "forms": [
+            "scieldes"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scield-gen-sg"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C43"
+          ]
+        },
+        {
+          "label": "nom. pl.",
+          "forms": [
+            "scieldas"
+          ],
+          "form_ids": [
+            "OPEN-GLOSS-scield-nom-pl"
+          ],
+          "evidence_refs": [
+            "OPEN-GLOSS-C311",
+            "OPEN-GLOSS-C43"
+          ]
+        }
+      ],
+      "dictionary_notes": []
+    }
+  ],
+  "sense_aliases": [
+    {
+      "sense_id": "ic-subject",
+      "target_sense_id": "ic-personal",
+      "entry_id": "OE-ic",
+      "headword": "ic",
+      "meaning": "I; we two; we, as subjects",
+      "target_meaning": "I; me; we; us",
+      "register_gloss": "I; we two; we, as subjects",
+      "scope": "Nominative subject forms only; reuse the established dictionary definition without advancing oblique teaching.",
+      "evidence_refs": [
+        "U02-PRON"
+      ]
+    },
+    {
+      "sense_id": "thu-subject",
+      "target_sense_id": "thu-personal",
+      "entry_id": "OE-thu",
+      "headword": "ðū",
+      "meaning": "you (singular); you two; you (plural), as subjects",
+      "target_meaning": "you",
+      "register_gloss": "you (singular); you two; you (plural), as subjects",
+      "scope": "Nominative subject forms only; reuse the established dictionary definition without advancing oblique teaching.",
+      "evidence_refs": [
+        "U02-PRON"
+      ]
+    },
+    {
+      "sense_id": "he-subject",
+      "target_sense_id": "he-1",
+      "entry_id": "OE-he",
+      "headword": "hē",
+      "meaning": "he; it; she; they, as subjects with grammatical-gender/number reference",
+      "target_meaning": "he; she; it; they",
+      "register_gloss": "he; it; she; they, as subjects with grammatical-gender/number reference",
+      "scope": "Nominative subject forms only; reuse the established dictionary definition without advancing oblique teaching.",
+      "evidence_refs": [
+        "U02-PRON"
+      ]
+    }
+  ],
+  "task_reviews": [
+    {
+      "chapter_id": "pronunciation",
+      "status": "accepted",
+      "student_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+      "key_sha256": "da65ccf5dfd7c799e6a35a252d006513263f9b950f4c17b47ce3793cd4b60eaa",
+      "contract_sha256": "506ad5dade92f24e0453deee109067a15bfde82a38a1bde91116616fecb0f147",
+      "review_evidence": [
+        {
+          "path": "docs/revisions/opening/reviews/pronunciation-independent.json",
+          "sha256": "e8a4e03fd413e50869c4148d7a1d302b17c561fbdb8da0fd2dc9487209d63d55"
+        },
+        {
+          "path": "docs/revisions/opening/reviews/pronunciation-key-newlines.json",
+          "sha256": "59540c3a36ebc1d43ad417c9c0f087f680e8a53c193dde2d80eef9f392ae9e88"
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch01",
+      "status": "accepted",
+      "student_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad",
+      "key_sha256": "32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57",
+      "contract_sha256": "b08aef15bd3e3400269c68dced7f0329fdfff9e8b6ec794b856365f5617bd89c",
+      "review_evidence": [
+        {
+          "path": "docs/revisions/opening/reviews/unit1-independent.json",
+          "sha256": "da7eff992cd052f0373f42c25439d65cc807472862f624a99ff09ab95d258a05"
+        },
+        {
+          "path": "docs/revisions/opening/reviews/unit1-register-acceptance.json",
+          "sha256": "be25e45f382865a39264d75438ef6a037c2e37de207d2490a2bf607c53154f71"
+        },
+        {
+          "path": "docs/revisions/opening/unit1-reconciliation.json",
+          "sha256": "a8c99d7c9c432dca1ca581c4693be5b88ff3de8e3a7fb27a3c8cf6919dc8d7c9"
+        }
+      ]
+    },
+    {
+      "chapter_id": "ch02",
+      "status": "accepted",
+      "student_sha256": "c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d",
+      "key_sha256": "e92678fabfb798725eb0c4d089e6a7e47b20961b402295cc5410ef151033dbab",
+      "contract_sha256": "e405233ca9c9f406504c02e8aa64d0b8be2927980d46d963c959c7aea0551037",
+      "review_evidence": [
+        {
+          "path": "docs/revisions/opening/reviews/unit2-bridge-acceptance.json",
+          "sha256": "c41f8a840b2421bc9ee8e94fcf056e4f7f5090074f5b7ff9b40582e79650437b"
+        },
+        {
+          "path": "docs/revisions/opening/unit2-bridge.json",
+          "sha256": "7639c5b1384bb1cc251ce81075bb170a3d6f520f646c6465dd9ce5ab1e9456a9"
+        }
+      ]
+    }
+  ],
+  "source_evidence": [
+    {
+      "evidence_id": "OPEN-GLOSS-C43",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "§43",
+      "printed_page": 28,
+      "pdf_page_one_based": 44,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "Masculines ending in a consonant; fisc, fisces, fiscas.",
+      "image": {
+        "path": "sources/evidence/cook-fb-pdf044.png",
+        "sha256": "d8c146c5e56f09744b1bb6cd7758623846fd2c7ce2e59f520492438d222ba9d7"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Newly viewed for this glossary preparation."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C103",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "§103",
+      "printed_page": 60,
+      "pdf_page_one_based": 76,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "Strong class II: ēo or ū, ēa, u, o; brūcan, brēac, brucon, brocen.",
+      "image": {
+        "path": "sources/audits/unit04-grammar/cook-p60-pdf76.png",
+        "sha256": "69c92d7f3c6375c5e7c8d4f01b81c01927e134f253cf47a5653bad3206f4d72a"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Newly viewed for this glossary preparation."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C311",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "Vocabulary: scield; scūfan; sēcean (sēcan)",
+      "printed_page": 311,
+      "pdf_page_one_based": 327,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "scield (scild) (43,18), shield; scūfan (II.103), thrust; sēcean (sēcan) (114), seek; seek out; visit.",
+      "image": {
+        "path": "build/opening/phonology/cook-p311-pdf327.png",
+        "sha256": "ba96bcfbfa9a15fffa3a9ea5cf29802f8626c1272dd710d06365cb29f2d9d7ab"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening source audit and again for the preceding bounded sēcan correction."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C283",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "Vocabulary: dīc",
+      "printed_page": 283,
+      "pdf_page_one_based": 299,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "dīc (43), dike.",
+      "image": {
+        "path": "sources/audits/unit12-source/cook_fb_1895_2-p283.png",
+        "sha256": "6cee73cced1fa365d9e697cd10d1ef3d59eb4d5178dd41a1f6fc0f6d24e5fced"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening pronunciation source audit; reused here."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-F135B",
+      "source_id": "fulk_2020",
+      "original_identifier": "§135b",
+      "printed_page": 103,
+      "pdf_page_one_based": 115,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "ċealf calf; dīċ ditch, dike; expressly labelled nom. pl. dīcas.",
+      "image": {
+        "path": "sources/audits/pronunciation/fulk/palatalization-01.png",
+        "sha256": "821890c11444e3deee851de67ffe5a4a8579e656061bd9b3b710a8f570cced16"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening audit and again for the preceding bounded sēcan correction."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C6",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "§4",
+      "printed_page": 6,
+      "pdf_page_one_based": 22,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "węnde, went, contrasted with wēnde, weened.",
+      "image": {
+        "path": "sources/audits/pronunciation/cook/cook-p006-pdf022.png",
+        "sha256": "23f6957c9c425a055032ee132413b3256906829a7ca116771c7de0fef3df4d51"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening pronunciation source audit; reused here."
+    },
+    {
+      "evidence_id": "OPEN-GLOSS-C309",
+      "source_id": "cook_fb_1895_2",
+      "original_identifier": "Vocabulary: adjective riht (58)",
+      "printed_page": 309,
+      "pdf_page_one_based": 325,
+      "source_transcription_scope": "Selected forms and glosses only; punctuation/case descriptive where not material.",
+      "source_forms_and_glosses": "riht (58), right; direct. The neighbouring noun riht is a separate entry.",
+      "image": {
+        "path": "build/opening/phonology/cook-p309-pdf325.png",
+        "sha256": "236beb929af919be7e521f4d617c1faba6e2ec3b5080c86fdc7ade7e0e16567b"
+      },
+      "actually_viewed_by_this_worker": true,
+      "viewing_scope": "Personally viewed in the opening pronunciation source audit; reused here."
+    }
+  ],
+  "proposal": {
+    "path": "docs/revisions/opening/proposals/glossary-additions.json",
+    "sha256": "c27390ef6db548df62cbadbdc937c33287cd101ccc44755730242645659a8320"
+  },
+  "access_bridges": [
+    {
+      "path": "appendices/sound-history/glossary-access.json",
+      "sha256": "e6ac63503e3d485c0006f59c3532767bdbbb06e78b3cc5006fa775984aa10f05"
+    }
+  ],
+  "scope": "Four supplied-reference headwords, two bounded senses, three subject-scope aliases; no routine inflected printed entries or new recall requirement.",
+  "dictionary_changes": {
+    "new_oe_entries": [
+      "OE-cealf",
+      "OE-dic",
+      "OE-scield",
+      "OE-scufan"
+    ],
+    "new_en_entries": [
+      "EN-7233abd7ea22",
+      "EN-5ac8dad60a3b",
+      "EN-f0fec9b2c0b4",
+      "EN-2081cc0de301",
+      "EN-bd7e83102fa3"
+    ],
+    "existing_oe_sense_appendices": [
+      "OE-wendan",
+      "OE-riht"
+    ],
+    "existing_en_route_appendices": [
+      "EN-072a626ed2d6",
+      "EN-d15690f08a57"
+    ]
+  },
+  "surface_disposition_integration": {
+    "proposal": {
+      "path": "docs/revisions/opening/proposals/current-glossary-dispositions.json",
+      "sha256": "1af28400f4cca5ad6ed2846f643232a740fdb0a65aa0b2c7efe538baa7d98484"
+    },
+    "approved_surface_types": 57,
+    "entry_ids": [
+      "OE-deor",
+      "OE-gaers"
+    ],
+    "scope": "Surface routes only; no task-review or authorization waiver."
+  }
+}

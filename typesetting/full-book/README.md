@@ -2,39 +2,35 @@
 
 | Volume | Physical pages | Contents |
 | --- | ---: | --- |
-| [Learner’s Book](book.pdf) | 967 | Pronunciation, Units 1–18, sound history, both glossaries, table of contents and grammatical index |
-| [Answer Key](answer-key.pdf) | 486 | Pronunciation answers, Units 1–18 keys and table of contents |
+| [Learner’s Book](book.pdf) | 971 | Pronunciation, Units 1–18, sound history, both glossaries, linked contents and grammatical index |
+| [Answer Key](answer-key.pdf) | 488 | Pronunciation answers, Units 1–18 keys and linked contents |
 
-The learner volume has twelve pages of Roman-numbered front matter, 938 Arabic-numbered component pages including eight blank versos, and a seventeen-page grammatical index at printed pages 939–955. Its 930 original content pages are complete. The key has four front-matter pages and 482 Arabic-numbered pages, including seven blank versos; all 475 original key pages are complete. Title and deliberate blank pages omit visible folios. Each component begins on a recto.
+The learner volume has twelve Roman-numbered front-matter pages, 942 Arabic-numbered component pages (935 content pages and seven blank versos), and a seventeen-page index at printed pages **943–959**. The key has four front-matter pages and 484 Arabic-numbered pages (478 content pages and six blank versos). Components begin on rectos; title and deliberate blank pages omit visible folios.
 
-Contents entries and page numbers are linked. PDF bookmarks include nested sections. The grammatical index has 447 entries under 112 substantive headings, with 74 see headings and 32 see-also groups. Its 493 printed references derive from 360 actual explanation/paradigm targets. Unit sections, exercises and original source locators retain their local numbering.
+The index has **450 entries under 112 substantive headings**, 75 see headings and 32 see-also groups. Its **500 printed page references** derive from 364 actual explanation/paradigm targets. Contents links, nested PDF bookmarks and continuous page labels are verified. The learner volume contains no answer keys.
 
-The [assembly manifest](../../book/contents.json) records exact accepted source identities. The [contract](../../book/coverage.json) preceded implementation at `feb01c8`. Original Markdown, component TeX/PDFs, teaching registers and source evidence remain unchanged. The combined fragments contain only reversible navigation annotations and local document setup. Font features and the shared 165 × 241 mm Cambria layout are retained.
+The [manifest](../../book/contents.json) and [current component inventory](../../book/proposals/opening-components.json) bind 41 accepted components and 123 source identities. The [opening integration](../../docs/revisions/opening/book-integration.json) records seven changed components and 33 exact old-to-new protected-file deltas; the other protected identities are preserved. Original manifests, index and boundary remain in [revision history](../../docs/revisions/opening/book-history/). The combined fragments add only reversible navigation and local setup; complete accepted component bodies are preserved.
 
 ## Reproduction
 
-Run from the repository root with the configured TeX Live 2026, Cambria, Xpdf, Ghostscript, Python and PowerShell/System.Drawing installation:
+Run from the repository root with the configured LuaLaTeX, Cambria, Xpdf, Ghostscript and PowerShell/System.Drawing installation:
 
 ```powershell
-python -X utf8 scripts/build_full_book.py --stage all
-python -X utf8 scripts/check_full_book.py
-python -X utf8 scripts/render_full_book.py sources
-python -X utf8 scripts/render_full_book.py source-pixels
-python -X utf8 scripts/render_full_book.py combined
-python -X utf8 scripts/render_full_book.py compare
-python -X utf8 scripts/render_full_book.py proofs
+python -B -X utf8 scripts/build_full_book.py --stage all
+python -B -X utf8 scripts/check_full_book.py
+python -B -X utf8 scripts/render_full_book.py sources --jobs 4
+python -B -X utf8 scripts/render_full_book.py source-pixels --jobs 4
+python -B -X utf8 scripts/render_full_book.py combined --jobs 4
+python -B -X utf8 scripts/render_full_book.py compare --jobs 4
+python -B -X utf8 scripts/render_full_book.py proofs --jobs 4
 ```
 
-The builder verifies the preservation boundary, generates all 41 fragments, compiles both complete volumes, resolves the index from actual labels, and recompiles until pagination stabilizes. `--stage assemble` and `--stage compile` separate those steps; `--volume learner` or `--volume key` limits compilation. Build PDFs, logs, auxiliary files and raster proofs remain in ignored build directories. A rebuild does not replace the accepted PDFs automatically.
+The builder verifies all protected and source identities, generates 41 fragments, resolves the index from actual labels, and recompiles until pagination stabilizes. `--stage assemble` resets the index placeholder; use `--stage compile` for subsequent compilation of an existing assembly. Rebuilding does not promote PDFs automatically.
 
-The checker independently removes only the permitted navigation commands and compares every retained TeX body with its accepted source. It compares all 1,405 component pages’ complete PDF text, headers and folios; verifies the positive volume allowlists, source hashes and page counts; and inspects actual PDF destinations, link annotations, bookmarks and page labels through the installed LuaTeX PDF reader. The whole index is compared in heading/subentry order, and each of its 493 numeric link rectangles is bound to its own row, visible index page and target. New navigation text alone has a documented soft-hyphen/quote extraction projection. Accepted-body character comparison uses only NFC and whitespace normalization.
+The checker compares all **1,413 component pages** in complete text, verifies every source body after removing only allowed navigation commands, checks answer separation, headers, folios, destinations, bookmarks and labels, and binds all 500 numeric index links to their actual visible rows and targets. The renderer compares decoded body/header RGB pixels at 150 dpi through 225 mm, with a full-width 224–226 mm blank guard separating the changed folio. Footer proofs are inspected separately.
 
-The renderer checks the PDF identities before and after each run. It compares decoded RGB pixels from the page top through 225 mm at 150 dpi, including every body line and running header. A full-width blank guard at 224–226 mm verifies that the cutoff separates content from the changed folio. Footers are checked separately through extracted folios and labelled native-pixel proofs. Every page has a labelled reduced full-page proof and a readable folio proof; every new or changed page has a full-size proof. Generation alone is not visual acceptance.
+## Current acceptance
 
-Review the complete new build and bind its page/proof identities before promoting it. Use `python -X utf8 scripts/check_full_book.py --retained` to verify the retained PDFs after promotion; this writes a separate result under `build/full-book/check/retained/` and preserves the reviewed build reports. PDF metadata can change the file hash on reproduction even when content is identical; fresh exports need fresh acceptance.
+The [opening export receipt](opening-2026-11-02-export-review.json) binds the current PDFs, machine checks and independent page reviews. [Complete text parity](text-parity.json), [page accounting](pagination.json), [navigation](navigation.json), [index locations](index-locations.json), [checks](checks.json), and [pixel comparison](raster-comparison.json) describe this build. All **1,459 final pages** have labelled page/folio review; new navigation, index and deliberate blank pages have full-size inspection. Source detail is inherited only where exact decoded body/header pixels match accepted standalone pages.
 
-## Evidence
-
-The [export review](export-review.json) binds the final PDF identities and independent reviews. [Content provenance](content-map.json), [page accounting](pagination.json), [complete page-text parity](text-parity.json), [navigation](navigation.json), [index locations](index-locations.json), [machine checks](checks.json) and [raster comparison](raster-comparison.json) retain the reproducible evidence. The [index amendments](../../book/amendments.json) preserve all resolved findings without rewriting the source proposals.
-
-Independent reviews cover [the early index](../../book/reviews/index-early.md), [the late index](../../book/reviews/index-late.md), [navigation and new pages](../../book/reviews/navigation.md), [all learner pages](../../book/reviews/learner-pages.md) and [all key pages](../../book/reviews/key-pages.md). Their receipts distinguish reduced page inspection, native-pixel folio inspection and full-size page inspection. Prior detailed page acceptance is inherited only where exact body/header pixel identity is established.
+The [semantic index review](../../book/reviews/opening-index-semantic.json) is separate from actual PDF navigation validation. The original `export-review.json` and earlier book reviews remain historical acceptances of their identified PDFs. After promotion, `python -B -X utf8 scripts/check_full_book.py --retained` verifies retained copies and writes a separate check receipt.

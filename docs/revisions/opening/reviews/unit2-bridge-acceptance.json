@@ -1,0 +1,1433 @@
+{
+  "schema_version": 1,
+  "review_id": "opening-unit2-bridge-independent",
+  "reviewer": "sound_fulk",
+  "date": "2026-11-02",
+  "status": "accepted",
+  "inputs": [
+    {
+      "path": "chapters/ch02/coverage.json",
+      "sha256": "0cb104f2d6d7f5c4809950916a81261bdd7739f0bb93f2232fb49fc778ea130d"
+    },
+    {
+      "path": "chapters/ch02/student.md",
+      "sha256": "c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d"
+    },
+    {
+      "path": "chapters/ch02/answer-key.md",
+      "sha256": "e92678fabfb798725eb0c4d089e6a7e47b20961b402295cc5410ef151033dbab"
+    },
+    {
+      "path": "typesetting/ch02/chapter-02.tex",
+      "sha256": "41af34dd890eff19cf86dfad835137376a86391907810e0d899cef7fd91d90f2"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "392f1d566576ba548e12f80c33bca5fb1f2249017c5ca58f6d2fa50342f48b5e"
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "sha256": "aa46f8910d420c63c5a6275c44b9d590c01a196511ac9cd0123cf2c4ed5a4b93"
+    },
+    {
+      "path": "docs/revisions/opening/unit2-bridge.json",
+      "sha256": "b885dec54d69872d9a1f298a26b9850fcad650c66cfa8f4fc13133cdd1423b67"
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "b08aef15bd3e3400269c68dced7f0329fdfff9e8b6ec794b856365f5617bd89c"
+    }
+  ],
+  "before_bridge_revision": "b3c1223a69658ac9678d6864bddfe81fd54eceb8",
+  "method": "Read the three actual orientation paragraphs with all personal tables and surrounding case/use text, all 42 affected prompts and 9 ungraded passages/examples, then independently compare all contract/register deltas to the actual b3c1223 files. Exact preserved text and records carry prior Unit 2 acceptance; this review does not solve unchanged exercises anew or infer assessment from prerequisite use.",
+  "orientation_review": [
+    {
+      "line": 3,
+      "before": "This unit introduces personal pronouns and the present and preterite indicative of weak verbs. Learn the finite forms in the tables, together with their stem changes. The six first- and second-person genitives and the negative verb **nabban** are for recognition. Infinitive and participle citations are available for lookup; their uses in sentences come later.",
+      "after": "This unit completes the personal-pronoun tables begun in Unit 1 and introduces the present and preterite indicative of weak verbs. Learn the finite forms in the tables, together with their stem changes. The six first- and second-person genitives and the negative verb **nabban** are for recognition. Infinitive and participle citations are available for lookup; their uses in sentences come later.",
+      "accepted": true
+    },
+    {
+      "line": 7,
+      "before": "The first person identifies the speaker; the second identifies the addressee; the third refers to someone or something else. Besides singular and plural, the first and second persons have a **dual**, explicitly referring to two. A dual subject takes the corresponding **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”. Ordinary plural forms are not restricted by a rule that they must always exclude two. [1]",
+      "after": "The tables repeat the subject forms learned in Unit 1 and add the other cases. First person identifies the speaker; second person, the addressee; third person, someone or something else. The first and second persons also have a **dual**, explicitly referring to two. As in Unit 1, a dual subject takes a **plural verb form**; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”; ordinary plurals can also include two. [1]",
+      "accepted": true
+    },
+    {
+      "line": 38,
+      "before": "Recognize **mīn, uncer, ūre, ðīn, incer, ēower** as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Learn the remaining cells for use in the constructions below.",
+      "after": "Recognize **mīn, uncer, ūre, ðīn, incer, ēower** as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Review the nominatives; learn the new dative, accusative and third-person genitive cells for the constructions below.",
+      "accepted": true
+    }
+  ],
+  "linguistic_scope_findings": [
+    "The introduction now accurately describes completion of Unit 1 subject forms; finite weak-verb learning and the six genitive/nabban recognition limits are unchanged.",
+    "Dual subject agreement and ordinary plurals including two restate the accepted Unit 1 scope. No separate dual verb form is introduced.",
+    "The genitive paragraph keeps possessive adjectives outside scope and distinguishes reviewed nominatives from newly taught dative, accusative and third-person genitive cells.",
+    "Prior hīe/hit nominatives are identified by form IDs and actual syntactic role; same-spelled accusatives remain Unit 2 learning.",
+    "Source-reading bindings remain prerequisite contact across a passage; they do not newly assess every hē occurrence or replace supplied clause support.",
+    "Ungraded examples/text/source use is retained as provenance, with no addition to assessed_in or earlier milestone. Existing register used_in_tasks conventions include such dependency records."
+  ],
+  "checks": {
+    "receipt_input_hashes_match_actual_before_bridge_commit_or_declared_crlf_working_copy": {
+      "passed": true,
+      "detail": {
+        "git_blob_hashes": {
+          "chapters/ch02/coverage.json": "a2dae3afade830d28da5bb2ec52bc0234fee89be58a26f6feb49c22d27518926",
+          "chapters/ch02/student.md": "8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505",
+          "chapters/ch02/answer-key.md": "e92678fabfb798725eb0c4d089e6a7e47b20961b402295cc5410ef151033dbab",
+          "typesetting/ch02/chapter-02.tex": "6b6c51050d964d88911c1a0d4a3b5d72e1d0018ee51f50679b4119e620200075",
+          "lexicon/entries.json": "a72dfa63e9622199e4bd7dd80b87f569939c6489e0424e49d4dbf182a6ffbbe1",
+          "curriculum/grammar.json": "734aafa806000357c681c9ff444bdda52e1e35cb93200cf9087a47c4aa511785"
+        },
+        "tex_crlf_working_copy_hash": "4e3f8fac7e249f546e6953cadbd2665f39c4d5744c2270cb5636c5722476217f",
+        "scope": "Only the pre-bridge TeX input used CRLF working bytes; LF content is identical to b3c1223."
+      }
+    },
+    "receipt_output_hashes_match_current_files_or_verified_comment_refresh": {
+      "passed": true,
+      "detail": {
+        "final_tex_sha256": "41af34dd890eff19cf86dfad835137376a86391907810e0d899cef7fd91d90f2",
+        "bridge_tex_sha256": "2f7120cb7c7a552421fc05c46366accd437f67558b67e0c3f9d47454a1cd01af",
+        "scope": "The only post-bridge TeX change is its source Markdown SHA comment, refreshed to the actual current learner hash."
+      }
+    },
+    "unit1_is_completed_and_has_exact_ten_prior_subject_forms": {
+      "passed": true,
+      "detail": [
+        "he-f-nom-sg",
+        "he-m-nom-sg",
+        "he-n-nom-sg",
+        "he-nom-pl",
+        "ic-nom-dual",
+        "ic-nom-pl",
+        "ic-nom-sg",
+        "thu-nom-dual",
+        "thu-nom-pl",
+        "thu-nom-sg"
+      ]
+    },
+    "learner_changed_only_three_orientation_paragraphs": {
+      "passed": true
+    },
+    "every_learner_table_line_unchanged": {
+      "passed": true,
+      "detail": {
+        "table_lines": 152
+      }
+    },
+    "entire_key_byte_identical": {
+      "passed": true
+    },
+    "tex_changes_are_three_orientation_paragraph_lines_plus_hash_comment": {
+      "passed": true,
+      "detail": [
+        {
+          "operation": "replace",
+          "old_lines": [
+            "% Markdown SHA-256: 8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505"
+          ],
+          "new_lines": [
+            "% Markdown SHA-256: c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d"
+          ]
+        },
+        {
+          "operation": "replace",
+          "old_lines": [
+            "This unit introduces personal pronouns and the present and preterite indicative of weak verbs. Learn the finite forms in the tables, together with their stem changes. The six first- and second-person genitives and the negative verb \\textbf{nabban} are for recognition. Infinitive and participle citations are available for lookup; their uses in sentences come later."
+          ],
+          "new_lines": [
+            "This unit completes the personal-pronoun tables begun in Unit 1 and introduces the present and preterite indicative of weak verbs. Learn the finite forms in the tables, together with their stem changes. The six first- and second-person genitives and the negative verb \\textbf{nabban} are for recognition. Infinitive and participle citations are available for lookup; their uses in sentences come later."
+          ]
+        },
+        {
+          "operation": "replace",
+          "old_lines": [
+            "The first person identifies the speaker; the second identifies the addressee; the third refers to someone or something else. Besides singular and plural, the first and second persons have a \\textbf{dual}, explicitly referring to two. A dual subject takes the corresponding \\textbf{plural verb form}; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”. Ordinary plural forms are not restricted by a rule that they must always exclude two. [1]"
+          ],
+          "new_lines": [
+            "The tables repeat the subject forms learned in Unit 1 and add the other cases. First person identifies the speaker; second person, the addressee; third person, someone or something else. The first and second persons also have a \\textbf{dual}, explicitly referring to two. As in Unit 1, a dual subject takes a \\textbf{plural verb form}; there is no separate dual verb ending. Use the dual when an exercise requests “we two” or “you two”; ordinary plurals can also include two. [1]"
+          ]
+        },
+        {
+          "operation": "replace",
+          "old_lines": [
+            "Recognize \\textbf{mīn, uncer, ūre, ðīn, incer, ēower} as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Learn the remaining cells for use in the constructions below."
+          ],
+          "new_lines": [
+            "Recognize \\textbf{mīn, uncer, ūre, ðīn, incer, ēower} as genitives of the persons and numbers shown. Their corresponding possessive adjectives have endings not yet taught. Do not use this table alone to form attributive “my”, “your” or “our” phrases. Review the nominatives; learn the new dative, accusative and third-person genitive cells for the constructions below."
+          ]
+        }
+      ]
+    },
+    "all_42_graded_and_9_ungraded_bindings_complete_and_correct": {
+      "passed": true,
+      "detail": []
+    },
+    "all_61_tasks_and_11_ungraded_records_otherwise_unchanged": {
+      "passed": true,
+      "detail": []
+    },
+    "only_ten_local_nominatives_change_to_prior_learning": {
+      "passed": true,
+      "detail": []
+    },
+    "all_other_local_senses_teaching_and_contract_fields_preserved": {
+      "passed": true,
+      "detail": []
+    },
+    "personal_scope_is_10_prior_24_new_productive_6_new_recognition": {
+      "passed": true,
+      "detail": {
+        "previously_taught_form_ids": [
+          "ic-nom-sg",
+          "ic-nom-dual",
+          "ic-nom-pl",
+          "thu-nom-sg",
+          "thu-nom-dual",
+          "thu-nom-pl",
+          "he-m-nom-sg",
+          "he-n-nom-sg",
+          "he-f-nom-sg",
+          "he-nom-pl"
+        ],
+        "new_production_form_ids": [
+          "ic-dat-sg",
+          "ic-acc-sg",
+          "ic-dat-dual",
+          "ic-acc-dual",
+          "ic-dat-pl",
+          "ic-acc-pl",
+          "thu-dat-sg",
+          "thu-acc-sg",
+          "thu-dat-dual",
+          "thu-acc-dual",
+          "thu-dat-pl",
+          "thu-acc-pl",
+          "he-m-gen-sg",
+          "he-m-dat-sg",
+          "he-m-acc-sg",
+          "he-n-gen-sg",
+          "he-n-dat-sg",
+          "he-n-acc-sg",
+          "he-f-gen-sg",
+          "he-f-dat-sg",
+          "he-f-acc-sg",
+          "he-gen-pl",
+          "he-dat-pl",
+          "he-acc-pl"
+        ],
+        "new_recognition_form_ids": [
+          "ic-gen-sg",
+          "ic-gen-dual",
+          "ic-gen-pl",
+          "thu-gen-sg",
+          "thu-gen-dual",
+          "thu-gen-pl"
+        ]
+      }
+    },
+    "complete_paradigm_records_preserved_under_scope_annotation": {
+      "passed": true,
+      "detail": []
+    },
+    "all_16_prior_records_added_with_complete_required_by": {
+      "passed": true,
+      "detail": {
+        "new_records": [
+          {
+            "kind": "forms",
+            "record_id": "he-f-nom-sg",
+            "required_by_count": 4
+          },
+          {
+            "kind": "forms",
+            "record_id": "he-m-nom-sg",
+            "required_by_count": 21
+          },
+          {
+            "kind": "forms",
+            "record_id": "thu-nom-dual",
+            "required_by_count": 8
+          },
+          {
+            "kind": "forms",
+            "record_id": "ic-nom-pl",
+            "required_by_count": 9
+          },
+          {
+            "kind": "forms",
+            "record_id": "ic-nom-dual",
+            "required_by_count": 9
+          },
+          {
+            "kind": "forms",
+            "record_id": "thu-nom-pl",
+            "required_by_count": 4
+          },
+          {
+            "kind": "forms",
+            "record_id": "thu-nom-sg",
+            "required_by_count": 10
+          },
+          {
+            "kind": "forms",
+            "record_id": "he-nom-pl",
+            "required_by_count": 14
+          },
+          {
+            "kind": "forms",
+            "record_id": "ic-nom-sg",
+            "required_by_count": 16
+          },
+          {
+            "kind": "forms",
+            "record_id": "he-n-nom-sg",
+            "required_by_count": 1
+          },
+          {
+            "kind": "senses",
+            "record_id": "ic-subject",
+            "required_by_count": 25
+          },
+          {
+            "kind": "senses",
+            "record_id": "thu-subject",
+            "required_by_count": 16
+          },
+          {
+            "kind": "senses",
+            "record_id": "he-subject",
+            "required_by_count": 36
+          },
+          {
+            "kind": "features",
+            "record_id": "u01-subject-pronouns",
+            "required_by_count": 51
+          },
+          {
+            "kind": "features",
+            "record_id": "u01-dual-subject-agreement",
+            "required_by_count": 13
+          },
+          {
+            "kind": "features",
+            "record_id": "u01-subject-pronoun-reference",
+            "required_by_count": 36
+          }
+        ],
+        "errors": []
+      }
+    },
+    "all_register_ids_preserved_without_new_lemmas_forms_senses_features": {
+      "passed": true,
+      "detail": {
+        "records": 16202
+      }
+    },
+    "all_register_milestones_assessment_and_supplied_history_unchanged": {
+      "passed": true,
+      "detail": []
+    },
+    "register_record_deltas_are_exact_bounded_unit2_provenance": {
+      "passed": true,
+      "detail": []
+    },
+    "broad_personal_senses_still_begin_in_unit2": {
+      "passed": true
+    },
+    "all_nonnominative_personal_cells_still_begin_in_unit2": {
+      "passed": true
+    },
+    "register_top_level_evidence_and_lemma_metadata_unchanged": {
+      "passed": true,
+      "detail": []
+    },
+    "prior_file_current_hash_witnesses_match_actual_files": {
+      "passed": true
+    },
+    "old_prior_file_witnesses_retained": {
+      "passed": true
+    },
+    "inputs_stable_through_review": {
+      "passed": true
+    }
+  },
+  "binding_review": [
+    {
+      "record_id": "NEW-U02-P01",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/0",
+      "prior_form_ids": [
+        "ic-nom-sg",
+        "thu-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-P02",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/1",
+      "prior_form_ids": [
+        "ic-nom-dual",
+        "thu-nom-dual"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-P03",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/2",
+      "prior_form_ids": [
+        "ic-nom-pl",
+        "thu-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-P04",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/3",
+      "prior_form_ids": [
+        "he-m-nom-sg",
+        "he-f-nom-sg",
+        "he-n-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-P05",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/4",
+      "prior_form_ids": [
+        "he-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-F01",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/6",
+      "prior_form_ids": [
+        "thu-nom-dual"
+      ],
+      "bounded_sense_ids": [
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-F07",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/12",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-F08",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/13",
+      "prior_form_ids": [
+        "ic-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-F12",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/17",
+      "prior_form_ids": [
+        "ic-nom-dual",
+        "thu-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-F15",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/20",
+      "prior_form_ids": [
+        "ic-nom-sg",
+        "thu-nom-sg",
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "thu-subject",
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C01",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/26",
+      "prior_form_ids": [
+        "he-m-nom-sg",
+        "he-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C02",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/27",
+      "prior_form_ids": [
+        "ic-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C03",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/28",
+      "prior_form_ids": [
+        "ic-nom-dual"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C04",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/29",
+      "prior_form_ids": [
+        "thu-nom-dual",
+        "ic-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "thu-subject",
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C05",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/30",
+      "prior_form_ids": [
+        "he-f-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C07",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/32",
+      "prior_form_ids": [
+        "he-f-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C08",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/33",
+      "prior_form_ids": [
+        "he-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C09",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/34",
+      "prior_form_ids": [
+        "ic-nom-sg",
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C10",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/35",
+      "prior_form_ids": [
+        "thu-nom-dual",
+        "he-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "thu-subject",
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C11",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/36",
+      "prior_form_ids": [
+        "ic-nom-sg",
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C12",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/37",
+      "prior_form_ids": [
+        "thu-nom-sg",
+        "ic-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "thu-subject",
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-C13",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/38",
+      "prior_form_ids": [
+        "ic-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-T02",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/40",
+      "prior_form_ids": [
+        "ic-nom-sg",
+        "thu-nom-sg",
+        "ic-nom-dual"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-T03",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/41",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-T04",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/42",
+      "prior_form_ids": [
+        "thu-nom-sg",
+        "he-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "thu-subject",
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-T05",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/43",
+      "prior_form_ids": [
+        "he-m-nom-sg",
+        "he-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-T06",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/44",
+      "prior_form_ids": [
+        "ic-nom-pl",
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-N01",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/45",
+      "prior_form_ids": [
+        "he-nom-pl",
+        "ic-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject",
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-N02",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/46",
+      "prior_form_ids": [
+        "he-nom-pl",
+        "ic-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject",
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-N03",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/47",
+      "prior_form_ids": [
+        "ic-nom-sg",
+        "thu-nom-sg",
+        "ic-nom-dual",
+        "he-nom-pl",
+        "thu-nom-dual",
+        "ic-nom-pl",
+        "thu-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "thu-subject",
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-N04",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/48",
+      "prior_form_ids": [
+        "he-nom-pl",
+        "ic-nom-sg",
+        "thu-nom-sg",
+        "ic-nom-dual",
+        "thu-nom-dual",
+        "ic-nom-pl",
+        "thu-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "he-subject",
+        "ic-subject",
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-N06",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/50",
+      "prior_form_ids": [
+        "he-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-R01",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/51",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-R02",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/52",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-R03",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/53",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-R04",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/54",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-R05",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/55",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-R06",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/56",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-R07",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/57",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-X01",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/58",
+      "prior_form_ids": [
+        "ic-nom-dual",
+        "ic-nom-pl",
+        "he-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject",
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-X02",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/59",
+      "prior_form_ids": [
+        "he-m-nom-sg",
+        "ic-nom-dual",
+        "ic-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject",
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-X03",
+      "category": "assigned_items",
+      "pointer": "/assigned_items/60",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-01",
+      "category": "new_material_examples",
+      "pointer": "/new_material_examples/0",
+      "prior_form_ids": [
+        "ic-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-03",
+      "category": "new_material_examples",
+      "pointer": "/new_material_examples/2",
+      "prior_form_ids": [
+        "thu-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-05",
+      "category": "new_material_examples",
+      "pointer": "/new_material_examples/4",
+      "prior_form_ids": [
+        "he-f-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-06",
+      "category": "new_material_examples",
+      "pointer": "/new_material_examples/5",
+      "prior_form_ids": [
+        "thu-nom-dual"
+      ],
+      "bounded_sense_ids": [
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-07",
+      "category": "new_material_examples",
+      "pointer": "/new_material_examples/6",
+      "prior_form_ids": [
+        "he-m-nom-sg",
+        "ic-nom-pl"
+      ],
+      "bounded_sense_ids": [
+        "he-subject",
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-EXAMPLE-08",
+      "category": "new_material_examples",
+      "pointer": "/new_material_examples/7",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-TEXT-NARRATIVE-01",
+      "category": "new_compositions",
+      "pointer": "/new_compositions/0",
+      "prior_form_ids": [
+        "he-nom-pl",
+        "ic-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject",
+        "ic-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "NEW-U02-TEXT-DIALOGUE-01",
+      "category": "new_compositions",
+      "pointer": "/new_compositions/1",
+      "prior_form_ids": [
+        "he-nom-pl",
+        "ic-nom-dual",
+        "ic-nom-pl",
+        "ic-nom-sg",
+        "thu-nom-dual",
+        "thu-nom-pl",
+        "thu-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject",
+        "ic-subject",
+        "thu-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    },
+    {
+      "record_id": "FB-I-CREATION-SABBATH-01",
+      "category": "source_spans",
+      "pointer": "/source_spans/0",
+      "prior_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "bounded_sense_ids": [
+        "he-subject"
+      ],
+      "bounded_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "verified_from": "actual prompt/target or actual text/token forms; nominative role distinct from same-spelled obliques",
+      "assessment_scope": "Prerequisite provenance only; existing tested and supplied distinctions unchanged."
+    }
+  ],
+  "token_provenance_changes": [
+    [
+      "NEW-U02-EXAMPLE-01",
+      1,
+      "ic-nom-pl"
+    ],
+    [
+      "NEW-U02-EXAMPLE-03",
+      1,
+      "thu-nom-sg"
+    ],
+    [
+      "NEW-U02-EXAMPLE-05",
+      1,
+      "he-f-nom-sg"
+    ],
+    [
+      "NEW-U02-EXAMPLE-06",
+      1,
+      "thu-nom-dual"
+    ],
+    [
+      "NEW-U02-EXAMPLE-07",
+      1,
+      "he-m-nom-sg"
+    ],
+    [
+      "NEW-U02-EXAMPLE-07",
+      3,
+      "ic-nom-pl"
+    ],
+    [
+      "NEW-U02-EXAMPLE-08",
+      1,
+      "he-m-nom-sg"
+    ],
+    [
+      "NEW-U02-TEXT-NARRATIVE-01",
+      27,
+      "he-nom-pl"
+    ],
+    [
+      "NEW-U02-TEXT-NARRATIVE-01",
+      34,
+      "he-nom-pl"
+    ],
+    [
+      "NEW-U02-TEXT-NARRATIVE-01",
+      40,
+      "he-nom-pl"
+    ],
+    [
+      "NEW-U02-TEXT-NARRATIVE-01",
+      45,
+      "he-nom-pl"
+    ],
+    [
+      "NEW-U02-TEXT-NARRATIVE-01",
+      55,
+      "ic-nom-sg"
+    ],
+    [
+      "NEW-U02-TEXT-DIALOGUE-01",
+      1,
+      "ic-nom-sg"
+    ],
+    [
+      "NEW-U02-TEXT-DIALOGUE-01",
+      4,
+      "thu-nom-sg"
+    ],
+    [
+      "NEW-U02-TEXT-DIALOGUE-01",
+      7,
+      "ic-nom-dual"
+    ],
+    [
+      "NEW-U02-TEXT-DIALOGUE-01",
+      12,
+      "he-nom-pl"
+    ],
+    [
+      "NEW-U02-TEXT-DIALOGUE-01",
+      15,
+      "thu-nom-dual"
+    ],
+    [
+      "NEW-U02-TEXT-DIALOGUE-01",
+      19,
+      "ic-nom-sg"
+    ],
+    [
+      "NEW-U02-TEXT-DIALOGUE-01",
+      22,
+      "ic-nom-pl"
+    ],
+    [
+      "NEW-U02-TEXT-DIALOGUE-01",
+      25,
+      "thu-nom-pl"
+    ],
+    [
+      "NEW-U02-TEXT-DIALOGUE-01",
+      29,
+      "he-nom-pl"
+    ],
+    [
+      "FB-I-CREATION-SABBATH-01",
+      23,
+      "he-m-nom-sg"
+    ],
+    [
+      "FB-I-CREATION-SABBATH-01",
+      26,
+      "he-m-nom-sg"
+    ],
+    [
+      "FB-I-CREATION-SABBATH-01",
+      38,
+      "he-m-nom-sg"
+    ],
+    [
+      "FB-I-CREATION-SABBATH-01",
+      50,
+      "he-m-nom-sg"
+    ],
+    [
+      "FB-I-CREATION-SABBATH-01",
+      58,
+      "he-m-nom-sg"
+    ]
+  ],
+  "findings": [],
+  "acceptance": {
+    "unit2_orientation_and_prerequisite_bridge": true,
+    "unchanged_tasks_key_tables_source_preserved": true,
+    "cumulative_milestones_and_prior_assessment_preserved": true,
+    "scope_limit": "Export build and page inspection are separate gates; no claims about uninspected new PDF pages."
+  }
+}

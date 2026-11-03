@@ -1,0 +1,3354 @@
+{
+  "schema_version": 1,
+  "proposal_id": "opening-current-glossary-surface-dispositions-2026-11-02",
+  "status": "proposal_only",
+  "author": "/root/sound_cook",
+  "prepared_utc": "2026-11-02T23:24:13.506833+00:00",
+  "scope": "Exact surface-token disposition for the current 38 learner/key masters; no task, linguistic-review, export, or course-completion acceptance is claimed.",
+  "method": {
+    "scanner": "scripts/refresh_opening_glossary_inventory.py",
+    "scanner_sha256": "83584411e99a5a4c8a81384372df0fcebb3ab1436973d41988d95e7c7c6261f1",
+    "tokenizer": "sources/audits/glossaries/old-english/audit.py",
+    "tokenizer_sha256": "4ffbc157075d9b5e0af4ac56d39c77c0087bf46c04804b072d4c137a2f9c0e47",
+    "normalization": "Existing safe wrapper WORD/key/clean_line logic: NFC plus casefold only; no diacritic stripping or invented normalization.",
+    "execution": "Imported the guarded wrapper and called generate() in memory. Did not call write_outputs(), rewrite old inventories, or alter shared content.",
+    "context_review": "Inspected all 70 unresolved occurrences across 41 distinct current source lines, including authorized current keys.",
+    "counting_limit": "Raw matching counts include English/Old English homographs and are not Old English token frequencies.",
+    "task_status": "Pending boundary, register, contract and review bindings remain coordinator work. The surface-only candidate test deliberately does not treat their remaining errors as accepted or waive them."
+  },
+  "input_identities": {
+    "glossaries/entries.json": "664ad5ef59cf82a89f1f992c37227f9ae9b6e3400dccef09d0b0792025f283b4",
+    "glossaries/form-lookup.json": "1a1f1de42b3b260ee0ab6117f29afb82bc9e6eb12baae8aa1d144d49a0414ab8",
+    "sources/audits/glossaries/old-english/inventory.json": "e74fbda0c4a1319c7806ccc4be67c14d67ac75dcca215172817b502fa0a3d0ae",
+    "sources/audits/glossaries/old-english/reviewed-exclusions.json": "c5d6a46f925e8ce3de592ddb4a8bbdd07dbea5568525e56226f51e6a8800ef80",
+    "sources/audits/glossaries/old-english/resolutions.json": "d59537512c99bcd68578780aa45034eeae50de947a7a43779b87f41e190df4b5",
+    "scripts/refresh_opening_glossary_inventory.py": "83584411e99a5a4c8a81384372df0fcebb3ab1436973d41988d95e7c7c6261f1",
+    "sources/audits/glossaries/old-english/audit.py": "4ffbc157075d9b5e0af4ac56d39c77c0087bf46c04804b072d4c137a2f9c0e47",
+    "docs/revisions/opening/reviews/unit1-prerequisites.json": "f5128efa0a0b01339e3f4d15ba762c68f1872742e0f4f8d1e2cf093b3b548f4a",
+    "sources/registry.json": "536e716d97d97e9e25a0c24709dd30bc0725b1d940ed09a158cc5ee649ae244e",
+    "build/opening/unit1-review/wright-p156-pdf176.png": "11352ee293535b709b3473c427f63c75681d72b07bfecab5afc6fa6021f3fece",
+    "build/opening/unit1-review/wright-p171-pdf191.png": "46e15a4b167ef2a91eb76df5702726a6ecbb3368dd6431ef6be8aee7533de923",
+    "build/opening/unit1-review/fulk-p265-pdf277.png": "228c9849341e1f5b5ac55ce65acaa324c4f805e46e6a508da7a67ccb802ad0e4",
+    "lexicon/entries.json": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7",
+    "chapters/ch01/coverage.json": "0c0cbfa5a4866c47bb29c7ef68d236a88d2e4e962a122e3f6ef7e844dbfc2885",
+    "guides/pronunciation/coverage.json": "506ad5dade92f24e0453deee109067a15bfde82a38a1bde91116616fecb0f147",
+    "docs/revisions/opening/glossary-supplement.json": "7a9f916d4fef770da3e79fd592049e6e76acb81b879c877093065898eef99719"
+  },
+  "corpus_manifest": [
+    {
+      "path": "chapters/ch01/student.md",
+      "sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad",
+      "lines": 878
+    },
+    {
+      "path": "chapters/ch01/answer-key.md",
+      "sha256": "32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57",
+      "lines": 566
+    },
+    {
+      "path": "chapters/ch02/student.md",
+      "sha256": "8d1d5ca743749ccccda28cdaa13ebb534eee31053998e56baa975ec3940c2505",
+      "lines": 735
+    },
+    {
+      "path": "chapters/ch02/answer-key.md",
+      "sha256": "e92678fabfb798725eb0c4d089e6a7e47b20961b402295cc5410ef151033dbab",
+      "lines": 485
+    },
+    {
+      "path": "chapters/ch03/student.md",
+      "sha256": "0c00a1f1d96fe7a4cbc11b9b633021a9c0cb7a73c1296e44a0d74a7d3da28b49",
+      "lines": 1506
+    },
+    {
+      "path": "chapters/ch03/answer-key.md",
+      "sha256": "94c8b7ac365046bcf304f966d166673189ef8a88ebde024c8d8dbaae46aa0ee9",
+      "lines": 669
+    },
+    {
+      "path": "chapters/ch04/student.md",
+      "sha256": "d0e7f4922320ce5105ed2a67f53e0c2ea6774a60082da39f74e762a410596aa5",
+      "lines": 1192
+    },
+    {
+      "path": "chapters/ch04/answer-key.md",
+      "sha256": "d32b83bfe09437697c011d6f5b29eea95e0e2d11e7ab0cc303d04487390a2da7",
+      "lines": 682
+    },
+    {
+      "path": "chapters/ch05/student.md",
+      "sha256": "d6b0fea4a1444547e3d857f24c2683455b372f9de908164a04125ac7b9416ded",
+      "lines": 1563
+    },
+    {
+      "path": "chapters/ch05/answer-key.md",
+      "sha256": "16d3c595ef46d19d7f79a32b94063247effa7793f8f42feec4ad5b69ce4a5c70",
+      "lines": 790
+    },
+    {
+      "path": "chapters/ch06/student.md",
+      "sha256": "345c6edbcd113e28368865a2f456416bb2964a941ef097fb9bcc2906d037a545",
+      "lines": 1410
+    },
+    {
+      "path": "chapters/ch06/answer-key.md",
+      "sha256": "f32c7b7a4f9ca4d83c1694a268141ac4d49b3f5f9df20b98967c6fd1918e16a0",
+      "lines": 961
+    },
+    {
+      "path": "chapters/ch07/student.md",
+      "sha256": "ed4887966801964ff9eeab2b90ee7da65ba49edb598a57e125e35089cf4d3046",
+      "lines": 1948
+    },
+    {
+      "path": "chapters/ch07/answer-key.md",
+      "sha256": "2e70c0efc0dc5eb9c83a8a2a4fa56c4ec1ee7778cf1d5bb65cb9bde82448d0b2",
+      "lines": 843
+    },
+    {
+      "path": "chapters/ch08/student.md",
+      "sha256": "ca944f867019c6a0d497bfb9702e86c6166f86c8306cae845bdc76c6b6d33cae",
+      "lines": 1505
+    },
+    {
+      "path": "chapters/ch08/answer-key.md",
+      "sha256": "1fc7d4f58230ef644b8ccedaafd54c14d27d4937ba64719e798179f5f9ab0100",
+      "lines": 677
+    },
+    {
+      "path": "chapters/ch09/student.md",
+      "sha256": "900aef45e5ce5de5473217f46c4c11069f124740adf46546284b3bf2bc6fee6a",
+      "lines": 2311
+    },
+    {
+      "path": "chapters/ch09/answer-key.md",
+      "sha256": "9c686ae7ec70b688baf7a861611bec2337407c707ce2bbfac9f2d5b9e37aaf73",
+      "lines": 892
+    },
+    {
+      "path": "chapters/ch10/student.md",
+      "sha256": "ac21ffb18662e7666e79262a8f6d403696b00ba6d377c7a61354d9fc80bd8987",
+      "lines": 1947
+    },
+    {
+      "path": "chapters/ch10/answer-key.md",
+      "sha256": "f87e5d18fcabcc4502d7b2b72312c835942362e38bdb41e8a42c05b0acd29c36",
+      "lines": 1070
+    },
+    {
+      "path": "chapters/ch11/student.md",
+      "sha256": "b134bcfe29fae274bf244cd22463d1b24bcc428814066dfcac174a2a673ab527",
+      "lines": 2185
+    },
+    {
+      "path": "chapters/ch11/answer-key.md",
+      "sha256": "fc0c8d0667c675f57673606e3d05bc3b7e6a75adc7c9a6d21e40bb747af58d42",
+      "lines": 1106
+    },
+    {
+      "path": "chapters/ch12/student.md",
+      "sha256": "1ac857fe82fb5d50474162487e47a794c0f2afb50230a7f3323e36b55929c54b",
+      "lines": 2334
+    },
+    {
+      "path": "chapters/ch12/answer-key.md",
+      "sha256": "c72444ddc74b7e7abac4c166b78f4f7164e541d74e0d858efc6cfc3c1e872dbf",
+      "lines": 858
+    },
+    {
+      "path": "chapters/ch13/student.md",
+      "sha256": "23b35a247e66b72cf78bfe01c9ce7882c58af054ecffc4c42d5187efa43cb635",
+      "lines": 2794
+    },
+    {
+      "path": "chapters/ch13/answer-key.md",
+      "sha256": "8f997622ba66ec27326bca1fd9c88174064046eda3b236f5ec10e2e035a19811",
+      "lines": 1002
+    },
+    {
+      "path": "chapters/ch14/student.md",
+      "sha256": "bbede87fb135e09186ce222c455520b913c22c72fa3820c63fd729e30aaa290e",
+      "lines": 1810
+    },
+    {
+      "path": "chapters/ch14/answer-key.md",
+      "sha256": "e3d1e422aff8b3e9a2ff42a5b70e22ef5c2225d23ba94d359899a5a3b54545d5",
+      "lines": 529
+    },
+    {
+      "path": "chapters/ch15/student.md",
+      "sha256": "73bbaac1b2d7de6c5a1c88fa3b546d226e7b2abb9dd9b0249483133e19882dda",
+      "lines": 4816
+    },
+    {
+      "path": "chapters/ch15/answer-key.md",
+      "sha256": "b5712e52c7ca2e4649c2e31613a3d264b89b92cb671354136d450a458717531a",
+      "lines": 1445
+    },
+    {
+      "path": "chapters/ch16/student.md",
+      "sha256": "89dbd7124d92ad9cc944f06547a6094e08f2dd25060d86806d04ff0da8679c4d",
+      "lines": 3421
+    },
+    {
+      "path": "chapters/ch16/answer-key.md",
+      "sha256": "9f7c6115c1e6ea300e48116239a640d1ae97f14efd66fc81d281ed7a937d7c7e",
+      "lines": 1313
+    },
+    {
+      "path": "chapters/ch17/student.md",
+      "sha256": "4e832c39606a72ef832cb726f1c3722bd13ccff0db23c02c007924deb6d3a361",
+      "lines": 4887
+    },
+    {
+      "path": "chapters/ch17/answer-key.md",
+      "sha256": "c6710364dde62f50c01f7bfeab57fd6ed813dddaa13d6860cfd55e75b5b2a81d",
+      "lines": 1605
+    },
+    {
+      "path": "chapters/ch18/student.md",
+      "sha256": "3d54d8343f68988f385cbed184c6ad0b0d16f3672c5f150ef7691dfebd25e637",
+      "lines": 3213
+    },
+    {
+      "path": "chapters/ch18/answer-key.md",
+      "sha256": "6370dfd1a9d91d2bf0539d469d710976a88125fa5716d716e552bd4e93aeb033",
+      "lines": 1030
+    },
+    {
+      "path": "guides/pronunciation/student.md",
+      "sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+      "lines": 296
+    },
+    {
+      "path": "guides/pronunciation/answer-key.md",
+      "sha256": "da65ccf5dfd7c799e6a35a252d006513263f9b950f4c17b47ce3793cd4b60eaa",
+      "lines": 127
+    }
+  ],
+  "observed_surface_summary": {
+    "corpus_files": 38,
+    "total_tokens": 302150,
+    "matched_surface_types": 5585,
+    "matched_occurrences": 81281,
+    "excluded_occurrences": 220799,
+    "unresolved_token_types": 57
+  },
+  "newly_matched_surfaces_already_integrated": [
+    {
+      "surface": "cealf",
+      "lemma_ids": [
+        "cealf"
+      ],
+      "occurrences": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 72
+      }
+    },
+    {
+      "surface": "dīc",
+      "lemma_ids": [
+        "dic"
+      ],
+      "occurrences": 3,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 78
+      }
+    },
+    {
+      "surface": "dīcas",
+      "lemma_ids": [
+        "dic"
+      ],
+      "occurrences": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 78
+      }
+    },
+    {
+      "surface": "scield",
+      "lemma_ids": [
+        "scield"
+      ],
+      "occurrences": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 170
+      }
+    },
+    {
+      "surface": "scūfan",
+      "lemma_ids": [
+        "scufan"
+      ],
+      "occurrences": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 206
+      }
+    }
+  ],
+  "historical_surface_preservation": {
+    "frozen_surface_types": 5580,
+    "previously_present_surfaces_no_longer_occurring": [],
+    "retain_historical_first_locations_and_counts": true,
+    "note": "The supplement must record current occurrences separately; it must not relabel or overwrite the frozen historical inventory."
+  },
+  "proposed_dictionary_form_additions": [
+    {
+      "entry_id": "OE-deor",
+      "headword": "dēor",
+      "precondition_record_sha256": "638d0fcbb5560742008ff06d3a6e0cae29bc6fa78cd96081e92a0ef835efbf7f",
+      "append_forms": [
+        "dēore"
+      ],
+      "existing_form_ids": [
+        "deor-dat-sg"
+      ],
+      "existing_sense_ids": [
+        "deor-1"
+      ],
+      "origin_category": "new teaching material",
+      "evidence_basis": "Existing individually checked rule-derived form: dēor + dative singular -e under Cook §47.",
+      "evidence_refs": [
+        "LEX-deor",
+        "FB47",
+        "lexicon/entries.json#deor/deor-dat-sg",
+        "chapters/ch01/coverage.json#REQ-deor-dat-sg"
+      ],
+      "source_locators": [
+        {
+          "source_id": "cook_ex_1895",
+          "printed_page": 38,
+          "pdf_page_1_based": 46,
+          "original_identifier": "English–Old English vocabulary, s.v. animal",
+          "inspection_basis": "Reused active Unit 1 evidence catalog; not a new image inspection in this task."
+        },
+        {
+          "source_id": "cook_fb_1895_2",
+          "section": "47",
+          "printed_pages": [
+            32,
+            33
+          ],
+          "pdf_pages_1_based": [
+            48,
+            49
+          ],
+          "inspection_basis": "Reused active Unit 1 evidence catalog and already reviewed form record; dēore is a rule-derived form, not claimed as an exact printed token."
+        }
+      ],
+      "first_location": {
+        "path": "chapters/ch01/answer-key.md",
+        "line": 562,
+        "column": 38
+      },
+      "lookup_record": {
+        "surface": "dēore",
+        "entry_ids": [
+          "OE-deor"
+        ],
+        "first_location": {
+          "path": "chapters/ch01/answer-key.md",
+          "line": 562
+        },
+        "route": "opening_revision_existing_register_form"
+      },
+      "display_policy": "Ordinary inflection under dēor; do not create a separate printed entry or alter principal parts/diagnostics.",
+      "register_changes_requested": []
+    },
+    {
+      "entry_id": "OE-gaers",
+      "headword": "gærs",
+      "precondition_record_sha256": "b90071f4da349ec9f57a3d13de6eaf252ec26fc58b4952fd0d2a8fc2b1136cdb",
+      "append_forms": [
+        "græs"
+      ],
+      "existing_form_ids": [],
+      "existing_sense_ids": [
+        "gaers-1"
+      ],
+      "origin_category": "exact source",
+      "evidence_basis": "Wright explicitly prints græs and relates it to gærs; see inspected source-image evidence below.",
+      "evidence_refs": [
+        "OPEN-DISP-WRIGHT315",
+        "OPEN-DISP-WRIGHT345"
+      ],
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 878,
+        "column": 320
+      },
+      "lookup_record": {
+        "surface": "græs",
+        "entry_ids": [
+          "OE-gaers"
+        ],
+        "first_location": {
+          "path": "chapters/ch01/student.md",
+          "line": 878
+        },
+        "route": "opening_revision_exact_source_variant"
+      },
+      "display_policy": "Source-note variant under gærs, not a new dictionary head or ordinary course replacement. The current source note names gærs alongside græs and supplies its local headword route; leave existing diagnostics and teaching spelling intact.",
+      "teaching_scope": "Source-note occurrence only. No new recall, pronunciation task, recognition or production milestone.",
+      "register_changes_requested": []
+    }
+  ],
+  "record_precondition_serialization": "SHA256 of UTF-8 json.dumps(record, ensure_ascii=False, sort_keys=True, separators=(',', ':')) with no final newline.",
+  "cyn_parenthetic_notation": {
+    "printed_span": "cyn(n)",
+    "location": {
+      "path": "chapters/ch01/student.md",
+      "line": 878
+    },
+    "tokenizer_output": [
+      "cyn",
+      "n"
+    ],
+    "lexical_route": {
+      "surface": "cyn",
+      "entry_ids": [
+        "OE-cynn"
+      ],
+      "existing_forms": [
+        "cyn",
+        "cynn",
+        "cynne",
+        "cynnes"
+      ],
+      "already_present_in_frozen_inventory": true,
+      "previous_recorded_first_location": {
+        "path": "chapters/ch16/student.md",
+        "line": 3405
+      },
+      "current_first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 878
+      }
+    },
+    "notation_fragment": {
+      "surface": "n",
+      "classification": "nonlexical",
+      "existing_exclusion_group": "English_other_language_or_metadata"
+    },
+    "evidence_refs": [
+      "OPEN-DISP-FULK-CYNN"
+    ],
+    "action": "No new head, form, or global exclusion is required. Preserve both actual spellings and treat the parentheses/final n as source notation; do not store cyn(n) as an inflected word or replace course cynn."
+  },
+  "surface_dispositions": [
+    {
+      "surface": "andlīcness",
+      "classification": "nonlexical",
+      "subcategory": "editorial_stem_syllable_or_division",
+      "reason": "Only the stem andlīcness- occurs here, explicitly before inflectional endings; the tokenizer omits its trailing hyphen. This is not a new nominative or standalone lexical form.",
+      "evidence_refs": [
+        "chapters/ch01/answer-key.md:95"
+      ],
+      "contextual_existing_entry_ids": [
+        "OE-andlicnes"
+      ],
+      "contextual_route_is_not_a_new_lexical_form": true,
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/answer-key.md",
+        "line": 95,
+        "column": 215
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/answer-key.md",
+          "line": 95,
+          "column": 215,
+          "surface": "andlīcness",
+          "context_id": "CTX-009"
+        }
+      ]
+    },
+    {
+      "surface": "appendix",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English name for the sound-history appendix in a source note.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:291"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 291,
+        "column": 620
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 291,
+          "column": 620,
+          "surface": "appendix",
+          "context_id": "CTX-029"
+        }
+      ]
+    },
+    {
+      "surface": "back-vowel",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English phonetic category in pronunciation exposition, not Old English vocabulary.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:65",
+        "guides/pronunciation/student.md:80"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 65,
+        "column": 28
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 65,
+          "column": 28,
+          "surface": "back-vowel",
+          "context_id": "CTX-012"
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 80,
+          "column": 118,
+          "surface": "back-vowel",
+          "context_id": "CTX-016"
+        }
+      ]
+    },
+    {
+      "surface": "before-consonant",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English rule label attached to the letter c; not an Old English word.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:50"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/answer-key.md",
+        "line": 50,
+        "column": 326
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 50,
+          "column": 326,
+          "surface": "before-consonant",
+          "context_id": "CTX-035"
+        }
+      ]
+    },
+    {
+      "surface": "between-voiced-sounds",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English phonetic rule label in a pronunciation question.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:234"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 234,
+        "column": 218
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 234,
+          "column": 218,
+          "surface": "between-voiced-sounds",
+          "context_id": "CTX-024"
+        }
+      ]
+    },
+    {
+      "surface": "breaking",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English name for a historical sound process in a source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 878,
+        "column": 519
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 878,
+          "column": 519,
+          "surface": "breaking",
+          "context_id": "CTX-008"
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 878,
+          "column": 606,
+          "surface": "breaking",
+          "context_id": "CTX-008"
+        }
+      ]
+    },
+    {
+      "surface": "calf",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English supplied gloss of cealf.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:72"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 72,
+        "column": 75
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 72,
+          "column": 75,
+          "surface": "calf",
+          "context_id": "CTX-013"
+        }
+      ]
+    },
+    {
+      "surface": "conjugations",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English grammatical explanation in a source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:871"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 871,
+        "column": 314
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 871,
+          "column": 314,
+          "surface": "conjugations",
+          "context_id": "CTX-006"
+        }
+      ]
+    },
+    {
+      "surface": "declined",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English description of an inflected form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:182",
+        "guides/pronunciation/answer-key.md:42"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 182,
+        "column": 79
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 182,
+          "column": 79,
+          "surface": "declined",
+          "context_id": "CTX-022"
+        },
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 42,
+          "column": 40,
+          "surface": "declined",
+          "context_id": "CTX-034"
+        }
+      ]
+    },
+    {
+      "surface": "deduce",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English instruction describing what the learner is not asked to infer.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:234"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 234,
+        "column": 341
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 234,
+          "column": 341,
+          "surface": "deduce",
+          "context_id": "CTX-024"
+        }
+      ]
+    },
+    {
+      "surface": "deducing",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English explanatory verb in the treatment of lexical exceptions.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:74"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 74,
+        "column": 212
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 74,
+          "column": 212,
+          "surface": "deducing",
+          "context_id": "CTX-014"
+        }
+      ]
+    },
+    {
+      "surface": "default",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English noun referring to a pronunciation rule.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:92"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/answer-key.md",
+        "line": 92,
+        "column": 279
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 92,
+          "column": 279,
+          "surface": "default",
+          "context_id": "CTX-038"
+        }
+      ]
+    },
+    {
+      "surface": "defaults",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English noun referring to pronunciation patterns.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:74"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 74,
+        "column": 18
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 74,
+          "column": 18,
+          "surface": "defaults",
+          "context_id": "CTX-014"
+        }
+      ]
+    },
+    {
+      "surface": "dike",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English supplied gloss of dīc.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:78"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 78,
+        "column": 26
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 78,
+          "column": 26,
+          "surface": "dike",
+          "context_id": "CTX-015"
+        }
+      ]
+    },
+    {
+      "surface": "dikes",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English supplied plural gloss of dīcas.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:78"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 78,
+        "column": 59
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 78,
+          "column": 59,
+          "surface": "dikes",
+          "context_id": "CTX-015"
+        }
+      ]
+    },
+    {
+      "surface": "ditch",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English supplied gloss of dīc.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:78"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 78,
+        "column": 19
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 78,
+          "column": 19,
+          "surface": "ditch",
+          "context_id": "CTX-015"
+        }
+      ]
+    },
+    {
+      "surface": "ditches",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English supplied plural gloss of dīcas.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:78"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 78,
+        "column": 50
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 78,
+          "column": 50,
+          "surface": "ditches",
+          "context_id": "CTX-015"
+        }
+      ]
+    },
+    {
+      "surface": "dēore",
+      "classification": "old_english",
+      "subcategory": "existing_taught_inflected_form",
+      "reason": "Regular taught dative singular of dēor, now used in the revised Unit 1 key after fram. Its precise register/contract form already exists; add the missing surface to the existing dictionary head, not a new entry.",
+      "evidence_refs": [
+        "LEX-deor",
+        "FB47",
+        "lexicon/entries.json#deor/deor-dat-sg",
+        "chapters/ch01/coverage.json#REQ-deor-dat-sg",
+        "chapters/ch01/answer-key.md:562"
+      ],
+      "entry_ids": [
+        "OE-deor"
+      ],
+      "form_ids": [
+        "deor-dat-sg"
+      ],
+      "sense_ids": [
+        "deor-1"
+      ],
+      "scope": "Current instructional key occurrence; no new teaching milestone.",
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "chapters/ch01/answer-key.md",
+        "line": 562,
+        "column": 38
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/answer-key.md",
+          "line": 562,
+          "column": 38,
+          "surface": "dēore",
+          "context_id": "CTX-010"
+        },
+        {
+          "path": "chapters/ch01/answer-key.md",
+          "line": 562,
+          "column": 146,
+          "surface": "dēore",
+          "context_id": "CTX-010"
+        }
+      ]
+    },
+    {
+      "surface": "for-lǣtan",
+      "classification": "nonlexical",
+      "subcategory": "editorial_stem_syllable_or_division",
+      "reason": "Explicit editorial prefix division of the already supplied whole word forlǣtan; do not admit the segmentation as a new orthographic verb form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:254"
+      ],
+      "contextual_existing_entry_ids": [
+        "OE-forlaetan"
+      ],
+      "contextual_route_is_not_a_new_lexical_form": true,
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 254,
+        "column": 54
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 254,
+          "column": 54,
+          "surface": "for-lǣtan",
+          "context_id": "CTX-027"
+        }
+      ]
+    },
+    {
+      "surface": "fæstness",
+      "classification": "nonlexical",
+      "subcategory": "editorial_stem_syllable_or_division",
+      "reason": "Only the stem fæstness- occurs here, explicitly before inflectional endings; the tokenizer omits its trailing hyphen. This is not a new nominative or standalone lexical form.",
+      "evidence_refs": [
+        "chapters/ch01/answer-key.md:95"
+      ],
+      "contextual_existing_entry_ids": [
+        "OE-faestnes"
+      ],
+      "contextual_route_is_not_a_new_lexical_form": true,
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/answer-key.md",
+        "line": 95,
+        "column": 200
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/answer-key.md",
+          "line": 95,
+          "column": 200,
+          "surface": "fæstness",
+          "context_id": "CTX-009"
+        }
+      ]
+    },
+    {
+      "surface": "ge-scēop",
+      "classification": "nonlexical",
+      "subcategory": "editorial_stem_syllable_or_division",
+      "reason": "Explicit editorial prefix division of the supplied form gescēop; the source note says the division does not respell the reading.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:272",
+        "guides/pronunciation/student.md:295"
+      ],
+      "contextual_existing_entry_ids": [
+        "OE-gescieppan"
+      ],
+      "contextual_route_is_not_a_new_lexical_form": true,
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 272,
+        "column": 29
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 272,
+          "column": 29,
+          "surface": "ge-scēop",
+          "context_id": "CTX-028"
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 295,
+          "column": 379,
+          "surface": "ge-scēop",
+          "context_id": "CTX-030"
+        }
+      ]
+    },
+    {
+      "surface": "ge-writ",
+      "classification": "nonlexical",
+      "subcategory": "editorial_stem_syllable_or_division",
+      "reason": "Explicit editorial prefix division of the supplied whole word gewrit; do not admit the segmentation as a new orthographic noun form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:250"
+      ],
+      "contextual_existing_entry_ids": [
+        "OE-gewrit"
+      ],
+      "contextual_route_is_not_a_new_lexical_form": true,
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 250,
+        "column": 60
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 250,
+          "column": 60,
+          "surface": "ge-writ",
+          "context_id": "CTX-026"
+        }
+      ]
+    },
+    {
+      "surface": "gelīcness",
+      "classification": "nonlexical",
+      "subcategory": "editorial_stem_syllable_or_division",
+      "reason": "Only the stem gelīcness- occurs here, explicitly before inflectional endings; the tokenizer omits its trailing hyphen. This is not a new nominative or standalone lexical form.",
+      "evidence_refs": [
+        "chapters/ch01/answer-key.md:95"
+      ],
+      "contextual_existing_entry_ids": [
+        "OE-gelicnes"
+      ],
+      "contextual_route_is_not_a_new_lexical_form": true,
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/answer-key.md",
+        "line": 95,
+        "column": 232
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/answer-key.md",
+          "line": 95,
+          "column": 232,
+          "surface": "gelīcness",
+          "context_id": "CTX-009"
+        }
+      ]
+    },
+    {
+      "surface": "græs",
+      "classification": "old_english",
+      "subcategory": "source_note_spelling_variant",
+      "reason": "Exact unmarked source spelling quoted in the new Unit 1 source note. Wright §315.1 prints græs, grass; §345 explicitly identifies gærs as the later form of græs. Add an existing-head source-variant route while retaining course gærs.",
+      "evidence_refs": [
+        "OPEN-DISP-WRIGHT315",
+        "OPEN-DISP-WRIGHT345",
+        "chapters/ch01/student.md:878"
+      ],
+      "entry_ids": [
+        "OE-gaers"
+      ],
+      "form_ids": [],
+      "sense_ids": [
+        "gaers-1"
+      ],
+      "scope": "Source-note lexical variant only; no production/recognition milestone and no replacement of Cook's selected gærs.",
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 878,
+        "column": 320
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 878,
+          "column": 320,
+          "surface": "græs",
+          "context_id": "CTX-008"
+        }
+      ]
+    },
+    {
+      "surface": "guttural",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English historical-phonology term in the source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 878,
+        "column": 332
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 878,
+          "column": 332,
+          "surface": "guttural",
+          "context_id": "CTX-008"
+        }
+      ]
+    },
+    {
+      "surface": "hook",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English description of the mark beneath ę.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:162",
+        "guides/pronunciation/answer-key.md:13"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 162,
+        "column": 97
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 162,
+          "column": 97,
+          "surface": "hook",
+          "context_id": "CTX-021"
+        },
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 13,
+          "column": 166,
+          "surface": "hook",
+          "context_id": "CTX-032"
+        }
+      ]
+    },
+    {
+      "surface": "illustrating",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English source commentary about the dual/plural evidence.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:876"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 876,
+        "column": 437
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 876,
+          "column": 437,
+          "surface": "illustrating",
+          "context_id": "CTX-007"
+        }
+      ]
+    },
+    {
+      "surface": "inventory",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English grammatical/source commentary about the subject-pronoun inventory.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:876"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 876,
+        "column": 87
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 876,
+          "column": 87,
+          "surface": "inventory",
+          "context_id": "CTX-007"
+        }
+      ]
+    },
+    {
+      "surface": "lengthen",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English instruction about consonant and vowel duration.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:242"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 242,
+        "column": 51
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 242,
+          "column": 51,
+          "surface": "lengthen",
+          "context_id": "CTX-025"
+        }
+      ]
+    },
+    {
+      "surface": "lǣ",
+      "classification": "nonlexical",
+      "subcategory": "editorial_stem_syllable_or_division",
+      "reason": "A cited stressed syllable within forlǣtan, not an independent lexical item.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:110"
+      ],
+      "contextual_existing_entry_ids": [
+        "OE-forlaetan"
+      ],
+      "contextual_route_is_not_a_new_lexical_form": true,
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/answer-key.md",
+        "line": 110,
+        "column": 73
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 110,
+          "column": 73,
+          "surface": "lǣ",
+          "context_id": "CTX-041"
+        }
+      ]
+    },
+    {
+      "surface": "modernizes",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English editorial statement about the gloss of wēnde.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:296"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 296,
+        "column": 384
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 296,
+          "column": 384,
+          "surface": "modernizes",
+          "context_id": "CTX-031"
+        }
+      ]
+    },
+    {
+      "surface": "nested-genitive",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English grammatical label in the reading support.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:794"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 794,
+        "column": 106
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 794,
+          "column": 106,
+          "surface": "nested-genitive",
+          "context_id": "CTX-005"
+        }
+      ]
+    },
+    {
+      "surface": "non",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English prefix in non-y; Markdown emphasis interrupts the token. It is not an Old English negative particle.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:89",
+        "guides/pronunciation/student.md:98"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 89,
+        "column": 19
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 89,
+          "column": 19,
+          "surface": "non",
+          "context_id": "CTX-017"
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 98,
+          "column": 317,
+          "surface": "non",
+          "context_id": "CTX-019"
+        }
+      ]
+    },
+    {
+      "surface": "non-y",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English pronunciation-category label in a heading.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:91"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 91,
+        "column": 10
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 91,
+          "column": 10,
+          "surface": "non-y",
+          "context_id": "CTX-018"
+        }
+      ]
+    },
+    {
+      "surface": "noticing",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English explanation of an insufficient pronunciation inference.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:42"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/answer-key.md",
+        "line": 42,
+        "column": 273
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 42,
+          "column": 273,
+          "surface": "noticing",
+          "context_id": "CTX-034"
+        }
+      ]
+    },
+    {
+      "surface": "one-syllable",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English prosodic description, not an Old English form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:144",
+        "guides/pronunciation/answer-key.md:102"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 144,
+        "column": 237
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 144,
+          "column": 237,
+          "surface": "one-syllable",
+          "context_id": "CTX-020"
+        },
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 102,
+          "column": 213,
+          "surface": "one-syllable",
+          "context_id": "CTX-039"
+        }
+      ]
+    },
+    {
+      "surface": "overpoints",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English description of the editorial marks omitted from Fulk's words.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:291"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 291,
+        "column": 158
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 291,
+          "column": 158,
+          "surface": "overpoints",
+          "context_id": "CTX-029"
+        }
+      ]
+    },
+    {
+      "surface": "palatalization",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English historical-phonology term in a source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 878,
+        "column": 584
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 878,
+          "column": 584,
+          "surface": "palatalization",
+          "context_id": "CTX-008"
+        }
+      ]
+    },
+    {
+      "surface": "passed",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English setting for the noun-only exercise about evenings; not an Old English token.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:398"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 398,
+        "column": 324
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 398,
+          "column": 324,
+          "surface": "passed",
+          "context_id": "CTX-001"
+        }
+      ]
+    },
+    {
+      "surface": "precedence",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English explanation of the priority of supplied lexical information.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:55",
+        "guides/pronunciation/student.md:234"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 55,
+        "column": 91
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 55,
+          "column": 91,
+          "surface": "precedence",
+          "context_id": "CTX-011"
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 234,
+          "column": 189,
+          "surface": "precedence",
+          "context_id": "CTX-024"
+        }
+      ]
+    },
+    {
+      "surface": "preview",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English bibliographical label for the cited PDF.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:876"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 876,
+        "column": 254
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 876,
+          "column": 254,
+          "surface": "preview",
+          "context_id": "CTX-007"
+        }
+      ]
+    },
+    {
+      "surface": "priority",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English explanation of pronunciation-rule order.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:58",
+        "guides/pronunciation/answer-key.md:92"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "guides/pronunciation/answer-key.md",
+        "line": 58,
+        "column": 323
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 58,
+          "column": 323,
+          "surface": "priority",
+          "context_id": "CTX-036"
+        },
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 92,
+          "column": 261,
+          "surface": "priority",
+          "context_id": "CTX-038"
+        }
+      ]
+    },
+    {
+      "surface": "prolonging",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English instruction about a doubled consonant.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:242"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 242,
+        "column": 33
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 242,
+          "column": 33,
+          "surface": "prolonging",
+          "context_id": "CTX-025"
+        }
+      ]
+    },
+    {
+      "surface": "r-metathesis",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English historical-phonology term in a source note.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 878,
+        "column": 460
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 878,
+          "column": 460,
+          "surface": "r-metathesis",
+          "context_id": "CTX-008"
+        }
+      ]
+    },
+    {
+      "surface": "respell",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English editorial explanation of the separate prefix division.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:295"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 295,
+        "column": 432
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 295,
+          "column": 432,
+          "surface": "respell",
+          "context_id": "CTX-030"
+        }
+      ]
+    },
+    {
+      "surface": "restate",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English instruction to change the number of participants in a sentence.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:434",
+        "chapters/ch01/student.md:438"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 434,
+        "column": 98
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 434,
+          "column": 98,
+          "surface": "restate",
+          "context_id": "CTX-003"
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 438,
+          "column": 90,
+          "surface": "restate",
+          "context_id": "CTX-004"
+        }
+      ]
+    },
+    {
+      "surface": "retention",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English grammatical explanation of stem-vowel behavior.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:398"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 398,
+        "column": 440
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 398,
+          "column": 440,
+          "surface": "retention",
+          "context_id": "CTX-001"
+        }
+      ]
+    },
+    {
+      "surface": "single-letter",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English pronunciation-rule label.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:58"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/answer-key.md",
+        "line": 58,
+        "column": 337
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 58,
+          "column": 337,
+          "surface": "single-letter",
+          "context_id": "CTX-036"
+        }
+      ]
+    },
+    {
+      "surface": "sound-history",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English appendix label in a source note.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:291"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 291,
+        "column": 606
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 291,
+          "column": 606,
+          "surface": "sound-history",
+          "context_id": "CTX-029"
+        }
+      ]
+    },
+    {
+      "surface": "source-based",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English description of an evidential inference.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 878,
+        "column": 193
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 878,
+          "column": 193,
+          "surface": "source-based",
+          "context_id": "CTX-008"
+        }
+      ]
+    },
+    {
+      "surface": "tan",
+      "classification": "nonlexical",
+      "subcategory": "editorial_stem_syllable_or_division",
+      "reason": "The final syllable -tan within forlǣtan; the tokenizer omits the leading hyphen. It is not an independently used word.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:110"
+      ],
+      "contextual_existing_entry_ids": [
+        "OE-forlaetan"
+      ],
+      "contextual_route_is_not_a_new_lexical_form": true,
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/answer-key.md",
+        "line": 110,
+        "column": 265
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 110,
+          "column": 265,
+          "surface": "tan",
+          "context_id": "CTX-041"
+        }
+      ]
+    },
+    {
+      "surface": "thrust",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English supplied gloss of scūfan.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:206",
+        "guides/pronunciation/answer-key.md:66"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 206,
+        "column": 32
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 206,
+          "column": 32,
+          "surface": "thrust",
+          "context_id": "CTX-023"
+        },
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 66,
+          "column": 16,
+          "surface": "thrust",
+          "context_id": "CTX-037"
+        }
+      ]
+    },
+    {
+      "surface": "unpointed",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English description of Fulk's printed letter c.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:878"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 878,
+        "column": 92
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 878,
+          "column": 92,
+          "surface": "unpointed",
+          "context_id": "CTX-008"
+        }
+      ]
+    },
+    {
+      "surface": "vetted",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English description of the selected pronunciation example.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:38"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/answer-key.md",
+        "line": 38,
+        "column": 106
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 38,
+          "column": 106,
+          "surface": "vetted",
+          "context_id": "CTX-033"
+        }
+      ]
+    },
+    {
+      "surface": "weened",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English historical gloss quoted from Cook; not an Old English form.",
+      "evidence_refs": [
+        "guides/pronunciation/student.md:296"
+      ],
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/student.md",
+        "line": 296,
+        "column": 409
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 296,
+          "column": 409,
+          "surface": "weened",
+          "context_id": "CTX-031"
+        }
+      ]
+    },
+    {
+      "surface": "writ",
+      "classification": "nonlexical",
+      "subcategory": "editorial_stem_syllable_or_division",
+      "reason": "A cited stressed root within gewrit in this sole occurrence, not a separately used word or new glossary head.",
+      "evidence_refs": [
+        "guides/pronunciation/answer-key.md:106"
+      ],
+      "contextual_existing_entry_ids": [
+        "OE-gewrit"
+      ],
+      "contextual_route_is_not_a_new_lexical_form": true,
+      "occurrence_count": 1,
+      "first_location": {
+        "path": "guides/pronunciation/answer-key.md",
+        "line": 106,
+        "column": 69
+      },
+      "occurrences": [
+        {
+          "path": "guides/pronunciation/answer-key.md",
+          "line": 106,
+          "column": 69,
+          "surface": "writ",
+          "context_id": "CTX-040"
+        }
+      ]
+    },
+    {
+      "surface": "yourself",
+      "classification": "nonlexical",
+      "subcategory": "English_or_editorial_wording",
+      "reason": "English description of the speaker in task instructions.",
+      "evidence_refs": [
+        "chapters/ch01/student.md:422",
+        "chapters/ch01/student.md:434"
+      ],
+      "occurrence_count": 2,
+      "first_location": {
+        "path": "chapters/ch01/student.md",
+        "line": 422,
+        "column": 27
+      },
+      "occurrences": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 422,
+          "column": 27,
+          "surface": "yourself",
+          "context_id": "CTX-002"
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 434,
+          "column": 18,
+          "surface": "yourself",
+          "context_id": "CTX-003"
+        }
+      ]
+    }
+  ],
+  "inspected_context_lines": [
+    {
+      "context_id": "CTX-001",
+      "path": "chapters/ch01/student.md",
+      "line": 398,
+      "section": "11. Forms and agreement",
+      "item_id": "CH01-F04",
+      "text": "4. Give only the bold noun, without an article: (a) the fruit of one **tree**; (b) the bird is in one **tree**; (c) several **trees** are in the dwelling; (d) the meaning of one **sign**; (e) several **signs** are in the sky; (f) the sound of the **water**; (g) the **waters** are in the sea; (h) several **evenings** have passed; (i) the **cattle** are in the dwelling. Label the forms. Explain the **w** in (c), and contrast the loss or retention of the middle stem vowel in (e) and (g)."
+    },
+    {
+      "context_id": "CTX-002",
+      "path": "chapters/ch01/student.md",
+      "line": 422,
+      "section": "The copula",
+      "item_id": "CH01-COP01",
+      "text": "1. You are speaking about yourself: “I was in the tree.” Then change only the time: “I am in the tree.”"
+    },
+    {
+      "context_id": "CTX-003",
+      "path": "chapters/ch01/student.md",
+      "line": 434,
+      "section": "The copula",
+      "item_id": "CH01-COP04",
+      "text": "4. You speak for yourself and one companion: “We two are in the sea.” Put this in the past, then restate the past sentence for a group of three that includes you. Explain which pronoun changes and why the verb's number does not."
+    },
+    {
+      "context_id": "CTX-004",
+      "path": "chapters/ch01/student.md",
+      "line": 438,
+      "section": "The copula",
+      "item_id": "CH01-COP05",
+      "text": "5. Address two companions: “You two were in the dwelling.” Put this in the present, then restate the present sentence to address a group of three. Explain the choices of pronoun and verb."
+    },
+    {
+      "context_id": "CTX-005",
+      "path": "chapters/ch01/student.md",
+      "line": 794,
+      "section": "Supplied help",
+      "text": "| **ofer ðǣre nēowolnesse brādnesse** | **Ofer** means “over” and here requires a dative head. Apply the nested-genitive construction of §9 to identify the head and its dependent. |"
+    },
+    {
+      "context_id": "CTX-006",
+      "path": "chapters/ch01/student.md",
+      "line": 871,
+      "section": "Source notes",
+      "text": "12. Cook, *First Book*, §§160,164(a), pp.93–94 / PDF109–110; §166, p.95 / PDF111; §§168,172, pp.96–97 / PDF112–113. **Sealde** is printed in §117, p.72 / PDF88. The other supplied frames occur in the assigned Creation extract. Examples in §9 are new composition. Supplied finite forms do not introduce their full conjugations."
+    },
+    {
+      "context_id": "CTX-007",
+      "path": "chapters/ch01/student.md",
+      "line": 876,
+      "section": "Source notes",
+      "text": "16. Cook, §81, pp.48–49 / PDF64–65, gives the personal-pronoun paradigms. The subject inventory selects **hēo** and **hīe**, with **ðū** following this unit's spelling convention. Ringe and Taylor, *The Development of Old English* (2014), §1.1.2, p.6 / preview PDF21, explicitly states that the dual pronouns take plural verbs. Fulk's Genesis 19 reading, p.38 / PDF50, uses ordinary second- and first-person plurals for the two angels, illustrating that plurals can include two. Only nominative subject use is introduced here."
+    },
+    {
+      "context_id": "CTX-008",
+      "path": "chapters/ch01/student.md",
+      "line": 878,
+      "section": "Source notes",
+      "text": "17. Fulk, *An Introductory Grammar of Old English* (2020), glossary p.265 / PDF277, prints unpointed **cyn(n)**; §18, p.12 / PDF24, gives its **k** value. The stopped initial of **gærs** is a source-based inference: Wright and Wright, *Old English Grammar*, second edition (1914), §§314–315, p.156 / PDF176, classify **græs** with guttural **g** and describe its stopped initial outcome; §§66 note 4 and 345, pp.43,171 / PDF63,191, connect **gærs** with late r-metathesis. Compare Wright §85 note 1, p.47 / PDF67, for breaking before this metathesis, and Fulk §72, p.46 / PDF58, for palatalization before breaking. The learner needs only the supplied sound, not this historical derivation."
+    },
+    {
+      "context_id": "CTX-009",
+      "path": "chapters/ch01/answer-key.md",
+      "line": 95,
+      "section": "11. Forms and agreement",
+      "item_id": "KEY-CH01-F07",
+      "text": "Locative **on** requires D in (a) and (d); the images are a G dependent in (b), and the likenesses a N subject in (c). The **-nes** nouns retain **e** and have doubled **ss** before their endings: **fæstness-**, **andlīcness-**, **gelīcness-**. **Gegaderungum** adds **-um** directly to **gegaderung-**. Identical **-a** in (b) and (c) does not make their cases identical."
+    },
+    {
+      "context_id": "CTX-010",
+      "path": "chapters/ch01/answer-key.md",
+      "line": 562,
+      "section": "17. Review",
+      "item_id": "KEY-CH01-REVIEW04",
+      "text": "**Se mann gedǣlde ðā fuglas fram ðǣm dēore.** — The man separated the birds from the animal. **Ðā fuglas** is A plural, the direct object; **ðǣm dēore** is D neuter singular after **fram**. Keep the supplied **gedǣlde**. The plural birds and singular animal retain their separate numbers."
+    },
+    {
+      "context_id": "CTX-011",
+      "path": "guides/pronunciation/student.md",
+      "line": 55,
+      "section": "c, g, and combinations",
+      "text": "Work in the following order. A supplied pronunciation for a particular word or form takes precedence over a general pattern."
+    },
+    {
+      "context_id": "CTX-012",
+      "path": "guides/pronunciation/student.md",
+      "line": 65,
+      "section": "c, g, and combinations",
+      "text": "For the rules below, the **back-vowel spellings** are **a/ā, o/ō, u/ū**. The relevant **front-vowel spellings** are **e/ē, i/ī, æ/ǣ**; the diphthongs **ea/ēa, eo/ēo, ie/īe** also begin at the front of the mouth. Although **y/ȳ** are front vowels in articulation, their spelling is not a reliable instruction to give **c** or **g** a front sound. Use the supplied pronunciation in such words."
+    },
+    {
+      "context_id": "CTX-013",
+      "path": "guides/pronunciation/student.md",
+      "line": 72,
+      "section": "c, g, and combinations",
+      "text": "| e/ē, i/ī, æ/ǣ, or a front diphthong | **ch** as in *chin* | **cealf**, “calf”, begins with **ch**. |"
+    },
+    {
+      "context_id": "CTX-014",
+      "path": "guides/pronunciation/student.md",
+      "line": 74,
+      "section": "c, g, and combinations",
+      "text": "These are useful defaults, with lexical exceptions. **Cēlan**, “cool”, begins with **k** despite **ē**. Both **c** letters in **cyrice**, “church”, are **ch**: learn its initial sound with the word, rather than deducing it from **y**. Keep all three syllables, including the final **e**."
+    },
+    {
+      "context_id": "CTX-015",
+      "path": "guides/pronunciation/student.md",
+      "line": 78,
+      "section": "c, g, and combinations",
+      "text": "Compare **dīc**, “ditch; dike”, with **dīcas**, “ditches; dikes”. Final **c** after **ī** has **ch**; before the **a** of the longer form it has **k**. An ending can therefore change the consonant sound. In other positions **k** is the ordinary starting point, but some words need a supplied pronunciation. Do not extend the after-**i/ī** rule to every front vowel."
+    },
+    {
+      "context_id": "CTX-016",
+      "path": "guides/pronunciation/student.md",
+      "line": 80,
+      "section": "c, g, and combinations",
+      "text": "Learn **sēcan**, “seek”, as a supplied exception: its **c** is **ch** as in *chin*, despite the following **a**. The back-vowel pattern does not override a word's stated pronunciation."
+    },
+    {
+      "context_id": "CTX-017",
+      "path": "guides/pronunciation/student.md",
+      "line": 89,
+      "section": "c, g, and combinations",
+      "text": "Otherwise use the non-**y** branch below, unless a word has a supplied exceptional pronunciation. At the beginning, a consonant between **g** and a later front vowel prevents the first row from applying: look at the immediate neighbour. The **g** rule after a front vowel is broader than the **c** rule after **i/ī**; keep them distinct. The earlier caution about **y/ȳ** still applies."
+    },
+    {
+      "context_id": "CTX-018",
+      "path": "guides/pronunciation/student.md",
+      "line": 91,
+      "section": "c, g, and combinations",
+      "text": "**5. For non-y g, decide between stopped and continuous g.**"
+    },
+    {
+      "context_id": "CTX-019",
+      "path": "guides/pronunciation/student.md",
+      "line": 98,
+      "section": "c, g, and combinations",
+      "text": "For the continuous **g**, put the back of the tongue near the position for hard **g**, but leave a narrow gap. Let air pass continuously while the throat vibrates: the sound can be held, unlike the stopped **g** of *go*. Its phonetic sign is **[ɣ]**. Do not omit it or substitute **y**. First selecting the **y** or non-**y** branch prevents this rule from changing the final sound of **dæg** into continuous **g**."
+    },
+    {
+      "context_id": "CTX-020",
+      "path": "guides/pronunciation/student.md",
+      "line": 144,
+      "section": "6. Duration, syllables, and stress",
+      "text": "The main stress normally falls on the first syllable, as in **habban**, “have”. Prefixes complicate this: **ge-** is unstressed, **be-** and **for-** usually are, and a prefixed verb generally stresses its root. When **ge-** precedes a one-syllable root, the word has two syllables and the root receives the stress. A supplied division identifies the prefix where needed. A macron indicates duration regardless of which syllable is stressed."
+    },
+    {
+      "context_id": "CTX-021",
+      "path": "guides/pronunciation/student.md",
+      "line": 162,
+      "section": "A. Vowels and length",
+      "item_id": "PRON-P01b",
+      "text": "**A2.** **węnde**, “went”; **wēnde**, “thought; supposed”. Explain the vowel contrast. Does the hook under **ę** require a sound different from ordinary short **e**? Keep the final **e** audible in both words."
+    },
+    {
+      "context_id": "CTX-022",
+      "path": "guides/pronunciation/student.md",
+      "line": 182,
+      "section": "B. Consonants and unfamiliar sounds",
+      "item_id": "PRON-P02b",
+      "text": "**B2.** **c** in **micel**, “large; great”, and **micles**, “large; great” (a declined form). Do the two forms have the same consonant sound? Explain from the immediate neighbours of **c**."
+    },
+    {
+      "context_id": "CTX-023",
+      "path": "guides/pronunciation/student.md",
+      "line": 206,
+      "section": "B. Consonants and unfamiliar sounds",
+      "item_id": "PRON-P02h",
+      "text": "**B8.** **sc** in **scūfan**, “thrust”, and **cw** in **cwæð**, “said”. Decide whether each spelling gives one consonant sound or a sequence. Does the back vowel **ū** require a separate **k** in the first word?"
+    },
+    {
+      "context_id": "CTX-024",
+      "path": "guides/pronunciation/student.md",
+      "line": 234,
+      "section": "C. Voice",
+      "item_id": "PRON-P03f",
+      "text": "**C6.** Compare **ð** in **hǣlðu**, “health”, with **f** in **ǣfre**, “ever; always”. The unvoiced **th** in **hǣlðu** is supplied lexical information from §5. Explain why that fact takes precedence over the ordinary between-voiced-sounds rule, while the ordinary rule applies to **ǣfre**. This is an exception comparison, not a request to deduce the exception from its spelling."
+    },
+    {
+      "context_id": "CTX-025",
+      "path": "guides/pronunciation/student.md",
+      "line": 242,
+      "section": "D. Syllables and stress",
+      "item_id": "PRON-P04a",
+      "text": "**D1.** **sittan**, “sit”. Does prolonging **tt** lengthen **i**, or add a syllable?"
+    },
+    {
+      "context_id": "CTX-026",
+      "path": "guides/pronunciation/student.md",
+      "line": 250,
+      "section": "D. Syllables and stress",
+      "item_id": "PRON-P04c",
+      "text": "**D3.** **gewrit**, “letter; written document”; division **ge-writ**. Apply the prefix rule to stress, and pronounce both **w** and **r** without inserting another vowel."
+    },
+    {
+      "context_id": "CTX-027",
+      "path": "guides/pronunciation/student.md",
+      "line": 254,
+      "section": "D. Syllables and stress",
+      "item_id": "PRON-P04d",
+      "text": "**D4.** **forlǣtan**, “abandon; forsake”; division **for-lǣtan**. This is a prefixed verb. Locate its stress from the prefix rule, and explain what the macron tells you separately."
+    },
+    {
+      "context_id": "CTX-028",
+      "path": "guides/pronunciation/student.md",
+      "line": 272,
+      "section": "E. A sentence adapted from Cook",
+      "text": "The verb has the division **ge-scēop**, with prefix **ge-**. The sentence's meaning and grammatical forms are supplied; apply the pronunciation rules to read it aloud, then answer these sound questions."
+    },
+    {
+      "context_id": "CTX-029",
+      "path": "guides/pronunciation/student.md",
+      "line": 291,
+      "section": "Source notes",
+      "text": "4. Fulk §§16,18,135a–d, pp.11–13,103–104 / PDF23–25,115–116; Cook §§7,10, pp.8–9 / PDF24–25. **Cealf, dīc, dīcas** follow Fulk §135b, with his pronunciation overpoints omitted; Cook's vocabulary, p.283 / PDF299, also gives **dīc**. For **sēcan**, Cook's vocabulary, p.311 / PDF327, supplies the form and meaning as a headword variant; Fulk §135b supports the **ch** value with its explicitly prefixed infinitive example. The conditions for noninitial **c** are narrower than those for **g**. Earlier vowel changes, later endings and analogy explain some exceptions to the practical spelling patterns; the sound-history appendix treats these matters separately."
+    },
+    {
+      "context_id": "CTX-030",
+      "path": "guides/pronunciation/student.md",
+      "line": 295,
+      "section": "Source notes",
+      "text": "8. Adapted from Cook, Reader I, p.123 / PDF139, first prose line: remove **On anginne**, move **God** before the verb, and omit the three apparatus cues. The retained words are not respelled. The original sentence and notes remain in the source transcription. The full meaning and grammatical forms are supplied here; the sound questions apply the guide's rules. The separate **ge-scēop** division identifies a prefix and does not respell the reading."
+    },
+    {
+      "context_id": "CTX-031",
+      "path": "guides/pronunciation/student.md",
+      "line": 296,
+      "section": "Source notes",
+      "text": "9. The new practice forms are checked against Fulk §§16–24,135, pp.11–15,103–104 / PDF23–27,115–116; Cook §§4–5,53,121, pp.6–7,37,74 / PDF22–23,53,90, Reader I p.123 / PDF139, and vocabulary pp.283,288–289,296,309–312 / PDF299,304–305,312,325–328. **Hȳdan** is printed in Cook, *Exercises in Old English*, V.18.9, p.9 / PDF17; the original exercise is unchanged. “Thought; supposed” modernizes Cook's gloss “weened” for **wēnde**. Dictionary division hyphens in **gewrit** and **forlǣtan** are omitted, as elsewhere in the course; their separate practice divisions identify the prefixes."
+    },
+    {
+      "context_id": "CTX-032",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 13,
+      "section": "A. Vowels and length",
+      "text": "**A2. węnde, “went”; wēnde, “thought; supposed”.** Short **ę** has the vowel of *bet*. Long **ē** has the steady initial vowel of *day*, held without the glide. The hook adds no separate sound. Both words have two syllables, with an audible light **e** in the second."
+    },
+    {
+      "context_id": "CTX-033",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 38,
+      "section": "B. Consonants and unfamiliar sounds",
+      "text": "**B1. cēosað, “choose”.** Initial **c** is **ch**, as in *chin*, before the front diphthong **ēo**. This vetted example follows the ordinary initial pattern. The following diphthong remains one long glide."
+    },
+    {
+      "context_id": "CTX-034",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 42,
+      "section": "B. Consonants and unfamiliar sounds",
+      "text": "**B2. micel, “large; great”; micles, a declined form.** In **micel**, **c** is **ch**: it follows **i** and precedes **e**. In **micles**, it is **k**: it immediately precedes the consonant **l**. The same word can change its consonant sound when the form changes. Merely noticing the preceding **i** misses the second condition."
+    },
+    {
+      "context_id": "CTX-035",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 50,
+      "section": "B. Consonants and unfamiliar sounds",
+      "text": "**B4. fæger, “beautiful; fair”; regn, “rain”.** Both have **g** pronounced as **y** in *yes*. It follows a front vowel, **æ** or **e**, and no back vowel immediately follows it. In **regn**, **g** comes before **n**, not after it; the stopped-**g** condition “after **n**” therefore does not apply. Do not transfer the **c**-before-consonant rule to **g**."
+    },
+    {
+      "context_id": "CTX-036",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 58,
+      "section": "B. Consonants and unfamiliar sounds",
+      "text": "**B6. brycg, “bridge”; singan, “sing”.** **Cg** has the final consonant sound of *bridge*. **Ng** has the sequence heard in *finger*, including the stopped **g**; do not reduce it to the end of modern English *sing*. The short **y** of **brycg** uses the tongue position of *bit* with rounded lips. Combination rules take priority over single-letter rules."
+    },
+    {
+      "context_id": "CTX-037",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 66,
+      "section": "B. Consonants and unfamiliar sounds",
+      "text": "**B8. scūfan, “thrust”; cwæð, “said”.** **Sc** gives the single **sh** sound of *ship*, even before **ū**. **Cw** gives **k** followed by **w**, joined without an inserted vowel. Applying a single-**c** rule inside **sc** would wrongly produce a separate **k**."
+    },
+    {
+      "context_id": "CTX-038",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 92,
+      "section": "C. Voice",
+      "text": "**C6. hǣlðu, “health”; ǣfre, “ever; always”.** The supplied exception gives **ð** in **hǣlðu** unvoiced **th**, although **l** and **u** are voiced. In **ǣfre**, the ordinary rule gives voiced **f** between **ǣ** and **r**. A word-specific pronunciation takes priority over the default. Recognizing that limit is the task; deriving the exceptional sound from visible spelling is not required."
+    },
+    {
+      "context_id": "CTX-039",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 102,
+      "section": "D. Syllables and stress",
+      "text": "**D2. sunne, “sun”.** Two syllables, with stress on the first. Hold medial **nn** longer, as with the **n** across *pen-knife*. Its duration adds no syllable. Keep the final light **e** audible; modern English's one-syllable *sun* is not the model for the whole word."
+    },
+    {
+      "context_id": "CTX-040",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 106,
+      "section": "D. Syllables and stress",
+      "text": "**D3. gewrit, “letter; written document”.** Two syllables; stress **writ**, after unstressed **ge-**. Pronounce **w+r** without an inserted vowel. There is no doubled consonant. The vowel **i** remains short despite receiving the stress."
+    },
+    {
+      "context_id": "CTX-041",
+      "path": "guides/pronunciation/answer-key.md",
+      "line": 110,
+      "section": "D. Syllables and stress",
+      "text": "**D4. forlǣtan, “abandon; forsake”.** Three syllables, with stress on **lǣ** in the root. The supplied division identifies unstressed **for-**. The macron says that **ǣ** is long; the prefix/root rule determines stress. There is no doubled consonant, and final **-tan** remains audible."
+    }
+  ],
+  "source_image_evidence": [
+    {
+      "evidence_id": "OPEN-DISP-WRIGHT315",
+      "source_id": "wright_oe_1914",
+      "original_identifier": "§315.1",
+      "printed_page": 156,
+      "pdf_page_1_based": 176,
+      "image_path": "build/opening/unit1-review/wright-p156-pdf176.png",
+      "exact_source_form": "græs",
+      "source_gloss": "grass",
+      "origin_category": "exact source",
+      "finding": "The printed entry explicitly supplies græs, grass. This source spelling has short æ and no reconstruction mark.",
+      "image_sha256": "11352ee293535b709b3473c427f63c75681d72b07bfecab5afc6fa6021f3fece",
+      "personally_inspected_image": true
+    },
+    {
+      "evidence_id": "OPEN-DISP-WRIGHT345",
+      "source_id": "wright_oe_1914",
+      "original_identifier": "§345",
+      "printed_page": 171,
+      "pdf_page_1_based": 191,
+      "image_path": "build/opening/unit1-review/wright-p171-pdf191.png",
+      "exact_source_excerpt": "gærs from older græs (§ 280), grass",
+      "origin_category": "exact source",
+      "finding": "The printed text explicitly joins græs to the existing course headword gærs. This supports an existing-head variant route without changing the selected course spelling.",
+      "image_sha256": "46e15a4b167ef2a91eb76df5702726a6ecbb3368dd6431ef6be8aee7533de923",
+      "personally_inspected_image": true
+    },
+    {
+      "evidence_id": "OPEN-DISP-FULK-CYNN",
+      "source_id": "fulk_2020",
+      "original_identifier": "Glossary, left column, cyn(n)",
+      "printed_page": 265,
+      "pdf_page_1_based": 277,
+      "image_path": "build/opening/unit1-review/fulk-p265-pdf277.png",
+      "exact_source_form": "cyn(n)",
+      "source_gloss_selected": "kind",
+      "origin_category": "exact source",
+      "finding": "The source's parenthesized final n represents the single/double spelling. The actual word tokens cyn and cynn already route to OE-cynn; n is a notation fragment.",
+      "image_sha256": "228c9849341e1f5b5ac55ce65acaa324c4f805e46e6a508da7a67ccb802ad0e4",
+      "personally_inspected_image": true
+    }
+  ],
+  "reference_diagnostics": {
+    "records": [
+      {
+        "form_id": "OPEN-GLOSS-dic-gen-sg",
+        "form": "dīces",
+        "actual_corpus_occurrences": 0,
+        "first_location": null
+      },
+      {
+        "form_id": "OPEN-GLOSS-dic-nom-pl",
+        "form": "dīcas",
+        "actual_corpus_occurrences": 2,
+        "first_location": {
+          "path": "guides/pronunciation/student.md",
+          "line": 78,
+          "section": "c, g, and combinations"
+        }
+      },
+      {
+        "form_id": "OPEN-GLOSS-scield-gen-sg",
+        "form": "scieldes",
+        "actual_corpus_occurrences": 0,
+        "first_location": null
+      },
+      {
+        "form_id": "OPEN-GLOSS-scield-nom-pl",
+        "form": "scieldas",
+        "actual_corpus_occurrences": 0,
+        "first_location": null
+      },
+      {
+        "form_id": "OPEN-GLOSS-scufan-pret-1-sg",
+        "form": "scēaf",
+        "actual_corpus_occurrences": 0,
+        "first_location": null
+      },
+      {
+        "form_id": "OPEN-GLOSS-scufan-pret-pl",
+        "form": "scufon",
+        "actual_corpus_occurrences": 0,
+        "first_location": null
+      },
+      {
+        "form_id": "OPEN-GLOSS-scufan-past-ptcp",
+        "form": "scofen",
+        "actual_corpus_occurrences": 0,
+        "first_location": null
+      }
+    ],
+    "new_reference_form_records_requested": [],
+    "note": "Keep the seven accepted glossary reference diagnostics separate from the 38-master instructional inventory. Six have no current corpus token; dīcas has two supplied worked/source-note occurrences. Its diagnostic record remains reference provenance, not a new production milestone."
+  },
+  "homograph_preservation": {
+    "existing_multi_entry_surface_count": 108,
+    "existing_routes": [
+      {
+        "surface": "bierst",
+        "entry_ids": [
+          "OE-beran",
+          "OE-berstan"
+        ]
+      },
+      {
+        "surface": "blīðe",
+        "entry_ids": [
+          "OE-blithe",
+          "OE-blithe-adverb"
+        ]
+      },
+      {
+        "surface": "bętst",
+        "entry_ids": [
+          "OE-god-adjective-superl",
+          "OE-wel"
+        ]
+      },
+      {
+        "surface": "bīetst",
+        "entry_ids": [
+          "OE-beatan",
+          "OE-beodan"
+        ]
+      },
+      {
+        "surface": "bīett",
+        "entry_ids": [
+          "OE-beatan",
+          "OE-beodan"
+        ]
+      },
+      {
+        "surface": "būtan",
+        "entry_ids": [
+          "OE-butan",
+          "OE-butan-except",
+          "OE-butan-unless"
+        ]
+      },
+      {
+        "surface": "cnēowe",
+        "entry_ids": [
+          "OE-cnawan",
+          "OE-cneo"
+        ]
+      },
+      {
+        "surface": "cuman",
+        "entry_ids": [
+          "OE-cuma",
+          "OE-cuman"
+        ]
+      },
+      {
+        "surface": "dēman",
+        "entry_ids": [
+          "OE-dema",
+          "OE-deman"
+        ]
+      },
+      {
+        "surface": "dēorwierðra",
+        "entry_ids": [
+          "OE-deorwierth",
+          "OE-deorwierth-comp"
+        ]
+      },
+      {
+        "surface": "dēorwierðre",
+        "entry_ids": [
+          "OE-deorwierth",
+          "OE-deorwierth-comp"
+        ]
+      },
+      {
+        "surface": "ealdra",
+        "entry_ids": [
+          "OE-eald",
+          "OE-ealdor-chief"
+        ]
+      },
+      {
+        "surface": "ealdre",
+        "entry_ids": [
+          "OE-eald",
+          "OE-ealdor-chief"
+        ]
+      },
+      {
+        "surface": "earm",
+        "entry_ids": [
+          "OE-GLOSS-PRON-11",
+          "OE-earm"
+        ]
+      },
+      {
+        "surface": "egypta",
+        "entry_ids": [
+          "OE-egypta",
+          "OE-egypte"
+        ]
+      },
+      {
+        "surface": "egyptum",
+        "entry_ids": [
+          "OE-egypta",
+          "OE-egypte"
+        ]
+      },
+      {
+        "surface": "englisc",
+        "entry_ids": [
+          "OE-englisc",
+          "OE-englisc-language"
+        ]
+      },
+      {
+        "surface": "fluge",
+        "entry_ids": [
+          "OE-fleogan",
+          "OE-fleon"
+        ]
+      },
+      {
+        "surface": "flugon",
+        "entry_ids": [
+          "OE-fleogan",
+          "OE-fleon"
+        ]
+      },
+      {
+        "surface": "flīehst",
+        "entry_ids": [
+          "OE-fleogan",
+          "OE-fleon"
+        ]
+      },
+      {
+        "surface": "flīehð",
+        "entry_ids": [
+          "OE-fleogan",
+          "OE-fleon"
+        ]
+      },
+      {
+        "surface": "full",
+        "entry_ids": [
+          "OE-GLOSS-PRON-12",
+          "OE-full-adverb"
+        ]
+      },
+      {
+        "surface": "fægerra",
+        "entry_ids": [
+          "OE-faeger",
+          "OE-faeger-comp"
+        ]
+      },
+      {
+        "surface": "fægerre",
+        "entry_ids": [
+          "OE-faeger",
+          "OE-faeger-comp"
+        ]
+      },
+      {
+        "surface": "fēt",
+        "entry_ids": [
+          "OE-fedan",
+          "OE-fot"
+        ]
+      },
+      {
+        "surface": "gelīca",
+        "entry_ids": [
+          "OE-gelic",
+          "OE-gelica"
+        ]
+      },
+      {
+        "surface": "gelīcan",
+        "entry_ids": [
+          "OE-gelic",
+          "OE-gelica"
+        ]
+      },
+      {
+        "surface": "gelīce",
+        "entry_ids": [
+          "OE-gelic",
+          "OE-gelice"
+        ]
+      },
+      {
+        "surface": "gelīefst",
+        "entry_ids": [
+          "OE-geliefan",
+          "OE-geliefan-permit"
+        ]
+      },
+      {
+        "surface": "gemēt",
+        "entry_ids": [
+          "OE-gemetan",
+          "OE-metan"
+        ]
+      },
+      {
+        "surface": "gemētt",
+        "entry_ids": [
+          "OE-gemetan",
+          "OE-metan"
+        ]
+      },
+      {
+        "surface": "gesętt",
+        "entry_ids": [
+          "OE-gesettan",
+          "OE-settan"
+        ]
+      },
+      {
+        "surface": "gewite",
+        "entry_ids": [
+          "OE-gewitan",
+          "OE-gewitan-know"
+        ]
+      },
+      {
+        "surface": "giefe",
+        "entry_ids": [
+          "OE-giefan",
+          "OE-giefu"
+        ]
+      },
+      {
+        "surface": "gōd",
+        "entry_ids": [
+          "OE-god-adjective",
+          "OE-god-goods"
+        ]
+      },
+      {
+        "surface": "gōda",
+        "entry_ids": [
+          "OE-god-adjective",
+          "OE-god-goods"
+        ]
+      },
+      {
+        "surface": "gōde",
+        "entry_ids": [
+          "OE-god-adjective",
+          "OE-god-goods"
+        ]
+      },
+      {
+        "surface": "gōdes",
+        "entry_ids": [
+          "OE-god-adjective",
+          "OE-god-goods"
+        ]
+      },
+      {
+        "surface": "gōdum",
+        "entry_ids": [
+          "OE-god-adjective",
+          "OE-god-goods"
+        ]
+      },
+      {
+        "surface": "heofone",
+        "entry_ids": [
+          "OE-heofon",
+          "OE-heofone"
+        ]
+      },
+      {
+        "surface": "heofonlice",
+        "entry_ids": [
+          "OE-heofonlic",
+          "OE-heofonlice"
+        ]
+      },
+      {
+        "surface": "hund",
+        "entry_ids": [
+          "OE-hund",
+          "OE-hund-dog"
+        ]
+      },
+      {
+        "surface": "hwæðer",
+        "entry_ids": [
+          "OE-hwaether",
+          "OE-hwaether-conjunction"
+        ]
+      },
+      {
+        "surface": "hwȳ",
+        "entry_ids": [
+          "OE-hwa",
+          "OE-hwy"
+        ]
+      },
+      {
+        "surface": "hālga",
+        "entry_ids": [
+          "OE-halga",
+          "OE-halig"
+        ]
+      },
+      {
+        "surface": "hālgan",
+        "entry_ids": [
+          "OE-halga",
+          "OE-halig"
+        ]
+      },
+      {
+        "surface": "hālgena",
+        "entry_ids": [
+          "OE-halga",
+          "OE-halig"
+        ]
+      },
+      {
+        "surface": "hālgum",
+        "entry_ids": [
+          "OE-halga",
+          "OE-halig"
+        ]
+      },
+      {
+        "surface": "hām",
+        "entry_ids": [
+          "OE-ham",
+          "OE-ham-noun"
+        ]
+      },
+      {
+        "surface": "hāt",
+        "entry_ids": [
+          "OE-hat",
+          "OE-hatan"
+        ]
+      },
+      {
+        "surface": "hātan",
+        "entry_ids": [
+          "OE-hat",
+          "OE-hatan"
+        ]
+      },
+      {
+        "surface": "hāte",
+        "entry_ids": [
+          "OE-hat",
+          "OE-hatan"
+        ]
+      },
+      {
+        "surface": "hēah",
+        "entry_ids": [
+          "OE-heah",
+          "OE-heah-adverb"
+        ]
+      },
+      {
+        "surface": "hęre",
+        "entry_ids": [
+          "OE-here",
+          "OE-herian"
+        ]
+      },
+      {
+        "surface": "hǣlende",
+        "entry_ids": [
+          "OE-haelan",
+          "OE-haelend"
+        ]
+      },
+      {
+        "surface": "incer",
+        "entry_ids": [
+          "OE-incer-poss",
+          "OE-thu"
+        ]
+      },
+      {
+        "surface": "lufe",
+        "entry_ids": [
+          "OE-lufe",
+          "OE-lufu"
+        ]
+      },
+      {
+        "surface": "lēofra",
+        "entry_ids": [
+          "OE-leof",
+          "OE-leof-comp"
+        ]
+      },
+      {
+        "surface": "lēofre",
+        "entry_ids": [
+          "OE-leof",
+          "OE-leof-comp"
+        ]
+      },
+      {
+        "surface": "lǣt",
+        "entry_ids": [
+          "OE-laedan",
+          "OE-laetan"
+        ]
+      },
+      {
+        "surface": "lǣtst",
+        "entry_ids": [
+          "OE-laedan",
+          "OE-laetan"
+        ]
+      },
+      {
+        "surface": "lǣtt",
+        "entry_ids": [
+          "OE-laedan",
+          "OE-laetan"
+        ]
+      },
+      {
+        "surface": "mægen",
+        "entry_ids": [
+          "OE-maegen",
+          "OE-magan"
+        ]
+      },
+      {
+        "surface": "mīn",
+        "entry_ids": [
+          "OE-ic",
+          "OE-min-poss"
+        ]
+      },
+      {
+        "surface": "of",
+        "entry_ids": [
+          "OE-of",
+          "OE-of-adverb"
+        ]
+      },
+      {
+        "surface": "on",
+        "entry_ids": [
+          "OE-on",
+          "OE-on-adverb"
+        ]
+      },
+      {
+        "surface": "plega",
+        "entry_ids": [
+          "OE-plega",
+          "OE-plegian"
+        ]
+      },
+      {
+        "surface": "rīca",
+        "entry_ids": [
+          "OE-rice",
+          "OE-rice-adjective"
+        ]
+      },
+      {
+        "surface": "rīce",
+        "entry_ids": [
+          "OE-rice",
+          "OE-rice-adjective"
+        ]
+      },
+      {
+        "surface": "rīces",
+        "entry_ids": [
+          "OE-rice",
+          "OE-rice-adjective"
+        ]
+      },
+      {
+        "surface": "rīcu",
+        "entry_ids": [
+          "OE-rice",
+          "OE-rice-adjective"
+        ]
+      },
+      {
+        "surface": "rīcum",
+        "entry_ids": [
+          "OE-rice",
+          "OE-rice-adjective"
+        ]
+      },
+      {
+        "surface": "sang",
+        "entry_ids": [
+          "OE-sang",
+          "OE-singan"
+        ]
+      },
+      {
+        "surface": "sprǣce",
+        "entry_ids": [
+          "OE-spraec",
+          "OE-sprecan"
+        ]
+      },
+      {
+        "surface": "swilce",
+        "entry_ids": [
+          "OE-swilc",
+          "OE-swilce"
+        ]
+      },
+      {
+        "surface": "swētra",
+        "entry_ids": [
+          "OE-swete",
+          "OE-swete-comp"
+        ]
+      },
+      {
+        "surface": "swētre",
+        "entry_ids": [
+          "OE-swete",
+          "OE-swete-comp"
+        ]
+      },
+      {
+        "surface": "sēo",
+        "entry_ids": [
+          "OE-se",
+          "OE-seon"
+        ]
+      },
+      {
+        "surface": "sǣd",
+        "entry_ids": [
+          "OE-saed",
+          "OE-secgan"
+        ]
+      },
+      {
+        "surface": "sǣde",
+        "entry_ids": [
+          "OE-saed",
+          "OE-secgan"
+        ]
+      },
+      {
+        "surface": "uncer",
+        "entry_ids": [
+          "OE-ic",
+          "OE-uncer-poss"
+        ]
+      },
+      {
+        "surface": "weax",
+        "entry_ids": [
+          "OE-GLOSS-PRON-13",
+          "OE-weaxan"
+        ]
+      },
+      {
+        "surface": "weorðe",
+        "entry_ids": [
+          "OE-weorth-price",
+          "OE-weorthan"
+        ]
+      },
+      {
+        "surface": "willan",
+        "entry_ids": [
+          "OE-willa",
+          "OE-willan"
+        ]
+      },
+      {
+        "surface": "winde",
+        "entry_ids": [
+          "OE-wind",
+          "OE-windan"
+        ]
+      },
+      {
+        "surface": "wunde",
+        "entry_ids": [
+          "OE-windan",
+          "OE-wund"
+        ]
+      },
+      {
+        "surface": "wēne",
+        "entry_ids": [
+          "OE-wen",
+          "OE-wenan"
+        ]
+      },
+      {
+        "surface": "wīsra",
+        "entry_ids": [
+          "OE-wis",
+          "OE-wis-comp"
+        ]
+      },
+      {
+        "surface": "wīsre",
+        "entry_ids": [
+          "OE-wis",
+          "OE-wis-comp"
+        ]
+      },
+      {
+        "surface": "wīte",
+        "entry_ids": [
+          "OE-witan-blame",
+          "OE-wite"
+        ]
+      },
+      {
+        "surface": "yfele",
+        "entry_ids": [
+          "OE-yfel",
+          "OE-yfele-adverb"
+        ]
+      },
+      {
+        "surface": "æt",
+        "entry_ids": [
+          "OE-aet",
+          "OE-etan"
+        ]
+      },
+      {
+        "surface": "ðearf",
+        "entry_ids": [
+          "OE-thearf",
+          "OE-thurfan"
+        ]
+      },
+      {
+        "surface": "ðonne",
+        "entry_ids": [
+          "OE-thonne",
+          "OE-thonne-conjunction"
+        ]
+      },
+      {
+        "surface": "ðæt",
+        "entry_ids": [
+          "OE-se",
+          "OE-thaet-conjunction"
+        ]
+      },
+      {
+        "surface": "ðā",
+        "entry_ids": [
+          "OE-se",
+          "OE-tha-adverb",
+          "OE-tha-conjunction"
+        ]
+      },
+      {
+        "surface": "ðēow",
+        "entry_ids": [
+          "OE-theow",
+          "OE-theow-servant"
+        ]
+      },
+      {
+        "surface": "ðēowa",
+        "entry_ids": [
+          "OE-theow-servant",
+          "OE-theow-servant-phrase",
+          "OE-theowa"
+        ]
+      },
+      {
+        "surface": "ðēowe",
+        "entry_ids": [
+          "OE-theow",
+          "OE-theow-servant"
+        ]
+      },
+      {
+        "surface": "ðēowum",
+        "entry_ids": [
+          "OE-theow-servant",
+          "OE-theow-servant-phrase",
+          "OE-theowa"
+        ]
+      },
+      {
+        "surface": "ðīn",
+        "entry_ids": [
+          "OE-thin-poss",
+          "OE-thu"
+        ]
+      },
+      {
+        "surface": "āgan",
+        "entry_ids": [
+          "OE-agan",
+          "OE-aginnan"
+        ]
+      },
+      {
+        "surface": "ēower",
+        "entry_ids": [
+          "OE-eower-poss",
+          "OE-thu"
+        ]
+      },
+      {
+        "surface": "īsern",
+        "entry_ids": [
+          "OE-isern",
+          "OE-isern-adjective"
+        ]
+      },
+      {
+        "surface": "īserne",
+        "entry_ids": [
+          "OE-isern",
+          "OE-isern-adjective"
+        ]
+      },
+      {
+        "surface": "īsernes",
+        "entry_ids": [
+          "OE-isern",
+          "OE-isern-adjective"
+        ]
+      },
+      {
+        "surface": "ūre",
+        "entry_ids": [
+          "OE-ic",
+          "OE-ure-poss"
+        ]
+      },
+      {
+        "surface": "ǣr",
+        "entry_ids": [
+          "OE-aer-adverb",
+          "OE-aer-conjunction",
+          "OE-aer-copper"
+        ]
+      }
+    ],
+    "policy": "Never narrow a known surface to one head or globally exclude it because an occurrence is English. The candidate's nonlexical dispositions do not intersect any existing exact lexical route.",
+    "candidate_known_routes_hidden": [],
+    "preservation_check_passed": true
+  },
+  "read_only_candidate_verification": {
+    "mode": "read-only in-memory candidate integration; no outputs or shared data written",
+    "summary": {
+      "corpus_files": 38,
+      "total_tokens": 302150,
+      "matched_surface_types": 5587,
+      "matched_occurrences": 81284,
+      "excluded_occurrences": 220866,
+      "unresolved_token_types": 0
+    },
+    "unresolved": [],
+    "surface_route_errors": [],
+    "known_lexical_routes_hidden": [],
+    "homograph_surface_count_preserved": 108,
+    "new_routes": [
+      [
+        "dēore",
+        [
+          "deor"
+        ],
+        2,
+        "chapters/ch01/answer-key.md",
+        562,
+        "current_exact_surface"
+      ],
+      [
+        "græs",
+        [
+          "gaers"
+        ],
+        1,
+        "chapters/ch01/student.md",
+        878,
+        "current_exact_surface"
+      ]
+    ],
+    "remaining_non_surface_error_count": 34,
+    "all_57_dispositions_applied": true,
+    "task_acceptance_claimed": false
+  },
+  "pronunciation_key_marker_correction": {
+    "path": "scripts/refresh_opening_glossary_inventory.py",
+    "sha256": "83584411e99a5a4c8a81384372df0fcebb3ab1436973d41988d95e7c7c6261f1",
+    "change": "spans() now has an explicit pronunciation_key flag used only for the pronunciation key. It matches answer: PRON-... markers and preserves the actual PRON ID. Chapter key: KEY-... and learner item: ... parsing remain unchanged.",
+    "verification": {
+      "responses": 25,
+      "student_sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d",
+      "key_sha256": "da65ccf5dfd7c799e6a35a252d006513263f9b950f4c17b47ce3793cd4b60eaa",
+      "contract_sha256": "506ad5dade92f24e0453deee109067a15bfde82a38a1bde91116616fecb0f147",
+      "ids_and_block_hashes": [
+        {
+          "task_id": "PRON-P01a",
+          "key_item_id": "PRON-P01a",
+          "student_block_sha256": "84f6ad186b64336540c58fa16ed6d85515e08a293aa5c69f54305becd8bff25b",
+          "key_block_sha256": "04f749bee9c306d44b73f75eef7ac4cfce094b4f1b51626019f41b2094a3c329"
+        },
+        {
+          "task_id": "PRON-P01b",
+          "key_item_id": "PRON-P01b",
+          "student_block_sha256": "65079e2d9fb9c73aedd928088ec859bd13c0ef49e190549496d49c333e83c2b9",
+          "key_block_sha256": "1a6e84adba7b27f26ae6fc019ac94cb92197427ff88474d208e43213c77f19ac"
+        },
+        {
+          "task_id": "PRON-P01c",
+          "key_item_id": "PRON-P01c",
+          "student_block_sha256": "c8e8a237cb38037e78f3a26575f18850b11862feb0ba86312efc8b845179486f",
+          "key_block_sha256": "5d1fbc667f2ea131b6cbd4d19bc154f99cef4b0f593efc5d723ae042d51876c5"
+        },
+        {
+          "task_id": "PRON-P01d",
+          "key_item_id": "PRON-P01d",
+          "student_block_sha256": "dc0c4d32a5a662c62594ce65a6361be4da3025df66dea82572c6e890622b8a44",
+          "key_block_sha256": "a5b5dfbe362e0bc0877ff168cb97898409dd1c6c892ccfb9cc2d24d0bc778dc8"
+        },
+        {
+          "task_id": "PRON-P02a",
+          "key_item_id": "PRON-P02a",
+          "student_block_sha256": "4fa3c92a97ec537e61cddba9f48ee551093dac63176a94713491bf23fe5d7245",
+          "key_block_sha256": "c77941219076917d25ca76f7d121249e650683416bda4f8dce6dc4f738f337d8"
+        },
+        {
+          "task_id": "PRON-P02b",
+          "key_item_id": "PRON-P02b",
+          "student_block_sha256": "bec5d9084f15e14896fd682ae8258e5a2fc1150a28e1e6c7847c9ef20dedda00",
+          "key_block_sha256": "b00040ff093a0005e529a796de41d4aa68260dfe15c11d955bf111ae0f8aa35f"
+        },
+        {
+          "task_id": "PRON-P02c",
+          "key_item_id": "PRON-P02c",
+          "student_block_sha256": "0b27308e87b3d8d0749211c516c034c8ac6db0e87fc8325b4314c72215180f0b",
+          "key_block_sha256": "e9799f5fd7541c40437c8e70bc69c3e3f98df32f4e751cafabbe59da935d0955"
+        },
+        {
+          "task_id": "PRON-P02d",
+          "key_item_id": "PRON-P02d",
+          "student_block_sha256": "8fd4f108471eb378d58ca4340fd1e64e180e681379c2f2655480556f4536324d",
+          "key_block_sha256": "4898ac48369e569c98937d658dd80e385dbbd39a55651dd9ec453ff837e58aac"
+        },
+        {
+          "task_id": "PRON-P02e",
+          "key_item_id": "PRON-P02e",
+          "student_block_sha256": "7b2023bc2aef42c69cb765200394e7b1f0c35e4c4d33a8590ef43c69685de694",
+          "key_block_sha256": "262ed57fa04c229427796d69911d6ffa337bc8aab4011c1f7e016732fb9b2620"
+        },
+        {
+          "task_id": "PRON-P02f",
+          "key_item_id": "PRON-P02f",
+          "student_block_sha256": "768f71bfff15035f70c81bad1d31ec776f206f6b2e98fb94514410f28353d5b1",
+          "key_block_sha256": "69a416865b3901212a05fed2c582b0a4ba83e2f9cd95824d76271ec28c4c097a"
+        },
+        {
+          "task_id": "PRON-P02g",
+          "key_item_id": "PRON-P02g",
+          "student_block_sha256": "d028bd32a074f72c81c524f262bacda52065f572565cfeec3641e0680eac271b",
+          "key_block_sha256": "ae166cec314e1eadb340c0423d537b02bad6ba5b8252d7d05398a808fb4f7a38"
+        },
+        {
+          "task_id": "PRON-P02h",
+          "key_item_id": "PRON-P02h",
+          "student_block_sha256": "40b261571a46ccdfb44bdd347a3afe1a4ca5b4ad8a68b9a330e6afc9d16d1170",
+          "key_block_sha256": "b41925b46358df07461947e7d87083c8fecee28fe6b67a386217d702a567a381"
+        },
+        {
+          "task_id": "PRON-P03a",
+          "key_item_id": "PRON-P03a",
+          "student_block_sha256": "69b5df52c1c077b9ad9c9bd22f3384ca78181f4f451a6f0b77b798cbb1bfb54c",
+          "key_block_sha256": "8002225cad72d0d0e4cbc1a19d85f625cf0a7c20f6474d5b67948e2adb8077ee"
+        },
+        {
+          "task_id": "PRON-P03b",
+          "key_item_id": "PRON-P03b",
+          "student_block_sha256": "8d2a3340279e6ed8a55c9529c68faad8fab1e977b6b064267f365f88abc14af8",
+          "key_block_sha256": "ac5372f1fbf234dd8594f61ac10ddc9983ee90dba4034494827fdedc415003f7"
+        },
+        {
+          "task_id": "PRON-P03c",
+          "key_item_id": "PRON-P03c",
+          "student_block_sha256": "5a2059adf024f7cbe380ef456626e8a1f37bc7c672b781d0076b443956e7149c",
+          "key_block_sha256": "39390fab409f737fc646ceaf76736eaafef0de34015fd2617b9eb7196fccb26e"
+        },
+        {
+          "task_id": "PRON-P03d",
+          "key_item_id": "PRON-P03d",
+          "student_block_sha256": "40b84a369d1a62bceffa7e7294b40935d7f48628b993f0bf2c669da5927ac617",
+          "key_block_sha256": "8b63676916897969259c1467fba0a1947a7a563d7ba26ce041f1fdd0c271b0d5"
+        },
+        {
+          "task_id": "PRON-P03e",
+          "key_item_id": "PRON-P03e",
+          "student_block_sha256": "72901109eb11b4061d687bb9de7fc4fd5b7b86f805bca27daad3ebd992c16043",
+          "key_block_sha256": "2b89c215d00729acd7e1d96a7629b2de1e4f2cf92528ffae9d55cf16b028942f"
+        },
+        {
+          "task_id": "PRON-P03f",
+          "key_item_id": "PRON-P03f",
+          "student_block_sha256": "3b64eb033876cbae9307b5899e2386057c0947ebe25844ee0002b1d8344afa8f",
+          "key_block_sha256": "c8534a6b0f7e40d27413c99e3fc7d32cbaa31ddbe9db51f07daedc29ec758735"
+        },
+        {
+          "task_id": "PRON-P04a",
+          "key_item_id": "PRON-P04a",
+          "student_block_sha256": "418dad9a8736f46f2764c4d308daa1e17da14ffc825161d878a3c43ade072c63",
+          "key_block_sha256": "7b052f3786b21ed0bec8e49646c22df6d03aea28dd5d829326c224cc3e7d34f3"
+        },
+        {
+          "task_id": "PRON-P04b",
+          "key_item_id": "PRON-P04b",
+          "student_block_sha256": "b6e7fc1aab850ec19ed5661499f8f808af03392f4e3ee4f7ee10ccfd4188c7f6",
+          "key_block_sha256": "a22982079d2507f52ec9bc7ef5392acb64be9d19fa4da6a6be760b94e659e517"
+        },
+        {
+          "task_id": "PRON-P04c",
+          "key_item_id": "PRON-P04c",
+          "student_block_sha256": "39854fb4418c4615551ee1a2186ca1bb1838656713022496a8f6298a71fce33b",
+          "key_block_sha256": "5ea5f0c3d7d8ec735796f5921cfed3d19b23604418b762e8c0d8d5e11516fd1d"
+        },
+        {
+          "task_id": "PRON-P04d",
+          "key_item_id": "PRON-P04d",
+          "student_block_sha256": "4695a770968820c381b1ea984fa6d85f7e30bd60ced89def7bb76047776f5777",
+          "key_block_sha256": "8ec949db678ed88119d2217b89d54d4f260f9535bf60315ea8e8731ecbd164ae"
+        },
+        {
+          "task_id": "PRON-P05a",
+          "key_item_id": "PRON-P05a",
+          "student_block_sha256": "0b27669589483b4b0201c90c25e9a0e71fc2d6f93bffd5a461da569b5c0259e8",
+          "key_block_sha256": "ffd12208496ac5f8ca690a102c6a80869308b8972d1be7a6d9fc7fe6b9866bcb"
+        },
+        {
+          "task_id": "PRON-P05b",
+          "key_item_id": "PRON-P05b",
+          "student_block_sha256": "eb5e57da7d91dbc6cf9e57e3b75b1a10be4f228ebe6af4b524d7620415ab76c5",
+          "key_block_sha256": "a73c97193342e4809bbbcad15d09aafef3fd6e83489e16d164b09809a6fe6ccb"
+        },
+        {
+          "task_id": "PRON-P05c",
+          "key_item_id": "PRON-P05c",
+          "student_block_sha256": "05418d5862aa42b4cb866b0a41efb6857d61c558bcd80f2c084ad8a3a743ba74",
+          "key_block_sha256": "9c259a70dbb7b67b36f6f4e5b9c251a18285e01d7d3a700657e6ffd04dccde6b"
+        }
+      ],
+      "chapter_key_markers_preserved": 1392,
+      "wrong_marker_kind_rejected": true
+    },
+    "scope": "Marker/block identity validation only; this does not accept task semantics or remove any review/boundary requirements."
+  },
+  "integration_instructions": [
+    "Verify each named master hash and both compact record preconditions before integrating.",
+    "Append only dēore and græs to their existing head's forms; add their exact lookup routes and the 57 explicit bridge dispositions. Preserve every pre-existing route, sense, diagnostic and milestone.",
+    "Keep the historical surface/task inventories and old review receipts frozen. Generate the versioned current inventory only after the coordinator completes exact authorized deltas, subject aliases and accepted task-review bindings.",
+    "Rerun the existing wrapper after any later Unit 2 orientation edits; classify any new English fragments against their actual contexts rather than treating this snapshot as blanket authorization.",
+    "Run the normal complete glossary export/content/coverage checks centrally. No learner/key master, printed glossary, shared lookup, bridge or register was changed by this proposal."
+  ]
+}

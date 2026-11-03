@@ -56,12 +56,35 @@ def main():
         actual = key.split("## 13.", 1)[1].split("## 14.", 1)[0]
         check(actual == controls["cook_key_section"], "All 46 Cook key models unchanged")
     boundary = read("docs/revisions/opening/preservation.json")
+    # The original boundary stays frozen. A separately reviewed, exact
+    # documentation amendment may update the shared reproduction page only.
+    amended = {}
+    amendment_path = ROOT / "docs/revisions/opening/administrative-amendments.json"
+    if amendment_path.exists():
+        amendment = read("docs/revisions/opening/administrative-amendments.json")
+        review = read("docs/revisions/opening/reviews/admin-docs.json")
+        originals = {r["path"]: r for r in boundary["files"]}
+        rows = amendment.get("files", [])
+        valid = (
+            amendment.get("baseline_preservation_sha256") == hashlib.sha256((ROOT / "docs/revisions/opening/preservation.json").read_bytes()).hexdigest()
+            and review.get("status") == "accepted"
+            and review.get("amendment_sha256") == hashlib.sha256(amendment_path.read_bytes()).hexdigest()
+            and len(rows) == 1
+            and rows[0].get("path") == "typesetting/README.md"
+            and rows[0].get("old_sha256") == originals["typesetting/README.md"]["sha256"]
+            and rows[0].get("new_sha256") == hashlib.sha256((ROOT / "typesetting/README.md").read_bytes()).hexdigest()
+            and bool(rows[0].get("reason"))
+        )
+        check(valid, "Exact independently reviewed reproduction-document amendment")
+        if valid:
+            amended = {rows[0]["path"]: rows[0]["new_sha256"]}
     changed = []
     for row in boundary["files"]:
         data = (ROOT / row["path"]).read_bytes()
         exact = hashlib.sha256(data).hexdigest() == row["sha256"]
         portable = row.get("sha256_normalized_lf") == hashlib.sha256(data.replace(b"\r\n", b"\n")).hexdigest()
-        if not (exact or portable):
+        authorized_document = amended.get(row["path"]) == hashlib.sha256(data).hexdigest()
+        if not (exact or portable or authorized_document):
             changed.append(row["path"])
     check(not changed, "Unchanged files outside authorized revision", changed=changed)
 
@@ -112,7 +135,9 @@ def main():
             check(any(fid in t.get("tested_form_ids", []) for t in tasks), "Contextual productive subject task " + fid)
 
     report = {"status": "fail" if errors else "pass", "scope": args.scope, "checks": len(checks),
-              "protected_files": len(boundary["files"]), "errors": errors,
+              "protected_files": len(boundary["files"]),
+              "unchanged_protected_files": len(boundary["files"]) - len(amended),
+              "administrative_document_amendments": len(amended), "errors": errors,
               "limitations": "Exact controls, inventories and dependency statuses only. Independent source/linguistic/novelty review and full PDF text plus actual page inspection are separate requirements."}
     path = ROOT / args.report
     path.parent.mkdir(parents=True, exist_ok=True)

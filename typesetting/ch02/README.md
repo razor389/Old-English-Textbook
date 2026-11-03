@@ -1,4 +1,19 @@
-# Unit 2 complete exports
+# Unit 2 exports
+
+The current [learner PDF](chapter-02.pdf) has **20 pages**. The [14-page key](answer-key.pdf) is unchanged. Three opening paragraphs now distinguish the ten nominative subject forms learned in Unit 1 from the thirty oblique cells introduced here. All forty pronoun cells, exercises, targets, readings and answers remain intact.
+
+The [prerequisite bridge](../../docs/revisions/opening/unit2-bridge.json), [independent review](../../docs/revisions/opening/reviews/unit2-bridge-acceptance.json), [complete content check](../../docs/revisions/opening/exports/unit2-check.json), and [all-page visual review](../../docs/revisions/opening/reviews/unit2-pages.json) bind the revised learner export.
+
+Recompile the retained complete TeX, then check it against the current Markdown:
+
+```powershell
+python -B -X utf8 scripts/build_opening_exports.py --stage compile --select ch02/learner --output-root typesetting --report build/opening/unit2-compile.json
+python -B -X utf8 scripts/check_opening_exports.py --select ch02/learner --output-root typesetting --report build/opening/unit2-check.json
+```
+
+The opening helper deliberately does not reassemble Unit 2. Fresh exports require fresh page acceptance before retention. The records below describe the earlier acceptance checkpoints.
+
+## Earlier export history
 
 The accepted table-layout revision has a complete [learner PDF](chapter-02.pdf) of **20 pages** and a separate [answer-key PDF](answer-key.pdf) of **14 pages**. The changed pages and heading repairs passed independent visual review.
 

@@ -86,3 +86,9 @@ Do not regenerate the seventeen-unit baseline from the completed course or rerun
 Installed commands and storage behavior were checked against `bd --help`, `bd init --help`, `bd update --help`, `bd dep add --help`, `bd export --help`, `bd bootstrap --help`, and the release's bundled README/CHANGELOG. [Upstream project](https://github.com/gastownhall/beads). Recheck local help after upgrading; older SQLite-era and newer server instructions may differ.
 
 In this installed release, `bd doctor` reports that embedded mode is unsupported and performs no integrity check. Do not interpret its zero exit code as a pass or follow its destructive reinitialization suggestion. Validate the issue export, dependencies, and `bd ready` output instead; the seed checks are recorded in `SEED_VALIDATION.md`.
+
+## Current opening-revision evidence
+
+The opening revision preserves the original table-layout, glossary and book baselines as historical witnesses. Current reproduction uses the per-directory export instructions and exact active manifests. Use `check_opening_revision.py` and `check_opening_exports.py` for the revised opening, and the glossary checker's explicit `--revision docs/revisions/opening/glossary-supplement.json` path. Full-book checks use the current 41-component manifest and its exact preservation overlay.
+
+A new content change needs a new bounded contract, explicit old-to-new identities, actual task/source review and fresh export/page acceptance. Do not edit frozen hashes merely to make a historical checker pass, or replay ignored one-use integration helpers. Supplied/copied/reference use remains distinct from independently assessed application.

@@ -984,6 +984,10 @@ The definitions and spelling follow the course's checked Cook sources, with the 
 
 **ceaf** (n. n.). chaff.
 
+<!-- entry: OE-cealf -->
+
+**cealf** (n.). calf. Only this cited form is supplied.
+
 <!-- entry: OE-ceapian -->
 
 **cēapian** (v. weak); pret. 1 sg. cēapode; past ptcp. cēapod. trade; traffic. Traffic means trade; retain the supplied trading frame.
@@ -1253,6 +1257,10 @@ The definitions and spelling follow the course's checked Cook sources, with the 
 <!-- entry: XREF-c476bc68dfc7 -->
 
 **dēð** — pres. ind. 3 sg.: see **dōn**.
+
+<!-- entry: OE-dic -->
+
+**dīc** (n. m.); gen. sg. dīces; nom. pl. dīcas. ditch; dike.
 
 <!-- entry: OE-diegelnes -->
 
@@ -4500,7 +4508,7 @@ The definitions and spelling follow the course's checked Cook sources, with the 
 
 <!-- entry: OE-riht -->
 
-**riht** (adj.). right; just.
+**riht** (adj.). right; just. direct.
 
 <!-- entry: OE-rihtlice -->
 
@@ -4664,6 +4672,10 @@ The definitions and spelling follow the course's checked Cook sources, with the 
 
 **sciccels** (n. m.). cloak.
 
+<!-- entry: OE-scield -->
+
+**scield** (n. m.); gen. sg. scieldes; nom. pl. scieldas. shield.
+
 <!-- entry: OE-scieppan -->
 
 **scieppan** (v. strong); pret. 1 sg. scēop; pret. pl. scēopon; past ptcp. sceapen. create; shape.
@@ -4699,6 +4711,10 @@ The definitions and spelling follow the course's checked Cook sources, with the 
 <!-- entry: OE-scrydan -->
 
 **scrȳdan** (v. weak); pret. 1 sg. scrȳdde; past ptcp. scrȳded. clothe; dress. Accusative person clothed in this introduced frame. dress oneself. Supplied reflexive use.
+
+<!-- entry: OE-scufan -->
+
+**scūfan** (v. strong); pret. 1 sg. scēaf; pret. pl. scufon; past ptcp. scofen. thrust.
 
 <!-- entry: OE-sculan -->
 
@@ -6070,7 +6086,7 @@ The definitions and spelling follow the course's checked Cook sources, with the 
 
 <!-- entry: OE-wendan -->
 
-**węndan** (v.). translate. turn; return. Supplied source form.
+**węndan** (v.). translate. turn; return. Supplied source form. Supplied preterite węnde: went.
 
 <!-- entry: OE-weorc -->
 

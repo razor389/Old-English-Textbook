@@ -1,0 +1,57 @@
+{
+  "status": "passed",
+  "documents": [
+    {
+      "id": "old-english",
+      "pages": 58,
+      "blocks": 1641,
+      "master_sha256": "f3d53aa199142c30090e4614d018206c5ef0252c556de7161bc9df7b85a4f417",
+      "tex_sha256": "64400ed42fe4546ccf5c1686e36928da3c714ce829c80c9dacf4acebe37037f7",
+      "pdf_sha256": "48835197db314e226756d63e8ed43e1d5a51f2f35d00105eef103e94c7e31767"
+    },
+    {
+      "id": "english",
+      "pages": 100,
+      "blocks": 2085,
+      "master_sha256": "1f4b5e437accf99a5ceda7e780070240db7e2dcd916b52419328a5683891a90a",
+      "tex_sha256": "af90404cf1be315e10cb536a84c280e2890c7bbfef68c1cba67c08b9616ace29",
+      "pdf_sha256": "7937c49ec58f990363345cd1394c6f6a74064737893769ae4f20e117f2da06d5"
+    }
+  ],
+  "counts": {
+    "oe_entries": 1305,
+    "english_entries": 2054,
+    "surfaces": 5587,
+    "cross_references": 300,
+    "tasks": 1417,
+    "register_senses": 1690,
+    "protected_files": 137
+  },
+  "errors": [],
+  "limits": "Structural/text checks only; independent linguistic and every-page visual review are required.",
+  "revision": {
+    "id": "opening-2026-11-02",
+    "bridge": "docs/revisions/opening/glossary-supplement.json",
+    "bridge_sha256": "e9bfe3dadc5c0c785449d1b61687fc14ecbb08c634c2ba61c4102004d2119fe8",
+    "inventories": {
+      "surface_inventory": "docs/revisions/opening/glossary-current-inventory.json",
+      "task_inventory": "docs/revisions/opening/glossary-current-exercises.json",
+      "occurrences": "build/opening/glossary/current-occurrences.jsonl"
+    },
+    "sense_display_aliases": {
+      "ic-subject": {
+        "entry_id": "OE-ic",
+        "target_sense_id": "ic-personal"
+      },
+      "thu-subject": {
+        "entry_id": "OE-thu",
+        "target_sense_id": "thu-personal"
+      },
+      "he-subject": {
+        "entry_id": "OE-he",
+        "target_sense_id": "he-1"
+      }
+    },
+    "protected_files_checked": 137
+  }
+}

@@ -210,8 +210,13 @@ def validate_aliases(bridge, oe, en, register, errors):
     return aliases
 
 
-def spans(text, key_document=False):
-    pattern = r"<!--\s*key:\s*(KEY-[^\s>]+)\s*-->" if key_document else r"<!--\s*item:\s*([^\s>]+)\s*-->"
+def spans(text, key_document=False, pronunciation_key=False):
+    if pronunciation_key:
+        if not key_document:
+            raise ValueError("Pronunciation answer markers apply only to a key document")
+        pattern = r"<!--\s*answer:\s*(PRON-[^\s>]+)\s*-->"
+    else:
+        pattern = r"<!--\s*key:\s*(KEY-[^\s>]+)\s*-->" if key_document else r"<!--\s*item:\s*([^\s>]+)\s*-->"
     matches = list(re.finditer(pattern, text))
     result, duplicates = {}, []
     for index, match in enumerate(matches):
@@ -411,7 +416,7 @@ def generate(root, bridge):
                 errors.append("Task master omitted from original corpus: " + path)
                 texts[path] = source(path, False)
         learner, duplicate_learner = spans(texts[student_path])
-        answers, duplicate_answers = spans(texts[key_path], True)
+        answers, duplicate_answers = spans(texts[key_path], True, pronunciation_key=pronunciation)
         errors.extend("Duplicate learner marker: " + i for i in duplicate_learner)
         errors.extend("Duplicate key marker: " + i for i in duplicate_answers)
         if pronunciation:
@@ -438,7 +443,7 @@ def generate(root, bridge):
                               "task_count": len(assigned), "review_required": changed})
         for task in assigned:
             tid = task["task_id"]
-            key_id = task.get("key_item_id", task.get("key_id")) or "KEY-" + tid
+            key_id = task.get("key_item_id", task.get("key_id")) or (tid if pronunciation else "KEY-" + tid)
             if key_id not in answers or tid not in learner:
                 errors.append("Missing task/key marker: " + tid)
             if pronunciation:

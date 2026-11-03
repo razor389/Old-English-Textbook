@@ -1,0 +1,51 @@
+{
+  "schema_version": 1,
+  "revision": "opening",
+  "stage": "compile",
+  "created_utc": "2026-11-03T01:23:42.822943+00:00",
+  "script_sha256": "7cf5e39fb66be9f7bf1c1e7662261d539c80dc90eae7a498c7bdfa9479293f9c",
+  "layout_sha256": "3b1d181667488c19ea0a1970e68e33aa59bb3f9aeb32092542d8c678bf087b65",
+  "documents": [
+    {
+      "id": "ch02/learner",
+      "master": "chapters/ch02/student.md",
+      "master_sha256": "c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d",
+      "tex": "typesetting/ch02/chapter-02.tex",
+      "status": "compiled_clean",
+      "passes": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "stdout": "typesetting/ch02/build/chapter-02-opening-pass1.stdout.txt",
+          "sha256": "ad6c2be8fb9d7e293a50c24c7a182e99049f04305090034c99f16cb2cbed8613",
+          "log": "typesetting/ch02/build/chapter-02-opening-pass1.log",
+          "log_sha256": "a913f917a43f6edce733c487d4b542b604b4add44af7d8cc0763cd9edf87d011",
+          "diagnostics": []
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "stdout": "typesetting/ch02/build/chapter-02-opening-pass2.stdout.txt",
+          "sha256": "ad6c2be8fb9d7e293a50c24c7a182e99049f04305090034c99f16cb2cbed8613",
+          "log": "typesetting/ch02/build/chapter-02-opening-pass2.log",
+          "log_sha256": "a913f917a43f6edce733c487d4b542b604b4add44af7d8cc0763cd9edf87d011",
+          "diagnostics": []
+        }
+      ],
+      "pdf": "typesetting/ch02/build/chapter-02.pdf",
+      "pdf_sha256": "eff231ced271fc70985b39f23200d85240570d410a712bb14380f24dcda37cab",
+      "pages": 20,
+      "log": "typesetting/ch02/build/chapter-02.log",
+      "log_sha256": "a913f917a43f6edce733c487d4b542b604b4add44af7d8cc0763cd9edf87d011",
+      "diagnostics": [],
+      "tex_sha256": "41af34dd890eff19cf86dfad835137376a86391907810e0d899cef7fd91d90f2"
+    }
+  ],
+  "helper_sha256": {
+    "render_course_tables.py": "7b1755e837e2cd987b7654f6d6b76122cc866b679c38b4986dccc075358de0c6",
+    "build_course_exports.py": "42badf05a117cd944c945b4433231ded4038c018e552650663311b83f9812df1"
+  },
+  "historical_receipts_reused": false,
+  "visual_or_linguistic_acceptance_inferred": false,
+  "status": "pass_pending_content_and_page_review"
+}

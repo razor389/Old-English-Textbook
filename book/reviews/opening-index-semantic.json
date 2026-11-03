@@ -1,0 +1,921 @@
+{
+  "schema_version": 1,
+  "review_id": "opening-index-semantic-2026-11-02",
+  "reviewer": "/root/sound_cook",
+  "reviewed_utc": "2026-11-03 01:41:48 UTC",
+  "proposal": {
+    "path": "book/proposals/opening-index.json",
+    "sha256": "c3f3442513ec604c5b17554438dd52eefa07d57c183dfc998bc714028c2b023b"
+  },
+  "baseline_index": {
+    "path": "book/grammar-index.json",
+    "sha256": "1e586faae494115a658098dafa658f30d9a54e61924cf828f7227943d2556062"
+  },
+  "scope": "Semantic and structural pre-build review of the proposed opening index revision against actual current learner Markdown and TeX. No rebuilt PDF page-number, click, visual-layout or navigation acceptance is claimed.",
+  "independence": "This reviewer did not author or modify the index proposal or shared index. This is an independent index-mapping review; it is not a renewed blind task-solving or linguistic review of previously authored pronunciation material.",
+  "inputs": [
+    {
+      "path": "book/grammar-index.json",
+      "sha256": "1e586faae494115a658098dafa658f30d9a54e61924cf828f7227943d2556062"
+    },
+    {
+      "path": "scripts/build_full_book.py",
+      "sha256": "d6f5988ef118b49b9a448ee1c256d77e00e5d674fb9e7d3da186b9d05253dbb8"
+    },
+    {
+      "path": "scripts/check_full_book.py",
+      "sha256": "1f11fd3f2f41bb17ebf8cf547de13ce7443763466cae3fb3f222f0157778334e"
+    },
+    {
+      "path": "chapters/ch01/student.md",
+      "sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+    },
+    {
+      "path": "typesetting/ch01/chapter-01.tex",
+      "sha256": "7024eaa8163a4db7a81145c046b78468ce4d8917cb8e47fcdff9fd01af713c43"
+    },
+    {
+      "path": "guides/pronunciation/student.md",
+      "sha256": "7fb3c7fc32bea0c927cdbf689d3353d0e89f6e0c5ba3604ba4cfaabb547a732d"
+    },
+    {
+      "path": "typesetting/pronunciation/pronunciation.tex",
+      "sha256": "17c28c9d09714a7338d5afda2daa36b5eb4104b4bfbd291c60d2d89d63f793e4"
+    },
+    {
+      "path": "chapters/ch02/student.md",
+      "sha256": "c28b7b10d9bd7efe3e8abfc21c9407eb6d3e91412e04418dd473eb012f54369d"
+    },
+    {
+      "path": "typesetting/ch02/chapter-02.tex",
+      "sha256": "41af34dd890eff19cf86dfad835137376a86391907810e0d899cef7fd91d90f2"
+    },
+    {
+      "path": "glossaries/old-english.md",
+      "sha256": "f3d53aa199142c30090e4614d018206c5ef0252c556de7161bc9df7b85a4f417"
+    },
+    {
+      "path": "typesetting/glossaries/old-english.tex",
+      "sha256": "64400ed42fe4546ccf5c1686e36928da3c714ce829c80c9dacf4acebe37037f7"
+    },
+    {
+      "path": "glossaries/english.md",
+      "sha256": "1f4b5e437accf99a5ceda7e780070240db7e2dcd916b52419328a5683891a90a"
+    },
+    {
+      "path": "typesetting/glossaries/english.tex",
+      "sha256": "af90404cf1be315e10cb536a84c280e2890c7bbfef68c1cba67c08b9616ace29"
+    }
+  ],
+  "actual_reading": [
+    {
+      "path": "chapters/ch01/student.md",
+      "lines": "1–336",
+      "purpose": "Read the case/noun explanations, complete paradigms, subject inventory, copula and basic constructions in context."
+    },
+    {
+      "path": "guides/pronunciation/student.md",
+      "lines": "1–149",
+      "purpose": "Read the actual explanatory material through the practice boundary, including the complete ordered c/g guide."
+    },
+    {
+      "path": "chapters/ch02/student.md",
+      "lines": "1–92",
+      "purpose": "Read revised orientation, complete personal-pronoun declensions, reference boundaries and following verb-table explanations."
+    },
+    {
+      "path": "typesetting/ch01/chapter-01.tex",
+      "lines": "493–571",
+      "purpose": "Directly inspected T17 and T18 bodies and the reference/dual paragraphs; confirmed table IDs denote the intended complete paradigms."
+    },
+    {
+      "path": "typesetting/pronunciation/pronunciation.tex",
+      "lines": "217–270",
+      "purpose": "Directly inspected y/non-y and stopped/continuous context plus the exact continuous-g paragraph."
+    },
+    {
+      "path": "typesetting/ch02/chapter-02.tex",
+      "lines": "14–124",
+      "purpose": "Directly inspected final orientation, all three personal-pronoun panels, reference limits and grammatical-gender explanation."
+    }
+  ],
+  "structural_verification": {
+    "old_record_preconditions_passed": 26,
+    "stable_existing_anchor_ids_retained": 21,
+    "replacement_target_strings_unchanged": 19,
+    "replacement_target_strings_changed": 2,
+    "changed_target_notes": [
+      "Copula stable ID now targets T18, preserving the original copula meaning and gaining exact table access.",
+      "The fram paragraph includes a harmless TeX allowbreak in separated/divided; it still targets the same explanation."
+    ],
+    "new_anchor_hash_ids_verified": 4,
+    "projected_counts": {
+      "anchors": 364,
+      "entries": 450,
+      "see": 75,
+      "see_also": 32
+    },
+    "exact_unique_current_tex_targets": 364,
+    "exact_current_master_evidence_quotes": 77,
+    "all_anchors_used": true,
+    "unique_anchor_ids": true,
+    "unique_component_target_lines": true,
+    "unique_entry_heading_subheading_pairs": true,
+    "new_alias_directly_resolves": true,
+    "unrelated_anchors": {
+      "count": 339,
+      "canonical_compact_sha256": "51493eb731c57d229a2be0c1ae11b8ee2c74ab96c415b817ec370e86720c6659"
+    },
+    "unrelated_entries": {
+      "count": 442,
+      "canonical_compact_sha256": "94ea93fdd9995c9be6e534222c1ee4291a3bd829d30bb2dd6a0ecdc038f5eb0e"
+    },
+    "existing_see_records_unchanged": 74,
+    "existing_see_also_records_unchanged": 32,
+    "full_pronoun_declension_route_unchanged": true,
+    "no_new_or_rebound_target_uses_exercises_as_explanation": true
+  },
+  "anchor_reviews": [
+    {
+      "id": "bk-ch01-learner-422453d6be7d",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "paragraph",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 643,
+      "tex_anchor": "The direct object is accusative. In the following example, \\textbf{geseah} is supplied: “saw,” third-person singular preterite. Its conjugation is not required here.[12]",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 295,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The actual introductory paragraph states that a direct object is accusative and identifies geseah as supplied. The worked example immediately follows; the route is to explanation, not to an exercise.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-f6bfdc1fc647",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 57,
+      "tex_anchor": "\\section*{2. The article}",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 24,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 24,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 34,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The article heading introduces the complete case/gender table, agreement rule, and explicitly bounded instrumental reference forms. All three existing subentry meanings remain supported.",
+      "accepted": true
+    },
+    {
+      "id": "bk-pronunciation-learner-156b3d5ac4b3",
+      "type": "anchor_replacements",
+      "component_id": "pronunciation/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/pronunciation/pronunciation.tex",
+      "source_line": 22,
+      "tex_anchor": "\\section*{1. Letters and length}",
+      "evidence_locations": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 7,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 7,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 9,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 9,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "Letters and length explains ash/thorn/eth, hooked vowels, macrons, and the distinction from stress. The separate Unit 1 weight route remains alongside the length/weight index entry.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-086b075156aa",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 566,
+      "tex_anchor": "\\section*{9. Basic constructions}",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 241,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 275,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 259,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 275,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 241,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 263,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "Basic constructions contains the actual rules and worked models for nominative predicates, article omission, coordination, locative on + dative and dependent genitives. The existing broad section route remains appropriate.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-624dd0eb97a3",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 18,
+      "tex_anchor": "\\section*{1. Spelling and case}",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 13,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 14,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 15,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 16,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 18,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 9,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "Spelling and case includes grammatical gender, the four-case function table and interpretation of syncretic forms. It remains an introductory explanation destination.",
+      "accepted": true
+    },
+    {
+      "id": "bk-pronunciation-learner-a18005f2eb82",
+      "type": "anchor_replacements",
+      "component_id": "pronunciation/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/pronunciation/pronunciation.tex",
+      "source_line": 343,
+      "tex_anchor": "\\section*{6. Duration, syllables, and stress}",
+      "evidence_locations": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 136,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 138,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 144,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 140,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 142,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 142,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "Duration, syllables and stress contains consonant-length conditions, audible unstressed vowels, syllable counting and prefix stress. Worked words remain explanatory examples.",
+      "accepted": true
+    },
+    {
+      "id": "bk-pronunciation-learner-16b43725bb81",
+      "type": "anchor_replacements",
+      "component_id": "pronunciation/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/pronunciation/pronunciation.tex",
+      "source_line": 134,
+      "tex_anchor": "\\subsection*{c, g, and combinations}",
+      "evidence_locations": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 65,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 71,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 72,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 76,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 86,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 87,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 89,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The expanded c/g subsection begins the ordered decision procedure: combinations, initial and noninitial c, y-valued g, then stopped/continuous non-y g. The broad palatal/hard-values route remains here; only the narrower continuous-g subentry is redirected.",
+      "accepted": true
+    },
+    {
+      "id": "bk-pronunciation-learner-fce112ac8644",
+      "type": "anchor_replacements",
+      "component_id": "pronunciation/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/pronunciation/pronunciation.tex",
+      "source_line": 268,
+      "tex_anchor": "\\subsection*{h and sounded clusters}",
+      "evidence_locations": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 104,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 106,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 108,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 110,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The h and sounded-clusters subsection gives initial h, front/back continuous h, and the explicitly sounded initial combinations. The target remains before practice.",
+      "accepted": true
+    },
+    {
+      "id": "bk-pronunciation-learner-74b76bb98627",
+      "type": "anchor_replacements",
+      "component_id": "pronunciation/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/pronunciation/pronunciation.tex",
+      "source_line": 289,
+      "tex_anchor": "\\section*{5. f, s, and th: voice}",
+      "evidence_locations": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 116,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 132,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The voice section gives the ordinary f/s/th environments and supplied exceptions, supporting the voicing subentry directly.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-814e0a394df4",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "marker",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 538,
+      "tex_anchor": "% mdtable:T18:begin",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 224,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The stable copula ID now targets actual table T18 rather than the replaced section title. T18 has present eom and preterite wæs, all singular persons and shared 1–3 plural, supporting both copula and bounded subject/finite-verb agreement access.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-d64391595e92",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "paragraph",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 657,
+      "tex_anchor": "The recipient of a gift is dative; the thing given is accusative. The supplied \\textbf{sealde} means “gave,” third-person singular preterite.[12]",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 305,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The recipient explanation explicitly contrasts dative recipient with accusative gift and supplies sealde; the actual explanatory paragraph is the destination.",
+      "accepted": true
+    },
+    {
+      "id": "bk-pronunciation-learner-1212ca9f676b",
+      "type": "anchor_replacements",
+      "component_id": "pronunciation/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/pronunciation/pronunciation.tex",
+      "source_line": 88,
+      "tex_anchor": "\\section*{3. Diphthongs}",
+      "evidence_locations": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 37,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 45,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The diphthong heading introduces one-syllable movement, the spelling table and the short/long contrast; no exercise is substituted.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-0b109d29614d",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "paragraph",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 629,
+      "tex_anchor": "The same dependent may stand inside a prepositional phrase. Its genitive does not change the case required for the head.",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 285,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The actual paragraph explains that a genitive dependent inside a prepositional phrase does not change the head's governed case; its annotated worked phrase follows.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-71357d7f7267",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 292,
+      "tex_anchor": "\\section*{5. Strong feminine nouns}",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 143,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 123,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The strong-feminine section contains full paradigms and the -nes/-ness- and -ung explanation, with selected accusative and variant limits retained.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-3d6b15e7b6bf",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 409,
+      "tex_anchor": "\\section*{7. Individual paradigms}",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 171,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 182,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 195,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "Individual paradigms presents mann, niht, sǣ and plural-only ðīestru. Its explanatory limits distinguish selected recall forms, valid alternatives and the reconstructed genitive.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-246e855423d2",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 93,
+      "tex_anchor": "\\section*{3. Strong masculine nouns}",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 40,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 40,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 64,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 53,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 64,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "Strong-masculine explanations and paradigms cover consonant/-e models, æ/a alternation and lexical syncope/retention, supporting the unchanged associated routes.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-737b70e12605",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 180,
+      "tex_anchor": "\\section*{4. Strong neuter nouns}",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 77,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 90,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 77,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 103,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 77,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 103,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 77,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "Strong-neuter explanations and tables support N/A identity, -u/zero and stem weight, exceptional trēo, and the selected disyllabic patterns. Vowel length remains distinguished from syllable weight.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-9c5fd7a11f03",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 374,
+      "tex_anchor": "\\section*{6. Weak nouns}",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 156,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The weak-noun heading introduces complete steorra/eorðe paradigms and their characteristic endings; its declension route remains exact.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-2b2114170c4e",
+      "type": "anchor_replacements",
+      "component_id": "ch01/learner",
+      "kind": "paragraph",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 671,
+      "tex_anchor": "Use \\textbf{fram + dative} for what something is separated from. The supplied \\textbf{gedǣlde} means “separated/\\allowbreak{}divided,” third-person singular preterite.[12]",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 315,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The source paragraph still explains separation with fram + dative. The new exact TeX string adds only allowbreak inside separated/divided; its semantic destination is unchanged.",
+      "accepted": true
+    },
+    {
+      "id": "bk-pronunciation-learner-c95193d444e8",
+      "type": "anchor_replacements",
+      "component_id": "pronunciation/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/pronunciation/pronunciation.tex",
+      "source_line": 39,
+      "tex_anchor": "\\section*{2. Simple vowels}",
+      "evidence_locations": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 33,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 15,
+          "before_first_exercise": true
+        },
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 31,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "Simple vowels contains the value table, rounded-front articulation, and explicitly stressed a before nasal consonants. The same teaching scope remains available.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch02-learner-b542d326d059",
+      "type": "anchor_replacements",
+      "component_id": "ch02/learner",
+      "kind": "heading",
+      "tex_path": "typesetting/ch02/chapter-02.tex",
+      "source_line": 21,
+      "tex_anchor": "\\section*{1. Personal pronouns}",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch02/student.md",
+          "line": 7,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch02/student.md",
+          "line": 7,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch02/student.md",
+          "line": 7,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch02/student.md",
+          "line": 38,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The actual revised Unit 2 heading still introduces full personal declensions. Nominatives are explicitly review; oblique cells complete the system, with first/second genitives bounded as reference. Its existing complete-declension route is preserved.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-f4792afbd8d6",
+      "type": "anchor_additions",
+      "component_id": "ch01/learner",
+      "kind": "marker",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 508,
+      "tex_anchor": "% mdtable:T17:begin",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 210,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 214,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 215,
+          "before_first_exercise": true
+        },
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 216,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "Actual table T17 contains all ten selected nominative subject forms: ic/wit/wē, ðū/git/gē, hē/hit/hēo/hīe. The marker targets the paradigm itself. Labels restrict this new route to subject forms; they do not imply full oblique declensions.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-8f8ad9d5a04c",
+      "type": "anchor_additions",
+      "component_id": "ch01/learner",
+      "kind": "paragraph",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 530,
+      "tex_anchor": "In the third-person singular, \\textbf{hē, hit, hēo} normally refer to masculine, neuter, and feminine nouns respectively. Use grammatical gender when referring to a thing: a feminine noun need not name a female. All plural nouns take \\textbf{hīe}. The context identifies which noun the pronoun refers to; gender and number help to check that reference.",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 220,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The actual paragraph explains hē/hit/hēo by grammatical gender, hīe for plural reference, and the role of context. The new Gender route and expanded Personal pronouns route accurately describe this bounded nominative explanation.",
+      "accepted": true
+    },
+    {
+      "id": "bk-ch01-learner-f73641fc4bb6",
+      "type": "anchor_additions",
+      "component_id": "ch01/learner",
+      "kind": "paragraph",
+      "tex_path": "typesetting/ch01/chapter-01.tex",
+      "source_line": 561,
+      "tex_anchor": "\\textbf{1–3 pl.} gives the shared form for \\textbf{wē, gē, hīe}. The dual subjects \\textbf{wit} and \\textbf{git} also take these ordinary plural verb forms: there is no separate dual form of the copula. Use a dual when specifically saying “we two” or “you two”; the ordinary plurals do not exclude a group of two. Cook also gives \\textbf{sind, sint} beside the selected \\textbf{sindon}.[16]",
+      "evidence_locations": [
+        {
+          "path": "chapters/ch01/student.md",
+          "line": 235,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The actual paragraph immediately after T18 states that wit/git take ordinary plural copula forms and that ordinary plurals can include two. It directly supports both new Unit 1 dual-agreement references while retaining Unit 2 continuation.",
+      "accepted": true
+    },
+    {
+      "id": "bk-pronunciation-learner-b426b0db6cb3",
+      "type": "anchor_additions",
+      "component_id": "pronunciation/learner",
+      "kind": "paragraph",
+      "tex_path": "typesetting/pronunciation/pronunciation.tex",
+      "source_line": 259,
+      "tex_anchor": "For the continuous \\textbf{g}, put the back of the tongue near the position for hard \\textbf{g}, but leave a narrow gap. Let air pass continuously while the throat vibrates: the sound can be held, unlike the stopped \\textbf{g} of \\emph{go}. Its phonetic sign is \\textbf{[ɣ]}. Do not omit it or substitute \\textbf{y}. First selecting the \\textbf{y} or non-\\textbf{y} branch prevents this rule from changing the final sound of \\textbf{dæg} into continuous \\textbf{g}.",
+      "evidence_locations": [
+        {
+          "path": "guides/pronunciation/student.md",
+          "line": 98,
+          "before_first_exercise": true
+        }
+      ],
+      "semantic_observation": "The actual articulation paragraph describes the voiced continuous back sound and explicitly requires the prior y/non-y choice. The preceding non-y table supplies its environment. This precise target supports continuous g without implying that all noninitial g is continuous.",
+      "accepted": true
+    }
+  ],
+  "entry_change_review": [
+    {
+      "heading": "Agreement",
+      "subheading": "dual subjects and plural verbs",
+      "accepted": true,
+      "observation": "Adds the precise Unit 1 dual explanation while retaining Unit 2."
+    },
+    {
+      "heading": "Number",
+      "subheading": "dual pronouns and plural verb agreement",
+      "accepted": true,
+      "observation": "Same justified new introduction route; the existing Dual alias still reaches this entry."
+    },
+    {
+      "heading": "Personal pronouns",
+      "subheading": "grammatical gender and reference",
+      "accepted": true,
+      "observation": "Adds bounded Unit 1 nominative reference without removing Unit 2's wider case/role explanation."
+    },
+    {
+      "heading": "Agreement",
+      "subheading": "subject and finite verb",
+      "accepted": true,
+      "observation": "Adds the complete Unit 1 person/number copula paradigm; Unit 2's general finite-verb explanation remains."
+    },
+    {
+      "heading": "Consonants",
+      "subheading": "continuous g",
+      "accepted": true,
+      "observation": "Moves only this subentry to the specific articulatory paragraph. The broader c/g decision-procedure destination remains in use."
+    }
+  ],
+  "entry_addition_review": [
+    {
+      "heading": "Personal pronouns",
+      "subheading": "nominative subject forms (singular, dual and plural)",
+      "accepted": true,
+      "observation": "Accurately labels the ten-form T17 subject inventory and distinguishes it from full declensions."
+    },
+    {
+      "heading": "Nominative",
+      "subheading": "personal-pronoun subjects",
+      "accepted": true,
+      "observation": "Gives direct case-based access to the same actual subject paradigm."
+    },
+    {
+      "heading": "Gender",
+      "subheading": "pronoun reference to things",
+      "accepted": true,
+      "observation": "Matches the direct grammatical-gender explanation without broadening the taught case scope."
+    }
+  ],
+  "see_review": {
+    "heading": "Subject pronouns",
+    "target": {
+      "heading": "Personal pronouns",
+      "subheading": "nominative subject forms (singular, dual and plural)"
+    },
+    "accepted": true,
+    "observation": "Unique new alias resolves directly to the new subject-form entry and introduces no chain or cycle."
+  },
+  "findings": {
+    "material": [],
+    "optional": []
+  },
+  "acceptance": {
+    "accepted": true,
+    "status": "accepted_for_central_index_integration",
+    "conditions": [],
+    "scope": "The exact bound proposal may be applied with old-record guards. Full-volume page references, actual PDF destinations/clicks, layout preservation and new-page visual review remain separate build checks."
+  }
+}
