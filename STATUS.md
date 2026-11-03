@@ -12,7 +12,7 @@ All eighteen units remain complete, with **644 Cook items assigned, none deferre
 
 The new exercise-transfer criterion is in [EDITORIAL_POLICY.md](EDITORIAL_POLICY.md). It governs subsequent requested chapter reviews; this revision does not claim a new transfer audit of Units 2–18. Continue one requested chapter at a time, keep Cook prompts unchanged, and revise exposition or original practice to create fresh applications.
 
-Artifacts are accepted; final tracker closure and the local handoff checkpoint are being saved. Contract checkpoint: **2540765**; accepted guide: **f19ae62**; accepted Unit 1: **b3c1223**. Later integration and final artifacts are in the newest local checkpoints. Remote pushes remain user-controlled.
+All ten opening issues are closed; Beads has **223 closed issues and no ready work**. The accepted integration and full-volume checkpoint is **ede0e41**. Contract checkpoint: **2540765**; accepted guide: **f19ae62**; accepted Unit 1: **b3c1223**. Remote pushes remain user-controlled.
 
 ## Current unit exports
 

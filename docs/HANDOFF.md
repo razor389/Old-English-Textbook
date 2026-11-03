@@ -10,7 +10,7 @@ The [current glossary bridge](revisions/opening/glossary-supplement.json) and cu
 
 For reproduction, use the current per-directory READMEs and [typesetting guide](../typesetting/README.md). The full-book manifest binds accepted components; its preservation overlay documents 33 exact changes. New builds need complete-content, navigation, pixel and actual page/folio review before promotion. Do not rerun ignored one-use integration scripts, old prose assemblers, register mergers or baseline captures.
 
-The contract preceded prose at **2540765**; the guide was accepted at **f19ae62** and Unit 1 at **b3c1223**. Artifacts are accepted; final tracker closure and the local handoff checkpoint are being saved. Run `bd prime` and `bd ready` sequentially, read explicit issue IDs, keep one coordinator writer, export before local Git checkpoints, and leave pushes user-controlled.
+The contract preceded prose at **2540765**; the guide was accepted at **f19ae62** and Unit 1 at **b3c1223**. All ten opening issues are closed; Beads has **223 closed issues and no ready work**. The accepted integration and full-volume checkpoint is **ede0e41**. Run `bd prime` and `bd ready` sequentially, read explicit issue IDs, keep one coordinator writer, export before local Git checkpoints, and leave pushes user-controlled.
 
 The [storage/recovery instructions](WORKFLOW.md#generated-audit-snapshots) still apply to the ignored large Unit 18 baseline. Original acceptance and review records remain historical evidence for their named artifacts; current acceptance is in the opening revision receipt.
 
