@@ -161,6 +161,16 @@ def assemble(raw, document_id, destination):
             rendered, audit = render_opening_table(table, tid)
             out.extend([rendered, ""]); table_audit.append(audit); continue
         if all(line.startswith("<!--") and line.endswith("-->") for line in lines):
+            # Keep a supplied sentence frame with the prompt that identifies it.
+            # These bounded reservations also keep the first key-table caption
+            # with its table; they do not change any master text or task IDs.
+            if document_id == "ch01/learner":
+                case = re.search(r"item: CH01-CASE(\d+)", chunk)
+                if case:
+                    lines_needed = 9 if int(case[1]) >= 9 else 7
+                    out.append(r"\reserve{" + str(lines_needed) + r"\baselineskip}")
+            elif document_id == "ch01/key" and "item: CH01-F01" in chunk:
+                out.append(r"\reserve{8\baselineskip}")
             out.extend("% "+c for c in comments(chunk)); continue
         if "<!--" in chunk:
             raise ValueError("Inline prose comments need an explicit handling rule")

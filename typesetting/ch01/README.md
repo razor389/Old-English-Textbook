@@ -1,28 +1,23 @@
 # Unit 1 exports
 
-The accepted table-layout revision has a complete [learner PDF](chapter-01.pdf) of **21 pages** and a separate [answer-key PDF](answer-key.pdf) of **12 pages**. The changed pages and heading repairs passed independent visual review.
+The current [learner PDF](chapter-01.pdf) has **23 pages**; its separate [answer key](answer-key.pdf) has **14 pages**. The opening revision teaches all ten nominative subject forms beside the copula, labels all 44 noun entries with a section and model noun, and uses new contexts for original practice. All 46 Cook prompts and their complete key section remain unchanged.
 
-Current [export identities and page counts](../../docs/revisions/table-layout/exports.json), [page acceptance](../../docs/revisions/table-layout/page-review.json), and the [validated build report](../../docs/revisions/table-layout/build-report.json) document this presentation revision. The [complete-content checks](../../docs/revisions/table-layout/export-text-review.json) and [logical-table review](../../docs/revisions/table-layout/table-review.json) preserve the teaching and source scope.
+The [independent linguistic review](../../docs/revisions/opening/reviews/unit1-review.md), [assessment/register acceptance](../../docs/revisions/opening/reviews/unit1-register-acceptance.json), [complete content check](../../docs/revisions/opening/exports/unit1-check.json), and [all-page visual review](../../docs/revisions/opening/reviews/unit1-pages-final.json) cover the current edition. All 92 tasks have corresponding reviewed answers; the exact Creation passage and complete logical paradigms are retained. Supplied help and reference checks do not count as independent mastery.
 
-Editable masters are [student.md](../../chapters/ch01/student.md) and [answer-key.md](../../chapters/ch01/answer-key.md); complete TeX sources are [chapter-01.tex](chapter-01.tex) and [answer-key.tex](answer-key.tex). The [course presentation revision](../../docs/revisions/table-layout/) records the mapping and checks separately from the original unit review.
-
-Tables follow the shared [layout](../book-layout.tex): 10.5-point type with 13.2-point leading, bold headings, horizontal rules and consistent case/person labels. Identical verbal plural cells share `1–3 pl.`; distinct forms remain separate. Counts of grammatical forms and cells describe the complete logical paradigm, which is unchanged by fewer printed rows. Nominal cases, variants, supported uses and teaching milestones retain their stated scope.
+Editable masters are [student.md](../../chapters/ch01/student.md) and [answer-key.md](../../chapters/ch01/answer-key.md). Complete TeX sources are [chapter-01.tex](chapter-01.tex) and [answer-key.tex](answer-key.tex), using the shared Cambria layout. The [revision reconciliation](../../docs/revisions/opening/unit1-reconciliation.json) records current PDF identities and the administrative completion bridge.
 
 ## Reproduction
 
-Run from the repository root with the configured TeX Live, Cambria, Xpdf and Ghostscript installation:
+Run from the repository root:
 
 ```powershell
-python -X utf8 scripts/check_course_layout.py --report build/course-layout-check.json
-python -X utf8 scripts/build_course_exports.py --stage all --select ch01/learner,ch01/key --include-unchanged --jobs 2 --render-suffix reproduction-01
-python -X utf8 scripts/check_course_exports.py --chapter 1 --report build/course-export-ch01-check.json
+python -B -X utf8 scripts/build_opening_exports.py --stage assemble --select ch01/learner,ch01/key --output-root typesetting --report build/opening/unit1-assemble.json
+python -B -X utf8 scripts/build_opening_exports.py --stage compile --select ch01/learner,ch01/key --output-root typesetting --report build/opening/unit1-compile.json
+python -B -X utf8 scripts/check_opening_exports.py --select ch01/learner,ch01/key --output-root typesetting --report build/opening/unit1-check.json
+python -B -X utf8 scripts/check_opening_revision.py --scope all --report build/opening/domain-check.json
 ```
 
-The shared build command compiles each complete document twice, checks table parity and build diagnostics, extracts its text and renders all pages. Choose a fresh `--render-suffix` for a later changed build. Use `--stage inspect` to inspect existing build products without compiling, or `--stage render` to regenerate page images from them. `--select` accepts comma-separated document IDs such as `ch01/learner,ch03/key`.
-
-The layout check compares expanded logical cells, actual Markdown/TeX tables, protected distinctions and frozen teaching content. The export check independently compares complete master prose, actual TeX cells and captions, and the built PDF text. The `--chapter` restriction above is a unit diagnostic; complete-course acceptance uses the unrestricted command in the [shared reproduction instructions](../README.md#reproduction). A later changed build needs fresh visual review bound to its PDF and page-image identities before it replaces an accepted PDF. Do not rerun historical assemblers, register mergers or baseline captures to rebuild exports.
-
-Reproduction outputs and reports remain under `build/`; the build helper does not replace retained PDFs or rewrite the durable acceptance records linked above.
+These commands produce build copies and reports; they do not promote PDFs automatically. A changed export needs fresh complete-content and all-page visual acceptance. Historical unit/table-layout receipts remain evidence for their own checkpoints; do not rerun old assemblers, baseline captures or register mergers against the revised course.
 
 ## Original unit acceptance and content scope
 

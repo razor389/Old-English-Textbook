@@ -1,0 +1,3818 @@
+{
+  "schema_version": 1,
+  "status": "proposal_only_for_coordinator_integration",
+  "tasks": [
+    {
+      "task_id": "CH01-F01",
+      "key_item_id": "KEY-CH01-F01",
+      "prompt": "Write the bold noun phrase in Old English and label its case: (a) The fish is food; (b) the body of the fish; (c) God gave food to the fish; (d) the bird saw the fish. First make each fish singular, then rewrite all four phrases for several fish. Include the article.",
+      "exact_prompt_markdown": "1. Write the bold noun phrase in Old English and label its case: (a) **The fish** is food; (b) the body of **the fish**; (c) God gave food to **the fish**; (d) the bird saw **the fish**. First make each fish singular, then rewrite all four phrases for several fish. Include the article.",
+      "learner_block": "1. Write the bold noun phrase in Old English and label its case: (a) **The fish** is food; (b) the body of **the fish**; (c) God gave food to **the fish**; (d) the bird saw **the fish**. First make each fish singular, then rewrite all four phrases for several fish. Include the article.",
+      "learner_line": 386,
+      "learner_block_sha256": "10ae30963748bc06b4088d67b08de34fc05c931f08c095c372e0a458d972bc24",
+      "baseline_record_sha256": "ece6ec2bf6ec41c058b1d292546d91d77c5dbd0fc3604c404fb68055844375d7",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "se-m-nom-sg",
+        "fisc-nom-sg",
+        "se-m-gen-sg",
+        "fisc-gen-sg",
+        "se-m-dat-sg",
+        "fisc-dat-sg",
+        "se-m-acc-sg",
+        "fisc-acc-sg",
+        "se-all-nom-pl",
+        "fisc-nom-pl",
+        "se-all-gen-pl",
+        "fisc-gen-pl",
+        "se-all-dat-pl",
+        "fisc-dat-pl",
+        "se-all-acc-pl",
+        "fisc-acc-pl"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "se-m-nom-sg",
+        "fisc-nom-sg",
+        "se-m-gen-sg",
+        "fisc-gen-sg",
+        "se-m-dat-sg",
+        "fisc-dat-sg",
+        "se-m-acc-sg",
+        "fisc-acc-sg",
+        "se-all-nom-pl",
+        "fisc-nom-pl",
+        "se-all-gen-pl",
+        "fisc-gen-pl",
+        "se-all-dat-pl",
+        "fisc-dat-pl",
+        "se-all-acc-pl",
+        "fisc-acc-pl"
+      ],
+      "required_sense_ids": [
+        "se-the",
+        "fisc-1"
+      ],
+      "required_feature_ids": [
+        "paradigm-masc",
+        "article-agreement",
+        "subject-predicate",
+        "genitive-relationship",
+        "dative-recipient",
+        "accusative-object"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce eight fisc cells and eight article cells. Translate only bold noun phrases.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "paradigm-masc",
+          "article-agreement",
+          "subject-predicate",
+          "genitive-relationship",
+          "dative-recipient",
+          "accusative-object"
+        ],
+        "prior_model_or_reference": "§§1–3; CH01-PAR-MASC; §9 EXAMPLE03–05.",
+        "new_decision": "Infer case from four roles; repeat with plural number and agreeing articles.",
+        "production_or_recognition_scope": "Produce eight fisc cells and eight article cells. Translate only bold noun phrases.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "Final fish-as-food/body-of-fish/bird-seeing-fish contexts are fresh. The full forms are necessarily present in reference paradigms, but no complete context-plus-analysis is worked.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "a sg",
+          "decision": "subject",
+          "generated_form_ids": [
+            "se-m-nom-sg",
+            "fisc-nom-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b sg",
+          "decision": "dependent",
+          "generated_form_ids": [
+            "se-m-gen-sg",
+            "fisc-gen-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c sg",
+          "decision": "recipient",
+          "generated_form_ids": [
+            "se-m-dat-sg",
+            "fisc-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "d sg",
+          "decision": "object",
+          "generated_form_ids": [
+            "se-m-acc-sg",
+            "fisc-acc-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "a pl",
+          "decision": "subject",
+          "generated_form_ids": [
+            "se-all-nom-pl",
+            "fisc-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b pl",
+          "decision": "dependent",
+          "generated_form_ids": [
+            "se-all-gen-pl",
+            "fisc-gen-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c pl",
+          "decision": "recipient",
+          "generated_form_ids": [
+            "se-all-dat-pl",
+            "fisc-dat-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "d pl",
+          "decision": "object",
+          "generated_form_ids": [
+            "se-all-acc-pl",
+            "fisc-acc-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-F02",
+      "key_item_id": "KEY-CH01-F02",
+      "prompt": "Write only the bold noun, without an article: (a) several dwellings are on the earth; (b) the man saw several dwellings; (c) the seeds are food; (d) the bird saw the seeds. Identify each case and number. Explain why the two nouns differ in their plural endings although their roles are parallel.",
+      "exact_prompt_markdown": "2. Write only the bold noun, without an article: (a) several **dwellings** are on the earth; (b) the man saw several **dwellings**; (c) the **seeds** are food; (d) the bird saw the **seeds**. Identify each case and number. Explain why the two nouns differ in their plural endings although their roles are parallel.",
+      "learner_block": "2. Write only the bold noun, without an article: (a) several **dwellings** are on the earth; (b) the man saw several **dwellings**; (c) the **seeds** are food; (d) the bird saw the **seeds**. Identify each case and number. Explain why the two nouns differ in their plural endings although their roles are parallel.",
+      "learner_line": 390,
+      "learner_block_sha256": "7aaa77edd5333b39ddfb98875d807e7adf79f52f7a3a54967d5e62e9a21a2e90",
+      "baseline_record_sha256": "1dee6fee6b1fa0fdd9be93d1ab07f3a50b5fdca054a5613927bee131838b8e51",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "hof-nom-pl",
+        "hof-acc-pl",
+        "saed-nom-pl",
+        "saed-acc-pl"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "hof-nom-pl",
+        "hof-acc-pl",
+        "saed-nom-pl",
+        "saed-acc-pl"
+      ],
+      "required_sense_ids": [
+        "hof-1",
+        "saed-1"
+      ],
+      "required_feature_ids": [
+        "paradigm-neut-weight",
+        "syllable-weight",
+        "subject-predicate",
+        "accusative-object",
+        "case-syncretism"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce N/A plurals of two nouns and explain endings; unmarked context is not translated.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "paradigm-neut-weight",
+          "syllable-weight",
+          "subject-predicate",
+          "accusative-object",
+          "case-syncretism"
+        ],
+        "prior_model_or_reference": "§4 hof/sǣd; §1 case roles.",
+        "new_decision": "Select subject versus object case, then -u versus zero by stem type.",
+        "production_or_recognition_scope": "Produce N/A plurals of two nouns and explain endings; unmarked context is not translated.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "The same displayed noun forms occur in new parallel role contexts; case/number must be derived.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "a",
+          "decision": "plural subject",
+          "generated_form_ids": [
+            "hof-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b",
+          "decision": "plural object",
+          "generated_form_ids": [
+            "hof-acc-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c",
+          "decision": "plural subject",
+          "generated_form_ids": [
+            "saed-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "d",
+          "decision": "plural object",
+          "generated_form_ids": [
+            "saed-acc-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-F03",
+      "key_item_id": "KEY-CH01-F03",
+      "prompt": "Give only the bold noun, without an article, and explain its case: (a) the length of several days; (b) the food of several whales; (c) God gave food to one man; (d) the darkness of several nights. Preserve each noun's own stem changes.",
+      "exact_prompt_markdown": "3. Give only the bold noun, without an article, and explain its case: (a) the length of several **days**; (b) the food of several **whales**; (c) God gave food to one **man**; (d) the darkness of several **nights**. Preserve each noun's own stem changes.",
+      "learner_block": "3. Give only the bold noun, without an article, and explain its case: (a) the length of several **days**; (b) the food of several **whales**; (c) God gave food to one **man**; (d) the darkness of several **nights**. Preserve each noun's own stem changes.",
+      "learner_line": 394,
+      "learner_block_sha256": "d5a5bb0ad2d2a8b3e7f1d0bbf409610e6b8fe6841f9ce3e981fbe430912f759d",
+      "baseline_record_sha256": "5216bbdbe2d488d226cf7c5bef019932371f89621408becbcc1680078ab4f088",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "daeg-gen-pl",
+        "hwael-gen-pl",
+        "mann-dat-sg",
+        "niht-gen-pl"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "daeg-gen-pl",
+        "hwael-gen-pl",
+        "mann-dat-sg",
+        "niht-gen-pl"
+      ],
+      "required_sense_ids": [
+        "daeg-1",
+        "hwael-1",
+        "mann-1",
+        "niht-1"
+      ],
+      "required_feature_ids": [
+        "paradigm-masc-ae-a",
+        "paradigm-exception-mann",
+        "paradigm-exception-niht",
+        "genitive-relationship",
+        "dative-recipient"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce four noun cells; no surrounding English translation.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "paradigm-masc-ae-a",
+          "paradigm-exception-mann",
+          "paradigm-exception-niht",
+          "genitive-relationship",
+          "dative-recipient"
+        ],
+        "prior_model_or_reference": "§3 dæg/hwæl; §7 mann/niht; §9 genitive/recipient.",
+        "new_decision": "Choose dependent genitive or recipient dative, then the lexeme-specific stem.",
+        "production_or_recognition_scope": "Produce four noun cells; no surrounding English translation.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "Meaning contexts replace named table cells; each spelling is taught but its role is to be selected.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "a",
+          "decision": "days as dependent",
+          "generated_form_ids": [
+            "daeg-gen-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b",
+          "decision": "whales as dependent",
+          "generated_form_ids": [
+            "hwael-gen-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c",
+          "decision": "man as recipient",
+          "generated_form_ids": [
+            "mann-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "d",
+          "decision": "nights as dependent",
+          "generated_form_ids": [
+            "niht-gen-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-F04",
+      "key_item_id": "KEY-CH01-F04",
+      "prompt": "Give only the bold noun, without an article: (a) the fruit of one tree; (b) the bird is in one tree; (c) several trees are in the dwelling; (d) the meaning of one sign; (e) several signs are in the sky; (f) the sound of the water; (g) the waters are in the sea; (h) several evenings have passed; (i) the cattle are in the dwelling. Label the forms. Explain the w in (c), and contrast the loss or retention of the middle stem vowel in (e) and (g).",
+      "exact_prompt_markdown": "4. Give only the bold noun, without an article: (a) the fruit of one **tree**; (b) the bird is in one **tree**; (c) several **trees** are in the dwelling; (d) the meaning of one **sign**; (e) several **signs** are in the sky; (f) the sound of the **water**; (g) the **waters** are in the sea; (h) several **evenings** have passed; (i) the **cattle** are in the dwelling. Label the forms. Explain the **w** in (c), and contrast the loss or retention of the middle stem vowel in (e) and (g).",
+      "learner_block": "4. Give only the bold noun, without an article: (a) the fruit of one **tree**; (b) the bird is in one **tree**; (c) several **trees** are in the dwelling; (d) the meaning of one **sign**; (e) several **signs** are in the sky; (f) the sound of the **water**; (g) the **waters** are in the sea; (h) several **evenings** have passed; (i) the **cattle** are in the dwelling. Label the forms. Explain the **w** in (c), and contrast the loss or retention of the middle stem vowel in (e) and (g).",
+      "learner_line": 398,
+      "learner_block_sha256": "cd636bc63228d41c832af22b364c58558345d59b658cc141ba9893c3486694e5",
+      "baseline_record_sha256": "228700cd09a8e7a120de79800b8f9841dfe18ddf9e905c651dd618354a6bc3b0",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "treo-gen-sg",
+        "treo-dat-sg",
+        "treo-nom-pl",
+        "tacen-gen-sg",
+        "tacen-nom-pl",
+        "waeter-gen-sg",
+        "waeter-nom-pl",
+        "aefen-nom-pl",
+        "nieten-nom-pl"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "treo-gen-sg",
+        "treo-dat-sg",
+        "treo-nom-pl",
+        "tacen-gen-sg",
+        "tacen-nom-pl",
+        "waeter-gen-sg",
+        "waeter-nom-pl",
+        "aefen-nom-pl",
+        "nieten-nom-pl"
+      ],
+      "required_sense_ids": [
+        "treo-1",
+        "tacen-1",
+        "waeter-1",
+        "aefen-1",
+        "nieten-1"
+      ],
+      "required_feature_ids": [
+        "paradigm-neut-treo",
+        "paradigm-neut-disyllable",
+        "genitive-relationship",
+        "on-dative-location",
+        "subject-predicate"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce nine noun cells; label and compare stated stems, not the unmarked context.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "paradigm-neut-treo",
+          "paradigm-neut-disyllable",
+          "genitive-relationship",
+          "on-dative-location",
+          "subject-predicate"
+        ],
+        "prior_model_or_reference": "§4 trēo, tācen, wæter, ǣfen, nīeten; §10 named models.",
+        "new_decision": "Choose nine cells from role/number; distinguish trēo’s w from tācen syncope and wæter vowel retention.",
+        "production_or_recognition_scope": "Produce nine noun cells; label and compare stated stems, not the unmarked context.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "The corrected question separates the w explanation from e-loss/retention. No full context or requested analysis is worked.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "a",
+          "decision": "one tree dependent",
+          "generated_form_ids": [
+            "treo-gen-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b",
+          "decision": "one tree location",
+          "generated_form_ids": [
+            "treo-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c",
+          "decision": "trees subject",
+          "generated_form_ids": [
+            "treo-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "d",
+          "decision": "one sign dependent",
+          "generated_form_ids": [
+            "tacen-gen-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "e",
+          "decision": "signs subject",
+          "generated_form_ids": [
+            "tacen-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "f",
+          "decision": "water dependent",
+          "generated_form_ids": [
+            "waeter-gen-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "g",
+          "decision": "waters subject",
+          "generated_form_ids": [
+            "waeter-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "h",
+          "decision": "evenings subject",
+          "generated_form_ids": [
+            "aefen-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "i",
+          "decision": "cattle subject",
+          "generated_form_ids": [
+            "nieten-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-F05",
+      "key_item_id": "KEY-CH01-F05",
+      "prompt": "Give only the bold noun, without an article: (a) the star is in the sky; (b) the light of the star; (c) the man is looking at the star, as a direct object; (d) the bird is under the star, using a supplied dative frame. First use one star, then several stars. Next give singular earth as (e) subject, (f) possessor in “the surface of the earth,” (g) location after on, and (h) direct object in “God created the earth.” Explain why an isolated -an form cannot settle the analysis. Only the noun forms are requested; the verbs and the English prepositions in (c–d) are not to be translated.",
+      "exact_prompt_markdown": "5. Give only the bold noun, without an article: (a) **the star** is in the sky; (b) the light of **the star**; (c) the man is looking at **the star**, as a direct object; (d) the bird is under **the star**, using a supplied dative frame. First use one star, then several stars. Next give singular **earth** as (e) subject, (f) possessor in “the surface of the earth,” (g) location after **on**, and (h) direct object in “God created the earth.” Explain why an isolated **-an** form cannot settle the analysis. Only the noun forms are requested; the verbs and the English prepositions in (c–d) are not to be translated.",
+      "learner_block": "5. Give only the bold noun, without an article: (a) **the star** is in the sky; (b) the light of **the star**; (c) the man is looking at **the star**, as a direct object; (d) the bird is under **the star**, using a supplied dative frame. First use one star, then several stars. Next give singular **earth** as (e) subject, (f) possessor in “the surface of the earth,” (g) location after **on**, and (h) direct object in “God created the earth.” Explain why an isolated **-an** form cannot settle the analysis. Only the noun forms are requested; the verbs and the English prepositions in (c–d) are not to be translated.",
+      "learner_line": 402,
+      "learner_block_sha256": "2998867e2f60ca80fc070e22861c43af9f50479939312154d51f66e16af2270d",
+      "baseline_record_sha256": "ec5cb852305130d40879dd90a04ef4f7d77a1abe0a39d45a3d753cc503053762",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "steorra-nom-sg",
+        "steorra-gen-sg",
+        "steorra-dat-sg",
+        "steorra-acc-sg",
+        "steorra-nom-pl",
+        "steorra-gen-pl",
+        "steorra-dat-pl",
+        "steorra-acc-pl",
+        "eorthe-nom-sg",
+        "eorthe-gen-sg",
+        "eorthe-dat-sg",
+        "eorthe-acc-sg"
+      ],
+      "recognized_form_ids": [
+        "on-invariant"
+      ],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "steorra-nom-sg",
+        "steorra-gen-sg",
+        "steorra-dat-sg",
+        "steorra-acc-sg",
+        "steorra-nom-pl",
+        "steorra-gen-pl",
+        "steorra-dat-pl",
+        "steorra-acc-pl",
+        "eorthe-nom-sg",
+        "eorthe-gen-sg",
+        "eorthe-dat-sg",
+        "eorthe-acc-sg",
+        "on-invariant"
+      ],
+      "required_sense_ids": [
+        "steorra-1",
+        "eorthe-1",
+        "on-1"
+      ],
+      "required_feature_ids": [
+        "paradigm-weak",
+        "subject-predicate",
+        "genitive-relationship",
+        "accusative-object",
+        "on-dative-location",
+        "case-syncretism"
+      ],
+      "stimulus_vs_output": {
+        "output": "All eight steorra cells and four singular eorðe cells; no eorðe plural production.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "paradigm-weak",
+          "subject-predicate",
+          "genitive-relationship",
+          "accusative-object",
+          "on-dative-location",
+          "case-syncretism"
+        ],
+        "prior_model_or_reference": "§6 weak tables; §1 roles; §9 locative on.",
+        "new_decision": "Resolve identical -an spellings by role/number and compare nominative singular endings.",
+        "production_or_recognition_scope": "All eight steorra cells and four singular eorðe cells; no eorðe plural production.",
+        "supplied_dependencies": "Part d supplies a dative frame; c explicitly states object. No OE for the English verbs or under is required.",
+        "exposure_check": "Reference homographs are taught, but contexts and ambiguity explanation are not worked answers.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "a sg",
+          "decision": "nom star",
+          "generated_form_ids": [
+            "steorra-nom-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b sg",
+          "decision": "gen star",
+          "generated_form_ids": [
+            "steorra-gen-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c sg",
+          "decision": "acc star",
+          "generated_form_ids": [
+            "steorra-acc-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "d sg",
+          "decision": "dat star",
+          "generated_form_ids": [
+            "steorra-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "a pl",
+          "decision": "nom star",
+          "generated_form_ids": [
+            "steorra-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b pl",
+          "decision": "gen star",
+          "generated_form_ids": [
+            "steorra-gen-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c pl",
+          "decision": "acc star",
+          "generated_form_ids": [
+            "steorra-acc-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "d pl",
+          "decision": "dat star",
+          "generated_form_ids": [
+            "steorra-dat-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "e",
+          "decision": "nom earth singular",
+          "generated_form_ids": [
+            "eorthe-nom-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "f",
+          "decision": "gen earth singular",
+          "generated_form_ids": [
+            "eorthe-gen-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "g",
+          "decision": "dat earth singular",
+          "generated_form_ids": [
+            "eorthe-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "h",
+          "decision": "acc earth singular",
+          "generated_form_ids": [
+            "eorthe-acc-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-F06",
+      "key_item_id": "KEY-CH01-F06",
+      "prompt": "Give only the bold noun, without an article: (a) the man saw one herb; (b) the seed of one herb; (c) the man marked one season as the direct object; (d) the beginning of one season; (e) the man saw one creature. Explain why the direct objects do not all take the same feminine ending.",
+      "exact_prompt_markdown": "6. Give only the bold noun, without an article: (a) the man saw one **herb**; (b) the seed of one **herb**; (c) the man marked one **season** as the direct object; (d) the beginning of one **season**; (e) the man saw one **creature**. Explain why the direct objects do not all take the same feminine ending.",
+      "learner_block": "6. Give only the bold noun, without an article: (a) the man saw one **herb**; (b) the seed of one **herb**; (c) the man marked one **season** as the direct object; (d) the beginning of one **season**; (e) the man saw one **creature**. Explain why the direct objects do not all take the same feminine ending.",
+      "learner_line": 406,
+      "learner_block_sha256": "d08c738934a9b16446fa8072a3b6ed9687a124eac670e7711feb1711eb9a9f40",
+      "baseline_record_sha256": "767c524c80f86b3566cc5d1c02f3132570b15e6b23e8b228f2fa4d36df6ca707",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "wyrt-acc-sg",
+        "wyrt-gen-sg",
+        "tid-acc-sg",
+        "tid-gen-sg",
+        "gesceaft-acc-sg"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "wyrt-acc-sg",
+        "wyrt-gen-sg",
+        "tid-acc-sg",
+        "tid-gen-sg",
+        "gesceaft-acc-sg"
+      ],
+      "required_sense_ids": [
+        "wyrt-1",
+        "tid-1",
+        "gesceaft-1"
+      ],
+      "required_feature_ids": [
+        "paradigm-fem-acc-zero",
+        "paradigm-fem-long",
+        "accusative-object",
+        "genitive-relationship",
+        "case-syncretism"
+      ],
+      "stimulus_vs_output": {
+        "output": "Five singular noun cells; explain exception/ordinary contrast.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "paradigm-fem-acc-zero",
+          "paradigm-fem-long",
+          "accusative-object",
+          "genitive-relationship",
+          "case-syncretism"
+        ],
+        "prior_model_or_reference": "§5 wyrt/tīd versus gesceaft.",
+        "new_decision": "Choose object versus dependent and endingless versus ordinary -e accusative.",
+        "production_or_recognition_scope": "Five singular noun cells; explain exception/ordinary contrast.",
+        "supplied_dependencies": "The task states intended object readings; English marked is not to be translated.",
+        "exposure_check": "New contexts require the applicable feminine pattern, not recall of one shared ending.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "a",
+          "decision": "herb object",
+          "generated_form_ids": [
+            "wyrt-acc-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b",
+          "decision": "herb dependent",
+          "generated_form_ids": [
+            "wyrt-gen-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c",
+          "decision": "season object",
+          "generated_form_ids": [
+            "tid-acc-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "d",
+          "decision": "season dependent",
+          "generated_form_ids": [
+            "tid-gen-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "e",
+          "decision": "creature object",
+          "generated_form_ids": [
+            "gesceaft-acc-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-F07",
+      "key_item_id": "KEY-CH01-F07",
+      "prompt": "Give only the bold noun, without an article: (a) in the firmament, using locative on; (b) the form of several images; (c) several likenesses are in the dwelling; (d) in several gatherings, using locative on. Identify the case and number, and explain the stem before each ending.",
+      "exact_prompt_markdown": "7. Give only the bold noun, without an article: (a) in the **firmament**, using locative **on**; (b) the form of several **images**; (c) several **likenesses** are in the dwelling; (d) in several **gatherings**, using locative **on**. Identify the case and number, and explain the stem before each ending.",
+      "learner_block": "7. Give only the bold noun, without an article: (a) in the **firmament**, using locative **on**; (b) the form of several **images**; (c) several **likenesses** are in the dwelling; (d) in several **gatherings**, using locative **on**. Identify the case and number, and explain the stem before each ending.",
+      "learner_line": 410,
+      "learner_block_sha256": "87cf706eb1319c08207b29e7c2971fa709f0ac28bc03a880521107b5c5a3abcd",
+      "baseline_record_sha256": "020ce525253bdda3177fd49158e8b0ba893988208d9d32b0e4b78a19282e479e",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "faestnes-dat-sg",
+        "andlicnes-gen-pl",
+        "gelicnes-nom-pl",
+        "gegaderung-dat-pl"
+      ],
+      "recognized_form_ids": [
+        "on-invariant"
+      ],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "faestnes-dat-sg",
+        "andlicnes-gen-pl",
+        "gelicnes-nom-pl",
+        "gegaderung-dat-pl",
+        "on-invariant"
+      ],
+      "required_sense_ids": [
+        "faestnes-1",
+        "andlicnes-1",
+        "gelicnes-1",
+        "gegaderung-1",
+        "on-1"
+      ],
+      "required_feature_ids": [
+        "paradigm-fem-nes",
+        "paradigm-fem-ung",
+        "on-dative-location",
+        "genitive-relationship",
+        "subject-predicate"
+      ],
+      "stimulus_vs_output": {
+        "output": "Four noun cells; only singular fæstnes.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "paradigm-fem-nes",
+          "paradigm-fem-ung",
+          "on-dative-location",
+          "genitive-relationship",
+          "subject-predicate"
+        ],
+        "prior_model_or_reference": "§5 andlīcnes/gegaderung; §10 named vocabulary models.",
+        "new_decision": "Choose role/number and distinguish -ness- stems from -ung.",
+        "production_or_recognition_scope": "Four noun cells; only singular fæstnes.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "Locative on is a known cue; neither requested endings nor the comparative stem explanation is supplied.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "a",
+          "decision": "firmament location",
+          "generated_form_ids": [
+            "faestnes-dat-sg"
+          ],
+          "stimulus_form_ids": [
+            "on-invariant"
+          ],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b",
+          "decision": "images dependent",
+          "generated_form_ids": [
+            "andlicnes-gen-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c",
+          "decision": "likenesses subject",
+          "generated_form_ids": [
+            "gelicnes-nom-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "d",
+          "decision": "gatherings location",
+          "generated_form_ids": [
+            "gegaderung-dat-pl"
+          ],
+          "stimulus_form_ids": [
+            "on-invariant"
+          ],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-F08",
+      "key_item_id": "KEY-CH01-F08",
+      "prompt": "Reference check: locate ðȳ and ðon in the article table. Identify their case and singular genders. This checks recognition of the reference forms; their use in composition is not required.",
+      "exact_prompt_markdown": "8. Reference check: locate **ðȳ** and **ðon** in the article table. Identify their case and singular genders. This checks recognition of the reference forms; their use in composition is not required.",
+      "learner_block": "8. Reference check: locate **ðȳ** and **ðon** in the article table. Identify their case and singular genders. This checks recognition of the reference forms; their use in composition is not required.",
+      "learner_line": 414,
+      "learner_block_sha256": "c9a612de2bd1e99adde94a70cf9de7bc59a792249db5a315ea98f758967b49c0",
+      "baseline_record_sha256": "edf1b0dbc4f0a8ca35a43272a27143d2a34bbb0c1e76591ac54dac599047e273",
+      "task_classification": "reference_check",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "se-m-ins-sg",
+        "se-m-ins-sg-variant",
+        "se-n-ins-sg",
+        "se-n-ins-sg-variant"
+      ],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "se-m-ins-sg",
+        "se-m-ins-sg-variant",
+        "se-n-ins-sg",
+        "se-n-ins-sg-variant"
+      ],
+      "required_sense_ids": [
+        "se-the"
+      ],
+      "required_feature_ids": [
+        "article-instrumental-reference"
+      ],
+      "stimulus_vs_output": {
+        "output": "English recognition of instrumental masculine/neuter singular; no instrumental syntax production.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "article-instrumental-reference"
+        ],
+        "prior_model_or_reference": "§2 instrumental reference cells.",
+        "new_decision": "Locate and identify stated reference forms.",
+        "production_or_recognition_scope": "English recognition of instrumental masculine/neuter singular; no instrumental syntax production.",
+        "supplied_dependencies": "Both spellings and the table are supplied as reference.",
+        "exposure_check": "Explicit lookup; does not count as fresh transfer.",
+        "counts_as_transfer": false
+      }
+    },
+    {
+      "task_id": "CH01-COP01",
+      "key_item_id": "KEY-CH01-COP01",
+      "prompt": "You are speaking about yourself: “I was in the tree.” Then change only the time: “I am in the tree.”",
+      "exact_prompt_markdown": "1. You are speaking about yourself: “I was in the tree.” Then change only the time: “I am in the tree.”",
+      "learner_block": "1. You are speaking about yourself: “I was in the tree.” Then change only the time: “I am in the tree.”",
+      "learner_line": 422,
+      "learner_block_sha256": "b053313326d98afb58bbf34e552070c403ffacbad75115a4c88d661bdc5bdd69",
+      "baseline_record_sha256": "1430e3691dcf1e34272f05dc19398cbdb29f7d897029460f3be0bcfd6a3f9499",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "ic-nom-sg",
+        "wesan-pret-1-sg",
+        "wesan-pres-1-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "treo-dat-sg"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "ic-nom-sg",
+        "wesan-pret-1-sg",
+        "wesan-pres-1-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "treo-dat-sg"
+      ],
+      "required_sense_ids": [
+        "ic-subject",
+        "wesan-be",
+        "on-1",
+        "se-the",
+        "treo-1"
+      ],
+      "required_feature_ids": [
+        "copula-indicative",
+        "subject-agreement",
+        "u01-subject-pronouns",
+        "on-dative-location",
+        "article-agreement"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce two complete clauses with ic, wæs/eom and locative phrase.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "copula-indicative",
+          "subject-agreement",
+          "u01-subject-pronouns",
+          "on-dative-location",
+          "article-agreement"
+        ],
+        "prior_model_or_reference": "§8 nominatives/copula; EXAMPLE09 Ic eom mann; §9 on; §4 trēo.",
+        "new_decision": "Select speaker singular; change past to present with unchanged tree location.",
+        "production_or_recognition_scope": "Produce two complete clauses with ic, wæs/eom and locative phrase.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "Worked ic uses a present nominal predicate; this past/present location contrast is new.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "past",
+          "decision": "speaker singular past",
+          "generated_form_ids": [
+            "ic-nom-sg",
+            "wesan-pret-1-sg",
+            "on-invariant",
+            "se-n-dat-sg",
+            "treo-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "present",
+          "decision": "change time only",
+          "generated_form_ids": [
+            "ic-nom-sg",
+            "wesan-pres-1-sg",
+            "on-invariant",
+            "se-n-dat-sg",
+            "treo-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-COP02",
+      "key_item_id": "KEY-CH01-COP02",
+      "prompt": "Address one person: “You are in the water.” Then place the same state in the past.",
+      "exact_prompt_markdown": "2. Address one person: “You are in the water.” Then place the same state in the past.",
+      "learner_block": "2. Address one person: “You are in the water.” Then place the same state in the past.",
+      "learner_line": 426,
+      "learner_block_sha256": "a09205a0094d8b64341f99d995e6d46e9f41d322f35cc52d0f2cd8311d443c7c",
+      "baseline_record_sha256": "63f613aa006291c3ff6ef3d74c3ac26d1ff264cceaf0fed62250272c3afefcdc",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "thu-nom-sg",
+        "wesan-pres-2-sg",
+        "wesan-pret-2-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "waeter-dat-sg"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "thu-nom-sg",
+        "wesan-pres-2-sg",
+        "wesan-pret-2-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "waeter-dat-sg"
+      ],
+      "required_sense_ids": [
+        "thu-subject",
+        "wesan-be",
+        "on-1",
+        "se-the",
+        "waeter-1"
+      ],
+      "required_feature_ids": [
+        "copula-indicative",
+        "subject-agreement",
+        "u01-subject-pronouns",
+        "on-dative-location",
+        "article-agreement"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce complete clauses with ðū and eart/wǣre.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "copula-indicative",
+          "subject-agreement",
+          "u01-subject-pronouns",
+          "on-dative-location",
+          "article-agreement"
+        ],
+        "prior_model_or_reference": "§8 second singular; §9 on; §4 wæter.",
+        "new_decision": "Select one addressee, then preserve person/number/location while changing tense.",
+        "production_or_recognition_scope": "Produce complete clauses with ðū and eart/wǣre.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "No worked second-person water clause supplies these full answers.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "present",
+          "decision": "one addressee present",
+          "generated_form_ids": [
+            "thu-nom-sg",
+            "wesan-pres-2-sg",
+            "on-invariant",
+            "se-n-dat-sg",
+            "waeter-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "past",
+          "decision": "one addressee past",
+          "generated_form_ids": [
+            "thu-nom-sg",
+            "wesan-pret-2-sg",
+            "on-invariant",
+            "se-n-dat-sg",
+            "waeter-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-COP03",
+      "key_item_id": "KEY-CH01-COP03",
+      "prompt": "Replace the subject of each sentence with its appropriate pronoun and translate: (a) “The spirit was in the air”; (b) “The sign is in the dwelling”; (c) “The image is on the earth.” Which choice depends on grammatical gender rather than sex?",
+      "exact_prompt_markdown": "3. Replace the subject of each sentence with its appropriate pronoun and translate: (a) “The spirit was in the air”; (b) “The sign is in the dwelling”; (c) “The image is on the earth.” Which choice depends on grammatical gender rather than sex?",
+      "learner_block": "3. Replace the subject of each sentence with its appropriate pronoun and translate: (a) “The spirit was in the air”; (b) “The sign is in the dwelling”; (c) “The image is on the earth.” Which choice depends on grammatical gender rather than sex?",
+      "learner_line": 430,
+      "learner_block_sha256": "ee81beb1891f425cc56303538d55db7c46fd82ba4bd62f87a2a628936f4935b6",
+      "baseline_record_sha256": "e48972e3ad6136931ce52c6d488937c50245293cf87f3d60ccba46c575fa11be",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "he-m-nom-sg",
+        "he-n-nom-sg",
+        "he-f-nom-sg",
+        "wesan-pret-3-sg",
+        "wesan-pres-3-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "lyft-dat-sg",
+        "hof-dat-sg",
+        "se-f-dat-sg",
+        "eorthe-dat-sg"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "he-m-nom-sg",
+        "he-n-nom-sg",
+        "he-f-nom-sg",
+        "wesan-pret-3-sg",
+        "wesan-pres-3-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "lyft-dat-sg",
+        "hof-dat-sg",
+        "se-f-dat-sg",
+        "eorthe-dat-sg"
+      ],
+      "required_sense_ids": [
+        "he-subject",
+        "wesan-be",
+        "on-1",
+        "se-the",
+        "gast-1",
+        "lyft-1",
+        "tacen-1",
+        "hof-1",
+        "andlicnes-1",
+        "eorthe-1"
+      ],
+      "required_feature_ids": [
+        "copula-indicative",
+        "subject-agreement",
+        "u01-subject-pronouns",
+        "on-dative-location",
+        "article-agreement",
+        "u01-subject-pronoun-reference",
+        "noun-gender"
+      ],
+      "stimulus_vs_output": {
+        "output": "Three clauses with pronoun subjects; antecedent nouns are meaning/gender cues, not requested OE output. Explain gender independent of sex.",
+        "context_only_sense_ids": [
+          "gast-1",
+          "tacen-1",
+          "andlicnes-1"
+        ],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "copula-indicative",
+          "subject-agreement",
+          "u01-subject-pronouns",
+          "on-dative-location",
+          "article-agreement",
+          "u01-subject-pronoun-reference",
+          "noun-gender"
+        ],
+        "prior_model_or_reference": "§8 gender/reference; §10 gāst m., tācen n., andlīcnes f.; §9 on.",
+        "new_decision": "Use OE antecedent gender to choose hē/hit/hēo; retain each time/location.",
+        "production_or_recognition_scope": "Three clauses with pronoun subjects; antecedent nouns are meaning/gender cues, not requested OE output. Explain gender independent of sex.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "No worked clause gives these antecedents or locations; all three gender choices must be applied.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "a",
+          "decision": "masculine spirit, past; neuter air location",
+          "generated_form_ids": [
+            "he-m-nom-sg",
+            "wesan-pret-3-sg",
+            "on-invariant",
+            "se-n-dat-sg",
+            "lyft-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "b",
+          "decision": "neuter sign, present",
+          "generated_form_ids": [
+            "he-n-nom-sg",
+            "wesan-pres-3-sg",
+            "on-invariant",
+            "se-n-dat-sg",
+            "hof-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "c",
+          "decision": "feminine image, present",
+          "generated_form_ids": [
+            "he-f-nom-sg",
+            "wesan-pres-3-sg",
+            "on-invariant",
+            "se-f-dat-sg",
+            "eorthe-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-COP04",
+      "key_item_id": "KEY-CH01-COP04",
+      "prompt": "You speak for yourself and one companion: “We two are in the sea.” Put this in the past, then restate the past sentence for a group of three that includes you. Explain which pronoun changes and why the verb's number does not.",
+      "exact_prompt_markdown": "4. You speak for yourself and one companion: “We two are in the sea.” Put this in the past, then restate the past sentence for a group of three that includes you. Explain which pronoun changes and why the verb's number does not.",
+      "learner_block": "4. You speak for yourself and one companion: “We two are in the sea.” Put this in the past, then restate the past sentence for a group of three that includes you. Explain which pronoun changes and why the verb's number does not.",
+      "learner_line": 434,
+      "learner_block_sha256": "76b5da51a5288eb2527f24d8c6cf2b20de501ea66691588a74af472b36cd7e15",
+      "baseline_record_sha256": "8d0cd1523869bd28db33611c12c7b428d0ddb4a820f6bb2d5a696a1af7e18653",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "ic-nom-dual",
+        "ic-nom-pl",
+        "wesan-pres-1-pl",
+        "wesan-pret-1-pl",
+        "on-invariant",
+        "se-m-dat-sg",
+        "sae-dat-sg"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "ic-nom-dual",
+        "ic-nom-pl",
+        "wesan-pres-1-pl",
+        "wesan-pret-1-pl",
+        "on-invariant",
+        "se-m-dat-sg",
+        "sae-dat-sg"
+      ],
+      "required_sense_ids": [
+        "ic-subject",
+        "wesan-be",
+        "on-1",
+        "se-the",
+        "sae-1"
+      ],
+      "required_feature_ids": [
+        "copula-indicative",
+        "subject-agreement",
+        "u01-subject-pronouns",
+        "on-dative-location",
+        "article-agreement",
+        "u01-dual-subject-agreement"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce dual present/past and plural past; explain pronoun change without a dual verb form.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "copula-indicative",
+          "subject-agreement",
+          "u01-subject-pronouns",
+          "on-dative-location",
+          "article-agreement",
+          "u01-dual-subject-agreement"
+        ],
+        "prior_model_or_reference": "§8 wit/wē with plural copula; EXAMPLE10; §7 masculine sǣ.",
+        "new_decision": "Choose explicit dual, change tense, then refer to three including speaker with the same plural verb morphology.",
+        "production_or_recognition_scope": "Produce dual present/past and plural past; explain pronoun change without a dual verb form.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "Worked wit has a predicate noun, not this location/time/group-size sequence.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "dual present",
+          "decision": "two include speaker",
+          "generated_form_ids": [
+            "ic-nom-dual",
+            "wesan-pres-1-pl",
+            "on-invariant",
+            "se-m-dat-sg",
+            "sae-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "dual past",
+          "decision": "same two past",
+          "generated_form_ids": [
+            "ic-nom-dual",
+            "wesan-pret-1-pl",
+            "on-invariant",
+            "se-m-dat-sg",
+            "sae-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "plural past",
+          "decision": "three include speaker",
+          "generated_form_ids": [
+            "ic-nom-pl",
+            "wesan-pret-1-pl",
+            "on-invariant",
+            "se-m-dat-sg",
+            "sae-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-COP05",
+      "key_item_id": "KEY-CH01-COP05",
+      "prompt": "Address two companions: “You two were in the dwelling.” Put this in the present, then restate the present sentence to address a group of three. Explain the choices of pronoun and verb.",
+      "exact_prompt_markdown": "5. Address two companions: “You two were in the dwelling.” Put this in the present, then restate the present sentence to address a group of three. Explain the choices of pronoun and verb.",
+      "learner_block": "5. Address two companions: “You two were in the dwelling.” Put this in the present, then restate the present sentence to address a group of three. Explain the choices of pronoun and verb.",
+      "learner_line": 438,
+      "learner_block_sha256": "dec54ff9cd07fc5635c5ba4ab1779bbc897206038d524db86dc31fe76aa5113e",
+      "baseline_record_sha256": "a4ecf369903a10d944b407fd62f83910f66a80711dd1f46c67c50c2d4ffdeb0b",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "thu-nom-dual",
+        "thu-nom-pl",
+        "wesan-pret-2-pl",
+        "wesan-pres-2-pl",
+        "on-invariant",
+        "se-n-dat-sg",
+        "hof-dat-sg"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "thu-nom-dual",
+        "thu-nom-pl",
+        "wesan-pret-2-pl",
+        "wesan-pres-2-pl",
+        "on-invariant",
+        "se-n-dat-sg",
+        "hof-dat-sg"
+      ],
+      "required_sense_ids": [
+        "thu-subject",
+        "wesan-be",
+        "on-1",
+        "se-the",
+        "hof-1"
+      ],
+      "required_feature_ids": [
+        "copula-indicative",
+        "subject-agreement",
+        "u01-subject-pronouns",
+        "on-dative-location",
+        "article-agreement",
+        "u01-dual-subject-agreement"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce dual past/present and plural present; explain pronoun/verb choices.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "copula-indicative",
+          "subject-agreement",
+          "u01-subject-pronouns",
+          "on-dative-location",
+          "article-agreement",
+          "u01-dual-subject-agreement"
+        ],
+        "prior_model_or_reference": "§8 git/gē and plural indicative; §9 on.",
+        "new_decision": "Address two explicitly; change time; then address three with plural pronoun but the same plural verb morphology.",
+        "production_or_recognition_scope": "Produce dual past/present and plural present; explain pronoun/verb choices.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "No worked git/gē clause supplies the answer. Addressee person and changed group size require a new choice.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "dual past",
+          "decision": "two addressees past",
+          "generated_form_ids": [
+            "thu-nom-dual",
+            "wesan-pret-2-pl",
+            "on-invariant",
+            "se-n-dat-sg",
+            "hof-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "dual present",
+          "decision": "same two present",
+          "generated_form_ids": [
+            "thu-nom-dual",
+            "wesan-pres-2-pl",
+            "on-invariant",
+            "se-n-dat-sg",
+            "hof-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "plural present",
+          "decision": "three addressees present",
+          "generated_form_ids": [
+            "thu-nom-pl",
+            "wesan-pres-2-pl",
+            "on-invariant",
+            "se-n-dat-sg",
+            "hof-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-COP06",
+      "key_item_id": "KEY-CH01-COP06",
+      "prompt": "The whales have already been mentioned. Say “They were in the water,” then put this in the present. Would the subject pronoun change if it referred instead to several feminine gesceafta, “creatures”? Explain.",
+      "exact_prompt_markdown": "6. The whales have already been mentioned. Say “They were in the water,” then put this in the present. Would the subject pronoun change if it referred instead to several feminine **gesceafta**, “creatures”? Explain.",
+      "learner_block": "6. The whales have already been mentioned. Say “They were in the water,” then put this in the present. Would the subject pronoun change if it referred instead to several feminine **gesceafta**, “creatures”? Explain.",
+      "learner_line": 442,
+      "learner_block_sha256": "bd65072246cd4ebe635ccc14d0609e34d13ab5b62768826d23dd3dd4e17e5615",
+      "baseline_record_sha256": "7678162d5ce6397dfbaaf622b7bd89f80940f2a4e8c749fbb74e7e4de0b6864a",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "he-nom-pl",
+        "wesan-pret-3-pl",
+        "wesan-pres-3-pl",
+        "on-invariant",
+        "se-n-dat-sg",
+        "waeter-dat-sg"
+      ],
+      "recognized_form_ids": [
+        "gesceaft-nom-pl"
+      ],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "he-nom-pl",
+        "wesan-pret-3-pl",
+        "wesan-pres-3-pl",
+        "on-invariant",
+        "se-n-dat-sg",
+        "waeter-dat-sg",
+        "gesceaft-nom-pl"
+      ],
+      "required_sense_ids": [
+        "he-subject",
+        "wesan-be",
+        "on-1",
+        "se-the",
+        "waeter-1",
+        "hwael-1",
+        "gesceaft-1"
+      ],
+      "required_feature_ids": [
+        "copula-indicative",
+        "subject-agreement",
+        "u01-subject-pronouns",
+        "on-dative-location",
+        "article-agreement",
+        "u01-subject-pronoun-reference",
+        "noun-gender"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce past/present hīe clauses; explain unchanged plural reference across gender.",
+        "context_only_sense_ids": [
+          "hwael-1",
+          "gesceaft-1"
+        ],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "copula-indicative",
+          "subject-agreement",
+          "u01-subject-pronouns",
+          "on-dative-location",
+          "article-agreement",
+          "u01-subject-pronoun-reference",
+          "noun-gender"
+        ],
+        "prior_model_or_reference": "§8 plural hīe for every gender; §5 gesceaft; §9 on.",
+        "new_decision": "Select third plural, change tense, and decide whether feminine creatures change the plural pronoun.",
+        "production_or_recognition_scope": "Produce past/present hīe clauses; explain unchanged plural reference across gender.",
+        "supplied_dependencies": "Gesceafta is printed and given its plural meaning/feminine gender. It is a context recognition item, not independently produced.",
+        "exposure_check": "EXAMPLE07 has noun hwalas and animal predicate, not these pronoun/location clauses; the feminine alternative tests a new reference contrast.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "past",
+          "decision": "third plural past",
+          "generated_form_ids": [
+            "he-nom-pl",
+            "wesan-pret-3-pl",
+            "on-invariant",
+            "se-n-dat-sg",
+            "waeter-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "present",
+          "decision": "third plural present",
+          "generated_form_ids": [
+            "he-nom-pl",
+            "wesan-pres-3-pl",
+            "on-invariant",
+            "se-n-dat-sg",
+            "waeter-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "comparison",
+          "decision": "all plural genders use hīe",
+          "generated_form_ids": [],
+          "stimulus_form_ids": [
+            "gesceaft-nom-pl"
+          ],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-CASE10",
+      "key_item_id": "KEY-CH01-CASE10",
+      "prompt": "Complete the printed sealde frame to express: The man gave seed to the birds. Identify the recipient and the thing given.",
+      "exact_prompt_markdown": "10. Complete the printed sealde frame to express: The man gave seed to the birds. Identify the recipient and the thing given.",
+      "learner_block": "10. Complete the printed sealde frame to express: The man gave seed to the birds. Identify the recipient and the thing given.\n\n   **_____ sealde _____ _____.**\n\n   Supplied: **sealde**, “gave,” third-person singular preterite. Put the recipient before the thing given in this frame.",
+      "learner_line": 522,
+      "learner_block_sha256": "998ec3400d929620d16e14890a547671cbfd921145aa66870098538f4482f09c",
+      "baseline_record_sha256": "f67bbb8c28487c8130affd3f5cad415c8aac89363e0433d0ebf98de926619ada",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "se-all-dat-pl",
+        "fugol-dat-pl",
+        "saed-acc-sg"
+      ],
+      "recognized_form_ids": [],
+      "supplied_form_ids": [
+        "sellan-pret-3-sg"
+      ],
+      "required_form_ids": [
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "se-all-dat-pl",
+        "fugol-dat-pl",
+        "saed-acc-sg",
+        "sellan-pret-3-sg"
+      ],
+      "required_sense_ids": [
+        "se-the",
+        "mann-1",
+        "sellan-give",
+        "fugol-1",
+        "saed-1"
+      ],
+      "required_feature_ids": [
+        "dative-recipient",
+        "accusative-object",
+        "article-agreement",
+        "subject-predicate",
+        "paradigm-masc-syncope"
+      ],
+      "stimulus_vs_output": {
+        "output": "Fill noun/article slots and identify recipient/object; no sealde conjugation.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "dative-recipient",
+          "accusative-object",
+          "article-agreement",
+          "subject-predicate",
+          "paradigm-masc-syncope"
+        ],
+        "prior_model_or_reference": "§9 EXAMPLE05; §3 fugol; CASE09 singular recipient contrast.",
+        "new_decision": "Distinguish subject, plural recipient and thing; choose dative plural rather than worked singular.",
+        "production_or_recognition_scope": "Fill noun/article slots and identify recipient/object; no sealde conjugation.",
+        "supplied_dependencies": "Exact sealde form/meaning/person/tense and slot order.",
+        "exposure_check": "Worked example has God, one bird and food; this changes subject, recipient number and thing given.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "subject",
+          "decision": "man as giver",
+          "generated_form_ids": [
+            "se-m-nom-sg",
+            "mann-nom-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "recipient",
+          "decision": "birds plural",
+          "generated_form_ids": [
+            "se-all-dat-pl",
+            "fugol-dat-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "object",
+          "decision": "seed",
+          "generated_form_ids": [
+            "saed-acc-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-MINI01",
+      "key_item_id": "KEY-CH01-MINI01",
+      "prompt": "Where was the man, and where is he now? Identify the reference of each pronoun. Explain the number of the subject and predicate noun in the fourth sentence, and identify whose dwelling is mentioned at the close.",
+      "exact_prompt_markdown": "1. Where was the man, and where is he now? Identify the reference of each pronoun. Explain the number of the subject and predicate noun in the fourth sentence, and identify whose dwelling is mentioned at the close.",
+      "learner_block": "1. Where was the man, and where is he now? Identify the reference of each pronoun. Explain the number of the subject and predicate noun in the fourth sentence, and identify whose dwelling is mentioned at the close.\n\n   Se mann wæs on ðǣm sǣ. Hē is on ðǣm hofe. Ðā fiscas sindon on ðǣm hofe. Hīe sindon ðæs mannes męte. Ðæt hof is on ðǣre eorðan. Hit is ðæs mannes hof.",
+      "learner_line": 764,
+      "learner_block_sha256": "a44388688b553da90a466d6e850fa603aa3efaf943e1a36fc2c1cf0c0e386d19",
+      "baseline_record_sha256": "6d24a8df847a8a9936815aa294866810738ea0713990d00f313f5000722ca3e4",
+      "task_classification": "transfer",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "wesan-pret-3-sg",
+        "on-invariant",
+        "se-m-dat-sg",
+        "sae-dat-sg",
+        "he-m-nom-sg",
+        "wesan-pres-3-sg",
+        "se-n-dat-sg",
+        "hof-dat-sg",
+        "se-all-nom-pl",
+        "fisc-nom-pl",
+        "wesan-pres-3-pl",
+        "he-nom-pl",
+        "se-m-gen-sg",
+        "mann-gen-sg",
+        "mete-nom-sg",
+        "se-n-nom-sg",
+        "hof-nom-sg",
+        "se-f-dat-sg",
+        "eorthe-dat-sg",
+        "he-n-nom-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "wesan-pret-3-sg",
+        "on-invariant",
+        "se-m-dat-sg",
+        "sae-dat-sg",
+        "he-m-nom-sg",
+        "wesan-pres-3-sg",
+        "se-n-dat-sg",
+        "hof-dat-sg",
+        "se-all-nom-pl",
+        "fisc-nom-pl",
+        "wesan-pres-3-pl",
+        "he-nom-pl",
+        "se-m-gen-sg",
+        "mann-gen-sg",
+        "mete-nom-sg",
+        "se-n-nom-sg",
+        "hof-nom-sg",
+        "se-f-dat-sg",
+        "eorthe-dat-sg",
+        "he-n-nom-sg"
+      ],
+      "required_sense_ids": [
+        "se-the",
+        "mann-1",
+        "wesan-be",
+        "on-1",
+        "sae-1",
+        "he-subject",
+        "hof-1",
+        "fisc-1",
+        "mete-1",
+        "eorthe-1"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "subject-agreement",
+        "on-dative-location",
+        "genitive-relationship",
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference",
+        "noun-gender",
+        "case-syncretism"
+      ],
+      "stimulus_vs_output": {
+        "output": "English translation and analyses only; no OE production.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone.",
+        "oe_stimulus_form_ids": [
+          "se-m-nom-sg",
+          "mann-nom-sg",
+          "wesan-pret-3-sg",
+          "on-invariant",
+          "se-m-dat-sg",
+          "sae-dat-sg",
+          "he-m-nom-sg",
+          "wesan-pres-3-sg",
+          "se-n-dat-sg",
+          "hof-dat-sg",
+          "se-all-nom-pl",
+          "fisc-nom-pl",
+          "wesan-pres-3-pl",
+          "he-nom-pl",
+          "se-m-gen-sg",
+          "mann-gen-sg",
+          "mete-nom-sg",
+          "se-n-nom-sg",
+          "hof-nom-sg",
+          "se-f-dat-sg",
+          "eorthe-dat-sg",
+          "he-n-nom-sg"
+        ]
+      },
+      "transfer": {
+        "target_feature": [
+          "subject-predicate",
+          "subject-agreement",
+          "on-dative-location",
+          "genitive-relationship",
+          "u01-subject-pronouns",
+          "u01-subject-pronoun-reference",
+          "noun-gender",
+          "case-syncretism"
+        ],
+        "prior_model_or_reference": "§§8–9 reference/tense/location/predicate/genitive; §10 singular męte.",
+        "new_decision": "Track changed location, three pronoun references, plural fish with singular mass-food predicate, and final possessor.",
+        "production_or_recognition_scope": "English translation and analyses only; no OE production.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "Fresh six-sentence narrative combines time/reference/role choices and contains no complete COMP01–08 answer. Singular food sense remains unchanged.",
+        "counts_as_transfer": true
+      }
+    },
+    {
+      "task_id": "CH01-MINI02",
+      "key_item_id": "KEY-CH01-MINI02",
+      "prompt": "Translate the passage and rewrite it in the present. Explain why hēo does not establish the creature's sex. Then rewrite just the first two sentences about several creatures in the same dwelling, in the present; preserve “animals” as the predicate noun. Identify the reference of hit in the original passage and the case of gesceafte.",
+      "exact_prompt_markdown": "2. Translate the passage and rewrite it in the present. Explain why **hēo** does not establish the creature's sex. Then rewrite just the first two sentences about several creatures in the same dwelling, in the present; preserve “animals” as the predicate noun. Identify the reference of **hit** in the original passage and the case of **gesceafte**.",
+      "learner_block": "2. Translate the passage and rewrite it in the present. Explain why **hēo** does not establish the creature's sex. Then rewrite just the first two sentences about several creatures in the same dwelling, in the present; preserve “animals” as the predicate noun. Identify the reference of **hit** in the original passage and the case of **gesceafte**.\n\n   Sēo gesceaft wæs on ðǣm hofe. Hēo wæs dēor. Ðæt sǣd wæs on ðǣm hofe. Hit wæs ðǣre gesceafte męte.",
+      "learner_line": 770,
+      "learner_block_sha256": "69264104cf25435794b845b5356e9d99cd11d7c6c58f4aa86d03849b4e10d081",
+      "baseline_record_sha256": "13020c7437d036727037a76aab64a235b3ec4634daee9efdb8106732f009593f",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "wesan-pres-3-sg",
+        "se-all-nom-pl",
+        "gesceaft-nom-pl",
+        "he-nom-pl",
+        "wesan-pres-3-pl",
+        "deor-nom-pl"
+      ],
+      "recognized_form_ids": [
+        "se-f-nom-sg",
+        "gesceaft-nom-sg",
+        "wesan-pret-3-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "hof-dat-sg",
+        "he-f-nom-sg",
+        "deor-nom-sg",
+        "se-n-nom-sg",
+        "saed-nom-sg",
+        "he-n-nom-sg",
+        "se-f-gen-sg",
+        "gesceaft-gen-sg",
+        "mete-nom-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "wesan-pres-3-sg",
+        "se-all-nom-pl",
+        "gesceaft-nom-pl",
+        "he-nom-pl",
+        "wesan-pres-3-pl",
+        "deor-nom-pl",
+        "se-f-nom-sg",
+        "gesceaft-nom-sg",
+        "wesan-pret-3-sg",
+        "on-invariant",
+        "se-n-dat-sg",
+        "hof-dat-sg",
+        "he-f-nom-sg",
+        "deor-nom-sg",
+        "se-n-nom-sg",
+        "saed-nom-sg",
+        "he-n-nom-sg",
+        "se-f-gen-sg",
+        "gesceaft-gen-sg",
+        "mete-nom-sg"
+      ],
+      "required_sense_ids": [
+        "se-the",
+        "gesceaft-1",
+        "wesan-be",
+        "on-1",
+        "hof-1",
+        "he-subject",
+        "deor-1",
+        "saed-1",
+        "mete-1"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "subject-agreement",
+        "copula-indicative",
+        "on-dative-location",
+        "genitive-relationship",
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference",
+        "noun-gender",
+        "paradigm-neut-weight"
+      ],
+      "stimulus_vs_output": {
+        "output": "Interpret original forms; produce changed tense/number cells. Unchanged copied words are not independent recall evidence.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone.",
+        "oe_stimulus_form_ids": [
+          "se-f-nom-sg",
+          "gesceaft-nom-sg",
+          "wesan-pret-3-sg",
+          "on-invariant",
+          "se-n-dat-sg",
+          "hof-dat-sg",
+          "he-f-nom-sg",
+          "deor-nom-sg",
+          "se-n-nom-sg",
+          "saed-nom-sg",
+          "he-n-nom-sg",
+          "se-f-gen-sg",
+          "gesceaft-gen-sg",
+          "mete-nom-sg"
+        ],
+        "unchanged_reproduced_form_ids": [
+          "se-f-nom-sg",
+          "gesceaft-nom-sg",
+          "on-invariant",
+          "se-n-dat-sg",
+          "hof-dat-sg",
+          "he-f-nom-sg",
+          "deor-nom-sg",
+          "se-n-nom-sg",
+          "saed-nom-sg",
+          "he-n-nom-sg",
+          "se-f-gen-sg",
+          "gesceaft-gen-sg",
+          "mete-nom-sg"
+        ]
+      },
+      "transfer": {
+        "target_feature": [
+          "subject-predicate",
+          "subject-agreement",
+          "copula-indicative",
+          "on-dative-location",
+          "genitive-relationship",
+          "u01-subject-pronouns",
+          "u01-subject-pronoun-reference",
+          "noun-gender",
+          "paradigm-neut-weight"
+        ],
+        "prior_model_or_reference": "§§8–9 reference/tense; EXAMPLE07 plural animal predicate; §5 gesceaft; §4 dēor.",
+        "new_decision": "Translate, change all four clauses to present, then pluralize only the first two while retaining singular dwelling and plural animal predicate.",
+        "production_or_recognition_scope": "Interpret original forms; produce changed tense/number cells. Unchanged copied words are not independent recall evidence.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "The worked whale clause provides the general plural predicate pattern, not these complete sentences; hēo/hit reference and plural transformation are new decisions.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "whole present",
+          "decision": "same subjects; present",
+          "generated_form_ids": [
+            "wesan-pres-3-sg"
+          ],
+          "stimulus_form_ids": [
+            "se-f-nom-sg",
+            "gesceaft-nom-sg",
+            "wesan-pret-3-sg",
+            "on-invariant",
+            "se-n-dat-sg",
+            "hof-dat-sg",
+            "he-f-nom-sg",
+            "deor-nom-sg",
+            "se-n-nom-sg",
+            "saed-nom-sg",
+            "he-n-nom-sg",
+            "se-f-gen-sg",
+            "gesceaft-gen-sg",
+            "mete-nom-sg"
+          ],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "first two plural",
+          "decision": "plural creatures; dwelling unchanged",
+          "generated_form_ids": [
+            "se-all-nom-pl",
+            "gesceaft-nom-pl",
+            "he-nom-pl",
+            "wesan-pres-3-pl",
+            "deor-nom-pl"
+          ],
+          "stimulus_form_ids": [
+            "on-invariant",
+            "se-n-dat-sg",
+            "hof-dat-sg"
+          ],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "reference/case",
+          "decision": "hit seed; gesceafte dependent",
+          "generated_form_ids": [],
+          "stimulus_form_ids": [
+            "he-n-nom-sg",
+            "saed-nom-sg",
+            "se-f-gen-sg",
+            "gesceaft-gen-sg"
+          ],
+          "comparison_form_ids": []
+        }
+      ]
+    },
+    {
+      "task_id": "CH01-READ01",
+      "key_item_id": "KEY-CH01-READ01",
+      "prompt": "Using the local support, identify the subject and two objects of the first sentence. Is heofonan plural? Translate the sentence.",
+      "exact_prompt_markdown": "1. Using the local support, identify the subject and two objects of the first sentence. Is heofonan plural? Translate the sentence.",
+      "learner_block": "1. Using the local support, identify the subject and two objects of the first sentence. Is heofonan plural? Translate the sentence.",
+      "learner_line": 810,
+      "learner_block_sha256": "a667635426bc0c8a0b657f9f57e42bc83cc78ebeee3074a3373c72a0ea2886a2",
+      "baseline_record_sha256": "e9fb98be4997f857816e2af1732383443ade98f1e9d8f2b0e8e5cd31817455b6",
+      "task_classification": "guided_transfer",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "on-invariant",
+        "god-nom-sg",
+        "and-invariant",
+        "eorthe-acc-sg"
+      ],
+      "supplied_form_ids": [
+        "anginn-dat-sg",
+        "gescieppan-pret-3-sg",
+        "heofone-acc-sg"
+      ],
+      "required_form_ids": [
+        "on-invariant",
+        "god-nom-sg",
+        "and-invariant",
+        "eorthe-acc-sg",
+        "anginn-dat-sg",
+        "gescieppan-pret-3-sg",
+        "heofone-acc-sg"
+      ],
+      "required_sense_ids": [
+        "on-time-supplied",
+        "anginn-1",
+        "gescieppan-1",
+        "god-1",
+        "heofone-1",
+        "and-1",
+        "eorthe-1"
+      ],
+      "required_feature_ids": [
+        "accusative-object",
+        "source-word-order",
+        "reading-heofone",
+        "reading-on-anginne"
+      ],
+      "stimulus_vs_output": {
+        "output": "Guided recognition; no independent temporal on, gescēop or heofonan production.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "accusative-object",
+          "source-word-order",
+          "reading-heofone",
+          "reading-on-anginne"
+        ],
+        "prior_model_or_reference": "§16 source/help; §§1/9 subject/object; §6 eorðe.",
+        "new_decision": "Use local verb/order/weak-feminine help to parse the coordinated objects and translate.",
+        "production_or_recognition_scope": "Guided recognition; no independent temporal on, gescēop or heofonan production.",
+        "supplied_dependencies": "On anginne temporal meaning/dative; gescēop; God is explicitly identified as postverbal subject; heofonan is explicitly accusative singular.",
+        "exposure_check": "The heofonan analysis and subject-position answer are already given. Taught object coordination/eorðan can be applied, but those supplied answers do not count as independent transfer.",
+        "counts_as_transfer": true
+      }
+    },
+    {
+      "task_id": "CH01-READ02",
+      "key_item_id": "KEY-CH01-READ02",
+      "prompt": "Describe the earth and the darkness. Explain wǣron, then identify the head and genitive dependent in the phrase after ofer.",
+      "exact_prompt_markdown": "2. Describe the earth and the darkness. Explain wǣron, then identify the head and genitive dependent in the phrase after ofer.",
+      "learner_block": "2. Describe the earth and the darkness. Explain wǣron, then identify the head and genitive dependent in the phrase after ofer.",
+      "learner_line": 814,
+      "learner_block_sha256": "2e8e5707098d50019941babaffefc55dfd63742af72c890b4802e83cf0fe3ae8",
+      "baseline_record_sha256": "7c7c78d9842625693b9d7cb44c6583fb6804b0f1771453b0c423f60392278921",
+      "task_classification": "guided_transfer",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "se-f-nom-sg",
+        "eorthe-nom-sg",
+        "wesan-pret-3-sg",
+        "and-invariant",
+        "thiestru-nom-pl",
+        "wesan-pret-3-pl",
+        "se-f-gen-sg",
+        "neowolnes-gen-sg",
+        "bradnes-dat-sg"
+      ],
+      "supplied_form_ids": [
+        "sothlice-invariant",
+        "idel-nom-f-sg",
+        "aemtig-nom-f-sg",
+        "ofer-invariant"
+      ],
+      "required_form_ids": [
+        "se-f-nom-sg",
+        "eorthe-nom-sg",
+        "wesan-pret-3-sg",
+        "and-invariant",
+        "thiestru-nom-pl",
+        "wesan-pret-3-pl",
+        "se-f-gen-sg",
+        "neowolnes-gen-sg",
+        "bradnes-dat-sg",
+        "sothlice-invariant",
+        "idel-nom-f-sg",
+        "aemtig-nom-f-sg",
+        "ofer-invariant"
+      ],
+      "required_sense_ids": [
+        "se-the",
+        "eorthe-1",
+        "sothlice-1",
+        "wesan-be",
+        "idel-1",
+        "and-1",
+        "aemtig-1",
+        "thiestru-1",
+        "ofer-1",
+        "neowolnes-1",
+        "bradnes-1"
+      ],
+      "required_feature_ids": [
+        "reading-adjective-predicates",
+        "subject-agreement",
+        "reading-ofer-dative",
+        "nested-genitive-phrase",
+        "genitive-relationship",
+        "article-agreement",
+        "paradigm-exception-thiestru"
+      ],
+      "stimulus_vs_output": {
+        "output": "Recognize taught nouns/articles/copula; adjectives and ofer government stay supplied.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "reading-adjective-predicates",
+          "subject-agreement",
+          "reading-ofer-dative",
+          "nested-genitive-phrase",
+          "genitive-relationship",
+          "article-agreement",
+          "paradigm-exception-thiestru"
+        ],
+        "prior_model_or_reference": "§7 plural darkness; §9 EXAMPLE08; §16 ofer local government.",
+        "new_decision": "Explain wǣron from plural darkness and identify dative head/genitive dependent.",
+        "production_or_recognition_scope": "Recognize taught nouns/articles/copula; adjectives and ofer government stay supplied.",
+        "supplied_dependencies": "sōðlice, predicate adjective forms and meanings; ofer means over with a dative head. Help does not identify the head/dependent.",
+        "exposure_check": "Worked bird/tree phrase differs from this feminine nested relation. Exact attachment answer was removed from help; plural subject agreement also requires application.",
+        "counts_as_transfer": true
+      }
+    },
+    {
+      "task_id": "CH01-READ03",
+      "key_item_id": "KEY-CH01-READ03",
+      "prompt": "With the supplied passive phrase, state what God's spirit was doing and over what. Explain why wæteru cannot be the selected dative plural form.",
+      "exact_prompt_markdown": "3. With the supplied passive phrase, state what God's spirit was doing and over what. Explain why wæteru cannot be the selected dative plural form.",
+      "learner_block": "3. With the supplied passive phrase, state what God's spirit was doing and over what. Explain why wæteru cannot be the selected dative plural form.",
+      "learner_line": 818,
+      "learner_block_sha256": "4eebda08f03d7a1d07b27c37c185d5e410a38a76df192ebdec21e5df1e330f7f",
+      "baseline_record_sha256": "e2809751eb5a7e7069843a213d9335b5209673814f6f12c7784b2a833df6dff9",
+      "task_classification": "guided_transfer",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "and-invariant",
+        "god-gen-sg",
+        "gast-nom-sg",
+        "wesan-pret-3-sg",
+        "waeter-acc-pl",
+        "waeter-dat-pl"
+      ],
+      "supplied_form_ids": [
+        "geferian-past-participle",
+        "ofer-invariant"
+      ],
+      "required_form_ids": [
+        "and-invariant",
+        "god-gen-sg",
+        "gast-nom-sg",
+        "wesan-pret-3-sg",
+        "waeter-acc-pl",
+        "waeter-dat-pl",
+        "geferian-past-participle",
+        "ofer-invariant"
+      ],
+      "required_sense_ids": [
+        "and-1",
+        "god-1",
+        "gast-1",
+        "wesan-be",
+        "geferian-1",
+        "ofer-1",
+        "waeter-1"
+      ],
+      "required_feature_ids": [
+        "reading-passive-gefered",
+        "reading-ofer-accusative",
+        "genitive-relationship",
+        "paradigm-neut-disyllable"
+      ],
+      "stimulus_vs_output": {
+        "output": "Guided comprehension plus taught morphology comparison; no passive production.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone.",
+        "comparison_form_ids": [
+          "waeter-dat-pl"
+        ],
+        "comparison_note": "Reference contrast, not a token in this source clause."
+      },
+      "transfer": {
+        "target_feature": [
+          "reading-passive-gefered",
+          "reading-ofer-accusative",
+          "genitive-relationship",
+          "paradigm-neut-disyllable"
+        ],
+        "prior_model_or_reference": "§4 wæter; §9 genitive; §16 passive support.",
+        "new_decision": "Comprehend supported action, then contrast wæteru with selected dative plural morphology.",
+        "production_or_recognition_scope": "Guided comprehension plus taught morphology comparison; no passive production.",
+        "supplied_dependencies": "Complete passive interpretation and explicit accusative government of ofer wæteru.",
+        "exposure_check": "Passive action and accusative label are already supplied. The unsupplied decision is why the form cannot be dative plural.",
+        "counts_as_transfer": true
+      }
+    },
+    {
+      "task_id": "CH01-READ04",
+      "key_item_id": "KEY-CH01-READ04",
+      "prompt": "Does God's quoted speech report an existing fact or command/wish for something to come about? State what follows.",
+      "exact_prompt_markdown": "4. Does God's quoted speech report an existing fact or command/wish for something to come about? State what follows.",
+      "learner_block": "4. Does God's quoted speech report an existing fact or command/wish for something to come about? State what follows.",
+      "learner_line": 822,
+      "learner_block_sha256": "6af2b873f252132bb21f9be5bfb90c19746ecdeb91ebe3fdb6bf147cabbb7c74",
+      "baseline_record_sha256": "e25091dae401b90226192c53767d63334c1cbda8ef2e263f4ec240f870429dc8",
+      "task_classification": "supplied_check",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "god-nom-sg",
+        "leoht-nom-sg",
+        "and-invariant"
+      ],
+      "supplied_form_ids": [
+        "cwethan-pret-3-sg",
+        "tha-adverb-invariant",
+        "geweorthan-pres-subj-3-sg",
+        "weorthan-pret-3-sg",
+        "gewyrcean-past-participle"
+      ],
+      "required_form_ids": [
+        "god-nom-sg",
+        "leoht-nom-sg",
+        "and-invariant",
+        "cwethan-pret-3-sg",
+        "tha-adverb-invariant",
+        "geweorthan-pres-subj-3-sg",
+        "weorthan-pret-3-sg",
+        "gewyrcean-past-participle"
+      ],
+      "required_sense_ids": [
+        "god-1",
+        "cwethan-1",
+        "tha-adverb-1",
+        "geweorthan-1",
+        "leoht-1",
+        "and-1",
+        "weorthan-1",
+        "gewyrcean-1"
+      ],
+      "required_feature_ids": [
+        "reading-temporal-tha",
+        "reading-optative-command",
+        "reading-passive-geworht"
+      ],
+      "stimulus_vs_output": {
+        "output": "Supplied comprehension check only; no subjunctive/passive/preterite production.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "reading-temporal-tha",
+          "reading-optative-command",
+          "reading-passive-geworht"
+        ],
+        "prior_model_or_reference": "§16 cwæð ðā, Geweorðe lēoht, wearð geworht support.",
+        "new_decision": "Check supplied speech function and following event.",
+        "production_or_recognition_scope": "Supplied comprehension check only; no subjunctive/passive/preterite production.",
+        "supplied_dependencies": "Unfamiliar forms and command/passive interpretations are explicitly supplied.",
+        "exposure_check": "Help gives the command/wish and result; do not count toward independent transfer threshold.",
+        "counts_as_transfer": false
+      }
+    },
+    {
+      "task_id": "CH01-READ05",
+      "key_item_id": "KEY-CH01-READ05",
+      "prompt": "In God geseah ðā ðæt hit gōd wæs, use the supplied functions of ðā and ðæt, and identify the reference of hit from the context. Translate the clause.",
+      "exact_prompt_markdown": "5. In God geseah ðā ðæt hit gōd wæs, use the supplied functions of ðā and ðæt, and identify the reference of hit from the context. Translate the clause.",
+      "learner_block": "5. In God geseah ðā ðæt hit gōd wæs, use the supplied functions of ðā and ðæt, and identify the reference of hit from the context. Translate the clause.",
+      "learner_line": 826,
+      "learner_block_sha256": "503737f44a2f77b6c5e48f7ee2e8a5d8a636881b2f65f304eba1d537af1d2e22",
+      "baseline_record_sha256": "cf8d37387e63393bf59bc55cea3a618690f46e366045a9903f784e6c5daf2b66",
+      "task_classification": "guided_transfer",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "god-nom-sg",
+        "wesan-pret-3-sg",
+        "he-n-nom-sg"
+      ],
+      "supplied_form_ids": [
+        "geseon-pret-3-sg",
+        "tha-adverb-invariant",
+        "thaet-conjunction-invariant",
+        "god-adjective-nom-n-sg"
+      ],
+      "required_form_ids": [
+        "god-nom-sg",
+        "wesan-pret-3-sg",
+        "he-n-nom-sg",
+        "geseon-pret-3-sg",
+        "tha-adverb-invariant",
+        "thaet-conjunction-invariant",
+        "god-adjective-nom-n-sg"
+      ],
+      "required_sense_ids": [
+        "god-1",
+        "geseon-1",
+        "tha-adverb-1",
+        "thaet-conjunction-1",
+        "he-subject",
+        "god-adjective-1",
+        "wesan-be",
+        "leoht-1"
+      ],
+      "required_feature_ids": [
+        "reading-temporal-tha",
+        "reading-content-clause",
+        "reading-adjective-predicates",
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference",
+        "noun-gender"
+      ],
+      "stimulus_vs_output": {
+        "output": "Taught nominative reference; no oblique pronoun or independent content-clause production.",
+        "context_only_sense_ids": [
+          "leoht-1"
+        ],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "reading-temporal-tha",
+          "reading-content-clause",
+          "reading-adjective-predicates",
+          "u01-subject-pronouns",
+          "u01-subject-pronoun-reference",
+          "noun-gender"
+        ],
+        "prior_model_or_reference": "§8 pronoun reference; preceding source lēoht; §16 clause support.",
+        "new_decision": "Find hit’s neuter singular antecedent while using supported adverb/conjunction/adjective/order.",
+        "production_or_recognition_scope": "Taught nominative reference; no oblique pronoun or independent content-clause production.",
+        "supplied_dependencies": "geseah, temporal ðā, conjunction ðæt, gōd and embedded copula order; antecedent now left to learner.",
+        "exposure_check": "Help translates it but does not name the antecedent. Only reference is new transfer; adverb/conjunction labels are supported checks.",
+        "counts_as_transfer": true
+      }
+    },
+    {
+      "task_id": "CH01-READ06",
+      "key_item_id": "KEY-CH01-READ06",
+      "prompt": "What did God separate, and from what? Identify the direct-object and separation phrases and their cases.",
+      "exact_prompt_markdown": "6. What did God separate, and from what? Identify the direct-object and separation phrases and their cases.",
+      "learner_block": "6. What did God separate, and from what? Identify the direct-object and separation phrases and their cases.",
+      "learner_line": 830,
+      "learner_block_sha256": "910971a1d3fbe6b178d1056b00dec4111dd43d72bfd9e32f918a9aa58ec82009",
+      "baseline_record_sha256": "4f59e3a8f71c3dafea2f5d64dd339460b1b562d76bf5088efbc7936571e4422e",
+      "task_classification": "guided_transfer",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "and-invariant",
+        "se-n-acc-sg",
+        "leoht-acc-sg",
+        "fram-invariant",
+        "se-all-dat-pl",
+        "thiestru-dat-pl",
+        "he-m-nom-sg"
+      ],
+      "supplied_form_ids": [
+        "gedaelan-pret-3-sg"
+      ],
+      "required_form_ids": [
+        "and-invariant",
+        "se-n-acc-sg",
+        "leoht-acc-sg",
+        "fram-invariant",
+        "se-all-dat-pl",
+        "thiestru-dat-pl",
+        "he-m-nom-sg",
+        "gedaelan-pret-3-sg"
+      ],
+      "required_sense_ids": [
+        "and-1",
+        "he-subject",
+        "gedaelan-1",
+        "se-the",
+        "leoht-1",
+        "fram-1",
+        "thiestru-1",
+        "god-1"
+      ],
+      "required_feature_ids": [
+        "accusative-object",
+        "fram-dative-separation",
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference",
+        "article-agreement"
+      ],
+      "stimulus_vs_output": {
+        "output": "Taught pronoun and noun/article recognition; exact lexical verb remains supplied.",
+        "context_only_sense_ids": [
+          "god-1"
+        ],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "accusative-object",
+          "fram-dative-separation",
+          "u01-subject-pronouns",
+          "u01-subject-pronoun-reference",
+          "article-agreement"
+        ],
+        "prior_model_or_reference": "§8 hē reference; §9 revised seed/grass EXAMPLE06; previous God clause.",
+        "new_decision": "Find subject reference, direct object and separation complement with different number/gender from the model.",
+        "production_or_recognition_scope": "Taught pronoun and noun/article recognition; exact lexical verb remains supplied.",
+        "supplied_dependencies": "Gedǣlde form/meaning/person/tense. Help directs rather than answers hē reference.",
+        "exposure_check": "Former worked light/darkness answer was replaced by seed/grass. Learner applies known cases/reference to unchanged source.",
+        "counts_as_transfer": true
+      }
+    },
+    {
+      "task_id": "CH01-READ07",
+      "key_item_id": "KEY-CH01-READ07",
+      "prompt": "Using the naming and closing-formula support, state the names given, the understood subject of hēt, and the number of days in the close.",
+      "exact_prompt_markdown": "7. Using the naming and closing-formula support, state the names given, the understood subject of hēt, and the number of days in the close.",
+      "learner_block": "7. Using the naming and closing-formula support, state the names given, the understood subject of hēt, and the number of days in the close.",
+      "learner_line": 834,
+      "learner_block_sha256": "b9271bf6df70ccd905e1b3bfca86c6d01d45caedd27b959e8e449a39c163b4d3",
+      "baseline_record_sha256": "5ef5898635572baea78181151c76a4a722a407997abe448febd8a092ce322f25",
+      "task_classification": "supplied_check",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "and-invariant",
+        "se-n-acc-sg",
+        "leoht-acc-sg",
+        "daeg-acc-sg",
+        "se-all-acc-pl",
+        "thiestru-acc-pl",
+        "niht-acc-sg",
+        "wesan-pret-3-sg",
+        "aefen-nom-sg",
+        "morgen-nom-sg",
+        "daeg-nom-sg"
+      ],
+      "supplied_form_ids": [
+        "hatan-pret-3-sg",
+        "tha-adverb-invariant",
+        "geweorthan-past-participle",
+        "an-nom-m-sg"
+      ],
+      "required_form_ids": [
+        "and-invariant",
+        "se-n-acc-sg",
+        "leoht-acc-sg",
+        "daeg-acc-sg",
+        "se-all-acc-pl",
+        "thiestru-acc-pl",
+        "niht-acc-sg",
+        "wesan-pret-3-sg",
+        "aefen-nom-sg",
+        "morgen-nom-sg",
+        "daeg-nom-sg",
+        "hatan-pret-3-sg",
+        "tha-adverb-invariant",
+        "geweorthan-past-participle",
+        "an-nom-m-sg"
+      ],
+      "required_sense_ids": [
+        "and-1",
+        "hatan-1",
+        "se-the",
+        "leoht-1",
+        "daeg-1",
+        "thiestru-1",
+        "niht-1",
+        "tha-adverb-1",
+        "wesan-be",
+        "geweorthan-1",
+        "aefen-1",
+        "morgen-1",
+        "an-1",
+        "god-1"
+      ],
+      "required_feature_ids": [
+        "reading-naming",
+        "reading-resultative-ending",
+        "reading-temporal-tha"
+      ],
+      "stimulus_vs_output": {
+        "output": "Supplied naming/resultative comprehension; no independent construction or numeral inflection.",
+        "context_only_sense_ids": [
+          "god-1"
+        ],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "reading-naming",
+          "reading-resultative-ending",
+          "reading-temporal-tha"
+        ],
+        "prior_model_or_reference": "§16 naming and close support.",
+        "new_decision": "Check names, understood subject and one-day quantity.",
+        "production_or_recognition_scope": "Supplied naming/resultative comprehension; no independent construction or numeral inflection.",
+        "supplied_dependencies": "Full naming translation/analysis including God/he; complete close and one-not-first meaning.",
+        "exposure_check": "Requested information is supplied explicitly; excluded from transfer counts.",
+        "counts_as_transfer": false
+      }
+    },
+    {
+      "task_id": "CH01-READ08",
+      "key_item_id": "KEY-CH01-READ08",
+      "prompt": "Translate the entire first-day passage from the printed Old English, using the supplied help. Preserve the sequence, command, naming and one-day close.",
+      "exact_prompt_markdown": "8. Translate the entire first-day passage from the printed Old English, using the supplied help. Preserve the sequence, command, naming and one-day close.",
+      "learner_block": "8. Translate the entire first-day passage from the printed Old English, using the supplied help. Preserve the sequence, command, naming and one-day close.",
+      "learner_line": 838,
+      "learner_block_sha256": "1a4d3ed19577164500e013ece35608f47a5fc80fb9500376d3ab9efcd0196ee5",
+      "baseline_record_sha256": "22e18fb50a0e0c736a140dc8b804a44c61f7690b2a77ad6c9e350dbe369a999e",
+      "task_classification": "supported_synthesis",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "on-invariant",
+        "god-nom-sg",
+        "and-invariant",
+        "eorthe-acc-sg",
+        "se-f-nom-sg",
+        "eorthe-nom-sg",
+        "wesan-pret-3-sg",
+        "thiestru-nom-pl",
+        "wesan-pret-3-pl",
+        "se-f-gen-sg",
+        "neowolnes-gen-sg",
+        "bradnes-dat-sg",
+        "god-gen-sg",
+        "gast-nom-sg",
+        "waeter-acc-pl",
+        "leoht-nom-sg",
+        "se-n-acc-sg",
+        "leoht-acc-sg",
+        "fram-invariant",
+        "se-all-dat-pl",
+        "thiestru-dat-pl",
+        "daeg-acc-sg",
+        "se-all-acc-pl",
+        "thiestru-acc-pl",
+        "niht-acc-sg",
+        "aefen-nom-sg",
+        "morgen-nom-sg",
+        "daeg-nom-sg",
+        "he-n-nom-sg",
+        "he-m-nom-sg"
+      ],
+      "supplied_form_ids": [
+        "gescieppan-pret-3-sg",
+        "heofone-acc-sg",
+        "sothlice-invariant",
+        "idel-nom-f-sg",
+        "aemtig-nom-f-sg",
+        "ofer-invariant",
+        "geferian-past-participle",
+        "cwethan-pret-3-sg",
+        "tha-adverb-invariant",
+        "geweorthan-pres-subj-3-sg",
+        "weorthan-pret-3-sg",
+        "gewyrcean-past-participle",
+        "geseon-pret-3-sg",
+        "thaet-conjunction-invariant",
+        "god-adjective-nom-n-sg",
+        "gedaelan-pret-3-sg",
+        "hatan-pret-3-sg",
+        "geweorthan-past-participle",
+        "an-nom-m-sg",
+        "anginn-dat-sg"
+      ],
+      "required_form_ids": [
+        "on-invariant",
+        "god-nom-sg",
+        "and-invariant",
+        "eorthe-acc-sg",
+        "se-f-nom-sg",
+        "eorthe-nom-sg",
+        "wesan-pret-3-sg",
+        "thiestru-nom-pl",
+        "wesan-pret-3-pl",
+        "se-f-gen-sg",
+        "neowolnes-gen-sg",
+        "bradnes-dat-sg",
+        "god-gen-sg",
+        "gast-nom-sg",
+        "waeter-acc-pl",
+        "leoht-nom-sg",
+        "se-n-acc-sg",
+        "leoht-acc-sg",
+        "fram-invariant",
+        "se-all-dat-pl",
+        "thiestru-dat-pl",
+        "daeg-acc-sg",
+        "se-all-acc-pl",
+        "thiestru-acc-pl",
+        "niht-acc-sg",
+        "aefen-nom-sg",
+        "morgen-nom-sg",
+        "daeg-nom-sg",
+        "he-n-nom-sg",
+        "he-m-nom-sg",
+        "gescieppan-pret-3-sg",
+        "heofone-acc-sg",
+        "sothlice-invariant",
+        "idel-nom-f-sg",
+        "aemtig-nom-f-sg",
+        "ofer-invariant",
+        "geferian-past-participle",
+        "cwethan-pret-3-sg",
+        "tha-adverb-invariant",
+        "geweorthan-pres-subj-3-sg",
+        "weorthan-pret-3-sg",
+        "gewyrcean-past-participle",
+        "geseon-pret-3-sg",
+        "thaet-conjunction-invariant",
+        "god-adjective-nom-n-sg",
+        "gedaelan-pret-3-sg",
+        "hatan-pret-3-sg",
+        "geweorthan-past-participle",
+        "an-nom-m-sg",
+        "anginn-dat-sg"
+      ],
+      "required_sense_ids": [
+        "on-time-supplied",
+        "anginn-1",
+        "gescieppan-1",
+        "god-1",
+        "heofone-1",
+        "and-1",
+        "eorthe-1",
+        "se-the",
+        "sothlice-1",
+        "wesan-be",
+        "idel-1",
+        "aemtig-1",
+        "thiestru-1",
+        "ofer-1",
+        "neowolnes-1",
+        "bradnes-1",
+        "gast-1",
+        "geferian-1",
+        "waeter-1",
+        "cwethan-1",
+        "tha-adverb-1",
+        "geweorthan-1",
+        "leoht-1",
+        "weorthan-1",
+        "gewyrcean-1",
+        "geseon-1",
+        "thaet-conjunction-1",
+        "he-subject",
+        "god-adjective-1",
+        "gedaelan-1",
+        "fram-1",
+        "hatan-1",
+        "daeg-1",
+        "niht-1",
+        "aefen-1",
+        "morgen-1",
+        "an-1"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "genitive-relationship",
+        "accusative-object",
+        "fram-dative-separation",
+        "reading-on-anginne",
+        "reading-heofone",
+        "reading-adjective-predicates",
+        "reading-ofer-dative",
+        "reading-ofer-accusative",
+        "reading-passive-gefered",
+        "reading-optative-command",
+        "reading-passive-geworht",
+        "reading-content-clause",
+        "reading-temporal-tha",
+        "reading-naming",
+        "reading-resultative-ending",
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference",
+        "nested-genitive-phrase",
+        "article-agreement",
+        "subject-predicate"
+      ],
+      "stimulus_vs_output": {
+        "output": "English supported synthesis, not production of subjunctive/passive/naming/resultative/temporal on or supplied lexical verb forms.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "subject-agreement",
+          "genitive-relationship",
+          "accusative-object",
+          "fram-dative-separation",
+          "reading-on-anginne",
+          "reading-heofone",
+          "reading-adjective-predicates",
+          "reading-ofer-dative",
+          "reading-ofer-accusative",
+          "reading-passive-gefered",
+          "reading-optative-command",
+          "reading-passive-geworht",
+          "reading-content-clause",
+          "reading-temporal-tha",
+          "reading-naming",
+          "reading-resultative-ending",
+          "u01-subject-pronouns",
+          "u01-subject-pronoun-reference",
+          "nested-genitive-phrase",
+          "article-agreement",
+          "subject-predicate"
+        ],
+        "prior_model_or_reference": "Unit 1 noun/article/copula/nominative reference models; §16 complete local help.",
+        "new_decision": "Make a coherent translation preserving sequence, reference and nominal relations with supported unfamiliar constructions.",
+        "production_or_recognition_scope": "English supported synthesis, not production of subjunctive/passive/naming/resultative/temporal on or supplied lexical verb forms.",
+        "supplied_dependencies": "Thirteen help rows; hē/hit reference and nested attachment remain learner decisions.",
+        "exposure_check": "Source and help are deliberately visible. Cumulative translation cannot certify independent mastery of every supplied construction.",
+        "counts_as_transfer": true
+      }
+    },
+    {
+      "task_id": "CH01-REVIEW02",
+      "key_item_id": "KEY-CH01-REVIEW02",
+      "prompt": "In on ðāra fugla trēowum, a learner takes ðāra to agree with trēowum. Translate the phrase; identify the head and dependent, giving the case and number of each. Explain the article's actual agreement.",
+      "exact_prompt_markdown": "2. In **on ðāra fugla trēowum**, a learner takes **ðāra** to agree with **trēowum**. Translate the phrase; identify the head and dependent, giving the case and number of each. Explain the article's actual agreement.",
+      "learner_block": "2. In **on ðāra fugla trēowum**, a learner takes **ðāra** to agree with **trēowum**. Translate the phrase; identify the head and dependent, giving the case and number of each. Explain the article's actual agreement.",
+      "learner_line": 848,
+      "learner_block_sha256": "fb0282f3c6f609e6556073b29a1efce57d879fd57912ec59419d283654d1c976",
+      "baseline_record_sha256": "a413563ad041abd7a56b89928e3bb64164bb40316a7a1c54a8ede0aca8f6cf98",
+      "task_classification": "transfer",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "on-invariant",
+        "se-all-gen-pl",
+        "fugol-gen-pl",
+        "treo-dat-pl"
+      ],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "on-invariant",
+        "se-all-gen-pl",
+        "fugol-gen-pl",
+        "treo-dat-pl"
+      ],
+      "required_sense_ids": [
+        "on-1",
+        "se-the",
+        "fugol-1",
+        "treo-1"
+      ],
+      "required_feature_ids": [
+        "nested-genitive-phrase",
+        "genitive-relationship",
+        "on-dative-location",
+        "article-agreement",
+        "paradigm-masc-syncope",
+        "paradigm-neut-treo"
+      ],
+      "stimulus_vs_output": {
+        "output": "English translation and head/dependent/case/number/agreement analysis; no OE production.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "nested-genitive-phrase",
+          "genitive-relationship",
+          "on-dative-location",
+          "article-agreement",
+          "paradigm-masc-syncope",
+          "paradigm-neut-treo"
+        ],
+        "prior_model_or_reference": "§9 EXAMPLE08 singular bird/tree; §3 fugol; §4 trēo.",
+        "new_decision": "Reject agreement with the wrong noun; distinguish two plural cases and their relation.",
+        "production_or_recognition_scope": "English translation and head/dependent/case/number/agreement analysis; no OE production.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "Model uses two singulars; task applies plural cells and diagnoses attachment instead of copying its explanation.",
+        "counts_as_transfer": true
+      }
+    },
+    {
+      "task_id": "CH01-REVIEW03",
+      "key_item_id": "KEY-CH01-REVIEW03",
+      "prompt": "List the possible case/number values of steorran in the selected paradigm. Which applies in ðæs steorran lēoht, and which in Ðā steorran wǣron on ðǣm heofone? Translate both. Explain what the context adds that the ending alone cannot tell you.",
+      "exact_prompt_markdown": "3. List the possible case/number values of **steorran** in the selected paradigm. Which applies in **ðæs steorran lēoht**, and which in **Ðā steorran wǣron on ðǣm heofone**? Translate both. Explain what the context adds that the ending alone cannot tell you.",
+      "learner_block": "3. List the possible case/number values of **steorran** in the selected paradigm. Which applies in **ðæs steorran lēoht**, and which in **Ðā steorran wǣron on ðǣm heofone**? Translate both. Explain what the context adds that the ending alone cannot tell you.",
+      "learner_line": 852,
+      "learner_block_sha256": "25243b8b5ffc16cbb55c736728f5b501d4cc67fe6f54be9f6a14faa1b0aada01",
+      "baseline_record_sha256": "b3380e739c8a00fad29e455cc26a164895f313b8358c28fec8fdcc270c1cf62f",
+      "task_classification": "transfer",
+      "tested_form_ids": [],
+      "recognized_form_ids": [
+        "steorra-gen-sg",
+        "steorra-dat-sg",
+        "steorra-acc-sg",
+        "steorra-nom-pl",
+        "steorra-acc-pl",
+        "se-m-gen-sg",
+        "leoht-nom-sg",
+        "se-all-nom-pl",
+        "wesan-pret-3-pl",
+        "on-invariant",
+        "se-m-dat-sg",
+        "heofon-dat-sg"
+      ],
+      "supplied_form_ids": [],
+      "required_form_ids": [
+        "steorra-gen-sg",
+        "steorra-dat-sg",
+        "steorra-acc-sg",
+        "steorra-nom-pl",
+        "steorra-acc-pl",
+        "se-m-gen-sg",
+        "leoht-nom-sg",
+        "se-all-nom-pl",
+        "wesan-pret-3-pl",
+        "on-invariant",
+        "se-m-dat-sg",
+        "heofon-dat-sg"
+      ],
+      "required_sense_ids": [
+        "steorra-1",
+        "se-the",
+        "leoht-1",
+        "wesan-be",
+        "on-1",
+        "heofon-1"
+      ],
+      "required_feature_ids": [
+        "case-syncretism",
+        "paradigm-weak",
+        "article-agreement",
+        "genitive-relationship",
+        "subject-agreement",
+        "on-dative-location"
+      ],
+      "stimulus_vs_output": {
+        "output": "Recognize the five homographs and translate/analyze two phrases/clauses.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "case-syncretism",
+          "paradigm-weak",
+          "article-agreement",
+          "genitive-relationship",
+          "subject-agreement",
+          "on-dative-location"
+        ],
+        "prior_model_or_reference": "§6 steorra; §1 syncretism; §9 genitive/location; §8 copula.",
+        "new_decision": "List five steorran cells, then distinguish genitive singular from nominative plural from context/agreement.",
+        "production_or_recognition_scope": "Recognize the five homographs and translate/analyze two phrases/clauses.",
+        "supplied_dependencies": "Only directions and previously taught reference paradigms.",
+        "exposure_check": "Full table necessarily gives forms; new contexts require disambiguation not a context-free ending label.",
+        "counts_as_transfer": true
+      }
+    },
+    {
+      "task_id": "CH01-REVIEW04",
+      "key_item_id": "KEY-CH01-REVIEW04",
+      "prompt": "Correct the agreement in Ðā ðīestru is on ðǣm heofone. Ðæt lēoht wǣron on ðǣm hofe. Keep the first sentence present and the second past; explain the corrections. Then complete Se mann gedǣlde _____ fram _____. to mean “The man separated the birds from the animal.” Use dēor for “animal.” The supplied gedǣlde means “separated,” third-person singular preterite. Identify the case and number of both completed phrases.",
+      "exact_prompt_markdown": "4. Correct the agreement in **Ðā ðīestru is on ðǣm heofone. Ðæt lēoht wǣron on ðǣm hofe.** Keep the first sentence present and the second past; explain the corrections. Then complete **Se mann gedǣlde _____ fram _____.** to mean “The man separated the birds from the animal.” Use **dēor** for “animal.” The supplied **gedǣlde** means “separated,” third-person singular preterite. Identify the case and number of both completed phrases.",
+      "learner_block": "4. Correct the agreement in **Ðā ðīestru is on ðǣm heofone. Ðæt lēoht wǣron on ðǣm hofe.** Keep the first sentence present and the second past; explain the corrections. Then complete **Se mann gedǣlde _____ fram _____.** to mean “The man separated the birds from the animal.” Use **dēor** for “animal.” The supplied **gedǣlde** means “separated,” third-person singular preterite. Identify the case and number of both completed phrases.",
+      "learner_line": 856,
+      "learner_block_sha256": "17a63daa82ea3f2d7666ab6df472f068615de34fb6917e599310e4f5edcb2d2a",
+      "baseline_record_sha256": "e106d35381f802c6a5709a932b0b989304f6d926e4cab20c4e4bd6613517496d",
+      "task_classification": "transfer",
+      "tested_form_ids": [
+        "wesan-pres-3-pl",
+        "wesan-pret-3-sg",
+        "se-all-acc-pl",
+        "fugol-acc-pl",
+        "se-n-dat-sg",
+        "deor-dat-sg"
+      ],
+      "recognized_form_ids": [
+        "se-all-nom-pl",
+        "thiestru-nom-pl",
+        "wesan-pres-3-sg",
+        "on-invariant",
+        "se-m-dat-sg",
+        "heofon-dat-sg",
+        "se-n-nom-sg",
+        "leoht-nom-sg",
+        "wesan-pret-3-pl",
+        "se-n-dat-sg",
+        "hof-dat-sg",
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "fram-invariant"
+      ],
+      "supplied_form_ids": [
+        "gedaelan-pret-3-sg"
+      ],
+      "required_form_ids": [
+        "wesan-pres-3-pl",
+        "wesan-pret-3-sg",
+        "se-all-acc-pl",
+        "fugol-acc-pl",
+        "se-n-dat-sg",
+        "deor-dat-sg",
+        "se-all-nom-pl",
+        "thiestru-nom-pl",
+        "wesan-pres-3-sg",
+        "on-invariant",
+        "se-m-dat-sg",
+        "heofon-dat-sg",
+        "se-n-nom-sg",
+        "leoht-nom-sg",
+        "wesan-pret-3-pl",
+        "hof-dat-sg",
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "fram-invariant",
+        "gedaelan-pret-3-sg"
+      ],
+      "required_sense_ids": [
+        "se-the",
+        "thiestru-1",
+        "wesan-be",
+        "on-1",
+        "heofon-1",
+        "leoht-1",
+        "hof-1",
+        "mann-1",
+        "gedaelan-1",
+        "fram-1",
+        "fugol-1",
+        "deor-1"
+      ],
+      "required_feature_ids": [
+        "subject-agreement",
+        "copula-indicative",
+        "paradigm-exception-thiestru",
+        "accusative-object",
+        "fram-dative-separation",
+        "article-agreement",
+        "on-dative-location"
+      ],
+      "stimulus_vs_output": {
+        "output": "Produce corrected copulas and two noun/article phrases. Printed is/wǣron are error stimuli, not accepted clauses.",
+        "context_only_sense_ids": [],
+        "local_support_note": "Local supplied classification does not erase a separately established teaching milestone."
+      },
+      "transfer": {
+        "target_feature": [
+          "subject-agreement",
+          "copula-indicative",
+          "paradigm-exception-thiestru",
+          "accusative-object",
+          "fram-dative-separation",
+          "article-agreement",
+          "on-dative-location"
+        ],
+        "prior_model_or_reference": "§7 darkness; §8 tense/number; §9 EXAMPLE06.",
+        "new_decision": "Repair opposite number errors while preserving times; then choose plural object and singular neuter separation complement.",
+        "production_or_recognition_scope": "Produce corrected copulas and two noun/article phrases. Printed is/wǣron are error stimuli, not accepted clauses.",
+        "supplied_dependencies": "Gedǣlde form/meaning/person/tense; dēor headword/meaning; separating frame printed.",
+        "exposure_check": "New present-darkness/past-light errors and birds-plural/animal-singular complements differ from worked/source patterns.",
+        "counts_as_transfer": true
+      },
+      "parts": [
+        {
+          "part": "agreement 1",
+          "decision": "plural darkness present",
+          "generated_form_ids": [
+            "wesan-pres-3-pl"
+          ],
+          "stimulus_form_ids": [
+            "thiestru-nom-pl",
+            "wesan-pres-3-sg"
+          ],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "agreement 2",
+          "decision": "singular light past",
+          "generated_form_ids": [
+            "wesan-pret-3-sg"
+          ],
+          "stimulus_form_ids": [
+            "leoht-nom-sg",
+            "wesan-pret-3-pl"
+          ],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "object",
+          "decision": "birds plural",
+          "generated_form_ids": [
+            "se-all-acc-pl",
+            "fugol-acc-pl"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        },
+        {
+          "part": "separation",
+          "decision": "animal singular neuter",
+          "generated_form_ids": [
+            "se-n-dat-sg",
+            "deor-dat-sg"
+          ],
+          "stimulus_form_ids": [],
+          "comparison_form_ids": []
+        }
+      ]
+    }
+  ],
+  "worked_examples": [
+    {
+      "example_id": "CH01-EXAMPLE06",
+      "origin": "new_teaching_material",
+      "assessed": false,
+      "text": "Se mann gedǣlde ðæt sǣd fram ðǣm gærse.",
+      "translation": "The man separated the seed from the grass.",
+      "learner_line": 319,
+      "learner_block": "**Se mann gedǣlde ðæt sǣd fram ðǣm gærse.** — The man separated the seed from the grass.\n\nThe thing separated, **ðæt sǣd**, is accusative; **ðǣm gærse** is dative after **fram**. These are particular constructions. They do not establish one case rule for all spatial prepositions.",
+      "required_form_ids": [
+        "se-m-nom-sg",
+        "mann-nom-sg",
+        "gedaelan-pret-3-sg",
+        "se-n-acc-sg",
+        "saed-acc-sg",
+        "fram-invariant",
+        "se-n-dat-sg",
+        "gaers-dat-sg"
+      ],
+      "required_sense_ids": [
+        "se-the",
+        "mann-1",
+        "gedaelan-1",
+        "saed-1",
+        "fram-1",
+        "gaers-1"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "accusative-object",
+        "fram-dative-separation",
+        "article-agreement"
+      ],
+      "supplied_form_ids": [
+        "gedaelan-pret-3-sg"
+      ],
+      "scope_note": "New composition using checked construction and lexemes. Preserve the earlier light/darkness specific-passage adaptation and locator as history, not as a citation for this exact new wording. Only singular grass is used.",
+      "evidence_refs": [
+        "FB84",
+        "LEX-mann",
+        "FB43",
+        "FB46",
+        "FB17",
+        "READING",
+        "LEX-saed",
+        "FB47",
+        "FB166",
+        "LEX-gaers"
+      ]
+    },
+    {
+      "example_id": "CH01-EXAMPLE07",
+      "origin": "new_teaching_material",
+      "assessed": false,
+      "text": "Ðā hwalas sindon dēor.",
+      "translation": "The whales are animals.",
+      "learner_line": 245,
+      "learner_block": "**Ðā hwalas sindon dēor.** — The whales are animals.\n\nBoth subject **hwalas** and predicate **dēor** are nominative plural; the neuter plural **dēor** has no added ending.",
+      "required_form_ids": [
+        "se-all-nom-pl",
+        "hwael-nom-pl",
+        "wesan-pres-3-pl",
+        "deor-nom-pl"
+      ],
+      "required_sense_ids": [
+        "se-the",
+        "hwael-1",
+        "wesan-be",
+        "deor-1"
+      ],
+      "required_feature_ids": [
+        "subject-predicate",
+        "subject-agreement",
+        "article-agreement",
+        "paradigm-masc-ae-a",
+        "paradigm-neut-weight"
+      ],
+      "supplied_form_ids": [],
+      "scope_note": "Nominative plural predicate dēor has zero ending. Does not print the singular COMP04 answer.",
+      "evidence_refs": [
+        "FB84",
+        "LEX-hwael",
+        "FB43",
+        "FB43.2",
+        "FB138",
+        "LEX-deor",
+        "FB47"
+      ]
+    },
+    {
+      "example_id": "CH01-EXAMPLE08",
+      "origin": "new_teaching_material",
+      "assessed": false,
+      "text": "on ðæs fugles trēowe",
+      "translation": "in the bird's tree",
+      "learner_line": 289,
+      "learner_block": "**on ðæs fugles trēowe** — in the bird's tree\n\n**Trēowe** is dative after locative **on**; **ðæs fugles** remains genitive. **Ðæs** agrees with **fugles**, not with **trēowe**.",
+      "required_form_ids": [
+        "on-invariant",
+        "se-m-gen-sg",
+        "fugol-gen-sg",
+        "treo-dat-sg"
+      ],
+      "required_sense_ids": [
+        "on-1",
+        "se-the",
+        "fugol-1",
+        "treo-1"
+      ],
+      "required_feature_ids": [
+        "nested-genitive-phrase",
+        "genitive-relationship",
+        "on-dative-location",
+        "article-agreement"
+      ],
+      "supplied_form_ids": [],
+      "scope_note": "Singular dependent and head; REVIEW02 requires both plural cells and correction of article attachment.",
+      "evidence_refs": [
+        "FB172",
+        "FB84",
+        "LEX-fugol",
+        "FB43",
+        "FB43.4",
+        "LEX-treo",
+        "FB47",
+        "FB47.3"
+      ]
+    },
+    {
+      "example_id": "CH01-EXAMPLE09",
+      "origin": "new_teaching_material",
+      "assessed": false,
+      "text": "Ic eom mann.",
+      "translation": "I am a human being.",
+      "learner_line": 251,
+      "learner_block": "**Ic eom mann.** — I am a human being.",
+      "required_form_ids": [
+        "ic-nom-sg",
+        "wesan-pres-1-sg",
+        "mann-nom-sg"
+      ],
+      "required_sense_ids": [
+        "ic-subject",
+        "wesan-be",
+        "mann-1"
+      ],
+      "required_feature_ids": [
+        "u01-subject-pronouns",
+        "subject-predicate",
+        "subject-agreement",
+        "copula-indicative"
+      ],
+      "supplied_form_ids": [],
+      "scope_note": "First singular nominative subject and bare noun predicate; no oblique pronoun scope.",
+      "evidence_refs": [
+        "U02-PRON",
+        "FB138",
+        "LEX-mann",
+        "FB43",
+        "FB46",
+        "FB17"
+      ]
+    },
+    {
+      "example_id": "CH01-EXAMPLE10",
+      "origin": "new_teaching_material",
+      "assessed": false,
+      "text": "Wit sindon męnn.",
+      "translation": "We two are human beings.",
+      "learner_line": 255,
+      "learner_block": "**Wit sindon męnn.** — We two are human beings.",
+      "required_form_ids": [
+        "ic-nom-dual",
+        "wesan-pres-1-pl",
+        "mann-nom-pl"
+      ],
+      "required_sense_ids": [
+        "ic-subject",
+        "wesan-be",
+        "mann-1"
+      ],
+      "required_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-dual-subject-agreement",
+        "subject-predicate",
+        "subject-agreement",
+        "copula-indicative"
+      ],
+      "supplied_form_ids": [],
+      "scope_note": "Dual subject uses ordinary first-plural indicative cell; ordinary plurals remain possible for groups of two when dual specificity is not requested.",
+      "evidence_refs": [
+        "U02-PRON",
+        "FB138",
+        "LEX-mann",
+        "FB43",
+        "FB46",
+        "FB17"
+      ]
+    }
+  ],
+  "reading_support": [
+    {
+      "expression": "On anginne",
+      "exact_table_row": "| **On anginne** | “In the beginning”: a supplied temporal use of **on**, with dative **anginne**. |",
+      "supplied_form_ids": [
+        "anginn-dat-sg"
+      ],
+      "supplied_sense_ids": [
+        "on-time-supplied"
+      ],
+      "supplied_feature_ids": [
+        "reading-on-anginne"
+      ],
+      "previously_taught_form_ids": [
+        "on-invariant"
+      ],
+      "previously_taught_sense_ids": [
+        "anginn-1"
+      ],
+      "previously_taught_feature_ids": [],
+      "remaining_learner_decision": "Meaning/temporal use/dative analysis explicitly supplied; no temporal on production milestone."
+    },
+    {
+      "expression": "gescēop",
+      "exact_table_row": "| **gescēop** | “Created,” third-person singular preterite. In the opening, the subject **God** follows the verb; word order alone does not identify the object. |",
+      "supplied_form_ids": [
+        "gescieppan-pret-3-sg"
+      ],
+      "supplied_sense_ids": [
+        "gescieppan-1"
+      ],
+      "supplied_feature_ids": [
+        "source-word-order"
+      ],
+      "previously_taught_form_ids": [
+        "god-nom-sg"
+      ],
+      "previously_taught_sense_ids": [
+        "god-1"
+      ],
+      "previously_taught_feature_ids": [
+        "subject-predicate",
+        "accusative-object"
+      ],
+      "remaining_learner_decision": "God’s postverbal subject role is given; taught/supplied noun information still permits object parsing."
+    },
+    {
+      "expression": "heofonan",
+      "exact_table_row": "| **heofonan** | “Heaven”: accusative **singular** of weak feminine **heofone**, a variant of the masculine **heofon** learned above. It is not masculine **heofon**'s plural. |",
+      "supplied_form_ids": [
+        "heofone-acc-sg"
+      ],
+      "supplied_sense_ids": [
+        "heofone-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-heofone"
+      ],
+      "previously_taught_form_ids": [],
+      "previously_taught_sense_ids": [],
+      "previously_taught_feature_ids": [],
+      "remaining_learner_decision": "Weak feminine accusative singular explicitly supplied; no independent recall claim."
+    },
+    {
+      "expression": "sōðlice; īdel and ǣmtig",
+      "exact_table_row": "| **sōðlice; īdel and ǣmtig** | Connective “now/for its part”; “empty and void.” The two adjectives are predicate feminine nominative singular with **eorðe**. |",
+      "supplied_form_ids": [
+        "sothlice-invariant",
+        "idel-nom-f-sg",
+        "aemtig-nom-f-sg"
+      ],
+      "supplied_sense_ids": [
+        "sothlice-1",
+        "idel-1",
+        "aemtig-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-adjective-predicates"
+      ],
+      "previously_taught_form_ids": [
+        "and-invariant",
+        "eorthe-nom-sg"
+      ],
+      "previously_taught_sense_ids": [
+        "and-1",
+        "eorthe-1"
+      ],
+      "previously_taught_feature_ids": [],
+      "remaining_learner_decision": "Adjective meanings/agreement supplied; noun number and copula otherwise taught."
+    },
+    {
+      "expression": "ofer ðǣre nēowolnesse brādnesse",
+      "exact_table_row": "| **ofer ðǣre nēowolnesse brādnesse** | **Ofer** means “over” and here requires a dative head. Apply the nested-genitive construction of §9 to identify the head and its dependent. |",
+      "supplied_form_ids": [
+        "ofer-invariant"
+      ],
+      "supplied_sense_ids": [
+        "ofer-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-ofer-dative"
+      ],
+      "previously_taught_form_ids": [
+        "se-f-gen-sg",
+        "neowolnes-gen-sg",
+        "bradnes-dat-sg"
+      ],
+      "previously_taught_sense_ids": [
+        "se-the",
+        "neowolnes-1",
+        "bradnes-1"
+      ],
+      "previously_taught_feature_ids": [
+        "nested-genitive-phrase",
+        "genitive-relationship",
+        "article-agreement"
+      ],
+      "remaining_learner_decision": "Dative government supplied; learner identifies brādnesse head and genitive dependent. No general ofer case rule."
+    },
+    {
+      "expression": "wæs gefęred ofer wæteru",
+      "exact_table_row": "| **wæs gefęred ofer wæteru** | “Was borne/carried over the waters,” contextually “moved over the waters.” **Wæs gefęred** is a passive phrase; **gefęred** is a past participle. Here **ofer** has accusative plural **wæteru**, unlike the preceding dative construction. |",
+      "supplied_form_ids": [
+        "geferian-past-participle",
+        "ofer-invariant"
+      ],
+      "supplied_sense_ids": [
+        "geferian-1",
+        "ofer-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-passive-gefered",
+        "reading-ofer-accusative"
+      ],
+      "previously_taught_form_ids": [
+        "wesan-pret-3-sg",
+        "waeter-acc-pl"
+      ],
+      "previously_taught_sense_ids": [
+        "wesan-be",
+        "waeter-1"
+      ],
+      "previously_taught_feature_ids": [
+        "paradigm-neut-disyllable"
+      ],
+      "remaining_learner_decision": "Passive and local accusative government supplied; READ03 independently compares selected dative plural morphology."
+    },
+    {
+      "expression": "cwæð ðā",
+      "exact_table_row": "| **cwæð ðā** | “Then said”: **cwæð** is third-person singular preterite; this **ðā** is the adverb “then,” not the article. |",
+      "supplied_form_ids": [
+        "cwethan-pret-3-sg",
+        "tha-adverb-invariant"
+      ],
+      "supplied_sense_ids": [
+        "cwethan-1",
+        "tha-adverb-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-temporal-tha"
+      ],
+      "previously_taught_form_ids": [],
+      "previously_taught_sense_ids": [],
+      "previously_taught_feature_ids": [],
+      "remaining_learner_decision": "Speech event and temporal adverb supplied."
+    },
+    {
+      "expression": "Geweorðe lēoht",
+      "exact_table_row": "| **Geweorðe lēoht** | “Let light come to be.” **Geweorðe** is a finite third-person singular present subjunctive (also called optative), expressing a wish or command. |",
+      "supplied_form_ids": [
+        "geweorthan-pres-subj-3-sg"
+      ],
+      "supplied_sense_ids": [
+        "geweorthan-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-optative-command"
+      ],
+      "previously_taught_form_ids": [
+        "leoht-nom-sg"
+      ],
+      "previously_taught_sense_ids": [
+        "leoht-1"
+      ],
+      "previously_taught_feature_ids": [],
+      "remaining_learner_decision": "Command/wish and mood/person/number supplied; no subjunctive production."
+    },
+    {
+      "expression": "lēoht wearð geworht",
+      "exact_table_row": "| **lēoht wearð geworht** | “Light was made/came into being.” **Wearð** is a third-person singular preterite used here with past participle **geworht** in a passive phrase. |",
+      "supplied_form_ids": [
+        "weorthan-pret-3-sg",
+        "gewyrcean-past-participle"
+      ],
+      "supplied_sense_ids": [
+        "weorthan-1",
+        "gewyrcean-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-passive-geworht"
+      ],
+      "previously_taught_form_ids": [
+        "leoht-nom-sg"
+      ],
+      "previously_taught_sense_ids": [
+        "leoht-1"
+      ],
+      "previously_taught_feature_ids": [],
+      "remaining_learner_decision": "Result/passive meaning and unfamiliar forms supplied."
+    },
+    {
+      "expression": "geseah ðā ðæt hit gōd wæs",
+      "exact_table_row": "| **geseah ðā ðæt hit gōd wæs** | “Then saw that it was good.” **Geseah** is third-person singular preterite; **ðā** is “then”; **ðæt** is the conjunction “that.” **Gōd** is a neuter nominative singular predicate adjective. The copula stands at the end of the embedded clause. Use the context and §8 for the reference of **hit**. |",
+      "supplied_form_ids": [
+        "geseon-pret-3-sg",
+        "tha-adverb-invariant",
+        "thaet-conjunction-invariant",
+        "god-adjective-nom-n-sg"
+      ],
+      "supplied_sense_ids": [
+        "geseon-1",
+        "tha-adverb-1",
+        "thaet-conjunction-1",
+        "god-adjective-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-temporal-tha",
+        "reading-content-clause",
+        "reading-adjective-predicates"
+      ],
+      "previously_taught_form_ids": [
+        "he-n-nom-sg",
+        "wesan-pret-3-sg"
+      ],
+      "previously_taught_sense_ids": [
+        "he-subject",
+        "wesan-be"
+      ],
+      "previously_taught_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "remaining_learner_decision": "Hit’s antecedent is now a learner decision. Conjunction/order/adjective scope remains supplied."
+    },
+    {
+      "expression": "hē gedǣlde",
+      "exact_table_row": "| **hē gedǣlde** | **Gedǣlde** is “separated,” third-person singular preterite. Identify the reference of the subject pronoun from the preceding clause. The object and **fram** phrase use §9. |",
+      "supplied_form_ids": [
+        "gedaelan-pret-3-sg"
+      ],
+      "supplied_sense_ids": [
+        "gedaelan-1"
+      ],
+      "supplied_feature_ids": [],
+      "previously_taught_form_ids": [
+        "he-m-nom-sg"
+      ],
+      "previously_taught_sense_ids": [
+        "he-subject"
+      ],
+      "previously_taught_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference",
+        "accusative-object",
+        "fram-dative-separation"
+      ],
+      "remaining_learner_decision": "Find hē’s antecedent and apply taught case frames; only exact lexical verb is supplied."
+    },
+    {
+      "expression": "hēt ðæt lēoht Dæg, and ðā ðīestru Niht",
+      "exact_table_row": "| **hēt ðæt lēoht Dæg, and ðā ðīestru Niht** | “[He] called the light Day, and the darkness Night.” **Hēt** is third-person singular preterite, with God/he understood as subject. **Ðæt lēoht** and **ðā ðīestru** are accusative objects; **Dæg** and **Niht** are accusative names applied to them. Here **ðæt** and **ðā** are articles. |",
+      "supplied_form_ids": [
+        "hatan-pret-3-sg"
+      ],
+      "supplied_sense_ids": [
+        "hatan-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-naming"
+      ],
+      "previously_taught_form_ids": [
+        "se-n-acc-sg",
+        "leoht-acc-sg",
+        "daeg-acc-sg",
+        "and-invariant",
+        "se-all-acc-pl",
+        "thiestru-acc-pl",
+        "niht-acc-sg"
+      ],
+      "previously_taught_sense_ids": [
+        "se-the",
+        "leoht-1",
+        "daeg-1",
+        "and-1",
+        "thiestru-1",
+        "niht-1"
+      ],
+      "previously_taught_feature_ids": [
+        "accusative-object"
+      ],
+      "remaining_learner_decision": "Complete naming construction/analysis and understood God/he supplied; ordinary accusative recognition does not establish independent naming production."
+    },
+    {
+      "expression": "Ðā wæs geworden ǣfen and morgen ān dæg.",
+      "exact_table_row": "| **Ðā wæs geworden ǣfen and morgen ān dæg.** | “Then there came to be evening and morning: one day.” **Wæs geworden** expresses a resulting state or completed coming-to-be, “had come to be”; **geworden** is a past participle. **Ān dæg** is “one day,” not the ordinal “first day.” Treat this closing formula as a whole. |",
+      "supplied_form_ids": [
+        "tha-adverb-invariant",
+        "geweorthan-past-participle",
+        "an-nom-m-sg"
+      ],
+      "supplied_sense_ids": [
+        "tha-adverb-1",
+        "geweorthan-1",
+        "an-1"
+      ],
+      "supplied_feature_ids": [
+        "reading-resultative-ending",
+        "reading-temporal-tha"
+      ],
+      "previously_taught_form_ids": [
+        "wesan-pret-3-sg",
+        "aefen-nom-sg",
+        "and-invariant",
+        "morgen-nom-sg",
+        "daeg-nom-sg"
+      ],
+      "previously_taught_sense_ids": [
+        "wesan-be",
+        "aefen-1",
+        "and-1",
+        "morgen-1",
+        "daeg-1"
+      ],
+      "previously_taught_feature_ids": [],
+      "remaining_learner_decision": "Whole formula and one-not-first meaning supplied; no unique syntax or generalized agreement required."
+    }
+  ],
+  "proposal_id": "opening-unit1-task-bindings-2026-11-02",
+  "author": "sound_cook",
+  "key_access": "No Unit 1 key, draft key or reviewer solution was read. The proposal derives from learner text, active contract and cumulative identifiers.",
+  "inputs": [
+    {
+      "path": "chapters/ch01/student.md",
+      "sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "1042877c0cfd750f24300c0555004c476c4ee3ec231d9cf5b40dd57d557f0669"
+    },
+    {
+      "path": "docs/revisions/opening/contract.json",
+      "sha256": "ad16e256a20ede81cf9edcf77dd41faa356faf8ec1c10d9b0ddabacd2542dce6"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7"
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "sha256": "1a90c1e1fb8c55c886f274c923d442b08d54edbbd3d339e96fbc2e511cec5961"
+    }
+  ],
+  "serialization": "Record SHA256 uses UTF-8 compact sorted JSON: json.dumps(record, ensure_ascii=False, sort_keys=True, separators=(comma, colon)), with no newline. Learner-block digests use extracted LF text.",
+  "semantics": {
+    "tested_form_ids": "Forms selected/produced by the learner. In a rewrite, unchanged copied words are recorded separately and are not new recall evidence.",
+    "recognized_form_ids": "Taught forms interpreted in the stimulus or explicitly identified reference comparisons; does not claim every locally supplied analysis is independently assessed.",
+    "supplied_form_ids": "Exact locally supplied forms/analyses; local support does not erase separately established teaching milestones.",
+    "required_form_ids": "Deduplicated tested/recognized/supplied union.",
+    "context_only_sense_ids": "Known English antecedent meanings and genders can guide a response without the corresponding OE noun being output.",
+    "english_context": "Only marked nouns/phrases are translated in F01–07. Unmarked English framing words do not create OE lexical or syntactic production demands.",
+    "no_promotion": "No personal-pronoun oblique, reference-only mass/abstract plural, instrumental syntax or reconstructed sea genitive is promoted."
+  },
+  "fixed_controls": {
+    "cook_record_count": 46,
+    "cook_task_ids": [
+      "EX-I-01-01",
+      "EX-I-01-02",
+      "EX-I-01-03",
+      "EX-I-01-04",
+      "EX-I-01-05",
+      "EX-I-01-06",
+      "EX-I-01-07",
+      "EX-I-01-08",
+      "EX-I-01-09",
+      "EX-I-01-10",
+      "EX-I-01-11",
+      "EX-I-01-12",
+      "EX-I-01-13",
+      "EX-I-01-14",
+      "EX-I-01-15",
+      "EX-I-01-16",
+      "EX-I-02-01",
+      "EX-I-02-02",
+      "EX-I-02-03",
+      "EX-I-02-04",
+      "EX-I-02-05",
+      "EX-I-02-06",
+      "EX-I-02-07",
+      "EX-I-02-08",
+      "EX-I-02-09",
+      "EX-I-02-10",
+      "EX-I-02-11",
+      "EX-I-02-12",
+      "EX-I-03-01",
+      "EX-I-03-02",
+      "EX-I-03-03",
+      "EX-I-03-04",
+      "EX-I-03-05",
+      "EX-I-03-06",
+      "EX-I-03-07",
+      "EX-I-03-08",
+      "EX-I-03-09",
+      "EX-I-03-10",
+      "EX-I-03-11",
+      "EX-I-03-12",
+      "EX-I-03-13",
+      "EX-I-03-14",
+      "EX-I-03-15",
+      "EX-I-03-16",
+      "EX-I-03-17",
+      "EX-I-03-18"
+    ],
+    "cook_records_sha256": "0e112b1f4f2735b5ea0cac13ec216eb491ca6415b080482783fe1d6dc29b85e3",
+    "cook_action": "All fields unchanged: original IDs, prompts, dependencies, key IDs and scope. No mutation is proposed for any Cook record.",
+    "source_reading_id": "FB-I-CREATION-FIRST-DAY-01",
+    "source_reading_action": "Exact passage wording unchanged; current task/support interpretation only."
+  },
+  "subject_assessment": {
+    "ic-nom-sg": {
+      "form": "ic",
+      "production_tasks": [
+        "CH01-COP01"
+      ],
+      "recognition_tasks": []
+    },
+    "thu-nom-sg": {
+      "form": "ðū",
+      "production_tasks": [
+        "CH01-COP02"
+      ],
+      "recognition_tasks": []
+    },
+    "he-m-nom-sg": {
+      "form": "hē",
+      "production_tasks": [
+        "CH01-COP03"
+      ],
+      "recognition_tasks": [
+        "CH01-MINI01",
+        "CH01-READ06",
+        "CH01-READ08"
+      ]
+    },
+    "he-n-nom-sg": {
+      "form": "hit",
+      "production_tasks": [
+        "CH01-COP03"
+      ],
+      "recognition_tasks": [
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-READ05",
+        "CH01-READ08"
+      ]
+    },
+    "he-f-nom-sg": {
+      "form": "hēo",
+      "production_tasks": [
+        "CH01-COP03"
+      ],
+      "recognition_tasks": [
+        "CH01-MINI02"
+      ]
+    },
+    "ic-nom-dual": {
+      "form": "wit",
+      "production_tasks": [
+        "CH01-COP04"
+      ],
+      "recognition_tasks": []
+    },
+    "thu-nom-dual": {
+      "form": "git",
+      "production_tasks": [
+        "CH01-COP05"
+      ],
+      "recognition_tasks": []
+    },
+    "ic-nom-pl": {
+      "form": "wē",
+      "production_tasks": [
+        "CH01-COP04"
+      ],
+      "recognition_tasks": []
+    },
+    "thu-nom-pl": {
+      "form": "gē",
+      "production_tasks": [
+        "CH01-COP05"
+      ],
+      "recognition_tasks": []
+    },
+    "he-nom-pl": {
+      "form": "hīe",
+      "production_tasks": [
+        "CH01-COP06",
+        "CH01-MINI02"
+      ],
+      "recognition_tasks": [
+        "CH01-MINI01"
+      ]
+    }
+  },
+  "validation": {
+    "task_count": 28,
+    "worked_example_count": 5,
+    "reading_support_count": 13,
+    "referenced_form_count": 152,
+    "referenced_sense_count": 64,
+    "referenced_feature_count": 44,
+    "missing_active_contract_ids": {
+      "form_ids": [],
+      "sense_ids": [],
+      "feature_ids": []
+    },
+    "tested_form_status_issues": [],
+    "all_ten_nominatives_have_production_tasks": true,
+    "pronoun_oblique_form_count": 0,
+    "key_read": false
+  },
+  "register_integration_pending": {
+    "forms_absent_from_cumulative_lexicon": [],
+    "subject_senses_declared_active_but_absent_cumulative": [
+      "ic-subject",
+      "thu-subject",
+      "he-subject"
+    ],
+    "features_declared_active_but_absent_cumulative": [
+      "u01-subject-pronouns",
+      "u01-subject-pronoun-reference",
+      "u01-dual-subject-agreement"
+    ],
+    "action": "Integrate exact bounded subject sense/features and nominated form milestones. Preserve broad and oblique personal-pronoun histories."
+  },
+  "history_and_feature_reconciliation": [
+    {
+      "feature_id": "reading-personal-pronouns",
+      "historical_description": "Supply hē 'he' referring to God and hit 'it' referring to neuter light; do not infer a productive pronoun paradigm.",
+      "proposed_action": "Preserve as historical supplied exposure with old source records and milestone history. Remove from revised READ05/READ06/READ08 requirements/current assessment bindings.",
+      "replacement_feature_ids": [
+        "u01-subject-pronouns",
+        "u01-subject-pronoun-reference"
+      ],
+      "replacement_sense_id": "he-subject"
+    },
+    {
+      "feature_id": "reading-content-clause",
+      "historical_description": "ðæt hit gōd wæs means 'that it was good'; ðæt is a conjunction, hit refers to light, and wæs follows the predicate in this embedded clause.",
+      "proposed_active_scope": "Supply conjunction that, local meaning and embedded copula order. Hit is taught nominative; its antecedent is a learner decision under u01-subject-pronoun-reference. Preserve earlier wording in revision history.",
+      "reason": "The old active feature definition explicitly gives hit’s antecedent, although revised help intentionally leaves reference to the learner."
+    }
+  ],
+  "integration_notes": [
+    "EXAMPLE06 is now new composition. Preserve former specific-passage adaptation and locator as history; do not attach an exact-source claim to man/seed/grass wording.",
+    "COP03 needs gāst/tācen/andlīcnes senses and gender, not their OE nominative outputs. The selected lyft is neuter: se-n-dat-sg with lyft-dat-sg.",
+    "READ03 waeter-dat-pl is a comparison dependency, not a source token.",
+    "READ01 anginne’s dative analysis is locally supplied; this does not retract the earlier noun-pattern milestone.",
+    "COP06 gesceafta is printed/glossed and explicitly feminine plural; it is context recognition, not production.",
+    "MINI01 singular męte retains assigned mass-food sense with plural subject hīe. Subject–copula agreement does not require equal subject/predicate noun number.",
+    "MINI02 unchanged copied forms remain distinct from newly selected time/number forms.",
+    "REVIEW04 is and wǣron are error-stimulus words; corrected copula cells are the production targets.",
+    "F08, READ04 and READ07 are not independent transfer. READ08 is supported synthesis, not mastery of each supplied construction.",
+    "After integration regenerate required/used/assessed links from these actual roles. Do not mark every supplied or merely required form as independently assessed."
+  ],
+  "unresolved_linguistic_ids": [],
+  "scope_limits": "Proposal and exposure analysis only; not blind key review, source re-audit or final export acceptance. No shared learner/contract/register/key/source/Beads/Git edits."
+}

@@ -1,0 +1,282 @@
+{
+  "schema_version": 1,
+  "author": "/root/sound_design",
+  "status": "revised_key_draft_ready_for_independent_review",
+  "created_utc": "2026-11-02T22:43:46.863727+00:00",
+  "inputs": [
+    {
+      "path": "chapters/ch01/student.md",
+      "sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+    },
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "1042877c0cfd750f24300c0555004c476c4ee3ec231d9cf5b40dd57d557f0669"
+    },
+    {
+      "path": "docs/revisions/opening/contract.json",
+      "sha256": "ad16e256a20ede81cf9edcf77dd41faa356faf8ec1c10d9b0ddabacd2542dce6"
+    },
+    {
+      "path": "EDITORIAL_POLICY.md",
+      "sha256": "21522b502527ecc0a3dd3cb8cd69be314c11ad07633b8cda10befed51dc2d3e8"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7"
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "sha256": "1a90c1e1fb8c55c886f274c923d442b08d54edbbd3d339e96fbc2e511cec5961"
+    }
+  ],
+  "independence_scope": "Current task solutions were derived from the actual learner text before consulting the existing key in this authoring stage. This agent previously processed the historical key during export tooling; this is key authorship, not the separate blind review. No other reviewer solutions were read.",
+  "existing_key_consulted_in_this_authoring_stage": true,
+  "independent_models": {
+    "CH01-F01": "SG a se fisc (N), b ðæs fisces (G), c ðǣm fisce (D), d ðone fisc (A); PL a ðā fiscas (N), b ðāra fisca (G), c ðǣm fiscum (D), d ðā fiscas (A).",
+    "CH01-F02": "a hofu N pl; b hofu A pl; c sǣd N pl; d sǣd A pl. Light hof versus heavy sǣd.",
+    "CH01-F03": "a daga G pl; b hwala G pl; c męnn D sg; d nihta G pl.",
+    "CH01-F04": "a trēowes G sg; b trēowe D sg; c trēowu N pl; d tācnes G sg; e tācnu N pl; f wæteres G sg; g wæteru N pl; h ǣfenu N pl; i nīetenu N pl.",
+    "CH01-F05": "Star SG a steorra N, b steorran G, c steorran A, d steorran D; PL a steorran N, b steorrena G, c steorran A, d steorrum D. Earth e eorðe N sg, f eorðan G sg, g eorðan D sg, h eorðan A sg.",
+    "CH01-F06": "a wyrt A sg; b wyrte G sg; c tīd A sg; d tīde G sg; e gesceafte A sg.",
+    "CH01-F07": "a fæstnesse D sg; b andlīcnessa G pl; c gelīcnessa N pl; d gegaderungum D pl.",
+    "CH01-F08": "ðȳ and ðon: instrumental masculine/neuter singular; recognition reference only.",
+    "CH01-COP01": "Ic wæs on ðǣm trēowe. Ic eom on ðǣm trēowe.",
+    "CH01-COP02": "Ðū eart on ðǣm wætere. Ðū wǣre on ðǣm wætere.",
+    "CH01-COP03": "a Hē wæs on ðǣm lyfte. b Hit is on ðǣm hofe. c Hēo is on ðǣre eorðan. All choices follow grammatical gender; feminine hēo need not imply female sex.",
+    "CH01-COP04": "Wit sindon on ðǣm sǣ. Wit wǣron on ðǣm sǣ. Wē wǣron on ðǣm sǣ.",
+    "CH01-COP05": "Git wǣron on ðǣm hofe. Git sindon on ðǣm hofe. Gē sindon on ðǣm hofe.",
+    "CH01-COP06": "Hīe wǣron on ðǣm wætere. Hīe sindon on ðǣm wætere. Hīe remains for feminine gesceafta.",
+    "CH01-CASE01": "Se mann geseah ðone fugol.",
+    "CH01-CASE02": "Se fugol geseah ðone mann.",
+    "CH01-CASE03": "God gescēop ðā heofonas and ðā eorðan.",
+    "CH01-CASE04": "Se mann geseah ðā steorran.",
+    "CH01-CASE05": "Se mann geseah ðone fisc on ðǣm sǣ.",
+    "CH01-CASE06": "God gedǣlde ðæt lēoht fram ðǣm ðīestrum.",
+    "CH01-CASE07": "Se fugol geseah ðæt sǣd on ðæs mannes hofe.",
+    "CH01-CASE08": "Se fugol geseah ðone mann on ðǣm hofe.",
+    "CH01-CASE09": "God sealde ðǣm męnn męte. Recipient D sg; thing given A sg.",
+    "CH01-CASE10": "Se mann sealde ðǣm fuglum sǣd. Recipient D pl; thing given A sg.",
+    "CH01-COMP01": "Se fugol is on ðǣm trēowe.",
+    "CH01-COMP02": "Ðā fuglas wǣron on ðǣm trēowum.",
+    "CH01-COMP03": "Ðæt sǣd is ðæs fugles męte.",
+    "CH01-COMP04": "Se fisc is dēor.",
+    "CH01-COMP05": "Ðā tācnu wǣron on ðǣm heofone.",
+    "CH01-COMP06": "Ðā wyrta sindon on ðæs mannes hofe.",
+    "CH01-COMP07": "Ðǣre niht lēoht wæs on ðǣm heofone.",
+    "CH01-COMP08": "Ðāra dēora męte is ðāra trēowa wæstm.",
+    "CH01-MINI01": "The man was in/on the sea and is now in the dwelling. The fish are in the dwelling and are the man’s food. The dwelling is on the earth and is the man’s dwelling. Hē=mann, hīe=fiscas, hit=hof. Hīe is plural, męte is singular mass predicate; sindon agrees with hīe. Mannes is the possessor.",
+    "CH01-MINI02": "The creature was in the dwelling; it was an animal. The seed was in the dwelling; it was the creature’s food. Present: Sēo gesceaft is on ðǣm hofe. Hēo is dēor. Ðæt sǣd is on ðǣm hofe. Hit is ðǣre gesceafte męte. Plural first two: Ðā gesceafta sindon on ðǣm hofe. Hīe sindon dēor. Hēo reflects feminine gesceaft, not sex; hit refers to sǣd; gesceafte is G sg.",
+    "CH01-READ01": "God is the subject; heofonan and eorðan are A singular objects. Heofonan is weak feminine singular, not the masculine plural. In the beginning God created heaven and earth.",
+    "CH01-READ02": "Earth was empty and void; darkness was over the surface of the deep. Wǣron agrees with plural ðīestru. Brādnesse is D sg head after supplied ofer; ðǣre nēowolnesse is G sg dependent.",
+    "CH01-READ03": "God’s spirit was borne/carried, contextually moved, over the waters. Wæteru is A pl here; selected D pl is wæterum.",
+    "CH01-READ04": "A command/wish: Let light come to be. Light was made. Geweorðe is supplied finite 3 sg present subjunctive, not a report of an existing fact.",
+    "CH01-READ05": "God then saw that it was good. Ðā is then; ðæt is conjunction that; hit refers to neuter lēoht.",
+    "CH01-READ06": "God separated ðæt lēoht (A n sg direct object) fram ðǣm ðīestrum (D pl separation). Hē refers to God.",
+    "CH01-READ07": "Light was called Day and darkness Night. God/he is the understood subject of hēt. The close says one day, not the ordinal first.",
+    "CH01-READ08": "In the beginning God created heaven and earth. Now the earth was empty and void; and darkness was over the surface of the deep; and God’s spirit was carried over the waters. God then said, “Let light come to be”; and light was made. God then saw that it was good; and he separated the light from the darkness. And he called the light Day, and the darkness Night. Then there came to be evening and morning: one day.",
+    "CH01-REVIEW01": "Dagas, hwalas, wæstmas. Dæg/hwæl alternate singular æ with plural a; wæstm retains æ before its cluster.",
+    "CH01-REVIEW02": "In/on the birds’ trees. Trēowum is D pl head after on; ðāra fugla is G pl dependent; ðāra agrees with fugla.",
+    "CH01-REVIEW03": "Steorran can be G/D/A sg or N/A pl. Ðæs steorran lēoht: star’s light, steorran G sg. Ðā steorran wǣron on ðǣm heofone: stars were in the sky, steorran N pl.",
+    "CH01-REVIEW04": "Ðā ðīestru sindon on ðǣm heofone. Ðæt lēoht wæs on ðǣm hofe. Se mann gedǣlde ðā fuglas fram ðǣm dēore. Direct object A pl; separation D n sg.",
+    "EX-I-01-01": "ðæt ǣfen and se morgen",
+    "EX-I-01-02": "se dæg and sēo niht",
+    "EX-I-01-03": "sēo eorðe and se heofon",
+    "EX-I-01-04": "se fisc and se fugol",
+    "EX-I-01-05": "ðæt gærs and ðæt sǣd",
+    "EX-I-01-06": "ðæt trēo and sēo wyrt",
+    "EX-I-01-07": "sēo drȳgnes and ðæt wæter",
+    "EX-I-01-08": "sēo andlīcnes and sēo gelīcnes",
+    "EX-I-01-09": "ðæt lēoht and ðā ðīestru",
+    "EX-I-01-10": "ðæt tācen and sēo tīd",
+    "EX-I-01-11": "se gāst and ðæt līf",
+    "EX-I-01-12": "sēo gesceaft and se męte",
+    "EX-I-01-13": "ðæt gēar and se dæg",
+    "EX-I-01-14": "se mann and ðæt dēor",
+    "EX-I-01-15": "ðæt trēo and se wæstm",
+    "EX-I-01-16": "sēo fæstnes and sēo nēowolnes",
+    "EX-I-02-01": "ðā dagas and ðā niht",
+    "EX-I-02-02": "ðā fiscas and ðā fuglas",
+    "EX-I-02-03": "ðā trēowu and ðā wyrta",
+    "EX-I-02-04": "ðā andlīcnessa and ðā gelīcnessa",
+    "EX-I-02-05": "ðā tācnu and ðā tīda",
+    "EX-I-02-06": "ðā gēar and ðā dagas",
+    "EX-I-02-07": "ðā męnn and ðā dēor",
+    "EX-I-02-08": "ðā sǣs and ðā heofonas",
+    "EX-I-02-09": "ðā sǣd and ðā wæstmas",
+    "EX-I-02-10": "ðā ǣfenu and ðā morgnas",
+    "EX-I-02-11": "ðā gāstas and ðā męnn",
+    "EX-I-02-12": "ðā hwalas and ðā nīetenu",
+    "EX-I-03-01": "ðæs dæges anginn",
+    "EX-I-03-02": "Godes gāst",
+    "EX-I-03-03": "ðæs līfes lēoht",
+    "EX-I-03-04": "ðæs fugles līf",
+    "EX-I-03-05": "ðæs fisces męte",
+    "EX-I-03-06": "ðæs heofones fæstnes",
+    "EX-I-03-07": "ðǣre eorðan dēor",
+    "EX-I-03-08": "ðǣre nēowolnesse brādnes",
+    "EX-I-03-09": "ðāra wætera gegaderunga",
+    "EX-I-03-10": "ðæs sǣs wæteru",
+    "EX-I-03-11": "ðæs sǣs fiscas",
+    "EX-I-03-12": "ðæs lyftes fuglas",
+    "EX-I-03-13": "ðāra heofona and ðǣre eorðan frætwung",
+    "EX-I-03-14": "Godes weorc",
+    "EX-I-03-15": "ðāra dēora cynn",
+    "EX-I-03-16": "ðæs heofones steorran",
+    "EX-I-03-17": "ðæs gærses sǣd",
+    "EX-I-03-18": "ðāra nihta līehting"
+  },
+  "scope_checks": [
+    "All 92 existing item IDs solved; no new IDs.",
+    "Ten nominatives are licensed by the reconciled opening contract; existing cumulative records still preserve their prior Unit 2 milestones pending coordinator integration.",
+    "Mass/abstract noun plural and reconstructed sea-genitive limits retained.",
+    "Unfamiliar finite frames and Creation constructions remain supplied; F08 remains a reference check."
+  ],
+  "author_queries": [
+    {
+      "item": "CH01-F04",
+      "issue": "Original wording treated trēowu as if it had an unstressed middle stem vowel.",
+      "resolution": "Coordinator changed the instruction to explain w in (c), contrasting middle-vowel loss/retention only in (e)/(g); expected forms unchanged."
+    }
+  ],
+  "preservation_requirement": "Fulfilled: entire existing key section 13, including heading and trailing blank lines, is byte-for-byte identical to the control.",
+  "validation": {
+    "learner_sha_matches_current_authoring_input": true,
+    "learner_item_ids": 92,
+    "key_item_ids": 92,
+    "key_answer_ids": 92,
+    "all_ids_unique": true,
+    "ordered_learner_key_id_match": true,
+    "ordered_key_answer_id_match": true,
+    "independent_models_exact_id_match": true,
+    "cook_section_exact_control_match": true,
+    "cook_section_sha256": "af8501de250928eb6c27161fc683b9ed6c4f5ab36c13b0540575e42d3fa91862",
+    "cook_section_bytes": 9982,
+    "all_required_heading_numbers": true,
+    "utf8_no_bom": true,
+    "nfc": true,
+    "lf_only": true,
+    "newline_at_eof": true,
+    "complete_current_key_source_hash": "32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57",
+    "current_learner_source_hash": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+  },
+  "independent_models_recorded_utc": "2026-11-02T22:43:46.863727+00:00",
+  "authorship_history": [
+    {
+      "stage": "independent_model_derivation",
+      "learner_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad",
+      "models": 92,
+      "existing_key_consulted": false
+    },
+    {
+      "stage": "existing_key_comparison_and_bounded_revision",
+      "completed_utc": "2026-11-02T22:49:26.476457+00:00",
+      "existing_key_consulted": true,
+      "other_reviewer_solutions_consulted": false,
+      "existing_key_sha256": "6a5991a838b6212ad63c4c7c2a12f29733af63eab0488cec0dd65d4ac2004e00"
+    }
+  ],
+  "protected_cook_key_section": {
+    "start_heading": "## 13. Cook's noun-phrase exercises",
+    "end_before_heading": "## 14. Composition",
+    "bytes": 9982,
+    "before_sha256": "af8501de250928eb6c27161fc683b9ed6c4f5ab36c13b0540575e42d3fa91862",
+    "after_sha256": "af8501de250928eb6c27161fc683b9ed6c4f5ab36c13b0540575e42d3fa91862",
+    "byte_identical": true,
+    "controls_json_match": true,
+    "answer_count": 46
+  },
+  "decisions": [
+    {
+      "items": [
+        "CH01-F01",
+        "CH01-F02",
+        "CH01-F03",
+        "CH01-F04",
+        "CH01-F05",
+        "CH01-F06",
+        "CH01-F07"
+      ],
+      "decision": "Give subpart-specific forms, cases and numbers derived from contextual role; do not require translation of the English frame."
+    },
+    {
+      "items": [
+        "CH01-F08"
+      ],
+      "decision": "Instrumental article recognition only, with no new production construction."
+    },
+    {
+      "items": [
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06"
+      ],
+      "decision": "Complete sentences include all ten nominated subject pronouns across changes of person, gender, number and tense. Explain dual-plus-plural-verb agreement and valid ordinary plural versus explicit dual target."
+    },
+    {
+      "items": [
+        "CH01-CASE10"
+      ],
+      "decision": "Recipient changed to D plural ðǣm fuglum; thing given remains A singular sǣd. Supplied sealde unchanged."
+    },
+    {
+      "items": [
+        "CH01-MINI01"
+      ],
+      "decision": "Translate all six sentences, identify three antecedents, preserve tense contrast, and explain plural subject with singular mass-noun predicate."
+    },
+    {
+      "items": [
+        "CH01-MINI02"
+      ],
+      "decision": "Translate all four sentences, supply complete present transformation and plural first-two-sentence transformation, explain grammatical gender versus sex and the genitive dependent."
+    },
+    {
+      "items": [
+        "CH01-READ01",
+        "CH01-READ02",
+        "CH01-READ03",
+        "CH01-READ04",
+        "CH01-READ05",
+        "CH01-READ06",
+        "CH01-READ07",
+        "CH01-READ08"
+      ],
+      "decision": "Reading models remain substantively valid; clarify that familiar noun/pronoun analysis is now derived while unfamiliar finite/construction help remains supplied."
+    },
+    {
+      "items": [
+        "CH01-REVIEW02",
+        "CH01-REVIEW03",
+        "CH01-REVIEW04"
+      ],
+      "decision": "Fresh nested genitive, weak-form ambiguity, tense-preserving agreement repair and plural-object/singular-separation frame receive full models and diagnostics."
+    },
+    {
+      "items": [
+        "EX-I-01-01..16",
+        "EX-I-02-01..12",
+        "EX-I-03-01..18"
+      ],
+      "decision": "All 46 independent Cook models agree with the retained section; entire section preserved byte-for-byte."
+    },
+    {
+      "items": [
+        "CH01-CASE01..09",
+        "CH01-COMP01..08",
+        "CH01-REVIEW01"
+      ],
+      "decision": "Existing entries independently checked and retained; original prompts unchanged."
+    }
+  ],
+  "output": {
+    "path": "chapters/ch01/answer-key.md",
+    "sha256": "32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57",
+    "bytes": 34463,
+    "lines": 566
+  },
+  "unresolved_linguistic_concerns": [],
+  "review_status": "Author checks passed; independent linguistic review and current export/page inspection remain coordinator gates."
+}

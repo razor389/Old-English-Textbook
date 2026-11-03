@@ -1,0 +1,353 @@
+{
+  "schema_version": 1,
+  "review_id": "opening-unit1-register-acceptance",
+  "reviewer": "sound_fulk",
+  "date": "2026-11-02",
+  "status": "accepted",
+  "inputs": [
+    {
+      "path": "chapters/ch01/coverage.json",
+      "sha256": "4a728a4ba21b0fecba0240794c65c174d801b7afc3a5d3f8b14915e5407cdbce"
+    },
+    {
+      "path": "lexicon/entries.json",
+      "sha256": "a72dfa63e9622199e4bd7dd80b87f569939c6489e0424e49d4dbf182a6ffbbe1"
+    },
+    {
+      "path": "curriculum/grammar.json",
+      "sha256": "734aafa806000357c681c9ff444bdda52e1e35cb93200cf9087a47c4aa511785"
+    },
+    {
+      "path": "docs/revisions/opening/register-integration.json",
+      "sha256": "f8b0a61ff8c852b13669bde1b0dc10ec7d71b9feba86cb827f3b43e30379c273"
+    },
+    {
+      "path": "docs/revisions/opening/reviews/unit1-integration-review.json",
+      "sha256": "fe2f735bc3db7edff285e74276c6b73ab5b9b3762a49fe4966da3ef0d21fd681"
+    },
+    {
+      "path": "chapters/ch01/student.md",
+      "sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+    },
+    {
+      "path": "chapters/ch01/answer-key.md",
+      "sha256": "32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57"
+    }
+  ],
+  "baseline": {
+    "revision": "350fd003fb4aa47f141ade405626a549565d5a2d",
+    "access": "Read-only git show of actual register bytes; compared to frozen baseline identity inventory and integrator input hashes.",
+    "lexicon_sha256": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7",
+    "grammar_sha256": "1a90c1e1fb8c55c886f274c923d442b08d54edbbd3d339e96fbc2e511cec5961"
+  },
+  "method": "Independent comparison reads actual corrected contract, current cumulative records and immutable baseline records. It checks all keyed scope amendments, derives local assessment from explicit true uses, compares all original record IDs/milestones/non-Unit-1 usage and historical snapshots, and checks bounded subject semantics against the prior independent learner review. Existing form/sense ID reuse in 16 non-Unit-1 records is namespaced internally so both records are compared, not collapsed. No integration script is executed or imported.",
+  "counts": {
+    "local_requirements": 531,
+    "local_records": 531,
+    "previous_cumulative_records": 16196,
+    "current_cumulative_records": 16202,
+    "amended_use_pairs": 690,
+    "all_current_unit1_requirement_uses": 1412,
+    "independent_current_unit1_uses": 1184,
+    "baseline_other_chapter_snapshots_checked": 17073
+  },
+  "checks": {
+    "baseline_register_hashes_match_identity_inventory": {
+      "passed": true,
+      "detail": {
+        "lexicon/entries.json": "109be47b2570a9fa0df2c51cf5e9649c450ab3a89072b6084d7c5b93e4d0f9f7",
+        "curriculum/grammar.json": "1a90c1e1fb8c55c886f274c923d442b08d54edbbd3d339e96fbc2e511cec5961"
+      }
+    },
+    "integration_input_registers_are_actual_baseline": {
+      "passed": true
+    },
+    "integration_output_hashes_match_current_files": {
+      "passed": true
+    },
+    "coverage_hash_matches_register_integration_input": {
+      "passed": true
+    },
+    "immutable_amendment_receipt_hash_preserved": {
+      "passed": true
+    },
+    "all_690_keyed_amendments_applied_exactly": {
+      "passed": true,
+      "detail": []
+    },
+    "all_local_requirements_have_scoped_consistent_usage": {
+      "passed": true,
+      "detail": {
+        "requirements": 531,
+        "all_uses": 1412,
+        "independent_uses": 1184,
+        "errors": []
+      }
+    },
+    "all_current_unit1_snapshots_and_slices_match_local": {
+      "passed": true,
+      "detail": {
+        "records": 531,
+        "errors": []
+      }
+    },
+    "all_non_unit1_usage_and_teaching_slices_unchanged": {
+      "passed": true,
+      "detail": {
+        "records_checked": 16196,
+        "errors": []
+      }
+    },
+    "all_historical_other_chapter_snapshots_and_supplied_exposures_preserved": {
+      "passed": true,
+      "detail": {
+        "snapshots_checked": 17073,
+        "errors": []
+      }
+    },
+    "all_existing_milestones_preserved_except_ten_nominatives": {
+      "passed": true,
+      "detail": {
+        "records_checked": 16196,
+        "moved_forms": [
+          "he-f-nom-sg",
+          "he-m-nom-sg",
+          "he-n-nom-sg",
+          "he-nom-pl",
+          "ic-nom-dual",
+          "ic-nom-pl",
+          "ic-nom-sg",
+          "thu-nom-dual",
+          "thu-nom-pl",
+          "thu-nom-sg"
+        ],
+        "errors": []
+      }
+    },
+    "no_unapproved_record_field_changes": {
+      "passed": true,
+      "detail": []
+    },
+    "all_existing_ids_preserved_and_exact_six_bounded_ids_added": {
+      "passed": true,
+      "detail": {
+        "added_ids": [
+          "he-subject",
+          "ic-subject",
+          "thu-subject",
+          "u01-dual-subject-agreement",
+          "u01-subject-pronoun-reference",
+          "u01-subject-pronouns"
+        ]
+      }
+    },
+    "new_bounded_record_milestones_and_scope_match_local": {
+      "passed": true
+    },
+    "lemma_metadata_top_level_registers_and_existing_evidence_preserved": {
+      "passed": true,
+      "detail": []
+    },
+    "all_13295_form_ids_spellings_and_analyses_preserved": {
+      "passed": true,
+      "detail": {
+        "form_count": 13295
+      }
+    },
+    "broad_personal_pronoun_senses_remain_unit2": {
+      "passed": true
+    },
+    "retired_supplied_pronoun_history_is_explicit_and_unassessed": {
+      "passed": true
+    },
+    "source_controls_still_match_accepted_proposal": {
+      "passed": true
+    },
+    "learner_and_key_remain_accepted_frozen_inputs": {
+      "passed": true
+    },
+    "inputs_stable_during_independent_check": {
+      "passed": true
+    }
+  },
+  "semantic_examples": {
+    "ic-personal": {
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    "thu-personal": {
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": []
+    },
+    "he-1": {
+      "recognition_taught_in": "ch02",
+      "production_taught_in": "ch02",
+      "supplied_in": [
+        "ch01"
+      ],
+      "scope_note": "Exact source or explicitly scaffolded expression only; no independent lexical recall.",
+      "unit1_assessed_in": []
+    },
+    "ic-subject": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "scope_note": "Bounded teaching-scope refinement under the existing dictionary headword; no oblique-case milestone is imported.",
+      "unit1_assessed_in": [
+        "CH01-COP01",
+        "CH01-COP04"
+      ]
+    },
+    "thu-subject": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "scope_note": "Bounded teaching-scope refinement under the existing dictionary headword; no oblique-case milestone is imported.",
+      "unit1_assessed_in": [
+        "CH01-COP02",
+        "CH01-COP05"
+      ]
+    },
+    "he-subject": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "scope_note": "Bounded teaching-scope refinement under the existing dictionary headword; no oblique-case milestone is imported.",
+      "unit1_assessed_in": [
+        "CH01-COP03",
+        "CH01-COP06",
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-READ05",
+        "CH01-READ08"
+      ]
+    },
+    "reading-personal-pronouns": {
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01"
+      ],
+      "description": "Historical supplied exposure before the opening revision: hē and hit and their antecedents were supplied in the Creation reading. Current subject/reference use is taught under the bounded u01 features.",
+      "historical_only": true,
+      "unit1_assessed_in": []
+    },
+    "reading-content-clause": {
+      "recognition_taught_in": null,
+      "production_taught_in": null,
+      "supplied_in": [
+        "ch01",
+        "ch05"
+      ],
+      "description": "Supply conjunction ðæt, local clause meaning and the embedded copula order in ðæt hit gōd wæs. Hit is a taught nominative subject; its antecedent is a learner decision under u01-subject-pronoun-reference.",
+      "scope_note": "Local printed support only; no independent production or unaided recall.",
+      "unit1_assessed_in": []
+    },
+    "u01-subject-pronouns": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "description": "All ten nominatives, person/number and third-singular gender.",
+      "unit1_assessed_in": [
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06",
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-READ05",
+        "CH01-READ08"
+      ]
+    },
+    "u01-dual-subject-agreement": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "description": "wit/git with ordinary plural copula, without excluding two from ordinary plurals.",
+      "unit1_assessed_in": [
+        "CH01-COP04",
+        "CH01-COP05"
+      ]
+    },
+    "u01-subject-pronoun-reference": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "description": "Clear nominative reference by grammatical gender/number in ordinary copular clauses, including inanimates.",
+      "unit1_assessed_in": [
+        "CH01-COP03",
+        "CH01-COP06",
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-READ05",
+        "CH01-READ08"
+      ]
+    },
+    "waeter-acc-pl": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "scope_note": "Morphological production in assigned number; only the unit's ordinary syntactic uses are taught.",
+      "unit1_assessed_in": []
+    },
+    "waeter-dat-pl": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "scope_note": "Morphological production in assigned number; only the unit's ordinary syntactic uses are taught.",
+      "unit1_assessed_in": [
+        "CH01-READ03"
+      ]
+    },
+    "aefen-nom-sg": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "scope_note": "Morphological production in assigned number; only the unit's ordinary syntactic uses are taught.",
+      "unit1_assessed_in": [
+        "EX-I-01-01"
+      ]
+    },
+    "on-dative-location": {
+      "recognition_taught_in": "ch01",
+      "production_taught_in": "ch01",
+      "supplied_in": [],
+      "description": "Use taught locative on with dative ('in/on'); this is a selected construction, not a universal spatial rule.",
+      "unit1_assessed_in": [
+        "CH01-F04",
+        "CH01-F05",
+        "CH01-F07",
+        "CH01-COP01",
+        "CH01-COP02",
+        "CH01-COP03",
+        "CH01-COP04",
+        "CH01-COP05",
+        "CH01-COP06",
+        "CH01-CASE05",
+        "CH01-CASE07",
+        "CH01-CASE08",
+        "CH01-COMP01",
+        "CH01-COMP02",
+        "CH01-COMP05",
+        "CH01-COMP06",
+        "CH01-COMP07",
+        "CH01-MINI01",
+        "CH01-MINI02",
+        "CH01-REVIEW02",
+        "CH01-REVIEW03"
+      ]
+    }
+  },
+  "findings": [],
+  "acceptance": {
+    "current_unit1_local_assessment": true,
+    "bounded_cumulative_register_integration": true,
+    "earlier_learner_key_acceptance_preserved": true,
+    "scope": "Current Unit 1 metadata and cumulative register integration only; this does not certify a later Unit 2 bridge or refreshed exports.",
+    "amendment_receipt_left_unchanged": true
+  }
+}

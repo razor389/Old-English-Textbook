@@ -1,0 +1,3251 @@
+{
+  "schema_version": 1,
+  "review_id": "opening-unit1-independent",
+  "reviewer": "/root/sound_fulk",
+  "date": "2026-11-02",
+  "status": "learner_and_key_text_accepted_task_binding_proposal_checked",
+  "original_learner": {
+    "path": "chapters/ch01/student.md",
+    "sha256": "3ae4d781834b90648e388234916c66cadfa2bd574e898bd1073aa054e97ff4f4",
+    "scratch_snapshot": "build/opening/unit1-review/learner-3ae4d781834b90648e388234916c66cadfa2bd574e898bd1073aa054e97ff4f4.md",
+    "line_count": 878
+  },
+  "reviewed_learner": {
+    "path": "chapters/ch01/student.md",
+    "sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad",
+    "scratch_snapshot": "build/opening/unit1-review/learner-0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad.md",
+    "line_count": 878
+  },
+  "independence": {
+    "all_92_actual_learner_tasks_solved_before_any_unit1_key_access": true,
+    "unit1_key_read": false,
+    "unit1_author_models_read": false,
+    "old_coverage_prompts_used_as_task_source": false,
+    "actual_task_source": "the two preserved learner snapshots",
+    "source_grammar_and_transcripts_used_for_verification_only": true,
+    "coordinator_message_about_F04_disclosed": "Coordinator reported the parallel wording finding without supplying model outputs; independent solutions require no change.",
+    "stage_scope": "These access declarations describe the original blind-solution freeze. Subsequent authorized key access is recorded separately under key_comparison."
+  },
+  "frozen_solution_digest": {
+    "algorithm": "sha256 of UTF-8 JSON solutions with ensure_ascii=False, sort_keys=True, separators=(',', ':')",
+    "sha256": "5c0636cb5aeb44b2b9a6357aad8ad74288293bdda32b9b05b977a787848d5c66"
+  },
+  "task_counts": {
+    "all": 92,
+    "forms": 8,
+    "copula": 6,
+    "case_frames": 10,
+    "cook_I1": 16,
+    "cook_I2": 12,
+    "cook_I3": 18,
+    "composition": 8,
+    "short_readings": 2,
+    "source_reading": 8,
+    "review": 4
+  },
+  "solutions": [
+    {
+      "item_id": "CH01-F01",
+      "models_or_responses": [
+        "(a) singular se fisc — nominative singular; plural ðā fiscas — nominative plural.",
+        "(b) singular ðæs fisces — genitive singular; plural ðāra fisca — genitive plural.",
+        "(c) singular ðǣm fisce — dative singular; plural ðǣm fiscum — dative plural.",
+        "(d) singular ðone fisc — accusative singular; plural ðā fiscas — accusative plural."
+      ],
+      "analysis": "Choose nominative for the subject, genitive for the dependent of an English of-phrase, dative for the recipient, and accusative for the thing seen. The singular article distinguishes nominative and accusative even though fisc itself does not. The revised unbold English contexts change no required form.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Original singular (a) and (d) repeated worked contexts; those contexts were repaired before the revised learner was accepted. All complete paradigm references remain available.",
+      "original_learner_prompt": "1. Write the bold noun phrase in Old English and label its case: (a) **The fish** is in the water; (b) the food of **the fish**; (c) God gave food to **the fish**; (d) the man saw **the fish**. First make each fish singular, then rewrite all four phrases for several fish. Include the article.",
+      "original_marker_line": 384,
+      "reviewed_learner_marker_line": 384,
+      "prompt_changed_during_blind_review": true,
+      "revised_learner_prompt": "1. Write the bold noun phrase in Old English and label its case: (a) **The fish** is food; (b) the body of **the fish**; (c) God gave food to **the fish**; (d) the bird saw **the fish**. First make each fish singular, then rewrite all four phrases for several fish. Include the article.",
+      "effect_on_solution": "No model output changes: F01 changes unbold English context; F04 clarifies which stem alteration to explain."
+    },
+    {
+      "item_id": "CH01-F02",
+      "models_or_responses": [
+        "(a) hofu — nominative plural.",
+        "(b) hofu — accusative plural.",
+        "(c) sǣd — nominative plural.",
+        "(d) sǣd — accusative plural."
+      ],
+      "analysis": "Subject versus object fixes case. Both nouns have the same nominative and accusative in a given number. Hof is the short pattern, with short o plus one consonant; sǣd has a long vowel and the heavy pattern. Hence -u versus no added N/A plural ending.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "2. Write only the bold noun, without an article: (a) several **dwellings** are on the earth; (b) the man saw several **dwellings**; (c) the **seeds** are food; (d) the bird saw the **seeds**. Identify each case and number. Explain why the two nouns differ in their plural endings although their roles are parallel.",
+      "original_marker_line": 388,
+      "reviewed_learner_marker_line": 388,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-F03",
+      "models_or_responses": [
+        "(a) daga — genitive plural.",
+        "(b) hwala — genitive plural.",
+        "(c) męnn — dative singular.",
+        "(d) nihta — genitive plural."
+      ],
+      "analysis": "The of-relations require genitives; the recipient requires dative. Dæg and hwæl have plural a, mann has its individual dative singular męnn, and niht has genitive plural nihta. Only the marked nouns are translated.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "3. Give only the bold noun, without an article, and explain its case: (a) the length of several **days**; (b) the food of several **whales**; (c) God gave food to one **man**; (d) the darkness of several **nights**. Preserve each noun's own stem changes.",
+      "original_marker_line": 392,
+      "reviewed_learner_marker_line": 392,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-F04",
+      "models_or_responses": [
+        "(a) trēowes — genitive singular.",
+        "(b) trēowe — dative singular.",
+        "(c) trēowu — nominative plural.",
+        "(d) tācnes — genitive singular.",
+        "(e) tācnu — nominative plural.",
+        "(f) wæteres — genitive singular.",
+        "(g) wæteru — nominative plural.",
+        "(h) ǣfenu — nominative plural.",
+        "(i) nīetenu — nominative plural."
+      ],
+      "analysis": "Trēo has w before its endings, including the exceptional plural -u; there is no unstressed middle vowel to delete from bare trēo. Tācen loses the middle e before endings; wæter retains its e. The revised final instruction correctly separates the w alternation from the syncope comparison.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "4. Give only the bold noun, without an article: (a) the fruit of one **tree**; (b) the bird is in one **tree**; (c) several **trees** are in the dwelling; (d) the meaning of one **sign**; (e) several **signs** are in the sky; (f) the sound of the **water**; (g) the **waters** are in the sea; (h) several **evenings** have passed; (i) the **cattle** are in the dwelling. Label the forms. Compare the presence or absence of the middle vowel in (c), (e), and (g).",
+      "original_marker_line": 396,
+      "reviewed_learner_marker_line": 396,
+      "prompt_changed_during_blind_review": true,
+      "revised_learner_prompt": "4. Give only the bold noun, without an article: (a) the fruit of one **tree**; (b) the bird is in one **tree**; (c) several **trees** are in the dwelling; (d) the meaning of one **sign**; (e) several **signs** are in the sky; (f) the sound of the **water**; (g) the **waters** are in the sea; (h) several **evenings** have passed; (i) the **cattle** are in the dwelling. Label the forms. Explain the **w** in (c), and contrast the loss or retention of the middle stem vowel in (e) and (g).",
+      "effect_on_solution": "No model output changes: F01 changes unbold English context; F04 clarifies which stem alteration to explain."
+    },
+    {
+      "item_id": "CH01-F05",
+      "models_or_responses": [
+        "One star: (a) steorra — nominative singular; (b) steorran — genitive singular; (c) steorran — accusative singular; (d) steorran — dative singular.",
+        "Several stars: (a) steorran — nominative plural; (b) steorrena — genitive plural; (c) steorran — accusative plural; (d) steorrum — dative plural.",
+        "Earth: (e) eorðe — nominative singular; (f) eorðan — genitive singular; (g) eorðan — dative singular; (h) eorðan — accusative singular."
+      ],
+      "analysis": "Weak -an is shared by genitive/dative/accusative singular and nominative/accusative plural. The given role and intended number settle its analysis. No plural earth sense is produced.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Part (d) explicitly supplies dative, so that subpart checks inflection rather than independent prepositional government. The English verbs/prepositions outside the bold nouns are not translated.",
+      "original_learner_prompt": "5. Give only the bold noun, without an article: (a) **the star** is in the sky; (b) the light of **the star**; (c) the man is looking at **the star**, as a direct object; (d) the bird is under **the star**, using a supplied dative frame. First use one star, then several stars. Next give singular **earth** as (e) subject, (f) possessor in “the surface of the earth,” (g) location after **on**, and (h) direct object in “God created the earth.” Explain why an isolated **-an** form cannot settle the analysis. Only the noun forms are requested; the verbs and the English prepositions in (c–d) are not to be translated.",
+      "original_marker_line": 400,
+      "reviewed_learner_marker_line": 400,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-F06",
+      "models_or_responses": [
+        "(a) wyrt — accusative singular.",
+        "(b) wyrte — genitive singular.",
+        "(c) tīd — accusative singular.",
+        "(d) tīde — genitive singular.",
+        "(e) gesceafte — accusative singular."
+      ],
+      "analysis": "The selected wyrt and tīd patterns retain endingless accusative singular; gesceaft has the regular feminine accusative -e. Genitive singular is -e in all three patterns.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "6. Give only the bold noun, without an article: (a) the man saw one **herb**; (b) the seed of one **herb**; (c) the man marked one **season** as the direct object; (d) the beginning of one **season**; (e) the man saw one **creature**. Explain why the direct objects do not all take the same feminine ending.",
+      "original_marker_line": 404,
+      "reviewed_learner_marker_line": 404,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-F07",
+      "models_or_responses": [
+        "(a) fæstnesse — dative singular.",
+        "(b) andlīcnessa — genitive plural.",
+        "(c) gelīcnessa — nominative plural.",
+        "(d) gegaderungum — dative plural."
+      ],
+      "analysis": "The -nes nouns retain e and use -ness- before endings: fæstness-e, andlīcness-a, gelīcness-a. Gegaderung retains its -ung stem and adds -um. The locative on phrases require dative; the of-relation requires genitive; the several likenesses are a plural subject.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "7. Give only the bold noun, without an article: (a) in the **firmament**, using locative **on**; (b) the form of several **images**; (c) several **likenesses** are in the dwelling; (d) in several **gatherings**, using locative **on**. Identify the case and number, and explain the stem before each ending.",
+      "original_marker_line": 408,
+      "reviewed_learner_marker_line": 408,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-F08",
+      "models_or_responses": [
+        "ðȳ and ðon are instrumental singular article forms for masculine and neuter."
+      ],
+      "analysis": "The row is explicitly reference-only. Neither feminine instrumental syntax nor independent instrumental composition is assessed.",
+      "practice_classification": "reference_recognition",
+      "support_boundary": "The exact forms and identification are deliberately supplied by the complete reference table; this is not counted as transfer.",
+      "original_learner_prompt": "8. Reference check: locate **ðȳ** and **ðon** in the article table. Identify their case and singular genders. This checks recognition of the reference forms; their use in composition is not required.",
+      "original_marker_line": 412,
+      "reviewed_learner_marker_line": 412,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COP01",
+      "models_or_responses": [
+        "Ic wæs on ðǣm trēowe.",
+        "Ic eom on ðǣm trēowe."
+      ],
+      "analysis": "The speaker is first-person singular; wæs becomes eom when the state changes from past to present. The location remains dative singular.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "1. You are speaking about yourself: “I was in the tree.” Then change only the time: “I am in the tree.”",
+      "original_marker_line": 420,
+      "reviewed_learner_marker_line": 420,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COP02",
+      "models_or_responses": [
+        "Ðū eart on ðǣm wætere.",
+        "Ðū wǣre on ðǣm wætere."
+      ],
+      "analysis": "One addressee selects ðū and second singular eart/wǣre, not first/third singular wæs in the past.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "2. Address one person: “You are in the water.” Then place the same state in the past.",
+      "original_marker_line": 424,
+      "reviewed_learner_marker_line": 424,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COP03",
+      "models_or_responses": [
+        "(a) Hē wæs on ðǣm lyfte.",
+        "(b) Hit is on ðǣm hofe.",
+        "(c) Hēo is on ðǣre eorðan."
+      ],
+      "analysis": "Gāst is masculine, tācen neuter and andlīcnes feminine. The appropriate subject forms are hē, hit and hēo. All three selections follow grammatical gender; particularly hēo for an image asserts no female sex. Past versus present follows the original sentence. Lyft is the selected neuter noun.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "3. Replace the subject of each sentence with its appropriate pronoun and translate: (a) “The spirit was in the air”; (b) “The sign is in the dwelling”; (c) “The image is on the earth.” Which choice depends on grammatical gender rather than sex?",
+      "original_marker_line": 428,
+      "reviewed_learner_marker_line": 428,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COP04",
+      "models_or_responses": [
+        "Wit sindon on ðǣm sǣ.",
+        "Wit wǣron on ðǣm sǣ.",
+        "Wē wǣron on ðǣm sǣ."
+      ],
+      "analysis": "Wit expressly includes the speaker and one companion. A group of three requires wē. Both subjects take the ordinary plural copula, so the past verb remains wǣron when the subject changes from dual to plural.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "4. You speak for yourself and one companion: “We two are in the sea.” Put this in the past, then restate the past sentence for a group of three that includes you. Explain which pronoun changes and why the verb's number does not.",
+      "original_marker_line": 432,
+      "reviewed_learner_marker_line": 432,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COP05",
+      "models_or_responses": [
+        "Git wǣron on ðǣm hofe.",
+        "Git sindon on ðǣm hofe.",
+        "Gē sindon on ðǣm hofe."
+      ],
+      "analysis": "Two explicitly designated addressees select git; three select gē. Both use plural verbs. Changing past to present changes wǣron to sindon; the later number change does not change sindon.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "5. Address two companions: “You two were in the dwelling.” Put this in the present, then restate the present sentence to address a group of three. Explain the choices of pronoun and verb.",
+      "original_marker_line": 436,
+      "reviewed_learner_marker_line": 436,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COP06",
+      "models_or_responses": [
+        "Hīe wǣron on ðǣm wætere.",
+        "Hīe sindon on ðǣm wætere.",
+        "Hīe remains the subject if the antecedent is several gesceafta."
+      ],
+      "analysis": "Third-person plural hīe has no masculine/neuter/feminine distinction. The plural noun antecedent governs number; only the time change alters the copula.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "6. The whales have already been mentioned. Say “They were in the water,” then put this in the present. Would the subject pronoun change if it referred instead to several feminine **gesceafta**, “creatures”? Explain.",
+      "original_marker_line": 440,
+      "reviewed_learner_marker_line": 440,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE01",
+      "models_or_responses": [
+        "Se mann geseah ðone fugol."
+      ],
+      "analysis": "Se mann is nominative singular subject; ðone fugol is accusative singular object.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "1. The man saw the bird.\n\n   **_____ geseah _____.**\n\n   Supplied: **geseah**, “saw,” third-person singular preterite.",
+      "original_marker_line": 448,
+      "reviewed_learner_marker_line": 448,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE02",
+      "models_or_responses": [
+        "Se fugol geseah ðone mann."
+      ],
+      "analysis": "The reversed roles reverse the article/case assignment: bird is nominative, man accusative.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "2. The bird saw the man.\n\n   **_____ geseah _____.**\n\n   Supplied: **geseah**, “saw,” third-person singular preterite.",
+      "original_marker_line": 456,
+      "reviewed_learner_marker_line": 456,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE03",
+      "models_or_responses": [
+        "God gescēop ðā heofonas and ðā eorðan."
+      ],
+      "analysis": "God is the proper-name subject. Masculine heofonas is accusative plural; weak feminine eorðan is accusative singular. Each object's article agrees separately. Do not import the source reading's different feminine heofonan.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "3. God created the heavens and the earth. Use masculine heofon for 'heavens'.\n\n   **_____ gescēop _____ and _____.**\n\n   Supplied: **gescēop**, “created,” third-person singular preterite.",
+      "original_marker_line": 464,
+      "reviewed_learner_marker_line": 464,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE04",
+      "models_or_responses": [
+        "Se mann geseah ðā steorran."
+      ],
+      "analysis": "The stars are accusative plural despite steorran also serving several other case/number values.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "4. The man saw the stars.\n\n   **_____ geseah _____.**\n\n   Supplied: **geseah**, “saw,” third-person singular preterite.",
+      "original_marker_line": 472,
+      "reviewed_learner_marker_line": 472,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE05",
+      "models_or_responses": [
+        "Se mann geseah ðone fisc on ðǣm sǣ."
+      ],
+      "analysis": "The supplied clarification makes the fish singular. It is the accusative object; the sea is dative singular after locative on.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "5. The man saw the fish in the sea.\n\n   **_____ geseah _____ on _____.**\n\n   Supplied: **geseah**, “saw,” third-person singular preterite. The fish is in the sea.",
+      "original_marker_line": 480,
+      "reviewed_learner_marker_line": 480,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE06",
+      "models_or_responses": [
+        "God gedǣlde ðæt lēoht fram ðǣm ðīestrum."
+      ],
+      "analysis": "Light is accusative singular; plural-only darkness is dative plural after fram.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "6. God separated the light from the darkness.\n\n   **_____ gedǣlde _____ fram _____.**\n\n   Supplied: **gedǣlde**, “separated/divided,” third-person singular preterite.",
+      "original_marker_line": 488,
+      "reviewed_learner_marker_line": 488,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE07",
+      "models_or_responses": [
+        "Se fugol geseah ðæt sǣd on ðæs mannes hofe."
+      ],
+      "analysis": "The seed is accusative singular. Hofe is the dative head after on; ðæs mannes stays genitive singular and its article belongs to mann. The head has no additional article in this selected construction.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "7. The bird saw the seed in the man's dwelling.\n\n   **_____ geseah _____ on _____.**\n\n   Supplied: **geseah**, “saw,” third-person singular preterite. The seed is in the dwelling.",
+      "original_marker_line": 496,
+      "reviewed_learner_marker_line": 496,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE08",
+      "models_or_responses": [
+        "Se fugol geseah ðone mann on ðǣm hofe."
+      ],
+      "analysis": "The man is the accusative singular object, not a genitive dependent. The dwelling is dative singular after on.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "8. The bird saw the man in the dwelling.\n\n   **_____ geseah _____ on _____.**\n\n   Supplied: **geseah**, “saw,” third-person singular preterite. The man is in the dwelling.",
+      "original_marker_line": 504,
+      "reviewed_learner_marker_line": 504,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE09",
+      "models_or_responses": [
+        "God sealde ðǣm męnn męte."
+      ],
+      "analysis": "The recipient ðǣm męnn is dative singular; the thing given męte is accusative singular. The source frame supplies sealde; the recipient must precede the thing here.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "9. Complete the printed sealde frame to express: God gave food to the man. Identify the recipient and the thing given.\n\n   **_____ sealde _____ _____.**\n\n   Supplied: **sealde**, “gave,” third-person singular preterite. Put the recipient before the thing given in this frame.",
+      "original_marker_line": 512,
+      "reviewed_learner_marker_line": 512,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-CASE10",
+      "models_or_responses": [
+        "Se mann sealde ðǣm fuglum sǣd."
+      ],
+      "analysis": "The man is nominative singular; ðǣm fuglum is dative plural recipient; bare sǣd is accusative singular seed as the thing given.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The exact finite verb is supplied; only the noun/article construction and requested analysis are independently produced.",
+      "original_learner_prompt": "10. Complete the printed sealde frame to express: The man gave seed to the birds. Identify the recipient and the thing given.\n\n   **_____ sealde _____ _____.**\n\n   Supplied: **sealde**, “gave,” third-person singular preterite. Put the recipient before the thing given in this frame.",
+      "original_marker_line": 520,
+      "reviewed_learner_marker_line": 520,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-01",
+      "models_or_responses": [
+        "Ðæt ǣfen and se morgen."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "1. The evening and the morning.",
+      "original_marker_line": 534,
+      "reviewed_learner_marker_line": 534,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-02",
+      "models_or_responses": [
+        "Se dæg and sēo niht."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "2. The day and the night.",
+      "original_marker_line": 538,
+      "reviewed_learner_marker_line": 538,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-03",
+      "models_or_responses": [
+        "Sēo eorðe and se heofon."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "3. The earth and the heaven.",
+      "original_marker_line": 542,
+      "reviewed_learner_marker_line": 542,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-04",
+      "models_or_responses": [
+        "Se fisc and se fugol."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "4. The fish and the bird.",
+      "original_marker_line": 546,
+      "reviewed_learner_marker_line": 546,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-05",
+      "models_or_responses": [
+        "Ðæt gærs and ðæt sǣd."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "5. The grass and the seed.",
+      "original_marker_line": 550,
+      "reviewed_learner_marker_line": 550,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-06",
+      "models_or_responses": [
+        "Ðæt trēo and sēo wyrt."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "6. The tree and the herb.",
+      "original_marker_line": 554,
+      "reviewed_learner_marker_line": 554,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-07",
+      "models_or_responses": [
+        "Sēo drȳgnes and ðæt wæter."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "7. The dry land and the water.",
+      "original_marker_line": 558,
+      "reviewed_learner_marker_line": 558,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-08",
+      "models_or_responses": [
+        "Sēo andlīcnes and sēo gelīcnes."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "8. The image and the likeness.",
+      "original_marker_line": 562,
+      "reviewed_learner_marker_line": 562,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-09",
+      "models_or_responses": [
+        "Ðæt lēoht and ðā ðīestru."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number. Darkness is plural-only, so its article is ðā despite singular English darkness.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "9. The light and the darkness (plur.).",
+      "original_marker_line": 566,
+      "reviewed_learner_marker_line": 566,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-10",
+      "models_or_responses": [
+        "Ðæt tācen and sēo tīd."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "10. The sign and the season.",
+      "original_marker_line": 570,
+      "reviewed_learner_marker_line": 570,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-11",
+      "models_or_responses": [
+        "Se gāst and ðæt līf."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "11. The spirit and the life.",
+      "original_marker_line": 574,
+      "reviewed_learner_marker_line": 574,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-12",
+      "models_or_responses": [
+        "Sēo gesceaft and se męte."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "12. The creature and the food.",
+      "original_marker_line": 578,
+      "reviewed_learner_marker_line": 578,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-13",
+      "models_or_responses": [
+        "Ðæt gēar and se dæg."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "13. The year and the day.",
+      "original_marker_line": 582,
+      "reviewed_learner_marker_line": 582,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-14",
+      "models_or_responses": [
+        "Se mann and ðæt dēor."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "14. The man and the animal.",
+      "original_marker_line": 586,
+      "reviewed_learner_marker_line": 586,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-15",
+      "models_or_responses": [
+        "Ðæt trēo and se wæstm."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "15. The tree and the fruit.",
+      "original_marker_line": 590,
+      "reviewed_learner_marker_line": 590,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-01-16",
+      "models_or_responses": [
+        "Sēo fæstnes and sēo nēowolnes."
+      ],
+      "analysis": "Both coordinated phrases are nominative. Choose each article from that noun's own gender and requested number.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "Nominative is an added teaching target. Complete noun diagnostics and the article table remain visible; this source exercise alone is not counted as broad transfer practice.",
+      "original_learner_prompt": "16. The firmament and the abyss.",
+      "original_marker_line": 594,
+      "reviewed_learner_marker_line": 594,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-01",
+      "models_or_responses": [
+        "Ðā dagas and ðā niht."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "1. The days and the nights.",
+      "original_marker_line": 600,
+      "reviewed_learner_marker_line": 600,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-02",
+      "models_or_responses": [
+        "Ðā fiscas and ðā fuglas."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "2. The fishes and the birds.",
+      "original_marker_line": 604,
+      "reviewed_learner_marker_line": 604,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-03",
+      "models_or_responses": [
+        "Ðā trēowu and ðā wyrta."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "3. The trees and the herbs.",
+      "original_marker_line": 608,
+      "reviewed_learner_marker_line": 608,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-04",
+      "models_or_responses": [
+        "Ðā andlīcnessa and ðā gelīcnessa."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "4. The images and the likenesses.",
+      "original_marker_line": 612,
+      "reviewed_learner_marker_line": 612,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-05",
+      "models_or_responses": [
+        "Ðā tācnu and ðā tīda."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "5. The signs and the seasons.",
+      "original_marker_line": 616,
+      "reviewed_learner_marker_line": 616,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-06",
+      "models_or_responses": [
+        "Ðā gēar and ðā dagas."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "6. The years and the days.",
+      "original_marker_line": 620,
+      "reviewed_learner_marker_line": 620,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-07",
+      "models_or_responses": [
+        "Ðā męnn and ðā dēor."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "7. The men and the animals.",
+      "original_marker_line": 624,
+      "reviewed_learner_marker_line": 624,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-08",
+      "models_or_responses": [
+        "Ðā sǣs and ðā heofonas."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "8. The seas and the heavens.",
+      "original_marker_line": 628,
+      "reviewed_learner_marker_line": 628,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-09",
+      "models_or_responses": [
+        "Ðā sǣd and ðā wæstmas."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "9. The seeds and the fruits.",
+      "original_marker_line": 632,
+      "reviewed_learner_marker_line": 632,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-10",
+      "models_or_responses": [
+        "Ðā ǣfenu and ðā morgnas."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "10. The evenings and the mornings.",
+      "original_marker_line": 636,
+      "reviewed_learner_marker_line": 636,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-11",
+      "models_or_responses": [
+        "Ðā gāstas and ðā męnn."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "11. The spirits and the men.",
+      "original_marker_line": 640,
+      "reviewed_learner_marker_line": 640,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-02-12",
+      "models_or_responses": [
+        "Ðā hwalas and ðā nīetenu."
+      ],
+      "analysis": "Both phrases are nominative plural. The plural article is ðā for every gender; retain each selected noun's own diagnostic plural and quantity.",
+      "practice_classification": "preserved_source_controlled_assembly",
+      "support_boundary": "All selected N pl diagnostics are printed in the vocabulary. This is preserved source assembly, supplemented by the original role/context tasks; it is not mislabeled an unseen paradigm test.",
+      "original_learner_prompt": "12. The whales and the cattle.",
+      "original_marker_line": 644,
+      "reviewed_learner_marker_line": 644,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-01",
+      "models_or_responses": [
+        "Ðæs dæges anginn."
+      ],
+      "analysis": "dæges: genitive singular dependent; anginn: nominative singular head. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "1. The beginning of the day.",
+      "original_marker_line": 650,
+      "reviewed_learner_marker_line": 650,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-02",
+      "models_or_responses": [
+        "Godes gāst."
+      ],
+      "analysis": "Godes: proper-name genitive singular without article; gāst: nominative singular head. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "2. The spirit of God.",
+      "original_marker_line": 654,
+      "reviewed_learner_marker_line": 654,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-03",
+      "models_or_responses": [
+        "Ðæs līfes lēoht."
+      ],
+      "analysis": "līfes: genitive singular; lēoht: nominative singular. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "3. The light of the life.",
+      "original_marker_line": 658,
+      "reviewed_learner_marker_line": 658,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-04",
+      "models_or_responses": [
+        "Ðæs fugles līf."
+      ],
+      "analysis": "fugles: genitive singular with syncope; līf: nominative singular. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "4. The life of the bird.",
+      "original_marker_line": 662,
+      "reviewed_learner_marker_line": 662,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-05",
+      "models_or_responses": [
+        "Ðæs fisces męte."
+      ],
+      "analysis": "fisces: genitive singular; męte: nominative singular food. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "5. The food of the fish.",
+      "original_marker_line": 666,
+      "reviewed_learner_marker_line": 666,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-06",
+      "models_or_responses": [
+        "Ðæs heofones fæstnes."
+      ],
+      "analysis": "heofones: genitive singular, retaining its middle vowel; fæstnes: nominative singular. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "6. The firmament of the heaven.",
+      "original_marker_line": 670,
+      "reviewed_learner_marker_line": 670,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-07",
+      "models_or_responses": [
+        "Ðǣre eorðan dēor."
+      ],
+      "analysis": "eorðan: weak feminine genitive singular; dēor: nominative plural, with no added ending. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "7. The beasts of the earth.",
+      "original_marker_line": 674,
+      "reviewed_learner_marker_line": 674,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-08",
+      "models_or_responses": [
+        "Ðǣre nēowolnesse brādnes."
+      ],
+      "analysis": "nēowolnesse: genitive singular of the deep; brādnes: nominative singular surface, not a human face. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "8. The face of the deep.",
+      "original_marker_line": 678,
+      "reviewed_learner_marker_line": 678,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-09",
+      "models_or_responses": [
+        "Ðāra wætera gegaderunga."
+      ],
+      "analysis": "wætera: genitive plural waters; gegaderunga: nominative plural gatherings. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "9. The congregations of the waters.",
+      "original_marker_line": 682,
+      "reviewed_learner_marker_line": 682,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-10",
+      "models_or_responses": [
+        "Ðæs sǣs wæteru."
+      ],
+      "analysis": "sǣs: genitive singular of the sea, not a requested genitive plural; wæteru: nominative plural. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "10. The waters of the sea.",
+      "original_marker_line": 686,
+      "reviewed_learner_marker_line": 686,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-11",
+      "models_or_responses": [
+        "Ðæs sǣs fiscas."
+      ],
+      "analysis": "sǣs: genitive singular; fiscas: nominative plural. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "11. The fishes of the sea.",
+      "original_marker_line": 690,
+      "reviewed_learner_marker_line": 690,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-12",
+      "models_or_responses": [
+        "Ðæs lyftes fuglas."
+      ],
+      "analysis": "lyftes: genitive singular of selected neuter air; fuglas: nominative plural. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "12. The birds of the air.",
+      "original_marker_line": 694,
+      "reviewed_learner_marker_line": 694,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-13",
+      "models_or_responses": [
+        "Ðāra heofona and ðǣre eorðan frætwung."
+      ],
+      "analysis": "heofona: genitive plural; eorðan: genitive singular; each dependent has its own agreeing article. Frætwung is the shared nominative singular head. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "13. The array of the heavens and of the earth.",
+      "original_marker_line": 698,
+      "reviewed_learner_marker_line": 698,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-14",
+      "models_or_responses": [
+        "Godes weorc."
+      ],
+      "analysis": "Godes: proper-name genitive singular; weorc: nominative plural works despite its endingless form. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "14. The works of God.",
+      "original_marker_line": 702,
+      "reviewed_learner_marker_line": 702,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-15",
+      "models_or_responses": [
+        "Ðāra dēora cynn."
+      ],
+      "analysis": "dēora: genitive plural animals; cynn: nominative plural kinds, heavy double-n stem with no added N/A plural ending. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "15. The kinds of the animals.",
+      "original_marker_line": 706,
+      "reviewed_learner_marker_line": 706,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-16",
+      "models_or_responses": [
+        "Ðæs heofones steorran."
+      ],
+      "analysis": "heofones: genitive singular heaven; steorran: weak nominative plural stars. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "16. The stars of the heaven.",
+      "original_marker_line": 710,
+      "reviewed_learner_marker_line": 710,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-17",
+      "models_or_responses": [
+        "Ðæs gærses sǣd."
+      ],
+      "analysis": "gærses: genitive singular grass; sǣd: nominative plural seeds. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "17. The seeds of the grass.",
+      "original_marker_line": 714,
+      "reviewed_learner_marker_line": 714,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "EX-I-03-18",
+      "models_or_responses": [
+        "Ðāra nihta līehting."
+      ],
+      "analysis": "nihta: genitive plural nights; līehting: nominative singular illumination. The genitive dependent precedes the head; omit the head's own article and retain the dependent's required article.",
+      "practice_classification": "preserved_source_new_relation_recombination",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "18. The illumination of the nights.",
+      "original_marker_line": 718,
+      "reviewed_learner_marker_line": 718,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COMP01",
+      "models_or_responses": [
+        "Se fugol is on ðǣm trēowe."
+      ],
+      "analysis": "Singular subject/copula; dative singular tree with stem w.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "1. The bird is in the tree.",
+      "original_marker_line": 726,
+      "reviewed_learner_marker_line": 726,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COMP02",
+      "models_or_responses": [
+        "Ðā fuglas wǣron on ðǣm trēowum."
+      ],
+      "analysis": "Plural birds, past plural copula and dative plural trees.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "2. The birds were in the trees.",
+      "original_marker_line": 730,
+      "reviewed_learner_marker_line": 730,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COMP03",
+      "models_or_responses": [
+        "Ðæt sǣd is ðæs fugles męte."
+      ],
+      "analysis": "Singular seed subject; nominative predicate męte with genitive singular fugles.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "3. The seed is the bird's food.",
+      "original_marker_line": 734,
+      "reviewed_learner_marker_line": 734,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COMP04",
+      "models_or_responses": [
+        "Se fisc is dēor."
+      ],
+      "analysis": "Both subject and bare identifying predicate are nominative singular; English an requires no separate word here.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "4. The fish is an animal.",
+      "original_marker_line": 738,
+      "reviewed_learner_marker_line": 738,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COMP05",
+      "models_or_responses": [
+        "Ðā tācnu wǣron on ðǣm heofone."
+      ],
+      "analysis": "Plural signs show syncope and plural past agreement; sky is dative singular.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "5. The signs were in the sky.",
+      "original_marker_line": 742,
+      "reviewed_learner_marker_line": 742,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COMP06",
+      "models_or_responses": [
+        "Ðā wyrta sindon on ðæs mannes hofe."
+      ],
+      "analysis": "Plural herbs govern sindon. The head hofe is dative singular after on, while its possessor ðæs mannes remains genitive singular.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "6. The herbs are in the man's dwelling.",
+      "original_marker_line": 746,
+      "reviewed_learner_marker_line": 746,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COMP07",
+      "models_or_responses": [
+        "Ðǣre niht lēoht wæs on ðǣm heofone."
+      ],
+      "analysis": "Selected genitive singular niht has no ending; its feminine genitive article belongs to niht. The head lēoht is nominative singular and governs wæs.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "7. The light of the night was in the sky.",
+      "original_marker_line": 750,
+      "reviewed_learner_marker_line": 750,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-COMP08",
+      "models_or_responses": [
+        "Ðāra dēora męte is ðāra trēowa wæstm."
+      ],
+      "analysis": "The two plural genitive dependents modify singular heads męte and wæstm. Food is the singular subject, so is is required; the predicate head is nominative.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "8. The animals' food is the fruit of the trees.",
+      "original_marker_line": 754,
+      "reviewed_learner_marker_line": 754,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-MINI01",
+      "models_or_responses": [
+        "Translation: The man was in the sea. He is in the dwelling. The fishes are in the dwelling. They are the man's food. The dwelling is on the earth. It is the man's dwelling.",
+        "The man was in the sea and is now in the dwelling.",
+        "Hē refers to se mann; hīe to ðā fiscas; hit to ðæt hof.",
+        "In the fourth sentence hīe is nominative plural and governs sindon. The predicate noun męte is nominative singular food, a mass sense; its singular number does not change the plural subject's verb. The genitive ðæs mannes marks the man as possessor.",
+        "The last dwelling belongs to the man."
+      ],
+      "analysis": "The short text combines familiar case forms with first-unit pronoun reference, past/present contrast and a mass-noun predicate. A predicate noun must be nominative; the lesson does not claim that every identifying noun has to match its subject's number.",
+      "practice_classification": "fresh_connected_reading_and_analysis",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "1. Where was the man, and where is he now? Identify the reference of each pronoun. Explain the number of the subject and predicate noun in the fourth sentence, and identify whose dwelling is mentioned at the close.\n\n   Se mann wæs on ðǣm sǣ. Hē is on ðǣm hofe. Ðā fiscas sindon on ðǣm hofe. Hīe sindon ðæs mannes męte. Ðæt hof is on ðǣre eorðan. Hit is ðæs mannes hof.",
+      "original_marker_line": 762,
+      "reviewed_learner_marker_line": 762,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-MINI02",
+      "models_or_responses": [
+        "Translation: The creature was in the dwelling. It was an animal. The seed was in the dwelling. It was the creature's food.",
+        "Present: Sēo gesceaft is on ðǣm hofe. Hēo is dēor. Ðæt sǣd is on ðǣm hofe. Hit is ðǣre gesceafte męte.",
+        "Several creatures, first two sentences only: Ðā gesceafta sindon on ðǣm hofe. Hīe sindon dēor.",
+        "Hēo refers grammatically to feminine gesceaft and does not establish the creature's sex.",
+        "Hit refers to the seed. Gesceafte is genitive singular in ðǣre gesceafte męte: the creature's food."
+      ],
+      "analysis": "The transformed predicate dēor is now nominative plural even though its spelling is unchanged. The plural subject selects hīe and sindon. The original final genitive relation resolves gesceafte despite its case syncretism.",
+      "practice_classification": "fresh_connected_reading_and_transformation",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "2. Translate the passage and rewrite it in the present. Explain why **hēo** does not establish the creature's sex. Then rewrite just the first two sentences about several creatures in the same dwelling, in the present; preserve “animals” as the predicate noun. Identify the reference of **hit** in the original passage and the case of **gesceafte**.\n\n   Sēo gesceaft wæs on ðǣm hofe. Hēo wæs dēor. Ðæt sǣd wæs on ðǣm hofe. Hit wæs ðǣre gesceafte męte.",
+      "original_marker_line": 768,
+      "reviewed_learner_marker_line": 768,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-READ01",
+      "models_or_responses": [
+        "Subject: God, nominative singular.",
+        "Objects: heofonan, supplied accusative singular of weak feminine heofone; eorðan, accusative singular of eorðe.",
+        "Heofonan is singular, not the masculine heofon plural.",
+        "In the beginning God created heaven and earth."
+      ],
+      "analysis": "The subject happens to follow the finite verb; its position does not make it an object.",
+      "practice_classification": "guided_source_reading",
+      "support_boundary": "The source help deliberately supplies the unfamiliar heofonan analysis and temporal phrase; no independent heofone paradigm is tested.",
+      "original_learner_prompt": "1. Using the local support, identify the subject and two objects of the first sentence. Is heofonan plural? Translate the sentence.",
+      "original_marker_line": 808,
+      "reviewed_learner_marker_line": 808,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-READ02",
+      "models_or_responses": [
+        "The earth was empty and void; darkness was over the surface of the deep.",
+        "Wǣron is third-person plural preterite, agreeing with plural-only ðīestru.",
+        "The head brādnesse is dative singular, as the supported ofer construction requires. Its dependent ðǣre nēowolnesse is genitive singular; the article agrees with nēowolnesse, not the head."
+      ],
+      "analysis": "Known plural agreement and nested-genitive structure are applied to the actual source phrase.",
+      "practice_classification": "source_reading_with_supported_and_independent_parts",
+      "support_boundary": "The adjectives and ofer government are supplied. The learner still has to identify the head/dependent relation and explain the taught plural copula.",
+      "original_learner_prompt": "2. Describe the earth and the darkness. Explain wǣron, then identify the head and genitive dependent in the phrase after ofer.",
+      "original_marker_line": 812,
+      "reviewed_learner_marker_line": 812,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-READ03",
+      "models_or_responses": [
+        "God's spirit was being borne/carried over the waters; contextually, it moved over the waters.",
+        "Wæteru is accusative plural here. The selected dative plural is wæterum, so wæteru cannot be that cell."
+      ],
+      "analysis": "The noun paradigm provides the meaningful -u/-um contrast.",
+      "practice_classification": "source_reading_with_supported_and_independent_parts",
+      "support_boundary": "The passive phrase and its local meaning, together with accusative government here, are supplied; the task does not test independent passive formation.",
+      "original_learner_prompt": "3. With the supplied passive phrase, state what God's spirit was doing and over what. Explain why wæteru cannot be the selected dative plural form.",
+      "original_marker_line": 816,
+      "reviewed_learner_marker_line": 816,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-READ04",
+      "models_or_responses": [
+        "The quoted speech expresses a command or wish: Let light come to be.",
+        "Light was then made/came into being."
+      ],
+      "analysis": "The source help identifies the subjunctive/optative and the following passive phrase.",
+      "practice_classification": "guided_source_reading",
+      "support_boundary": "The command and passive interpretation are supplied; this is explicitly a support check, not independent mood or passive knowledge.",
+      "original_learner_prompt": "4. Does God's quoted speech report an existing fact or command/wish for something to come about? State what follows.",
+      "original_marker_line": 820,
+      "reviewed_learner_marker_line": 820,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-READ05",
+      "models_or_responses": [
+        "Hit refers to lēoht, the light, a neuter singular noun.",
+        "God then saw that it/the light was good.",
+        "Here ðā is then; ðæt is the conjunction that, not an article."
+      ],
+      "analysis": "The actual pronoun reference is selected from context and the newly taught nominative inventory.",
+      "practice_classification": "source_reading_with_supported_and_independent_parts",
+      "support_boundary": "The finite-verb meaning, adverb/conjunction distinction, predicate adjective and embedded word order are supplied. Only the context/reference application is newly independent here.",
+      "original_learner_prompt": "5. In God geseah ðā ðæt hit gōd wæs, use the supplied functions of ðā and ðæt, and identify the reference of hit from the context. Translate the clause.",
+      "original_marker_line": 824,
+      "reviewed_learner_marker_line": 824,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-READ06",
+      "models_or_responses": [
+        "God separated the light from the darkness.",
+        "Direct object: ðæt lēoht, accusative singular.",
+        "Separation phrase: fram ðǣm ðīestrum, with dative plural darkness."
+      ],
+      "analysis": "Hē continues the preceding God subject. The object and fram phrase apply the ordinary constructions of §9.",
+      "practice_classification": "source_reading_with_supported_and_independent_parts",
+      "support_boundary": "Gedǣlde is supplied. Case and number analysis use taught material; no strong-verb paradigm is tested.",
+      "original_learner_prompt": "6. What did God separate, and from what? Identify the direct-object and separation phrases and their cases.",
+      "original_marker_line": 828,
+      "reviewed_learner_marker_line": 828,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-READ07",
+      "models_or_responses": [
+        "The light is called Day, and the darkness Night.",
+        "The understood subject of hēt is God/he.",
+        "The close says one day."
+      ],
+      "analysis": "Ān dæg is the cardinal one day, not the ordinal first day.",
+      "practice_classification": "guided_source_reading",
+      "support_boundary": "The naming construction, omitted subject and closing formula are explicitly supplied and the question is labeled as checking that support.",
+      "original_learner_prompt": "7. Using the naming and closing-formula support, state the names given, the understood subject of hēt, and the number of days in the close.",
+      "original_marker_line": 832,
+      "reviewed_learner_marker_line": 832,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-READ08",
+      "models_or_responses": [
+        "In the beginning God created heaven and earth. Now the earth was empty and void, and darkness was over the surface of the deep; and God's spirit was borne over the waters. Then God said, ‘Let light come to be’; and light was made. God then saw that it was good, and he separated the light from the darkness. And he called the light Day, and the darkness Night. Then there came to be evening and morning: one day."
+      ],
+      "analysis": "The translation follows the printed Old English in sequence, preserves the command, keeps the naming clause's understood God subject, and retains the one-day closing formula. The supplied passive and resultative phrases permit idiomatic alternatives without changing their essential meaning.",
+      "practice_classification": "scaffolded_whole_source_translation",
+      "support_boundary": "Uses the printed local help for unfamiliar verbs, moods, passive/resultative constructions, naming, heofonan and temporal on. This is not represented as unassisted recall of later grammar.",
+      "original_learner_prompt": "8. Translate the entire first-day passage from the printed Old English, using the supplied help. Preserve the sequence, command, naming and one-day close.",
+      "original_marker_line": 836,
+      "reviewed_learner_marker_line": 836,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-REVIEW01",
+      "models_or_responses": [
+        "*dægas → dagas.",
+        "*hwælas → hwalas.",
+        "*wastmas → wæstmas."
+      ],
+      "analysis": "Dæg and hwæl have the taught singular æ/plural a alternation. Wæstm retains æ before its consonant group; applying the other pattern to it is an overgeneralization.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "1. A learner writes \\*dægas and \\*hwælas for the plurals of dæg and hwæl, then changes wæstm to \\*wastmas. Correct the intended plurals and explain which vowel alternation applies.",
+      "original_marker_line": 842,
+      "reviewed_learner_marker_line": 842,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-REVIEW02",
+      "models_or_responses": [
+        "Translation: in the birds' trees.",
+        "Head: trēowum, dative plural after locative on.",
+        "Dependent: ðāra fugla, genitive plural.",
+        "Ðāra agrees with fugla in the dependent genitive phrase, not with the dative head trēowum."
+      ],
+      "analysis": "The article follows the dependent's case/number, and the head's dative case is independent of the genitive it contains.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "2. In **on ðāra fugla trēowum**, a learner takes **ðāra** to agree with **trēowum**. Translate the phrase; identify the head and dependent, giving the case and number of each. Explain the article's actual agreement.",
+      "original_marker_line": 846,
+      "reviewed_learner_marker_line": 846,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-REVIEW03",
+      "models_or_responses": [
+        "Steorran can be genitive singular, dative singular, accusative singular, nominative plural, or accusative plural.",
+        "Ðæs steorran lēoht: the star's light; steorran is genitive singular.",
+        "Ðā steorran wǣron on ðǣm heofone: the stars were in the sky; steorran is nominative plural."
+      ],
+      "analysis": "In the first context, the dependent relation and masculine genitive article identify singular genitive. In the second, plural article, plural copula and subject role identify nominative plural. The ending alone supplies none of those distinctions.",
+      "practice_classification": "reference_followed_by_fresh_context_disambiguation",
+      "support_boundary": "Uses the learner's taught forms, meanings and constructions; no key or author model consulted.",
+      "original_learner_prompt": "3. List the possible case/number values of **steorran** in the selected paradigm. Which applies in **ðæs steorran lēoht**, and which in **Ðā steorran wǣron on ðǣm heofone**? Translate both. Explain what the context adds that the ending alone cannot tell you.",
+      "original_marker_line": 850,
+      "reviewed_learner_marker_line": 850,
+      "prompt_changed_during_blind_review": false
+    },
+    {
+      "item_id": "CH01-REVIEW04",
+      "models_or_responses": [
+        "Ðā ðīestru sindon on ðǣm heofone.",
+        "Ðæt lēoht wæs on ðǣm hofe.",
+        "Se mann gedǣlde ðā fuglas fram ðǣm dēore.",
+        "Ðā fuglas is accusative plural; ðǣm dēore is dative singular after fram."
+      ],
+      "analysis": "Plural-only darkness requires present plural sindon; singular light requires past singular wæs. In the new separation frame the birds are the direct object and the animal is the singular entity separated from.",
+      "practice_classification": "fresh_application",
+      "support_boundary": "The final gedǣlde is supplied. The case/number choices and the preceding copula error diagnoses are independent applications.",
+      "original_learner_prompt": "4. Correct the agreement in **Ðā ðīestru is on ðǣm heofone. Ðæt lēoht wǣron on ðǣm hofe.** Keep the first sentence present and the second past; explain the corrections. Then complete **Se mann gedǣlde _____ fram _____.** to mean “The man separated the birds from the animal.” Use **dēor** for “animal.” The supplied **gedǣlde** means “separated,” third-person singular preterite. Identify the case and number of both completed phrases.",
+      "original_marker_line": 854,
+      "reviewed_learner_marker_line": 854,
+      "prompt_changed_during_blind_review": false
+    }
+  ],
+  "all_44_section_model_references": [
+    {
+      "noun": "ǣfen",
+      "vocabulary_line": 331,
+      "reference": "§4: ǣfen",
+      "section": 4,
+      "model": "ǣfen",
+      "actual_model_table_line": 105,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "morgen",
+      "vocabulary_line": 332,
+      "reference": "§3: morgen",
+      "section": 3,
+      "model": "morgen",
+      "actual_model_table_line": 66,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "dæg",
+      "vocabulary_line": 333,
+      "reference": "§3: dæg",
+      "section": 3,
+      "model": "dæg",
+      "actual_model_table_line": 55,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "niht",
+      "vocabulary_line": 334,
+      "reference": "§7: niht",
+      "section": 7,
+      "model": "niht",
+      "actual_model_table_line": 173,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "eorðe",
+      "vocabulary_line": 335,
+      "reference": "§6: eorðe; S",
+      "section": 6,
+      "model": "eorðe",
+      "actual_model_table_line": 158,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "heofon",
+      "vocabulary_line": 336,
+      "reference": "§3: fisc",
+      "section": 3,
+      "model": "fisc",
+      "actual_model_table_line": 42,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "fisc",
+      "vocabulary_line": 337,
+      "reference": "§3: fisc",
+      "section": 3,
+      "model": "fisc",
+      "actual_model_table_line": 42,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "fugol",
+      "vocabulary_line": 338,
+      "reference": "§3: fugol",
+      "section": 3,
+      "model": "fugol",
+      "actual_model_table_line": 66,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "gærs",
+      "vocabulary_line": 339,
+      "reference": "§4: sǣd; S",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "sǣd",
+      "vocabulary_line": 340,
+      "reference": "§4: sǣd",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "trēo",
+      "vocabulary_line": 341,
+      "reference": "§4: trēo",
+      "section": 4,
+      "model": "trēo",
+      "actual_model_table_line": 94,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "wyrt",
+      "vocabulary_line": 342,
+      "reference": "§5: wyrt",
+      "section": 5,
+      "model": "wyrt",
+      "actual_model_table_line": 125,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "drȳgnes",
+      "vocabulary_line": 343,
+      "reference": "§5: andlīcnes; S",
+      "section": 5,
+      "model": "andlīcnes",
+      "actual_model_table_line": 145,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "wæter",
+      "vocabulary_line": 344,
+      "reference": "§4: wæter",
+      "section": 4,
+      "model": "wæter",
+      "actual_model_table_line": 112,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "andlīcnes",
+      "vocabulary_line": 345,
+      "reference": "§5: andlīcnes",
+      "section": 5,
+      "model": "andlīcnes",
+      "actual_model_table_line": 145,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "gelīcnes",
+      "vocabulary_line": 346,
+      "reference": "§5: andlīcnes",
+      "section": 5,
+      "model": "andlīcnes",
+      "actual_model_table_line": 145,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "lēoht",
+      "vocabulary_line": 347,
+      "reference": "§4: sǣd; S",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "ðīestru",
+      "vocabulary_line": 348,
+      "reference": "§7: ðīestru; P; G pl ðīestra",
+      "section": 7,
+      "model": "ðīestru",
+      "actual_model_table_line": 199,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "tācen",
+      "vocabulary_line": 349,
+      "reference": "§4: tācen",
+      "section": 4,
+      "model": "tācen",
+      "actual_model_table_line": 105,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "tīd",
+      "vocabulary_line": 350,
+      "reference": "§5: tīd",
+      "section": 5,
+      "model": "tīd",
+      "actual_model_table_line": 134,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "gāst",
+      "vocabulary_line": 351,
+      "reference": "§3: fisc",
+      "section": 3,
+      "model": "fisc",
+      "actual_model_table_line": 42,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "līf",
+      "vocabulary_line": 352,
+      "reference": "§4: sǣd; S",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "gesceaft",
+      "vocabulary_line": 353,
+      "reference": "§5: gesceaft",
+      "section": 5,
+      "model": "gesceaft",
+      "actual_model_table_line": 125,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "męte",
+      "vocabulary_line": 354,
+      "reference": "§3: męte; S",
+      "section": 3,
+      "model": "męte",
+      "actual_model_table_line": 42,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "gēar",
+      "vocabulary_line": 355,
+      "reference": "§4: sǣd",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "mann",
+      "vocabulary_line": 356,
+      "reference": "§7: mann",
+      "section": 7,
+      "model": "mann",
+      "actual_model_table_line": 173,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "dēor",
+      "vocabulary_line": 357,
+      "reference": "§4: sǣd",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "wæstm",
+      "vocabulary_line": 358,
+      "reference": "§3: fisc",
+      "section": 3,
+      "model": "fisc",
+      "actual_model_table_line": 42,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "fæstnes",
+      "vocabulary_line": 359,
+      "reference": "§5: andlīcnes; S",
+      "section": 5,
+      "model": "andlīcnes",
+      "actual_model_table_line": 145,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "nēowolnes",
+      "vocabulary_line": 360,
+      "reference": "§5: andlīcnes; S",
+      "section": 5,
+      "model": "andlīcnes",
+      "actual_model_table_line": 145,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "sǣ",
+      "vocabulary_line": 361,
+      "reference": "§7: sǣ",
+      "section": 7,
+      "model": "sǣ",
+      "actual_model_table_line": 186,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "hwæl",
+      "vocabulary_line": 362,
+      "reference": "§3: hwæl",
+      "section": 3,
+      "model": "hwæl",
+      "actual_model_table_line": 55,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "nīeten",
+      "vocabulary_line": 363,
+      "reference": "§4: nīeten",
+      "section": 4,
+      "model": "nīeten",
+      "actual_model_table_line": 112,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "anginn",
+      "vocabulary_line": 364,
+      "reference": "§4: sǣd",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "God",
+      "vocabulary_line": 365,
+      "reference": "§3: fisc; divine name, singular",
+      "section": 3,
+      "model": "fisc",
+      "actual_model_table_line": 42,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "brādnes",
+      "vocabulary_line": 366,
+      "reference": "§5: andlīcnes; S",
+      "section": 5,
+      "model": "andlīcnes",
+      "actual_model_table_line": 145,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "gegaderung",
+      "vocabulary_line": 367,
+      "reference": "§5: gegaderung",
+      "section": 5,
+      "model": "gegaderung",
+      "actual_model_table_line": 145,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "lyft",
+      "vocabulary_line": 368,
+      "reference": "§4: sǣd; S",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "frætwung",
+      "vocabulary_line": 369,
+      "reference": "§5: gegaderung; S",
+      "section": 5,
+      "model": "gegaderung",
+      "actual_model_table_line": 145,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "weorc",
+      "vocabulary_line": 370,
+      "reference": "§4: sǣd",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "cynn",
+      "vocabulary_line": 371,
+      "reference": "§4: sǣd",
+      "section": 4,
+      "model": "sǣd",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "steorra",
+      "vocabulary_line": 372,
+      "reference": "§6: steorra",
+      "section": 6,
+      "model": "steorra",
+      "actual_model_table_line": 158,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "līehting",
+      "vocabulary_line": 373,
+      "reference": "§5: gegaderung; S",
+      "section": 5,
+      "model": "gegaderung",
+      "actual_model_table_line": 145,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    },
+    {
+      "noun": "hof",
+      "vocabulary_line": 374,
+      "reference": "§4: hof",
+      "section": 4,
+      "model": "hof",
+      "actual_model_table_line": 79,
+      "status": "independently_checked_appropriate",
+      "scope_limit": "Retain the row's S/P/proper-name limit where present; a displayed reference pattern does not promote an unassigned plural sense."
+    }
+  ],
+  "all_46_cook_prompt_checks": [
+    {
+      "item_id": "EX-I-01-01",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-02",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-03",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-04",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-05",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-06",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-07",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-08",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-09",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-10",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-11",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-12",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-13",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-14",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-15",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-01-16",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-01.md"
+    },
+    {
+      "item_id": "EX-I-02-01",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-02",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-03",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-04",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-05",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-06",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-07",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-08",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-09",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-10",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-11",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-02-12",
+      "exact_wording_match": true,
+      "transcript_path": "sources/transcriptions/cook-ex-02.md"
+    },
+    {
+      "item_id": "EX-I-03-01",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-02",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-03",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-04",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-05",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-06",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-07",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-08",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-09",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-10",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-11",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-12",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-13",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-14",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-15",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-16",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-17",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    },
+    {
+      "item_id": "EX-I-03-18",
+      "exact_wording_match": true,
+      "transcript_path": "sources/audits/unit01-source/exercise-3.md"
+    }
+  ],
+  "findings": [
+    {
+      "id": "U01-IND-01",
+      "severity": "material_novelty",
+      "original_locations": [
+        386,
+        267,
+        299,
+        301
+      ],
+      "finding": "Original F01(a) singular reused EXAMPLE01's exact context; F01(d) singular reused EXAMPLE04's exact context and explicitly worked object analysis. The wider multi-case/plural task transferred, but those singular subparts did not.",
+      "resolution": "F01 now uses fish as the subject in a fresh food predicate, body-of-fish context, and the bird as observer. The noun forms and original Cook prompts remain unchanged.",
+      "resolved_in_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+    },
+    {
+      "id": "U01-IND-02",
+      "severity": "source_locator",
+      "original_locations": [
+        878
+      ],
+      "finding": "Note17 located Fulk's plain-c=k statement at p.13/PDF25; the inspected statement is §18 p.12/PDF24.",
+      "resolution": "Exact printed/PDF locator corrected.",
+      "resolved_in_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+    },
+    {
+      "id": "U01-IND-03",
+      "severity": "source_attribution",
+      "original_locations": [
+        876
+      ],
+      "finding": "Note16 attributed both dual-subject plural agreement and nonexclusive plural pronouns explicitly to Ringe p.6. The inspected page explicitly supports the first fact only.",
+      "resolution": "Ringe attribution is narrowed to dual agreement; a directly inspected Fulk Genesis19 witness at p.38/PDF50 now supplies ordinary ġē and wē referring to the two angels.",
+      "resolved_in_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+    },
+    {
+      "id": "U01-IND-04",
+      "severity": "optional_precision",
+      "original_locations": [
+        398
+      ],
+      "finding": "The original F04 comparison called for a middle-vowel comparison including trēowu, which instead needs the lexical w-before-ending explanation. The learner could answer by distinguishing the processes, but the wording was imprecise. This was also raised independently in the coordinator's parallel review.",
+      "resolution": "The final instruction asks for w in (c), then contrasts middle-vowel loss/retention in (e)/(g). No solution changes.",
+      "resolved_in_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad"
+    }
+  ],
+  "review_coverage": [
+    {
+      "section": "1–7",
+      "status": "checked",
+      "scope": "Read every rule and complete noun/article table; retained gender, quantity, syncope, æ/a, w-stem, -nes, -ung/-ing, weak, mann, niht, sǣ and plural-only darkness distinctions. Formal recognition-only plurals and starred sǣ genitive remain bounded."
+    },
+    {
+      "section": "8",
+      "status": "checked",
+      "scope": "All ten nominative forms present; no oblique personal form promoted. Every selected present/preterite copula cell remains represented by the compressed complete plural row. Dual subjects use plural verbs; ordinary plurals are not restricted to three or more. Third-singular reference follows grammatical gender and context; third plural is common to genders."
+    },
+    {
+      "section": "9",
+      "status": "checked",
+      "scope": "Nominative subjects/predicates, finite agreement, coordinated noun/article phrases, locative on, dependent/nested genitives, accusative objects, dative recipients and fram separation are explained with bounded supplied verbs. Complete target responses are not hidden by removing paradigms."
+    },
+    {
+      "section": "10",
+      "status": "checked",
+      "scope": "All44 section:model routes were manually followed to the actual patterns, including lexically retained heofon, exceptional trēo/tācen and separate ǣfen/wæter/nīeten patterns. The cynn/gærs supplied sound notes are supported by the independent preflight and correctly separated from learned historical grammar."
+    },
+    {
+      "section": "11–14",
+      "status": "checked_and_solved",
+      "scope": "All8 form tasks,6 copula tasks,10 supplied finite frames,46 exact Cook prompts and8 full compositions. The original tasks require role, agreement, person, time, number, stem or relation choices; F08 and source controlled assembly are not falsely counted as unseen production."
+    },
+    {
+      "section": "15",
+      "status": "checked_and_solved",
+      "scope": "Both new connected readings use taught vocabulary/grammar; no old COMP answer sentences are reused. MINI02 demands actual tense/number transformation. MINI01's singular mass predicate męte remains compatible with its plural subject and plural copula."
+    },
+    {
+      "section": "16",
+      "status": "checked_and_solved",
+      "scope": "Read the exact retained first-day source passage, every support row and all8 tasks. Unfamiliar finite forms, passive/subjunctive/resultative/naming constructions and weak heofonan are supplied. READ04/07 are explicitly help checks; other questions distinguish supplied material from new nominal/pronoun/case application. Whole translation remains scaffolded."
+    },
+    {
+      "section": "17",
+      "status": "checked_and_solved",
+      "scope": "All4 review tasks: vowel-pattern error diagnosis, plural nested-genitive interpretation, weak-case disambiguation, copula agreement repair and a new separation frame."
+    },
+    {
+      "section": "source notes",
+      "status": "checked_with_bounded_source_verification",
+      "scope": "New subject and pronunciation notes checked against actual primary images in this review/preflight; note16 and note17 defects repaired. Existing unchanged nominal/source-reading evidence is reused from prior audits, not falsely reported as a new complete image audit of every source page."
+    }
+  ],
+  "practice_limits": [
+    "All complete paradigms and diagnostic forms necessarily expose their cells; this is legitimate reference data, not by itself worked-answer leakage.",
+    "Cook I.1–2 chiefly provide controlled noun/article assembly. Their exact prompts are preserved and original contextual/contrast tasks supply the broader transfer applications.",
+    "F05(d) supplies the case and F08 is explicitly a reference check. They do not independently establish case-selection or instrumental-syntax production.",
+    "The unchanged exact source reading naturally contains phrases also relevant to prior source exercises and CASE06. It is not a worked pre-exercise model, and its supplied unfamiliar grammar is not counted as independent recall.",
+    "The copied source passage and its whole-translation task deliberately overlap. This is the text to translate; local support is acknowledged, not concealed as an independent test."
+  ],
+  "nonexclusive_plural_primary_witness": {
+    "source_id": "fulk_2020",
+    "printed_page": 38,
+    "pdf_page_one_based": 50,
+    "original_identifier": "Reading, Gen.19:1–13, immediately after §58",
+    "image": {
+      "path": "build/opening/unit1-review/fulk-p38-pdf50.png",
+      "sha256": "1375dd78b0d987baa5ae4d5b0f6c661c3274aff1edf18a42f9e7e2439fe520e5",
+      "actually_viewed": true
+    },
+    "context": "The passage explicitly introduces twēġen englas. Lot then addresses those same two using ġē; they answer using wē.",
+    "exact_bounded_witnesses": [
+      "twēġen englas",
+      "þæt ġē ċierren",
+      "þæt ġē mæġen",
+      "Nelle wē nāteshwōn, ac wē willað"
+    ],
+    "inference_status": "Direct discourse/reference witness for both ordinary nominative plurals denoting two; no general grammar statement falsely attributed to this passage.",
+    "scope": "Source evidence only. No new source vocabulary, spelling convention or later verbal construction is assigned to the Unit1 learner."
+  },
+  "material_unresolved_findings": [],
+  "key_comparison": {
+    "status": "complete_accepted",
+    "authorization": "Coordinator explicitly authorized reading the revised key only after notification that all 92 solutions were frozen.",
+    "date": "2026-11-02",
+    "key_read": true,
+    "key_path": "chapters/ch01/answer-key.md",
+    "key_sha256": "32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57",
+    "key_scratch_snapshot": "build/opening/unit1-review/key-32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57.md",
+    "learner_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad",
+    "method": "Independently read every key entry and its explanations against the frozen learner solutions, including all subparts and all three reading translations. Identity/count checks supplement that substantive reading; no semantic acceptance was inferred from IDs or hashes alone.",
+    "items_compared": 92,
+    "agreements": 92,
+    "material_key_findings": [],
+    "reviewer_solution_corrections": [],
+    "frozen_solution_digest_unchanged": true,
+    "comparisons": [
+      {
+        "item_id": "CH01-F01",
+        "key_item_id": "KEY-CH01-F01",
+        "key_marker_line": 19,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "All eight noun forms and eight agreeing article cells match; the key refers to the repaired body-of-fish context.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-F02",
+        "key_item_id": "KEY-CH01-F02",
+        "key_marker_line": 33,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Every requested subpart's noun form, case/number label and stem-pattern explanation agrees.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-F03",
+        "key_item_id": "KEY-CH01-F03",
+        "key_marker_line": 38,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Every requested subpart's noun form, case/number label and stem-pattern explanation agrees.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-F04",
+        "key_item_id": "KEY-CH01-F04",
+        "key_marker_line": 43,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "All nine forms match; the key correctly distinguishes trēo's w from tācen/wæter loss or retention of e.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-F05",
+        "key_item_id": "KEY-CH01-F05",
+        "key_marker_line": 62,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "All eight star cells and four singular earth cells match. The key correctly bounds the supplied dative in part(d).",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-F06",
+        "key_item_id": "KEY-CH01-F06",
+        "key_marker_line": 78,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Every requested subpart's noun form, case/number label and stem-pattern explanation agrees.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-F07",
+        "key_item_id": "KEY-CH01-F07",
+        "key_marker_line": 83,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Every requested subpart's noun form, case/number label and stem-pattern explanation agrees.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-F08",
+        "key_item_id": "KEY-CH01-F08",
+        "key_marker_line": 97,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Instrumental masculine/neuter singular recognition only; neither review nor key assesses instrumental syntax.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COP01",
+        "key_item_id": "KEY-CH01-COP01",
+        "key_marker_line": 104,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Every requested complete clause and person/number/tense/location explanation agrees.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COP02",
+        "key_item_id": "KEY-CH01-COP02",
+        "key_marker_line": 109,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Every requested complete clause and person/number/tense/location explanation agrees.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COP03",
+        "key_item_id": "KEY-CH01-COP03",
+        "key_marker_line": 114,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "All three gender-based nominative subjects and their tense/location choices match. The explanation distinguishes grammatical gender from sex.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COP04",
+        "key_item_id": "KEY-CH01-COP04",
+        "key_marker_line": 119,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Dual present/past and ordinary plural past match; the key permits ordinary wē for two while distinguishing failure to meet the requested dual target.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COP05",
+        "key_item_id": "KEY-CH01-COP05",
+        "key_marker_line": 124,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Dual past/present and ordinary plural present match; the same valid-language-versus-target distinction is preserved for gē.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COP06",
+        "key_item_id": "KEY-CH01-COP06",
+        "key_marker_line": 129,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Both copula tenses and gender-neutral plural hīe match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE01",
+        "key_item_id": "KEY-CH01-CASE01",
+        "key_marker_line": 138,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact frame completion agrees, with the same subject/object/recipient/prepositional role analysis.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE02",
+        "key_item_id": "KEY-CH01-CASE02",
+        "key_marker_line": 143,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact frame completion agrees, with the same subject/object/recipient/prepositional role analysis.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE03",
+        "key_item_id": "KEY-CH01-CASE03",
+        "key_marker_line": 148,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Masculine accusative plural heofonas remains distinct from the source reading's supplied weak feminine singular heofonan.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE04",
+        "key_item_id": "KEY-CH01-CASE04",
+        "key_marker_line": 153,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact frame completion agrees, with the same subject/object/recipient/prepositional role analysis.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE05",
+        "key_item_id": "KEY-CH01-CASE05",
+        "key_marker_line": 158,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact frame completion agrees, with the same subject/object/recipient/prepositional role analysis.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE06",
+        "key_item_id": "KEY-CH01-CASE06",
+        "key_marker_line": 163,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "The adapted source clause matches; key correctly declares God replacing hē and removal of introductory and.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE07",
+        "key_item_id": "KEY-CH01-CASE07",
+        "key_marker_line": 168,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact frame completion agrees, with the same subject/object/recipient/prepositional role analysis.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE08",
+        "key_item_id": "KEY-CH01-CASE08",
+        "key_marker_line": 173,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact frame completion agrees, with the same subject/object/recipient/prepositional role analysis.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE09",
+        "key_item_id": "KEY-CH01-CASE09",
+        "key_marker_line": 178,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Dative singular męnn and accusative singular męte match; no recipient preposition is added.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-CASE10",
+        "key_item_id": "KEY-CH01-CASE10",
+        "key_marker_line": 183,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Plural dative birds and singular accusative seed match; the supplied verb remains untested for recall.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-01",
+        "key_item_id": "KEY-EX-I-01-01",
+        "key_marker_line": 194,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-02",
+        "key_item_id": "KEY-EX-I-01-02",
+        "key_marker_line": 199,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-03",
+        "key_item_id": "KEY-EX-I-01-03",
+        "key_marker_line": 204,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-04",
+        "key_item_id": "KEY-EX-I-01-04",
+        "key_marker_line": 209,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-05",
+        "key_item_id": "KEY-EX-I-01-05",
+        "key_marker_line": 214,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-06",
+        "key_item_id": "KEY-EX-I-01-06",
+        "key_marker_line": 219,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-07",
+        "key_item_id": "KEY-EX-I-01-07",
+        "key_marker_line": 224,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-08",
+        "key_item_id": "KEY-EX-I-01-08",
+        "key_marker_line": 229,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-09",
+        "key_item_id": "KEY-EX-I-01-09",
+        "key_marker_line": 234,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-10",
+        "key_item_id": "KEY-EX-I-01-10",
+        "key_marker_line": 239,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-11",
+        "key_item_id": "KEY-EX-I-01-11",
+        "key_marker_line": 244,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-12",
+        "key_item_id": "KEY-EX-I-01-12",
+        "key_marker_line": 249,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-13",
+        "key_item_id": "KEY-EX-I-01-13",
+        "key_marker_line": 254,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-14",
+        "key_item_id": "KEY-EX-I-01-14",
+        "key_marker_line": 259,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-15",
+        "key_item_id": "KEY-EX-I-01-15",
+        "key_marker_line": 264,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-01-16",
+        "key_item_id": "KEY-EX-I-01-16",
+        "key_marker_line": 269,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected Old English phrase matches; separate noun gender/number and nominative article analysis agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-01",
+        "key_item_id": "KEY-EX-I-02-01",
+        "key_marker_line": 278,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-02",
+        "key_item_id": "KEY-EX-I-02-02",
+        "key_marker_line": 283,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-03",
+        "key_item_id": "KEY-EX-I-02-03",
+        "key_marker_line": 288,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-04",
+        "key_item_id": "KEY-EX-I-02-04",
+        "key_marker_line": 293,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-05",
+        "key_item_id": "KEY-EX-I-02-05",
+        "key_marker_line": 298,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-06",
+        "key_item_id": "KEY-EX-I-02-06",
+        "key_marker_line": 303,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-07",
+        "key_item_id": "KEY-EX-I-02-07",
+        "key_marker_line": 308,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-08",
+        "key_item_id": "KEY-EX-I-02-08",
+        "key_marker_line": 313,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-09",
+        "key_item_id": "KEY-EX-I-02-09",
+        "key_marker_line": 318,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-10",
+        "key_item_id": "KEY-EX-I-02-10",
+        "key_marker_line": 323,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-11",
+        "key_item_id": "KEY-EX-I-02-11",
+        "key_marker_line": 328,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-02-12",
+        "key_item_id": "KEY-EX-I-02-12",
+        "key_marker_line": 333,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected plural phrase matches, including lexical stem/quantity and common plural articles.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-01",
+        "key_item_id": "KEY-EX-I-03-01",
+        "key_marker_line": 342,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-02",
+        "key_item_id": "KEY-EX-I-03-02",
+        "key_marker_line": 347,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-03",
+        "key_item_id": "KEY-EX-I-03-03",
+        "key_marker_line": 352,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-04",
+        "key_item_id": "KEY-EX-I-03-04",
+        "key_marker_line": 357,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-05",
+        "key_item_id": "KEY-EX-I-03-05",
+        "key_marker_line": 362,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-06",
+        "key_item_id": "KEY-EX-I-03-06",
+        "key_marker_line": 367,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-07",
+        "key_item_id": "KEY-EX-I-03-07",
+        "key_marker_line": 372,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-08",
+        "key_item_id": "KEY-EX-I-03-08",
+        "key_marker_line": 377,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-09",
+        "key_item_id": "KEY-EX-I-03-09",
+        "key_marker_line": 382,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-10",
+        "key_item_id": "KEY-EX-I-03-10",
+        "key_marker_line": 387,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Sea is genitive singular sǣs, not a use of reconstructed plural *sǣwa; waters are nominative plural.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-11",
+        "key_item_id": "KEY-EX-I-03-11",
+        "key_marker_line": 392,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-12",
+        "key_item_id": "KEY-EX-I-03-12",
+        "key_marker_line": 397,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-13",
+        "key_item_id": "KEY-EX-I-03-13",
+        "key_marker_line": 402,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "The coordinated plural-heavens/singular-earth genitives modify one singular head; both article choices match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-14",
+        "key_item_id": "KEY-EX-I-03-14",
+        "key_marker_line": 407,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-15",
+        "key_item_id": "KEY-EX-I-03-15",
+        "key_marker_line": 412,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-16",
+        "key_item_id": "KEY-EX-I-03-16",
+        "key_marker_line": 417,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-17",
+        "key_item_id": "KEY-EX-I-03-17",
+        "key_marker_line": 422,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "EX-I-03-18",
+        "key_item_id": "KEY-EX-I-03-18",
+        "key_marker_line": 427,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected genitive-dependent/nominative-head phrase matches; number, article attachment, meaning and ordering explanation agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COMP01",
+        "key_item_id": "KEY-CH01-COMP01",
+        "key_marker_line": 434,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected complete composition agrees; noun/article agreement, copula and relation analyses match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COMP02",
+        "key_item_id": "KEY-CH01-COMP02",
+        "key_marker_line": 439,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected complete composition agrees; noun/article agreement, copula and relation analyses match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COMP03",
+        "key_item_id": "KEY-CH01-COMP03",
+        "key_marker_line": 444,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected complete composition agrees; noun/article agreement, copula and relation analyses match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COMP04",
+        "key_item_id": "KEY-CH01-COMP04",
+        "key_marker_line": 449,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected complete composition agrees; noun/article agreement, copula and relation analyses match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COMP05",
+        "key_item_id": "KEY-CH01-COMP05",
+        "key_marker_line": 454,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected complete composition agrees; noun/article agreement, copula and relation analyses match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COMP06",
+        "key_item_id": "KEY-CH01-COMP06",
+        "key_marker_line": 459,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Exact selected complete composition agrees; noun/article agreement, copula and relation analyses match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COMP07",
+        "key_item_id": "KEY-CH01-COMP07",
+        "key_marker_line": 464,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Selected genitive singular niht and singular head agreement match; key also properly accepts evidenced nihte as an alternative.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-COMP08",
+        "key_item_id": "KEY-CH01-COMP08",
+        "key_marker_line": 469,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Both genitive dependents are plural, while the singular food subject governs is. Predicate fruit is singular in the model.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-MINI01",
+        "key_item_id": "KEY-CH01-MINI01",
+        "key_marker_line": 476,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Translation, all three antecedents and singular mass męte with plural subject/copula agree. Reviewer uses English fishes where the key uses plural fish; this is equivalent.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-MINI02",
+        "key_item_id": "KEY-CH01-MINI02",
+        "key_marker_line": 483,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "All four present rewrites, both pluralized clauses, unchanged singular dwelling, plural predicate dēor and hēo/hit/genitive analyses match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-READ01",
+        "key_item_id": "KEY-CH01-READ01",
+        "key_marker_line": 498,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Source heofonan is explicitly singular. The key may allow idiomatic English heavens while requiring the correct supplied source morphology.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-READ02",
+        "key_item_id": "KEY-CH01-READ02",
+        "key_marker_line": 503,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Plural darkness/copula, dative head brādnesse and genitive dependent ðǣre nēowolnesse match; supplied adjectives/government remain bounded.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-READ03",
+        "key_item_id": "KEY-CH01-READ03",
+        "key_marker_line": 508,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Passive meaning and accusative-versus-dative plural comparison agree. Reviewer's was being borne and key's was borne are compatible contextual English renderings, not different Old English analyses.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-READ04",
+        "key_item_id": "KEY-CH01-READ04",
+        "key_marker_line": 513,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Supplied third-singular subjunctive wish/command and subsequent passive outcome match; neither is promoted to independent recall.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-READ05",
+        "key_item_id": "KEY-CH01-READ05",
+        "key_marker_line": 518,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Hit refers to light; supplied ðā/ðæt/adjective/embedded-order analysis agrees.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-READ06",
+        "key_item_id": "KEY-CH01-READ06",
+        "key_marker_line": 523,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Light is accusative singular, darkness dative plural after fram, and hē refers to God; all agree.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-READ07",
+        "key_item_id": "KEY-CH01-READ07",
+        "key_marker_line": 528,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "The supplied naming, understood subject and one-day close agree. No unique analysis of the closing formula is imposed.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-READ08",
+        "key_item_id": "KEY-CH01-READ08",
+        "key_marker_line": 533,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Complete translations preserve the same sequence, command, naming and one-day close. Differences in placement of then, punctuation and optional connective wording are stylistic only; the key also preserves resultative/perfect alternatives.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-REVIEW01",
+        "key_item_id": "KEY-CH01-REVIEW01",
+        "key_marker_line": 542,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "All requested corrections and explanations agree with the frozen response.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-REVIEW02",
+        "key_item_id": "KEY-CH01-REVIEW02",
+        "key_marker_line": 547,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Plural dative head and plural genitive dependent/article attachment match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-REVIEW03",
+        "key_item_id": "KEY-CH01-REVIEW03",
+        "key_marker_line": 552,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "All five possible case/number values of steorran and both contextual resolutions match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      },
+      {
+        "item_id": "CH01-REVIEW04",
+        "key_item_id": "KEY-CH01-REVIEW04",
+        "key_marker_line": 557,
+        "status": "agrees",
+        "all_actual_subparts_checked": true,
+        "disposition": "Both tense-preserving copula corrections and the new accusative-plural/dative-singular separation frame match.",
+        "material_key_defect": false,
+        "reviewer_solution_correction": false
+      }
+    ],
+    "shared_notes_checked": "Selected versus valid alternative forms; source quantity correction; bounded genders; complete supplied-frame policy; grammatical validity versus compliance with explicit dual/lexeme/selected-pattern targets. No material defect found."
+  },
+  "acceptance": "Accept the revised learner at 0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad and key at 32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57 for their stated textual/linguistic scope. All 92 comparisons agree and the independent solution digest is unchanged. The 28-task binding proposal is semantically supported under its explicit supplied/copy/recognition limits. Final integration and exported-page acceptance remain separate stages.",
+  "stage_history": [
+    {
+      "stage": "blind_solution_freeze",
+      "receipt_sha256": "c7d8e623b8e325ac9ae476eda68c97720e95ac1c07bb2cd99071da632b1270de",
+      "status": "blind_solutions_frozen_awaiting_key_comparison_authorization",
+      "key_access": false,
+      "solution_digest": "5c0636cb5aeb44b2b9a6357aad8ad74288293bdda32b9b05b977a787848d5c66"
+    }
+  ],
+  "task_binding_proposal_review": {
+    "status": "accepted_for_proposed_semantic_scope",
+    "input_path": "docs/revisions/opening/proposals/unit1-task-bindings.json",
+    "input_sha256": "1c70023b8e1daeaff4c267f4492561a1d4e807e39cdf1f5a8dfd56542d2ae4d5",
+    "learner_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad",
+    "review_basis": "Actual learner prompts, complete frozen responses, and now-checked key; the proposal's declared labels were checked against those demands, not accepted as self-certification.",
+    "task_count": 28,
+    "task_judgments": [
+      {
+        "task_id": "CH01-F01",
+        "status": "semantically_supported",
+        "judgment": "Sixteen requested noun/article cells are genuine output; unbold English body/food/bird context is not new Old English vocabulary."
+      },
+      {
+        "task_id": "CH01-F02",
+        "status": "semantically_supported",
+        "judgment": "Four N/A plural cells are produced from subject/object contexts; syncretic spelling does not collapse the decisions."
+      },
+      {
+        "task_id": "CH01-F03",
+        "status": "semantically_supported",
+        "judgment": "Genitive plural days/whales/nights and dative singular man exactly match the marked output words."
+      },
+      {
+        "task_id": "CH01-F04",
+        "status": "semantically_supported",
+        "judgment": "Nine produced cells correspond to the revised prompt; tree w, sign syncope and retained water/evening/cattle vowels remain distinct."
+      },
+      {
+        "task_id": "CH01-F05",
+        "status": "semantically_supported",
+        "judgment": "All twelve noun cells are requested; part(d)'s case is supplied, while its inflection is produced. No independent under-government or plural-earth milestone follows."
+      },
+      {
+        "task_id": "CH01-F06",
+        "status": "semantically_supported",
+        "judgment": "The five forms and endingless-versus-e accusative contrast match the actual task."
+      },
+      {
+        "task_id": "CH01-F07",
+        "status": "semantically_supported",
+        "judgment": "The four requested noun forms match; printed on is a recognition dependency, not an extra output word."
+      },
+      {
+        "task_id": "CH01-F08",
+        "status": "semantically_supported",
+        "judgment": "Reference recognition only; no instrumental production or syntax is claimed."
+      },
+      {
+        "task_id": "CH01-COP01",
+        "status": "semantically_supported",
+        "judgment": "Complete first-singular past/present clauses require ic, both copula cells and the unchanged locative phrase."
+      },
+      {
+        "task_id": "CH01-COP02",
+        "status": "semantically_supported",
+        "judgment": "Complete second-singular clauses require ðū and eart/wǣre, with dative singular water."
+      },
+      {
+        "task_id": "CH01-COP03",
+        "status": "semantically_supported",
+        "judgment": "The three antecedent senses/genders are context-only. The requested Old English outputs are hē/hit/hēo and their complete copular locations; the antecedent nouns themselves are not generated."
+      },
+      {
+        "task_id": "CH01-COP04",
+        "status": "semantically_supported",
+        "judgment": "Wit/wē and first-plural copula cells represent the explicit two-to-three change; no new dual verb form."
+      },
+      {
+        "task_id": "CH01-COP05",
+        "status": "semantically_supported",
+        "judgment": "Git/gē and second-plural copula cells correctly capture the addressee/time changes."
+      },
+      {
+        "task_id": "CH01-COP06",
+        "status": "semantically_supported",
+        "judgment": "Hīe and third-plural copulas are produced. The printed/glossed feminine plural gesceafta is context recognition, not a fresh noun-production claim."
+      },
+      {
+        "task_id": "CH01-CASE10",
+        "status": "semantically_supported",
+        "judgment": "Recipient birds are dative plural and seed accusative singular; sealde is locally supplied."
+      },
+      {
+        "task_id": "CH01-MINI01",
+        "status": "semantically_supported",
+        "judgment": "English translation and reference/number analysis interpret the taught stimulus; no Old English output is requested. Singular mass predicate food does not alter subject agreement."
+      },
+      {
+        "task_id": "CH01-MINI02",
+        "status": "semantically_supported",
+        "judgment": "Only changed tense/number cells are new production. Unchanged copied words remain separate, including unchanged singular dwelling. Dēor's plural cell is a real new grammatical selection despite unchanged spelling."
+      },
+      {
+        "task_id": "CH01-READ01",
+        "status": "semantically_supported",
+        "judgment": "Subject order, temporal on and weak feminine heofonan are supplied. The small remaining object/earth application supports guided status, not independent proof of the supplied analyses."
+      },
+      {
+        "task_id": "CH01-READ02",
+        "status": "semantically_supported",
+        "judgment": "The adjective predicates and ofer government are supplied; plural copula and nested head/dependent analysis remain taught-form applications."
+      },
+      {
+        "task_id": "CH01-READ03",
+        "status": "semantically_supported",
+        "judgment": "Passive meaning and accusative label are supplied; the actual unsupplied morphology comparison is to wæterum. The latter is a comparison dependency, not an invented source token."
+      },
+      {
+        "task_id": "CH01-READ04",
+        "status": "semantically_supported",
+        "judgment": "Supplied command/passive check with counts_as_transfer false; no subjunctive or strong-verb promotion."
+      },
+      {
+        "task_id": "CH01-READ05",
+        "status": "semantically_supported",
+        "judgment": "Hit's antecedent is now the learner's nominative-reference decision. The conjunction, predicate adjective and embedded order stay supplied."
+      },
+      {
+        "task_id": "CH01-READ06",
+        "status": "semantically_supported",
+        "judgment": "Object/separation cases and hē reference use taught material; the exact lexical verb remains supplied."
+      },
+      {
+        "task_id": "CH01-READ07",
+        "status": "semantically_supported",
+        "judgment": "Naming interpretation, understood subject and one-day formula are supplied; counts_as_transfer false is correct despite known nouns in the stimulus."
+      },
+      {
+        "task_id": "CH01-READ08",
+        "status": "semantically_supported",
+        "judgment": "The complete passage is supported synthesis. Recognized known forms do not turn every supplied construction or explicitly given analysis into independent assessment."
+      },
+      {
+        "task_id": "CH01-REVIEW02",
+        "status": "semantically_supported",
+        "judgment": "Translation and head/dependent/article analysis only; no Old English generation is requested."
+      },
+      {
+        "task_id": "CH01-REVIEW03",
+        "status": "semantically_supported",
+        "judgment": "Five homographic values and the two contextual analyses are recognized; no claim that all are newly produced."
+      },
+      {
+        "task_id": "CH01-REVIEW04",
+        "status": "semantically_supported",
+        "judgment": "Wrong is/wǣron are error stimuli; corrected sindon/wæs and the two new noun/article slots are production. Same surface article can occur in both a copied and a newly generated phrase."
+      }
+    ],
+    "worked_examples": {
+      "count": 5,
+      "ids": [
+        "CH01-EXAMPLE06",
+        "CH01-EXAMPLE07",
+        "CH01-EXAMPLE08",
+        "CH01-EXAMPLE09",
+        "CH01-EXAMPLE10"
+      ],
+      "status": "checked",
+      "judgment": "All five texts, senses, forms and constructions match the actual examples. They are unassessed new teaching material. EXAMPLE06 must retain its former source adaptation only as history, not as an exact-source claim for the new man/seed/grass sentence."
+    },
+    "reading_support": {
+      "count": 13,
+      "expressions": [
+        "On anginne",
+        "gescēop",
+        "heofonan",
+        "sōðlice; īdel and ǣmtig",
+        "ofer ðǣre nēowolnesse brādnesse",
+        "wæs gefęred ofer wæteru",
+        "cwæð ðā",
+        "Geweorðe lēoht",
+        "lēoht wearð geworht",
+        "geseah ðā ðæt hit gōd wæs",
+        "hē gedǣlde",
+        "hēt ðæt lēoht Dæg, and ðā ðīestru Niht",
+        "Ðā wæs geworden ǣfen and morgen ān dæg."
+      ],
+      "status": "checked",
+      "judgment": "Each actual support row preserves its supplied form/sense/construction scope and identifies the remaining learner decision. In particular, the new hē/hit reference and nested attachment are not silently supplied by obsolete feature definitions."
+    },
+    "history_reconciliation": {
+      "status": "supported",
+      "judgment": "Preserve historical supplied hē/hit exposure, but replace active reading-personal-pronouns requirements with the bounded taught subject inventory/reference. Narrow active reading-content-clause so it no longer supplies hit's antecedent."
+    },
+    "integration_guardrails": [
+      "Recognized_form_ids and required_feature_ids are dependencies, not blanket proof of independent assessment. READ03's accusative label and READ07's full naming/closing analyses are supplied; their already taught noun forms do not change that fact.",
+      "A mixed task's counts_as_transfer=true does not mean every feature listed under target_feature is independently tested. For READ01/03/08, the prose exposure/support limits and actual unsupplied decisions must control assessment links.",
+      "Keep unchanged copied MINI02 cells distinct from new tense/number output; retain source tokens versus reference comparisons and supplied error stimuli versus corrected outputs.",
+      "This acceptance is of the reviewed proposal, not a claim that the subsequently integrated coverage/register files have already been inspected."
+    ],
+    "material_findings": []
+  }
+}

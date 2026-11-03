@@ -14,58 +14,85 @@ The selected **ǣfen** and **lyft** are neuter, and **sǣ** is masculine. Other 
 
 ## 11. Forms and agreement
 
+Give only the forms requested. The surrounding English establishes a noun's role; it does not require translation of untaught words or verb forms. N, G, D and A below mean nominative, genitive, dative and accusative.
+
 <!-- item: CH01-F01 -->
 <!-- key: KEY-CH01-F01 -->
 
-1. **Fisc with the article:**
+1. **The fish**, first singular and then plural:
 
-| Case | Singular | Plural |
+| Part and case | Singular | Plural |
 | --- | --- | --- |
-| Nominative | se fisc | ðā fiscas |
-| Genitive | ðæs fisces | ðāra fisca |
-| Dative | ðǣm fisce | ðǣm fiscum |
-| Accusative | ðone fisc | ðā fiscas |
+| (a) N: subject | se fisc | ðā fiscas |
+| (b) G: dependent of “body” | ðæs fisces | ðāra fisca |
+| (c) D: recipient of food | ðǣm fisce | ðǣm fiscum |
+| (d) A: direct object | ðone fisc | ðā fiscas |
 
-The target is the complete masculine paradigm with agreement. Singular nominative and accusative **fisc** coincide, but **se/ðone** distinguish them. Plural **-as** belongs to N/A, not to the genitive or dative.
+Choose the case from the role in each context. Singular N and A **fisc** coincide, but **se/ðone** distinguish them. Plural **ðā fiscas** is identical in N and A: the form alone does not tell whether the fish act as subject or object. Plural **-as** cannot replace G **-a** or D **-um**.
 
 <!-- item: CH01-F02 -->
 <!-- key: KEY-CH01-F02 -->
 
-2. N/A plural **hofu; sǣd**. The short stem **hof-** takes **-u**; the long vowel of **sǣd** makes its stem heavy, so N/A plural adds no ending. Both cases have the same form within each neuter number. This is the stated ordinary pattern, not a rule to impose on **trēo** or the disyllabic nouns.
+2. (a) **hofu**, N plural; (b) **hofu**, A plural; (c) **sǣd**, N plural; (d) **sǣd**, A plural. In (a) and (c) the noun is the subject; in (b) and (d) it is the direct object. Light monosyllabic **hof-** takes **-u**; the long vowel of **sǣd** makes its stem heavy, so N/A plural adds no ending. The unchanged **sǣd** still means several seeds here. This is the ordinary monosyllabic pattern, not a rule to impose on **trēo** or the disyllabic nouns.
 
 <!-- item: CH01-F03 -->
 <!-- key: KEY-CH01-F03 -->
 
-3. **Daga; hwala; męnn; nihta**, respectively. The first two use the plural **a** stem and genitive plural **-a**. **Męnn** is the exceptional dative singular of **mann**. **Nihta** is genitive plural even though the N/A plural **niht** has no ending.
+3. (a) **daga**, G plural, dependent of “length”; (b) **hwala**, G plural, dependent of “food”; (c) **męnn**, D singular, the recipient; (d) **nihta**, G plural, dependent of “darkness.” The first two use the plural **a** stem and genitive plural **-a**. **Męnn** is the exceptional dative singular of **mann**, not a plural in this context. **Nihta** has **-a** even though N/A plural **niht** has no ending.
 
 <!-- item: CH01-F04 -->
 <!-- key: KEY-CH01-F04 -->
 
-4. **Trēowes, trēowe, trēowu; tācnes, tācnu; wæteres, wæteru; ǣfenu, nīetenu.** Every ending of **trēo** follows **w**. **Tācen** loses its middle **e**; the selected forms of the other three disyllables retain theirs. Dropping **-u** solely because the stem contains a long vowel misapplies the ordinary monosyllabic rule.
+4. The noun forms are:
+
+| Part | Form | Case and number |
+| --- | --- | --- |
+| (a) | trēowes | G singular |
+| (b) | trēowe | D singular |
+| (c) | trēowu | N plural |
+| (d) | tācnes | G singular |
+| (e) | tācnu | N plural |
+| (f) | wæteres | G singular |
+| (g) | wæteru | N plural |
+| (h) | ǣfenu | N plural |
+| (i) | nīetenu | N plural |
+
+The dependents in (a), (d) and (f) take G; location in (b) takes D; the other nouns are subjects. **Trēo** has **w** before its endings, including the exceptional plural **trēowu**. **Tācen** loses its middle **e** in **tācnu**; **wæter** retains it in **wæteru**. The selected **ǣfenu** and **nīetenu** likewise retain their middle vowels. These are distinct models: neither dropping **-u** after every long vowel nor dropping every middle vowel gives the selected forms.
 
 <!-- item: CH01-F05 -->
 <!-- key: KEY-CH01-F05 -->
 
-5. **Steorra** and the singular of **eorðe**:
+5. **Star**, first singular and then plural:
 
-| Case | steorra singular | steorra plural | eorðe singular |
-| --- | --- | --- | --- |
-| Nominative | steorra | steorran | eorðe |
-| Genitive | steorran | steorrena | eorðan |
-| Dative | steorran | steorrum | eorðan |
-| Accusative | steorran | steorran | eorðan |
+| Part and case | Singular | Plural |
+| --- | --- | --- |
+| (a) N: subject | steorra | steorran |
+| (b) G: possessor | steorran | steorrena |
+| (c) A: direct object | steorran | steorran |
+| (d) D: supplied frame | steorran | steorrum |
 
-The target is weak inflection: do not replace weak genitive singular **-an** with strong masculine **-es**. Plural genitive **-ena** and dative **-um** remain distinct from **-an**.
+Singular **earth**: (e) **eorðe**, N; (f) **eorðan**, G; (g) **eorðan**, D; (h) **eorðan**, A.
+
+**Steorran** covers G/D/A singular and N/A plural; **eorðan** covers G/D/A singular in the requested earth forms. The role and number in the context select the cell. Do not replace weak G singular **-an** with strong masculine **-es**, or extend **-an** to plural G **steorrena** and D **steorrum**. The supplied frame in (d) licenses its dative; it does not test independent translation of “under.”
 
 <!-- item: CH01-F06 -->
 <!-- key: KEY-CH01-F06 -->
 
-6. **Wyrt, wyrte; tīd, tīde; gesceafte.** The order is accusative then genitive for the first two nouns. Their selected accusatives have no **-e**; the ordinary strong feminine accusative **gesceafte** does. A single feminine rule without these lexical exceptions is insufficient.
+6. (a) **wyrt**, A singular; (b) **wyrte**, G singular; (c) **tīd**, A singular; (d) **tīde**, G singular; (e) **gesceafte**, A singular. The direct objects in (a), (c) and (e) are all feminine, but their selected patterns differ. **Wyrt** and **tīd** have endingless accusatives; ordinary strong feminine **gesceaft** adds **-e**. Their genitives retain **-e**. Gender alone does not settle the ending.
 
 <!-- item: CH01-F07 -->
 <!-- key: KEY-CH01-F07 -->
 
-7. **Fæstnesse; andlīcnessa; gelīcnessa; gegaderungum.** Retain **e** and double **s** before the **-nes** nouns' endings. Genitive and nominative plural can share **-a**; identify the requested case from the task, not the ending alone.
+7. The noun forms are:
+
+| Part | Form | Case and number |
+| --- | --- | --- |
+| (a) | fæstnesse | D singular |
+| (b) | andlīcnessa | G plural |
+| (c) | gelīcnessa | N plural |
+| (d) | gegaderungum | D plural |
+
+Locative **on** requires D in (a) and (d); the images are a G dependent in (b), and the likenesses a N subject in (c). The **-nes** nouns retain **e** and have doubled **ss** before their endings: **fæstness-**, **andlīcness-**, **gelīcness-**. **Gegaderungum** adds **-um** directly to **gegaderung-**. Identical **-a** in (b) and (c) does not make their cases identical.
 
 <!-- item: CH01-F08 -->
 <!-- key: KEY-CH01-F08 -->
@@ -77,34 +104,32 @@ The target is weak inflection: do not replace weak genitive singular **-an** wit
 <!-- item: CH01-COP01 -->
 <!-- key: KEY-CH01-COP01 -->
 
-1. First person singular: **eom / wæs** — present / preterite.
+1. Past: **Ic wæs on ðǣm trēowe.** Present: **Ic eom on ðǣm trēowe.** First-person singular **ic** remains the subject; only the copula's tense changes. The location remains D singular **trēowe**, with **w** before the ending.
 
 <!-- item: CH01-COP02 -->
 <!-- key: KEY-CH01-COP02 -->
 
-2. Second person singular: **eart / wǣre** — present / preterite.
+2. Present: **Ðū eart on ðǣm wætere.** Past: **Ðū wǣre on ðǣm wætere.** **Ðū** addresses one person. Its indicative past is **wǣre**; **wæs** serves first and third singular and is not the form for this subject.
 
 <!-- item: CH01-COP03 -->
 <!-- key: KEY-CH01-COP03 -->
 
-3. Third person singular: **is / wæs** — present / preterite.
+3. (a) **Hē wæs on ðǣm lyfte.** (b) **Hit is on ðǣm hofe.** (c) **Hēo is on ðǣre eorðan.** The pronouns refer respectively to masculine **gāst**, neuter **tācen**, and feminine **andlīcnes**. Each choice follows the antecedent's grammatical gender. In particular, **hēo** for an image does not imply female sex; English can use “it.” Preserve the past in (a) and the present in (b–c), as well as each location.
 
 <!-- item: CH01-COP04 -->
 <!-- key: KEY-CH01-COP04 -->
 
-4. First person plural: **sindon / wǣron** — present / preterite.
+4. Present, two: **Wit sindon on ðǣm sǣ.** Past, two: **Wit wǣron on ðǣm sǣ.** Past, three: **Wē wǣron on ðǣm sǣ.** **Wit** identifies the speaker and one companion; **wē** includes the speaker in the larger group. The dual uses the ordinary plural verb, so the last change affects the pronoun without changing **wǣron**. Ordinary **wē** can also refer to two, but it does not meet the explicit direction to practise the dual.
 
 <!-- item: CH01-COP05 -->
 <!-- key: KEY-CH01-COP05 -->
 
-5. Second person plural: **sindon / wǣron** — present / preterite.
+5. Past, two: **Git wǣron on ðǣm hofe.** Present, two: **Git sindon on ðǣm hofe.** Present, three: **Gē sindon on ðǣm hofe.** **Git** addresses two; **gē** addresses the larger group. Both take the ordinary plural copula. Changing tense requires **wǣron** to become **sindon**; changing from two addressees to three requires **git** to become **gē**. As with **wē**, ordinary **gē** can include two but does not satisfy the requested dual.
 
 <!-- item: CH01-COP06 -->
 <!-- key: KEY-CH01-COP06 -->
 
-6. Third person plural: **sindon / wǣron** — present / preterite.
-
-The forms are indicative. **Wǣre** is required for second-person singular preterite in this paradigm; **wæs** serves first and third singular. Each plural person has **sindon / wǣron**. Different persons may share a form without ceasing to be separate paradigm cells.
+6. Past: **Hīe wǣron on ðǣm wætere.** Present: **Hīe sindon on ðǣm wætere.** **Hīe** refers to the previously mentioned whales. It would remain **hīe** for several feminine **gesceafta**: third-person plural subjects use the same pronoun for every gender. Singular feminine **hēo** would lose the required number.
 
 ## 12. Case in sentences
 
@@ -158,7 +183,7 @@ The following preserve the order of the printed frames. Other word orders can be
 <!-- item: CH01-CASE10 -->
 <!-- key: KEY-CH01-CASE10 -->
 
-10. **Se mann sealde ðǣm fugle sǣd.** — The man gave seed to the bird. Se mann is nominative, ðǣm fugle dative recipient, and sǣd accusative thing given. Bird dative singular is fugle, not fugol or fuglas.
+10. **Se mann sealde ðǣm fuglum sǣd.** — The man gave seed to the birds. **Se mann** is N singular; the recipient **ðǣm fuglum** is D plural; the thing given, **sǣd**, is A singular. Put the recipient before the gift as directed. **Fugle** would make the recipient singular, while **fuglas** would use the wrong case. The plural recipient does not make the seed plural.
 
 ## 13. Cook's noun-phrase exercises
 
@@ -451,18 +476,24 @@ The selected target is **genitive dependent + nominative head**, with no separat
 <!-- item: CH01-MINI01 -->
 <!-- key: KEY-CH01-MINI01 -->
 
-1. **The man is in the dwelling. The seed is in the man's dwelling. The bird is in the tree. The seed is the bird's food.** The dwelling in the second sentence belongs to the man. **Mannes** is genitive singular, with its agreeing **ðæs**; **hofe** is dative singular, governed by locative **on**. In the last sentence, **męte** identifies the subject and is nominative, while **ðæs fugles** is its genitive dependent. “The food of the bird” conveys the same relation.
+1. **The man was in the sea. He is in the dwelling. The fish are in the dwelling. They are the man's food. The dwelling is on the earth. It is the man's dwelling.** “On the sea” or idiomatic “at sea” is also suitable for the first location.
+
+The man's former location is the sea; his present location is the dwelling. **Hē** refers to masculine singular **mann**; **hīe** to plural **fiscas**; **hit** to neuter singular **hof**. In the fourth sentence, **hīe** is the plural subject and **męte** the singular predicate noun, “food.” Both are nominative, but a predicate noun need not have the same number as the subject. **Sindon** agrees with the plural subject. At the close, **ðæs mannes** identifies the man as possessor of the dwelling; **mannes** is G singular.
 
 <!-- item: CH01-MINI02 -->
 <!-- key: KEY-CH01-MINI02 -->
 
-2. **The fishes were in the sea. The birds were in the trees. The trees were on the earth.** “Fish” as the English plural is equally suitable.
+2. **The creature was in the dwelling. It was an animal. The seed was in the dwelling. It was the creature's food.**
 
-   Present: **Ðā fiscas sindon on ðǣm sǣ. Ðā fuglas sindon on ðǣm trēowum. Ðā trēowu sindon on ðǣre eorðan.**
+Present: **Sēo gesceaft is on ðǣm hofe. Hēo is dēor. Ðæt sǣd is on ðǣm hofe. Hit is ðǣre gesceafte męte.** All four subjects remain singular, so each **wæs** becomes **is**.
 
-   **Trēowu** is nominative plural, the subject of the third sentence; **trēowum** in the second is dative plural after **on**. **Eorðan** is dative singular after locative **on**, as its feminine singular article **ðǣre** confirms. Replacing **wǣron** with singular **is** would lose agreement.
+Several creatures, first two sentences in the present: **Ðā gesceafta sindon on ðǣm hofe. Hīe sindon dēor.** — The creatures are in the dwelling. They are animals. **Gesceafta** is N plural; the subject pronoun and copula become plural. The predicate **dēor** is now N plural, identical in spelling to the singular. The dwelling remains singular.
+
+In the original passage, **hēo** follows the grammatical feminine gender of **gesceaft** and does not establish the creature's sex. English “it” is appropriate. **Hit** refers to the seed, **sǣd**, which is the creature's food; it does not refer to the dwelling. **Ðǣre gesceafte** is the G singular dependent of **męte**. Its ending and article also occur in D singular, but the relationship here is “the food of the creature,” not a location or recipient.
 
 ## 16. The first day of Creation
+
+The unfamiliar verbs and constructions remain supplied. Questions 4 and 7 check that help; identifying the noun cases, ordinary copula agreement, and pronoun references uses the rules taught in the unit. The translation combines both kinds of support.
 
 <!-- item: CH01-READ01 -->
 <!-- key: KEY-CH01-READ01 -->
@@ -482,7 +513,7 @@ The selected target is **genitive dependent + nominative head**, with no separat
 <!-- item: CH01-READ04 -->
 <!-- key: KEY-CH01-READ04 -->
 
-4. The speech is a **command or wish for light to come into being**, not a report that light already exists: **“Let light come to be.”** It is followed by **light was made / came into being**. “Let there be light” gives the intended force naturally. The subsequent **wearð geworht** is the supplied passive; do not change the quotation into indicative “light becomes.”
+4. The speech is a **command or wish for light to come into being**, not a report that light already exists: **“Let light come to be.”** It is followed by **light was made / came into being**. “Let there be light” gives the intended force naturally. The supplied **geweorðe** is third-person singular present subjunctive, not a second-person imperative. The subsequent **wearð geworht** is the supplied passive; do not change the quotation into indicative “light becomes.”
 
 <!-- item: CH01-READ05 -->
 <!-- key: KEY-CH01-READ05 -->
@@ -516,17 +547,19 @@ The selected target is **genitive dependent + nominative head**, with no separat
 <!-- item: CH01-REVIEW02 -->
 <!-- key: KEY-CH01-REVIEW02 -->
 
-2. **Hofe** is the head, dative singular after locative **on**. **Ðæs mannes** is the genitive singular dependent, “the man's.” **Ðæs** agrees with **mannes**. The head's externally governed dative and the dependent's internal genitive coexist; they need not have the same case.
+2. **In/on the birds' trees.** **Trēowum** is the head, D plural after locative **on**; **ðāra fugla** is its G plural dependent, “the birds'.” **Ðāra** agrees with **fugla**, not with **trēowum**. The head's externally governed dative and the dependent's internal genitive coexist. Both happen to be plural, but they have different cases and different functions.
 
 <!-- item: CH01-REVIEW03 -->
 <!-- key: KEY-CH01-REVIEW03 -->
 
-3. **Eorðan** can be genitive, dative, or accusative singular, or nominative/accusative plural, in the displayed weak paradigm. In **on ðǣre eorðan**, it is **dative singular**, with the locative preposition and feminine singular article. In **God gescēop ðā eorðan**, it is **accusative singular**: the direct-object construction establishes the case, and the supplied meaning “God created the earth” establishes the singular number. The spellings **ðā/eorðan** alone also permit **accusative plural**; they do not by themselves establish singular number. Naming the possible plural cells does not assign a new plural sense of “earth” for composition.
+3. **Steorran** can be G, D or A singular, or N/A plural. In **ðæs steorran lēoht**, “the star's light,” it is G singular, a dependent of **lēoht**; **ðæs** agrees with it. In **Ðā steorran wǣron on ðǣm heofone**, “The stars were in the sky,” it is N plural, the subject of plural **wǣron**. The article, syntactic role and verb agreement resolve what the shared **-an** ending cannot. Plural G **steorrena** and D **steorrum** are distinct forms.
 
 <!-- item: CH01-REVIEW04 -->
 <!-- key: KEY-CH01-REVIEW04 -->
 
-4. **Ðīestru** is a plural noun, so the Old English verb is plural **wǣron**; English “darkness” is ordinarily singular. In **ðæt lēoht fram ðǣm ðīestrum**, **ðæt lēoht** is accusative singular, the thing separated; **ðǣm ðīestrum** is dative plural after **fram**. Translating English number directly into the Old English verb would give the wrong agreement.
+4. **Ðā ðīestru sindon on ðǣm heofone. Ðæt lēoht wæs on ðǣm hofe.** — The darkness is in the sky. The light was in the dwelling. Old English **ðīestru** is plural, so the present copula is **sindon**, even though English “darkness” is singular. **Lēoht** is singular, so the past copula is **wæs**. Changing the first to a past tense or the second to a present tense would fail the direction to preserve time.
+
+**Se mann gedǣlde ðā fuglas fram ðǣm dēore.** — The man separated the birds from the animal. **Ðā fuglas** is A plural, the direct object; **ðǣm dēore** is D neuter singular after **fram**. Keep the supplied **gedǣlde**. The plural birds and singular animal retain their separate numbers.
 
 ## Source notes
 

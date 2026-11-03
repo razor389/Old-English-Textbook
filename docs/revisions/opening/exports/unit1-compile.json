@@ -1,0 +1,85 @@
+{
+  "schema_version": 1,
+  "revision": "opening",
+  "stage": "compile",
+  "created_utc": "2026-11-02T23:19:57.461312+00:00",
+  "script_sha256": "7cf5e39fb66be9f7bf1c1e7662261d539c80dc90eae7a498c7bdfa9479293f9c",
+  "layout_sha256": "3b1d181667488c19ea0a1970e68e33aa59bb3f9aeb32092542d8c678bf087b65",
+  "documents": [
+    {
+      "id": "ch01/learner",
+      "master": "chapters/ch01/student.md",
+      "master_sha256": "0cc001ad1fc605870c989250592b511b7a134cfeb2e94816088e7c85aa9f01ad",
+      "tex": "typesetting/ch01/chapter-01.tex",
+      "status": "compiled_clean",
+      "passes": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "stdout": "typesetting/ch01/build/chapter-01-opening-pass1.stdout.txt",
+          "sha256": "d635e222da7dd896b0ea17f6dbbf7701889ca730b55f4a69ba3d05201c4a692d",
+          "log": "typesetting/ch01/build/chapter-01-opening-pass1.log",
+          "log_sha256": "f89778375ad3c405585a1c674fcf4e7950afa5b81b373907cc578c1e830cd2ba",
+          "diagnostics": []
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "stdout": "typesetting/ch01/build/chapter-01-opening-pass2.stdout.txt",
+          "sha256": "d635e222da7dd896b0ea17f6dbbf7701889ca730b55f4a69ba3d05201c4a692d",
+          "log": "typesetting/ch01/build/chapter-01-opening-pass2.log",
+          "log_sha256": "91edf54a654a1f58da65b5ed8cfa969faba304cdb943c79b613d175eede822d9",
+          "diagnostics": []
+        }
+      ],
+      "pdf": "typesetting/ch01/build/chapter-01.pdf",
+      "pdf_sha256": "2eb2b2db26a6c043aba70f4d0efa8a135e445ed58ec9596840b94ea91b1e7287",
+      "pages": 23,
+      "log": "typesetting/ch01/build/chapter-01.log",
+      "log_sha256": "91edf54a654a1f58da65b5ed8cfa969faba304cdb943c79b613d175eede822d9",
+      "diagnostics": [],
+      "tex_sha256": "7024eaa8163a4db7a81145c046b78468ce4d8917cb8e47fcdff9fd01af713c43"
+    },
+    {
+      "id": "ch01/key",
+      "master": "chapters/ch01/answer-key.md",
+      "master_sha256": "32d83ec6e1dad82dc3cd2a87d6ae02d32840cf4d7874bde65d7e63f5500d2b57",
+      "tex": "typesetting/ch01/answer-key.tex",
+      "status": "compiled_clean",
+      "passes": [
+        {
+          "pass": 1,
+          "exit_code": 0,
+          "stdout": "typesetting/ch01/build/answer-key-opening-pass1.stdout.txt",
+          "sha256": "f5415eba555c533f40952df1f04c71abfe070d247ef05878827378a6fd7066ba",
+          "log": "typesetting/ch01/build/answer-key-opening-pass1.log",
+          "log_sha256": "f96f24aff5b1881a7fb1584f3605ec64387e7aeb0cfba62e80386b31c01eaadc",
+          "diagnostics": []
+        },
+        {
+          "pass": 2,
+          "exit_code": 0,
+          "stdout": "typesetting/ch01/build/answer-key-opening-pass2.stdout.txt",
+          "sha256": "f5415eba555c533f40952df1f04c71abfe070d247ef05878827378a6fd7066ba",
+          "log": "typesetting/ch01/build/answer-key-opening-pass2.log",
+          "log_sha256": "f96f24aff5b1881a7fb1584f3605ec64387e7aeb0cfba62e80386b31c01eaadc",
+          "diagnostics": []
+        }
+      ],
+      "pdf": "typesetting/ch01/build/answer-key.pdf",
+      "pdf_sha256": "ebe0bdc941e10ca8a84cd5cde8a21b3215d23b3b2b459da3f9307140aa940646",
+      "pages": 14,
+      "log": "typesetting/ch01/build/answer-key.log",
+      "log_sha256": "f96f24aff5b1881a7fb1584f3605ec64387e7aeb0cfba62e80386b31c01eaadc",
+      "diagnostics": [],
+      "tex_sha256": "8af4a71c38be5caf3aa4852d5424923823db5bd12341084d172111599cdbffc7"
+    }
+  ],
+  "helper_sha256": {
+    "render_course_tables.py": "7b1755e837e2cd987b7654f6d6b76122cc866b679c38b4986dccc075358de0c6",
+    "build_course_exports.py": "42badf05a117cd944c945b4433231ded4038c018e552650663311b83f9812df1"
+  },
+  "historical_receipts_reused": false,
+  "visual_or_linguistic_acceptance_inferred": false,
+  "status": "pass_pending_content_and_page_review"
+}
